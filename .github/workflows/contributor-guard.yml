@@ -1,0 +1,119 @@
+name: Contributor Guard
+
+# Every push to a report branch + every PR to main from contributors.
+# Cloud-side trust: contributors cannot modify prompts, scripts, or CI —
+# only raw data for their assigned DATE/TICKER folder.
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches:
+      - "report/**"
+      - "weekly/**"
+
+jobs:
+  scope-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Resolve diff range
+        id: diff
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "base=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+            echo "head=${{ github.event.pull_request.head.sha }}" >> "$GITHUB_OUTPUT"
+            echo "branch=${{ github.head_ref }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "base=$(git merge-base HEAD origin/main)" >> "$GITHUB_OUTPUT"
+            echo "head=HEAD" >> "$GITHUB_OUTPUT"
+            echo "branch=${GITHUB_REF#refs/heads/}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Enforce report branch scope
+        if: startsWith(steps.diff.outputs.branch, 'report/') || startsWith(steps.diff.outputs.branch, 'weekly/')
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_contributor_scope.py \
+            --branch "${{ steps.diff.outputs.branch }}" \
+            --base "${{ steps.diff.outputs.base }}" \
+            --head "${{ steps.diff.outputs.head }}"
+
+      - name: Block protected paths on non-report PRs
+        if: >-
+          github.event_name == 'pull_request' &&
+          !startsWith(steps.diff.outputs.branch, 'report/')
+        run: |
+          set -euo pipefail
+          BASE="${{ steps.diff.outputs.base }}"
+          HEAD="${{ steps.diff.outputs.head }}"
+          CHANGED=$(git diff --name-only "$BASE" "$HEAD")
+          BLOCKED=""
+          for f in $CHANGED; do
+            case "$f" in
+              .github/workflows/*)
+                echo "::error::Workflow changes require maintainer review: $f"
+                BLOCKED="$BLOCKED $f"
+                ;;
+            esac
+          done
+          if [ -n "$BLOCKED" ]; then
+            exit 1
+          fi
+          echo "Non-report PR: workflow paths unchanged."
+
+      - name: Collect report directories
+        id: reports
+        if: startsWith(steps.diff.outputs.branch, 'report/')
+        run: |
+          set -euo pipefail
+          BASE="${{ steps.diff.outputs.base }}"
+          HEAD="${{ steps.diff.outputs.head }}"
+          REPORT_GLOBS=(
+            'data/*/*/report.md'
+            'data/*/*/report.*.md'
+            'data/*/*/sources.json'
+            'data/*/*/sources.*.json'
+            'data/*/*/consensus.md'
+          )
+          CHANGED=$(git diff --name-only "$BASE" "$HEAD" -- "${REPORT_GLOBS[@]}" || true)
+          PATHS=$(
+            echo "$CHANGED" | while IFS= read -r file; do
+              [ -n "$file" ] || continue
+              dirname "$file"
+            done | sort -u
+          )
+          if [ -z "$PATHS" ]; then
+            echo "has_reports=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_reports=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "paths<<EOF"
+              echo "$PATHS"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate report content
+        if: >-
+          startsWith(steps.diff.outputs.branch, 'report/') &&
+          steps.reports.outputs.has_reports == 'true'
+        run: |
+          set -euo pipefail
+          failed=0
+          while IFS= read -r dir; do
+            [ -n "$dir" ] || continue
+            echo "Validating $dir"
+            python3 scripts/validate_report.py "$dir" || failed=1
+          done <<< "${{ steps.reports.outputs.paths }}"
+          exit "$failed"

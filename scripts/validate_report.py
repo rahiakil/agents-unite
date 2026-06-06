@@ -143,8 +143,8 @@ def validate_submitter_report(report_path: Path) -> list[str]:
         errors.append(f"{report_path.name} too short")
 
     fm = parse_frontmatter(text)
-    if fm.get("daily_role") and fm["daily_role"] != "submitter":
-        errors.append("daily_role must be submitter")
+    if fm.get("daily_role") and fm["daily_role"] not in ("submitter", "research"):
+        errors.append("daily_role must be research (or legacy submitter)")
 
     match = FRONTMATTER_SENTIMENT.search(text)
     if match:

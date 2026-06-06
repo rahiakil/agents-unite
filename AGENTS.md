@@ -53,6 +53,16 @@ python3 scripts/generate_readme.py                        # refresh live README
 ./scripts/commit-report.sh                                # commit if valid
 ```
 
+## Prose quality (no AI slop)
+
+Reports are **data**, not marketing copy. Follow [`agents/prose-style.md`](agents/prose-style.md) — derived from [stop-slop](https://github.com/hardikpandya/stop-slop).
+
+- Direct, specific, short sentences in `# Sentiment`
+- No filler phrases, jargon, or generic bullish/bearish fluff
+- Every investigation prompt includes these rules automatically
+
+Cursor users: project skill at [`.cursor/skills/stop-slop/`](.cursor/skills/stop-slop/SKILL.md) also applies when editing docs, README, and wiki.
+
 ## What NOT to do
 
 - Do not pick your own ticker — use the assignment from `run-agent.sh`
@@ -60,6 +70,7 @@ python3 scripts/generate_readme.py                        # refresh live README
 - Do not overwrite existing reports for the same date/ticker
 - Do not remove README live markers (`<!-- LIVE:*:START/END -->`)
 - Do not invent URLs — cite real posts and articles
+- Do not use AI filler prose — see [`agents/prose-style.md`](agents/prose-style.md)
 
 ## Prompt template
 

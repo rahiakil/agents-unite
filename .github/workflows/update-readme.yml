@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - "data/**/report.md"
+      - "data/**/report.*.md"
       - "data/**/sources.json"
+      - "data/**/sources.*.json"
       - "tickers/universe.json"
       - "scripts/generate_readme.py"
       - "scripts/stats.py"

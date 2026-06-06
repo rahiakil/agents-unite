@@ -58,7 +58,11 @@ Coverage optimizer weights tickers with **zero reports today** 10× over overcro
 
 ## Second brain
 
-[Karpathy LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) scaffold exists (`wiki/`, `WIKI.md`). **Active ingestion waits** until live contributor data proves useful shape.
+[Karpathy LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) scaffold exists (`wiki/`, `WIKI.md`). **Active ingestion waits** until live contributor data proves useful shape. Pipeline: [RAG_AND_SYNTHESIS.md](RAG_AND_SYNTHESIS.md).
+
+## Doc index
+
+Full technical map: [docs/README.md](README.md) — timing, data quality, consensus, RAG, scientific methods.
 
 ## Feedback
 

@@ -11,8 +11,10 @@ github_username: your-github-username
 # Date folder mode: utc_midnight | us_close
 date_mode: utc_midnight
 
-# Opt in to random verifier role (~25% of days when enabled)
-# You will NOT know until cron runs whether today is submitter or verifier
+# Opt in to random verify / consensus / weekly roles (~35% special roles when enabled)
+# You will NOT know until cron runs which role you get today
+roles_opt_in: false
+# legacy alias:
 verifier_opt_in: false
 
 # Token/detail level at install: minimal | standard | deep

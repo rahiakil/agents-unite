@@ -5,11 +5,15 @@ on:
     paths:
       - "data/**"
       - "scripts/validate_report.py"
+      - "scripts/au_common.py"
       - "tickers/universe.json"
   push:
     branches: [main]
     paths:
       - "data/**"
+      - "scripts/validate_report.py"
+      - "scripts/au_common.py"
+  workflow_dispatch:
 
 jobs:
   validate:
@@ -26,16 +30,36 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Collect changed report paths
+      - name: Collect report directories
         id: changed
         run: |
+          set -euo pipefail
+          REPORT_GLOBS=(
+            'data/*/*/report.md'
+            'data/*/*/report.*.md'
+            'data/*/*/sources.json'
+            'data/*/*/sources.*.json'
+            'data/*/*/consensus.md'
+          )
+
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             BASE="${{ github.event.pull_request.base.sha }}"
             HEAD="${{ github.event.pull_request.head.sha }}"
-            PATHS=$(git diff --name-only "$BASE" "$HEAD" -- 'data/*/*/report.md' 'data/*/*/sources.json' | xargs -I{} dirname {} | sort -u || true)
+            CHANGED=$(git diff --name-only "$BASE" "$HEAD" -- "${REPORT_GLOBS[@]}" || true)
           else
-            PATHS=$(find data -mindepth 2 -maxdepth 2 -type d 2>/dev/null | sort -u || true)
+            CHANGED=$(git ls-files "${REPORT_GLOBS[@]}" || true)
           fi
+
+          PATHS=$(
+            echo "$CHANGED" | while IFS= read -r file; do
+              [ -n "$file" ] || continue
+              case "$file" in
+                data/_index/*) continue ;;
+              esac
+              dirname "$file"
+            done | sort -u
+          )
+
           if [ -z "$PATHS" ]; then
             echo "has_reports=false" >> "$GITHUB_OUTPUT"
           else
@@ -47,13 +71,18 @@ jobs:
             } >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Validate changed reports
+      - name: Validate reports
         if: steps.changed.outputs.has_reports == 'true'
         run: |
+          set -euo pipefail
+          failed=0
           while IFS= read -r dir; do
-            [ -n "$dir" ] && python scripts/validate_report.py "$dir"
+            [ -n "$dir" ] || continue
+            echo "Validating $dir"
+            python3 scripts/validate_report.py "$dir" || failed=1
           done <<< "${{ steps.changed.outputs.paths }}"
+          exit "$failed"
 
       - name: No report changes
         if: steps.changed.outputs.has_reports != 'true'
-        run: echo "No report directories changed; skipping validation."
+        run: echo "No report directories to validate."

@@ -6,7 +6,8 @@ Contributors **may only modify files under `data/`** in pull requests.
 
 Protected by:
 
-- [`.github/workflows/path-guard.yml`](../.github/workflows/path-guard.yml) — fails PRs touching scripts, agents, prompts, docs
+- [`.github/workflows/contributor-guard.yml`](../.github/workflows/contributor-guard.yml) — on every push to `report/**` and every PR to `main`: enforces **one folder only** (`data/DATE/TICKER/`), validates report schema, blocks scripts/agents/CI edits
+- [`.github/workflows/ci-integrity.yml`](../.github/workflows/ci-integrity.yml) — on `main`: verifies workflow files still call guard scripts (cloud trust anchor)
 - [`.github/CODEOWNERS`](../.github/CODEOWNERS) — maintainer review for core paths
 
 Rationale: users must not alter Python validators, agent prompts, or assignment logic.
@@ -45,7 +46,7 @@ The daily role prompt is selected by `scripts/assign_role.py` — not user-edita
 | Hallucinated earnings | Verifier cross-check; contradiction in consensus |
 | Sybil (many emails) | Future: per-IP cap, proof-of-human |
 | Coordinated pump | Outlier MAD rejection; flag in consensus (automate later) |
-| Prompt tampering | path-guard + prompt_hash |
+| Prompt tampering | contributor-guard + prompt_hash + ci-integrity on main |
 
 ## Auto-merge policy
 

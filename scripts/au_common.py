@@ -19,20 +19,35 @@ AGENTS_DIR = REPO_ROOT / "agents"
 ASSIGNMENT_CACHE = REPO_ROOT / ".agents-unite"
 
 FOCUS_ROLES = ("sentiment", "news", "social", "trading", "full")
+DAILY_ROLES = ("research", "verify", "consensus")
+WEEKLY_ROLES = ("patterns", "findings")
 DATE_MODES = ("utc_midnight", "us_close")
 DETAIL_LEVELS = ("minimal", "standard", "deep")
 
+# Role lottery when roles_opt_in / verifier_opt_in (see assign_role.py)
+VERIFY_CHANCE = 0.20
+CONSENSUS_CHANCE = 0.15  # cumulative after verify band
+
 PROMPT_FILES = {
-    "submitter": {
+    "research": {
         "sentiment": "investigation-sentiment.md",
         "news": "investigation-news.md",
         "social": "investigation-social.md",
         "trading": "investigation-trading.md",
         "full": "investigation.md",
     },
-    "verifier": {
-        "default": "verify-report.md",
+    "submitter": {  # legacy alias
+        "sentiment": "investigation-sentiment.md",
+        "news": "investigation-news.md",
+        "social": "investigation-social.md",
+        "trading": "investigation-trading.md",
+        "full": "investigation.md",
     },
+    "verify": {"default": "verify-report.md"},
+    "verifier": {"default": "verify-report.md"},
+    "consensus": {"default": "consensus-run.md"},
+    "patterns": {"default": "patterns-weekly.md"},
+    "findings": {"default": "findings-weekly.md"},
 }
 
 
@@ -212,18 +227,79 @@ def weighted_pick(items: list[str], weights: list[float], seed: str) -> tuple[st
     return items[-1], len(items) - 1
 
 
+def normalize_role(role: str) -> str:
+    """Map legacy role names to current vocabulary."""
+    aliases = {"submitter": "research", "verifier": "verify"}
+    return aliases.get(role, role)
+
+
+def is_weekly_role_day(investigation_date: str, contributor: str | None = None) -> bool:
+    """Each contributor gets a weekly role every 7 days (hash-staggered)."""
+    cid = contributor_id(contributor)
+    chash = contributor_hash(contributor)
+    try:
+        y, m, d = (int(x) for x in investigation_date.split("-"))
+        day_index = date(y, m, d).toordinal()
+    except ValueError:
+        return False
+    offset = int(hash_fraction(f"{cid}:{chash}:week") * 7)
+    return (day_index + offset) % 7 == 0
+
+
+def find_consensus_target() -> tuple[str, str] | None:
+    """Pick date/ticker with reports + verifications ready for consensus."""
+    candidates: list[tuple[int, str, str]] = []
+    if not DATA_DIR.is_dir():
+        return None
+    for ticker_dir in sorted(DATA_DIR.glob("*/*/")):
+        if not ticker_dir.is_dir():
+            continue
+        day = ticker_dir.parent.name
+        ticker = ticker_dir.name
+        if day.startswith("_") or ticker.startswith("_"):
+            continue
+        reports = [p for p in ticker_dir.glob("report*.md") if p.name == "report.md" or p.name.startswith("report.")]
+        verifications = list(ticker_dir.glob("verification*.md"))
+        consensus = ticker_dir / "consensus.md"
+        if len(reports) < 1 or len(verifications) < 1:
+            continue
+        if consensus.is_file() and len(consensus.read_text(encoding="utf-8").strip()) > 400:
+            continue
+        candidates.append((len(reports) + len(verifications), day, ticker))
+    if not candidates:
+        return None
+    candidates.sort(reverse=True)
+    _, day, ticker = candidates[0]
+    return day, ticker
+
+
 def prompt_path_for(role: str, focus: str) -> Path:
-    if role == "verifier":
-        name = PROMPT_FILES["verifier"]["default"]
+    role = normalize_role(role)
+    if role in ("verify", "consensus", "patterns", "findings"):
+        key = "default"
+        bucket = role if role in PROMPT_FILES else "verify"
+        name = PROMPT_FILES[bucket][key]
     else:
-        name = PROMPT_FILES["submitter"].get(focus, PROMPT_FILES["submitter"]["full"])
+        bucket = "research" if role == "research" else role
+        name = PROMPT_FILES.get(bucket, PROMPT_FILES["research"]).get(
+            focus, PROMPT_FILES["research"]["full"]
+        )
     return AGENTS_DIR / name
 
 
-def make_branch_name(investigation_date: str, ticker: str, contributor: str | None = None) -> str:
-    """Unique branch: report/DATE-TICKER-<userhash8>."""
+def make_branch_name(
+    investigation_date: str,
+    ticker: str,
+    contributor: str | None = None,
+    *,
+    role: str = "research",
+) -> str:
+    """Unique branch: report/… for ticker roles, weekly/… for patterns/findings."""
     cid = contributor_id(contributor)
     user_hash = hashlib.sha256(cid.lower().encode("utf-8")).hexdigest()[:8]
+    role = normalize_role(role)
+    if role in WEEKLY_ROLES:
+        return f"weekly/{role}/{investigation_date}-{user_hash}"
     safe_ticker = ticker.upper().replace(".", "-")
     return f"report/{investigation_date}-{safe_ticker}-{user_hash}"
 

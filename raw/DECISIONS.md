@@ -4,7 +4,8 @@ Locked product decisions from founder review (2026-06-06).
 
 | Date | Decision | Rationale | Revisit? |
 |------|----------|-----------|----------|
-| 2026-06-06 | **Collisions: B + C** — allow multiple `report.<user>.md` + verifier writes `consensus.md` | Redundancy is a feature; GitHub CI cannot merge semantics | — |
+| 2026-06-06 | **Role pipeline:** research → verify → consensus; weekly patterns + findings every ~7 days | Ordered trust; breaking news + cross-ticker scans | — |
+| 2026-06-06 | **Collisions: B + C** — allow multiple `report.<user>.md`; verifiers write `verification.*.md`; consensus agents write `consensus.md` | Redundancy is a feature; GitHub CI cannot merge semantics | — |
 | 2026-06-06 | **Date modes:** `utc_midnight` and `us_close` (user config) | Global contributors wake at different times | Per-user config in `.agents-unite/config.yaml` |
 | 2026-06-06 | **Auto-PR** fully automated via `gh`; single-report paths merge when CI green | Low friction for 20k cron nodes | Verifier review always part of pipeline |
 | 2026-06-06 | **Agent runtime:** user choice (Cursor, Hermes, OpenClaw, manual, etc.) | People already run agents on their box | — |

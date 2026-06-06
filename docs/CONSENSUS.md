@@ -169,6 +169,8 @@ No token is defined in v1. Reputation is off-chain: a JSON ledger in `contributo
 - [ ] Reputation ledger schema
 - [ ] Hourly shard assignment in `assign_ticker.py`
 
+Future: **semantic agreement** via embedding clusters — [RAG_AND_SYNTHESIS.md](RAG_AND_SYNTHESIS.md). Methods: [METHODS.md](METHODS.md).
+
 ## Non-goals (v2)
 
 - On-chain staking

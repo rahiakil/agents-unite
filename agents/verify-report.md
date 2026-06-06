@@ -1,8 +1,10 @@
 # Verifier — {{TICKER}} ({{DATE}})
 
-Role: **verifier** · Prompt hash: `{{PROMPT_HASH}}`
+Role: **verify** · Prompt hash: `{{PROMPT_HASH}}`
 
 You did not choose this role — assignment is random for opted-in contributors.
+
+**Pipeline position:** Research PRs land first. **Your job runs before consensus.** Approved verifications unlock consensus agents.
 
 ## Assignment
 
@@ -11,40 +13,45 @@ You did not choose this role — assignment is random for opted-in contributors.
 | Ticker | `{{TICKER}}` |
 | Date | `{{DATE}}` |
 | GitHub user | `{{GITHUB_USER}}` |
-| Output | `{{CONSENSUS_PATH}}` |
+| Output | `{{VERIFICATION_PATH}}` |
 
 ## Task
 
-1. Read **all** submitter reports in `{{OUTPUT_DIR}}/`:
+1. Read **all** research reports in `{{OUTPUT_DIR}}/`:
    - `report*.md` and matching `sources*.json`
-2. **Verify sources**: flag URLs that look fabricated (404, wrong domain, no real page)
+2. **Verify sources**: flag URLs that look fabricated (404, wrong domain, placeholder)
 3. **Check numbers**: earnings/price claims should appear in cited sources
-4. **Reconcile sentiment**: weighted view; preserve disagreement — do not flatten
-5. Write `consensus.md` (canonical layer for this ticker/day)
+4. **Audit quality**: schema complete, sentiment justified, no obvious hallucination
+5. Write `{{VERIFICATION_PATH}}` with approve / needs-revision / reject
 
-## consensus.md format
+Do **not** write `consensus.md` — consensus agents run after verifications exist.
+
+## verification.{{GITHUB_USER}}.md format
 
 ```yaml
 ---
 ticker: {{TICKER}}
 date: {{DATE}}
 github_username: {{GITHUB_USER}}
-daily_role: verifier
+daily_role: verify
 prompt_hash: {{PROMPT_HASH}}
 prompt_file: agents/verify-report.md
-consensus_score: 0.0
+verdict: approved | needs_revision | rejected
+reports_reviewed: 0
+sources_audited: 0
 confidence: low | medium | high
-reports_reviewed: 3
-outliers_rejected: 0
 ---
 ```
 
-Sections: **Summary**, **Consensus Score**, **Agreement**, **Disagreements**, **Source audit**, **Rejected claims**
+Sections: **Summary**, **Reports reviewed**, **Source audit**, **Issues found**, **Verdict rationale**
 
-## Outlier policy (document only for now)
+## Verdict rules
 
-- Scores >2 MAD from median → note as outlier, do not delete raw reports
-- Coordinated pump patterns → flag in Disagreements (future: automated rejection)
+| Verdict | When |
+|---------|------|
+| `approved` | Sources check out; reports usable for consensus |
+| `needs_revision` | Fixable gaps — cite what submitters should fix |
+| `rejected` | Fabricated sources or unusable content |
 
 ## Validate
 

@@ -26,10 +26,11 @@ def main() -> int:
     args = parser.parse_args()
 
     assignment = assign_role(args.date, args.contributor, date_mode=args.date_mode)
-    branch = make_branch_name(
+    branch = assignment.get("branch") or make_branch_name(
         str(assignment["date"]),
         str(assignment["ticker"]),
         str(assignment["contributor_id"]),
+        role=str(assignment.get("daily_role", "research")),
     )
     if args.json:
         print(json.dumps({**assignment, "branch": branch}, indent=2))

@@ -3,6 +3,8 @@
 set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_ROOT"
+# shellcheck source=scripts/au-env.sh
+source "$REPO_ROOT/scripts/au-env.sh"
 # shellcheck source=scripts/adapters/_common.sh
 source "$REPO_ROOT/scripts/adapters/_common.sh"
 
@@ -14,10 +16,10 @@ if [[ -n "$CMD" ]]; then
   adapter_run_cmd "$CMD"
 fi
 
-if python3 -c "import swarm" 2>/dev/null; then
-  exec python3 "$REPO_ROOT/scripts/harness/swarm_runner.py" "$@"
+if "$AU_PYTHON" -c "import swarm" 2>/dev/null; then
+  exec "$AU_PYTHON" "$REPO_ROOT/scripts/harness/swarm_runner.py" "$@"
 fi
 
-echo "error: install OpenAI Swarm (pip install -r requirements-harness.txt)" >&2
+echo "error: run ./scripts/ensure-venv.sh harness" >&2
 echo "       or set SWARM_CMD='swarms agent --prompt {prompt}'" >&2
 exit 1

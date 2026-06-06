@@ -3,4 +3,6 @@
 set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_ROOT"
-exec python3 "$REPO_ROOT/scripts/run_agent.py" "$@"
+# shellcheck source=scripts/au-env.sh
+source "$REPO_ROOT/scripts/au-env.sh"
+exec "$AU_PYTHON" "$REPO_ROOT/scripts/run_agent.py" "$@"

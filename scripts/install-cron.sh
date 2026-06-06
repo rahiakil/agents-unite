@@ -67,11 +67,10 @@ fi
 
 echo ""
 echo "Prerequisites:"
-echo "  - pip install -r requirements-llm.txt  (for built-in LLM harness)"
+echo "  - ./scripts/setup.sh  OR  ./scripts/ensure-venv.sh llm  (uses .venv, PEP 668 safe)"
 echo "  - export OPENAI_API_KEY  OR  llm_provider: ollama in config"
 echo "  - gh auth login (for auto-PR)"
 echo "  - agent_adapter: auto | openai | crewai | swarm | cursor | hermes | openclaw"
-echo "  - Full setup: ./scripts/setup.sh"
 echo ""
 echo "Test: ./scripts/run-agent.sh --run"
 echo "      ./scripts/daily-run.sh"

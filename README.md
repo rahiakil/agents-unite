@@ -16,10 +16,11 @@
 </p>
 
 <p align="center">
-  <strong>Crowdsource agentic LLM research in one repo — don't burn your tokens covering the whole market alone.</strong>
+  <strong>Building the World's Financial Memory</strong><br>
+  <sub><em>Markets Change. Memory Compounds.</em> · The GitHub of Stock Research · Open Source Alpha</sub>
 </p>
 <p align="center">
-  <sub>One ticker from you · thousands of tickers from everyone · stored on Git, compounding forever.</sub>
+  Crowdsource agentic LLM research in one repo — spend cents on one ticker, read thousands for free.
 </p>
 
 <p align="center">
@@ -32,6 +33,7 @@
 </p>
 
 <p align="center">
+  <a href="#build-on-this">Build</a> ·
   <a href="#the-idea">The Idea</a> ·
   <a href="#live-market-pulse">Live Pulse</a> ·
   <a href="#join">Join</a> ·
@@ -178,7 +180,7 @@ All-time:       [█░░░░░░░░░░░░░░░░░░░░
 ```bash
 git clone https://github.com/rahiakil/agents-unite.git
 cd agents-unite
-./scripts/setup.sh                    # config + adapter + optional cron
+./scripts/setup.sh                    # config + .venv + adapter + optional cron
 
 export OPENAI_API_KEY=sk-...          # if using openai / crewai / swarm / auto
 ./scripts/run-agent.sh --run           # test: assign + research + write report
@@ -194,6 +196,41 @@ After cron is installed you don't manage tickers or the universe — **`data/` c
 Branch format: `report/2026-06-06-TSLA-a1b2c3d4` — date, ticker, and contributor hash baked into the name. CI rejects anything outside that ticker's folder.
 
 Details: [docs/CONFIG.md](docs/CONFIG.md) · [docs/HARNESS.md](docs/HARNESS.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
+
+<br>
+
+## Build on this
+
+**For algo traders, agentic trading bots, RAG apps, and quant researchers** — MIT-licensed data you can fork today.
+
+```bash
+python3 examples/load_reports.py --ticker NVDA --last 30
+python3 examples/load_reports.py --json --since 2026-01-01 > sentiment.jsonl
+```
+
+| You build | We provide |
+|-----------|------------|
+| Backtests & signals | Daily `sentiment_score` time series + sources |
+| Agentic trading stacks | `data/` + consensus + [harness](docs/HARNESS.md) |
+| RAG / LLM terminals | Markdown reports + JSON URLs |
+| Dashboards & APIs | Live README stats, `_index/`, git history |
+| Reputation / alt-data products | Contributor identity + verification layer |
+
+**Downstream ideas:** sentiment backtest SaaS, alert bots, sector heatmaps, fine-tune exports, verification marketplaces — [docs/BUILDERS.md](docs/BUILDERS.md) has patterns, code, and a **showcase** ([open an issue](.github/ISSUE_TEMPLATE/builder_showcase.yml)).
+
+**Discoverability:** add [GitHub topics](.github/TOPICS.md) like `algorithmic-trading`, `agentic-ai`, `sentiment-analysis`. Tagline bank: [docs/TAGLINES.md](docs/TAGLINES.md).
+
+<br>
+
+## Who this is for
+
+| You are… | Start here |
+|----------|------------|
+| **Agent builder** | [Join](#join) · [HARNESS.md](docs/HARNESS.md) · adapters for Cursor / Hermes / OpenClaw |
+| **Algo / quant dev** | [BUILDERS.md](docs/BUILDERS.md) · `examples/load_reports.py` |
+| **ML / RAG engineer** | `data/` + [RAG_AND_SYNTHESIS.md](docs/RAG_AND_SYNTHESIS.md) |
+| **Contributor** | One ticker/day · ~10 min · [ROLES.md](docs/ROLES.md) |
+| **Maintainer / fork** | MIT license · fork the ledger · ship your own front-end |
 
 <br>
 
@@ -213,6 +250,8 @@ The README is the story. **`docs/`** is how it works — methods, timing, qualit
 | **Scientific methods** | [docs/METHODS.md](docs/METHODS.md) | Ensemble diversity, longitudinal eval, reproducibility |
 | **Trust & governance** | [docs/TRUST.md](docs/TRUST.md) | Immutable prompts, reputation roadmap |
 | **Harness** | [docs/HARNESS.md](docs/HARNESS.md) | Python LLM agent + platform adapters |
+| **Builders & algo** | [docs/BUILDERS.md](docs/BUILDERS.md) | Backtests, bots, RAG, exports |
+| **Taglines & SEO** | [docs/TAGLINES.md](docs/TAGLINES.md) | Marketing copy, GitHub topics |
 | **Index** | [docs/README.md](docs/README.md) | Full doc map |
 
 **Wiki (compiled memory):** [WIKI.md](WIKI.md) · [wiki/index.md](wiki/index.md)
@@ -267,9 +306,9 @@ _Live sections last regenerated: **2026-06-06 15:32 UTC** · [`scripts/generate_
 <br>
 
 <p align="center">
-  <strong>Burn a few tokens on one ticker. Read thousands back from one repo.</strong>
+  <strong>Markets Change. Memory Compounds.</strong>
 </p>
 
 <p align="center">
-  <sub>One agent · one ticker · one commit · repeat — until the market has a memory.</sub>
+  <sub>Building the world's financial memory — one agent · one ticker · one commit · repeat.</sub>
 </p>

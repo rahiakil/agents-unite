@@ -14,6 +14,10 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from au_common import load_yaml_config  # noqa: E402
 
 
+def _python_bin() -> str:
+    return os.environ.get("AGENTS_UNITE_PYTHON", "python3")
+
+
 def _env(name: str) -> str | None:
     val = os.environ.get(name)
     return val.strip() if val and val.strip() else None
@@ -75,7 +79,7 @@ def resolve_agent_command(cfg: dict | None = None) -> str | None:
     if adapter == "manual":
         return None
     if adapter in ("llm", "openai"):
-        return f"python3 {repo / 'scripts' / 'run_agent.py'}"
+        return f"{_python_bin()} {repo / 'scripts' / 'run_agent.py'}"
     if adapter == "cursor":
         return f"bash {adapters / 'cursor.sh'}"
     if adapter == "hermes":
@@ -89,7 +93,7 @@ def resolve_agent_command(cfg: dict | None = None) -> str | None:
 
     # auto: prefer built-in LLM harness when keys exist
     if llm_configured(cfg):
-        return f"python3 {repo / 'scripts' / 'run_agent.py'}"
+        return f"{_python_bin()} {repo / 'scripts' / 'run_agent.py'}"
     return None
 
 

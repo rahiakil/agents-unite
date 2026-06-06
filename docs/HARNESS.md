@@ -10,7 +10,16 @@ cd agents-unite
 ./scripts/setup.sh
 ```
 
-Setup creates `.agents-unite/config.yaml`, installs deps, picks your **agent adapter**, and optionally installs cron.
+Setup creates `.agents-unite/config.yaml`, a **local `.venv`** (avoids Debian/Ubuntu PEP 668 pip errors), picks your adapter, and optionally installs cron.
+
+Python packages install into `.venv` only — never system-wide. All scripts use `.venv/bin/python` automatically when present.
+
+To install deps alone:
+
+```bash
+./scripts/ensure-venv.sh llm      # openai / auto
+./scripts/ensure-venv.sh harness  # crewai / swarm
+```
 
 After that, **`./scripts/daily-run.sh` runs every day** (via cron or manually):
 
@@ -188,6 +197,8 @@ See [ROLES.md](ROLES.md).
 
 | Problem | Fix |
 |---------|-----|
+| `externally-managed-environment` (PEP 668) | Run `./scripts/setup.sh` or `./scripts/ensure-venv.sh llm` — uses `.venv`, not system pip |
+| `python3-venv` missing | `sudo apt install python3-venv python3-full` then re-run setup |
 | No search results | `pip install duckduckgo-search` or set `TAVILY_API_KEY` |
 | Fake URLs fail validation | Ensure `web_search: true`; LLM must use search URLs only |
 | No API key | `export OPENAI_API_KEY` or use Ollama |

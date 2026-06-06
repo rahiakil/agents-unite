@@ -4,6 +4,8 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
+# shellcheck source=scripts/au-env.sh
+source "$REPO_ROOT/scripts/au-env.sh"
 
 STATE_DIR="$REPO_ROOT/.agents-unite"
 LOG_FILE="$STATE_DIR/daily-run.log"
@@ -18,7 +20,7 @@ fi
 
 # Contributor identity
 if [[ -z "${AGENTS_UNITE_CONTRIBUTOR:-}" ]]; then
-  gh_user="$(python3 -c 'import sys; sys.path.insert(0,"scripts"); from au_common import github_username; print(github_username() or "")' 2>/dev/null || true)"
+  gh_user="$("$AU_PYTHON" -c 'import sys; sys.path.insert(0,"scripts"); from au_common import github_username; print(github_username() or "")' 2>/dev/null || true)"
   [[ -n "$gh_user" ]] && export AGENTS_UNITE_CONTRIBUTOR="$gh_user"
 fi
 
@@ -27,9 +29,9 @@ MAX_ATTEMPTS=2
 
 run_once() {
   log "Attempt $ATTEMPT: assigning role and ticker"
-  python3 scripts/run_investigation.py --scaffold --metadata > "$STATE_DIR/run-meta.json" || return 1
+  "$AU_PYTHON" scripts/run_investigation.py --scaffold --metadata > "$STATE_DIR/run-meta.json" || return 1
 
-  python3 - "$STATE_DIR/run-meta.json" "$STATE_DIR/prompt.md" <<'PY'
+  "$AU_PYTHON" - "$STATE_DIR/run-meta.json" "$STATE_DIR/prompt.md" <<'PY'
 import json, sys
 from pathlib import Path
 raw = Path(sys.argv[1]).read_text(encoding="utf-8")
@@ -49,7 +51,7 @@ else:
 Path(sys.argv[2]).write_text(prompt.lstrip(), encoding="utf-8")
 PY
 
-  META="$(python3 -c "
+  META="$("$AU_PYTHON" -c "
 import json
 from pathlib import Path
 raw = Path('$STATE_DIR/run-meta.json').read_text()
@@ -58,15 +60,15 @@ if '--- PROMPT ---' in raw:
 print(json.dumps(json.loads(raw.strip())))
 ")"
 
-  ROLE="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["daily_role"])' "$META")"
-  TICKER="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["ticker"])' "$META")"
-  DATE="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["date"])' "$META")"
-  OUTPUT="$(python3 -c 'import json,sys; print(json.loads(sys.argv[1])["output_dir"])' "$META")"
+  ROLE="$("$AU_PYTHON" -c 'import json,sys; print(json.loads(sys.argv[1])["daily_role"])' "$META")"
+  TICKER="$("$AU_PYTHON" -c 'import json,sys; print(json.loads(sys.argv[1])["ticker"])' "$META")"
+  DATE="$("$AU_PYTHON" -c 'import json,sys; print(json.loads(sys.argv[1])["date"])' "$META")"
+  OUTPUT="$("$AU_PYTHON" -c 'import json,sys; print(json.loads(sys.argv[1])["output_dir"])' "$META")"
 
   log "Assigned: role=$ROLE ticker=$TICKER date=$DATE"
 
   # Run agent (built-in LLM harness, cursor, hermes, etc.)
-  AGENT_CMD="$(python3 -c "
+  AGENT_CMD="$("$AU_PYTHON" -c "
 import sys; sys.path.insert(0,'scripts')
 from agent_config import resolve_agent_command
 cmd = resolve_agent_command()
@@ -85,9 +87,9 @@ print(cmd or '')
   fi
 
   log "Validating $OUTPUT"
-  python3 scripts/validate_report.py "$OUTPUT/" || return 1
+  "$AU_PYTHON" scripts/validate_report.py "$OUTPUT/" || return 1
 
-  BRANCH="$(python3 scripts/branch_name.py --contributor "${AGENTS_UNITE_CONTRIBUTOR:-}")"
+  BRANCH="$("$AU_PYTHON" scripts/branch_name.py --contributor "${AGENTS_UNITE_CONTRIBUTOR:-}")"
   log "Branch: $BRANCH"
   git checkout -B "$BRANCH"
   git add "data/$DATE/$TICKER/" || true
@@ -118,7 +120,7 @@ EOF
     log "gh not found — commit created locally on $BRANCH"
   fi
 
-  python3 scripts/generate_readme.py 2>/dev/null || true
+  "$AU_PYTHON" scripts/generate_readme.py 2>/dev/null || true
   return 0
 }
 

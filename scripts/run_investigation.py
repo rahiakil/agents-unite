@@ -13,7 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from assign_role import assign_role  # noqa: E402
-from au_common import contributor_id, prompt_hash  # noqa: E402
+from au_common import contributor_id, load_assignment_cache, prompt_hash, save_assignment_cache  # noqa: E402
 
 
 def render_prompt(template: str, assignment: dict, paths: dict) -> str:
@@ -179,6 +179,9 @@ def main() -> int:
 
     paths = build_paths(assignment)
     output_dir = ensure_output_dir(assignment, args.dry_run)
+
+    if not args.dry_run:
+        save_assignment_cache({**assignment, **paths})
 
     if args.scaffold and not args.dry_run:
         write_scaffold(assignment, output_dir)

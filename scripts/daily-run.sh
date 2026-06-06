@@ -55,7 +55,6 @@ from pathlib import Path
 raw = Path('$STATE_DIR/run-meta.json').read_text()
 if '--- PROMPT ---' in raw:
     raw = raw.split('--- PROMPT ---', 1)[0]
-json.loads(raw.strip())
 print(json.dumps(json.loads(raw.strip())))
 ")"
 

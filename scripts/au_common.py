@@ -16,6 +16,7 @@ CONFIG_PATH = REPO_ROOT / ".agents-unite" / "config.yaml"
 UNIVERSE_PATH = REPO_ROOT / "tickers" / "universe.json"
 DATA_DIR = REPO_ROOT / "data"
 AGENTS_DIR = REPO_ROOT / "agents"
+ASSIGNMENT_CACHE = REPO_ROOT / ".agents-unite"
 
 FOCUS_ROLES = ("sentiment", "news", "social", "trading", "full")
 DATE_MODES = ("utc_midnight", "us_close")
@@ -156,8 +157,22 @@ def load_active_tickers(universe_path: Path = UNIVERSE_PATH) -> list[str]:
     return tickers
 
 
+def _is_committed_report(report_path: Path) -> bool:
+    """Count only substantive reports toward coverage (ignore empty scaffolds)."""
+    if not report_path.is_file():
+        return False
+    text = report_path.read_text(encoding="utf-8")
+    if len(text.strip()) < 400:
+        return False
+    if "contributor_hash: null" in text or "sentiment_score: 0.0" in text.split("---", 2)[1] if text.startswith("---") else False:
+        # Still default scaffold
+        if text.count("\n") < 25:
+            return False
+    return True
+
+
 def coverage_counts(investigation_date: str) -> dict[str, int]:
-    """Count report files per ticker for a given date folder."""
+    """Count substantive report files per ticker for a given date folder."""
     counts: dict[str, int] = {}
     day_dir = DATA_DIR / investigation_date
     if not day_dir.is_dir():
@@ -165,7 +180,12 @@ def coverage_counts(investigation_date: str) -> dict[str, int]:
     for ticker_dir in day_dir.iterdir():
         if not ticker_dir.is_dir() or ticker_dir.name.startswith("_"):
             continue
-        n = len([p for p in ticker_dir.glob("report*.md") if p.name == "report.md" or p.name.startswith("report.")])
+        n = sum(
+            1
+            for p in ticker_dir.glob("report*.md")
+            if p.name == "report.md" or p.name.startswith("report.")
+            if _is_committed_report(p)
+        )
         if n:
             counts[ticker_dir.name.upper()] = n
     return counts
@@ -206,3 +226,30 @@ def make_branch_name(investigation_date: str, ticker: str, contributor: str | No
     user_hash = hashlib.sha256(cid.lower().encode("utf-8")).hexdigest()[:8]
     safe_ticker = ticker.upper().replace(".", "-")
     return f"report/{investigation_date}-{safe_ticker}-{user_hash}"
+
+
+def prompt_hash(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+
+def assignment_cache_path(investigation_date: str, contributor: str | None = None) -> Path:
+    cid = contributor_id(contributor)
+    slug = hashlib.sha256(cid.lower().encode()).hexdigest()[:8]
+    return ASSIGNMENT_CACHE / f"assignment-{investigation_date}-{slug}.json"
+
+
+def load_assignment_cache(investigation_date: str, contributor: str | None = None) -> dict | None:
+    path = assignment_cache_path(investigation_date, contributor)
+    if not path.is_file():
+        return None
+    with path.open(encoding="utf-8") as f:
+        data = json.load(f)
+    return data if isinstance(data, dict) else None
+
+
+def save_assignment_cache(assignment: dict) -> None:
+    ASSIGNMENT_CACHE.mkdir(parents=True, exist_ok=True)
+    path = assignment_cache_path(str(assignment["date"]), str(assignment.get("contributor_id")))
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(assignment, f, indent=2)
+        f.write("\n")

@@ -17,10 +17,13 @@ from au_common import (  # noqa: E402
     contributor_hash,
     contributor_id,
     hash_fraction,
+    load_assignment_cache,
     load_yaml_config,
+    make_branch_name,
     prompt_hash,
     prompt_path_for,
     resolve_investigation_date,
+    save_assignment_cache,
 )
 
 VERIFIER_CHANCE = 0.25  # when opted in — user does not know until run
@@ -32,6 +35,7 @@ def assign_role(
     *,
     date_mode: str | None = None,
     force_role: str | None = None,
+    use_cache: bool = True,
 ) -> dict:
     cfg = load_yaml_config()
     cid = contributor_id(contributor)
@@ -39,6 +43,14 @@ def assign_role(
 
     if investigation_date is None:
         investigation_date = resolve_investigation_date(date_mode)
+
+    if use_cache and force_role is None:
+        cached = load_assignment_cache(investigation_date, contributor)
+        if cached:
+            cached["branch"] = make_branch_name(
+                str(cached["date"]), str(cached["ticker"]), str(cached.get("contributor_id", cid))
+            )
+            return cached
 
     verifier_opt_in = bool(cfg.get("verifier_opt_in", False))
     seed_base = f"{investigation_date}:{chash}"
@@ -63,7 +75,7 @@ def assign_role(
 
     slug = _report_slug(cid)
 
-    return {
+    result = {
         **ticker_assignment,
         "daily_role": daily_role,
         "focus": focus,
@@ -76,7 +88,10 @@ def assign_role(
         "consensus_filename": "consensus.md" if daily_role == "verifier" else None,
         "detail_level": cfg.get("detail_level", "standard"),
         "agent_runtime": cfg.get("agent_runtime", "manual"),
+        "branch": make_branch_name(str(ticker_assignment["date"]), str(ticker_assignment["ticker"]), cid),
     }
+    save_assignment_cache(result)
+    return result
 
 
 def _report_slug(contributor: str) -> str:

@@ -1,0 +1,65 @@
+name: Builder showcase
+description: Share a project built on agents-unite data (dashboard, bot, backtest, API)
+title: "[Builder] "
+labels: ["builder"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show what you built on [agents-unite](https://github.com/rahiakil/agents-unite) data.
+        We may link it in [docs/BUILDERS.md](../docs/BUILDERS.md).
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project name
+      placeholder: e.g. SentimentBacktest Pro
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Link (repo, demo, or site)
+      placeholder: https://github.com/you/your-project
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Algo / backtest
+        - Agentic trading bot
+        - RAG / LLM app
+        - Dashboard / visualization
+        - Data export / ETL
+        - Mobile / consumer app
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: 2–4 sentences
+    validations:
+      required: true
+
+  - type: textarea
+    id: integration
+    attributes:
+      label: How do you use agents-unite?
+      description: e.g. load_reports.py, fork data/, watch PRs, consensus signals
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: list_ok
+    attributes:
+      label: Listing
+      options:
+        - label: OK to list in docs/BUILDERS.md showcase section
+          required: true

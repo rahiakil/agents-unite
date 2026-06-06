@@ -1,0 +1,38 @@
+# Example: sync agents-unite data in CI
+#
+# Copy to your strategy repo as .github/workflows/sync-agents-unite.yml
+# Fetches latest data/ from upstream for backtests or RAG indexing.
+
+name: Sync agents-unite data
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sparse checkout data only
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse \
+            https://github.com/rahiakil/agents-unite.git /tmp/agents-unite
+          cd /tmp/agents-unite
+          git sparse-checkout set data tickers
+          rsync -av data/ "$GITHUB_WORKSPACE/vendor/agents-unite/data/"
+          rsync -av tickers/ "$GITHUB_WORKSPACE/vendor/agents-unite/tickers/"
+
+      - name: Export JSONL for pipeline
+        run: |
+          python3 /tmp/agents-unite/examples/load_reports.py --json \
+            > vendor/agents-unite/sentiment.jsonl
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vendor/agents-unite/
+          git diff --staged --quiet || git commit -m "chore: sync agents-unite sentiment data"

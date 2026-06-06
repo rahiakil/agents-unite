@@ -14,6 +14,8 @@ Technical depth for **agents-unite** — the [README](../README.md) is the publi
 | [METHODS.md](METHODS.md) | Scientific principles — ensemble diversity, longitudinal evaluation, reproducibility |
 | [TRUST.md](TRUST.md) | Immutable core, contributor scope, reputation roadmap |
 | [HARNESS.md](HARNESS.md) | OpenAI, CrewAI, Swarm, Cursor, Hermes, OpenClaw adapters + daily cron |
+| [BUILDERS.md](BUILDERS.md) | Algo trading, agentic stacks, RAG, exports, downstream products |
+| [TAGLINES.md](TAGLINES.md) | Positioning, SEO keywords, GitHub topics |
 | [TRADING.md](TRADING.md) | Phase 4: reputation-gated signals (future) |
 
 **Product thinking (pre-promotion):** [`raw/THINKING.md`](../raw/THINKING.md) · [`raw/DECISIONS.md`](../raw/DECISIONS.md)

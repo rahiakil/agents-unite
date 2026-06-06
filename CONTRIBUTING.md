@@ -1,6 +1,9 @@
 # Contributing to agents-unite
 
-Thank you for helping build a distributed stock market sentiment dataset. Each contributor runs **one agent** per day to investigate **one randomly-assigned ticker** and commits a structured report.
+Thank you for helping build **the world's financial memory** — a distributed, open stock research ledger.
+
+**Contributors:** one agent, one ticker, one PR per day.  
+**Builders:** fork data, ship backtests, bots, dashboards — see [docs/BUILDERS.md](docs/BUILDERS.md) and [examples/](examples/).
 
 ## Quick start
 

@@ -1,23 +1,64 @@
 # Agent Harness
 
-Run daily research **without** an external agent IDE — or plug in Cursor, Hermes, OpenClaw.
+Run daily research with **one checkout and a cron job**. Pick a harness; the repo assigns your ticker, runs the agent, validates, and opens a PR. You spend tokens on one name per day. **`data/` grows for everyone** — fork later for dashboards, models, or backtests.
 
-## Quick start (Python + LLM)
+## Clone and forget (recommended)
+
+```bash
+git clone https://github.com/rahiakil/agents-unite.git
+cd agents-unite
+./scripts/setup.sh
+```
+
+Setup creates `.agents-unite/config.yaml`, installs deps, picks your **agent adapter**, and optionally installs cron.
+
+After that, **`./scripts/daily-run.sh` runs every day** (via cron or manually):
+
+```
+assign role + ticker → run harness → validate → commit → PR
+```
+
+You don't pick tickers. You don't maintain the universe. The ledger compounds while you sleep.
+
+## Harnesses
+
+| Adapter | Config | What runs | Install |
+|---------|--------|-----------|---------|
+| **openai** / **auto** | `agent_adapter: openai` | `scripts/run_agent.py` — web search + OpenAI-compatible LLM | `pip install -r requirements-llm.txt` + `OPENAI_API_KEY` |
+| **crewai** | `agent_adapter: crewai` | `scripts/harness/crewai_runner.py` — researcher + verifier crew | `pip install -r requirements-harness.txt` |
+| **swarm** | `agent_adapter: swarm` | `scripts/harness/swarm_runner.py` — OpenAI Swarm agents | `pip install -r requirements-harness.txt` |
+| **cursor** | `agent_adapter: cursor` | `cursor agent` with saved prompt | Cursor CLI |
+| **hermes** | `agent_adapter: hermes` | Hermes CLI (`HERMES_CMD` override) | Hermes installed |
+| **openclaw** | `agent_adapter: openclaw` | OpenClaw CLI (`OPENCLAW_CMD` override) | OpenClaw installed |
+| **manual** | `agent_adapter: manual` | Prompt saved to `.agents-unite/prompt.md` only | Any external agent |
+
+Set in `.agents-unite/config.yaml`:
+
+```yaml
+github_username: your-github-username
+agent_adapter: openai    # or crewai, swarm, cursor, hermes, openclaw, manual, auto
+llm_model: gpt-4o-mini
+```
+
+Or override with a shell command:
+
+```yaml
+agent_command: "bash scripts/adapters/crewai.sh"
+```
+
+## Quick start (OpenAI harness)
 
 ```bash
 cp config/config.example.yaml .agents-unite/config.yaml
-# edit github_username
-
 export OPENAI_API_KEY=sk-...
-pip install -r requirements-llm.txt   # pyyaml + duckduckgo-search
+pip install -r requirements-llm.txt
 
-./scripts/run-agent.sh                # assign + save prompt
-python3 scripts/run_agent.py          # web search + LLM → report files
+./scripts/run-agent.sh --run     # assign + research + write report
 python3 scripts/validate_report.py data/DATE/TICKER/
 ./scripts/commit-report.sh
 ```
 
-One command (assign + run):
+One Python entry (assign + run):
 
 ```bash
 python3 scripts/run_agent.py --assign
@@ -33,47 +74,57 @@ Full cron pipeline:
 ## How it works
 
 ```
-run-agent.sh → assign role + prompt.md
+run-agent.sh / daily-run.sh
        ↓
-run_agent.py
-  ├── web_search.py   → DuckDuckGo or Tavily (real URLs)
-  ├── llm_client.py   → OpenAI-compatible / Anthropic / Ollama
-  └── writes report.*.md + sources.*.json
+run_investigation.py  →  role + ticker + prompt.md
        ↓
-validate_report.py → commit → PR
+adapter (openai | crewai | swarm | cursor | …)
+       ↓
+report.<user>.md + sources.<user>.json  in data/DATE/TICKER/
+       ↓
+validate_report.py → commit → PR → live README updates
 ```
 
-The LLM **synthesizes** search snippets into structured markdown + JSON. No HTML scraping or image dumps.
+Built-in harnesses (`openai`, `crewai`, `swarm`):
+
+- `web_search.py` → DuckDuckGo or Tavily (real URLs)
+- `llm_client.py` → OpenAI-compatible / Anthropic / Ollama
+- `harness/artifacts.py` → writes schema-valid files
+
+## Adapter scripts (`scripts/adapters/`)
+
+| Script | Purpose |
+|--------|---------|
+| `openai.sh` | Built-in LLM harness (default) |
+| `llm.sh` | Alias for `openai.sh` |
+| `crewai.sh` | CrewAI multi-agent crew |
+| `swarm.sh` | OpenAI Swarm (or `SWARM_CMD` for other Swarm CLIs) |
+| `cursor.sh` | Cursor CLI |
+| `hermes.sh` | Hermes CLI |
+| `openclaw.sh` | OpenClaw CLI |
+| `manual.sh` | Prompt only — then `AGENT_DONE=1 ./scripts/daily-run.sh` |
+
+Placeholders for external CLIs: `{prompt}` `{repo}`
+
+```bash
+export HERMES_CMD='hermes run --prompt-file {prompt}'
+export OPENCLAW_CMD='openclaw task --input {prompt} --cwd {repo}'
+export SWARM_CMD='swarms agent --prompt {prompt}'
+```
 
 ## Configuration (`.agents-unite/config.yaml`)
 
 | Key | Purpose |
 |-----|---------|
-| `agent_adapter` | `auto` \| `llm` \| `cursor` \| `hermes` \| `openclaw` \| `manual` |
+| `agent_adapter` | `auto` \| `openai` \| `crewai` \| `swarm` \| `cursor` \| `hermes` \| `openclaw` \| `manual` |
 | `llm_provider` | `openai_compatible` \| `anthropic` \| `ollama` |
 | `llm_model` | e.g. `gpt-4o-mini`, `claude-sonnet-4-20250514` |
 | `llm_api_key_env` | env var name for API key |
 | `llm_base_url` | Ollama / OpenRouter base URL |
 | `web_search` | `true` — feed URLs to LLM |
 | `web_search_provider` | `duckduckgo` \| `tavily` \| `none` |
-
-## Adapters (`scripts/adapters/`)
-
-| Script | When to use |
-|--------|-------------|
-| `llm.sh` | Built-in harness (default with API key) |
-| `cursor.sh` | Cursor CLI `cursor agent` |
-| `hermes.sh` | Set `HERMES_CMD='hermes run --prompt-file {prompt}'` |
-| `openclaw.sh` | Set `OPENCLAW_CMD='openclaw task --input {prompt} --cwd {repo}'` |
-| `manual.sh` | Prompt only — paste into any agent |
-
-Set explicitly:
-
-```yaml
-agent_adapter: cursor
-# or
-agent_command: "bash scripts/adapters/hermes.sh"
-```
+| `schedule` | cron expression (via `install-cron.sh`) |
+| `auto_pr` | open PR via `gh` after success |
 
 ## Providers
 
@@ -110,13 +161,23 @@ llm_model: claude-sonnet-4-20250514
 export ANTHROPIC_API_KEY=...
 ```
 
+## What you get over time
+
+| You contribute | The repo gives back |
+|----------------|---------------------|
+| ~25¢ tokens/day on **one** ticker | Full-market `data/` archive |
+| One PR per day | Git history anyone can fork |
+| Your harness choice | Same schema — comparable across agents |
+
+Use `data/` however you want: sentiment dashboards, embedding search, fine-tunes, pattern mining, backtests. **Maintenance is crowdsourced; the dataset is shared.**
+
 ## Roles
 
 The same harness handles all assigned roles:
 
 | Role | LLM output key |
 |------|----------------|
-| research | `report_markdown` + `sources` |
+| research / submitter | `report_markdown` + `sources` |
 | verify | `verification_markdown` |
 | consensus | `consensus_markdown` |
 | patterns / findings | `weekly_markdown` |
@@ -130,4 +191,6 @@ See [ROLES.md](ROLES.md).
 | No search results | `pip install duckduckgo-search` or set `TAVILY_API_KEY` |
 | Fake URLs fail validation | Ensure `web_search: true`; LLM must use search URLs only |
 | No API key | `export OPENAI_API_KEY` or use Ollama |
-| Manual mode | Set `agent_adapter: manual` or leave key unset |
+| CrewAI / Swarm import error | `pip install -r requirements-harness.txt` |
+| Manual mode | Set `agent_adapter: manual` or leave key unset with `auto` |
+| Cron didn't PR | `gh auth login` or set `GH_TOKEN` |

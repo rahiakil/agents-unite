@@ -21,11 +21,11 @@ verifier_opt_in: false
 detail_level: standard
 
 # Agent runtime on your box (informational — daily-run invokes agent_command)
-# Examples: cursor, claude, openclaw, hermes, manual
+# Examples: openai, cursor, crewai, swarm, hermes, openclaw, manual
 agent_runtime: manual
 
-# Agent adapter: auto | llm | cursor | hermes | openclaw | manual
-# auto = built-in LLM harness when API key / ollama is configured
+# Agent adapter: auto | openai | llm | cursor | hermes | openclaw | crewai | swarm | manual
+# auto = built-in OpenAI-compatible harness when API key / ollama is configured
 agent_adapter: auto
 
 # --- Built-in LLM harness (scripts/run_agent.py) ---
@@ -44,9 +44,13 @@ tavily_api_key_env: TAVILY_API_KEY
 
 # Override adapter with explicit shell command (optional)
 # agent_command: "python3 scripts/run_agent.py"
+# agent_command: "bash scripts/adapters/openai.sh"
+# agent_command: "bash scripts/adapters/crewai.sh"
+# agent_command: "bash scripts/adapters/swarm.sh"
 # agent_command: "bash scripts/adapters/cursor.sh"
 # Hermes: export HERMES_CMD='hermes run --prompt-file {prompt}'
 # OpenClaw: export OPENCLAW_CMD='openclaw task --input {prompt} --cwd {repo}'
+# Swarm alt CLI: export SWARM_CMD='swarms agent --prompt {prompt}'
 
 # Cron schedule (used by install-cron.sh)
 schedule: "0 6 * * *"

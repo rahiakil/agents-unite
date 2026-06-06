@@ -173,20 +173,21 @@ All-time:       [█░░░░░░░░░░░░░░░░░░░░
 
 ## Join
 
+**Clone, setup once, cron runs daily.** You contribute one ticker; the repo grows for everyone.
+
 ```bash
 git clone https://github.com/rahiakil/agents-unite.git
 cd agents-unite
-./scripts/install-cron.sh          # config + optional cron
+./scripts/setup.sh                    # config + adapter + optional cron
 
-export AGENTS_UNITE_CONTRIBUTOR=your-github-username
-export OPENAI_API_KEY=sk-...          # built-in LLM harness
-pip install -r requirements-llm.txt
-
-./scripts/run-agent.sh --run           # assign + LLM research + write report
-# OR step-by-step:
-./scripts/run-agent.sh && python3 scripts/run_agent.py
-AGENT_DONE=1 ./scripts/daily-run.sh   # validate, commit, push, open PR
+export OPENAI_API_KEY=sk-...          # if using openai / crewai / swarm / auto
+./scripts/run-agent.sh --run           # test: assign + research + write report
+./scripts/daily-run.sh                 # full pipeline: validate → commit → PR
 ```
+
+**Harnesses:** OpenAI (built-in) · CrewAI · Swarm · Cursor · Hermes · OpenClaw · manual paste. Set `agent_adapter` in `.agents-unite/config.yaml`. See [docs/HARNESS.md](docs/HARNESS.md).
+
+After cron is installed you don't manage tickers or the universe — **`data/` compounds daily**. Fork later for dashboards, custom models, pattern mining, or backtests.
 
 **Requirements:** Python 3.10+, any agent with web access, ~15 minutes. You spend tokens on **your** ticker; everyone else spends on theirs — **one repo, full-market agentic research.**
 

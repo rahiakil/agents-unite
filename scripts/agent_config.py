@@ -70,19 +70,28 @@ def resolve_agent_command(cfg: dict | None = None) -> str | None:
 
     adapter = str(cfg.get("agent_adapter", "auto")).strip().lower()
     repo = REPO_ROOT
+    adapters = repo / "scripts" / "adapters"
 
     if adapter == "manual":
         return None
-    if adapter == "llm":
+    if adapter in ("llm", "openai"):
         return f"python3 {repo / 'scripts' / 'run_agent.py'}"
     if adapter == "cursor":
-        return f"bash {repo / 'scripts' / 'adapters' / 'cursor.sh'}"
+        return f"bash {adapters / 'cursor.sh'}"
     if adapter == "hermes":
-        return f"bash {repo / 'scripts' / 'adapters' / 'hermes.sh'}"
+        return f"bash {adapters / 'hermes.sh'}"
     if adapter == "openclaw":
-        return f"bash {repo / 'scripts' / 'adapters' / 'openclaw.sh'}"
+        return f"bash {adapters / 'openclaw.sh'}"
+    if adapter == "crewai":
+        return f"bash {adapters / 'crewai.sh'}"
+    if adapter == "swarm":
+        return f"bash {adapters / 'swarm.sh'}"
 
     # auto: prefer built-in LLM harness when keys exist
     if llm_configured(cfg):
         return f"python3 {repo / 'scripts' / 'run_agent.py'}"
     return None
+
+
+def list_adapters() -> list[str]:
+    return ["auto", "openai", "llm", "cursor", "hermes", "openclaw", "crewai", "swarm", "manual"]

@@ -1,0 +1,14 @@
+# Optional multi-framework harness backends
+# pip install -r requirements-harness.txt
+
+-r requirements-llm.txt
+
+# CrewAI multi-agent harness (scripts/harness/crewai_runner.py)
+crewai>=0.80.0
+
+# OpenAI Swarm educational framework (scripts/harness/swarm_runner.py)
+# Deprecated upstream; still works for experiments. Prefer agent_adapter: openai for production.
+swarm @ git+https://github.com/openai/swarm.git
+
+# Optional: OpenAI SDK (CrewAI / Swarm may use it)
+openai>=1.0.0

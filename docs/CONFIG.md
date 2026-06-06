@@ -5,7 +5,9 @@ Copy [`config/config.example.yaml`](../config/config.example.yaml) to `.agents-u
 Install:
 
 ```bash
-./scripts/install-cron.sh
+./scripts/setup.sh          # recommended: config + adapter + deps + cron
+# or
+./scripts/install-cron.sh   # config + cron only
 ```
 
 ## Fields
@@ -16,7 +18,8 @@ Install:
 | `date_mode` | `utc_midnight` \| `us_close` | Folder date for `data/YYYY-MM-DD/` |
 | `verifier_opt_in` | bool | If true, ~25% of days you are randomly a verifier |
 | `detail_level` | `minimal` \| `standard` \| `deep` | Token budget hint in prompts |
-| `agent_runtime` | string | Informational label (cursor, hermes, openclaw, manual) |
+| `agent_runtime` | string | Informational label (openai, cursor, crewai, swarm, hermes, openclaw, manual) |
+| `agent_adapter` | string | `auto` \| `openai` \| `crewai` \| `swarm` \| `cursor` \| `hermes` \| `openclaw` \| `manual` |
 | `agent_command` | shell | Optional full automation command |
 | `schedule` | cron | Used by install-cron.sh |
 | `auto_pr` | bool | Open PR via `gh` after success |

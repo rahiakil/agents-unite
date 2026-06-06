@@ -1,10 +1,15 @@
 ---
 ticker: NVDA
 date: 2026-06-05
-contributor: agents-unite-demo
+contributor_hash: demo00000003
 sentiment_score: 0.84
-confidence: 0.86
 ---
+
+# Sentiment
+
+Sentiment score: 0.84
+
+NVIDIA sentiment is **strongly bullish** as Blackwell GPU shipments ramp and hyperscaler capex guides remain elevated. Social and news flow highlight H200/B200 allocation constraints as a bullish supply-demand signal. Minor bearish notes focus on export-control headlines and customer concentration.
 
 # NVIDIA Corporation (NVDA) — Daily Sentiment Report
 
@@ -96,3 +101,9 @@ See companion file [`sources.json`](./sources.json) for structured metadata.
 | 3 | NVLink at Trillion-Parameter Scale | Semiconductor Engineering | https://semiengineering.com/nvidia-nvlink-trillion-parameter-inference-2026/ |
 | 4 | NVDA Pre-Market Analyst Round-Up | CNBC | https://www.cnbc.com/2026/06/05/nvidia-nvda-analyst-ratings.html |
 | 5 | Blackwell LEAPS discussion | Reddit (r/wallstreetbets) | https://www.reddit.com/r/wallstreetbets/comments/demo_nvda_leaps/ |
+
+# Notable Events
+
+- **Blackwell ramp (ongoing):** CoWoS packaging bottlenecks extend lead times — demand signal.
+- **European sovereign AI deal (Jun 3):** 10,000-GPU deployment expands geographic TAM.
+- **Export control headlines:** Minor bearish overhang on China-restricted SKUs.

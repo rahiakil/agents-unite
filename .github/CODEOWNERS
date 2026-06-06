@@ -1,0 +1,17 @@
+# Protected paths — require maintainer review
+# Contributors may only modify data/ via PR (enforced by path-guard CI)
+
+/scripts/          @agents-unite/maintainers
+/agents/           @agents-unite/maintainers
+/docs/             @agents-unite/maintainers
+/raw/              @agents-unite/maintainers
+/wiki/             @agents-unite/maintainers
+/tickers/          @agents-unite/maintainers
+/schemas/          @agents-unite/maintainers
+/.github/          @agents-unite/maintainers
+/WIKI.md           @agents-unite/maintainers
+/CLAUDE.md         @agents-unite/maintainers
+/AGENTS.md         @agents-unite/maintainers
+/config/           @agents-unite/maintainers
+
+# data/ is open for contributor PRs (date/ticker folders only — see path-guard)

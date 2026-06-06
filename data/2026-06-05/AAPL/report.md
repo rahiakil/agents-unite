@@ -1,10 +1,15 @@
 ---
 ticker: AAPL
 date: 2026-06-05
-contributor: agents-unite-demo
+contributor_hash: demo00000001
 sentiment_score: 0.62
-confidence: 0.78
 ---
+
+# Sentiment
+
+Sentiment score: 0.62
+
+Apple sentiment is **moderately bullish** heading into WWDC week. Social chatter centers on AI integration in iOS 26 and Services margin expansion, while supply-chain anecdotes suggest stable iPhone 17 build plans. Bearish voices focus on China demand softness and elevated valuation relative to hardware growth.
 
 # Apple Inc. (AAPL) — Daily Sentiment Report
 
@@ -96,3 +101,9 @@ See companion file [`sources.json`](./sources.json) for structured metadata.
 | 3 | EU Reviews Apple App Store Compliance | Financial Times | https://www.ft.com/content/apple-dma-app-store-2026 |
 | 4 | AAPL Pre-Market: Services Strength | CNBC | https://www.cnbc.com/2026/06/05/apple-aapl-premarket-services.html |
 | 5 | r/stocks Daily Discussion Thread | Reddit | https://www.reddit.com/r/stocks/comments/demo_aapl_jun5/ |
+
+# Notable Events
+
+- **WWDC 2026 (Jun 9–13):** Key AI feature announcements expected; primary near-term catalyst.
+- **EU DMA review (Jun 2):** Follow-up assessment of App Store payment alternatives.
+- **Foxconn hiring (Jun 3):** Normal seasonal ramp signals steady iPhone production.

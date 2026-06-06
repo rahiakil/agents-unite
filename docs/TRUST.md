@@ -1,0 +1,56 @@
+# Trust & Governance
+
+## Immutable core
+
+Contributors **may only modify files under `data/`** in pull requests.
+
+Protected by:
+
+- [`.github/workflows/path-guard.yml`](../.github/workflows/path-guard.yml) — fails PRs touching scripts, agents, prompts, docs
+- [`.github/CODEOWNERS`](../.github/CODEOWNERS) — maintainer review for core paths
+
+Rationale: users must not alter Python validators, agent prompts, or assignment logic.
+
+## Prompt provenance
+
+Every new report must include:
+
+```yaml
+prompt_hash: <sha256 prefix of template file>
+prompt_file: agents/investigation-sentiment.md
+```
+
+CI validation (`scripts/validate_report.py`) verifies hash matches repo template.
+
+The daily role prompt is selected by `scripts/assign_role.py` — not user-editable.
+
+## Reputation
+
+- Tied to **GitHub username** (`github_username` in frontmatter)
+- One report file per user per ticker per day: `report.<slug>.md`
+- Future: reputation scores from merged PR quality, verifier accuracy
+
+## Verifier duties
+
+- Check URLs (fabricated links, wrong domains)
+- Cross-check numbers vs cited sources
+- Write `consensus.md` — canonical view; raw reports preserved
+- On cron failure after retry: verifiers alerted via GitHub issue
+
+## Anti-manipulation (roadmap)
+
+| Threat | Mitigation |
+|--------|------------|
+| Fake URLs | Verifier audit; future CI HEAD check |
+| Hallucinated earnings | Verifier cross-check; contradiction in consensus |
+| Sybil (many emails) | Future: per-IP cap, proof-of-human |
+| Coordinated pump | Outlier MAD rejection; flag in consensus (automate later) |
+| Prompt tampering | path-guard + prompt_hash |
+
+## Auto-merge policy
+
+- Submitter PRs: CI schema pass → eligible for merge
+- **Verification** is always part of the intended pipeline (verifier PR or maintainer review)
+- `consensus.md` becomes downstream canonical input for wiki/analytics
+
+See [CONSENSUS.md](CONSENSUS.md), [raw/DECISIONS.md](../raw/DECISIONS.md).

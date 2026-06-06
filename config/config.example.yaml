@@ -1,0 +1,41 @@
+# Agents Unite — user configuration
+# Copy to .agents-unite/config.yaml and customize.
+# This file is gitignored.
+
+# GitHub username for reputation (required for PRs)
+github_username: your-github-username
+
+# Optional override; defaults to github_username
+# contributor_id: your-github-username
+
+# Date folder mode: utc_midnight | us_close
+date_mode: utc_midnight
+
+# Opt in to random verifier role (~25% of days when enabled)
+# You will NOT know until cron runs whether today is submitter or verifier
+verifier_opt_in: false
+
+# Token/detail level at install: minimal | standard | deep
+detail_level: standard
+
+# Agent runtime on your box (informational — daily-run invokes agent_command)
+# Examples: cursor, claude, openclaw, hermes, manual
+agent_runtime: manual
+
+# Shell command to run agent with prompt file (optional)
+# agent_command: "cursor agent --print --force --workspace . -- $(cat .agents-unite/prompt.md)"
+
+# Cron schedule (used by install-cron.sh)
+schedule: "0 6 * * *"
+
+# Timezone for cron
+timezone: UTC
+
+# GitHub token env var name (never commit the token)
+github_token_env: GH_TOKEN
+
+# Auto-open PR after successful run
+auto_pr: true
+
+# Retry failed agent once before alerting verifiers
+retry_on_failure: true

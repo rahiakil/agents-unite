@@ -1,10 +1,15 @@
 ---
 ticker: TSLA
 date: 2026-06-05
-contributor: agents-unite-demo
+contributor_hash: demo00000002
 sentiment_score: -0.28
-confidence: 0.71
 ---
+
+# Sentiment
+
+Sentiment score: -0.28
+
+Tesla sentiment is **moderately bearish** following mixed delivery data and renewed debate over FSD monetization timelines. Social volume spiked after a viral video of a Robotaxi pilot disengagement in Austin. Bullish counter-narratives cite energy storage bookings and upcoming affordable model teasers.
 
 # Tesla, Inc. (TSLA) — Daily Sentiment Report
 
@@ -96,3 +101,9 @@ See companion file [`sources.json`](./sources.json) for structured metadata.
 | 3 | Tesla Cuts Model Y Prices in Germany | Bloomberg | https://www.bloomberg.com/news/articles/2026-06-02/tesla-model-y-price-cut-germany |
 | 4 | TSLA: Lowering EPS on ASP Pressure | Barron's | https://www.barrons.com/articles/tesla-tsla-eps-estimate-cut-2026 |
 | 5 | Robotaxi disengagement clip | Twitter/X | https://x.com/demo/status/tsla-robotaxi-clip-2026 |
+
+# Notable Events
+
+- **Q2 delivery report (expected Jul 2):** Primary near-term catalyst; tracking below midpoint per leaks.
+- **NHTSA FSD review (Jun 3):** Preliminary evaluation of FSD behavior at urban intersections.
+- **Germany price cut (Jun 2):** €2,000 Model Y reduction amid European EV competition.

@@ -1,0 +1,35 @@
+name: Path Guard
+
+on:
+  pull_request:
+    paths-ignore:
+      - "data/**"
+
+jobs:
+  block-protected-paths:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reject changes outside data/
+        run: |
+          BASE="${{ github.event.pull_request.base.sha }}"
+          HEAD="${{ github.event.pull_request.head.sha }}"
+          CHANGED=$(git diff --name-only "$BASE" "$HEAD")
+          BLOCKED=""
+          for f in $CHANGED; do
+            case "$f" in
+              data/*) continue ;;
+              README.md) continue ;;
+              data/_index/*) continue ;;
+              *) BLOCKED="$BLOCKED $f" ;;
+            esac
+          done
+          if [ -n "$BLOCKED" ]; then
+            echo "::error::Contributors may only modify files under data/. Blocked:$BLOCKED"
+            echo "Prompts, scripts, and agents/ are immutable for contributors."
+            exit 1
+          fi
+          echo "OK: only data/ (and allowed paths) changed."

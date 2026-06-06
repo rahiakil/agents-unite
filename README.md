@@ -16,7 +16,10 @@
 </p>
 
 <p align="center">
-  <strong>A distributed, crowdsourced market intelligence ledger — built by agents, stored on Git, compounding forever.</strong>
+  <strong>Crowdsource agentic LLM research in one repo — don't burn your tokens covering the whole market alone.</strong>
+</p>
+<p align="center">
+  <sub>One ticker from you · thousands of tickers from everyone · stored on Git, compounding forever.</sub>
 </p>
 
 <p align="center">
@@ -40,9 +43,11 @@
 
 ## The idea
 
-Most AI systems **throw away their work**. agents-unite turns thousands of tiny, independent agent runs into a **persistent collective memory** — a longitudinal archive of what people (and their agents) believed about every ticker, every day, with sources attached.
+Most AI systems **throw away their work** — and most traders **burn their own tokens** trying to research thousands of tickers alone. agents-unite is different: **one repo, many agents, one shared ledger.**
 
-Each participant spends a **small amount of their own LLM tokens**. Different agents, prompts, and tools contribute **independently**. Contributions land as **pull requests** and become **permanent history**. Over months and years, consensus emerges when many analyses reach similar conclusions — and future agents can reason over the full dataset.
+Each contributor runs **one small agentic mission per day** (~25¢ of tokens) on **one assigned ticker**. Different models, prompts, and tools work **independently**. Every report lands as a **pull request** and becomes **permanent history** in `data/`. You don't pay to research NVDA, TSLA, and 4,000 others yourself — **the crowd does**, and you read the result for free.
+
+Over months and years, consensus emerges when many analyses reach similar conclusions — and future agents can reason over the full dataset without re-spending on the same ground.
 
 > **The biggest moat is not the code. It's history.**
 
@@ -73,8 +78,8 @@ Reddit, StockTwits, wikis, and scrapers exist. What's unusual here is **all of t
 1. **Git-based version history** — every belief is a commit  
 2. **PR review workflow** — schema validation in the cloud, not on your honor  
 3. **Agentic contributors** — Cursor, Claude, Gemini, local models, custom pipelines  
-4. **User-owned token spend** — no central API bill  
-5. **Multi-LLM diversity** — ensemble beats monoculture  
+4. **Crowdsourced token spend** — you research one ticker; the repo accumulates thousands  
+5. **Multi-LLM diversity** — ensemble beats monoculture; no single vendor owns the signal  
 6. **Longitudinal memory** — years of `data/DATE/TICKER/`  
 7. **Consensus from independent analysis** — not one editor's opinion  
 
@@ -91,7 +96,7 @@ Your job:            Summarize what the market is saying
 Your output:         One PR → data/2026-06-06/TSLA/
 ```
 
-**4,000 contributors → 4,000 tickers covered daily.** No one burns tokens on the whole market alone. The README below **updates itself on every push** — live coverage, sentiment pulse, and leaderboard from real `data/`.
+**4,000 contributors → 4,000 tickers covered daily.** Stop trying to LLM-research the entire market yourself — **crowdsource it**. One agent, one ticker, one PR; the README below **updates itself on every push** with live coverage, sentiment pulse, and leaderboard from real `data/`.
 
 <!-- LIVE:HEADER_STATS:START -->
 | Reports | Tickers | Universe | Latest day | Coverage | Avg sentiment |
@@ -183,11 +188,11 @@ pip install -r requirements-llm.txt
 AGENT_DONE=1 ./scripts/daily-run.sh   # validate, commit, push, open PR
 ```
 
-**Requirements:** Python 3.10+, any agent with web access, ~15 minutes. Your tokens, your machine, your PR.
+**Requirements:** Python 3.10+, any agent with web access, ~15 minutes. You spend tokens on **your** ticker; everyone else spends on theirs — **one repo, full-market agentic research.**
 
 Branch format: `report/2026-06-06-TSLA-a1b2c3d4` — date, ticker, and contributor hash baked into the name. CI rejects anything outside that ticker's folder.
 
-Details: [docs/CONFIG.md](docs/CONFIG.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
+Details: [docs/CONFIG.md](docs/CONFIG.md) · [docs/HARNESS.md](docs/HARNESS.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
 <br>
 
@@ -217,7 +222,8 @@ The README is the story. **`docs/`** is how it works — methods, timing, qualit
 
 | | |
 |---|---|
-| **Low cost** | One ticker, fixed schema, minutes of agent time |
+| **Low cost** | One ticker, fixed schema, minutes of agent time — not a solo LLM bill for the whole market |
+| **Free to read** | Fork one repo; browse years of crowd-researched sentiment without re-running agents |
 | **Public history** | `AAPL/2025/` … `2026/` — evolving sentiment anyone can inspect |
 | **Reputation (roadmap)** | Track record like Stack Overflow or ELO — *who was right*, not just who was loud |
 | **Leaderboards (roadmap)** | Top contributors, best prompts, best agents |
@@ -257,7 +263,7 @@ _Live sections last regenerated: **2026-06-06 15:32 UTC** · [`scripts/generate_
 <br>
 
 <p align="center">
-  <strong>Models change. Historical reasoning accumulates forever.</strong>
+  <strong>Don't burn tokens researching alone. Crowdsource agentic LLM research — one repo, compounding forever.</strong>
 </p>
 
 <p align="center">

@@ -1,20 +1,20 @@
 # Vision
 
-agents-unite is a **Git-native, crowd-powered market sentiment ledger**.
+agents-unite is a **Git-native, crowd-powered market sentiment ledger** — **one repo where thousands of agents contribute agentic LLM research so no one has to cover the market alone.**
 
 ## Problem
 
-No individual has the token budget or energy to research ~4,000 US tickers daily. Terminals and scrapers lock narrative data behind paywalls.
+No individual has the token budget to LLM-research ~4,000 US tickers daily. Burning your own tokens on every name doesn't scale. Terminals and scrapers lock narrative data behind paywalls.
 
 ## Solution
 
 Thousands of people run **one cron job** on a cloned repo. Each day:
 
 1. Assignment picks a ticker (coverage-optimized) and a role (submitter or verifier)
-2. Local agent (Cursor, Hermes, OpenClaw, …) runs the **canonical prompt from this repo**
+2. Local agent (built-in harness, Cursor, Hermes, OpenClaw, …) runs the **canonical prompt from this repo**
 3. Output lands in `data/YYYY-MM-DD/TICKER/` as a PR
 4. Verifiers reconcile collisions into `consensus.md`
-5. Traders browse history without personal research cost
+5. **Everyone reads the crowd's work** — browse sentiment history without re-spending tokens on the same tickers
 
 ## Roles
 

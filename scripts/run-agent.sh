@@ -4,6 +4,8 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
+RUN_LLM=0
+[[ "${1:-}" == "--run" ]] && RUN_LLM=1
 
 ensure_gitignore() {
   local gitignore="$REPO_ROOT/.gitignore"
@@ -59,9 +61,28 @@ echo "  Date:     $DATE"
 echo "  Output:   $OUTPUT/"
 echo "  Prompt:   .agents-unite/prompt.md"
 echo ""
-echo "Next steps"
-echo "  1. Paste prompt into your agent (Cursor, Hermes, OpenClaw, ...)"
-echo "  2. python3 scripts/validate_report.py $OUTPUT/"
-echo "  3. ./scripts/commit-report.sh  OR  ./scripts/daily-run.sh (full auto)"
+
+if [[ "$RUN_LLM" == "1" ]]; then
+  AGENT_CMD="$(python3 -c "
+import sys; sys.path.insert(0,'scripts')
+from agent_config import resolve_agent_command
+print(resolve_agent_command() or '')
+" 2>/dev/null || true)"
+  if [[ -n "$AGENT_CMD" ]]; then
+    echo "Running agent: $AGENT_CMD"
+    eval "$AGENT_CMD" || exit 1
+    echo ""
+    echo "Done. Validate: python3 scripts/validate_report.py $OUTPUT/"
+  else
+    echo "No agent configured. Try: export OPENAI_API_KEY && python3 scripts/run_agent.py"
+    exit 1
+  fi
+else
+  echo "Next steps"
+  echo "  ./scripts/run-agent.sh --run     # built-in LLM (needs OPENAI_API_KEY)"
+  echo "  python3 scripts/run_agent.py   # same, after assign"
+  echo "  python3 scripts/validate_report.py $OUTPUT/"
+  echo "  ./scripts/commit-report.sh  OR  ./scripts/daily-run.sh"
+fi
 echo ""
 echo "Install cron: ./scripts/install-cron.sh"

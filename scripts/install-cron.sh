@@ -67,8 +67,10 @@ fi
 
 echo ""
 echo "Prerequisites:"
+echo "  - pip install -r requirements-llm.txt  (for built-in LLM harness)"
+echo "  - export OPENAI_API_KEY  OR  llm_provider: ollama in config"
 echo "  - gh auth login (for auto-PR)"
-echo "  - export GH_TOKEN or set github_token_env in config"
-echo "  - Set agent_command in config when ready for full automation"
+echo "  - agent_adapter: auto | llm | cursor | hermes | openclaw"
 echo ""
-echo "Test: ./scripts/daily-run.sh"
+echo "Test: ./scripts/run-agent.sh --run"
+echo "      ./scripts/daily-run.sh"

@@ -4,6 +4,7 @@ help:
 	@echo "Agents Unite — make targets"
 	@echo ""
 	@echo "  make run        Assign ticker, scaffold files, save prompt"
+	@echo "  make agent      Assign + run built-in LLM harness"
 	@echo "  make assign     Print today's ticker assignment (JSON)"
 	@echo "  make validate   Validate all reports under data/"
 	@echo "  make commit     Validate + commit today's report"
@@ -17,6 +18,9 @@ help:
 
 run:
 	./scripts/run-agent.sh
+
+agent:
+	./scripts/run-agent.sh --run
 
 assign:
 	python3 scripts/assign_ticker.py --json

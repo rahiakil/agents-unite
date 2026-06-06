@@ -24,8 +24,29 @@ detail_level: standard
 # Examples: cursor, claude, openclaw, hermes, manual
 agent_runtime: manual
 
-# Shell command to run agent with prompt file (optional)
-# agent_command: "cursor agent --print --force --workspace . -- $(cat .agents-unite/prompt.md)"
+# Agent adapter: auto | llm | cursor | hermes | openclaw | manual
+# auto = built-in LLM harness when API key / ollama is configured
+agent_adapter: auto
+
+# --- Built-in LLM harness (scripts/run_agent.py) ---
+# Works with OpenAI, OpenRouter, Ollama, Anthropic, any OpenAI-compatible API
+llm_provider: openai_compatible   # openai_compatible | anthropic | ollama
+llm_model: gpt-4o-mini
+llm_api_key_env: OPENAI_API_KEY
+# llm_base_url: http://127.0.0.1:11434/v1   # required for ollama
+llm_temperature: 0.3
+llm_max_tokens: 4096
+
+# Web search feeds the LLM real URLs (required for valid sources.json)
+web_search: true
+web_search_provider: duckduckgo    # duckduckgo | tavily | none
+tavily_api_key_env: TAVILY_API_KEY
+
+# Override adapter with explicit shell command (optional)
+# agent_command: "python3 scripts/run_agent.py"
+# agent_command: "bash scripts/adapters/cursor.sh"
+# Hermes: export HERMES_CMD='hermes run --prompt-file {prompt}'
+# OpenClaw: export OPENCLAW_CMD='openclaw task --input {prompt} --cwd {repo}'
 
 # Cron schedule (used by install-cron.sh)
 schedule: "0 6 * * *"

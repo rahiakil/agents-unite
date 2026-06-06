@@ -65,12 +65,12 @@ print(json.dumps(json.loads(raw.strip())))
 
   log "Assigned: role=$ROLE ticker=$TICKER date=$DATE"
 
-  # Run user agent if configured
+  # Run agent (built-in LLM harness, cursor, hermes, etc.)
   AGENT_CMD="$(python3 -c "
 import sys; sys.path.insert(0,'scripts')
-from au_common import load_yaml_config
-c=load_yaml_config()
-print(c.get('agent_command',''))
+from agent_config import resolve_agent_command
+cmd = resolve_agent_command()
+print(cmd or '')
 " 2>/dev/null || true)"
 
   if [[ -n "$AGENT_CMD" ]]; then

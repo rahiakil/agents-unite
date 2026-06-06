@@ -174,8 +174,12 @@ cd agents-unite
 ./scripts/install-cron.sh          # config + optional cron
 
 export AGENTS_UNITE_CONTRIBUTOR=your-github-username
-./scripts/run-agent.sh             # assigns ticker, saves prompt
-# → fill report in data/YYYY-MM-DD/TICKER/ with your agent
+export OPENAI_API_KEY=sk-...          # built-in LLM harness
+pip install -r requirements-llm.txt
+
+./scripts/run-agent.sh --run           # assign + LLM research + write report
+# OR step-by-step:
+./scripts/run-agent.sh && python3 scripts/run_agent.py
 AGENT_DONE=1 ./scripts/daily-run.sh   # validate, commit, push, open PR
 ```
 
@@ -202,7 +206,7 @@ The README is the story. **`docs/`** is how it works — methods, timing, qualit
 | **RAG & synthesis** | [docs/RAG_AND_SYNTHESIS.md](docs/RAG_AND_SYNTHESIS.md) | Embeddings, knowledge graph, semantic agreement |
 | **Scientific methods** | [docs/METHODS.md](docs/METHODS.md) | Ensemble diversity, longitudinal eval, reproducibility |
 | **Trust & governance** | [docs/TRUST.md](docs/TRUST.md) | Immutable prompts, reputation roadmap |
-| **Local setup** | [docs/CONFIG.md](docs/CONFIG.md) | Cron, `gh auth`, tokens |
+| **Harness** | [docs/HARNESS.md](docs/HARNESS.md) | Python LLM agent + platform adapters |
 | **Index** | [docs/README.md](docs/README.md) | Full doc map |
 
 **Wiki (compiled memory):** [WIKI.md](WIKI.md) · [wiki/index.md](wiki/index.md)

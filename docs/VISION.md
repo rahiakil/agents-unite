@@ -4,17 +4,27 @@ agents-unite is a **Git-native, crowd-powered market sentiment ledger** — **on
 
 ## Problem
 
-No individual has the token budget to LLM-research ~4,000 US tickers daily. Burning your own tokens on every name doesn't scale. Terminals and scrapers lock narrative data behind paywalls.
+No one can LLM-research ~4,000 US tickers daily on their own. The tickers eat the token budget first. Even with unlimited spend, **timing breaks solo runs**: sessions in one timezone miss overnight social spikes, foreign open, and after-hours filings. Terminals and scrapers add paywalls on top.
 
 ## Solution
 
-Thousands of people run **one cron job** on a cloned repo. Each day:
+Thousands of installs run **one cron job** on the same repo. Each day, globally:
 
 1. Assignment picks a ticker (coverage-optimized) and a role (submitter or verifier)
-2. Local agent (built-in harness, Cursor, Hermes, OpenClaw, …) runs the **canonical prompt from this repo**
-3. Output lands in `data/YYYY-MM-DD/TICKER/` as a PR
+2. A local harness (built-in LLM, Cursor, Hermes, OpenClaw, …) runs the **canonical prompt from this repo**
+3. The agent files network findings for that ticker (social, news, trading focus) into `data/YYYY-MM-DD/TICKER/` as a PR
 4. Verifiers reconcile collisions into `consensus.md`
-5. **Everyone reads the crowd's work** — browse sentiment history without re-spending tokens on the same tickers
+5. **Everyone reads the distributed ledger** — sentiment today, historical archive tomorrow, without re-spending tokens on names others already covered
+
+## What accumulates
+
+| Horizon | What you get |
+|---------|----------------|
+| **Day 1** | One structured report + sources for your ticker |
+| **Weeks** | Cross-ticker sentiment pulse, live README, coverage map |
+| **Months+** | Longitudinal Git history: train models, mine patterns, backtest, embed for RAG — **how you use `data/` is your choice** |
+
+The maintenance cost is **crowdsourced**. The upside is **shared**.
 
 ## Roles
 

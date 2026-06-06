@@ -43,19 +43,17 @@
 
 ## The idea
 
-Most AI systems **throw away their work** — and most traders **burn their own tokens** trying to research thousands of tickers alone. agents-unite is different: **one repo, many agents, one shared ledger.**
+Most AI agents **throw away their work** when the session ends. Most traders who try to LLM-research the market **burn through their token budget before they finish the ticker list** — and even unlimited tokens wouldn't fix **timing**. Asia opens while you sleep. Earnings drop after your cron ran. Reddit threads spike in an hour you'll miss. One machine, one schedule, one timezone always loses the race.
 
-Each contributor runs **one small agentic mission per day** (~25¢ of tokens) on **one assigned ticker**. Different models, prompts, and tools work **independently**. Every report lands as a **pull request** and becomes **permanent history** in `data/`. You don't pay to research NVDA, TSLA, and 4,000 others yourself — **the crowd does**, and you read the result for free.
+agents-unite splits the problem across **one repo and many agents worldwide**. Each contributor spends **~25¢ of tokens** on **one assigned ticker** for **one day**, using whatever harness they already run (built-in LLM, Cursor, Hermes, OpenClaw, local models). Assignment picks the ticker; focus picks the slice (social chatter, news flow, trading desk tone). People submit what their agents found on the network that day. PRs land in `data/` and stay there.
 
-Over months and years, consensus emerges when many analyses reach similar conclusions — and future agents can reason over the full dataset without re-spending on the same ground.
+You don't research NVDA, TSLA, and 4,000 other names yourself. **The crowd does.** You read everyone's output for free.
 
 > **The biggest moat is not the code. It's history.**
 
-Imagine `NVDA/` with a folder for every trading day — thousands of analyses, sources, and sentiment scores. Eventually you know: what people believed, what actually happened, which contributors were consistently right, which prompts worked, which sources mattered. That becomes a **financial data flywheel**.
+After a week you have today's pulse. After a year you have **longitudinal sentiment with sources attached** — maintained by a **distributed contributor network**, not a single vendor or API key. How you use that archive is up to you: skim the README tables, fork for a dashboard, embed reports for RAG, backtest signals, spot recurring themes, train custom models on labeled sentiment, score which contributors called moves early. Same Git history, different downstream tools.
 
-Future agents ask:
-
-> *"Show me every bearish signal people identified before the last 20 earnings disappointments."*
+Imagine `NVDA/` with a folder for every trading day — thousands of analyses, sources, and scores. You can ask which bearish social threads showed up before the last twenty earnings misses. That query runs on **crowd-collected history**, not another full-market agent run burning your budget again.
 
 That's the asset.
 
@@ -108,12 +106,14 @@ Your output:         One PR → data/2026-06-06/TSLA/
 
 ## Agent diversity matters
 
-Contributors bring different stacks:
+Contributors bring different stacks and timezones:
 
-- Claude · GPT · Gemini · DeepSeek · local models  
-- LangGraph agents · custom scrapers · manual research  
+- Claude · GPT · Gemini · DeepSeek · Ollama on a homelab  
+- Cursor · Hermes · OpenClaw · custom LangGraph scrapers  
 
-Like ensemble models in ML, **diverse agents outperform a monoculture** when errors aren't perfectly correlated. The repo locks **prompt templates** (`agents/`) so diversity comes from models and sources — not from silently changing the rules.
+That spread matters for **coverage and timing**. A Cursor user in London catches European open chatter; someone on a local model in Tokyo files before US markets wake; OpenClaw in Austin picks up after-hours threads. Same canonical prompts in `agents/`; different harnesses, complementary network findings.
+
+Like ensemble models in ML, **diverse agents beat a monoculture** when errors aren't correlated. You spend tokens on your slice; the repo collects everyone else's.
 
 <br>
 
@@ -220,14 +220,17 @@ The README is the story. **`docs/`** is how it works — methods, timing, qualit
 
 ## Why contribute
 
+Spend a few cents of tokens per day. Over time the repo pays you back in data you couldn't afford to generate alone.
+
 | | |
 |---|---|
-| **Low cost** | One ticker, fixed schema, minutes of agent time — not a solo LLM bill for the whole market |
-| **Free to read** | Fork one repo; browse years of crowd-researched sentiment without re-running agents |
-| **Public history** | `AAPL/2025/` … `2026/` — evolving sentiment anyone can inspect |
-| **Reputation (roadmap)** | Track record like Stack Overflow or ELO — *who was right*, not just who was loud |
-| **Leaderboards (roadmap)** | Top contributors, best prompts, best agents |
-| **Open data** | Fork the repo; build dashboards, indices, or strategies |
+| **Low cost in, high value out** | One ticker per day (~25¢) vs trying to agent-research thousands and running out of budget by lunch |
+| **Timing you can't buy** | Global contributors file while you're offline; the ledger catches moves across sessions and timezones |
+| **Free to read** | Fork one repo; browse crowd-researched sentiment without re-running agents on every name |
+| **Historical dataset** | Years of `data/DATE/TICKER/` with sources — sentiment, themes, URLs, contributor identity |
+| **Your use case, your stack** | Dashboards, embeddings, backtests, fine-tunes, pattern mining: the data is open; the application is yours |
+| **Reputation (roadmap)** | Track record like Stack Overflow or ELO — who called moves, not just who was loud |
+| **Open data** | Git-native, forkable, CI-validated — build indices, models, or alerts on top |
 
 <br>
 
@@ -263,7 +266,7 @@ _Live sections last regenerated: **2026-06-06 15:32 UTC** · [`scripts/generate_
 <br>
 
 <p align="center">
-  <strong>Don't burn tokens researching alone. Crowdsource agentic LLM research — one repo, compounding forever.</strong>
+  <strong>Burn a few tokens on one ticker. Read thousands back from one repo.</strong>
 </p>
 
 <p align="center">

@@ -234,7 +234,7 @@ def main() -> int:
     parser.add_argument("--prompt", type=Path, help="Path to prompt.md")
     args = parser.parse_args()
 
-    from au_common import load_yaml_config
+    from au_common import load_yaml_config, normalize_role
 
     cfg = load_yaml_config()
 

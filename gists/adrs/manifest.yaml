@@ -1,0 +1,31 @@
+# Architectural decision records — agents-unite
+# Publish: ./scripts/publish-gists.sh --series adrs
+
+repo_url: https://github.com/rahiakil/agents-unite
+series_title: "Architecture Decision Records — agents-unite gist series"
+series_slug: adrs
+
+gists:
+  - file: 01-role-pipeline.md
+    description: "ADR #1 — Research → verify → consensus. Ordered trust, not chat."
+    public: true
+
+  - file: 02-collision-policy.md
+    description: "ADR #2 — Multiple reports per ticker/day. Redundancy is a feature."
+    public: true
+
+  - file: 03-immutable-core.md
+    description: "ADR #3 — Contributors may only push data/. Path-guard CI."
+    public: true
+
+  - file: 04-assignment-coverage.md
+    description: "ADR #4 — Hash assignment + coverage optimizer for empty tickers."
+    public: true
+
+  - file: 05-verifier-pool.md
+    description: "ADR #5 — Opt-in verifiers, random daily role, prompt from repo only."
+    public: true
+
+  - file: 06-wiki-deferred.md
+    description: "ADR #6 — Second brain / wiki deferred until live data proves shape."
+    public: true

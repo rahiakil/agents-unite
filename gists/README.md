@@ -1,6 +1,15 @@
-# Market AI on Git — GitHub Gist series
+# GitHub Gist series — agents-unite
 
-15 public gists explaining **agents-unite**: crowdsourced agentic LLM market research in one repo.
+Four public gist series explaining **agents-unite**: crowdsourced agentic LLM market research in one repo.
+
+| Series | Dir | Posts | Index |
+|--------|-----|-------|-------|
+| **Market AI on Git** | `gists/` | 15 | [`published.json`](published.json) |
+| **Research Methods** | `gists/research/` | 6 | [`research/published.json`](research/published.json) |
+| **Signal Gating** | `gists/gating/` | 5 | [`gating/published.json`](gating/published.json) |
+| **Architecture ADRs** | `gists/adrs/` | 6 | [`adrs/published.json`](adrs/published.json) |
+
+See [`SERIES.md`](SERIES.md) for live gist index URLs after publish.
 
 ## Why gists?
 
@@ -31,7 +40,12 @@ Millions run stock sentiment agents daily and **never publish the output**. Gist
 Requires [GitHub CLI](https://cli.github.com/) (`gh auth login`):
 
 ```bash
-./scripts/publish-gists.sh           # create all public gists + index
+./scripts/publish-gists.sh --series market-ai    # Market AI (15 posts)
+./scripts/publish-gists.sh --series research     # Research methods (6)
+./scripts/publish-gists.sh --series gating       # Signal gating (5)
+./scripts/publish-gists.sh --series adrs         # Architecture ADRs (6)
+./scripts/publish-gists.sh --all                 # every series
+./scripts/publish-gists.sh --series market-ai --index-only  # refresh index only
 ./scripts/publish-gists.sh --dry-run
 ```
 

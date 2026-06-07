@@ -1,0 +1,27 @@
+# Trading gating gist series — agents-unite (future Phase 4)
+# Publish: ./scripts/publish-gists.sh --series gating
+
+repo_url: https://github.com/rahiakil/agents-unite
+series_title: "Signal Gating Criteria — agents-unite gist series"
+series_slug: gating
+
+gists:
+  - file: 01-signal-hierarchy.md
+    description: "Gating #1 — L0 reports → L4 execution. Nothing auto-trades in v1."
+    public: true
+
+  - file: 02-consensus-confidence.md
+    description: "Gating #2 — Low-confidence consensus never becomes a trade candidate."
+    public: true
+
+  - file: 03-score-and-sources.md
+    description: "Gating #3 — |score| ≥ 0.25 and ≥2 source types, ≥5 URLs."
+    public: true
+
+  - file: 04-liquidity-event-risk.md
+    description: "Gating #4 — Liquidity filters and earnings/FDA event-risk blocks."
+    public: true
+
+  - file: 05-reputation-strategy-registry.md
+    description: "Gating #5 — Reputation floors and per-strategy gate declarations."
+    public: true

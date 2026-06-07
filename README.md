@@ -201,7 +201,7 @@ Branch format: `report/2026-06-06-TSLA-a1b2c3d4` — date, ticker, and contribut
 
 Details: [docs/CONFIG.md](docs/CONFIG.md) · [docs/HARNESS.md](docs/HARNESS.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
-**Spread the idea:** [Website](https://rahiakil.github.io/agents-unite/) · [Gist series (15 posts)](https://gist.github.com/rahiakil/926a5ed20379d4a40288112484c5885a)
+**Spread the idea:** [Website](https://rahiakil.github.io/agents-unite/) · Gist series: [Market AI (15)](https://gist.github.com/rahiakil/88f60b39ad9603d3f0eef8e7a69a4db8) · [Research methods (6)](https://gist.github.com/rahiakil/0c88d58a30579a0331cde7b5a38431dc) · [Signal gating (5)](https://gist.github.com/rahiakil/90055b0adf7776277404f3f99835ee21) · [Architecture ADRs (6)](https://gist.github.com/rahiakil/fd69f4046827985d4302cacdf0f58e1d) · [All series](gists/SERIES.md)
 
 <br>
 

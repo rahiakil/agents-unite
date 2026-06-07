@@ -15,6 +15,14 @@ WEBSITE = REPO_ROOT / "website"
 OUT = WEBSITE / "_site"
 PUBLISHED = GISTS / "published.json"
 REPO_URL = "https://github.com/rahiakil/agents-unite"
+SITE_URL = "https://rahiakil.github.io/agents-unite"
+
+
+def rel(href: str, depth: int = 0) -> str:
+    """Resolve href relative to page depth (0 = site root, 1 = articles/)."""
+    if depth <= 0 or href.startswith(("http://", "https://", "//", "#")):
+        return href
+    return ("../" * depth) + href
 
 
 def md_to_html(text: str) -> str:
@@ -119,13 +127,21 @@ def md_to_html(text: str) -> str:
     return "\n".join(out)
 
 
-def shell(title: str, body: str, *, active: str = "home", desc: str = "") -> str:
+def shell(
+    title: str,
+    body: str,
+    *,
+    active: str = "home",
+    desc: str = "",
+    depth: int = 0,
+    extra_head: str = "",
+) -> str:
     meta = desc or title
     nav = [
-        ("home", "Home", "index.html"),
-        ("story", "Story", "story.html"),
-        ("series", "Series", "series.html"),
-        ("join", "Join", "join.html"),
+        ("home", "Home", rel("index.html", depth)),
+        ("story", "Story", rel("story.html", depth)),
+        ("series", "Series", rel("series.html", depth)),
+        ("join", "Join", rel("join.html", depth)),
     ]
     nav_html = "".join(
         f'<a href="{href}" class="nav-link{" active" if key == active else ""}">{label}</a>'
@@ -141,12 +157,13 @@ def shell(title: str, body: str, *, active: str = "home", desc: str = "") -> str
   <meta property="og:title" content="{html.escape(title)}">
   <meta property="og:description" content="{html.escape(meta)}">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="{rel("assets/style.css", depth)}">
+  {extra_head}
 </head>
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="index.html">~/agents-unite</a>
+      <a class="logo" href="{rel("index.html", depth)}">~/agents-unite</a>
       <nav>{nav_html}</nav>
       <a class="btn-sm" href="{REPO_URL}">star the repo on github →</a>
     </div>
@@ -168,8 +185,21 @@ def shell(title: str, body: str, *, active: str = "home", desc: str = "") -> str
 </html>"""
 
 
+def load_all_series() -> list[dict]:
+    """Load published.json from each gist series directory."""
+    series: list[dict] = []
+    for sub in ("", "research", "gating", "adrs"):
+        path = GISTS / sub / "published.json" if sub else PUBLISHED
+        if path.is_file():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            data.setdefault("series", sub or "market-ai")
+            series.append(data)
+    return series
+
+
 def build_index(published: dict) -> str:
     index_gist = published.get("index_url", "")
+    all_series = load_all_series()
     body = f"""
 <section class="hero">
   <p class="eyebrow">side project · one github repo · many people's agents</p>
@@ -215,15 +245,28 @@ def build_index(published: dict) -> str:
 </section>
 
 <section>
+  <h2>Gist series</h2>
+  <p>Short essays mirrored as <a href="{index_gist}">GitHub gists</a> — shareable without cloning the repo.</p>
+  <div class="series-catalog">
+"""
+    for s in all_series:
+        title = s.get("series_title", s.get("series", "Series"))
+        url = s.get("index_url", "")
+        n = len(s.get("gists", []))
+        if url:
+            body += f'    <a class="series-chip" href="{url}">{html.escape(title)} <span class="chip-count">{n}</span></a>\n'
+    body += """  </div>
+</section>
+
+<section>
   <h2>Market AI essays</h2>
-  <p>15 short write-ups. Also mirrored as <a href="{index_gist}">github gists</a> if you prefer those.</p>
+  <p>15 short write-ups on the website. <a href="series.html">Full list →</a></p>
   <ol class="series-list">
 """
     for i, g in enumerate(published.get("gists", []), 1):
         title = g.get("description", g.get("file", "")).split("—", 1)[-1].strip()
         body += f'    <li><a href="articles/{i:02d}.html">{html.escape(title)}</a></li>\n'
-    body += f"""  </ol>
-  <p><a href="series.html">full list →</a></p>
+    body += """  </ol>
 </section>
 
 <section class="cta-block">
@@ -325,22 +368,51 @@ def build_series_index(published: dict) -> str:
     return shell("Series", body, active="series", desc="15-part Market AI essay series.")
 
 
-def build_article(num: int, md_path: Path, published_entry: dict) -> str:
+def article_nav(num: int, total: int, *, depth: int = 1) -> str:
+    nav_prev = f"{num - 1:02d}.html" if num > 1 else None
+    nav_next = f"{num + 1:02d}.html" if num < total else None
+    series_href = rel("series.html", depth)
+    parts = ['<nav class="article-nav" aria-label="Article navigation">']
+    if nav_prev:
+        parts.append(f'<a class="nav-btn nav-prev" href="{nav_prev}"><span class="nav-label">Previous</span><span class="nav-arrow">←</span></a>')
+    else:
+        parts.append('<span class="nav-spacer"></span>')
+    parts.append(f'<a class="nav-index" href="{series_href}">#{num} of {total}</a>')
+    if nav_next:
+        parts.append(f'<a class="nav-btn nav-next" href="{nav_next}"><span class="nav-label">Next</span><span class="nav-arrow">→</span></a>')
+    else:
+        parts.append('<span class="nav-spacer"></span>')
+    parts.append("</nav>")
+    return "".join(parts)
+
+
+def build_article(num: int, md_path: Path, published_entry: dict, total: int) -> str:
     content = md_to_html(md_path.read_text(encoding="utf-8"))
     desc = published_entry.get("description", md_path.stem)
     gist = published_entry.get("url", "")
-    nav_prev = f"articles/{num-1:02d}.html" if num > 1 else None
-    nav_next = f"articles/{num+1:02d}.html" if num < 15 else None
-    nav = '<nav class="article-nav">'
-    if nav_prev:
-        nav += f'<a href="{nav_prev}">← Previous</a>'
-    nav += '<a href="series.html">Index</a>'
-    if nav_next:
-        nav += f'<a href="{nav_next}">Next →</a>'
-    nav += "</nav>"
-    extra = f'<p class="meta"><a href="{gist}">View on GitHub Gist</a> · <a href="{REPO_URL}">Star the repo</a></p>'
-    body = nav + f'<article class="prose">{content}</article>' + extra + nav
-    return shell(desc, body, active="series", desc=desc)
+    title_short = desc.split("—", 1)[-1].strip() if "—" in desc else desc
+    pct = round(100 * num / total)
+    progress = (
+        f'<div class="series-progress" role="progressbar" aria-valuenow="{num}" '
+        f'aria-valuemin="1" aria-valuemax="{total}" aria-label="Series progress">'
+        f'<div class="series-progress-fill" style="width:{pct}%"></div></div>'
+    )
+    hero = f"""<header class="article-hero">
+  <p class="article-eyebrow">Market AI on Git · essay {num}</p>
+  <div class="article-badge">{num:02d}</div>
+  {progress}
+  <h1 class="article-title">{html.escape(title_short)}</h1>
+</header>"""
+    nav_top = article_nav(num, total, depth=1)
+    nav_bottom = article_nav(num, total, depth=1)
+    extra = (
+        f'<aside class="article-footer">'
+        f'<a class="btn btn-secondary" href="{gist}">Read on GitHub Gist</a> '
+        f'<a class="btn btn-primary" href="{REPO_URL}">Star the repo</a>'
+        f"</aside>"
+    )
+    body = nav_top + hero + f'<article class="prose article-body">{content}</article>' + extra + nav_bottom
+    return shell(desc, body, active="series", desc=desc, depth=1)
 
 
 def main() -> None:
@@ -360,10 +432,13 @@ def main() -> None:
     (OUT / "series.html").write_text(build_series_index(published), encoding="utf-8")
 
     gists = published.get("gists", [])
+    total = len(gists)
     for i, entry in enumerate(gists, 1):
         md = GISTS / entry["file"]
         if md.is_file():
-            (OUT / "articles" / f"{i:02d}.html").write_text(build_article(i, md, entry), encoding="utf-8")
+            (OUT / "articles" / f"{i:02d}.html").write_text(
+                build_article(i, md, entry, total), encoding="utf-8"
+            )
 
     print(f"Built {OUT} ({len(list(OUT.rglob('*')))} files)")
 

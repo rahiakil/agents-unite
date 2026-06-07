@@ -46,7 +46,16 @@ jobs:
             BASE="${{ github.event.pull_request.base.sha }}"
             HEAD="${{ github.event.pull_request.head.sha }}"
             CHANGED=$(git diff --name-only "$BASE" "$HEAD" -- "${REPORT_GLOBS[@]}" || true)
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            BEFORE="${{ github.event.before }}"
+            HEAD="${{ github.sha }}"
+            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+              CHANGED=$(git ls-files "${REPORT_GLOBS[@]}" || true)
+            else
+              CHANGED=$(git diff --name-only "$BEFORE" "$HEAD" -- "${REPORT_GLOBS[@]}" || true)
+            fi
           else
+            # workflow_dispatch: full audit of all report dirs on main
             CHANGED=$(git ls-files "${REPORT_GLOBS[@]}" || true)
           fi
 

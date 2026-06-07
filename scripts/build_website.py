@@ -146,9 +146,9 @@ def shell(title: str, body: str, *, active: str = "home", desc: str = "") -> str
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="index.html">agents<span>-unite</span></a>
+      <a class="logo" href="index.html">~/agents-unite</a>
       <nav>{nav_html}</nav>
-      <a class="btn btn-sm" href="{REPO_URL}">⭐ Star on GitHub</a>
+      <a class="btn-sm" href="{REPO_URL}">star the repo on github →</a>
     </div>
   </header>
   <main class="wrap main-content">
@@ -156,11 +156,11 @@ def shell(title: str, body: str, *, active: str = "home", desc: str = "") -> str
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <p><strong>Markets change. Memory compounds.</strong></p>
+      <p><strong>Markets change. Memory compounds.</strong> (not investment advice)</p>
       <p>
-        <a href="{REPO_URL}">GitHub repo</a> ·
-        <a href="{REPO_URL}/blob/main/docs/HARNESS.md">Harness docs</a> ·
-        MIT · Not investment advice
+        <a href="{REPO_URL}">github repo</a> ·
+        <a href="{REPO_URL}/blob/main/docs/HARNESS.md">harness docs</a> ·
+        mit license
       </p>
     </div>
   </footer>
@@ -172,69 +172,65 @@ def build_index(published: dict) -> str:
     index_gist = published.get("index_url", "")
     body = f"""
 <section class="hero">
-  <p class="eyebrow">Open source · Crowdsourced · Agentic</p>
+  <p class="eyebrow">side project · one github repo · many people's agents</p>
   <h1>Building the World's Financial Memory</h1>
-  <p class="lead">Millions run LLM stock research alone and close the tab. We turn one ticker per day into permanent Git history — crowd-researched sentiment the whole market can read.</p>
+  <p class="lead">Millions run LLM stock research alone and close the tab. This repo saves one ticker per day as permanent Git history — crowd-researched sentiment anyone can fork.</p>
   <div class="hero-cta">
-    <a class="btn btn-primary" href="join.html">Join in 5 minutes</a>
-    <a class="btn btn-secondary" href="{REPO_URL}">View repository</a>
+    <a class="btn btn-primary" href="join.html">how to join</a>
+    <a class="btn btn-secondary" href="{REPO_URL}">view on github</a>
   </div>
-  <p class="hero-sub">~25¢ of tokens on your ticker · thousands of tickers from everyone · compounding on Git</p>
+  <p class="hero-sub">you spend ~25¢ on your ticker. everyone else's agents fill in the rest. data/ keeps growing.</p>
 </section>
 
 <section class="grid-3">
   <article class="card">
-    <h3>The problem</h3>
+    <h3>the problem</h3>
     <p>Solo LLM research burns budget and misses timezones. Work stays private. History vanishes.</p>
   </article>
   <article class="card">
-    <h3>The swap</h3>
-    <p>One repo, many agents. You research one assigned ticker. Everyone reads the growing <code>data/</code> archive.</p>
+    <h3>the swap</h3>
+    <p>One repo, many agents. You get one assigned ticker. Everyone reads the growing <code>data/</code> folder.</p>
   </article>
   <article class="card">
-    <h3>The moat</h3>
-    <p>Not the code — <strong>history</strong>. Years of labeled sentiment with sources. Fork it. Backtest it. Train on it.</p>
+    <h3>the moat</h3>
+    <p>Not the code — <strong>history</strong>. Years of sentiment with sources attached. Fork it, backtest it, train on it.</p>
   </article>
 </section>
 
 <section>
   <h2>How it works</h2>
   <div class="pipeline">
-    <div class="step"><span>1</span><strong>Assign</strong><p>One ticker · one role · one day</p></div>
-    <div class="arrow">→</div>
-    <div class="step"><span>2</span><strong>Research</strong><p>Cursor · OpenAI · CrewAI · Swarm</p></div>
-    <div class="arrow">→</div>
-    <div class="step"><span>3</span><strong>Verify</strong><p>Distributed audit layer</p></div>
-    <div class="arrow">→</div>
-    <div class="step"><span>4</span><strong>Consensus</strong><p>Weighted median signal</p></div>
-    <div class="arrow">→</div>
-    <div class="step"><span>5</span><strong>PR</strong><p>Permanent commit in <code>data/</code></p></div>
+    <div class="step"><span>1.</span><strong>Assign</strong><p>one ticker, one role, one day</p></div>
+    <div class="step"><span>2.</span><strong>Research</strong><p>cursor, openai, crewai, whatever you run</p></div>
+    <div class="step"><span>3.</span><strong>Verify</strong><p>someone audits URLs and claims</p></div>
+    <div class="step"><span>4.</span><strong>Consensus</strong><p>weighted median when multiple reports exist</p></div>
+    <div class="step"><span>5.</span><strong>PR</strong><p>merged into <code>data/</code> forever</p></div>
   </div>
 </section>
 
 <section>
   <h2>Git is the ledger</h2>
-  <p>Every report is a commit. Verifiers are validators. Consensus is finality. Immutable prompts and CI guards — blockchain-like coordination without a coin.</p>
-  <p><a href="story.html">Read the full story →</a></p>
+  <p>Every report is a commit. Verifiers check the work. Consensus picks a canonical view. Prompts are locked — you can't silently change the rules in your PR.</p>
+  <p><a href="story.html">read the longer version →</a></p>
 </section>
 
 <section>
-  <h2>Market AI series</h2>
-  <p>15 short essays on crowdsourced market AI — also on <a href="{index_gist}">GitHub Gists</a>.</p>
-  <ul class="series-list">
+  <h2>Market AI essays</h2>
+  <p>15 short write-ups. Also mirrored as <a href="{index_gist}">github gists</a> if you prefer those.</p>
+  <ol class="series-list">
 """
     for i, g in enumerate(published.get("gists", []), 1):
         title = g.get("description", g.get("file", "")).split("—", 1)[-1].strip()
         body += f'    <li><a href="articles/{i:02d}.html">{html.escape(title)}</a></li>\n'
-    body += f"""  </ul>
-  <p><a href="series.html">Browse all articles →</a></p>
+    body += f"""  </ol>
+  <p><a href="series.html">full list →</a></p>
 </section>
 
 <section class="cta-block">
-  <h2>Run one ticker today</h2>
+  <h2>Try it</h2>
   <pre><code>git clone {REPO_URL}.git
 cd agents-unite && ./scripts/setup.sh</code></pre>
-  <a class="btn btn-primary" href="join.html">Setup guide</a>
+  <a class="btn btn-primary" href="join.html">setup notes</a>
 </section>
 """
     return shell(

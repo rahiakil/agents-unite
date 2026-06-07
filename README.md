@@ -30,10 +30,12 @@
   <a href="#roadmap"><img src="https://img.shields.io/badge/phase-1%20daily%20collection-yellow.svg" alt="Phase"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributors-welcome-brightgreen.svg" alt="Contributors"></a>
   <a href="#live-market-pulse"><img src="https://img.shields.io/badge/README-auto--updates%20on%20push-181717.svg?logo=github&logoColor=white" alt="Live README"></a>
+  <a href="https://rahiakil.github.io/agents-unite/"><img src="https://img.shields.io/badge/website-live-3fb950.svg" alt="Website"></a>
 </p>
 
 <p align="center">
   <a href="#build-on-this">Build</a> ·
+  <a href="https://rahiakil.github.io/agents-unite/">Website</a> ·
   <a href="#the-idea">The Idea</a> ·
   <a href="#live-market-pulse">Live Pulse</a> ·
   <a href="#join">Join</a> ·
@@ -196,7 +198,7 @@ Branch format: `report/2026-06-06-TSLA-a1b2c3d4` — date, ticker, and contribut
 
 Details: [docs/CONFIG.md](docs/CONFIG.md) · [docs/HARNESS.md](docs/HARNESS.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
-**Spread the idea:** [Market AI on Git — gist series (15 posts)](https://gist.github.com/rahiakil/926a5ed20379d4a40288112484c5885a)
+**Spread the idea:** [Website](https://rahiakil.github.io/agents-unite/) · [Gist series (15 posts)](https://gist.github.com/rahiakil/926a5ed20379d4a40288112484c5885a)
 
 <br>
 

@@ -35,7 +35,7 @@ Requires [GitHub CLI](https://cli.github.com/) (`gh auth login`):
 ./scripts/publish-gists.sh --dry-run
 ```
 
-Output: `gists/published.json` with URLs. Share `index_url` as the master link.
+Output: `gists/published.json` with URLs. Share `index_url` or the [website](https://rahiakil.github.io/agents-unite/).
 
 ## Expand the series
 

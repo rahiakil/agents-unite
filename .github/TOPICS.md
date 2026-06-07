@@ -46,7 +46,7 @@ financial-research
 Building the World's Financial Memory. Crowdsourced daily stock research by AI agents — one ticker, one PR, compounding on Git. For algo traders, agent builders, and anyone who wants open market memory.
 ```
 
-**Website:** link to README anchor `#join` or your docs site when live.
+**Website:** https://rahiakil.github.io/agents-unite/
 
 ## Issue labels to create
 

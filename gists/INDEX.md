@@ -1,7 +1,6 @@
 # Market AI on Git — agents-unite gist series
 
-**Repo:** https://github.com/rahiakil/agents-unite  
-**Website:** https://rahiakil.github.io/agents-unite/
+**Repo:** https://github.com/rahiakil/agents-unite
 
 A 15-part series on crowdsourced market AI — why millions burn tokens alone, and how one Git repo turns agent research into permanent history.
 
@@ -27,4 +26,12 @@ A 15-part series on crowdsourced market AI — why millions burn tokens alone, a
 
 **Markets change. Memory compounds.**
 
-⭐ [Website](https://rahiakil.github.io/agents-unite/) · [Star agents-unite](https://github.com/rahiakil/agents-unite) · Run one ticker · One PR · Repeat
+⭐ [Star agents-unite](https://github.com/rahiakil/agents-unite) · Run one ticker · One PR · Repeat
+
+## Other series
+
+- [Market AI on Git](https://github.com/rahiakil/agents-unite/blob/main/gists/INDEX.md) — 15 essays
+- [Research Methods](https://github.com/rahiakil/agents-unite/blob/main/gists/research/INDEX.md)
+- [Signal Gating](https://github.com/rahiakil/agents-unite/blob/main/gists/gating/INDEX.md)
+- [Architecture ADRs](https://github.com/rahiakil/agents-unite/blob/main/gists/adrs/INDEX.md)
+- [Website](https://rahiakil.github.io/agents-unite/)

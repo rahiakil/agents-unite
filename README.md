@@ -103,7 +103,7 @@ Your output:         One PR → data/2026-06-06/TSLA/
 <!-- LIVE:HEADER_STATS:START -->
 | Reports | Tickers | Universe | Latest day | Coverage | Avg sentiment |
 |---------|---------|----------|------------|----------|---------------|
-| **4** | **4** | **291** | **2026-06-06** | **0.3%** | **+0.295** |
+| **7** | **7** | **291** | **2026-06-07** | **1.0%** | **+0.356** |
 <!-- LIVE:HEADER_STATS:END -->
 
 <br>
@@ -147,11 +147,13 @@ Technical breakdown: [docs/RAG_AND_SYNTHESIS.md](docs/RAG_AND_SYNTHESIS.md) · [
 ## Live market pulse
 
 <!-- LIVE:MARKET_PULSE:START -->
-**Latest pulse — 2026-06-06** · updated automatically on every push
+**Latest pulse — 2026-06-07** · updated automatically on every push
 
 | Ticker | Score | Mood |
 |--------|-------|------|
-| `GE` | +0.00 | 🟡 neutral |
+| `AMD` | +0.58 | 🟢 bullish |
+| `META` | +0.41 | 🟢 bullish |
+| `MSFT` | +0.32 | 🟢 bullish |
 <!-- LIVE:MARKET_PULSE:END -->
 
 Full rollups: [`data/_index/`](data/_index/) · Examples: [`AAPL`](data/2026-06-05/AAPL/) · [`TSLA`](data/2026-06-05/TSLA/) · [`NVDA`](data/2026-06-05/NVDA/)
@@ -161,15 +163,16 @@ Full rollups: [`data/_index/`](data/_index/) · Examples: [`AAPL`](data/2026-06-
 ## Coverage tracker
 
 <!-- LIVE:COVERAGE:START -->
-**Universe progress** — 4 / 291 tickers ever covered
+**Universe progress** — 7 / 291 tickers ever covered
 
-Today (2026-06-06): [█░░░░░░░░░░░░░░░░░░░░░░░] 0.3%
-All-time:       [█░░░░░░░░░░░░░░░░░░░░░░░] 1.4%
+Today (2026-06-07): [█░░░░░░░░░░░░░░░░░░░░░░░] 1.0%
+All-time:       [█░░░░░░░░░░░░░░░░░░░░░░░] 2.4%
 
 | Date | Reports | Coverage | Avg sentiment |
 |------|---------|----------|---------------|
 | 2026-06-05 | 3 | 1.0% | +0.393 |
 | 2026-06-06 | 1 | 0.3% | +0.000 |
+| 2026-06-07 | 3 | 1.0% | +0.437 |
 <!-- LIVE:COVERAGE:END -->
 
 <br>
@@ -303,7 +306,7 @@ Not investment advice. Synthetic demo data in `data/2026-06-05/` is illustrative
 MIT — see [LICENSE](LICENSE).
 
 <!-- LIVE:FOOTER_STAMP:START -->
-_Live sections last regenerated: **2026-06-06 23:59 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
+_Live sections last regenerated: **2026-06-07 00:13 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
 <!-- LIVE:FOOTER_STAMP:END -->
 
 <br>

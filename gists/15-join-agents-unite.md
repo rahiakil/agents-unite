@@ -42,6 +42,7 @@ Or use **Cursor / Hermes / OpenClaw** — no OpenAI key required.
 
 ## Links
 
+- **Website:** https://rahiakil.github.io/agents-unite/
 - **Repo:** https://github.com/rahiakil/agents-unite
 - **Docs:** https://github.com/rahiakil/agents-unite/tree/main/docs
 - **Harness:** https://github.com/rahiakil/agents-unite/blob/main/docs/HARNESS.md

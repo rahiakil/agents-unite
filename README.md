@@ -196,6 +196,8 @@ Branch format: `report/2026-06-06-TSLA-a1b2c3d4` — date, ticker, and contribut
 
 Details: [docs/CONFIG.md](docs/CONFIG.md) · [docs/HARNESS.md](docs/HARNESS.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
+**Spread the idea:** [Market AI on Git — gist series (15 posts)](https://gist.github.com/rahiakil/926a5ed20379d4a40288112484c5885a)
+
 <br>
 
 ## Build on this

@@ -19,14 +19,18 @@ AGENTS_DIR = REPO_ROOT / "agents"
 ASSIGNMENT_CACHE = REPO_ROOT / ".agents-unite"
 
 FOCUS_ROLES = ("sentiment", "news", "social", "trading", "full")
-DAILY_ROLES = ("research", "verify", "consensus")
+DAILY_ROLES = ("research", "verify", "consensus", "pr_open", "security_review")
+OPS_ROLES = ("summary_update", "patterns_hourly")
 WEEKLY_ROLES = ("patterns", "findings")
 DATE_MODES = ("utc_midnight", "us_close")
 DETAIL_LEVELS = ("minimal", "standard", "deep")
+DEFAULT_MAINTAINERS = ("rahiakil",)
 
 # Role lottery when roles_opt_in / verifier_opt_in (see assign_role.py)
-VERIFY_CHANCE = 0.20
-CONSENSUS_CHANCE = 0.15  # cumulative after verify band
+VERIFY_CHANCE = 0.18
+CONSENSUS_CHANCE = 0.12  # cumulative after verify band
+PR_OPEN_CHANCE = 0.08  # cumulative; maintainer nodes only
+SECURITY_REVIEW_CHANCE = 0.05  # cumulative; maintainer nodes only
 
 PROMPT_FILES = {
     "research": {
@@ -48,6 +52,10 @@ PROMPT_FILES = {
     "consensus": {"default": "consensus-run.md"},
     "patterns": {"default": "patterns-weekly.md"},
     "findings": {"default": "findings-weekly.md"},
+    "pr_open": {"default": "pr-open.md"},
+    "security_review": {"default": "security-review.md"},
+    "summary_update": {"default": "summary-update.md"},
+    "patterns_hourly": {"default": "patterns-hourly.md"},
 }
 
 
@@ -246,6 +254,44 @@ def is_weekly_role_day(investigation_date: str, contributor: str | None = None) 
     return (day_index + offset) % 7 == 0
 
 
+def maintainer_usernames() -> set[str]:
+    cfg = load_yaml_config()
+    raw = cfg.get("maintainers") or DEFAULT_MAINTAINERS
+    if isinstance(raw, str):
+        raw = [raw]
+    return {str(u).strip().lower() for u in raw if str(u).strip()}
+
+
+def is_maintainer(contributor: str | None = None) -> bool:
+    return contributor_id(contributor).lower() in maintainer_usernames()
+
+
+def find_verify_target() -> tuple[str, str] | None:
+    """Pick date/ticker with reports but no verification yet (backlog scan)."""
+    candidates: list[tuple[int, str, str]] = []
+    if not DATA_DIR.is_dir():
+        return None
+    for ticker_dir in sorted(DATA_DIR.glob("*/*/")):
+        if not ticker_dir.is_dir():
+            continue
+        day = ticker_dir.parent.name
+        ticker = ticker_dir.name
+        if day.startswith("_") or ticker.startswith("_"):
+            continue
+        reports = [p for p in ticker_dir.glob("report*.md") if p.name == "report.md" or p.name.startswith("report.")]
+        if not reports:
+            continue
+        verifications = list(ticker_dir.glob("verification*.md"))
+        if verifications:
+            continue
+        candidates.append((len(reports), day, ticker))
+    if not candidates:
+        return None
+    candidates.sort(reverse=True)
+    _, day, ticker = candidates[0]
+    return day, ticker
+
+
 def find_consensus_target() -> tuple[str, str] | None:
     """Pick date/ticker with reports + verifications ready for consensus."""
     candidates: list[tuple[int, str, str]] = []
@@ -275,7 +321,16 @@ def find_consensus_target() -> tuple[str, str] | None:
 
 def prompt_path_for(role: str, focus: str) -> Path:
     role = normalize_role(role)
-    if role in ("verify", "consensus", "patterns", "findings"):
+    if role in (
+        "verify",
+        "consensus",
+        "patterns",
+        "findings",
+        "pr_open",
+        "security_review",
+        "summary_update",
+        "patterns_hourly",
+    ):
         key = "default"
         bucket = role if role in PROMPT_FILES else "verify"
         name = PROMPT_FILES[bucket][key]
@@ -300,6 +355,16 @@ def make_branch_name(
     role = normalize_role(role)
     if role in WEEKLY_ROLES:
         return f"weekly/{role}/{investigation_date}-{user_hash}"
+    if role == "summary_update":
+        return f"ops/summary/{investigation_date}-{user_hash}"
+    if role == "patterns_hourly":
+        hour = datetime.now(timezone.utc).strftime("%H")
+        return f"hourly/patterns/{investigation_date}-{hour}-{user_hash}"
+    if role == "security_review":
+        return f"ops/security/{investigation_date}-{user_hash}"
+    if role == "pr_open":
+        safe_ticker = ticker.upper().replace(".", "-")
+        return f"report/{investigation_date}-{safe_ticker}-{user_hash}"
     safe_ticker = ticker.upper().replace(".", "-")
     return f"report/{investigation_date}-{safe_ticker}-{user_hash}"
 

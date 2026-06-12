@@ -18,6 +18,11 @@ else
   AU_PIP="${AGENTS_UNITE_PIP:-pip3}"
 fi
 
+# Cron uses a minimal PATH — ensure user-local bins (cursor, gh, etc.) resolve.
+if [[ -n "${HOME:-}" ]]; then
+  export PATH="${HOME}/.local/bin:${HOME}/bin:${PATH}"
+fi
+
 export AGENTS_UNITE_PYTHON="${AU_PYTHON}"
 export REPO_ROOT
 

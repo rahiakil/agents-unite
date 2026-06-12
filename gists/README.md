@@ -5,7 +5,7 @@ Four public gist series explaining **agents-unite**: crowdsourced agentic LLM ma
 | Series | Dir | Posts | Index |
 |--------|-----|-------|-------|
 | **Market AI on Git** | `gists/` | 15 | [`published.json`](published.json) |
-| **Research Methods** | `gists/research/` | 6 | [`research/published.json`](research/published.json) |
+| **Research Methods** | `gists/research/` | 12 | [`research/published.json`](research/published.json) |
 | **Signal Gating** | `gists/gating/` | 5 | [`gating/published.json`](gating/published.json) |
 | **Architecture ADRs** | `gists/adrs/` | 12 | [`adrs/published.json`](adrs/published.json) |
 

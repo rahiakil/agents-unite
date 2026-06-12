@@ -8,6 +8,7 @@ Technical depth for **agents-unite** — the [README](../README.md) is the publi
 | [GOVERNANCE.md](GOVERNANCE.md) | Dual merge paths — maintainer code vs contributor data |
 | [AGENT_SCHEDULING.md](AGENT_SCHEDULING.md) | Global stagger, cron, verifier backlog |
 | [DATA_CORRECTIONS.md](DATA_CORRECTIONS.md) | Fix wrong records via GitHub issues & amendments |
+| [GROWTH.md](GROWTH.md) | Popularity playbook + link to Research gist series |
 | [VISION.md](VISION.md) | Product goals, scale targets, phases |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | System diagram, assignment algorithm, repo layout |
 | [TIMING.md](TIMING.md) | Date folders, cron, UTC vs US close, branch naming |

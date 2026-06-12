@@ -24,7 +24,7 @@ Locked product decisions from founder review (2026-06-06).
 | 2026-06-07 | **Global stagger:** verifiers scan backlog; no single verifier hour | 24/7 contributor timezones | — |
 | 2026-06-07 | **Hourly:** `_index` summaries + `_patterns/hourly/` trading patterns | Post-merge freshness for builders | Maintainer cron nodes |
 | 2026-06-07 | **Corrections via GitHub:** data-correction + record-amendment issues; no silent edits | Auditable financial memory | Amendment schema in validator |
-| 2026-06-07 | **Weekly doc cleanup**; trends/analysis append-only | Docs rot; data compounds | Monday triage issue |
+| 2026-06-07 | **Research gists #7–12** | Growth, distribution, onboarding, ecosystem, reputation, OSS benchmarks | Publish via publish-gists.sh |
 
 ## Deferred (documented, not implemented)
 
@@ -35,6 +35,6 @@ Locked product decisions from founder review (2026-06-06).
 | Coordinated pump → outlier rejection automation | Verifier + MAD; full automation later |
 | Same contributor always same ticker | **Rejected for now** — unfair token load |
 | Wiki auto-ingest on every push | Manual / batch after data quality known |
-| `pr_open` / `security_review` in assign_role lottery | Prompts exist; wire weights in Phase 1b |
-| Hourly pattern cron workflow | Documented; maintainer node or GitHub Action |
+| `pr_open` / `security_review` in assign_role lottery | Wired in `assign_role.py` for maintainers |
+| Hourly pattern cron workflow | `scripts/run-hourly-ops.sh` + maintainer cron |
 | Amendment file validation in CI | Schema for `amendment.*.md` |

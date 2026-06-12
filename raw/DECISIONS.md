@@ -19,6 +19,12 @@ Locked product decisions from founder review (2026-06-06).
 | 2026-06-06 | **Token budget:** user picks `detail_level` at install (minimal/standard/deep) | Opt-in depth | — |
 | 2026-06-06 | **Second brain / wiki:** deferred until real user data accumulates | Documented in WIKI.md; manual ingest OK | Start after few days of live data |
 | 2026-06-06 | **Feedback:** GitHub issues welcome (`feedback` template) | Community-driven field suggestions | — |
+| 2026-06-07 | **Dual merge paths:** Rahil/maintainers merge platform code; contributor data through full pipeline | Code velocity vs data trust | — |
+| 2026-06-07 | **Six agent roles:** research, verify, consensus, pr_open, security_review, summary/patterns hourly | Specialized wakes; markdown-only outputs | Wire in `assign_role.py` |
+| 2026-06-07 | **Global stagger:** verifiers scan backlog; no single verifier hour | 24/7 contributor timezones | — |
+| 2026-06-07 | **Hourly:** `_index` summaries + `_patterns/hourly/` trading patterns | Post-merge freshness for builders | Maintainer cron nodes |
+| 2026-06-07 | **Corrections via GitHub:** data-correction + record-amendment issues; no silent edits | Auditable financial memory | Amendment schema in validator |
+| 2026-06-07 | **Weekly doc cleanup**; trends/analysis append-only | Docs rot; data compounds | Monday triage issue |
 
 ## Deferred (documented, not implemented)
 
@@ -29,3 +35,6 @@ Locked product decisions from founder review (2026-06-06).
 | Coordinated pump → outlier rejection automation | Verifier + MAD; full automation later |
 | Same contributor always same ticker | **Rejected for now** — unfair token load |
 | Wiki auto-ingest on every push | Manual / batch after data quality known |
+| `pr_open` / `security_review` in assign_role lottery | Prompts exist; wire weights in Phase 1b |
+| Hourly pattern cron workflow | Documented; maintainer node or GitHub Action |
+| Amendment file validation in CI | Schema for `amendment.*.md` |

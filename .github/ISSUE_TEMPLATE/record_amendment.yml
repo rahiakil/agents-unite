@@ -1,0 +1,39 @@
+---
+name: Record amendment
+description: Add information to an existing date/ticker without rewriting history
+title: "[amendment] TICKER YYYY-MM-DD — "
+labels: ["record-amendment", "triage"]
+---
+
+## Target record
+
+- **Date:** `data/YYYY-MM-DD/`
+- **Ticker:**
+- **Existing reports:** <!-- list report.*.md slugs if known -->
+
+## What are you adding?
+
+<!-- New sources, corrected context, missed catalyst. Not a full rewrite. -->
+
+## Sources (required)
+
+| URL | Type | Summary |
+|-----|------|---------|
+| https://... | news / reddit / twitter / other | |
+
+## Proposed files
+
+You will add (not edit existing reports):
+
+```
+data/YYYY-MM-DD/TICKER/amendment.<your_username>.1.md
+data/YYYY-MM-DD/TICKER/sources.amendment.<your_username>.1.json  # optional
+```
+
+## Contributor
+
+- **GitHub username:**
+
+Maintainers may assign a branch. Your PR will go through verify → consensus update.
+
+See [DATA_CORRECTIONS.md](https://github.com/rahiakil/agents-unite/blob/main/docs/DATA_CORRECTIONS.md).

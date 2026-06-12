@@ -4,7 +4,10 @@ Technical depth for **agents-unite** — the [README](../README.md) is the publi
 
 | Doc | What it explains |
 |-----|------------------|
-| [ROLES.md](ROLES.md) | Research, verify, consensus, weekly patterns/findings |
+| [ROLES.md](ROLES.md) | Research, verify, consensus, PR, security, hourly agents |
+| [GOVERNANCE.md](GOVERNANCE.md) | Dual merge paths — maintainer code vs contributor data |
+| [AGENT_SCHEDULING.md](AGENT_SCHEDULING.md) | Global stagger, cron, verifier backlog |
+| [DATA_CORRECTIONS.md](DATA_CORRECTIONS.md) | Fix wrong records via GitHub issues & amendments |
 | [VISION.md](VISION.md) | Product goals, scale targets, phases |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | System diagram, assignment algorithm, repo layout |
 | [TIMING.md](TIMING.md) | Date folders, cron, UTC vs US close, branch naming |

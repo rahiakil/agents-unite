@@ -2,7 +2,7 @@
 
 **Repo:** https://github.com/rahiakil/agents-unite
 
-A 6-part series from **agents-unite** — crowdsourced agentic market research on Git.
+A 12-part series from **agents-unite** — crowdsourced agentic market research on Git.
 
 ## Index
 
@@ -12,17 +12,24 @@ A 6-part series from **agents-unite** — crowdsourced agentic market research o
 4. [ADR #4 — Hash assignment + coverage optimizer for empty tickers.](https://gist.github.com/rahiakil/1374c9da9df0f9591821f5e27d27cbfb)
 5. [ADR #5 — Opt-in verifiers, random daily role, prompt from repo only.](https://gist.github.com/rahiakil/90d8e9c4a2b6e043a2baffe82bec61eb)
 6. [ADR #6 — Second brain / wiki deferred until live data proves shape.](https://gist.github.com/rahiakil/ab8e983a54ad31e924f4bcc5b367186a)
+7. ADR #7 — Dual merge paths: maintainer code vs contributor data pipeline *(publish to update link)*
+8. ADR #8 — Six agent wake roles: research through security review *(publish to update link)*
+9. ADR #9 — Staggered global cron; verifiers scan backlog *(publish to update link)*
+10. ADR #10 — Hourly summaries and trading pattern shards *(publish to update link)*
+11. ADR #11 — Corrections and amendments via GitHub issues *(publish to update link)*
+12. ADR #12 — Weekly doc cleanup; persistent trends never deleted *(publish to update link)*
+
+Run `./scripts/publish-gists.sh --series adrs` to publish ADRs #7–12 and refresh this index.
 
 ---
 
 **Markets change. Memory compounds.**
 
-⭐ [Star agents-unite](https://github.com/rahiakil/agents-unite) · Run one ticker · One PR · Repeat
+⭐ [Star agents-unite](https://github.com/rahiakil/agents-unite) · [GOVERNANCE.md](https://github.com/rahiakil/agents-unite/blob/main/docs/GOVERNANCE.md)
 
 ## Other series
 
 - [Market AI on Git](https://github.com/rahiakil/agents-unite/blob/main/gists/INDEX.md) — 15 essays
 - [Research Methods](https://github.com/rahiakil/agents-unite/blob/main/gists/research/INDEX.md)
 - [Signal Gating](https://github.com/rahiakil/agents-unite/blob/main/gists/gating/INDEX.md)
-- [Architecture ADRs](https://github.com/rahiakil/agents-unite/blob/main/gists/adrs/INDEX.md)
 - [Website](https://rahiakil.github.io/agents-unite/)

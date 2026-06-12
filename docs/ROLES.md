@@ -25,6 +25,12 @@ flowchart LR
 | 3 | **consensus** | `consensus.md` | ~15% — after verifications exist |
 | Weekly | **patterns** | `patterns.<user>.md` in `data/_patterns/DATE/` | ~1 day per 7 (staggered) |
 | Weekly | **findings** | `findings.<user>.md` in `data/_findings/DATE/` | ~1 day per 7 (staggered) |
+| Post-research | **pr_open** | GitHub PR opened/updated | After local validation passes |
+| Pre-merge | **security_review** | PR comment (approve / request_changes) | On open data PRs |
+| Hourly | **summary_update** | `data/_index/YYYY-MM-DD.md` | :15 each hour UTC (maintainer node) |
+| Hourly | **patterns_hourly** | `data/_patterns/hourly/YYYY-MM-DD-HH.md` | Each hour UTC |
+
+**Merge policy:** Maintainer (`rahiakil`) merges **platform code** directly. **Contributor data** must complete research → verify → consensus → PR → security review → CI. See [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Research (not sentiment-only)
 
@@ -66,6 +72,22 @@ Every **7 days** (hash-staggered per contributor, not everyone same calendar day
 Branches: `weekly/patterns/DATE-HASH`, `weekly/findings/DATE-HASH`
 
 Prompts: `agents/patterns-weekly.md`, `agents/findings-weekly.md`
+
+## PR open & security review
+
+| Role | Prompt | Output |
+|------|--------|--------|
+| **pr_open** | `agents/pr-open.md` | Push branch, `gh pr create`, labels |
+| **security_review** | `agents/security-review.md` | PR comment with scope/secrets verdict |
+
+## Hourly downstream agents
+
+| Role | Prompt | Output |
+|------|--------|--------|
+| **summary_update** | `agents/summary-update.md` | `data/_index/DATE.md` |
+| **patterns_hourly** | `agents/patterns-hourly.md` | `data/_patterns/hourly/DATE-HH.md` |
+
+Scheduling: [AGENT_SCHEDULING.md](AGENT_SCHEDULING.md)
 
 ## Configuration
 

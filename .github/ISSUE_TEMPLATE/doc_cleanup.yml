@@ -1,0 +1,29 @@
+---
+name: Documentation cleanup
+description: Flag stale, broken, or misleading documentation for weekly triage
+title: "[doc-cleanup] "
+labels: ["doc-cleanup", "documentation"]
+---
+
+## Document
+
+- **Path:** <!-- e.g. docs/HARNESS.md, README section -->
+- **Problem:** stale | broken link | wrong command | contradicts code | other
+
+## Details
+
+<!-- What changed? What should it say instead? -->
+
+## Persistent data (do NOT delete)
+
+Confirm this issue is **not** about:
+
+- `data/_patterns/` hourly or weekly files
+- Merged `report.*.md` or `consensus.md`
+- ADRs marked Accepted (supersede with new ADR instead)
+
+## Weekly triage
+
+Doc cleanup runs **Mondays UTC** — trends and analysis artifacts are never removed (ADR #12).
+
+See [GOVERNANCE.md](https://github.com/rahiakil/agents-unite/blob/main/docs/GOVERNANCE.md).

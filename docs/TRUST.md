@@ -50,8 +50,9 @@ The daily role prompt is selected by `scripts/assign_role.py` — not user-edita
 
 ## Auto-merge policy
 
-- Submitter PRs: CI schema pass → eligible for merge
-- **Verification** is always part of the intended pipeline (verifier PR or maintainer review)
-- `consensus.md` becomes downstream canonical input for wiki/analytics
+- **Platform code (maintainer):** Rahil / `@agents-unite/maintainers` merge directly when CI green — no sentiment pipeline.
+- **Contributor data PRs:** Must pass Contributor Guard + Validate Report + security_review comment + verify/consensus as applicable — then merge.
+- **Verification** is always part of the intended pipeline for external contributors.
+- `consensus.md` becomes downstream canonical input for wiki/analytics.
 
-See [CONSENSUS.md](CONSENSUS.md), [raw/DECISIONS.md](../raw/DECISIONS.md).
+See [GOVERNANCE.md](GOVERNANCE.md), [DATA_CORRECTIONS.md](DATA_CORRECTIONS.md), [CONSENSUS.md](CONSENSUS.md), [raw/DECISIONS.md](../raw/DECISIONS.md).

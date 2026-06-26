@@ -11,9 +11,11 @@ cd papers/agents-unite-consensus
 make pdf
 ```
 
-Output: `main.pdf`
+Output: `main.pdf` (committed to the branch)
 
 The pipeline figure is embedded in `main.tex` via TikZ (no external assets required).
+
+Rebuild after edits: `make clean && make pdf`
 
 ## Source mapping
 

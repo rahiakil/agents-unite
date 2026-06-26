@@ -232,6 +232,47 @@ Traditional git merge resolves line conflicts, not semantic disagreement.
 agents-unite uses \textbf{Option B + D} from the design log: allow parallel reports; verifiers write a single canonical file.
 Raw reports remain like transaction receipts; consensus is the settled state.
 
+Table~\ref{tab:blockchain} contrasts conventional blockchains with the agents-unite ledger model.
+
+\begin{table}[t]
+\centering
+\caption{Blockchain metaphors vs.\ Git-native implementation.}
+\label{tab:blockchain}
+\begin{tabular}{@{}p{0.22\linewidth}p{0.34\linewidth}p{0.34\linewidth}@{}}
+\toprule
+\textbf{Concept} & \textbf{Blockchain} & \textbf{agents-unite} \\
+\midrule
+Ledger & Chain of blocks & \texttt{data/} commit history \\
+Transaction & Signed tx & Validated PR + report \\
+Settlement & State root & \texttt{consensus.md} \\
+Ordering & Mining / consensus & CI merge + deterministic leader \\
+Identity & Wallet address & GitHub username \\
+Incentives & Native token & Reputation (off-chain) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Implementation phases}
+Delivery is staged to keep the ingestion layer simple while consensus matures (Table~\ref{tab:phases}).
+
+\begin{table}[t]
+\centering
+\caption{Roadmap phases from the reference repository.}
+\label{tab:phases}
+\begin{tabular}{@{}clp{0.48\linewidth}@{}}
+\toprule
+\textbf{Ph.} & \textbf{Status} & \textbf{Deliverable} \\
+\midrule
+1 & Active & Cron, assignment, multi-report layout, verifier prompts, path guard \\
+2 & Planned & Hourly shards, URL verification, nightly consensus batch \\
+3 & Planned & Automated consensus, reputation-weighted medians \\
+4 & Future & Stake-gated strategies, proof-of-human Sybil defense \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Phase~1 already enforces schema validation in CI (\texttt{validate-report.yml}), regenerates live README aggregates on push, and locks contributor edits to \texttt{data/} only via the contributor-guard workflow.
+
 \section{Coordination Without Proof-of-Work}
 \label{sec:coordination}
 
@@ -285,6 +326,15 @@ Raw ledger entries feed a planned multi-layer stack:
 Semantic consensus complements scalar medians: if independent agents embed to the same theme cluster (e.g., ``hyperscaler capex flattening''), cluster density elevates confidence even when numeric scores differ slightly.
 Source overlap (Jaccard on normalized URLs) provides a cheap agreement signal without embedding cost.
 
+The Karpathy LLM Wiki pattern~\cite{karpathywiki2024} provides a maintainer schema for compiling \texttt{wiki/} from immutable raw reports.
+Ingestion is deferred until live contributor data stabilizes; search and synthesis then operate on consensus-labeled history rather than re-querying live social feeds for every analytic question.
+
+\subsection{Why Git history is the asset}
+Unlike ephemeral chat sessions, each merged report is a durable observation with timestamp, contributor identity, and cited URLs.
+Downstream users may fork the repository, embed reports for retrieval-augmented generation, train accuracy models on contributor track records, or backtest whether low-confidence divergence periods preceded volatility spikes.
+The marginal cost of reading prior coverage is near zero; the marginal cost of \emph{producing} new coverage is amortized across thousands of agents.
+This asymmetry is the economic core of the system~\cite{agentsunite2026}.
+
 \section{Threat Model and Limitations}
 \label{sec:threats}
 
@@ -318,10 +368,14 @@ No real-time streaming or trade execution is in scope.
 agents-unite demonstrates that a public Git repository can function as a \textbf{global sentiment ledger} for AI-assisted market research.
 Independent agents across timezones contribute structured measurements; verifiers reconcile collisions into robust consensus artifacts; history compounds into a forkable asset no single vendor owns.
 
-Near-term engineering includes automated nightly consensus batches, hourly shard assignment, reputation-weighted medians, and embedding-based semantic agreement.
+Near-term engineering includes \texttt{scripts/consensus.py} for deterministic nightly batches, hourly shard assignment with SHA256 seeds that include the hour component, reputation-weighted medians, and embedding-based semantic agreement.
+Maintainer cron nodes will publish \texttt{\_index/} rollups and hourly pattern summaries for builders consuming the ledger as an API-free data product.
+
 Longer term, stake-gated strategy consumption and proof-of-human Sybil defenses may complete the economic alignment sketched in the design docs.
+Raft-style leader election~\cite{ongaro2014raft} supplies coordination without the energy cost of proof-of-work chains~\cite{nakamoto2008bitcoin}.
 
 The moat is not the code---it is \textbf{history}: years of dated, sourced, consensus-labeled beliefs queryable without re-spending tokens on full-universe agent runs.
+Future empirical work should measure consensus calibration (does \texttt{high} confidence correlate with lower ex-post error?), contributor reputation decay, and semantic cluster stability across earnings cycles.
 
 \section*{Acknowledgment}
 The authors thank the open-source contributors and early adopters who file daily reports into the shared ledger.

@@ -9,7 +9,16 @@ source "$REPO_ROOT/scripts/au-env.sh"
 
 STATE_DIR="$REPO_ROOT/.agents-unite"
 LOG_FILE="$STATE_DIR/daily-run.log"
+CRON_ENV="$STATE_DIR/cron.env"
 mkdir -p "$STATE_DIR"
+
+# Cron has a minimal environment — load API keys and PATH overrides here.
+if [[ -f "$CRON_ENV" ]]; then
+  set -a
+  # shellcheck source=/dev/null
+  source "$CRON_ENV"
+  set +a
+fi
 
 log() { echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] $*" | tee -a "$LOG_FILE"; }
 
@@ -89,11 +98,12 @@ print(cmd or '')
   log "Validating $OUTPUT"
   "$AU_PYTHON" scripts/validate_report.py "$OUTPUT/" || return 1
 
-  BRANCH="$("$AU_PYTHON" scripts/branch_name.py --contributor "${AGENTS_UNITE_CONTRIBUTOR:-}")"
+  BRANCH="$("$AU_PYTHON" -c 'import json,sys; print(json.loads(sys.argv[1]).get("branch",""))' "$META")"
+  [[ -z "$BRANCH" ]] && BRANCH="$("$AU_PYTHON" scripts/branch_name.py --contributor "${AGENTS_UNITE_CONTRIBUTOR:-}")"
   log "Branch: $BRANCH"
   git checkout -B "$BRANCH"
-  git add "data/$DATE/$TICKER/" || true
-  git add "data/$DATE/$TICKER/report"*.md "data/$DATE/$TICKER/sources"*.json "data/$DATE/$TICKER/consensus.md" 2>/dev/null || true
+  git add "$OUTPUT/" 2>/dev/null || true
+  git add "$OUTPUT"/*.md "$OUTPUT"/*.json 2>/dev/null || true
 
   if git diff --staged --quiet; then
     log "Nothing to commit"
@@ -129,9 +139,19 @@ alert_verifiers() {
   DATE="$(date -u +%Y-%m-%d)"
   echo "Daily run failed at $(date -u +%Y-%m-%dT%H:%M:%SZ). Manual verifier review needed." \
     >> "$STATE_DIR/failed-runs.log"
+
+  notify="$("$AU_PYTHON" -c "
+import sys; sys.path.insert(0,'scripts')
+from au_common import load_yaml_config
+print('true' if load_yaml_config().get('notify_on_failure', True) else 'false')
+" 2>/dev/null || echo "true")"
+  if [[ "$notify" != "true" ]]; then
+    log "notify_on_failure=false — skipping GitHub issue"
+    return
+  fi
   if command -v gh >/dev/null 2>&1; then
     gh issue create --title "daily-run failed: $DATE" \
-      --body "Automated daily run failed after retry. See .agents-unite/daily-run.log" 2>/dev/null || true
+      --body "Automated daily run failed after retry. See .agents-unite/daily-run.log and cron.log" 2>/dev/null || true
   fi
 }
 

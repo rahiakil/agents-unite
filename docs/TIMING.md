@@ -60,6 +60,39 @@ Phase 2 adds intraday paths: `data/DATE/TICKER/HH/`. Consensus and Raft leader e
 
 ## Cron resilience
 
-`scripts/daily-run.sh`: retry once on failure, then open a verifier alert issue. Config: `retry_on_failure: true`.
+`scripts/daily-run.sh`: retry once on failure, then log and optionally open a GitHub issue.
+
+| Setting | Default | Purpose |
+|---------|---------|---------|
+| `retry_on_failure` | `true` | One retry after 30s |
+| `notify_on_failure` | `true` | Open `daily-run failed: DATE` issue via `gh` |
+
+### Local cron vs GitHub Actions
+
+**Daily agent runs are local cron**, not GitHub Actions. CI only validates PRs after you push.
+
+```
+crontab → daily-run.sh → assign → agent → validate → commit → gh pr create
+```
+
+Install: `./scripts/install-cron.sh` or add:
+
+```cron
+0 6 * * * cd /path/to/agents-unite && ./scripts/daily-run.sh >> .agents-unite/cron.log 2>&1
+```
+
+Logs: `.agents-unite/cron.log`, `.agents-unite/daily-run.log`, `.agents-unite/failed-runs.log`
+
+### Common cron failures
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| `cursor CLI not found` | PATH in cron | `scripts/au-env.sh` adds `~/.local/bin`; or set PATH in crontab |
+| `Authentication required… CURSOR_API_KEY` | Cursor CLI in headless cron | Use `agent_adapter: llm` + Ollama, or put `CURSOR_API_KEY` in `.agents-unite/cron.env` |
+| `No agent_command set` | `agent_adapter: manual` | Set `agent_adapter: llm` or `auto` with API key |
+| Issues #N "daily-run failed" | Agent step failed 2× | Fix auth; set `notify_on_failure: false` to stop issue spam |
+| Validation failed | Empty sources / scaffold | Agent did not complete; check LLM timeout |
+
+Secrets for cron: copy `config/cron.env.example` → `.agents-unite/cron.env`
 
 See [CONFIG.md](CONFIG.md) for install and `GH_TOKEN`.

@@ -66,3 +66,6 @@ auto_pr: true
 
 # Retry failed agent once before alerting verifiers
 retry_on_failure: true
+
+# Open GitHub issue when daily-run fails after retries (cron only)
+notify_on_failure: true

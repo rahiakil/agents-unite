@@ -9,6 +9,8 @@ on:
 
 permissions:
   id-token: write
+  packages: write
+  contents: read
 
 jobs:
   build:
@@ -62,10 +64,11 @@ jobs:
           path: dist/
 
       - name: Publish to GitHub Packages (Python)
-        uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          user: __token__
-          password: ${{ secrets.GITHUB_TOKEN }}
-          repository-url: https://upload.pkg.github.com/rahiakil/
-          skip-existing: true
-          attestations: false
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install twine
+          python -m twine upload --non-interactive \
+            --repository-url https://upload.pkg.github.com/rahiakil/agents-unite \
+            dist/*

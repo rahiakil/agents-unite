@@ -71,6 +71,40 @@ def cmd_run(args: argparse.Namespace) -> int:
     return rc
 
 
+def cmd_research(args: argparse.Namespace) -> int:
+    """Direct human-triggered research for one or more tickers (bypasses daily assignment)."""
+    root = repo_root()
+    argv: list[str] = []
+    if args.tickers:
+        argv += ["--tickers", ",".join(t.strip().upper() for t in args.tickers)]
+    else:
+        argv += ["--count", str(args.count)]
+    if args.date:
+        argv += ["--date", args.date]
+    if args.model:
+        argv += ["--model", args.model]
+    if args.contributor:
+        argv += ["--contributor", args.contributor]
+    if args.skip_existing:
+        argv += ["--skip-existing"]
+    if args.dry_run:
+        argv += ["--dry-run"]
+    if args.max_tokens:
+        argv += ["--max-tokens", str(args.max_tokens)]
+    return _run(root, "run_batch.py", *argv, check=False)
+
+
+def cmd_coverage(args: argparse.Namespace) -> int:
+    """Show which tickers are covered / uncovered for a date."""
+    root = repo_root()
+    argv = []
+    if args.date:
+        argv += ["--date", args.date]
+    if args.uncovered:
+        argv += ["--uncovered"]
+    return _run(root, "coverage_report.py", *argv, check=False)
+
+
 def cmd_daily(_: argparse.Namespace) -> int:
     return _shell(repo_root(), "scripts/daily-run.sh")
 
@@ -102,9 +136,20 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="agents-unite",
         description="Git-native market research ledger — assign, run agents, validate, daily cron.",
+        epilog=(
+            "Common flows:\n"
+            "  agents-unite init                       set up local config\n"
+            "  agents-unite daily                      run today's assigned ticker + open PR (cron uses this)\n"
+            "  agents-unite research NVDA              cover a specific ticker on demand\n"
+            "  agents-unite research NVDA AMD GOOGL    cover several tickers now\n"
+            "  agents-unite research --count 5         cover 5 least-covered tickers today\n"
+            "  agents-unite coverage --uncovered       list tickers with no report today\n"
+            "\nRun 'agents-unite <command> --help' for command-specific options."
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
-    sub = parser.add_subparsers(dest="command")
+    sub = parser.add_subparsers(dest="command", metavar="<command>")
 
     sub.add_parser("version", help="Print package and repo version").set_defaults(func=cmd_version)
 
@@ -120,6 +165,34 @@ def main(argv: list[str] | None = None) -> int:
     p_run = sub.add_parser("run", help="Run investigation agent harness")
     p_run.add_argument("--assign", action="store_true", help="Assign + scaffold before run")
     p_run.set_defaults(func=cmd_run)
+
+    p_research = sub.add_parser(
+        "research",
+        help="Directly research specific ticker(s) on demand (human-triggered)",
+        description="Run the research agent for tickers you choose, e.g. to fill a coverage gap.",
+        epilog=(
+            "Examples:\n"
+            "  agents-unite research NVDA\n"
+            "  agents-unite research NVDA AMD GOOGL --model gemma4:latest\n"
+            "  agents-unite research --count 5 --skip-existing\n"
+            "  agents-unite research TSLA --date 2026-07-11 --dry-run"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    p_research.add_argument("tickers", nargs="*", help="Ticker symbols (e.g. NVDA AMD). Omit to use --count.")
+    p_research.add_argument("--count", type=int, default=3, help="Least-covered tickers to pick when none given")
+    p_research.add_argument("--date", help="YYYY-MM-DD (default: today)")
+    p_research.add_argument("--model", help="Override llm_model (e.g. gemma4:latest, gpt-4o-mini)")
+    p_research.add_argument("--contributor", help="GitHub username override")
+    p_research.add_argument("--skip-existing", action="store_true", help="Skip tickers with valid reports")
+    p_research.add_argument("--max-tokens", type=int, help="LLM max_tokens (default 8192 for batch)")
+    p_research.add_argument("--dry-run", action="store_true", help="Show plan, no LLM call")
+    p_research.set_defaults(func=cmd_research)
+
+    p_cov = sub.add_parser("coverage", help="Show covered / uncovered tickers for a date")
+    p_cov.add_argument("--date", help="YYYY-MM-DD (default: today)")
+    p_cov.add_argument("--uncovered", action="store_true", help="List only tickers with no report")
+    p_cov.set_defaults(func=cmd_coverage)
 
     sub.add_parser("daily", help="Full daily pipeline (assign → agent → validate → PR)").set_defaults(
         func=cmd_daily

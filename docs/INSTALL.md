@@ -152,11 +152,36 @@ PyPI: https://pypi.org/project/agents-unite/
 | `agents-unite init` | Create `.agents-unite/config.yaml` from examples |
 | `agents-unite assign` | Today's role + ticker (JSON) |
 | `agents-unite run --assign` | Assign, scaffold, run investigation agent |
+| `agents-unite research NVDA` | **Directly research a ticker on demand** (fill a coverage gap) |
+| `agents-unite coverage --uncovered` | List tickers with no report today |
 | `agents-unite daily` | Full cron pipeline (assign → agent → validate → PR) |
 | `agents-unite validate data/YYYY-MM-DD/TICKER/` | Schema + prompt checks |
 | `agents-unite version` | Package version and repo path |
 
+Every command supports `--help`, e.g. `agents-unite research --help`.
+
 Set `AGENTS_UNITE_ROOT=/path/to/repo` if you run the CLI from outside the checkout.
+
+### Direct, human-triggered research
+
+The daily cron picks one ticker for you. But if you spot a name with **no coverage**, research it immediately — no waiting for tomorrow's assignment:
+
+```bash
+# See what's missing
+agents-unite coverage --uncovered
+
+# Cover it (any of these forms)
+agents-unite research NVDA
+agents-unite research NVDA AMD GOOGL --model gemma4:latest
+agents-unite research --count 5 --skip-existing     # 5 least-covered today
+agents-unite research TSLA --dry-run                 # preview, no LLM call
+
+# Without pip (from the repo root)
+./research.sh NVDA AMD
+./scripts/coverage_report.py --uncovered
+```
+
+Each run writes validated `data/YYYY-MM-DD/TICKER/report.<user>.md` + `sources.<user>.json`. Commit and open a PR, or let `agents-unite daily` handle the single-ticker PR flow.
 
 ---
 

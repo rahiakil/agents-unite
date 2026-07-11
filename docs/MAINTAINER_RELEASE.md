@@ -19,21 +19,31 @@ git push origin v0.1.0
 
 ## PyPI one-time setup
 
-### Option A — Trusted publishing (recommended)
+### Option A — Trusted publishing (recommended, no token)
 
 1. Create project at https://pypi.org/manage/projects/ (`agents-unite`)
 2. **Publishing** → **Add a new pending publisher**
-3. PyPI project name: `agents-unite`
-4. Owner: `rahiakil`, repo: `agents-unite`, workflow: `release.yml`, environment: `pypi`
-5. Create GitHub environment `pypi` under repo Settings → Environments (optional but matches workflow)
-
-No API token needed when trusted publishing is configured.
+3. Fill in:
+   - PyPI project: `agents-unite`
+   - Owner: `rahiakil`
+   - Repository: `agents-unite`
+   - Workflow: `release.yml`
+   - **Environment name:** leave **blank** (repo-level publisher)
+4. Re-run the failed `pypi-publish` job on the release workflow, or tag `v0.1.1`
 
 ### Option B — API token
 
-1. Create PyPI API token (project-scoped)
-2. Repo secret: `PYPI_API_TOKEN`
-3. Workflow uses token as fallback with trusted publishing
+1. Create PyPI API token (project-scoped for `agents-unite`)
+2. GitHub repo → Settings → Secrets → `PYPI_API_TOKEN`
+3. Re-run `pypi-publish` on the latest release workflow
+
+### Re-run after setup
+
+```bash
+gh run rerun <run-id> --job pypi-publish
+# or push a patch tag:
+git tag v0.1.1 && git push origin v0.1.1
+```
 
 ## Verify
 

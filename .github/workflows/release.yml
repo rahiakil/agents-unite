@@ -54,9 +54,6 @@ jobs:
   pypi-publish:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: pypi
-      url: https://pypi.org/p/agents-unite
     permissions:
       id-token: write
     steps:
@@ -65,7 +62,7 @@ jobs:
           name: dist
           path: dist/
 
-      - name: Publish to PyPI (trusted publishing or API token)
+      - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}

@@ -7,42 +7,44 @@
 3. Commit, push, tag:
 
 ```bash
-git tag v0.1.0
+git tag v0.1.3
 git push origin main
-git push origin v0.1.0
+git push origin v0.1.3
 ```
 
-4. GitHub Actions runs [release.yml](../.github/workflows/release.yml):
-   - Builds sdist + wheel
-   - Creates GitHub Release with `.github/RELEASE_BODY.md`
-   - Publishes to PyPI via `pypa/gh-action-pypi-publish`
+4. GitHub Actions runs:
+   - [release.yml](../.github/workflows/release.yml) — GitHub Release + wheel assets
+   - [publish-pypi.yml](../.github/workflows/publish-pypi.yml) — PyPI upload
 
-## PyPI one-time setup
+## PyPI trusted publisher — exact form values
 
-### Option A — Trusted publishing (recommended, no token)
+On https://pypi.org → your project → **Publishing** → **Add a new pending publisher**:
 
-1. Create project at https://pypi.org/manage/projects/ (`agents-unite`)
-2. **Publishing** → **Add a new pending publisher**
-3. Fill in exactly (must match GitHub claims):
-   - PyPI project: `agents-unite`
-   - Owner: `rahiakil`
-   - Repository: `agents-unite`
-   - Workflow filename: `release.yml`
-   - **Environment name:** leave **blank** (repo-level publisher; matches GitHub ↔ PyPI link)
+| PyPI field | Enter this | Do NOT enter |
+|------------|------------|--------------|
+| **PyPI project name** | `agents-unite` | — |
+| **Owner** | `rahiakil` | `https://github.com/rahiakil` |
+| **Repository name** | `agents-unite` | `rahiakil/agents-unite` or full URL |
+| **Workflow name** | `publish-pypi.yml` | `Publish PyPI` (display name) or `release.yml` |
+| **Environment name** | *(leave blank)* | `pypi` unless you configured GitHub Environment |
+
+The **repository name** field is only the repo slug — the part after the slash in `rahiakil/agents-unite`. Putting the full URL or `owner/repo` in that box causes **invalid repository name**.
+
+The **workflow name** field is the **filename** under `.github/workflows/`, not the workflow's `name:` label in YAML.
 
 ### Option B — API token
 
 1. Create PyPI API token (project-scoped for `agents-unite`)
 2. GitHub repo → Settings → Secrets → `PYPI_API_TOKEN`
-3. Re-run `pypi-publish` on the latest release workflow
+3. Re-run **Publish PyPI** workflow or push a new tag
 
-### Re-run after setup
+### Test without tagging
 
 ```bash
-gh run rerun <run-id> --job pypi-publish
-# or push a patch tag:
-git tag v0.1.1 && git push origin v0.1.1
+gh workflow run publish-pypi.yml --repo rahiakil/agents-unite
 ```
+
+*(Only works after a tag exists with a built package, or use workflow_dispatch after merging publish-pypi.yml.)*
 
 ## Verify
 
@@ -50,3 +52,5 @@ git tag v0.1.1 && git push origin v0.1.1
 pip install "agents-unite[llm]"
 agents-unite version
 ```
+
+PyPI project page: https://pypi.org/project/agents-unite/

@@ -1,12 +1,13 @@
-name: Release
+name: Publish PyPI
 
+# Trusted publisher on PyPI must match this filename exactly: publish-pypi.yml
 on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
 
 permissions:
-  contents: write
   id-token: write
 
 jobs:
@@ -20,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install build tools
-        run: pip install build twine
+        run: pip install build
 
       - name: Build sdist and wheel
         run: python -m build
@@ -31,23 +32,19 @@ jobs:
           name: dist
           path: dist/
 
-  github-release:
+  pypi-publish:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
-      - uses: actions/checkout@v5
-
       - uses: actions/download-artifact@v5
         with:
           name: dist
           path: dist/
 
-      - name: Create GitHub Release
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          TAG="${GITHUB_REF_NAME}"
-          gh release create "$TAG" dist/* \
-            --title "agents-unite ${TAG} — The Bitcoin of Knowledge, Built by AI Agents" \
-            --notes-file .github/RELEASE_BODY.md
-
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          skip-existing: true

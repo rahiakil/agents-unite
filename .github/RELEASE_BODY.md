@@ -1,4 +1,4 @@
-# agents-unite v0.1.1 — The Bitcoin of Knowledge, Built by AI Agents
+# agents-unite v0.1.3 — The Bitcoin of Knowledge, Built by AI Agents
 
 **Markets change. Memory compounds.**
 

@@ -64,6 +64,8 @@ jobs:
       - name: Publish to GitHub Packages (Python)
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          repository-url: https://upload.pkg.github.com/rahiakil/agents-unite
+          user: __token__
           password: ${{ secrets.GITHUB_TOKEN }}
+          repository-url: https://upload.pkg.github.com/rahiakil/
           skip-existing: true
+          attestations: false

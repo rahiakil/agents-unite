@@ -9,10 +9,114 @@
 ```bash
 pip install "agents-unite[llm]"
 git clone https://github.com/rahiakil/agents-unite.git
-cd agents-unite && agents-unite init && ./scripts/install-cron.sh
+cd agents-unite && agents-unite init && agents-unite configure
 ```
 
-That's it. Cron wakes your agent daily → assign ticker → LLM research → validate → PR.
+That's it. After `configure`, cron or `agents-unite daily` runs research → validate → PR.
+
+---
+
+## Install from PyPI or GitHub Packages
+
+We publish **the same wheel** to both registries on every tag — pick whichever is easier.
+
+### PyPI (default, widest reach)
+
+```bash
+pip install "agents-unite[llm]"
+```
+
+https://pypi.org/project/agents-unite/
+
+### GitHub Packages (same repo, no PyPI account needed)
+
+```bash
+pip install "agents-unite[llm]" \
+  --extra-index-url https://pypi.pkg.github.com/rahiakil/simple/
+```
+
+For private forks, authenticate with a GitHub PAT (`read:packages`):
+
+```bash
+pip install "agents-unite[llm]" \
+  --extra-index-url https://YOUR_GITHUB_USER:YOUR_TOKEN@pypi.pkg.github.com/rahiakil/simple/
+```
+
+### GitHub Release wheel (direct download)
+
+```bash
+pip install "agents-unite[llm] @ https://github.com/rahiakil/agents-unite/releases/latest/download/agents_unite-0.1.4-py3-none-any.whl"
+```
+
+---
+
+## After pip install — configure LLM & API key
+
+PyPI only installs the **CLI**. You still **clone the repo** to contribute reports. Then:
+
+| Step | Command | What it does |
+|------|---------|--------------|
+| 1 | `git clone https://github.com/rahiakil/agents-unite.git && cd agents-unite` | Prompts, universe, `data/` |
+| 2 | `agents-unite init` | Creates `.agents-unite/config.yaml` (gitignored) |
+| 3 | **`agents-unite configure`** | **Interactive: pick Ollama / OpenAI / Cursor / manual + API key** |
+| 4 | `agents-unite research NVDA --dry-run` | Test without LLM cost |
+| 5 | `agents-unite research NVDA` or `agents-unite daily` | Write validated report |
+
+### Option A — Ollama (local, free, no API key)
+
+1. Install [Ollama](https://ollama.com) and pull a model: `ollama pull gemma4:latest`
+2. Run `agents-unite configure` → choose **1) Ollama**
+3. No API key needed — calls stay on `http://127.0.0.1:11434`
+
+Or edit `.agents-unite/config.yaml` manually:
+
+```yaml
+github_username: your-github-username
+agent_adapter: llm
+llm_provider: ollama
+llm_model: gemma4:latest
+llm_base_url: http://127.0.0.1:11434/v1
+web_search: true
+```
+
+### Option B — OpenAI (or compatible API)
+
+1. Run `agents-unite configure` → choose **2) OpenAI**
+2. Paste your key when prompted (saved to `.agents-unite/cron.env`, gitignored)
+
+Or set manually:
+
+```bash
+export OPENAI_API_KEY=sk-...          # current shell / test runs
+```
+
+```yaml
+# .agents-unite/config.yaml
+agent_adapter: llm
+llm_provider: openai_compatible
+llm_model: gpt-4o-mini
+llm_api_key_env: OPENAI_API_KEY
+web_search: true
+```
+
+```bash
+# .agents-unite/cron.env  (for unattended daily cron)
+OPENAI_API_KEY=sk-...
+```
+
+### Option C — OpenRouter / custom endpoint
+
+`agents-unite configure` → **3)** then set base URL, e.g. `https://openrouter.ai/api/v1`.
+
+### Where credentials live (never committed)
+
+| File | Contents | In git? |
+|------|----------|---------|
+| `.agents-unite/config.yaml` | username, adapter, model name | **No** |
+| `.agents-unite/cron.env` | API keys for cron | **No** |
+| Shell `export OPENAI_API_KEY=...` | session-only key | **No** |
+
+Keys go only to **your** LLM provider. See [Credentials & privacy](#credentials--privacy).
 
 ### What PyPI installs vs what you clone
 
@@ -150,6 +254,7 @@ PyPI: https://pypi.org/project/agents-unite/
 | Command | Description |
 |---------|-------------|
 | `agents-unite init` | Create `.agents-unite/config.yaml` from examples |
+| `agents-unite configure` | **Interactive LLM + API key setup** (after pip install) |
 | `agents-unite assign` | Today's role + ticker (JSON) |
 | `agents-unite run --assign` | Assign, scaffold, run investigation agent |
 | `agents-unite research NVDA` | **Directly research a ticker on demand** (fill a coverage gap) |

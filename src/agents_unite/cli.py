@@ -109,6 +109,10 @@ def cmd_daily(_: argparse.Namespace) -> int:
     return _shell(repo_root(), "scripts/daily-run.sh")
 
 
+def cmd_configure(_: argparse.Namespace) -> int:
+    return _run(repo_root(), "configure_llm.py", check=False)
+
+
 def cmd_init(args: argparse.Namespace) -> int:
     root = repo_root(Path(args.directory) if args.directory else Path.cwd())
     os.environ["AGENTS_UNITE_ROOT"] = str(root)
@@ -126,9 +130,10 @@ def cmd_init(args: argparse.Namespace) -> int:
         print(f"Created {cron_env} — add API keys for unattended cron")
     print("\nNext:")
     print(f"  cd {root}")
-    print("  pip install -e '.[llm]'")
-    print("  agents-unite run --assign")
-    print("  agents-unite daily")
+    print("  pip install -e '.[llm]'   # or: pip install 'agents-unite[llm]'")
+    print("  agents-unite configure      # pick LLM (Ollama / OpenAI) + API key")
+    print("  agents-unite research NVDA  # test one ticker")
+    print("  agents-unite daily          # cron-style: assign → PR")
     return 0
 
 
@@ -139,6 +144,7 @@ def main(argv: list[str] | None = None) -> int:
         epilog=(
             "Common flows:\n"
             "  agents-unite init                       set up local config\n"
+            "  agents-unite configure                  pick LLM + API key (after pip install)\n"
             "  agents-unite daily                      run today's assigned ticker + open PR (cron uses this)\n"
             "  agents-unite research NVDA              cover a specific ticker on demand\n"
             "  agents-unite research NVDA AMD GOOGL    cover several tickers now\n"
@@ -156,6 +162,10 @@ def main(argv: list[str] | None = None) -> int:
     p_init = sub.add_parser("init", help="Create .agents-unite/config from examples")
     p_init.add_argument("directory", nargs="?", help="Repo directory (default: cwd)")
     p_init.set_defaults(func=cmd_init)
+
+    sub.add_parser("configure", help="Interactive LLM + API key setup after pip install").set_defaults(
+        func=cmd_configure
+    )
 
     p_assign = sub.add_parser("assign", help="Assign today's role and ticker (JSON)")
     p_assign.add_argument("--date")

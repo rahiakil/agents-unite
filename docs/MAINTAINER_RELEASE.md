@@ -13,8 +13,8 @@ git push origin v0.1.3
 ```
 
 4. GitHub Actions runs:
+   - [publish-pypi.yml](../.github/workflows/publish-pypi.yml) — PyPI.org + GitHub Packages
    - [release.yml](../.github/workflows/release.yml) — GitHub Release + wheel assets
-   - [publish-pypi.yml](../.github/workflows/publish-pypi.yml) — PyPI upload
 
 ## PyPI trusted publisher — exact form values
 
@@ -49,8 +49,15 @@ gh workflow run publish-pypi.yml --repo rahiakil/agents-unite
 ## Verify
 
 ```bash
+# PyPI
 pip install "agents-unite[llm]"
+
+# GitHub Packages
+pip install "agents-unite[llm]" --extra-index-url https://pypi.pkg.github.com/rahiakil/simple/
+
+agents-unite configure
 agents-unite version
 ```
 
-PyPI project page: https://pypi.org/project/agents-unite/
+PyPI: https://pypi.org/project/agents-unite/  
+GitHub Packages: https://github.com/rahiakil/agents-unite/packages

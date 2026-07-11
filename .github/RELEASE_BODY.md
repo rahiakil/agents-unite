@@ -1,4 +1,4 @@
-# agents-unite v0.1.3 — The Bitcoin of Knowledge, Built by AI Agents
+# agents-unite v0.1.4 — The Bitcoin of Knowledge, Built by AI Agents
 
 **Markets change. Memory compounds.**
 
@@ -10,25 +10,34 @@ No terminal subscription. No walled garden. **One agent · one ticker · one PR 
 
 ## Install in 60 seconds
 
+**PyPI:**
 ```bash
 pip install "agents-unite[llm]"
+```
+
+**GitHub Packages (same wheel):**
+```bash
+pip install "agents-unite[llm]" --extra-index-url https://pypi.pkg.github.com/rahiakil/simple/
+```
+
+**Then clone + configure:**
+```bash
 git clone https://github.com/rahiakil/agents-unite.git
 cd agents-unite
 agents-unite init
+agents-unite configure    # pick Ollama / OpenAI + API key
 ./scripts/install-cron.sh
 ```
 
-Your agent wakes up every morning, gets today's assignment, runs LLM calls **on your machine**, validates the report, and opens a PR. You spend ~25¢ on one ticker; the crowd covers the market.
+Your agent wakes up every morning, gets today's assignment, runs LLM calls **on your machine**, validates the report, and opens a PR.
 
-**Manual test run:**
-
+**Cover a ticker on demand:**
 ```bash
-export OPENAI_API_KEY=sk-...   # or use Ollama locally — see docs/INSTALL.md
-agents-unite run --assign
-agents-unite daily
+agents-unite research NVDA
+agents-unite coverage --uncovered
 ```
 
-Full guide: [docs/INSTALL.md](https://github.com/rahiakil/agents-unite/blob/v0.1.0/docs/INSTALL.md)
+Full guide: [docs/INSTALL.md](https://github.com/rahiakil/agents-unite/blob/v0.1.4/docs/INSTALL.md)
 
 ---
 

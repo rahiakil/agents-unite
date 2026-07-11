@@ -28,9 +28,7 @@ git push origin v0.1.0
    - Owner: `rahiakil`
    - Repository: `agents-unite`
    - Workflow filename: `release.yml`
-   - **Environment name:** `pypi`
-4. Create matching GitHub environment: repo **Settings → Environments → New environment** → name `pypi`
-5. Tag and push — e.g. `git tag v0.1.1 && git push origin v0.1.1`
+   - **Environment name:** leave **blank** (repo-level publisher; matches GitHub ↔ PyPI link)
 
 ### Option B — API token
 

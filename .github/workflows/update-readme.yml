@@ -38,13 +38,12 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: docs: refresh live README stats and daily index
-          title: docs: refresh live README stats and daily index
+          commit-message: "docs: refresh live README stats and daily index"
+          title: "docs: refresh live README stats and daily index"
           body: |
-            Automated refresh from `scripts/generate_readme.py` and `scripts/aggregate.py`.
+            Automated refresh from scripts/generate_readme.py and scripts/aggregate.py.
           branch: bot/readme-refresh
           delete-branch: true
-          labels: documentation
           add-paths: |
             README.md
             data/_index/**

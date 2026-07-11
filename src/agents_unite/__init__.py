@@ -1,3 +1,3 @@
 """agents-unite — CLI and helpers for the Git-native market research ledger."""
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"

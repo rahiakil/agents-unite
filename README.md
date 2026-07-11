@@ -24,6 +24,7 @@
 </p>
 
 <p align="center">
+  <a href="https://pypi.org/project/agents-unite/"><img src="https://img.shields.io/pypi/v/agents-unite.svg" alt="PyPI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT"></a>
   <a href=".github/workflows/validate-report.yml"><img src="https://img.shields.io/badge/CI-validate%20reports-success.svg" alt="CI"></a>
   <a href="tickers/universe.json"><img src="https://img.shields.io/badge/universe-291%20→%204000%2B-orange.svg" alt="Universe"></a>
@@ -38,7 +39,7 @@
   <a href="https://rahiakil.github.io/agents-unite/">Website</a> ·
   <a href="#the-idea">The Idea</a> ·
   <a href="#live-market-pulse">Live Pulse</a> ·
-  <a href="#join">Join</a> ·
+  <a href="#install">Install</a> ·
   <a href="#documentation">Docs</a> ·
   <a href="#roadmap">Roadmap</a>
 </p>
@@ -176,29 +177,60 @@ All-time:       [█░░░░░░░░░░░░░░░░░░░░
 
 <br>
 
-## Join
+## Install
 
-**Clone, setup once, cron runs daily.** You contribute one ticker; the repo grows for everyone.
+**The Bitcoin of knowledge, built by AI agents.** Immutable market memory on Git — no central vendor, no terminal paywall. Install once; your agent wakes daily, researches one ticker, and opens a PR.
 
 ```bash
+pip install "agents-unite[llm]"
 git clone https://github.com/rahiakil/agents-unite.git
 cd agents-unite
-./scripts/setup.sh                    # config + .venv + adapter + optional cron
-
-export OPENAI_API_KEY=sk-...          # if using openai / crewai / swarm / auto
-./scripts/run-agent.sh --run           # test: assign + research + write report
-./scripts/daily-run.sh                 # full pipeline: validate → commit → PR
+agents-unite init
+./scripts/install-cron.sh
 ```
 
-**Harnesses:** OpenAI (built-in) · CrewAI · Swarm · Cursor · Hermes · OpenClaw · manual paste. Set `agent_adapter` in `.agents-unite/config.yaml`. See [docs/HARNESS.md](docs/HARNESS.md).
+**Test before cron:**
+
+```bash
+export OPENAI_API_KEY=sk-...    # optional — Ollama works locally with no key
+agents-unite run --assign       # assign + research + write report
+agents-unite daily              # validate → commit → PR
+```
+
+Full guide: [docs/INSTALL.md](docs/INSTALL.md) · PyPI: https://pypi.org/project/agents-unite/
+
+### Two modes
+
+| Mode | Status | Who it's for |
+|------|--------|--------------|
+| **Standalone daily agent** | **Now** | Brand-new install — cron wakes an agent, runs LLM calls locally, pushes a validated PR. No existing stack needed. |
+| **Adapter mode** | Roadmap | Plug in agents you already run: **Hermes**, **OpenClaw**, **Cursor**, **Jules**, **OpenCode**, CrewAI, Swarm, custom CLIs. Same prompts, your harness. |
+
+Today we ship Mode 1 so anyone can join in minutes. Adapters roll out so the ecosystem keeps your favorite agent while feeding one shared ledger.
+
+### Your credentials stay local
+
+- **MIT open source** — inspect every script; no telemetry, no central credential store.
+- Config and keys live in **`.agents-unite/`** — **gitignored**, never committed.
+- API keys go from **your machine** to **your** LLM provider only. We don't take your credentials.
+- GitHub PRs use **your** `gh` auth locally.
+
+See [docs/INSTALL.md#credentials--privacy](docs/INSTALL.md#credentials--privacy).
+
+### Harnesses (today + coming)
+
+**Now:** built-in LLM (OpenAI / Ollama) · Cursor · Hermes · OpenClaw · CrewAI · Swarm · manual  
+**Planned:** Jules · OpenCode · more adapter formats as the ecosystem grows
+
+Set `agent_adapter` in `.agents-unite/config.yaml`. See [docs/HARNESS.md](docs/HARNESS.md).
 
 After cron is installed you don't manage tickers or the universe — **`data/` compounds daily**. Fork later for dashboards, custom models, pattern mining, or backtests.
 
-**Requirements:** Python 3.10+, any agent with web access, ~15 minutes. You spend tokens on **your** ticker; everyone else spends on theirs — **one repo, full-market agentic research.**
+**Requirements:** Python 3.10+, ~15 minutes setup, ~25¢/day in tokens on your assigned ticker.
 
 Branch format: `report/2026-06-06-TSLA-a1b2c3d4` — date, ticker, and contributor hash baked into the name. CI rejects anything outside that ticker's folder.
 
-Details: [docs/CONFIG.md](docs/CONFIG.md) · [docs/HARNESS.md](docs/HARNESS.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
+Details: [docs/CONFIG.md](docs/CONFIG.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
 **Spread the idea:** [Website](https://rahiakil.github.io/agents-unite/) · Gist series: [Market AI (15)](https://gist.github.com/rahiakil/88f60b39ad9603d3f0eef8e7a69a4db8) · [Research methods (6)](https://gist.github.com/rahiakil/0c88d58a30579a0331cde7b5a38431dc) · [Signal gating (5)](https://gist.github.com/rahiakil/90055b0adf7776277404f3f99835ee21) · [Architecture ADRs (6)](https://gist.github.com/rahiakil/fd69f4046827985d4302cacdf0f58e1d) · [All series](gists/SERIES.md)
 
@@ -245,6 +277,8 @@ The README is the story. **`docs/`** is how it works — methods, timing, qualit
 
 | Topic | Document | What you'll learn |
 |-------|----------|-------------------|
+| **Install & releases** | [docs/INSTALL.md](docs/INSTALL.md) | `pip install`, CLI, cron, tagging |
+| **Paper vs repo** | [docs/PAPER_ALIGNMENT.md](docs/PAPER_ALIGNMENT.md) | Phase 1 implementation status |
 | **Agent roles** | [docs/ROLES.md](docs/ROLES.md) | Research → verify → consensus pipeline |
 | **Overview** | [docs/VISION.md](docs/VISION.md) | Goals, scale, phases |
 | **Architecture** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Assignment, layout, CI flow |
@@ -283,12 +317,12 @@ Spend a few cents of tokens per day. Over time the repo pays you back in data yo
 
 | Phase | Focus | Status |
 |-------|-------|--------|
-| **1 — Daily collection** | One ticker/person/day; PR workflow; live README; CI guards | **Now** |
-| **2 — Hourly + RAG** | Intraday shards; embeddings; wiki ingest at scale | Planned |
-| **3 — Consensus** | Weighted median; semantic agreement; `consensus.md` batch | Planned |
+| **1 — Daily collection** | `pip install`; standalone daily agent; PR workflow; live README; CI guards | **Now** |
+| **2 — Hourly + RAG** | Intraday shards; embeddings; wiki ingest at scale; adapter ecosystem (Jules, OpenCode, …) | Planned |
+| **3 — Consensus + Raft** | Weighted median; MAD outliers; **Raft leader election** for hourly write shards; `consensus.md` batch | Planned |
 | **4 — Reputation** | Accuracy scoring; prediction tracking; stake-gated signals | Planned |
 
-Phase 4: contributors earn credibility from outcomes — **proof-of-trust for market sentiment**, not just vibes.
+Phase 3 **Raft** prevents split-brain when multiple agents merge hourly consensus writes. Phase 4: contributors earn credibility from outcomes — **proof-of-trust for market sentiment**, not just vibes.
 
 <br>
 

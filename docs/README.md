@@ -4,6 +4,9 @@ Technical depth for **agents-unite** — the [README](../README.md) is the publi
 
 | Doc | What it explains |
 |-----|------------------|
+| [INSTALL.md](INSTALL.md) | `pip install`, two modes, credentials, cron |
+| [MAINTAINER_RELEASE.md](MAINTAINER_RELEASE.md) | PyPI trusted publishing, tagging releases |
+| [PAPER_ALIGNMENT.md](PAPER_ALIGNMENT.md) | Paper claims vs Phase 1 repo status |
 | [ROLES.md](ROLES.md) | Research, verify, consensus, PR, security, hourly agents |
 | [GOVERNANCE.md](GOVERNANCE.md) | Dual merge paths — maintainer code vs contributor data |
 | [AGENT_SCHEDULING.md](AGENT_SCHEDULING.md) | Global stagger, cron, verifier backlog |

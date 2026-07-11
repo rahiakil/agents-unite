@@ -16,14 +16,15 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   refresh-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -33,14 +34,25 @@ jobs:
       - name: Regenerate daily index summaries
         run: python3 scripts/aggregate.py --all
 
-      - name: Commit README and index updates
+      - name: Open PR with README and index updates
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: docs: refresh live README stats and daily index
+          title: docs: refresh live README stats and daily index
+          body: |
+            Automated refresh from `scripts/generate_readme.py` and `scripts/aggregate.py`.
+          branch: bot/readme-refresh
+          delete-branch: true
+          labels: documentation
+          add-paths: |
+            README.md
+            data/_index/**
+
+      - name: Auto-merge docs PR
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data/_index/
-          if git diff --staged --quiet; then
-            echo "README and index already up to date."
-          else
-            git commit -m "docs: refresh live README stats and daily index"
-            git push
-          fi
+          gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" \
+            --auto --merge --delete-branch

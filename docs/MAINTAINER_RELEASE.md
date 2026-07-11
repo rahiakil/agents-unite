@@ -23,13 +23,14 @@ git push origin v0.1.0
 
 1. Create project at https://pypi.org/manage/projects/ (`agents-unite`)
 2. **Publishing** → **Add a new pending publisher**
-3. Fill in:
+3. Fill in exactly (must match GitHub claims):
    - PyPI project: `agents-unite`
    - Owner: `rahiakil`
    - Repository: `agents-unite`
-   - Workflow: `release.yml`
-   - **Environment name:** leave **blank** (repo-level publisher)
-4. Re-run the failed `pypi-publish` job on the release workflow, or tag `v0.1.1`
+   - Workflow filename: `release.yml`
+   - **Environment name:** `pypi`
+4. Create matching GitHub environment: repo **Settings → Environments → New environment** → name `pypi`
+5. Tag and push — e.g. `git tag v0.1.1 && git push origin v0.1.1`
 
 ### Option B — API token
 

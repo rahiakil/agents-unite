@@ -104,7 +104,7 @@ Your output:         One PR → data/2026-06-06/TSLA/
 <!-- LIVE:HEADER_STATS:START -->
 | Reports | Tickers | Universe | Latest day | Coverage | Avg sentiment |
 |---------|---------|----------|------------|----------|---------------|
-| **32** | **30** | **291** | **2026-07-11** | **0.3%** | **+0.104** |
+| **35** | **31** | **291** | **2026-07-11** | **1.4%** | **+0.116** |
 <!-- LIVE:HEADER_STATS:END -->
 
 <br>
@@ -152,6 +152,9 @@ Technical breakdown: [docs/RAG_AND_SYNTHESIS.md](docs/RAG_AND_SYNTHESIS.md) · [
 
 | Ticker | Score | Mood |
 |--------|-------|------|
+| `NVDA` | +0.75 | 🟢 bullish |
+| `AMD` | +0.00 | 🟡 neutral |
+| `GOOGL` | +0.00 | 🟡 neutral |
 | `ISRG` | +0.00 | 🟡 neutral |
 <!-- LIVE:MARKET_PULSE:END -->
 
@@ -162,10 +165,10 @@ Full rollups: [`data/_index/`](data/_index/) · Examples: [`AAPL`](data/2026-06-
 ## Coverage tracker
 
 <!-- LIVE:COVERAGE:START -->
-**Universe progress** — 30 / 291 tickers ever covered
+**Universe progress** — 31 / 291 tickers ever covered
 
-Today (2026-07-11): [█░░░░░░░░░░░░░░░░░░░░░░░] 0.3%
-All-time:       [██░░░░░░░░░░░░░░░░░░░░░░] 10.3%
+Today (2026-07-11): [█░░░░░░░░░░░░░░░░░░░░░░░] 1.4%
+All-time:       [███░░░░░░░░░░░░░░░░░░░░░] 10.7%
 
 | Date | Reports | Coverage | Avg sentiment |
 |------|---------|----------|---------------|
@@ -175,7 +178,7 @@ All-time:       [██░░░░░░░░░░░░░░░░░░░
 | 2026-07-07 | 1 | 0.3% | +0.000 |
 | 2026-07-09 | 1 | 0.3% | n/a |
 | 2026-07-10 | 1 | 0.3% | +0.000 |
-| 2026-07-11 | 1 | 0.3% | +0.000 |
+| 2026-07-11 | 4 | 1.4% | +0.188 |
 <!-- LIVE:COVERAGE:END -->
 
 <br>
@@ -342,7 +345,7 @@ Not investment advice. Synthetic demo data in `data/2026-06-05/` is illustrative
 MIT — see [LICENSE](LICENSE).
 
 <!-- LIVE:FOOTER_STAMP:START -->
-_Live sections last regenerated: **2026-07-11 19:25 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
+_Live sections last regenerated: **2026-07-11 20:10 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
 <!-- LIVE:FOOTER_STAMP:END -->
 
 <br>

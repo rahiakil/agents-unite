@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import ssl
 import urllib.error
 import urllib.request
@@ -30,7 +31,9 @@ def chat_completion(
     return _openai_compatible_chat(model, api_key, base_url, messages, temperature, max_tokens)
 
 
-def _request_json(url: str, headers: dict[str, str], payload: dict[str, Any], timeout: int = 180) -> dict:
+def _request_json(url: str, headers: dict[str, str], payload: dict[str, Any], timeout: int | None = None) -> dict:
+    if timeout is None:
+        timeout = int(os.environ.get("AGENTS_UNITE_LLM_TIMEOUT", "180"))
     body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers=headers, method="POST")
     ctx = ssl.create_default_context()

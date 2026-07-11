@@ -40,9 +40,17 @@ def extract_json(text: str) -> dict:
     fence = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
     if fence:
         text = fence.group(1).strip()
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
     start = text.find("{")
     if start < 0:
         raise ValueError("no JSON object in LLM response")
+    chunk = text[start:]
+    try:
+        import json_repair  # type: ignore
+
+        return json_repair.loads(chunk)
+    except Exception:
+        pass
     depth = 0
     for i in range(start, len(text)):
         if text[i] == "{":
@@ -50,7 +58,16 @@ def extract_json(text: str) -> dict:
         elif text[i] == "}":
             depth -= 1
             if depth == 0:
-                return json.loads(text[start : i + 1])
+                chunk = text[start : i + 1]
+                try:
+                    return json.loads(chunk)
+                except json.JSONDecodeError:
+                    try:
+                        import json_repair  # type: ignore
+
+                        return json_repair.loads(chunk)
+                    except Exception as exc:
+                        raise ValueError(f"invalid JSON in LLM response: {exc}") from exc
     raise ValueError("unbalanced JSON in LLM response")
 
 

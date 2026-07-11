@@ -81,6 +81,7 @@ def assign_role(
     *,
     date_mode: str | None = None,
     force_role: str | None = None,
+    force_ticker: str | None = None,
     use_cache: bool = True,
 ) -> dict:
     cfg = load_yaml_config()
@@ -90,7 +91,7 @@ def assign_role(
     if investigation_date is None:
         investigation_date = resolve_investigation_date(date_mode)
 
-    if use_cache and force_role is None:
+    if use_cache and force_role is None and force_ticker is None:
         cached = load_assignment_cache(investigation_date, contributor)
         if cached:
             role = normalize_role(str(cached.get("daily_role", "research")))
@@ -121,10 +122,21 @@ def assign_role(
     if daily_role == "research":
         focus_idx = int(hash_fraction(f"{seed_base}:focus") * len(FOCUS_ROLES)) % len(FOCUS_ROLES)
         focus = FOCUS_ROLES[focus_idx]
-        ticker_assignment = assign_ticker(investigation_date, contributor, date_mode=date_mode)
-        assignment_date = str(ticker_assignment["date"])
-        ticker = str(ticker_assignment["ticker"])
-        base_fields = {k: v for k, v in ticker_assignment.items() if k not in ("daily_role",)}
+        if force_ticker:
+            ticker = force_ticker.upper().strip()
+            assignment_date = investigation_date
+            base_fields = {
+                "date": assignment_date,
+                "ticker": ticker,
+                "contributor_id": cid,
+                "contributor_hash": chash,
+                "forced_ticker": True,
+            }
+        else:
+            ticker_assignment = assign_ticker(investigation_date, contributor, date_mode=date_mode)
+            assignment_date = str(ticker_assignment["date"])
+            ticker = str(ticker_assignment["ticker"])
+            base_fields = {k: v for k, v in ticker_assignment.items() if k not in ("daily_role",)}
     elif daily_role == "consensus":
         target = find_consensus_target()
         if target:

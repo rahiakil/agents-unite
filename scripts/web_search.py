@@ -33,14 +33,22 @@ def format_for_prompt(results: list[dict[str, str]]) -> str:
 
 
 def _duckduckgo_search(query: str, max_results: int) -> list[dict[str, str]]:
+    ddgs_cls = None
     try:
-        from duckduckgo_search import DDGS  # type: ignore
+        from ddgs import DDGS as DDGSNew  # type: ignore
+
+        ddgs_cls = DDGSNew
     except ImportError:
-        return []
+        try:
+            from duckduckgo_search import DDGS as DDGSOld  # type: ignore
+
+            ddgs_cls = DDGSOld
+        except ImportError:
+            return []
 
     out: list[dict[str, str]] = []
     try:
-        with DDGS() as ddgs:
+        with ddgs_cls() as ddgs:
             for item in ddgs.text(query, max_results=max_results):
                 url = item.get("href") or item.get("url") or ""
                 if not url:

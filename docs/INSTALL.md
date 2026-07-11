@@ -14,6 +14,51 @@ cd agents-unite && agents-unite init && ./scripts/install-cron.sh
 
 That's it. Cron wakes your agent daily → assign ticker → LLM research → validate → PR.
 
+### What PyPI installs vs what you clone
+
+| Component | From PyPI | From git clone |
+|-----------|-----------|----------------|
+| `agents-unite` CLI | yes | yes (editable install) |
+| Agent prompts, universe, CI | no | yes |
+| Contribute reports to `data/` | no | yes |
+
+PyPI gives the **tooling**; the clone gives the **ledger** (prompts, tickers, validation, shared history).
+
+### Local LLM options
+
+**Ollama (free, runs on your machine):**
+
+```yaml
+# .agents-unite/config.yaml
+agent_adapter: llm
+llm_provider: ollama
+llm_model: gemma4:latest        # avoid qwen2.5:0.5b for batch — too small
+llm_base_url: http://127.0.0.1:11434/v1
+web_search: true
+```
+
+**OpenAI (or any compatible API):**
+
+```bash
+export OPENAI_API_KEY=sk-...
+# config: llm_provider: openai_compatible, llm_model: gpt-4o-mini
+```
+
+Credentials stay in `.agents-unite/` (gitignored) — never uploaded to us. See [Credentials & privacy](#credentials--privacy).
+
+### Batch research (populate many tickers fast)
+
+From the repo root:
+
+```bash
+./run-batch.sh                          # 3 uncovered tickers today
+./run-batch.sh --count 10               # 10 tickers
+./run-batch.sh --tickers NVDA,AMD,GOOGL
+AGENTS_UNITE_LLM_TIMEOUT=600 ./run-batch.sh --count 5 --model gemma4:latest
+```
+
+Each ticker writes validated `data/YYYY-MM-DD/TICKER/` reports. Then commit and open PRs (or use `agents-unite daily` for one ticker + auto-PR).
+
 ---
 
 ## Two modes

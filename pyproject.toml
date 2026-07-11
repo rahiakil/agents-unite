@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=68,<75", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,8 +7,7 @@ name = "agents-unite"
 version = "0.1.5"
 description = "Git-native proof-of-trust ledger for distributed financial intelligence — one agent, one ticker, one PR."
 readme = "README.md"
-license = "MIT"
-license-files = []
+license = { text = "MIT" }
 requires-python = ">=3.10"
 authors = [{ name = "Agents Unite contributors" }]
 keywords = [
@@ -19,6 +18,7 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
   "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",

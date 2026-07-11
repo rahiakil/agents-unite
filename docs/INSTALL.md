@@ -42,11 +42,22 @@ pip install "agents-unite[llm]" \
   --extra-index-url https://YOUR_GITHUB_USER:YOUR_TOKEN@pypi.pkg.github.com/rahiakil/simple/
 ```
 
-### GitHub Release wheel (direct download)
+### GitHub Release wheel (always available on every tag)
 
 ```bash
-pip install "agents-unite[llm] @ https://github.com/rahiakil/agents-unite/releases/latest/download/agents_unite-0.1.4-py3-none-any.whl"
+pip install "agents-unite[llm] @ https://github.com/rahiakil/agents-unite/releases/latest/download/agents_unite-0.1.5-py3-none-any.whl"
 ```
+
+Every [GitHub Release](https://github.com/rahiakil/agents-unite/releases) attaches the same wheel as PyPI — good mirror if PyPI is slow.
+
+### GitHub Packages (Python registry — experimental)
+
+```bash
+pip install "agents-unite[llm]" \
+  --extra-index-url https://pypi.pkg.github.com/rahiakil/simple/
+```
+
+We publish here in tandem with PyPI on every tag. If the registry rejects metadata, the **GitHub Release wheel** above is the fallback on the same repo.
 
 ---
 

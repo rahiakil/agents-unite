@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -12,7 +13,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from au_common import AGENTS_DIR, prompt_hash  # noqa: E402
+from au_common import prompt_hash, sources_filename_for_report  # noqa: E402
 
 DATA_DIR = REPO_ROOT / "data"
 
@@ -24,38 +25,44 @@ REQUIRED_REPORT_SECTIONS = [
     "notable events",
 ]
 
-CONSENSUS_SECTIONS = [
-    "summary",
-    "consensus score",
-    "agreement",
-    "disagreements",
-    "source audit",
+# Each tuple is a set of accepted headings. consensus-run.md says
+# "Divergence" and "Source coverage"; an older validator required
+# "Disagreements" and "Source audit". A file that follows the agent prompt
+# must pass.
+CONSENSUS_SECTION_GROUPS = [
+    ("summary", "consensus sentiment"),
+    ("consensus score",),
+    ("agreement",),
+    ("disagreements", "divergence"),
+    ("source audit", "source coverage"),
 ]
 
-SENTIMENT_PATTERN = re.compile(
-    r"sentiment\s*(?:score)?\s*[:=]\s*(-?(?:0(?:\.\d+)?|1(?:\.0+)?))\b",
+NUMBER_TOKEN = re.compile(r"^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$")
+BODY_SCORE = re.compile(
+    r"sentiment\s*(?:score)?\s*[:=]\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+))",
     re.IGNORECASE,
 )
-CONSENSUS_PATTERN = re.compile(
-    r"consensus\s*(?:score)?\s*[:=]\s*(-?(?:0(?:\.\d+)?|1(?:\.0+)?))\b",
+BODY_CONSENSUS_SCORE = re.compile(
+    r"consensus\s*(?:score)?\s*[:=]\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+))",
     re.IGNORECASE,
 )
-FRONTMATTER_SENTIMENT = re.compile(
-    r"^sentiment_score:\s*(-?(?:0(?:\.\d+)?|1(?:\.0+)?))\s*$",
-    re.MULTILINE,
-)
-FRONTMATTER_CONSENSUS = re.compile(
-    r"^consensus_score:\s*(-?(?:0(?:\.\d+)?|1(?:\.0+)?))\s*$",
-    re.MULTILINE,
-)
-PROMPT_HASH_FM = re.compile(r"^prompt_hash:\s*(\S+)\s*$", re.MULTILINE)
-PROMPT_FILE_FM = re.compile(r"^prompt_file:\s*(\S+)\s*$", re.MULTILINE)
 
 
 def validate_score(score: float, context: str) -> list[str]:
     if not -1.0 <= score <= 1.0:
         return [f"{context}: score {score} must be between -1.0 and 1.0"]
     return []
+
+
+def parse_score_value(raw: str) -> float | None:
+    """Parse a frontmatter score. Rejects the old regex hole where 1.5 was 'missing'."""
+    text = raw.strip().strip("'\"").strip()
+    if not NUMBER_TOKEN.match(text):
+        return None
+    try:
+        return float(text)
+    except ValueError:
+        return None
 
 
 def parse_frontmatter(text: str) -> dict[str, str]:
@@ -70,6 +77,67 @@ def parse_frontmatter(text: str) -> dict[str, str]:
             k, _, v = line.partition(":")
             fm[k.strip()] = v.strip()
     return fm
+
+
+def _frontmatter_score(text: str, key: str) -> tuple[float | None, str | None]:
+    """Return (score, error). error is set when the key exists but is not a number."""
+    fm = parse_frontmatter(text)
+    if key not in fm:
+        return None, None
+    score = parse_score_value(fm[key])
+    if score is None:
+        return None, f"{key} is not a number: {fm[key]!r}"
+    return score, None
+
+
+def extract_sentiment_score(text: str) -> tuple[float | None, list[str]]:
+    """Read sentiment_score from frontmatter first, then a body line.
+
+    Frontmatter wins. An out-of-range frontmatter value is an error even when
+    the body contains an in-range phrase such as 'Sentiment score: 0.2'.
+    """
+    score, err = _frontmatter_score(text, "sentiment_score")
+    if err:
+        return None, [err]
+    if score is not None:
+        return score, validate_score(score, "sentiment_score")
+    match = BODY_SCORE.search(text)
+    if not match:
+        return None, ["missing sentiment_score"]
+    body = float(match.group(1))
+    return body, validate_score(body, "sentiment_score")
+
+
+def extract_consensus_score(text: str) -> tuple[float | None, list[str]]:
+    score, err = _frontmatter_score(text, "consensus_score")
+    if err:
+        return None, [err]
+    if score is not None:
+        return score, validate_score(score, "consensus_score")
+    match = BODY_CONSENSUS_SCORE.search(text)
+    if not match:
+        return None, ["missing consensus_score"]
+    body = float(match.group(1))
+    return body, validate_score(body, "consensus_score")
+
+
+def validate_contributor_identity(text: str) -> list[str]:
+    """contributor_hash, when present, must be a prefix of SHA256(github_username).
+
+    Scaffolds store 12 hex chars. Branch names store 8. Both are prefixes of the
+    same digest. A hash that does not match the username is a spoofed identity.
+    """
+    fm = parse_frontmatter(text)
+    username = fm.get("github_username", "").strip()
+    stored = fm.get("contributor_hash", "").strip().lower()
+    if not username or not stored:
+        return []
+    digest = hashlib.sha256(username.lower().encode("utf-8")).hexdigest()
+    if len(stored) < 8 or not digest.startswith(stored):
+        return [
+            f"contributor_hash {stored} does not match github_username {username!r}"
+        ]
+    return []
 
 
 def validate_prompt_provenance(text: str) -> list[str]:
@@ -146,29 +214,25 @@ def validate_submitter_report(report_path: Path) -> list[str]:
     if fm.get("daily_role") and fm["daily_role"] not in ("submitter", "research"):
         errors.append("daily_role must be research (or legacy submitter)")
 
-    match = FRONTMATTER_SENTIMENT.search(text)
-    if match:
-        errors.extend(validate_score(float(match.group(1)), "sentiment_score"))
-    elif not SENTIMENT_PATTERN.search(text):
-        errors.append("missing sentiment_score")
-
+    _score, score_errors = extract_sentiment_score(text)
+    errors.extend(score_errors)
+    errors.extend(validate_contributor_identity(text))
     errors.extend(validate_report_sections(text, REQUIRED_REPORT_SECTIONS))
     errors.extend(validate_prompt_provenance(text))
 
-    slug = report_path.name.replace("report.", "").replace(".md", "")
-    if slug == "report":
-        sources_path = report_path.parent / "sources.json"
-    else:
-        sources_path = report_path.parent / f"sources.{slug}.json"
-        if not sources_path.is_file():
-            sources_path = report_path.parent / "sources.json"
-
-    if not sources_path.is_file():
+    sources_name = sources_filename_for_report(report_path.name)
+    sources_path = report_path.parent / sources_name if sources_name else None
+    if sources_path is None or not sources_path.is_file():
         errors.append(f"missing sources file for {report_path.name}")
     else:
         errors.extend(validate_sources_json(sources_path))
 
     return errors
+
+
+def _has_heading(text: str, heading: str) -> bool:
+    pattern = rf"^#{{1,3}}\s+{re.escape(heading)}\b"
+    return re.search(pattern, text.lower(), re.MULTILINE) is not None
 
 
 def validate_consensus(consensus_path: Path) -> list[str]:
@@ -177,13 +241,14 @@ def validate_consensus(consensus_path: Path) -> list[str]:
     if len(text.strip()) < 150:
         errors.append("consensus.md too short")
 
-    match = FRONTMATTER_CONSENSUS.search(text)
-    if match:
-        errors.extend(validate_score(float(match.group(1)), "consensus_score"))
-    else:
-        errors.append("missing consensus_score")
+    _score, score_errors = extract_consensus_score(text)
+    errors.extend(score_errors)
 
-    errors.extend(validate_report_sections(text, CONSENSUS_SECTIONS))
+    for group in CONSENSUS_SECTION_GROUPS:
+        if not any(_has_heading(text, name) for name in group):
+            label = " or ".join(name.title() for name in group)
+            errors.append(f"missing required section: '{label}'")
+
     errors.extend(validate_prompt_provenance(text))
     return errors
 
@@ -210,18 +275,7 @@ def validate_report_dir(report_dir: Path) -> list[str]:
 
 def parse_report_sentiment(text: str) -> tuple[float | None, list[str]]:
     """Public API for stats/aggregate scripts."""
-    errors: list[str] = []
-    match = FRONTMATTER_SENTIMENT.search(text)
-    if match:
-        score = float(match.group(1))
-        errors.extend(validate_score(score, "frontmatter"))
-        return score, errors
-    match = SENTIMENT_PATTERN.search(text)
-    if match:
-        score = float(match.group(1))
-        errors.extend(validate_score(score, "body"))
-        return score, errors
-    return None, ["missing sentiment score"]
+    return extract_sentiment_score(text)
 
 
 def _resolve_report_dir(path: Path) -> Path | None:

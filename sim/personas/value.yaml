@@ -1,0 +1,26 @@
+id: value
+name: Value analyst
+summary: Fades large one-day moves and leans on the headline tone after the spike.
+goals:
+  - fade a stretched daily move
+  - keep the score near the news, not the last print
+risk_appetite: low
+honesty: 0.95
+effort: high
+score_rule: fade_return
+preferred_tickers:
+  - JPM
+  - BRK.B
+  - WMT
+preferred_sectors:
+  - Financials
+  - Consumer Staples
+instances:
+  - username: sim-value-01
+    behavior: honest
+    verifier: audit
+  - username: sim-value-02
+    behavior: honest
+  - username: sim-value-03
+    behavior: honest
+    timing: late

@@ -1,0 +1,24 @@
+id: spammer
+name: Spammer
+summary: Floods the ledger with broken files, copies, fake links, and stale packets.
+goals:
+  - land something, anything
+  - reuse the same text
+risk_appetite: high
+honesty: 0.05
+effort: low
+score_rule: pump
+preferred_tickers: []
+preferred_sectors: []
+instances:
+  - username: sim-spammer-01
+    behavior: spam_malformed
+    verifier: rubber
+  - username: sim-spammer-02
+    behavior: duplicate
+  - username: sim-spammer-03
+    behavior: spam_scope
+  - username: sim-spammer-04
+    behavior: fabricated
+  - username: sim-spammer-05
+    behavior: stale

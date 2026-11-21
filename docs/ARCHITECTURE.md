@@ -200,5 +200,5 @@ See [TRADING.md](TRADING.md). Trading signals are gated behind consensus confide
 
 - `requirements.txt` — add `jsonschema`, `pyyaml` when validation tightens
 - `scripts/aggregate.py` — future daily index builder
-- `scripts/consensus.py` — future weighted merge implementation
-- Reputation/stake ledger — see CONSENSUS.md
+- `scripts/consensus.py`: weighted median and MAD filter
+- Reputation ledger: `scripts/reputation.py`, empty file at `contributors/reputation.json`

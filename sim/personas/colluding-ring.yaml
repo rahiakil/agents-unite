@@ -1,0 +1,25 @@
+id: colluding-ring
+name: Colluding ring
+summary: Four accounts push the same pumped score with real headlines so the schema passes.
+goals:
+  - move the weighted median
+  - keep citations that a URL check will accept
+risk_appetite: high
+honesty: 0.1
+effort: high
+score_rule: pump
+collusion_id: ring-1
+preferred_tickers:
+  - NVDA
+  - TSLA
+preferred_sectors: []
+instances:
+  - username: sim-ring-01
+    behavior: pump
+    verifier: hostile
+  - username: sim-ring-02
+    behavior: pump
+  - username: sim-ring-03
+    behavior: pump
+  - username: sim-ring-04
+    behavior: pump

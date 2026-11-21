@@ -388,6 +388,30 @@ def prompt_hash(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
 
 
+def report_slug(filename: str) -> str | None:
+    """Return '' for report.md, the slug for report.<slug>.md, else None.
+
+    `report.md`.replace('report.', '') is 'md', so callers must not build the
+    slug with blind string replace. That bug made bare report.md look for
+    sources.md.json and only succeed because of a sources.json fallback.
+    """
+    if filename == "report.md":
+        return ""
+    if filename.startswith("report.") and filename.endswith(".md"):
+        return filename[len("report.") : -len(".md")]
+    return None
+
+
+def sources_filename_for_report(filename: str) -> str | None:
+    """Companion sources file. Slugged reports do not fall back to sources.json."""
+    slug = report_slug(filename)
+    if slug is None:
+        return None
+    if slug == "":
+        return "sources.json"
+    return f"sources.{slug}.json"
+
+
 def assignment_cache_path(investigation_date: str, contributor: str | None = None) -> Path:
     cid = contributor_id(contributor)
     slug = hashlib.sha256(cid.lower().encode()).hexdigest()[:8]

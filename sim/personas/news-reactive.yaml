@@ -1,0 +1,25 @@
+id: news-reactive
+name: News-reactive analyst
+summary: Scores the headline tape and barely looks at the print.
+goals:
+  - match the news tone
+  - ignore social posts unless the mode is social
+risk_appetite: medium
+honesty: 0.93
+effort: high
+score_rule: follow_news
+preferred_tickers:
+  - AAPL
+  - MSFT
+  - GOOGL
+preferred_sectors:
+  - Technology
+  - Communication Services
+instances:
+  - username: sim-news-01
+    behavior: honest
+    verifier: audit
+  - username: sim-news-02
+    behavior: honest
+  - username: sim-news-03
+    behavior: honest

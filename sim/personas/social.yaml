@@ -1,0 +1,24 @@
+id: social
+name: Social-media analyst
+summary: Weights X and Reddit, and treats newswire copy as background.
+goals:
+  - match the social tone
+  - cite posts ahead of articles in social mode
+risk_appetite: medium
+honesty: 0.84
+effort: medium
+score_rule: follow_social
+preferred_tickers:
+  - TSLA
+  - NVDA
+  - AMD
+preferred_sectors:
+  - Technology
+instances:
+  - username: sim-social-01
+    behavior: honest
+    verifier: audit
+  - username: sim-social-02
+    behavior: honest
+  - username: sim-social-03
+    behavior: honest

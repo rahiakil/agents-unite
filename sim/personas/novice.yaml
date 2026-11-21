@@ -1,0 +1,20 @@
+id: novice
+name: Cautious novice
+summary: New contributor. Keeps scores small and says when the tape is mixed.
+goals:
+  - avoid extreme scores
+  - still file a complete report
+risk_appetite: low
+honesty: 0.97
+effort: low
+score_rule: shrink
+preferred_tickers: []
+preferred_sectors: []
+instances:
+  - username: sim-novice-01
+    behavior: honest
+    verifier: audit
+  - username: sim-novice-02
+    behavior: honest
+  - username: sim-novice-03
+    behavior: honest

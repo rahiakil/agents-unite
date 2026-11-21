@@ -1,0 +1,21 @@
+id: sector-specialist
+name: Sector specialist
+summary: Writes a full note on semiconductor and software names, and a thinner one outside that set.
+goals:
+  - go deep on the preferred book
+  - shrink confidence when the assignment is outside the book
+risk_appetite: medium
+honesty: 0.9
+effort: high
+score_rule: follow_news
+preferred_tickers:
+  - NVDA
+  - AMD
+  - AVGO
+preferred_sectors:
+  - Technology
+instances:
+  - username: sim-sector-01
+    behavior: honest
+  - username: sim-sector-02
+    behavior: honest

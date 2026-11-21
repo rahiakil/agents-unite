@@ -67,6 +67,7 @@ REQUIRED_WORKFLOW_CHECKS = {
     ".github/workflows/contributor-guard.yml": (
         "validate_contributor_scope.py",
         "validate_report.py",
+        "--block-simulated",
     ),
     ".github/workflows/validate-report.yml": (
         "validate_report.py",
@@ -93,7 +94,28 @@ def parse_batch_branch(branch: str) -> tuple[str, str] | None:
     return match.group(1), match.group(2).lower()
 
 
-def validate_batch_scope(branch: str, changed_files: list[str], *, require_report: bool = True) -> list[str]:
+def tickers_match(path_ticker: str, branch_ticker: str) -> bool:
+    """Branch names replace '.' with '-' (BRK.B -> BRK-B). Compare after that map."""
+    return path_ticker.upper().replace(".", "-") == branch_ticker.upper().replace(".", "-")
+
+
+def path_matches_report_assignment(path: str, date: str, branch_ticker: str) -> bool:
+    parts = Path(path).parts
+    if len(parts) != 4 or parts[0] != "data":
+        return False
+    if parts[1].startswith("_") or parts[1] != date:
+        return False
+    return tickers_match(parts[2], branch_ticker)
+
+
+def validate_batch_scope(
+    branch: str,
+    changed_files: list[str],
+    *,
+    require_report: bool = True,
+    root: Path | None = None,
+    block_simulated: bool = False,
+) -> list[str]:
     """Batch branches may add report/sources files under data/DATE/<any ticker>/ only.
 
     Same protections as report/ branches: no protected paths, allowed file
@@ -105,6 +127,7 @@ def validate_batch_scope(branch: str, changed_files: list[str], *, require_repor
     if not parsed:
         return [f"branch must match batch/DATE-HASH8, got: {branch!r}"]
     date, branch_hash = parsed
+    root = root or REPO_ROOT
     errors: list[str] = []
     allowed_prefix = f"data/{date}/"
     report_files = [f for f in changed_files if is_report_data_file(f)]
@@ -130,7 +153,7 @@ def validate_batch_scope(branch: str, changed_files: list[str], *, require_repor
         if name in ("report.md", "sources.json"):
             errors.append(f"{path}: batch files must be slugged (report.<slug>.md / sources.<slug>.json)")
     for report_path in report_files:
-        gh_user = read_github_username_from_report(REPO_ROOT / report_path)
+        gh_user = read_github_username_from_report(root / report_path)
         if not gh_user:
             errors.append(f"{report_path}: missing github_username in frontmatter")
             continue
@@ -139,6 +162,9 @@ def validate_batch_scope(branch: str, changed_files: list[str], *, require_repor
                 f"{report_path}: branch hash {branch_hash} does not match "
                 f"github_username {gh_user!r} (expected {user_hash8(gh_user)})"
             )
+        if block_simulated:
+            text = (root / report_path).read_text(encoding="utf-8") if (root / report_path).is_file() else ""
+            errors.extend(simulated_partition_errors(gh_user, text))
     return errors
 
 
@@ -225,16 +251,51 @@ def user_hash8(username: str) -> str:
     return hashlib.sha256(username.lower().encode("utf-8")).hexdigest()[:8]
 
 
+def simulated_partition_errors(username: str | None, report_text: str | None = None) -> list[str]:
+    """Reserve the sim- prefix and simulated flag for the study ledger.
+
+    Real contributor branches target main. Simulated personas archive on
+    sim-data and must not merge as if they were human reports.
+    """
+    errors: list[str] = []
+    if username and username.lower().startswith("sim-"):
+        errors.append(
+            f"simulated identity {username!r} cannot land on the main ledger"
+        )
+    if report_text:
+        for line in report_text.splitlines():
+            if line.lower().startswith("simulated:"):
+                value = line.split(":", 1)[1].strip().strip("'\"").lower()
+                if value in {"true", "yes", "1"}:
+                    errors.append("simulated reports cannot land on the main ledger")
+                break
+    return errors
+
+
 def validate_scope(
     branch: str,
     changed_files: list[str],
     *,
     require_report: bool = True,
+    root: Path | None = None,
+    block_simulated: bool = False,
 ) -> list[str]:
+    """Validate a contributor diff.
+
+    `root` is the tree the report files live in. CI uses the repo root.
+    Tests and the simulation pass a scratch tree so they do not write into data/.
+    """
     errors: list[str] = []
+    root = root or REPO_ROOT
     branch = branch.removeprefix("refs/heads/")
     if branch.startswith("batch/"):
-        return validate_batch_scope(branch, changed_files, require_report=require_report)
+        return validate_batch_scope(
+            branch,
+            changed_files,
+            require_report=require_report,
+            root=root,
+            block_simulated=block_simulated,
+        )
     weekly = parse_weekly_branch(branch)
     if weekly:
         role, date, branch_hash = weekly
@@ -262,12 +323,15 @@ def validate_scope(
                 if not is_weekly_data_file(path):
                     errors.append(f"disallowed file type: {path}")
         for report_path in report_files_in_diff:
-            full = REPO_ROOT / report_path
+            full = root / report_path
             gh_user = read_github_username_from_report(full)
             if gh_user and user_hash8(gh_user) != branch_hash:
                 errors.append(
                     f"{report_path}: branch hash {branch_hash} != github_username {gh_user!r}"
                 )
+            if block_simulated and gh_user:
+                text = full.read_text(encoding="utf-8") if full.is_file() else ""
+                errors.extend(simulated_partition_errors(gh_user, text))
         return errors
 
     parsed = parse_report_branch(branch)
@@ -281,7 +345,7 @@ def validate_scope(
 
     if require_report and not report_files_in_diff:
         errors.append(
-            "no report file in commit — must add report.md or report.<user>.md "
+            "no report file in commit: must add report.md or report.<user>.md "
             f"under {allowed_prefix}"
         )
 
@@ -297,16 +361,16 @@ def validate_scope(
                 errors.append(f"blocked: protected path ({path})")
                 break
         else:
-            if not path.startswith(allowed_prefix):
+            if not path_matches_report_assignment(path, date, ticker):
                 errors.append(
-                    f"out of scope: {path} — only {allowed_prefix}* allowed for this branch"
+                    f"out of scope: {path} (only {allowed_prefix}* allowed for this branch)"
                 )
                 continue
             if not is_allowed_data_file(path):
                 errors.append(f"disallowed file type in report folder: {path}")
 
     for report_path in report_files_in_diff:
-        full = REPO_ROOT / report_path
+        full = root / report_path
         gh_user = read_github_username_from_report(full)
         if not gh_user:
             errors.append(f"{report_path}: missing github_username in frontmatter")
@@ -322,8 +386,11 @@ def validate_scope(
         if len(parts) >= 3:
             if parts[1] != date:
                 errors.append(f"{report_path}: date {parts[1]} != branch date {date}")
-            if parts[2].upper() != ticker:
+            if not tickers_match(parts[2], ticker):
                 errors.append(f"{report_path}: ticker {parts[2]} != branch ticker {ticker}")
+        if block_simulated:
+            text = full.read_text(encoding="utf-8") if full.is_file() else ""
+            errors.extend(simulated_partition_errors(gh_user, text))
 
     return errors
 
@@ -363,6 +430,11 @@ def main() -> int:
         action="store_true",
         help="Do not require a report file in diff (maintainer use)",
     )
+    parser.add_argument(
+        "--block-simulated",
+        action="store_true",
+        help="Reject sim- usernames and simulated: true on branches that target main",
+    )
     args = parser.parse_args()
 
     if args.verify_workflows:
@@ -392,6 +464,7 @@ def main() -> int:
         branch,
         changed,
         require_report=not args.skip_report_required,
+        block_simulated=args.block_simulated,
     )
     if errors:
         print("Contributor scope validation failed:", file=sys.stderr)

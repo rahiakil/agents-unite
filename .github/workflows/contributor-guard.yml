@@ -48,7 +48,8 @@ jobs:
           python3 scripts/validate_contributor_scope.py \
             --branch "${{ steps.diff.outputs.branch }}" \
             --base "${{ steps.diff.outputs.base }}" \
-            --head "${{ steps.diff.outputs.head }}"
+            --head "${{ steps.diff.outputs.head }}" \
+            --block-simulated
 
       - name: Block protected paths on non-report PRs
         if: >-

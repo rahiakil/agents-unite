@@ -1,0 +1,59 @@
+name: Daily persona study
+
+# 08:00 UTC. Appends one day to the sim-data branch.
+# The job fails when the harness check fails or the archive push fails.
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: "rule, auto, openrouter, groq, huggingface, gemini, ollama, or llamacpp"
+        default: auto
+        required: false
+        type: string
+      llm_cap:
+        description: "Maximum LLM calls for this day"
+        default: "11"
+        required: false
+        type: string
+
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Run one study day and append sim-data
+        env:
+          SIM_PROVIDER: ${{ github.event.inputs.provider || 'auto' }}
+          SIM_LLM_CAP: ${{ github.event.inputs.llm_cap || '11' }}
+          SIM_DAILY_OUT: ${{ runner.temp }}/sim-daily-out
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+          SIM_OPENROUTER_MODEL: ${{ vars.SIM_OPENROUTER_MODEL }}
+          SIM_GROQ_MODEL: ${{ vars.SIM_GROQ_MODEL }}
+          SIM_GEMINI_MODEL: ${{ vars.SIM_GEMINI_MODEL }}
+          SIM_HF_MODEL: ${{ vars.SIM_HF_MODEL }}
+        run: bash scripts/sim-daily.sh
+
+      - name: Upload the day bundle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sim-daily-${{ github.run_id }}
+          path: ${{ runner.temp }}/sim-daily-out
+          retention-days: 14
+          if-no-files-found: ignore

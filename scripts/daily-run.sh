@@ -101,7 +101,14 @@ print(cmd or '')
   BRANCH="$("$AU_PYTHON" -c 'import json,sys; print(json.loads(sys.argv[1]).get("branch",""))' "$META")"
   [[ -z "$BRANCH" ]] && BRANCH="$("$AU_PYTHON" scripts/branch_name.py --contributor "${AGENTS_UNITE_CONTRIBUTOR:-}")"
   log "Branch: $BRANCH"
-  git checkout -B "$BRANCH"
+  # Branch from the latest remote main so the PR diff is only this report.
+  BASE_BRANCH="${AGENTS_UNITE_BASE_BRANCH:-main}"
+  if git fetch --quiet origin "$BASE_BRANCH" 2>/dev/null; then
+    git checkout -B "$BRANCH" "origin/$BASE_BRANCH"
+  else
+    log "warning: could not fetch origin/$BASE_BRANCH; branching from current HEAD"
+    git checkout -B "$BRANCH"
+  fi
   git add "$OUTPUT/" 2>/dev/null || true
   git add "$OUTPUT"/*.md "$OUTPUT"/*.json 2>/dev/null || true
 
@@ -112,9 +119,16 @@ print(cmd or '')
 
   git commit -m "sentiment: $TICKER $DATE ($ROLE)"
 
+  # Push before opening the PR. Without a push, gh pr create fails in cron
+  # (no TTY to answer its push prompt) and the report never leaves the machine.
+  if ! git push -u origin "$BRANCH"; then
+    log "git push failed for $BRANCH (check gh auth / GH_TOKEN in .agents-unite/cron.env)"
+    return 1
+  fi
+
   if command -v gh >/dev/null 2>&1; then
     log "Opening PR"
-    gh pr create --title "sentiment: $TICKER $DATE" --body "$(cat <<EOF
+    if ! gh pr create --base "$BASE_BRANCH" --head "$BRANCH" --title "sentiment: $TICKER $DATE" --body "$(cat <<EOF
 Automated daily report from agents-unite.
 
 | Field | Value |
@@ -125,9 +139,11 @@ Automated daily report from agents-unite.
 | Date | $DATE |
 | Output | \`$OUTPUT/\` |
 EOF
-)" --head "$BRANCH" 2>/dev/null || gh pr view --web 2>/dev/null || true
+)"; then
+      log "gh pr create failed (a PR may already exist for $BRANCH); branch is pushed"
+    fi
   else
-    log "gh not found — commit created locally on $BRANCH"
+    log "gh not found: branch $BRANCH pushed, open the PR manually"
   fi
 
   "$AU_PYTHON" scripts/generate_readme.py 2>/dev/null || true
@@ -156,11 +172,16 @@ print('true' if load_yaml_config().get('notify_on_failure', True) else 'false')
 }
 
 while [[ $ATTEMPT -le $MAX_ATTEMPTS ]]; do
-  if run_once; then
+  # Capture run_once's own exit code. The previous `if run_once; then ...; fi; rc=$?`
+  # always saw 0 here, so manual mode (rc=2) was retried and reported as a failure.
+  set +e
+  run_once
+  rc=$?
+  set -e
+  if [[ $rc -eq 0 ]]; then
     log "Success"
     exit 0
   fi
-  rc=$?
   if [[ $rc -eq 2 ]]; then
     log "Waiting for manual agent (set AGENT_DONE=1 to continue)"
     exit 0

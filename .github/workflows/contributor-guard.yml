@@ -10,6 +10,7 @@ on:
     branches:
       - "report/**"
       - "weekly/**"
+      - "batch/**"
 
 jobs:
   scope-and-validate:
@@ -41,7 +42,7 @@ jobs:
           fi
 
       - name: Enforce report branch scope
-        if: startsWith(steps.diff.outputs.branch, 'report/') || startsWith(steps.diff.outputs.branch, 'weekly/')
+        if: startsWith(steps.diff.outputs.branch, 'report/') || startsWith(steps.diff.outputs.branch, 'weekly/') || startsWith(steps.diff.outputs.branch, 'batch/')
         run: |
           set -euo pipefail
           python3 scripts/validate_contributor_scope.py \
@@ -52,7 +53,8 @@ jobs:
       - name: Block protected paths on non-report PRs
         if: >-
           github.event_name == 'pull_request' &&
-          !startsWith(steps.diff.outputs.branch, 'report/')
+          !startsWith(steps.diff.outputs.branch, 'report/') &&
+          !startsWith(steps.diff.outputs.branch, 'batch/')
         run: |
           set -euo pipefail
           BASE="${{ steps.diff.outputs.base }}"
@@ -74,7 +76,7 @@ jobs:
 
       - name: Collect report directories
         id: reports
-        if: startsWith(steps.diff.outputs.branch, 'report/')
+        if: startsWith(steps.diff.outputs.branch, 'report/') || startsWith(steps.diff.outputs.branch, 'batch/')
         run: |
           set -euo pipefail
           BASE="${{ steps.diff.outputs.base }}"
@@ -106,7 +108,7 @@ jobs:
 
       - name: Validate report content
         if: >-
-          startsWith(steps.diff.outputs.branch, 'report/') &&
+          (startsWith(steps.diff.outputs.branch, 'report/') || startsWith(steps.diff.outputs.branch, 'batch/')) &&
           steps.reports.outputs.has_reports == 'true'
         run: |
           set -euo pipefail

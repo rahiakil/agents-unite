@@ -17,6 +17,12 @@ REPORT_BRANCH_RE = re.compile(
     r"^report/(\d{4}-\d{2}-\d{2})-(.+)-([a-f0-9]{8})$",
     re.IGNORECASE,
 )
+# Batch lane: one contributor, one session date, many ticker folders.
+# Used by scheduled multi-ticker collectors (see CONTRIBUTING.md "Batch runs").
+BATCH_BRANCH_RE = re.compile(
+    r"^batch/(\d{4}-\d{2}-\d{2})-([a-f0-9]{8})$",
+    re.IGNORECASE,
+)
 WEEKLY_BRANCH_RE = re.compile(
     r"^weekly/(patterns|findings)/(\d{4}-\d{2}-\d{2})-([a-f0-9]{8})$",
     re.IGNORECASE,
@@ -76,6 +82,64 @@ def parse_weekly_branch(branch: str) -> tuple[str, str, str] | None:
         return None
     role, date, user_hash = match.group(1).lower(), match.group(2), match.group(3).lower()
     return role, date, user_hash
+
+
+def parse_batch_branch(branch: str) -> tuple[str, str] | None:
+    """Parse batch/DATE-HASH8 -> (date, hash8)."""
+    branch = branch.removeprefix("refs/heads/")
+    match = BATCH_BRANCH_RE.match(branch)
+    if not match:
+        return None
+    return match.group(1), match.group(2).lower()
+
+
+def validate_batch_scope(branch: str, changed_files: list[str], *, require_report: bool = True) -> list[str]:
+    """Batch branches may add report/sources files under data/DATE/<any ticker>/ only.
+
+    Same protections as report/ branches: no protected paths, allowed file
+    names only, and every report's github_username must hash to the branch
+    hash. Files must be slugged (report.<slug>.md) so a batch never claims the
+    bare report.md of a single-ticker contributor.
+    """
+    parsed = parse_batch_branch(branch)
+    if not parsed:
+        return [f"branch must match batch/DATE-HASH8, got: {branch!r}"]
+    date, branch_hash = parsed
+    errors: list[str] = []
+    allowed_prefix = f"data/{date}/"
+    report_files = [f for f in changed_files if is_report_data_file(f)]
+    if require_report and not report_files:
+        errors.append(f"no report file in commit under {allowed_prefix}")
+    for path in changed_files:
+        if path.startswith(".github/workflows/"):
+            errors.append(f"blocked: CI workflows are immutable for contributors ({path})")
+            continue
+        if path in PROTECTED_FILES:
+            errors.append(f"blocked: protected file ({path})")
+            continue
+        if any(path.startswith(prefix) for prefix in PROTECTED_PREFIXES):
+            errors.append(f"blocked: protected path ({path})")
+            continue
+        if not path.startswith(allowed_prefix):
+            errors.append(f"out of scope: {path} (only {allowed_prefix}<TICKER>/* allowed for this branch)")
+            continue
+        if not is_allowed_data_file(path):
+            errors.append(f"disallowed file type in report folder: {path}")
+            continue
+        name = Path(path).name
+        if name in ("report.md", "sources.json"):
+            errors.append(f"{path}: batch files must be slugged (report.<slug>.md / sources.<slug>.json)")
+    for report_path in report_files:
+        gh_user = read_github_username_from_report(REPO_ROOT / report_path)
+        if not gh_user:
+            errors.append(f"{report_path}: missing github_username in frontmatter")
+            continue
+        if user_hash8(gh_user) != branch_hash:
+            errors.append(
+                f"{report_path}: branch hash {branch_hash} does not match "
+                f"github_username {gh_user!r} (expected {user_hash8(gh_user)})"
+            )
+    return errors
 
 
 def parse_report_branch(branch: str) -> tuple[str, str, str] | None:
@@ -169,6 +233,8 @@ def validate_scope(
 ) -> list[str]:
     errors: list[str] = []
     branch = branch.removeprefix("refs/heads/")
+    if branch.startswith("batch/"):
+        return validate_batch_scope(branch, changed_files, require_report=require_report)
     weekly = parse_weekly_branch(branch)
     if weekly:
         role, date, branch_hash = weekly
@@ -334,9 +400,14 @@ def main() -> int:
         return 1
 
     parsed = parse_report_branch(branch)
-    assert parsed
-    date, ticker, _ = parsed
-    print(f"OK: scope valid for {expected_data_dir(date, ticker)}/ ({len(changed)} file(s))")
+    if parsed:
+        date, ticker, _ = parsed
+        print(f"OK: scope valid for {expected_data_dir(date, ticker)}/ ({len(changed)} file(s))")
+    elif parse_batch_branch(branch):
+        date, _ = parse_batch_branch(branch)  # type: ignore[misc]
+        print(f"OK: batch scope valid for data/{date}/ ({len(changed)} file(s))")
+    else:
+        print(f"OK: scope valid for {branch} ({len(changed)} file(s))")
     return 0
 
 

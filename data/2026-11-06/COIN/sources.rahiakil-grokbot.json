@@ -1,0 +1,125 @@
+{
+  "ticker": "COIN",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-22T08:20:01Z",
+  "collected_at": "2026-11-22T08:20:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS05HTWRWTmtsS0dTQ01vQm9GUWtpQmZqTjN0a2J1a1JYYnBfdm1Ga2dQSkQ0NldHYU95XzYtT2NmZkxFN0Y2Z3BkSDNCX1I2OThhc0ViMmpWbk1jOE02N3M5dHlPTk9yTVMtVEx5enpQR2x4OER0WURIaC1EUkFvb3hCQkhscWpYQjhBdA?oc=5",
+      "title": "Coinbase (COIN) Stock Falls 10% as Morgan Stanley Turns Bearish",
+      "snippet": "MoneyCheck, 2026-11-06T12:39:03+00:00",
+      "published": "2026-11-06T12:39:03+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd01aZGFhT2R0Q25PLXBNUUJmeEF6LTg0aXZfUDFiUC1DQ0hmc3ZjTlhxUkpsOHBIQkY2YXpFRkxWZDRadHNVb19rTEdZaVdHaFFuMHhFTlNvMWhLY2ZfQlpfZVFTbXBGa2VzTGVQWkgyR2xwclJUakZYMzNHYXdPSktsSE00dmlRYlpBRHJzdmxLZ3VaS2hF?oc=5",
+      "title": "Coinbase stock falls 10.5% as Samsung Wallet USDC integration",
+      "snippet": "Traders Union, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50T0t3eTAtTUJpTUtsZlBNWVJJcHRlTzdOaFRGRlNManBBSFhuWDZySWxnVEV0amJVQ2xNeW8xejg1aWFBZm5MNm8xVGJrVV8wMWdqZl9R?oc=5",
+      "title": "Kalshi, Coinbase stock perps under threat ahead of CFTC deadline",
+      "snippet": "Cryptonews.net, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPclBVN0RheEU3Q2szUm5sdUxNTWR4cS10YzJXb3V5RGZjRC0xWGVUUTkxNTdvQUR4ajNxQ0JBWlZ3Q0d5RTRzdzlhT04wa2ptWjNFN2hUQndwWkJjUmhDa0JFd0NGTW1GMjlrLVBxUVlSOU5seXQ4cml3VUN3YXhzT0VqUDRFc0ZoUlpuR3VmRmcwYzZPS0xRRS1GeUZmY2ti?oc=5",
+      "title": "Coinbase Stock Could Be Getting Ready for Its Next Big Move",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcWwyRHhmZENzRlVVX3owck1uWF85ZWZWSkJPTDJUejd5MGtOU3NRNW90RlI1eFNZdjZPVGJBNUNSenZXTWhkN3NwdFNGLTNxbzQ4T3ZpVHlwWDV1NFBkT2xGQmZodHJ5Skt0NEpsbWtaZEdUcWhoVHAzN0UwZEpfYjZHelBFcGo5Y2o4YlozUFJoQ3lhSU8wNzJzWQ?oc=5",
+      "title": "Can Coinbase Stock Fall Another 40%?",
+      "snippet": "Trefis, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX3U3SGN3cUhiTWFfUnhfakswdnE2eGMtOFczcnJoS3BqemFvbVduRDBNVW9wYUV1NzdsMjdiWkNONjhtemFTSG82SHNUbGVGVXF0M2ZkQ1Z1bHludnVRaEVsUzNJbm5JTUF3YkhMSEZfejhJYVllNEdxWjJYSFpEMjN5YUhtYlU1MU85S3ZmWW5pQVpCRzRKcmVkWm9WOVZCUDd3?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Coinbase Stock?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd3g5OTIyRWNhRkVEd21TZ0lFdEF4djF6OHNPR2VRLURvSWtiWnJfSGYwNG80UDVZalNsUm80NXlRRmwtVUZZLWVkWnRSRmtWUnc2Qm93VGpuV2tmWkdiX0F6YXFyRXZ1MzktdEwyUUdub3FWOHR0NTk1VmdvVFBVemEzNUFIajhfNUE?oc=5",
+      "title": "Coinbase stock drops post-earnings but shows 44% upside potential with new revenue streams.",
+      "snippet": "Pluang, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX19ZUXo3NkxRdmptX3l4czd3Wjl1VEJ5NjNrTF9JZV8wVFdkalFIcWszbExqMlJfemxRRHd5T3JCMWRlTXgwU2FmOHR6cWdqRzM3b08tU2E3UHpRWmlrSmRsR3FBTm00aGJfSWdLbkFxRlVFTjc5V1ZCQ2p3c0o3YzJUSHBtLXFBTjZnQXBVSHVIMG54MUFVemZZbw?oc=5",
+      "title": "Coinbase Stock Pops: What's Going On?",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZGxIUmo1LTVBdUVyd2ZvQWJPSkREV1JCT25kdGRxXzktMzVESWVZaWNsRHNRWHhoR2RGbFloTTZSOWt3VFFGd0loa3pzRER3aVBCVGFyYjJSaEV4am9JVWhXUkdlMDhrNzQ2YzFDQURZZDZzenBvWXFtY1pNbFRhclV6TzVlbVA1R25Ga0FTaGtycGZuYndqSWJ3dkxLVWxibGdzazZSdnQ5bFdUaHFzVGFLZDRXQU9IOFpOVlVCZ3lQdWU1?oc=5",
+      "title": "Coinbase Stock Rallies Again. Here\u2019s How Much Crypto Risk Is Hiding in Your ETFs",
+      "snippet": "24/7 Wall St., 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX2h0ZVo5Vmt3MlI1MzBJemY2NWFKdjZNOWdLQVBiNG5wMjJtbElXUHNmTFIwOXVXTnMxOFhCd2dNNXB3QTBNcVJDR2lQNHhuUnpPNml5TktGeDVzS0NnSjdDblZSQ0hTUkZyRGxiYjQ0R0dBUHR3ZXVXYlRJTnRpTDU4SnBQMTF6d1prc3ZPd0RNQmNublRuWVFHM2VINlNVeVdBSE5PeG9WVk0?oc=5",
+      "title": "What Mattered Most In Coinbase\u2019s Latest Quarter?",
+      "snippet": "Trefis, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COIN/history",
+      "title": "COIN daily price history (Yahoo Finance)",
+      "snippet": "close 134.76 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

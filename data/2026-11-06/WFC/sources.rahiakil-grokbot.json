@@ -1,0 +1,125 @@
+{
+  "ticker": "WFC",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-22T08:20:01Z",
+  "collected_at": "2026-11-22T08:20:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWmFFekdPRnlKZGJfaERsbDRNOWNGNE9uRmtWTWNWaC11cVp2Z2lyYTNLcTNsbkRhREVZTzJmNmZfb2FGVy1NRVlmU1JSWFhHaHNIcHk2MW1mdlVsWUhMMVEzZXBpLVZQd2p5dGd4Rk1qWkxuZnNLWHdac05nTXU0QWtDYmNsYU10WGN4eGlGR2RCOElnd1haOQ?oc=5",
+      "title": "Wells Fargo & Company Eyes Top-Five Investment Bank Ranking as Deal Pipeline Hits Record High",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVW16ZmN3SGdyRjkxbHJJWmlGakdVNDE1Qmp6eEN1blBYM3hRTmk5SEFwSUxIdV8tMzY5Q1ZBUjRCRGk2Q3VyaWNsUzU4b0ZiRk5MQ2pPbW4wVzUyd3Z1Y09kdm9fUmsya1NOVWRCRkVRa0FyMUNuTG1GZVh5QW1sTUZ5RDItSXltM09Sd0xzcEc3d1ZRempTTmY4RzdXald1aENVOFFpUVR1by1NbVF3OXpqcnFDbWFrVFlsQlVkVFNMdw?oc=5",
+      "title": "Wells Fargo cuts Lumen stock price target on legacy revenue drag",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaGhQZXdwUGo4cENEaENSbWdRbldyVXNkMmd2QldNU1lEWHdQYTJtQ2c4ekcxTkkxbUhjNWhqZHA4Mi1mZTUzcC1JWVZKWlRmc0tpZEdXSkdZRmJsTHZqeWRJYjVzbkV0d3UtTTdXM1pMN3puUjJBZXRvanFSWks0VkNYZ1dTSF90ckdIQjh1dE45MUxkdWlWWFRKWUd1SnhsQk8yaGJQbFpmc212YU1NcUJycmpqdHYzWmhMTWI4czdJVkN3cHJr?oc=5",
+      "title": "Ovintiv (NYSE:OVV) Stock Price Target Lowered at Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVGlEVjVKdzdFTUJvVEJVNTVZMjk3djVqNXBFY1BvRjhGTXp3X0FseDFnN1doN1BnT1Bwbmtkb2U1RUFZOEFuSjRYSmlJVlVYc2R5UkgzRTVNZGFXRW8tVTU3Wk5sSWV5NVpJTlpqRzJ0RmN3Yk5zeWtCRWliakxnME5XeEExVC11UmhfUjNjTnZWY0g1eFRLUDdfMUszWTFuM1pqVHI4R0syOXhxVkdXd1VRUXBxdEtfa3UwUjBmSzhBYVZUYUF3RlJJclNodThoNFhpM1NkTFI?oc=5",
+      "title": "Wells Fargo & Company Issues Pessimistic Forecast for Ternium (NYSE:TX) Stock Price",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYnNvUWRpLVd0OWNSa285QXRsTEdjZGpQbThJQUgyWnNIWHFDSTItWl9uNm5lamU3QjhjMkFPWnpoQVNyLWxCSm9fdFAyelJWQnhKVVVQVXFXMDlyWHV2emlhbDMwUlM2MEExbVo1WkpwMFl1bUY2UlFVUlMyRzJrTldtQS1rNDZZM2JpTVpVWXlIMmlueDdiNjFVVWxIMUx0N1p2c0FpbElfREV3WVJuN29VS2pjRHNyRURBdEh2MW1EdXlLeEJsb1ZYUTQ4OVJXRFpsVzdSTzdRM2R6dW5Z?oc=5",
+      "title": "Kraft Heinz (NASDAQ:KHC) Stock Price Expected to Rise, Wells Fargo & Company Analyst Says",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQlV3d3d1Q0psNE5GbkRPNzU3YzM3eTlmakN6WlExMUZVTjhuc0s1SUhxMnhOcnFpWmdpbVhyYlRqSXdsNWpvX3pFdFFhSl9TQWZpMmtER2lpOWFOOUlQTHZOS0lXY0NTYXZOMlp4bERoTGtRY0doYWhnampoU1hvOWM1NUx0cU9POGtMUlhzUU0tLTVjbkVmN2JqUEtmMF95T2tXellUUldPUlUwLS00Wi1VclVUczhsUGxWbTlQMXV2VWl4SFI4bDEyTG5rWjQ5MkE?oc=5",
+      "title": "Lumen Technologies (NYSE:LUMN) Stock Price Target Cut by Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMi1qQjh6dFVBM0lrQUNvRVBkVlF5T0p2RkxFa1hYLVBNTVVzNmJONUltU3o3a09pd1ZRM0ltdndRT0NhTHh4YTBCSDRKbXV6VXpuUjhCLVJqRlQzaXIwN1d0dTQySEtTYzBQc0wxVUtFRmFzTk9QaWZENzhUNE9fRUJta0Exdy1hbl84QUtReW9tNDBYcmV1dFQwMGk5RDA4Qi1Rc3YyZjZEanhINEt3TnRXc2NkNDhrMjg1WXI1b0ItNDFULTVhM2tabFo1ZDEta1B3LThIRTFIYm1HNFd6Yw?oc=5",
+      "title": "Trinity Capital (NASDAQ:TRIN) Stock Gets Price Target Increase from Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLU93V212N2FtSDlidW5iUDV0eTMtbG1DQlphblBUUzlOZmlpQ3gyeWlJMHp3Y1lsV1JnN01oOFZlM0lTU185S3dGWU1EYXR4a1ZkMWdZMlFxd0U4dnVDTlM2WjhqSTZuWk1KXzM4Umt3RjRGY1ZCZ3pxOXNsRlVkb0NUUk5zNEtwNGVjV28tZmY0TFA5Y3BleVZjNGFMZUdrRXZ3elZqeVhzWk85SWZNenhTU1Y4NGVxWVowMERQY0h4UFdFczFSN0pZQzdnblBVT3JR?oc=5",
+      "title": "Hut 8 (NASDAQ:HUT) Stock Gets Price Target Reduction from Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYVNNZWJ5ZjZKb1hJU2FyZndoVGdXaUEyVG1pQTNMaVU4ZDdNR0ZhUnQySTQ0cXprbWpBZUM3TzljOXN3YkQ5bFBMcDVfNmNQUko0M2ZheXBZTHMtbTI5dE5uNUF0S29Jb2ZBT0ZfV2tiVWptNkFLZ0VWRTB0alVFYzBsV0ZhcEVNSFRYc2V0NnpCX1QxSjJUNjlKSFZhT2pSdnlydUpXV1lWNzFGTEh0dVVCTnpZQmRQZzJMRDNUaGlRdWFZSFM2U0NQcF9IU09qc0pXZFRB?oc=5",
+      "title": "Zimmer Biomet (NYSE:ZBH) Stock Gets Price Target Boost from Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU2swWHpBZmdrODdVRFZBUUJsQ2RYU3Fuc3FXT0RZQ3cxV3BBRElxczNSTzd4Z1Vta1lqRmFpb2NWckljanBLQ2NxS0QyZmdxSTBweXFjNUFMZ045NEplb2FqOUg4M2lPQzNVWTdoN0RJc2NtdXBxWThMenVyR29oclVOazF1SElOdXNNaEwxcUo3THg5T0ozb0pHaFA3THI4cEE?oc=5",
+      "title": "Wells Fargo Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WFC/history",
+      "title": "WFC daily price history (Yahoo Finance)",
+      "snippet": "close 83.94 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

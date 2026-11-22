@@ -1,0 +1,125 @@
+{
+  "ticker": "AVGO",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2VJbThWN01WZTZsdUFURXpNUE1nRVh5TEE1MEt1OEJiVnYxZ1VnandDTEpJaFdld25XNkNEQkZTMGhnLWJ2c3cyU2hyVlZUWTZCM0llcmpDdkhTQ0VZYmtiUTJEcG5fSkxkRTU1MTJ0SndTSGNwdUVyZnNUT05XNEhwTjlxbmhZdVlYR0FSUkVmeGF2bkkyVEtVbWp4bndJVzl3?oc=5",
+      "title": "Prediction: This Will Be Broadcom's Stock Price by the End of 2027",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMFVFcGhmOGRiajU5ay1YcGFnZTJ4VVdSc0NCZ0dha0lRdDZHUm1fZ3FQbU5IV1dEVHRwWjl6UGRaQXVXUTFIR2lHMFp1bGVaSUdYNEk0TmVVMWZmWnpVRGZnZUF4UHJ0X0plMVJyT1ZhWUliZjRpMDhLckY1c3NoZDk4b0pWcE9UT3VVUUNrQTZwS0ZlQWZz?oc=5",
+      "title": "Alphabet, Amazon, SpaceX, Microsoft, Broadcom, and AMD Are Counting on Anthropic's IPO. Not All Their Contracts Are Equal.",
+      "snippet": "The Motley Fool, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWnRrYjlXVDVFVGNlLWdVb2FUeGRIbnUxTnlNNTBIRWJoMjJxSHNOcTV4WmFUQzNBdTMtOE5PRlVtU29DSS1mR19xWGMyNlhJMVFuUVQ0ZUdJT3k2OTdSbDF4Z3J0ZTU5U1dHTVJnWTAyRHdlQjZXa05kOUZUTmExY0c5WkhsY3NhbVB2MTVwZllkZHRDbWk0VmUyNlZROTVaNjZlRE5pVUdfdnQyamlPTGFSUjhMMUJsM0lzSQ?oc=5",
+      "title": "Wall Street\u2019s Broadcom Target Sits Above Its 52-Week High. Is the Street Right?",
+      "snippet": "24/7 Wall St., 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZW14YmNZTDJqaUY2VXU4eUFoeVFWNnNLX0ZxaDhwSkVrRHg3RkZYWHk2MDlsVzFJTWFqOEhMS1ZSazl0d2FXU29DdTdVVVROU0xFTkw1bk5zaTZIaEx1VUYyM2RQbmZyS09wYnNYdHlpcXBaT2Z5Mlg0RnBFNXBwT1k5dGItcDJrOFJ5anpMaG5QRFRDUWJNRWpVQnVpb2FFNFgzSXBYelk?oc=5",
+      "title": "Jim Cramer praises Broadcom and recommends buying another iconic stock",
+      "snippet": "TheStreet, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaHlWemtxTGM0VlM2S1VzaExyY3c1VVRFS2VtWXZWSTBSUWRHcl9PaE5VeW5xa1dURmhvUkdfc01SelNfc3VhaVhYLU40bWFUZjlCY2xLLVIzdTl4ZGtIUmM5czdxVUtQRVg2eW5VUU9KVl91bU1XdmQxa3lwQWc4S29xdEVhTEtvOEhaNGt1OFZHODJUUzFGSlpkOVVsN3VyZWlQZTJPVFh5X1p2ZWxjYkVxMGEtOFpEcmhwYmNR0gHDAUFVX3lxTE54dWU3T2hTNFFxWXdqWDcwWGhFTXdoYWZWV2wtX2xqQTF3LXRvYThiT3hIZ3ZsMFhZUmtPVFpmLUF1X0NUUl9uTFFnbEJIRWctLWppV2QwQUlwOWJ2RDNienNxTDhPT3hQcll4NHBOYkcya0NOUGRNV2hzSy0tUlotRWdKSHk4WVpBeFA3SkxUeS1YdEM1UzFXX2V2aGFnWUJtcm9YdmZfUV9SNnczMHM4Qmo0RXJ3RnJCWUpQTlhUVml1SQ?oc=5",
+      "title": "Cramer's lightning round: 'Broadcom has been one of the greatest performers of all time'",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV2xKMjJsUnppQ1l5U0V0MXN6UElta0dHN1RILVZZdnVuTTc4LUFYQkhYTTJXUWpMRndnR1ZKdUZUZ3hxQUQxZzgyTW9SNTFETWxBODJUS1dKMmpwQTFpeVJQeDZkdWZpUk56TU1hb1hQMVUycGxpSHBDcC10d1JqU0c0WjZQZTVTZnExTFBobVZnTTU0X3AzQ2ZkQQ?oc=5",
+      "title": "Broadcom Stock Is 29% Below Its Record. After Its New Anthropic Deal, I'd Consider Buying It a Little at a Time.",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWXY3enBIMUt0UlJfSWJQR1NFQUpidzMzOWFwUFY3TTZxRVVlTElpMnU3bmRaOGhfZGtINTZhajlBSEIxa2pVNDVRSnlMOElENWxCU3Qyeko3SDhqZlhxMFN3clJwUndPYVJVMW94UU43RTJ1Ulc5eE1yMEMyRnl0b0poYkYyM0VxZEZMTWxMOGdETnpVeWx6cQ?oc=5",
+      "title": "Broadcom Inc. (AVGO) Laps the Stock Market: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUNESjNKQm9WM29KdEpZZlN1dGpYam5zbUhBUDE0X1lnLW1xZ3BGaFpsUld2cTJzVDJaeV80UTdyNWcyUW5xVkZEZ2Z5a0VNYlROSTZGUGRPQ0JSUFVINXNhWUcyQVo5MTRULWs2SVVLUXI5ZVd1SzBWbm1jdzNORkt0SkM5WHV4aUhGTlRiQ29TNzluVTlGTERRdmNiNklmVV9kMUQwbktWWHJVZHo0SndTYWVQeTdYM3h2dzF5WmJrWXZGLXk2Q3QxLTgxV3M?oc=5",
+      "title": "AMD, Broadcom, and Micron stocks lead chip sector higher for third day in a row",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOHdzX3JsU3hKY3Bxa3ZMM1R2ZThPS21vTnE4Mllid1pLSVJPakxoNndGVGhUMGZMZzE3NU1YeUU1X3JfRmJLSFZsMnQ3UVdaV1h5cFhrN0FrSFp4RXpGa3p0cXhHZTd6QVNFYUttZG1yMlZVX3ptMkUtN0VZOFNnbnVBX0k?oc=5",
+      "title": "Why Broadcom Is the Big Anthropic IPO Winner. The Stock Jumps on Buy Upgrade.",
+      "snippet": "Barron's, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMHlfSEdOMmFTbU1JZFJOa3FodWlvT2doX09naFVMR2ZBMnFnN1RNeTdzeGc1cTg5S3RxbjBCbGhzS3Y0dk14SG9QZTNyMEVBTkIwaEhIbmFtazdYOC0xdjZwbDVoUmpEcUhMMUFiWHVEczYtU0lENlhtN2c2bDd2UG5ZN0JaUnlzdUh5dDV1dlZuMGZhZzBxbG9SVnNkX1YtclBidlVZc2c3bGNvM2lyOGdRRk81bV91V0xB?oc=5",
+      "title": "Broadcom: New Anthropic Financing Deal Agrees With Our Bullish Forecast for This Top Stock Pick",
+      "snippet": "Morningstar, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "title": "AVGO daily price history (Yahoo Finance)",
+      "snippet": "close 326.08 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

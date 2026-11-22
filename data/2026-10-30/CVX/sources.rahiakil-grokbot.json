@@ -1,0 +1,125 @@
+{
+  "ticker": "CVX",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYzZRcC1UdzlYQjh3RDQxRkUwTlJuNXBRZGVvVUNCczhubWVDeUNobFNISjk2djY5RS1YcmFucUwyWHpMZmgwQm1PRHZuenFvaHprNjNuazdWNXFqYTMwQWd2M3djdW9wUUhWb3ZLSVRreGVydDluVk5kMjJhMzBLSW5IZmUyUGJjMlRhbTRwN3NPeGVfaHB1azVMOFo?oc=5",
+      "title": "Chevron Is Up Nearly 57% in 2026. Is Its Dividend Safer Than ConocoPhillips\u2019?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRlpOelh1TUVOMkJ0TTM4Ny1qN19qWTFjUUN2ZjRJR2cyNzFTS0I3U1lYdXQxSUItdHVVU2NTZjl6dUVITGFpWVVfM1JRZlNfNjJwQVFGNnNtcE1SaDVTY191VGtRMVVXYmg4R0VRUWp0dmlQMGN1cVVfUmFsb2xMbk1PTEVoQlJrQW5xemJ2b3Iwa3BQOHZwOWtRVkk4RUEzQ3hqdk40QVVWRGtGemdUZDdmaWhqMkUySWRwbEtNdWNlVzRLZXc?oc=5",
+      "title": "How to Earn $500 a Month From Chevron Stock Ahead of Q3 Earnings",
+      "snippet": "Benzinga, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbTdkU1N1UkhkdThsbDJVa0YwUlVJd2Z0UjFySVI3Z0FiOGdPUXZvNGpDUms0N05vM0VqZGZZNEJaejFWM1dnbF9FSVFIcFg0YVU1ZlJaR19PczRuRHBmNjhDVnQyQUJ2c1Q5TDdEdHQ1Yzd3ajFqeU4zaUU1UzBnT1FoVjV0TDlzZjNGQ1UzdVo3V2p5VHpySkUyWlFBdDRLRUozSE5FYmtpdWFhUzZHcl9yd3ZJU3d6VlpqM0hRbTQ4Rm8?oc=5",
+      "title": "Ahead of Chevron Earnings, Here's What Barchart Data Says Comes Next for CVX Stock",
+      "snippet": "Barchart.com, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS3AxRk9YMWVJZmM1R0pJbkxHTDRwMTFWM2VmbThkNUE0TmpjOEc1UklIaHBOTmVEN0ZHWTZfSVRQaUpfUmk2VTdmLTg1ZlVfY0JwZVNRMXZOaVh2eVU0TWdjbzM0V1ZTbVpLMWpySHJkSlVYVURpbTVUV2lyODlCNXZNUU9reTAwU25xYUQyV2dCaGFGR1pubERZdTMyV0xPMzZONzNqU3VuM0lFeVAtZ2FiYktEUGRWYTNtZVNlNmF0Rk92TTFmeHBR?oc=5",
+      "title": "William Blair initiates Chevron stock coverage citing valuation upside",
+      "snippet": "Investing.com, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVG9vRDg0X3JGOVNWcUNfVlNwdVJycmItUGk2M1Rwb1dGenJlcDB2NVlVbWxwQS1KVHdfcVplZWhiUENxYkstQWtVMjVQSHotQnhTcVk1ek52R0syOURYeENFblFyQ1pQUmtJMUMxenpSX0JkZW81ZTlJNmViTTdPVElHalNmZDhzaEFMX1JUaUNITFRrNkE2cUhxYnFVQjNSejBKT1RjQjJqeTZUTW12NXZxTWw?oc=5",
+      "title": "Jim Cramer Says Chevron Beats Exxon. Earnings Will Put That to the Test",
+      "snippet": "24/7 Wall St., 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNzdXUk40REdWVUl2UnNkdkp2YW5fdWh6eEdCbTR6V0ZaWFJjOThQdTlqS2lqM012T1phUXF6RXl3UVg4dWZGV2szTmdaSlFBeHQzWTZzQ1VOUTJfdE1SNnNQbDNYdWZKcnVtYUtUaUo3eTF1cnJ6Y0NwNkg4Q0NYRk5naWNfOTBRai13WVVvS3pjRlVWS2Vac01MaDIydw?oc=5",
+      "title": "Chevron's dividend is safer than ConocoPhillips' despite both benefiting from high oil prices in 2026.",
+      "snippet": "Pluang, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWWdLUjBOdS1Gd3RfZkxJTUl2YkFOaGlUV0oxS1NiVEFwMnlFLWVvTUJuVXA0amNfRks3QWxpOUZkUTV3UFpSdW1xdmMzZUJqSHVUaGxIc3VkejE4ZmNaN2NNbzBTSERLOE5VMXpwVXVHTHc3ckhla1MzUVMxZ3g3R1dUWlZsRmdEcDJiOHUwenFtNExrNE51RlctekREa3RsVEhjbg?oc=5",
+      "title": "Dear Chevron Stock Fans, Mark Your Calendars for October 30",
+      "snippet": "Barchart.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUmZBV2lndGpxYjNrMFd0a2tlZm44TlI3bmhwZ3JRR1NTWXJoby15Z2JlQ2UyZlhtRVpVZ1FCekN3dzNoc0taWVNRYkJJRmRhX3ViQ25remlTajJkTW5aVXhXZVNQaHNTRlhFWnkwcndGR0lTcmZhaXlhS0pVTWIwWVc0QXJBV05TZVB3VVdTUFdTQTlQdWVJYg?oc=5",
+      "title": "If You'd Invested $10,000 in Chevron (CVX) Stock 1 Year Ago, Here's How Much You'd Have Today",
+      "snippet": "The Motley Fool, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR3V4Z1hRcWJNZTg1LUhuR01oNGl2NHJnWFd6Z2FmdzB0TUJOb0MwLW9IWVJETGRLN3FWSVBlRExENlZja1VHako0aHB5TkcyTVhueXlUS0pjUzJTaGJ4WGZYVmFfeGF2dVlfUnQzMWIwTVJsWnV3YkFKRllYT2laa3ZWQlo4Qm95aFBydENEWG14Sk9ocW1lR3Q0anhVdE0?oc=5",
+      "title": "Chevron (CVX) Stock May Be Undervalued Despite Its 145% Run",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbEF3OEVGOUpKbk1RRHBXUllXUDhpLW9sbC1JX2JRQVQzbXpEbDVNQmZDZ1lDOXE3MDV3VXNmbjJ0eU8tWWJNNHBkQW1WOElOV01wMVdYdFY0TGZ4NkJnNkdVQnExUWx3MzdWaG5aR09EOVd4OHBCRmlqRXA4b1o4TGRCSDVrYmJhcEdNeXBjUzJsbWxnUDVRcU1MeU00U09OcmY3XzdWYjhidGg0MzhSNkZDU1BFWndlWnc?oc=5",
+      "title": "Chevron: It Seems The Stock Price Implies High Oil Prices Forever (Earnings Preview)",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CVX/history",
+      "title": "CVX daily price history (Yahoo Finance)",
+      "snippet": "close 235.52 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

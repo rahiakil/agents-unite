@@ -1,0 +1,125 @@
+{
+  "ticker": "C",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdGlOeGdleHdab0pjTUlqYUdtbU5PaGYwczR5TnhwVHdpZmZXNUpReUNpdVVnbl9ra1U4SDBHcGtyM0VhX3R4VDZMaVVyMEhBUHVaeE9oX0ZpT05QRFY2NTR2di1tZUNDNGtqQ2Y4TkV3UnZQMWtXbFJMUGFEQk90TXphSUNOTkFMZlhWbXM0TjlFRGI2R3Zzd2gyOWRrcXc?oc=5",
+      "title": "Are Options Traders Betting on a Big Move in Citigroup Stock?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM3ZITXZqV3R1bF9Ca3QwbTlnT09SYTQzeFlHTURPM0ducDJvOVhnWWtkSkc5R19uMDZ2bXRMQW41RnFkV2lleFd1aW9PSkxqNkZGSlltSHVkempjMHNydWFNR1MyZnU0RnE1SjJ2d2ZwUUFGdjItTFFHQjRhamV1Q2VlZEpvLXRmcmoyNnBfUXA2VDJFdEJYNkJNc2tiOENNUVVDOThnZmJNMnpfcU5fRkZKVU1WT1BGcXRRZkFlVzhOems?oc=5",
+      "title": "Citigroup Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNal91ejJKeHFtQ08yZElzNlRWWUphbUNib1BJblNlWnZBdlBfc2pUT3VoaG9qcjlMdkRMc24tekhNYTJwNUw3R0E5VExtemZXdzh3Zk9FTzBiZC1zbF9COElPa0wtdzlyeWMwVXM5bXRmRlFsa2tURmdiWXZ0Z1pBTmNBTm5nZUFjUElwN19UQWNULWNJNzBHdVBkWWhDa243cG5McUlwRlNKaVJpMmdVYmgzNi1SZlFvVjNUXy11aHh0YlhxYlI2cTViaG95UQ?oc=5",
+      "title": "Citigroup Issues Pessimistic Forecast for W.P. Carey (NYSE:WPC) Stock Price",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQUzVjX1VoOUJjWHZhSGxJeFlGazB4ckN1Zk9fQ0hNVFBLQjlBUGhoWHhYZGhmWjZISDZuUEY2amttdVpDTk9hSTBBb1VacG1KeVJwMnFqRWhOOGEwVkREWUh2SE5GdUtWbGFpLVMxSThibWdfek8xNUtPSmNobVBiMENURnB6andaeC1DbzJObW5OVTVFSzBGQ3BsVEluTnBVU0N6NXgtajBhcWlFSjhlX3Ayc2tVSmlQbjNoSHRsOS1ucHBrUkVtb2h0V0FCTnk1cDJTbEgwNGRPNFNWQm9DWlVsTFlheG1iaUlN?oc=5",
+      "title": "Citigroup Issues Pessimistic Forecast for Easterly Government Properties (NYSE:DEA) Stock Price",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYi05bzBFVGxiMVFCbG56dVRIMXQwcU15SkwxZVN6RTAwcnBGMDVVbXhHYnEtbVAyUm9WdDBycFhFMll2Z01qWDRvV3c1TW1UdEtNVzkyY3VzYTR5QXFYMlU2N0lqY183UXRsbE52VUh1QW1uWXEzYU5yOENZbnVMQWlVSkFNMEJYS3E3Z1g3LUV1S0NfQk1WeGduVDlVNVFJRUVYcHA2RWZzRi1PcVBXemh3cWpDN0l3MDAxakFNUlhfb2pRb3daU3ZB?oc=5",
+      "title": "Polaris (NYSE:PII) Stock Price Expected to Rise, Citigroup Analyst Says",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOW1IQzZ1dHRKdGhRemdSVzB3M2pVQ1hCbVo0dFNPUGljUGRaMmd4REJ0X0FnenBadUdpWU1iSlhzZnNyWDZkb0VITHZMY1ZoM3hsa0JLUnJzaWtORlAxRHlWVjJYLWtzODdpOUwtUy01RHpoMVUyVXZIejFxTFZKRk1YNGV2b0thM2lfcTZOOUhueHhaQmVVWGJza3FhYWYxMkRVWUdzMUVVMWJzWVdmSzUtUXhVWmV3SVFRUU1kbVRYMGRPdllNVjRIUjlCakxWaWQ4?oc=5",
+      "title": "Arch Capital Group (NASDAQ:ACGL) Stock Gets Price Target Boost from Citigroup",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLVJTWGFmWHItSnpseElwcDlVYS1hRUxDR09ZUi03c0VEbEFPU0EyXy1nNU9ydEZ1RmloYnhwS2RlYjNHalZxa05IOGNhR0ljUi1reFgzTS1lOXhOTThUYjI3aWt0ZjlDclB5X1JNc0ZKZmdOeWdNblJFN0k5VWpLaHJFcWV3UXhHbExuSFRhaE5CNWlrWUdEMnM5Z3V0dlVONmR2Ni1EMi1JU1NEWlVDa0hsUDJzR2V2UEJSaTE3M3czVHZn?oc=5",
+      "title": "Playtika (NASDAQ:PLTK) Stock Gets Price Target Trim from Citigroup",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVVpEQkE3Zno2ajB5OVpaOWx6NVFoNzZ5d3NWT0g2MFRlbXcweTd1QVdteDlvWW52NVJhMjNhNndUeU9XZ2dIVTBUdXpsNlZmV0RPTnlNdUdoVnlvMVF2OElZVndzYnFhYmpKOFRZTW9nUHdYZXRwb0RCR1hzaHYyS2F1dHZTWllxV1M1Um9xWjBOX3lVNXZMaERRRTBEUQ?oc=5",
+      "title": "Citigroup (C) Could Be 18% Undervalued On Higher Targets And A $30b Buyback",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb3VBUXFadTlWSkctVVpXU19wMGdoRDFnNXdzQkhfUDJLQldMMkpjQWhYQWRXbXpJN0pZZE1CZHBTUGhUTkZiazF2NS13cWdKcWRSckZBaHRONmlfQlFSejVLUXRlNFp0R01uckJVWDExYUFPcXUtX0Y4SU1JNHdZNXRwTFNrSnUyZE9zbWNjalRBeWhKNkt4cm56SUs5VHlSb1BCTVFQYU1sLUs4aVowTlp5R2xvd2hsOWVqY0RGNnZTWDI5TnNHY0ZBeGc0UQ?oc=5",
+      "title": "Citigroup Has Lowered Expectations for Brown & Brown (NYSE:BRO) Stock Price",
+      "snippet": "MarketBeat, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM3ZXenJaNm95ZDZOWlpnZEJCd2daMnNhekdRb1FmTzZsM0ZxdGtsVWxCdkRnQUxxdkZBUi1LZDJpZjhIbzYxYWgwbkdXaHM4ejJDNVVLRUdHeXdzbl9RMV9HdG42bjRuZ0FnNDd5YkhDUm5UU3ZUNkxpY0RlVzNmQzUyOVd4alVsLVlPeTVEb2x2SU9wY2E3alBoaThCbWg2YW5CWU9TWGZBc3MyNXNlRUdSSkhBdm8?oc=5",
+      "title": "Xylem (NYSE:XYL) Stock Price Target Lowered at Citigroup",
+      "snippet": "MarketBeat, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/C/history",
+      "title": "C daily price history (Yahoo Finance)",
+      "snippet": "close 122.64 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

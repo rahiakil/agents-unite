@@ -1,0 +1,85 @@
+{
+  "ticker": "C",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-22T07:49:31Z",
+  "collected_at": "2026-11-22T07:49:31Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3M2SGg3S05kRDBfd0xhSmQtd3RyWkhuYUJNd210RVcxVG9UNi14Y2Y3MkxCWDRKd0NyZk9ZTVlJOE9LUDFKNXhralNCSVNUejhsRktoN2hhUVVpSEVtcFdsd3RkSVpLV0pxdndhWXgwSmlHbVBUQkpIVFhzUW9HMi1ycGZSYk9pMEZfc21jS0hYWDVTS3lYRQ?oc=5",
+      "title": "Citigroup Just Opened a \"90-Day Catalyst Watch\" on SpaceX, While JPMorgan Chase More Than Doubled Its Price Target. Here's Why Wall Street Is Now So Bullish on the Stock",
+      "snippet": "The Motley Fool, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWVIzSlJMX1lsZ1ZocUpaMUQ5Mmp5Vl9UVmtqZHhKVUg5bUpBWkJGLUdHTEk3YXloSk5FWEd5RzRuRHdSNHY4a0c0UmdxYzJwS0U4MjRXdVJDTXdKSldQOG50d1k0UVVQU3VHYnhmdVVLSVFCU3Bnc1M3OVA2X3k4MmJQbURYVWhXN2t3dmxQWkRkaWVIeGJOTGZ4eUE0NzJob2ZsSGV3WmJDdw?oc=5",
+      "title": "Citigroup Enters China's Securities Market With CSRC Approval",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1NhRVFwMW5DX0dlQWEta2x6WGdEaWx2OEQ5STVWOWxNblNUWlZ2cW05YTRvTDJuVzk3VW5DdEZpSkpTX21TQWFpbldWNVl2a1ZPcmVFd1IwTFpLMGZQOThEU21BOFB0RVl0bS1XUF9LSFpVZ3Y1MERZR21wNVhzWWtFYUV6Sm8yUkoyRmRLOVBSbl91OG8wR3ZSR2xIS00w?oc=5",
+      "title": "Citigroup Lifts 2026 RoTCE Outlook: What's Fueling the Optimism?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd3RQNVZ2OGYtczlldFFhdTBvQWN5ZmZzbVFPQlBBRlZoTHJ4S1BFRi1nekJRZEFkUVNHZklmMFA5SVZsZnIxemJhNng3ZTByY3hZWGpQR2Zoa09TMlJKaHFhM0dVSV84dzMxb29uVDRQNS1NdXNDMm01VTJTR0VXWG1tSzZITHFNRHpxalVQazFaRzh3Z0s0aG9fYkJLMDBoekdNYnJuclQ0VmlfYzgwdTkxZ0EwZ2tfZXhvSVFIMllXdnVFd09pRkxseWVLMlJDNWJuV0trdU96S3lQa3hLNWtn?oc=5",
+      "title": "Weatherford International (NASDAQ:WFRD) Stock Gets Price Target Reduction from Citigroup",
+      "snippet": "MarketBeat, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDlVdDJOeTFvTEtsTC13RXd3eTduOXRER2xUdGJSOFA4Zl93UDc5S2d5aWxqWWZuSmd0MDZpdzZ5Y08wQjFlTFVoS1dlWVBUV2VDN1pHblQ3RWFydUxGTGdZaVVYbWw0TWN2MkUyQWZKVF8tdnZtcExrSTc3RFJOeWxIb1QtYmhDSFRNVlFFNkxtZUpsTUlFVFg2MTR6aXpXWkpsSG5QazhMSDl0em5yMFVvWXZ4UGVkazVaelJVRFhUdkloUzBKQ2lBZEdfWE9lYzRHaw?oc=5",
+      "title": "Booz Allen Hamilton (NYSE:BAH) Stock Gets Price Target Increase from Citigroup",
+      "snippet": "MarketBeat, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2Z5NVd4V0ZjY0pZSTFzQzMwTzBWRTJpMUs5SWxDNTBKRDh1UDg4SWtQbERuZ1VlTU9zaVlCTWk1bW1xWWl2NG11SmdkSHVsdVg5RE1Dakg1SzF2ZWtJU2l5VDhaYTFUcUhYX3I4NTQ5aklZV291ck9Nc1F1QjhYRGlJY0I2Y3VZa1QtcDNKNEVreVR5Mmc?oc=5",
+      "title": "Citigroup (C) Stock Could Be 40% Below Fair Value After China Approval",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/C/history",
+      "title": "C daily price history (Yahoo Finance)",
+      "snippet": "close 124.11 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

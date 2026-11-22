@@ -1,0 +1,35 @@
+{
+  "ticker": "BA",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-22T07:39:45Z",
+  "collected_at": "2026-11-22T07:39:45Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbUxQbnhldUp2Uk82VmJjcXdISHVJbDZFZ1NmMlA2M3c3VllzZGZRS3FRbzFHUWk1c1FFTkc3a3dmMHVXZHU3WVpreTd2SW02MTU3Rm5iTmVPZDRLb200R1dFN19PcEF2UzV5bVpqRVR6a05sQVo4VDhtVk9DTVdCWnNLZGtISEZHWkFGajB6anRYdW9HT0lSbFl3?oc=5",
+      "title": "Boeing vs. Airbus: Which Stock Offers Greater Upside Potential?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BA/history",
+      "title": "BA daily price history (Yahoo Finance)",
+      "snippet": "close 168.18 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

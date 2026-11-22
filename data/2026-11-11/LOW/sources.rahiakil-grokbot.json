@@ -1,0 +1,125 @@
+{
+  "ticker": "LOW",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-22T08:31:33Z",
+  "collected_at": "2026-11-22T08:31:33Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTWZvN0dtM18zVnM2ZjZwNjI1QUg1a2p4Z2t4ZHRuVEczbGlLa3dBcVVnNnVwazA4UnZzUThzbWNfaVphQmQzcGM0MWF0VmItSE9kZUpXZ0lleC1NV3dMaHI5QU85WUdwTi1SdVREcnV3NnN2RXkzVjhha1ZlR0w3cmFHMlVRekg3NGdFOWdpbjdKSHZFVkZCc293YUMzT3h1bU1zdWZPUXJENmhuaGk0U2VZNDVJeVVsaE80?oc=5",
+      "title": "Lowe's Companies Q3FY26 Results: Earnings call scheduled for Nov 18",
+      "snippet": "scanx.trade, 2026-11-11T11:50:58+00:00",
+      "published": "2026-11-11T11:50:58+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTkVsUGlYRzFXbjZNMThqa3VxX1JNNTd2elBxRWl0cEpEMDFVTDJjZmV1Slk0NlhHQkRFcWF2dnBFUHVsUVNIOFhfMlVoX0JkakVERGJlT01HZWNfeWFaRnRMOVZuN3Uzd2dYVW1DUTlpTnlCUDhVdHJKeVlnM080ckE5Y1RpRjY1NHRZdF9nQWh5QmNma0hKcTJ0eTJjTmgzVkRUVzNlQm5ZQWpXaW1pcVlKb2tXdkNQeFktNmZn?oc=5",
+      "title": "A replay of Lowe's Nov. 18 earnings call will be available through Nov. 17, 2027.",
+      "snippet": "Stock Titan, 2026-11-11T11:00:00+00:00",
+      "published": "2026-11-11T11:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbGlYVzVuXzBna2liZXU4enM5bmpIVElweW9ZSU91MEZMUGR1RUFrM0RLLVlydWN0N08ydFI4dFg3c05kSmNaZmFtZUtiMFJ3YzRBUDN0ZXg4M2FiMVJnQXRYS0R6b0o2WkMwaW5UZDdjVmJSd1lBZVdxbmdlVS0xOVk4Um1sS19hMlBPS2cwVmZXdlV4RGZDWmYyS1d4MEI3bVgzT09COERMczE3ZnNZN3FjWE9aYkRhcTVFNW4wQ05EZnR4Q2stb2hXRQ?oc=5",
+      "title": "Lowe's Companies (LOW) Expected to Post Quarterly Earnings on Wednesday",
+      "snippet": "MarketBeat, 2026-11-11T10:29:07+00:00",
+      "published": "2026-11-11T10:29:07+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaUVtZ3c3eDJQVkEtUG9KZ0cwU2RDZmdnVlpJSk1XYkpWQjI3QVhHQWUtZnNCVERaeERRbkpkdmxNdENjdjdreHV1YS1NVmRVandYWXpKaEpheHpJOFpmMWdLOU5DYkstME14aVBrbVo2eVZwbzBqVVN0dlAyT01wRmc0azN2OWxiM0JpSmpRVDJJc0YwRzFnRktMTlVKWUY0WkhtMERzVXhfcGhIWmRIX0VuVTRJSlB3RnlXcFV0Y3BoWjVpOHVMSnZWTmc?oc=5",
+      "title": "FMR LLC Adds 3.56 Million Lowe's Companies Inc (LOW) Shares -- S",
+      "snippet": "GuruFocus, 2026-11-11T03:19:51+00:00",
+      "published": "2026-11-11T03:19:51+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOek5HWUFBQUdsM0g1dk1WYmRKak5CZ2J4TjlfLUs3YlB0ZlpVaklHRC1YQ1YwZlRkTFd6STB2bnZIeVY0bUFwLVI1c2RVYmtvbUlpWWlpZWZ1U0l1RDc1UkJPTkdSZk81aUtzYkpUSlBCc2ExNFNGWUlnVnI3X2pneUtLX1g3cnBtVFhxU2hoaXF0eGVvUV9jRU9pVk8za3AwdWd4dGRJUWdUUE9yN1FLd3J3Z2dsemVDdUF1akE3R0ktSV8wQWxLRHg5N19RUnVZRlhF?oc=5",
+      "title": "BofA Securities Adjusts Lowe's Companies PT to $251 From $252, Maintains Neutral Rating",
+      "snippet": "marketscreener.com, 2026-11-10T13:16:49+00:00",
+      "published": "2026-11-10T13:16:49+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2tMZjczeUVjMmZaYkFDUm1XS1JidWVUYlZuYmxSQlFxSFBCcjRncmI1bFRUbEx5a3lNVzB6Z0dZdW1zY3NEQUMta3dpRXpzMld6ZGRQVGQ3T3RfY2lRci1IX01xOTlpYi10dE5qQ1hDdmxBN0JCNUFBTnJCd0p6Z3U1TUJLNmlCTHdYR3diZy1BeTZTZ3RKOW1JanN4WnFCODc3TTZwcFNJTmxGZGpLeU16T2EydkFfVktkT2Q5S1IxSHZnM1lXWnZGaVZFd2V6NnlaLWFaRnhJQVZVelRwZw?oc=5",
+      "title": "Sanford C. Bernstein Issues Positive Forecast for Lowe's Companies (NYSE:LOW) Stock Price",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQODlKd0VCUDhQZFB2Rk1TdjJpTVFDLVJRdU13ZlFNNzB5T1lnVWxJSWU1OWctUTNsTXZLbk04bjlZQVRDTkl2cU9wQ3gzQ3FsZUYwdGt5VUtLOE5MUm9DajU4eldiRWZkNFdpTGx3ZXBPQXJ6bi1IUGRRU2JlTkJKUzM2QXNKM2RfUVE4N2dWRV90X3ZLQUJvYjk2a2dDS3lhRHIwaw?oc=5",
+      "title": "Lowe's Becomes Exclusive Home Improvement Partner of Bilt, Making Homeownership More Rewarding Through Bilt Neighborhood OS",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96R3RhVVZKMlVRZ1lKWXF0bW5qOUE2X29Jdk9qcGgwMzFPSncxQkVyNDk0TzZ5anQ1UkNKT2tlWEl5WmlXZ3pMYmFIeDduQnJfeHM0ZndKdHhmblo2UW02ZElBLWV0RDJBTkFkZGpTOVZYWThUR1diY1FRRG5ta1E?oc=5",
+      "title": "Lowe's partners with Bilt to offer rewards and home maintenance services to 8M members.",
+      "snippet": "Pluang, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUldJR1M4dllNLWt5bkpScTdDVmxNLWR2MjFFOGQwRWlCalJLRS1YYVBEcWhOc2MwUHh3NTdraVJFWlhsRHN4eVJKZXJSNEU0UkNuNXprZ0ZTUlpOVUhSdnBxNnhheFZ5LTVqLXV6T1VSOGY3RGdjcDIycEZnbTgyVExBMThYNF93MG52MXpWVElpczdlcHAzOXlteEFUSmhDanFQdE96QTQzbkNQaEk1Ym1sT2R6MmRKY1FSVXdGRkxJeFRZZWcxSjFB?oc=5",
+      "title": "Brandon Lowe's rising free-agent stock exposes the biggest risk in Pirates' GM Meetings strategy",
+      "snippet": "Rum Bunter, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVlFrelFQWjVOUlBTSzdkd1lmTHdwT19SaE1KNnUzLVpFeUwxbi1JRzZ5aTE2MDd2aEJPNFhHSkF4OXZLUGMyYWVES2N2QnA3dkx5U2pDX3h2dEp2dlgyb3VhNk9paWd2UkktcHJqb0dYbldZdFpBNjYwT0VHLW9NYWQtTXVRUzZWS1dEV184YTd1bzJ0QUZLS09CZU92ZXFlV1NRb3NYX2hITVZBYTJNYUk4WGY?oc=5",
+      "title": "Lowe's Companies Inc (LOW) Shares Surge 3.4% -- What GF Score of 81 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LOW/history",
+      "title": "LOW daily price history (Yahoo Finance)",
+      "snippet": "close 231.6 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,125 @@
+{
+  "ticker": "WFC",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3lSVy1INzhHY3JXR1hLUXhLa3diNnY5ajc3b0tIVE9ERVdaVXdEM3A5UVNKcFY0aWJJNl9NbWdOQnZYb1VsZEdROV90NVNIMS11a2FVSW53VVdESjUxSFROcWR4NTJlTW1ucV91blNWWm43SEtBOUVYNWF4VVAwNWI5bHlZai1KM2V6VUU0OHlKaWxLdFpJaVowUXU?oc=5",
+      "title": "Wells Fargo Sees Fewer Concerns In eBay\u2019s 2027 Outlook, Barclays Says Shares Are In A \u2018Sweet Spot\u2019",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPemRtQ2hERGxlS3EtN0FFYkhjZEJMaEhUcmtBRy0wV0p2eFQxZ2dJWXc2eGE2ZW9sbm43ZWt6S19DUlcxVjFuX0VXOU1JQngzeEl5blNUOTVZbjY4ekl0OFFRUE5fdzFvWmVscmpWQkd3SkhhcHQycUJtMkxEMGN1cjJwSVMxZ1BZdkFXNkhVeVYzaTU1THBUVVBXTWk5bC0zMXYwM1dwWmFKRk13Rk5zZzFocGhSbXYwdVZPWEZfRWI2UQ?oc=5",
+      "title": "Wells Fargo raises Masco stock price target on plumbing strength",
+      "snippet": "Investing.com, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQTVSNzNnc0x6TkV6Sk1hU2hJNGViNEJ6N3hXVzlzekUwTjVtRXJoS0NsT3dJQ3FKblFGd2drTm4yZ3ctWkEyRjNOVm11aTVXN09sUnh5MlBhckRVOHFFNUQ0ZU9Oa043R3ZTVzA2T0JtWEltTzZqc1o1MnFiaWJnYkg3UWpZRXRSeG84MDVNNmFFVEs5N0l1cjFTZ0RfNC12QVlHTlBsQ3kzUDg5aXJDOE9KVHdHa2k0OFZtMTM1MzJoOFZxcnc?oc=5",
+      "title": "Wells Fargo raises Microsoft stock price target to $750 on AI growth",
+      "snippet": "Investing.com, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZkRraWJGZ25qWThFTnNfbkYwYXRRdzNfcXotSUNuRUFrc1dsSWttcjZuM3hWTm5YME9ERHZsOXRyZ1hIR2hTdW5kcFJyMzg0NTlzdDlsNFNPbXJNcEtpZEd2RHZaVjhEdC1OOE9KNzNfMlRrX2xPQkZ3eFdWQzRLRGJYU19RdmFidE9jbEJIbGo3UmdfM1VlbWItUm1FTEdLOFRqMjZXak9qazBKV0thMXRyVzFIZXdJR0NZTWZOaXNDazdxQWlaS29tMA?oc=5",
+      "title": "Wells Fargo cuts ServiceNow stock price target on revenue metric shifts",
+      "snippet": "Investing.com, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTEdSTXRpWS1QUTVfTWMzM3R0SGh3NU5GS2xhTlBxWllrY1NGWXhvTlJ3Rjk4OTNfT2R6clBHbXlVLWhhZnBEMTczY0FoNlpEN0hFZ3c4aWtmWEFFOVA3X2lGUUhFUTdoVU5UTG9WRDZINUNyYU1pR2FJSklQRG5ITHRyb1RUQUdsbGRtNkZyeTJqZVZjQ0tQZXRjcVMxaWllbXpHZ3dwM1FXejVOSmRabFVFeVZwZTRNc1k2X3V3QzRyQQ?oc=5",
+      "title": "Wells Fargo raises Vertiv stock price target on execution relief",
+      "snippet": "Investing.com, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcFR3alY4aTV3YXI0T1hoSzRvWjMxM2hlZjluejV4VFlVVFhocndDUmZNNmR4MnFPd1ZRQ1RjYzMyN3Vpcl83Z2dVRDJNaG5BYnY0V3J5UWxJVzdVYkhSTGNGNmJZaDNacWVpWEM5VDBCVkFUc1c2Mm13WlJIMnNCMFlvMm5zd2xtRXhHWklnTTNad1hWdlBZWHFLcmJVVk9NOVBKbWpNdHB3bHd4YjBGNHZGclFXMTRlWnRKamZUNkk?oc=5",
+      "title": "eBay (NASDAQ:EBAY) Stock Rating Upgraded by Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQW9VOGFlOEtUaktJb3lxZmJ6MXRHbkpNSTM2b2ZTbjBKOEFMUmRjbG0ydnZwOWUyaTg3WHpVQVpFYWxoeFVYeVFsamZUVVVZbDV6OUF0TmxtbHp6TXlhUkpaSEdwUnl1TnlTV3ZYTXh4SWkyc2ZvazZIU3VMbkJ4NEZWb1pCLXdsaFlHX0FWTTE5cEpHSGZoVklMd1RZUEt1aWh4TmJzd2YxczVfWThJbHhJcm9vV3R0YmtjTmRoYnFfMlFLRTM1N2FJSHBucnB2S211NW8zaXMtcHRDX3MxQVZn?oc=5",
+      "title": "Wells Fargo & Company Issues Positive Forecast for Bath & Body Works (NYSE:BBWI) Stock Price",
+      "snippet": "MarketBeat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObGZTbUpiOVZQWjFSRVBsWkpENnM4SVFtTnktanBtbFlVNFF1ZUFCZFhnZVduLXF0Si1SaC1YRmFldEpJZjlzOEVfZGVra29XaVIweG1tZXB2UUNKdDB1V214UTNuaFFzV0d1QVBwWHJFU0pyLV84aVBmT2NDXzVZY3hIYkIwVW45eG5HVkpvTVh1aVdiTWZ3Tk5CS0wyLVJmT3NtbDJaNnVCRHk0WVU2T3VLR1EtYk5SYnU1NG9ha3pNelVE?oc=5",
+      "title": "Wells Fargo & Co. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLUlVRDZhTXJGTTJSeXVUSE9NM2l5emdiNzU1Yk5DSTE0SWxuX3Q2dHBfU1AzcnZSdjZfTF9VMk9aV1hZU2RwWHVYSENoUU5Wd1NLRzFKamxXdldSQjc1dkRqNE1GUjhFc1Y4OTU0ZmVXeHlRaGJkTXkySnh0ejF1Wl9LTnRLT1lYTkdST21vdzlPaHlscndSMXhDQV8tWGhWM05MWHI3dUxQMDdUZDJaV3RjM1Riek9xVWd1ajZ2RWpUMUVPbGVj?oc=5",
+      "title": "Wells Fargo raises Coca-Cola stock price target to $100 on strong 2026",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZTJkWk9pUV9XUExqVTFWTGIyRVdma3lsSHBxbzFlRklIUUhvc2Y0MDRBWVNiTVJ4NlExNEgybXA2dFY5dks5Zl9jTTRDTHpmWEMtREgybGQxcVJBQWxYZGVQZ3N6SlMyN1JPZDFiLTZLWDI2WWh1MkNYYkYwRWVIbjNPZnppekhZenc4X3QzSnViamhCYzdhRGlXbjc?oc=5",
+      "title": "Q3 earnings roundup: Wells Fargo (NYSE:WFC) and the rest of the diversified banks segment",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WFC/history",
+      "title": "WFC daily price history (Yahoo Finance)",
+      "snippet": "close 83.4 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

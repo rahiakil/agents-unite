@@ -1,0 +1,125 @@
+{
+  "ticker": "NEE",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRGhVX0RRRnlxcHlwcGhxUTJVampFMl9lMmx2RFEzenVud0hqRkVZRXh1UHVkb0pQSzNXeWg1ckJqVmRxQlNLTnNLb19FdlBQZXc4OHVnWlZQM2ZFWGNDNU1iMFBsY29ybW5uZXZ3cU52UE5tbmp3SmVrRmUyQmpPZXZqbGpzQTQ3eHNRQkVTNlA5TUNyUERWb1FQSWhRYWFoSTRwVi13R2VudWhCVWpOWDZaS21ZSEhiaUdHOFFwNV9JYndyWExEUEN6UU9CVExHTXh5RVJtRnlPUWtMQlBTOEhuS0ctd2czbjJaeGZn?oc=5",
+      "title": "Virginia\u2019s $67B Dominion-NextEra Merger Faces Rate Freeze Demands, Staff Rejection Call Ahead of Nov. 17 Hearing",
+      "snippet": "Energy News Beat, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcXVCM3Y3WnhzZ2lHelFJbEhXNmdEeHUweDVSZWlzd1RPeF9kYnI0NlpkcjFHVVdXaGM1RE0xX1NmZ2hBbkdfYkl1dHdrWXh6MmZqRjJ1STkzWEJJSDg2WkVZckM4cF9BQTR5dzRsWlFvRWFHSUR2VUh4aWl1LVl1WDFROGpuc1F0WjRRNWdWUHFic3IzVHpJcHBaMUVLWnRORnAwVlN1eG9rV3pwYW5YdjlvRHprcTJFU3FjeFZ5WUI4V3JCX2c?oc=5",
+      "title": "NextEra Energy Heads These 3 Top Nuclear Stocks To Watch",
+      "snippet": "Simply Wall St, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTW9JVzdLcXhXR3Eya2hFYm1GbTlMeVdraGJydHRwM1NrOVkwcFhGUDlnMHhBU3kyQ3BmYmFjemFWWU8xMENWZmJvZVhRRWVhRllRSkpHblJnSThFcmNsN0VVQUVaSWxYMHF2RFFBYlo3SGJCR3B4N2NUMWNxME5xbGo2amhUOURmRXc3NzFmZ0RsU3VzaVNzX3lSYTJIUktUWUhvQzJiSHExQQ?oc=5",
+      "title": "Why Is NextEra Energy (NYSE:NEE) in Focus After Its Quarterly Beat?",
+      "snippet": "Kalkine Media, 2026-10-28T10:37:00+00:00",
+      "published": "2026-10-28T10:37:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWZnNDkyUUVzME1pUmFYLXhBY0VKai1lZFpOMnJvNV9rZUFNZVhsdUVvcXpINF9rVjQzUVQxX2JvYkwweWs3cElENHlma0c2Z21sYmJVUXNuNGhxX2YxZGFvaENvSTBaT09LSlI1TkExNmhSWjUwRWtpTTJJV3JBSFJJMzJ2c3B2VEFjblc1aDd1VG42cFNyU0poYl9hOVZxX28wQThYTWZ4b1RVMmJNb0dR?oc=5",
+      "title": "A Memo To NextEra\u2019s FPL Team About Selling More Power",
+      "snippet": "Trefis, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaE5QYjF5U2tZRGdGb1dVTkRsVDdLSkI4S3lkdHRQZzdmSXpIRDBudHA0d2pOV0RyRWNNU1RLc0dBcDhiNWg0R21fLTRZQjF6Y2k0Q3FCUVgxOHBKc01DNFBoU1ZSYnhGT0FnR00tWV9GRXh3UE5sR3RxeGVHbnpURkdIS0xzX01TMlNlWGFsRWFWYXFmRjFOSEVVSEF1eVBuR1FoRGEtanpJRVRXM2VXZERNbHp0ZG8?oc=5",
+      "title": "NEE Q3 Earnings Call Highlights Growth and Merger Challenges",
+      "snippet": "TradingView, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdFM4OHNXcmhLa3B5WHBtRjZ6X2ttZmxIQ0F3eWRlLUNUZWR5X2xRTWRqbXNaT3E5c2JNNF9TSXJ4ZzdTaU45eG9Ma0dLaHVmaGhsYnhwbmJ4RE9Qd24wWHhsdF9pZ3lYaTU5ckhPRTNOekFxYnNJMEQzWHdMeFRGYlVTd0J4blJjVTJSLThxVVd6TkNXSDFpeGxzMmU?oc=5",
+      "title": "NextEra Expects to Grow Its Dividend 6% a Year Through 2028. Here's Why That's Enough.",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUmZYcE5KcXlZZXJxUGZIWl9kUFEya1NBWHdUMUZBaXl6SDAtWnpBLTZ2ampCcUtGZ2Q5bkNqRUZDTThZckFkX2kza29SLVV5WGI1VTVmMHhPblFHd0VhaUxDMmh4VHkwaVlNT2lkRHNGRjZTekw0NThaZDcwb0FpWGtQaFYyQjA1aDFBc1phSHRyZWpxb3FvUS11enBHVjAtYXZkTDJuRkJXX2lBZUowRG5nLXhNek9oekE?oc=5",
+      "title": "Argus Research Adjusts NextEra Energy Price Target to $96 From $102",
+      "snippet": "marketscreener.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTjhtZ0FBTkVoVUo2RnJ6MHRxVnZtcE4xUzAyYUZxcElkRnJjVlpKRk81dnVvS3BMZU9SOEJNd3NLUWtrSUJfeFMxSEx3R19adDNqN1VXdEt1ZFJEN0ZNSEFaSV8yNEFFY2FkS1p2bTRyUHNtVGVkUHZKYnFvNGR5bEQ3ZEVpLXRNSElWYVdsYTZhMHlsbmJMWXJWaw?oc=5",
+      "title": "Here is What to Know Beyond Why NextEra Energy, Inc. (NEE) is a Trending Stock",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdDE4WVB2eHdwdGFveTc0a0JaV2tCUEtYZEJmNUNNQVhYblRSLW9NeFJEWHprOE4zY3VtRUNDUkRjT011T1RWMnRZWG5wc0ctODVRNFNvcmotT2JBUkZnUldKRVJobHlsOEdMQ1FiRS0zWFdtbUN4NWxEbzlWSnAyN1dBRFYxYUVwS0s5Xw?oc=5",
+      "title": "NextEra Energy (NEE) Could Be 12% Undervalued As Dividend And Earnings Land",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNTJWRlhlcTNjTmt6bE5mTGlyeE1ka29YNHdZaWk2TWM4TVpLNEl4M2h3bnRva3RraWJKeDk0VURBdmIxazNHa1o5UnJNdGpsWEZLRUViYTY2WmhnN3NmUmtOdndOby1STDJpb2E2Z2hORnZ2ZUxaTWplRVgwb2V1UHRQVE16cUJHM3FWS3F1d1dQVzVFTDBlYmY4STY?oc=5",
+      "title": "Column: Urge regulators to reject Dominion-NextEra merger",
+      "snippet": "The Virginian-Pilot, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NEE/history",
+      "title": "NEE daily price history (Yahoo Finance)",
+      "snippet": "close 83.71 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

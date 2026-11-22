@@ -1,0 +1,125 @@
+{
+  "ticker": "MRK",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaEF6U3ZWU2ROX1IwaWwxVTJ3bUUwM1Y5dlhIeTZIb05fYmZxcHI4eUZjVGpTY1FKc2NTaHdfWVV4M0hsclZtendRQ1NwUEdFVGJ2SXNETnY4QjRZRDlpNndMN3p3cTlwSnFWOWJUSE5rczNIQ3E4YXZJNDZVSlFfQVA3YnlQXzlOa1d0bFdVOWoxVjMyT1dtU1JNdkxXVkZmZDlnZWlhcEh1Uk91Tm5fSDlVbDZxeGs?oc=5",
+      "title": "Merck to boost next decade revenue forecast on new drugs optimism",
+      "snippet": "Reuters, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82M1NSaW9yS2VmYlhMdFlFb3V1T0VCcDVzNUhWZklqX1hoVGhkaklMSGFWV0pJbXJhajljWlJvNF9hUG1fSGZEbXl4dmhFTktjOERqd3IzRzBkdS1vUHBWWlhwWGhETHZKQ2Z5YzI3NEbSAXZBVV95cUxPYTROclcxYnd2eXZGbGZQYm9tZkZFZkltRzhWS2lKR2toeXE0aXRzRXhIR0s5Y3FfTnVkcHkyeW9wQ0Y5M2lQc1QtV2ZTdGNDOUJLeUxVVkVrYnJOOHdjUjZqQnBoc1RBOHNMRmFCNUFna0lpTk5R?oc=5",
+      "title": "Merck tops quarterly estimates, hikes profit outlook as new Keytruda form shows strength",
+      "snippet": "CNBC, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUGhvWUxlVU1TWU1ieEM0X21LNDFFdVhZdDFKbm8tNWJwQWlMa3YtZk1HM2dXZENRTnQ2bWdfSk9Wd0lWbHcxay0xRzFKaWhscTR3OFZXVkQ1ajhOOWhiOWI1aTY3cjhBYkVnbUpUVkVfSEIxNWRqT2dOeWp4cWtPN3Jlbw?oc=5",
+      "title": "Merck Surges 5% On Sales Beat, Outplaying Cancer Vaccine Woes",
+      "snippet": "Investor's Business Daily, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTGtsTVV5RmM2SU10bU9YMVU2VW8tSmlWeWY5ejB5aXRHVVdlMWJ0UC01cGRaLThSLTdkdG9SbEdUNGFBUUJtLXZycG1rclQxN2s4bEpYbUFham1vODRCWFZuR3pFWVZNU1UxMU9Da19RQkZIeHNPNnR6TUdzRExfaG96bDlhcFI5M0V6LW40OVdsWXg0M2RHeFBfY2JSeUtzOWkwdTNhNFZobzJ2ajU0QS0tdTJ5WW43a3FRLUpfbmV5V2Nna2J4TWZRRXlIZFh4MUs2TmFOcFEtXzA?oc=5",
+      "title": "Merck Rises 5% as Earnings Beat Lifts Profit Outlook; Eli Lilly Climbs 7%, Johnson & Johnson Edges Higher",
+      "snippet": "24/7 Wall St., 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdmJwN1JtUlJtLWVZUlluZy1zTDNtc0pZMDkyX3E1ejVzQkNaVHF1djJnRTZScVFCRFhFT05YU0RfUHIzbEd5VmxNbFgwMXgxVE1kZnBLWGNKRlRpbzNGWDhXWHVKSW5JRmxzZjl2cXlsN1NhSFBTTU00cnhuby12Z3E3T0pRYU1RMG5rZFZMb0hhYWNGUUtVQWRsdnRiTjNvT0RRRDZPalE?oc=5",
+      "title": "Merck stock rises as Q3 earnings beat estimates, 2026 outlook raised (MRK:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZnRodkdBM0RFT1VnNnBqY0FTM0JqLUtBOTlzbFYxdUxIR3RqbV9aME1GMkVMdm01SEtNdGhkam1kRU9FWEFEd0hVZzhHOE0tRjg4cnh1V29OekNWeWJHVWJ0Q19NWWJJWDB6SllnZmsxNEFCS1MyLWF0RXlLU1dwZzRVa1lRSjc3VExfdDhqUTAzWjBJNk5PWWFHb0lMT2FPbTNqR2lqSnlYclk1WGMwallHcmF4bWlKV196eVYtQ0kxd0t1QXQ4?oc=5",
+      "title": "Why is Merck Stock Trading Higher Today? - Merck & Co (NYSE:MRK)",
+      "snippet": "Benzinga, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkpvb3NFMF9ESGtVTFY1MlNESjcxeDAyZGt5QnM1OEZVZEZvdFA0NlJ2czdpdlZBa0dZV2xIRWN1b2RNbWVsVjBWWExZSk9KNWs1VU5NdkpMX01OY0dlWGctN0ZXQXN6Z3Zla0FPMExuLXNoTXc4LTNpa09TMkZXU3NhM2dlaTBwS1ZYR0hWYXZOdG9SNUtOLUMzb0U?oc=5",
+      "title": "Merck: A Strong Quarter, But It's Time To Take A Step Back",
+      "snippet": "Seeking Alpha, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUU1xeGdRcXBHVU1zVFJoSzF1ZXZtcWp3dEZMYVM4TVBYSHlNQjRZVVdNVWhuY3lXOUJqck5zU3h4U3FxcGVVTlY1bmwzMnE4TGV4VENLUUVsUEhlS1pCVnNiTjRwckdlRU1xWjFSYk5tUEtBSTZhVnhjX3NOU0Y1b2ViVWhFS2NSM1RWR0lBWlo4bjFnSmdQRE13?oc=5",
+      "title": "Merck Lifts Outlook on a Lower Tax Rate: Rapid Earnings Reaction",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRVRZTlpFRnUyTW9BSnhad0VKN2dkZG1zM1hDRWVXQ3RXX3FSeGxRLTRnQkxrWUlnRVpBMU5rNmZJSUFTZUdrTjdHRTBzcG1vb0VhZmMyVVJId1NGUnI2bVVpSU16WkFULTlwYkJOU09tbkZpUEhNcEJnc21JemgyZDB5SHEyWVNaT3R5OVhB?oc=5",
+      "title": "Merck shares rise over 5% as drugmaker raises sales outlook",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQWxIVlc4NUdUa3RUZXdLMnR1TkNUVGptbDVncGNSV0IxTWkzTkM1RVM2SEk5VUMydGRpQWhmN0xLRzVyNE1vUm5IWWxhekpHSWlDZ2xVY3ZKemtLUHM0OXNkV0dsNl94bFdqREVaWDQ0NU9sWlFfTU12Y3l2dUV6MjJ0c0R3NzlDeG1XWmVxTlAwZw?oc=5",
+      "title": "Merck Reports Q3 Revenue of $18.1 Billion, Raises 2026 Earnings Guidance",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRK/history",
+      "title": "MRK daily price history (Yahoo Finance)",
+      "snippet": "close 149.52 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

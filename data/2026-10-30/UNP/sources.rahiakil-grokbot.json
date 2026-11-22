@@ -1,0 +1,45 @@
+{
+  "ticker": "UNP",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-22T07:58:29Z",
+  "collected_at": "2026-11-22T07:58:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON0JoX29LVy0zWkViM01yaHFCb2tjaTdxNjRrd2FMMWpiOVBVMjJNemlRMWh3N0t5b1ZwSE9xQkNyUnVFUDNfbU5FM1lXNUt2T183NDREb0FDODdtY1pYQUQxZU9pbTN4VGRDd3QwRjlwcmxxR1hhVnJfbVVLMGVXX2pnSHBVeVpYd1lDUVpNSmJFdmpNUjEtX3FTeEZBM2h4dzBBYlZZdW1iTEduZkh1OG9nY2R0VVR0U3JQTlVRbl9BSVZLRGliMHdB?oc=5",
+      "title": "Union Pacific Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWEQzODg3U2xvdWdKY1pFUnl1SDFiWlFSMFJqMm85bFdrY0piaGtDSXVtUkxTNkVEVE1QdjdaWGg5VkhWMW04LVloc0syVFA4LU5Tc1pXV2tWZ3E3YlE2cUh5Ql80TklXa09yUjJHYnIwTW52ZWhOVXd5aGNKTm5MU0dXR01hWl9Scm1yRHVEVVl1ckxyUndDU0NYckdUUQ?oc=5",
+      "title": "UPS or UNP: Which Transportation Stock You Should Buy Post Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UNP/history",
+      "title": "UNP daily price history (Yahoo Finance)",
+      "snippet": "close 304.0 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

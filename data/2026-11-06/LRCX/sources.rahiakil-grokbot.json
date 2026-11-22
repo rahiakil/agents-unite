@@ -1,0 +1,125 @@
+{
+  "ticker": "LRCX",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-22T08:20:01Z",
+  "collected_at": "2026-11-22T08:20:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQklOUWN4QlNQWEdSSkJJeF9kSjVKdjMzUEJCOE1KOWI4SWR6Y2lkVnJ0cmg5dG9TcDRLdVh6dlNMaUVGY01MT0tNcFFwODUta0JaRW1Fcml3UUR0aDJremxGMFNZVmN4VHVYUHVGdHNfOHpYc0o0cWRsUDhMejJjV3ZVWS1scHRielMyRzY4M2xPZW9yNGlnYmxLMWNSbk8wOGRPMUMxcmprTlE3?oc=5",
+      "title": "Lam Research stock jumps on $25 billion buyback plan",
+      "snippet": "StreetInsider, 2026-11-06T15:05:04+00:00",
+      "published": "2026-11-06T15:05:04+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNNkFpMWR2QmlFQmx4Mjh6TzlPaS1VOGxRMWQxeWk4NlBpS2ZhZWpfdTN6ZzQwOWsxRGl0VXVSVlNrN2FhTUd3eG55WUFRR3VRLThGTFhtQkNreUVGTkpidGRxQnZES2RCTVE3OWZweW5BSS1MN1VMekc3aWpqczVZWW4yNzNmWFZPZUhWYTNjS0UtSkxSYWdVZzI0SUZRT3JTeE9QZnFYNnlKUXNKT0p4Tkc0YWZvRUFFaE9FVWtKY1JWRjN4RmFJOG1HckJQdi1WS3c5elpBS0lIbHhtTmp5WUNTZWxUYlNQTmtLMzBPWmtCZVdPazd4dEd5dXJJWjNITzNBNkE0Tk0?oc=5",
+      "title": "Lam Research, Monolithic Power Systems, Marvell Technology, Micron, and onsemi shares are falling, what you need to know",
+      "snippet": "StockStory, 2026-11-05T18:02:42+00:00",
+      "published": "2026-11-05T18:02:42+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaHdOQ0RlZ2JJQ3hrVXI1RldqbVR4ZFNnS3RmTEUwT2NhNXl6QktoYTdVN3NBcm1DOGdGSy1ncUNOdGhnNDIyb0E2OHp0SzNmVlJ4bTF2Wk05MV8xczJ6eFZMeDNBZDNfamdpVG1uSTdNUU5CZzc4UVZKX0xGd3AyVTZvVkFVQVp0ZHpta2d6NWxVRVgyVTNFRmNkSElzQURtVnpGTA?oc=5",
+      "title": "Why is Lam Research stock tumbling today?",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVnFQeFo1dHplX0E0T2U5X3NZNkFnTnQzcHl0NWJvMVk0ZDdteGVEd0cxR2ZlSm1NTTlhVDBqYTZUMEphdE44OWI4dUVvQVNfZmJKZV90UGpjaEpHZzdRNHZKQi1sUHg2TXlRX1Z0cXl0RGdwZjlUb2RfSHBxYVZnMXl5c3R3WFM4bWh3dXM3T3E1aThMRncwR1prZjdhZ0k?oc=5",
+      "title": "What Has The Market Missed In Lam Research Stock's Drop?",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMzBfdEVobEFiLVAyVmU3SllBQThPQ2N6cmphemtyNkJ6MHJyaWdLYkREUEg3RktNOTF4QWswaEg1aWc1d3lfMzVuQ1gtRjUxaUx2eDBVQzBGczREeVFvSzNleDM2eGprU3M1bG0ycjY3OUlzcWFDRmZNTW13ay15cTRJQldnajFzRHZDWF8tOE5Yc0lGbVZJUkRkZ2lEYW5IRW05eUFJWWNfSnJIWjl2cWFxR180d2dnRzRpc09BMzNJNHo1UXczOF93bUZ1dw?oc=5",
+      "title": "Lam Research Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUpEX3BKRFpVY2pnQW5VT0tmckltV0N3aGx4NkVrcS1CeF9RN2NMZEVDOVBLMU9qSWhGSWdxSk5wd21rTzBHV2Rrd0laXzZTLTg3c2pZc25WdmxYZU9NMDJjNGJROTdjQ3U3a24wbEVfeWJWX25DNUVXNjBnZFprNnJ6UUdENHRvOVFtNlB0bDdlWjhMV0tMMEVvelVMZnNQazZDTDBaTjZIc2VPazFOU09IY3FxN25yTmVYaWM0SnlRbVpITFRHa285NGk3Zw?oc=5",
+      "title": "Lam Research Stocks Fall 13.5% as Equipment Investors Reassess AI Spending",
+      "snippet": "TradingView, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLW9vSG9YeGVGcWo2YUNDOXk2S0poWWlWdkhzaWRBZW5EYVkwUy1PSDRmMElVLUEyT2h1WVVQLWNidUtKOHY5TngwZzhjSlZIODg0T3pDanFpejEtSWNGSDFCZWhWZFlKSlByNXlpRUY5MjV4Vl94QTdacXhIQlVZcU9rN28zSGxOcE1vNG5zTDVpM0NkRkN3elc0Y2RIUkxBMTg3dEg3Zm41TE5CNlJ1UkRqOXVEUG5fZG5rdE8tQUZ5Zw?oc=5",
+      "title": "Arm and Lam Research among market cap stock movers on Thursday",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ0tveG0ydmtWS1FlMVowTms3RVNobTVQVUNoMWktVVpJTDhVZVdIQk5IeXp4TjF0T1M0N0dXQVZ0MW02NFJOMmR4bVdmeV9yZkxjRlkzY3pJZk9mQ1JSaHdHVlVFcE9Ld2h1OXR2UG8zQ0tpWlFNWHlpaEtaMlpSby1YRFByREFwSWtLZ1gxNzFTNEF6cDIybWR6Vy1iQ3YxYk9hZ3VLZmFidGpCZHJQZkl5cG1VLTVaM1ROM2VEU2d4QWpCZ05fTGFQemt5dkJ0aEJJa2RtNE5WMmxTVUR4Xy1JMVYxcHAzU1YxcVFkSnBwclRVZGg0?oc=5",
+      "title": "Lam Research Corporation Announces $25 Billion Share Repurchase Authorization and Declares Quarterly Dividend",
+      "snippet": "PR Newswire, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbzZIYi1FdWdsWE1iR3FvR2NVeVliVy1CSkR1SDZjRkI1NnJHT0dZbVpJRlBKNlg2bG5Hdkg0Q2ZOcGY5WVVtV1B2ZnFDWExqaFNadks0bDk5VDM1c2ViVWRvSUFpMjNWSzI5R2dYN1lpZWpSXzQ3ZzVvRVY0NlV1UE84dWkzUmw1OEowRi1nSHJqQWdzRjVObEI3ZjExR1NTWVJpS2dpZ2swQlg1QUhQR1lzTUxNOElFM3FYZ0c3aUs0bjktVVI3ODVMVWw3SWVEUlc4?oc=5",
+      "title": "Lam Research (LRCX) Tests Its Bull Case On Cautious Guidance And A Cheap Narrative",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdnJTdkRLWU10YzZxR2phV2ZYSmg0VUJKejRpSVJmV0hTNW1hTlE0aTBLNVQ3dTBDd1hSbU03Q1NnSnNZbUhDNDY2SjJDZXlHWnVzdFk1eHFZT1VOMko3ZFRDM09NUUFvcHhubWttTjl1WFVkZHNndnZXVGpYaVgyaGo1aEIwX09hbGdzOGtIajJhNzQ2ZzN2STdfOUZ5ckxMVDl6R1ByU2tucG4yU0NLbU9FNWxwQQ?oc=5",
+      "title": "Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms",
+      "snippet": "TIKR.com, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LRCX/history",
+      "title": "LRCX daily price history (Yahoo Finance)",
+      "snippet": "close 200.44 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

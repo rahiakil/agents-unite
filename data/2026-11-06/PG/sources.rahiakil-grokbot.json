@@ -1,0 +1,125 @@
+{
+  "ticker": "PG",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-22T08:20:01Z",
+  "collected_at": "2026-11-22T08:20:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ3hoeTdrVmR1LXhzWXNNR2FfZkxqOGhRMV9hTDc2Y1RnSlZBeWFRRk85QmhNVlhQcDYyWUZJY2IxcnQtM2NsOFhuLXo3ZW4yWjV4ZDZmaHk0UGVyeW5PUzdXWXFRRU1jel9MRHVySXhOUjZ5VWdkX1hndEFtM2dwT0djeGpROTNBQVJaSFNoSmJ4NmU5N0FYMENEb2hhclRZMDNPdXZWMDJ5UlpwaW5vZzRuZXVQMVg4cUlVQ3BjTmdHYnRBNjVpMUJ4a2d0WXItU0kzNlozLS1vXzBvdGZBN3RyeXFvd2xxRTBN?oc=5",
+      "title": "Form 25-NSE PROCTER & GAMBLE Co Filed by: NEW YORK STOCK EXCHANGE LLC",
+      "snippet": "StreetInsider, 2026-11-06T14:11:41+00:00",
+      "published": "2026-11-06T14:11:41+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ2VXREtlNVpGZ1ZFMnpfU2JWYURPbjk4WFN6RTdNNHpWd2luX2NVZEhTelYtYUJRQUJwMmVJR3hpOHRkVkpQWmpDX0Y1VUhNQzZtaUVza3ZNMi1RUHFKNVFuYTFLMkZ2dVh5THBsTjhYZUpGc1lIUlgyOHdkaVNKRUphU3dJY2Z2aVdCRmZpeG5BRWhtNFZlandhWDhVNUxtdW9KbmhSVVBwSFZ2c3c?oc=5",
+      "title": "Procter & Gamble (PG) CFO exercises 33,624 options at $91.07 and sells shares at $165.",
+      "snippet": "Stock Titan, 2026-11-05T14:07:32+00:00",
+      "published": "2026-11-05T14:07:32+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYTI3TDFGczZ5b012TldpU09fVmxqa1hySkhBaFJlTF9oUklRbjhzdEJLLWFLNU1aYWVmTzMtNGFzX1pRQ0dlYVFQak9MRGp2TmJGOEZSVXp6cUcyWmhqMUMzNWh2VDlEc0NVYkl4NnQ2eTFxVm1tTTZXbjlDQ2VielExaDMxTDFWQ1p0RmNuTFQyY3BQSTV6bUgtd2RHVmRLVHc?oc=5",
+      "title": "Procter & Gamble vs. Colgate-Palmolive: Which Dividend Stock Is Safer?",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdW9teFVJOHRxdFBwS3BDSU9MM2FVUUpsTFJpTVJLUjN2Y0lWLWt0cERXWmltSGFnLThDX0hCc2Vzb0VOSGlONEozUElUemhZRmJ2S3k3clhvXzlPcTV3djZrUGpHTjZKOXoxMmk2a1otdWF6NE1rbGpuVW5WRUJCdUJGXzYtV1Rrb21vQkt3YURlTklWOUxIaVVaODNhMTlOa2Zj?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Procter & Gamble Stock?",
+      "snippet": "Barchart.com, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZFVaWnp6UUtTT0hfZ3dRZ0FSM1R5dEZ5NU9GZldCa0RmWVhzaXZFTlI5NXlXbXZMT0RWTEhRVkpLSzlQcjFQcXltQ04wYkEtS1drMWJmSnBkYTR5TkNQbzhkSjZJaEFBOU5WMjNGZ1RIMEVXMzJEUjljY1kzVFowN1dfbmpfY0xaUHQtTVQzdGFKSzdxVXA2T1FZRmR3NEM5UklFakpMYnZQMWluY2VTZjc3Z01oR21nZS10LU56T3dzZm1tWlg0?oc=5",
+      "title": "Procter & Gamble Chief Financial Officer Sold Shares Worth Over $5.5M",
+      "snippet": "TradingView, 2026-11-05T08:00:00+00:00",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNdFRVaWV4ZDhlM0RzdmlUSGI3azQzTWF6eUxaUjllYWdmZ28yTTJUc1FZbDUtZWlsQ2FOWk5JbmN4ZjNhVXZZN0ktdUIwamxJQkxZcnZEOU9tcjVxblBiZ1JFNWVZTHNnSlRwYUxIYU1sLWg1b0JCcERLb09rU19ZSWJmQlZuMGVlX2piM3BpcU1KQmtVU1NMT09fYmJab1RJTHNXeEhoOWdkTUh4b3dtdkxLUkdaY3lOdkdIMUVYek85NlpDNXpVdjI5Y3hhY1FiTXhkbWhiRzh6VGIyZlRfRWlmcXFRQzZxY3VhaHJuX2dQcXhQTUhwTDlXaGxwMEFGRUphUVJR?oc=5",
+      "title": "Here\u2019s Why Dividend Kings Coca-Cola, Procter & Gamble, and Colgate-Palmolive Are Hitting 52-Week Highs Following Midterm Election Results",
+      "snippet": "The Motley Fool, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU0V0VnYxVFVkelJmVV8zajNia0ROcElNSklPbFhsamVfbzBfb3NyR3JVcjQxZHlaQUQ2WDJOazZiV3V6WEhCTXI1NEhsaHB0ZTk2VFZVRnRIOGlEeTd0eC05OTBRQW53Q1hNeVpIY0poa3R2MTFIaWk1S2s3N2VRb3hwTDJrRUNQ?oc=5",
+      "title": "Procter & Gamble Co Stock (PG) Moved Up by 3.17% on Nov 4: Facts Behind the Movement",
+      "snippet": "TradingKey, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaDRtYTBzN1JFY2ljV0dOSGs1UmxjeE1SaUxTbTNrWjhIeGF2T1lxVkxUNlZyd1Ztc2FMdVJjbnpHMVBTT3FMTjBudTM2Sms1Vi11YTNreDh2UGN6SmV1OW9XeDJfSFlmblBZcEJ3SENCYzFYVWkxYWxtSzJKNHZMZzZSLXBwYld4amNMODBsTnljT2FfMzdhNEE5WC1OUkVyeXFsUHNnTUtyOGU0a0ZhNGd3?oc=5",
+      "title": "Procter & Gamble stock hits 52-week high at 167.27 USD",
+      "snippet": "Investing.com Nigeria, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbUd0ZWhhTjhfOE5zaG9YeXp5WFl1dWlNR0dJai1xalJwQzZhSFA0dWI2UGFiT3dkRHdQdFdWOUJHcjdSMWxRRkFIVVJQSGljczl3OWN1WGVqQ1F1TlFvMWpjZDhpOTVfVVd3R05TVDFBZXp3Mnc1RnRSSnJPLWU2ZXBXcHVna0xPYkRUb29aSkVYNmkxeHZ3eg?oc=5",
+      "title": "Is Procter & Gamble Stock Overvalued?",
+      "snippet": "Trefis, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd0xZVUxORUlVOG9LdUNETlV3REhyZFhjb29YRXl5TVU0RGRieE9aZGZ6UFhuMVdSbHpxMmNfNkNJaVZMQXFPa3ppTEhFT0hCQkdVbE1VQUxSTE5MQl82ME1USVF1Ti1YU3ktajlncTBLZ1RfbnpJS2ZIQm4yOGZQMmo2eW80RV9xZnctZDZxR0sxczg2NmR3S210TVR4R2VEVFZ4ODRfazBvRVpsYVk1b0JrNjE?oc=5",
+      "title": "Procter & Gamble Insiders Sold Shares Worth Over $10.9M",
+      "snippet": "TradingView, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PG/history",
+      "title": "PG daily price history (Yahoo Finance)",
+      "snippet": "close 165.4 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

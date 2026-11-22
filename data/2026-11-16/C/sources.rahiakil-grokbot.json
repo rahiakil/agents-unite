@@ -1,0 +1,125 @@
+{
+  "ticker": "C",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-22T09:05:07Z",
+  "collected_at": "2026-11-22T09:05:07Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOelBVU3ZKa1NIV3duTW5SbkloVF9PM0V5RVVDd3NhMllmQU1TYk4tSnBUOGtPZXktLU1IOW1oaXdUWXQtR2NGVU00YW1rUmY1ZlR4bnNTdVo0d0gxZmw5aG9PQTY4OUVYU29PdEU4QmFhV2lLTXV4a2daUkVFaXhERjRTV2w5cGFtQUp1U3RFWQ?oc=5",
+      "title": "Citi Secures China License as AI Investors Turn Selective",
+      "snippet": "Wisevoter, 2026-11-16T20:37:47+00:00",
+      "published": "2026-11-16T20:37:47+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUJ4ZlJOLW9xbnJpVnhHMXlVVUFzZjNZMlB3amZkZ2sxTkZld04zQ3pJampzbENWdzNqRWd3Mk9rWnE0NnVKRzBXNDJpN211Q09aVEFULUFhSHRWY1dUQ2IwQXZmTnRRdG5WWnpZNl9iclBCY3M2dkhTWXRmUGFoSE5TT0NVWWdSU2NTeUhqd1dXMGJ4a1lJU1FrWFNoTFBIUlRWNjZZd0gzVkJOd1ExTXhxR2dpRVNONHNxSFdIdzkwdm5YeHhINEpvQWhodGRCNVNRNnZKaw?oc=5",
+      "title": "Citigroup Issues Pessimistic Forecast for Nebius Group (NASDAQ:NBIS) Stock Price",
+      "snippet": "MarketBeat, 2026-11-16T19:32:38+00:00",
+      "published": "2026-11-16T19:32:38+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMTdSZUlwZnY2aWlXYVZPTURLUVNlODBwS3RVTzc1Qm5JQk12U0tQQzE5SS1vYTBWSndDeUhtUV9HZ0lqTEVwOUVkWTBWclcyVDhKeUtmY3ZpaWdiVkllclZXbS01YllkOExOT2Q5bk9udFJVYkFROG1YZFJNWFlKeWMyWGJfMHN3NEhNOXhiMEg1YUtmdERlUF9Lb2NNWkV4S2p0WVRZQk9ycGNJQTRzRTZJQXlMaEpqQ3Z0Zi16ZGNyT1JFVGtBdQ?oc=5",
+      "title": "York Space Systems (NYSE:YSS) Given New $8.00 Price Target at Citigroup",
+      "snippet": "MarketBeat, 2026-11-16T19:32:38+00:00",
+      "published": "2026-11-16T19:32:38+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQV28yRWxzU0lQOFg0YjFvX3FUam5Rb3BLZ00zYy1MUGR0SHdqckgwY21qTWtpbWluS1ZyUDkyUG43SG5mWkhuYTAwUi1pYXl2Y0hLQ25SXzdPUDJubVppTEVrRHdOWjFuaGtUR1hERTJodVJCMVE4QUZlSURObktkTjdiQzRVdjdSVVVsdGNVVTFPYTM4Y1p1R25KZmQzNGwwcGtuY3BqclhMdEhMc1dST1lHbXpfa3B4WXdmallRdW5EbDhtaENVN3pRdw?oc=5",
+      "title": "Rivian Automotive (NASDAQ:RIVN) Stock Price Target Lowered at Citigroup",
+      "snippet": "MarketBeat, 2026-11-16T19:18:47+00:00",
+      "published": "2026-11-16T19:18:47+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQblVFbEkyZnVjMG1NOWRUVEZpcUhYYmY5UDJjRDJlVjhfVFpTOUhKNWtSRDZuRFQ5c0t4d0Vnbk56Mk1LOEplOG1LbXdlOFFvdHJUWkxTb3JqRzVlVkpvUHJvOWlTa1dmcm11SmRWeVpxU0pZREVKS1E1MERoeVI0RFRBWDg5TVNaU1FwQ1pqamdpMzFETVY2VXFnNDVPVWJ6NW1ENU16Y1FweUNXaHVjVkJPYzdfb3dvamt5WUJpTzVQWVdzZEFkZnA3Yy1LdHZMMDczTk1R?oc=5",
+      "title": "Mobility Global (NYSE:MBGL) Stock Price Expected to Rise, Citigroup Analyst Says",
+      "snippet": "MarketBeat, 2026-11-16T19:18:46+00:00",
+      "published": "2026-11-16T19:18:46+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFFJckJ2c1dQZE1JemVGYzVXX1hhMThCbjQzbjJoVzUwX2pNSWZwUXJpV2pGMlJTeWRvaHBULTRBTFRyYjJsSGVCTEcxOEUzelNUR0tuWENZemN6QnpjYmM2M2Q5dWhJZFhaNTVjbm5laldlbXlnZmY1QzBLRWUtNkZZdjhtOWRjQWdSVDJ3NF9kRFBBZXVuZTJwMncxQ1p0X3NzQk5EblBzYmFBRWs5VGRPX0pKTHlQb0JfTG1VQkVRcjZvMTQ3ZzRGNkFGdw?oc=5",
+      "title": "Hewlett Packard Enterprise (NYSE:HPE) Stock Price Target Cut by Citigroup",
+      "snippet": "MarketBeat, 2026-11-16T19:16:34+00:00",
+      "published": "2026-11-16T19:16:34+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFBpMTNXNWxaRlB3RjRaczR3a1dyd1RyaUgxSzdsMXZlMXVFdUNfMlZhUXZQc09nSjd1eXMwdW9teVJEd3BSQk9HNldKY0RTc2JlT1ZhM2VTaGFaYkxLc0pOblJoZ3F3TGRoWlk3N3ZpTEQzMW5FMzhrNkRodW5yTzI2R09xQTFUZURlTTM5bkZvc3pCRmc4LWFDeUVIUGpseW8zd003R3JDU2V2Mk9mWS1SNkMzem12VzlNaTNpczNuX1dlMGZRUWF4ZTJlNS0xa1M4Ug?oc=5",
+      "title": "Citigroup Forecasts Strong Price Appreciation for Echostar (NASDAQ:ECHO) Stock",
+      "snippet": "MarketBeat, 2026-11-16T19:16:33+00:00",
+      "published": "2026-11-16T19:16:33+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNc1BjT3hNczEyNUpoM0NOcXNlU0pNR0d5d2FxcDFHUUQ2V0wyN1I1NWdwcGZHemRFVUYxUGdMS0NOWUgyNjViWE1xM2MwanBpU3ExdlEtZGhSRnoxX1RZem1PcUp1VU9ZSjJ0VjZXaGdGYUtlUnNNNGNzWGt4bVluM1Nwd1ZtRV9ldC0wMUZGQVRLQnFHSzVrVnlnenBuSDNnaDUtS0RDeXNXb1hJbGV4SmNKMXotQmg0amowN3haN1RIR0NRRVJ6R1B4U2Q3S0IwY1dLQjNpNm1uME5JX2c?oc=5",
+      "title": "Citigroup Issues Positive Forecast for NIQ Global Intelligence (NYSE:NIQ) Stock Price",
+      "snippet": "MarketBeat, 2026-11-16T19:02:55+00:00",
+      "published": "2026-11-16T19:02:55+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNV95bzlzZWd2Wkc5RXdvV0dsQkFvTHhlVHluWGE4cmRNVi0xRDBLV2lXbGlTU0FmUzM2SUVyNGI5TDVHX3dzaEJnMUJrZzBINlRkZmlxcU13cTV2TjVOclg3RHpETVN6NVRTUXFSZ1gyY1czbmtzNHZpWFMybFNCcFJXMUJJSjVjV0l5YmlHd2ptUlY3OXc?oc=5",
+      "title": "Citigroup lifts SpaceX price target to $280, si...",
+      "snippet": "Pluang, 2026-11-16T14:00:00+00:00",
+      "published": "2026-11-16T14:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa3JsalhibjJvR3VKeTZIMlg5U19IN2JTVlpyeWVENGNBNTZwb285RFBEWTlEOE83NFZlM2JPRGpWVnlYZFZsLWlUcnEwU3h4a1F4dnJVTWJPNUItTHVYMFhNWkUycTRPMnd3b3FaWk5TaE9aVmtoU0JOd0hKY0M0TVNyY0FQS2t0UEdUNVBqUzhaaGZzZEVJWWE5QTZqWnZGTGRGNDJMMGVoRHVtaGFaeDVtWEhtMnJkNGZraTNER3A1TTlheGc?oc=5",
+      "title": "Weekly Recap: Citigroup upgrade and low-momentum stock designation",
+      "snippet": "TradingView, 2026-11-16T11:00:00+00:00",
+      "published": "2026-11-16T11:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/C/history",
+      "title": "C daily price history (Yahoo Finance)",
+      "snippet": "close 121.32 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

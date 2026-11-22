@@ -1,0 +1,125 @@
+{
+  "ticker": "NOW",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-22T07:33:43Z",
+  "collected_at": "2026-11-22T07:33:43Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd1JFRENpYmZHOFFWTThHR28tUWpjc3l5VU55cnd6bXI1UUdCT2xTUXlyUHhTZmlYM2hWWW9LSGhnakx0bXF0RE5NRWxQYTNFTWJwVkhGaEh3QlRkUHhEbGtkamdqQXV4aU1nZUFZTDRmSVNGTjFpcURtY3hHRmZVMVpmVDZDT29WaFdLQmdjZjVBeHBicXVRejhSV2VaVC1paXNkM1dkbDNGTk10NVpzb1FvTWpYRXdYSzdTYjFoUVAzeEMwaDd2Zy1CSWxFbnNPaEtKdGNn?oc=5",
+      "title": "ServiceNow Stock Rebounds as SaaSpocalypse Fears Fade: What to Expect from Earnings",
+      "snippet": "Benzinga, 2026-10-25T07:00:00+00:00",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNUR5Qk1wNWRUNE56VVFTZzNES21JeUl0U2F0WG9PUmNhV2w3bTJyLWxsWHNfQjVzWGdDTFRPYnFUOEpTaExVQWg1UUpOMnBwOE9DWGJGVklRS3VHbGphb2tkRUF6ckY5SUplemRpZWNob3pxMk12VUJtUndWS251RGVmclEtTXltRXJxZnkwa0dUR3hZRDhJRFo2VndTbEQ1SENWRkZjSlZyQkppc1lHekRFQW8xQzQ1TFdsdEVIRzJqSmRkN1NlWXZjWFo2dVlYT1BYajFmZ3UyWjA?oc=5",
+      "title": "ServiceNow\u2019s Moment of Truth: Can Agentic AI Growth Justify a Premium 80x Earnings Multiple on Oct. 28?",
+      "snippet": "24/7 Wall St., 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeUdWYlJia3kyY05LOGZmU1IxbWlJZFV5cWRrdDJfWkdKdlJsTTdNakJUTXBkbUsyY2tMYVBuZ09ERDdQNmdMRHZMUkZReVg5RG8wV1RSaEhxTUtnbWdJUUNHRzl3bV9GVTA2YTJGdVZheUFrMzZOeU9oTW90V3dtQ0s3RnBkWlgwMDR3LTRtb2ltenpBRDU1WlhtbXVtTnozQTdPRTdnWDlnYUJYR1A4UlFPUjNrNWZubUV2ZjZ6cVBHejh5WXc?oc=5",
+      "title": "ServiceNow Wants to Be No. 1 in Security. Here\u2019s What Its $7.75 Billion Armis Bet Must Show on October 28",
+      "snippet": "TIKR.com, 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUkQ3ZlY4dlBhd2lOclpNZWJzb0pHZW9YVlNrV3E2R3V2VUNUZ0NnQ292bVFpSm5UQTR0ZWt5TWJ2bXFZQjNVWXJqWWluT1BYVmRFOWZGNVNsdzlxdGdERjJLSWcxVm5xTVFFVDFBTFFGXzFhRktoZlpOQ3J2UVVmS1NlN1o3NFpXaThVMW1R?oc=5",
+      "title": "ServiceNow's Q3 report on Oct 28 tests if AI gr...",
+      "snippet": "Pluang, 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNG9kWk9ERS1ZX2xRc3lpX2RqVDRJeExSdElHSnBVVVNQVWVhNjhZc01OSEQyZFB6cDNzcjlZYjNrX1JZdGxJOU0wN1dzay1MOFNYY0VidXNfV05tYW4xc2JGZF9lQklNQ0t2cVFGWk02ZzZDRUJkWElTLWdEeGJFb2V0YjBLUkNjV3A0TzFTb0d5S0Ytc1dYdmpod1VTbFFETFo2ejdBLXFFSXFNd2gwUU5NWFN0bXFQSldqOXBCMk9WRnF3?oc=5",
+      "title": "ServiceNow Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmg4MXdGbnltNjF2R1E2bzFZTGZpY1k3RXpsMS1maGNhRjV6SlVGSS03dUU5dy1VdmIzVk4xeGpRWDFVVjFHdWx0OTc3SGZKbkNyRWFhZ19HWUJ2dGZCOFFMVm9kaUxGel9Scm1YVGMxeWcwajM4ZExBNzhRSG9xLW5aYVZWZXljSjRaMHRkVUtOZ0hrZGMySm8tRWZrWndWT1otZTZ6WVdWY3E4a1NxeQ?oc=5",
+      "title": "Hyperscalers Microsoft, Amazon Line Up With Earnings, Along With ServiceNow, Intel",
+      "snippet": "Investor's Business Daily, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQkhNMXFCUzdJN3lzWEllWmVuNmVaZ1dLaWxFZjd2UkU5ekgtYzVWYnZYQjRIekxXS2J2QmJVSTVsdVlwTjFPTXo1b0l4eXZhTzhhMHJ1dzZhZkVXVzYxa3NNbThsMnZaMlRvemF3ZlRwOW1nNEV1Zl9IMUk1WlRVMmU0cWl2RFdfTnZ5dm5uTUVza214MjJsVF9BMG9LS2dWakxr?oc=5",
+      "title": "ServiceNow (NOW) Advances While Market Declines: Some Information for Investors",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWF9KeFc5UTFKaGV0RE55bmdZTlV3WnZHd3VILXAySlJaNXV2cWRyM3VUZzJYazFJWVBVZVRPRHdwc0xJMkdkWmxkMVRZeEpsRjVURVdJeDNnZi1tb1NJMXhUWjEtamxzSzFPYlpKZDVSZElSN3dsWWlSVS1td2gzcGdCOVhTYXFrTEFZR3kwN0xCdTVvS1FXWjliNWJ0MlIyY2pyS2VlaG9ySzljdVJ3NkRsaUNfZEVaRFVlM25NdGJEdl90cHVfUHdIQjh1QmxaalplTmNYZ2lXNVd4WkExQWJPV3M?oc=5",
+      "title": "What's Going On With ServiceNow Stock Friday? - ServiceNow (NYSE:NOW)",
+      "snippet": "Benzinga, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSHRPRnBtM2Z4SC1rdnVDMjNkQWxEdXVXQ01uU3NyaHhBQUlIWlRvejhaLUxFTW16SE5UelJYY3dwa2I2NkhWM2RGMVZuSjZIOHdVQ2lJejRlQWVjWE95QnRSZGk0VWpibnROM2w3UmM2dlpMcHZZaFYzb1p1TVhxZzNXM0VzVmtOTVo0Um9aLXNTeURNYzBCRW5qYmxnZ1RkM0VIeA?oc=5",
+      "title": "Curious about ServiceNow (NOW) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTzJ3Z1ZwZE1tT0lPU28yemdwWURpVjJzVlpWLUVyQ3ZsdmdZWjFlQlVydEtkVm9OMHUtWG9NelJ1UUh6OU5rQ3UzQ2ljelJuZjRQV215YkNOb25zcWVCOHlzZlJDWEFUSDN4RkpBQ0I4YnpfdmxEOVJ4WUpFYmZwMDZScS1HdDRUd0ZWajB1c3h6UXUzMkZOT19LMklBdTJtNU95Vk1VN1Fya3MtZ1h3Ymp1VFNsdi15V3cxeGRROEZZZVNr?oc=5",
+      "title": "Guggenheim raises ServiceNow stock price target on stable outlook By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NOW/history",
+      "title": "NOW daily price history (Yahoo Finance)",
+      "snippet": "close 158.18 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

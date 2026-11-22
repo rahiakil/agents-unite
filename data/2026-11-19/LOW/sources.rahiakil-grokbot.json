@@ -1,0 +1,125 @@
+{
+  "ticker": "LOW",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-22T09:15:12Z",
+  "collected_at": "2026-11-22T09:15:12Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZjNZR21DaVl0OFdBS3BTWElPa283dUFQU3FaSDV1RmVvTTF0SWFGc0N0SU9RcEd3eGNhaWpMbERKUFQ4RWhXWjQ0UHdfMmJFR3NpaTBoOVYzOVRmWHZJSU5wV3dWNURnbjhSSFdCbGlROE9qM05uNGp4ZlBvWkJiU0x3NHR1MjUtZV9HVGVudnk1VXB1blhOY0RwZkduc2FwSWN3bnhGWDlfY2JMOVhROWNqZ01LYVRGWV91V2xnb3R1Zw?oc=5",
+      "title": "Lowe's Companies (NYSE:LOW) Earns \"Neutral\" Rating from DA Davidson",
+      "snippet": "MarketBeat, 2026-11-19T15:53:39+00:00",
+      "published": "2026-11-19T15:53:39+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVmhLLUE1RFg0TF83Z0g0enRvWmk4TkF4My1TZnVNMFdQQ2ZyWEJEdi1YSS1RVnZ0OGRvUzVEMUU3Wjh3RWFJeVkxQ1NMaDF5RVNJOVVXcG1OM2dxaXVaSDhlSGFhRFlTc0N2aVBtQVZjeXc1NDdWWmEzZ1J2Y0ZKR2NFX1VvUEQwc0k5WFlocllUU0dlemRGS1VrZHNaRW5ZWUVIdDgyNHNmbk9FWkstRUFLd3Z0Q3FWNGlmVnRQRmRaNXQxcm5TUi15NGVqMlk?oc=5",
+      "title": "Lowe's Companies (NYSE:LOW) Stock Gets Price Target Reduction from Barclays",
+      "snippet": "MarketBeat, 2026-11-19T15:33:39+00:00",
+      "published": "2026-11-19T15:33:39+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYzVFNTNVZEdUTnlDc01tWDkyUW4wTUVuOXVBVHExYlVtUmNPMGt6dDdoOWY4OXlEUkFsTkhNR1BjR1ZDUXl5R1d4d1lMYWxEM000UlY1V0RpMDBQckRteTBlRGgxS2xPMVRTNUtmMHJRZS1feHNCRlIzbHNzNzROUWptc3RUZHdJTXROaDFnV0o0M2dXbnE2UkNQSURLWWpFM0NYZHBxQUxBZ1lqUXVqdzVUMGRVSVd3blN3ZnN2N2tHSF9jaDRmb3FPTEk3M21QUDFJenNnQQ?oc=5",
+      "title": "Lowe's Companies (NYSE:LOW) Stock Gets Price Target Cut from Royal Bank Of Canada",
+      "snippet": "MarketBeat, 2026-11-19T15:11:29+00:00",
+      "published": "2026-11-19T15:11:29+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVVRrakdLZVlodWIzOGVTQWdMbWxlRVAyQ0RZN2dBTThzZHFiZ0xTX0toZDR3MU9OQVhsRDJ5bnN6VGtpcHFKWFlIYjdxeVdfeTJrOXNXVnBSNXg5UV9TMzZrRllvMTRkdEVkWW9kcnhMTVpUSGZvSnIyX2p3azhhdUw4MUVRMHFCYVo5QVpxUHZxanFQejU1VzRqVWJaNXk2UU1jaUZGN1JNN2J2Z0duMjFjV3Q?oc=5",
+      "title": "Lowe's stock: Baird cuts price target to 250 dollars",
+      "snippet": "ad-hoc-news.de, 2026-11-19T15:08:02+00:00",
+      "published": "2026-11-19T15:08:02+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRjlsa1VqT19IZ3BXZmtUM29Pb2drVlAyc205WjhtbEI1NGhwUjNWU1B0Y2EyYjVyazVGS1huNmJPZ19BQUl5SnVEc0NPeUFyb1RfZHZIWHJ3bno5b0hhWEZrMGoycUkzRzFnOU5JZUFBaWNMNzJSdHdWM1F3MGNOWG5WbFlidmNYcmpLeDM4WERCdFF1YkZHbWZMU3Rab3M?oc=5",
+      "title": "Lowe's Earnings Beat Looked Strong Until a 34-Cent Tariff Refund Changed the Math",
+      "snippet": "Yahoo Finance, 2026-11-19T14:55:00+00:00",
+      "published": "2026-11-19T14:55:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYkhKQ01MNEx4U2szU1VWM0tnT1JhcVQ2VS1teUx6VXNYc1Foc3lic0NaeWdCOTAwX21IbFlHQkotOXRTUnNiaXRQNGxGa0JOeEt1SElKbkdIZFNoeHhGWjVSUm1WYzlTZjV2YUY3dVRMVmJOVTAxbTJRRXVKOTJkelR4cmt1WGxvczZXN3BYb0k2S3BnTFlGUmxJZUNkN0FLWDBEc19aY1QwRWJFMVcxdjhRQy1HeVhkamdN?oc=5",
+      "title": "LOW's Q3 Earnings Call Lifts Sales Outlook and Cuts Margin View",
+      "snippet": "TradingView, 2026-11-19T14:00:00+00:00",
+      "published": "2026-11-19T14:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbk9PbXI5OC1ycUh3X3pVVXhnaXdkRzNBNnRrQ2tGeGU4ZTNfUHpBTTc4TGdBTkdYdnFfYlVkcThCdEZNeTNtdFRUYk9GUmU4UktVaVU4Rnd4NkxOZ1BOYUplaFB0OTRiWDBTc2tmVHNjTE16MlFRTTVZWlpBWV9aNXkzVEhwVXNTUmY4eTJZb3FIejZydlBXUjlDVXExMFpnbWstcFBJcW05YVNiLWdQLWI1NTliYXpSRFVJcWl5Q2p3aVdSYTJ3bmdPeE16dThXV0dXWGh6Ymo1RkJN?oc=5",
+      "title": "Lowe's Companies (NYSE:LOW) Price Target Cut to $240.00 by Analysts at Truist Financial",
+      "snippet": "MarketBeat, 2026-11-19T13:57:18+00:00",
+      "published": "2026-11-19T13:57:18+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY29UajRwR2JyblJrU0lBMFRBdkhHbm5wajV6QVBwU1JGNHNVaU1RbWFUWkNoN1RUX1VlUjJ2WUloU194SnRKeHdhdWluWlNSTlJwMXU5bU1jQVd5NlFwLWREcVNSVFVBbkpVczV6Ul85YUdkTDA1ZUdwRXE2TDZQNFNqVDA2aVByT0FmRUFnWTVDMjNnV1J1YmNpV2ZOcTBRNFdUcFpxRTZtQQ?oc=5",
+      "title": "Zacks Investment Ideas feature highlights: Lowe's Companies and Home Depot",
+      "snippet": "Yahoo Finance, 2026-11-19T13:42:00+00:00",
+      "published": "2026-11-19T13:42:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS0M5eGV5TktNVzZRRmhxd1dDRGR0NENtYUJoS3RqdF83bFlxak01NTBIRjlLY1p3T0FJbjlDY3BacWRYMEN3NDNFdlNFS3BOdlZwZ1BMOFZZTnlXUE1raHR2YXdYVXExX210RGVBQXZuSXVrUjNrOTk5QU9MckJSczYtbHExdVNfZkdTWUFhcnV4dXJBMDEwc2REU2xBQ1k1dl9MY0V4enUyZjZfMHRiMVAtanhPRC03a1MwaDVpOUJiUHZ4Ymc?oc=5",
+      "title": "Lowe's Companies (NYSE:LOW) Stock Price Target Cut by Robert W. Baird",
+      "snippet": "MarketBeat, 2026-11-19T13:41:00+00:00",
+      "published": "2026-11-19T13:41:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN29ZSnFBSzJQdlJwcG9kVEYzTEh5ZVVydTY0cnVGbUdWalFFZUJKakZiekpTMktJZWg0OTBfWFotMHU3dXlIcmlBaF93YzI3dUNvdjRENzBleEpnLXNFc3VmQXV2aGU4TGtoekx6dkYxRzdjbkV1Q29YRExmcHd5TGhNWFNlVUc1c01LTTQ2aWlDX3VfVUlVZTZqazREZVlDc1QtazBuTTBkeVlQWWtOOE1PYw?oc=5",
+      "title": "Lowe's Q3 Earnings: Even Tariff Refunds Couldn't Prevent Margin Compression (NYSE:LOW)",
+      "snippet": "Seeking Alpha, 2026-11-19T13:15:00+00:00",
+      "published": "2026-11-19T13:15:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LOW/history",
+      "title": "LOW daily price history (Yahoo Finance)",
+      "snippet": "close 219.14 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

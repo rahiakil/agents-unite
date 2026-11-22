@@ -1,0 +1,125 @@
+{
+  "ticker": "FCX",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-22T09:15:12Z",
+  "collected_at": "2026-11-22T09:15:12Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxORmJ2QmU0N2RUdjYxMnNmZi03RDZsVnM3U2RmQW5wQWJiYXJxdE8zRFdqeXNyOGVocGNDb2RUZG5EVWktWTVJZTZUWEJaSFMweWRheV9MV3NmUDVPNHVQejdrQllGd2R1YjRUZXdObmZMMEJIa3daV0l2TGtsSUdHTDlud2gzOVkwQU44MGx1eS16bHBYcHFNZ1pjQzZ3OVhZWnI0V0JKc3hjbDREVDVWQXhoZGJSeGRiSTVlMnBSNE5WTUtSU2hXcnFSaElVdGtHS04tQUR6MmpzTjR4bDhqUmpiY3BBNGF4NmEwd3ZTQWtXSjE4ZUthaGpucXNacU94bEpscmFkVHZHR1laT0JTSmRPMnhUQ2tmT1lKdzZhSjJ1dw?oc=5",
+      "title": "Sunshine Silver Mining & Refining Company, TMC, Hycroft Mining Holding, Freeport-McMoRan, and Newmont stocks trade down, what you need to know",
+      "snippet": "TradingView, 2026-11-19T20:05:43+00:00",
+      "published": "2026-11-19T20:05:43+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOajZwaS1HRVRrUmoyOUpSSDczWW5mSVFDSWh2RUdWN0dVSGpsV0VaYXo2anYyQzNGX3RWLUlXTC1TaUxxa0owdXRPRHQyYkZuVUFzMjlSS1pHdVVISmtVUlBhVktNYnlaXy1hTkVqcU5UTU9UYVJZMWlQbXVaclBwTnRfWF9TZ1JQdkVhUkxpUTRyR1VrOFlXVg?oc=5",
+      "title": "Revenue Rose, Yet Erste Group Cut Freeport-McMoRan (FCX). Why?",
+      "snippet": "Yahoo Finance, 2026-11-19T15:18:43+00:00",
+      "published": "2026-11-19T15:18:43+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWmpVeDNtTk5iOC1rT3NEZXJLeXRwVVdZMFE3U2NxYUphR1l5SmFuV05ZLUVhY2t1LUhNYnpvTkN0anVHTjJCdjJRbU5GWGJ3UEwwWTZYZkdnZlluOHRJbUJUUTA1NXV6Q19GTkxJaTNKT3dRcnVjMHNmOUpCbEJUVjIwR0xDc2NPbDM0YWFzdGZXSVJXQmtScC1lRXNIdFFXdmZn?oc=5",
+      "title": "What Triggered The Move In Freeport Stock?",
+      "snippet": "Trefis, 2026-11-19T12:13:22+00:00",
+      "published": "2026-11-19T12:13:22+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQXgyWW5ya3FzR2VQdGdPY0FrbkxGV19qWlNONTNZVlNvS3dkNFJ1cmZSSGxyZEZYWWJON2V4bkVJeXYyWnV6MF9IV0QxUlk1M1ZFcGJqNmRsWE1DREI5Z2ZhU0dGQTNsUGtDZmRvT05zVDRod0ItN09yRXBZWXRCS2ROZ0p5VUhvNVdsR0hDSjVFanc1ZHgwdmp4QnBGci1LTmtyeUlLUGFSUQ?oc=5",
+      "title": "Your FCX Stock Rides Chips, Gold And The Dollar",
+      "snippet": "Trefis, 2026-11-19T10:52:08+00:00",
+      "published": "2026-11-19T10:52:08+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcEU3MXBZanpxb2ZaX3ZfeHJ5SHpMRVl4azZnakwxU3pZZzdFc0MzOS1BUmFuVWxINFdKaVY5U2RUVkRfbWh5Nl9NaFFqWE51RHJDdmpfVDFUVFBUM192bm1pXzExVlhXbUd5ZkFiX0RPYVdoMmF2Y2pRNVJRNS1FYmpEdEVFMExKTUFPYjZ6d1ZjX282MDZnbmlJdnU4Q3EyTnlzdUVn0gGmAUFVX3lxTFBwRTcxcFlqenFvZlpfdl94cnlIekxFWXhrNmdqTDFTellnN0VzQzM5LUFSYW5VbEg0V0ppVjlTZFRWRF9taHk2X01oUWpYTnVEckN2al9UMVRUUFQzX3ZubWlfMTFWWFdtR3lmQWJfRE9hV2gyYXZjalE1UlE1LUViakR0RUUwTEpNQU9iNnp3VmNfbzYwNmduaUl2dThDcTJOeXN1RWc?oc=5",
+      "title": "Freeport-McMoRan Shares Dropping 7.5% on S&P 500 Premarket Movers on Nov. 18",
+      "snippet": "AlphaStreet, 2026-11-18T21:37:28+00:00",
+      "published": "2026-11-18T21:37:28+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONHE2aFpBM21mdVBnRDJTdWlPN0JQV2p6UVlIQ0ZTRVc5T2JidzMtRktHNjJsSkFPdFdXX1cxdlZ0Q0I1SXhXRnlpazBncW5MbUh1cU1kX2JMSUtERHZtTGFybmpyTzZJRElmWGlmSHRzRmlyZU51NkNRMmFPV3JzdERkRm41MlRIOFRscTJDVmY5RTZhUF9zeXdtRQ?oc=5",
+      "title": "Freeport-McMoRan declines 7% as copper extends its decline (FCX:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-18T17:40:18+00:00",
+      "published": "2026-11-18T17:40:18+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeV9FaG9Kem5uclBEQ2dDaUdWSFRFRkNnV2wyNkpjdjhMZkdtRFh4ZGNoQXFGMkFISlZwbE9iZkxTRnBQYXJWZjZvdHppVHdwZTRiRm9OM0ZoZlZRSDVLWEREcVA1STV1OEFXOVNUelZtS0pMNkRheF8zdjZ0M1VHejdLRGZnVDBWUEowR3Rma29PLVhFN3k3UWVCeU9Pd1VRMWNrSF9lY1M5dktvdk03azlvbEYzNk9ScXJ1Y2pPVEZTZjBKYXNjcXV2eHM?oc=5",
+      "title": "Freeport-McMoRan Stocks Fall 7.09% as Erste Downgrade Meets Slumping Gold",
+      "snippet": "TradingView, 2026-11-18T17:33:26+00:00",
+      "published": "2026-11-18T17:33:26+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb1d2SkRFSHZSSkJpUlI2OUlkYzBSWWI2eFN5Si1RaVpZYk82aTJGRC1LelhfaEdFT2g5R0Fkc181TWtvZmppZEtfc3pzS2pxWURnRlVhUzBYLWxrSFBSTFo3NzlhQ0xwWXZfanZUSWVlT0VkUHQ5Q1RHQVg3Njd3RnhGYXRGd29sT0p3NlNlOFN2eTdQQzJCYnl3dmtpRTlfb2N3bi1abw?oc=5",
+      "title": "Why is Freeport-McMoRan stock sliding today?",
+      "snippet": "Investing.com, 2026-11-18T15:34:02+00:00",
+      "published": "2026-11-18T15:34:02+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONlVWdWZtcjZ6WnczeEpvNzZCZ1FkLVM0cWlITFRhanF6TDR4SG1Gdm1fNlVaR1diY05Db3FfU191NTZ2SHhkRUJDYVlnZm82cU5xd1l3bjNqME1sdzk0ODVUemViY2Fsa2d2V1lfOVI4SHU3MkJtdEY1Y2xMUFpXVW5FSFZJLUdMSmhfLW9qS19waTVnUGdDLUpPMFBpdXRFaXp4NTZoTkhkTTF2OG5tVTFRRmprVGZYaFRzaExnXzFCNXM?oc=5",
+      "title": "Freeport-McMoRan (NYSE:FCX) Shares Gap Down After Analyst Downgrade",
+      "snippet": "MarketBeat, 2026-11-18T15:26:10+00:00",
+      "published": "2026-11-18T15:26:10+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdnp6QXdDTk00RWh0YllyUE5kQmI4MXgyQ1kzWmFaZTNkRlJ5OTMwWVJFOE50ODh2ODE3d3BMbnE4SDlQWXp3MzhPaW5aZXVpZmxVZmhCNmhXYWdHamQwWTB3Si13U1J2dUpmeUt0LUJta0N2elRvaTlJU3Y3ZFZfU0E5bkIxVXVMRmlKVTkxbmRESmZwTkgwWWx0bHBYMHJSNlZvNFduYkpybi1NSUhENDR0OGtoOFE?oc=5",
+      "title": "US Stock Market Volatility | Non-ferrous metal stocks decline collectively; Freeport-McMoRan (FCX.US) falls nearly 8%",
+      "snippet": "Moomoo, 2026-11-18T14:59:15+00:00",
+      "published": "2026-11-18T14:59:15+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FCX/history",
+      "title": "FCX daily price history (Yahoo Finance)",
+      "snippet": "close 49.12 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "qwen/qwen3.8-27b"
+}

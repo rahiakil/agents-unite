@@ -1,0 +1,125 @@
+{
+  "ticker": "PG",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-22T09:15:12Z",
+  "collected_at": "2026-11-22T09:15:12Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPallzRnNURjM4bTZEMTl2cDhOaFVYdERvOUFzejE3NmJqcFBic1JLaXpPaWRXRUZ5S0tfMXEzejhKdVBXUXc2SWdBbnpYYWhHdktyWnVCSTdTblhlbjA3SHZHOVFQZFgzRmJ2Wm53R0lUajNvRXRNbTdnRW1qTWl5bm8zTWVDQ2QwMm1iS2VENkFZal9jU1hmOVgySGJpUXhXM21IZFB3?oc=5",
+      "title": "Top Analyst Reports for Berkshire Hathaway, JPMorgan & Procter & Gamble",
+      "snippet": "Yahoo Finance, 2026-11-19T20:23:00+00:00",
+      "published": "2026-11-19T20:23:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVjFoS0RiR2RuYUx1Ui1samRHaWRTajZxZUtGazdKVy1OM0RWajJZdFlTUThXUkc3bDFqT3U3dTZhUWRtZ2F2dGloUnZ4WWE1bDliY2pGNjJHWExSRnRxdXVnMXpOUHYyYWhyVGZnMDREYVFHR2NKenFPMFFmRDZKVkVnTFRLTjJPNGxQMTRPVWw4TjdXei1nVFoyOHdpUUVpRUhmNm5VSXdkcjZHM2RLLVJ3?oc=5",
+      "title": "Procter & Gamble stock slips 1.11% below Xetra close",
+      "snippet": "ad-hoc-news.de, 2026-11-19T16:10:43+00:00",
+      "published": "2026-11-19T16:10:43+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdlV0ZHNaY29kMFE2dGhiaGNRUUlQYXZIaGR3djg1bjU5VVgxemV5cE1jTG9PRkFUanNVb1Nwb1MyMDNWQkNkcVF3ZW9PT043ZmY1aWhVNTBLRExyZHdFSmhFbHpabll1X2VUZm5ORUFTbmFIZFBRcldWMDFOTUhCYllhU3ppMWVBTzRXMm9KWlVybXdNb0JzY1lUX1Z1VFNlRG1CWEhMZXhiUnFUQUUtUGJxZzFxcFpWeFFhU2tPblExWWJmWmY4VFBxdWhkSUV6SEhGVU1DLUpJbjNiVy1jb1hVVkRhUS02VUFFRlN1M0M?oc=5",
+      "title": "How Many Shares of Colgate-Palmolive or Procter & Gamble Pay $1,000 a Month in Dividends?",
+      "snippet": "TIKR.com, 2026-11-19T11:16:15+00:00",
+      "published": "2026-11-19T11:16:15+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNER5Y1JfekRWYkduMHlTLVFTVzIyN0YtTTFBS2JaRzJ0UmlOUDFNa05xZHVlNHVBMWZ3RDhrMDVwVUNtZEE0ODlyemw3bFg0VzBTNWxZTTlHNHlVdFNyUkduUUZaRkhwS3JZNDhIanZZcFlhYnkxUS1sUWJTUlhQV3VCbjBnWFBHTGJOMFhaT2RPRUVDczVXdnBOT2Q0Zw?oc=5",
+      "title": "Procter & Gamble (PG) Stock: $170.29, Down 0.83% Nov 18",
+      "snippet": "JournalArta, 2026-11-19T07:02:57+00:00",
+      "published": "2026-11-19T07:02:57+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYTVnamNyS19TUE5xLVNTVHpsUnM1QUNYc29iVUVPcE1zYUxibTQ4dnpyRl9FcmtaU0FILWxvUTJIZm5JOVJodU1uQjNVaWE1NWZyanhNdzVlQVN6Ql9QVXZyWS1Eb2hfNGZud2hnSlV5QW94YUVna0tFaFhFcFk4UVIyaVotTUtYbncwTG5udXFTOVlpbmNvemlNNUtEeWx2d19wNm5HTDdBUmhxdUVNLTA5dXdnaHY2YkszNmV6cWltS1AyckVKcFFkU3FZZ2NwTi1XSnNuREs0UzgtMVE?oc=5",
+      "title": "Wells Fargo & Company Issues Positive Forecast for Procter & Gamble (NYSE:PG) Stock Price",
+      "snippet": "MarketBeat, 2026-11-18T14:39:40+00:00",
+      "published": "2026-11-18T14:39:40+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVXFoTTJMY2NXZmtNZ2J1N2tNRjhsQUFmTXJLRWRSU2JETWx2YVM3akhweE9ac09lVktyZmdHRk0tbllNNjgyOFUwdGVoaHhsZnZGQWRLdW5HeU5tQjNiN1piX05ENVBXMEtrRDlfc3loNTA5RER0Q3V6VnZlamdTV1JvRG1Ec3daREd5b0FaSXlWdEo5V3plTm1NNnRvc3Y4clI0ZEkxOFZhSUxxLWhtS2l0MEhJTWpRT1pRdUpUdHlDTHZMSVlPUXpVZUtFR2VyMXQwekZzUnl6RWM0bzltQlZKOW5Hd0dkeXFCX1BYR0tqa3UwMGZiUGVR?oc=5",
+      "title": "Analysts Offer Insights on Consumer Goods Companies: Coty (COTY) and Procter & Gamble (PG)",
+      "snippet": "The Globe and Mail, 2026-11-18T14:23:23+00:00",
+      "published": "2026-11-18T14:23:23+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaVdTSUs5dHlOcmlMdm9WNW1PenJwVmVPZ3VOTDRhTi1SbTl5SElqUEc4eE5WRENQRG0ya1lHc0J2dnJhY0NHWHpMcDNTSVptemw5R0M5SEwtSDV4bGx2UUxsdEFsTmYtYmUzQ0taXzliSEJxZjV5cERsOUM4SU52Wm5kYVRqT2hJTEVqdUl6V2szdkRQeUtWVEFCNmhvME15b0phR2N1bVdIYXlCZkZkMzlBRnNFQ21WaTNB?oc=5",
+      "title": "Procter & Gamble stock: Wells Fargo lifts target to USD 188",
+      "snippet": "ad-hoc-news.de, 2026-11-18T13:27:12+00:00",
+      "published": "2026-11-18T13:27:12+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdG9XeGJXbzczX1k0QkJEbHRqcVZYR0txakYyRGZvZEhuT3pnRXJlMWVHaUpicUxTNm1rdmtwZkQ5TGkwOURTVnUteXN6TG1pOEt4TU9vYjdmaTJHTTdmNDF5cVRCdGtaN2NZM29BdkFwVFJXc0sxT2dGVGNIak5KcmQ0ZndMSEh1Zk9yZjFNb21zd1pUZ2MwaDBBUThiZlBmNVVSTDBzZFFOZThZSkp5SEhkSVlGNnFUTW5vZ1pnMHhyRU8yWUpIa2RuaGp2UUM0c0xEaURoQWc?oc=5",
+      "title": "Wells Fargo raises Procter & Gamble stock price target on easing inflation outlook",
+      "snippet": "Investing.com, 2026-11-18T11:35:23+00:00",
+      "published": "2026-11-18T11:35:23+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EYVNqZExzbXg0UGlIMGpHczl5VDJwRVhXVTBrcDJwYnpaOTlsMUNJTXg0X21kT1FyYjNhaUJGWEhXVlRoOHJsLXFJb0J5QVRSeXJ2YWo4SUFOV1VwMXpfZEo0R2U3NUt2Q2c?oc=5",
+      "title": "Procter & Gamble: Low Returns Ahead",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdUhDZkt3LTY0ZGRSaUNKNXRsY3ZpUzhIUzVPTXdIR0ZzNFZxMU5yZjBNNXdtRnZhRW03ZUZRd1Jwa3h1SDA3UjNLWk56R0hpQUoxTlRBN1NZM0IzWHZfWWxBc3Yxd1dLejFMYUNJeGtUMVNGVnJDMGJIZlcwYXY5UkFRd0s5cUV2dHNjTHZIVmJXTUFiSnZkZFVkN3hlSHRkOXdOdVpQcXdhbzhRTmc?oc=5",
+      "title": "Franklin Covey (FC) executive Holly Procter holds 11,904 shares after delivering or withholding 703.",
+      "snippet": "Stock Titan, 2026-11-18T00:26:00+00:00",
+      "published": "2026-11-18T00:26:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PG/history",
+      "title": "PG daily price history (Yahoo Finance)",
+      "snippet": "close 167.85 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "qwen/qwen3.8-27b"
+}

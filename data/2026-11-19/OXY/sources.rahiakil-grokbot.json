@@ -1,0 +1,125 @@
+{
+  "ticker": "OXY",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-22T09:15:12Z",
+  "collected_at": "2026-11-22T09:15:12Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNkRvdTVlNjhNdG1aWVhadll0ekVpUkRYLVUtc1ExRlVCR3VyM01kNWVCQ1FDSHEyTmxWZmhWVlc5QXcwVmdnSXI1M1ZXN0FJZ29KZVZnMHE3RkE3STlITDBXTTEzZmtZOEw3UzE3WEpUMFFHaktaRGlyTTA0UXU5TkFBcmNjbDR0RWIxQnZURkNsQXZrNUxZSlVGUWJRYVljMEJlY3EyNXB4SU0tMUZwOFZEMjQyb0g4c3hYNVA1aHR1Zw?oc=5",
+      "title": "Occidental\u2019s New CEO Tested by Debt, Lagging Stock Price and Big Dividend Payments to Berkshire",
+      "snippet": "EnergyNow.com, 2026-11-19T19:21:35+00:00",
+      "published": "2026-11-19T19:21:35+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQzFPYVNSUk1aczg2ak54S1g1dTBZMzNsczlmZHotX2hqbzZKSng1ejlyOE5vOGJ6RWh2RmY4NHVTd0RzSWtmWWxXUC1CUHc5SDEyckJObUtOWS1DdjRXOTFxc1IwVGJGaVJtMm1GN29iY1dtYmh2SFdabUtPZE5kNXFtaDdmeHFvX2h2Q2JJU0lWampsV2VUNzZlSzlyWG9SYjQ5dm5WR2dNUFl4dnc?oc=5",
+      "title": "Should You Buy Occidental Stock For Its Cash Flow?",
+      "snippet": "Trefis, 2026-11-19T08:41:43+00:00",
+      "published": "2026-11-19T08:41:43+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzgtZE11c05HVnJDU19oVHp2WVRtalliWFV6QzBWczJyLUU2c3h5dW5vSk82VDdsU3FWcjd0X3RkNm5pNE4wTVhZdVBpVy1OUlc0S0J1bzhhUElPdllXb2Y3UWJUUVRXQ09uMWsxOUdRZGt1Q3oyWkl4cDdiSDF1TXRUMmc1ZmhPV01XVmhtQTkwRUFzbzhiUXhaX1Z4UW41b240RldiYUluZDh1bnhldlBsWHprUkJBN3YwQ3kyOFM4VDN2eXltLWdRZ0hYb0tlSDN2WUZ0QVJXd1py?oc=5",
+      "title": "Occidental Petroleum Corp. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-18T21:30:00+00:00",
+      "published": "2026-11-18T21:30:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVjdXb0lZRXVkMEYyYkdvOUFIOUdYQ0tTendZZjFxeUEySGw5cGIyX2pNN2xadl9DdElPc0UwR0FvMlNJNHJUN21SaE1fRC1Oc0YyaVkwcS1tYXp3WHV2TnlnVms4ZGRMOUxpa2hUcDBPc0oxYWszYVhhUnRaelRpTThUMEExcmsyVFpobkRqNkhrQnp1OG1uVVJrNHBhb0NDVnRJM2RsUWFkUVhCN2VfZUpKX1Z1WEwxNFZfVkdUM2c?oc=5",
+      "title": "Why You Should Think About Occidental Petroleum Differently Now",
+      "snippet": "Trefis, 2026-11-18T16:29:53+00:00",
+      "published": "2026-11-18T16:29:53+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSFFYSmN2dkNEM1Z2UkVHcW1PSUh2akwwSGR2cnU0bUdtZzRzVDYxczZuem1HOE5iVy03Q2FSMU5qa0pBUEIwR1c3X0Jvc1RmOWVYN2FWcXJLU0hZR05CVDNXT1NTbW01ZmE2VDNfMGhrV1dabV9hLWhweGtwMTJfSHFIcm1tMW53WWZzQ2d1VlEyMlR3czdPendJYXQtMktlbmYtZWJHNmZLXy1lVXZWb0hzcUUzQQ?oc=5",
+      "title": "Occidental Petroleum Slides as Oil Weakness and a Recent Downgrade Weigh on Shares",
+      "snippet": "Quiver Quantitative, 2026-11-18T16:21:00+00:00",
+      "published": "2026-11-18T16:21:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS3dlNGNfWkFMMDJBYkY0Wmx0N1NEcFpxNWtxVTlHc2dPUVhmUGdnX3RxaHV3WF96OGVOanVtNGh3alB2aWRONGxKcGFvbVJJSVdlclk5RVJILXl4RXNKNFpweUloQkl6ZDZBLTU5Z0drMnpEVW9SRExVQ3BDRXg3Y09QQVFnWkl0cEFiYVhhZ1dTLVFHamVBdmFGVQ?oc=5",
+      "title": "Occidental Petroleum stock extends decline as seller pressure weighs on short-term trend",
+      "snippet": "Traders Union, 2026-11-18T16:01:30+00:00",
+      "published": "2026-11-18T16:01:30+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSWRrbU5sbi1uWElqR2dYNWhFNXNXNEM0VWhuc1ZlYTZXS2UzeEJvZWZPclFiRzJCTXBpOXBBVkJFU3BmRUxvQ08zWldnbUhrMmprWXlZR2lLMkNFRHFfdGt6V3FmdkZQM19tZmZpM2FQUjZxUHE5X1ItTTk5VTUxYTNOd1FRZmpCaFpvTXFMcUs4aVlsLU9TTW1WZkoyaGNXc0VXcjVmSEppbnc?oc=5",
+      "title": "Is Occidental Petroleum (OXY) Stock Undervalued Right Now?",
+      "snippet": "Yahoo Finance, 2026-11-18T13:40:03+00:00",
+      "published": "2026-11-18T13:40:03+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR0FsTTFDZlYtSEZ0MlN3b3dnTnlUVElMUnBGUEJHRC13SFV3U1FNU0JGdkpzVXJmR3pnUmhaa0RyQ3Q4Wm5Ua2pUSU53U3lrd2lXX0xUVWhnY2c4VE5kNzFUc0F3UXQyR3JvM0NGV0pudW9yLUszRFpiS01YUU9xVw?oc=5",
+      "title": "Occidental Petroleum (NYSE:OXY) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-18T08:00:00+00:00",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZFhnQU5QUUd3dlBOOWcwR1lWcGpKUlBLSVd4R3V2LUpKbUpIWHZaM0JDNVdUYTczR1pVRnFZc0cyV2FNd1BjUDRPbmZZWVl6dzNSWXZDcDNFUXZ5X2w5QWk4eGNkVWl3NW1DcTgyTFU1LWJhYnMxVXhKUDJGOGVDN0ZqazJNTzNBcTFVSDU1ckh2OGgzM3h5Y1RjNjl3UjRIV2RCNVZzMVBEUTRDdGIyd3lDVDdZSEtWYnB6bVZJRy1xNmVMOVFYWFhYRmQ3TWUtMHhIMmx3NjdjOFhhSkpyWXdFN1lrSXV4N3NVQ2FrTGV3d1BfYTBabWdXaw?oc=5",
+      "title": "Occidental Petroleum (NYSE:OXY) Shares Cross Below Two Hundred Day Moving Average Following Analyst Downgrade",
+      "snippet": "MarketBeat, 2026-11-18T05:22:46+00:00",
+      "published": "2026-11-18T05:22:46+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNENBcmJxOEllZU1iMzZlWGNZRGZTSlJoUVllOXdHUkVDSi00V05jQ2RpSTVjTXFsd1gwbElvMHkzcllWa0djSlM1ZldXR0pLdTZGSWtsYjJPaXYybHFzWVFRcFhRbVczY0ZNUXhOaFVDb3pHalFiQm9McURuY1NqYy0yZzJZbnNFdHdxUXdwYy1nSU5fWndKS3A4aXgtZlNNQlVja3B6SHI0NWlCTDY2Tk9tUE4zendYZWJGTkl1U2dhVWtsVEZWcS1oSkJWaktLV0JCVGp4QjMtc2VIYWxoUkdtalJDUkQyQzdLQlg3SDNqUQ?oc=5",
+      "title": "Occidental Petroleum Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T21:48:00+00:00",
+      "published": "2026-11-17T21:48:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OXY/history",
+      "title": "OXY daily price history (Yahoo Finance)",
+      "snippet": "close 53.81 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

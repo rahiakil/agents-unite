@@ -1,0 +1,125 @@
+{
+  "ticker": "HD",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-22T08:06:26Z",
+  "collected_at": "2026-11-22T08:06:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmV2TzhmNWItVTM1b2RrNUlSSWgwREhCb1hXMnJyVEpkX1pBLUpTczhhNDZnak1sRjZRLUtySlhsQk1kT3BJMS1LN1lpQ1dMQ3VVTDBlZndtZ1ZrNlBFb2xid1lCTTBQeUs0VUdMZVc4bmt2VU43OTlOWk9HNFBSc2tZRFdNR05NZzBLOS1YYVVzV3FBQWZ5NlFobzc?oc=5",
+      "title": "Home Depot stock could rise 17.5% with a $386 p...",
+      "snippet": "Pluang, 2026-11-03T14:24:53+00:00",
+      "published": "2026-11-03T14:24:53+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUEtZ2lIbHZPZWlQdkY5RTdKR29pSWNHOHdad29uZkZUYkcwQTBVXzhJbXh6YzRLaEFYNzhsbXpud2tsZnVJNTByZnNGRnJaNXFEWEZuVENja2NVZTd0WFJLVEM2MmRqclFyNng0M053T2xjVE1SVjZOaW9PNnhCeGZETWt2NVFFWnlISTh1VVVNSHNl?oc=5",
+      "title": "Home Depot (HD) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWFVKT3lodUkyQnZLREpmQm1tOTJxYzVNeXJWcDlRNjRfYWl1M255SWFxdkV6dmdpNlI2MkttWU1Yd0tVTDVLV1VKMGVXTU1OYk92Z3UtNUU2ZzlrVmF5bGcxeHJNeXRUM3duWXlxWjNTQmxOdkFVRlhHeDNESFBoazdpdmVaQ19Xb05tUFp1NTN0ZmRXQkJMMU5CVDNwdGlpcEFZeVdISW11c2tYQ3gtcWhETllJREFXR3lMbQ?oc=5",
+      "title": "Home Depot Stock Could Be Poised for a Turnaround. Here\u2019s How High It Could Go",
+      "snippet": "24/7 Wall St., 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcV9QV21ZVk10ZTBmTTkxMDJZZlhhbWFZc3pnVGVzQTZBZzVqaUg2b0VEQ3Qxd1ZiQ1BzNE5mSE5hbHBEQzJoZ3VHbnVnTmZsdWRZczI0NnVIaEJ0VmRLNkVaNVZJaUpRU28tNzFoUU5NLVRoV2NrVTdidG9ObS1NdnJtRVhYUDlIUDFERkxIelQxN3RBTW85Yw?oc=5",
+      "title": "Will Home Depot (HD) Beat Estimates Again in Its Next Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPU3NrZ3lBUjVkaDR5TUE1cWMyZ3Q0LW0yYW55aWl1UHNzNzQzRlBzaXlfMHNhRktyV0FFR2ZnbWNFbnlQY3hxeUJNTTViNXQwQ0VranB4cERpY0RRYjBBVnctU0pucUtqZjVDRDBwRk8tVEhraEQxb1FYUDZsZFRMUmlRdmgybGtEU1pydGctNll3NC16T1JiOEhhdGJ3WnpRUVdIU00xRjZYM1dlLTBROFhNVHhSUG5qak93dnFkS3NScUVsczRlUVJSQ3BzVGRnZmxGRkpMYWZvQ3IyMnVod3RoVHZON2x3MjdqeUtNRkdUNTFzUlZYcGRlWFByX2NQOVNTMjlRa3Z1cG04VXpBQ2FkcnZBdUZYTVUwSE1EYXNWb1FRRkdMTEZKRUdRNkVBR1BiZWVR?oc=5",
+      "title": "Home Depot Executive Says Housing Market Is Frozen. A Retiree Who Pulls $50,000 From Her 401(k) for a Kitchen Remodel Could See Higher Medicare Premiums in Two Years",
+      "snippet": "24/7 Wall St., 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQUdjRC1LY3B4SnduUWtxRkVua2NNRzFEcnJXdGN0aV92NjRTTlVfaE1HNHAtbnBwbUM2Q3BicnNZUWVnMlNJVVV1aTM1RlcxVGlCRHZ6LWtTbGJPS2NpX3FiYVduZ0JwRXhjQ1hfeHRvczBHdDM3Rjl6VFpSU1RnTWFHdWVCYUc2R1lLYkZMOTl1X053MjFtVQ?oc=5",
+      "title": "Home Depot Has Raised Its Dividend 17 Straight Years. Here's What $10,000 Invested Pays Annually.",
+      "snippet": "The Motley Fool, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONGNuZDloN25ESzFfMUJMUklqaERZVlpGd0E4T0xpaGFEc2RyRllIaVBUSjJZelVpQl9ndUY0akRYUnljYkJIaEtFVU44NG1Nc25FYXhfZXhva0VJYk1wUDRGa3NObk5RcjlkQjhURzhaQ1NzSXZuWHVLYzZKWUJ0TnhFQVliUzlOTmJSVWRKLWE2NEJOZTc0Z3ZB?oc=5",
+      "title": "The Home Depot to Host Third Quarter Earnings Conference Call on November 17",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaHdEb3BzTmVCS3NUWUtHWk5zeUVVMUZ2YmxyZ2JoWWh0WkxxeVlOYW9rbFF4WGJyV1BEUlVZbDJnMHpEYkhxWkpDUkRyS0xUNktSeG4wWkluLW4zYkpSa0pfYlpNS3JCcEtnX3NCOU9TS2VMVVlPbFVyQXd3U3AxalpscUZScHd4bThoaQ?oc=5",
+      "title": "Home Depot stock weekly forecast: Bullish trend tests upside limits as price hits top of recent range",
+      "snippet": "Traders Union, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZUhlYnZEZHZXMFdWcVI2eE9UNWlkUHlmY3Z6MmdMclczVUdrZU4tZ090bjVoM1RBYXZsUERyZUJVTmF1VFRBOXJJanloS2hVVVpNdHB6emxTYkNlQ2I4c1pHQkNhVkVzVGJoOWt6SHJNU05UY3dxUXpwR0prMXZlN2JlY2lnMmta?oc=5",
+      "title": "Home Depot Inc Stock (HD) Moved Down by 3.02% on Nov 3: What Signal Does It Send?",
+      "snippet": "TradingKey, 2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ3Vtb282LXFwOWc4MkpwMWcwUzVRQmlMckpydUFkSFpIWk01SlBiR1IwelVYN2JZZVVLUFN3LThFWmdMWVRTbWFqajBGMnRhUTZQRFpqVEZZRUZZYXJIU2V4QXFzRDNuT2Q3UGt1Ml9jZlNUTVFodWxKMEU5dWVPeWliZHRrRTZZaTZxdU9yQVdCRUJMSm4zSnh2bG11MGlQSmc?oc=5",
+      "title": "Investors Heavily Search The Home Depot, Inc. (HD): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HD/history",
+      "title": "HD daily price history (Yahoo Finance)",
+      "snippet": "close 355.44 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

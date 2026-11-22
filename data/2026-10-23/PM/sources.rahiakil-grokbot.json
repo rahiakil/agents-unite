@@ -1,0 +1,125 @@
+{
+  "ticker": "PM",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-22T07:30:28Z",
+  "collected_at": "2026-11-22T07:30:28Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV2pRVVY1MXB0ODZoZ1RwV0xBZGFGSDVnWWlwSGlEaXZubU1VZGkxdU1ydEM3VXFvMEpLR1ZaQjBDcmozdUZ3RUJRM294U1M5UEJ3ZXJHejZjYlFwTmczT2tvZjJWbVVmeWxJX1k3S1F5VkVUcmhoZFpuYk8tUUREemV0a0FQQ0JUV1MwakdPN1dfa1EycVE1UXRuU3RCVFFyNTlyV2VLNVlVOGZwVTdVLUkyTHpPcnB2TElISVB0N2xxc2g4RXc?oc=5",
+      "title": "UBS raises Philip Morris stock price target to $201 on earnings beat",
+      "snippet": "Investing.com, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3BKcnpWN29KYkEtTW5reXZFTkJwcG5KUm1uaTI3NUQ0a1pKUGdkRUFNSy1Rc3BUczROMjlJLWsyc1V0NG9xbmtrMkpUMlZYemEydVpNYjM2cTVKSS1rakNVV2lRNWdlbGxSUXB3ekViek1mNGpjMXlUeVd0dWdGRmd0dF9Ua0JYSF9wM0VDSDRUVVB4Y0hxUTdGeldGNmctSFFzemZ3?oc=5",
+      "title": "Philip Morris Reports Q3 Earnings: ETFs in Focus",
+      "snippet": "TradingView, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMXh1SG92VXVRdmdPMlVYS3hCUVJaOU5NWnFyblJpNXFfOWp1MTlsUXQyM1F2MkdJRkduNWtDYi1XeXVHYk1lOGFUS0x6YUo4U3lSeWV0Ynp3V0JhZ0o5QXNyTHpPS09WNF91R3RxQnRNQWRwTFBNN0VuZkZ2WDY5S0EzVXAtSUoxUDVKUTVuMkF2aHk1ZVZmZ2Z4LVI4Yi1q?oc=5",
+      "title": "Philip Morris Q3: ZYN Is Growing Again, But It's Costing More (NYSE:PM)",
+      "snippet": "Seeking Alpha, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1NYTGF3M255X1JUOTJ1MEVPTTNIQTNSb2xJRjBDdVRpM2xfQWMwamZvUHZ5dXlEcGFQQU9GR3BXcEJReTdzMHJQbHZndlg0ZFc3dlhsME1oSERrcFI3UFdhTS03Mm1MdHFQcWdXcXVaTk9iN25Ob19JVS1PNTBlWlk4Y2tySkFyeU1hVl9KTDVfbW5XMWU4RzItMA?oc=5",
+      "title": "Philip Morris Beat Q3, Then Handed It Back: ZYN\u2019s 25% Price Cut Explained",
+      "snippet": "TIKR.com, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS2Z2RjEtR0FudzVHaVBIeDFtRjJueExYMFp1eGxEYjFrQl9sV1dlbFFoMDh2THVtRTdKbDcyeUZOWFE4RFRrWWdTd01mUndfMjJXV1pYdlMwWkRXdmFpV2tvakNEYS1tMFZsSDYxeUxreTBhRm1XN2c0WHI3S0JGYVNCclJObEFFY2RVa0ExeWMtREZzUW45TGY2WHdVM1VVaFR5dXlFSGd1aFZDcFRsaHBSRE42aHlEZFpERXBtTF95djRjb2RBNEZPTmpmYk1HUWt6ZUdMT0hLdFB0YVF2OE4xdFFRNE43U1pz0gHwAUFVX3lxTE16WFBSY2R6enlTMkFUSk1hWEJUN2ZrQUJUMFRteWIxWjVMR3h5TGk4NjlkdjNiR2ExdWdyV2hEZTc1SzJLdW01d3l1a0h2NnFBU29yaVJVbEgtYXBYMU5BZWI4OEx6dW5RcUJVa0Z2TldsekZELTR1QWFnMnV5aUhXdS1RaUtpUC1qWml2ajRuX2xCa2ZRbW1VbzhQTkw1YktmOE1mdTRQcnFGWW5KaVJGUmJKcmRRRVNHYmpSVkVJeXhObFJnWWxyTDlmcUltTmtQbEZpdVBkUnNoaDlCMjZVUEVOVDdfN1BJSnRvaEp4UA?oc=5",
+      "title": "Philip Morris International (PM) Stock Cools As Q3 Earnings Meet Valuation Doubts",
+      "snippet": "Simply Wall St, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTBlQlNUVDl4ako3OGhVM2JkMHVjSlJDY2ROeDRJMXM0WC0xNXluRUtYWlFsSHlmUGc2b3FSMTlOUFg5R29Ndmd3NTdwWk5YM0VzZ3BCZjBfb3h4WXlsOGE3bUxWUFNTTEFocER0cVlQQnJqVFpGbHlhTG5WZEV3aDRsSU4yZVA2LW9xYWp4eVBwYUR4Rml0Z0FtVDhhUFZobC1ROFBJMnR6cU81RVhXMWFzdXA?oc=5",
+      "title": "Philip Morris warns conflicts are raising costs, hurting earnings",
+      "snippet": "Reuters, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNU9NUXFOUUNxVkg1elFoNVpGRjFUYkNGWk9tYVY4clBQV3ZYQXdiT2FGMEliTlBUWWtHQ1RHUUNRVmpsU1EwOXA0X1Baenl3dDQtWDZhUW5JWFVEcEhvLXM4U3lfZlB3cGdjaU9ZRDUxX1VCcEUwT01sLWZxeTNiZnZfVjQzai1rVnN1MC1YYlFqSXc0cVVXV293?oc=5",
+      "title": "Philip Morris Doubles Down on Zyn, Despite Mounting Cost Pressures",
+      "snippet": "WSJ, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlBOLTQzRjl5Q3A1N09hRnVyS2QyOUcwQWdiUTlfWnFsOV94NmEwbnA4dV9DaTR4b2NOVWxocldMTnhldWZmc2NPTFBkV2I5S2I3ZURjV2xneHhOWUNhRGVvLV9IV1JGT1ZSYnFPMUFVMzBycDFENHhmUWtoc29QYzBOSlNtQXJNSjVFaHZDbHFSRFN3TjNn?oc=5",
+      "title": "Philip Morris Shares Fall 2.5% Despite Q3 Earnings Beat as Investors Assess 2026 Outlook",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYnZpTHpxbmN5ZVRBcjBtb2FXME84bFl3aVFhbnp6M3FrRXpxakFFV3cxTmRMdVoyVFJYLTQxZGVLT3JBMlg4VlVYVU1MZ1A2SGdKZlBEOFM0MFpJdEdBOS1IMEQ1SEdIUjRtNHlXZkVZYTVhVHFTajlNZmEyanExTGs1MFhKYUZnRzNUaWpIUTBzTW5jT1NUaXIydDFGLUs4WWN6SEh3dmd6bUtjTUR4bGVPNHhHN2kybEQxNGtvV080bnMwYnViNEpISkxyYzNURDUxRXRjOA?oc=5",
+      "title": "Why Is Philip Morris Stock Falling Wednesday? - Philip Morris Intl (NYSE:PM)",
+      "snippet": "Benzinga, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObkVydnI4VEM2ZDJBQ2lid2swSi1DT21vRExpbVoxN3hzaS1kbXdFY0ZsNk5XXzNfNGdDZFBsek5vUmlGbFgyV21lbUVxM3hHdUMxM0MxSmYzeHExbzZ6RmhEbWhScV82ckpGYUoyQjh2OWpXRS1xbG5BUEpMMktKQUdB?oc=5",
+      "title": "Philip Morris Says Global Wars Have Disrupted Its Business and Clouded Earnings Outlook",
+      "snippet": "Barron's, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PM/history",
+      "title": "PM daily price history (Yahoo Finance)",
+      "snippet": "close 199.47 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

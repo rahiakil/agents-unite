@@ -1,0 +1,85 @@
+{
+  "ticker": "DE",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-22T07:30:28Z",
+  "collected_at": "2026-11-22T07:30:28Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc0FVUkpzN1c0TVQ0ZDF4TDMwMzBTSkdGODdSV0RWUlFSbkFrZThWLVA4alQyZHZKSzQxRS1HZDhuQmxqNEhtRlpuWnJTMTM5RXNNTk1MdFFoRm5Jd05Td3F1ZUZnOTVzbWd3Q3BjYTZSX1llYTNJRUdqeVBxaW0xOHhXY0x2TEdRQmtYLUtFOHFHNnZpTnpxWkRXdw?oc=5",
+      "title": "What Really Drove Deere Stock Higher?",
+      "snippet": "Trefis, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTnpKTFdBbkNSN2d5VEh5dklILW1QUGlmUmpNM0hkcTB5RGh0UldxY29FQ3VKWWtrbjU5U2NhRlUzYjdBTUZZQUxoemFyWHBCeWZwTXFZYVE4bVpSQ0xNdHRxOHlMcndtUk9kbXNHdC1lMVhNcExqX3ltMU1vMXNPM09namlFcWJiSjc3WE5uNC1CeW14THRGYnZaNA?oc=5",
+      "title": "Why the Market Dipped But Deere (DE) Gained Today",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOTjR1bzdYaUl5OHlkbUMzY21JX05oN1pZdzNyc0VHLUJfNG9EV09fVHVlejNoNUp3S05QTTk5eEc3aE15MzdxZHZkTlZMX1hLNm9aQUdiQkcwbnBzUl94T2JzZXBRNXpvRXowX09RS2gtb1hVdlRlRVYwcVNqXzJkSHVjVk9SU3c4Y0NlX0dKM2xNZDc3WmNpejZrQmtTaTNwZ0pnQmpudjdRRDRvSkt3ZDNjMFlHbkllS1FmWURYbzdqS0lDRmNVSnNSR1ZZTGpQWl9GUkNPU2hoVkk2c3d3V1R1RnFGSTBtOHFuNHc3RGF1S1hGY3MyVURLUjdvS25NZUpHbGRBT1Rpanc?oc=5",
+      "title": "Zacks Investment Ideas feature highlights: SpaceX, Tesla, United Airlines, Carnival, Maersk and Deere",
+      "snippet": "The Globe and Mail, 2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSHF2SGFOcXhMcXE2ejBiNkk5ZEtzV0hCcm4yWVV4cUdiOF84TmY4QnVBOTR2c1g4UmFWbGFLYk5jTnY4NFpHOUY5TVBEaHA4SEIzVHRCOU5iVzVaMm9xdEJCQmktemZYSGhUamtobWNMcnloYWNYMnluRW9UakNGZWtSLUxqN3FtQUFJbzVXc2ZWdV9Rb05ydlFNd044T2hIek1mU2g3ZER2Y2Q0V3VtaVk3eVhDZ2RrUVU5R1lTeVRKNDhh?oc=5",
+      "title": "Deere & Company stock costs EUR 563.00 before November 25 results",
+      "snippet": "ad-hoc-news.de, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaXVvS2V6aFFqZWd3U0lUSTBsc1pPNG5QcG51cWhkNVFqSkwzZTlEejVEWHk5aDlQdnRUc201WnRDLXk3NmtfUjRIa0p5RThrN2xTNk9RMzI2d2xnTlRZNzA5REl4bGZZVm5uYjJhZGRPVFNNeUVvb1NYNUVjaXRIejVJcklRUk1yWmotR0gyWnM0TnlUcHFEaDlHTjAxUWs0Z0pKUzRvNEhpbE02ajNyVmdMUjNaaU9YazJnUVhuVQ?oc=5",
+      "title": "Caterpillar vs. Deere: The Better Heavy Equipment Stock for the Data Center Boom",
+      "snippet": "Barchart.com, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRERFaHZiNW9aTF9VNTdUN2E3cUhfMG1BOUtXTUNISHBOQmVNdHd4SkxOU2NaMEM0X1M1ZThONkpPTDFMcWVodHVCUzVscnRaOTRrczJsZzVqWG5DUG5wYzRTVTNHb3E4emstc21Ta3ZnT2xpZHJSYUotZGlNeUVrckJMalVUTU0?oc=5",
+      "title": "John Deere Leads UK Tractor Market with 28.1% Share",
+      "snippet": "Maquinac, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DE/history",
+      "title": "DE daily price history (Yahoo Finance)",
+      "snippet": "close 646.15 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "T",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-22T07:39:45Z",
+  "collected_at": "2026-11-22T07:39:45Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcWMzcjNlODdyWWxQdmJpaDJrMk1CSXhTRmhNT2pMTjhfMFdabkZDMzhaQUhtbmVrMDM4Wmk3WUZ2aWJkUHZYQUlLdktTWTg3M2JSTndFd0JYWHVZV1FhLUZNMUZsamlfRDBET2JNUzctenlxcUhhWWxlckt2aDQwazRCSlp1Y1ZMUjZoU1JMSDJMYjhYcExvTDVn?oc=5",
+      "title": "AT&T stock hits 52-week low at 17.72 USD",
+      "snippet": "Investing.com, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDJMd2R3QkRqZ1U2dXMzT0VEMXEyVV9Ia1BCUDFvRk1OYy1GNV9HTWdqVlRXV3ZFd2tZSmRUT05PV1RoQ0JQTlBnZmJENC1TMUFxdGE2eW5nR2hSR2NqNkZHdzJ6aTNWZHJFS1RUM0dIa2hLZ3FWX2I4aFQ3UVBSNkhmSWJOZVVqcDJ3SjBnOA?oc=5",
+      "title": "What Just Happened To AT&T Stock?",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWXc0TzBOUndZQ1Q2Y0xrRlZMZmU5VlhhWm1tOEt5WXhHaERMeFE4TjhWUnFlTzl5bDBrZFFxWDhxNXdreEpOdU9zQkUtQi12QUZ5SkZMdnFPNjlsUlBUNmxZcGpKaHl6Yzg5aTd1eU9aYm5RdkVUMEZiWC1uenY3ZHlpX0N1UFVjM1dVZWdhNVgtT1U2?oc=5",
+      "title": "\u2018Real consequences\u2019: AT&T, Verizon and T-Mobile warn FCC as Elon Musk plots a SpaceX phone network for the US by 2028",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMzdRVW5UWXlIODNHZTdOeVRhR3k5dXNidDRDc1BMVW9ZWHFCOXJ4SjY4TEpobXVpbzdyY1cxTmJPNFBxZkNKY1E0NExxRlQ0RXBWUFJGdk9vSklVa0pJRTJzdDV5MExRWEw1TUtmWHpuMHNXV3dsYlU0RG5OM1FqempBOW9XbHlfU211dWJHaHpCUF9wZWpMelUxSTVGWkNXaTROZmptdnJKdWlhd1YxYmVld01uUHQzRmN6aGV4WENmN2RVckE?oc=5",
+      "title": "AT&T Q3 Earnings Create An Absurdity: 5% Dividend Yield Meets 4x P/Cash Ratio (NYSE:T)",
+      "snippet": "Seeking Alpha, 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORjZsOVl5TWJTRlRFYzBfTkJWcF9vbngwQ29lT1ZETVN1LTNmNGFJRGRpcG9TeGoyM2R5emVKMEZ3YlVrTVAxTzcwVlhBVDVnN2RwWENKM2Z4RHdVNTFLZHoyaW9WWFJnTm9rYnBDRG5iTGFwN3NxR19uSGJJTUpwUmRHZVVPT0NPSE53N244SEJHTGtJV3pjWnJfZlAtZFFZNjF3MFJhX0pfeWdEc1RyZmFJNkc4WGVOR3ZWeXBkU2RCcndFbFHSAcsBQVVfeXFMT3poSk5oZjMtc2t0a3hjNTFHTG5HeHRPSVBlN3BveUJZSGVNcTBnaG8wVEhUTy11b0xVVGJwa2hncERJUmlDekx0Z0R1REtMbW5nMWE0NmZ2SFlrM0tsY2o0Tm9YdlVFMy1DYTNpWnpSd3V1RGNzNmt5S1JtU01wcHBjdGsyMXF0YzVHQktlSC1aOHBpaEx0RnVGQW13aGwxa2NpMXdZVkEtTEJUNlRJcmlyY01HcTJjVnRSdkR1c3UyRHdBR1hCSUxIWWc?oc=5",
+      "title": "AT&T Stock and 2 Wireless Rivals Facing the Starlink Threat",
+      "snippet": "Simply Wall St, 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FM3lMNkFUdVZyYWV1eE9vS0lybk56b2F1ckoyM1E2MlRONUVQdkk4Yk56STYxQ0hvS1dla01PRnFweEtuMkNURmNhdWVQZElESWI1MU8zVVF0ZjdoMWltRHB1cWVuMFk2ZVYzLUJDeFludnp5RXh1Z3VGRVg?oc=5",
+      "title": "SpaceX's Starlink growth creates a new problem for AT&T",
+      "snippet": "TheStreet, 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/T/history",
+      "title": "T daily price history (Yahoo Finance)",
+      "snippet": "close 20.94 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

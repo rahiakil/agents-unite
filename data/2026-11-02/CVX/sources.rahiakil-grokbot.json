@@ -1,0 +1,125 @@
+{
+  "ticker": "CVX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-22T08:01:08Z",
+  "collected_at": "2026-11-22T08:01:08Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOHo4dWZDdmlDSUxsVHg4cVlYNTB0akpzcklyTnYyTGJQd0lDeHlJSW1ZVlJKUHI0cUpudWgtaUtWYTc4VGNXSm5qSGtlclVhQjBvNlQ0UUx3THQ3aTgwS1lQMDJVU0ZwZWo0MlBVVHJ5T3BLYWdyMWE2YUtwR2JTMg?oc=5",
+      "title": "Better Dividend Stock for Retirees: UPS vs. Chevron",
+      "snippet": "TIKR.com, 2026-11-02T17:36:04+00:00",
+      "published": "2026-11-02T17:36:04+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTWY3RjQ1VlprYnlZZVlRZkozV1ZvckhKVl9ucTE1UmlnNGN0dXFHd1lBb0RqemEybHhLdy0xbGgzeHE5U3lsTXJoU0dLWWgwaGRhV1R6Q0dvM1JZWXF5OXZiZjlmVjJNRE1CU3JzaWNVamFPRC14SWNaN1ZwdC1LZGxzVW8yQ0dJNjE3Y0Q3NE00Y3lFV0JYV2xaSWVfMXM5dFh4QUc0TkU?oc=5",
+      "title": "Chevron Halved Its Net Debt in Six Months: Why Wall Street Thinks That Was Smart",
+      "snippet": "TIKR.com, 2026-11-01T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOUtEZDlSYlRxdzlwemJMaWx3SWtJSTZNNDdYak8xQzVtb3NpRGZyMDNidzFrREphRC1wTy1lZEJxaVRfSTg1S0xQMFA5cUZOOEdNYmN2N25Edksza2NLZWNMVENyZ0tHMnNZWTlaQThIYVhsM1ZyMmF1NkJRSmM0QdIBhgFBVV95cUxOdkZubVVpUVpEOUhYd0hmR3h0cWZxbWo2Q2phT1NNQ2drZEEyZ19aZ1lVYzIxV2FselR0TXNBeW4wLWVxYkpKU2t4c0tYeHhrX25NZjVDX21fVUduY0VOTUM1eF9vWGd2clgwci1qVlpIS0VidFhpblhPclV3MXpKS1ZPN1gyUQ?oc=5",
+      "title": "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
+      "snippet": "CNBC, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON2JIcGhXLURlX1ZHUDVac0IwV1BuN1puU1ljMVFoMUJPNWtZQ2FFdEVMY1ZoZ3pENFUtZEpXZ0ZRU2ZLTFVobHd2XzRiaUxuRFRESXVYNm9zNUUxLWliR1A0RHpTUlNjSUxOazBFSzFvUS1HVWVJX1VGeU41WkxDSjlLTHlQX0dEd1NqUzNna0dkMEZBYmZEd1JZaHhuVElEZFBLZFR0YVQ4V3BxVkhLbGxOMzlRWjU1RmZzRA?oc=5",
+      "title": "Exxon, Chevron profits beat forecasts, refining margins surge during wars",
+      "snippet": "Reuters, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUDVCS0hBRlJZcmdYaUg5bHlhQklmN19YNTZpOU9namdqMTZ0ZkVMa1lzd1ZUMGMwOHd0NGJPZXlQY1ktRUJ2cU13bHhVelF5WlNuNGFsT1RVYjZCNTZJS1lrQ3hFekc1VGYzdy1mMG1QQlhlVFg3MGhEMVk3dUdDZjdEWmZwLUJvdG40cWZDbUxrSnRLVktNWlpuVGhzRGtKQTBackRxSDZUbDluZWNHVk5uTnd4UkZoSHUzLWdvWXU0WWljU2dzeXdPRHpENGxIczNrbTFZTVlUZw?oc=5",
+      "title": "Chevron\u2019s Profit Nearly Tripled From a Year Ago. Is CVX Stock a Buy After Its Blowout Earnings Report?",
+      "snippet": "The Motley Fool, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOUNYaFp5Zkp5OGZWakgwT2tQd0VjM2JZSjE3VG1pb3JkbW50M0lmUms0aXVEN1kzLVB2QXhFcFNfWEIzM28xdGlkOXZwZWQzSmFOZWhRN0hNRUcyajI2RTVUbnpJeFBhSGlucVg5ZDFuN0NQMTJnS3NNQXRpU08wTDJodGhJMVlGOEhaTDVRRE9mVGJmaWxtclA0OG10MG1GOGRSU1hCbV9rcU1Fa0RJaTRwYlJxNzZlZmN2RmtTWl9DWVJsWFJ2QUZsNA?oc=5",
+      "title": "Chevron Stock Hits 52-Week High As Refining Windfall Nearly Triples Profit",
+      "snippet": "Benzinga, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ3U2bEp0cTRPLTdGbFo0TXJ1eU9OTHY5aGRldUc4M1hJQjRQRnhMOFhETmNNS1plT1BLMldTNHIydlpuMXpYTTUtbW9ZTlhxTENxN0pGTU8xcVFlS1pIZEFYZWNNNDFPUWxiRWNXcy0yNUVkdm00Ty1mZVFYYlRhVzg1T0lDSXl3MFdWNGNlaGdKZw?oc=5",
+      "title": "Chevron Leads 15 Hot Stocks To These Top IBD Screens",
+      "snippet": "Investor's Business Daily, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbDF2MzQzNXdvNW95WjM2aDJGUElxdHJGWTl2ZDI5Q2tmbnpSWVNEY1lQdXlmWkdNYTdsbXhoaWg5U2VzM0dVU2NrcC1tVm1Zd1h5X1lOVTlOTklMNm5iazcySVhUV0JldEFPWTRITTJBdlc1VEk2VnpuYTRHcWYyT19SdWlFb0UzdkxwOGdUV1A5dmhldGJQLTNvZ0diaTVHZ2tRWGVNZU9ZNy1BdE93V1YtR1BoU1E1dmVSX3hMa3JrUlJ2R0VfYnRCQ2xFYVZPdXRDaU5BOWljdw?oc=5",
+      "title": "Chevron Stocks Rise 1.53% With Strong Cash Flow Despite Sequential Earnings Decline",
+      "snippet": "TradingView, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQalJwQWNJZEMtWml5cTJ3UjBxbTBHM1BaUE4weTFVcmFlemgzT0htNFUzd21jV2hidzY5SnU5SXVTZmJMaC1yajlDQi1DZlBFZzM1YmpYQWxuZ0dWaE9VT09QZ1dObmktTjZEX1Z2d2QzM2tjdVNyTFB0a2ZoQlE0akpNSWdPbHY0cWpnQjgxTXdObEpIRkoyVXh4MUZ5YWhwSzFN?oc=5",
+      "title": "Chevron stock hits all-time high at 234.39 USD",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOY1ZrdUhYMGhGdlZBMzY5LUZSMmNKcTA4azJsUHREMUNNWDN4TlA0TUZwRWRrSzJWV3NZLUdnQUl3LTFKejhjSkNSUGZHOFBpZER5WHRFeGoxZHdqMnJOT1IzWEYwTm4yX2xjWDl0dmY4bHd2UFh1VTZCaG9RdzAzOGlveFV0aS16NVF5YnJ2QmliWWNZVC1UY0JTNmZNcVdfWHJRRXNVWDZkb3RMWkl4NE55ZEowMWhhZGQtbHpidDhseUFpUV9IWWtGdkhTWFZPZkJ2bkV0cFk?oc=5",
+      "title": "Chevron vs. Enbridge: Which Energy Giant Makes More Money Off the Iran War Oil Price Shock?",
+      "snippet": "The Motley Fool, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CVX/history",
+      "title": "CVX daily price history (Yahoo Finance)",
+      "snippet": "close 227.77 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

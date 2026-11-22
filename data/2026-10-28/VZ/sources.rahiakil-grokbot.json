@@ -1,0 +1,125 @@
+{
+  "ticker": "VZ",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-22T07:49:31Z",
+  "collected_at": "2026-11-22T07:49:31Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYUFMb21qd25INk9vVzlSR0cyUTNvM3BRMm02OUdza3paNTE4V192Q2N3UDFlcnJUYlpWTGNBdXlsRlhkamxqV1ducmFxSVU5SkxVUWo4cWViYU40WGt2ZnhocXBNM2xfc0JoZ2xMRzZWdW1LYkQ2M2Y5TVNGaWlyc1gxRHFEblhyTzZpdlJ5elhVUnBaVDBNZTBBQmw4eTQzaExIUnJndXpHRFd5N0dNUjFFLUFzbXJFNWc?oc=5",
+      "title": "Verizon Q3 Earnings: Wall Street Missed The Real Story Behind The Revenue Drop",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFl6eFV4U1IwbXIwbXdtWXlGMGhDRGRCZHVpdUs0cWRjcVJybGR1UFV6d0tjd05jN0tLbFBoVlp1aVFMZWhmRW8temdlYW9Ic0xKaXlERG8xcWo1bDQtTnZvaUxELUJhS0FFWWlnaXZ6YURKNFMxTEFCb1BDNUxMaEI4VUxxblBMa0lOdmRFdEpzWFFPUm9uVF9VVnM4aDA?oc=5",
+      "title": "Stocks making big moves yesterday: Equifax, Nubank, Verizon, Borr Drilling, and Booz Allen Hamilton",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZDdlWm4yQ2RaSDdlODZWQ2ZkWHdUSkZ5cmNJX2h0X0oxTDR3djZGWWxQeHJacXNXc2NmQnJyUy1fbWdYQm5wZG1VaHhydUl0SEVYa2laZE9Kc0t5YzJndGxGcmdJWTVqRkNlQzBvUmE5LVVMTGRSWGtxNVFoS2ZaVTdNc05ucXBWSjR4ekE0UDNzMThnMVc1blhreVJibFZCUXpZVTRTNHlzY2RuZV85WUFtclNPMzRaSWpIUk5tc3JWV2NvWXBiMkRneDVwUQ?oc=5",
+      "title": "Verizon Analysts Cut Their Forecasts Following Q3 Earnings - Verizon Communications (NYSE:VZ)",
+      "snippet": "Benzinga, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTGVvenRZX1VMN1F0OFVWc3dUTUw0d05EaUx4V3FWeW9NdV9ienVtVU1Bb0VwSWE3NVYxWFJrQ2VkZHM4dU1DRXVRLXp1ZGVWXy13Qm5Wby14NmN1ME1UeGRnOHpPdmVTNzhNbUVPd2VZMVFyM21ickRMOGd0UHdTMEVKZmdKNWJDb0tnVVhvRkRtQ0hTVEhRSkstNlpva2NLNUlvSEZPdW1FcU05VmR1N3FhN0E4ajdNLWsxaTJ2ZjU?oc=5",
+      "title": "SpaceX Boosted By Starlink Mobile Buildout, Verizon Dismisses Competition",
+      "snippet": "Investor's Business Daily, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ2JDN2Eybmt0R0lZS3FCU215M0JhY3loZFF2Y2N2OGRpQTJpT1BBSzUycHJUY3RaTG9GazU3ZVVmNlp5eHdWbkNZTDEtUmUtLUFMSU5rVjZCT2pNMVR6ZmtXYWhSRW9ZM0NqT04xUmtuejZkMGZJbTM0MDFGVHpCdVNjdWY4U2dubDR6YmRoU28wYndidTFLT1NfVGExY1FiWUpEck5teDJrZk9SeHhCUUlvVU1sT2tnRUNyVktJdjM?oc=5",
+      "title": "TD Cowen cuts Verizon stock price target to $55 on SPCX concerns",
+      "snippet": "Investing.com, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ3FMcFJpNkN4VUxqU1BGdmVZSVRObEpTMkRKSDVuUTZSTjllLVB2NGt4SWVqMEY4bmE1d3F2ZXpfem91YVdSNUxWeTBfLVUwVnVNOC1fS1o3T3FrcWNhZE1DNFFhRWFhd0djaFpPYjdJbGg4OVhtOEg0ZFdtTDVxYXFvS3o?oc=5",
+      "title": "Verizon Stock Falls Despite Strong Earnings Beat And Raised Guidance",
+      "snippet": "TIKR.com, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0p5OHh1NkJvYWJBanNCaHUzNDNDc01RbUN2Nk1pZFdVX1hES1pvWkxMVUFhR3RwYU1LWmM5SEplM2VxOE5PWlVmSm5KU0hqbWd4QThHVkFuVTZDbm51M2xLZEN3SDlQOTZJMmdScmJqVG85aHFHZTFZUV9QTzYzVjVsSUI4dXUzekJXVDUwWGVYWkp5LU5fZWszTGx0ZmNLYmlTeTQ4MVpoUTZITkl6bUVFcw?oc=5",
+      "title": "Verizon Sinks 4% on Revenue Miss Despite Record Subscriber Growth: \u201cFundamentally Stronger\u201d",
+      "snippet": "TIKR.com, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZGxVT2w5dnhzTkZydXd3dGZLRXBqSHFsQkRvaG5DTFlmck5qeC15RlkzTU9OcmpBMVkzWE5Yd25HZlNLVkhLRGsyVllWUmxFLWdlWXUwX1lOeUs0a1Nycms3Z01zeW51aFMwMnphcUsya09veThUOFg2a1QtLW42cEZ6QVdSQkdMUXJwOGowcjcwUFZpSlBFeVNzXzluQQ?oc=5",
+      "title": "Verizon CEO puts $500 billion price tag on Elon Musk\u2019s phone plan",
+      "snippet": "TheStreet, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTI0cnViRmhtVDh2VjM2aktYcTFtM2pMZ2prMG95UHVFZzZCdmtaYnNCUFRTSmd5eXJMcy1ybHV4REtURFJSNWFJSEZIanhYQ3FuaXVxSEtOaVBHVmJrNW1GaE5sY0pOc1NsdnlYQUEyS3R1blFHb1NfTkREbTFyVUdiOU94dFhvdVpOaTZ1bzJhekU2cHJXVFE4dw?oc=5",
+      "title": "Why VZ Stock Is Falling Premarket Despite Verizon Hitting 5-Year High In Phone Additions, Raising 2026 Outlook",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXZBQ1dTN1c3OWZPNzJSUC1GYjNrN2FXNExmUHpsaFl2WVhXRFlqOUk0MFZOdFNWRjJxWGVXQ3NxTV9IWlc3M1RpZ3JTb01JcjlyeE5LZm1NLWFFYUtzbUNkTnlpcVkyeU9GWGRDLXB2VUVsMUctQWRqc2FlRVBmeFJadTJyLWM4WlFF?oc=5",
+      "title": "Verizon Stock: Verizon Earnings Top Estimates, Revenue Light. Wireless Subscriber Adds Beat.",
+      "snippet": "Investor's Business Daily, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VZ/history",
+      "title": "VZ daily price history (Yahoo Finance)",
+      "snippet": "close 43.18 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

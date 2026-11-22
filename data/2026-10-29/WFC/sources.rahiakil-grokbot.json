@@ -1,0 +1,125 @@
+{
+  "ticker": "WFC",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-22T07:52:26Z",
+  "collected_at": "2026-11-22T07:52:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObGZTbUpiOVZQWjFSRVBsWkpENnM4SVFtTnktanBtbFlVNFF1ZUFCZFhnZVduLXF0Si1SaC1YRmFldEpJZjlzOEVfZGVra29XaVIweG1tZXB2UUNKdDB1V214UTNuaFFzV0d1QVBwWHJFU0pyLV84aVBmT2NDXzVZY3hIYkIwVW45eG5HVkpvTVh1aVdiTWZ3Tk5CS0wyLVJmT3NtbDJaNnVCRHk0WVU2T3VLR1EtYk5SYnU1NG9ha3pNelVE?oc=5",
+      "title": "Wells Fargo & Co. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLUlVRDZhTXJGTTJSeXVUSE9NM2l5emdiNzU1Yk5DSTE0SWxuX3Q2dHBfU1AzcnZSdjZfTF9VMk9aV1hZU2RwWHVYSENoUU5Wd1NLRzFKamxXdldSQjc1dkRqNE1GUjhFc1Y4OTU0ZmVXeHlRaGJkTXkySnh0ejF1Wl9LTnRLT1lYTkdST21vdzlPaHlscndSMXhDQV8tWGhWM05MWHI3dUxQMDdUZDJaV3RjM1Riek9xVWd1ajZ2RWpUMUVPbGVj?oc=5",
+      "title": "Wells Fargo raises Coca-Cola stock price target to $100 on strong 2026",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZTJkWk9pUV9XUExqVTFWTGIyRVdma3lsSHBxbzFlRklIUUhvc2Y0MDRBWVNiTVJ4NlExNEgybXA2dFY5dks5Zl9jTTRDTHpmWEMtREgybGQxcVJBQWxYZGVQZ3N6SlMyN1JPZDFiLTZLWDI2WWh1MkNYYkYwRWVIbjNPZnppekhZenc4X3QzSnViamhCYzdhRGlXbjc?oc=5",
+      "title": "Q3 earnings roundup: Wells Fargo (NYSE:WFC) and the rest of the diversified banks segment",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSUZ5N2ZXZnR5WC1oTTc3OWtTT2tmY3JrRHNtUF9tQWl0Q0duWFRHRXcwY0RnZlRDTFlOU0ZnZUlGdGNTSC11UldFUjF0NzRQak94VF8zZDRCN3lacjRlRFZFbjZlMld2Y0xEUVR4TzBUbjF3WXhVUGJPaHNKS1o1RThLY1dOcG5CckY3eldtTU5nNDVTbnR2ams3UUlMS3BIaUxLV3pNV0sxQUNwd1JIejhHZ2V3WDVvZjl1MlAwNl8?oc=5",
+      "title": "Wells Fargo cuts Hubbell stock price target on margin pressures",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORHRGVDByQjRwMkhfUHRuYmxhZFJNSHhRVDlSZHVFRDJwcU5XaW0zcUJBOHNCV01aX3pIN21faVA0T25OQ2QzNy1FVXdKWjJwejktclhhejg2c3ppT0d5WFJ5SzdLUGlwVjExQlFveGFyd1VwMllXdFl6ZUlHZE5VMi1aUDZZbmxjdk1FU1c3TUxRNGp5bVk4NW0zR1lORnk3R1JVZGhZbURMbmZnUlB6anBUSmpZR3BJRUNpcXdmTkxJdVAyOWVjQVdFcnhTSTdFNm5qaVVuZ00?oc=5",
+      "title": "Wells Fargo cuts Principal Financial stock price target on lower earnings outlook",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZlNQREZZeDQyVlVMdTV5QzlTd244VVBocXk2WV8wcUNodk5GMHFsclBqOFlYRTJZNHpfWURGM3habU1WWk9wUW5mRG52bGRHUFJmbVoyZUkyaVRLVE1rNFpiRE9HdUxaeExELTlmYWk0YUVFeWxkTXdwMGkybjQzaGFDWkJzNi1IcDNFRndtTlpNeGdNOVotSGFleUlvWGFKUzRaRTRQZVo0QzVnd2otQ2l6X01MRG5nWGpyRnNqeDFKYjJEN1V5YUJ4RnY?oc=5",
+      "title": "Wells Fargo raises Johnson Controls stock price target on growth outlook",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWlNb0VjS1lQcHdjbHZRTEhpUWpuQklmYkdqc3hadC15MzVLS2N2ZGZNR3hNaFRVaXdDeFppaFVEaERrSE0zS014RndFMkpYclFna2JEa1dTRElrTkdEMjRtTDFFazVoUmo2TkFHUlpFY1VNc2tFSU4tZllBY0xlTXI1YVZja0VKbl9FZVdBaGNpZHBHd1h3VTNnZV93aVIyVzE3NVFuSElIRmZlR0xYMWZQdFBHOFZLaE1ROTQ2R01BT0lzT2ZVeC1wT0hkUQ?oc=5",
+      "title": "Wells Fargo raises UPS stock price target on international margin outlook",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2hRRjJ4YTBGc3RZbllHSnlsb212YzN4UkhtWWFWYVdWZlZFZFB1cTNxeUNwdXRmc01MUEY1eFAtNVNBRENKU2xIZ3Vpd25JdWpYd1NvRVl6RzhEU3pUQW1HUWZsVG5sQXZSVVlULURRMHRqLVp4aXZHSnE3TzFiZmtpY21URTM2ZTNpN0d2SVpQZkNLSEdvTlV1encwQk1QUlRYaTJ3VkxneXd0T1VSUGRZYWt0NWZuY0JPVEM1LTQ5aXM?oc=5",
+      "title": "Wells Fargo raises SoFi stock price target on strong originations",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUHI5SXJUM0tsUjlWdzk5OXp0WEtCbXhwblJ0bWVqd05yMHoxYVdTTzZmSjVDZlBPQ01nZ0dEUlMzeVRSMFZmYUdOX0lSSFA3VG5CUkNqQUFKbDlacDFlbE5vQ2RUOENMZVdXMFZiT3VOb1k5Z29vSVFGX3lHclh4dFZDenNIbWxYWjlCZEpFclo1YjhHVkNTb3ZITnY0M2hlWE45NjZxS2RyWGRrVVdLRUkzUklmM21PLWc1UWlrV0lwaWc?oc=5",
+      "title": "Wells Fargo raises Nucor stock price target on market share gains",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaFZDaHUxZ05zeFlIcXRSMHd0TTJTY09oNHcxa0ppb3dIMlZIYjE2ZUFiUUdnNWY4SlA0TmpoX0NUZFBfNzRSVlVjT2tzTEJFTTkybjFYT2h2RUZKcDR2S1lMeldSUTVvRUQ2enpZejB6YzJ0dkRGUkp3R3FvTHBhemM5am03Z05vc3JOdVFoaFJnU3hwc2JrX3hNTktSQU0?oc=5",
+      "title": "Vistra Stock Has Slumped for a Year: Why Wells Fargo Still Sees 39% Upside",
+      "snippet": "TIKR.com, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WFC/history",
+      "title": "WFC daily price history (Yahoo Finance)",
+      "snippet": "close 84.81 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

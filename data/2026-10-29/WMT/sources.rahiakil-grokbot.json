@@ -1,0 +1,125 @@
+{
+  "ticker": "WMT",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-22T07:52:26Z",
+  "collected_at": "2026-11-22T07:52:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVHVLbjdpdGpibG4xdkI5cjNFRUNCcWpveE9lY3duaWxwVnlPc2lBN1haX2N4NXpzR2N0aW1SdW83ZWRvSVhsTVdna2pDWUxUdFJsci1tcERNd284WTJWV0ZEekNLMTV4Y29fNGg2TmdxZG1qalYzOXlOR21US1dLbjQ0QkoyMkVZclJxVWM3ZDdwLTJvUUN5Rzk0NmhyWnZmeFdfUzZtLW14cC1NQ3JnTUlrOGlMZVFoa2c?oc=5",
+      "title": "If You Invested $1000 In Walmart Stock 20 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ2lLbmtwd3o1TUh3ZFdrZF9UbUhRSWJ3V1MxMFlVSFUxSDBjWTUycG5NaVF2ejRzVXgzc1dOd1p1WDhOR1ZRUnVCR0NFeHliLXNrcXJlT1F1ZUdUM3ZMa3ZXdHFWdlVCZThpYk41aHRpUEFQS2wxVVo2VnVzVERDbXJfamYtRXFYM2NYb3hhcEY2Snh1eEhqTUJMZE1ZTm10R0g3VVcwZw?oc=5",
+      "title": "Earnings Preview: What To Expect From Walmart's Report",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkUySkF1dVU3V0VEVWlqbmVyMXBnYm5KclFiajhvWFVqUFU5eVlqS2tYeWJMc2VvZU9WdjZGMkI3VHFMYVA1Q0M4d1J5aldmQ3YyMVFwRm5LRkhlZlZoTVlhcjZuNGEwc1AxemExVUJzTmp6a0lzckZhZ0laV3hiSWZYUXAxd0hrR0E?oc=5",
+      "title": "What Can Make Walmart Stock A Buy?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkczQUxDTmpqOHJVaEM4WF9NVWRhaGNTaXhudVlVYWVfcWZwTUtwZTE0TWxNT1RCRE1lTnNtOEE3NVNzOUZDT1ROYlVNcGlGUWtfRm1fc0x4UFVGQ3M2WlZLNk04TG0xZFBvNVlma2E2MnNCRVJxWlZia3VzQmFham82dEt0SjF6YjBWVWVxejgxQUZNZGtDaHN2RFNSaXhqSlJnQ1RucXZ0aGV2?oc=5",
+      "title": "FTC orders Walmart, Delta and others to share how they use personal data to set prices and pay",
+      "snippet": "AP News, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWY0UE04Y0paV0tYRElKRTRSOWdkSDF2TFJtR0w2dmpfV3VJNEdBcFZBOWdpVGVqbzhRWW5Ua01KamlzS2czWkh2eEJkN2NsUi14bUdqTml0LS1XMDVjQXhkSE9mZGt4UUd4OGUyTUlJLTNyR3lBdHFSZzFZSWV4T2s4blQyMVJFQTA5UFlNZk14SUU3RkNmTkFSdTZ1UmxLXzlkckY0MkIteXUyLUlzRWtjcmVDTjV0SUxhNGdjdlRQdkdWeFHSAcsBQVVfeXFMT0Z6QWVUeHp4Vl80WGxURUlJOGlnUWhGa1o3blBoWFBKNU4wVlV5VVFTTGw1MEItY05yTlZTQmVEWmJWWmQ5V29qMEp3emFIMTQ4b0dSRTBSbWRVcmExSnNSdGczajBkTVZfMHktLVhqb0NTZ0NTb1VSS1A0Rll2VGpILXRUS0FDN0NWYUxDbjhjVHJUb2doSmgyUFF2b256aFcwTmd4bHFxdHFLUzBIWl9ERnVwYUpBR05fZTByQzF1Y3RYeVJONmt0TTQ?oc=5",
+      "title": "Can Walmart (WMT) Keep Justifying Its Earnings Premium?",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdVl5d1pZWlJuN1ZXMFU4QktlYjV1UmJMR0tkQkpkbnJsN2tBcEpJbEdjY3gwQ1BJU2llOWZta3lQeDZLVmcyUy1SOFFRekV3SEZaSEN0ZUpXN2pKc1QtR1RvZFRJUVNzRndKVGsyOENSZi1VN0d2WHB3amdRQUV5TjkyUGNkUjRvRzlJSXRUNjVPYkllNURQbEROdUJkMW9kTDJkcTN6VQ?oc=5",
+      "title": "RIVN Stock Rebounds As Unconfirmed Walmart Delivery Van Sparks Fleet Hopes",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLTlUbU5HaWpqa01KSENQUXdRYXNzT3p6NlE2ajZrNng1NExiSTE1c2dOalB0dTJVUW9GanJmWG1fcm1zbUpWTGFHV2NpRGFXeU80MU16WkhBQldDVkZrNURBeVFKbE91TkFBM01rSnpLZFFZTzB0T3lzeTBNT2JzWnh2aENIUGpPTUpaTlU2TzRydy05VEtMeHNhN3pSZw?oc=5",
+      "title": "If You Invested $1000 in Walmart a Decade Ago, This is How Much It'd Be Worth Now",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQb2dSSVVyemxZWkVXcEUybWdOMDZ4TVU3Vko1QlMxcnZOem5IWUN0XzI4RzUwcEsyVVVRQk9RWkk5RGliWUlmVUFTYXpVUC1IUjEtZko3SWh6OVlGLWR0R1d1all3MWhSQzZEZ211SG9MbHpSX0d6OVdjWE5KNm9rWEpUX2gtdTFGaVRhdlZsaF9SbVV5bjhqczRqaXNRZ01wM2ZmTHZJMXNsQy1MV2xfSkFQbXZSN1l5c0QtSnlFdVFtZFI0NVVZLTdFT1JTU2swa0VkQ29lUkRxbVdueXAwMDVTVmlDYzdJVWhWMy1BcHF5T3dlYkppNWhGZw?oc=5",
+      "title": "Walmart Just Announced Its Triple Holiday Event. Investors Are Betting The Holidays Will Pave The Path To $1 Trillion For the Stock",
+      "snippet": "24/7 Wall St., 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS2p5UFFjdzU5TWxKMUdvbEp2QXJVdlQtZVh2M2gyR2RkMW96aEhMcnlDVDZiSnRMX3hCYjQ2LXo0ZGlSVkR5cXBILXpNNzJkWDBvTGkteU1VUXNTNXA4QWZmM3BEVkhOenc1NGFuVThhMEpmdDh2cGM2WC1wZFNQdUFmWlRDMFhMQTNJSkd4MjBpNlU1bUtHOWlVWHBEb09RNGNyRg?oc=5",
+      "title": "Walmart Stock Moves Higher: What's Going On? - Walmart (NASDAQ:WMT)",
+      "snippet": "Benzinga, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQVlzN3hKRm05OWlLWExlZVo1bzZUN0podjdJLWQ4WXFmZUFicExfS3ViN3NOQkpHdG1VMjVNQzNjaFQzMzcxMlZGeVE2TUs1VXVJT3BOSHhncTVtNXo4U29DNW9ZcVhRc05EbW1Bb1dDcHdzeXBaa1l6UE4xWFpJQzByWU91bmRTVkU4MWs5QjlQRXkx?oc=5",
+      "title": "Walmart (WMT) Joins Meta\u2019s AI Commerce Push as Retailers Explore Agentic Shopping",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WMT/history",
+      "title": "WMT daily price history (Yahoo Finance)",
+      "snippet": "close 121.25 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,125 @@
+{
+  "ticker": "BKNG",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-22T08:14:53Z",
+  "collected_at": "2026-11-22T08:14:53Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWtMbURWTGEtcWNoZjgzc3RuSWZnV25qOUJNTnFVNk1sTUNlVU9Ma0NnVE1pVjY3THdQV0FDNUZjbHVCUGgwcndTelVvWndRbHNIdU5hNUp5TGJ0WThTYWhXV2NPeURWRnZyOEh1UmRsZldoTFVGd3gtRElSczU5T1NDcmV1Zm91Si1udVoxd1pTcEFEWEpRX2VFM3RtYXM?oc=5",
+      "title": "Booking Holdings Q3 Earnings Beat on Travel Growth, Revenues Miss",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUHROZ1N0RmtvUTBFcGhEeVBpQXF6ZFhnc3I2M2ItS3dPQ2FxSjNlc05KSFR4TGljeEwyZXZRY1VCaE1DZHh6NHhyQVlVampHdGF0b3hiN0hFYjEzR0Q3dDNNYUxkRkZ3NTFPa1RadXpCdl9Wc2prOTllcVdwQUtNZnJOLWNLaVUwOHdxbFczS0xUY0FzcGQ1eDBRVW5WeUctdzJEbUhn?oc=5",
+      "title": "Why Is Booking Holdings Stock Rising Today? - Booking Holdings (NASDAQ:BKNG)",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbUdWaDhSVUJBYXNXbkRIdTBfcGQtMEJvZDhHeWVrbDIxUmFRempNa1llUW04NnprV01PYk92YmZlU2hUX19WYW5aVFp5NUhiWEcxUjRwdWVuX0I1VUx3M3lGeVhBN3EtMHlOVmR4Nm1SM2RNUVBGQVlrOTduOS05bTZqbDYxbV93cXFHQnM3bmJqRkVFVUFKYjNNdHUwVkVTUkxfS1pTbDJSOXM3bWR3SUxRbEpSYU1INFNfekhlSTVJa1d1Q05fbHRtaG9KUE9SQVp1ZGVDcm5sUmZSYU5ybWE0M01XMGVyeGNWS25JSTA?oc=5",
+      "title": "Booking Holdings Inc. stock underperforms Wednesday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUI1UDQ3S3prOWZzQVp2TEQzSHBRTERJcmlrdFBTeWtYQ2lDWWFJQjFfZjNvLVAxaXNMWXRzdm5uSzhZb3VSTENNNmppY3RhaUlib2VGRllWbXVJVkJhdlo4X09hXy1LRmR0UDZSVnZmMUVwWFRBMUhQLWM5bEt5ZFgzeWdyNDVSMHM3RDVCQkhJelg3bUQ5aXdpVXNsVE92V0h0MXZMekNsekR3c3puMW5vRkxzVE8wTWJqOUtlYUVBY2pDZ0Q4Z2paS0Vrem40WnB1Um5n?oc=5",
+      "title": "Susquehanna lowers Booking Holdings stock price target on softer travel outlook",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQS1FYbTVTbVJ6QkxjMUhFdFlRQW9CNjNxNU1zVHdTVU0tdkNkYzlfU3g3ME1vVjBpOW5tUjVacUFDbS1tVERBLXFzM1ZHUlQ1WkY4QmRfbVpqWDhUdkk0ZkFsamFXQ2JKZHBObVBUR09DNE51bk1BX2x4ZjNkd3M2VWp3MVM4b2l2VElIUkZ3Z255V1laN211U285VkpjN0RoZEFLMFpscVE5eFRGcmlwejQybEYxYktoV2ZEdnlOX2pHQkRCTjdPWm9TOWhTWDdhV0IySXhidm1NNzNa?oc=5",
+      "title": "Booking Guided Well Below Wall Street. The Stock (BKNG) Jumped 10% Anyway - Booking Holdings (NASDAQ:BKNG",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjdlS082c05ZM2hsUmluNG9ycEhqSHpXdmJLYUxOVjVlRTM5NUR4VnhXbzYzTkFRTHM4bEJZX25lSWNkeklYWUNQVTlKMlg0R0NqRDB3M1BaNUFhUnpoOC01WXVKVWpoRmFUa2FuVHhsSjlMcko2SnR2YVU3VWRxUVpZVVpvZVpWbktFM0VIOFFMcXJCb3hVdXNQcmVhdjFTS3dLUG53?oc=5",
+      "title": "Booking Holdings Shares Little Changed as Revenue Miss and Weaker Q4 Outlook Offset Earnings Beat",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjBOaHdoTUVPWE9yVWMtSzI4NUlDMzFYcmcwXzFhVHpabkNJQUJOdVpjeS1LM3hkREt4X0pIQWhvcWwtcjgybDR6T3FCaWRacU5LUWVHeFY0cV9CMDlSXy1pYkIzTFdIcklJWVNVUzZUM1p5UlAzczRPYXJMTzF2b0dDS2stMlFXSnJVYmpMSTlBbWNsT3Y0?oc=5",
+      "title": "Booking (BKNG) Stock Jumps As Q3 Results Spotlight Margin Strength",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdktEZzJwTlVBcjlTM1M5bkhRNzhReG5Qc2xhc1Y2MzdONzVDSzhvWF9La29TRFBnTlpIWXdYYmVTYTgtaDViemVMX0VwdW1JWkI2LU0zSGc4SlQ1bk1oTXZfTUo1VVdfVmRYRTdxZVpBM3Q5cHhRbVo4T1ZhUkNUMEhWQWtDa3ZjeTBaQWItVTR3Rko0R2p4ZWFuY0pSdVEwSVE?oc=5",
+      "title": "Why is Booking (BKNG) stock soaring today",
+      "snippet": "TradingView, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQWxRSXhyWDZWQWVqUEhLTTdLX0JiazZkZDZxZFdiV1dWYjZSYVBrc1l1SkFuOVVTVDY4SmlNYlk4eEdjYVR3aDJJTmRSR2ZtLXNxcXlGbGtBM2JsS05leGxJN04yR1F0N2dIUDZ3NEx5TGd4MUstVG55LXNPWkNTRkRManhpRVhCRVBQcjI0SHF5bmlkNEtFX2ZNZDg3Mk1hYmJUN0psaGFRV0hhcVJhNlozUHdVN04wazBFYWxJZkZEVXlMMjFtZzg2SHRTT28?oc=5",
+      "title": "Piper Sandler cuts Booking Holdings stock price target on cautious outlook",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZHZFX0VqOU1QUDZuUUlUX2drUjJSblNKQ2xWS0RYQkljTHRwOGpIXzgtTkp5blRFUV95X0FZWlR4bGVNTi1zZG9mQ284bUJvNk0wTTZxRzZ2MFB1Z1lWcnNkYnU5aXgwLUFPd1RxSVdBMFQwT0VOQkVoZ3lXVUFjLUw3YnNRV0xWRmdINzBRYWNscHhQSDlkRW1OS29tVDhJOHBWcXk1WHRaaDdiUWVleTVlTGdKYnhBZ2FUd1AwRG44X2Jm?oc=5",
+      "title": "Mizuho cuts Booking Holdings stock price target on margin concerns",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BKNG/history",
+      "title": "BKNG daily price history (Yahoo Finance)",
+      "snippet": "close 168.72 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

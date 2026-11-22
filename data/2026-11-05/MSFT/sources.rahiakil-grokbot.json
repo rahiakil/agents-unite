@@ -1,0 +1,125 @@
+{
+  "ticker": "MSFT",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-22T08:14:53Z",
+  "collected_at": "2026-11-22T08:14:53Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2Q1FNM2EteUExdS13eVhfMGZWWm9ESVVmSkJpM1VSSmN6azNaMjIwQ1lqejZWUGtUbUJ4TjQtVzVSRktpODdMSEpRbkdma19SV3lENW90Q2ZLWHEwN1NBZzlPamxvTU92S0N1WkJ4eGtZR1IzdnNYUzRPUjBxYUE?oc=5",
+      "title": "Microsoft stock jumps 6.6% as AI power stocks sink",
+      "snippet": "Opening Bell Daily, 2026-11-05T15:47:44+00:00",
+      "published": "2026-11-05T15:47:44+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVhBNThEMG02b1Fmc2xKZnktTDJUbGU5SkdxNFlDR0RLUjFPY1dudnZaZnRKZzdSUllHNTNnMUQwSk0zSXFmNnRBZkVhXzdfQU1tMEFsSXo3RmZZWVVySUpEV0ZKZlk1LVZrcjFoeURsWUVRd0pGQUdiNV9vWlhYYk81QWVUY0VrdEJFcGFyYU1SUldPVTJHeDYzN0VuaEl1WS1R?oc=5",
+      "title": "What's Going on With Microsoft Stock on Wednesday?",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWFBMb3NlLVBVVU5zTE1NTk9jRFZvMURNbDBqWS1mQUhDY2pLN21GMzJoQmtabmFScVBHb2xINGJkeEFsQmdMSHQyM0NsRk5MdlJ0bktOYWRGcnhwbkw1VFc1dmVpck53SUluZWNVM3lCT2pHWTZ0dmVPYl90WFRPMVFUN2xBWDFNOVlJa1VRRUNOYTdy?oc=5",
+      "title": "Microsoft Shares Are Down 2% Since Earnings. Is the Stock a Buy?",
+      "snippet": "Morningstar, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOXzhvMzhjRFFsQ3lUY2w3R295c0hKUFZ5eWRlQU8wbHdTVEY4LWR6YUtQc21JeTdiVXlLRmE3cDRMaTNLdnBsaXRjTWZWWklOY3dOc2tuUGtUX0wyYktscUNMT0lnRTNQaU81cFdHQUh2YzFUNEtuMFFWRUpoRXNNUkxLV1VqQ3dVdEdHRHdRUjdCV2JEYkJaZm9lVjlRVDdTNGVMQXlCcHhNSWxTOVVBTG1UeGRPazBjMmc?oc=5",
+      "title": "What Will Decide Microsoft Stock Over The Next Six Months?",
+      "snippet": "Trefis, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbzFMM19KQk5faVN4MWd1RWV5RV9ST280ejhhTl9VV1ZwR0xYZWZhRF93QTREWVRsZ2xIbkVhX25WdldQS0NsNnNMeGVyQS1CWlR0eXVlUFFpUGM5bm41QTl2RV9WVFZYUDBTZXhXVjl0MWVWRUFuTXNHdGNwVks4dlZkaklTczRMZ0hCTjM1MUpHTUl2?oc=5",
+      "title": "Earnings beat and cloud commitment lift Microsoft stock as upward price move continues",
+      "snippet": "Traders Union, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUFVCTXBvOHp5SDY5R1AwUGlfcEtSeVR5MVZsRG1GckxNRjJZelBKcDFRWjJORDMyRE1GTjAtZTh4WEQtbDFSWVItSXhPc0F4U1lPRDRqNl9KeWV6QlRXTGdDNm40UFg3VGlLal9fZVlzRWluSlJaeC02LTZWWlRkVWVWLTJrSHlhX1dDcEhkMjJtaHI4N1h4OG5rZUdubGc?oc=5",
+      "title": "Why is Microsoft stock surging today?",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYk9OcmFONGRQYnY0SkNydGVHaFBPcEtrOFV4WTBwQXRsazB6b0NwR2VKcHdxeWtXV0xCdmQ0NE1PUHNwZUl0S2ZpYm5TTmdRNVY5dVVFVzNadmN6UFhvVHc0OWY0YTVMWUFzOUNhblpPYzNEZXMxdTg4UkU4MlRWOGgxcFo5cnY4MmNoOEJFVHNDV0hJRVVTbA?oc=5",
+      "title": "If You Invest $1,000 in Microsoft Today, Here\u2019s What It Could Be Worth by 2029",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNblpoc1doNlNPYUpGX2pNUU5wTFJ4MGVrNkpsaDlWTTNva3RhaXduTW5NcEFTZkRsTklyckxXbWFjMnpiU0wyMWRZNFJKUVdQWXB4UGJWY19TNU5sM0ltYnBUWFNqVHl6OUVwZ3NsX3phSjhqcXFvS21wMzgyMkxFVERvaEt0dw?oc=5",
+      "title": "What's Going on With Microsoft Stock?",
+      "snippet": "The Motley Fool, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHQ3RXM0cG00eE1IN192dkg5cGtlMUFnUzRVUkRNQnB2TFpLRXh6VjFxZVliTF9vdjU3anZxZTZPeHJERTV4bUZQN05na1BkOWxqeVpKYXc2d3M5c25uT1ZxWFRodFNzNmliMjNhYnYzNldKbXE3Wm9uRG1pSHNmNHBBaHdlZFUxbFppN3FlY0xMd0cwVXduUHdQcjVBWHB4SktqZFdB?oc=5",
+      "title": "Microsoft (MSFT) Stock Could Be Undervalued After Its 74% Five Year Run",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORm1BVWgtcHBpSHoyRGM1T1BpODlZQWRuTkk0TFBmRU9RMGg1UkVBcTVoTGstSVhjY1ZfaDUyM0lmSTlocU50QWNxOGx6S1VwY1RyN25RSzhWaHZoMHlodGxCTmJhQjJmaVVQSThSUnJad2dCTG5VMTRZYUZmUExqTzlOTU51MGM3N0twb2V3NDBqR3JYeHg5TkpxSmZDa2tpUGlxR2U3UVFYNGFEbnlV?oc=5",
+      "title": "Microsoft Corporation (MSFT) Outperforms with Record Quarter Driven by Azure Demand Surge",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "title": "MSFT daily price history (Yahoo Finance)",
+      "snippet": "close 535.93 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

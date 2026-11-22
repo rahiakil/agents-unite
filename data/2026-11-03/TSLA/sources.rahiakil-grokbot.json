@@ -1,0 +1,125 @@
+{
+  "ticker": "TSLA",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-22T08:04:01Z",
+  "collected_at": "2026-11-22T08:04:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTTBUSXhoVm5xdHVYY3QwQjJxdmswcU9wWDRlTjZHeUcxWFFWRVFJczBXYW42X1dOQWREMTczOVc5VENYNTl3SUhHQzBpUkMyU0FWMTFmS0ZVTlp5YmFmd25lVkNnY2JyTmo3cUNlekhuZkhlbHUyLVkzN1h1T0o5Sk5oRDNpX0dGMDJfdTQyYTR5TkZ3MjF3MXBDWUdtb29OSVhLbktzZmc?oc=5",
+      "title": "We Raised Our Fair Value Estimates for Tesla and SpaceX. Are They Buys?",
+      "snippet": "Morningstar, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbW5RRDhDVmtyVlFCY09uaWNBX19Cc1I3NmFwSkVra1cyYzdPdEpnVjRkamtTdjgyQ2NxNHJtYXg2VXFncGFDZ3dibi1ZN2ROamNDc2UtcVdzdU1FRmtPOXMyMkhVWDItdFRnYWFjUFFLUFdiajNMMlgzSGt2R05EODZrNi1uWVAxcGIyRGhR?oc=5",
+      "title": "Tesla Robotaxi Adds This New City, Stock Continues Rally",
+      "snippet": "Investor's Business Daily, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9WbEVuZkFVNkhiV0Q4XzZFUk5EODRHWXRrT2JJNW8yc1ZsbG5DT0lqclRhS0xINVdCR3M1bDUyUlFudE8yOFNqalZvQkt1b1h2OGRNaDJJbHdBZjl3T3hzMnZoRHUtTE9BLXdyVkZzZTlMWF95ZWc?oc=5",
+      "title": "Wall Street Sizes Up a SpaceX-Tesla Stock Deal, and the Math Cuts Both Ways",
+      "snippet": "BigGo Finance, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOXpzVENuQkVTR0RRNFNpdHJsX1FUWTZ6em04R3JwT0xaQ1kzV3V4QUp0QUVqb3M1cDlQZFYyemRORi1NVTl1WHd0U0tFUWFrRkxEdDQ1aVNBdjh0OUdsRG5va240TUtmdDRLb3NpMDJYdHlWQzZPRGE4Y1loeXpxdUFiZlljajl5dmpCeDBsRnd2SnJaNEVEUDJmSllNX0dVeGc?oc=5",
+      "title": "Tesla Stock Moves Higher: What's Going On?",
+      "snippet": "Benzinga, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSk5VSk90ejFYVFY2VTBxVnRUQVV4QjFEeVU0UGt3Y3pYOHpCUDRIZTcxdnBmTnZIZEN6Q1dZSmpMdWhTSmN6VXdDdWtKcWhkR1RqRndCaW9HMDFDSGpLRVpSc1lwNFhyQ3EzR0FyeVJTa0dMbVdseF9DMmtlOEhzQjh6ZUlycDNNbld3WVR2S2g1RHNpWlYwUXc2ZjllYlFP?oc=5",
+      "title": "Why Musk Is Tesla Stock\u2019s Midterm Risk",
+      "snippet": "Trefis, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQODhERFhaMlI1M0V2ZzJFRHVJX3d1TFdzNFJzTzl1RmV3Q3pIekZhcTFZT29xOXplNm1nN3EzQTRqSWZBR0tXMDdRUE90MF9HblZHVlVXNHI2b2lNOFVxRjBFUFdpbDdGaWZRLXY2dThfMGx6Y3JnUUZPaDBEdXNnRHZHMXpTbng1NnpmMDRZUl9iVFVjdkptQ0toQjZza0NMMkE3WnFyTVdSQQ?oc=5",
+      "title": "Tesla or SpaceX stock? A potential merger could change everything",
+      "snippet": "The Twelfth Magpie, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPREE1SmtVX3ZqN2ZtVHBMekU5NkNfZXRFcnNsS0VvU0lLVnhSbmQzYzc3a0V4TS1MQkRpRktZSk82eGpaRndKMkR3V0ZtcUZ0Q3ppaWVSTGVxbUtvYkI4RDVTRDNZTXY2MGsxbDBaTU5QZGpwVm9PaXZ6d2VyQXZnN2NmVzl2U1RJeUFZME56OGl3RV9Ec2VicUcxOG5yT2NPZG9aNDZuMi10ckgxeWc?oc=5",
+      "title": "Tesla Stock Price Forecast: Reclaiming $400, Shares Could Rise to $500",
+      "snippet": "TradingKey, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HWGlzamJURnQ1aEdVMDFCeU5zUy1oejVIR0w1VDc5SVUwZzBlYmVtLUtJdDluZWFEaThOTkVBYTFxa2NYYUhsV0JvbVdNYTZ6eEFtOHNmTGFQYVZfamZQYmlTd0hhNG1vWW52eUN4emtmNjBlSy0wUmZtZktkQQ?oc=5",
+      "title": "Tesla Stock (TSLA) Falls 0.9% to $399.81 (Oct 30)",
+      "snippet": "Gotrade, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUnIzMmdJQ2RRbTF1ekFEVUg1alRvSGRlWmJxQWtRY0drUVNOZU5sek9xTVhndlhxMWxzSmdhQm9IYVJGaHhPQmN5N2dITF93aEYxRFlGdjMwQ0V0VGpXNVlxRzdzcTBvVjFXazM4RHh4YlRSdU1rQVZlQWRsSHlzUUFJNDhENm1qZ3lId2dWV0I4Rk4tRTVGZTZ1XzNjTzZPTFhYX3A2YjdCaWdieWgzclR1M1VwME5aY3c?oc=5",
+      "title": "Rivian Climbs 4% as UBS Upgrade Bets on R2 Ramp; Lucid and Tesla Edge Higher",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVEk0d2laOU1MdVlPQ3NSS3dGa2Z5cDlWMldMNC1JOGVIenRXT0Vmc0xSMDg0bUhvV05sUENPV0RKdkpkMV9HZjB2YkdhbzhKeWxkRXFIaW9XNzdXQU1WOEk1YXBCdWJXZnhsSWlGaElWSjlMdzhPQjFYcW9kNlN0cnp6UHlLbkZFN1h5MFZ6bGdrVmZjV0dqazQwWWNMcU1aZGRv?oc=5",
+      "title": "Cybercab Expansion Might Change The Case For Investing In Tesla Stock (TSLA)",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSLA/history",
+      "title": "TSLA daily price history (Yahoo Finance)",
+      "snippet": "close 398.5 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

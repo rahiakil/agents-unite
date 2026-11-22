@@ -1,0 +1,125 @@
+{
+  "ticker": "AAPL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-22T08:04:01Z",
+  "collected_at": "2026-11-22T08:04:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORVFkV01YZnRtcVJERHpnS1piZVFreC1kRmNmQV85UWxTekN6UVRtT1hMT3hDRmJiTC0yajF6VUJRaFVibmhTamowNlBqa1R6a0hSTm8wRjdFb3FZdUZvMlhrenF0YmcyUnJIOGc1YTNVNzdMNkVSQkw2LVAtWmp3Y2h0dzVRMmlSX1pB?oc=5",
+      "title": "Apple Posts Fiscal Q4 Beat On Strong iPhone, Services Sales",
+      "snippet": "Investor's Business Daily, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWUFYRFZPRU1NVUFJZmNOS3VJNExiamhyS2NSUFlmWE9fTENUUEN2UlFockFVRlRiSXhQZVBTRFdoNVFCVTRkamN6N05vTzV1RnplZWlKc1ZaOHR1VV9hVnMtSk8zMWVFSVdSUFIwQy1iRXc1LWNfR0N4M0VsX0VnQWtKMHFJRks3aUotbzdSRzJnMVI1MXpYT2lJaWY0Y2wxLUJIS3N0dTFnTkVmV1lfYUxqVGM?oc=5",
+      "title": "Apple\u2019s iPhone business is booming. Here\u2019s why the stock is falling anyway.",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdXg1T0wzZEdfLVgtQjFMTXdtM3ctMGZDM3kta2tabVczRUZkNU5KMUdJTTk4SkliaGhnSzllNllMaWt5ZG0xUC01WjdyTmR2UEFlNkg2QVlTNXlEalI0YmV5dVFycUtnbGdNcDh4RzNNSkg3VmdESlM4MmVrQkNmR0JSa2lfblk3MGlQenktcUtvSnVhTlB3TGxLNElBcnZ5V1E?oc=5",
+      "title": "Apple\u2019s Growth Machine Is Slowing. High Prices Might Not Save It.",
+      "snippet": "WSJ, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlpFbzQwU0htUVNpYUcxWWhsbjFiOXdtNzRGUmlOUkJUVWlJV3ZEd0pZaDFFeUMxcmM0T0VXaHFPa0FZZ2t1Snh4dm4xalpVZmpqa29JaTZRaVNYVG5ud0pfb3pub0FzcVR3X2dhejhxNk93OHgyekEzM3pvN3BYMlhMN3BkX0ZINUF4RFdKa2o0UWhPNE5BZGRVQVpBR21f0gGmAUFVX3lxTE41TjU0OG5oM05palprcnhiUHpVSnhYaFgxWmNlQjFHTmpGc1prN0wxWVIxeDdZc0J2dEZrZUF3NC1fWm1pYWM2REdZdEJvck1VZWFhaEdHRGVuSHk3eHlRT0FpUVlWeDJPLXRqMmdJSzdDMHpKNnE2VDk5dDF6WklIRi03YW50b1hHelliYkJxWGVaTU5QNnd6ZnRyaFRrOEdva3FJM1E?oc=5",
+      "title": "Apple reports after the bell. Options traders expect a big move",
+      "snippet": "CNBC, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXdOTXY2SFg4NURVRGdmU2YwWm5FRVdPTWlmRW9ndVlnUFprVFhLRnA1bXFWVUo2N2RJLWhEMnk5a1ZNUHU1RmdjLVUxMWdjR3ZjTVdNUFNScTltWGF3X0cxYms5OVREa1p6Ykh5eGhocjBrT0xzNi01SkVtMXJwTjYyeWNROGVfa1pheUhMaUZQcEdHb2p4YjlyNGVrMEtwXzRSUQ?oc=5",
+      "title": "Apple Is Up 24% in 2026: Will AAPL Stock Hit $300 or $400 Next?",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkVIMGhGNEttMTBIOE9QU3pENll3SGtDSDdFcGxodTNyZFVjel9zQ3JKamVzNWhnQkZqdHJuNzh3dUZzN2g2V0pmUHQ1QXVjWUVKc0NpRDIxQjN4dFk3ZUJrd05uQ2RVdjd2a0xJTzdfdzNYYzUtRXRyMkdCSXNzOVR1RDdCTThCcWJHT0lVY2RMX29xOGg2d0JZT3pib0h1QWlnbVZhS1VOdl9r?oc=5",
+      "title": "Here\u2019s How Much Traders Expect Apple Stock to Move After Earnings",
+      "snippet": "Investopedia, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHVCZG9tVjZLVDFZNE1jN2U2MkJ6SHhhSFo5UEtIaDhTTlZkcEJPd2hNZTI5MGJuMUVQZFhaM1dUT1hMN2lYMmVNTTY5Qi1XZlFROFRBXy1ySF9MU3p1UV81RlBZWkpJVzlvYjBXbWtTNXc3Vk4teXZJdjM4cjdncE1sNTI2dTZhUzBZTThrLVlqWVdjT0x3ZFlHWW1PVUU?oc=5",
+      "title": "Are Options Traders Betting on a Big Move in Apple Stock?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQy11X0tQV01MOVllMERlRkszX3Z2UVU3NkVaQ3I0Y1pDb1pTd29DUGtCU3kwUmVtYjdDNFNqNEJHVDdiRm5xa0hOZkVvUG85SVc0SW9VUXBzYlk5WFFMcG9kNV9hRFRnbzJyZkFkN3VDdzJXZFItQlE2TGRBYTZBRlZUaFhSWFROc2tkVmstTXE5djhEM0JXTUZ4bTg1STBYYkRfNDBjYWNPRmhYWVhj?oc=5",
+      "title": "Apple's shares remain attractive over the next 12 months, says Neuberger's Flax",
+      "snippet": "CNBC, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNC1QQUxNVG5GNHdHNWRMZFhydGtCTnlwcmhFOEgtTzZuMXN1QnBUOXVIeW1EWDBrZy15enZwdXloYVFLVjR3UEhsUU16RmpiWDdSLXR4T0RmcnJKdVgxUFJXYi1rQ250SVpVWHdPV2pETEhOM2VVX3BMLXFZeU9XSng4enU4VWhBZDdNVlRSTVM?oc=5",
+      "title": "Apple warns of \u2018unprecedented\u2019 rise in memory chip prices",
+      "snippet": "The Guardian, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNnJCODFKOUI4b29GMDhlNGpEZmtSOVk2ay16RDdaQWVGNk5DYUxSZWN4emFfaGtqeUUzbDQ0UlFjdDNzcnRMX3RjRk1FdXkxbDZTTG04WG85RW43TnYybXViekhVODhSaS13cTcxanRydlZ3WXlNYUc2QUZsR050SzVEYmlmVEpXX2dCYzRsUWdXSU14TkthVmJ3eWpJQWEwTEV4YXlQRVNxT2ZPQjEtbQ?oc=5",
+      "title": "Apple\u2019s stock drops as new CEO John Ternus delivers his first earnings call",
+      "snippet": "SiliconANGLE, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "title": "AAPL daily price history (Yahoo Finance)",
+      "snippet": "close 331.9 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

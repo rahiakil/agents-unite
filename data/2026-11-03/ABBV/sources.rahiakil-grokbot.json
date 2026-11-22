@@ -1,0 +1,125 @@
+{
+  "ticker": "ABBV",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-22T08:04:01Z",
+  "collected_at": "2026-11-22T08:04:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYmRROUxIZzRJdFdoY2E0OC1sNFlWX3ktdnJkNE1OdG0xaWhrTG0yM0pPeDdIbDZBYkNLWHhKTElIbFVMRzlUdmNMMWdJaHdQN1pDZ1pNOHNIX1FKcjFWd0xSXzZfUTNTWnZXVnBhUDd1NlItZDhhMHRBWVVxYjJZc2RibTNfYjdvbGU5c2ZCbUE3UmVSbEF0M0V1aUZsdDByaG5WeXY2ZWZHMDNsNUJPUG1Ddm1CbG5F?oc=5",
+      "title": "AbbVie Earnings: Raising Our Fair Value Estimate With Significant Pipeline Progress",
+      "snippet": "Morningstar, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3NwM0EyVENXOVc2YVJ6aWk2S0RwTmdJdmpMajdnZDNXUDFiMzRnR1JYOXoxclpPVXhjelk2cm5OdnI0QWRwcG1yYVYtUXplVlJxdkR1ZjllUjdTLTFsc1Q4OU5QYUI0ek1pbmFWQndlNUdidlBGT2Y3Rm9UVUY4S1ZCVkhkNlg5bDlhd3RNZXNFY1dvYkhRNV9IRmY3bENQb1BhbW0wckJGN1lILVJpYVZLVUNvYWVnV0Q0aXczVW5ReWRPRUlUVUdSWQ?oc=5",
+      "title": "AbbVie vs. Bristol Myers Squibb: Which Healthcare Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbXBNaURfRy1Yak9KWkNZQ2FaTm9yYm1ZUVFiOFA5eFZ3Tjk2UFk2WEtaNEJGeFFyRFRQOWtyR1paYVJiZHc0WmtYMV93NVVMSmctXzFXTjREU3ZPR2hnLUd1Qk9kLXZnak1FdXRmaHV2YkxndG9tZXc0aTlhOXQ0cEV1QlpwY3RYelVpYnRNa3FwUmN1VTd6SQ?oc=5",
+      "title": "Prediction: AbbVie's Next Blockbuster Is Hiding in a Two-Drug Crohn's Combo",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHczN1pyeXpidkNqSm94SVU0QnRZTERsYmRVZkNNdHVZMFZGWnN5elNvTzFIU3dsUGIzVEVOOW4xeXZkUVprS1dKWG5yVzlPcGtleFVldFNFcU9jMzJMcEtMSFpublotY1hiSU9RUmJPVE95ajFzZWd6NEpmZ0pWWmk1S2tXR1Y5cmMySVlpWHFGU3lOYkttbkxJcEZNMXJnR1RoV1p3akJLUGl2eF90ajFJbHdHblhZalUtMlZfNkdCTUU?oc=5",
+      "title": "RBC Capital raises Abbvie stock price target on immunology growth",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcFFPSkxSQldmbEktTjdmN01UWVkwXzFTem0xY1F6QmRMTEdrTkRXRWhJU3NXYTFQVjNrTmpfYUh3alRHZ1IyZFBIanZWQWw2RmpCTlhjQnN5eW16YU83OFVOc0ZjdVBkaXE2Ni0xMXd1bFRKTDRySi1YWUl2Zlp4OUNkUS1SR3llNHdPVWh5a1BFUW1wRWZUc0IyUTIydFVJeVNuX0JCVkZtdEtGWXBiVmNTeXNoREFyZ1B3N2hyVXIzVFIwemQtYXBtX3Nudw?oc=5",
+      "title": "Cantor Fitzgerald raises Abbvie stock price target on immunology pipeline",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNk85NFZzdnFnTDF2aVhPdzRpZ29iYW9QYW40UkQ2bEpQUHI4d19zTUc3Rm1FLXFnQVFjUU9acnhndDJHczRQeUJlTmlZeDB2YUtjRXNOQTFkcFBqSl9sWlJKWW13anNiNFZXQkZGS3Y4bDVIdGpmbkhoYURuOTZrQmNBamY4X2s4QUVBNVNMejA2V2dEazZiOXRHTlp2dDlHM19VVURWNVpoVDNUbzVhcmxmYUVldDV6UnhwY3hVZXY?oc=5",
+      "title": "Wells Fargo raises Abbvie stock price target to $340 on pipeline",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVm1nZy1UWWpyUlp2OXlwcjRpNl9QN09JOVlKdDlXc2xWVWdtSXNkMHJKRVo2YjlUQmZxQUMxbHhlSHR6cnR6bHN6T1Yzc0txbnRaNklDZmptZEpvWkNGM043SFIyU3JOYlN6SDNqbHN5Tk84dm05TGNUVnpxZkpNdlBXUHUydl9Rald4UW5XRmRkaXhvbXFrVGxSdnhMOWFDRjRQWTVXb3h3ak94Y1BPUXpETWxPQ3ByRkNKalo5d2RKNnFwM3RHdE0yQU5ELXhOdXhsMy1veEdDenRx?oc=5",
+      "title": "AbbVie Stocks Decline 2.3% With RBC Target Increase Backing Its Immunology Transition",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbzNpeXctUkhpaGNGdXFYWTZLc2dBSjR2MnRNejJ4RTA4UmI0Sk9jVE9mWjJ5U2J3bk1ONVk4Vl9NZm04Y1lfdUJ2N2tUX0pGM0JYT3RjYi1fYUZXTzIyNm1pMVdtbEc1Z3NuZENFTU1rTDdaenlGWXJNaTJEblRxWHRPbUR0SVZyTDFlTl8ySHVaaGdYOFlDbjk2cENwbUVCdHRIOGtBa0NRQ1JZaGpN?oc=5",
+      "title": "AbbVie's Humira Era Is Fading, But Its New Growth Engines Face Another Test",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSlBWamktZ2NRQlc0VHM4eEZMVTZDbEozazBsUUpVOFBVbkFnTFFHbUVCTGlSTk5nRC10SUt0cUFvb2haRFVHVF9FeUtMUlMyRUw4ZkJwTFYwZGg2OFpSMkZHMHlOcElMNXVwTHZldXE3N245cmEwaFZ6bnZodDhHNEdfMFVUYjFnZDhNNDNiSDhzNDYwbnZPX3UtaVg5YmxNaXp5U3MtMVQ1T29OYWU4X1cwTEtJVU42QkNvNEdBOUprQkZiSjZfUnllX3JJZw?oc=5",
+      "title": "AbbVie Stock Hits a Record After a 5.2% Dividend Raise: Why Its 276% Payout Ratio Doesn\u2019t Tell the Entire Story",
+      "snippet": "TIKR.com, 2026-11-01T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNmlmczk2WklQZ09HSEJNeEtBLXRocE1CU3diRmFEbi1wMFRBb0VOTVhTakNqS0s2djF3VFVUa2RPdkQ4MGVYMUZlUlVlXzFfUy1FMUpJQ0N5ZVBQbXk0RVJrNDZMbWxmN1dRLW5mWFpyVTdmT3p4d0pUTUVoaWdFdjd5TGhnV1ZSTThycGw4ZVNnYnZib1E?oc=5",
+      "title": "Is AbbVie a Buy After Its Latest Earnings Report?",
+      "snippet": "The Motley Fool, 2026-10-31T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ABBV/history",
+      "title": "ABBV daily price history (Yahoo Finance)",
+      "snippet": "close 286.0 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

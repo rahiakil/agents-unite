@@ -1,0 +1,45 @@
+{
+  "ticker": "CRM",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-22T08:04:01Z",
+  "collected_at": "2026-11-22T08:04:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWDAyd0ozbWxRcXlrR2hHWmtpNU92SWhfdURoVW84S1BaOU4yWDQzX2QwZEJLcHhRTjhsaUpiQzB3T1lWRVRqRDNsczUtT2Y5bW5rQlVCbjBVX2xIRGFvcWtPT1VrcmlycXozQjhVQ0RyRDYtNk1pQ3J5ZUJyRndiY09WczJDWnBINlNMZGFaOA?oc=5",
+      "title": "Massive News for Salesforce Stock Investors",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1obGdsMk12VHI2RTFSdFM4ZThnSjJtWTJsYmlSb193SUl0dW5pY2UwVGE4QWhwSWxweW8zNWtJRnozQTcwdWN5bXJYMFJha0NKVzdnTU1XOEM0ZWFJenF6cEdvdERoNGFtbnZPY1lZbGNTaGF6OVBETw?oc=5",
+      "title": "Salesforce agrees to buy Cresta (CRM:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRM/history",
+      "title": "CRM daily price history (Yahoo Finance)",
+      "snippet": "close 222.2 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

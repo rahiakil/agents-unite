@@ -1,0 +1,125 @@
+{
+  "ticker": "LLY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-22T08:04:01Z",
+  "collected_at": "2026-11-22T08:04:01Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORy15aUZHM0dISUFpRFpVRy1iYTRZSUZ5djBIalpkTVNWaVZMQ2UxbjU0T2l4bjUyOTJMSW92RzlOVERTd2g2TFN1VkdiNWYtMVZ3NzNXQzB3aDZXYVlXbHZwMzB6Qnc4SVQ5NnFKS1g3Sjc4Y2FKNnM5VEVIcjdiQXdiQm0tSTdsTHNZU0NYUDBmTS0wemR3TkY0RkxzS2hITzM2dU0xMzFDNjlEVFh2Q2ZPdHF0c01SOThwTXJHQXp3ZHBwdE5najlwWkg5eWE3MVE?oc=5",
+      "title": "Eli Lilly Just Delivered Another Blowout Quarter. Is This Unstoppable Growth Stock Still a Buy?",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUzdDZXFHd2haeUJOREk2cmsyT3pSM0pQMFBabW5VQ294MkFwX0RZMFVuWnZvZ0NVdXM4Uk5wa0lSMHJhb0VySG5pajE2dTNnZ0kyTkZBRHFQN1Z5LVNUMlF4dTR6bTlpYVZWQVUybnZHTUVYWERrbGtUQkJfTC1taTJxRnBXQmxrdlJHWU02dXBVX0pZ?oc=5",
+      "title": "Eli Lilly Stock: Is It Still a Buy at $1,400?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWXhlMl9WM3BkSGg4aXUwUkZqazF6YVFIdmVHZFlrWW9POThXOGRwRDNsS29wSGlQTEp6REEtRnZ5NVRvdHFtZ1RVQkZkeFFaNzJqY1kzU3RjWjh4ZkdJYnVEQmtBRzYzSG1MdUZZVWpYdVpfY2M5Y211MlVjRVktRnliOTF5bzhnTUZlN1pZZnpjNFhRMDFYczBUbVJwMjVsNHFtWExQNXVyaVJ2c212R3lMZFAzTGtSdGtvSjZCTlluUGtSdjRma1NTZ0U?oc=5",
+      "title": "Cantor Fitzgerald raises Eli Lilly stock price target on revenue outlook",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX1ZBYWQta25sbzZCeHEtU3lVNmtadFZNM1hUUkN5Zjl0d0JRT2FadGRIZ2JvWC0xSkxSNHRDQkZMakNrTkxzTlQ2RzV1NXJNbEFnak1RUlVlYWV3Rlc4dnhhYWticE85T3N1MmNvQ2pwVVdKSF9HOTd4bVBySF9LTEJqRndwVlRmRmdlMlBMWGItdjFHOG1ITnUxdzB6M241VVhoaTRYcjIzZGpkd0p2M1NXWEZrbWdzcURXTnZveTN4T2d3?oc=5",
+      "title": "Eli Lilly Jumped 6% After Earnings. It\u2019s Up 68% in a Year. Where Does the Target Go Now?",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZlk5bTRVekdWVzJ1U3ZoREMxUEI4czBUaUVnb1NQa29sMDBqd0V6ek1rZmI2Zy15RE1qZURhWnRmVzBTT0RMTmJENE5sYXpMeV9aaEdmXzFPU2JnU2ZZUks2LVhRdmpscjJPOTBBQnctZ2Nwcm1mOGtnSWJ3dEhYMllta1BDazNNb05ZSHVrYm1fMnhjZkVGMk55LTk4UnhlZ0dfLXdyaGRKeUNOUlhaSUcwXzZjNE1zSWRTTks0Qy1DTXd3TUE?oc=5",
+      "title": "When Eli Lilly\u2019s Forecast and Chart Say the Same Thing, Pay Attention",
+      "snippet": "Trefis, 2026-11-02T08:00:00+00:00",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQmxvWkdKSGw2YkhJMENYQmFqT0VSaVMtVm1NVnRZSzFWdDhKYUprTnZEZ3VYNE1kQ05TWXpLazg4STc3eGFyWENDQjRaRS1fYURTV21UbUltd25NclhNY2RNVGdqSERFRjh6Z252cWhnVElsSk0wSXc5YXhYek1CWGJPTnFiR0dUSTFWUUtnRXNrSUFUMVJicWk2OA?oc=5",
+      "title": "What Has Changed About Owning Eli Lilly Stock?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRWRhQjZqbXVMOGpOeGJfbWRBUkVkRFBtZ05lb2l6Q0JBYjZyWUF6em9mRFJVMHRZWjdZRHJtNlZhaGRyTUtUSVR1dXJUcldzX0lIUFVZbnNPbWNLZjMzRG15MktJRWNZQ0plajZwSU1yQkJSenVydDlEOEJtWkcwX1RrRGtSdDIzZ0FVSzY3MExfaHM?oc=5",
+      "title": "Eli Lilly (LLY) Stock Sees Modest Fair Value Lift As Analysts Rework GLP 1 Outlook",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVJrREpBNVdmZWMySDZoeGpHcU80NzNmUUhXcEdJZWxyR0hoR1J2cm1PX2EteGF6bTBhMEhPZjhLRl9sVzcwbURPcHBWTTl5NzlyU0xnYjN0eDNnaWlOS3o0ZE81VnhaSXl3S21hdjdYNGs3clNFb2JpMUdKb1FGbDQyQVE2Ul9wUlZvWHRyRmtaN1M1a3BBdnI2SW1JRDNiVGFWNC0tLUZ4d25XaTdIb2x1YWtJSjlWNXc?oc=5",
+      "title": "Eli Lilly Stock Rides A 5-Day Winning Streak To An 11% Gain",
+      "snippet": "Trefis, 2026-10-31T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV0w2T3BjamFpT05pRWdsZDZ1MzBuczBQR0lrTzFhLXpMV05seHZ4akdzd2dvYjF2TXEwSVlodFBGV2t5enN3aW0tTlFvcGxtZWNHZDdIQkZQeVlaTlMwQ2FUb2ZYWnVNcnFDcDllcC1obHp4TFQybHBtVFdrZzVtZHFUYlhGSHFXbjhNc192NlZVUzZtdnFVekRhZUZCWHJMTW43dlUyTnZaWDZPa3ZROEdXRzFBMkZFRFE?oc=5",
+      "title": "After Eli Lilly\u2019s Explosive Earnings Report, Is It Too Late to Buy the Stock?",
+      "snippet": "The Motley Fool, 2026-10-31T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUUZZOHktYkF3aDNqWFhiWnJ4YXVMR0lsN0FHUnZPanMwYXlkTU9Xelh4allCSy0tb1FhV2JHQWNxcERzaTl6ZVNfVkUzdnJ4elhqWHNTYTVQTl9vay1xLXhUSVNmMkhlMFZ1WUFsaTVDQlliVHBiZ2VadmNLY19UMVQyZjJpT0dCbEI3eHEtWUpOS0ZDV2NyUWlCZ056MVk?oc=5",
+      "title": "Prediction: $100 per Month Invested in Eli Lilly (LLY) Stock Will Be Worth This Much by 2030",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LLY/history",
+      "title": "LLY daily price history (Yahoo Finance)",
+      "snippet": "close 1409.38 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

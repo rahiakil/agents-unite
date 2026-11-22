@@ -1,0 +1,115 @@
+{
+  "ticker": "LIN",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-22T08:25:06Z",
+  "collected_at": "2026-11-22T08:25:06Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcUZ4M0g3Q0NEMHR2eTVHaWluWmd4My1CdFh6VVMxS0JRdl9jWWYwTGtGM0RzY3dQNnJ1XzdfN18yOS1QWlhaWk4zbHpsOHFMdzIydFpVM1AyRWF5MXhCMnhsNU9UZGN1cmtmQ3dONEhrbTRkZ0FPUkdvMU5Tcm0yZ2puUkVFNFQzSW5GaEtPTGZwTUNOanNaNmZtMEI0MWFmQzcwMzduS3N2WmxMSWZ2MWp2SU1OOFFPN2lr?oc=5",
+      "title": "4,741 Shares of Linde PLC $LIN Purchased by StoneX Group Inc.",
+      "snippet": "MarketBeat, 2026-11-09T10:48:29+00:00",
+      "published": "2026-11-09T10:48:29+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE5mX2c3VXB4c1V5NE82LVVHR1ZkYVZyTFJhY2tsZVhOTE5TSEU4SGVtSmxrbHhXdnlOZUFNRWJyUGlXTHBLLWNBZ1MtTTQ1US1SNWlhVVZvUjVYNlBYSHktd3pfMDFjSkFqeHB2VC1STDEyZElyOFliUU5pcXRIMXM5YjQzb1F2akFyT3luTmFyMWUteWl1Nks4bGd1V0QyX0U0NDVzMGJnUzlUcFREOE5MWl9JMEk1eUZOQQ?oc=5",
+      "title": "9,703 Shares of Linde PLC $LIN Acquired by Brighton Jones LLC",
+      "snippet": "MarketBeat, 2026-11-09T09:09:54+00:00",
+      "published": "2026-11-09T09:09:54+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWkJCOEdYVE1MN3dKVnIwUXBvc3h3RzJMY00xUkU1TUF3VVctSm9XalV6Wi1PMDFwamIxWVVVQk4yQVJEV1lyX3hjVkpCQVk0VUV6Y3k1RWdPTmlKbEIwb0dsWkxNX2Rabzl6QWI3dXQ2aWREb1l0T0xqT0tXc3hEMThxUzh5U05QazNUSFlMbzVIMlJ4V1pKcmRGZ24tQlU2SVZRcTJDZlRCa3FlWkZMT1FaLUQ4enprUTcwT0ZnUDVWdHlT?oc=5",
+      "title": "Linde stock heads into Morgan Stanley conference on November 10",
+      "snippet": "ad-hoc-news.de, 2026-11-08T16:53:18+00:00",
+      "published": "2026-11-08T16:53:18+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdk5WS3ByeGVtOU1RTmc3X3BINzVYZFVlRWNNdlZ6cVBneVN0RVhYTTZUSmVIMHFVNzc4bURDWW9LSVpnRzFiSjQyd0Fod0U1M1dNNEdIei1rTXJ6WlFSZzBxQnBwVko1c1A1VzBLRG9VZU1TSXpJeVd6T3VGWmNVMUJsVFg5aVIxYW05c3kwQW9VTWtwZFYzT3JIOGRhbF80dGxnZGxfSWt5bUZwMHpqQ0ItQm1ETDMtdUlGbERR?oc=5",
+      "title": "36,627 Shares of Linde PLC $LIN Acquired by Kimelman & Baird LLC",
+      "snippet": "MarketBeat, 2026-11-08T08:00:00+00:00",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY1BGOVRBdWNFVXQyTDhBOW1VQ0pfRGFnOEk4OGJaX2hkZmVVUllBZXBpOTFuSzZRNlFxSy1RcnMzWGk0UlJPQS1weGE5YVhWWTNBWTgzdEUwbGZhb2U1bFhTa19iVmp6M3ozNldpYi01LVZyeHJqMS0ydlJ6anJtakZTTkw3dnB0alBIQ013SWJpcTJQbmViZnZwUWNTc2tSRU8wdmFKUGNuVFJkY0RRVEFVaTJoWU9HQV9iM0Z6TTkwNDNSd3ZWakZlcw?oc=5",
+      "title": "4,793 Shares in Linde PLC $LIN Acquired by Avantax Planning Partners Inc.",
+      "snippet": "MarketBeat, 2026-11-08T08:00:00+00:00",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR0JRT2JiT3NWR2F1RVFBeEFHd1d0M0s0ZFM1cW1Ia29MTDlrYzljSWw1NHJCa0VackJVVW9kVXFQWkY1djBXOHFxWTRrWlc3RDNlaFV0a0JVbDJtSTVNc2c1ek5tb2t4RTlGQm5yV0VhakRwZ2JDdmFUMGY1UUwyTU5DQWcxVHlKNUJnRklhWHhkQTdqUElBY2NR?oc=5",
+      "title": "Form 144 LINDE PLC For: 8 November By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-11-08T08:00:00+00:00",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVjl0bi1jT1BFSlFtSF9fUU41ZkNuMm5Zc1ZXbWIzRXJzM3RMN09WTmNqNjBVWFpOMFdVVGJBOWplcFl6a2E5QkVXZzdLN1ZJblJjUy1kSFd2RU14elF2U3VlYVVqRzJCQ2lpeks4N3NldTlleVpFNElhNVJiWDctMkZDOGlrUEVYSFlmUnhjUDUxM3ROLUdpOXFkd2pVV0M0Z0hHbjBaUjY4OE9BbElXMHl1eUkwd2UybDRvZ2JQcUVZUQ?oc=5",
+      "title": "210,796 Shares of Linde PLC $LIN Acquired by Calamos Advisors LLC",
+      "snippet": "MarketBeat, 2026-11-07T16:09:54+00:00",
+      "published": "2026-11-07T16:09:54+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSTI0aDZJVkV1NDdhbjJNbFlseVRaQnZSLTR5LVBWVC1RX0ZTUmREbVUzRGx5eTZNd2tENS1weFhtdDFRU1RTRU93ZUtSZl9NM1F3SXQ1RXVicmJIRURtVVAyX1J0YkVKeUkzZjBWLXpmZUczcTh4SDFVUDAxa0pkbnZ1dklIdEJZdWVQQVNxWTFxRVBHN2JVRmZDR1FMV1FlMmc0MkE0SWVjZVM4M0EwWQ?oc=5",
+      "title": "Alta Advisers Ltd Buys New Shares in Linde PLC $LIN",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSFpTelBLR3RSQmMzOE1SMlVLZzE1SEo3MUxxSjZRWHJiUmY1eHJsS2twR1paM3d3MjV2RkEyOGUyQWp2aDB2U0lzSHdnTXRoQW1pLTdrYnlJV3FLVE5hUHJmV2tUVVJCYjAtdnZGYmRsbXNqeWRObFFkbk01bDk5ZFdURnJnZzYxVEQwUzFDYlNheDNnbmRKdW1RRkROek90RVJZQ2gyN0M4bGNydW5tSVdSQ2JjQU9QNjdxODJYOA?oc=5",
+      "title": "Boston Trust Walden Corp Acquires New Shares in Linde PLC $LIN",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LIN/history",
+      "title": "LIN daily price history (Yahoo Finance)",
+      "snippet": "close 520.33 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

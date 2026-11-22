@@ -1,0 +1,35 @@
+{
+  "ticker": "SO",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-22T09:05:07Z",
+  "collected_at": "2026-11-22T09:05:07Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVzVSbHZ0eVRFYXNOcW53alNXRFVwakp3VzZqdFFPaldweEZKdGVSaTRGTV94cXZ2Mmc4dHgtSFpfSzhNTjRXZHNXZFByR0N0d2l1U3NZdHdwN3dkd1N2bkxTVWNRV2lfRmNBQnlvczIydGJfM1hfdUVVUkcwakhUWmg0aEpaWnJaRWJYbVcydEhMX3lUTk5HcUlJVEVYVkRZVlEzd21QUThkVDdQZFI5UEtFZmZnaU5pazNTeg?oc=5",
+      "title": "Southern Company: 21 GW Of Contracted Demand, But The Growth Is Already Priced In",
+      "snippet": "Seeking Alpha, 2026-11-16T14:21:39+00:00",
+      "published": "2026-11-16T14:21:39+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SO/history",
+      "title": "SO daily price history (Yahoo Finance)",
+      "snippet": "close 94.64 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

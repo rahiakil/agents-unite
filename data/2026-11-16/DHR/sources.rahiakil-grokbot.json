@@ -1,0 +1,35 @@
+{
+  "ticker": "DHR",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-22T09:05:07Z",
+  "collected_at": "2026-11-22T09:05:07Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm5KbWVramNtVGo0NGJVeGkzOF9UR0FpUGM3Q3BOUE1RSDZtRnZHNjZya004OVh4Q1NhUEdxZEp0UHlsZ3ZWZDdKRk5QVkt4WnBMM3VpYVpsNzg0enZFc2EyWXB6YVpXbkdTQVJPRFlldUpsMkt1cko1R1RMT0FOMjk2Q0RGZUxIb0lHTDFzREpiZTBhdzB4aTdfT0c0RXEzNlZDQURyUk1EZlA0WUVuTUpkaTdtQ1FvSDNTMkx3?oc=5",
+      "title": "Danaher stock: Cepheid wins IVDR mark for respiratory panel",
+      "snippet": "ad-hoc-news.de, 2026-11-16T15:11:19+00:00",
+      "published": "2026-11-16T15:11:19+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DHR/history",
+      "title": "DHR daily price history (Yahoo Finance)",
+      "snippet": "close 229.91 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

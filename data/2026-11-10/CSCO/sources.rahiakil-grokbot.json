@@ -1,0 +1,125 @@
+{
+  "ticker": "CSCO",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-22T08:28:51Z",
+  "collected_at": "2026-11-22T08:28:51Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNanRHU2htVVg3eVlYanlmNlBmZ3J6dmtFV2dDNXA1bjJCbjBfSnFrQmxTbTluS0pITkJLYjZZdVJnd18tMjdCU1Zjc3lYczJxbzNLZnFJTnVaMmZHWGUwVDJQTWZDN1haTmZtR2ZjVXNhenA3RE9wcmNMVndDRlpDUmlSU0dITC1ieGdKSmNSZ3hSQzhqYUxkM0NMWQ?oc=5",
+      "title": "Dow's Nearly 850-Point Rally Highlighted By Gains In Caterpillar, Cisco Shares",
+      "snippet": "\u5bcc\u9014\u725b\u725b, 2026-11-09T15:47:00+00:00",
+      "published": "2026-11-09T15:47:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOajdxTFFHUlRraWFsc0pSekZYRktYRFZVRnVEZDZWc0p0clZaRUNYMjFaMjVHVU9UQzZ0X1cwcE9hWFBLWjBuSGdiSFZ4dmMtcklIUG1YVzgyU19mVm13UnA2OXdZTVNlY2JDVGZMREVfUlVfTGtscTRLVlFhN1hBR2YyejZTLWhsakJSWktCZ09wQ0ZrbV9RVmZseGNZdG8?oc=5",
+      "title": "Cisco Q1 Earnings - Here\u2019s What Analysts Expect from CSCO Stock amid AI Trade Concerns",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNS0hqbXdISTAwWng4ZjEtWW52V1RiZnRiYnVxWXB1X1JpZ19kMktObE4wU3dYOXpRamFQcXNRVTh1VkU0MG5uNnRCS0c1a2hSNE1rUHg0eTdxNnJOcHVmTzB1X0Q2ZkdLa19BSDMwTlp3dkhuZFFXdFd4MWRDYU1pcHI0LURWWERpNUNDaGpWbEt4STZMd3BQOE9CWWo4NXM3N00wVHdiTnptWWFubE5DMnpFMmxSbk9ZMzF5aDdFZ1huQmNHZzdzNjlVWnp1cU1hMlpCQWxEQWJMVm4yQmZTZkJHUmpUd1FNSnRtbA?oc=5",
+      "title": "1 Options Trade to Bet on Cisco Stock Ahead of Earnings on November 12 - and Get a Shot at a 128.57% Maximum Payout",
+      "snippet": "Barchart.com, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU0RtVnBlMHFDTzYxbGVFN2thQWdTalhNbXNFWG1ReFpTejVNWWhEZDN0NE9makZORVJhODNPRmJhNklDekdtTkJmZ0VtUDlHMWdSazEyQ2ZCUVNuYktQRUptWnlIcXdta0pReXQ2V2FPQ1A1WllDTVVqLUppUHo1N05jUFI2TlgwSlJfN0kzM1JsWEo5RFJfdG45ZXFnR2phcndMOFo4YmRKMkcxT3Z3ZVFiQ3BpRVgwRlZWWmxJckZHWmZ6a2hzaFFseFI?oc=5",
+      "title": "Cisco Stock Faces a Massive Earnings Test -- Options Traders Expect 8% Swing",
+      "snippet": "TradingView, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb0RTcWZnNWFNSDFZSWRKdUFEVkcyNXdoV2tVX3V4VjdSSW5Na0J6bkdsYmgtclZ5WkJSb0NSUG95alVRRHpINXNyckFhTFF3Q2NmV2dDWGNrNnBRZmhDai04ZmxKRE5YZnZiN0NvSDdwYVpiLUZiX0txajZwbk1oTER2eVZaUy00ZERuOEVzT2pEUFUzMXFkeEFNWm82TW11UDZHbHV0N05hQXZXYVU1b0h4aWRtQQ?oc=5",
+      "title": "Will Cisco Systems (CSCO) Deliver the Strong Results the Market Needs to See?",
+      "snippet": "Zacks Investment Research, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaUZoNjY4Sy13SHlPSFN1Mno0cWtaWFVDMDhDWm90TDRVcmpTSGc3dzh3M09GZ1g0bGRDdnpGVHk0WFlDUFc0WDNkaW9DYy11b2dhV2RuUEVOTTJpa3F2ZUhOdTVFaTJyUnZvWjY0Nmp1eTBWOWdldWJqOU1heXF0MlJvcUR4T1BLTDEwdXo0OEdsbXJJOGdZ?oc=5",
+      "title": "Cisco Systems (CSCO) Could Be 15% Undervalued As AI Earnings Focus Builds",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSDFUQnZBeEtaVVUyOVNSMlNkY0gyQm5UMXlQMXVybzRiN0NCSXdFSlZiWTdjUzBZTFUwcVEtSUx1S3hQblN4V0VvX2NtQ1BkSG92NEthbUNjWmxNQjA2ZmlKUXMwWWVkdjRGWG95MjVZRWhIZTNaLTRwaGFDU055Wi01aE5XRVdwdW84clJmQlp0ME5OQ2JsSFkybGRVczBoeC1jM3pVRWhpbmhGNVpOOQ?oc=5",
+      "title": "Cisco Stock Faces a Massive Earnings Test -- Options Traders Exp",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdXlQLXVlWi1HdHF5OUF6SllhRXBWc19HWUdiY2luV05BRXdkaHBfYTh5QmRrX25kZ3p4QlZYa29PVHdLc2lpNWxrMExCUnZQQVhia3pKUE54RjVtZWhxXzFuNVJFX2tueDNYSmk4TmZmaDQxMDF1c1U0NzFtRFIwQnlZTjlocElyQk1hQ0xJZ1V0ZzN6TzVBVmRQOTVOWEdQZzZ5cS1Za2JwUEZJa3ZwOVRRN3lLZVJ1?oc=5",
+      "title": "Cisco Systems Inc (CSCO) Stock Up 5.1% but GF Value Says Overval",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT0cwRFRHX09CeUdiaFFDQXRhcWNwYzJadVo2Y0pSWHBmTW9abXFlVUxzV1pGSVotcnE5Y0pkeHpYcXlVUWxsWWEwYU4tTUJRTDY3SmZ6VXFZMjFMTmMzUTNVR2NvOTdaLTY1SUEyYjc4d1JFNU14Zy1sSVRDdWVYZjJDSG1FSXJwRHItZnNCaE5WV295?oc=5",
+      "title": "Cisco's 2000 peak stock price took over 25 years to surpass, highlighting risks for today's AI investors.",
+      "snippet": "Pluang, 2026-11-08T20:08:12+00:00",
+      "published": "2026-11-08T20:08:12+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYW1LNThidjEtdnVGeXpMdVRUMUhaT1I0aUl6cElGM3B5SFFuNHZfV3BtRDJwVk9wY1lPZkpEVWJqTE5CMlJwa3l5TEVkd2dLNUM0NURCajRHMzB2V1E5WTFHaDlOak40YWx5ODhxZkh6ci1EM0dyUGl1VlctdTJoREFXQUxjdTB4eXJwYXVOU2E1TXZKSi16N2l0WlByX2RlMXVTUms5UkE2ZUNGU29acTM3cHRCdjJzaENkSWN0R3E5blZ3N1ROMzlybXNROEc2?oc=5",
+      "title": "Cisco Systems Has Suffered $145 Billion Wipeout. Will Earnings Change This?",
+      "snippet": "Benzinga, 2026-11-08T08:00:00+00:00",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSCO/history",
+      "title": "CSCO daily price history (Yahoo Finance)",
+      "snippet": "close 98.15 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

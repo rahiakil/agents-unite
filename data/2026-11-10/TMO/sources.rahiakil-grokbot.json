@@ -1,0 +1,85 @@
+{
+  "ticker": "TMO",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-22T08:28:51Z",
+  "collected_at": "2026-11-22T08:28:51Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRWFyb1BEY0d5c2NnVXd2bmUyWXRTcl85clIxMkhQQnRqTzFISnVCLS1ITHc2dDViazJWMk5CdGt6ZU5wbUpDYV9ZN0NvZlF5cmZkWlNTcnZRcWF0emZNZDNXM3c5Q25fQWhVczhBMDZUZEk0eTRzR21Cenhpa0RnU05DNzZEaFMteDRZZ09vZXJVWm9qRE1BdXhHTzRIZnBNbFg5VXhrQ1BHQVpHVnFCSE11N0pPdw?oc=5",
+      "title": "Why Did Thermo Fisher Get a Mixed Reaction After Beating Q3 Estimates?",
+      "snippet": "Kalkine Media, 2026-11-10T13:45:00+00:00",
+      "published": "2026-11-10T13:45:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOFlCVHJ3aGZkMS1ySXhYalFSSWFRaE9zdnEzNTVScTVkLWF4UWpZY0M4NTg4UUF2S0tNM0FCNUdET1JGemhYMzQ3QUQ3SXV1SE1sNmRLc1MtT0ZYOHNCZ1NCS3paQ1ljZXV4N1FfekZJOHZZT1VCQkgwOTFyYi1HRmRFaXM3c3BXQ1ZlYk4xTFdFdzJyQ0tPV1Bsb1M4Z0lvd1lpQnJXd0U4UGZJaEd6SGhaSWxhc0w4QlE0bjdCaXFFRl8z?oc=5",
+      "title": "Thermo Fisher Scientific Inc. stock rises Monday, outperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPV2swWllrT0F4Z3ppSU14cmE0QThuc2cyYnZ4dVF3RVRON2doanN5eDJFU3l6R0R0ekFFUFcxLWJMYmc2Q2NqNE80NUpnT21LMWNOVGh2eVRXenl0cGplZXVIQ05qRlJzQnB4bGJaQ1pscEVZeDVVcDhydVE0TDlCSTBSeXNmRF9Ha3c?oc=5",
+      "title": "Thermo Fisher Scientific Inc Stock (TMO) Moved Up by 3.61% on Nov 9: What Signal Does It Send?",
+      "snippet": "TradingKey, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUWR1VHowaHdXY01aMG45QXFIOUhQTy12b1RDSU5ndU9VaFZETjV6dWVZNERBT2dNdXJXVEJsaUMyTXRVY1YzWjBXMF93UVBwQXNVZ21HTUhKaXFhSEE2amNuaHhNZ3REUWRyanltNFVvbGRpRVIyZlZGTVBvYWJ1cTFLQVY0b2U1Q2Z4QVpYbHh2Sk1xd2UxSnlzT1NXWjJoeFRwM1haaENoVmtJVFk3ZnY2RHBWTERvampOMTBOQ1NtT1hNUHc?oc=5",
+      "title": "Thermo Fisher Scientific Inc (TMO) Stock Up 3.9% but GF Value Sa",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMEZYeW1paHZUcEJ0azBsM2Y4VzFNLVFERi1xLUVLZXJGbm1qTXdNZjMydEk4eXNBUTAtYzg0ODRtbUxCcjJvd1FKUm5mQWlHbWI1bjluNFVSLWhJMEdreExaRXpaSGJRWTJLV3BERERzZ1ZHVGVFVDkyYkxaOHltT2pUNDJRd0pmbEJfUjhlUkhNTGJ6OWtzUENISVRUX2lHRlBrbTZqOHp6aEoyZUwtLTc0d0J1Uk45WXFBemtLTVkwMk9VZ2VBOVVra2pvNzBoUlVYZEcwcFkxT0poVVVDSFlLTTgzLXpDdnFV0gHwAUFVX3lxTE1HNC1JU21keHpYdy1sZ3RwTG5kcVhrTF9fNjZrdHZTMDUxWEl3YlMtS3dxbTBmQlNKeWd2ZlJsbVNONHdLUHBUSndHTDVfQk1vZUVIQ1l3UXNSQktWMmt5cGRqVDYwbDYzakFFR0tiTlJyOUFrT2VFd3M2WGlPS284dkNJUDMxMmVpSkdGbEtBWlVvek1XYXhGcFY1SnlrZEliTGRwRWpRdkNKYXoxQ1dNYjJDTkdRaFIwVlpRTjVnNVJYVHpwcld3RFNhTXVHNzN2TWo5TVhqMU5qYmlvSDVOU2gzcmNPUWloVjFCemgwQg?oc=5",
+      "title": "How $5 Billion Buyback At Thermo Fisher Scientific (TMO) Has Changed Its Investment Story",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lcm5uUEktR3h4ZjFxMC1TLUZCbm9mR0xQb1ZrNnI0Z0xfUGxsNmwzVEF0bER2Y3lSRk04dnpCMUxabEtfN0s4S3dEblJyYVJkQlV6N21nbEQ?oc=5",
+      "title": "Thermo Fisher Replaces Remaining Buyback Capacity With $5 Billion Authorization",
+      "snippet": "TOKENPOST, 2026-11-07T08:00:00+00:00",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TMO/history",
+      "title": "TMO daily price history (Yahoo Finance)",
+      "snippet": "close 718.2 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

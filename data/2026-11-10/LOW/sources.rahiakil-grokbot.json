@@ -1,0 +1,75 @@
+{
+  "ticker": "LOW",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-22T08:28:51Z",
+  "collected_at": "2026-11-22T08:28:51Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOek5HWUFBQUdsM0g1dk1WYmRKak5CZ2J4TjlfLUs3YlB0ZlpVaklHRC1YQ1YwZlRkTFd6STB2bnZIeVY0bUFwLVI1c2RVYmtvbUlpWWlpZWZ1U0l1RDc1UkJPTkdSZk81aUtzYkpUSlBCc2ExNFNGWUlnVnI3X2pneUtLX1g3cnBtVFhxU2hoaXF0eGVvUV9jRU9pVk8za3AwdWd4dGRJUWdUUE9yN1FLd3J3Z2dsemVDdUF1akE3R0ktSV8wQWxLRHg5N19RUnVZRlhF?oc=5",
+      "title": "BofA Securities Adjusts Lowe's Companies PT to $251 From $252, Maintains Neutral Rating",
+      "snippet": "marketscreener.com, 2026-11-10T13:16:49+00:00",
+      "published": "2026-11-10T13:16:49+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUldJR1M4dllNLWt5bkpScTdDVmxNLWR2MjFFOGQwRWlCalJLRS1YYVBEcWhOc2MwUHh3NTdraVJFWlhsRHN4eVJKZXJSNEU0UkNuNXprZ0ZTUlpOVUhSdnBxNnhheFZ5LTVqLXV6T1VSOGY3RGdjcDIycEZnbTgyVExBMThYNF93MG52MXpWVElpczdlcHAzOXlteEFUSmhDanFQdE96QTQzbkNQaEk1Ym1sT2R6MmRKY1FSVXdGRkxJeFRZZWcxSjFB?oc=5",
+      "title": "Brandon Lowe's rising free-agent stock exposes the biggest risk in Pirates' GM Meetings strategy",
+      "snippet": "Rum Bunter, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONFlrdHhCYzRtVEZsN2xHa1RrcVZfSHhCYUozRlZ1cF9iR2RFTkJTa0xLaEtGNjRMZ3VPaXJDMFVxRmloSWlpdmc2enRESmxUMVVDNlFycXIzdGFkM0dwUmV0NEhnZEtXcFVsMWxzU3FMaVZWSVdkWDloTGp1eXhBNTN1bk1uVU4xWkQ3MjljTlZlZDRkbjZPbWZLa0U3cGM?oc=5",
+      "title": "Kalispell police investigate flock camera vandalization at Lowe's",
+      "snippet": "NBC Montana, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVlFrelFQWjVOUlBTSzdkd1lmTHdwT19SaE1KNnUzLVpFeUwxbi1JRzZ5aTE2MDd2aEJPNFhHSkF4OXZLUGMyYWVES2N2QnA3dkx5U2pDX3h2dEp2dlgyb3VhNk9paWd2UkktcHJqb0dYbldZdFpBNjYwT0VHLW9NYWQtTXVRUzZWS1dEV184YTd1bzJ0QUZLS09CZU92ZXFlV1NRb3NYX2hITVZBYTJNYUk4WGY?oc=5",
+      "title": "Lowe's Companies Inc (LOW) Shares Surge 3.4% -- What GF Score of 81 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZlMyUnp0NkowZk9xNlBTOUxrd2ZWOGV4Y3BacTdxd19LcWdxOVExcnJqODdkVWZPcFRXLV90LWNPMWFPZnFud0tqdTlxYXVOX2t2M2d3LU9KNEZoRzFRTXNUUTJYQlo4Qmlwd01RMnIxbE5YRGNKMzRvWFFmSDVlbWtYQmNvTnB5M2dhZmVTdnJFU0ZtRXdoaWVpUFdtUjVEZEFrZ3lROFZRaUV2c3lfSmVIXzRBRDUtYkw00gHAAUFVX3lxTFB2MDRzQ1NndzhDaHpPUFVWYlFQckhIRWx5QkpiT1picHhhb0c2bGk3MW8taG9lcDQ3VjFnLWRjQmM5OTE0bVliYXB5bDNTZ3VJdEkxbEJZXzc4YlJib2RUakFUc3JjclB0czAwcnFYQkFKSUhMM1ZJbXRwSTFkUmRhN09PMDc5dTc1RFlNelAzRnVGUkZjeHNVZ2JBSmlhdTMtNVZuWDUzNEtRU3BvcWVMRnJEQVRwSFZjbzd0cFduSA?oc=5",
+      "title": "Why Lowe's Companies (LOW) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LOW/history",
+      "title": "LOW daily price history (Yahoo Finance)",
+      "snippet": "close 231.87 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

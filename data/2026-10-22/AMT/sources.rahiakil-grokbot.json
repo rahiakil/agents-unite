@@ -1,0 +1,45 @@
+{
+  "ticker": "AMT",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-22T07:27:00Z",
+  "collected_at": "2026-11-22T07:27:00Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONFp4SzNteGtHR196MjJ0am91Q0UyMGlwUHZ5cWR5MVlUbnZsSUt3aFpoSGdLX2JZYTc1alNuWUxRUkM3cVoyR1BaTU1rNkl0ajl4ZE1zajNpWlk1emh2RUl6eFZEVkg3OFVvYklIbVhUQVFVQVFnSUUxLWxoSl9BN1FZRmZNZXV6VTJlMHo1bFRsQ2s4YVl1RmhRYw?oc=5",
+      "title": "American Tower (AMT) Stock Sinks As Market Gains: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMjhvOHZiSDZEX0g0c1pId193b283a0FWYVRWeGc3ZnZtS3BsM0JWUk1oQ1ZSRUxSY1FMS3Q5cEtBYXBwSW5JaFB3XzdqZWJMUUpzWEpGd0VWbC1yVGQ1LWdqel9iOGpKWTA0c0FkcFl5c1ZEcjFUTWJ0S3E5WXllclU5QV9SUVJRMGczQXFzQlAwdTJhWXB4TUpHWU1Va1JoMzNib2xn?oc=5",
+      "title": "Why is American Tower stock climbing today? By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMT/history",
+      "title": "AMT daily price history (Yahoo Finance)",
+      "snippet": "close 181.57 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

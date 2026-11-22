@@ -1,0 +1,125 @@
+{
+  "ticker": "AMAT",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-22T07:27:00Z",
+  "collected_at": "2026-11-22T07:27:00Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZjZ1V19UMk9xNTBNU2o2dTRvRWRManBkTm1tR2xtUm42YTFOWE8wbnZNbWdBR09LdGxjR0hxaXlmV19kUjRLY3YtVC1JYXRZNnV6MHR0WW5neUxzM084dnBuSnJBeG5CWWRsRjFRVV9xSEFLd2tVdXBVMkFkV21LRjA1NWswbXZtSm40Q0FRUzZBUS0wMENuWUZIZ3lVWWF6M3g4ZFhmZDl0dHlEYWFQSQ?oc=5",
+      "title": "Two Reasons To Rethink Applied Materials Stock Now",
+      "snippet": "Trefis, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWm9lNFNfRjA4RzgzdGk0MGg0RU45M2prd2tQODRMdmtJdF9Nc2ZZVmx3UkVzeTFncjRramRsRXp5SzdqeWhhc3JVUHNtLU1VM1BTNVZaZDNWcmhTeUhPYnluc0gwMXNuUFdjaXJrcFl0aTJya2k0X0N3N3FaZGNuNXg5VFJOX21FLU81VDBpTFJ5VnNOUGwzWS11UVZ2RkhjM3VVSzM3ZE9URUE0VGNudGpyZlRXOUdOaFhobldlaw?oc=5",
+      "title": "DRAM business resilience exceeds expectations! Morgan Stanley remains bullish on Applied Materials' (AMAT.US) long-term growth potential and maintains a target price of $563.",
+      "snippet": "\u5bcc\u9014\u725b\u725b, 2026-10-20T16:45:55+00:00",
+      "published": "2026-10-20T16:45:55+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVmdIY2tCbmkwNElSSW9FZ0xDOE5SeFBMUUxLU1pvV19nRG9lblp4alFYRkNocnRVVUVJZW1oeF9hZjBTd0tYQzFJZkhpcHdkWmNhOGdXcHFEYU9KWlAzTnR2UGoxLXdEeWVsUmZoMXBzN3VIR0JhanVCY0JHV1MyREVWcFNQdDhySldqRTVCM3dDVEpHaXRTSGtQaVQycWI4?oc=5",
+      "title": "Applied Materials (AMAT) Stock Sinks As Market Gains: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXVhbC1FZlVHYy1YVmlfS3lkYlNDMzFLal9GVjFFTEhqMDduUmRUTUI5VjI4MWt4bFRUeG1XMEFpZHFOc1VVZjdmM2NUM1h2TGFPNEw5OV9MN0JkbHRjVzBpX1I1RlNqdTZOVTVCa1lYd3VhYUdXam5FWEx5WW1GVXZ1ZXdqelhiaGZpQkh1UkxtNGVCeHdyNzhqcm5VWXJrTTFkbjA0TXFDTERCQ1BaTTM3VUFiM0ZSMjBPQU5fUDVKUDY0VkdTNDhXRnZWT0hubHZWYw?oc=5",
+      "title": "Applied Materials Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUVlPU09GcFVHMm5FZjdKZ01BbHg2NjUxZTVUQmI4U3R2RzRTWkxkRWVKdVFFVWV6NlNCU2E4NzJjVHFrTDhld3BMaGhiMzF5TU5rMmJTT2k0dVExLVlQOWJvaUN5bGhDeGdxOE91d0x5RkJlMUN4WWg1TkhmYUZKdTFxMmJvZEc0NWdjbkVmNzJJT0FnTjdENFU1dDI5UGpyR3pzT09RNXVaU29fZENLWkpXbDZzM3VsQjNwMWQzVEY4RTk4QUhIZl9XdXBYS1lmY2dB?oc=5",
+      "title": "Cantor Fitzgerald reiterates Applied Materials stock rating on margin outlook",
+      "snippet": "Investing.com, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYlJrWmNDLTBrTHZKZ1I4b2t6LXR0cEx0bTJEMXNxcUk4SzlNbEc0TXQ0OFQ5VE5Bd0hLUWwwSjhXTjVKbGlrWDdmZkpxX1Q5Nnl4WjQtZ1JMcHBOekFCLXNmTzNyb2xBbEFCN3Uyd0IyNkFldktQVi1IX1pQTXFWTldkMmdyS05NQUxRalBfeTRFeWNOaEFWc0pmLVpZTnNITzlpaVVsTldUd3VJdGd6ckkweGI4VzZ6aGgtR3hnUnItcXU1WkZqaE5UYURHY2l3WVVTenE3LVdSV3l2V2IyZ0ZybHBtOE8xdHVCQV81WTE?oc=5",
+      "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It's Going to More Than Double From Here",
+      "snippet": "24/7 Wall St., 2026-10-19T07:00:00+00:00",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmM5ZnlEb0ZkZlU5bi1sWnlBTjd4Zjh2ZlpLSTlqN1ZGWEpsUXJxYjdKdEZMLTFncjdXRnpCVU4tWVdpSmMyazhZY3ZKZWh6NnlYVDBGNkFwaXpEdEZFN1Q0ZGN4QXdYdjFWWFJjVTVwek0wa0VpWENMWWl4WnFiYUFfbkR0SU9YZ19HN2tTTXJ3cHM?oc=5",
+      "title": "Can AI hardware optimism support Applied Materials stock?",
+      "snippet": "Traders Union, 2026-10-19T07:00:00+00:00",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNREVycTZXREt4NlF1bnZLUWZ6SzJuaVNweWdHSE1LTkVkQmZsSnJnWFVjWTNsWGMzNU5hVmhlOGdxSVFMNDVfb3J1YXNSa2t2bm5RV056OHJhUFZ4RlBhOUlWR1pHNVh3UUdWSHg5QUlpSTJiMUZSVHpWSEpEa3pyaXRHQjVQSWY4aXJaWlZmNEJBM3RRSjJLSnNYOHFUWmc?oc=5",
+      "title": "How EPIC Center Launch Will Impact Applied Materials Stock",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWtlTlNyOG5QdkNfUHR5MkEwS3dwNHJ3VUxPVzFxU3cxSlJVeC1XZl9TVUFZRW9jczRsUzZKMmZWZjdPM3l1cEhyYnRicUhGc1lobjM5ZElHUDNvcVNkOExxU0FjUnVxVWdqWWlON0tLZjJESnNEaVVLMEF6alR4OHVRWmgwekdRMTZOVHBfM3JybE1ON04yZkhtOUk2UQ?oc=5",
+      "title": "Applied Materials is Going Solid. Is its AI Growth Already Priced In?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlF2UWEwdVNYZUlZRTYxTC04cmNHSjJZSy1PQW9LcXA1c2lyUTFHTUZ4TlRpaEpPaWNtYmlpSzFRaTRFM1Q1dEU3bXlKMWNwTjB4cnoxMHhndDRUVGMtLXNuVktoRkxVaS1UTm12VVJFd2Q5NVdqY082TmhOM0ZjN0F0Smw4ZXpPQTFDQTVwVlAyTXRNcUlodFNPNXMtZXlfOFJqaWtB?oc=5",
+      "title": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMAT/history",
+      "title": "AMAT daily price history (Yahoo Finance)",
+      "snippet": "close 375.58 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

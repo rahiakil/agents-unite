@@ -1,0 +1,125 @@
+{
+  "ticker": "GS",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-22T07:27:00Z",
+  "collected_at": "2026-11-22T07:27:00Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xRk1jeFdDazA0UEVVUEEtYWFDbzFpNjBPRU8zZnYzSnVoaFRmRnRWNHpsN0s0T0VTakp4NTVWeEhRekdzTFUtTXF3b3AtODIzN0FtcWJkUVFFbmtSUVd2Yw?oc=5",
+      "title": "The Goldman Sachs Group Inc (GOS0.HM) stock major holders - Yahoo Finance",
+      "snippet": "Yahoo Finance Singapore, 2026-10-22T17:23:29+00:00",
+      "published": "2026-10-22T17:23:29+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcWItYk1rbU5vTkxmU3RpelV0RVY2cC0wYXVXZ2paOUtOSy1FQ2s2Vnd5M29QZ0lobE1Za3ZGSjVHU1dYNWxoREttc3RhSmRIalBRcTlMcmZxbTd6V3hfb3VmbU11Q2V3MHY0SFNhZ2ZxLWsyVkROal91N0FKZFR6bTI5RTA5SGNEU25STHVB0gGTAUFVX3lxTE1jY2ZtVWd5N2ZubDkwcG1NUzVwSzh0RHNKcFd2ek16amJ2MVlialdzT2tzTE5uTWo3d3ZfcTdZVDFqeVMyTUNPZEc2ODNsQl9MdVBZTkJTaDg0Tm01cUdLTF9MWmRveTI4WW9VODFnN2dHZ3cxbC05V0VGQlVlNl9Td0RvT3VMOWFDaUM0MzdLLTNWdw?oc=5",
+      "title": "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+      "snippet": "CNBC, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NQzRUS0R5RTRjLTFPaUdlM3dUa0pxeVdpYVA0VXpQNkVUWTJDclpMcHkzVnIxNWtWdjVPVTRMWndwN3B0bk5LMk1GRGlTTUxwV0pwWXB3bFhUQlpmQzI2c0hGTHRUQzgwRk9uOGwxd182QUxmTHFBQ2lialpnd9IBgwFBVV95cUxQc0l3bllTYjJZMjVvWHNaYUhPVXJIWGg0Q05ZdlBRZWNkbDRKb2JJT0M4NHpud3JQemF2bEhzZVVScGc0dXpjX1lHcGRnc3hnem03OGMwWWpKdXdvWHRhU0NmeldHRlg4dDBJMWdmZ3FyMDJsa3B5clJycGhSd29BZXJ2dw?oc=5",
+      "title": "Tokenized stock trading takes off overseas as Goldman, other U.S. companies object",
+      "snippet": "CNBC, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ3lCYlRLYTd2QVFsVjB0dXl2WXB3TUZjTWY4MGxPMkZmU1FnV1FROVhNbTlUTnkzdEFKUExFWkJMXzhUbWlCdEFKMDlBTml0Q2wyUVBhbFVMNUJmOGVPclZhYXg4M0stUS1xNlk4ak55cklrYXRJOFJjakZUd2lySUVIVUNoUnR5dWZkeVJBS0I?oc=5",
+      "title": "Goldman Sachs stock weekly forecast: RSI nears oversold with rebound odds limited by resistance",
+      "snippet": "Traders Union, 2026-10-21T07:00:00+00:00",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT1JQcGkxc2tGRTIyUG42RldTRkh1TDY3Y2tXblZDNXZScVRFZ25iRXBtTVdoeDVURFVPaE1ETzlyRjNGX0FyMm5aLWRCOTlUOXNLMVFyai1YY1NOTmJHOWJ4dUtneVJQV2h5LWRnWWxjajNNd3dmQ3NrTGZ4U09wZUVWUHVIQ2ZlMlhMU0hjc2lTMjgwQ0g3TmRVa2E4aDBjMVdKWmtkTzJ0dy1GamRiV255ZTM2eVA1ZlBIamFxdV9IWmlUOXVPVnlZTDI?oc=5",
+      "title": "Microsoft (MSFT), Alphabet (GOOG), Goldman Sachs (GS) join objections to OKX-ICE tokenized stock trading",
+      "snippet": "CoinDesk, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUEtuWFVNNlk4eDc2TTV5bkk4R3hCeWQ2VzlYdHBGYXItQzUzZm9pLW5fbFoxeW9pT29kQWRTc0o0akxERlp4V1ZBaXNzQVhmN2pUNU9ibFlGNnBLZG9GbWVvZVJTXzA2NHVvRnlvZVBsaXNkeHZtSEs4VXI4d1BRZ1VkSVFrc2lsX0V3bU9nWnlzS3FoSFJ4UA?oc=5",
+      "title": "Goldman Sachs Is Paying Up to $2.25 Billion for a $30 Billion ETF Business. Is That Enough to Lift the Stock Back to a Record by 2028?",
+      "snippet": "The Motley Fool, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVjVNWnhwcW1wdmVjbzNfV25pM0t6RFdVTXlDNm01WFBGcVE5QWp3WlZSOG43aG55djlEOVRZR0dNZTFJc2dDSk5LMGszYy1KTnNERENDdXlfVk50enpldVNOYlVrRG1ObDhiLUVNMnRnWUE1eV9yd3J0QTNCaW5pY2RtWHJSOHU0c2V5MFRDYjFjMnpGMkFBc3N6YTdzd092TFM0VEhBd1F0bmZLQ090MDBMZ0swTG1VSGp0azBGckxPWkVvRExTSUFoNA?oc=5",
+      "title": "Bank of America vs. Goldman Sachs: Which Financial Stock Is a Better Buy in 2026?",
+      "snippet": "The Motley Fool, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR1FzU2t1dUtYOFNGY0o1aVMxZzV0QlFNYVBrbUNIMWpsZ0FjZElJa1Q5eTNYaUZhVDExQXpSSzF0SnB6WEsxODRCTTVFdGZycE5vb3pwZC1GbmtrV3NvcUJfakdfa2wzcXh3cTFnRzZJZEVnUmttUXBDTEg4UklOMm10eVJjWXZ2OGRHMDZWYVVGX3RUTlN6eXVxMA?oc=5",
+      "title": "Wired for Upside: Why Goldman Sachs Upgraded CoreWeave's Battered Stock",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNENOUDBvakFucU5WYUsyck9tSnNRenpobEJ4Tzc0N2tQVEYzUDlZdkVoN0s0UFJ2WGVKOFc2VDlXR2V0LU92bWpidzN5NzNneVdLVUNpMERWT1ZCR0k4akxZYlBUSlJmd0hLanFqVWZZVktBVlk2cng1eXlCQnVQYjlSdng0akJLM19nVVo1dExkQUptTjRURFl6YUJMb0VTeWFJSg?oc=5",
+      "title": "Goldman Sachs Just Upgraded CoreWeave Stock, but Leverage Raises Red Flags for Nervous Investors",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVl1MFduSnhoYUdhejVGVjV1azBfWnd4cF9vQkJuNzVuTlhTb0FkUjhCUGFhZm5NcHZlcjA3NTNtSnNJWnd3dm1rNTR0RnB4SEVqckJoajJzNVN1VXBLVHowcHFRYVNBQjlDM1J2ZE5xcEY2RndFbVRsTWhIT2dTZFNLamdjUWV6VXVVOFY5UHcwcnBueHY5aC1FZw?oc=5",
+      "title": "Goldman Sachs: Undervalued Growth With A Buy Rating (NYSE:GS)",
+      "snippet": "Seeking Alpha, 2026-10-20T07:00:00+00:00",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GS/history",
+      "title": "GS daily price history (Yahoo Finance)",
+      "snippet": "close 891.3 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,125 @@
+{
+  "ticker": "MS",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-22T09:15:12Z",
+  "collected_at": "2026-11-22T09:15:12Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRGtTejEzV1J6Z3UwYVgtbGt2ZUhTWmZfemtmc19VQnRDSEtZcUZDQ3VNQnlhQUt0QWtJVDVEakJCeHNpM2xFYnNXbU9Uc3E0ZkR5Y1RuMElIQUxhbGlGSk9UQmJ5NHFjTi1UdENXQXVyU1QtRTgydTA0Z0paYUNDWF96N1R5aHBRam9YaTljczhJRThSRlc1RkY5U3Q?oc=5",
+      "title": "Disney Is Near Its High. Morgan Stanley Still Sees 14% Upside",
+      "snippet": "Yahoo Finance, 2026-11-19T20:16:55+00:00",
+      "published": "2026-11-19T20:16:55+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQWZHdXVneV83WDZtYXh5aU5uUTRzWHRWMmN0eENSZDM0c2ZZZXl3bk5CTThRMTdwc25vbDhGRnZaU1pNTS1nWEpGRVlFelExOFl2SElLdlp3M3lNWWR4b05Kc0FhdkVpSzQ1M3hKLTUyMk9RTGY5dkd3OUMyOUllM25SblRYUmdTMFhTRGpnYWZHUjhRdUVnTkNWZ1ZIem9RaUE3YnFzWG1xQ0pCX2RCWENkcmZIZDB2UXdCbEwwZEg0Qm40V0htQzVEWkxIREQwZGNlNTdaNWZrRUtudVllNWFTSnZRbDE5cEd3N1E5VE5YMXpMNXc?oc=5",
+      "title": "Elon Musk\u2019s SpaceX Is The \u2018Ultimate Off-The-Grid\u2019 Stock Amid Rising Tech Outages, Morgan Stanley Says",
+      "snippet": "Stocktwits, 2026-11-19T18:35:00+00:00",
+      "published": "2026-11-19T18:35:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOEFDUGYtYjVzR1J1Zm9aOEdOc3NraUYybjNwYTNxdnRzb1dpQVB2bUo0Z3VXeVFLcVViMGdoYVgzZDlNYURPWDhoQjZMaEJRTXBHTUo0Qm1TVHlaVGtHRDZRSlN1N2kzb1d1bEdqZ2owWG52T01GTlItTnhGaWhINGF3NGhPNU5jbU5ILUZ4NkVIaFdOQ2dFQTV2YjVEanpwWnRhN0RhUnFPRWFGVjFjSjZOSkQ0c2VVV09DWmZ1YkVreEVodGlucmZSczNZUQ?oc=5",
+      "title": "Morgan Stanley Issues Positive Forecast for Target (NYSE:TGT) Stock Price",
+      "snippet": "MarketBeat, 2026-11-19T17:36:21+00:00",
+      "published": "2026-11-19T17:36:21+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdy1xQkdOUThwWUJoVHVUNHJxT1NWbGFjMEdoZnJyRDNwYTJqWngyRndLUFJXZkw1ZjM3S2ZEQ2licGVHNm1fdEcyQkNKclZPUThCYXIxaXNxeEdQLXE0TXFXQ2JZRmc5R25WUmZOR0t0UWwtTVVEVmNNZndUN0VMclMwUDFtaDZBTTJ2WGx3?oc=5",
+      "title": "Morgan Stanley stock falls amid persistent bearish pressure and weak momentum",
+      "snippet": "Traders Union, 2026-11-19T17:35:31+00:00",
+      "published": "2026-11-19T17:35:31+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZWhrSnZlbDVGVjNXQU02VXdmaWttQ2RVUU1IZkhFNWhZYkJMTVY1ay1XRTN2a3pMTXJTaFZDaDBiYnh6elpTcDRzRUdoVVN2cktZN0otQWVTRTVnWTU1Z1dqclY2YjBnNDRJRGs5VkVKTkhwOXh2aUdIWGZyaDU3Zk9VZUUxQWNDc1YyUlVWT3Z3dG5FMVV4eVdvTHNkSDR3MGpyaDAtUmJUVXIwR2JZYWlheHZfcGpsa1g2YnQ1clhacTYzeGcwN1VGSWExMGpSeTlUZmE4aw?oc=5",
+      "title": "Morgan Stanley Raises Target's Price Target to $185 From $170, Maintains Overweight Rating",
+      "snippet": "marketscreener.com, 2026-11-19T16:07:13+00:00",
+      "published": "2026-11-19T16:07:13+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONm1YclV4bmFJeUEtUFlPVDUwRjY1eEVWMmhIRGs4bE40TkR6cHppSFRSLWlyWUhHQ3oyMTl4ejUza0t4MS02YmFMbEVYc25JMkdudjB0SnpkZ21VbFlQLWZIVEQ0MXAtMEZsZ0JaLUdGRUl0Yk9KM0xyZW1WandaZlJuU1AzZkxQUmY0dS1kZDZGT0Y3NFh2N1ZCbXM?oc=5",
+      "title": "What Changed Morgan Stanley\u2019s Mind on CNX Resources (CNX)?",
+      "snippet": "Yahoo Finance, 2026-11-19T15:43:18+00:00",
+      "published": "2026-11-19T15:43:18+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Xc1prUUZqY2stVEZJT2Y1ZWoxdFpKbS1Zci1Sek5YTHZsRWd2c0Zib2xFUUVZd0kxNkFHbFdtTTNxaW9CT0RJZFN1djQwMUxRZWkzZTl2ZWU0ZGRMWThsRW1uSmJrWmxkWmFJVmo1c3JqOHdVamc?oc=5",
+      "title": "Morgan Stanley: SpaceX Is the 'Ultimate Off-the-Grid' Bet as Tech Outages Rattle Investors",
+      "snippet": "BigGo Finance, 2026-11-19T15:35:00+00:00",
+      "published": "2026-11-19T15:35:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16RDN2Zmt4S192X0VxQ1ZoLXJMM3FFamkzbl9Kdlg4QnR1bmZnX1BSRGRkdFU0bHlfUEVyQjZYUmdoZXRzOWs0QjlXc1lmbjVETEZFMFpfelhCblU0aEt2cWxPS0tVbE9hQUstZ1hPR011b1J0eFdJRw?oc=5",
+      "title": "Goldman Sachs and Morgan Stanley set to earn about $113 million each from Anthropic IPO",
+      "snippet": "Crypto Briefing, 2026-11-19T15:28:42+00:00",
+      "published": "2026-11-19T15:28:42+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWHRTb3JISWE4dGdmVGU2WFIxNDNpSk1SbmR3UTEwSDQwNHNveEJkaE9iZllnY2k1djl5NjJvZVJkMWRMRFduUm5mbnZfOVNDX1ZreDNwcmdOZ0VtdC1mYVhRbmUtNk5JNlB4Z0xleTJjRWt2T0V5aXVwZUpKUHpRZmNkSm44aG9ZVS0wWWZvazFIX1M3X2xadi0xZDhwNWhPOE1EbFNRRURmOHhmTmJ1dEl5M2Z1aWdORjlVZm9JM2lLT2QteXBB?oc=5",
+      "title": "Goldman Sachs, Morgan Stanley set to reap $113 million from Anthropic IPO",
+      "snippet": "Yahoo Finance, 2026-11-19T14:49:33+00:00",
+      "published": "2026-11-19T14:49:33+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5OOVZObXM3VkdvOFpNZ2gtZlBJMXhvT015QXR0SXB6WUgwaHJzWmljRmVPelVmNnFmY0tlTExhb2RQUklDT29hOXpkclIzeFJZZG9DeHdVVC1CbHN0SnpGUTZveFFoTUJYQ0RWb0xMd2ljWWdId0hjZU1JSjdNQQ?oc=5",
+      "title": "CAE upgraded by Morgan Stanley",
+      "snippet": "Quantisnow, 2026-11-19T12:30:11+00:00",
+      "published": "2026-11-19T12:30:11+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MS/history",
+      "title": "MS daily price history (Yahoo Finance)",
+      "snippet": "close 174.98 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

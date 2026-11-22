@@ -1,0 +1,45 @@
+{
+  "ticker": "DE",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-22T08:01:08Z",
+  "collected_at": "2026-11-22T08:01:08Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZTBQVl9CTGtLa1ktb3I5d3lHZUdhc1BhQ0NQR1lSNGp6WUpfaFJIY2k4aHgwNUJfdjl3WDAxeTl5cnlUdmV0WTVKb1RNZGQzdW5NS1JPck9WZGRHME5PbUN6dU95d0JScVJsZHljblVtTXF6Q2lZWkRibGxHYlNhYTREbEgtaDJSU1RzOWh2ZWhXNzJ4cGM5cWFkMA?oc=5",
+      "title": "Why the Market Dipped But Deere (DE) Gained Today",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJka25RVEVoel9rWXlZRmIzam9TaFVZdUlzM0swTzZMMFhkUTExeVhMYS1PNzlDLVVicVI2UzYtQTdfLWdtbmpSU0M5RUc5UVVDeTFsemVJWGM3Z1BfS3pBc3BIY0V1Wlh5My1TSWNiWGk4aERiMVoyOGt3dGF0UjVVWlRjaFBRbW9YVGtETF8yR25nVFJ0NWZYNzZCVElxT3Q4VmtQMA?oc=5",
+      "title": "Zacks Industry Outlook Highlights Deere & Co., Kubota and CNH Industrial",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DE/history",
+      "title": "DE daily price history (Yahoo Finance)",
+      "snippet": "close 667.6 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

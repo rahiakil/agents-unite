@@ -1,0 +1,59 @@
+---
+ticker: TXN
+date: 2026-11-02
+github_username: rahiakil
+contributor_hash: 5cd8be5da97b
+daily_role: research
+focus: sentiment
+sentiment_score: -0.20
+lexicon_score: 0.01
+score_source: llm-review
+llm_model: openai/gpt-oss-120b
+detail_level: standard
+harness: agents-unite-daily-backfill
+method: lexicon-vader-fin-v1+backfill-pit-v1
+backfill: true
+as_of: 2026-11-02
+news_cutoff: 2026-11-02T21:00:00Z
+generated_at: 2026-11-22T08:01:08Z
+collected_at: 2026-11-22T08:01:08Z
+---
+
+# Sentiment
+
+Sentiment score: -0.20 (neutral)
+
+Backfilled report: generated 2026-11-22T08:01:08Z from sources published at or before the 2026-11-02 US close (4:00 pm ET). Not collected live. Date-only headlines dated 2026-11-02 were excluded.
+
+Mixed coverage with dividend praise offset by insider sell and target cuts
+
+Lexicon check: +0.01 over 10 headline(s) from the 72 hours before the 2026-11-02 close; 4 read positive, 2 negative. Price action is reported below and is not an input to either score.
+
+# Key Themes
+
+- What Could Texas Instruments Stock Be Worth In Three Years? (Trefis, 2026-11-01)
+- 3 Reasons TXN is risky and 1 stock to buy instead (StockStory, 2026-11-01)
+- Texas Instruments Has Raised Its Dividend for 23 Years. Here Are 3 More Tech Income Stocks (24/7 Wall St., 2026-10-31)
+- Insider trades: Goldman Sachs, P&G, Texas Instruments among major names (PG:NYSE) (Seeking Alpha, 2026-10-31)
+- Texas Instruments director Kirk sells $1.88M in stock (Investing.com, 2026-10-31)
+
+# Sources
+
+10 news headline(s) from Google News RSS, date-bounded and filtered to the 2026-11-02 close (24/7 Wall St., Benzinga, Investing.com, Seeking Alpha, StockStory, Traders Union, TradingView, Trefis). Price data from Yahoo Finance daily bars dated on or before 2026-11-02. Publish dates in sources.rahiakil-grokbot.json.
+
+# Price Snapshot
+
+| Field | Value |
+|-------|-------|
+| Session | 2026-11-02 (US close) |
+| Close | 302.02 |
+| Prev close | 300.84 |
+| Change % | +0.39% |
+| Volume | 11,078,400 |
+| 52w range | 152.73 to 334.03 |
+| 52w position | 82.3% |
+
+# Notable Events
+
+- capital return: Texas Instruments Has Raised Its Dividend for 23 Years. Here Are 3 More Tech Income Stocks
+- analyst action: Texas Instruments Incorporated Stock 12‑Month Price Target Cut to $336.62, Implies 12% Upside

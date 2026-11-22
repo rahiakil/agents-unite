@@ -1,0 +1,35 @@
+{
+  "ticker": "LOW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-22T08:01:08Z",
+  "collected_at": "2026-11-22T08:01:08Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU0I0eTkxVndqTEhWMm1mSzkyY3kzMVFyY2Rkc3F2bGdvaUpER0E0SG4tR09XelNWc1kwQy1nSHdaTGdSX3VIV3JrSDFhVnBScG9pN0czUnk2SkNJRzhyelozT2xUQjgtSC05U1ZkNGlrQjRsYWFSNzg4dDhuZjl0U1F5TXY3OHp2WEhSWmdtazRtMkpP?oc=5",
+      "title": "Lowe's (LOW) Stock May Be Fully Priced As Cash Flow Holds Up",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LOW/history",
+      "title": "LOW daily price history (Yahoo Finance)",
+      "snippet": "close 218.15 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

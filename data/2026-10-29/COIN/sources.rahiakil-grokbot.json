@@ -1,0 +1,115 @@
+{
+  "ticker": "COIN",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-22T07:52:26Z",
+  "collected_at": "2026-11-22T07:52:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdlA2YmhGTDk2VHJObVBENXdXVUJEd1hBTUViNDBTVWFXek55SHk2dkNOQ0thbkJpRHJzaURjVXRPVUkzNTBXd1hncUVDRV84dVJZaXplaEZES25acWt4aFJINHVCUV9ZU1BPSWxkdnVtV05pWVhiUkFialpwUGZ5ajZSWDdoNTNMY21kRkVJeFdUcnJaZk8wSG92bHdJd1ZoRC1VdXh5RHZ1ejRJTGJzMGVKamhqbU12OVBpOXkyVHJmQWFvTllsaGMzWUJjQzk5ZWJj?oc=5",
+      "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+      "snippet": "CoinDesk, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdnl5S05VYmVrc01Db3BmZGZ4eS13Y1lJWlJNVGI2eFRGN1F4UlBYa20xQ0hvS2dNUXFEN2FXVDc0TFZVMTRLNWk2Q1F3UDVhLUpwX09nMEF2WnlyY3VqYnhMZVVMd0xDM1BPcURpWW9FbHhtSnM4YjloTHNVQmdxLVlTR1ZTcmxSQ2h3a19YTnNNWENncGJVSWNQN0Y?oc=5",
+      "title": "Coinbase (COIN) Stock Looks Above Fair Value On Current Sales",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSFRoSXVYUDJUN1dMYndzNUszUTNySmpQWnpDRUxMREpJTmdtNTVNOEoyTEdVb1ItVG1HNFZDT0lKSDhYbEx3a2F3bVRRNkRrdV9nSmQ5UDVJcmo3THlJTXRXcWFEMTBlSWxJaEttVmtveG5vb2MzbnVKRF9lS0VEdWtGUWFBVWVwQnJQaHVNNnViTmtoVEpkTTdZVUhpVWRzMENUbGxLc2wtVV9GZ2RabEhKRGttR09fOWN2TU9lbHlCRWo0V0VHT2VLaXQ?oc=5",
+      "title": "Coinbase vs. Interactive Brokers: Which Financial Stock Has More Long-Term Upside?",
+      "snippet": "The Motley Fool, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOHpFeGJ3RGE3bnAxTlVEQU5yeGFJc0pQUUtlV2dWSVpfM0VKWVJNQzBtZmNOYUVHaHNuOFdqLWNlNE5MS3RCU2tfaERrQWQ0aHF1VFJYeHV2ZFZJeFdnV1hHYlJtMVlpV2tpWWtKczhqUDlhT1ZnT0diSG1fay1iYWdweTRRUHY4MkVMaXY1b1VYMUJSWlN5VTMwZURyM0NGd19GVmVuTQ?oc=5",
+      "title": "Robinhood Shares Drop On Earnings Miss, Coinbase On Deck",
+      "snippet": "Crowdfund Insider, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd25pWENSTmVHMU1uU2hvSmRJajl5VHl6ZHBoQlpHMTZqb1B2eVZYX0s2TU1EY1FXOHVNaTYxN2FmMFdEU0czcFNlUEZ4VDlzVHQtVzYyNll2Q0x4cDJsZFNOUk5YNXd5bm5BaE5XbHVVSDl2R3Rmb2Q2TlJTeURIaENydC1md2FvQzN3djJ0SEx1eV9kNDVZX3RtTi0yMGxJYlh1aHVFTmQ?oc=5",
+      "title": "Coinbase Q3 earnings face falling estimates: Can USDC stem the slide?",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbmFEX2VLQWlrR195YXN1WmxsUDRaSnhlWVBadTJleWJxdERpXzlTMGZ3bXlrZTh0SXc0LU45YTJSaE9sWnVOYVFpN0hPSWM0cjZ6b2I0VEhud1U4eTFyejIyNVlRelBCNkdsMWRqZDdzbXRVZXFYdzRyTmxBR2hZRXlJMk9pM1ozSVF3emNtTXh3V0prLWNqSWZ6MGQtdHlBQXRGOTZXZEZPdG0yTFJkemZYdFZ4R0duLTN4cUI1c1ZkdmlkNHNEVEprOEItMVNQV0NMa2FhNUhSaXYxRDV2aWZ3?oc=5",
+      "title": "Prediction markets and derivatives drive Bernstein\u2019s crypto stock outlook for Coinbase, Robinhood and Circle",
+      "snippet": "The Block, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSEJLQTQ3T3hJR2owQkR6QXJEdnpnWG1jODIzZndZRVo2NWpORkhad1ZKYTVobWR1WTVYVEpoSXRxRnU3WWtjaDlYT3BkU3JCS0JJMEhGV21KcHFBUlNNRHZzQkJVejRJNU8zZFlLaTFiRXIxTVFDc3VPTThoMXExQzduakVQRGhjNFJuSFBkMi1OR1BzV3ptNWpOUWFYUQ?oc=5",
+      "title": "Insights Into Coinbase Global (COIN) Q3: Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0tMLU9tTXVfMW5BZmNHOEJoeHBWZ1BVYjBoa3dPc1NQZnJ2QzRSdWNpZTg2UHMwQnJxWGJTMk5DVEdyQ25DQ1FGUTdVVW1OV3VVQ1NkYmRzcVl4SVN6Q3JGVk54U2F2blN6Q09OZEJZLTA4M2xuUEgyQklLNGVGN0JXS1k2NFMtQTFPVjR3?oc=5",
+      "title": "Coinbase Sees Tokenized Stocks Growing From Seven To 2,000",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0Nyb3JkdVIxbmU1emZLQklzbVFaN2ZjaENXUE5KanFzTm9HNlB4TEFjbmZTTVBmeW9NU1FWSm0ta01GVUZMYzJzVkh6YXlkaHRhNW5BUTZ4aGFNTTVndmJraXp3c0MwM0dFTEkxNUgzYW1DQkg1czJOSnRIQkUzY1RDNXQ0Y1pxNHh6eVd5eGZhZUlkUVVTMGsyRnRfUQ?oc=5",
+      "title": "Why is Coinbase stock sliding today?",
+      "snippet": "Investing.com, 2026-10-26T07:00:00+00:00",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COIN/history",
+      "title": "COIN daily price history (Yahoo Finance)",
+      "snippet": "close 160.59 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

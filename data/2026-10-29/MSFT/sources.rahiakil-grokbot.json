@@ -1,0 +1,125 @@
+{
+  "ticker": "MSFT",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-22T07:52:26Z",
+  "collected_at": "2026-11-22T07:52:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNclpVVGdGd3NYYWo4bGNFRTVlYjhQc0VhMzhmZnRsRnlTNkRidVNwaGlQVVdPMktwMHRMYzhUTWpYUXFYaVFfZFRkSkRmbDNGOWxVa29MSWhhUDk4RE9BVElXUTY3SWo2SHRNbGVhRU9vbjd3ZHJnZlpTdHpSbHpDNNIBhgFBVV95cUxNRXA0VC1WZEYxMWVmenJmdVRiRzhDRFVzUVNVNlJXaEJDc011NjZuT2VHdTJLYndYaGV1NDM2UU93Zm12X1J2VWtYMEJNQ3ZkU0Nhb3M0c0dQT3pzVFl3eTlqLWluNHJjRHpVRTJicTdqSXNTSHBVQjdKWlJtYjZjN2tQZkc3dw?oc=5",
+      "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSThkSVNfWm5qaDhnWFVkMDRubV9ScU16UVNvQTFmQ2ktSTdkX1lKRXRvVXViSGdRYzdrYTFjTWVEcWdCTlVHcnVLdzNJbUEyN0ZXTmNXNjA1VDFZWGZkLW9YckdNcFhjNUYxUER2clY5cGZGMEdYMHpKTmpLOExNcWVrcUlDRDhJbXRGZE05Q3c?oc=5",
+      "title": "Microsoft Tops Quarterly Estimates As Azure Growth Accelerates",
+      "snippet": "Investor's Business Daily, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLTNUYVRBd0RuOWg5SUc2SzFCSTR1TGJsRndOTjNDWmtkeU1fRHZwWUxaakxsdE9sSV8tZzZDMXpXV2dDNDhhbTMyM291Z0Rua2lNSEwxaVZlTVVMbG5icUY1dllTNm9QVEk1R0NpdHdNRzVmSFA2MXZublNmaGN4NXJ5RGdMeWhiTHZmdENGX0t6UUdGaWNLS0JkbkVHWkRONXk5dkg0ZFA1T3Q0dGVR?oc=5",
+      "title": "Microsoft's cloud growth, cash flow offer respite from AI spending fears",
+      "snippet": "Reuters, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQVNKTWNlM2x1Sm5oa2M2TDd5QUVvdGhWQ0ItRkpQdDluN1lhRkhCOFBpTjNhUlBQRWVaUlFDR3E4b1R2WnNFQlB6TjcxZEE3c3BweW5OY1ZWNzk4aWltVEdibjdrOHNMTGtRNm9QcVh5a0Z1aFpxaTNPTmdDbXNNeGUwalJHUUpxd2NsUFJlcUkzQXhaVmtBTVcxV3ByS3FxQ2VZakxqRFhySV84dTZESGhQNzRYMlRTT0ozZlJrNUNkU0J4NEE?oc=5",
+      "title": "Here\u2019s How Much Microsoft Stock Is Expected to Move After Earnings",
+      "snippet": "Investopedia, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLU4xVWNDMmx3R0dnMlRwWDNXS1RKanZsd1hHdElIUElsNkVpV2lGNjdpSU05aVRVTkMwSDEtOXoxQ2pxUFRUdHk1YWg0V056UlNmMENtdkRYdnl6VmpZTDVDeWZYSjVDNDRDajVFS25oaHlUMnhCeVk1b1R4aU1SaE1tOEQzTHJVUG5FTkoyaEo0U3VXaWp6azBfY1NXMnY0OE8yTkNhMWRKeEI1Rm5JZW1yVzVKeFE?oc=5",
+      "title": "Microsoft\u2019s stock rises on solid earnings and revenue beat, with Azure growing 48%",
+      "snippet": "SiliconANGLE, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRGt3VmtmUGNnc3VOY1NTUnZIT2lROU5pbXptLTFFSXRkWFl0ZzF5SjhPVmRfVXQ5eFFMYU5VWjZTRFZrYzM3NHJyVFpfQ3ctYklCOHJndkgwR1d0bkZnb0xGaEhZejVmZUIxbnEyUHJaUXRJRVpmU0ZSTjA1MW4xc252VVhRX1V0dFkxcWRubnB0NzdvYnBDcTNOZmpqUlRaZENOMGxJOHBhUks2TlE?oc=5",
+      "title": "The major reason Microsoft\u2019s stock is heading higher after earnings",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUVhnd0wyVjdiUXUycXBEU3RBRE5EaUZ4LVBuNEhweVB5elExSlMzLTlTUEl0d1NRZXE1MHRhaXVFY2lQbDRNYTlCb3M5Q2F3NGI4cGtzaTgwbXFHRWZBMkJtWksxY2N5YWljOGZxS0FCUExEcjZjMzh1UkRKVmpkT2hJVDdmeklSLXQzVENIbnNjV1BlcWVsU3M2VFhmemF0Qm9DaUYyWDU3NlF4RnhjRTFtVzVaa3d6b3pJbg?oc=5",
+      "title": "Microsoft\u2019s strong quarter backs up its stock rebound. Here's our new price target",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQVJCTTBDSFBaamhVbEMybkd5YkRsU2lWRGNmM3g3bkltc1haem5tUE9aUGRJLXdjSjRiTXFKWV9zdVJKMGtGMnpKRjlPd2NVLVJab0stRmhacWMwc0wwMEh0bUEtUnhia0F0WlE0TmJ2WmVQTENibi04UDdDUDZ2NldUcWljaUtLZ2pabk5SVlJidFZ5Tk0xTmlVMVRRLWoyYzZNd3ZzQ1IxczZTYTRTWm42WQ?oc=5",
+      "title": "Microsoft stock jumps as cloud growth drives earnings and revenue beat",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWTlEYWFETktWVllsZGdoSTdfdWNLZWJsVDRqcXR6dHN4d3RJeldla0JFbm43bmV5X0hFdW5naDdwRVM3T092Zm4zYnFlZXo2SXpESjB6RkxENXFvZFBYVUxpSVNVZlRKdEhxclZ3RFR0Vkh4czQya2l3TG1memliQUdCWFp1UzR6Sl9sNm9kTUoyd0J6UEtV?oc=5",
+      "title": "Microsoft Stock Climbs 5% as AI Spending Undershoots: Is Wall Street Rewarding Restraint?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb0VxdVhWWDdTUUVZSTVUS3g1bGpzTFBNYjNaOVhwSXpIa1pvaUZzejJaR0s0WU1hcEdkYUt2bXMxcTdHeFJvQkJlcmhIREFLUXIxZ0hhOFBKMzRCYUd6RDRsdE01ZXItdHdRdnJIYWRxcGw3a2pXY3FCNTFfTHBpSkRHaXpRdDhJdmJfX21yWC1KR1RfSmVtMUlPSU5tT0tnWVk1ZmNmc1FPbzIwV00yZw?oc=5",
+      "title": "Microsoft stock is going higher from here, says Jefferies' Brent Thill",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSFT/history",
+      "title": "MSFT daily price history (Yahoo Finance)",
+      "snippet": "close 530.14 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

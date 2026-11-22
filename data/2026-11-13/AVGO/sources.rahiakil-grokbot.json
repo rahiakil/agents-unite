@@ -1,0 +1,125 @@
+{
+  "ticker": "AVGO",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-22T09:02:26Z",
+  "collected_at": "2026-11-22T09:02:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGF0bHBHVFVLQllub3poU29ZYjB0eGhLMGdOUWVwSWk5UHNOVTNwbE5oSGlEbHpQazdwUklLRHhxYS1nU2pIVzNMNElWMVBYOEJkX18taldPMDZKdTlZc3duSllBYkN6clJKZWw2MVhsc1ZqQkFGajM2NHJ2LWpUM0FxZUJOOElBdWE4ZXc5Zy1MbnFWdlBYdHRqSnZyYnhHcUcyTjlEU2JzSlFr?oc=5",
+      "title": "AMD Tumbles 11%, Broadcom and Intel Slide 6% as Chip Rally Reverses",
+      "snippet": "24/7 Wall St., 2026-11-13T16:56:00+00:00",
+      "published": "2026-11-13T16:56:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3ZRckphNlZ6TnVNZHBOdnRiNGw4U21oTnVHbEFfTTNYOWNLRXFvV2k0Mk9RQUVyUTVhazJ1NFdvajNoaG1TV2JmNE5rZDlFaUYtd05nc2xXMDkwNGhQdkNtMXVzUlRzU20zNXNqTjRMTjUwWnpDRnh5MVdrWTV3T0J0Ynl6ZHlOVVltWE9lOVAxTHE0UHB5TG00NTh3bm54eEx5SW9QM3FEbnl1RUtiTmMzZTlBMl85Qk11aUxlUzZDTXFXYzB6WXVVUQ?oc=5",
+      "title": "AMD, Ambiq Micro, Broadcom, MACOM, and Western Digital shares plummet, what you need to know",
+      "snippet": "Barchart.com, 2026-11-13T16:15:41+00:00",
+      "published": "2026-11-13T16:15:41+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYi15VW80MTdpcFBvTlEtU1NTTWk0NGRWUUs2eTJpS2tkbHR0VGVBdFltTS15eWpSRjRuVFRXQ0tuSVVOTlNEQ0ZKMlo4Z2MwYnpBbUEyY1g0VEl2cUFKYXpmVXNHSnR0UWZ6NW5ybjF6U3ZwX2xxdkJiMUdOVzAzc2YyOThvN05OOC1ZRVItSXNfQ3JtWUJYbElzZmhuUmRUOGc?oc=5",
+      "title": "Broadcom Stock (AVGO) Falls Nearly 7% Thanks to a Downgrade and Price Target Cut",
+      "snippet": "TipRanks, 2026-11-13T16:11:24+00:00",
+      "published": "2026-11-13T16:11:24+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQkgyVVRheE1zTkhBOUFnZFBMbm1SSnFoTXhHZGd3dFFjdDBuVmlTLWRDOUc2S0xyOFhCV1VVbUVINkpKbnpNWGhPd0tpeW5pdlRNdkpvVjBTTVdvV0llUWZlYkxZWWQxcHVVTnZnQThzejZ4TUZ4TXNvSmpYbTA3ODI1UXd1cmFoN2RLbjZld1RTZm8zOEhmbVhoYUltTEF5RzVsOWNMYlFfZEdiemxKekpwa2NSYVdvMDZ2T3R4STdtSi15WGIzUFFHSXUtbW03QV9MWWtvZnFjUmZp?oc=5",
+      "title": "Broadcom's $230 Billion AI Forecast Rests on Borrowed Money, Analyst Warns",
+      "snippet": "ad-hoc-news.de, 2026-11-13T16:11:01+00:00",
+      "published": "2026-11-13T16:11:01+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjFtdTNGQk8weXNnMDJJQlRwUXlLRG00d3pYZFpXalpmVjQ3UEJvWXhfa3FaS1o2YS11Z3lSWGVMdjE4RXNOVms2c0ZWdHNZQjdzMjFKU0I1ZFllRW14NmZzSm1GT1RDQ3Q3aWxfeERra1lyMEZ4R1FuM3JJLW1LbnFGazEzTzNjcUdMWHdCZ1pobUVCeWkxZkgwZVR0QVJNSzc3TVJMSG9wZDRkaDBvMWNnSWw0RGEwTlE?oc=5",
+      "title": "Broadcom in focus as Rothschild downgrades to Neutral but flags potential upside (AVGO:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-13T15:45:50+00:00",
+      "published": "2026-11-13T15:45:50+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlhaT0FnVzVKWFRNQ2sxcWhicHp4TzVheFpjUjZxN2ZwNXlMbWNkVnBtMlVXS3BYcWlUNFpVZ0xrY3ZWNEZoWEpsQVVxdHlxbHlZbHB5MnBnWEc1T1RScUtSbURESGlQRFNneTdJMUQwT0w3Tnc3Sk8yVzJHc0pWbUF0cUNZa29yazE3OGVyNmU3MURrd0pDRktycThDTWdmbm1kdFF4emYxQjYtU0E?oc=5",
+      "title": "Is Broadcom Stock a Buy After Its $43 Billion Anthropic Backstop?",
+      "snippet": "The Motley Fool, 2026-11-13T13:21:02+00:00",
+      "published": "2026-11-13T13:21:02+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQckl6dDhhR0NSTXpsQWNQWUZDSXM5UDQ0NVJDS1ZXMnpJWXZ2ZG1pZC11eHZfdE5vOWY2V01ES3JlbWpkaXVwMHl2eVpGWWFBT1czUHpJNlQ2RDJOck9jNXg4SlRIUHh5UTlTTHdPeGV5cDhRLUtpOGdIaDJfbU9zbU1aZWpuSWlNUlNFd3BxdTVDdk1ZSlpIUUR3cHNIM2FQdkcyWllBWHFKS3RxbHpsZ0hfeGptUVRPNXdLcExoZG5QTjRLX1FB?oc=5",
+      "title": "Rothschild downgrades Broadcom stock rating on AI financing concerns",
+      "snippet": "Investing.com, 2026-11-13T08:22:22+00:00",
+      "published": "2026-11-13T08:22:22+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWGdNTV9GSGFkZXU1a1AyUDR4alliZUw0NmhMVFBXU09BU0xGY1hjNEJKTmxHRkxTRkNVZ21QTXZHNnJQZ1BhUzF6LWhmS3ZFR0wwbWZFR0Z1RG5laDBBS2QxaV9UZEVFLTY5MmwwMG1IV05WQkR0aG1JRWFSR0RXQTg5d2VOMVlFQ2dMODFvNC13MHFieUY4VmdfWU4?oc=5",
+      "title": "Broadcom Stock Just Jumped More Than 20% in 4 Days. It Has Done That Only 6 Other Times Since 2009.",
+      "snippet": "Yahoo Finance, 2026-11-13T06:24:00+00:00",
+      "published": "2026-11-13T06:24:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcnFVR2ZJYjllRm1JQlRKLVZuZkIzczQ3VjRBMnVJUmFNTlFQVWxsVS1CVUlrbWdWNDVmUTJLelFwWThkeUZBdlM4UjFZU2RrS1c1Ti0tVlNZdk5uWTFScUluaDJZcWRmeXhKRUVFWHQtUDkwdnc4RnYzYVc4dzk5WlJiQUxrS1BhVDZzV0lsVGtYTlpLaHluVzk0VDRtMUY1?oc=5",
+      "title": "Why are Broadcom shares soaring today",
+      "snippet": "StockStory, 2026-11-12T22:00:34+00:00",
+      "published": "2026-11-12T22:00:34+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbUV3Mk1lS0V6YVlNMFBiTEQwdVlSU2Y4Y19XbndhRnl5RlJxV3lndDhXX1BCbGJycVdMdzBfRnRINTVEVFdfelg1SHVlcG5aV1F2Vnl6MFBxOGRGaE5xVXVlcG5PTHFoc3hmTi1HZzRCUC12NFh1RUYxc2FEa2FrNFVsWFB5SVY3MUcyTC0tSFhRNWlPX3Z2OA?oc=5",
+      "title": "Nvidia, AMD, Broadcom: The AI Stock Winners and Losers After Jensen Huang\u2019s Ousting",
+      "snippet": "Yahoo Finance, 2026-11-12T18:06:03+00:00",
+      "published": "2026-11-12T18:06:03+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AVGO/history",
+      "title": "AVGO daily price history (Yahoo Finance)",
+      "snippet": "close 347.01 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

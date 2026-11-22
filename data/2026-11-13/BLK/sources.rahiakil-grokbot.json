@@ -1,0 +1,125 @@
+{
+  "ticker": "BLK",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-22T09:02:26Z",
+  "collected_at": "2026-11-22T09:02:26Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPS1c1UlhzMVQtcjU3NXFFX1RsQnY0ZzB5VG5wNlhDbGhFeVBpR2RBN2FxMDQ1V2thTVpvczhJaFpaNDdfeXdyNnB6Tm1JYnhpZlhEalY2R3AxcmVIM1RleTZRNzVHV1lLWmhzWjZzRS1JU0dWbEJwVlBIYnQ5aHJFSVRILXRlV0VxalVrZU8zZWlYb3NQVHQ4cE02eFFfSmFldXBIQ1hTeTlHQjlKUlFJc1F0VXotR0FnQWNWT0EtN0xEWVlXR1VzRTdtcERiZlFya1BlQ0VFMXo4d3ZpTVgxaVUtZEFRdkowZWJUb01ZM2NUa3A3QWcyVFhVNzU1dw?oc=5",
+      "title": "Minnesota Power seeks 17.8% rate hike after BlackRock takeover, just one year after advocates warn of higher bills",
+      "snippet": "Investorideas.com, 2026-11-13T17:27:00+00:00",
+      "published": "2026-11-13T17:27:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWnBHQXNCalIyTFJSMnQtZ2FQUHdPeFZfWWR4VjhjSmpwbGNza19GdEFwMUhrcXM1Y2NjZlRINkxhSHdWc2I3RmswWkFJTjFSQXBBaWY3bFBwOFcxRG0xWndGLXpvSElNZ3ZBbFJKcTc3NDZxYTY0eHVia0lVRkVtM1NJOFdULXBRQVplRjdyLXVhaXd4eUtNSGpiSkJ5T3BUenJINU1kemd6dXZ4OVE?oc=5",
+      "title": "BlackRock Shares Soar on Record Inflows, AI Build-Out Raise",
+      "snippet": "FXEmpire, 2026-11-13T14:13:20+00:00",
+      "published": "2026-11-13T14:13:20+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcHE1UnJ6dVNfWUxVTTItR0FncWtWQ0VlX1pVOFo5MGRQLVVwaWx4SHNBRVl6ZjVTejhTM1c3Z1RCX056ZktsU21JcWR0ZWpoSHRLcFJqNzFteTVrOXliS0RyYUJ1OGFsb2F3ZmJiS1BGVnlyLVRqTG5OVlJSOEV5OE5ndDYwdjFKcm54d3RGcW5MLUpMV0RrdQ?oc=5",
+      "title": "BlackRock, Inc. (BLK) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-13T12:46:12+00:00",
+      "published": "2026-11-13T12:46:12+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNmhMdDg5Q1V0QW5qMG1RdDIydmVXTEg1Z0xETGM4b1h2MWc2bDJHbVpPTDJQMDJDRFJ4Rk1naER6X0M1dXhTUE1PaGh6N19KTHZfTXVlTW5xWTRuQ1Y3QmFISnhCekl3X082TjNfSllBSlNaS0ptTDZhbmUwZnROUW9SeDdmMTN3YlNYZkN0V0ZuRVVaRVBydEp3OGZkZ01oTFk5TUVlYW56V241ZkxoOXA3NnBQanJyV1hrQWFNVzhVdC1GMmdnUzk4TUlFdw?oc=5",
+      "title": "BlackRock senior managing director Rachel Lord sells $8.5 million in stock",
+      "snippet": "Investing.com Nigeria, 2026-11-13T08:27:04+00:00",
+      "published": "2026-11-13T08:27:04+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM3pRSEZDYWpDUmpEVDVjUjE5elE3Rzk1MHdCQzlVMVJ3OWYtNGQwMFZsdGs3NlFRNkJOM2JRb2E5RVFLLWZqbG5ocmpKUlZ2UlhyRXp3ZDJVWXpKcmlPV3ExM25lRDBPZlY2MGhlZDNEb1FEY1NvOC1uVEQwQ1lFUE5TT3JPSGpDb3ozS0x6T2o4SW5teFgxd1ZHYTA4QkktU2thRW1TZGoyM1ZGODFwb2xjMHIwQ3ZE?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning BlackRock Stock In The Last 20 Years",
+      "snippet": "Benzinga, 2026-11-12T22:00:19+00:00",
+      "published": "2026-11-12T22:00:19+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORncyeklyaUh2YzNVUnFlcW5ieWcwdWRBTEFDODMwUmZTb0dkXzM5RTFFZ0lDYVdYTXJhczJ6TnNUTXk4cEpjc2doYTNSLVJCV2owekc1SmJZbUJBaG5pM2J3MEVsVzdPTzBHYlduaDFHeV96WDFfNTBCM2pSRzlCaHFhb1FOODhDd2k3MjFJaDdVQVpmby1vOFJhZzl6VHhVcHEtSWNCeGs?oc=5",
+      "title": "BlackRock's Private Markets Expansion: A Key Long-Term Growth Driver?",
+      "snippet": "Yahoo Finance, 2026-11-12T13:38:00+00:00",
+      "published": "2026-11-12T13:38:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSFdGbVBBTXByd3ZNUDlkTzN6cU9JTzFuVWV1Y3pLLWhtR2ZaSHl6bUlGRzkybWI1bEZyNmZPNW1RTGRrck1EUEpsMDZ4WUtlbmpPMnJKdm9xQ3FpNWp6Sk9MejdTUF9PUksteTFidzg4X1U4Z3JUdmtnTFJDajB2c19OV0c1N3BjSk1JaGZNNTRjQ0h5aHVMRGVKZHBrZjN0?oc=5",
+      "title": "Blackrock(BLK.US) Officer Sells US$8.54 Million in Common Stock",
+      "snippet": "Moomoo, 2026-11-12T08:00:00+00:00",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObTd1QmgxQjhMbFNzN0RfdDk4dk1RZFRIRzEwT25fczVlVTJ2ZFVxVTlKT1Q4M0NUMHpaVnNfcm50ckVGZXVCRl9UUWd2UlhSbGVRTG9MdGM0OFdoMUZVNVZILTM0SUxpOFZvX2JZZ1F0WVhvU01MZW1IRXNMQngxVEpWX0wydFQwalBwMWlvVTZkbHRzODlyZ0R3dGpsMzVOWkE?oc=5",
+      "title": "BlackRock (BLK) Draws Bitcoin Inflows As Safety Fears Meet AI And Canada Push",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1RGaE9JaENMYVFoNE5NNEJQRE1IYWhrUzlxMmFMS0QzX0NZUm96bGg2ajhnQUdtMmpaNGlhZzBDekl5Mkd0a3R0ZDVmaDN1UFdIbWpkZkl1SXZDZFpmTGt6RVBZRWFXUnJFSGtZZDItNEh4UzVya19CUGx0QXBUTzVLRzl6MWlwU210ejd4eS1tek14aEc4M2hhSEpIakZXZFhqQ3lMQWZvYi1XR2c?oc=5",
+      "title": "Major shareholder announcement - BlackRock, Inc.",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTEpzeHBsUmk3WENZdVpmbGM0M055RFVRaVJHYkRPYlVneHpfRVVobVBxQmtzejFBTVBMdFFvRkRTZUhqTTZEWU9aeWc2bmtSckpkbldSRjA4M1VnLWNPallVS1A0LXZYUjR5emQ1aUlrYmJULWp2OTBIc0EtcVRLdGE2LV9TYnd5YU5zMWhNWDZiSlotcHJKSmdJMDJ0Wk1wd0RMTlV1Umc4WVFLZWtjRXpOSHhJb1h2UXhZZXdTMkZHYjNxd19JTncwT2RxTlJKMVB4SG130gHbAUFVX3lxTE04akdMRE1aTElNVHBJOGRVMFZQeXNacnU0MFdsMThnR0dGaTBvem80NFliVTBFb1plTjlnX0paSjZ4V1JybEMzaGtOaUNSNXRydVlsdmRzbW5FbUJvQ2h5ejl4cnlTTl9zYmhiX2JYcFNabWNqQmNXcTdLLVlHQnR4YVFjQ2N2U1N3bTdDSkxWMjFaMjB3c1hlUXZSRjlNWlhlZl8zSGhVTE1CZnpXTXVKU2o1MkdMdnZ0VG5kWDdlZUpnUGYzckRWUFlCNWN0dEo4Ul9hTkZ5TkFORQ?oc=5",
+      "title": "BlackRock (BLK) Stock Stays Reasonable Following AI Debt Financing Comments",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BLK/history",
+      "title": "BLK daily price history (Yahoo Finance)",
+      "snippet": "close 1222.91 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

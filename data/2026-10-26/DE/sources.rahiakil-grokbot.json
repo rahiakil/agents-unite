@@ -1,0 +1,45 @@
+{
+  "ticker": "DE",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-22T07:33:43Z",
+  "collected_at": "2026-11-22T07:33:43Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSUhCanA2TE9tNHZSQTROUGZ1Zkt1U25OdHRaNDZLWHk4U1JPMVJua1ZIUVNtRUtkRmltajRIdm5nSUpqeHZNZ3pTV29wMFNlVlpyalFxUG5mcGcyU1FSZW9GMGN6TWVNYjdjU2ZxZ2JGN09UbDhYd1lnQ1Q2SkZCMEdfTTktYU54Y00zdWFLSzBmU0pjNVdCWkpDVERrV1FiZ3c1Rjd3alZCQWRYOFV0My1uM1hnTUNNVnFv?oc=5",
+      "title": "Deere & Co. stock trades 0.28 percent above its Xetra close",
+      "snippet": "ad-hoc-news.de, 2026-10-24T07:00:00+00:00",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOXZtX3lscGlYOXltVW52NU1QcGtkNjFMVWFqZFJOR3hHdk84cHNxdUhrYm5rTzhWaDFNR183VWl6ZF9NU2Q4T3UzOGowZURiRFlnaGQxUG8tRjRBMWh3THJCajhqOE1aeW1zNmRHNmRkMUlZUWJjQm1zNUhyYWVTNlk4dkloY0wtaG5jODNrWGxBZWpuMXJxYmRUcUlNWVU?oc=5",
+      "title": "Is Deere (DE) Fairly Valued As Earnings Near And P E Questions Linger?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DE/history",
+      "title": "DE daily price history (Yahoo Finance)",
+      "snippet": "close 641.25 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "RTX",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-22T07:33:43Z",
+  "collected_at": "2026-11-22T07:33:43Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZms3TUVHYzlULVdKaFFlUVhQMHdkUmo3ZG9aMERRZk1iVHpQclhVcmFOU2x3MUlxWEo1Vm1KS0NuMFZfRHJxWmNheDZreTVRN0RnclBOSkljd0NERXBEQkJjd0kxaldaLVJabXNuc05TR1kwbDl4QXRLSG1VLTZwLUJKQnlFeWZ5LUR6dUI3TEY5al9xWlA4YnBFbEs?oc=5",
+      "title": "Lockheed Vs. RTX: The Cheaper Defense Giant Is The Clear Value Win",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RTX/history",
+      "title": "RTX daily price history (Yahoo Finance)",
+      "snippet": "close 197.48 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

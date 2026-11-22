@@ -1,0 +1,35 @@
+{
+  "ticker": "FCX",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-22T07:33:43Z",
+  "collected_at": "2026-11-22T07:33:43Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX2V0WVBHbDJubzRIOTh6ZkFqNEstN1BsV2JPMlFVM1h1SHhXRmZBX3hiMGxMMERyZkQzWkVkbVc2UExuN1YxdXJHUkt3Ql9jWTdxazliVDVPSGt1bXROcXRrdzhzd25COFByMkRUOWlfc3Z4c3Z0YkN4SDFvbTBKNC02bE9jYWdhWS1yOHNiZkFjQ0xUR2tyaGd0QTNxVXpTSzJheGl3?oc=5",
+      "title": "Southern Copper Sinks 7%, Freeport Down 6% as Copper Slides Despite \u201cRecord Highs\u201d",
+      "snippet": "TIKR.com, 2026-10-23T07:00:00+00:00",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FCX/history",
+      "title": "FCX daily price history (Yahoo Finance)",
+      "snippet": "close 65.16 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-120b"
+}

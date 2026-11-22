@@ -1,0 +1,125 @@
+{
+  "ticker": "TSLA",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-22T08:39:29Z",
+  "collected_at": "2026-11-22T08:39:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ1dRLUpmUUpaNWhBSmx1d24tR0VzcmQzN3paWThYXzJ0aS0xSDdBSUoyemxLQlNsMEdYS3doWjlvTE5TZV9JVUwyeGxQTFVuZjhYMHN5TWpmRjZ3a2tqZlJxeWM5Znp3cmRoYkJIZFhEN0QtWWJKdUs4RmIzZWFrQjVB?oc=5",
+      "title": "Is It Too Late to Buy Tesla Stock?",
+      "snippet": "The Motley Fool, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYlI2WlJGeUhDdU9GRVVMQmljRXNFSWYyRmY2bFVsRmwwcmlxNWNacDhhZnZWUjBkNHZRTHVVZVhsbXhFdXJYOFhHVzJybHdDWjMzM0c1b2hHRmNNV21idk1FWWVQNjBzSTBUeG92b3BrU1BBUFpQcEVDQmdaUlBldkhWWGpqVWpoWW81c1FmUHB1QUppT3pJQ2ZOdw?oc=5",
+      "title": "Why is Tesla stock rallying today?",
+      "snippet": "Investing.com, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pT2tuZE1GekpnV012aXltMkVZVVE5Y0kxamZ4Ukd1Nzk1NXFHTjBDTG1rNmpCSHg5dzUzUXA2TWk3d1FBMVluWUVadDdCeTUzVU5zTDdFMXBqQWhHQzZxWHEyQ1dfenl1clB2OV85SVFEMHF1WnJqWUtjb2tZRWM?oc=5",
+      "title": "Tesla Stock Thrives on Key-Man Drama. Nvidia Might Not Be So Lucky.",
+      "snippet": "Barron's, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYnJiV2lDcjFwSzVsaHhzSnpYRzZTTGVtb05hc19oN1hCVmtidWJob3FNU1FYcTBxMC04Qk9KQzY5a0pFeVJyWmxmZ1cyUlBrTXVTaFlpd05iUEh6Z2pFSWxPdTQ1NTMyUExFVjBKVTRXaHdnaFhnN0ZXa2tXb0xMNDdkS1lSRk5DaWFlQlZn?oc=5",
+      "title": "How Risky Is Tesla Stock?",
+      "snippet": "Trefis, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcENsVFdkWnREYjh0cmtpR3hTTFNKQUxYbnpzRHFmRG5MSDNuYW5qN3RZemNmemEzd2wxNkJqc2JCeWR6Y0NjeGd1b292eGxJUjNBN3d0bzBQaERsTXVnczV4dzNiN09VZmtmT2JhbkVoVF9TWDlMSG9OeDlDSDM0UjdqTks2aUFESGF0WTd4WU40YTdZWEpDcUt4VzNPQQ?oc=5",
+      "title": "Is Musk A Risk To Tesla Stock At $380?",
+      "snippet": "Trefis, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNXNoZUZsYlRuOWRWVXZWcDBuNGxsOGV5R0dkVDBuLVJONnFCR2RpVnZXU1I0SVBIQTlXTHcxR1FZVzdINktzQ0ZRNUdPQmE3RkpEZ2lsV25hMmJsOUd3bW9XaXc2V0I5dUFtV3BSVjVlMy1sanRZaUs2YVhRUHBRczc1dTZfVDdxMU40b3dRZFl1aFlmOHNZaA?oc=5",
+      "title": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
+      "snippet": "The Motley Fool, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTFdfMTBpX2FVSGZobHAzeTFZcW5LVmZTTHNWMjdZWGF3cVJhOXlDOGlDcFlzaFlIM194blJLWFlRSGEtM3U5WmMyM1pRQVhGdXRwYWJZamtRelNaalBuSDIxUE8tTGhIX2p5N0J5OHM4UFlvb1VwcEZSSFBNd2lrRzZ4TFlkVlZrZ3c0OGoyZjJzOFh2MGFMTkZUbGhEMV9pMkNkelJtX1lmaTNrZWxLa0dZcw?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning Tesla Stock In The Last 10 Years",
+      "snippet": "Benzinga, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNmhscHdEX0xNc1FjQ0d2eFFpUWJ2U09Zci1EOHRVSXZibGNQaUgySzJxbVVHd0FwTDdyU1lOMWRNbGZDd1UtWjREOEFlbnpUQnoza2R5cXpmZkwyV1JTWnhVT2I2WThoejBvLVVncFRIb2I5NUhZNXlyUzEtM3BMOEdCd0hUWWRWU2l5cmxWQnE?oc=5",
+      "title": "Tesla Extends Cybertruck\u2019s Run. Its Driving Software Matters More.",
+      "snippet": "Barron's, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZTU1NFdLSmNvS2NteENTb013VEVCSThDYTZSTFFHZHd4SVJtUDczR2MwbXJCYXZLUURGYUJmcTVaSDdQbXpyWlZHZXYyR0N6Z3FTTXI0ZjVUT2RicjZ4MGxVYy1EbjdsRUtVYThKTHZ4ZkpvVEI4VWx4eDBSeVBwUjZaUmJNckZYWlFF?oc=5",
+      "title": "SEC settlement closure and robotaxi launch coincide with Tesla stock rally",
+      "snippet": "Traders Union, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOC02LTVJdlgtMVZoaVFucXdFODlOVDRmcHpOY2M4RWJaYTZfM29lUk5Sb1M1czhIc0xJRlVBMXM3NUw3OVV6QTY3LWRFTkR3XzRsOHdhV3UzZDJMbDd5Z3lQSkFwMGV3M000SjA5TDJuTTF6V19Sdk9EM05jTU55MkcwNFdQczlrWkpObEo0ZF9xMXVEMkM3ZG85RVZRUVYtajVGc2Q3eVU5UEtWWW1mVzNWVk1OcFhmSDV1SkctSTZfZGpQS0tTMHA5dVBBY2FUWkpFTWt2aTVwSXZyMkNWZFdhSmZxY3dfS3c?oc=5",
+      "title": "Elon Musk Just Put a $1 Trillion Chip Bill on Tesla's Table. That's a Warning for Anyone Holding 1,000 Tesla Shares",
+      "snippet": "24/7 Wall St., 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSLA/history",
+      "title": "TSLA daily price history (Yahoo Finance)",
+      "snippet": "close 397.45 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

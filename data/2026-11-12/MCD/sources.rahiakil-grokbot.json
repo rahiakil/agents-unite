@@ -1,0 +1,125 @@
+{
+  "ticker": "MCD",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-22T08:39:29Z",
+  "collected_at": "2026-11-22T08:39:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYzF3c1VHQ2pvektRbk5ES1piaHVoQnl0RVY0YjNNb1V2LW9YdjlKNU9aNExUVF9pdVhwVjM3SXFCUjhEenNfallvS3B5cS0yWkRaMWthM0dZSnJ0WW9nMHlNelhyRllMWWpBTG0wRnJ2QnI5dDFiaVhWWW5DQ1NrOWd1c19UcWVNUkNvcEdyUzUycFhLRFFlTk1taXBtOWYyNUx6T1NQUmpNdzA?oc=5",
+      "title": "McDonald's Is a Dividend King With 50 Years of Raises. Here's What $10,000 Invested Pays.",
+      "snippet": "The Motley Fool, 2026-11-12T18:00:00+00:00",
+      "published": "2026-11-12T18:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0ZGdThjZDhOZjdCZ3lvQ1pZc1NBUU0xUzhWbE9BLVYweWVYTW5UR2tNWi1WZzdHQnVlZ09QN2RwUV8wVXViMUNSVFFrek84V3JpdlExekc0R3U0RFVneFFBUXVFc1pyX3g4VGNtaFhURmNKTE9uRXZuTExNZ0dURURaYlVBZVhuRWtlaHlic29oRXBuZmhGWVRKa3RqM1lQZkE?oc=5",
+      "title": "McDonald's Stock Up 17% in a Month: Is the Rally Built to Last?",
+      "snippet": "Zacks Investment Research, 2026-11-12T14:21:43+00:00",
+      "published": "2026-11-12T14:21:43+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcmpYeDZjQWk0MzdHOHhkMFlVRUJWMFh2cWpLRXlHSWpULWlXNEdvYWpVTzVyaWNsVUI3NWY3MUxRcXZFbVNoaDBKSXUzYUFWc1A3MFA5R213SEtrS0NUREh5VnBfZ1BybzhCdlRtNTEzemtwNkpzcU5pY05jeW11anZvMURiLWt6VlFneFp4WXAxYVFKR250Q05hSzM2aFI4Q29OZHZSRzZVUi1ySVFxb3NEdjVpOXktMUxrTUE4djZmS2NVeV80aHNVYzE0b1ZBM29DSGJ3?oc=5",
+      "title": "McDonald's (NYSE:MCD) Share Price Breaks Below 200-Day Moving Average - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-12T09:27:54+00:00",
+      "published": "2026-11-12T09:27:54+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSV9Hbi1ZNGtnRk96UW1iZzNodlVUOVp1Wk0wcldMUkRoMEtURG5mSmZWaFlpeXE3cHh5X0ZnOVBYOHJBbHJWUTdwNVpuQzU0UDR2X090S2NnRXRvLTNPbE5qb2MwZ1I1b1dSTk9zZHRCVG5VZlFmWHp5Z1Z2MjdHUzEwdnBodjZkcW9HT09UQm5RUk5MazBReDR5SmFtWkppSjNvd0ZnUzNVeFJxam9aUWZwZ2RtV25NMmRBc2l0dVBFcUcyU0NEbUR0OHZtR1E?oc=5",
+      "title": "McDonald's Corp. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQnZVQ2NETFAzVXVQc1N4U0tLQ0l0SWdkamVWQzYycGpEcFZnMUo5TTE4YmtvQXFBamhQN3ZCZ3lOYlNmSU9DRmNFdnB3N2c3SE5YQzdWMnhiN0lmbVg4R3RaV3Y3TXZBeUIwdk90aG5obXQ3QzlVcWVqSEtlb2ZWRUY4aThHVHE3T3d3OGtXRS1IZGZOUEhYcm9JcVV3T2VUZWd3MXNoUFh5MVR0MldDa0pvVXg2Q2pIV0RybWtzSVYyZ280aFBIN2c5aEZ2QzA?oc=5",
+      "title": "McDonald's Is Now a Dividend King. Here's Why One Investor Calls It a Generational Compounder",
+      "snippet": "24/7 Wall St., 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTVZX3c2clJGeWdXQmxLeDJuWDBnRkNXNXJqd0lMeUY1ZzRjNDJ4TXg0cFhXU0hIdzJuUmNDekRYZHNGaWdVYmhJUERWTm4wRnNqcEhZMzdYSkZYSGl5WFpHLWdOTEFaS0xybWpRS21HTlVJOHZFVnRTMG01TW1EWm82Z0d5SlQ0bjNSQkd3?oc=5",
+      "title": "What Is Next For McDonald's Stock?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPazhKeVdGbEk5dkVLZTFiTnZOSFZQLTREV2wtN3J5cGs0QlVhdjEzSVVfU0pGRS1ha2lqZTFiZ3VBamFVSEdlN0VkTnlGTWlpcW5ENm1VLW5aX21LaUFLcmlCejdZS1gwa3dUdDR4bjR1aFhfSVRmbnlid3FvVGRvQ0R4bXpGeGpSVGVvN1F2cFZYYnhPWlJJWU9hakJZVFlBakxrbmNCbDRnUQ?oc=5",
+      "title": "McDonald's Stock Is Up 24% in the Last Month - Is MCD Near a Peak?",
+      "snippet": "Barchart.com, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYjQ2R09LVDFjb0Eya2xqZzV0akh0UzdTZ1hBTFFaSGFqUWxrclBLSGl2d29fdHNSdkxPX0tkU2F2X3NFZWJsM2RZMUxuTGd2Tkg5RVhaa3dwX2g4ek1YMHdBM3A1M1plOTBrMGhvQjJyRGI2aXJnUjRrNi1lcTZEV0JDbjdMNEllYWlZQTdUbFhkaF9DUkpOeW5VdzFRaTJMcVdNXzZtemdIRWxBd3BMZUJQTWQ0UQ?oc=5",
+      "title": "McDonald's vs Wendy's: What's the Better Fast-Food Stock to Buy Right Now?",
+      "snippet": "The Motley Fool, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYy1nZnV0Uzc0U082bjhiTkUzR2ppYkQwUkRMU1hQZFlwNFdsNXM2N09kaThfWlh6cjZOSFVIazZiZWhPSEFyN3dvVTZLS212WW42UVhhemtNaTNpZHM5Y2tFTUV5aFNSdFJqa0N3ZDE0el9jcF9XR0t5X3BiVVZNVEd3cGtxSU11bWE3NUZYQTlNY2RDeG53Xw?oc=5",
+      "title": "McDonald's (MCD) Could Be 21% Above Fair Value Following Its Uber Expansion",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmZ1Qm1aZGlRalZZZ2RNUlhBenRtWFgzXzFGazJTWFl1VlZpNGsySjF0M2hpckppcFFwcTlTZHgxZGFRYjM0a3F2V3Z2WXhheGlDOXgyZ1piMkxEVndaQ2stM3pSc0xTM2o5Um5IM3ZEaEhnYXVWX0ZOdEhhSWZ2bXdrZ0hEb21sYmNlbzVLU0I4bXBXUGR1VXB3?oc=5",
+      "title": "McDonald's Stock Rises as New Pok\u00e9mon Happy Meal Hits Restaurants",
+      "snippet": "Coinpaper, 2026-11-10T08:00:00+00:00",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCD/history",
+      "title": "MCD daily price history (Yahoo Finance)",
+      "snippet": "close 273.63 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

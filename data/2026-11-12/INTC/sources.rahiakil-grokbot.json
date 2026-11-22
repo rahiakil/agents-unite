@@ -1,0 +1,125 @@
+{
+  "ticker": "INTC",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-22T08:39:29Z",
+  "collected_at": "2026-11-22T08:39:29Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObUhWdFBfNTlBQnFFRTdfSzQySU1zZDhrNUZRc19QSmk1bDVYcFVmM0hMOWt0NmhTQjUtMlVUVUZUX090Y3NzSXhRODgwendJT29PclhvN0M5QjMwTXE5dDRRaHlmX0pZcEsya1hrSDk2SGxhNk5TTHB5dUZ2ZEhrNkVMR3A?oc=5",
+      "title": "Intel Stock (NASDAQ:INTC) Jumps 8% on Robotics Plans",
+      "snippet": "TipRanks, 2026-11-11T19:33:45+00:00",
+      "published": "2026-11-11T19:33:45+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS05lOGxjcUxTcXU0c0h1Rk9GMXdEZzZRSXFscHFqSktYTGcxVlJJMm14OFlEc1NjZTVZZVNERGVEZFU3TnltVE51TzZQb2VOckVtQ0l1TVVnZ1llMjZSX1MweFhrb1FHUFFlMTRNU1dSMDFYZDY1MGVaM3UwVGY0eW1CTGtIUXVfX0RxZ2xTZw?oc=5",
+      "title": "ETF repositioning coincides with Intel stock moving higher amid volatile trading",
+      "snippet": "Traders Union, 2026-11-11T14:47:31+00:00",
+      "published": "2026-11-11T14:47:31+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcUVUVDhyWUdzTzBHbHdnTWpVbDc0U2dKVVd1bHRRQ2pRZmpJendNZGQ0S2xGS1BtTTZRemhhRjFaSnVjR3M3M0hUbXZNY0lHSmlwSWxMcVhLNEdobUhsVHVXSXhqOVNFUjl6ZzlwZjBwRzdLZFZrYThYRWx3blhNcEFQY0ttdmc?oc=5",
+      "title": "Intel shares drop 39% after weak Q4 guidance bu...",
+      "snippet": "Pluang, 2026-11-11T08:07:18+00:00",
+      "published": "2026-11-11T08:07:18+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRGRkV2R5Q1JTaXBSeEdDckdRR21pNW9fZ0o4X2RCWXR5RW5Ba2dEQ205YzFoTkFFRTZYa2NSd2E3Q1QtZlpVMjhWTGNoRFVVV21iN09XaUxNUW13UU9fMUFJbVVveURMRlpjdEJrblI0dnRITDJJUjNOaldzY2xydmk0VVREcF9qdXJEZXdLTl96QWFWeFBBZFpsWXBCZw?oc=5",
+      "title": "What's Going On With Intel Stock Wednesday?",
+      "snippet": "Benzinga, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ2M1VWtmOXc3S1o5clMydVcxX3lCSElNQi15VlMwblpxbUdOMk1jX1dGU0dpb1hia0g2aElIOWFpSjMtQ3UtTTYtTFBRT2pDUnhVZGwtLWladEJ2QVhrTHBWN2V3NGNiLUpOOTRFWmZWWENQblN5czdGSmNaWDF4RVlSakIxUWRCeVp1b3p6M3FXM0djc1JrS3JHYw?oc=5",
+      "title": "Why is Intel stock rallying today?",
+      "snippet": "Investing.com, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb29rdmJ6Qnp1dHFLOXBoWDFraHU1R2NmRHpRV2JzSGpubXBVODdwRFY4T01hc2p2ckVGVloxLWVBeVY5aFdnaFRTTDZDU1ZDQnEyRUpOTnpZNkw1UVBkYlJYZHgwTXVDQWJPZXJKZzdLWFIzUDl1WnVINjZ3SS0wMkt0ODNFVi00aXdjVl93?oc=5",
+      "title": "Intel: Why I'm Turning Bullish After The Crash",
+      "snippet": "Seeking Alpha, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjBXUWtaYnpidEkzME9TZjRDZFExQVlvNHh3ajQ2cm9hQ3VLa1FubWVjUWE2UEtCTTJIX2dVdFdlRUFDLVpLRG1hZjgyc2daZ0FGVHRwX0RzdUpZSnJPbEhMVzZyWFB4S0FFQ0U4RE1udzhuX3FOelpHYVlHcWlqUVNZTTBfejVGUUhLdG1RYXVDWklWUWd3?oc=5",
+      "title": "Intel\u2019s Turnaround Could Rewrite the Stock\u2019s Story",
+      "snippet": "24/7 Wall St., 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMUE1TDdkUnhEcm5kNTJDTnJLakhaYTZOVWJNbXc0bTZwODgxMlNUS0VncndCY3ZrZkpzRlh3b2RGaUR5MWhrOHdycl9qQk14bXlmNDUxaC1jNTVGajBiaTY4NTVQSXQ1U0Uxd1dLNDRpRWN3QkVfQ2xlUjdDdENPaWxnYmwyOVp0bU41SWg3d29fSUItbFYyMQ?oc=5",
+      "title": "Intel Stock Faces 87 Million-Share Risk After SoftBank Deal",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVkZWM21RTVZIOG5CcnE4UTFnX215Rk1PNVAzc0V3RUZVaTI5aDM5WTkyclk4RlNmaFNVaGVlT1J2MEZmSFBmLWp2WUZwUnhOZ2JIQURMUzVqSU5IaHdxbnBaSkVRdU9JNWlTeHFvbG1yaEVUUTJpb3dGdVBWR2ZoaXBXVm4zWTF0ZzBDT3pVMmp3Sm1PalVBZmZWOTY5ZUNRbGpieEtHLTBucnJaYlpFdDh6NEhnX0RNNXliZDlSLTEyVU0ydFpTYkRMZTlDUXRBaG4waVY0X3B2aG8xOGlDckVFUFZfeXZYajNTakhKRDVRbkZmZHRKTnpOX0ZiWWpobThHUTlkYw?oc=5",
+      "title": "Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks",
+      "snippet": "The Motley Fool, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTXpSdWVYaGJoc3o4YlR1bVFuZ29GemZJSG82ZlFoY21DM3hPdzNlN1NWTjczLVhrZnh6dFRraFY4NW1mZHRGWXplN2VBaTVRWVFZVkRVZ2JUUXNHemppOFppMHdqVzNDTUx3UTE4UXRiSFdYVG1fYmdLSDlTYXJJVzc1cDFTeVhlNXhla19qWmRiXzB2eUp2RDRTVDVzZHNVSXlOZWdSVy1paThHeGdVQw?oc=5",
+      "title": "Intel INTC Stock Recovers 25% as CoreWeave Earnings Boost Chip Shares",
+      "snippet": "FXLeaders, 2026-11-11T08:00:00+00:00",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/INTC/history",
+      "title": "INTC daily price history (Yahoo Finance)",
+      "snippet": "close 61.2 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

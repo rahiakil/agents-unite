@@ -1,0 +1,105 @@
+{
+  "ticker": "UPS",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-22T08:28:51Z",
+  "collected_at": "2026-11-22T08:28:51Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ2V6RnJwQ2pYUXNQNXVQc0oyT3MzbFZKNjBnS2doZktYdDJSbHRMQ1hnN3VYZ2YyX2dYNlBJVzRSRmJwZW54YTh5Mk9NLVVOampScVhybmxZenR6dm1vYzhucFlEU1pYMVlpeXpfUWp6dlJoV1lOX1hSdkxvcG5RZDFRNmp3TzBacHJ5SlVmeTdBSU00TWVfSkt0LWViSTJ4d0pWYnJYSVItN1RyN2lTNjVMV0VYWC05MlFzR1Jzb2t6eXZwRDFsTFVIaVBZTjhIM0l3X05qcnE4UVk1cFZn?oc=5",
+      "title": "An $850,000 Portfolio in Verizon, Enterprise Products and UPS Pays $51,000 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+      "snippet": "TIKR.com, 2026-11-10T20:33:36+00:00",
+      "published": "2026-11-10T20:33:36+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQXzlVMGF5dkdydFRTVGlSbWxKczZnaVRwNldrWVpoQ3pFTzlGbk5iSlFXQWdkVTJkd1NwaDVvVTFITnZwaEI5RUJDTlFGMjlLbWxiSURabEk1S1JPaF84YXVHakNKZGtDMWRMLTZWZ0RCb2VXYUpwLUQyQ042LU5fUGMyYTcxd1dfazBmX1VCY0ZwRXZnaGFpZVBmOC1qdDRUdnFLazBBVEhMRzlfZTloZFlOVDJHcUJl?oc=5",
+      "title": "UPS stock enters holiday peak with higher 2026 outlook",
+      "snippet": "ad-hoc-news.de, 2026-11-10T13:25:53+00:00",
+      "published": "2026-11-10T13:25:53+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQXVhUXhoRGVCb1lzZXNEZEZQX1IzVUFtaXI4c1RPTjNZb3kzSFhUUHpqMUxHSGkwblMzZGd2WTVzTnh3YnBobWpsZnNRRExjWi1CVEtrOExLSXBXNTN2eE5qUUlMX2F2eXVBMDQ0Q1hIUVk1cVdQWnJxTjk5Ym9PSkdfWXZNVVNjM09fSlpR?oc=5",
+      "title": "UPS (UPS) Stock May Be 46% Undervalued On Fresh AI Data Center News",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWElOajZ1OW9TY0ZLRnNwRDNUNFJkS3lXT0poZmZoZHhIaVljZmRhSmM4WngyRlJSZFhaODNIUWU1MlI1OEZkUjVYa2t1aVlrdzFZN2JVNk1pNVhlbDJzT2RFN0tEWkdCa0g0UHBJZm1JMGdvaUlTVFJWVWFnYmNFQl9PMF8weExma2h1VkFfVjZxMUpSd3V1UG8weEFyQU11TzVsSXhEdkpQTDk3S212NDJkZTdPYTZYazZLQ29RWmtURkla?oc=5",
+      "title": "United Parcel Service (NYSE:UPS) Shares Climb 2.4% - Here's What Happened",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVG4zR2ZYWl9FaWoxR2Z3TjVwWlVvUWs2ZjlyYXRBb3c1WnBYbEpjUkJZcV9hZmtQVGVtYXJ2Szd2eFl2UDVSdnhkcjJKR191SDI5VDFZVmNFNkJQakxITnR1V2E5ZUR0WnRsYWIzZEk1ZDFwa2VvS2RBUVM5TzRkMDhyNUphcGs3MjVGR0J5TElFSkpsaXF6WlM2UUpyT29XalZpaTJBTGVxWDgyWm9WVXk1NHVCUGlyWFNFeHVHZUg?oc=5",
+      "title": "UPS (NYSE: UPS) in Talks to Acquire Smartways Logistics for $600M Amid Dividend Concerns",
+      "snippet": "GuruFocus, 2026-11-08T08:00:00+00:00",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPXzlBanZJWHEybzVOdFdQMFJPZFNVTmJVNUNWVFVBUjZLMEdlOW91ZzZoX0w5SGxobUw5UVBSYkloX2JocFpKU183MGNLVWNoNFY2T29fYjlEWkcwN2FUbDhGQnFubjBzVEhxRWpWR21SUFM3V3QwTU9qMWxLOURyRUowd0pLNUZuSDl4TVFkWmRjZ244V2VaZk9HZnBYZWNrWld6Tmswa245X3RoWmJqSy16aWl1TU40cFZod2doLXNfek9EbG50S1h2a0YxZ0p2bktybjVEUDlhVVpBeFlzVVhFUkR0ZGQ4ekZKRlJhRW5SS254U1hhRWRVZ09tTXFlN3hheTViVS0tYUZKODFFZ0M2TVZmb3Ywc2t4UnB4SVR2WDJZZk5Nb2RaZHo1X2x2TUhUREdyVjFLTlBPNC1sQklLZmRMZGE0eWd3ZnhKejdheWdUZXJRY3JqbHlnczVOQkhF?oc=5",
+      "title": "After World War I, He Took A Job With A Parcel Delivery Company. He Bought Company Stock Every Year. He Retired From UPS In 1952 And Said He Never Made More Than $14,000 A Year. 39 Years Later Theodor",
+      "snippet": "24/7 Wall St., 2026-11-07T08:00:00+00:00",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSFhXZGZ1WWpzRFBIN09UbGdmVFA0TDFpR25iajlvZjVqQU55TUIwUWNaNlBxWUxBTG1WZ0RuenZ2d0xaTUQ1NmFFSDdTZlotS3N0czlrRmlBMU8zQ2V1dEJPcGtYNXlsUXJWMEh1M250YmhLa3NLQlN0ZmZmTFgtRlV2Ykw5TW5VQ0tyWmpQTEtoZWgtWG1lM1hJNV9vY0tVX3FwcDZlbHdLMXIyNXB3d19aMDVsbHl6UndRQTliMWtfOWwtWk5mUk9CQ1QzUFdXMk52TkNzTVNBTG_SAeABQVVfeXFMTUxDQU5QeFFSbjBPRE01d0tGQkhJamJPckRiWGhkRVM1dkdrUERZckRkbG1BLVF4YzhVZEd0WmpBMmdGam9MNGNwWnlBdkZrcDV6dENyMW10NEZrME5laG5IbEJhcnlPOFBuV3FaVXNJYzFpeVdscG1iQllNdTl2dEVhV1FyYldwMVJ0R1Y5VW83bEo4QTNoRkczQ2FrS2poZVhEalFMdGYtTlV6Z19YLXh0V0FmeU1SWXdMQzZtUHp6bmJVRC0tMnhaSDhLLVpBV2RqWjFxa2hxMVdCYmdSZ0E?oc=5",
+      "title": "Is Raised Guidance Altering The Investment Case For UPS Stock?",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeWRCRGFfOVBDZlgtczdITE93QlR2VmR3OVZJczhhX3VJWUtTWEpsanJDVS1UcW1aYWljZzE0ZXJxN0NWRTFQX3NlY3JKVks3SVlMVkZYcnlSRFZ6OTc5RVJpSUFLWHJLekRaNDgyRlc4SGZzNUthZ3NWeGZTQzVBQVdPMmF2Tk9WOUdudWJNVjRuRVE?oc=5",
+      "title": "Uninterruptible Power Supply (UPS) Market Size, Trends 2035",
+      "snippet": "Market Research Future, 2026-11-07T08:00:00+00:00",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UPS/history",
+      "title": "UPS daily price history (Yahoo Finance)",
+      "snippet": "close 111.05 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

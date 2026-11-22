@@ -1,0 +1,125 @@
+{
+  "ticker": "TSLA",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-22T08:28:51Z",
+  "collected_at": "2026-11-22T08:28:51Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxS3lFUTdxejAySGNEWWFKYUhnX2xKRndsOTFvTnJkVWNrYV9VRU55SVRJdFF6V2d4Q3dETGJINF8yRTVvdzJWMzdHVmJFbkUwd014aEtSYVhXXzdYUEg1eTZTdTZDYUJkWTJQc1owNzNjYjVuYkk5QkwwX0tQQ2M?oc=5",
+      "title": "Tesla Stock (TSLA) Rises 5.5% on San Antonio Robotaxi Launch (Nov 9)",
+      "snippet": "Gotrade, 2026-11-10T04:00:00+00:00",
+      "published": "2026-11-10T04:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWN4ZmVOcGUxZ081SWJtMzlpOFZPOHd6VTZCd2h1ZFFacHJxUjltRWN1U2QzYmJUa1A5Ry1IbDF0SUI1Ym9jeW9RTVIyTGdkMUpBN09neGRfRWxuQkxtTW9wSGltekI3azBvV0tzUFhsOGhIZm1PZXpSZDNnaDNMMzdkU0VETGtOX0FVd1RobTR6dw?oc=5",
+      "title": "Tesla (TSLA) Stock Climbs 4% as Musk Trades Cybertruck for Cybercab",
+      "snippet": "MoneyCheck, 2026-11-09T15:46:57+00:00",
+      "published": "2026-11-09T15:46:57+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUlfYlFaTXlEU3Z1enB2bGw5S2ZCODNWWXp5eFZ5TFJFMUxybUtQVEhmcVRFdmRvTnA1bUxadUpuTk1hWTNaUlFmb1JyLXpaQ29lMTlpNEVKVWx2dE9ULUI5SDAtU3BXLU1ET21mT3RpVlp3YVhhc2RIaDlxVkg1M29CQ0c0RTlyZF9sUEpCcjA?oc=5",
+      "title": "Tesla stock faces potential drop to $260 amid t...",
+      "snippet": "Pluang, 2026-11-09T13:35:06+00:00",
+      "published": "2026-11-09T13:35:06+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV3N3VFJ1cy1rSG1RM0oxM25YQmVub3B1OG9mSVluWEFiUzFjOTBQODFKNnVWYnNvVTAzckc5d3ZIMHpRU05rVGgwdnhlMlRnM2hMc0J5bVZCYkNUVkJMVjZoYlZ1Z1k4d3ZjOWREX01NbmtVNXd0YzdfMzk5Yk9qS0gwd3BPcE92RWthX3hyVFNxRjh5QnV3UW93?oc=5",
+      "title": "Why is Tesla stock surging today",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcVJLU3ZVZl9sUDZ4Wldkb3QtYVIxZURxcWpfV0lRb1VaM3VWenNXcEdVemsxLTlQSHk5bVc0VnNydEpqTzk5cUNJZWVsYnVjQWJReWZaNmdIcXl6eDZUOTBvSWxxOXhKQ3hfbms3MXpST0VDbHFPZk5hcjZMY055Y0pzbnlONWlTNDRybVFiUnZOckVVRENqWERaTFZjeXVZUmhoWG5oWFNaQQ?oc=5",
+      "title": "Tesla: Cybertruck Production Will End in Favor of Autonomous Cybercab",
+      "snippet": "Morningstar, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDFZNjhZTzlDN0ZweldJZzZMR0w0dkJlY214b0o3aHhyR21TVGVXSEg4Rl9KWnFHcE5QTlo3WkFzZzFremVhaEFXck9tbzNuYUxwcmlGS1BWZjU4TEZIcG5XLXd3dzlKUWJIcF9TQ2ZtTnJqUUFuVHZ1X1RGMnFWYUpfWVFZN1I0Q25mZ3VHWF9TSHF1b0pSdU0yMA?oc=5",
+      "title": "Why is Tesla stock rallying today?",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQjlIeE1LMGdIbE11STNUZ1h4ZlpPMXR3enBhcW1VbnByVlVLVkFKZVRoZ19DUnZPZ0U2dDZ2VHJ4U2tCb1FlYjB4LTdZb3I4Q3NsTG9PTnNHMFZDRzVOZGc0X3NqaXRHMGFxZDVRLWF2ZkVjcTc5TGNDZHpJMjlEMXRQdERadjg1ZlRWbWxIMDFpR3VXT0NR?oc=5",
+      "title": "How Tesla Stock Could Move Amid Roadster Reveal and Reported SpaceX Merger",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94NmdWdW9OT09VU2NkS0NveFBPb1RzWUlxMWo1UndkRjZWUzR6QklHRjNWOGxTV2xGVnRHWFh0Z185ZkxTcEs5R3dVcXAzQVFlMDExNHZOelRvNVZ3SkUwR0NmWWJ0VjFfaWRWZGpSZFhwQVVrbzVlLQ?oc=5",
+      "title": "Tesla\u2019s Robo-Taxi Service Is Expanding...in Texas",
+      "snippet": "Barron's, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd1Z6aWpmUWFPWWl4cHI2azNndFhZTU1ubGFFR21Kc1lmX09jUnJBdkV6cm1JY1F4Q1FDcmF5NTlzV2hkNlVNMnNPbG8ydV9UaDY1NDhJVzU3OVNaSGVLWUNkZFFqU0RVN05rZjBHdnVCVy1IUDFsQjlVSW4tWXhfSzUwYi16d214ckhMMUQ0R19SYlRRWnd1Y3JWZGtxaUZMUU5UOA?oc=5",
+      "title": "Tesla Stock Moves Higher: What's Going On?",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM3ktWHhMOWxVdF9zWXc3cThySWRYR0g5aVdlVHFFZlh3Slctb19NTmgyTWxDZHo1TzByYmN0Nm8zYUxscm04OENOVjkxNThyNUNmX1BlV29kMi1ubjRoNURKOTNlNkxjcWFUYXVGYVc5djVjOFNWNnFIbmlBSTJxTkFmR1NKZ3ZtRzR5dWJwcE1QRl9DTlM0?oc=5",
+      "title": "Cathie Wood's ARK Invest Says Tesla's Robotaxi Cash Flow Could Bankroll SpaceX's AI Ambitions, Backing a Potential Merger of Elon Musk's Two Companies. Is This the Thesis That Finally Reprices Tesla S",
+      "snippet": "The Motley Fool, 2026-11-09T08:00:00+00:00",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSLA/history",
+      "title": "TSLA daily price history (Yahoo Finance)",
+      "snippet": "close 379.78 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

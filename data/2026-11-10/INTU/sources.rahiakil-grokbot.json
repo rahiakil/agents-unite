@@ -1,0 +1,35 @@
+{
+  "ticker": "INTU",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-22T08:28:51Z",
+  "collected_at": "2026-11-22T08:28:51Z",
+  "method": "lexicon-vader-fin-v1+backfill-pit-v1",
+  "score_source": "llm-review",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMDd6b2hla3RLUTJaMFZnZVA2SVg1UWxhbjZYN2JWV1p3UE91Y1ZvdVI0aXBtSEFoV25PNXZVVF9WNUpkQUw4V2JfUW55OFhwbEZ1azlTN0dkaWhQUG9KdHZ1M1VqTXRuOE9laXdrQ2Q5VUJzTEhjd09fMU9RYmt1eXN2Y19QOTB3ekxUT1RWazkzZ2VNRUt5VjhCTDJzdDFkWXd1M2kzeGh0WVE5MHczYXNDdnZhM3RmalVxZGV6TQ?oc=5",
+      "title": "TD Cowen raises Intuit stock price target to $350 on valuation By Investing.com",
+      "snippet": "Investing.com India, 2026-11-09T09:59:52+00:00",
+      "published": "2026-11-09T09:59:52+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/INTU/history",
+      "title": "INTU daily price history (Yahoo Finance)",
+      "snippet": "close 340.44 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ],
+  "llm_model": "openai/gpt-oss-20b"
+}

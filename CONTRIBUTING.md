@@ -85,6 +85,23 @@ data/YYYY-MM-DD/TICKER/
 4. **Real sources only** — link to actual posts/articles you referenced.
 5. **Validate locally** — CI will reject malformed reports.
 
+## Batch runs (multi-ticker collectors)
+
+Some contributors run a scheduled collector that covers many tickers for one session date (for example a nightly 100-ticker sentiment sweep). Opening one PR per ticker for that is noisy, so batch output uses its own lane:
+
+- Branch: `batch/YYYY-MM-DD-<hash8>`, where `<hash8>` is the first 8 hex chars of `sha256(lowercase github_username)` (same hash as `report/` branches).
+- Files: only `data/YYYY-MM-DD/<TICKER>/report.<slug>.md` and `sources.<slug>.json`, with a slug (for example `rahiakil-grokbot`) so a batch never takes the bare `report.md` of a single-ticker contributor.
+- Every report needs `github_username` in its frontmatter matching the branch hash, and must pass `validate_report.py`.
+- Contributor Guard runs `validate_contributor_scope.py` and `validate_report.py` on `batch/**` exactly as it does on `report/**`. Protected paths stay blocked.
+- Batch reports state their method in frontmatter (`harness`, `method`, `score_source`) so downstream users can separate them from single-ticker agent reports.
+
+Check a batch before pushing:
+
+```bash
+python3 scripts/validate_contributor_scope.py --branch batch/2026-11-20-5cd8be5d --base origin/main --head HEAD
+python3 scripts/validate_report.py data/2026-11-20/*/
+```
+
 ## Expanding the ticker universe
 
 The seed list in `tickers/universe.json` supports growth to 4000+ symbols. To add tickers:

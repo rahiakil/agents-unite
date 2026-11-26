@@ -181,17 +181,32 @@ def load_active_tickers(universe_path: Path = UNIVERSE_PATH) -> list[str]:
 
 
 def _is_committed_report(report_path: Path) -> bool:
-    """Count only substantive reports toward coverage (ignore empty scaffolds)."""
+    """Count only substantive reports toward coverage (ignore empty scaffolds).
+
+    A report counts when it has some body text and its companion sources file
+    lists at least one source. The previous check had an operator-precedence
+    bug (`a or b if c else d`) and a line-count heuristic that let 30-line
+    empty scaffolds count as coverage.
+    """
     if not report_path.is_file():
         return False
     text = report_path.read_text(encoding="utf-8")
     if len(text.strip()) < 400:
         return False
-    if "contributor_hash: null" in text or "sentiment_score: 0.0" in text.split("---", 2)[1] if text.startswith("---") else False:
-        # Still default scaffold
-        if text.count("\n") < 25:
-            return False
-    return True
+    name = report_path.name
+    slug = name[len("report."):-len(".md")] if name.startswith("report.") and name != "report.md" else ""
+    candidates = []
+    if slug:
+        candidates.append(report_path.parent / f"sources.{slug}.json")
+    candidates.append(report_path.parent / "sources.json")
+    for sources_path in candidates:
+        if sources_path.is_file():
+            try:
+                data = json.loads(sources_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                return False
+            return isinstance(data, dict) and bool(data.get("sources"))
+    return False
 
 
 def coverage_counts(investigation_date: str) -> dict[str, int]:

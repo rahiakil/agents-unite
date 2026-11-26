@@ -26,7 +26,8 @@ The public repo **implements the core loop** the paper describes: deterministic 
 | Paper element | Gap |
 |---------------|-----|
 | Verifier cascade (cheap yes/no + cross-encoder) | Prompts exist; automated cheap verifier not wired |
-| Weighted median + MAD outlier rejection | Documented in `docs/CONSENSUS.md`; `scripts/consensus.py` not shipped |
+| Weighted median + MAD outlier rejection | `scripts/consensus.py` computes it. The study harness calls it. No CI job writes `consensus.md` into `data/` yet |
+| Reputation-weighted median | `scripts/reputation.py`. Weight is stake (1) times reputation times recency. Production `contributors/reputation.json` ships empty |
 | Coverage-aware role allocation from CI manifest | Ticker coverage optimizer yes; full sector/geography manifest incomplete |
 | Hourly summary / pattern agents | Prompts + `run-hourly-ops.sh`; no GitHub Actions schedule yet |
 | Evaluation plan (Appendix A) | Not run — paper correctly labels as future empirical work |
@@ -35,8 +36,8 @@ The public repo **implements the core loop** the paper describes: deterministic 
 
 | Paper element | Status |
 |---------------|--------|
-| Raft leader election for hourly shards (Phase 3) | Docs only (`docs/ARCHITECTURE.md`) |
-| Reputation-weighted consensus (Phase 4) | Roadmap in `docs/TRADING.md` |
+| Raft-style leader election for a shard | `scripts/leader_election.py` (argmin SHA256). The study uses hour `close`. No hourly production job yet |
+| Reputation-weighted consensus in trading | Study harness only. Trading gates in `docs/TRADING.md` are still future |
 | Columnar snapshots (Parquet/DuckDB) | Not implemented |
 | Provenance sidecar per report | Not standardized in schema yet |
 | Production efficacy claims | Paper defers to future benchmark paper |
@@ -44,6 +45,10 @@ The public repo **implements the core loop** the paper describes: deterministic 
 ## Threat model (Section 9)
 
 The paper lists open gaps (prompt injection, Sybil, CI-only gate). The repo **aligns with that honesty**: CI validates structure, not truth; human review and verifier diversity are load-bearing and documented in `docs/GOVERNANCE.md`.
+
+## Study for the second paper
+
+`sim/` is a separate longitudinal study. It runs persona agents through the same assignment and validators, then records consensus error, reputation, and detection latency. Seeded proof: `python3 -m sim --days 6 --provider rule --check`. Schema: `sim/SCHEMA.md`. Daily archive: `.github/workflows/sim-daily.yml` pushes `sim-data`. That study is the input for a learnings paper. It does not change the claims of the ledger paper.
 
 ## Recommendation
 

@@ -1,0 +1,22 @@
+id: sybil
+name: Sybil cluster
+summary: One operator, four logins. Three pump together. One ships a branch hash that does not match the login.
+goals:
+  - look like unrelated contributors
+  - vote the same score
+risk_appetite: high
+honesty: 0.15
+effort: medium
+score_rule: pump
+collusion_id: sybil-a
+preferred_tickers: []
+preferred_sectors: []
+instances:
+  - username: sim-sybil-01
+    behavior: sybil_pump
+  - username: sim-sybil-02
+    behavior: sybil_pump
+  - username: sim-sybil-03
+    behavior: sybil_pump
+  - username: sim-sybil-04
+    behavior: wrong_hash

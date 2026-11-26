@@ -1,0 +1,284 @@
+{
+  "chain_attempts": 210,
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "false_accept_examples": [],
+  "false_reject_examples": [],
+  "by_persona": {
+    "colluding-ring": {
+      "attempts": 24,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "contrarian": {
+      "attempts": 12,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "momentum": {
+      "attempts": 18,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "news-reactive": {
+      "attempts": 18,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "novice": {
+      "attempts": 18,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "prompt-injection": {
+      "attempts": 12,
+      "merge_rate": 0.5,
+      "eligible_rate": 0.0
+    },
+    "sector-specialist": {
+      "attempts": 12,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "social": {
+      "attempts": 18,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "spammer": {
+      "attempts": 36,
+      "merge_rate": 0.5,
+      "eligible_rate": 0.1667
+    },
+    "sybil": {
+      "attempts": 24,
+      "merge_rate": 0.75,
+      "eligible_rate": 0.75
+    },
+    "value": {
+      "attempts": 18,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    }
+  },
+  "by_behavior": {
+    "duplicate": {
+      "attempts": 12,
+      "merge_rate": 0.5,
+      "eligible_rate": 0.5
+    },
+    "fabricated": {
+      "attempts": 6,
+      "merge_rate": 1.0,
+      "eligible_rate": 0.0
+    },
+    "honest": {
+      "attempts": 114,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "inject_scope": {
+      "attempts": 6,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    },
+    "inject_text": {
+      "attempts": 6,
+      "merge_rate": 1.0,
+      "eligible_rate": 0.0
+    },
+    "pump": {
+      "attempts": 24,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "spam_malformed": {
+      "attempts": 6,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    },
+    "spam_scope": {
+      "attempts": 6,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    },
+    "stale": {
+      "attempts": 6,
+      "merge_rate": 1.0,
+      "eligible_rate": 0.0
+    },
+    "sybil_pump": {
+      "attempts": 18,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "wrong_hash": {
+      "attempts": 6,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    }
+  },
+  "consensus_mae": 0.2627,
+  "consensus_mae_by_day": {
+    "2026-11-20": 0.2531,
+    "2026-11-21": 0.2609,
+    "2026-11-22": 0.1894,
+    "2026-11-23": 0.4069,
+    "2026-11-24": 0.3115,
+    "2026-11-25": 0.1603
+  },
+  "consensus_rows": 47,
+  "reputation_by_day": {
+    "2026-11-20": {
+      "colluding-ring": 0.456,
+      "contrarian": 0.5454,
+      "momentum": 0.6037,
+      "news-reactive": 0.715,
+      "novice": 0.7069,
+      "prompt-injection": 0.5824,
+      "sector-specialist": 0.674,
+      "social": 0.6583,
+      "spammer": 0.5702,
+      "sybil": 0.4214,
+      "value": 0.6148
+    },
+    "2026-11-21": {
+      "colluding-ring": 0.4474,
+      "contrarian": 0.6678,
+      "momentum": 0.6791,
+      "news-reactive": 0.7778,
+      "novice": 0.7776,
+      "prompt-injection": 0.6113,
+      "sector-specialist": 0.7354,
+      "social": 0.7512,
+      "spammer": 0.6148,
+      "sybil": 0.4049,
+      "value": 0.7071
+    },
+    "2026-11-22": {
+      "colluding-ring": 0.4988,
+      "contrarian": 0.7242,
+      "momentum": 0.6914,
+      "news-reactive": 0.7966,
+      "novice": 0.7836,
+      "prompt-injection": 0.5946,
+      "sector-specialist": 0.7468,
+      "social": 0.7357,
+      "spammer": 0.6275,
+      "sybil": 0.4092,
+      "value": 0.7614
+    },
+    "2026-11-23": {
+      "colluding-ring": 0.488,
+      "contrarian": 0.6883,
+      "momentum": 0.7134,
+      "news-reactive": 0.7796,
+      "novice": 0.8126,
+      "prompt-injection": 0.6101,
+      "sector-specialist": 0.7104,
+      "social": 0.7716,
+      "spammer": 0.6148,
+      "sybil": 0.4869,
+      "value": 0.763
+    },
+    "2026-11-24": {
+      "colluding-ring": 0.4888,
+      "contrarian": 0.6917,
+      "momentum": 0.6948,
+      "news-reactive": 0.8067,
+      "novice": 0.8297,
+      "prompt-injection": 0.6101,
+      "sector-specialist": 0.7453,
+      "social": 0.7991,
+      "spammer": 0.6114,
+      "sybil": 0.493,
+      "value": 0.7899
+    },
+    "2026-11-25": {
+      "colluding-ring": 0.5355,
+      "contrarian": 0.7042,
+      "momentum": 0.6824,
+      "news-reactive": 0.8171,
+      "novice": 0.8123,
+      "prompt-injection": 0.5937,
+      "sector-specialist": 0.7696,
+      "social": 0.7888,
+      "spammer": 0.6273,
+      "sybil": 0.5263,
+      "value": 0.8119
+    }
+  },
+  "detection_latency_days": {
+    "colluding-ring": 0.3333,
+    "prompt-injection": 0.0,
+    "spammer": 0.0,
+    "sybil": 0.0
+  },
+  "undetected_attacks": [
+    {
+      "contributor": "sim-ring-02",
+      "persona": "colluding-ring",
+      "behavior": "pump"
+    }
+  ],
+  "duplicate_second_merged": 0,
+  "mean_score_by_mode": {
+    "full": 0.0181,
+    "news": 0.0962,
+    "sentiment": 0.0187,
+    "social": 0.0476,
+    "trading": 0.0513
+  },
+  "mean_score_by_prompt": {
+    "baseline": 0.0516,
+    "skeptic": 0.0357,
+    "terse": 0.0518
+  },
+  "mean_model_latency_ms": {
+    "rule": 0.0
+  },
+  "mean_model_cost_usd": {
+    "rule": 0.0
+  },
+  "stage_failures": {
+    "consensus": 54,
+    "merge": 30,
+    "scope_guard": 24,
+    "validation": 6
+  },
+  "stage_latency_ms": {
+    "assignment": 0.0436,
+    "consensus": 0.0,
+    "generation": 0.0451,
+    "merge": 0.0,
+    "scope_guard": 0.0601,
+    "validation": 0.1264
+  },
+  "forward_pairs": 0,
+  "forward_sign_hits": 0,
+  "attacks_seen": [
+    "colluding-ring",
+    "prompt-injection",
+    "spammer",
+    "sybil"
+  ],
+  "render_failures": 0,
+  "run_id": "seed20261121-2026-11-20-d6-rule",
+  "seed": 20261121,
+  "provider": "rule",
+  "model": "rule",
+  "days": 6,
+  "start": "2026-11-20",
+  "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT",
+    "AMZN",
+    "META",
+    "GOOGL",
+    "TSLA",
+    "AMD"
+  ],
+  "n_agents": 34,
+  "market_asof": "2026-11-20"
+}

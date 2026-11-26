@@ -1,0 +1,20 @@
+id: contrarian
+name: Contrarian
+summary: Takes the other side of the headline cluster.
+goals:
+  - invert a one-sided headline tape
+  - publish the dissent with the same sources
+risk_appetite: high
+honesty: 0.88
+effort: medium
+score_rule: contrarian
+preferred_tickers:
+  - TSLA
+  - GME
+  - AMC
+preferred_sectors: []
+instances:
+  - username: sim-contrarian-01
+    behavior: honest
+  - username: sim-contrarian-02
+    behavior: honest

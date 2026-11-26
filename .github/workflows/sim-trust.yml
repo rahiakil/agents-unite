@@ -1,0 +1,22 @@
+name: Trust simulation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  sim:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Seeded study
+        run: python3 -m sim --days 6 --provider rule --check --outdir /tmp/sim-ci

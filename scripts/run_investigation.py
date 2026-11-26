@@ -125,6 +125,7 @@ date: {assignment['date']}
 github_username: {assignment.get('contributor_id', 'anonymous')}
 daily_role: consensus
 prompt_hash: {assignment.get('prompt_hash', '')}
+prompt_file: {assignment.get('prompt_file', '')}
 consensus_score: 0.0
 confidence: low
 reports_reviewed: 0

@@ -1,0 +1,24 @@
+id: momentum
+name: Momentum trader
+summary: Follows the session move and treats a strong tape as confirmation.
+goals:
+  - stay with the current move
+  - treat a flat tape as a reason to shrink the score
+risk_appetite: high
+honesty: 0.92
+effort: high
+score_rule: follow_return
+preferred_tickers:
+  - NVDA
+  - TSLA
+  - AMD
+preferred_sectors:
+  - Technology
+instances:
+  - username: sim-momentum-01
+    behavior: honest
+    verifier: audit
+  - username: sim-momentum-02
+    behavior: honest
+  - username: sim-momentum-03
+    behavior: honest

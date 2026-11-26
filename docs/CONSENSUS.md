@@ -162,11 +162,13 @@ No token is defined in v1. Reputation is off-chain: a JSON ledger in `contributo
 
 ## Implementation checklist
 
-- [ ] `scripts/consensus.py` — batch aggregator (no LLM)
-- [ ] `agents/consensus.md` — LLM reconciliation for theme merging
-- [ ] Multi-report filename convention
-- [ ] CI job: generate consensus when ≥ 2 reports exist
-- [ ] Reputation ledger schema
+- [x] `scripts/consensus.py`: weighted median and MAD filter, no LLM
+- [x] `scripts/leader_election.py`: argmin SHA256 leader for a shard (hour `close` in the study)
+- [x] `scripts/reputation.py`: ledger schema, empty `contributors/reputation.json`
+- [x] `scripts/verify_report.py`: fabricated URL, stale source, and prompt-injection checks
+- [ ] `agents/consensus.md`: LLM reconciliation for theme merging
+- [ ] Multi-report filename convention on the main ledger
+- [ ] CI job that writes `consensus.md` into `data/` when 2 or more reports exist
 - [ ] Hourly shard assignment in `assign_ticker.py`
 
 Future: **semantic agreement** via embedding clusters — [RAG_AND_SYNTHESIS.md](RAG_AND_SYNTHESIS.md). Methods: [METHODS.md](METHODS.md).

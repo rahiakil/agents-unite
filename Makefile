@@ -1,4 +1,4 @@
-.PHONY: help assign run validate commit stats aggregate readme check
+.PHONY: help assign run validate commit stats aggregate readme check sim test
 
 help:
 	@echo "Agents Unite — make targets"
@@ -15,6 +15,8 @@ help:
 	@echo "  make install-cron  Interactive cron + config setup"
 	@echo "  make daily         Run daily pipeline (cron entrypoint)"
 	@echo "  make check      Validate all example + demo reports"
+	@echo "  make test       Unit tests for validators and the study"
+	@echo "  make sim        Seeded 6-day trust study (rule provider)"
 
 run:
 	./scripts/run-agent.sh
@@ -54,3 +56,9 @@ daily:
 
 check:
 	python3 scripts/validate_report.py data/2026-06-05/AAPL data/2026-06-05/TSLA data/2026-06-05/NVDA
+
+test:
+	python3 -m unittest discover -s tests -v
+
+sim:
+	python3 -m sim --days 6 --provider rule --check

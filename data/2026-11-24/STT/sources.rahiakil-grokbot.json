@@ -1,0 +1,84 @@
+{
+  "ticker": "STT",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"State Street\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 58,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 19,
+    "irrelevant_or_spam": 34,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcDA4d0hLOEw1eXU1MTlNV1gwcHZwWDgwdXE4WmRsdDZLclA3cGxPZV91VTNqNlhoOVhRWnV1cWxYaWhSLW5tUVhXandVWEUzT3pCNzV5OXg5eWJHZm1TaDlNNFBRMUlIZVlWVm1nOEJOZGFIeFBTcUdzb09uTl9SNEhGMGZpUGkwSl9nUl91QXd5dElrbGctUnprS2xfNDRteWFBT2pOZ2NDM1Flb0Nvb2RCOEJKV29hVU11QTd4Xy1zTk43YkNYbkVldDE3ZDdFM3JkRk1pQlNFeVVj?oc=5",
+      "title": "REG - State Street Global SEGRO PLC Prologis, Inc. - Form 8.3 - Prologis, Inc.",
+      "snippet": "TradingView, 2026-11-24T14:01:10+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-24T14:01:10+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUxvVEF0bDF4SVlsRzRWUzZxMXM3UXB3TGt6b1A5bkI0UEtoVzh6bVRaY2ZjMUJHdnAxYWl3cnZNMEtsT0Z5MWdZZWRKUlloZThqNW9OcGVxeXV6OG5CNWU0VTROQWhKVVpEUkhINFRTLTNsM1J2akxHQ2ZLcFdKb09LM0FfR25FYVNfR1h1dWJIZElEWV9IdU9fX2hFSTZOQUdLX3JjeTdtTmFjeENsVXdsZHl4MTR5VHEzaVg1TG9oUQ?oc=5",
+      "title": "State Street Group Reports Ceasing to Be Pantoro Gold Substantial Holder",
+      "snippet": "TipRanks, 2026-11-24T09:11:53+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T09:11:53+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQVdNZERWSWp2OHRjc09OZjJ6NWNhUzliZ1V6c1k3SUpRTFhhRmVlckxfSzlHdHlPVTNwdHNDaXVyYkFyNlVYVGQ1QkY1V3pGTURFZ2RWRmZxQ0FOV1c4cWFOM3IwUFdXZ2FUQ1hlZzBBaVBzRTZzdFVGSTdMTEQ4am9JcXJKMWt1YmZLU0tZalBOZUhhcGhGdTU1d053MGNwZDM3N3V5OG4zbG9NWDFmVVVWMkRuQXpoMFFwU0xPNU93OG1PZGtEbDJ2QjhCcVpFTWRRZ04td3NHWDdf?oc=5",
+      "title": "State Street\u2019s Masahiko Loo Says Treasury-Stock Negative Correlation Has Returned",
+      "snippet": "TradingView, 2026-11-23T00:35:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T00:35:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRGNtd0xGLVZ3MHdBcFJYeV9TTDlYbXlfRnFPQVlUOWFDa1lHaWxPaDhrZ09WSW1lVVVway1udTdYQUk5MnhxV2VlX3F3b3NaY3pWaHlpMGtTenUteG1mUFlQTER6T2c4LXYtOG5TTE1xMFpFR0FfWnJ0ZFlqNE9WTjBoRFg5ZWdUZDhfRTZ5aVdsb0NBLUwzZGtFdmk5UlZQVnNtaVYzc2FyOHhZVXJ5c01XWUV0RnRqaHpkT3pXYVUxVG9CZ3RWdk9WVUdwSXNCUFE?oc=5",
+      "title": "BlackRock, State Street, Vanguard Brush Off Tokenization As An 'ETF Killer'",
+      "snippet": "Stocktwits, 2026-11-22T08:54:18+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-11-22T08:54:18+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 160.85 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "FERG",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Ferguson Enterprises\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTE9VY25pUjZ6UERuTEJZZllSd1J4WGJNSXRDRS0zWTVta3Y2Wm1RX2w2ODZPN0tfc2hoN3UzeExKQ3Nnd1lOMF9wUEdxbFZ4eEZkRHR6WUk4NXRUMDVCSDFfc1EzSHZYWEN2Vjh4NkMxV2hUbGhDSTBvWkNmbTUyU2xEQjE2cGRGTEpYU3prOTYwb29sRkVFdDJZdGNsaEE4N1lRU2YxQ0t5d3hLSVRLeWxFNTJoZG5kQ0ZkOWRZRUs0SDBVRTlv?oc=5",
+      "title": "Ferguson Enterprises (NYSE:FERG): A Quality Investing Candidate With Strong ROIC",
+      "snippet": "ChartMill, 2026-11-24T13:51:08+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-24T13:51:08+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQy1vMHZWVW5RcFdqT05HV1gzRFA4VEVlUDk2dGVaZTlibVU5TUFrU2RQUnY2ek04RTl6UW9oWFMycW1yYXVQYVRZVEpHcEFCT0Z5M1gxaS1va0R6RExQRlN2VlRGQy1jSkZTTURCd0liLVZGSjBwcXNlNWNTSXluZkQzZmJxWVhidkQ2Q2tsak5CMHJoZU4xTUFjSEFTNVVrNXIzbEpEOUJuVmJpMTZtdTFsRFJUU1lncGlVN3lUcw?oc=5",
+      "title": "A Look at Ferguson Enterprises Inc (FERG) After 5.1% Gain -- GF Value $210.94 vs Price $252.79",
+      "snippet": "GuruFocus, 2026-11-24T00:33:58+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T00:33:58+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FERG/history",
+      "title": "FERG daily price history (Yahoo Finance)",
+      "snippet": "close 252.24 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

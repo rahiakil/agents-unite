@@ -1,0 +1,60 @@
+{
+  "ticker": "IDXX",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Idexx Laboratories\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR0pvQkIwN2NnYWw1Zk5TS2lYWUlMel9TX2tCR1V1a01TVUJCZmxkekd0NFJkM0RFUE91bks3X1MtdFV6bjREREFHZ182TVQ5QmNWcGtCNW9xWFpkRVFualY2dDNGWVMtQVhTR05TTUVQM1NPU3FkbHJKZXQ5TGpxcnBvUG8yeTktVHkxVDlQU1Q5VVMyMHVRQlRUdkNIYWY0aElYMVhzSU93YXRYcDNVcGJVNFk4RXJaQlh1bW5KRU92SkRlOVVN?oc=5",
+      "title": "IDEXX Laboratories Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T21:49:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:49:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcW9HYmlLdlJmemVjdU1MeVRzblVyUDhmSU10MTI5cC0yY3F6MXhrRmJJb0hEVUgwd2NmMGRseXZyVkYwTnFlRVpnNDBKd1JKaXNSOGxCVnBSSk5ldXBIVmNjWWtQWVgxMzJkcGNkUTBrQTJLUTdlSVlFYmEwWUVPdmhZbmFocjJjb3YtNXR6VkxpbmVUd2lRWG5QVl9Wa2ZE?oc=5",
+      "title": "Idexx (IDXX) is an Incredible Growth Stock: 3 Reasons Why",
+      "snippet": "Yahoo Finance, 2026-11-23T16:45:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T16:45:02+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.439,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IDXX/history",
+      "title": "IDXX daily price history (Yahoo Finance)",
+      "snippet": "close 712.08 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

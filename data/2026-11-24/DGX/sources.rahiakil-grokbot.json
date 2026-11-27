@@ -1,0 +1,72 @@
+{
+  "ticker": "DGX",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Quest Diagnostics\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNkh3ZmFXNUQ1TGNTRU1DYXI3Rm1LUnVDX0JvWndlN0pncEhGQWtnb0dtS1YzQ3htOVhPUzVYSmNLSjJFeGJMc2NFSG5FU3c1OUJ4dV9IV1gyNVdwbGF2SE1xRHRPaDU5VlVTZzZCd3ptakF6dURNVGhsSFRDb2lHR01VWDdULW1qcWl1dHEyY20yMHplRVVGWHc2SGRjdG1xNGc4ZjNnTWF5eFZCaWNuUw?oc=5",
+      "title": "Quest Diagnostics stock hits all-time high at 263.26 USD",
+      "snippet": "Investing.com, 2026-11-23T15:37:04+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-23T15:37:04+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU196UndoYVpFaHZ3Y25sYjdPdlBFYjZsMXQwdnFaTHhNdTd3SzJjWUNmbGd6VTB0b21SRW8wX2RXVy00WGFkakllSFI1Wi1Xd0s0RHNmbmRCbW5XRVdDcnJ0a3p2TE5SNUs2VFJyVmNuazFHZzNxRjBPd2dVVVhHYTRKS01RMFhLaFh2S3pSU3FzRXlhdGp1Z2M3U2luMDFnQTRweg?oc=5",
+      "title": "How Is Quest Diagnostics (NYSE:DGX) Faring as Stocks Wobble?",
+      "snippet": "Kalkine Media, 2026-11-23T10:24:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T10:24:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlU0UHhnaG5jVXowZG9LRThIU0djbU95Q2NvQ2pfemR1c0RrNDR0b2R2dG9RaG1CQmo5Q0QzSUU2NkFNWmNsczRrN3Z0bm13b3pDS0M5eVEyWnJOT29xU0psZzlWZzdJdTYtVTJVbTZJX0xmTDdQQnhaTjU5MkotMUtQTFRoVlNTa2hhWTNQN3Z0RWxmUW9NbFhEVjNUZw?oc=5",
+      "title": "Quest Diagnostics Sees Hospital Deal Growth as 2027 Medicare Cuts Loom",
+      "snippet": "Yahoo Finance, 2026-11-22T04:12:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-22T04:12:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DGX/history",
+      "title": "DGX daily price history (Yahoo Finance)",
+      "snippet": "close 265.61 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

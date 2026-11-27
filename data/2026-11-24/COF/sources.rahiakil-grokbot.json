@@ -1,0 +1,132 @@
+{
+  "ticker": "COF",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Capital One\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 50,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 14,
+    "irrelevant_or_spam": 14,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQW53cjl4YXZ4WEgyZGJLTWd2UFhNM1RzMWtvYUtpQkVpUFN4NUJ5dEhESjlJaV82OGkzMS1xYWZmVW1NUW5VV3Bka0g3QXQxaUdqSkJ1RG5WVWFPem9NWjh6OS1tRzYzcXNpeHBPZEU2VlNxQjN0NG92ZTQ1aU92Vm8zZ2hEUzA4aGJvZk8yaXVVM3lYc1lrRQ?oc=5",
+      "title": "Credit One vs. Capital One: What's the Difference? You'd Be Surprised | Credit Cards",
+      "snippet": "US News Money, 2026-11-24T19:58:00+00:00",
+      "publisher": "US News Money",
+      "published": "2026-11-24T19:58:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaVlvSkRnc2FRUWVzMGEzb09DdlVaVUl2M3d0WlM4Wi10cWNyeTduZlB6SExkal9YSkZRWTF5UDJtZ2RjVzh2MFdEWnk2Z1dZa0Q2RE9oTWJxYnFyNXlHa1UyZ3JVb0RXNU80ZndKb2l4ZV9MQW1VNUl0QWVzMkpDNHNUMHp3dW1SUFoyUzJIZ0V3Mk1ZYjgxZktLYXF2OWRTSE5oU1RpZW55QVEwYnlnOWNTYXJaRUpwbFFKdVVjVWdTUQ?oc=5",
+      "title": "Capital One stock: OFN partnership directs $45 million to CDFIs",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:28:07+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:28:07+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdmx0a3BRZlliY1ZfTFgwZVZ6YkVsR3pjeXlZVzBaZ3lRUHg0eU5KZ0JsSnNlaEEwZjVicnB5TENFaWozcnhJcldQVUZkdkp2ZFZVTlV4S0ZVVU15QWJNYzF1WHAwYUxfcGdXeXBjZ004STJOWHRob2tPcXp4Z0JmSlpzeDBUbEtOUFh5eTdnc2dNeGp5XzFrRg?oc=5",
+      "title": "Trump Revives Push for Card Rate Cap: What It Means for C, JPM & COF",
+      "snippet": "Yahoo Finance, 2026-11-23T14:09:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T14:09:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDOVIyYVlpcGN3dzFYYmM3WTBHbFl4T3p4NTRGc00tb1lmR3UyUnMwSXNmbjNTNDN3Zy05LXdxQjhhRk82STZCWk9UWHF2MmdHck01bFNIYkI3N21QT0lsQ28ybE1Tc2lWZjJwMEc2SkpDMHZlTlpUOWZn?oc=5",
+      "title": "Capital One Tokenized Stock (Ondo) price today, COFon to USD live price, marketcap and chart",
+      "snippet": "CoinMarketCap, 2026-11-23T08:00:00+00:00",
+      "publisher": "CoinMarketCap",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVUJOSU5ILVhxLXNHNnAydWpjTXI4UlJKS01lZDJsYVRlenYyTDNuWUZuV0txMzM5dm9hdWtudFg1Z2RKNTFHb19URDBKdy1VcVcwSWtpRW9raWdjRlJ6N3Vsa0pUX055R2tJWjFQaDFVZUNlM3B0dHZLRmRyZnByc2g3clpwOUtZNGJub3piZjlnZHp3NXRR?oc=5",
+      "title": "Capital One Financial (NYSE:COF) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-23T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EUnRCN2FaZ1labEw4V1NRY0RfQy1pbHN0WTdROVhhNEZ2bnUxdGhoR3E0RmMxWmhpb2w3Vl90MzRwbElQOWhJTHIyb3dsMnEzYUhqRFZEQnNlTFRza0xfUjdiX3FFejJvTW9jM20wQQ?oc=5",
+      "title": "Capital One Financial (CFX) Q3 2026 Earnings Report - Results, Call & Slides",
+      "snippet": "TipRanks, 2026-11-23T08:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQamtlMkp2WS1Gczl0cUZJLW1Ba3hHZHgzeGNfOE5SOXRVcE5NMUxOVXpwV3NNTC1YVzNmZTFySzZwZ2VYaHdCS1BRQWtKSkE3QWRFM2NJbWVBdXFiNGMwZmNIQTRGelJmNjVNTG0xa29WR3NiZktIT2VhWlNjS3RrV0VwRkc0a3E3aDhPQlFXbUNLV0FwaGtCQkotamQ0NjFjV01tU2haNVgtQ0ZoRy1xSlozS2ZnbmdfTXEwS2ZpS1B0eVJFTEFvZVJUMWVlRnJTc1VIemZuR0hrZVViWnI0a0YxQUbSAeoBQVVfeXFMTXNvMGhPb295Y2dCaXV4T2lBVTE0TWcwcmhHUDFDbEtRV3NocGhSUFpiOGtoazZMWXB4SF9USzNtUVNSeEk1MjNwWGZrUDA4aDhaTDFpSUVsQnhUUFBNLUY5YWpvb3ZFbWFPR1A3X0ROYkY4NUJVOGk1ZHdnc2ZyVlRDNWY3dkFPbnp6Umhid3BkYjQwQ3M4Nmgxa3F2QkI3UnM1d0w4U1NIV3BnN3QyMGtVVVpLdWc0bGgxSDNndFhjYWNQVlNWY3dMVE83ZmViWFpyX0kzNFh2bHhxS1BWR1pvZDdpZ3J3NG9B?oc=5",
+      "title": "What Capital One Financial Investors Missed Before The Fall",
+      "snippet": "Simply Wall St, 2026-11-23T04:24:56+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T04:24:56+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMl8wbGtXX0NsUXkxUUg3U3paNkZ4dDViQ0xIYU1heEp1aGRadkM5UW5UanUtUGlwbDdKRXc0cy1ZLVFLODZ1VjdjOXZMNHpBT1hGM3FjWmlTdTVKN1RLMU0yYmxXcC1LdWlHT0dONmNOU3dHaFBhaWY4OGpsNk1YWUhVYVQ1dThFNm9JR2FLRFpWczRsbmdtSk9LSXpQVXNaakxkT0FJZk9fM2tFRGRIMUF3dGkyV1JuRXZEVFhIX1RhSlhscThBYjRDZk5pak0?oc=5",
+      "title": "Dan Loeb and 8 Other Big Funds Bought Capital One Financial. Berkshire Hathaway and 14 Others Sold. Who\u2019s Right?",
+      "snippet": "TIKR.com, 2026-11-23T01:34:49+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T01:34:49+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 181.36 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

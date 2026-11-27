@@ -1,0 +1,84 @@
+{
+  "ticker": "OTIS",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Otis Worldwide\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVzEtZ1lnd2MtT3BBVXFhakpFZVV3ZkRLMEVCNVBFdVVHLW9LNTZiYVZvdTdFYUNCRUUyMTJMejJrUFBFbXN4RGF2UGN4ZEFnT0RONnhNNnVMSGNZSExHYVpnTS1wRk8tTlBhd3V6VnREczd0dy1RazN5N3Z2X0UtcDViOEZNNFB4U0hFWkp1UzZEOTBRdU1aOUsxYnk0QQ?oc=5",
+      "title": "Otis Worldwide Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-24T14:05:17+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T14:05:17+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN3VaREk2T3p3MzVURS12RWVCRWl3MTFKT002akxFdmx2SVNabWR5bG1OZHhWUDhkaWRiSXRmU0VvZFlkcDB6THF4Q0EtcnVzVTl6cEZvU2xyaGNfY19ielViXzFrbkM1VFFacVlQbGJKOEF6cjZrVGJrTjRORFRIdks0ZV9VX2VpTE1ZSDBMRkJ1cFV2SHRKeU03b2gyMVkxc1dMTA?oc=5",
+      "title": "Is Otis (NYSE:OTIS) Positioned to Weather a Tougher US Tape?",
+      "snippet": "Kalkine Media, 2026-11-23T10:40:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T10:40:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWU9wU0NxbmN0aVkxTHhfR2gzVDdhMTkxNUJicWh6eXBwci0zTDdRX043MXhWZUJydE10a1QyQk1aaUJBbklqUk5aX253WFBMcEthckV6SU1DLVZzd3MyM09EQVNJaXJhci1SdDEtTVJ2LTduSnRBWFdOQm50V0VLSm0xaTl6WDZuank3aXZ2aW5SNFVmZVh5WkRveXNSOGZzcFVMRWZObjhQRVRIc01NSHlaMHhBOWdHYzFHejhnaU1lRnJCODJROTBmWF8yX05VN3fSAdcBQVVfeXFMTTFfS1FWYzd6T2psRlZiaUFtWlR4QWM1UERSc05zUkdVTWRYR1lNSFVnSlhfVGpKN0hxN1FzdEZWcWl3bDNqblIyTjltUHp0VFRrT052V1ZBbmVabkF1RVdwa3RlWGo1ajRLeEFPYy1yXzRLQ1RJY0NDWWNwaUdZN19OYmdYYmozRFE2eV9RTGV2LW9HcEs0dnlKZDBIa25WMGswQWFGT1J5OFZlS2FTaFc2RUtGd2w4NjlZV19nWGJiWWxlT3UzOEplRGlpS3lNOFFHVVdPd3M?oc=5",
+      "title": "Is Otis Worldwide (OTIS) Reasonably Valued On Future Cash Flow?",
+      "snippet": "Simply Wall St, 2026-11-23T02:08:45+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T02:08:45+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUGFqaWl2cjVfdFJhelphOWxVOGZBT1lINUJKekdleXhES213UWYwRTEwVmI0Uk5INTFvSzNOTEFiYkFVX1FWMTlscEtMNTRwbzNRbmpCT1dRU2twVGw3TUsxTENUN0JPblYtbHZnYkdnNWdsN0NOeGl5T2xwc1pyaUZQUk5ESndadmU3blcxUGFnb0VXNEZPT0IwV3RmeHV2ejRUZnpvR3B0ZmRXUFQwX1NfNmM3V2tJdUIwLVphM1ljbE40YW9Z?oc=5",
+      "title": "(OTIS) and the Role of Price-Sensitive Allocations",
+      "snippet": "Stock Traders Daily, 2026-11-22T20:36:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-22T20:36:01+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OTIS/history",
+      "title": "OTIS daily price history (Yahoo Finance)",
+      "snippet": "close 78.3 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

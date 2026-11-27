@@ -1,0 +1,96 @@
+{
+  "ticker": "TFC",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Truist Financial\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 6,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTGhJc0ZFNndhS1B2NWlCc0V5RmwwdVhsNnMwcXR5WXhjQTJpVkFNOTRKM3BKbWp6cTlacnhDWWF5T2NuMFRYN0dXMmFsYTRWTFkxQzMxMFVRVTZZT0tmMHgzVDZPOUozOElvR08yaTBOclE5NVQ3cTFEZnZUVnNHczBDYmNiYTJZR0xnN18xSDcyLU5oUWEtUnpUdkRwUlc1SkNLcjh2UTRSZzlKN2dpVGNGZHpSUXJwZHlFMzdzSlQ1akt2NnFRT1VwMlRYUlQ5cGJOTncycWdHNnl4c3BxYjZwaVZiQndXb2VN?oc=5",
+      "title": "Truist Financial Issues Pessimistic Forecast for Gemini Space Station (NASDAQ:GEMI) Stock Price",
+      "snippet": "MarketBeat, 2026-11-24T14:42:07+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T14:42:07+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa2cxNWgxZWx1dHhBRE5EU1N5VU1WcV9KZGFheXN0NFNYVzV1bURkNVd5aVdLOHp4R2U3aEdqSnA4SG1KMWNONk9MemF2N0pGWm5SQzFtLWMxamxjaTc0TGpVcXhBWFBrcGxNbERZbjNqcmZHOVFGTjIzVXlZVElCdzhGVnJTc01QWW5vWTgzTzRZN19aUllpUlFzM3dabGtyeDJNSmp0bXNpVVpO?oc=5",
+      "title": "Can Truist Financial (NYSE:TFC) Turn Attention Into Lasting Growth?",
+      "snippet": "Kalkine Media, 2026-11-23T20:14:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T20:14:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOR1c3QzQ4dFhzZ3JPYUZYc1VsTWFqR3BmbkE0VTlHVk9MaDlYV19ocVo3bG50clRab3RZNkt4eWxsNWxEc1d1Z3I5MjduX1FhS2k0VEkyYkFTaTBJalNLdlNUYzVEQXZvYUJ0U2wtcG13Qk9Tc041NzI3OWhZNTZsdmJ6cXpuSEFzQWlvemRoSWJtcWk3TDhCX1NZTXJBMll1bTIzZ3RrUmFBS3BwVWRUeGRYTzAxQjc0T3huWk9oVkkzNHpPU3B0bl80dW9iNmRER09BNHI4MWtEZw?oc=5",
+      "title": "Kymera Therapeutics (NASDAQ:KYMR) Given New $165.00 Price Target at Truist Financial",
+      "snippet": "MarketBeat, 2026-11-23T17:58:43+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T17:58:43+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORzQ3bnhKRXBwazdRMURrWjJBZFJYYXMtal9WQ1k1aTFScURHem53dmkyVHV4bkNiQVU4M0NReGI1Z3BLRnNSUDd5Qll0U2hneVRWdHFLc08zS05hMFJZMlNTMHNiaElvaVRfWktrSFF3Sk9PNHJnSnpiWGQ1N05mNUFXX0xxYUhCdlJUdkQ1R1FVYkRjLXJ1aDRibllIYU1rdWROZi1rQkhlZTgtSjA3bnV6cmpBQjZzb2NqN2swYWtIbk1N?oc=5",
+      "title": "Truist Financial (NYSE:TFC) Raised to \"Outperform\" at Robert W. Baird",
+      "snippet": "MarketBeat, 2026-11-23T12:09:02+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T12:09:02+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUU9Wb0VOLUxKbGpXcVp3TU5FMHlNaUFzTFAzU2t0VU1XVE1aaVZFSnpmY1d3VDdHMWstVEl0LXZBbEx4cWVnY0ZESnRaWHlnN0I0U0U1WTZRQUg3NFJ4VVJsdmY4RHVtMy15OU9uMVlWTTZ0NkRKOWxkenRuaDZlajREaFBiZUw2X3Q1cG91N0c2RllMX3hRMUZYUUVnZG5SWGpNaFRmemxCSnlSMngtNHc5bWNOczJiQ2RuT2d4U1M?oc=5",
+      "title": "Baird upgrades Truist Financial stock rating on new CEO outlook",
+      "snippet": "Investing.com, 2026-11-23T07:31:18+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-23T07:31:18+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TFC/history",
+      "title": "TFC daily price history (Yahoo Finance)",
+      "snippet": "close 47.48 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

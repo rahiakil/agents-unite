@@ -1,0 +1,93 @@
+{
+  "ticker": "BDX",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Becton Dickinson\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVW9ZUXNNdkROWEoxMmJMaVl2aDNqWDJzM1RqUkkwTmhKcHFWakRlVndHMVhxS3l6eDM2VGNnNk5jWDBXQ3NTZFlaZHpOUWhqNUZCazNNdFVSV1VtbXAyY0xKcWNJSGdaQnNib3hYOHRnVUN3Y3hISmdrV0YzUVJ5a0xUVUJpVVV1V2JUSTBtb1hDOFFPaXN6VVZScGd2S2hzUmRKclhwSWZDNDdncWc?oc=5",
+      "title": "Becton Dickinson stock hits 52-week high at 220.38 USD",
+      "snippet": "Investing.com, 2026-11-24T15:11:30+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-24T15:11:30+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMjFfM2VSbHY1TUpscmE1eHoyY1BINGRaZnhtN1dER0Qtdk8tSTBoZVhHNXBlcENPSXk1a0VKUkdOX2ZpZWowby0yNEJLcGhUQ3VXbEZ6UDJWVDdlMTZCa0NSM3NUS2tsYXNoNVROaFBKX1BKZ1hEcXplMXdIN3daSDItaFV5OUZ2dkQ4RVZyOTNwV2pFMlpSR0dqem5kcktOMTJrN0NRY3JGdjBWb2VCS0VDc1k3UUZ1Y0RfTzh5RXVEazJuUzBSeFVDcmpydkZKODJBSU15MjR5T2s?oc=5",
+      "title": "Becton Dickinson & Co. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T21:48:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:48:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRm9WT1BLZ0hoV1FoSDFRNzBNY1RtaVFpZ00taHFvaGp3RXVtRDBvdVA1aHBWRm9OSVE2TnYxbHZPQjE3aHBySkt1TW1qUnFIMkxUOVBHbDB6ZWFZVVRqemdmWEhRVTVsRnRrSFdaczdFZVIyUTFicS1xaTMtMXM1RmZWdDVzWnp4VUhYaUF2ZzJzM01fb19idmNmTG4?oc=5",
+      "title": "Becton Dickinson\u2019s 55-Year Dividend Streak Leads 4 Healthcare Income Stocks",
+      "snippet": "Yahoo Finance, 2026-11-23T20:47:26+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T20:47:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdFYxX05UeHZfcEtEVnoydHVRVHBIREUxdGgyZXhPU0tITk9qbEM1enFsUkpaeWp3Y0RST2RVMWVIdUI0WlRGUjhNbmk2a0xmc0VSZXJ2T3E5cWxXMmk4dHRadkc1Rk9ZVGM1Rkg2OUtSbkdGQW1hNnBNZExDV3lPWU52ZWZieUUxNTZPc21vLVBDUmo3V3ZhY2d4d0pfS0UtQkxB?oc=5",
+      "title": "Becton Dickinson leads healthcare stocks with 5...",
+      "snippet": "Pluang, 2026-11-23T08:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/10795/000001079526000039/bdx-20260930.htm",
+      "title": "SEC 10-K filed 2026-11-24",
+      "snippet": "10-K",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BDX/history",
+      "title": "BDX daily price history (Yahoo Finance)",
+      "snippet": "close 220.0 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

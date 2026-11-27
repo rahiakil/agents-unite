@@ -1,0 +1,132 @@
+{
+  "ticker": "HONA",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Honeywell Aerospace\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 7,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0VyQXBEYUpkU0hVdmsyY2Y4UGZzcU1qOWtWTlFvRDQwbi1NWHB1OWFUX3lCQ242aFduUGhlZVNDbG5oOURmUVNLenNJT0VhOEhFRDhUbVRJUjMxZVFNZzY4RUM0RlFkSG9kREg2WWNWeV9LSUtuX3hnUUtuaTVVSWJWSTZoOUZVcHJNMlktZmlzSE1JN3FhUGQ3SVNCWnpQNHU0eXN3?oc=5",
+      "title": "Ongoing Supply Chain Headwinds Weighed on Honeywell Aerospace\u2019s (HONA) Performance",
+      "snippet": "Yahoo Finance, 2026-11-24T16:02:01+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T16:02:01+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb3UwY3hYQ3NzTW9BTG13NXdwMGFlMHZGYnJLU2RqbF90SmpjLXVMdWw3amZlRnFkMDdHcDBoMm11NHJibGc3aW4zRTZmUmRYM2x4ZXFVbHB5aUFvaGNmUmdCdkZWN1F1VjYxeHR4cWxQWHAwZGEzdE9CNDBhM1U2YmwwTzVuSkM5N0pRcExKMjh6VGJqWUZtNlQ0eDVwWDdMT0s3NWVLYnBJd1NKSUFSNlVZWHpNSHdubUZpLWFJc2hhMTBSWUk3ZzdYbw?oc=5",
+      "title": "Honeywell Aerospace (NASDAQ:HONA) Stock Picked Up by Analysts at Mizuho",
+      "snippet": "MarketBeat, 2026-11-24T13:19:35+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T13:19:35+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPci1JOUFnMkRmTTgxQXpnUUI3eWRhbDVrdG5OOG1MdmRTakd0dmdDTHdjWno2YzlhUkl2dWxheUQ0ZHhXRjlLc0JKODBScU9DZzBYSDJvQnEtVE9tRXY3UlljSUMzU3JLdFFYQlBnelZaNm0wNHJxWXRYZFBIZTlKTjdxS1psUGFLSXhENGt3WHFneXFKazk2dUh4Qk9zNllVckRnQndyU05KZUVP?oc=5",
+      "title": "Mizuho initiated coverage on Honeywell Aerospace with a new price target",
+      "snippet": "Quantisnow, 2026-11-24T12:50:48+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-24T12:50:48+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVWFNSHhkZk9HLThxdjZWazU1bmF1c2ZLR01INlpyVlF1U05fYmQtanh4enFudnJjcHV4Y3lHdVlTd3U1dkRRRzE5bTE5NGliQkc3S2t1c3dvTE9kVW02ZF9XOGJQYk43NTVaSkt4SWZ3ekVWaGNZOWlMYWdBX3dlWWwtb1pJNkxYR0dlYm4td1dPczhGc01DbXBRVWlmY3R0S0NhbFNWMnZmSERxZmtVQlBKaHpmam5iMGlFUDZjMklwbVBVWmJhT2JEeDhSSi1CVjM5NDEwdExpZ9IB3wFBVV95cUxOTDMwcnBDdndWQzdYalBNNTEwSkd5M0ZFaUc3VG5qa3lMQ0ZOM3pYNEIxZnZiRVhva05GX0hPVGRYbWdGUDN0WHltdXZ2SFZlZTNBRjlVY0dxYVZmQTRUckVzYTJHWmRaLVhPWnpyQlBMWjlQbktRaVVIZE1XQW9XcUxSckkxa181dEdzQXc2UlQ5Qmpsd0JpSDVqMlRIV3JraHhiWnRZcmlhVGN5VXRnSWhVcUlhaWhXaUZMc2djY0pPNEdxZzBFNHpTeWJ0QmhfbHR1dEdncHV0Vjk1dUxZ?oc=5",
+      "title": "Honeywell Aerospace (HONA) Stock Could Be Below Fair Value As Shares Fell 23%",
+      "snippet": "Simply Wall St, 2026-11-24T07:06:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T07:06:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc2gzejJueGZ0TE9XVnhfX3JVSlAtRmRBcl9RTWUtcjRGaFpOOGJxV2U1MzlyNjVSc3ZyaFVWMFhCcXlLWXRGbzNXd0o5emJxeDRHblJSaUlIdWh2clNpVWNrbGQ4emdGOHpBMDcwazVfMTh4Q0tQUWJnWElJZ2NWUGdmanFmWDdTQnVHNTJhYmVlQkpoOWVzZ1RFX3VqdHFzWDZkcHpUcw?oc=5",
+      "title": "Honeywell Aerospace initiated with a Neutral at Mizuho",
+      "snippet": "TipRanks, 2026-11-23T21:20:51+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-23T21:20:51+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNUVkzZ05FaDRyMGEtSzAwcVBINDZSNklQRm1iV05fQzBiZlZsT29Uc1VyOE5mQkRtaWROY0M4NFpYUDBkWkVzZXIzeVFEUFo5c1ZuU3RKVTRRT0dxdnkxM0ZaVGJXZ3pzWDBwSUFUbmNfSGJtU2FDbE9LSnNXTkRvaHdFWE1UX2pZaXd3THRteVZpX3pyRzRwbElzSWdKamE3ZXJTaFV5N3NzTURoRko5UEpZcldsdHJfaUltU3d0WTNRV0hrLVZYOWpIck1kYjJlXzZ0dm5MRUl0Tk5IY0REODF4XzZuZUN5UUh0VEhYWDhnUEZlNlBJVzBHUGJWTTlqWUQ1dzJNcWdZaFRMel9Pc1VlZzJTdXNuY0pnWW5Sdlc2Y1FlLS16eFJNcFpGdTJUQ1BjMnN5MjVuckthOWp3TDRfV3lqbmpyamRXbw?oc=5",
+      "title": "HONA CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Honeywell Aerospace (NASDAQ: HONA) Investors of Securities Class Action Lawsuit Deadline on November 23, 2026",
+      "snippet": "Morningstar, 2026-11-23T18:44:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-23T18:44:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuMVlWMWRubm5pZWZsak93V1FXVUlsMTlVVjR3UGJCdUhhcV9MNWp1LU16TzdNQUNOSmYtVjB3YktMWTVqQzRaTg?oc=5",
+      "title": "HONAV Price Today: Honeywell Aerospace Inc. Stock Price, Quote & Chart | MEXC",
+      "snippet": "MEXC, 2026-11-23T08:13:19+00:00",
+      "publisher": "MEXC",
+      "published": "2026-11-23T08:13:19+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTDcxYnlOZF9MLU1wZXdKZE1Ud09wSmc5eC1FckV0eXhteWV6MDdLRWZlRE9fY3BqT3d4MVJweUZIRllLUnUzN0xSanYwUllxTHBNbnctOUdWOC1SYnA4YnM2UXpDbzJiWkJ0NkF2aURBRndiZVN1Y2x1N2I2eDRjYmZiUS1Vdk9PUHNKVg?oc=5",
+      "title": "Honeywell Aerospace (NasdaqGS:HONA) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-23T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HONA/history",
+      "title": "HONA daily price history (Yahoo Finance)",
+      "snippet": "close 154.77 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

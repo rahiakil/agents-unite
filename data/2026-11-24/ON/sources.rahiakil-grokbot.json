@@ -1,0 +1,132 @@
+{
+  "ticker": "ON",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"ON Semiconductor\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 7,
+    "irrelevant_or_spam": 17,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3MyV2FMamtWUnJ5RVA0bk91RnJ0TF9oVWNJMDZiUWF1MFBPSmVyS3BmbkpkYy0yMkpuQ3RZZHpiMV9ybzZubDRpVjBPRXpRVjBBQVpPWjhXM1lYMDdQREVFbm5aMXVMbGkxTlhfZm4yZzg1LVFJSURNVUJVZi1xanB6M2hOSGhxUmJGa2k1Z2trTmZMUWk2cHc5dkpFLVo4amVyUHFBNHNFN21PaDBkZmVvNA?oc=5",
+      "title": "ON Semiconductor (ON) Stock Is Down 9.7% Today: Chip Stocks Slid",
+      "snippet": "GuruFocus, 2026-11-24T18:40:41+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T18:40:41+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMC05aXdBTndzX3lqaUhMOHZTRHg2bnRPMXdCRk9YaExsdGN4d19JSVFyLWRVaTA1aXhmdFE4T1pfLTBudHN0WEJjOHp1Z3pmNGFQVEVpWVRxc3o1clkyTmNCc2V6N0EzaFJqYWxMWTdCSUg4OGRRTkVaU0tlMjRmdF9PX3lUT0FFQVdkMzNkMXg5T0hyemJIQmNjVm92eWIxbzZKMWJ5TGE0Y3JNT2UxRy1Ca1Jwczk0cnpGbtIBwgFBVV95cUxOVnNQRFMwUk1OaFJwRVE0cWdocGhxc3l6dlJzejlUMjNmbXJLRW5QZEVJWkR0bm16TklaMlJlOUt5SWM1SHdrdmRhT280ZUg3SEY0ZkhTRjFubldYTk9ZNnppbG4tWTJXOVh0am5DN1kyNWJMX2k4Y3dMS3ZlYXRkUEJOVzZvNFVQcEpJQVg0WFQxUVhzaGtEcGtCOFpHMFpNVk1qYkFpUmJzUm9mSGdlM3RfRUM0WTRjN1JZUFJwLWw3QQ?oc=5",
+      "title": "What ON Semiconductor Holders Bought Into",
+      "snippet": "Simply Wall St, 2026-11-24T07:06:06+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T07:06:06+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNXNvYXhhdjFWRUJHWHMyZG9EdzJLSi1wcFRQQTJWODF5YlRPMmtUQWdDUjNMTVZfQUJjTFZJRkdpaU9Hdkc2WGxyd0d4elE0NVoySUx5cjJnVVpaM2pwSEFneFlUZGJiM1U4d1NUZlpsQXAzQmdGd2dLYlU5R1FYbGNyNDlyNTRQd0JPT1Qta2x4NklkU0lha045bWVtZW1nUFp4a1JGR2t3MjNVOVJZejhsblQ2QQ?oc=5",
+      "title": "A Look at ON Semiconductor Corp (ON) After 9.8% Gain -- GF Value $64.35 vs Price $66.77",
+      "snippet": "GuruFocus, 2026-11-24T01:40:23+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T01:40:23+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPd0RQV3VTS0w0UHJnRmlzbmxiZndaUFBIamJYTnNyOEgzSmRDNkRUWTlGSzg2NUtIdTN2ZkptR08xQXVhTkstajc3MnR5MXlJVU5qMlJhUlJ6X3BSZWpZMWJBeklIdDNITmZ3VWFtNXBMcHlCRDY4dmw5bXI3bDdGeG1wTnV1Tkp3aWx5MUc2eldRZUgzdjlGY0VyOEd2cUNsdGliUlMtWUlJVnMzT2E0WTl6QjBRVktQcjk2aVlLSHZrdFRTaFZCY3lMUFBPQzBHbjZCdjhxYnVVZklNM0t1SUEyWk82X08weUptODFB?oc=5",
+      "title": "ON Semiconductor Corp. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-23T21:30:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:30:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYm5WbTM1TjBLMENBZWpFakwyUTQyVWZUcDF0REF6ZTRSNExUczNDWW5LMTdFU0s2aW1leXdhTUo3T1ZCT3NUbEY5RmQ5RlZvbkhNV3YwMTZfazlJVndWZmVETFlubGdjbm1lbjVoaHVJb3lDYWJrM0l0bHFxQkwydTlpSHp2XzNDWW5mdkFlVkk4QXY0T2hnWVdYQzVraWlndXdiN3pkRk9wOTZ3cll6NnAtYXczTDlWVzdmS0JDUm84dG1nT3pQaGZaaw?oc=5",
+      "title": "Cantor Fitzgerald lowers ON Semiconductor price target on auto concerns",
+      "snippet": "Investing.com, 2026-11-23T12:06:08+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-23T12:06:08+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfTUt6YWJHVXZTUjBrMFg2NE9WY09WX2lQZDdnMEhwaXNjRk1RRWRpWDJnNXNkNW1ndTBvREJCbXFBUjJySzI5WFpXdDY4MHZkVktGRW9EdmdJWXBHMGR2VkpaRQ?oc=5",
+      "title": "onsemi (ON) Stock Forecast and Price Target 2026 $ON",
+      "snippet": "MarketBeat, 2026-11-23T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMVBQM2hpenZOUUx1Y2pTa0hIVWQxZzVaTThJeGpuaW9ZLXhTSXEwbzhPS1RhWFlEclg5OFpyQ3p0YmhkU2o5Q0hOVmIxc1lsMEVDdmpQWHAzRzcybU1PSndacHRtLV9BTE9fM3FLZ2VXNkJsdlJ0cVRuWFVvZ0N1Tk1aa2VWTFk?oc=5",
+      "title": "ON Semiconductor (NasdaqGS:ON) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-23T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxONHFiYWNXQmJBMzd6YVFHSGtXd056QnY5M1dORTZaT20yRmRJVUlBNmpPZ201QThvNW5xanVvVG1UZ2FRVUFBVzJOVlFJUmNNNjZzWmJPaU9SM29HTEEzUG5ZRzdWci1BUmQwaDBoNFdGRVZTd0NmOGlmdFR1STVsQnhnVV90ZXJHVFBobmRKZkFHaXhZU29lTW9jblJaUEpIRnZ3TDlDX3RscGF6WWpfZ21YR29LeUdGOElmcWlHOURXZVozNkQ5WU12Zm5GRlhMd0dtMGVhX0dJN3VFN2RXc3lyMjRoc29RS0h0U21saVAwQ1liRzVOTWwxei1kNm1EeWM2aTJqV0RfRTc3ay1mZw?oc=5",
+      "title": "\u200bAI spending concerns weigh on semiconductor stocks - Why is SanDisk stock falling? 5 factors weighing on shares",
+      "snippet": "The Economic Times, 2026-11-23T07:35:46+00:00",
+      "publisher": "The Economic Times",
+      "published": "2026-11-23T07:35:46+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ON/history",
+      "title": "ON daily price history (Yahoo Finance)",
+      "snippet": "close 61.49 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "CMG",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 9,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVG9SaWRFUEQ0VTJXdUpPNkxYNHZWVTJsZVN4VUhEbjNZTnlkdW1TcmdMaWtjTkwxVENrQlRSVTY5aHNENmw2LWdLLXpzVmJXQ0o2Z3Q1LW1qZ295ZlMwZzN2U3NKNmlJaEstdms2bDZwQlJIb3ZhUDdrYWZNTlBTUW1hdmkxOHUyWDVpZ3hXRnJUZTFSX0dMTFVTVzlDUjB6dTVUSzNsZ1J2VUppNnBnRVJLSlA2WUhWZzA1WTltUmJIekxSWW13aVZuRGgwY2c?oc=5",
+      "title": "CAVA vs. Chipotle Mexican Grill: Comparing Revenue Trends Between Two Restaurant Giants",
+      "snippet": "The Motley Fool, 2026-11-22T03:39:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-22T03:39:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 37.05 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

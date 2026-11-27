@@ -1,0 +1,108 @@
+{
+  "ticker": "LUV",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Southwest Airlines\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 9,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOVFTbDZUUFl1YWhZWHJLNXY3XzJ6dVJPR3c4U0RPNm9PUERSNld3Mlo5RnhPV05fVXd6V1JpeWFpVnBza1pqZUxnOEEtOUkyTWhkbVNOY1VnQktidFU0WDYyQ3dnRURTaFU0QktSMWZmSEhQSmh1SGF3VTFfOUJaNXRQMWhobWVVRkh4U21YakJfNHJWSGp1dy1DeXp2UFZYNTdYcG9HbmtXZGwy?oc=5",
+      "title": "Can Southwest Airlines (NYSE:LUV) Keep Execution On Track?",
+      "snippet": "Kalkine Media, 2026-11-24T19:20:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-24T19:20:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDejJBV2ljcFltOEE5LVl6eVYwVGxWODF6eUdzRG1TTVlfZ1JaQVo4eW1wbDJSNjdZd29QWXNqRFFEd19sa3dpN1I2X3RucHRJOFVFLThEODJvdURL?oc=5",
+      "title": "Southwest Airlines Co (SWN.HA) Interactive Stock Chart - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-11-24T17:17:06+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-24T17:17:06+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeC15bnVjQk9UaklENDY3UjZSZmxxel83bVJBd1N1NFRhdV9EenRKbjBCZk5NVVIzdklSVDhyeTlfOENraVV1a0NNaWx4b1dSQzRQNzUyWC1VdF9GaEhNMDBJQ0UzZmhZZDVMYUVPcW93eVlVQlBzNXpQWXF0OTE5bVlkYjZyaUcwQUJzeTE2VDZaWTVUeXZRNjUzVVZMM09jTkdDSlROYi0zejFj?oc=5",
+      "title": "Zacks Industry Outlook Highlights Southwest Airlines, American Airlines and Copa",
+      "snippet": "Yahoo Finance, 2026-11-24T14:35:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T14:35:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3YzBmV2NOeFdYbGd6MW5SREdsZmtqTTBTTzVqMlk4ZDFJcEFjdm5xRmo1MlZRaGtaNFpLZ0lmS0FGNGZub19yUzNfdlZ6WUN6YnBoYXVqNkprd0pNVE51NjZn?oc=5",
+      "title": "Southwest Airlines Shares Climb Higher During Monday Trading Session : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+      "snippet": "\uc7ac\uacbd\uc77c\ubcf4, 2026-11-23T17:18:00+00:00",
+      "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+      "published": "2026-11-23T17:18:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcV9pM2RtM0h3cVBBWEpHMGVfMVVPdFdQTmZCMXE1U3cwd0RrVXZDRi1ndTJSbVFGS3JtdzZmcTFlUGsxUUJaYlAtX3QwNmZZTHBoeVdBWktMNTdSR2ZidDI1RXhJZnpvNG5OYTNnUUZvRDBjb1lUdFM0ZE5HRzRFV1FxMWtBNF92X2VDRHB5Vm1yNUZpeTN2YmR3?oc=5",
+      "title": "Southwest Airlines makes major change to its flight schedules",
+      "snippet": "TheStreet, 2026-11-23T03:36:00+00:00",
+      "publisher": "TheStreet",
+      "published": "2026-11-23T03:36:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMElMRXZ4dkpNUWVRakxOa0x6dk1uM3I0b29NTjRGRkt4czh1T0pMQW9falJUTEY2UUx0TXNnM2dzdzN0TjJzaF90Rnp5RGwzbFVxLXNDM2UtZXhfVkcxZVBuSngxUmVEODFsVi1abWliNkJXb3hLM2ROTTlnTzg0Y3Q0NTZENjFu?oc=5",
+      "title": "Southwest Airlines (NYSE:LUV) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-21T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T08:00:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 45.79 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

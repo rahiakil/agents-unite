@@ -1,0 +1,108 @@
+{
+  "ticker": "CSGP",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"CoStar\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 8,
+    "irrelevant_or_spam": 6,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQl9neTdFdEg1WVl0b1BTb1VDTDRMZGJRRmVnMklvdEd6VzZYbE92dW85Q0V4cmdNRG9xTGl4M0p4MzFtYVotbUEwaFQ4SDdGRjRUSnF5d1A3Qzd4QkdFZV9kemM3V194VFZOTHNyNVdvZTN5aF9wTkVaanBRbFhBb0JoTnJlRExVQUVN?oc=5",
+      "title": "CoStar Group adds 8%, continuing recent rebound (CSGP:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-24T16:17:35+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-24T16:17:35+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObHh6X3ZMNm16SlZ0LVE0TzZuY05OTFhUVktiSXMyemdFbUMydjZUMWNNMk1WT1lKYkdyVjBZNXd6Xy1jZlk0M1R6bWZmLUl6SThEejlWY2ZVaGFLN3h4QU9HNlRoUVlVQVp2LWIyejhvOHB0Z29pTlVaZnNrRW5oX0JQeWJvSTBjZkVrTDM4S1VMX1FDZEtmVHN1Y2dReFNvcm1tUER4b1hkVWhDbkpHcGRmOFJsZVBoUV95dGh5bGFnakJjUnZMMVl1SUVIVnhHaDlmYWFKQQ?oc=5",
+      "title": "CoStar Group Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T22:13:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:13:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMm0wekt0ZGhpV0diY0hzX1dDUklaRmljSXNleFBGMFFRbWlpS2Nnd1RKeWZ0a1ItMHI3WjVNaDIxNkw0ZmNKdGhoallBczRQcThIODV1NFJsdnFzLTN4bFpfUnNqWlVIY1ZHcDdMRXJuc010RnNvdlNYaktTX2VEYjRULVp1d2l2SGxqQ2Zfa1BfYVJBV1pDUTlqTlFZOERaZUt0T09HdTRpYnczek1IT3FqeGk?oc=5",
+      "title": "News | Recent CoStar News Hotels podcasts dissect trajectories of major markets",
+      "snippet": "CoStar, 2026-11-23T13:26:26+00:00",
+      "publisher": "CoStar",
+      "published": "2026-11-23T13:26:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaUk96YTk5UHFmY1ZQcHo4aGFGWHJ0UWJPQ0FUUHZNUUdyS2hFZEtEUEJaSFBveHlxWkx0QUZjcTJfelJJSWk3MUo2OHZKWmtNNHZ1UVZ4OGdlVHFJMFJBbDBSalN2OF9EdDZnRE95WjBzUWc?oc=5",
+      "title": "Wrapped CoStar Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-23T09:50:41+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-23T09:50:41+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTWNMVzhfMGszRFA4Y19yNXlUbXNFYVdYTVlpYWRPZUVJLTJxUXI5Nkw3SjNkSGhkV0llR1BNemkzWWVzWFFRYzd2OWNyREoyenpkaVJBSEwxRmxMb3RrTXNIV0pDWi00OGdON3RMdmlMQ2tMOE9VdW9kcm8tTGVjOE1LNGlxUFFDWjQyM1l6NFY3SHVYWmlFTXB0MzhpUk1DSWtVcg?oc=5",
+      "title": "Rachael Leigh Cook Shares Which \u2018She\u2019s All That\u2019 Costar She Wants as Her Next Hallmark Leading Man",
+      "snippet": "Us Weekly, 2026-11-22T15:00:56+00:00",
+      "publisher": "Us Weekly",
+      "published": "2026-11-22T15:00:56+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUjl5QUhCdzJwZWlwbEJtQldPaF9PUDFtbkZqRUdQVU90UzU5a1RMcXByRzdJV0NMckZpdHRoNDg3TUJYYzg5cFJJMzN6QXFRN2c3WHY2cHU2VlpacFVFYTJuZnI4ZHRwNEVLWlFXblhKSTRQNmZfd1JnM0JSQi1yRzFxclI1MEF1bEo1MDcybl9DYVNDUzdHRDk3eFRsdWdVOExOTTlWTVdPeWtYM2xTMkRGRDk4Zw?oc=5",
+      "title": "Hayden Panettiere's death comes a year after costar Michelle Trachtenberg",
+      "snippet": "Buffalo News, 2026-11-22T08:00:00+00:00",
+      "publisher": "Buffalo News",
+      "published": "2026-11-22T08:00:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.599,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSGP/history",
+      "title": "CSGP daily price history (Yahoo Finance)",
+      "snippet": "close 32.64 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

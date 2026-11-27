@@ -1,0 +1,96 @@
+{
+  "ticker": "MO",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Altria\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 7,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQczdfNHlKTVFpZzNrQ2NOTzJhM0ttNFdSeTU0NTJkVEdpNU9PZnIzd2lpUW5VMDhPdTJzT0lpN295NEtqR05RVXpEV2NKRllrYnBHN2xqRnJwb2RER1lyYjFmT3VlVEFKVU5XbGtXNm5qMzBqR0RNSHN6MDFqU3doeklmVl96Ti0yaVRRVkg0QVdYWTlULXNmNDlMMHBybVlRS3REcVhBOHZCNGdKYTM3OC1Zd3lzenlUMzFBdVJQUGtsS1ZZTVVXeFMySXRtazV0bzhEaE5kNWpTd1ZkWlRLQ0pWRXI?oc=5",
+      "title": "Altria Group Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-23T21:37:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:37:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeEQzVURzcTlLMmZqQ2dtMW1xQnZxZ01WSkVxckRGRXBBaE5zZUtGNmVPOTE3ZTBRdVBaZjhhRmIxRElMWmY5LUd3bU4wUFNoT2VPZGlXNGJZaVZRN1BDei1QN1hvcTRISTZaTnB4RUNjNGRUejZ1RVJ6bHgzT2ltUGVza1BuTjNPLUY1ejdIN0VoMFJ6LVhPbEZCeWlIU25DeE9oSVJUSWVDcEhz?oc=5",
+      "title": "GSK or Altria: I Can Only Pick One Dividend Stock for the Next 10 Years. Here\u2019s Mine",
+      "snippet": "TIKR.com, 2026-11-23T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMzNvcGtVbmFUOVZ1RWY2cVNLUTNDMGVCTFJpZnVsNFRhQThhb0FHUm5KUktkLXNMZG44UnM1WTZWUVg5WWE5dVh2ZEVVbGd0aUN2c3BGdWhQOTlQOTA0eXRHSWszcGRITDlFN3JUSHpodVJtbnI0bGl5bkRDQmRHWVZXZUYyNkNSN0l2NnVkNjV0UQ?oc=5",
+      "title": "Altria Yields 5.9%. Here's How Many Shares You'd Need for $5,000 in Yearly Dividend Income.",
+      "snippet": "Yahoo Finance, 2026-11-22T21:34:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-22T21:34:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQWnh3UEJtSUIydjIzSUxXdjI3Tk9XUFJGQnpsdlcwdWtMeV9saVhwTFQyNmJNSGhUY2tJWk9GZUIyZWdvYjBWUzZMZlBIVzZZM1plc2JrMFhKWWctejZqdFV6b05oZTZKWEtJU0VReTFyRW9OWnZ2eENoUnJBNEFac2Y3UVJMajlQYk9wWlZ3VW5uRXo3OGY1UFFSRzZjVmY4Umtzb1M4d09ER3lyeXlEanRBMG54d3RtUHhPTlE3dWw0ZGFuYnlLV1VwWUJwSmU5a2paLS1aVFRkMjhBb0dpU190bU85c01iWU9UaXE2ZnU2VVlVVUlLZzhaRkJOOHRXa3hTZUxaWFJ6NXkyNk02MXV6dHR4QjhhNkFrSENVYWh6ejFmV3BMTjJB?oc=5",
+      "title": "Altria Yields 5.8% and Has Raised Its Dividend 61 Times in 57 Years. Here's Exactly How Much $5,000 Invested Pays Each Year.",
+      "snippet": "The Globe and Mail, 2026-11-22T13:39:16+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-22T13:39:16+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOXzg3clpUWlJpUUZwWHpCQW5VeDlvcWtGcVlfWGJaLURQZjNXZUtLRzd2enpCaFBmZ213Nnp4VGxvcUstZ21jeFRHMnAwS2phM0NrY0lkLXhXZXc0UFp6Nk9La0FWTEdSQWI2SDdFMi0wU01jZHBsN1BqTTFhaGpKdUJQcm5yQ19KZEZEMEpOejdaaWF3WHhUU2F3V2RydF84SGVTS3d6VGZOYzNPN2FmYzZmQlFIWmotUHE1SXJvWDJiM213Sk9iMWRFczlVZUnSAdQBQVVfeXFMT2ZBS3JEWV9BNlVZTURyNU1kZjA4VGpTcjNJdDRWNldQVS1jMm5INS0yeEJLM205bFU2dmNJT0duNWMxNGtHaDBsRFVMQVE4Ty11eWlZcG82OHB1NmNpY0pVTVhZcWtQallyRzU1QjNPSDh1UjN2eWRlT1Q1SThmYnhUelJneXVpTC1WcDhtT2dWX045WklEZnJSS1hhUnk2aHkxLTJQSUkyQVNxQjVvVFZTYlV4NjNmY19ydmtzbWhYUkNocGU1a0tGa2c1aEZRVnl4Tno?oc=5",
+      "title": "Missed Altria Group's Rally? What Holders Had To Believe",
+      "snippet": "Simply Wall St, 2026-11-22T09:10:45+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-22T09:10:45+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MO/history",
+      "title": "MO daily price history (Yahoo Finance)",
+      "snippet": "close 74.82 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

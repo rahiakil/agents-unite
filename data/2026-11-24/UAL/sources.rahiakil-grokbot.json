@@ -1,0 +1,132 @@
+{
+  "ticker": "UAL",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"United Airlines\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 4,
+    "irrelevant_or_spam": 6,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFM1SEFZY0VNR3B5RWtKTzlsZEdyeG9WRlF4XzcwRmVpTldJMVh1U05RUUNzMmhfSUk3Qy1zREZLUllXalV4OVFKeUIwTVpaMF9MaE9rS0N1UEFVR1FaRDJHMm9NYWVORDB5Nk0tSGJVMk5VdGV2RV9UYWFUeURsTFZVdlIyd2Q2SmxMRlAwWGVhbmJVdlBqOHB4TURkQklMREtienUwdTlrY3dZQTRyMHhDME5BQ1FQbm9KZTlRQW9PX05rQi1PMVhwUV9QNDNQ?oc=5",
+      "title": "Stanley Druckenmiller Sold Every Airline Stock He Owned Last Quarter, Including $108 Million of United Airlines",
+      "snippet": "TIKR.com, 2026-11-24T19:44:57+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-24T19:44:57+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX1BQd1A3V0ZQYXFDLVVQZTBCZWRTcGdWZ0RINVQ0d0hUdjlzS25IV2RVV3FtbFZ1TTdwbjF6dkMtWnFuMmNYc3E3TXFFeGxFNFJVdFZrUUZpcm90Qk9UQlBzZ0NTeFBRZkE3V2J1OHMyX0JfQmtTYVlLNWFQZ1VNRklfSTg4M2ZpU3NRSHRfT3lfeTlmR3pzTjBRbzB3YkVwUjBQQzBHREtBVWhJN3p4V0R4ck9LdzR5UnRDWmFFYi1McHRNdkt4MU9ERDV1Rm8ycWpmbUdGYlBXT3M?oc=5",
+      "title": "United Airlines leads Thanksgiving airline gains on pricing power and premium mix",
+      "snippet": "Investing.com, 2026-11-24T13:27:15+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-24T13:27:15+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmoycHFvZ1RJTUo0REh5OVU2RHNhVUdoSXUyaUpXQkplcXB3bHNxbFlnVXkxejI1NlFKUm42MHNNSTdUcy1XYkZ5VzdSbEdIalE3NWptNDZ0YVl0VlhTMjBZMXUyVlVvTU1HVFI3c1FjVk5kdEVkOHcyT0FzUXpWN3BxSXdjZWFsVlpRS2pxQldrWVBVLW1oVGFPQlBJdWY3ZVFFczJMdw?oc=5",
+      "title": "How United Airlines Serves Millions During the Holiday Travel Rush",
+      "snippet": "TODAY.com, 2026-11-24T13:20:36+00:00",
+      "publisher": "TODAY.com",
+      "published": "2026-11-24T13:20:36+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYS05T0FNX0lvVzhLWFA3T012U1JwUkVXcnVIWjE1UWNjaDU3VVVnS3FQQ3NNY2tJVHloZXhuY095Ti1VUjR5LTQ1RGstWUFtSk1JVy1CUXZaSVZEY2tScnlQMk5ES2JHNHBhOFRMamJYR2lUY0lKRnBkcldHMVBka3djbmN2SkEzRGNSSkR3Z3Z5U3FvQWpvQ3dyZ2x4NS1IT0JNNHp3a1Z6TmxZOHRvZm80bXEta1dzMUktMmdUZXRZWG8?oc=5",
+      "title": "A Look at United Airlines Holdings Inc (UAL) After 7.6% Gain -- GF Value $105.61 vs Price $108.71",
+      "snippet": "GuruFocus, 2026-11-24T01:00:09+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T01:00:09+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcWtaRHpLSlVkc0ZzZUF6S0EwSk14ZndhSVkxYWdMWjM0M09xODRSTUc4a2dqY2ZfMUNWTzh6SURxeUtRR1J3eXNsc3B3WVhuVDNicFpYRGpLTHVaX1dDVjNFNmw4ajNpekhwM1RPellrZnFsQ0VBVkRjU1NaeGZJR1FCXzhFQkFDTEtwREFBZElzUGRnRTk3d3VpTGFzMXV0dmZtSVF5RXFZNTRvb1hhTkVkY25XVlYyNmRkTDBEMGpfNGNDOFBj?oc=5",
+      "title": "(UAL) Movement Within Algorithmic Entry Frameworks",
+      "snippet": "Stock Traders Daily, 2026-11-23T22:54:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-23T22:54:02+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUmkyRGp4LWlDQXllOHZ1ZG90RC1kam4wTDU0dkFoNkJLYzVEWm9PdVdueDJGeDB0bFExNkk5NHh6SjJIUS16Wk13UTVldWlKSHlnZWx1dWkyaW5YVDRrWUl1RU96cmwwdTVmM3htdnBzRkE5Q2xQQjRqSzZySlR1SGNuZHlZWEM3THphUDFPYUFUMnRqRk9xazhoSjdsb2RsdmQ2TDVjVXZlQQ?oc=5",
+      "title": "Is United Airlines (NASDAQ:UAL) Ready For Its Next Growth Phase?",
+      "snippet": "Kalkine Media, 2026-11-23T21:15:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T21:15:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.784,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMEZSNFQ5b0RWbUxHWXYydU4yWjlWc2t0ZU1nWDhjVmhCcWRfTnZtdmRFWTl5VUV3MjA1b3kwV21JZjZVTTY0NnFkVHRUQ2RFMFFMb3NYN1Q4MTFoUTJhVnpSOWhyVFNub1RMb2JGM040Q2c1NFZSU19Ebks1REV4ckhTa3RzWWRBTkxsa182RndIV0pfanhpeElUYXhTV2I4?oc=5",
+      "title": "United Airlines Has Warned Air Traffic Control Isn\u2019t Ready for Air Taxis. That\u2019s a Bigger Problem for Archer Than Its Cash Burn.",
+      "snippet": "Yahoo Finance, 2026-11-22T20:25:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-22T20:25:02+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcmlaTmhTdEZFTlZicmdPdm8xaG11c1U4dUpTV3BNdl9YVnBUTWtQdVBSczZvXzBwMzlzZEh1eGFhMTg2eGxobXZrUTRUYWIzaE40dnA5S3pRU1VJNnl1cldYRHdqT3dVNTNhc1Q0bE94ejRoZHRzRi1NYjRIZmR6cE13R3FJWkllZEp3VktkdHNZZkRILXVyaQ?oc=5",
+      "title": "United Airlines Is Torn By Powerful Competing Forces",
+      "snippet": "Seeking Alpha, 2026-11-22T11:51:28+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-22T11:51:28+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 107.8 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

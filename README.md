@@ -104,7 +104,7 @@ Your output:         One PR → data/2026-06-06/TSLA/
 <!-- LIVE:HEADER_STATS:START -->
 | Reports | Tickers | Universe | Latest day | Coverage | Avg sentiment |
 |---------|---------|----------|------------|----------|---------------|
-| **10** | **8** | **291** | **2026-07-11** | **1.0%** | **+0.396** |
+| **2328** | **104** | **284** | **2026-11-27** | **3.9%** | **+0.116** |
 <!-- LIVE:HEADER_STATS:END -->
 
 <br>
@@ -148,13 +148,21 @@ Technical breakdown: [docs/RAG_AND_SYNTHESIS.md](docs/RAG_AND_SYNTHESIS.md) · [
 ## Live market pulse
 
 <!-- LIVE:MARKET_PULSE:START -->
-**Latest pulse — 2026-07-11** · updated automatically on every push
+**Latest pulse — 2026-11-27** · updated automatically on every push
 
 | Ticker | Score | Mood |
 |--------|-------|------|
-| `NVDA` | +0.75 | 🟢 bullish |
-| `AMD` | +0.00 | 🟡 neutral |
-| `GOOGL` | +0.00 | 🟡 neutral |
+| `QCOM` | +0.95 | 🟢 bullish |
+| `AMD` | +0.76 | 🟢 bullish |
+| `AMZN` | +0.70 | 🟢 bullish |
+| `AMZN` | +0.60 | 🟢 bullish |
+| `GE` | +0.57 | 🟢 bullish |
+| `LMT` | +0.50 | 🟢 bullish |
+| `GLD` | +0.48 | 🟢 bullish |
+| `HOOD` | +0.25 | 🟢 bullish |
+| `MRK` | +0.12 | 🟡 neutral |
+| `GME` | +0.10 | 🟡 neutral |
+| `DIS` | +0.06 | 🟡 neutral |
 <!-- LIVE:MARKET_PULSE:END -->
 
 Full rollups: [`data/_index/`](data/_index/) · Examples: [`AAPL`](data/2026-06-05/AAPL/) · [`TSLA`](data/2026-06-05/TSLA/) · [`NVDA`](data/2026-06-05/NVDA/)
@@ -164,16 +172,20 @@ Full rollups: [`data/_index/`](data/_index/) · Examples: [`AAPL`](data/2026-06-
 ## Coverage tracker
 
 <!-- LIVE:COVERAGE:START -->
-**Universe progress** — 8 / 291 tickers ever covered
+**Universe progress** — 104 / 284 tickers ever covered
 
-Today (2026-07-11): [█░░░░░░░░░░░░░░░░░░░░░░░] 1.0%
-All-time:       [█░░░░░░░░░░░░░░░░░░░░░░░] 2.7%
+Today (2026-11-27): [█░░░░░░░░░░░░░░░░░░░░░░░] 3.5%
+All-time:       [█████████░░░░░░░░░░░░░░░] 36.6%
 
 | Date | Reports | Coverage | Avg sentiment |
 |------|---------|----------|---------------|
-| 2026-06-05 | 3 | 1.0% | +0.393 |
-| 2026-06-07 | 4 | 1.4% | +0.507 |
-| 2026-07-11 | 3 | 1.0% | +0.250 |
+| 2026-11-20 | 100 | 35.2% | -0.048 |
+| 2026-11-21 | 2 | 0.7% | -0.190 |
+| 2026-11-23 | 1 | 0.4% | +0.850 |
+| 2026-11-24 | 1 | 0.4% | +0.600 |
+| 2026-11-25 | 100 | 35.2% | +0.065 |
+| 2026-11-26 | 10 | 3.5% | +0.484 |
+| 2026-11-27 | 10 | 3.5% | +0.463 |
 <!-- LIVE:COVERAGE:END -->
 
 <br>
@@ -340,7 +352,7 @@ Not investment advice. Synthetic demo data in `data/2026-06-05/` is illustrative
 MIT — see [LICENSE](LICENSE).
 
 <!-- LIVE:FOOTER_STAMP:START -->
-_Live sections last regenerated: **2026-11-21 19:10 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
+_Live sections last regenerated: **2026-11-27 22:57 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
 <!-- LIVE:FOOTER_STAMP:END -->
 
 <br>

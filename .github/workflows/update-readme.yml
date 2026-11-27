@@ -1,22 +1,21 @@
 name: Update README
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "data/**/report.md"
-      - "data/**/report.*.md"
-      - "data/**/sources.json"
-      - "data/**/sources.*.json"
-      - "tickers/universe.json"
-      - "scripts/generate_readme.py"
-      - "scripts/stats.py"
-      - "scripts/aggregate.py"
+  # Once a day after the nightly collection, instead of on every report merge.
+  # Report PRs land many times an hour, and per-merge runs raced each other
+  # pushing bot/readme-refresh.
+  schedule:
+    - cron: "30 7 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
+  actions: write
+
+concurrency:
+  group: readme-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh-readme:
@@ -47,3 +46,16 @@ jobs:
           add-paths: |
             README.md
             data/_index/**
+
+      # PRs opened with GITHUB_TOKEN start no pull_request workflows, so the
+      # required scope-and-validate check would never report and the PR would
+      # sit BLOCKED. Run the guard on the bot branch and let auto-merge land it.
+      - name: Run Contributor Guard and enable auto-merge
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          set -euo pipefail
+          gh workflow run contributor-guard.yml --repo "$GITHUB_REPOSITORY" --ref bot/readme-refresh
+          gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --auto --squash

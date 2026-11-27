@@ -1,0 +1,215 @@
+{
+  "chain_attempts": 35,
+  "false_accepts": 0,
+  "false_rejects": 0,
+  "false_accept_examples": [],
+  "false_reject_examples": [],
+  "by_persona": {
+    "colluding-ring": {
+      "attempts": 4,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "contrarian": {
+      "attempts": 2,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "momentum": {
+      "attempts": 3,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "news-reactive": {
+      "attempts": 3,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "novice": {
+      "attempts": 3,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "prompt-injection": {
+      "attempts": 2,
+      "merge_rate": 0.5,
+      "eligible_rate": 0.0
+    },
+    "sector-specialist": {
+      "attempts": 2,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "social": {
+      "attempts": 3,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "spammer": {
+      "attempts": 6,
+      "merge_rate": 0.5,
+      "eligible_rate": 0.1667
+    },
+    "sybil": {
+      "attempts": 4,
+      "merge_rate": 0.75,
+      "eligible_rate": 0.75
+    },
+    "value": {
+      "attempts": 3,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    }
+  },
+  "by_behavior": {
+    "duplicate": {
+      "attempts": 2,
+      "merge_rate": 0.5,
+      "eligible_rate": 0.5
+    },
+    "fabricated": {
+      "attempts": 1,
+      "merge_rate": 1.0,
+      "eligible_rate": 0.0
+    },
+    "honest": {
+      "attempts": 19,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "inject_scope": {
+      "attempts": 1,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    },
+    "inject_text": {
+      "attempts": 1,
+      "merge_rate": 1.0,
+      "eligible_rate": 0.0
+    },
+    "pump": {
+      "attempts": 4,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "spam_malformed": {
+      "attempts": 1,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    },
+    "spam_scope": {
+      "attempts": 1,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    },
+    "stale": {
+      "attempts": 1,
+      "merge_rate": 1.0,
+      "eligible_rate": 0.0
+    },
+    "sybil_pump": {
+      "attempts": 3,
+      "merge_rate": 1.0,
+      "eligible_rate": 1.0
+    },
+    "wrong_hash": {
+      "attempts": 1,
+      "merge_rate": 0.0,
+      "eligible_rate": 0.0
+    }
+  },
+  "consensus_mae": 0.2003,
+  "consensus_mae_by_day": {
+    "2026-11-25": 0.2003
+  },
+  "consensus_rows": 8,
+  "reputation_by_day": {
+    "2026-11-25": {
+      "colluding-ring": 0.6205,
+      "contrarian": 0.6796,
+      "momentum": 0.6776,
+      "news-reactive": 0.7,
+      "novice": 0.6195,
+      "prompt-injection": 0.4415,
+      "sector-specialist": 0.6898,
+      "social": 0.5783,
+      "spammer": 0.5708,
+      "sybil": 0.5562,
+      "value": 0.7184
+    }
+  },
+  "detection_latency_days": {
+    "colluding-ring": 0.0,
+    "prompt-injection": 0.0,
+    "spammer": 0.0,
+    "sybil": 0.0
+  },
+  "undetected_attacks": [
+    {
+      "contributor": "sim-ring-01",
+      "persona": "colluding-ring",
+      "behavior": "pump"
+    },
+    {
+      "contributor": "sim-ring-03",
+      "persona": "colluding-ring",
+      "behavior": "pump"
+    },
+    {
+      "contributor": "sim-ring-04",
+      "persona": "colluding-ring",
+      "behavior": "pump"
+    },
+    {
+      "contributor": "sim-sybil-02",
+      "persona": "sybil",
+      "behavior": "sybil_pump"
+    },
+    {
+      "contributor": "sim-sybil-03",
+      "persona": "sybil",
+      "behavior": "sybil_pump"
+    }
+  ],
+  "duplicate_second_merged": 0,
+  "mean_score_by_mode": {
+    "full": -0.0707,
+    "news": -0.0429,
+    "sentiment": -0.0743,
+    "social": -0.1074,
+    "trading": -0.0291
+  },
+  "mean_score_by_prompt": {
+    "baseline": -0.0721,
+    "skeptic": -0.0493,
+    "terse": -0.0733
+  },
+  "mean_model_latency_ms": {
+    "rule": 8.4428
+  },
+  "mean_model_cost_usd": {
+    "rule": 0.0
+  },
+  "stage_failures": {
+    "consensus": 11,
+    "merge": 5,
+    "scope_guard": 4,
+    "validation": 1
+  },
+  "stage_latency_ms": {
+    "assignment": 1.7665,
+    "consensus": 0.0,
+    "generation": 0.0706,
+    "merge": 0.0,
+    "scope_guard": 0.0859,
+    "validation": 0.2016
+  },
+  "forward_pairs": 0,
+  "forward_sign_hits": 0,
+  "attacks_seen": [
+    "colluding-ring",
+    "prompt-injection",
+    "spammer",
+    "sybil"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "ticker": "TSN",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Tyson Foods\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 21,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5fa3BxRFd4Q3pnUktfcEZlaFlyTXNLUTl0MU1WM0NBWnZmS3ZfekFCcUhMQTR6eUduWEY4b3E4ODQtLXNlMndJ?oc=5",
+      "title": "Tyson Foods Stock Price Forecast. Should You Buy TSN?",
+      "snippet": "StockInvest.us, 2026-11-25T22:44:52+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-25T22:44:52+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcFYzRUhucFk4VVdmT19Ob2habWtOUjB3V3BBcjg2NlEyQ1owaGlLQ0pWUHhTLUd1aTZIUDJSYkRvUU9GN2xwRmIydUhyUl94dHpDNnFuQURpaU1TLWRhRWs3UVlpcDliUGVvTDg5Vk12YkZyZkhkcDZLR2RqYjc0eVp3d2J3ZXB1OEpuS2xVT2RZUDBjM0FwVVF0VmtkOGhEY2VfN3lOcWVhX0xITEhzSTBfMDQ?oc=5",
+      "title": "Form 4 Tyson Foods Inc: Wes Morris (COO) For: 20 November",
+      "snippet": "Investing.com Australia, 2026-11-25T09:00:42+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-25T09:00:42+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMDlENHhYbzdlUVFTeU01cW1ha3VnY04xdms4M0t4NGFvNURydF8zcllOR2lYOUJ1LXkwMzlmTF9zOVMzdUQ0bUpGWTZ4Q1lSZFFBTjdrcTFJSTN5YVRSQVJkUTNHbHFnN25RczNGWUNwLXFuTWlXRWlWRnRscjRvTnRxbUE2cHBGWlVBUWllcHdWUUowbzBZOG0zRzVqTUo2bUVhVkJSYXRZU2VxVVZPWUtzeGhyR2tpZ0ZEcjZ5WGw?oc=5",
+      "title": "Tyson Foods officer sells over $1.3 million in company stock",
+      "snippet": "Investing.com, 2026-11-25T05:09:02+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-25T05:09:02+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3p3M2N5VWlBdTdmT09pZ2F1bnJvTXRBbW95ck1sbGFtOWJhVFM2cHRDVlcxRmhVaUg3RHZQLVA5dEhySWVOMjBCS0ZmVGliTkRIZlBnWWtiaEN4NnJ5TkEtY25UWlgwaFFtNXFkUXVnZV9YWkl0X1ZhdzFOMlJIUFEyMjZNQXJSc2NyUGxGUEhpSURIQ19SczF0aFJIdEhiWHZCZVFCQzh2RjJKdXRfWWktemlnMTc0QndFVTc5MVBYTXIwQzFvSXJrV1RNZEcxSkE?oc=5",
+      "title": "Tyson Foods Chairman John H. Tyson Awarded RSUs and Performance Shares on November 20, 2026",
+      "snippet": "Kalkine Media, 2026-11-25T01:36:15+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T01:36:15+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS3JxbWxvcUxydXNUMnJ1b0g1SXljYTVuNENzRDNWUG5LRjZ1UjU5OXlpV05zZlJORVZVRDRwX2FRR3JQd01SMjVlaENNVVBGTGdYR0hjbG5hOEprRElhTGFnVDhXRmNkSlZRTFlMLXpfMzUyMnJuRVJuQWdRYmdLaWZUWk1CRUFBcVpLLXp5Yzdvclc1b09ZUWlZbHN5dktwanhTUWZoYTl6NG9wdFRrZGZsbVZGNnFlT3BfaXpiZ19lOVllZmhSOUNhTQ?oc=5",
+      "title": "Tyson Foods' Phillip W. Thomas Awarded RSUs and Performance Shares on November 20, 2026",
+      "snippet": "Kalkine Media, 2026-11-25T01:36:05+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T01:36:05+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRC1Kbkk4aF9FcC1pYm1GbTNNT1BfOTdNMTlFaTVUcmJzMV9Eb3hDbF9YbTdGWnZUQ00yMGI4NmNMWDFUT3hsQUV3dUNSZFhpN1lheWl3emF0aV9aSmJaWjNtSlBpeURpZHVUUVVsOF9YY0JtVmJVOVd4dzZ5SXkzZ3JQQWpZVTZsSk4yRHdGVFdEWjZ0LWRBZlkyR0VxNE1fZ2t5eHhxM29BdXRNbDJvelBhc0YyejJHZWdwZUxvV21idjRQZFBr?oc=5",
+      "title": "Tyson Foods Director Donnie King Awarded 43,211 RSUs in November 2026 Equity Grant",
+      "snippet": "Kalkine Media, 2026-11-25T01:35:40+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T01:35:40+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSN/history",
+      "title": "TSN daily price history (Yahoo Finance)",
+      "snippet": "close 63.2 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

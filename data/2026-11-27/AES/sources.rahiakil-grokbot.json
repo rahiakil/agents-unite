@@ -1,0 +1,96 @@
+{
+  "ticker": "AES",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"AES\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 45,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 24,
+    "irrelevant_or_spam": 15,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rTlI5Z3BncFItd000eVBvakRNSzlHRk1uYmZDbTVwXzY4Vnp0V1UwUVg2ZTBNOU1PZ3BlcFdEbllXVTlBTjktX20wZnZGUVBTaW0tMlRpN2l2QWlJcGJ2WmhESFVtdzJsYWpnMWpEWlc?oc=5",
+      "title": "AES Dec 2026 16.000 call (AES261218C00016000) Seasonal Returns Chart",
+      "snippet": "Yahoo Finance, 2026-11-25T23:47:24+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T23:47:24+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JWGpfbkRzT3RZZm1WUldBUURmYW9CMFVybVhRSXRPcHZwNmlRY1RKRWhYOWRYaG94dEVkclZfNE9IVHNha21QMXdkN1Vhb3dsZ184a3JBejUxSG9jbDJn?oc=5",
+      "title": "AES261218C00016000 Interactive Stock Chart | AES Dec 2026 16.000 call Stock",
+      "snippet": "Yahoo Finance, 2026-11-25T22:41:01+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T22:41:01+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbEZkUzU1Y0FFTllEdi1ad0owaHktRVV2NmxpNjBlM2hrenB5RFFSUXlLSUg3bktZQXpjSmdqYVlQcGZ4ajFkUUI4dlVndElnTWtfWUpIcUF4OVVzYmt1TEtjT0lTc0dkU2w0SlQtYWxVMC1TMUpkV3p3UENQbjNqTUd2MGl6bTJ6VjRxaXJBY0NSTzhzMXdURkw3V281azNyVWVUbVhOZEpaT0lFZm1PRm9sLU5KbWgyLWhjQlFKb0lyaTlpMXhuVHd3?oc=5",
+      "title": "AES Ohio urges customers to get winter-ready and stay alert for scams this holiday season",
+      "snippet": "WKEF, 2026-11-25T18:33:47+00:00",
+      "publisher": "WKEF",
+      "published": "2026-11-25T18:33:47+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.134,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRnVYY2tHVS1leXBjWWtHbzFqWmtTOUJEb0ZyQkE5M09Pa3g5eThwRmpnbVpJM2l5TFZycjJfRFZxV3BoYXZnc0o3X0kySHc1b0pZNDFEY2pYYTBaOFZTYWNDeno0QXBpQU95YXBtcktES1drVTVfMkFvRmZrSENWdU9yU0puVFFhUkNrbkRSZGZTNXRqZVZSRUpxQWpTeE5fM29iOXU1UHZjUUoxVThQZjNGZHdqWXNNRFotOVhPNDhzeXY4ZHZLUXVidXo?oc=5",
+      "title": "AES Sustainability supports Bellway's first Passivhaus project at Perceval Grange",
+      "snippet": "Trending Now Infrastructure, 2026-11-25T09:04:25+00:00",
+      "publisher": "Trending Now Infrastructure",
+      "published": "2026-11-25T09:04:25+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdHN1a1E0UTFldHNFc0JiQU9wUjIzSGljUDNSLUdSQ1NPVHBwc2dScm5OWTZqUjhKWkVVWG56WnVYLTVoR1h1bUJCbEZqMXpYbzBHbzQtY3ZvQlhOcHdzS3A2LTlfNllZOC1kWUFuT1lPQVEzR2hCTEcxemZnNi1ZWjdMZEJNTUVrdjljUExCYUsxTVJDWGVsTGthNFFJMVNCUEhBSWVsUjU5RVVzazE1OFVqcU40dEVCc1ZOc1hqRGQ3Q0VqdFFKVFB5OXY3eE1fRWMwZS1pOFc1amNIM3l1czJjSQ?oc=5",
+      "title": "H. Lundbeck A/S Presents New Clinical Trial Analyses And Broader Bexicaserin Research At AES 2026",
+      "snippet": "www.marketscreener.com, 2026-11-24T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AES/history",
+      "title": "AES daily price history (Yahoo Finance)",
+      "snippet": "close 15.03 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

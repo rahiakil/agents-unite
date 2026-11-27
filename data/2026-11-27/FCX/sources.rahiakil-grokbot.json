@@ -1,0 +1,129 @@
+{
+  "ticker": "FCX",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Freeport\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 11,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNERXSVNBbDJiVWxqekIxRW4xOFNtRUgyTVFBaHUtbklDZWpKbGtEQUk3MUxWSXB5RUQyNEJaa3VNcXB4MVd6WmlEOUtqdkZhbXVCQTVWbEN5el9vc1BkODZ0ZE8wVXJiWEpSbU5mTGlZMEZLbHVPT3k4d0lQcTk3by1hNVJYbzVyUkRBUnlNY2hWbjByaEprdkpoRHRoMnlnTDBaSjJlelVncEJ0M0c2aTY5TkJrcnNILU5jT29XQm5BYVZDMUFrd2lCRlE2MU90dnJhXzBsUFRJRnhHOTdGYU12UQ?oc=5",
+      "title": "Copper's Biggest Bounce in 10 Months Lifts Freeport-McMoRan (NYSE:FCX) 6% Pre-Market Today Following a 26% Slide in November",
+      "snippet": "kalkine.ca, 2026-11-27T14:19:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-27T14:19:00+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY2doOWZPMG9ZMGgwbnJNdHNtUGlBQ2ZlQ0dKQjBFaHRTRkVZUmVpZXV3NXpuNjU4VFFPblUxYThRZ3J3V2J0bnpuOFZtM1dpazg2eTlaLVFTeW5KaGotOGppeDdZdDRXODJqeGVwc19pRG0xSTVfMFFRUS04TzFCRFdJZG9XczNQR09yd2tfYTF2akNUNnBLMHVB?oc=5",
+      "title": "Why Is Freeport-McMoRan (FCX) Down 27.1% Since Last Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-11-26T15:30:11+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T15:30:11+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5GSmpCQjFQWHpmN0gzeDl6RjEzRW5VM0lXdTlXQnltWUpVcWx3ZU5WT2NVS0pNTGdaRlR2LS1oaHlzM3MtTGM0?oc=5",
+      "title": "Freeport-mcmoran Stock Price Forecast. Should You Buy FCX?",
+      "snippet": "StockInvest.us, 2026-11-25T22:43:35+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-25T22:43:35+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOejY2S3hvZUdsUmxqeWtTVi1tSnZ3NWVqM0hQdWtVZmo2MDRQTEJjWXA5Q05KVzJjWkRJb1lTdGI5ejBxWktoMUpDSXlCOENpd3VsZTJVOEtaSk5MMTNNUjdLb0xReXRKTlViR21kMlRQYlhleWI5cEx0Tk9ObjR5djI0SWFBQU5iLWNLaV9kSXRlRlh0eHJpTGlHY2RYaFdfSk1HbFE4WlVKRkFOY09xNV90NkxiTnY2bXRNamhQWnBfcU9Yaks0Q2xseXJsQdIB0wFBVV95cUxPXzFWT21YLUR5OFVmQmUyNXRjbUg1azVfU0Jzc2IxZjQzSF9QT1o2cGphZVZjVWZVck91dC05bGFKZm45UTFKY3QyaDN3eVh2b0JaX1RuRHBFS2VEd0lxV3hHOG9nc205c21VcjJ1U3I3ZGtXdmNqWXJFOUNlWUN1RUgzc1BBQ2dObkh3R3loMlJqa1dydHdCc1ZfdExTOTgxX0JDdWpEcHR1TEJ6Q0FraHNtQ3JiWDM5c3JtcnVaNzBUVDNhcnVBX2ZtcnRyNFRCTDRJ?oc=5",
+      "title": "Freeport McMoRan (FCX) Stock Looks Discounted On Future Cash Flow",
+      "snippet": "Simply Wall St, 2026-11-25T20:11:22+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-25T20:11:22+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZW5IMkdvVzZ1eGwzeWM4bFFRWTF0elZkMXFoMUNvZVhtTDlWZGplSnZuX3RqNGcwSlY0b1RKc1QzMThGQzFlbEIyaFlBczBfLVZKV3BPMG5yMUt5djQ4NFF1RVRHel9PMGZRMHdiQjZDU2FqTlZOY0MzYTg1Z2NSaEFYdW1NS2Y0M1RUX3VwTDFPWTU2WTFyQVZ5VlE3ekRLQUE?oc=5",
+      "title": "How ETF Selling Will Impact Freeport McMoRan Stock Investors",
+      "snippet": "Yahoo Finance, 2026-11-25T12:15:05+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T12:15:05+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPekhTMGk0eUd5Z1pjb0MyaXpaeW5md01HbzlCRDFzdm9JNW5HTDB6aUdsQ0RiMWRrWUlSeWZ0dHFrbHZSNG1ySFNuZ3E1aVFyd2xsSVQ3RUVJNFdaa3NxZHFFTDN3d1JYTGI5WFJpY0pZSEp1eHRhTTBiTzRobGc2UA?oc=5",
+      "title": "Wrapped Freeport-McMoRan Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-25T01:58:33+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-25T01:58:33+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdmRMVWRmVzdQZ0lDX29SYzdQVUYyelVWdHotWDZCZm5uRF9xUDhyN3Y4Zzc0Qm1MUlpYTklPOXZaNFczUnUzcUs3Q25qcXlrbXlPT01WNDBlNHBCRUJaaEc3T0JxaHlOVW1HMi1QbjR5cGV1SXI1R2RiSVVoUnBMN3hzZXJxQ0RVZ0xiNW5SS3o5eHVtb29ZeTgtYTZOM0pYam9iSEp3UE9tdlRCUUZDdDN5N045UEc2WlNsSlVaUHJaSjJSWEZGd1JGQ0VDc3NaeWw1Z0ZfRmU?oc=5",
+      "title": "Freeport-McMoRan, Inc. Stock 12\u2011Month Price Target Cut to $79.09, Implies 59% Upside",
+      "snippet": "TradingView, 2026-11-24T19:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-24T19:20:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000055/fcx-20261124.htm",
+      "title": "SEC 8-K filed 2026-11-24",
+      "snippet": "items 8.01",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FCX/history",
+      "title": "FCX daily price history (Yahoo Finance)",
+      "snippet": "close 50.77 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

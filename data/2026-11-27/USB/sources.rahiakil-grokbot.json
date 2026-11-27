@@ -1,0 +1,108 @@
+{
+  "ticker": "USB",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"U.S. Bancorp\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOaWFRSnFtZWJZUklwUVdPOVpORk11Tnlpa2tFQV8xaXNiMzNRMmdxS2FrVnZJZWctMEJUQXFSY2Y2bnFLRjB2Ny1Nbk1wQ3VnT25CcG5HSHZkNktjUURRbjd4cThPYlBpMFB2emhvSWZnVUVHUmxneDViQ002YlNIay1HczREZjZDMkM5UmVWZTk4ck1iLTRQVDZSLW1HRGw5VG4wbVBPbUVpNkJ5cG4ta2Mtckkyblc1ckk4dmVvVE1IVXhvcjZnRmhWc3F4ZE5wNXJDamFQN1BncFc0c1NfY3NIcWhubC00TTlzOUM1TUFjbXM?oc=5",
+      "title": "Q3 earnings highlights: U.S. Bancorp vs the rest of the diversified banks stocks",
+      "snippet": "The Globe and Mail, 2026-11-27T11:35:11+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-27T11:35:11+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRmR6MnRmczdFa2dhWndJSjcweFpZRWtlaFR5Q016ZWxMamdlSFY0X2pDMFdwdUZTUDlaRFA1aUt4Q3JqYUhQaW1qQkk0bjZRQWdqYnI5N1lqVzZ4MnRuODJ5X2pLX1RPQWVpY281Sm04cUFmUTZiZV9fbVhFQ1FSTjM4eExKMFE0M2VQRFAzeFMzdEk1X0I0d1RMR3BSXzhuRFFiZmFIdXBQQ2pVYmN1ZFpn?oc=5",
+      "title": "U.S. Bancorp stock gains 1.81% to EUR 53.51 before Xetra",
+      "snippet": "ad-hoc-news.de, 2026-11-26T07:41:20+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-26T07:41:20+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1aEdvb2FncnB1N2dWQnUwTEprZUdTeDNNQkpjMjBKT1lLNTN6MXgzYzRkV2RUaHpzZHUtTE5VV0pmUWtHMXJna1RXd0Nha2NqcHNGdFYyLVRMQQ?oc=5",
+      "title": "USB News | US BANCORP (NYSE:USB)",
+      "snippet": "ChartMill, 2026-11-26T02:24:54+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-26T02:24:54+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBubXoxaUpXNERLWGw2VG56N1NIMVFYUHp2LTFWdWVFWkhNTXVLd1Z6WkJ3UTdQcDNoMDRkR0VnOGNJWWVMMWpj?oc=5",
+      "title": "Us Bancorp Stock Price Forecast. Should You Buy USB?",
+      "snippet": "StockInvest.us, 2026-11-25T22:44:14+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-25T22:44:14+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3dlWW51NXZVNFMzWFRRa0FmQTB3dGcyUkdxVFdzcGxvRmt5NG4tY0RFdlFFRVhNdE5sMExMZ3pNZ29yS09VYXp5dGprMHA3bVRqV0p0SEd5VmE1bml5WUpWYWtaZkk3elNrT1k5ZXZvcFN4RGVfd2FueTJ2aDU1cXVaZjNJTWRvUm85Q2tZTVhuRXk2SGd0cVN0aG5PRVBFYnNGN2lFR1A3QkRYc2xIT3AzMnpLUQ?oc=5",
+      "title": "U.S. Bancorp stock: Q4 report date set, up 0.40% at EUR 52.65",
+      "snippet": "ad-hoc-news.de, 2026-11-25T07:40:15+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-25T07:40:15+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ2ZCOHdCUVBadUFtR0plcUpxMjd1LW9NZ3JvZTFrU1FzYV9SZElrMVNoS05YSVBxOHNkeWFzOE5zOHpQa2xjUzl5M1JTdVBuTU82NDRsSTNVdWJlNW54ZTVrYWhQNVkzeFRDZ3U0ajhyamFwMjVaSWpaZmxOZ1RsQXU0a3hvS1BQRnpxVGVQdGZsQjlzTzY4TnI3SGo2LTVOSmQ3ZGx3dkNmQmh1WnM3RnhCQ3Y5bDZNNVJrOHNtM3JzcGgybWlKd1VQTEMxZ0ZhSkRBdjFOanE?oc=5",
+      "title": "U.S. Bancorp stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-24T21:41:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:41:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/USB/history",
+      "title": "USB daily price history (Yahoo Finance)",
+      "snippet": "close 59.29 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

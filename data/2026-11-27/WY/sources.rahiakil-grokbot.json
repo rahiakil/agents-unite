@@ -1,0 +1,108 @@
+{
+  "ticker": "WY",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Weyerhaeuser\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUW81TzRkUXAwa2U2NjNTM3pmclpXVTlZR2FmOExDSDJ1Q3BrekN4bHNsWVUyQzlMZl94VlFRMTZpZ0tUVDFONWJJTjk3REo1T3I4c3dLUTZYWjR5bENBR3JpbUhZZTJmNnNvWTNCSEFlOGpiaTlXRG1HV2NldDVkWnhZMGQ3VHhIc2l2ZTJySWllUHZTTmxydHlsRGVZMUowV2tRRW92NVZGX1ZZ?oc=5",
+      "title": "ARCLIN AND WEYERHAEUSER STRENGTHEN DISTRIBUTION PARTNERSHIP IN CALIFORNIA",
+      "snippet": "Building Products Digest, 2026-11-27T11:33:20+00:00",
+      "publisher": "Building Products Digest",
+      "published": "2026-11-27T11:33:20+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNOU0tRzlxcGMyeTkwTVZ4SmxFdG45eDlGTlV3MmdqTzFWdmFIejNHRWwxWE5RRGdFeGYzWlNBM3kxREcycTFMNEVVSkpCOFM5UldGTlVNcThOUUp4VUlfZ0pIZFlxdGR3RVVfSVhRSnNfMW5zQy1QSFlIV1JjMkdJdnEtOVYtV0ZEN3FkWDl6MjNveE01OERKU3E0VTlSNXQ1Z3lRbXZhbmtBVjRkRTNubkljZzZuRkFMT1RRNml4YnZRUWo0VlVCaHNZbEhrdW5zZDd1dE8ydzkxRjNiLUs2Vk41Sk1OS3l1M3hSRndHbEZyYVRHM3JjVm5DUEZnSTgwZXIydGgtY3M0Zk43WE9RMDZaUzhQa3plaWc?oc=5",
+      "title": "Weyerhaeuser Co(WY) Stock Price Today | Quotes & News",
+      "snippet": "Moomoo, 2026-11-27T10:04:58+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-27T10:04:58+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSmtTd29jSnQ2T0s4YlZ0Um5nSzNwdXExQkowSDRSb1hCT3EtR3BsRFBzMWpwNzZfWUViRnplNUZFeFdwM1oxc1k4VkhMNTh3SUw3SVBrTXhnUmdvT1JWYnEtaUxrTlFWNGw3SXBiYXlqS0RvMVhPbjM0LS1EdXI4YU9iS3ZtSnpSdTE4VzFXbmM1dklyVUF6WTdfYlJtRzNpaGNBTHJtZUl2QUwyXzNqMnlUMjVYbktCN1BnSnBYMzFaSUtXVGF2YXp2RzA3NU9pMURfYzhXT04wMjF3UWxYeTBUNkdSNUluWEl0emdqRDc5YVRuYnJlNGM5TQ?oc=5",
+      "title": "Weyerhaeuser (NYSE:WY) Rises Today on Defensive Buying Despite Softer Wood Products Pricing and a Dividend Running Ahead of Cash Flow",
+      "snippet": "kalkine.com, 2026-11-25T20:40:00+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-25T20:40:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSDFzbmlFeGM2QVRyU0x1a2t0ZDZDQkRRdmQxSGVWMEdMZS1nMWV6cjR2ZVBJLTl2N1F2ei1GX2J6QlVmbmpiV3doMER2WHBUSHZDbEFqVnFsdmcyYUE0ZUJIcWRJYnFSMUplcUk2UWlqRnJQTlRVMk51Tl9PWU85RXhzdzE1T1U2Uzh6VkszbkkzWU9kN2lPN0RTT3dlYWo3NC1DWHlFTDdmU0ktSEk3MGh4MFBqeVJiVFpGVDZ6bXZoYjJaSXhxTDNVeGppTkVjZVFJdVFQQURVYlNYaUtOdG12MXZNdDBTMl9sMVZJYXFBN1RmMDRrNko3MVdtS0J6dG9COFV3OTlNUQ?oc=5",
+      "title": "Weyerhaeuser (NYSE:WY) Shares Attract Heavy Volume as Third Quarter Results, an Arkansas Timberland Sale and the Fourth Quarter Outlook Take Focus",
+      "snippet": "kalkine.ca, 2026-11-25T20:36:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-25T20:36:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GYVVSdzI0VEJGLXEtQmwya3VDZDJzSG9Fc200QVFTUG9odkJRU1pWWk11S09adktiTFpDc3hPNTEwYlI0ZVdBOHprU0RhXzA3NWZiOHhmd1RLMGtGRlBKOUc4Umdlc2RhSy1FcjNXLVplYWNPUTBSdTFaRQ?oc=5",
+      "title": "Weyerhaeuser (NYSE:WY) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-25T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-25T08:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT3dfQXdyS3dxOGN1SXcxbTdqcjlqdTczd3VoWEpIRG0xbkR0LWZKOFhvWFRrNUwxajE3SGhzYndCYkFzcFlkVjNBRmpjM3JoclhjSHNCaVUxbktHSHpCVWF3SVI2X2ZyMWNzMWxobGpHRkdLWEcxQUdGbDVDdi1kZzJTN1hTeDNHQ0NuQlhYRWxXMjcyNUplU1dXWHZvdmtwd2pHSzZ3b1ltZmZNLVBzb0NMSmh4eTJtOFF4VXFoVktlVnlaSzNTTnZn0gHPAUFVX3lxTE5UNHY0LVFuN0lSY1I5U3ZGcnJXa19qOGh4WnJyWVFlS2NtUWs5YjE5alZkSWszX2NMUUJ5a29ubEZJNFNtQktTNmVjVVplNDVtVW84Z1IwUUxwR3hEbC1uVHJSZFdiUExnelB4Z2Z5S1lXS1BMWlA4aGpWTk9IT3k1MHRYZVJ1QUlWWUhsd3M5MDU3c0NiZWVaMm5KRm1WZjVQLXd4V0JUQTIwOTJmTVpYQXV4NjZqUjJ0UEhXUkI0b1drVGoyTXZ4Tm1tLUtGbw?oc=5",
+      "title": "How Fire Resistant Sheathing Distribution At Weyerhaeuser (WY) Has Changed Its Investment Story",
+      "snippet": "Simply Wall St, 2026-11-25T03:11:16+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-25T03:11:16+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WY/history",
+      "title": "WY daily price history (Yahoo Finance)",
+      "snippet": "close 20.83 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

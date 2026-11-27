@@ -1,0 +1,60 @@
+{
+  "ticker": "SNA",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Snap-on\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1dPZTlqY1RGNTNDRC1Uem4tUGlFekxFRlRtVXN0N3Jkblk0QkVZa0c1Y0t1TDFwM0VDcWlIYTZqemx3eWRhTGNybHlVU2taeko3bVBIeFkwNkh1eFVaWUF6MEUyNHA4VVljU3VnamlkNDM4QmUxcDdXYTFqaDFQOWZsU2YzWi1idWV5aUMzOEt6Wk1qM0hBWGpuQXBjQQ?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Snap-on Stock?",
+      "snippet": "Yahoo Finance, 2026-11-27T16:22:09+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-27T16:22:09+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBacFNab0FPWkQ1TExVXzY5RjNRcS1hOU0wWFFVQWZvVzdvZ2ZYN2NsQ3E5VXl0eW5mR2NfZGZvZS1kczBwMVVZM0lYdFBRMGlfaUF2MVlmdmVfRWZ4bE9vMVdSSnhOUGJOSURNU21taTk?oc=5",
+      "title": "Snap-on (0L7G) Q3 2026 Earnings Report - Results, Call & Slides",
+      "snippet": "TipRanks, 2026-11-24T18:31:50+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T18:31:50+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SNA/history",
+      "title": "SNA daily price history (Yahoo Finance)",
+      "snippet": "close 362.98 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

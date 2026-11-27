@@ -1,0 +1,60 @@
+{
+  "ticker": "FAST",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Fastenal\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNVNtYnJfZG9ERDIyalc0RXVEVGRaSHV3OGhLYU1zYTlMUXg4M0x3UFctVFB2T1luaFA3emZLckRPS2V6RFB3YzFWdEJEUDJsVWNYNnJZX0dRVGswRzExbno4R3FuRkZqMS1WRXA4dVprck1ZdGpjSWZfUTc4M2lpcnN1RWxZbW5zY1QzTUpfTFV4dmdub2txaDRpRnpfeGwzeGYxNmV5aGt2NDh2YWhuTkNOdVZ2V3FsTV95VnNfM0pUTThoOFU2bVRSYmNvMEswLTFGVlpKNTQ?oc=5",
+      "title": "Fastenal Co. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-25T21:48:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-25T21:48:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbFRwcjRtZmFCM0xWLUJMQ1dwcWxoV3FfaFdJaGgydUUxSVZXTFBrcXVNY2ctUnR4Q3VnOURVWGc5ZnRGNndNNlVZTktSSnFZdFNnSjVLbHVDVlBkS1pteGJJT05oRTV3LVFReW1lbWFuSkxqQUkwcElCZzY0d2hZU202QlhYWVFPLVNUSk8ycTJ3bkQ0emNaX1hTN2FlSDN4Z3J2X1BhTkhidlJrOVNrSVk2QmRvMjA?oc=5",
+      "title": "Here's How Much $100 Invested In Fastenal 20 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-25T21:30:13+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-25T21:30:13+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FAST/history",
+      "title": "FAST daily price history (Yahoo Finance)",
+      "snippet": "close 53.41 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

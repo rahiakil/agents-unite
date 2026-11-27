@@ -1,0 +1,96 @@
+{
+  "ticker": "BIIB",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Biogen\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0RaLUtIUnVmeWZMS3JvUTI2ZHEzbU9QbnBPZ2p2ZWR4UHlRX0VfOVFBd3FKbnVUbnZJd2MzUko4RXBUZnl0b2NGR2dJSkNsZlB5UlRFci1HZzUtb3cxbGhqQmhQSGVlaVdIR0RIQ1dTZnluM3Vhb1cyeTBiR0ZwSVA3ZGRmVF9yYlo4Wk1Jaw?oc=5",
+      "title": "Biogen (BIIB) Up 4.7% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-11-27T15:30:21+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-27T15:30:21+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHZjcElPYlhuM1VSRDl3YlRSY0QxN1BHOE9oOEVRTGp5Zl90QkxINnZoTmVhZ2JSXy1TVDRYODNsZ1hlQW1IQnFramR1RTE5WlM3SVZWVXA3QUFfTEROZTg2N2dKRHpVczU2WEJaOXF2S3o0dnRPMEdsVkw5WndYVDhSMFZraUFIV1VXQnl6ZmhjVWVkT2xEcHh1cEpfNXdnRkE5YjhCWlAxZ2c?oc=5",
+      "title": "Biogen (BIIB) Stock: $261.44, Down 2.85% Nov 25",
+      "snippet": "JournalArta, 2026-11-27T13:55:58+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-27T13:55:58+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYUQ2QW9HMVVVQ1pPS19Fa3NYTTFGU3NuSTJ5UGZhbXgyZzZId2liQWNjeFZSNzdsQTk1TWVoZEpXSnl0aV9ZQ3dBZ2hBYld1SkZlY2JDMW5neG9QWE5IRkZReTZvWW5iR3E0Xy1TUUl4VUUteF9RRU12OEZwWFp3M0cwc284Vkl4Yzh0U0NB?oc=5",
+      "title": "Biogen Inc. (BIIB) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-26T16:09:11+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T16:09:11+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORGFoWUppdUMxTEEtUVBrZTFyOGh5bU45R0dRQjdINVpSZHE1Z2xzQkVSOU5leDZIUzVOal9XZ3Z0dkhOZGZiODltZ1NObGpPbklwWHZ6ZXU2S0w2VU9RdkxyU2thTWZjREtvZFpHd1g4MzZHZEktZlJuTnBPdlZSNFFVNVEwT3lKMXc1TEpUVXpfVFdXb1pUWUFuSlVqS3BSR2FRNmxOTm93V0hKWF9YM2MzdzhhWVJDMU4xZm1lR21BZFd5WWtjZVJaN3dfYlFCZDJZY0NIQQ?oc=5",
+      "title": "Biogen Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-24T21:54:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:54:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVGEwLVJDMjdhaGswRWVuYzBId0haQXFibTVLNGNQVXVrZnV1US12Mno1blU3a25CZmVjbzR2QmpEb0hxOElVMzR0LXR5MDd6SWV0QUZldGpRbUdDUFN5YzhZNW9lWEhocjRUU1FhV2dQRTI5MjdyU2FuUHB6YnlsREZCQ1VwNEUwUWF5YzRiOVpyY2FtX3FNcHB3QlFWQnl5LTVR?oc=5",
+      "title": "Why Is Biogen (NASDAQ:BIIB) Stock Up 5% to a Fresh 52-Week High Today?",
+      "snippet": "kalkine.com, 2026-11-24T21:15:00+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-24T21:15:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BIIB/history",
+      "title": "BIIB daily price history (Yahoo Finance)",
+      "snippet": "close 264.2 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

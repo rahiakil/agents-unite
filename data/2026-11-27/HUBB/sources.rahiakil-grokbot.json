@@ -1,0 +1,120 @@
+{
+  "ticker": "HUBB",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Hubbell\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OdmcwNk1zOERGV3BoaVo5VUVic0RoX2FUYmxkVWdDSVNrblVIaXlDUGNaZnZUdUVzQzhqamh3SzVhcVNmMUJEQXJzWUQ2TF82emdyemNOeFFsbjdNOXV2blRUMUxYZi1kcGpVeHZWbkYtRGJV?oc=5",
+      "title": "Wrapped Hubbell Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-27T14:53:02+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-27T14:53:02+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVGtMYkpZT0swVmxocXM3XzFaQlZtN1RaT3Z3WHRKMW1jb3hfMFJFUTJMZ3RRTzdDWlZ5dWxWSnhWaWY4S0diYmswdERzOE9aSDBFQ25TM0k4ODI1OW4xSktlcTNHWl9YLUFERklpVmhmUkoycjA1NTUtNW0xNlAtYXhZd0x3VjhNQmMyTDVoNmxIUHRaZmlGbWY1d3ZuODg?oc=5",
+      "title": "Hubbell Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-27T13:14:16+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-27T13:14:16+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdEppcVBuTmttelVDeXJTNTg0QmowaExfa09sblB3UVp2WHpwLUY2QzJkYjIyMF8zZnJfMkthTFZ6eS1ITVBmU2J2OS05dzQ4YVJySjdpcVJVMVZnVjJFOHdHb0ZHMTVnb3QzTDBObzROd1JWS21LR2ZhNEg2YXNzZE90bTBPaGcxVFpQbWlBWQ?oc=5",
+      "title": "Hubbell Inc (HUBB) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-26T02:08:23+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T02:08:23+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRWh2SHRBbG1FZVFPQ3pYU2NBWF9EaXZLYlJrcS1CUnIwdkd0MjlfczZINTNHRkRLUjFjSmM4MVF4TXB0ak52bGgtSlFFVHVxSlZFaVlXQVdIUENNZWhPcUVfUHZjUVN6TV9wMkhyaWlIdTVacWVudXMtNGhsTk10MFRTcnROTGk5Rzl4VG1vN0RXZDh1U1NhcUUwM1NwaENPTEpvel84QlNybllfOElpUnhVQko0dXpFLTNkMk13THA?oc=5",
+      "title": "Hubbell Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-25T22:04:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-25T22:04:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdEhnSTdEd0lzMzJ2M2syRV9SdHhxRklRM2NUT1FPSXRDeV9Ua0dndXFZVnZ1clROZGRjd1I2NTZVQXBtRWVfSzNYbEc5X1g4UVdscl9RMS1lS2xrZzJKczdPbDlUUzVGaExIRnkwNl9zNGZ3R1ZHOUZsSmgxQ2pKQUIyNXlpOGxwdG9IRlZrZy1PTnIyZ0NhQXg4dHNNWDhsMWRzc08yXy04bmxpMGQyVXFXS0d2TkRfeWdrZ0w4STB1cXF1RnhaVllnZVZidUlNcWdlLXo3REY0cktsRkh5STFn?oc=5",
+      "title": "Quanta, Hubbell, Bloom Energy, Redwire, and Corning stocks trade down, what you need to know",
+      "snippet": "TradingView, 2026-11-25T16:05:42+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T16:05:42+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYWZfNHY2WDk0T1NsZFJwbG1GNF9hMU52TDEzV1cxZDRzVUtJcHR6Q19sbnFiamZxTzkxUm8zN3hjc1pkdXU3M3I4ak9Pck5SS2NIMHV3RWI2MjlEUks1VWJRZ1VNTWt6b1hEczh3MnBsT2xReHJjLXZGZGtiZ0ZwVUxiTGJoa0JYQmduYlVjYkZzM1l3MlFCRy1zUktFV3VERDRxamtpU3JRNUlBUmpXVkd6RlRvQm13cW16VnNBdW1CMVpvaG42cTVwblFhODhoMlBHUjlUM1NCWURLeUZF?oc=5",
+      "title": "Hubbell Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T22:03:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T22:03:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BLW90TmlCdDl0OXd5bjhzRTZtbjFMUzRFZFVrSTJZaVAxTlJxWFk4S1hxeXNwLTZRWkVGQ2ZYUjhLWDBMWEh6Ng?oc=5",
+      "title": "Hubbell Stock Price Forecast. Should You Buy HUBB?",
+      "snippet": "StockInvest.us, 2026-11-24T08:00:00+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUBB/history",
+      "title": "HUBB daily price history (Yahoo Finance)",
+      "snippet": "close 434.01 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

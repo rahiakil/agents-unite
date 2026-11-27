@@ -1,0 +1,60 @@
+{
+  "ticker": "EVRG",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Evergy\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSDE0M0kyRVJINXNCaXBWVHlVZ25TZXBINTBTRnhOYnFBVlRscWxsMkM1UC04VEFSbnN5UU00NHd5R29yaE5hR0FqdkZPeU9uQ1NLelJCVlhYd2RPY21jeGZXVHgtM0tOVDBDeG1vOG1DaUxzMWNka2YzdVpLSmtZSnpkTjRpcVF3TWNQVS1paURubWpSNXpMNGZrWmJOcXc2VXlTRmlQenJtZTBJTV8wVk5RNVNPY0tveTRfM3B3dXhKbmZGaS1vSzVaRXJEQlQtcjNVaEVyNE56MHdLODBTdVI4MA?oc=5",
+      "title": "Evergy Inc. (NASDAQ:EVRG) Stock Has Consensus Price Target of $91.08 According to Analysts",
+      "snippet": "MarketBeat, 2026-11-26T09:35:45+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-26T09:35:45+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEJReF9MSjVsU3BYUERWNThtamNFcmhUTU1vcUZ2LWF1N0cwd2pHcW1hTkJDQVNtX0hobjNRVkxfcVJuaVBnbWZ2LUVFUkJlYXh0RkZuZGY5Y1VTLTFiNFpWQ1JCMXhWYlg4MXNSdVFrMmpKbUZGMnZqMVp0YTYzYlZJcmRDb3EtOFREM29ETQ?oc=5",
+      "title": "Evergy, Inc. (EVRG) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-25T23:43:10+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T23:43:10+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EVRG/history",
+      "title": "EVRG daily price history (Yahoo Finance)",
+      "snippet": "close 87.64 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

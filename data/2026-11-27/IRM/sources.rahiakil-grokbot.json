@@ -1,0 +1,60 @@
+{
+  "ticker": "IRM",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Iron Mountain\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ0dGNWdOMF9vbjBLeTJwTmxJNml5X2xPdDdXNk5zTzJ4VzJINkNFVllmNFFGWUNYdnpQMnh6aWVTWktYUEsxZWo1bTVLcFRIZkthcDZWUFlkWEVENmM1a2VCejJVWUZvZlFsZWRITjBDUzFoSm1HelF0TjY4X3dEZU5QblZpTmdaYU9adzNpOA?oc=5",
+      "title": "Iron Mountain Incorporated (Del (IRM) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-26T01:28:14+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T01:28:14+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQU3d4RjFGZ3dTenpFQTVvTnhGUjVsVkozU2g1b2JDeGpzTXEzR194OG1GODFhOXV1UGtmdG5iRnBuTEZzM0pLS2RBUUxWYUg2Z2V2OW0ySkhOTVJXMHpIdGl5TUtZNHIyeWtVeVItU25fX25TNU9HQnFmOTJ0bGhUT3JUblkzYXJTa24yenBieFlUcE5zY2NFaWExcTRXWVJGZWFVR2M0VlNnY2pianJqWnd0NHZlN1pKRW9RdVd4cENraWR5bnZsa0RBdlNSajZQVzVmelJ6WXp6eGdCaVJPelFIeUtCUW8?oc=5",
+      "title": "Iron Mountain Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T21:56:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:56:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 104.36 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

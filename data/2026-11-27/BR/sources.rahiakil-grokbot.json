@@ -1,0 +1,108 @@
+{
+  "ticker": "BR",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Broadridge Financial Solutions\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 9,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVFabmtGZEZabWZLem9EWGg1LXJ3bGZMVG1sUXEtVVZNaEVXbmhlNmctbEZiaUxXLW1WOXFtNUVSWndnRmduaXhna2RuWnFKcTI3UXdtdzk2MkdNQTR4OUY0eUdfeHNuSTM2Q3otN1NUTnRoVXZsUTg1a2hyanQzUDlTMzg0MGUwendRTEZpTGg4Z1p1Rl9zbUdJX3Ywd0pGLVVERTNTVEZ1ejNfelE?oc=5",
+      "title": "Broadridge Financial Solutions Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-26T12:29:58+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T12:29:58+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRjEwTXZZaFpQNFVfOU5QbFM1VFlrQllvOElhUDlSdmJjUDFkOGJOUVFGc2ltYVpjaFJtNEh1Zm9ReVZ2dFl6Yy1xanU2SjRudnd2SE1jMGR1cjJBRnM3bGFiUmgwUUZkNkF6eFlUcTcwMUUtR1Q0NFExQlFNaVhxZHhONUp4ZFVLWVY4OTdTaWhMMGRRR2c?oc=5",
+      "title": "Broadridge (BR) Stock May Be 48% Undervalued Despite Tokenization Push",
+      "snippet": "Yahoo Finance, 2026-11-26T12:10:37+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T12:10:37+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMVFHdm9OS1E5T3pIaDVlYVowVDhyVFhtZVJvLTVZUGxuaHIxV0lLMThET2hRY3JNQ2VnTjl4X2lVVnhzanBMMVZEMlFVTjRydVIxaXV0NGx3Qm8yVHlzWkZfNHhoTjRTR1p5bmJaTmdsNER1M0JtRklCa1pFcDRDZ0FzR1ZoR0lkZkZuX0xGanhsM29MQlNaaUtyV2dHVmt2eUFNN3dHT2wtLUx3VzFnemdxTmRLNHlVdThSNU5Tb2pPYm0tTDE1QkI4aG5vQnA2TjVBamFmWmhTdFlTVHZmNFdxbFhkYmFmbnUwOVdBZ09EajlfZ1hWOWtuMmh2eEFVWF9J?oc=5",
+      "title": "Broadridge Financial Solutions Inc. stock underperforms Wednesday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-25T22:06:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-25T22:06:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.105,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY1hpVVJPbzBCNlE0QUNJbkVpRE4xblJTTGtoZmhucUVHeWI5eVJVSmtpbXMxYUdLQTJISUFYUlNoTTNobXV3X1hEVHZWUDd2VFpoeHhZRjltVi1ILWZpczVXSmN4dW50X0RQUjNOcXF0MHlrbW5sbktKdm5wVnhEZ2tLdE1Nd2ozVU9PMmZ5UUFJRTlYa1k1QmhRbjdvVGRJMXFYS2d6bDcyd0JaRVdTQ3hfMzVFSXBidnExeEVNRGJxdVk0b3J3Q1hTX2J4UE0zLWhtVGF1WVBON19PSjJKZzhLbXVUVEN2UWVJZFE5akJNUdIB8gFBVV95cUxPY1hpVVJPbzBCNlE0QUNJbkVpRE4xblJTTGtoZmhucUVHeWI5eVJVSmtpbXMxYUdLQTJISUFYUlNoTTNobXV3X1hEVHZWUDd2VFpoeHhZRjltVi1ILWZpczVXSmN4dW50X0RQUjNOcXF0MHlrbW5sbktKdm5wVnhEZ2tLdE1Nd2ozVU9PMmZ5UUFJRTlYa1k1QmhRbjdvVGRJMXFYS2d6bDcyd0JaRVdTQ3hfMzVFSXBidnExeEVNRGJxdVk0b3J3Q1hTX2J4UE0zLWhtVGF1WVBON19PSjJKZzhLbXVUVEN2UWVJZFE5akJNUQ?oc=5",
+      "title": "Learn Why The Bull Case For Broadridge Financial Solutions (BR) Could Change Following Tokenized Market Push",
+      "snippet": "Simply Wall St, 2026-11-25T19:09:52+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-25T19:09:52+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcnI3U0VIZy04SWs4bVpITWZOaXQ0a2JuS1ZGUUQybmcxck1CV2lBdkxpOWRLakpnVnI3TXMzTWdGdmh2M0N2TnVWeVB0T19MNTR6ZXFGN1hYM052bHhMa1pCajdYTjJKTm81U3ZzRGtaX3hNZ29OelM0QWdJZWQ1WUVqS0hEOTd5TG1QeGNSbw?oc=5",
+      "title": "Broadridge Financial Solutions, (BR) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-25T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T08:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR2QwUlpDZU5zUVNfY1J0dlVZTnc5S2VWOTJNUlVZVWFuU0FfQXJEcDFPTHJ2YTFvY180cFcweGJrZ0dSQlhSSTBtbUhSSXhIUG1kcFFhSm1Ib2VudzN5X05fYU1fRVdwbEFGRDBBWGNuR3dzNWRXQ2duUXdadnBGcXJ1Ulh5WGF2a1BaclIzWElNZFhSQXo0ajktRkxLQVl2dDMxazE5N0dBcEhpckNndGktdHRvSWpxbXktRVhlbTNXVUZQRDduVUVZbHh2VUVieHdZeVUzQ0FmZ2lUQk5Cd3FMaUxVYlk1d1FLVU9GSTM4NW5tY0VJ?oc=5",
+      "title": "Broadridge Financial Solutions Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-24T22:05:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T22:05:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BR/history",
+      "title": "BR daily price history (Yahoo Finance)",
+      "snippet": "close 186.79 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

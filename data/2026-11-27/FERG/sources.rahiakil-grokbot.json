@@ -1,0 +1,48 @@
+{
+  "ticker": "FERG",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Ferguson Enterprises\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM3AxcmNrSmJtRUlSOHNfZjVsam9MLUhRTUJuQjR2LXRsemw5aUZNNE1ud1dSX1BucWU3NmtDNnMxOFNvX1pVRmMzX2czc2FkTWEtM0lOYjRaSzVxS1BBeVkzMHU1ZkdCc2lBRFFDRXRQTDJUU2pQUGFrdDh5UThJb2ZMQjl0TkhiUUFKSEVabw?oc=5",
+      "title": "Ferguson Enterprises Inc. (FERG) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-25T22:58:33+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T22:58:33+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FERG/history",
+      "title": "FERG daily price history (Yahoo Finance)",
+      "snippet": "close 261.91 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

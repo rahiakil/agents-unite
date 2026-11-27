@@ -1,0 +1,120 @@
+{
+  "ticker": "XYL",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Xylem\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiZTdySzRQdm1FYmw4aEpCU0oxbnNOX1ljcHpIUjYyZHd3NWJpeXJmRVRJYVhsQzlmOUptQnBvWTQyQ0htRDJia1BLc21uZGdtY1BvUzZITWxDbnlYMmVmYw?oc=5",
+      "title": "Xylem (XYL) Q1 2026 Earnings Call Transcript",
+      "snippet": "Fortune, 2026-11-26T23:11:02+00:00",
+      "publisher": "Fortune",
+      "published": "2026-11-26T23:11:02+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IaUtXbk04MnN0YV9hbm1DbU9XWWsyTlFxYmV0VzNPRnM4NTFWcGt6aWN2aXk0ZHk2VGtHWm5ZZ2VWVEE1V3hVSGRYUk9vc2JmdDBpWA?oc=5",
+      "title": "Xylem (NYSE:XYL) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-26T13:57:32+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-26T13:57:32+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObEFaRFRsOHdOXzVDT0NudFhrSy1IVkJrNkhjZ2RyRzdhalRoNXZtYUdKMDlrZjRIZEhGaVJjaGYwcHF3ckZTeXBqLVNFSDlISDhpYUN2VlRPYmszNVpZTFl5VndvMUNWQ0d3MHlMeFVjSUp0TWdER3U2cDlZZGJISXJ1NUd0WGFiR1JBa25udmd6MVdFdFctOTR6U3VsTzZqSUdmdTNMRkU0QjFIQUNzR0hvZ2V2eUhUUWFZVnBR?oc=5",
+      "title": "Xylem stock: RBC maintains Buy rating and 125 dollar target",
+      "snippet": "ad-hoc-news.de, 2026-11-26T12:39:47+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-26T12:39:47+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeWpnWmdCUk5WUlA1Y0ZvNWJtcWpnX24xbTAwWFlNRnhURk5aZnFiV0lQZGR6SlZ0NWE2N3VNTUpRWDVreVVKNUNKUHhhRWRQY2J1UTdST0FSY1RodnFpT1JEQUE3TnJsZXRUa0ZjNHRLWTZXdWFnbkY2OUJkSjl5ejRIME9oMlFBV3FJbHg1cmEwcXVWQkVzdzlsRTNrXzhkUnROYl9Fekw3eUVCTGhCUUVlOUdVajZEb3ZQLXVYTXVjaVJ5SE8xbEVKRTJQWHpiM3c?oc=5",
+      "title": "RBC Capital Sticks to Its Buy Rating for Xylem (XYL)",
+      "snippet": "The Globe and Mail, 2026-11-26T07:19:16+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-26T07:19:16+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWGZHQ0RoZTZXVUZUVWFQNHB3dzFxRy1tYlozWTlUT0ZSUmRSZlV0eFVPemlXcUlBYXIxUVFUaUNQb1BVRmtjQ1RFNnVYMk1GYWd6bWJJeVVERGNYZWs3V0twckQ2YjNONXlGQ0FuQWExclJFQ1NrSGYwSXlYNDh5NkxPMHowdElnUFpOR2x1SEpVUXNfZlFMLTU4SWNZMlZfb0R2OEUwbVRFQnhSMG5SV2tpM3hVZC1KcjhFNW1ZOGNVcnotOEhySlZB0gHKAUFVX3lxTE5YZkdDRGhlNldVRlRVYVA0cHd3MXFHLW1iWjNZOVRPRlJSZFJmVXR4VU96aVdxSUFhcjFRUVRpQ1BvUFVGa2NDVEU2dVgyTUZhZ3ptYkl5VUREY1hlazdXS3ByRDZiM041eUZDQW5BYTFyUkVDU2tIZjBJeVg0OHk2TE8wejB0SWdQWk5HbHVISlVRc19mUUwtNThJY1kyVl9vRHY4RTBtVEVCeFIwblJXa2kzeFVkLUpyOEU1bVk4Y1Vyei04SHJKVkE?oc=5",
+      "title": "Xylem (XYL) Authorizes $1.5b Buyback, Is It Still 42% Below Fair Value?",
+      "snippet": "Simply Wall St, 2026-11-26T04:40:35+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-26T04:40:35+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYWxZNExyNlVDNkFVTWc2ekRCZXppZzI3MUFBRDVwOUVONkU1ZWVNYWN2WUhDQVQ5ek1NTUZnSWxYdVdNNnZJYmkzMXRFU1phaDBmZk9Ya2tDc05sdE9mRUdRTzRVYTRGWmQ0VTJZRTZ1bk9oYm5rWHU2UEJEelM2WHpwS3FDVzV1azR4NjcxYXIzRHpXY3RLTFV2MmZzVXNQa0x0cEQxQUpqVjJzWXRqU0NZZFRtZlJaWU53OHBnMDZPcWxjajFrcnY0TDNOZ1hKOE9GQzZn?oc=5",
+      "title": "Xylem Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-25T22:05:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-25T22:05:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MVzQ1OGIxcjZRQzBoeXFRRmdKTEF1alpmdlBwNS1ZT1FXMU9hX0psUWRFZFRDeDNEd0xhWjk4cDZyZGpDbW5Cb25JbGhLSUw1Y1NMX1pLdG1aMi00bHp6bC1n?oc=5",
+      "title": "Xylem (XYL) Dividend Yield 2026, Date & History $XYL",
+      "snippet": "MarketBeat, 2026-11-25T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T08:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYL/history",
+      "title": "XYL daily price history (Yahoo Finance)",
+      "snippet": "close 95.86 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

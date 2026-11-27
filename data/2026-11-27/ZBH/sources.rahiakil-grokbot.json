@@ -1,0 +1,132 @@
+{
+  "ticker": "ZBH",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Zimmer Biomet\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNG1oU1d0TUk4MXVBOW5BNGt2Sm5YejQzdVhBejYwWlVBNURRSWxqdjNEWWtjZTd5c1RGV21NWnZsUlRfVE9rRV9TajQ2LThNZTNFdGhYbXNGYU91ODRPLTkzVzZvaVRmNzBvVGZCVjNScnBOOVdRdnhaNTVreVZmTVFtM3BOcFhQcF8tdGFZc3FfZ2NMZHZOdE9RVTdJcS04NXJPcGJ1YW9ZYmpNVHpNN0p2TnQ0cTFqb0ZsNnVZSFhpdzZ3OU42MHk3SGNiNXYzaFV5WVRLZmxVUF9P0gHcAUFVX3lxTFA0bWhTV3RNSTgxdUE5bkE0a3ZKblh6NDN1WEF6NjBaVUE1RFFJbGp2M0RZa2NlN3lzVEZXbU1admxSVF9UT2tFX1NqNDYtOE1lM0V0aFhtc0ZhT3U4NE8tOTNXNm9pVGY3MG9UZkJWM1JycE45V1F2eFo1NWt5VmZNUW0zcE5wWFBwXy10YVlzcV9nY0xkdk50T1FVN0lxLTg1ck9wYnVhb1liak1Uek03SnZOdDRxMWpvRmw2dVlIWGl3Nnc5TjYweTdIY2I1djNoVXlZVEtmbFVQX08?oc=5",
+      "title": "Zimmer Biomet Holdings Group President of Europe Wilfred van Zuilen Sells 32% Of Holding",
+      "snippet": "Simply Wall St, 2026-11-27T12:45:28+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-27T12:45:28+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPME9UNjByRXQydTFTT0pLWncxLVh6b015VG5naENxN0F6MTd6WnRLSHdtNDdnendDaFpCSG9UT09WYTJQLWw1T21CSF9wUVpYSWhYYkVDamJxRFd2bFF6emhHNlQ4d0VZcmROZFp4Y0FLYkkxc2pmSHBLZ3VCZW9GdEx4dVZXZmNEWWlwSWNKcmMycThyMThkVHBwbTNFcC1YeGxrR2liWGMybktNVUM5ZmJwX0U?oc=5",
+      "title": "Zimmer Biomet executive sale and quarterly results",
+      "snippet": "Kalkine India, 2026-11-26T13:59:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-26T13:59:00+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORmNMRHhXb2dpSk12MWk3YzVNMWwzbjFrMG10Z0dRWEdBWlh6QWpNcjdwdUJpY2lrV2VXZUpiMklTeXFhSFhHSU1SSnplMGJhOU5wYmRqYkZaLVk0Nmt1VjNkb284REZaZVZOSGhDU1YyUTkxME1tNkhDcDFXVkhXLXJ2aE1CYU5jRFM0Znh3VGtDMG93aVBRTHlrMnl3NFo0ZmN3RmUxNmdrNXExZW1icXd6R2o1UQ?oc=5",
+      "title": "Zimmer Biomet executive sells $1.1M in company stock",
+      "snippet": "Investing.com, 2026-11-26T03:46:35+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-26T03:46:35+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTUx2bnV2d0gwdDFqX0wtZm1Sa1lKSkw1MVhMZWxGMFBNMU9FcllMRWFncFBuRXpheFk0Y2tNMGtzbV9IYzhtc1piV1ZwdFdrbElIVkhmajhMZE1SbjF3UDlsS2hOdDhYbVZlSXhKMVBaTnJKTzhfZHo3MU50YUQwbUk4eF9KY3NDY3Q4Mnp2dkF3YTZwdU1icGlvVWZKLURQOEY3bTlSemNHOHJETkhOR1BRUkJTM2NTVXNTdHdHclRwRnJqQjZNRXBsZw?oc=5",
+      "title": "Zimmer Biomet Holdings Inc (ZBH) Insider Sale: Group Pres, EMEA Zuilen Van Offloads 10,000 Shares",
+      "snippet": "GuruFocus, 2026-11-26T00:49:05+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-26T00:49:05+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON19KRXp4MzQyYUQ5NHA0RzlzRmdZUGpDSnZtNUg1UXlXMUJFd24tMUtyVlpRNWF2YzNmYXRkY3B5czlSVnVrcWxTVUhsMy1CQnlQczRUbVl3UVUyY01yTUoxdmNFZzM3R1JNbHRCZkZuVXY5RXZTNFpvUlJLb2tqMnlUQV9lQVQzLXZPY3hRa2lWWThVT0VRbmw1VW9pWDhwQzN4WS1YTjFLcUdYemc1TFNRUC1jbDVD?oc=5",
+      "title": "Zimmer Biomet (NYSE:ZBH) Insider Sells $1,100,000.00 in Stock",
+      "snippet": "MarketBeat, 2026-11-26T00:13:12+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-26T00:13:12+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZjZ2QklfSkhiNVZ0Y1VCTTdwS2tWVmFnOHZmdm5SbW1WTEZQcTk3NTNiT2NLd3RGOUlEUUtfb2VsbnJZWGJ1ZTJoSkpsWWIxMlNvRUpyRjdYQkpNS0VLeFljWXlDVWt2aUFFQ1lZcjNCdjBlQTBGVGszZm9YSU15OHJvQ3JabGJWSFNCY3RuMzZwYVhfeFpYUF9FZXhtZk5GempfWGIwcmpuOEgxc0dtMXFZM3dwLXFJeVpDbkJBVHhDdw?oc=5",
+      "title": "Zimmer Biomet Group President, EMEA Sold Shares Worth Over $1.1M",
+      "snippet": "TradingView, 2026-11-25T22:20:03+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T22:20:03+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZklhTzBIbW5ObGhoWTFTVDhEZ0hKSmlEZ1BzVWptRXJ5YUxsODlIWW1Oa1lncTVUd2xaOXBCOUNVNXlkSW9LOHRPaXlKSkxZR21VU3lsQTdsVVJQdHJEdTRnRGVFSnl2bHdGcHhnTWxtRTNBRmNDLTQ5OHdpdktTUWJPNnphbHQwdnd6STJBdEF1ZjBhRVFFNVNLVXBfcWluNkdoSlFXNGF1MnRYTS16aS1wb3prNkZFZUZN?oc=5",
+      "title": "At $110 a share, Zimmer Biomet (ZBH) executive Wilfred van Zuilen sold part of his stake.",
+      "snippet": "Stock Titan, 2026-11-25T22:12:58+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-25T22:12:58+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVVMtdk1GT1hUN21hYy1ubHpzUlJOTDg5NHR6TlBGdGRQUkhRTEtiQjU5aUhsbGVaVU0wYlA0QjhNQkFQOUtPSndOb0dVNEhWR1NQREJpUnBsQncxaDAxT1czZjNzSEZyV0ZxOHJDTnlTWjF4UXZaR3B4cUFPcUZ3cktidnQ0UVN3STJjMGIwei1HY2wzUTIzNjlZVU5CRGhaU193Tw?oc=5",
+      "title": "A 10,000-share sale has been proposed by Zimmer Biomet (ZBH) officer Wilfred Van Zuilen.",
+      "snippet": "Stock Titan, 2026-11-24T18:38:20+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-24T18:38:20+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBH/history",
+      "title": "ZBH daily price history (Yahoo Finance)",
+      "snippet": "close 110.43 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "ticker": "HUM",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Humana\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 15,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wWVl3dU5BU1doM21ST0F6U0UwUmh3enlidlAxUDdXOXJkSWc4ZXNSSjNQdkpINFFodDZQa0JtM29jYy0zNTNCUnJHc0NKSGhDQWp2VFJPd3JnQklGM0RBb2g0MHFGWGc4VTg3SHpqZmVkYzQ?oc=5",
+      "title": "Wrapped Humana Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-27T00:22:01+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-27T00:22:01+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnd3QktWYUx5ajV6eDFlQ3FSNEZqemRXb0puN0RLeHFDOU5kbnViLTFPbzgxbE1GWnpibGVWMFhOMnlyTGtIeklJLVREREYxVGhKWXZyZ2VoRVNIY1o0Ny1fQlhtMVVZUDFKdEVVbl85TG5zNWVrclhDZGFXR3lyOU5GSE94WW5VY0dpUXl3eFFodDhtWlpB?oc=5",
+      "title": "Here's Why Humana Stock Deserves a Place in Your Portfolio",
+      "snippet": "Yahoo Finance, 2026-11-25T16:51:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T16:51:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUlh0bGpHaG1QMUtNNXgxQWRLdXFmWjIwWFN2b0ZIc0RmWmlYakEwWlNhNkdpaVM4ZkNOd0NuQXVwQmNweENZSkRGTzBIRUU3ejRFZlUxQy1MNFlCajZFWTBuMHdiRFM2VFM4Q0pCOHNXQ0pMbnJ1M3Z5OHVkWGpUWExGd0I5bG4yUXJJX3JyTm5EUTVyWkRYbFFaTXpTdVBN?oc=5",
+      "title": "Humana Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-25T05:41:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T05:41:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeHE5UEtBd1FYR2w4V1ZISzRHbmdJTjlKakVRRE1McndxWWJqVWNJNENOWER4WjlKbGVvTklqVHExNW1zYUVnSHpXOVl5anpISFdDQU10ZkxQYTczUU5QblN4N3dGRVUtVW52RTdXUndIZXR6ODgyMzRnXzJWamZHQjFaLW8yQVV0OE5Qa0h6Skd0NlNvNVdwbDBkbmRxT2FQV2Q0bENxcm9UVDNOeVlteTFJOTdsc01Db2hldkNFVQ?oc=5",
+      "title": "Humana Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-24T21:51:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:51:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDUxZ1h0SXR5SkJEVnE0d2trY3ZTUFF2YU5aNXVQU1hncHVwWlViRHllekY3TURCSGxmQzN3LVJPV19NTEpjWFY4X1RQR1c2RmQ3R2NLTXpjcTVuSzZzbHg2ZHZjdW9NNDVCSEFlOHI3MU0tb3J3OTE4STBaWmNmdDZ3VzBtWnM2dTRUcm5lckI2V0g0b1kzOElMWHhfeDhGZEZ6SkF3MVp6UENQaTBCSWdPRm1DRl9KSm1EOFRxdnF6ZzZRbFFCM0JR?oc=5",
+      "title": "Did Humana Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
+      "snippet": "Morningstar, 2026-11-24T20:26:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-24T20:26:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MdFdlY18xRG4tVWs0aEZiSkRFTS05TmV4Z3RBUnljTEs0OXFDd0YzRzBxd09Qb0tMZ0FfM0s3eWlXQ09xVWZTc25LdVN6SVA0U05fXzZmWHpjSFNRWWc1QXF3?oc=5",
+      "title": "Humana (HUM) Stock Forecast and Price Target 2026 $HUM",
+      "snippet": "MarketBeat, 2026-11-24T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUM/history",
+      "title": "HUM daily price history (Yahoo Finance)",
+      "snippet": "close 405.46 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

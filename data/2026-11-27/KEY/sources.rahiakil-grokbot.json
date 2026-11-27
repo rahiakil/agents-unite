@@ -1,0 +1,120 @@
+{
+  "ticker": "KEY",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"KeyCorp\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVJ4VElNV3N2MEZQVElycU5GRTRsZWxmdmxJdWFOQ3B5WlZaSDMtbnB6Q0dtTVdkOGV2N3lLNFRmNXkzX0w5dmdhZHUzS2cydkxKRF9aV2hpQmFxU3U2Qk04M2d1aGNUaGw1UE1sV3Zqa1lnSjNtVWRhWmxKRU83MURWMXdNZjh4U3pWRHU0YW1WOEJYV0tWUzEyVlJMdkI2T0dwYU96azBEakFWUUtEUXlWdw?oc=5",
+      "title": "How Could KeyCorp (NYSE:KEY) Reshape Its Real Estate Financing Business?",
+      "snippet": "Kalkine Media, 2026-11-26T17:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-26T17:00:00+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nRHhxTE1BaTZ3WWwwWXg2SWZ3NklITUliV1lmbHBUN2FlN1MyM1hNR21WLXI3bkFFTWh5QmpXY0o2d1BKb0JTaTVMSXMyMHp1VnpOUVJOSmd3TDYzbVF4LUVqemdsTEhyTURNV256VHVvdi1jOTB3?oc=5",
+      "title": "KeyCorp (KEY) Stock News Today",
+      "snippet": "TradingKey, 2026-11-26T09:06:43+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-26T09:06:43+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc29qbktjMmtvTi0xWFY3Y1N4eU15UXZGVnpiazB0T1oySzdoeU0xVkVKcnAxcV95Vmg0eHFUVXhmb1pmeUFZa3JCVU9BSXpkTjdfcDJleks3cDFJamNqSUdLbnQ2OUc4M0FUQjI5QUJCVVV0enJ1TGR4cVJwZk40VVpOX29xY2U5bEFlX1JudzFRRU1hREQ0eWdoemgyTE5pOHhMUTNCT2NzOC1RQXFGMw?oc=5",
+      "title": "KeyCorp: Commercial Loan Growth and Lower Deposit Costs Lift Earnings and Returns",
+      "snippet": "Kalkine, 2026-11-26T06:51:45+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-26T06:51:45+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNXhiSXFJY3NvNjZMQmNGVWIyQ1pzeEpwOC1IWW1rb25YSkdCSFczLUFrREhKV0M5WEd1UmNhVDhEZk9fZmk1TzFhT1dSNENoYWUtWVB2cUpqYUtxNVUxd25ETVJtU2ZNRks2S1M1Y2Rla2o3azhLbWZPVnJBMzUyaDN4YmIzN0h1R01Cdk1LOVVuQU5CSXFN?oc=5",
+      "title": "KEY or NTRS: Which Is the Better Value Stock Right Now?",
+      "snippet": "Yahoo Finance, 2026-11-25T15:40:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T15:40:03+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQkREY3hfS3pCQWZBbkstXzJydFdiT282MHlJVXpQR0o4U3lnUUEzQzdIVzNRMDRxSDBMb1hQTENmSFNPX2xoTzFIMlhYMDBpZDBsQmdyUi1SMTVSOXplQVM0SFg2MlJuR1JsTWFXcnFTeWVRSnlVU21zZ245MVhhLTY1Q1RFaVNtenViNkRGUzU4VWFSRmNibFhFUnN1Zm12bHc?oc=5",
+      "title": "KeyCorp (NYSE:KEY) Faces Fresh Banking Sector Developments",
+      "snippet": "Kalkine Media, 2026-11-24T22:19:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-24T22:19:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPak0wcWpyVVJiXzdOYjR4OHBhdHdEUW9IUF9uVy0yV004VFRkbUdJc3kyeDVxVm1vc0VCMDYzV3JwbU11a1UwWFQyOG02dThHNDNjY3ZNa0h3clVvTGQ4R2ZsMUJkT0Z4T3VNZjV3Ung5ckhFS215ZExwOGRMZ1h1bXZnYWxKVnFuenlTdF8teHlVS0J2?oc=5",
+      "title": "Can KeyCorp (NYSE:KEY) Stand Out In A Tougher Market?",
+      "snippet": "Kalkine Media, 2026-11-24T19:49:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-24T19:49:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FeGhfaTFoeTFmRUZTYTZWWmFSQ0F6eHg3c2ZyXzJXX3F6MWlySDkxaEwtVGpOZ1JxZGtEb3pPV21CWjFiS21MQXU0dW5XU2habVprR01uNGI1Z2F5ZWJXbTZDZmNDajdjYnc?oc=5",
+      "title": "KeyCorp (KEY) Short Interest & Short Float | Updated Nov 2026 $KEY",
+      "snippet": "MarketBeat, 2026-11-24T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 20.5 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

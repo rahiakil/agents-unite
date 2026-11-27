@@ -1,0 +1,60 @@
+{
+  "ticker": "CPAY",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Corpay\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 8,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdV9samUxamFyUlBOcUZUakc1VEw0b2hQYmtwcVlCMTVDX1hVWXNRMWZpVTJ5bE9rWXpxTzBORjRPQS1DUXZLZ2g1Nm5mQnlxUTA5NHkwazFXYlRGX3dZeEJOTkxDbkVTZlFSMzNZeHlIY1RXdk9fRzZpUzVfbHFtZDEzaWxRREk0ZjdPUElabzRmZlBfQ1RGbg?oc=5",
+      "title": "UBS downgrades BILL after Corpay\u2019s $1.1B investment",
+      "snippet": "Yahoo Finance, 2026-11-23T19:29:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T19:29:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeVduaWpxd3FTQm81ZmpxSm40SDQ1R2pJZXNrRmRnWmE3MzJuSnl4c2o5RnlIcVcxV2RNR243UFJMZjlNVzhkZUI0WGtVdEtuY2JhX1NMeHk3ZXRwQkR5WHpLa3lxVXFlaEg4SE9XTzJuNG9ma0xtM0dJek9ZTHEtZ21pOGhxQzFNSkczdnd4RjVhMjlpMTRhUjVBaVZld0dCMTltTE12bDk3WFhyRUdMcE9iT0FDSzh4aWQySkZzM3hPVnBERTRaV3dPeGpSSUxKcVVwbTRhNnJuTEd1eVRJ?oc=5",
+      "title": "Cantor Fitzgerald Keeps Their Buy Rating on Corpay Inc (CPAY)",
+      "snippet": "The Globe and Mail, 2026-11-21T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-21T08:00:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPAY/history",
+      "title": "CPAY daily price history (Yahoo Finance)",
+      "snippet": "close 447.91 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

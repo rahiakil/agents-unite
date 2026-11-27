@@ -1,0 +1,60 @@
+{
+  "ticker": "HAL",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Halliburton\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2k5dFRnYmJJZ2ZsYTNLU1FYdTNqRllPOTNFaXRNbUFJVjBibW1YQVdUZFFNbnAxYUFrUHB6dDRoZFBXbFFWR19vZGNJUjg0VXY5Zk9rS3ZfVVZPYUtIM1kwMUthODJKLXdTdGw5ZklVYzVORXA2TmxCUGp2bzE2NVRvQ1YtY0gyNEgtbm9GWURqNE84a3RkWkFabHpqclJwWS1J0gGjAUFVX3lxTE9LaTl0VGdiYklnZmxhM0tTUVh1M2pGWU85M0VpdE1tQUlWMGJtbVhBV1RkUU1ucDFhQWtQcHp0NGhkUFdsUVZHX29kY0lSODRVdjlmT2tLdl9VVk9hS0gzWTAxS2E4Mkotd1N0bDlmSVVjNU5FcDZObEJQanZvMTY1VG9DVi1jSDI0SC1ub0ZZRGo0TzhrdGRaQVpsempyUnBZLUk?oc=5",
+      "title": "What Halliburton Bulls Got Right",
+      "snippet": "Simply Wall St, 2026-11-24T05:20:39+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T05:20:39+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnNMZ1dFQUxsNS1pVXkxcUNxSS1kOFNZZENpckpZQ2ZUSFNFZnMyZnNrNlphSjB1VFVpM1J3WkhiclBhOTgxTG1lVmJQMUQ5VmZXdUpDVXdHQlNCU2JZSlJMY2hqZThmdnZiSkZhTkZhR21WcFIyaXQ0T2JERkNubGZtRnMwQnl6M3BlSjRyZDFxSHRUN2lDZndYTzM?oc=5",
+      "title": "Form 8K Halliburton For: 23 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-23T13:18:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-23T13:18:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAL/history",
+      "title": "HAL daily price history (Yahoo Finance)",
+      "snippet": "close 30.9 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ticker": "ORLY",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"O'Reilly Automotive\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMDBhaXN1X3pVV1RoeklQeWg0LTJ1eDB4dXNzcC05ajJGZ1NjczdkZVgtbFZQY1Y0cllMRmt3UXZaWHN4alI4Z3ZaRkNuQjRFNU9tdFJGZUg1X29uRGRQZzhqejN4X2h6VmFpVHBCLTN4U0xCdHV0UUpnbE5IeGQ5NEdCY2R4OGFraWswZjA2TVRSM044LU1DaHdsV1I2eGpmeGljNnBHZGhwZWhSdnRpUG9TNWdsaWp6a1l5X0NoODh4QmhyeUZNNDF4YnFFUTlOeHBoX2xWQVg?oc=5",
+      "title": "1,103,814 Shares of O'Reilly Automotive, Inc. $ORLY Purchased by Caxton Associates LLP",
+      "snippet": "MarketBeat, 2026-11-24T09:46:21+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T09:46:21+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ORLY/history",
+      "title": "ORLY daily price history (Yahoo Finance)",
+      "snippet": "close 95.43 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "ticker": "AKAM",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Akamai\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLWJidE1HdndwekZjbExEVFo2X1YwbEVDTDBJcE9ZcDRaNWlUZUZ0SFYzZ1l5eG44VDg2RG91dUtTTTAzX3BIYWk2QklnMkxRSWJxOU5Fdklwbkd1UFNPUVVwRkxHQlpBNXJuSkhYNU83Wm1RV1hVTFVzNFNVOWRQN1VyRU5udk1EamFkN0lQOEVteVdlTkRmRlFuek9mOEpaeWc?oc=5",
+      "title": "Can Akamai Strengthen Its Mobile Security Reach With Microsoft Tie-Up?",
+      "snippet": "Yahoo Finance, 2026-11-23T15:51:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T15:51:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMElFd245dW1qdDNBd0g3VW9sX05yWnZOc0EwZUVmb2Q2WjZUMkt3VU4yMlEyMktKamo3UnV1RFZ5MFl2b2VnSWk0TGI2ZVk3aFdyNS1CWGRXRmVELURyUzhuSlRVeE1vNXdWXzlMRHhNZnZiRF9BZExLc0NBMFVsRHg2cjVIWkpDZEFlUG5tQy02LTFJTHFvWU9WQW1JS2xHZ2ptc0RXOGF6U0lrOHlDODY4X2xLX2VETDZ5T2pHa2ZQQmloNkxGQlgtN19LQQ?oc=5",
+      "title": "Weekly Recap: Akamai raises $2.5B and Linode growth delays free cash flow",
+      "snippet": "TradingView, 2026-11-23T11:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T11:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRVBndkJURThVOVZKNHZMY1VuVXgzbU1pWjVSTWFNa0puMzUxNktDZHN5X0ZXR1U4UndBWWJlSzVWLUhwTHZLMkR2UWcwS1FadTdvYWR5NGJnTDlCeDRDZUp4Sl9ZS1g3RXh6UGRLVTNINWxRaE1jbDZZUnBxc2E2VkMzR1dFSjRXSy0wRnk4Mjc1cUNGa05YN3M2YnBwdDlBOFVwM3VjUi16ZGs0T0VheXd3YXpVMTJzY3FMMllvWXJDb0Fqa0g2TkNJV3lJTEt5MG5TLWI0eDNHbksxYm1QcVE5cHg?oc=5",
+      "title": "Form 4 Akamai Technologies Inc: Laura Howell (SVP, Chief Accounting Officer) For: 12 September",
+      "snippet": "Investing.com UK, 2026-11-23T06:16:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-23T06:16:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRkNidkZXeHdtQnl0VjZvTVpmM3pYMkZQOFRoUTBGdXE0clFtQkgwRHROMUROUWkwSlBsaVFCNk42Uy00OUk2dklKU19MQ3NrNXB3b2FPdVQ1ejR2dnZyU0tNMjhyMksyV3pWYmpZRzBJRWhJTklxRk00TDNUSlJNNllWdW15aWJKV3NFNm9OUGlXR2JBZ0tFVzFVNUZLU3A1VW5pVkpuNEpFdnZnRFhsMEN5akFLUmJIaGdKM2JDLTY4aXMxdXJPaGZJMW5iTEZDZmp6etIB2gFBVV95cUxPd1JRQkhLSmQxYWZEUkRINEZ4QkN1TzhRbEZlNzlGWms4SHB6MWdLSUdaS2Zid0dvNG9PT2o4MzU1ZTJzazdWSjRFaGRwdG5PV09fQm02X0VZaGVDWFJEMjNkbjk2c2d0NmNmWkRQdjRCc0stWXpYdWRsTW5zY2lDa1paRmdYT2NRZ0daZWxNaHk5aEgtbVZUc3VwcS1WVmNDWDZPYWcwRlAyTWZYRFAxOHVQOGlsel94Y3Z0OHY2WUJoMjNGbXptNTA1NTRUeWYwNlBvR2RTV1B5QQ?oc=5",
+      "title": "Akamai Stock and Microsoft Edge Mobile Security Deal What's Changed",
+      "snippet": "Simply Wall St, 2026-11-23T04:25:49+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T04:25:49+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AKAM/history",
+      "title": "AKAM daily price history (Yahoo Finance)",
+      "snippet": "close 89.32 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

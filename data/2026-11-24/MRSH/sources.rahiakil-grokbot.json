@@ -1,0 +1,60 @@
+{
+  "ticker": "MRSH",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Marsh McLennan\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdGlNZnVVVVEzRDBBY3FtdjVuTXZ3b2h2TjBNdUJQaUdsbEtxeVJoNVE3T2tmTkNSSEd0bUZER1lxNVlyVTJWbUs2YkQ3LU9BTDAtNXhjX1pjNk05R0lCN0x0X0tGMl91ei1ZUU14d3pPT3ZPS1FNVndrM1NxN1kycWhkbE5tT09QN0hrVTVpU3ZYczZuVmdkcmFza3dqdGdrVWU1YkM0OFA2X2d0aklnb3JhU2x6QTc4RUYxUHJTejBRcE1kNmhEQS1YRnFRTkpHWTdEVnRBN2fSAd4BQVVfeXFMTmlnT0tBZWdkR1VaUGJ6Z3dqTDdwY0tNR0xoNVZxNnZ0WW1MdlNSelI3WWRscW9UQURFYjg5Ri1sQnNPWnVPVU9tN0d6cHJuZmJMNm1mWDh5UW1LRDMzenRRSU1jbklHZDc1ZTZYSDZiajZuNW5MUnhxQTB1YUljWFp1dVltdVFXZE1Iak14Ym9PX21LeFc0Y1NYNjJmUkxKdkZRUXZuWUN6YVA1TmxSSFFTdENEenVmR2JsTDBoRHl4WVk4OVM5bnpGaVFiZWd0aDh3Wk0taWJBdExfUGNR?oc=5",
+      "title": "Marsh & McLennan (MRSH) Stock May Trade At A Discount Despite A 34% Five Year Rise",
+      "snippet": "Simply Wall St, 2026-11-24T19:09:36+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T19:09:36+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN2ZnZVFNMmotS00tTEJHLTQ4cWJoT1pveHpnX3lBTXpfcUpPU3RqYkNkeC1SVFBKdmk3S3NpTzBrV2N5OWpXZFEzVEEwT0RYWDc4b2E5VHFTVzlsSnpoOXlHdjQyTnFPOUs2Sm41ZFNJSmJCSWdmaVJJdzQ3YzBaOHEtYnk4Y1dmODY0?oc=5",
+      "title": "Marsh & McLennan Companies (NYSE:MRSH) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-23T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRSH/history",
+      "title": "MRSH daily price history (Yahoo Finance)",
+      "snippet": "close 213.16 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

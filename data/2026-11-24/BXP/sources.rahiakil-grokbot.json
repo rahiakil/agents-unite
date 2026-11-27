@@ -1,0 +1,60 @@
+{
+  "ticker": "BXP",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"BXP\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVnpnMjl2RVRweVdPTTBOX0JSVXllUzQ4MWVsSFBkRlltWXlhRUtXYlJaSUJWdXVNT09GbUxmWmt1R2IzNnQtNXFHZE1qcThvU0poZ1FqaXBtZU1HLUdNNHR1enhucTFUVGpCZjVjTFhHNmx2SVl0UmNoR3JNTVNORjF2TnY4Q1AyQnlWSkE2STktcURDZ1BuTlQ4dnVlaTBJTUE?oc=5",
+      "title": "Are Wall Street Analysts Predicting BXP, Inc. Stock Will Climb or Sink?",
+      "snippet": "Yahoo Finance, 2026-11-24T11:52:56+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T11:52:56+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXNjMmt5MkUxOW1SeGs4cWFFd3RNcDFraE5namU0QXFTXzJXLVNaclNTeDF3bVpoTC1JZGRUS0tPX21HNFBua1V4aWMzaFFBQ1ZRcjNuUGsxVzhiWW8tOVhLX0loeFJsanFBTHh5ZC1JZGFZNFNIUm82blpzWEVBeXFhSWNvaWFZV2pHN0RSZTRvT2ZZbExBR3Ztdlh3cXJo?oc=5",
+      "title": "BofA Adjusts Price Target on BXP to $77 From $83",
+      "snippet": "marketscreener.com, 2026-11-23T13:15:29+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-23T13:15:29+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BXP/history",
+      "title": "BXP daily price history (Yahoo Finance)",
+      "snippet": "close 62.68 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "ticker": "XYZ",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Block Inc\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 25,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN0wxc0pTUlZvdFIwMDFPa3Vab0dtaTQ2T09JS1FpSzZzeHRzU0owVHh1WnBCaFBHeWpJQUpzTm4wU1lnTENzNnIxUnRhRkxPRWdaWUMwVGE2UkZmcWFCVWlfam1PY3NDMmU0TUdlNmFXbEJvYlF5Rm9JbU5uNWlUMk9hckp3QWNNUEEtVEZyeGFKRVJxSGphLURteC1BVHB3RGFMVG1pVGJiT1RHOE1rVQ?oc=5",
+      "title": "H&R Block: A Cash-Generating Cannibal Trading At Just 7.5x Earnings",
+      "snippet": "Seeking Alpha, 2026-11-24T14:02:57+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-24T14:02:57+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnNDMWNIRy1LSGdJajlGSzMyd2tuZFNxemJnTnFWNnlIdFlqbjlfdWt4VWVBVGNJb2N3OGVnMjBlYWVhU1VPdUt4Z01Nd0s3UlRyS1JUN1VmRjh1dEVwY1h2Q0dLNlkyc09CZjBmam5zWXhEWm1GZ0VtU1JUbExmNXZCYUFKTjlHR1F0LW5CQjRKRVlPZzNSQzB1NUxwSzdaX0tQNkNBaTNzUlZM?oc=5",
+      "title": "Block (NYSE:XYZ): Affordable Growth at a Reasonable Valuation",
+      "snippet": "ChartMill, 2026-11-24T09:01:18+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-24T09:01:18+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeEdVS0pvNGpYOVE4OURVVVFfdm1RMktOMks3U29TM21yM1l4RUVMdHFRV0pCQWF1OXNmRlF5Y2hxTGNsekdCSHZ1Y09RLW5hZ1lqR3F0SlFaRzNhc3k4VjF5d21UZkxpZmRuOFNiLUk0d29aZFZ3ekhQWnc3a1FqYUpUNUMwMFBkT0xaclp1V2YwRXlzeWZnYUtKVExNUURVTEUzQy0xbkJuQVYtVDdaYjFLelRodw?oc=5",
+      "title": "Is It Too Late to Buy Block Inc (XYZ) After 5.1% Rally? GF Value Says Undervalued",
+      "snippet": "GuruFocus, 2026-11-24T00:33:58+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T00:33:58+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWYzWGNELTF3aDNhNjdTMkpNMGcxTlpkRjVEM2VOYVJtZGRPeGRBQ0c4Y0NMeENvRGRtYndSQy10djJwZ204MUU2dHV1dEQ5QjJxeDlTZmpsREN4OHVZdUViOVlFUHh6MC1YSjhYQTQyVmdPLUhFem5HeTg2dW13ZTRWZVFibXpmbTFDNDhJbzlJZ2F4SS02akJfYkQ?oc=5",
+      "title": "Block Reports 22% Q3 2026 Gross Profit Growth",
+      "snippet": "TipRanks, 2026-11-23T23:03:04+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-23T23:03:04+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9nY0ZwRDZMSk9rZGQ4Wm5NYWJnVFdZLU13bGpja0NwZWRsbk9HYkpDcE1mUnhUSlZyVUY3VWx0VTdRbEtZYk9z?oc=5",
+      "title": "H&r Block Stock Price Forecast. Should You Buy HRB?",
+      "snippet": "StockInvest.us, 2026-11-23T08:00:00+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYZ/history",
+      "title": "XYZ daily price history (Yahoo Finance)",
+      "snippet": "close 74.15 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

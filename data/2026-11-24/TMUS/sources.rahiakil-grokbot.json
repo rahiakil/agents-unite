@@ -1,0 +1,96 @@
+{
+  "ticker": "TMUS",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"T-Mobile US\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 5,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSk1ZdTkzSGhwM05RWmlFejlWZ1FMQ3l6dC1PcW5KbFJ2WFNBRjg3X1p0ZFI3aVh3aGI5c2JQYVBwMDhxbTdteFFYclFEV2hfLWY5c1ZvZ3JQakZ6ZWYzZG9MeTByckxoY045VzY2cllhTGFQQnduRDFpMEtyOHk1UlVvVzlvZkFUUGd5WnQyQmhrem9HR010WjJTSmFLTjlQdDVBMXcwbGh0VmZEdmozWkNiZGt2NmJaM0hlSFk0ZmlIam9IWWdZY9IBzgFBVV95cUxNR1k0dGhqdFJPY2dpZVRqMWU4Y0JzZXRRMUhYYzZSR3VXVC1GTjcxT2F5RDduMTdoYzBsWGtqblVQSVRVdDlmeHE5Z0lsYTN1UndfcjVYWjBEb3ZWbmh2ZU5LS0hpWmNqbFhkbG5yQ2pTcXZlSlF4NFpJbHVaQW1mRGxQdVU4RnJNYzA3UlJWRlp5dFFNQ25IWkQyazkxbFRkbTJyTVIxTzNVOE92dkFqYlBPU05GWDVBWGVYeElBRnlsRzRyVjdfUkhubDRrUQ?oc=5",
+      "title": "T Mobile (TMUS) Stock May Be Reasonable Despite Fresh AI Network News",
+      "snippet": "Simply Wall St, 2026-11-24T17:12:04+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T17:12:04+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.241,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQU9aTl9rVncwNzFYOWdKSm9DdVc3Zm8yWEcySi1ZeHVrbk9VdFBCaGY0X2VrMEJMLXdNVU9vRms5NFRUT1RLeU1ZQVFQb3g2Qk9IdnJ3MHJUZzhHTmhET3VldkJ1RlpneDd2aWZxSkRFdHdwVk9pWVdhMk5QZnRQMDRkeHNDTE5Qck5ENWVQNXBJSlJSZ0ZOZXh3cHMzRUdJLWduUVRxNkRJNmxZUVBYTDNxRnl3aWZxZmFHSXJoVVZBUQ?oc=5",
+      "title": "T-Mobile US stock: Shares gain 3.79% above Monday's Xetra close",
+      "snippet": "ad-hoc-news.de, 2026-11-24T16:15:05+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-24T16:15:05+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNTItLXI3a0dpbE1Pbko2ckRTRWl5bFI0cm11M3hJb1RfTEc2eE5YdHlDNFdGNmc1amhUeXpmemVuLVB3b0sxVWxkSnJWcjVZOGNxZXZMaGpwTEd3R1FRYTZwUG5DVHVDd3VwS3psLV82UUJfd2xDdk0xQ1pub05ta25uQjNBNG8wNWplR193RThWRHZXbmpSNFZza2J3MmZpZWQ0?oc=5",
+      "title": "T-Mobile US (TMUS) Stock: $166.36, Up 0.46% Nov 23",
+      "snippet": "JournalArta, 2026-11-24T07:39:25+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-24T07:39:25+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRTE3MU5RYjJzVURKQXNnUldXRFVSUUIxczRjVGNhb081N3lraUVZYUs0VEJJSjVtMGcxUTVLeVFBZEJyeUVDOGlzVTB4cGhXTHFxVEk4RUROaFNiOTU5ZHIyWUFHMnhuWnlncWpEVzZOQzJ0SVR1akxjLWpwNEM2NUxyX3FfYzZWZkJzLXI3eVh3TWg3VUJtcDIya1h4VWllRzhXZjJ6Uk4xa0tPdW40aV9oOWpXWE5fcjBhX1RB?oc=5",
+      "title": "Erste Group Bank Weighs in on T-Mobile US FY2026 Earnings",
+      "snippet": "MarketBeat, 2026-11-23T06:29:03+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T06:29:03+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVW04T2tRb3ZkREtXOFNheWlybmxwZk1PbnMzTDBmaGlTdldOUXU1RFAxZS1pRkk0NVBmU21EUjV3Z0pwazhOc0huMVg0YzlzX2RDV3hueURCOFlSNUpmVVZXWmVFek9xRFpNSXFYNlpjTHJJSU96M1plUmt0amhxWENGUHRYdlNaaGJSNGYxcFpaYmhHc0dzcTk3OTBUS1BNcEoyZVR2Zw?oc=5",
+      "title": "Why Did T-Mobile (NASDAQ:TMUS) Lift Its Quarterly Dividend?",
+      "snippet": "Kalkine Media, 2026-11-23T05:49:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T05:49:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TMUS/history",
+      "title": "TMUS daily price history (Yahoo Finance)",
+      "snippet": "close 167.3 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

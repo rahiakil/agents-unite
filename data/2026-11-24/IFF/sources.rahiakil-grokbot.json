@@ -1,0 +1,60 @@
+{
+  "ticker": "IFF",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"International Flavors & Fragrances\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaWVoQ0tQRFhKZlJIT2lTX244UzVMM3hPMjFOSjBvTE5CRFlXT2NFX0FkbzRZX3BXOFZqQjlmTFRrZ0d2RDlIRlFwaHZaV2JOeW9xa05aamlid0NkRUllS3N6UUJLOTllaTF1UjJVajNNOTZCY2xLcGpTXzlJemk5a1g0c1pwS1BWODNHSEFWOWNMbnlKVVpBNTVSWEM0dm9RbXdKZUUtMHFfOEtUQ1JxbXR4MElIdl9jYTlpMzVxa2x0R2NuWHQ4UGRDUjhmdF85STlmR2ZuaUtSUQ?oc=5",
+      "title": "International Flavors & Fragrances Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T22:05:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:05:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGlGOW5UekpPRTA4dFVYdVdWOHpMTlUtaXNUWVNBYXNiYXVMQmQ5elRTVlVjZ21JRXVLbGNKQkdDckJxakExbWU1S3pTcURzdHNhamdCMlhVWXMyOVNDcmxibTF5dlJwb2M2VUVKaC1LQ1NjdXIzNmg2ZVBxalEzWUhvYzFFSGZNOU9Ib2NTNWUxWWFaUWhtdA?oc=5",
+      "title": "What's behind International Flavors & Fragrances's latest 3.1% stock surge?",
+      "snippet": "Traders Union, 2026-11-23T17:01:31+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-23T17:01:31+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IFF/history",
+      "title": "IFF daily price history (Yahoo Finance)",
+      "snippet": "close 85.32 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "HUBB",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Hubbell\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSGk3MTdzUllrd0tRaHZrSjd6dGdld212Y3NFZzVmQXdwRVhiWUo2UFA2cHRNWU1MRWx6TXE5eWl5SzBSU1l6d2lNSVl4NE5rc1F5Z041Z3loRlVFejkwTlFTN3hJTjBBM0dqYUhxY3J3V0wyNE9IT2FnNXdBYzBSSGFOVUZTQ0tLNUFFWTAtY2dqc216N0hmekxfcDVtcjMxaW9yMEFnZHJQRFk?oc=5",
+      "title": "Hubbell Inc (HUBB) Shares Surge 7.7% -- What GF Score of 92 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-24T01:40:23+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T01:40:23+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVnNYVjhkX3ptTkZaQzZsTGRPMl9CQzFrOEQ2Z2pnSFA0RFRPdkt2cTRuM2xoYmNkSTFtMERVV0hmZERHVFczTXRMVFU4dXFLSnM0Q28xYWZfQ2xNU3otLXZ1UUNJRERhU1VMeGl0VVRqVDNpNy1yakdBc3Q0WXg3a3NWbXhZTTZ6ckpKdnFXak1xeVViUDM3TzNMdGp0M0wtVEgwMDZJeXJzdlZOLWJnUGRTcHRiUzBaM3c4Y2duT0s?oc=5",
+      "title": "Hubbell Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-23T22:04:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:04:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUBB/history",
+      "title": "HUBB daily price history (Yahoo Finance)",
+      "snippet": "close 422.1 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

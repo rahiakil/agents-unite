@@ -1,0 +1,132 @@
+{
+  "ticker": "SO",
+  "date": "2026-11-24",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-24",
+  "news_cutoff": "2026-11-24T21:00:00Z",
+  "generated_at": "2026-11-27T23:19:30Z",
+  "collected_at": "2026-11-27T23:19:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Southern Company\" stock after:2026-11-20 before:2026-11-25",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 6,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yY1dfVXVnWDljTDdJMGhFNzN1SlZCazhWYkFFdjJ4QXRpTVBhVEM3dDNLTDMyM2FxLXA2TlJLbmw3Ylh3WjJFNkZoWFg2VVlBcjJSWlFIcEdTZlU?oc=5",
+      "title": "The Southern Company (SOAUU) interactive stock chart",
+      "snippet": "Yahoo Finance Australia, 2026-11-24T20:06:54+00:00",
+      "publisher": "Yahoo Finance Australia",
+      "published": "2026-11-24T20:06:54+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTHh1MUlQeXRxVHhRUWU0ZG1OQ3V3bHZiYVk4MHBKeDNBdnltUEZyNjQwRmhFUHNLc2M5azhheXpSdC1wclRkVTQ3XzlYdlJ4N1dDTXA2MXV5RUlKa242UUhxbmFBMFRmckRCNnIwcFNNVnpXZEl5NjJ6UnhBVlV6ajhLZ3F3RFJKbEQ4aVJsUWk0NTlTbFdhckdsNDlsb2pORkdrNlcwS08xdktGcUx6RVM5di1aaDdYOGZ5MjVjQmd3RVdhamc?oc=5",
+      "title": "Investors Buy Unusually Large LEAP Options in Southeastern Utility, Southern Company",
+      "snippet": "Barchart.com, 2026-11-24T18:30:03+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-24T18:30:03+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU0VBZGc2clpnLUJWU2VSV3RCMVV3M3NOTzJDSnVzckFaeWFqb2wzbWpQb3Q4ZWF4dHQ4SUhDdmJyYXNPbnFyUVVRVUxPRzVIanp1eVBLS1dQZGxiUVJYc3hBX0h4NVhFSU04Y3hyN2RmNy1nbmx5cXJ1SU1RV1BzYXJWTVJDcm1fbnY1OU5XdHFqSFg1bzNFS3QzS0pCR2Q3NXlSOU9tQS1zWTV5WVFmZzR1c2phQ3piOWxrMw?oc=5",
+      "title": "Southern Company stock: Leadership changes set for January",
+      "snippet": "ad-hoc-news.de, 2026-11-24T16:04:26+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-24T16:04:26+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IZjAwUV8xZmxldTRqcEdwWDI1cEotSXc0QS1GMzVtdmhaNG9XRXRzWnpoQUJlZmg2eUhyVTdfcTcwQWE1OHdlVWUxUXVxRnExY3dZOXZDcUxXdw?oc=5",
+      "title": "The Southern Company (SOAUU) latest stock news and headlines",
+      "snippet": "Yahoo Finance UK, 2026-11-24T14:01:40+00:00",
+      "publisher": "Yahoo Finance UK",
+      "published": "2026-11-24T14:01:40+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbE5kU3dHdGVIbTVDbTZuSS0teWw0SDkzVFpNekhfNmxTOFJHekdpOUhsWDU3UmhsZmQ0Q3IyQ2ZTRVQ5Zk4xeHI5TGwxVS0wcGFBNWlqU2RfM3F4UVlBVTh4NldBQ2diY3lRWDFlRkgyc2xNNXRoV0FycEVBbVp2aGpXU1hNZVprZlpYcHl3MU1zNkRBSUYwRVVRVEhhYXpwb3dJNEJPRExkX3AzeDB4YUtJTlFmbk5vQUhSVEliNkZQQkJ1MC16YU1GOFotQ0owYldMWmJ3?oc=5",
+      "title": "Morgan Stanley lifts Southern Company target; stock at EUR 85.33, up 0.31% premarket",
+      "snippet": "ad-hoc-news.de, 2026-11-24T07:44:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-24T07:44:53+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWJHaF9vb1Frel96cWo2VHFKMi1NdzA4enRBeWVnR216NDhqTjFzZGk2Z2J0YVVrdjNWWTdPOEtvRGdSZE9QTzFQc0tfWkVjNnBUUkpyU1RYR3JZU00tejJKTk42TlIwVmpfOEw2TGxoTWE1Zkw2VXVMVTRPXzdYU29wc3M2SVo2bVJjd1h2aEhURFI3eVRCY2FvYTNzWl80NEMyMmEySlVkTml0UmxpZVFTTFFjWTg3MFNodXVKWTVlUkRaSDJvV0JUa0dhM0JVNXc?oc=5",
+      "title": "Weekly Recap: Southern Company unit sale and Evercore ISI Group target hike",
+      "snippet": "TradingView, 2026-11-23T11:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T11:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbHhScnFvaFlNUVB1OUN3aU9fTjg3dFA3andQTmJiR1lFZXJ4a0h6Y29QVkJtU2VhOFVHQUhxTDBTZGlGX3RfZXlTXzJfV1JrRTVmNkJYU18waXZRRzEzN0ZJZ29WM1lnODJiVXJPOVYwY3Zqbmk2Q29UV1c4QzZZek9rRWRmMDh6RWdUOTVPZ1puQ2ZReUwwS1pNbVJTRGFmQzlB?oc=5",
+      "title": "Better Dividend Stock for Retirees: Southern Company vs. American Water Works",
+      "snippet": "TIKR.com, 2026-11-23T08:45:54+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T08:45:54+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ2Vha1VfVnRwejBIZGFnQkEzZ19uS3NYYXpjQkNyZUdoR0dIQ1pWMUV2SlpSLU1ORnVMc05tc1RuQnpyV2ZKTnRmMU1UWjlFRndEVkRaOGRHOGswNmxYMjlJZzhLVGhjQ0RqUmZhRGpqdGlXMDJZblR1MXN3SFBCLW1ZRWdMUHpFVUR3X3hoLW1fMS1yY09taXl0ZEhPYWwz?oc=5",
+      "title": "Better Dividend Stock for Retirees: Shell vs. Southern Company",
+      "snippet": "TIKR.com, 2026-11-23T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SO/history",
+      "title": "SO daily price history (Yahoo Finance)",
+      "snippet": "close 94.11 on 2026-11-24",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

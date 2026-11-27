@@ -1,0 +1,108 @@
+{
+  "ticker": "GILD",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Gilead\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 11,
+    "irrelevant_or_spam": 2,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNblhvWjh5WmtRMElmT0NfajVCV2JuQ09FNjU2QmV0RkdpMUQ3bl9WeDJCaEZab1pCT3p2US1IYURhZnpNOUs0U2JsbGJqWDVuM1RvUVBfdnhnYTk3WWtGQ0toYld4OS1PSUFPMnpwbWFFQnFCVVFKcU1EQ2FiY2oySlBlRmU3SFM5REo5MlB5bHo1RHFWRm0xYUZybjZqb3duVTdKS3V4MlNxN0hOVFFXbmk0VDVuaHhGblE?oc=5",
+      "title": "Gilead Sciences (NASDAQ:GILD) Price Target Raised to $182.00",
+      "snippet": "MarketBeat, 2026-11-23T14:48:31+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T14:48:31+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaGtqaXdPbUpyWFZGSzQxNWtIdFNQRUxudXpOd05JWnhPREZtcW9ldG1rV2pkY3BQaWJEYkI3b2xIZXpHeWZlamZ4WFNieHEwSVFvMlFTMEo4MmZBVGFNRVN3X0w0V3ZzbWd5ZFR5T05FUGJJTXFITUROUjNXQ21qRXEzbllEazFkYThybC04QUk5Qmh1RU54cE0tMkh3X29YdjdCdHJzd0JyTEF3V1ZpZEVpUms4NE96YlYxMENR?oc=5",
+      "title": "FY2027 EPS Forecast for Gilead Sciences Lifted by Analyst",
+      "snippet": "MarketBeat, 2026-11-23T06:45:06+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T06:45:06+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbGNOc3pidW1uaHVka2VwVnA3THdRWWJNSUIzSkVZU0toSG5GSnBadkNFSWI0bmxqU0JuTm9FX0R5OUh6MDU0U3VEQmNWVExRbnZmY2Z1VjB4XzByUFFtblFJbWE5MmhXQVhCTXJMMVMta1RicllOZjJnQnJrbVVBdkhxYUNKT0V6eHExdU5YUGV2LXdXeHhlcy1Fbw?oc=5",
+      "title": "Gilead Sciences Has Raised Its Dividend for 11 Straight Years. Here\u2019s Why the Streak Looks Safe.",
+      "snippet": "Yahoo Finance, 2026-11-22T15:13:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-22T15:13:02+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb1JyeEdFdmNMM25naFJDMmJNd3ZGb3JlcTV6X1RYaWZ3U1VUUXdsV1dzUnUtS3JTM3B6VWNBX2d6clg3QWc0a2RENUwyN2huRHFRaWlXdW02S3dhR21xenB6dkNuRHVmWUdGSUQ0VVJ6Mk1MZjNhOG95MldnSEpsMHFqcTlCa041TVdCUEN5OA?oc=5",
+      "title": "Gilead raises dividend for 11th year, backed by strong cash flow and expanding drug portfolio.",
+      "snippet": "Pluang, 2026-11-22T15:10:19+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-22T15:10:19+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWF9ka1ZsTWNMb0tCa2Zkc0JMVUZfYUpfRk53MDhIN1dhT3JHSWI4Z2diMkdxSkxDLXlFUmlVLUhzT2J4YVFBSmtjdy1KWTFlRkx0QS1uZElqdUF3Tmt3b1UzRUdveUtaOGhVMTFqR3Q0RGZWeWZXM2huRnlXX296SGN1T0lTNHdhOEloYjBvYTc3S2xwRUlBZk9wdWh0N1NOWGtsQmdFMEFHZzBnLWdPeFRkeVhRTXZx?oc=5",
+      "title": "$500,000 in AbbVie and Gilead Could Pay More Than $11,000 a Year in Dividends",
+      "snippet": "24/7 Wall St., 2026-11-21T18:07:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-21T18:07:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjJmTnY0bERJZS1JUnRfQUdLRzNHdzRYeGY0VVNMbVF2a3UwTDN6bU5zeEVWWjg4OHpVZXl4YlZLQ1k0WFIzeC1zSEk3MEhuTzE1dm8zNzh5Sm1LQzdjcnl0dU4zeDVOUkV6T2s3cENsWENWS3VEdFhpd3ViUEVpZ0x2QmhTcUhiNVdtTm9jTmg2c184U191VGFWVmNHeGJhZGZyLTQtNFdUdUNpd05MbmcwVWlqOGpxUmdOYlhuUFJ2QWM?oc=5",
+      "title": "Gilead Sciences stock: Obeldesivir licenses expand Ebola access",
+      "snippet": "ad-hoc-news.de, 2026-11-21T10:18:52+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T10:18:52+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GILD/history",
+      "title": "GILD daily price history (Yahoo Finance)",
+      "snippet": "close 170.59 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

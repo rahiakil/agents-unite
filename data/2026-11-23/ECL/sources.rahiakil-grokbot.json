@@ -1,0 +1,96 @@
+{
+  "ticker": "ECL",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Ecolab\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFdrbXNsLVUyZ2ZmcDRaTUV4R0xYYzFlX19UNW5NeVFDWFo4ejVlNE9qR2tfLTc0bjc5clo1Uk05ekhXR0w5OWVNd1ZOQjdhOElvQ1ZNV3lVb28tWDVpVWdScGZ4cW02YzVSNVVoOGdDMjlMVk5wbFBFRFdKZ0hnaDJhVTRMVlVvXzlsQ0R0NFgycTBwVV9BOUNaeWptRVgwcUJSTEdCcUZTcm1lbVJGMg?oc=5",
+      "title": "Ecolab stock: Erste Group lifts 2027 EPS estimate",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:05:13+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:05:13+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGJzZkhmNGRUNjJGRzJrNDVMY2hLNWZiaVdGT2wtQjJqQVpRRVQ2dGVPS3V1T0RZS1FDa2kxUVRCSkdxd1ZYdVdYMEhscFM4djA4V0NkU29qLWdsRHQ1ZTVlNnp4ZXJmQ1lhbWw3b24tSDliMHRkRmpiRnBTc2MwT0Z1ODJrRk9nS3d2UktIUE80c0xTMzRSTWI3UnhBOGs?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for Ecolab Stock?",
+      "snippet": "Yahoo Finance, 2026-11-23T12:28:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T12:28:02+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVUQ4VE1hOGZ2SXhiS3cyc1NhaGJ6SFRPaFZiMEY0SDNPS3pvWEkxVGpIX0hHc0F0NDBkZ1pzclVyeXE2TjZFaFQ5SnItSGQ0M3huUktVY2dZLVo1OFBEdW0tQWZpcVQwRVAxeEZIN3kyMmktQm1rYldoSXRjVVgwWnVDRkpwNGZpSXpyTFh2VjNISWc3YjFfRTB1UDBKTlZSTDZweWpRMFVORFZpZzMtS2h5bklNNGg2?oc=5",
+      "title": "Ecolab stock: Deutsche Bank lifts target to 345 dollars",
+      "snippet": "ad-hoc-news.de, 2026-11-21T10:20:54+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T10:20:54+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83U1VHM1dpaFVBMk5sX1RSTVVNVmptX2lDVDlnZ0o3U3NmOVhXZ3FDM0pkRFN6dGhNSnN2anJrSGYyT0YyOGV3UDN3UHZTdC1KYWdXX1cyajhxdVJIV29nSDlMc3h4Tjljc0NhQlR3OFRBd2s?oc=5",
+      "title": "Wrapped Ecolab Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-21T09:59:59+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-21T09:59:59+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNXFhdWFrMUwwWUtmcEFpajd6MGNOWDMtZ0N0aTFnSUZyR0dNM1YtcnlHTDlTbHp1Y1pVLXVIYTQzWFZOdDZ2YWUzOXBwSmRWQUNNbmdpelFiTmpWVy04RGVXYS1QbVIzZjZBYnU0emV5M0oxX2dfN29lRHA1WjdhTjAydVhrb2piN0FaajFramplSTVnSkFWUFdDc2w?oc=5",
+      "title": "Can Ecolab (ECL) Justify Its Price Through Future Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-11-20T21:16:11+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T21:16:11+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 305.91 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

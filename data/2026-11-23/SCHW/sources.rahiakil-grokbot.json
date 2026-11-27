@@ -1,0 +1,84 @@
+{
+  "ticker": "SCHW",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Schwab\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 6,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0tibVBvSV9Ia1dkX3dGRzdFUXhPbzJfQVdEYWRCYjQ3c3ZjU19ib3ZDUzJRdG5SSi1nQndra3phOHBQM2w3c3BMOEdEWVUwTGI2T3ZQMW5xRnU0YWI5dzV0Z21LakFTZE4zVFZfSVh0WDA2NFFxNndtem1Uc010MTFmNzUyUzdheUxjTW4yZk1ZUHBkaVVTOW1MUVI5b0FVYk1N?oc=5",
+      "title": "Charles Schwab to Present at Goldman Sachs 2026 Financial Services Conference",
+      "snippet": "Yahoo Finance, 2026-11-23T13:45:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T13:45:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSU5jaUZlMjU2WGtDVF9XQWpkWENPdXhfWmZ2amR2VXdwbGhTZExWeWx4TXZXak83WENJRjc5Y2NYdS14aG9aN21FVFA1bXJOR3RvSm9TcU5pOFpEWm00VUpGLUxDbHBsQmwyeGpVbWUtR1JMTjh6cUxWTW5CSUdIeWhhOHdLUTRNbmV3SnNQZVNLYXJwVktUdzZrdlpEZS1Ba3BOdjQ4M0VaU0UzOW5vT2R0VF9EU2dJcmROMjhxZkJnWFdqVW1LaGpaQ2VSc0JaQllCazZkYTdnVEZlOWfSAeMBQVVfeXFMTnVpZVhlbVYwRHdoTkdQTWRBenRJeHJLZFJsS3o5V1o3a3lfM0x3a2ZMa2lFQzltZlNjaURyNWNHVVRBTXZrREtLMENlN2VQdGpJTmJyMkxZSk1BS3dkXzR6NFEtOFF6NkxfU3gwTEJMdllyWmRFb1ZHTDV6bHBpSzlGNUxOVUs0bVRMM01BZi1jUmpuRGxVSzJDVGRyRWJnamkwVndLcTUtVDR1ZlltaGR6dmpKbEd4aFZqYnVJcGJYdVgwbG9ialI1aTV2djRyT0xoV0ZQSG1zeUtmcFJPVGloVTg?oc=5",
+      "title": "Why Charles Schwab Stock Is Tied to Higher Short Term Interest Rates",
+      "snippet": "Simply Wall St, 2026-11-21T19:08:37+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T19:08:37+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaZDNaRjlVQjVEZ3VKY1Q2RjVteXdRSlpVZGJqaUxxeTFTUGY4V05YaDU1MklqLXkwWkZLR0p3SzdoZDU0TVdzSzJ6cTYwX3k4OXg1NmhJOWR3RjUxRGQzVXNabW5fN3ZRZU1oNE9ENnMyREQtQko0VHh4VVQ1dw?oc=5",
+      "title": "Vanguard's VOO vs. Schwab's SCHD: How Much You Need Invested to Earn $1,000 a Month in Retirement",
+      "snippet": "FinanceBuzz, 2026-11-21T10:30:00+00:00",
+      "publisher": "FinanceBuzz",
+      "published": "2026-11-21T10:30:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUI3WGhqX0dERWtCUXRGemx3aXRZUFJndWJjRDh1d3hvMkl6akNQZ2huSFp4RU1RcDZDZ1VWMmhlbmlaa2lLOEMxWnBiZFNlWHoxanBMQkx1XzlxcU9HYUdNLWVNLUgydHI5UHlzaGdnSUFndVdSQzFRckQzTlZkUVNOdy1ObHphSzFERkJ1X2tDY1FvT2xyWHlqVk1ORkwzcXlvSl9VaXh1SDFFQUR4aWJWSjJ3WHVmZmpXT2JzOTQ?oc=5",
+      "title": "Charles Schwab stock upgraded to Strong Buy by Raymond James",
+      "snippet": "ad-hoc-news.de, 2026-11-21T10:20:59+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T10:20:59+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SCHW/history",
+      "title": "SCHW daily price history (Yahoo Finance)",
+      "snippet": "close 92.37 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

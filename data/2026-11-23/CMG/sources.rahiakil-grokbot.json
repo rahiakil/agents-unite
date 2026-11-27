@@ -1,0 +1,108 @@
+{
+  "ticker": "CMG",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVG9SaWRFUEQ0VTJXdUpPNkxYNHZWVTJsZVN4VUhEbjNZTnlkdW1TcmdMaWtjTkwxVENrQlRSVTY5aHNENmw2LWdLLXpzVmJXQ0o2Z3Q1LW1qZ295ZlMwZzN2U3NKNmlJaEstdms2bDZwQlJIb3ZhUDdrYWZNTlBTUW1hdmkxOHUyWDVpZ3hXRnJUZTFSX0dMTFVTVzlDUjB6dTVUSzNsZ1J2VUppNnBnRVJLSlA2WUhWZzA1WTltUmJIekxSWW13aVZuRGgwY2c?oc=5",
+      "title": "CAVA vs. Chipotle Mexican Grill: Comparing Revenue Trends Between Two Restaurant Giants",
+      "snippet": "The Motley Fool, 2026-11-22T03:39:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-22T03:39:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaVJyLTlhekRSUjc5MDBCUUQ5d2xJdjBYOGNMelBrTzhPaWphY0ZhaUVnelF6TW81cFdKWVkxaFpTU3VIUjMyVThaNkljSFgzYW0tLWdMTThiSVczU0dkQkI0Mi1XS0VxYUppZ1V0Yk42NGtmVHNZZ0UzVXd4SXpxNXFTYlp5YURlWlgzT2UwUGtNdS1Ta0hwUnRpNnZ5VG9ERV9IaGkycVo0WUVJa3I0X3VJQVpMNlZRak1oakNsWFBadE56SXp0QXFCTF9NNTYxTWQ2UkJmRTl3cnVt?oc=5",
+      "title": "Chipotle Mexican Grill, Inc. (CMG) - What Are Investment Firms Saying About This Stock?",
+      "snippet": "MarketBeat, 2026-11-21T07:45:36+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-21T07:45:36+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaU43aU9RTmRTYzVLLWlvTTFsbVhSdmM4V1NxYm14WG5oV1JTOWZhZmY3UnZ0ZVRMdmlCem85TVEzZVFMang1OUsta0ZUOG0zbGVEdG8xLVlKYTN3d1VaNENTZ19uYVgyV1lXdUVUMGZnazk0aFl3ZTg5aHBUTER5RFZLYmpJc3dHdGpOMXl5YmotZ2VKUmtXT1M4cEFSS3lvMnlQeWQ4cXNpeXl6ZnRUMjg1R2RWQXpVU3NzZEdnU1BVcjZrTWtuTWt6WHZMTDdUdjdJ?oc=5",
+      "title": "Chipotle Mexican Grill vs. e.l.f. Beauty: Which Consumer Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-21T07:27:19+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-21T07:27:19+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQWNWU3ZVYlc4M0lZeWRGd0xGdVpMR2xOY201cVp4aFpRZlhmVWJ6ZXpSZ0RSa2xwRXpVdDM4QWQ1YVNuQ20zQTJLNW9aa0JVRDJzTUcxd0hMLXdNQlBzazNCck1NNzZJdks5SFE1eVpPMndieG92d0k0UGQ2YnB3UUV6VFhwc3drQnhYTlpTc0JZdHhjYnhwZUJOdDNQMkpmZERpRlYyOW90M3phdnl0SXotazl5VTl2NlR2cE9EeE15TVJ6MFdMdWdTeEF3bC1pV3ptUHFFdTJnUXZLNG45WU41QnI?oc=5",
+      "title": "Chipotle Mexican Grill vs. Hershey: Which Consumer Stock Is a Better Buy for 2027? (Nov 21, 2026)",
+      "snippet": "www.sharewise.com, 2026-11-21T02:05:01+00:00",
+      "publisher": "www.sharewise.com",
+      "published": "2026-11-21T02:05:01+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaERNOTJSeFAzamRaRWFFQkRBODh6b3kzTFNTejExWWluUTFnVWVfQkVWekFDYU9RY1BHdGd3ZFdTNFhNM1RjMDhCTUlOVmpkQTBJLWVmSmF4ZUpvSmE2OC1DZ1V3UWRUMHoxLVNoYkhCYmhTeVgtMTdLUi0zamNFLW8tRHl5d2lWVkpvNzJ1YW9ycTYwcEhybkxGeVRMMUk?oc=5",
+      "title": "Chipotle Mexican Grill vs. Hershey: Which Consumer Stock Is a Better Buy for 2027?",
+      "snippet": "Yahoo Finance, 2026-11-21T02:05:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-21T02:05:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRHZucHZQVWZ3M0dZLUtqY1RxMk1XVVJaelhlYlBoRWVaWkpjTGRWRU0xaDF5Qk95V1Z4U1RfVUt5REtLenMwazFxbXlFbVFnM0xsYmxvaURtNEJHaHBoWWxfSXVKSEdzdjNFUS1hTTE1ODQtUUliZWxlTzVHY0hKR0lnZkxpa0FDN1ZBOExtZ1MwQQ?oc=5",
+      "title": "Chipotle Mexican Grill (NYSE:CMG) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-20T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 36.25 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

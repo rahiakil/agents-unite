@@ -1,0 +1,84 @@
+{
+  "ticker": "HAL",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Halliburton\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnNMZ1dFQUxsNS1pVXkxcUNxSS1kOFNZZENpckpZQ2ZUSFNFZnMyZnNrNlphSjB1VFVpM1J3WkhiclBhOTgxTG1lVmJQMUQ5VmZXdUpDVXdHQlNCU2JZSlJMY2hqZThmdnZiSkZhTkZhR21WcFIyaXQ0T2JERkNubGZtRnMwQnl6M3BlSjRyZDFxSHRUN2lDZndYTzM?oc=5",
+      "title": "Form 8K Halliburton For: 23 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-23T13:18:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-23T13:18:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHFnWk9kRlU1Z1pjR1FLWFZZaGVyNWJiRkZ6Z0lwVWZjVG94R01MdmhDTFRWdnZITzU5ZEhFQ2pWenc2aE5hMUtxbG15blZEeFlSalZfSnZoVlJaYUNEblBfcklSTXV3ai1PTlpPQTJHNkxNMkw3UHp3TzhhSktLSThieXUyb2ExS0dBZ1J0ZmZzcVJHakFUaDluSERtUWpIM19lSUVzeTkzenl5clh2Ym5SSkNucG9ZaFFvRDVUR1NlMnfSAcgBQVVfeXFMUGVoSnFsU1pGazQ0WmNMaG1KbGYwbDRxbzBWRnZLTWRJRWtUWEhyMk03d0NxeFphZWZKN2I4emFIZzNiQVlVQllIZnVCdnNfaE5KMWtWTTRqSWhjTkRsMnMwM3BoSmZScmJFQ0hKeTlMN2gxdDBKTk1QNTdjaTV6RlVLbDVQX0U3UWZiejlKYnlwVDBKM2RzRjYyUlpHV1J1Z3llOXBNOFM4VE5mR05zaDBsNnowaUl6Nm8xYllCNzdLaFFjZWtFZEo?oc=5",
+      "title": "Does Earnings Beat Change The Bull Case For Halliburton Stock (HAL)?",
+      "snippet": "Simply Wall St, 2026-11-21T02:10:58+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T02:10:58+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeUFtek84c09EemNlUks4X1k1X0ktd0k1aHNIelNEVEpRZDFqX0xFN1UwSHk2ZDg2S3N6djhoVDBSRmxkSUxZczJIVFFoRVNmbE9qLWljT0ppN3pSN0VnRkxuaWpqbHVIZEptZlBGSGJseUdsckpoOU04d3l4SEdwZFM5Ukp4SG5FY1Nsc3FqdUZQMHNOeWdSU3A5UkFYMU5mUUhzaFhoSnY2N1c0?oc=5",
+      "title": "Halliburton Co (HAL) Shares Fall 3.8% -- What GF Score of 81 Tel",
+      "snippet": "GuruFocus, 2026-11-21T01:26:04+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-21T01:26:04+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMXhwT0ttWWpCdmJGYVFFY0NGRWw4TV9BWUtKZGRaRnd4Z3kzWnRmeFcxdDdmekc3Um14cmV5eFNDOUZmbDJsVWl1ZWItWWJGbzRNemE0aklGc3dvRDZQOHFjOGk1Y2VSZlMyZVNhMWppWW16Y2dHUG1IZVpKX1FwRDVKNHBxRVE3TjJ3OU9SRzBDQ2VpLU9odlZYX3BZZ3hWbmJHSzVBWWVTci1ocHQzY1lYWGJCRHlzRVhmZTY3WXd4UDZrS055Q0pCOUpNZk1IUHR2d3lZTjAxSkgtZTlkX2hB?oc=5",
+      "title": "Halliburton Co. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-20T22:01:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-20T22:01:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAL/history",
+      "title": "HAL daily price history (Yahoo Finance)",
+      "snippet": "close 30.57 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

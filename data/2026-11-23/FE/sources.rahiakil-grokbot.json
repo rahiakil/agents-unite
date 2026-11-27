@@ -1,0 +1,81 @@
+{
+  "ticker": "FE",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"FirstEnergy\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQTNhZXQ0bzQ3dHNLMDVOM1p0ZzAtVUtEN2lGeHVpTEpYRllVLWNhZmNqNWNJME0xVmg0azlfRjZrWW9sOERrSnVBLVdXanNZWTVVSzVzY2d4OENXTUhQRXA1X0thVjhoa0E0VzVVdHNnckFPVnlsVVU4QkpsVE1fRUg0Zkk0OXNNdXFETndIRmhYUVRXVHRnSHlmTDlKdXRaTkV4TC12U0FsQTMyWkVydGQ5V1ZENXhjUEs2d0Y3c2RNUQ?oc=5",
+      "title": "FirstEnergy Corp. agreed to Spin-Off Hotel-Ownership & Development Business.",
+      "snippet": "www.marketscreener.com, 2026-11-22T23:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-22T23:00:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHhTR3pkVVh5MXNaM05hNms2RlZPMHVwaVNxRmVPalR4eWttR2Y4dDkyNWFLenVEc0MzREc4UkRvTURHWHNQaWk2SlIzR1JlVEhjZ1Bucl9pWlI3cDIwal9uTnQ2ekdSc1ZhSTBQRVNBQmprWUs0VkM4YXhkMng4ekNpNEZBSmtYYmF5dXlrX3ZVeEo2SGNEWHduWnhSek5TWWNlTTVGR0dNZ1NjdTdyZ05PQ1Z2WU5rdHJsNQ?oc=5",
+      "title": "Will FirstEnergy (NYSE:FE) Deliver Strong Utility Performance In Its Next Update?",
+      "snippet": "Kalkine Media, 2026-11-20T22:22:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T22:22:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkEzSV9KQzljczNteklwR2NWVzI5dTExaFg5TkticFgxamdhMXVLZ1RPOXhOa3ZrQ1ZWSmhBWnRzcHl4N0xTNzdISGJsZ0VHMlpvZ05LWW85UW1IZkRnbE81ZWZFRXN0Y3VocUV3OFRWY1BiWUhNTlhucnkwVWlfYkVpeGR0T3FfX1hVaUVIYWJJYk9fcVZUTGxITWx1SjBzSUxlSDFXLTF3T2lZQzFiR1pCR29DUE9VU2p6MTU1d1BwcVFDN2IzdTdmWjNlN09ITTM0UE5n?oc=5",
+      "title": "FirstEnergy Corp. Stock 12\u2011Month Price Target Raised to $51.42, Implies 9% Upside",
+      "snippet": "TradingView, 2026-11-20T22:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-20T22:20:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1031296/000103129626000148/fe-20261120.htm",
+      "title": "SEC 8-K filed 2026-11-20",
+      "snippet": "items 7.01,8.01,9.01",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FE/history",
+      "title": "FE daily price history (Yahoo Finance)",
+      "snippet": "close 47.54 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

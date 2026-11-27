@@ -1,0 +1,72 @@
+{
+  "ticker": "FDS",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"FactSet\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc21TSXlLWW8yN2NBLUJRQWV1T3U2c0RDNHhKY3duR1RnSDNoeDZRVmhuclgzTWxyOHlRb29kbDhLVzdPUERVMGphbzRqUnZ5Z2t0Rmh5ZDJ4V2JiV0VNN3VDaUFUYVhiZW9EdFFObGh0cmdHVXFKaTRHYk9BcnRiMldoeHYwcDhhekdSWVdUVmVmMUVLejZDekVSODZBWV9xcnFldHFQLW5UVEVCX2R0aHJEVHdTOEl2OGlTd0Ribw?oc=5",
+      "title": "FactSet Wins Top Honors from WatersTechnology Buy-Side and Sell-Side Technology Awards",
+      "snippet": "Quantisnow, 2026-11-23T18:00:45+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-23T18:00:45+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.896,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSkZSTTdSczhna2stb1U5cjctVmVCenJuNldZT1FZejAxR2dGd0YyOXNYcDl6c3UtOTJSWFZ6TmFna2w1c0lYSnRYUnZudGdZdWRKa0lRMDFRa2o4OThMbnVENEo0NVlvdlIxZDJaX0NSUERFZkRRSmR1YjJMY09tMWFaSnd6elBIYXdmMEdGZ0ZCaTNieE53UF9rYWRubmFPcHBySXpOUUVNUy1wOE9LWXhYczZDNlg1ZU9NWDFYV2sta1RlODhr?oc=5",
+      "title": "Nexo partners with FactSet to provide digital asset research to clients",
+      "snippet": "TradingView, 2026-11-23T15:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T15:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamNsRzI1Zzg0UXV4SWhNS0I3djFhXzdIRGRVb2p3dENNYnBuSkQ2TC1taTU2dnJ6dXBUUlpUUjVjMlpQNGhCeHAxc2g4N2o4aThYRThkODM2VFJfUFhyOGUxWm9jUU9NMWx3VzltcVBXZDE4TlQ4M25CLW1jeGNzSjBxa2hTWVgtMnBUa2tiamdZLVY2UGxBdzJNTlRlbkJveDFR?oc=5",
+      "title": "FactSet Schedules First Quarter 2027 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-23T12:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T12:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDS/history",
+      "title": "FDS daily price history (Yahoo Finance)",
+      "snippet": "close 312.49 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

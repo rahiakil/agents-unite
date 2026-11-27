@@ -1,0 +1,108 @@
+{
+  "ticker": "UNP",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Union Pacific\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 11,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTHdwVnZnZ3Nqc2lmM3FnYkFidDFtTTJkcjVFbG5OTXpVR1VlNGdPZ3FudkJOdU54c0IyaDNqb0VTSUVNcG9JUERsZWNiVEpHa0dxenAxbGJURkg2NjhGUWxMekxDN2oxNXktQ19zMXZlUExDdTFGZE1TUGJjTFZPLWFMc1o1bGxEQUFjak1JTXFyRy1FOUh4WFJTWXFXTlhSNnAwTHZNTWVxX0FtWVAzSF9KZlFkUQ?oc=5",
+      "title": "Union Pacific stock: Company backs full merger review",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:26:51+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:26:51+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlN2MmlZSlJyeXJ4OG5ZVFRHWkt3aVBySF92b3NWM2tEb2ZKWmk4UDZlQmtjQjdUbGRONkJMMU94WWw4RFhTMlJvbUhIcG9MNVgxUjB2RDZFYjBuYlZhSlRwRzFJY29hY3ZGUmdjVlA3SUUwOXNqXzBHYTh5aTZKYkhOQUpCRXdiTWNwa0Q4ZVhxZjBkakpuOHc1SFRKb0xfWllxMi0zbEhEVlVWOHdMbE8zSHdNSGRTY1QwYzRXQQ?oc=5",
+      "title": "Erste Group Bank Comments on Union Pacific FY2026 Earnings",
+      "snippet": "MarketBeat, 2026-11-23T06:29:02+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T06:29:02+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWkVzZ3BzRzl1UGtfckNXaTNBQ29tU0RFWFlKdGptVTVqZUR5Qld5ZUJ0WUQ5SDMxeTBFeXNyVjJaaUVMRW5xNnFrSUdiUDRFcEcxZnV1NkN6Si1meXVWbWFVandFbnJwa2dyTXFoQ3hCY3FSQmU0WjVzeW96OThrdlA1dlZ2NGRUOVNORnNCX051Q3J2RC1KaEJNSl9iSmhiSWtDYnlxQnBoSnYtQXFjTzRzRl96R0E4QWJSdmRyNkN1eDNYRU1NR0w4cThGMDdJ0gHWAUFVX3lxTE5EdEFteEZ6amgwRVFaaTlidy1NNmNpLXowUWlkYUd1c0Eyb19ueXZ2ZW13S2JuMkcxSmlpc2NqclB3WkN0NUFFWXVZUndBU01NUV9uQm93Z0NfZXV2a1ppNGZITkVVNTFMS1duSnJxYlY1T0JaV293RXVlVWE4OTF4ajZxWG1SS0c5LU84cmsyb3BNYkxzRmRyLXAxVXBsU0VWS3Q5RGM2MHJqZTZoRENPQndqWFFSSEJQOVhrQy1QS0gwR0xBQzloQ0dYTHlPWXJuTTE2c2c?oc=5",
+      "title": "Union Pacific (UNP) Faces $98.8 Million Arbitration Award Over Employee Rest Benefit",
+      "snippet": "Simply Wall St, 2026-11-23T00:22:18+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T00:22:18+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONDdUSVZudTgwSFVzVXVGQkhZT094V2MzQjkwa3lUWTNneWtJakVFTTZlYmJBY1k0S29XZ2UtZ0NHVC1XYXJmNHp5cGVqaHI0R0REOTRpT1ZkajI2TENQLUJKekUzWkhSVnFCNEhoVDRkS2Z6eURqUzQ5bWtpVmRaYUtDd3lmaGtaa3NQNXFiYmZRSTQ1bFdNTGZmcTZQWHBXNThkSnI2dGZvZ2lwal85TkJqLXNWMHBkdXlEUHdWdlN4Nnc?oc=5",
+      "title": "Union Pacific Has Raised Its Dividend for 20 Years. These 3 Railroads Offer Income",
+      "snippet": "24/7 Wall St., 2026-11-21T15:07:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-21T15:07:00+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUzFVNEF6dFBST3hHMTBmSFdSZmE3S2xRZzlmaXpESnJ1UURxbVdkaFBROUFUc1EtalM2RXNOM3hmSFF0NjN1WG9TdV84MVZaajh5MEtORzVJcXJMNFU1bXRxNEstZDYxZXd6SFMybnZhZmhVVkpqRnRJTzVCdW5UYmlzZTVWTHNBdms5ejVDN3pFU3B4M2FMZV9hclZVTllid3hGWS1Mcm9QV1NYZjFlQk00SC12M1J4YWtMaE5iUEJDTDFsd05VY2Y0WXpCNENxNEdxdFhWRzJnUjA?oc=5",
+      "title": "Union Pacific (NYSE:UNP) Stock Price Crosses Below Fifty Day Moving Average - Here's Why",
+      "snippet": "MarketBeat, 2026-11-21T10:57:26+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-21T10:57:26+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOTlvSG9SZlktVWVxSTVkZWRTWHBZTnF4WW05RDRsOHdfUGtIOXlST1RxMzFEVnQtNU44dXoyMnBKSmpTZ0NBMkRhcEYySXd6RVdjZF95dklGekZRZGRudTNmekNsTFByRE9aR20ydGZKT3pXVV9uMnZSY05DNzVBdlhGUnFIZ1dJTEpkUE42eUV0MVU3SF9Qc2t3MnlfVWwtaUZpaUtOS2J4cW1XdTJPMUJrNnppLUdOWFhiTzVlYUtVck1meXZnUHJlVQ?oc=5",
+      "title": "Union Pacific stock: Merger review advances as firms back STB process",
+      "snippet": "ad-hoc-news.de, 2026-11-21T10:32:13+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T10:32:13+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UNP/history",
+      "title": "UNP daily price history (Yahoo Finance)",
+      "snippet": "close 288.89 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "MRK",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Merck\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 14,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbHVEekFGWWF1WUF5ZnF3QmxKQy04YnJEd0JmY0lzdzkwbWI0dTFhX3B3YWdiWFVPMHA3MWRSUFpjRFpZd281bmVnaHBucjJlczE0Y2V2dWtkbk14dGxKcEVpWDBXeW1VTjlyZkg3TjNWd1VrQ2JsQ283MlI2QTRFbnhYRXFhUlpIbWw5WkRUTi1qUVBOdjdlLVNGMnMxSXUxNkpLR0htZnAwRUpJUTBMMXlPci1QaDQ?oc=5",
+      "title": "Merck & Co. stock: Erste Group raises FY2026 EPS forecast",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:45:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:45:53+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVmlNWjdpd1JxUm1LT1VPc3U5QlZReUFQWkhtZUxjMmR6THNDYk12YnB5blBCMUZqN0VLd0pXVTB2N1pGR1ZBSW1zMk53anR5UEticFppRDl6YmsybDJXZm03dzhUUHZjUURWNzZGOUJHb3hkYWhwZ3U5cEdyMWZSd0VHUl9nTWg5SVNhSThZWQ?oc=5",
+      "title": "Moderna and Merck\u2019s melanoma vaccine Phase 3 results not as strong as expected, analysts say",
+      "snippet": "Healthcare Brew, 2026-11-23T15:32:42+00:00",
+      "publisher": "Healthcare Brew",
+      "published": "2026-11-23T15:32:42+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTjZJdWVjOEgwYnlUZWpoZ1pnSzRXSm9FZ3VlTzh4elBWamdSdndoc3pWdWlIRE56SDFBcEs3cjVGRFRQRVd3bDNjMVlJeUlEYTRSZlIxb2ZDU25ud081Sy1tZ1NzNHZkZVlZTk90YTRBUzVMSTN4N2xKTFJ2SjRoV2Ryb2QxT3FONWJSZlcwUndfVGM?oc=5",
+      "title": "AbbVie vs. Merck: Which Pharma Stock Is the Better Investment Pick?",
+      "snippet": "Yahoo Finance, 2026-11-23T13:41:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T13:41:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUkpJQ1IyN1psQVRaTmxmUEVvdDkxWExZZnV6MzJRVG91c042MDNEZnlFYUNmWnBPa0l6UHE0cFVueGYzdDhuSG9qbXNfc3BOQ2NJb0xZcmdtSUhGQm80ZURVWG1NblVaU2xvTk8tNGVLR1dMS0pvbmtpVnY1bnNkemoycw?oc=5",
+      "title": "Merck (NYSE:MRK) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-22T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-22T08:00:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMmttUTdpTnJkZUpJT2FobldoZjhBOEVrcTJ3WlRnTFlRQjFyc1lkMWFwWmtEWHlxMUlzMGJJNXBTcDl5M2Nrc1d5bWgzT1I1U1hnTjVrNWZIdDluUVZZOG15MzN0eGVkNm8zUGZ0NTBiY3pJVWNkS1FxNVczSWUzWjB2aTJhVlp0RTVKWUFSV3JpS28xVVFGWjRiaGVtMmVLOGZRONIBqgFBVV95cUxOTW9fdWwteDBTVi1MR3ZWMHNISFRkSXlPT3JYQVk0OFpST1h5bnhGOEJ4MzNrZVI2blczdFY0NXRFNmFCVEs1X2JZQVF4bVFKdWd1Y09admxaVXlYaUlHU0lBeGtjNm5ScFZpbGdKbzB2MEczazh0MUVadm9FZFlpVHhYSGR2ejBPTW9iM0FlWVZDa1JaclJuTmZzVGUtajczUnh0UUZkOW94Zw?oc=5",
+      "title": "The Bet Merck Holders Made",
+      "snippet": "Simply Wall St, 2026-11-21T20:07:48+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T20:07:48+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPejEyTzNfaFRIcEQ2aHFQTXhaQU5ZaTBsRUczZE1yXzRvV1hSWHNxT3d4djI3ZWY2WWotLXRHYUtRRC1MblBLNDFoSDduamtpeFJuNUJlVXczM1lYajJSRVJTSUZFVmZUX1ZZempQeUNMeVlWR0tlbFBYSGhNWlNKYnZTYlFYbmtzTHVOR202UVRUNUxrQWVwYW5QRDJEUzV1bGxjUDkyeExhQQ?oc=5",
+      "title": "British American Tobacco vs. Merck: Which Dividend Stock Pays You More in 10 Years?",
+      "snippet": "TIKR.com, 2026-11-21T18:19:58+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-21T18:19:58+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2lwQUhNOVlCTVpyZ0g0YW1aY21fTW0wd1hTSnA3Sk85Uk9iT0xmdEF6dUF5amF6TURzZGJwdGFtMlc2TnFoRGxzaTdxUGRlcFJqdC1MLXNoa0hTOTZocHp6aWJyVTdNTGVqLXR1Q3hJNFlmb1RzM29vSlhlTDdjMXZRQUs5Wm41c3RoeHFENTBWY21OSWVVWWRnRWtIaEl2aHBEdi1SQTVUUWJHc0VqUVJGdUtxcF9OXzZKRGVR?oc=5",
+      "title": "Merck Sinks 9.5% in a Week as It Scraps a Blood Cancer Drug and Healthcare Sells Off. Time to Buy?",
+      "snippet": "TIKR.com, 2026-11-21T10:54:03+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-21T10:54:03+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.813,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVmw5TE9FZXRaakk4TTdMQ3E4TTh6Ml8wMkxwRTI0d0o5ZEdSQnlseGRoTmFTeHZYckFTRG9rdTc3VFVGc2Y2ekt4UnBuaGYzeGF3SV9DTm1JbWxjOHpHSVZVN3NHOTZ5RlhIZC0ydTA5ZDN4YTJrVkNlQUxzSk5DRHBGS2Y5Vm4wMUs4Q0lVSmtpdw?oc=5",
+      "title": "Merck KGaA (XTRA:MRK) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-20T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRK/history",
+      "title": "MRK daily price history (Yahoo Finance)",
+      "snippet": "close 135.47 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

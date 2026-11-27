@@ -1,0 +1,108 @@
+{
+  "ticker": "AFL",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Aflac\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 10,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlBxX2dobGpVV3FWbGU5Nk9pemxUUzN0bDBJM1ZJcUVFcXdCcHFaQ1lIdlM0el9JUjlqeGxzc0F5TzB3Y2VuaGd1S2xobzg1OUFlcTlTSlUwSkpKU25tQV9BQjl2eHlXU2QydlBwNEd3aTEyamZfaW9CVEUxYWwxaDRaZm5FTm81TFcyOGhoN1J5UlVMOGp2R05idUNiU05kUmw4TG1HZzF4Y3dNWTdHeUNXaDF5Y2M?oc=5",
+      "title": "Aflac stock: Morgan Stanley raises price target to $136",
+      "snippet": "ad-hoc-news.de, 2026-11-23T14:52:01+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T14:52:01+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNE5RWEd2TUhMTW0wVU5fSVlSanNLRjI1RVdCNS1XNWtKVVRvMF9McWI2NnZvSHUyLUVDSjJTb1NCQmVpVXpOU2pSMDNDc3pSc3lKaWlGZXFpZkFhT1NZVUJHTW5UUFNMZ1hKTkkxb0p1MnExOWp4aHpPZkdJd0VzaDFkM1NQT3VWNHdrWXJRcmg0NEYybFNXM3h4ek90WEl4LVNma1QtQkp3dHNnX2txTnpOV2FkTFdoTFN4Wk9DYmdqOE4yQ2xwNUVR?oc=5",
+      "title": "Japan Post Holdings director sells $1.94M of Aflac (NASDAQ:AFL) shares",
+      "snippet": "Investing.com, 2026-11-23T13:54:07+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-23T13:54:07+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcE9UZHIxcHFCdjdpc3NDSnpDUHlzMXJmaENzZmk5aWpaSnpTa2dsVDR3M0RjY0Z3X1p5dGNOMUVRYkxDOUJEd2dFd3AxbFpLVTJyRk5yanVicHdoMnFNVlgxelZiZDJwVlFrR0lreWZZQ0NaOVgwR292dml0dlZXYVo4Ym8zeHoyNHFYUFItTjJ2OGE3ZnZDTkpqS29NeW1MU0NaTllMZmlmWUd1T0diVENJaDZvcDhUYlFPTg?oc=5",
+      "title": "Aflac (NYSE:AFL) Stock Price Target Raised at Morgan Stanley",
+      "snippet": "MarketBeat, 2026-11-23T13:13:21+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T13:13:21+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nTUlDRDJKNHA5NEZLR2tZQy1EMFZ4RW9wb1hqbXVVTmRKcXdoUDU4ZjlKTkphZGx2eEFVeGRQOGV5Y0I3dGJGd1Bmc0NlcWx4UUFMandoNlBKalFUdDdmMENBNmtWRGJQakZuZVF3?oc=5",
+      "title": "AFLAC Incorporated: 12-Monats-Kursziel auf $120,6 angehoben, Abw\u00e4rtspotenzial von 3%",
+      "snippet": "TradingView, 2026-11-23T10:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T10:20:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMk9xeE90djJBRDdlWVRva2tHVnlwamE0TUZjdWt0N2ZtVjdONEpWVXFoa3U4Tnp2TF90MnBZTW1reV9OVzVSZ2YxTmlKUEM3YnBRUmhVVFFvelRySEtpX0ZHc1ZhcjhVZUg1WEFlc21RUU50aXhVVV9RQUNpMFBaN2t0WkVmWHF1dEVETkNETnVHR3F1b0JNTlN4V3pZRnhBRFFaREpHaGJnbDdZMi0zb2RGQXVhel9NOFFJNERFTjRBbnR6cFlMSHdWT0J2VnJmWkNFWnA2QlZEa3M?oc=5",
+      "title": "AFLAC Incorporated Stock 12\u2011Month Price Target Raised to $120.6, Implies 3% Downside",
+      "snippet": "TradingView, 2026-11-23T10:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T10:20:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdjl2bEhwRHZuVy1TWHZqSi1nZUdhdlVzZERwaHB2TE1uUEFvYzB5MGdzVlhXdnlJRlpWRXVIRFZhMjRINFc1TFpZa1hzeDJRdEo4RHR0VTUwLWRsNW1kcVJxT25SSkNjb2s1UnhBbWpVano0V1Iza3RLU2tmNDFLN2prNzFFVXQ0T0s3VVZUT3lhbGVRdlBwTmYzeDd3bGRNVWNqVkV4WGE0MWxlZGZFYk5ZY0xtM1NrNjZnbzZoaExKTG1yYjgwaWxiZXVPZw?oc=5",
+      "title": "MetLife, Prudential and Aflac Raised Their Dividends. These 3 Insurers Offer Growing Income",
+      "snippet": "24/7 Wall St., 2026-11-22T19:07:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-22T19:07:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AFL/history",
+      "title": "AFL daily price history (Yahoo Finance)",
+      "snippet": "close 125.0 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

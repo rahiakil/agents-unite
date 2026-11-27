@@ -1,0 +1,132 @@
+{
+  "ticker": "ISRG",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Intuitive Surgical\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1I1aXplSjBIb2FQcGpmMExNR1dfMGh0VEkwME1VYmJLX1dlbmEtaC1XUXFnei1EdTI0aXRsSERtaG9PcHRIaFY5LWdsRUlXemlyVndNbUZKbl90UzgtUzRZZ2NYSk1kQlBpa2c1M1NyVDlhd0ZSckg5eVRHSmEzOG5FVHlERW1lUDBqb3hHc082SEFtRE53WkZHNEVBeXprMUE?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Intuitive Surgical, STERIS and Pulse Biosciences",
+      "snippet": "Yahoo Finance, 2026-11-23T11:47:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T11:47:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc3poQk5qWVB0N3lrQjZ4OVdwQWNiRzRYNjNQbzhVN0RyOVI5eXZsaDNyVGxfTGhoQkpYRG9iX2ZTWmlUcEgtcWZQMVhUYXdNNFcxUHVQUzJWV1hqdkthbm1WY09Ec1ZCakQya213bzZBcVdYWEhjSV9oWHF2bXFIcDBPQWU3UHE2NnBmNzNQRURnYWJEWVNFTHVaQ0ZnRUdPOXQ4V1FSWHRkSmgzTlJmaWt3d3VZOXI4bVU5SFBvVm8?oc=5",
+      "title": "Are Wall Street Analysts Predicting Intuitive Surgical Stock Will Climb or Sink?",
+      "snippet": "Barchart.com, 2026-11-23T10:04:58+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-23T10:04:58+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHozYThONUhXckpWUjgxUFdwVWM5Z1Axb1VLanptWlMzN2l2UFJscGlhcktFeHFrbGxjOHRCbkZNLWFDbThTclkxX083TmhEQXRfZmJFMlBFMHhwQ205RlFMVzlqQ25xc18yODk0ZWZwSUJzX2FWbTlPd2d2LU5qTDRJVUlJcUZlRVFXeVdUdG1tWUVDYjBIVmxabWJ1RDdaN1YwdHJrSDhLUGZYSUw1V3Zmd0k1M1pVLTV0THFYazBOdw?oc=5",
+      "title": "Intuitive Surgical stock: BTIG raises target to 513 US dollars",
+      "snippet": "ad-hoc-news.de, 2026-11-21T10:25:23+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T10:25:23+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPU0N2enJ1c3lrbHh0WnJzMU9hejgzanRxM01OcnI2OV9FcV9Nc3B0a29aMnAxWjd2VklnMFBvNkd1YkFvMVlpQmtHUjNXUDh2Qnp4RXphTXRjN0IyaWVPYUVvbG9WUVFaYTlIdFBNWkpmYVFhZG5JQ25HN3NVTXNMS2NLU2wxVHk0YXpQRWxRVWhyR0kzeThJSEZCNzY1Sl9qRnBLTVQyblYxRmJzWHp5U3B6SUxnVW9tWWRPYVRucTFCYndiWHRBUEVvbWdxREsxUC1jcExB0gHbAUFVX3lxTE5OWk1maUMxUnhsMkVkRWtfc0VfN09rNDNlRHFiUlZ2R0g1czNfeTZMRlZKNk5YMEhmWm5RYWxwamRqRU5fTm1ndW5LSnBsSldwMC1vRlFiYWZLLXp6NjNjcEw2OXNvNkIyTllPeEpfblRJd3pXeWxqQ3VSYktuSU92WFQ5MDRpM3pFck9mMTVqcnd4WXdxWU1qdXkxRTZ1NnNQeklCYXZGaGFhV0pJOWo3TEJTR0hYOGVDRHNBcDBvLVNEczREZm1aWFlYSl9PSVk2Wkp0eHpDOWh1MA?oc=5",
+      "title": "Intuitive Surgical (ISRG) Beats In Q3 As Investors Weigh Whether The Story Still Looks Cheap",
+      "snippet": "Simply Wall St, 2026-11-21T10:09:09+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T10:09:09+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEFWNEFISkVrSGwtTXZyOGxmUm5YcExsX1NtUld5LUl2aVlnRlZxWU9QTDVjeUpoNFZNcVFBbUs2R3Rfb0hOY09mZS1MYzVodmxoMTZTRUM3aUh5b1hqMGRGb0xUNTJzU1QtWDFFcnppNU9KMFdmdXJkWHNUZEF6VV80bVlXNm85R1RXaFZB?oc=5",
+      "title": "Intuitive Surgical, Inc. (ISRG) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-21T00:40:45+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-21T00:40:45+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNlBCTlQxN3YzRTJqRk1yNFZZdnI3SEtMR3hGazhxa19oWUFkMUhVMDFDZDMwUVVKbzRQdWZDWWV3dGcwS1Y4c3RmdEltTFc5ZWN6alhVcUMzeEFBby12SzRVMm5mampUNTMxMmgzNnlKOGlaeU9kSERlM1Z5VVZ6ZzhNcXoydmJnWld6dkNJWHVPNFJBMU5wVG1qczVLOUc4UHRmdFpPckZFS3lacmc?oc=5",
+      "title": "Intuitive Surgical EVP sells $38,096 in shares",
+      "snippet": "Investing.com, 2026-11-20T23:57:09+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-20T23:57:09+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWc0bnRUWE9PcFc2NGF4QXV1eGMwN29sc3FUZzFsbmNNbFk1QV9wdnhHalU0eDJaTUg3QTgydERBTl9ZTHRtQ1lnLXlYWnlxdlgzbE5zbXhEdmxBc3ZkVkNJbXFPWWJwZG5qR0MyaEl3dmlTdk5Jbkt1Y29HbUdZYTN3cmVOQjd0QnYzakw5cTRxNDZ0QmQwWEtaOWpaUWRMSF9nWDFkSVhCU0pRNjlNbVd2T0lmRXc?oc=5",
+      "title": "Under a trading plan, Mark Brosius sold 46 shares of Intuitive Surgical (ISRG) on each of two days.",
+      "snippet": "Stock Titan, 2026-11-20T23:25:09+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-20T23:25:09+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd3k5emJUeGwxTDJOcHA2cWdwU1l5TnlLS2tXYTl1ZkR6U1RMY0VQSE5US0pPMFJ3SEtiMFo2NjhWSnF6ZkVMbDdqc2dHOWE5UDNOTWZGOXZBcnBYaEpMZjNFaThxaDlNRWx5cWhBUGkyNC15b1pnN2xhY0xWcVkxQy1hd1UxeTMyMWFYOHJ1N3J2RThxckUwWFIzRzZoaTRjM242YnFtaDJhWG9BcEF3OFNGRENIajQtUXAyV28yT0w2RFg3cW5XMlZjVXpkbkExYTNjUQ?oc=5",
+      "title": "Intuitive Surgical Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-20T21:36:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-20T21:36:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ISRG/history",
+      "title": "ISRG daily price history (Yahoo Finance)",
+      "snippet": "close 416.23 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

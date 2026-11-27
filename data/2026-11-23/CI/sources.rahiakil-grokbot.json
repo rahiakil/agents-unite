@@ -1,0 +1,108 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Cigna\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 16,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjh5NjR4eGtTYlZKOUdGa09MdzFGWjBYRklkMkJhVXROd1RWWXJqeE5STGhVUEcxVXo2UWpfQ0hnQkMxUEZDclJVTjRUYkp4b3ZsMEtDaGVHcEgxdWVYWGZaMzhoLURLcU9GV0lJM0VxVzhkOGZZYk44NHZSNzBqUUd3aVJTUVNCU0lBYkZPVmduWVFJYzhLZHA5dlI5VUdXd3UyQlFsamR5LU90bTd4Q25DRlpmNV9u?oc=5",
+      "title": "The Cigna Group stock: RBC raises target to 346 dollars",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:27:24+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:27:24+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTlRhajhPY1NpQjZ6alpGMUI1cTI3SWhQdjVCWXRiVTdWWWtnZDR3R3V5dUtHZ1RrTHdYeHdIZ2VEY2tHRXAzMDF1WkJjNnB1am5iY29VT20yYWZCZGs0emhfOHNYRklodkJYOEpuS3NYSF9zRXp4NTNNcXl0VXZtMHVFYnZmWmgzUHRJaG5VcVlUMnYwcjQzSjhvUXhxMHhlQzQ1TU5KM3J3OEVpUG00dEdCQ3paREtOWmtoRjRybmJUcG9Bc0M40gHMAUFVX3lxTFBMdGNqdEowQVY2MzVHRDByRFpZb3Y0cHI1bWdIOVBYWWg3OW5VVHJGT1lIcXF5anRYTEt3ZThPT0k5c1Vsd1AwMklRcWNqN3JnMVNLRFV1d3JuRXVvN0tQR3RHb0t3N2tQZFNIczM4V1A4R1pEMEVVaFdXdDJnY3BwMEZTQXNuT19rZHYybnk2TWh3aW9TU0lIVWwzWlBKYzlmbGkzT2lUMXItTlBUZmEyQzQ1bG5lcFBYV2VtWmFJVW1oS2hvOUVFekdFMg?oc=5",
+      "title": "Cigna Group (CI) Conference Update Keeps Undervaluation Narrative In Focus",
+      "snippet": "Simply Wall St, 2026-11-23T02:08:46+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T02:08:46+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQWRrWjZodWJGeDFWdTdFeXJXUHEzaUg1UmlDbmlpTWY1T2N1dlR1YnVYS05OdzFST0wtZl8wTDlBTHEtMWllQ3BIMS1kR2lCRjlaanJ6T2pmS1pPTVc0YkFfdU9TZkM1Z19GZTZoWE56XzVBRXRVajkxZWc2cUg2aUc1THVaeVctWVljdjdFQ1hlT3BKVktZTEh3cw?oc=5",
+      "title": "Is Cigna (NYSE:CI) Ready For A More Selective Market?",
+      "snippet": "Kalkine Media, 2026-11-22T11:01:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-22T11:01:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakM5RlRCeVcyNzhONG04ZjU5SHVWQnhvRzQ3RjJNSDFWZEpJVWwxVGRQRnBHVGJ5aGpMRTFvZk5zWUhRLWx3ZUlfVmk3ZHUtTVIyX1hrYV9ORVVYRzlLU0R3bkxyN3VZVldsTFJiYkwtMF94cGFhdUw3RkZmN2wtOHY4R05VRDRnOVJobDRYaWd1NlBISWFFZEJYci1QTE5uRnhvWDZOT1ZXUzdELXFFeVVvRkrSAboBQVVfeXFMTkR6SU03cm9pQlJnYktPZFJtOW1ncXIzMXFDS0RzU3o1T3hsamU4a054M3dJYU44RzVyblhDNGlRelhJaXYtNlhCTzFjRE5Ob20tZW00X2lzYy1MM3BIUkNSaC1xdmwtenl6V3lKRF84T1BTUXFKOFZTSXkxeTVyRUJIQVVKS21uQkF0T3V3WWh4aGswUzd5enJiZ0lxaXJEYnR2MlgtUFVDYnRja3Y4SVhuNzNqZ0VrSmhR?oc=5",
+      "title": "Cigna (CI) Stock Could Be Cheap As Shares Drop 4%",
+      "snippet": "Simply Wall St, 2026-11-21T15:13:34+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T15:13:34+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVExHVmVwM1p2bk5BN2VwR0llNDduQXNWMzROVWtUSjB0YW5mb2MtOW1VVlFkQWJrM2ZESFdVc2FmMGhycUJqVlFWd3hpR2VGcWRNNDZJWDZRaU96MjhTRmdCaHV4VDFTa1FLczdVZjhELXZpV3NCSll4WldBM3Azd01qWnloa2VoRUNTcTJpeHI2UDZDWWRqRDYxT3FfU2VRdVQ3cmlIWHA0ZUkx?oc=5",
+      "title": "The Cigna Group stock: RBC lifts target to $346",
+      "snippet": "ad-hoc-news.de, 2026-11-21T09:57:26+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T09:57:26+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZX05RZkJvMEJFZXRuMmFra0ZaUlIwaUtITk1vUmMyTzVfeHFUSlkyTXFpcE5uYkg0R3ZtTWxUaVpOeG5VZnEyWFhpT0hGRExOaENQNUtwdDZCTlBWRG55a0FMaHZMcUNq?oc=5",
+      "title": "Cigna Group (CI) Short Interest & Short Float | Updated Nov 2026 $CI",
+      "snippet": "MarketBeat, 2026-11-20T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 270.46 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

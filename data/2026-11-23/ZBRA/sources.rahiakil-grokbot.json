@@ -1,0 +1,60 @@
+{
+  "ticker": "ZBRA",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Zebra Technologies\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPemxIVlg3bl9Dd3kyT2dWSjFlQ3hqb1pzY1lyeXdXaXdPTjVmQ3ZwYjM4N1NpejRhd004dU5vTGVQOTdYR04zcjJMWmxLc0IyOUZEMEVMcXo1NTd1RWJkTVZxTXI5cnNtbDI0ZGJIWWtYS2FkN0Jkb2RvaHN2ZTJmdHdiREY2TGNXSnliQTlXOS1oTW43MEstM3R3?oc=5",
+      "title": "Can Zebra (NYSE:ZBRA) Stand Out In A Tougher Market?",
+      "snippet": "Kalkine Media, 2026-11-23T19:16:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T19:16:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZi1FWTRXUllRZXVGMVRFTHpPWWhmTFBkN0FGQkhCNExMd3F6ZnY4ZVpwRG1sR3BvWnNSVmFnWlZyNDVjSlluaXhMVmJteWRYMFFtUUk1VlNYbVhvaEpNeWNNRmFfQnN4ckdySGdhY0NXTngwdGd5alBFcU9RVWthZ1BhdXFqT0hGSjNHcFBZeks1eVdWc3ZEYVFDX0lJZm10emhXSGVfQVdYeGZCSFpvcnpEcHFYeTFJU2JucVBuVWtlVFdvV181YjctQzNiUQ?oc=5",
+      "title": "Zebra Technologies stock: USD 100 million AI productivity lifts outlook",
+      "snippet": "ad-hoc-news.de, 2026-11-22T12:44:20+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-22T12:44:20+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBRA/history",
+      "title": "ZBRA daily price history (Yahoo Finance)",
+      "snippet": "close 320.22 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

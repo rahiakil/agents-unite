@@ -1,0 +1,72 @@
+{
+  "ticker": "FAST",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Fastenal\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNc0NkYjI5RHFkREJxOTI4bUI3VW9HU2lGSjZUNWxySkNUSi1odTNWUERIOEFjVGtKbENyM0p2WVBQRXA4RGY4eEFUZ2drYk1SUnFKOEhScWtpb0pfNWVBWHpaNEkxTWdBUEFjU2J0V1pMVzdwQ1VsSGxtNDJRWUcyMjRSeUFoOU5HSW5RTG1WSGZORTBVLWFwQ2tVbVBybG4yUVVSaU5UNVoxWXdkTUlqckRUcEMyQ2hmMDBhN3d6bw?oc=5",
+      "title": "Fastenal stock: Baird cuts rating from Outperform to Neutral",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:23:06+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:23:06+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdlE3ZU5KSVlWSHdNdzJaSFBVZGxsZVZGeDJfeGtMOFZsaUhnN0dWd2wycTZ6dEhCQS16U0xrcFk0SEJBUkNEc2ROVjVkaXRLMmQxQU9uY2NUZ2Z2emZuVmNBTFctbUhXRFVIY0JVTDhzNEpDUll6V2xOdDVRZDZxenV3TndIVTJ4QTZ0Mw?oc=5",
+      "title": "Fastenal Company (FAST) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-21T05:00:37+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-21T05:00:37+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tX0VCcjgtOGNxMk9maUxKSVJYZS1fY0RJQk03b3gzRElTZnI2RzRpdENFSTNTOVpiVkxHUUlwRWdhWm5PVXM2WlFFVQ?oc=5",
+      "title": "Fastenal Co (FAST) Stock Price, Quote, News & History",
+      "snippet": "Benzinga, 2026-11-21T00:36:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-21T00:36:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FAST/history",
+      "title": "FAST daily price history (Yahoo Finance)",
+      "snippet": "close 52.06 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

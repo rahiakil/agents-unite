@@ -1,0 +1,60 @@
+{
+  "ticker": "NTAP",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"NetApp\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 9,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQY1psd2F5emJUSm1VVHZLSzB1aGI0aUJBaDk2VVV0VWxKRFdvaWktMDJyR1VjRG9BbGJKN2dYNGVtWElhQzVqSUlISEZqMDduSFo0ZkQyTWdlNTRlVE02STR4VldpZnNLOV9PS0VmOU4xcDV4UTZaQ3lZN29qSjlheFdLWUV2UDdBRDcxQTZ5d2FRd2FlMTVnRExrQzFvc3NNeHFsNWhXSWxubWk3ZWM0Vmc2YzZJX0xoeWE5a0poV2l4czdWOGtzUnY1ZnF5dW1ULURPbmw1aFlzbXEzempwdWdWYmZBVHNiMjJVNGNLMUQ?oc=5",
+      "title": "Cognex, NetApp, Zebra, Kingsoft Cloud Holdings, and Hesai Group shares skyrocket, what you need to know",
+      "snippet": "TradingView, 2026-11-23T16:21:07+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T16:21:07+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY0xjNEd4ZmpqSWZiNFg3YjdzVVhieU9vZzNrbFFYZEUxLVN3Mi1DZFg0SjR1X181NGttRGtrZUdzaXBQRDJlS2poVzBPeEtEM0lZdTBXM2xpQUdGa2RnMF9LZnVMSHJ6aFd0a01zVTBvTk8yMF83YXV5dkJhOU1lN2c3NjYyeV9aT1lKanZ6VE42Wmw2aG1haDlmZzNUS21kRDcyUUEzeFd3TzVfenBDRUZmVGktTGZEcUYw0gHAAUFVX3lxTFBGTzNocEJJZ3RzckEtSlllY09IenVhbjlMNnRVSEJSVUZsN0tXU1FfRXlEcS1wRWtJLVBvVTV4LWc5MWp6U014M0ExN2oyV1NES1FTd0ZpN2hVSXdkV2syZmhpc3BpWDNEZUtkX2FvWEtvTXRhQUdvdlJjN2xLd1N4WVNtMHcwbmwtVXZyb1l2MDNzRGM1U0M3ZGFfbmY4WUd3bjRvVGxTa2NmbzJEaktaa29VbmdZRUo1N2hJOThTZg?oc=5",
+      "title": "NetApp (NTAP) Dropped, So What Is Behind The Latest Attention?",
+      "snippet": "Simply Wall St, 2026-11-21T07:10:41+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T07:10:41+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTAP/history",
+      "title": "NTAP daily price history (Yahoo Finance)",
+      "snippet": "close 171.64 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

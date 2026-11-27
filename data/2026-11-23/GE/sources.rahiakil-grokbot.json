@@ -1,0 +1,120 @@
+{
+  "ticker": "GE",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"GE Aerospace\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 14,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56QmJfOGh2SXF6TTYzS2d1TVBaaWFfaXJGMjB4OV9MOGV0NjRLZ3ZHcFlkYndjNHNtd1NkaXlDUi1ZaDRFQ3lNVUxoNDl5V184X1pmckZ3YV8tTlZ2U2RNeEJR?oc=5",
+      "title": "ETFs Investing in GE Aerospace Stocks",
+      "snippet": "TradingView, 2026-11-23T20:22:26+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T20:22:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSHd2UU14amI1Q29fUkpPdTdBdEhWNzBrR0F0bFVEQjR2dktuQTVsRWphamo3bFFnRktONTluOHVFR29IbG51cjNRWGFubzhsNzRHY21fMHk1NkdraG41MWVacDJtSkRyRURubEtoSlptVzZUM0NTdGNxazY0b29GM1ZyNTg2U1R6?oc=5",
+      "title": "General Electric Co Stock (GE) Moved Up by 3.93% on Nov 23: What Signal Does It Send?",
+      "snippet": "TradingKey, 2026-11-23T17:16:14+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-23T17:16:14+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVElrQjJwQ1UxcFFzTmMyazZhakpDRUxsQmZDUDZnY2FwZjFiN3FuMlFYME9hZXJiWDlYT184bGh0OGxQVWtGOEZfLU12d1NKT2szZjQzWDRwdG5tYlRtRmRrYXByM3d4dm00OU42Nkt0emRyT2VxX1c5VHNnWXNlYmlMbWxMcHh1akY4Qg?oc=5",
+      "title": "GE Aerospace shares technical analysis: Approaching $324.24 resistance with weak momentum persisting",
+      "snippet": "Traders Union, 2026-11-23T16:07:37+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-23T16:07:37+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeENpVnJKTy1tWTZPSEVZX1plLWZkQUZra3BPMlBXOGJfeDc4ZnJ6V3FFNUJkOFg0S1FJR0ItdGdza1lBTHNmT1F1dktIbW8wR0tQeUNmUXB2VWdrZEsxWW9SaVYydkZ4NGJVSWlLcEdQMWphMGJzazdGbGxPUUtDMTJkUmJDUEtOcjJIb0JCX3pKQlpiU1hNcjFycWNtRGM2NnFXQWUxZXNxTURLOW5fbnpUS2hBVk5UMElsOFhqbDY2T0ROVDdRWA?oc=5",
+      "title": "GE (NYSE:GE) Surging Engine Orders and Fourth Guidance Raise Show Aftermarket Strength",
+      "snippet": "Kalkine Media, 2026-11-23T07:56:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T07:56:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkxHUjFDa2RZMjlaTGRSdWJfUU5QWDVmODM5QTc2ZWg5UGtCNGZHZG9DbmJ0b2stQlZEQ1JDYjJZczJDTlZzTFdfWGxQWUctdUZYdXEyaGhYc1FselNOUWdHZF9pX1pLemxmcDZQV3RVenhPd3JHckxQYzA5OFM1RTZLNGhKZVQ4by1Gd2M4WnRra0xZc2laQThaVEJQdGJwblFkOGhKYW9aNzFYNFJ0b3dn?oc=5",
+      "title": "GE Aerospace (NYSE:GE) Stock Price Down 3% - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-20T22:46:16+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T22:46:16+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOUtoOXl4bmxoMUxSY3Q1TWgwRXFRcGYzYnUzY3lqU3RnUjljYUdFWmliaTJ6Y0JFeUR5Y25vUEg4WW5aNVY5ZHQ3Y1dONTB2R0g4RGhDMUpqWURmNVFNczYwSDUyTlpxdXA4Zk5uQl80WW12MnZsVzV0SDc4R3Vac0VyVHBjUzZYM0l2UlZHSElWOXRhaXdnRFI5aUtIdjFrdHJGZEgwaF95bDBXSk9CT0NhQTI2T0VkVVlZSG55RlZMX2J6cnFB?oc=5",
+      "title": "GE Aerospace stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-20T21:32:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-20T21:32:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZGpFSERpWktKSXBNSHJIWEVteWN0Vk5tajZKTF96LVlrbVpLQU1IbEp0czdRaVcwa1dMeE55MjZUclNVYmxSRGd5RmVIXzJqWFdqU1BIRHZHWHI0dGVHM1NTRWVTbW1TVE5hQXpNcHgwTkJBVHdpcVd2X1BxUktocnBiWQ?oc=5",
+      "title": "General Electric (NYSE:GE) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-20T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GE/history",
+      "title": "GE daily price history (Yahoo Finance)",
+      "snippet": "close 321.26 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

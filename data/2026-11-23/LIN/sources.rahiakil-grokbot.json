@@ -1,0 +1,96 @@
+{
+  "ticker": "LIN",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Linde\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 7,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUXZ0M2hxMFYzUklvbG96QktxR2dpcVh3MVIyUkp4TURvOWlFSUJPM2VwckFDR1V3SldSbGQ2UUdOYlBqZkJkMFVQNTY3bXg4TEFxcmkxeG40MXFwb2NUODRIOEpZb0ZQWGFUMGt6dGtya2ZDeUdzdWVSSXJhV1BGd1pJUl8taC15bS1OTHRZN3AtUGIydUdmdWVaQjJQX2lkRUFiQlVtOA?oc=5",
+      "title": "Linde stock: Erste trims 2027 EPS forecast",
+      "snippet": "ad-hoc-news.de, 2026-11-23T16:38:11+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T16:38:11+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQN3A5Mk1HNTRpd3FQQjl3VWlHbnNRaEVqbkNlUjRfZXkxRm93OGRJRERucVVwa1ZBZlZ0V0FGdkYyRGxSSGs4YVBzSzZKX3ZQZUNTdGpCSzNnTkFtejhJTXF4NHVnbjU5Y0pjckNJcndhcXFJSTBGVmxWUmZwYlZCbFIwSC1PTzBodUNJdk04TW1HUUJka1laa1pCMDZ4VDB2eGZQOE5Ca2ZDTjBFXzBjYmZWWjhwV3h1RGM4LUhLbw?oc=5",
+      "title": "First Trust Advisors LP Makes New Investment in Linde PLC $LIN",
+      "snippet": "MarketBeat, 2026-11-23T09:07:28+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T09:07:28+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUZZMW44M2g1bU5PSzVFRmpSU3JOSGtaV2RfTEs4VDRFRjVnZjhXMGJRbFNnTTh3ZFhyYThGamNNRmJ2d3RFZ3RSSkx2Umg4WXRWV1h6RWNtUFBLSmEwVHhqWXJfT04tU1NNdUFqWWRuanhNcUs5eGp4WXRYWHliaThqdnJpMHdDR3ZpODhQU2ctbU5KOWx4a0kwVWxyWm9LSVU3TGN2LVJxQmFUbndPSzd5OS1uNHQwLTBfQ1pmbEs?oc=5",
+      "title": "Erste Group Bank Issues Negative Outlook for Linde Earnings",
+      "snippet": "MarketBeat, 2026-11-23T06:45:09+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T06:45:09+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ydkYwLU55bGVERlJzbGptRmQzTTdkNlpXd19Wd1NvRld3aktVbERxWTdkcE1FSWRrdjdwXzBqMTFDQ2wxT2Q0eGdjeHpKQU1ReWtzZENXQWNyWDZoQ1hGVVJTQlc0aHlBMFRPUg?oc=5",
+      "title": "Linde India Share Price Target 2026",
+      "snippet": "Univest, 2026-11-22T08:00:00+00:00",
+      "publisher": "Univest",
+      "published": "2026-11-22T08:00:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JajhvdXhpTmJoN2tieG1zM21ib2ZHMDhYZ0VGem1QdmhiblZCdGxjTHFwczQ4RU5vNk8taDRELUVyRmRLaDZmakhjbHJqYUJObmJNcThnUU1GOWtYM1Y5VXVRTnMxQUo2Y0s2T3N6VG93Ykk?oc=5",
+      "title": "Linde (NasdaqGS:LIN) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-20T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LIN/history",
+      "title": "LIN daily price history (Yahoo Finance)",
+      "snippet": "close 517.0 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

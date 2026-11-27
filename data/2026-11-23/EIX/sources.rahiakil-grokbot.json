@@ -1,0 +1,108 @@
+{
+  "ticker": "EIX",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Edison International\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYWNJcXlwWnZ3QUUwN05qcm84SzR6NmVIcG55Q29hdTMtSmFJb1BHM3RCQzFrZ3ZEZEI5ZU1oTmVFeG1LaG9GRXV3Y3g4MjdDWTl5VXJUNjRoSkw2Q0xwYnZCLXpXczZ0X0pVQ1F0OFlYOURVZmswT3paZmFGcVIyakJ0MFlVWG0tMHpFMFBiUFRwR0Z4eF95SlNncWFfR3Z5b2wwTFJTX1N0Z0xIZ245VWVMSmpXUUdaaTVR?oc=5",
+      "title": "Edison International (NYSE:EIX) Price Target Raised to $69.00",
+      "snippet": "MarketBeat, 2026-11-23T17:39:26+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T17:39:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQTJzQ203V3FWeTBicG5VYlFIVlc5akxQLTRlWnNGSlFoVEwzMnNVak1YLTl2OTQySnozWGVRbkZTOG1HUXJEVGx0V0RhWDNEWnIzanlvWGx3ay0yVFVMai1kdmRsUVAzS0VXQmV2VlRhQ0lRZEhzY2trczVSS0ZrV2lOTjdHVE15bmplTmlLejNWVlRvMmt6YXdzQ1A2TUpQMGlFdTZGTWVxeThteFRoYTQzYkpzeG1RT3FhOVFrdWhBN3FoZE90VW5lc1pKWXZNRDZEMFp3?oc=5",
+      "title": "Edison International (NYSE:EIX) Given New $66.00 Price Target at Truist Financial",
+      "snippet": "MarketBeat, 2026-11-23T13:23:31+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T13:23:31+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOTIxVzY5Mi1NczBoT1NabTZLanQxVEQ3MFlTWUZHQk04WEh4WFlwb1o2MHFDSy1jV085VlcwNkJXRmUwWmVzaGpBaXktRUZjSURWcDNRWkRjSGQwbnl5M3pESE12SGlZM1ZEM3Z5TXFUZHlYN1BmYUNsZEJfeG5HdXNWUm84b3k0Qkg1RS1vZi1FSUJVdTVLX1NHUmN5d0dIaUpacUlZR09YWmF2aDE5MkFydVdiNm1DX0NVV2I1VHk4QlZOYkcyT0FGWEJ4bzBYbGs5X3k0TjE3SjljTnVsb1BHTUJMRTQ?oc=5",
+      "title": "Truist Securities maintains Edison International at Hold, raises price target to $66 from $62",
+      "snippet": "TradingView, 2026-11-23T13:01:31+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T13:01:31+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXlHQ255YzNSZnNlTmpqNFI1bWs3bkJUclM0ZEpydEY3ZW1VS2FpcDlxQzVzMk1mQUU2TkRKVjlWYUUzX0R2ak9zckhRR1VDVkZPRUNxYzJBQTNPOFVXN2RDcDdfaUlVN20xR3NIYjVIY2JHQS0yRW5CVU9UMDRkYXh4ZHQ2MXkyNHowQ1JQUDZ4R29xMkZLRnVYN3o5dDFNaS1sT0JRbzVXNDUwd09oNkhKQ1g?oc=5",
+      "title": "Edison International price target raised to $66 from $62 at Truist",
+      "snippet": "TipRanks, 2026-11-23T12:45:22+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-23T12:45:22+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdkRYSmRfSlpVMDUyRVlOaV9VSThGcHd0Tnp1bjZqVTZrVzIzRHVTNUlIS0RkZ0QwOTFRdElLSHR2VS0xUE5wSUdiWnZyeHFZWnhpWkdHZ1RUcXNhajBmdi1uR2lCSGItY08zTmdaM3pqcEJPc1ZVNF81Wk5BU0lRQkhubFRLVGczSGcyZGEtZ081ZjhCZ0x0ZjAxZmRVb2t1SndJTzNGczI1ZVJpakxkUlRLSUdqejY2X09xcko1R3YyeHNtS2VTQ1JrLU1zWEFkc3hv0gHYAUFVX3lxTE9HQi1rc084QlR2VnJvbDlYOF9uV2VEX0EzV2JOVkVTLWpqWXdQdG1leFkzaV9rMFhneDZHUC1kZUY1R1otVmJRNDgyN1N2c1dJYnV1MlZOTmt0bHBZcDJyQXpubmJ6Qld4TE05V0h2YjJoTk50WEhIZlVpSGN5bVhqYjVKT0xkUjFKUEE5ZGVkUXBRdlIyaHFhLWs0amlROVd3LUR6dHhKb3lDaHB3WDkzOUFreEh3SmlZNkd0VFRrMzlwODI3cVRNVE5QTVhtSzgwNDJhZUxKTg?oc=5",
+      "title": "Does Edison International (EIX) Have Enough Earnings To Support Its Price?",
+      "snippet": "Simply Wall St, 2026-11-23T12:13:39+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T12:13:39+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYnpDLWE0cnFRVS0tMWRUWThPSXNicGExTjdLYzJZcmw0b0pZTFlETGo3YjRVc3p3WHZFZEIzcXhLd05yQXZBcFh3Q003N3lESU9OSWdydDc3WXkxTnJqVmh0WXpQZ3VoZWRxMUVJbmJnUDZHYmdGRzVCYjVWa01mcFh6WkRUdkJLSUlXQXhEWTNKUVEySU1scEs4RUs3N0FuQ3gxSjhYLWl6UkZfeFBIdTdqMjVfWE9haG1FR05acmNxdE82b2FnajJ6Ujc0WVpTSGFvYW54amJJM2R6a2VGUld4dU54SW5aOUJkdGNNcXI?oc=5",
+      "title": "A 70-Year-Old With $1,000,000 in Edison International, Altria and Realty Income Collects $4,774 a Month in Dividends. How Safe Is Each Check?",
+      "snippet": "TIKR.com, 2026-11-21T20:37:30+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-21T20:37:30+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EIX/history",
+      "title": "EIX daily price history (Yahoo Finance)",
+      "snippet": "close 62.42 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

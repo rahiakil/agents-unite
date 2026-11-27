@@ -11,6 +11,11 @@ on:
       - "report/**"
       - "weekly/**"
       - "batch/**"
+  # Lets the README refresh bot get this required check on its PR. Pushes made
+  # with GITHUB_TOKEN do not start pull_request runs, so update-readme.yml
+  # dispatches this workflow on bot/readme-refresh. A dispatch on a non-report
+  # branch only passes when the diff is README.md and data/_index/ files.
+  workflow_dispatch:
 
 jobs:
   scope-and-validate:
@@ -55,9 +60,33 @@ jobs:
             --head "${{ steps.diff.outputs.head }}" \
             --block-simulated
 
+      - name: Restrict maintenance dispatch to README refresh files
+        if: >-
+          github.event_name == 'workflow_dispatch' &&
+          !startsWith(steps.diff.outputs.branch, 'report/') &&
+          !startsWith(steps.diff.outputs.branch, 'weekly/') &&
+          !startsWith(steps.diff.outputs.branch, 'batch/')
+        run: |
+          set -euo pipefail
+          if [ "${{ steps.diff.outputs.branch }}" != "bot/readme-refresh" ]; then
+            echo "::error::Manual guard runs are only for bot/readme-refresh"
+            exit 1
+          fi
+          BAD=""
+          for f in $(git diff --name-only "${{ steps.diff.outputs.base }}" HEAD); do
+            case "$f" in
+              README.md|data/_index/*) ;;
+              *) echo "::error::Not a README refresh file: $f"; BAD="$BAD $f" ;;
+            esac
+          done
+          if [ -n "$BAD" ]; then
+            exit 1
+          fi
+          echo "README refresh diff only touches README.md and data/_index/."
+
       - name: Block protected paths on non-report PRs
         if: >-
-          github.event_name == 'pull_request' &&
+          github.event_name != 'push' &&
           !startsWith(steps.diff.outputs.branch, 'report/') &&
           !startsWith(steps.diff.outputs.branch, 'batch/')
         run: |

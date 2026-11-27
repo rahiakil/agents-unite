@@ -1,0 +1,60 @@
+{
+  "ticker": "BG",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Bunge Global\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSUk4dXJsNFlHa0Y4aGpjREh3Tmlid05vVjZYdW1mN0EzWHNYWXJTZ3B2R0VxRlNsa25WS1NCVDZuejIwQjRsNVgxZDRlc1pmQng1bUd0cUFUUGZNSlpJTkdCRDRXX2tSNl9VNUlZQWVmMS1iY0w0bEowbklpNmhMblRLbFBfLUg1NmRUWG90MFBnT0xFQ0pQMENCZ0JrdjRULS1VLXFBbHlDVy1pWWVyajRMWHBkRWNBOHl1WEYzWGx2b04wZWpMeUUyVGJUUQ?oc=5",
+      "title": "Bunge Global SA director Christopher Mahoney buys over $1.16M in stock",
+      "snippet": "Investing.com, 2026-11-23T17:17:05+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-23T17:17:05+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzRfdFkyZUd4UWRwLU5VNmRQb3Jud2JlM1J3WGlUOHRiR2lmam1UWTdRdklqclA0UEhKMnJScXd3ZDJ3MmllQjdROEhxNloxeUtvZnBRU3pGUjY2SUxuajZFcVF1TE80MXJETGpwa0dST3ZvRGZPXzdBeXVUZDlqWnBkQUxqbjFJSTNxcVBacHliWkJBYjlqcXJub3VKSmxpd0E?oc=5",
+      "title": "Form 8K Bunge Global SA For: 23 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-23T12:42:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-23T12:42:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BG/history",
+      "title": "BG daily price history (Yahoo Finance)",
+      "snippet": "close 91.97 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

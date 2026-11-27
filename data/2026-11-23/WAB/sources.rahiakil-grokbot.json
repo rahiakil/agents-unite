@@ -1,0 +1,81 @@
+{
+  "ticker": "WAB",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Wabtec\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZWViTkdON1lOUUZFeGxva2JUaVN2eTdYdWMxWnJwb3N6WVZSeHlqaEdxRDE2N3hzSFVxVFhOcTJZeExOU0hQSHVHT21UY1A5QXg5alpONGdqTFRzbS1HWW54WmMzamVxVGNZc3RBUWhVeFhCZEZ1SWdaRDdqM1NUOWVZeFNxT0VRWHgxWTVUbnB2R2hNcWhlRWJjdzlTWklidGZxQ09hWDNfVVM1S08wQnZCc29qWFQ0NHhNYXliUHdIc1k?oc=5",
+      "title": "Wabtec stock adds Rich Freeland to board effective November 23",
+      "snippet": "ad-hoc-news.de, 2026-11-22T12:38:58+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-22T12:38:58+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZk1hdE0zbjhaM21WSEhhbGpBQ2t3OUpSNnJhdWxQSGRqTUwyMHBiT2RDdWxsNTJSazRlVjhkVUJsU0Z0LXk1Ykx1OTFsLV9FX1JTaWFBS2ZrT0tsZWRmTHA3ZmZOZGV1R0xDb3lHSGpHajBGcl84dnpIR0lxb3l4QmRSUVg5RGVHTC1GSHdsY0lGbktaLW1NeVVmcFY0WnkzNnU1ZWY5RTc?oc=5",
+      "title": "Wabtec shows its manufacturing and engineering sites in Germany",
+      "snippet": "rollingstock, 2026-11-22T12:21:40+00:00",
+      "publisher": "rollingstock",
+      "published": "2026-11-22T12:21:40+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSDhPLUZfbDBMSUdjNHlBRFFyTkdQaVJpcTdRTDJXblJEQzItSXJsc29yME91MXQ2U29wT2NsSmMzdHdVeUphTEVpUHp6djFGM25LdU1zaTY5bHFCSFJ4cTRSY2ZBcWlqdzFmSzRFbVFpMFBhb2hXaFdIZXNUckhzN2ZtLXhpZkhhM1RiN0NRTElzNmVIWERJV1pvMTdDV1pNUk0xMHZjYmhmcmhFbENJcEJQLXNWSUcxS285aVhmZ2N5V2M?oc=5",
+      "title": "Wabtec evp operations Gregory Sbrocco sells $280,782 in shares",
+      "snippet": "Investing.com, 2026-11-22T02:01:08+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-22T02:01:08+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/943452/000114036126045007/ef20086022_8k.htm",
+      "title": "SEC 8-K filed 2026-11-20",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WAB/history",
+      "title": "WAB daily price history (Yahoo Finance)",
+      "snippet": "close 284.01 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

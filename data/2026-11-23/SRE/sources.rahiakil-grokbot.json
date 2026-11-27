@@ -1,0 +1,108 @@
+{
+  "ticker": "SRE",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Sempra\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONzhjYnhXRHdVS1pPMEZaQnJXNmpZNGRyQVlnRjliamJxN2VQenU3LTdFTFFtS0RjcmFta1BuZ2huc1BfLU16d0l4SHhsWEJ3eVJHOWxuVTA5ZDItcl9KOFhMVk5CN1gtTDc5aWQzVC1vRVV1cUpRTS1KMWxrZ0NFT0pCSEtOZ3BGRDNpRHJhZTI5RzJwSHdBdXRKME1KNndiWkpzeDVOX3p5SEU?oc=5",
+      "title": "Sempra stock: J.P. Morgan maintains Buy rating",
+      "snippet": "ad-hoc-news.de, 2026-11-21T10:36:17+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-21T10:36:17+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS0hUaEp0Q25uWEdsWVhhcUNXU0FadVNwdG9iRDB3Ui1QMDAwUXRUNkh3MHNqckpuOUViWVlaRjIxSlBPejN0Um5odXhfdzgtZ3Raa0l6MTRrc1hnNWh0NldST0I3YTRqeXc0X0pPbFN0dW5YaU5MeC1UTUwzSTNoaWNkUVRlaE9lbkd6UENncVltQ2U1THIwcHZ3X2NDbm0yMmtiMjBnYU5aRk96WUktc2I0cU5nUndEeUpRa25vSDFONzZRU2E4NXpYMA?oc=5",
+      "title": "Sempra Hits a Second Straight 52-Week Low at $76.15",
+      "snippet": "24/7 Wall St., 2026-11-20T23:52:44+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-20T23:52:44+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONHNmR2ZXR2ZBaHY3cFc1WkxsYVZqQWVsamRVcEpNbDlzQzFXekFkZFVCM2dmWWlLWHJiZEFGV1AyV016a2ZQNWwwMFYzMEE0aDgzbnBHQWM5ZzhZY2hrZnVlR2xWN3BNVTdKMzJJQjR4cDkybEJjcmhnOVR5dnhDTVBxclJ3MmxoaWdJd3pDVXQ3VHNpNUxKQ3VYSWMtZXF4dmtHSlhMUXlBZkNjd08xS3VKZw?oc=5",
+      "title": "Sempra Energy (NYSE:SRE) Sets New 52-Week Low - Here's Why",
+      "snippet": "MarketBeat, 2026-11-20T21:52:08+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T21:52:08+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOU5oQmRHMEQyUGhBSmpHVzZPeVNNQVM2d19hSkVJV29NSk5SN3pQMy0wRWcxdGN1SmNadUNEbzdoRWdPMVlTam9qSzJ2MlRzeE1vVWtOMG1aLThlbUExS2F6OFVJWVgxR2JHWEZTN2J6RGducjY4ZTFnQ1kwYWt4R1N4OFM5RE5nWVlDcnU4Q2c0eWFFMDdsVTd3X1Q?oc=5",
+      "title": "Sempra stock hits 52-week low at 76.2 USD",
+      "snippet": "Investing.com, 2026-11-20T21:28:32+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-20T21:28:32+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEp1OGFLTlNId3RmSzVOcy1tSzZGSnlFel9uOG9JcVJSOWd6dzV4UkNKLWhmelVJV25HckpvUExtcmlMY3p6RF9RaE9xRk4wc1FrZnFaa3dxc1NZUkpMR3JDaURxalhwSU93YUxtRGxrQ0lrUTlQYUhhSzhuMW5NN05pUThVbzlySHRNMWdSeWZWVEUxRi1USkdyVXBHRkxLOXB1MkNIbS1DdnZiWmc?oc=5",
+      "title": "Why Is Sempra (NYSE:SRE) Maintaining Its Quarterly Dividend Programme?",
+      "snippet": "Kalkine Media, 2026-11-20T21:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T21:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTzFpcVdYOC02ZHc1MDJKaDcxY2tNcmVxZ3lXVGNyamo4dFpyaGF4NHBlaWdXZXJaWmN4Zk5SYnBhTGUzbkZVdjFrZk5pbkJYSVdqYmw4cXd0SXh5OGUzb1BhTXBZQWI1TUlhcXlnVFhuTktWel9LeTFMTXR4MEJPOVZlaW5oV1JQTTlqM0J2X0FjaDhXM1l3UXQyNFJSOHBRd0lFcU5RVlpJTDlXdjRPUzRvdUlHZjk4djhvazBZR1NGZw?oc=5",
+      "title": "Consolidated Edison or Sempra: I Can Only Pick One Dividend Stock for the Next 20 Years. Here\u2019s Mine",
+      "snippet": "TIKR.com, 2026-11-20T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SRE/history",
+      "title": "SRE daily price history (Yahoo Finance)",
+      "snippet": "close 77.72 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

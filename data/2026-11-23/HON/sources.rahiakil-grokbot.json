@@ -1,0 +1,132 @@
+{
+  "ticker": "HON",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Honeywell\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 52,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 24,
+    "irrelevant_or_spam": 8,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNUVkzZ05FaDRyMGEtSzAwcVBINDZSNklQRm1iV05fQzBiZlZsT29Uc1VyOE5mQkRtaWROY0M4NFpYUDBkWkVzZXIzeVFEUFo5c1ZuU3RKVTRRT0dxdnkxM0ZaVGJXZ3pzWDBwSUFUbmNfSGJtU2FDbE9LSnNXTkRvaHdFWE1UX2pZaXd3THRteVZpX3pyRzRwbElzSWdKamE3ZXJTaFV5N3NzTURoRko5UEpZcldsdHJfaUltU3d0WTNRV0hrLVZYOWpIck1kYjJlXzZ0dm5MRUl0Tk5IY0REODF4XzZuZUN5UUh0VEhYWDhnUEZlNlBJVzBHUGJWTTlqWUQ1dzJNcWdZaFRMel9Pc1VlZzJTdXNuY0pnWW5Sdlc2Y1FlLS16eFJNcFpGdTJUQ1BjMnN5MjVuckthOWp3TDRfV3lqbmpyamRXbw?oc=5",
+      "title": "HONA CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Honeywell Aerospace (NASDAQ: HONA) Investors of Securities Class Action Lawsuit Deadline on November 23, 2026",
+      "snippet": "Morningstar, 2026-11-23T18:44:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-23T18:44:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbF81TkkyVW1QbGNVbFJuamhQckJ3WlJkRmxQMHV1MkxMSFBfRnNOYURjMklsZDFVOWktOGV4aE8xVUxLN0NZZ1Flal9LYzkxbXk4TURxdERmR2tXV0tucUFkNHdHM0gxMlVZektaUzFLcTlOTG96eXdXZkJEUEpSSUdKZ3dJaWdod2ZsZDFhUmY5VDhLdDk0Y181UjNxbzZB?oc=5",
+      "title": "ETFs Are Buying Honeywell (HON) on Nov. 19",
+      "snippet": "GuruFocus, 2026-11-23T12:22:30+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-23T12:22:30+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuMVlWMWRubm5pZWZsak93V1FXVUlsMTlVVjR3UGJCdUhhcV9MNWp1LU16TzdNQUNOSmYtVjB3YktMWTVqQzRaTg?oc=5",
+      "title": "HONAV Price Today: Honeywell Aerospace Inc. Stock Price, Quote & Chart | MEXC",
+      "snippet": "MEXC, 2026-11-23T08:13:19+00:00",
+      "publisher": "MEXC",
+      "published": "2026-11-23T08:13:19+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOXduTVFKbzNJS21BODhnOUEzcnBmVGxmYVYzbDc3djRkdHhydGNhN2pHQjRTWnRiaF9tTHZiSXZLc3Z0S1FZUWN2RVlNbmg3NlE5R1BabHlrUnBSb1d1MGo3NmZnbmlhWW1SN2hXc25mMkNXc3pHZ3FBaWxFRVlNalI1STRTUVpWOXNIcUFFcnpZaGJOaDBlYUNvOTdKdWgxVEFhbHFoX0FSZzFzQW5DaWxSdWVOalVYWTJYeXhGb0tJV3JjZnpqV0dYU29SbUF3QUpFVnlvdFLSAd4BQVVfeXFMT3EyNXdTc1lMdWRUYWFhMmZRenpwZmNKalY4SjkwMnBfYUhhV1ZqR2NjRFBuaVFEWHNOZFdDMnFaaDVfc1B5OHR2aTY5ZHJRWV9aR25WT05tcWFtTVBDUEo5RGRxb0ZabE9pTmNISXJRRWJfZFRvekQyd0ppWVE4Q0xmX3VnbHZTZ3NPOF9VR2lJNVJueUJaeXg5dXpsMEpIbG1Hd1k1cmpyblhHb01FcjVtUWRBOWsxUDcwN3FEeWFrZ3hiTjNTaW5HNGNnQUZEWkNHUzR4djBva2ZmQ3Bn?oc=5",
+      "title": "Is Honeywell International (HON) Cheaper After A 46% Slide?",
+      "snippet": "Simply Wall St, 2026-11-21T14:09:22+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-21T14:09:22+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTU5QQTFwVWlLUHh5cWt3dnd4X3c1ZGEydi1NMlMzWFJfQzJzVnc1RHV1N2d3UTlFdUxRWlQyY3V2alR1WlUzOWZZRmptbF9oUXp1VmhrNUdWM1J2bDFaRTNfUWVJRnN2ZUtVekJHSFNSSE00RXFCNVFHU3JtUWMzNkt0QUJaSTJfMEhRRHEtdm52ZDhfa0RseVV3TlBtOHIyeFpyR0traklZVnQ1Q0NOaFRHNkZvZU04MzZ4ZXZ0d3F6TVJDVGd0N2VUM2g3NGlmVUxKUzlHNWkyYXpiOUh2VEJVRFlFVFRrV2l4aF96aw?oc=5",
+      "title": "Honeywell International (NASDAQ:HON) Stock Price Crosses Below 50 Day Moving Average - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-21T10:49:13+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-21T10:49:13+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ2l4Z1pxSF9HZTVRdk5fbndxR3VmOEJMeElxal9TZVE1X1ZQRkEtcW5zYWtURjllOGtvQjg0UTQyZ1I2akhPSWR2QmVNa0JIUlF0XzYzMzZtZGNKN083b1lLc2U3SFFkZ3RlU1h5dVppU05vTzlKWjN1czU0dDdFMjQ1eEFsdVJQQ0NpcmN0N1B1Z1R1TWJr?oc=5",
+      "title": "Equities Market Shrinks As Investors Dump Access, Honeywell, Others",
+      "snippet": "MarketForces Africa, 2026-11-21T10:14:16+00:00",
+      "publisher": "MarketForces Africa",
+      "published": "2026-11-21T10:14:16+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTlZnUmFzUVB4U1duQlJVbW1NOGFDZTVqOEhZbU95WW5NNnlCRUZXUlRIMU1iVVdHbHZkMk1WX29uNGhINmpSMWxaSktwb0VIR0pCanBpZUtPai16S2RlWGN5Y2p6SmVMZWhXbzkyQzVmMjQzTm40S3U4TnQxeVU0SVkyQ3dSSnhIODA2X3pHRGNLUXlOWU9fZkFtaFJ4N1VWRlFEcFlEVnVjV3Z2VEp3UDczRC1INFZHUHJEdkdCZEZyWlV5?oc=5",
+      "title": "Boeing, GE Aerospace, Honeywell and others awarded on $16.1B Air Force contract",
+      "snippet": "TipRanks, 2026-11-20T22:35:28+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-20T22:35:28+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOV29NVTRoRFlXZVF5d2pDNzZpXzlqUkppMDVPb1VvUG03ci04all0YzZVcV9kUG8ycUhUVk9FQzFJSnlBeUgtbVMwQUUxSzhxZktTR2JWaTlSalNraW9sdzRDWWt0ODNla3FQY1ZsMFBkLTBpNzZpMmxGc1VUcEpmakdGRlFCdHplU29famF5TTJWendyeFNRUjJVcUZFYXpmcDRsWms4bUNfa1R2TTJEQU5SUzkyQmwwa2NMVGcwc2lyRVJZdzNIZDVTeEVmckJaSENnOUhOVUZfd2VFbm55V1VjMUU4RFlpMFZ4b1VLRUI3WV9aUGFWN1BFazkzaHF0LWdsWHg4cGRBaHh6RGJGSXkyU3M4eFdZREY3b3BVTWlXVEJYV3E1d2RaRHdPX3lfcHlzZlBXQkxmVm9lZm1vYzlYV3I4MC13MzhBZ1NYSjdSUjdGa19vak5sa2NiUFFyd3pGVGxyNVAwVmpU?oc=5",
+      "title": "Honeywell Aerospace, Inc. (NASDAQ: HONA) SHAREHOLDER ALERT:",
+      "snippet": "GlobeNewswire, 2026-11-20T21:11:03+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-11-20T21:11:03+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.447,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HON/history",
+      "title": "HON daily price history (Yahoo Finance)",
+      "snippet": "close 221.97 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

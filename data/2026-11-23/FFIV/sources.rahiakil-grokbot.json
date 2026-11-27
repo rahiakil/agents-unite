@@ -1,0 +1,96 @@
+{
+  "ticker": "FFIV",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"F5\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 7,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9VQjV1d2FKSlBBaWUxNzFoUTVzUnhycEh6M29zRmFJX3lxUWtzcjh1NXFLZFJSZ1otRFhxZFNVTmFiZDFCLWttZ1dGU0Q5N3Ffbnc?oc=5",
+      "title": "MDPQX Interactive Stock Chart | Mackenzie Bluewater North American Balanced Fund Series F5 NL (719414A2) Stock",
+      "snippet": "Yahoo! Finance Canada, 2026-11-23T09:47:38+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-23T09:47:38+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRUl6andId3BDeVBZNXVCT3JKRjItc0M1R0NVamZOME9BSlJQRktZeUtOUVdfT1hvY043ZWxGRHpvLTNZbDdnTE5zVGtVMmk4V0lsV2VDNGJyb1dfcUtuQlhTT1VmYmZoMGlCUFVVVWQxYjRGZUdHRmxtMXhlWnV1OWNOY3VTbnVrc2FsODNsT2RzUQ?oc=5",
+      "title": "Form 144 F5 For: 22 November By Investing.com",
+      "snippet": "Investing.com South Africa, 2026-11-23T05:44:32+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-11-23T05:44:32+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaHN0OUg3cTc2U2NieXVfV3AzU0ttMHpKdGVlUFUzczlRdTB2cEQ5MmVHTHlkSjU2cTN5R2YwZWZ4bzB4azFCdkthMk5HX0ktV1NIT1hDd1g5XzdHNHp1ZnBqZ0t5aHpxeEtFZ0tBNTg4cDZvMTlhSzlQb1lNYkxmSVRPaVA0ZVMxQ3lmX0NlNW9maHVWNmt3?oc=5",
+      "title": "F5 Sees AI and Software Renewals Driving Growth After $100 Million in AI Bookings",
+      "snippet": "Yahoo Finance, 2026-11-22T10:12:06+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-22T10:12:06+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ2N5RGx2NWNJeUx3bDRCQ1NEX3RXRms1NVJiM2t2d2FxN01CVmE5c2VMMnlULVhJTUNQdlJKZGQzSXpueFl2ZEdoeWhxcE9PbV9kQ1lKaUNJLTJIY0M3S0NWbk1ZZ29HZTd5aWtwY3F1OWJOemNvZ1hIZ0ZsTjlYdzBlemZpUldfMWtZajV5TlNYWjhzMTZxZEdfX3FDb0FzMmtj?oc=5",
+      "title": "F5 Inc (FFIV) Shares Fall 4.4% -- What GF Score of 87 Tells Inve",
+      "snippet": "GuruFocus, 2026-11-21T02:06:35+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-21T02:06:35+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVC1odWJhYWZMMEtxd1cxVk1WNjZsQXJkbldZUmV6Y1dnYXdGUnFuTkc4dGRPRVFRam1HZWRTc2VLY3JmdWZYeG9SZmhlbUJmNFJvZ29jQ1ltT1ZqdFp3eV9DV2pQSkhpVEFPQTlZTDlsTnRRMkoxdVZ6NU85dUV3cWhia2ZFVWx3cWVaamZzVTVVR2RZUFNjTkZzbGRQVGJ4WGUyLUhQNEZwU09vUHFXN0M5N2pTbm9wQUtDWWVPcm5IWDN0aUVzem5fdGJtV2MwVDVtY2c0MA?oc=5",
+      "title": "F5 Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-20T22:08:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-20T22:08:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FFIV/history",
+      "title": "FFIV daily price history (Yahoo Finance)",
+      "snippet": "close 321.27 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

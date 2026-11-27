@@ -1,0 +1,60 @@
+{
+  "ticker": "DVA",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"DaVita\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORmhhbTlZR2hwanpDREVWS2hPNlRNU2w2XzkzdkNRdTltYmhVb2dVQUFuY2I2QUJUeXhkZ1pkeUhXYm83dUcySEl2eVNad2dLdHBFT2dNZ0JkcU5xTS1lSTd5b1VpcWVqSDkwbXBNNzVDTHN0bzBDd1FxZ1BORU03bnpPYnJKLUxjelczd1ZfSFczT3M?oc=5",
+      "title": "Is DaVita (DVA) Cheap After Its Expanded HD Rollout Reached All U.S. Centers?",
+      "snippet": "Yahoo Finance, 2026-11-21T02:10:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-21T02:10:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNek9naERtY2RHajl4THg0ZjJPVFV3VHFMQ3ExaDhWNXl3MTFacWZaSlRuT2hsVXh1OHNNY0dZb3JsUVRYVDl3RHNIa0tYYTNLNXRJOGUydzNKWHpnUzRnUTN0UDc2NklVWmw5NGhaZUQ5dExaYXFsOWlKTzN1Y0dVNU42NzlHNXhhWi1uS0Q4MGtpazBETFBDdDBveHNzWWY5X21vY1BySmUxdnB2cXE0ajJFX29odzd6RFc4dHBVMA?oc=5",
+      "title": "DaVita Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-20T22:16:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-20T22:16:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 159.76 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

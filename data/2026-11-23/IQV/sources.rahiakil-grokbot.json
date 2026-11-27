@@ -1,0 +1,108 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"IQVIA\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE51OXUzOXNDRWx0aFFULTZSUERjaTUyTzAxNXpHUUFpcDBjLTFTVXJzX1Zmc0xObkxwdUxCc1dCMGZ1cEllQkJIMWVJc1JTZUxaRDBJSDdrYw?oc=5",
+      "title": "IQVIA Holdings Inc. (IQV) latest stock news and headlines",
+      "snippet": "Yahoo Finance Australia, 2026-11-23T17:39:27+00:00",
+      "publisher": "Yahoo Finance Australia",
+      "published": "2026-11-23T17:39:27+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSlQ2NFo1dHhHdkN1SDRLV1N0TVJOcFhGRW90SDcxd0VHWGkzS2tMWVA0dTR1ZVZnNGJaeXFLNlk4MjJ3UEV5UjQtMTRGbFdNdnh2Z0EtZG93NS05RjN6SzRoVzRJek1DUlROYVlCcUtsdU5CNDJub2RadVgxa0JjaVFjNjZraFF5SmVobEJmZmxlWW1jdG45ZkNMREJlQ2dSSDQzODFicmdteWlWUmh1djAya2tMYnJQZkVWeVVBY2thQQ?oc=5",
+      "title": "Truist reiterates Buy on IQVIA stock after Quotient acquisition By Investing.com",
+      "snippet": "Investing.com South Africa, 2026-11-23T15:08:29+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-11-23T15:08:29+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYlk1QmMwaVk2eEpST1VqekxPV0NDbk9lSDBTaWVELW9XV3E0aU1IMndOVmVuNVZKbmJqOFc2eWdtdllYek5YdmxBQjBPelZySDRUZjFXdXk0aTRxS2dzWnZwWjNLRFFvanlBWE1CUjM2UGVBYWdBMmYyN1c5emZ4T0dicHlyTFdwdHR6ZjBQenpfT1pqRUNGbA?oc=5",
+      "title": "IQVIA Buys Quotient, Shares Bounce",
+      "snippet": "TradingView, 2026-11-23T14:55:27+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T14:55:27+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVDV5SmpGNjNzWHdPM1ltd1c3RDhRal9veUJpdkthVl96TW8teE01VUg5Y1h4RDd4aUc4U1R2NTdkbmlCalZPT2o0SGsxbEVZQmVqUS1oemRqTmV0ZjFMTGluY0NFZFpvdVY4M0hiSFRRYXRKWW9GeXlqSTh2VlhPbU9JbUJodThjOC1Mbm1Rc1pZQjRYUkJTeGlXS2lhRlZXR3E0U0tTdEdrSHFXa20zNDUtcGo2YURBd2dDU05QTjI?oc=5",
+      "title": "Truist reiterates Buy on IQVIA stock after Quotient acquisition",
+      "snippet": "Investing.com, 2026-11-23T14:30:24+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-23T14:30:24+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0o5cUxVb3k2T0lXUDNmc2NuaFhGMjJfclVtSjJfNFhNUllkbHM1aGNQblF5ZEJ2eExfNkhBWVdLeF9jcjVvNDdLTkw5Mnk4THkyd0xROFpfNkRhblNnUWNLZWNsN0RDalJDMDRzS0Jrd2dwamVBZTdxUmtuMGo4T1lMM3p6ZnBfZzlZcjg3VzhEYkhFNG5FT2p6NDNJT0NZc2c?oc=5",
+      "title": "Do Wall Street Analysts Like IQVIA Holdings Stock?",
+      "snippet": "Yahoo Finance, 2026-11-23T08:55:31+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T08:55:31+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQkZJTDlkYzlGdFpnczBRN3N4V0lleDNuRUpnTWJyUFNRdmFHdDh2UVhiOURHSWEwZktOd2dVOFl2REhVUENySVhiTjR1cnBtMFJRNFV0OWU1OE9qWlByOUZ2WS1heGIxNFhFLWQ4d2JwWlBsWXNGN2R0TFhVc0RHQ2FyS3pYNzR4ZXNJ?oc=5",
+      "title": "IQVIA Nears $1.1 Billion Deal for UK's Quotient Sciences",
+      "snippet": "Briefs Finance, 2026-11-22T11:45:00+00:00",
+      "publisher": "Briefs Finance",
+      "published": "2026-11-22T11:45:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 251.92 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

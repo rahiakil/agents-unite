@@ -1,0 +1,141 @@
+{
+  "ticker": "LHX",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"L3Harris\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 50,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 26,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbTd2OUpoZ2ZDQkNOZk1hY1hDd3J2cWhseWUtTnRqODN3U0Fvalh2MExlejZYMy1RTWRDVzlyZjl6QUpkdXpNNnY4QmxKai1kMnFMbGQ1R0tQTzRyODhoaHNVTExLMzlraGpReVlKNXpEZnRaeXZqdFpHLUVGS01jMGhnVWpLVlNITktId3k3SnhFNG5ibFl1RlQtZkw0Y3F3X1JxQUE4anhRX1FaRUtTSDNwci12c05XMGp4dkJLSEZzbC1MY0wwU1FlVm5MTzl4R3lkOEd4NmNtQdIB3wFBVV95cUxOS2pPYUhrQ2djWWhlUl9zbUljVlZJZEhabzFDai1WR2RTYzZtVDR5T29YQV91SWVIbnRkZlhES3FMRk1zYWpFRk0zLTJKOFpHaEtBR3ZjTm5EOThqLXdQZ1RydHJPdmxTMmNTYy1tQ1FMZWpscTBzOHpYVTdlVnl3dXYwdkg5NDdzY0hJU2IxMkFfYng0VjU2VU1rcV8tSEwwel9Bb2pGbEpGaDIwUnpUZW1oSHNDcXdYY2F6SDRLN0ZwNG1kamRzQndvdnRNNlc5WUpNU3VnZldDMUd3c0Fv?oc=5",
+      "title": "L3Harris Technologies (LHX) Dropped, So What Is Driving Attention Now?",
+      "snippet": "Simply Wall St, 2026-11-23T12:13:01+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T12:13:01+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTGZ3Y3R5aGt4UDVCNHIyQTFTT2pfTVRmb01SMTdkOGREc25RNjlHRnk2ekhfM2p3WEFhYjNEczRONW50aGJnTlJReHlBVzNMWFBfQVVCVTdxQ3MtRmpzR014UTJpX3JDeHpYbDY5UGZnZmxpRDBQZ1hjMEhGRU5zLVdB?oc=5",
+      "title": "Duffy Says an L3Harris Crew Was Working on the FAA Network When Flights Stopped. Its Stock Fell 4% After Hours",
+      "snippet": "AOL.com, 2026-11-21T15:52:34+00:00",
+      "publisher": "AOL.com",
+      "published": "2026-11-21T15:52:34+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbWcyWl9CWmZhZVZxR1ZhUWlnWmFtWDdBeEh1TERKbG8tcHlFaktva3VvYlQzdDhoQnU0MEIxTzJYX0U4N1RkQzUtNnlUQ0pVcGdvSEhlOXZuM2M5cEU1Zy1xcUNhV1FPRHhuRUpvWGxnRkFndlZFTmZNTXZibm1veEpPX1U5aVpFcE1vbDN6ZFR6SUpxMllnelRnazVHZDlfVkRDSHVXNHVfUVlnTklYc0R0ZzU0LTIyY1ZWY244WjcxbmprZ3lVYUUtOUJCZF8wV3dBTXJfTFRTYlBYcGVaUzRUbjl4NVZq?oc=5",
+      "title": "L3Harris Technologies (NYSE:LHX) Share Price Breaks Below Fifty Day Moving Average - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-21T10:59:23+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-21T10:59:23+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORGNmeWtfdUxVcTZLZHh5M2FNRDVsRVlhM2dTQ0VOZ3oxaFdkWDI0YWdlZFhBbTZ0RlFMUFpHMV9mZVhXdXY0bUV2T2RhNlJIVmxSMjV4LVduQ3RGclZNUWRhN1FEZXp2SU5yNE54cGhYblVEcUtIUUNRVzJWQXlydmdkZWZyeU9sNlBVNmFvaGNvblBMOVBtWnJYR3dKRHhkTW1xTEZBMkw?oc=5",
+      "title": "Is L3Harris Technologies (LHX) A Bargain After Recent Weakness?",
+      "snippet": "Yahoo Finance, 2026-11-21T09:10:24+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-21T09:10:24+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPazViY0lZSDR2MkJ6YVZQbU1rVHNYZEhQMlBlUklPTDR2OEtQZDU2anZYUVJnWjgyRTZ0WmtsWTBpZG80dDJ6RVR4R1VZeTVtYUJ3SGNfeXFXaWVCR29VN3l1d0NScnVaQlNINTE2YjZFZ0RIVk5vZ0R0eEc4ZlBHc0FVd1NyWmtZOHV1ZFQ3T1E5MWJhRTBsS3ZGOHQ3Tk1uamRabHlzeTJTemxhR1ZCN21xVQ?oc=5",
+      "title": "L3Harris wins $28m Defence contract for Brisbane electronic warfare team",
+      "snippet": "OwnedCore, 2026-11-21T07:42:34+00:00",
+      "publisher": "OwnedCore",
+      "published": "2026-11-21T07:42:34+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUpRRjhDajVrdGlHVlBqQkEtdjhjYzkweFdYNXk5Tjc1LVZmMnBJSmRrX2xwVzZ1U3had2xxSW1sbDBIS1B6dFZ0LUNUdGExaGV3LWJKZWtZMWdQZU95LTRzc2FncDhfMHF5VTc1b2prX3VXV0dVM25GME42djJCVGlsYXUwVEZ5bkM5eGo5Qk9wNXFqaFhFeld1TDVzLURhUm1mSGJoOHNUelJIODRYT253?oc=5",
+      "title": "Nvidia Can Rebound to $200, Analyst Says. Plus, L3Harris and 4 More Stocks.",
+      "snippet": "Barron's, 2026-11-20T23:25:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-11-20T23:25:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9FSEFQS1dBaURVT3JndGFJZUlxZ0VmcktTRUFfbm9ONEtXYWtiWXVKa0JtN2RpTjlyTjl6NXk3eGh3OXBwbURJ?oc=5",
+      "title": "L3harris Technologies Stock Price Forecast. Should You Buy LHX?",
+      "snippet": "StockInvest.us, 2026-11-20T22:46:59+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-20T22:46:59+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04dHN0M0R1WTdBOF9SeHJsazZhQk9MQVB1SEd0b1JXR0lnSHBQc2ZsbVlPa1o3azJXY05TTjM0a2xyRVVSOGlGVGxtRGVjamI4RlE?oc=5",
+      "title": "L3Harris Technologies (LHX) Stock Price, News & Analysis",
+      "snippet": "Stock Titan, 2026-11-20T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000091/hrs-20261123.htm",
+      "title": "SEC 8-K filed 2026-11-23",
+      "snippet": "items 8.01",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 254.83 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

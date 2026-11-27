@@ -1,0 +1,60 @@
+{
+  "ticker": "CAH",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Cardinal Health\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVUJQVHNxa1ZMbk4yQ1QyVHYtd09wY3ltUnpDWUlUZFpJS3lvZmUzSVNtejJwQ0hpa0NZeXQwY1Z2ZHo4aEE5Q0RrSktWSGFNT1pXMENlUXhEY3dtckkzYlZfc2tnUzl3cWF6UXZWSzAxbVpMZUROSFUwWEpnTng5RVppNWhpVDZyQzZ2M05HQVZyOS1TVVI4S3hEbFFqVGtGYy04ZFZzd0I?oc=5",
+      "title": "Will Cardinal Health (NYSE:CAH) Prove Its Resilience This Time?",
+      "snippet": "Kalkine Media, 2026-11-22T10:56:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-22T10:56:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZXc2N3RPQ1R1M1RBOGNUWnQ1d1N2R1lYSjZ6bV8xQU53a3I0eGplWVc2RWE0T2xIMER1Y2d5bkJJclctcUFlZllKT2U1RzhVTV95LUI5WTNNWWJva2wyMS00cjAxb1QwLTdSTkV6bVFja3JpQzhCVk9hMTc2c01vLWpmam9XUnc?oc=5",
+      "title": "Cardinal Health praised as a resilient stock wi...",
+      "snippet": "Pluang, 2026-11-20T08:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAH/history",
+      "title": "CAH daily price history (Yahoo Finance)",
+      "snippet": "close 271.97 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "ticker": "CBRE",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"CBRE\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGdMRXZmLXhLSl84aHFwaDVULXpQYjNnR2xocnBXbkpVamRDVnV3aWs2UEcweF85aVRBV1B4anMzcmltYlplaExFeVRpSXJyVDU2Y19tbmE1MEpYTGhzdVl1WUk4UnotcW9iaFRVZlpzaUt6RmZNeGxLbU9xdFBSaFRPeHk4UmYxS2g4U1Z4ejgzRUJGSUVUTXV4aEtNNlZobkpkMnVoRVhiN0VpNTlRd2Y0bUNPQk1wWE9EN1pxTUV1eHNVRFpDcEhSM0RBal9J?oc=5",
+      "title": "CBRE Group Inc. Cl A stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-20T21:54:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-20T21:54:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BVzNCWXZPWVhRWV9BTmxmeUNkSk0yTG1iRHdLMU1MSW1YbEt5dl8yX2Z1X1ZEUnJoc0tic1RpVWpPVm9WZ1JNZWlXNk5UcDdSZ24tcDdIdHB2R0VKUDRUdlNZZzQtUHI0N0VTRk9OaHo?oc=5",
+      "title": "CBRE Nov 2026 145.000 put (CBRE261120P00145000) Stock Historical Prices & Data - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-11-20T08:00:00+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pVUxRWU9mTTA2WjJDTGVJRlNMUVFuZmpSUURZNEtzbGE2VzJuM3pvM2RTU25TeE14dExjc0s1NnREQUJvZG04X2ltSVZuMmdnLThUZnZLT09sVjFtYlZuSDRIODM4RWFnQnhVOXVn?oc=5",
+      "title": "CBRE Nov 2026 145.000 put (CBRE261120P00145000) Interactive Stock Chart - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-11-20T08:00:00+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-20T08:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBRE/history",
+      "title": "CBRE daily price history (Yahoo Finance)",
+      "snippet": "close 129.38 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

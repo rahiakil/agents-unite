@@ -1,0 +1,48 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"CME Group\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 7,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS1ZfWUZzdGJHTUxMbU5IUE5hSkd5WlgzLXJlWTl2d2xLM25wWFA5ZUJIY252bTNpTWU4ZjR5NjZjUGhfcnpHYmtFYXBIWGR5QVVfZTg4LXA4dzh6S2lsMllNOUxqMnVrREx2Z0Fva2w5Yk9rWkNZeml5ZnBxSXhkTWY4ODl5dkdTTWRuV3NuMFVRVEVZcEdhN0RITU1RS1JhTmFINnpBN19CUndHcy1GeVJmWGMxdXJ4NER5Q1FjZVU1dw?oc=5",
+      "title": "CME vs. Robinhood Markets: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-21T14:20:02+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-21T14:20:02+00:00",
+      "published_date": "2026-11-21",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 304.43 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "ticker": "IVZ",
+  "date": "2026-11-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-23",
+  "news_cutoff": "2026-11-23T21:00:00Z",
+  "generated_at": "2026-11-27T23:14:25Z",
+  "collected_at": "2026-11-27T23:14:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Invesco\" stock after:2026-11-19 before:2026-11-24",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVRFclltWE9PUGZFbFFxLUZSaU1PamFQZjBJVHpNcW5OdTVDRFRJY1Q0VFJmOXFqN2FoN3FWMUtGbnJlWUkxZjZEWGlYVUhWQmotOWozR2gxenJaeWxiTXFpWXBrV0dyajlHZGRZcEp4a1dmM0xVMzl4Q1BzQ3pNM2dEQVRwMWxvdXJuSGpudVdJZ09ON0FUUHFfcmlvcmRqUUozS1A5N09tdHBjNnJubQ?oc=5",
+      "title": "Invesco QQQ ETF Jumps 7% as Jensen Huang\u2019s Nvidia Comeback Fuels AI Stock Rally",
+      "snippet": "TipRanks, 2026-11-23T20:25:35+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-23T20:25:35+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVzBHSW14XzYxc0I4T2xVdVlUSFktSHQ3d0N0U0lxQ1FjNUVwQklnTU8zdnlHOV9oTjlsTmZwdlNkUk1lTXpKdHJrUmhna24zM3l5WlFjckZRVy1ObnVmQlF3aFpvNGVJeXJaSUtVbUo3ekZPSEx3SUFTaWNQTlNwYWc2eXpSeUhjTVV6cktUR0F3V010dmlnTUhtNDd2U1p4?oc=5",
+      "title": "Why is Invesco QQQ Trust surging today? By Investing.com",
+      "snippet": "Investing.com India, 2026-11-23T15:14:18+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-23T15:14:18+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRklYeURoTmNmX01jMDdwNjBxX1FfYkE1Y1JVandkTTJBUzIyNnAyRDlxdDE5d2JmRWF0c21OT0duSE52ZEkwVk9jU0lRZGVYVjhqb0taLWlLUXY0Njc1eE1ScjFTbUZveVJNOW9PMmFyNEZwYmM0aXhMYy0xeElhVVlIdkV4cUc2ajFnM3JpZm1hdHJ4SHFaUUVxTk1Ra0tjUmwyUTlQazZOSThFVkNSdWRDc2FWSzEtRzROX0RZRzRydElIdkRNeFdMcGJFbHhkbzNn0gHYAUFVX3lxTE5Wc2pVUjE5aGNRVXVCbFZwUGkyYlpRclZqbS1OdEg2bDN1SUV6RGotRENiaWhILVVGS3BKZ29XX25ZU2ZLWHBMeEFWVWxuY2d5SzJFZWRFV19YZGNqcTVkWU15MFVMcm9MTzZEdnN2SU1qaXZ3OFc3ekJ6U1g3bVBCQS1TQjhzVUwtbU5vSzVYMnhrbnRiLWREbVJabXcyeDgwWXFRYk9MeDlnSEVIVzhQZjJwakhFTWtnR3lUUEg4RHVUMDNUcmJ0MEViTjhBbEE2YXNmR2V4MA?oc=5",
+      "title": "Cash Is Back With Invesco Stock And Other Treasury Fund Providers",
+      "snippet": "Simply Wall St, 2026-11-23T15:13:40+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T15:13:40+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0cyVDlwbDhHUWg0QXF3bzdlWWxuQkxhQXZBNEM3bVp1RVdXOG1jQ2hBRDhXNnVGOGpIYzVneTZzdDdpaDFFcGZyTU9tUHJ5LW9zSkZRZFBqV21LNWV2TnNUTzBOekF1T3A3RDdXZTEzd19kUEJxZmhobGJFdnZkay1rSUQ5TDNrS1RYaUdRRQ?oc=5",
+      "title": "Why is Invesco stock up 5.5% today?",
+      "snippet": "Traders Union, 2026-11-23T14:45:25+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-23T14:45:25+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUUJRc2RDQ0FzN0NHbGZoTnJ5VjRqTl9IR0JKN1g4V05XdWphamRyejVKRUVqc0FlR3hIRlQyNUc0dEVxUVpwdjZCTDFaMjlMQmtjWlpsQVFiMDBKZ1NmaXBVNnYyaFBQQjkzTndKb2Z4VUluR283X2x0OUtlUy1ZeE5OblZVVGJ6QjBmdXZBQ0ZxQWw2VkVSTXhIaVZIUmxX?oc=5",
+      "title": "Invesco QQQ (QQQ) Stock Price Prediction: Rebound attempt faces overhead supply as momentum stays weak",
+      "snippet": "Blockchain News, 2026-11-23T07:22:00+00:00",
+      "publisher": "Blockchain News",
+      "published": "2026-11-23T07:22:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTGNwMHk5dVR3QmNnNzlLdDJxZlp0SGVFS0RJOUJrYkl0ekJ3Y1dvMU9Id2pWMEZjOVl4YXJjZy1lZS1YbTdKNDB2UTJCbzg5SGtHaklIZkhjYVV5R1VwOGg0VjJjdjR4VVRMWHVhWkRyb0RPWVVVV0VqNElSWmRXT3VwQnFSMG1VM21TTlZwTEc3UXYtdXk0MzZ1NExlU1BKa0E?oc=5",
+      "title": "Invesco QQQ (QQQ) Stock Price Prediction: Nasdaq leadership slips under pressure as support comes into view",
+      "snippet": "Blockchain News, 2026-11-22T07:16:00+00:00",
+      "publisher": "Blockchain News",
+      "published": "2026-11-22T07:16:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOGJVUU11RFk2aXVEM0lDa29SeFZzNUxVak9hZzloVllPWkhIUkJxOXBBQlowOEhhRTUzRHRTckJnZ2JCTkcwamFNWHl5dENkNTZIclNSaTlmUElxV0JmaFFJNHFPWnlaR1M0WFF3LWI1djBGUGJINEZfZUJaaDFRTml1NHFIMl9nRXlTZTN6RG1YRjBMb3UwRVJFTQ?oc=5",
+      "title": "Invesco QQQ ETF Loses 6% as Chip Stocks Pull the Tech Basket Lower",
+      "snippet": "TipRanks, 2026-11-20T22:55:07+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-20T22:55:07+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.477,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0c4M0F1ejRWQ3lxWVlQVHNZRWFJOFp0N0xWMmUwbVozUXExd0llUndFTWwzNkc2WUpoQ196Qm5CYmpvU3NST0JMVTdDb1ZOc016WDJnUEFTZFJ2YXpsMnNUU2hpZG9XYnBFa2xaXzNCeDVyRXJOdnpuVnVwcFhCcnZrajZaY2d3ZHN4cnRNUHNPc2diRXRxVHE0cGE3bXM2elhvdldnOTdocXZyNGE5dnNpbw?oc=5",
+      "title": "Invesco QQQ (NASDAQ:QQQ) Stock Falls 5.6% - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-20T22:24:24+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T22:24:24+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IVZ/history",
+      "title": "IVZ daily price history (Yahoo Finance)",
+      "snippet": "close 28.34 on 2026-11-23",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

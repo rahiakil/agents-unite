@@ -353,7 +353,7 @@ Not investment advice. Synthetic demo data in `data/2026-06-05/` is illustrative
 MIT — see [LICENSE](LICENSE).
 
 <!-- LIVE:FOOTER_STAMP:START -->
-_Live sections last regenerated: **2026-11-27 23:00 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
+_Live sections last regenerated: **2026-11-27 23:04 UTC** · [`scripts/generate_readme.py`](scripts/generate_readme.py)_
 <!-- LIVE:FOOTER_STAMP:END -->
 
 <br>

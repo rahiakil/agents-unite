@@ -1,7 +1,7 @@
 name: Contributor Guard
 
 # Every push to a report branch + every PR to main from contributors.
-# Cloud-side trust: contributors cannot modify prompts, scripts, or CI —
+# Cloud-side trust: contributors cannot modify prompts, scripts, or CI,
 # only raw data for their assigned DATE/TICKER folder.
 on:
   pull_request:
@@ -32,7 +32,11 @@ jobs:
         run: |
           set -euo pipefail
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            echo "base=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_OUTPUT"
+            # Diff from the fork point, not the moving base tip. Otherwise files
+            # merged to main after this branch was cut look like branch changes.
+            PR_BASE="${{ github.event.pull_request.base.sha }}"
+            PR_HEAD="${{ github.event.pull_request.head.sha }}"
+            echo "base=$(git merge-base "$PR_BASE" "$PR_HEAD")" >> "$GITHUB_OUTPUT"
             echo "head=${{ github.event.pull_request.head.sha }}" >> "$GITHUB_OUTPUT"
             echo "branch=${{ github.head_ref }}" >> "$GITHUB_OUTPUT"
           else

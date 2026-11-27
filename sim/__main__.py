@@ -16,7 +16,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run the agents-unite trust study.")
     parser.add_argument("--days", type=int, default=6)
     parser.add_argument("--seed", type=int, default=20261121)
-    parser.add_argument("--start", default=None)
+    parser.add_argument(
+        "--start",
+        default=None,
+        help="First study day (YYYY-MM-DD) and the tape used to pick tickers. "
+        "Default: newest date with at least two sourced tickers.",
+    )
     parser.add_argument("--provider", default="rule")
     parser.add_argument("--llm-cap", type=int, default=0)
     parser.add_argument("--universe", choices=["liquid", "all"], default="liquid")

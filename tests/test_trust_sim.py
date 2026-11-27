@@ -29,7 +29,7 @@ from verify_report import classify_url, injection_reasons, normalize_url  # noqa
 
 from sim.archive import append_run, load_events  # noqa: E402
 from sim.harness import run_simulation  # noqa: E402
-from sim.market import liquid_tickers, load_panel  # noqa: E402
+from sim.market import latest_market_date, liquid_tickers, load_panel, study_market_date  # noqa: E402
 from sim.population import load_personas  # noqa: E402
 from sim.providers import select_provider  # noqa: E402
 from sim.summarize import check_summary  # noqa: E402
@@ -78,6 +78,51 @@ See the companion file for the URLs used in this note.
 
 - None identified
 """
+
+
+def _market_row(day: str, ticker: str, *, sources: int = 2) -> dict:
+    items = []
+    for index in range(sources):
+        kind = "news" if index % 2 == 0 else "reddit"
+        if kind == "news":
+            url = f"https://www.reuters.com/markets/{ticker.lower()}-{day}-{index}"
+        else:
+            url = f"https://www.reddit.com/r/stocks/comments/{ticker.lower()}{day.replace('-', '')}{index}"
+        items.append(
+            {
+                "type": kind,
+                "url": url,
+                "title": f"{ticker} session note {index}",
+                "tone": 0.25,
+            }
+        )
+    return {
+        "date": day,
+        "ticker": ticker,
+        "origin": "fixture",
+        "close": 100.0,
+        "prev_close": 99.0,
+        "change_pct": 1.0,
+        "volume": 2_000_000.0,
+        "ledger_sentiment": 0.2,
+        "news_tone": 0.25,
+        "social_tone": 0.1,
+        "sources": items,
+        "sector": "Technology",
+    }
+
+
+def _study(panel: dict, tmp: str, **kwargs):
+    return run_simulation(
+        seed=kwargs.pop("seed", 7),
+        days=kwargs.pop("days", 1),
+        panel=panel,
+        provider_name="rule",
+        outdir=Path(tmp),
+        modes=kwargs.pop("modes", ["news"]),
+        variant_paths=kwargs.pop("variant_paths", [REPO / "sim" / "prompts" / "baseline.md"]),
+        **kwargs,
+    )
 
 
 def _sources(folder: Path, name: str = "sources.alice.json") -> None:
@@ -317,11 +362,88 @@ class StudyTests(unittest.TestCase):
             self.assertEqual(len(load_events(history)), 2)
 
     def test_one_day_gates(self) -> None:
+        # Pin the tape. The live calendar tip is often a single persona filing.
         with tempfile.TemporaryDirectory() as tmp:
-            summary = run_simulation(seed=7, days=1, provider_name="rule", outdir=Path(tmp), modes=["news"], variant_paths=[REPO / "sim" / "prompts" / "baseline.md"])
+            summary = run_simulation(
+                seed=7,
+                days=1,
+                start="2026-11-20",
+                provider_name="rule",
+                outdir=Path(tmp),
+                modes=["news"],
+                variant_paths=[REPO / "sim" / "prompts" / "baseline.md"],
+            )
+        self.assertEqual(summary["start"], "2026-11-20")
+        self.assertEqual(summary["market_asof"], "2026-11-20")
         self.assertEqual(check_summary(summary), [])
         self.assertEqual(summary["false_accepts"], 0)
         self.assertEqual(summary["false_rejects"], 0)
+
+    def test_study_market_date_skips_thin_days(self) -> None:
+        panel = {
+            ("2026-04-01", "NVDA"): _market_row("2026-04-01", "NVDA"),
+            ("2026-04-01", "AAPL"): _market_row("2026-04-01", "AAPL"),
+            ("2026-04-01", "MSFT"): _market_row("2026-04-01", "MSFT"),
+            ("2026-04-02", "MSFT"): _market_row("2026-04-02", "MSFT", sources=1),
+            ("2026-04-02", "TSLA"): _market_row("2026-04-02", "TSLA", sources=1),
+            ("2026-04-03", "MRK"): _market_row("2026-04-03", "MRK"),
+        }
+        self.assertEqual(latest_market_date(panel), "2026-04-03")
+        self.assertEqual(study_market_date(panel), "2026-04-01")
+        self.assertEqual(study_market_date(dict(reversed(list(panel.items())))), "2026-04-01")
+        # Two sourced names are enough, even when an older day is wider.
+        wider = dict(panel)
+        wider[("2026-04-04", "NVDA")] = _market_row("2026-04-04", "NVDA")
+        wider[("2026-04-04", "ABBV")] = _market_row("2026-04-04", "ABBV")
+        self.assertEqual(study_market_date(wider), "2026-04-04")
+        self.assertIsNone(study_market_date({}))
+        self.assertIsNone(study_market_date({("2026-04-03", "MRK"): _market_row("2026-04-03", "MRK", sources=1)}))
+
+    def test_newest_single_ticker_day_does_not_abort(self) -> None:
+        panel = {
+            ("2026-04-01", "NVDA"): _market_row("2026-04-01", "NVDA"),
+            ("2026-04-01", "AAPL"): _market_row("2026-04-01", "AAPL"),
+            ("2026-04-02", "MRK"): _market_row("2026-04-02", "MRK"),
+        }
+        self.assertEqual(latest_market_date(panel), "2026-04-02")
+        self.assertEqual(liquid_tickers(panel, "2026-04-02"), ["MRK"])
+        with tempfile.TemporaryDirectory() as tmp:
+            summary = _study(panel, tmp)
+        self.assertEqual(summary["start"], "2026-04-01")
+        self.assertEqual(summary["market_asof"], "2026-04-01")
+        self.assertEqual(summary["tickers"], ["NVDA", "AAPL"])
+        self.assertEqual(check_summary(summary), [])
+        self.assertEqual(summary["false_accepts"], 0)
+        self.assertEqual(summary["false_rejects"], 0)
+
+    def test_explicit_start_ignores_a_newer_day(self) -> None:
+        panel = {
+            ("2026-04-01", "NVDA"): _market_row("2026-04-01", "NVDA"),
+            ("2026-04-01", "AAPL"): _market_row("2026-04-01", "AAPL"),
+            ("2026-04-03", "NVDA"): _market_row("2026-04-03", "NVDA"),
+            ("2026-04-03", "AAPL"): _market_row("2026-04-03", "AAPL"),
+            ("2026-04-03", "MSFT"): _market_row("2026-04-03", "MSFT"),
+            ("2026-04-03", "AMZN"): _market_row("2026-04-03", "AMZN"),
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            summary = _study(panel, tmp, start="2026-04-01")
+        self.assertEqual(summary["start"], "2026-04-01")
+        self.assertEqual(summary["market_asof"], "2026-04-01")
+        self.assertEqual(summary["tickers"], ["NVDA", "AAPL"])
+        self.assertEqual(check_summary(summary), [])
+
+    def test_explicit_one_ticker_start_still_requires_two(self) -> None:
+        panel = {("2026-04-02", "MRK"): _market_row("2026-04-02", "MRK")}
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(RuntimeError) as caught:
+                _study(panel, tmp, start="2026-04-02")
+        self.assertEqual(str(caught.exception), "need at least two tickers with sources")
+
+    def test_empty_panel_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(RuntimeError) as caught:
+                _study({}, tmp)
+        self.assertEqual(str(caught.exception), "market panel is empty")
 
 
 if __name__ == "__main__":

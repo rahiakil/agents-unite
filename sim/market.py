@@ -12,6 +12,11 @@ Personas read those. They do not invent a price when a real row exists.
 
 `python3 -m sim.market refresh` rebuilds a snapshot from a git ref that
 holds data/YYYY-MM-DD/TICKER/ batch files.
+
+`study_market_date` is the newest day with at least two tickers that
+each have two sources. The seeded study uses that day when the caller
+does not pass a start date. The run still starts when the calendar tip
+is a one-ticker persona filing. The same panel always yields the same day.
 """
 
 from __future__ import annotations
@@ -313,10 +318,41 @@ def snapshot_from_git(ref: str, dest: Path) -> int:
     return len(rows)
 
 
+def _has_two_sources(row: dict) -> bool:
+    return len(row.get("sources") or []) >= 2
+
+
+def sourced_tickers(panel: dict[tuple[str, str], dict], day: str) -> list[str]:
+    """Tickers on `day` whose row has at least two sources."""
+    return sorted(
+        ticker
+        for (row_day, ticker), row in panel.items()
+        if row_day == day and _has_two_sources(row)
+    )
+
+
+def study_market_date(panel: dict[tuple[str, str], dict], *, minimum: int = 2) -> str | None:
+    """Newest date with at least `minimum` tickers that each have two sources.
+
+    Persona agents file one ticker during the day, so the calendar tip is
+    often a single name. Assignment needs a wider tape. The study anchors
+    on the latest day that still clears this bar. The result is the maximum
+    eligible date, so one panel has one answer.
+    """
+    counts: dict[str, int] = {}
+    for (day, _ticker), row in panel.items():
+        if _has_two_sources(row):
+            counts[day] = counts.get(day, 0) + 1
+    eligible = [day for day, count in counts.items() if count >= minimum]
+    if not eligible:
+        return None
+    return max(eligible)
+
+
 def liquid_tickers(panel: dict[tuple[str, str], dict], day: str, limit: int = 8) -> list[str]:
     """High-volume names on `day` that also have at least two real sources."""
     preferred = ["NVDA", "AAPL", "MSFT", "AMZN", "META", "GOOGL", "TSLA", "AMD", "AVGO", "JPM"]
-    rows = [row for (date, _ticker), row in panel.items() if date == day and len(row.get("sources") or []) >= 2]
+    rows = [row for (date, _ticker), row in panel.items() if date == day and _has_two_sources(row)]
     by_ticker = {row["ticker"]: row for row in rows}
     chosen = [ticker for ticker in preferred if ticker in by_ticker]
     if len(chosen) < limit:
@@ -347,7 +383,16 @@ def main() -> int:
         print(f"wrote {count} tickers to {args.dest}")
         return 0
     panel = load_panel()
-    print(json.dumps({"rows": len(panel), "latest": latest_market_date(panel)}, indent=2))
+    print(
+        json.dumps(
+            {
+                "rows": len(panel),
+                "latest": latest_market_date(panel),
+                "study_date": study_market_date(panel),
+            },
+            indent=2,
+        )
+    )
     return 0
 
 

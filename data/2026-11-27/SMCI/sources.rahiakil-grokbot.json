@@ -1,0 +1,132 @@
+{
+  "ticker": "SMCI",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Supermicro\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 13,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWVA1ZzJvczE2NTF3SHdueng2N24tVHNjT2tOMVByUEI3M3ZjdEl0UG5DcV9RQVg4TTFDREFwTmxCd2cya0pGZDlLWXRrekVvTjljSXJiejdrOU5KWFBjYnhmZG40eU1VdVhyZzVzQ05LRlUzX3JYMUVPakdCajJPdld0MXRyUzZnV2lfYmNFMjQ?oc=5",
+      "title": "Supermicro aims for $82B revenue in 2027 despite legal risks, stock trades near 52-week low with modest upside.",
+      "snippet": "Pluang, 2026-11-27T15:23:52+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-27T15:23:52+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.213,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWc1a3ZhOUF5dkxkMkd0U3RvbFpfaUtmQ3JLYXMxTmtlem14TXQtUFhhUTZYTnBVMDhvRVVMcG5ibmgxcXN3WU9qQXFkWEV1M3Z1VGdUdFdSbGswUzNhZ0xJTHYycGVMOV9lR19ocU13cEdIZ2RTMXNOaXdSYmNPc0VLRTNtT0pGbkpJUzMxSnRwNXhuNnhwWFppOUpMdGxuanNjYmpxcG5xbGJhVnI0Q0R3?oc=5",
+      "title": "Supermicro\u2019s $80 Billion Sales Ambition Could Change Its Stock Outlook",
+      "snippet": "24/7 Wall St., 2026-11-27T15:03:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-27T15:03:00+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUU5HOXAyWDVZa0d3LURpX0d3U3pxZER0SWN6VHJtci1OTmpmU2U3RDFXRV95ZUxIc25qa0tLOV81N29odHV3czhzRmhQajUwM292M0xMMEtMMWN1MzZLTGpla1pDRUM3MHM2TnM0b2JuOUJrei05QmFhYlVWbElUN2p6bEp3ZXpfcTdKUzVjTG1xeF9KRG4xSFVLSkdfLWpWLWFlT0xJU2Fid1VTYjVfYzlKejZFbVF1ZjF5dEw1WQ?oc=5",
+      "title": "Nvidia, Dell and Supermicro Halt AI Server Shipments Amid New US Chip Export Controls",
+      "snippet": "CryptoRank, 2026-11-26T17:21:26+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-26T17:21:26+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uNTlReFVtY2dFalAzT2lqb1Z2Q01NOFpvZFZnNVUydEZuSTJnMXI5ZFBGVXVLR01kV2ExSzVKV2U4V2NNVGg5dEhpUFJKMXZkdk9pUmp3MzNkVk9qMnJhcVM0SUd4ZGFX?oc=5",
+      "title": "Super Micro Computer (NYSE:SMCI) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-26T16:02:30+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-26T16:02:30+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRlhPdXdlTzRVZDlaMTdYZ1FuWUVBNURJYktMbnRwcXItRU9lM2ZpLXkwaTduOUU3MDhhMF85Sm5PZkJGb1J3STg1WFBOemVlSmloQi1QMF9CaFhYU1BtbjZQVnVNd0EyR185UlE2YnJ0V1NlRnBjZmZucXBkUDVSd0lSbUhYUTAxV29MLWNwcmJmUHNEa1dDLXM4Y0lqajVETHRSVVZBUlJGbmlKVmdhWDJEMktCWlJyMVVfWUNMUQ?oc=5",
+      "title": "SMCI's Collaboration With Taiwanese Authorities Leads To Arrests - A Look At Jensen Huang's Advice To Super Micro",
+      "snippet": "Stocktwits, 2026-11-26T12:25:17+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-11-26T12:25:17+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcTdGOFpfTkxDWGJqTDgyaFM2ckN3RGluVE5XY3U0NlVyWU5HUGdpN29BT2E3ZTd6Vk94dmFuZmNWUkRHYXRuVUdXUHg1bFEzY0hZbXZKa2lJbDVocWdIODZMdlJteWpFdldIUmlQZXE4bFU4cEh6Q2lYRFQzaS1hY2xSbFROY1lfNGN0YkFUcXMyQURLQzFneXIxYUpZTExWSFJmcF8zWV9UcHNMU0dpdjRqMy1mUzFJSlg5VGVaQTMyN1JadmJEU9IBzgFBVV95cUxPWDJtVjJFX3hLU2dtWWd4S0lOUHNNbTlxOUk1U0lUTHN4Y2NVS1hZc1pVOWNsUVFLRENPYTFHOVkyNzNIOWw1VVprWmdzTWh2cVVVdDJRakg0WHdKamY2cHBvLWpFSnhlQTZNX0VZdEtqRm51dnk3akpsR1F1WTljWUdkd2xtX2EyWGgyWEdrUTdURmZoWlcxQU5zeTdlUGNXTnIyQVFIVGJnVE1nVDlBaHJGbFFxTmNRZml2dVk0Vzl5b0tJYVUxQk15Si1CZw?oc=5",
+      "title": "Shipment Halt Could Be A Big Test For Supermicro Stock",
+      "snippet": "Simply Wall St, 2026-11-26T12:13:08+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-26T12:13:08+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmR5a3M3WVVCM0xvX21MOU4zRXRpTFZrQXJ3S1FsQ1FNZXIxY256UUdJbHkzN0ttSm1JNmJRbDc1U3g0TEl3b0JTMU5mdzBVUi1oVnVPU0EtUy1uVzQ5emFsUmRTZTFBM2M5UHZEMGozeWFNSzBtTFpneTc1cmZyaVpFZGRhV0N0UUFzVHBKUENlRlRPS3BsTFVXcW4?oc=5",
+      "title": "Super Micro Computer (SMCI) Stock Looks Reasonable After A Sharp Pullback",
+      "snippet": "Yahoo Finance, 2026-11-25T18:12:36+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T18:12:36+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVRkxxUmlRUnRlSGRjQ3pFUjJSWDF5NlFKRURrcWRDbFduSFBQLUJyVHF5dnZpUDJncFNfSEFxS1prTkJXTTFIRU5hazQ5VVdOczEyaUx2WjhPazQ?oc=5",
+      "title": "NVDA vs SMCI stock comparison - side by side",
+      "snippet": "Quantisnow, 2026-11-25T08:51:48+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-25T08:51:48+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SMCI/history",
+      "title": "SMCI daily price history (Yahoo Finance)",
+      "snippet": "close 23.76 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

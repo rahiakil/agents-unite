@@ -1,0 +1,81 @@
+{
+  "ticker": "PODD",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Insulet\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSk5hY0xBVjg2eWhDQ3o0dHN0MW5lUlVjWHMyNGUwazJnTTVyaU1YT2FqZXVhOTN2RnhBYXRudFBaWGswdlZseDdtT1V4ak1Hd19TSXFQb3dhN3gxcXhabkRERHAyY3J3clZhTHVKNndzcDZyR2F6ejBidVliU1lRdV9Dam9TWm5sci1OMXg3YTVDUFBFeENHLTE2dHNvMlFiMzRvc2lHVV9TRFYwWkVOQ2xrSTNkeTh6V1gzTjFsczEtdw?oc=5",
+      "title": "Are Wall Street Analysts Predicting Insulet Corporation Stock Will Climb or Sink?",
+      "snippet": "Barchart.com, 2026-11-25T09:47:24+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-25T09:47:24+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTzZ5NzRJdElkanNHZHRfamV3ZzhZZXhNMWV6dGdrMVEySkNxZHNpbElHUllXUEF3cUpRbVNlNkg2UWdPa3E0dER1SGRXUi16WmRKZTlxT3IwV0E0Q2tKM2RVWmpBOXJkSEItRFlZSk12VVZNcFFJVzRNTjhiaEgweGZIZWFtdUFYTTROUXFkeFZSZUZJQU5jZVREeTRoUVNla1NjaFJpdFhUZ09xRDFQLVlXOEVuZUhacER0bnhiODJMSWd5?oc=5",
+      "title": "Michael R. Minogue Reports Ownership of 22,857 Shares After Joining Insulet Board",
+      "snippet": "Kalkine Media, 2026-11-25T02:20:13+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T02:20:13+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVnM4ME1ucHV1SmI0VDhsZkJxUkd3Ny1sYlhaYU96QlR3UVR1ck55aDlmQ3VxYU1fWkpvbWRDZ0lyUU5GdWdTWDd1Z1MzTkdqMWMza3Z3dXg0MUFzMDZVMXNpV0szOTItZUEzRzdDUDF4bThCUlppOFVDcEVwZUR5Tlh1bW5aYk1SNDNDZl84by1UV0d4T2RPZ3hmakx0cExOeUx4UWNhZGlQLXdnSVRXMzk5djE?oc=5",
+      "title": "Insulet Appoints New CFO and Reaffirms 2026 Financial Guidance",
+      "snippet": "TipRanks, 2026-11-24T21:38:36+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T21:38:36+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1145197/000119312526475638/d167441d8k.htm",
+      "title": "SEC 8-K filed 2026-11-24",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PODD/history",
+      "title": "PODD daily price history (Yahoo Finance)",
+      "snippet": "close 138.9 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

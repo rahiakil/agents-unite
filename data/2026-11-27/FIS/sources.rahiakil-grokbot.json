@@ -1,0 +1,84 @@
+{
+  "ticker": "FIS",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Fidelity National Information Services\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 7,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQR3lXZlBtVWdsbDM1c3ExdHNpWk5MOXdhZWU1VHpiYTJobUE0Zm1vMHJtVGhaNG51Y1BVclIyMENYQU9faThCN2hnWXNsWG9QanpITm9HdmZtSEtyWUd6YklyUkhPUUlfNkh4Q3pkbVk5anJrVm95SjJ6Y0N0VG9zbm1aU01xb3ZwNG9rek41N0QxZWJVZ3o1WF9ZYnlpMEJrVkRKT1VodnVrSnBBR2dfeDJGWl92eEZzODh0X2RadXk2UFNvZDNaZHNPUzJ1Mm5kd1VNdm16X3VfTkd6TmhzUm9QNlN6bEdpVWYzU2lneW5rQmswcGYwZnlnONIBgAJBVV95cUxOc1BtSWVEdncwWGFESTlvcWhZdzNEZGJWaEVJUFUzZ1RqOGZKWVpiYkVHNFExNDRwdW95enI2ZHFBMHowSElJTGJVWlp2VUkzOUF4cGhCdzlqS0JFTzRWaU5waTBUend2ME1tbWo2SFBWQkNFdWlubDVWRjJlMERBWWc4R0cycXRtelB3UDZYUl9oQzV4OVUtRVV0SkJQTmNvSkZhWUlSdG4xbW14SFpPd3ZTV0dqZ1NrbjN5cnozSDhEdkJMcm9sWGFFYy04YzZYNTFiS3dYeWtRUTZzTDRzcXpCUDhnZ2VDc2t4eENZZzhhVHowZzh2SWluTk1oV2pE?oc=5",
+      "title": "Fidelity National Information Services (FIS) Expands Its Card Platform, Is It Still 20% Below Fair Value?",
+      "snippet": "Simply Wall St, 2026-11-27T17:12:54+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-27T17:12:54+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5YdHRneXJzUk8tSnZ2UWRFSEU2cUJkaU5MLWZoLVFia1d1M05vVkg2aWRPc08yQ0FuMDl6b2VnN08zQi1tTlM4?oc=5",
+      "title": "Fidelity National Information Services Stock Price Forecast. Should You Buy FIS?",
+      "snippet": "StockInvest.us, 2026-11-25T22:45:12+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-25T22:45:12+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfN0NNR2QyT1NoUENGNzhjYXR6X2JpY2RycUVIdW5Wb1Y0djZzTm1SamxPTkxGUlJwdnhWYWM1cU1jVWNwbXB2ZG5ub01DNmhRdDhBREJLTUdyOVNFNDVjUWI0ZXRVNDN3M082ZUlsLTZMQnVYbWc?oc=5",
+      "title": "Fidelity National Information Services (FIS) Institutional Ownership 2026 $FIS",
+      "snippet": "MarketBeat, 2026-11-25T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T08:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNRm93aWdvamJ2YWZLd0dIN0RFa3RsS2JMRmpPZWk0Njh2UkNmRVVsaV91Q2ZfbnZBZm5GWWdENDU3T25mcGszR2lfRGZuc1BBcDNCNEU5SWptM0hBQVlReWM0QTBTdjMyRlptRVBBUG54MS1UdW5XWk9NVTJuaDBKMHM5bUlTSEZYMDVXZzE0a1owMHAxXzhfdW0zaEpNRkxna0g2aXU5N3RubkRucE41bGM1VmRFV1BicWh0Z1RJWVh4YjNfNHVTUHVkV0Y2WDJmY2EwS05oUXZQbGkySi1KWFc1YUZaeExkc1QyT2NkYjFDSUNBUGFJdW1JaVRrOEpuM3lxSmFUQ0dTN3dYUl9HTTEyVTVwWGVCTjRQX1F4OEFrMVI4SVE?oc=5",
+      "title": "A $1,500,000 Portfolio in Fidelity National Information Services, Broadstone Net Lease and Kraft Heinz Pays $96,293 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+      "snippet": "TIKR.com, 2026-11-24T23:48:45+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-24T23:48:45+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIS/history",
+      "title": "FIS daily price history (Yahoo Finance)",
+      "snippet": "close 28.21 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

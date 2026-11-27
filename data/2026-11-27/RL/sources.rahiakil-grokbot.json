@@ -1,0 +1,132 @@
+{
+  "ticker": "RL",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Ralph Lauren\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 45,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 26,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WWjVsc1Z0T21yYm1PMk40cGR3U3BMcE42aUdzUHdSZEV1by0zLWdEOFF4Zjh2X3dnMWp0dHpNN0s5VldoTUp3M3oxeTFwejdyRVdOdA?oc=5",
+      "title": "Polo Ralph Lauren Fleece Jacket \"Gray\"",
+      "snippet": "SNKRDUNK, 2026-11-27T17:26:11+00:00",
+      "publisher": "SNKRDUNK",
+      "published": "2026-11-27T17:26:11+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOEtNLWN6Qlo0UkdYVWlBOXloTGJjazg5djE5VHdod3VJNmRSMVRYZTYtbk5IVjBDMUZTUTNWMWVDOU1mN2Q4UW84QjZDZ3F6ejRhUWlTcUsyaWdIMzF1UVhXTlBXSFpVN0ZQc2NWMGQtTUxfMHZTWThPazBHR1h5a2Rjd3AtOFJwVS1kQmhzNkNBZlRuZ0oxaXlsQ1ZQdW9uUkVWRw?oc=5",
+      "title": "Are Wall Street Analysts Predicting Ralph Lauren Stock Will Climb or Sink?",
+      "snippet": "Yahoo Finance, 2026-11-26T13:09:53+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T13:09:53+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdWM4RUtHQjBrREpHT2o5cmlORlBpSjdtc2J3OG9LTWpoRENlWGNzdGYxb0xyZ3czcy11bE5Wd0lzVFB6alZTXzhmT1hpaU9TSFhjbGZTOFVSQzR5LUxFTlM4bU5QeUxxamJhX1IzTjdFMFUtdUphdGtlTEcxM1YxcVZzM0xCbXlXUV9oV0F3?oc=5",
+      "title": "Ralph Lauren Corporation (RL) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-26T09:39:33+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T09:39:33+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZjBlcEpRYml2MDBkTElZRm9jbWV5OXJ2ekVoR3BPV2RHczlYMFdlQWRFT0hYU1ktZWt0RV96bTY2QllVc250ckVXZXVjVU0yRkFpSFV6ZkEzUHZuTU81RFZGZ3g2amp5MmNEbjNmLWp1WmlvUU53OUdwNkNYR1VOanJEb3BSMGZELUU5dWhCNUJlY2QyQjFkeTgybkxjeTluQ2ZnVm9VbXA2aGFYOTZj?oc=5",
+      "title": "Form 144 Ralph Lauren Corporation For: 25 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-26T02:49:57+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-26T02:49:57+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVnMtZmpyMzQ3di14TDNvamZpV3Jtb0NZY29oc0pocWdxV29jeGN5UUsyMHJvMGx4c2dYM1VzY2x3T2xtRno1Z3hsaFhPTTRjRFJsMXNBb2NlaFVkNWJicUtFZk5PWGU1Qmt1Tjc3RVNJVHFRTG0zU1dHOFU5UFhTM2FzRTJUbTRUc0hxUDJmc0phbDZPQ3pvZFJKV3JDTmRkNW4yVzJRajh6VlhJZXVvU05Jc09xVHdxcG5QOGJrb3ppSW9RT2RacVd2LS0?oc=5",
+      "title": "Ralph Lauren Corp (RL) Insider Sale: Chief Product & Merch. Offi",
+      "snippet": "GuruFocus, 2026-11-26T00:49:05+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-26T00:49:05+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMTBkS2hPMFZ3ekJLcDFWVVNROW1xTnlzSWIxejhnVFVTREFHRXJVTDAxMmpGSGczdHRQNWtBcUJKWEFRbzZzbDlOU212My10VU5rQ3hCbS15aVFvNWtVZ0ZBMGswYl9XNlIxVFcyY0FjWmVrN2plYXBPTHNkeVB6b2hiejlaR2ZqM3gwOUx3SjNGWk02a2htRE1zVHU?oc=5",
+      "title": "Frank A. Bennack Jr. Plans to Sell 8,000 Ralph Lauren Shares",
+      "snippet": "kalkine.com, 2026-11-25T22:11:57+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-25T22:11:57+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMEpIQVZVeWx0MzBCNlA5VG9aN3lVQTlWaDEyTUlBMlZ4amg2a2RMeUNFSE5fNUsxMF9EaGVyU2VKWEg5UC1ham1PMjZkcnZ6bGlIVW82UDllYXp2TGtyZ2dGaVJ5S1hIS2c1MW1GSlk0RThCc3lZSGVyMV81dTUyMWhMRlh5T0R3RDJxRFFnV1VDZE84c3kxb21LczB6dHFRUDRPTUZ3TE9tWjRuUmpzbGpqOEpJc0k1V1BwSVZBVWgybkox?oc=5",
+      "title": "Halide Alagoz Offloads 1,936 Ralph Lauren Shares at $390 Each on November 24, 2026",
+      "snippet": "Kalkine Media, 2026-11-25T21:27:16+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T21:27:16+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejNjMmttODdUUGhIY3RJQmgwVWVjSUZnTlpnd3pNaThCbktWSFB3WU8tMklsMk5kZnQ1WHVVeWtHbnhRQzNiV0gxbkxVdExNMUxiUG9yR1ZnYzJXUEp2SE5jVENLWXd1QlRIbk9KaXlsV0hTVG50SV9JZkpmbXJsSTk4RUtFMTFybG1vTGs2U1JhNDJQRGJIUkhFclB5bTF0TFBrUA?oc=5",
+      "title": "Zacks.com featured highlights include Brinker International, Ralph Lauren, Stride and Cardinal Health",
+      "snippet": "Yahoo Finance, 2026-11-25T16:11:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T16:11:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RL/history",
+      "title": "RL daily price history (Yahoo Finance)",
+      "snippet": "close 399.88 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

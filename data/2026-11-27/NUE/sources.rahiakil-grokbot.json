@@ -1,0 +1,120 @@
+{
+  "ticker": "NUE",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Nucor\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPemVoZWl3X1VJTnNFTk5QbFlTQUJIR0FETlA0YTRMOUFaNFhFOVJfYWVXZ0t6R096c3dtUklvcDRNTW9lLTlkekNUaEdFRFFmcDVaRDZ1RlRVbEo1SGstQkY0NkhzdzkxR0hwOHNLTUczNWVxTEpBb055QUxxZ2hzcVFSRGlKcUo2YWsxekh3MA?oc=5",
+      "title": "Nucor stock climbs while upward move is capped by weak momentum",
+      "snippet": "Traders Union, 2026-11-27T15:13:33+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-27T15:13:33+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZEszNDZmMnBSRjVjOUlYNEhzVGNxcV9kVUhTTnJGTVh1WmVBalFRZjdfem14TjB1ZHpXV1R2Znc3UEpnNGVuRFh5N09vRkJ4dzN0bGRiUVBHQmczTlV0c1BrUHRMUzhWVGdWVXN2VjdSU19GTTlaWnhrVkpfVm0zZDFlaDkwY3V1OUc5YjQ3RTNqSkNtbDlzd3U5am5sNFpQWHVQY3BzdTNZS3BYbkFOTHhoVVFJLWNOV0JONGNqQk5vVUFwNG9VdmthTkVfYVE?oc=5",
+      "title": "Nucor (NYSE:NUE): A GARP Steel Stock With Sustainable Growth and a Strong Balance Sheet",
+      "snippet": "ChartMill, 2026-11-26T13:11:14+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-26T13:11:14+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVTJJZXZjLWk2U3V5dVp5ekVWMEcteVBWUnlvU0hHV0Y2UUNXUENvQzZTXzVZS0lMU3pSdGpTTTJOMFVscDQwNmdrWVAtZzlQYnR1SWxvckJfZEFGTU15YWR6S1NicTFCWEQ5aTNkVGRVZjVVOHJaNzZKNXdQaDF0enpERTllTkVERi1kT3hfX0ZQdk52RGFzQkZOaFJsUENYZWJBcDJ4R3FMLUxFVGpKcTZUbjlva2FJ0gG-AUFVX3lxTFBhUjYyTHBtWGZyS0pheGlYYk1uX2ZHTEQ3NjNtd0ZGV3phRk9MbVA5dFlLWHBtUGhoT1JVb0tCenV6dU56d1g5dmpaa1NuNEI5cnU4NHNuWkI0YVZ6Nm8yRldYem8za3UwSkdtSEdjcUpuQmJWR2hoV0xfeU1rcVRPdl9TcF9MbjZLZ0hDcDczOTdFX3JiWDVsUWpVNjhqMVg1bjBhNVlLSXVvSk8tUk9jUDAyRzZKMXJ3WmNVekE?oc=5",
+      "title": "How New Sheet Mill Capacity Will Impact Nucor (NUE) Stock",
+      "snippet": "Simply Wall St, 2026-11-26T04:41:56+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-26T04:41:56+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQS1TU3BLbktNV3pwY2VGNF9FTlA0Wkl2aTJmUHdieXlYQmlkdUdxNHBEdTRTbUZfaW9UYms5YklXczlhX0k4OVU5SEhMbmt6TC02S2lHMm1DOU93RkpLQlJKR3A3VGVfS3J6bEpybWlyRHNGamRqcFVCVkJQSXd1RDVUVDlZUFd3YTVQcXp2S1Btc1RlTWZyRTJGbkU5NTZScHlSUVVVOU9pRG9DUVh6UWwwb1poRnRtZ0RQazg2dGRJZnpQVXR0TF8tTzZaamJQMkd6S1c3emU1bTdJQlpIRFR0UQ?oc=5",
+      "title": "Nucor (NUE): New Buy Recommendation for This Basic Materials Giant",
+      "snippet": "The Globe and Mail, 2026-11-25T17:42:18+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-25T17:42:18+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ0xSemw0dEZ1TzMwajFkdkhwVFlaMmJjTkNsOU9YdDNFSVo1T1Awb1hlTEEwLWhSME5CS3ZPR2dGZjNMQlBqR1BUYmRQTjdNMjBPX3hQdnhXSnhwSEJHX0RadWlQR3dtRjRZc0Job3B0RlBxY0lRWW81bm5DM212SzFJOTJyODVSeWJxUHRWU21ZRXpUbFRkQldmejFxeHI0dURfZkRoUF85Y0phQl9TVUVWbUUtQWI3b0NXME5WVmM0djFwZVE?oc=5",
+      "title": "Nucor stock: Bank of America keeps Buy rating, sets USD 300 target",
+      "snippet": "ad-hoc-news.de, 2026-11-25T15:00:43+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-25T15:00:43+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbUVNeWUxeS04eVdjXzZialh1OTNzcUZfM1A3Q09QcnB6cUtwcnRNUlNXU21teDRsejllNDBHNGt5SVRRbXh2TXZuTW1qTmxlR2xZMVVyMUlINENyclJmZkdiYXBTMnJnZ3AtX1haX2Y0NjZTRVp4R0E3ZHdpWmtiV05UaUlWLXNWSmFsMk1wNU8zU0hONGFhVWpIU0xwenNXM18yY25yYXV1dkRDdkZZWDFKejJYbWNxeEUtNllIYw?oc=5",
+      "title": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+      "snippet": "TradingView, 2026-11-25T12:23:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T12:23:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Rd3FtUm9TY2xKSDRaZVVFd0VpRmg1VXRDUkxvVjZua2NvOEhBdzNkRmFrSGw3ejI5OUstSGxtOWllbDlTbl9MclI4Uk5oM3ZjWEY5TnZ6OFUxekt3OWlqbnh4M1o3Nm45N2FwS0xfeWkyNEFhcUtDTFJHLTE?oc=5",
+      "title": "Top Nucor (NUE) Competitors 2026",
+      "snippet": "MarketBeat, 2026-11-25T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T08:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NUE/history",
+      "title": "NUE daily price history (Yahoo Finance)",
+      "snippet": "close 256.75 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "ticker": "BF.B",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Brown-Forman\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVg5QWtHYlo1UHlHY1NOSk1IdzZ5Mzc4RDZWdkprS0VBM2ZyMDhHZ2IzRUctSTJzWDNJOWN3UlpPUl9CYVRyQmpBYlV5enR1dVJ2RjBLTzlpLTBzaHhTaXZBRXEwcWxBcFRVMUZ5OWwtZElaVHN0REFKWlU4VjNzWW9XVDRDVmk3dGN3eU54ZnRuXzRfX0l3NG9icFFVdlQ3eWFaSk5ab3Y2MHUtaEtIRFRCN2lNUWpaSFFLTA?oc=5",
+      "title": "Brown-Forman Q2 Earnings Preview: Are Trends Favorable for a Beat?",
+      "snippet": "TradingView, 2026-11-26T13:53:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-26T13:53:00+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVWt3bzIxaWNhWFZzeE9WVzVrRGo4S2U1Wi1sVFdIUW4yU09TdVBjRGhkT0tiOVRhMW1fY1Y4OGMwRFUtRmV3UFVPX2hlN0tUVG5adllVUWxYVXZfNUJ4cXc2eXJ5ZkVOc3lNdHdXa00tUVd1dkpoaU5jVjRRQ2VBTWRHSzBvaTM3SWVqbmJ3dV9hOFRxX253QndNd1ZjSjdkYm5VTFp3cWRsMVlFZ2ZaZWpWZTU?oc=5",
+      "title": "Brown-Forman stock: Board raises quarterly dividend by 2%",
+      "snippet": "ad-hoc-news.de, 2026-11-26T00:11:04+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-26T00:11:04+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BF-B/history",
+      "title": "BF.B daily price history (Yahoo Finance)",
+      "snippet": "close 29.28 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

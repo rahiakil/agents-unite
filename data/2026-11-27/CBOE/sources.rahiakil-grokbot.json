@@ -1,0 +1,96 @@
+{
+  "ticker": "CBOE",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Cboe Global Markets\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 13,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFNiNDhfLTI4Uk9xbnhWVDdHRFAwUVFYeExZaFZINkc5YjlEazAtTV9kd0ZUc2ExM3VxdlFURHFZUEtlalVuakk1bFh5V1hKcWpMRzFWVkhEYmlDSE9ZSm43WUNCZDFVWGdfb3ZpaWpkTWEyUUV4a1JVQklNM1R1ZTBzQ3BCUWNNWGFab0RkYzVPOGZDNjFsUzhxTjBvd0VYdFM5UU9uMk9RTk1vX3JNR2YwZm1iNlFsdkE4?oc=5",
+      "title": "CBOE Bets on Prediction Markets to Broaden Its Retail Footprint",
+      "snippet": "TradingView, 2026-11-27T15:41:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-27T15:41:00+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYm9ZZmZvM3loelRWcEJwN3NtZWNseUdWYms4dHQwVEE0enN5OXFkNFRvcTFsNzc0QndheU5TVDlBSTYxRElzeE9STG10X0ZPZmNHZ3d0a2tWUENQMFlDMGE1R1pVZ3FELURPWnlsQldFWnFJYUtLN1NYdzBaMkVvQ2g5VW9obDY5aDBGb3pvSHBIeVJYUTJscEhmWnhVTlZKV0taM0NzZ0I3Z0U?oc=5",
+      "title": "Form 4 Cboe Global Markets Inc For: 26 November By Investing.com",
+      "snippet": "Investing.com South Africa, 2026-11-27T08:39:45+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-11-27T08:39:45+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNSVBOSmt2UmthaWRHR29kNjZLbVF4Rm9LYllRT1U0aVlpT19MSzJhMTJEa042QVR6dTFmRkI2d2FrWHJScXZWYTcyOUlMYUJiTmtaYkd0N3BfbHNxNVdtM0N6UlpFYVZKN1VZdm43dXhSMlRDTnp4bl9kbWtTOVlTX3J2c3h2TFBNTi1FUmZGOVp3X01mZm1qTU03SUg5OVJGTlRFS1k2R3FlWlJXWUlXM1RQanJlcGE2d243TDgwY0c3ZGp0a0M0Zl9ldGlBT1kwSVhxY0RYTDRUYW1jc3FqYUlvTm1DZ0lQTWRGam9UMHE5Z0RNRzN2TnNvcFlEdHhzaTBfb0JXMENkb2VFaTRaSmczVW51cTFnLVNRV0s4REpfWmMtU0tjNnJQVkRHWERFWFFsNldMdWkza2w5em9j?oc=5",
+      "title": "Does a 75.4% Combined Ratio at Kinsale Capital Group (NYSE:KNSL) Leave Plenty of Room for Its Dividend, and Where Do Allstate (NYSE:ALL), RLI (NYSE:RLI) and Cboe Global Markets (CBOE:CBOE) Stand?",
+      "snippet": "kalkine.ca, 2026-11-25T20:18:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-25T20:18:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMmRWOWo4LXJHeTM5OFl2dWl5eFZtNFI2Rkx1TEZJUDI4RWxjS09Yd1RqX0JOUWctazR1dmNkX1FOcW1DWmJxREFlcXpnZHh1dk5IMmdjY3pJc19RQTMxVFlCeU45LVNuQUpwblB5SEh0THJsVWF3d184V0QzWmw3cG82ZWp5Wjd4djB2dUpyTkl3RFJQd3VKYmVhUEdLSEFRZTdCVEJXcVhBVlNBd1hGT0dRanZKWEpJc3JRUXVsXzQ5QUpuNnQ5V3duWE9TOVU?oc=5",
+      "title": "Cboe Global Markets (CBOE) Clear Europe Exceeds 1.5B Equity Trades in 2026",
+      "snippet": "TradingView, 2026-11-25T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T08:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFFKaFhZVldVQkNTd2k3dVdKT3FQRlFjNFpVYkpGTTc1UDE5eU5BUmtYU0l4dkFueHhvNzVnSXlDS1FhcGJBSzduRGZqOFJVU2pLa3N6Qkp2c0o3Wk5jYm1SMktQZkY1OEFKNlVBa1lFaFotOEpyR3NDcm0xVEZyN2NNeGFZUjh4NFd2Y2NScV9CS0tJMW9pZEtMNTczaXgxMFdra1pnY1g5aEE?oc=5",
+      "title": "Cboe Global Markets, Inc. (CBOE) Stock: Surges Nearly 3% as New KPI Binary Options Launch",
+      "snippet": "Blockonomi, 2026-11-24T20:21:52+00:00",
+      "publisher": "Blockonomi",
+      "published": "2026-11-24T20:21:52+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBOE/history",
+      "title": "CBOE daily price history (Yahoo Finance)",
+      "snippet": "close 351.12 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

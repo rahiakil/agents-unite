@@ -1,0 +1,120 @@
+{
+  "ticker": "DRI",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"Darden Restaurants\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCc2xIbUk2YUZickpxeHlVSWxHeW1UOUlQU0R0MzExb21VT1hBa0pjQ1RoM09ENHJyZ2Z6RHdEbHhUVDkwbzhaRWotM3JuTnhMc0RCdU44aXJQRng4YnFv?oc=5",
+      "title": "Darden Restaurants Inc (DDN.HA) Stock Major Holders - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-11-27T04:28:07+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-27T04:28:07+00:00",
+      "published_date": "2026-11-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRDZpZS1TMFB1UFBrWkJIS0pkUFV3VWsyUklrQzJFS2pTZE5RcloxU0hGcUdNM0V0WURRSHJIWDhTUnhjVzJRa1hVVzA2MlVyMVVZdzJsN0lhOGFvZjRaQXp2clBTRkk2T0s0c28wNzRweEN2T1cyend6eTU4bVc3TXg5VTZ2RWxrQVotaWRqT3N5dDNHN1Nzdjg4M1UxX0tkaExDYXZPQXc5dEF6TWpfbVYtbWhCb1JOYWVVeVNNVmxkSzJfQVVB?oc=5",
+      "title": "Mizuho lifts Darden Restaurants stock target on Olive Garden strength",
+      "snippet": "ad-hoc-news.de, 2026-11-26T00:07:17+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-26T00:07:17+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VRnlraHpLd0tfdGdTN0ZvWS1sTGNOMFRoTC1qX2kwNU5ucUIxdGZEcG1oSkUyVGZLWm9vcTVhZHhodmFhcTBDZFNQU0p4UUU?oc=5",
+      "title": "DDN.HA Interactive Stock Chart | DARDEN RESTAURANTS INC. R Stock",
+      "snippet": "Yahoo Finance, 2026-11-25T21:55:40+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T21:55:40+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLThUeS1iUWNLNzRvTXREMk13ZlVXLXVYUWFGTGxJQTJEUFVHOHRIdG0zTU9FblJ0ODd0WWxYNEJCMDZUOVdqWUZBVjhrSE90ZWliTDJaUHhLMm5tT1FIbWw1UmEtb3Rab1d6azJmQ0c2MUFHWmNMM2x2clVfMXAyc2Q2V2xWOTRpbXZKRVZ0cEU0b1BRaGUtN051b2lvQVhxRXUzajBjcXpBbHM5SURDWjFB?oc=5",
+      "title": "Darden Restaurants stock hits all-time high at 240.32 USD",
+      "snippet": "Investing.com, 2026-11-25T04:03:56+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-25T04:03:56+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSW42NGp4dDVGbEZfWUdLRXBKbWZYTmpMOHREaXJzcmFLeDZ6T1YwQlpQRXE1RlV4NDE0MnRvZnJJT3hoOTJQOXl0ODcxeFJTdmppSmtYdUdHOVl3SWZvbDdFUUlPVGszU2hwVXZzdzhNWURHWlRUei1RRHJnNjB3V05RS0xwb1c1OVV2aDhlS0phS0VPcV9ZWnd1T0ctSVI0OVp0WmV6S29NM1N0LTIyRUZKT0VzRERYeTllM3FORll2VWx4bk1VYlJ2OXIwYTA?oc=5",
+      "title": "Darden Restaurants Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-24T22:01:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T22:01:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMjhLSGw0NlEwRzU2d1dvQlZzYjBSeVJRSnFZdE5OYlV4eUF6bDNOVkMyeEpVUDhkdmk2QjhNU0lCcmpCdDJ2WGxRaWtjXzVOZ0pRR3VFSlpnQ2QzSUcyT1lraG9vbkNhV0o0WTV5VU5yaHk0bFB0cUJkMVpQUFNPMGNJU3pCMkdQQ29Bd0d0UkFaXzJfX2lMTmhSRVZLNzNFNENTcXNsdEpMaVdWZE1zcWEtWUVyS3o0TGxkVFpZWDlRQXAzNk00bGx0SmpLMWFs?oc=5",
+      "title": "Darden Restaurants (NYSE:DRI) Sets New 52-Week High Following Analyst Upgrade",
+      "snippet": "MarketBeat, 2026-11-24T21:44:19+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T21:44:19+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DQlpxWFNSLXRrWXlrY1B1b3JGWUZfXzA4cHkzRDQtb29rekdfWXZBOHptOFVQWGk3SEVTX19yOURXSmdoUHlzcEdlaHd5LTRhSFYxcFRLWmFaYVNEb1dPbDRB?oc=5",
+      "title": "Darden Restaurants (DRI) Stock Forecast and Price Target 2026 $DRI",
+      "snippet": "MarketBeat, 2026-11-24T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DRI/history",
+      "title": "DRI daily price history (Yahoo Finance)",
+      "snippet": "close 243.26 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

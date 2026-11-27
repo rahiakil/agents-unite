@@ -1,0 +1,117 @@
+{
+  "ticker": "CF",
+  "date": "2026-11-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": false,
+  "as_of": "2026-11-27",
+  "news_cutoff": "2026-11-27T18:00:00Z",
+  "generated_at": "2026-11-27T23:07:19Z",
+  "collected_at": "2026-11-27T23:07:19Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "news_query": "\"CF Industries\" stock after:2026-11-23 before:2026-11-28",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 9,
+    "irrelevant_or_spam": 1,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZXppREExdjZZbS1SNzh0WWx0cjFtaXp1OExwMGRtLXRKaWNwTGZ0U29hdjhqMjlpNHlLTlhnQS1UQTU1bGM0aGJ0Q3FGeV9aT2x2a3pLYlgyNGlKOFpzWEFKZ2otUnNqaHRyb0REek1DOE5ZMjhrelFfWmkwRFV6TmdsY05wUk5pTnZqeWdiSjZveHluZktuaHNVTmg4cVR0VFVUamJJai1SOWpWS2JhT0lUWXpOeWswcFQzakJ3cGdPZjFKUTNTX21nWFpTSXF3ZHJzdGtFY1JGX2pp?oc=5",
+      "title": "CF Industries stock price target raised to $163 by Bernstein SocGen on Faustina deal",
+      "snippet": "Investing.com UK, 2026-11-27T13:30:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-27T13:30:00+00:00",
+      "published_date": "2026-11-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYWllOTNfNXdSQjl0M3B5ZVRqV0N6MXFyZ3Y1SURhRFVoclctUXBMdzZkZFdBU2VQQy1DcnlpUExWYWlmS3hYMWRER0FFb2ZIMmtoajFiZl9sU0NpajBIZ1NQUGdpR3duTFBwQnI3RUxpcjFYMU51SXJRSTluNG1QLWdRNFlhNVBRR1hDalRPRQ?oc=5",
+      "title": "CF Industries Holdings, Inc. (CF) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-26T03:44:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-26T03:44:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HR2NEbWFKcng3Q0hNWThwSk90SWtYV2RQMUdzcVpUdks0dFNoYmFuN1BNdV9WSVBwZHcxRUFQSG1MbDEtajBFcktjcU84a2dsMGl6dFF4RElCSm12UEwzOEpwbWdlS2J4OTZGaUln?oc=5",
+      "title": "Cf Industries Holdings (CF) Q3 2026 Earnings Report - Results, Call & Slides",
+      "snippet": "TipRanks, 2026-11-24T22:29:48+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T22:29:48+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWUNvV01sOGg3emx6VlBQbWUyT0gwRTQwcnA2QnNaWHRqaGRDazRYT3BOUEM0TmZobHc5YTNiSVRNa1hFVzhhNEdzMkd4dHp1M0FtSDl4UWNPUTQwS3ZSemg5OVdyaURpVjRybFFuamZYYUxNa2hRVXdEZTFFZ1h1YnNVMW9PUUsyZE93VFJrMXhTN2VNdzdUMVRmRFVNYzBhMlR6NldPTkh1UQ?oc=5",
+      "title": "Form 8K CF Industries Holding For: 24 November By Investing.com",
+      "snippet": "Investing.com India, 2026-11-24T20:26:43+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-24T20:26:43+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYkdvMUVBZExNcFMyMldzcXgxenhiY0NiYkJnVDFLcXotMGc4dXhYTW41SXhSR19KUmhzbDJoVWR2ODVFVzlpUm9hRm1RX1RBeFk4VmJOTi1pM2k0N2Z2ck9fZVY1blJJSEhRRktJY29waTdrWGg0bnhidTRJZHVYS2lDNzZIaGRHdl9HeDVIOVJ4bG1ZYlZ2VFFBb2ZGQl9qZGQ3a1NtYTcxTENVeFF4QWxRdUFKbU0?oc=5",
+      "title": "CF Industries Announces Acquisition of Mosaic\u2019s Faustina Facility",
+      "snippet": "TipRanks, 2026-11-24T20:17:39+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T20:17:39+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QcThkNlFoTWxIZDZwTHJ1M3B3LTFUV0lDTk0zZ3ZOSExEYlVvMVM3VXM1ejl4eVpneUlDaHdTR2RsVnV2N0lkbA?oc=5",
+      "title": "CF Industries Holdings Inc (CF) Stock Price, Quote, News & History",
+      "snippet": "Benzinga, 2026-11-24T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465926131497/tm2630563d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-24",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CF/history",
+      "title": "CF daily price history (Yahoo Finance)",
+      "snippet": "close 119.5 on 2026-11-27",
+      "published_date": "2026-11-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

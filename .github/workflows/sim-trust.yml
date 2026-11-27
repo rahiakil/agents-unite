@@ -18,5 +18,6 @@ jobs:
       - name: Unit tests
         run: python3 -m unittest discover -s tests -v
 
+      # Start day defaults to the newest date with at least two sourced tickers.
       - name: Seeded study
         run: python3 -m sim --days 6 --provider rule --check --outdir /tmp/sim-ci

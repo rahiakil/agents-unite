@@ -30,7 +30,7 @@ from validate_report import validate_consensus, validate_submitter_report  # noq
 from verify_report import eligibility_vote, normalize_url, verdict_for_report  # noqa: E402
 
 from sim.generate import PUMP_BEHAVIORS, render_attempt
-from sim.market import liquid_tickers, load_panel, latest_market_date
+from sim.market import liquid_tickers, load_panel, sourced_tickers, study_market_date
 from sim.metrics import Metrics
 from sim.population import load_personas, prompt_variants
 from sim.providers import parse_model_score, select_provider
@@ -128,16 +128,27 @@ def run_simulation(
     modes: list[str] | None = None,
     variant_paths: list[Path] | None = None,
     extra_market: list[Path] | None = None,
+    panel: dict | None = None,
 ) -> dict:
-    """Run the study. Returns the summary dict. Writes metrics under outdir."""
+    """Run the study. Returns the summary dict. Writes metrics under outdir.
+
+    When `start` is omitted, the tape is the newest date with at least two
+    tickers that have two sources. A one-ticker persona day on the calendar
+    tip is skipped. An explicit `start` is the tape as well as the first
+    calendar day, and it still needs two sourced tickers.
+    """
     outdir = outdir or (REPO_ROOT / "sim")
-    panel = load_panel(*(extra_market or []))
-    asof = latest_market_date(panel)
-    if asof is None:
+    if panel is None:
+        panel = load_panel(*(extra_market or []))
+    if not panel:
         raise RuntimeError("market panel is empty")
-    start = start or asof
+    if start is None:
+        start = study_market_date(panel)
+    asof = start
+    if not asof:
+        raise RuntimeError("need at least two tickers with sources")
     if universe == "all":
-        tickers = sorted({ticker for (day, ticker) in panel if day == asof and len(panel[(day, ticker)].get("sources") or []) >= 2})
+        tickers = sourced_tickers(panel, asof)
     else:
         tickers = liquid_tickers(panel, asof, limit=8)
     if len(tickers) < 2:

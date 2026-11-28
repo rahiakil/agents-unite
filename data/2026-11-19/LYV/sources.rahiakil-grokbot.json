@@ -1,0 +1,85 @@
+{
+  "ticker": "LYV",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Live Nation Entertainment\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLTE2dTlmbF9Fb2E4UEtUOXlXVURnTV94R3dJSVBfeDRSQkhhWXZxUGtaRHJ6dy16SGFJS21pTVd1TWE5WHpfLUJzcG9NUWthZ2NjMW1reUdBZnRLWVdkb2c1ZkM2eVFJVFBfWmt6Rld2TXJFeUxhUnlyaXJocjBVUkJReGZSQU1FVHR5M3BkLUJBekVsUGs0RlhJQy1TZ2taT2xvX1R6YUVWeEVEWFlyUENvMFBPY2FLM1E3UlRkTFo0RThoeGxB?oc=5",
+      "title": "Zacks Research Upgrades Live Nation Entertainment (NYSE:LYV) to Hold",
+      "snippet": "MarketBeat, 2026-11-19T13:02:57+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-19T13:02:57+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbG1LTnRKOExyajRmd1FIbUtjTHRxc1BUdEZPNUpWRGxhRTBaZjAxeTctSHZOakZCWDc4elZOc1FPY1VYRE95VG5rNzU5Z1NMMmpqTWZjeHFzN3FlcFNtQ3lNeFdkVlFJZjBtaXRnUEYzRjctZ2otd1l4MFBDdTY5Z1RtQ3BqYU9WdGR6ZzNlMA?oc=5",
+      "title": "Live Nation Entertainment, Inc. (LYV) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQWhRdTRQZ3hzWVZ3Slh6NmhoZ2JITGVoUG5tcEk4S25qLVJ6OW1JTDAwLXJDRk43THFEQmNmRkdWN3hIZ0JTaldaLXNuSWl6STJDSGNrWkZQUXNFd0pKNnU3ZUEyMDJBVVVQZVdVcHF6Q3NReEhEOERMOVFtWXUzZjVCQl83c1R4TDRoQzVlb2lQWDFOTEN2OVJBXzdzbkdJZi1ocjA4V1RDb0NBdEZ5SkxEaFZYa014bHhha3lCeVhYVTVUbzhnVWpEdDdDbHdKa1FR0gHYAUFVX3lxTE5GWWhkZG1hWWRjOXJpQkxpYzVjQU5zR3NJaF8xcmZnOXJPdkpsSG1zTUxmTThERzFxWHV6TmdCenpBbFROSkZMYWNmYXdNNjBQRkNwNG14SzRSWXFlUW8xNjlQU0RJdi1kdHp4NXIyZlMtamdBbk5QcF9WUElxNGZ5LW1BR2o1WkF0bWhLSjlfUlhtWEhlYTg0ZDRUMzJOUkdOYlVEZUo4X1dHUnVQM0hfY294WFVTMUs2UVp6VWpEQnlJenJzTWpfcXFIWjN3alhyWUduUG9SaQ?oc=5",
+      "title": "Learn Why The Bull Case For Live Nation Entertainment Stock Could Change Following Earnings Growth",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblAxNkZ3TVc1dXYtZXQ2b3E5bUc5ejlHeUpBNS1mME1vU1M1Y3RSSENsTTN3cjN6MHFQa2JhNGVka1pKY0lRSFpkbm55cUoyaHFmSk90U2I2WldIcWNjTXQ1TW9sMFlQOUl1SzczRGJpV0U5bVpCMUw0N1I3cHlmcXFkQlJnYVN1bWxyYWpHc09EUXBSUDR4dXJfdzZRX2o0N3ltUkY4NlNOOTlKSE54ZkFGdDc5NThPSmtlMXN1SFdjU1FuMHVqcXBrMVFYdw?oc=5",
+      "title": "Here's How Much $100 Invested In Live Nation Entertainment 15 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-16T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYV/history",
+      "title": "LYV daily price history (Yahoo Finance)",
+      "snippet": "close 179.16 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

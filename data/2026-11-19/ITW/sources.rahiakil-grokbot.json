@@ -1,0 +1,49 @@
+{
+  "ticker": "ITW",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illinois Tool Works\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUmRTODRKN3RBU2ZOclFJaGtGd2xUSnlhWnllb205a1BzYVd0S2YwRXFuX1hwOXhFOEFhTFRvZlVEWEcwVVQ5aHB5SjZvV2xrMkZCQnBtWDNNWU85SEkxVGt2SDZRaWpWRExkWEtJakhpWWZLNkpEVzRCakNIaWR2UU44OXYybG04RV83UkJVTUdyMFY1V3ZsRDRSTWN3MjEzNWhMMnZ4NA?oc=5",
+      "title": "Can Illinois Tool Works (NYSE:ITW) Build On Its Latest Update?",
+      "snippet": "Kalkine Media, 2026-11-17T17:59:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-17T17:59:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ITW/history",
+      "title": "ITW daily price history (Yahoo Finance)",
+      "snippet": "close 276.89 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

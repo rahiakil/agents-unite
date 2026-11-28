@@ -1,0 +1,49 @@
+{
+  "ticker": "WRB",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"W. R. Berkley\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcmRXd29NLWFlblBURkZndDFqdDE2M2JieHJ3R0ZpLTNwZHBVNGZBMnd4Q1lwSC01TlV2dVpLWE1qV0JVLWlDUUZNOElRZXFTQklhTUFqS252bGs2ZEtGeXYxU0xtMkR1OGdOblplQkJpVWsya3gtRkFUWGNoVlI5NnFlSjl4VUgyYlVTQw?oc=5",
+      "title": "Why Is W.R. Berkley (WRB) Up 6% Since Last Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WRB/history",
+      "title": "WRB daily price history (Yahoo Finance)",
+      "snippet": "close 77.4 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

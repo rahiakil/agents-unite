@@ -1,0 +1,61 @@
+{
+  "ticker": "GPC",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Genuine Parts\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTXdpNzNfVmFiOThzeklqaW5jT2p6VkpIVUxMaUxmM0VtbkZzdjhfc3hXT0lTOU5fN1VHeE1Vd0kySE1qS2k1dFNTNTA3MVozTkFPZlAwc01oTnVPTWJtNmtOQmMxOGhjdEpfLVY4NDl2TjdKRWF4NXU4V2xIbU9mLTVvLVUtTmVtSnc?oc=5",
+      "title": "Who Owns Genuine Parts Company? 15 Major GPC Shareholders",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS0F0XzJ2RTdsSzh0M3hRcHlpNDBRZ3BFVHpsT1RaZ1djd01fbUNGTnZzdldoUlpYNU55MmNVVWdxOG0yX0k2QTZLOUFkRzB3WlcxZmNUWVVZN3JVN3dQQlViZVdIVndMZEptbHhvbE5hRDliVktiMVYxZUlkUFdFYy1fMlV0bkw1TW9jSzA2c2xVU3JBRHQzbWpDeGc5NkNvM1ZQVm1Mc0xINEVTdE5VTS03OFlLN0d2RDVZcTNfMWs4dw?oc=5",
+      "title": "Stifel initiates Genuine Parts stock with hold rating, $130 target",
+      "snippet": "Investing.com, 2026-11-17T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GPC/history",
+      "title": "GPC daily price history (Yahoo Finance)",
+      "snippet": "close 121.54 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

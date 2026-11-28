@@ -1,0 +1,73 @@
+{
+  "ticker": "SWKS",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Skyworks Solutions\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRFBHU2ZMeUx1U0RMUmU3TWlTalU0QnB1MXdjMzZ4VVh0V2NrX01tckdTSGN3TWRkZEU5Q0ktM2NMSHoxLXZfUE9vZDNoQ0d1YWdEWFNjZm4tajQ5dUNITERETnFfQ2RLV085eVFPbkRqWkZGeF9DbnJrbnJGNG1KMGNpdUJmOHpwalk2UVdyNHpSOEx0TDhfRm96V2hZTnJWV3c0OHl4VnVPMkZkdjB1cjJKYXJmSzFyM2c?oc=5",
+      "title": "Understanding Momentum Shifts in (SWKS)",
+      "snippet": "Stock Traders Daily, 2026-11-19T12:34:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-19T12:34:01+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQXNGRVZqY3JueFo1R05aUHh1b2RvaVZsa0J0cnE0ZWs1elVaeE0tXzNtRjlNZ0Y4Q250Nnc1bFozWTdVbTM3RUU1T3JLakd1bmFSTDl0R0dZV3lENk41ZDhMNTU5cFBWdG9jcVVFZjh2SXBCdXQxSENhd0F4MkJqZ25MVGlTM2x4ektlaWZPZmRQeUNnM18xREJhX2gxM2c2VlVjSjhjWGdwc2RaSzNkV3dzREVTWUF4OUNUMnE2N1lXTDFkeTR5cVhZRFVPZ3dGLXk3Z2k4bmZUNV9qVE1LMDNsYV9qOFVYR3Q0MzE0Zw?oc=5",
+      "title": "Skyworks Solutions (NASDAQ:SWKS) Share Price Crosses Below 50 Day Moving Average - Here's What Happened",
+      "snippet": "MarketBeat, 2026-11-19T11:03:35+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-19T11:03:35+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXpRRXNEWGJsZnhvTDFIRExEZWxzN3BHNFpTYnRNV1VjdWdCb3R1TkRtcDlrNU04OGEzXzVQYkNycU5RdldoNHZtN0Qwc0VxMjZRcHJieWw2WmxTaHgxel9hQThTa2tITFNVTjZnWlBhMUlSTmR1NTc3YXFVQ3JCU2ZYd2FMZXVqb29NTGtFWURqV1A4Mkhpd3p1UzhxNnV0Y2VhZV9TZGJMRU1zUnZzaGVNY0hxR0Zm?oc=5",
+      "title": "Skyworks Solutions Inc (SWKS) Shares Fall 4.1% -- What GF Score of 78 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-18T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SWKS/history",
+      "title": "SWKS daily price history (Yahoo Finance)",
+      "snippet": "close 78.66 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

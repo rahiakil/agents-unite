@@ -1,0 +1,97 @@
+{
+  "ticker": "FICO",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fair Isaac\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS3d2SHNNSEZucjdJZFZMY0I1LV96ajVabVpCYWg0SG95M05ScUpBU2dpREppZ1d1Q2JsbENya1BDM2kzNjNRaEZweXMwWEsyajR1anNwMG9vVVJXcVBOUVUzVDg5WTZuN0x6VGdIQmNMQ0VwUFpxNlhyS21tbHFWQW1oUUZxM0xheDZHSWM5RzA?oc=5",
+      "title": "Fair Isaac Corporation (FICO) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-19T07:14:51+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T07:14:51+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0VqN0stV3RHMXZISHlDQWJBUTFRbUVqeVZoQ0pXZUdxYjN4MVNfMXgtSXpHTF9KSDV2akRmZlJNLThlOUlDZkJuMW9RZ0FNU01VRFRpZG5SLUREMS1WZnF0TmlIQWhuTGtmam8wQlZDa3pFekVPZERuOThWVFgtZm1UUFZpejVud3NsTWFqb2w1NVNKckwxVWpvam51TUlQZEhITm1VaE1GeElLM1Bn?oc=5",
+      "title": "Fair Isaac Corp (FICO) Shares Fall 5.7% -- What GF Score of 83 T",
+      "snippet": "GuruFocus, 2026-11-18T00:02:43+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T00:02:43+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeklpSXg1NFRTdnoyWTVZcUpNWmNuYWlQVTdXV0ZJZmNia2l0a1hVbFVjQk5DRDFZN00wSVFjaF81amZVeEU1MFFndFd6bWQ2anl6UDh0N3h6YThSUHNRU2Z5T2JMN1JuSnJJcllrME9tOG5XN1RVMUN1eS1MNi0tWXdrTW5ONVZGX0FMdHRjU2YxTDJ1WW1wb0VOaEs0NmlHbGp0eG1IaGZOYmFxaDVXTw?oc=5",
+      "title": "Fair Isaac Stock\u2019s 72% Mortgage Jump Came From Price",
+      "snippet": "Trefis, 2026-11-17T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVEw2VEswYTM1Qkpmbm9qRzIxVlczemIwQ2pMS28yM3FFTWx6RG5LeHdyYzI5aVRvaFBHbUZzTDFHRzI4TnZteFUyRzhvVlNPUFAycEstVWpNaHl2MjY1Q251a0wzYnhxZnFiVFBrOVEzZHROSmRGZHNHSGJaamN2VGE4Q0NRNTVldV9aa0FqQjhxRHhUMTRvUjd4cW1VT3VVNHBfSUF4WFF0RHFELUZWT21JdmFvRE9JTDRhYl9IQ2FiTHhkd3ROTF83eDE?oc=5",
+      "title": "Fair Isaac Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPckNJLXRYellOT3RvQUU2blZFT2hVQWhkRGVYWE1pMTRHMU1nenR6NVN6eElHSWgyaEhkNUNfQkJmbUtHQndIQkE4V0M5UnR1TUQ4OEtQOVdiRUstbWFqRjhsUWhvd2tHQS1xdWF6OVpjcVN4OVJ3dXE5UkpQT0ZORU1SejFRUUxmQUtJYkJ1X19VaVlRVXNSVkJkSmN6Zlc2a0VMa29lamo3Y2hNZWxMUF9nNGh5ZEZJMHA0MDJZVlpXc05oSnE0M2Vua3A3RFBSREtzcDZSNFBpNXp1NHlveHZuV00tS1E?oc=5",
+      "title": "Form 4 Fair Isaac and Comp Inc: Steven P. Weber (Executive Vice President & CFO) For: 12 November",
+      "snippet": "Investing.com UK, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FICO/history",
+      "title": "FICO daily price history (Yahoo Finance)",
+      "snippet": "close 677.64 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "NDSN",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nordson\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWDl2SGtjTjkxMk9pT2N5bU5pZkxrZDFoX2hHY29wVDFFNzBqNGZxNl9NWndMdGh2eV9fa09jdG9PUzRTd1dKdkMyRmVIZUFTVDNfS2hlVHA5Tlh2RjRET0FIYlE2LWRHX2R6akUwbDY4R2JlWTJDcGZLQXd3RnBKYmtnd1VPajlQZTZ4d1k4RDdhbkRVUkVoekFR?oc=5",
+      "title": "Nordson (NDSN) Stock Looks Hard To Call On A 44% Run",
+      "snippet": "Yahoo Finance, 2026-11-19T10:14:52+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T10:14:52+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NDSN/history",
+      "title": "NDSN daily price history (Yahoo Finance)",
+      "snippet": "close 316.81 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

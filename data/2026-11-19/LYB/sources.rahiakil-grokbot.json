@@ -1,0 +1,97 @@
+{
+  "ticker": "LYB",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSTZQUWt0QnRoOUdueE5xdGRfaG1qUTJlWTR0REN6cWpLaU9IeGNyeEg5RVlBejNia2s0WHFwREpTT1ZxSzJ6T2xZMlZZY2RLcWxBblpWY2w5ZmFKaGNmdWdXNnM0cmtYMkRIWVdaYWkyUm9DMXVtM0xqenJMVVkxN3NtUEsxcjUyWHIxdVpPdU9pbTllV09hS0g4aVd1NkZpYkZSTDRRdUd5UVBtaG54dkFvOXhPc0U?oc=5",
+      "title": "LyondellBasell Industries NV (LYB) Stock Down 3.7% -- Now Underv",
+      "snippet": "GuruFocus, 2026-11-18T23:33:55+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T23:33:55+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.694,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUER4RUx4U2E2WjdzbXdiWEZUaTJQYUZtdU1zd0hlMXJONjlmdDRtN3IxaEw4bmJrYTRQYWNQbnF4WnFqVk9xdHdTVVdJWF9veFRIY0c3UVFabW93b0RmNnZrdWt5WThqbnpJRmZ6d0J3RUlqQk81cEJxa3ptR3FPV2gyd0FCTTNleVBLRHV3VHg3OXpqQm1ZTFRnU1puZkg2Y1B0QW9B?oc=5",
+      "title": "LyondellBasell: Earnings Have Fallen, But My Buy Rating Remains",
+      "snippet": "Seeking Alpha, 2026-11-17T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.19,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xTzZ6TnhPd2d6azhMc251Qi1URVpFMTZ1djBzbURVY3ZZNmluZVpnREgzSWlHUlpVeTRpMHpHM29qWm9acUtUT25sa3A?oc=5",
+      "title": "LyondellBasell Industries (NYSE:LYB) Stock Price",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUEZBbHZLQW5STE5nRkZMWnNDNlAzYVZJZUFpb2hNb1ZxTTQxT0d3RERRdTRxOEdTOV9vTFVHX2JnSlNfWV9Ha3F1SExhRTlUUkZhV3hCS2EzemRubGpWV3dVaURkcy02NWFOLVFWNmFxcnI5d1R1dHBDTDJNcjBsVkRwNXFoQmdaUjl3TjBGRDRjREg5dG1raXo3UzNMYTRRb0V4dkJpd2ZjdDdXRnpkbGlzbmtZM0E?oc=5",
+      "title": "LyondellBasell Industries NV (LYB) Stock Down 4.3% -- Now Underv",
+      "snippet": "GuruFocus, 2026-11-17T00:41:48+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T00:41:48+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.694,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNckpKcm9LemVtaXJYU0VyNHNKVHVuZE81d0RTNnRwQjZaWXRtQ1lZbWJ1SElLZWQ1cm1KdFRIVGwwNG14QWJockF3UXQ5V25obElCNGtJZEdMWlItVzMyMGZNbTFMODJqUVA0WVU5dFZwQl8yYl9oMDY0dnJIaE9YZFB5aWh2cm9OQXl0RVI3UTlEWGxzeTQ5SWJsQTBhdmRBQXowdk9mSG9xV0xPcHlaNGJyOGpOdG1KQ1RDdFFjalhvZ21qVmw1Z2w1cF9sb1U?oc=5",
+      "title": "LyondellBasell Industries N.V. Cl A stock falls Monday, underperforms market",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 58.19 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

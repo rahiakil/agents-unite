@@ -1,0 +1,85 @@
+{
+  "ticker": "MSCI",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MSCI\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY2Q3aWVLUzNLY1U1dW5CcXJYakZ0dy1MTWlheDBGWkpUdHBQY3J4NUM5eGdvZHR1NG50SVQ1eHEtV2s0blAxVlVYeW5DZEd1S28zS0ZaX3M0M1RVX0hzb3ZBb3VmX2ozNHduRzVkUWNYbGlHM1RBMU5icHNkLWFqeFlaWUt3aDk3LWY2VQ?oc=5",
+      "title": "MSCI (MSCI) Up 5.4% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-11-19T15:30:05+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T15:30:05+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSGZhbk54U2dsR3VXS2d0RkgyNzI5Qmh3Z0prQzZtckdEeFVINGVuNnVyc19oV1ZZU0NINlpBUE0yamtQWnVnVmZwQUpKOW9BVGNSWW5jd0dJVFBMUWRQZ1lmemVKVU5PV25ZYjJaQXR1TC1iZ2w1QktMTVY3anlfOGE0U0ZpM2xZbmxCVWRjbXYxY2tO?oc=5",
+      "title": "Strategy stock falls nearly 5% as MSCI index removal triggers forced selling and intensifies selling pressure",
+      "snippet": "Traders Union, 2026-11-19T04:53:26+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-19T04:53:26+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.772,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRFlEVFlwNUxZYjFmLVhUY0R6RVlpU1JmRjhrZGNia1RmWUxhV01mNHZRWDNjLUQxMG9iQXdnNzRJMThZVFZGTE9NM0VLYUlWNkVjcXNnZWFjVG9BcUJhMVVGSzhXV2p4S2tESVpFQmRVN0NzdVJUakpSeDFnNVJPdjBEb3NhN1N3Y0J6T3VEbFZ0cHRGVk9DZFVHaHlQdm4wdU9ET1J1MVlheUhCeUNDd2NVWUs5c3FiVUV2OG5sRmdmMUd3Qmc?oc=5",
+      "title": "Strategy Stock Plunges 8% as Bitcoin Sinks to $64,000, MSCI Exit Looms",
+      "snippet": "Benzinga, 2026-11-16T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.813,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd2NPZmZsV0I5d2ZRMzdmSUlqdmRZb25mZTJiOENyTEx0YVRrRnFoQ2trd2dwSnVJS2hNM01YSG5GV0taNVpwTnhOVWQyeXRKc1NFcDNwTjhTalpFNl9mNVliSGtLVzI3U2UxSDM3R1NZV1pPQU5Ra29tbHZFV2pGRHdjaS1jUzJOaFgweFZPaURvbGoxcXBPdWxDMldwbmVRSzViak1NZ1FOYVUyQzl4eVVMUVc?oc=5",
+      "title": "Samuel Sekuritas Denies It Pumped Stock, Took Part in MSCI Trade",
+      "snippet": "Bloomberg.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Bloomberg.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSCI/history",
+      "title": "MSCI daily price history (Yahoo Finance)",
+      "snippet": "close 624.33 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

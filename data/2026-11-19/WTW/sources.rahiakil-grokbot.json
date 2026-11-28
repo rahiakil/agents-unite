@@ -1,0 +1,73 @@
+{
+  "ticker": "WTW",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Willis Towers Watson\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaWlWNV84a3VQczV4LWhLTkdsakJEeUJLQVQ5WUFVeDZFeHpUQkpqUTdhczRIb1V2TlZzVnpmdE1SbHVGQnBhVDlJOTVEcHJBbkFxdllwUGdPV3NpcC1ocmRXQmdHWDdEdi15Q19QTkt1OGl3bXNkLVB3cFg2a3VQcFAwT1BpNTkyc3N5NGU3bm4zZ2V4MmZRUmdrOG5jN29JN2lIY1lwRUFVLUFJOTFwRURoM0NWY2tBbUtia0NpNGtDVmJFZkI4M1UxVk9HdXZIeTFNd2s1dDVGbVBzSTVORmM1ZnNfdGFkeENXUGdzSUpxSFJtVjlGeUtB?oc=5",
+      "title": "Wells Fargo & Company Forecasts Strong Price Appreciation for Willis Towers Watson Public (NASDAQ:WTW) Stock",
+      "snippet": "MarketBeat, 2026-11-19T15:57:36+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-19T15:57:36+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.778,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTkZwVkxRR2xQME51YUFteC1FbUsxR0YwVXBGNWpmY205d1cxa2xmWFdLS2VZblRQUEdyWWlFbTQtV3pfQU5sVzBzbnB3eWJVLVZVTEFKdnItSlQwVU40OEhMTXdCRTZqd1k5MTdvdVpzX3kxVGh6blVOenhMcFh4WkNVM0dqSnZ2S3Q2ZlFyNldMU3pVQ1BIM05ONFBzTHVhRF9kNVZuNUI?oc=5",
+      "title": "Willis Towers Watson: Not Much Compelling For Long-Term Investors",
+      "snippet": "Seeking Alpha, 2026-11-18T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.17,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaTVackJYdUVZak5CMUJGeHh0YzZXSW1CSWhEY3RIbEJudnBMTDRJY3VGcWpFcUhESGFGcjdfYm1fTVZJMlZRbGZrQlNUcEVudEtFWnNIdzNheWVVNUVQMG5CWjFzVmNnSFlmR2M3eXhIT0JfbjR2a0U2TlBOOVN1NkIxN0tEMGRkWXFycDFnQjgxWEt4Um5weVRaelBBZnY5REZUUUZVUU9va1JUN1FiTlhaYXRVS3JM?oc=5",
+      "title": "CFO Andrew Jay Krasner sells at $337.475 a share at Willis Towers Watson (WTW).",
+      "snippet": "Stock Titan, 2026-11-16T21:04:43+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-16T21:04:43+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WTW/history",
+      "title": "WTW daily price history (Yahoo Finance)",
+      "snippet": "close 331.26 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

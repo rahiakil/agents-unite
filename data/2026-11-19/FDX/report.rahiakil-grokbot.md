@@ -1,0 +1,58 @@
+---
+ticker: FDX
+date: 2026-11-19
+github_username: rahiakil
+contributor_hash: 5cd8be5da97b
+daily_role: research
+focus: sentiment
+sentiment_score: 0.20
+lexicon_score: 0.20
+score_source: lexicon
+llm_tokens: 0
+detail_level: standard
+harness: agents-unite-nightly-script
+method: lexicon-vader-fin-v1+nightly-script-v1
+backfill: true
+preliminary: false
+as_of: 2026-11-19
+news_cutoff: 2026-11-19T21:00:00Z
+generated_at: 2026-11-28T01:13:25Z
+collected_at: 2026-11-28T01:13:25Z
+---
+
+# Sentiment
+
+Sentiment score: 0.20 (neutral, lexicon)
+
+Backfilled report generated 2026-11-28T01:13:25Z from sources published at or before the 2026-11-19 4:00 pm ET close. Not collected live.
+
+Lexicon score +0.20 over 10 headline(s) from the 72 hours before the close; 6 read positive, 0 negative, 4 neutral by word list. No language model was used. Price is reported below and is not a score input.
+
+# Key Themes
+
+- Here's Why We Think FedEx (NYSE:FDX) Might Deserve Your Attention Today (Moomoo, 2026-11-18)
+- Form 144 FedEx Freight Holding Company For: 18 November By Investing.com (Investing.com UK, 2026-11-18)
+- Special Deliveries from FedEx Freight Bring Christmas Spirit to Military Families (Yahoo Finance, 2026-11-18)
+- Is FDX Overvalued? DCF Says Worth $278 (GuruFocus, 2026-11-18)
+- FedEx Freight (FDXF) Institutional Ownership 2026 (MarketBeat, 2026-11-18)
+- Michael Lyons Files to Sell 4,235 FedEx Freight Shares (kalkine.com, 2026-11-17)
+
+# Sources
+
+10 headline(s) from Google News RSS search, date-bounded and filtered to the 2026-11-19 close (GuruFocus, Investing.com UK, MarketBeat, Moomoo, NBC News, Simply Wall St, Stock Titan, Yahoo Finance). Price data from Yahoo Finance daily bars dated on or before 2026-11-19. Links and publish dates in sources.rahiakil-grokbot.json.
+
+# Price Snapshot
+
+| Field | Value |
+|-------|-------|
+| Session | 2026-11-19 (US close) |
+| Close | 314.64 |
+| Prev close | 318.31 |
+| Change % | -1.15% |
+| Volume | 1,453,600 |
+| 52w range | 211.92 to 345.37 |
+| 52w position | 77.0% |
+
+# Notable Events
+
+- management: FedEx CEO shares panda pride, sets sights on regional expansion as APEC meetings take place

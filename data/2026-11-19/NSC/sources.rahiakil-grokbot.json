@@ -1,0 +1,133 @@
+{
+  "ticker": "NSC",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norfolk Southern\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 4,
+    "irrelevant_or_spam": 16,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVjdqZjFqM2Nkb25yNXp0VDJlTGc2QW9oUk5oeE5TbmdGVWlQXy11TFdfMkFMY2F2QmkzUTRGdV9PZ0NrdVY5S2RwS09xQjBId2pUQVVGcHBrT21DUWxnMHZoaU1jNnpYZnRDVFpaR09aVTFzOUJxcHYtMGhVQkdITXFNNmRZcmdlN2ZmU1pZVy0?oc=5",
+      "title": "Union Pacific - Norfolk Southern merger opposition due Nov. 18",
+      "snippet": "Railway Supply, 2026-11-18T17:46:26+00:00",
+      "publisher": "Railway Supply",
+      "published": "2026-11-18T17:46:26+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzBLUXFFTHFpWUdsakx3UDZCdFA2VGFFaHJUbmduZGlfU1l5Tzh6TEhSVjFGSWdmSXYtQmhXcDNTYktVWEVjYnA4WWV1TXdhS25GRFp5YklLS2xmeEYwaHdoMVVYcVg0VE9WdTIxaGlZamNUdlREUjVmMklveTZsLXNKZExkbmt4b2ZxTVB6eWpueGxBdXR2MWl1QTMzMm9DaEN1azZyTmtCWUtSZ0txWWVtNFdHYmIyVUE?oc=5",
+      "title": "Senators Press STB to Oppose Union Pacific-Norfolk Southern Merger",
+      "snippet": "DTN Progressive Farmer, 2026-11-18T08:00:00+00:00",
+      "publisher": "DTN Progressive Farmer",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODFZOWJsaHZXQW80aC1WQk50NVBhV0dNVENrVm82ckRZRzY5YjI0azEwZE9hcy1QQndvYU5XSm9peUxsdWJQN1RDN0V5SnFzTjJYTS01UEJVQ1YzbWJPZVFhaWM2cnI2LWtyMzFfWEdsMEduVGF1TE8zdGZiYXVyY0Y3b3RmamtQSjR0XzllN2RpNDdzMnppcFZHekNxdmNXSUZpNWNKU2hRYXBSUXZmOGhHRms?oc=5",
+      "title": "Norfolk Southern plans public 200th-anniversary events across 22 states starting in spring 2027.",
+      "snippet": "Stock Titan, 2026-11-18T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUm1SaldfX2pIX2tEbmhrRExwd21mS0dHbUdMdXlINDRqd2Z1VUJJTmZpTURFQ3dNWnlhTkJuakxlUVpNcjFTYnhWS1J0NjgtOFVfY2dLUkk3YWZaZXdQU3N1Tzg2VmFSZDRBbG5CY3BkbkE3U3BkeDAyY2ptUEhtbG5xNUY2MHZqVkFpSWFzREJnYmNDMVV0YWhubHdqdVlEX2U4SWREZ1M0a2pJeVRIN180Sk1zdHc5a0N5R1pWTGk3bkVQ?oc=5",
+      "title": "If You Invested $100 In Norfolk Southern Stock 20 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-11-18T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdVZGYXpveC0xV3owREg4eGVhd25icTRlRmRleUtuX04wZU81TVNMM25lVGtvUTlwWnd3dHlVWlUxaDl0TXFHT042Sy1Kbkg5LUg2RFNTM2FWR2x4bnZvNm81VVhxMmY0UDFIOW8yc21JdnpmZTZlVVQ2eVJvUGtrTHI5YnhzM3JTZ0NmTk5QWXVuTkg5U21udWxqY1VKdTRyQTlpNXZaR0hLY0xUanA1Z3lMVFU4MXZyZXUyNml3MUZRNUZhaWE4bS1hSTlHT09yQkpLR3kyS2dmc2xvVGlTTldkUFlWdDNfWmdtVHBIVQ?oc=5",
+      "title": "Norfolk Southern Stock: Price Action, Valuation and Momentum",
+      "snippet": "Kalkine India, 2026-11-17T12:06:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T12:06:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLXFUOUdyWVBFcXlwVWJ6TUZ3a0Rqc0hreDRva1hiSGE4NlpnVFVZYVhORVVENVJ1TU5Pa2tSZmQ0dF9EaEJNMVBaMkp0d0M0XzV5U0ZoZ1F3T0R4UFZnRzg1dUI0a3M4aV9kU240YlBEWGN5dzBOS2ZNU3BtRm1NQ3JXSEE0RGVOSkQ3UlpGRkNoUHZYUGdraGIwYkQ3WnBFZExhMlFmZjJfd2RHUTl2MUVFc0dxRDg?oc=5",
+      "title": "Transcontinental merger of Union Pacific and Norfolk Southern divides rail leaders",
+      "snippet": "FreightWaves, 2026-11-17T08:00:00+00:00",
+      "publisher": "FreightWaves",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRUVFVHFsQ1JTXzZTN1FfbnE0eFl3aHp2LUVGSmZZTVRQVHNXaHRYaHktV2NFQWQtblJQV2NEOU9kdlY5N29hYl84LTkzQWdpVXN3TjZ0TVRodXRxVVhBZWJwMFNvYTRobEcxWFFPWktvWlhWMmxEUkpKT3hrdGRha3RDMEI0MnpCSEtzOGk0SVk5eTRBa2RJNGhUOGNQUEVKbEJrNEVURmxZemk2OWxvbldMcUFOVTdhRVlXVFFyRUtZdE5NWGxuTjFnMzF1RUxZbnNrUQ?oc=5",
+      "title": "Norfolk Southern Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpSXhhY3VwUzVwVjR0Q3FHSHRIejRkeThaTmtHZkdnNUxDb3FOUm1UbVlCWGVRY0U2aElJMnlqQTlkSkhvaE1HM1d3NWdzVUQxM2RvUFZyU05ZMnJ6VUVWLTRZZU84endzS01Ba19DenlYeWRSZ1VKTVpXTWx0Wnc?oc=5",
+      "title": "A Way To Play Norfolk Southern Corp. (NYSE:NSC)",
+      "snippet": "Seeking Alpha, 2026-11-16T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NSC/history",
+      "title": "NSC daily price history (Yahoo Finance)",
+      "snippet": "close 316.82 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

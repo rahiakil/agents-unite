@@ -1,0 +1,109 @@
+{
+  "ticker": "NRG",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NRG Energy\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd1FMeFZBRXFYTmlramRzTHpIRlJkUUNOQUUwRnN3ZVZDME1VNWNVeTY2bXJZZF9KN3MtSjlNMzNocEJIZU5zaWNzcHJnZWw3bi11aEttOVhhM3Uta0hhOHFscTQ5U2ZjYXFHYV9jSkZFWGV3bXFKWjc1aG1zdzMtMmpKeUpMQ3dXVk5qNGVrYw?oc=5",
+      "title": "NRG Energy, Inc. (NRG) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMEVkZ293bjFmNTBPVFRZa1QtR0Q3M19ZWXNJUzFBaEU4RXByaklMelc2UmNfTndiWkhGbGEtd1lSYXNTR3BabGRKVEhwTDZNTUl0VFNHc0ZLTVQ5N2VHTUNnYmF6M1U1ZnRjYUlpNWVyTHd2RmdrTXpoWS1veWsyOW83eFc4X3dlSmRRQ0laZFYzb3JkamFJaVFQSlFXX3k2TVlyd3J3?oc=5",
+      "title": "Why Is NRG Energy (NYSE:NRG) Selling Gas Plants to LS Power Now?",
+      "snippet": "Kalkine Media, 2026-11-17T08:15:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-17T08:15:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMDMyM0JaS3pYTUl1bmRjM0tsQ1Z6NEU2SldYN1BUSVF1NmRZeVlESENHUmk2elNVUlhUa0U0amlBaGlBeHlxZzhGWkFieGhGS0RhUmlNNHpIZXhqaFlyV0c2OS15cGxBQ2UwVjltV1h1dS1wQjQ5Mk9nWFYzRHRCX2cwandvdlpDVGlNUnhXYnRxMXlWa01N?oc=5",
+      "title": "David Tepper Bought This AI Stock Before Samsung Buzz - PG&E (NYSE:PCG), NRG Energy (NYSE:NRG), Vistra (N",
+      "snippet": "Benzinga, 2026-11-17T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYXhZUUROVTNkaFg3dXRJUWVPZkg1YTNXVENUTFFXSVl5dnV0T29GRHFEd0xSeVFuYXo3UWptZzFWUmVRVU5Wcm9oOHJINkRRV1ZmRk83T2xSZTVqTVVNVmthSU03TVhFTm02MWFNLWoxVXFGQjlyWHNnQ3pDVHE3dkpUNlBqd0UyNENqSmtjdFZLN0V4aW9OZ0Jma3M0RGpIcnFFTGJaZWpGdHBk?oc=5",
+      "title": "NRG Energy Inc (NRG) Shares Fall 3.2% -- What GF Score of 79 Tel",
+      "snippet": "GuruFocus, 2026-11-17T00:41:47+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T00:41:47+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnVtcUpURUFIRXk0eWZuQkhGSUhyUk1WZXBTaU9jZGVaMlBfWG41WF8ydGxZZjNQVDJhcEdpRnBGOWpMdlp2aERYejN6cUNPdC1BNWJoR1d2bUEycjlvVlpUS1ZCNkdKM3JoWW9kWkphMmNMenpYQUVxN2ZnX3JRTVItYW1mZkVSYXVKN2NEQlhfeTF3Vldj?oc=5",
+      "title": "Officer Virginia Kinney proposes selling 19,657 NRG Energy (NRG) shares.",
+      "snippet": "Stock Titan, 2026-11-16T21:30:43+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-16T21:30:43+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUVFUOGJZMm96eGlmSXJsT0RqYjFsdU9KbEd5S0lIZmtVR3pneXhVeUN5VTZ5YkdmMVlHQkd0QldRVEl2ZzZhQ09rblo1Z0ZkVWl0a0ZFMTk1M3VGTzVQNmoyYUFMeEt4WC1KM1Nnb3VrZ09pUm1lNFRxN2NiWl9GMHhLeWZFSWRQUTlpWlZ2M2dISjZ6ZktFUXkzM3BmOWpmcFdNU1VuQzQ2RTJfdndmVWJvQVVuMHNyOUg3cXVfbl95bE5mdXfSAcsBQVVfeXFMUGRjaHNKTlZ2bC13OE1CTU1zUHFzM2hEMlhaUmRXWHVkSmJDQWQyZkc0V2ZqYWNfamdYLTgxZVItTWNsOTR6OWxZa0ZueTdNZGk0bmpqVWV1OHozeHlmSzgyTHhCc3F5Q1o3MzZvVEFuZFFsQlpYQjFJZ1UwaG5SNFhLdUJMN3RmSUN3ZHplZGhqemk1cV9kRzlrOUtoc2dQazV0OHZzOE5DOTQ4SnI1Zl9JZ3FvVWZFMHcyUHAtNml2WTc2c01mM2ZiSWM?oc=5",
+      "title": "NRG Energy (NRG) Could Be 35% Undervalued As Earnings And Guidance Hold Firm",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NRG/history",
+      "title": "NRG daily price history (Yahoo Finance)",
+      "snippet": "close 93.85 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

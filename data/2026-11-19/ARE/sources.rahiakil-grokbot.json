@@ -1,0 +1,97 @@
+{
+  "ticker": "ARE",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alexandria Real Estate Equities\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc2VabS1MYzJ0VFVOZm5PTTdSZHdBUUYzeFQ4a1hnX2JlY2NJbmlRVjloT3pHWUNvSFJzTnZkRGlYcWdieXZRanRXSEVsZXM2dDA0ekRWelcwaE5GbmpWY1E1VWNjR3czMmRzNkNaeURBbnhTa3pWMTNEWTNYa0xxSV90cVpMX1JyZ2dnNF9hMzVaZURMT0tfbXFfTDhHTWJpUklXdzI5NFNtczJ2SGVIVU92aHE5UnpGOEhMQlhuMnI1ZFpaMmZGcWdtbnhHODg?oc=5",
+      "title": "Alexandria Real Estate Equities to dual-list shares on NYSE Texas from November 17",
+      "snippet": "Prop News Time, 2026-11-19T12:03:38+00:00",
+      "publisher": "Prop News Time",
+      "published": "2026-11-19T12:03:38+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcllEVVpzSW1IengzWHRsNkZVbHV2b1pmeDVpUWdua3NuQVRVaklhYWp5YzdvMEdJbW9sOHFlVnlnVnIzdFN1cVA0SEZEUnViZGhITl9MbW9RTGZnU3dsOFJ6WEc2aTRDbXpQdEU3UVBWZTRZTDg0S0xYOU1kS1ZDbldoV3JRZEVtQnlsYTZPQQ?oc=5",
+      "title": "Alexandria Real Estate Equities (ARE) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T19:38:34+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T19:38:34+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjdxLTlTamtPUm12SWpOYlRGTmNXWlRQTWFmSk5qM1Z4WHJHU2ZIMk9VaGoyMG52TXpQZDlVc0taeXVmT3V4TC1lNmNvSEZlY1ZkeUxiYXlidkRvMEJiWnJtVDFqLUNxMG40UkNiOG13T3l2R3lxeFI4dXdXVS1jTmFkV3hYbFI5VzY4VU1KeEV4TjVHNnlyUzVR?oc=5",
+      "title": "Why BofA Is Wary of Alexandria (ARE) Through 2027",
+      "snippet": "Yahoo Finance, 2026-11-18T16:11:38+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T16:11:38+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON1BEZlQzNGt6ckFTSmVjckZsV3hqSFBOQlhEak1pdWc3TFN4SEZZV3VoU3EzLTZjQkxvZEprZVVta3BOb3oyeFBEWmxyU2g0VmtYalVDTFJuYS00WXFyZGg4cFBsdVpGc3BTMGI4a21keUUwUGNNWWExdXdtY3Vlc3pVcDBlYzhORGxjbEp4MlYyZ0FpMmRadg?oc=5",
+      "title": "Alexandria Real Estate Equities down 2.62% on Tuesday",
+      "snippet": "Global Banking & Finance Review, 2026-11-17T08:00:00+00:00",
+      "publisher": "Global Banking & Finance Review",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM3k3Q2dyUmpWdWRIUjhHOURjNXE0UHFKTDRGRm56aURUa0VnMlNmbjAtVDV6dmRFSW1lWVozQVpnbUJ0X0t5eldEb2M0U05xNlloQURQeU5nTDUzTGQ3eFZhRGFSaXBpVVJrUUhkSHlFb2VQdURld0x1NnAzdm5Xdk4wc1oteElwc002MHI4NFJhdmNWaGxpUFFqWEpTdw?oc=5",
+      "title": "Alexandria Real Estate Equities, Inc. Announces Dual Listing on NYSE Texas, Reinforcing Its Strategic Commitment to Texas",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ARE/history",
+      "title": "ARE daily price history (Yahoo Finance)",
+      "snippet": "close 41.77 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

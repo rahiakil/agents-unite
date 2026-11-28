@@ -1,0 +1,73 @@
+{
+  "ticker": "CBRE",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CBRE\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUJ6eDdFX1I1V3h2RWN6ZlRaUU0yeGNfRW0zdmtGend6TVMxbnpnZ2djaUY3U2xRdTJYenlqNEZkNjRpdDlTQ0JsdGN1OFBKX3hzT09kNDJMSHRVZXpQQzZiT1BLU1Z5c1g0b2tKR3UxZjBDLVd5N3dBLVVfcV9XaW9CUHJpZ3hhYkxvWDhQQQ?oc=5",
+      "title": "CBRE Group Inc (CBRE) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T21:37:13+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T21:37:13+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnQ2MDNFamFTNGxVTURxc1lIeXctYUdOaEc3WmxxdzItajhkQUhDOHhtdHJWLXNRTW03VGNYbHNxYkhxYkl0ZmhVRmkwelJBVm9SMGt2R1hNQ2JfYmNsVXlzV1VZZy1TSGxzazYtTDEtN3NJUlA1bU5FdUFuRVlxTmtXSjlmdVZyOS14TkltVQ?oc=5",
+      "title": "CBRE Group Stock: Analyst Estimates & Ratings",
+      "snippet": "Barchart.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNjM2YWNmTWVMbUdvWk4ybjhCYktqYXNiTGVGc01mcTM4R3JFd0VFNFk1ZUNMSWhlRDJBM3YzN081QUY2Sm9NRGdRaTR2WHRwUmxnaXBZNi11ZlppNDdtWk9HOUR6Ri12NWlDcW9helNNeVBWblVJMFk3aVNiYUFxUkEwVWhqNEUzMnNJanp6M21aYWlibXE5RmhHQ05OUHFiVkNhU3Jxb1NIVHdDZjFPeWdzYl9MRl9ZaGZleGpHUjlkQQ?oc=5",
+      "title": "CBRE Group (NYSE:CBRE) Stock Gets Price Target Cut from Barclays",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBRE/history",
+      "title": "CBRE daily price history (Yahoo Finance)",
+      "snippet": "close 128.32 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

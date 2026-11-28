@@ -1,0 +1,133 @@
+{
+  "ticker": "CASY",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWS1kZXdGUWFuSG12SnZ2Si1XREw0cnJPbUhfcmVmTzNJV3J5aVptaF9NVFNxMkJlTEExTjQzbGFXel9mWVRGRDBhVHlqcFFPbDZIa2ZiNVBLcFRSMEczeXlxQmt6YTM5cEtWQ05ScVJzVnFHaUlXUzdZaHo1NUxGN0VFZ044M3hsT2g5ZEpwOFJ0TnRpdXF0enA1X2x5dw?oc=5",
+      "title": "Casey's General Stores (CASY) Heads Into Earnings With Valuation Still In Question",
+      "snippet": "Yahoo Finance, 2026-11-18T15:12:56+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T15:12:56+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUmZlc2RoWWRRenV2YkpzdnZab3BZUnYwTzhWTXdnRVdTNThLM0RYbXh5aE5tbUZHRjFGOXZxY0JBU0pVWHVFNU1wWXp0RjJicDVVRVNEWnNyM1o5TXVWaVJ5amRWejhEWm01SVF5ZmRDREx1blVHVnVOMENKLUk4cFJhSlJ1T3M?oc=5",
+      "title": "Wrapped Casey's General Stores Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-18T14:42:52+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-18T14:42:52+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLXhabjhCdG9ZekM4SXRCaDMyamtLYUNxd0ZNN1o2ckVIdDlia3E2cE5zWkpRQUY5M0d2R014dkw5alMwcUZacGZ6dWJOYzRzUVJCaVFPN3gtT2VXWVV5OVNpWlpKQkVoYU5nYjdreHJBZHRvTTVQdU1yeHJQcDd3enYtVHdqV0dGRWF4RW9Qb2hsNS0tcUFtUGxUcDFGME9aYV9CRnJ3?oc=5",
+      "title": "Stifel initiated coverage on Casey's General with a new price target",
+      "snippet": "Quantisnow, 2026-11-17T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMEV6cWU3Y2R5blFia29LWHZhSHpNMHNzX3NOWDBiTUZQTGNmRi12am1rVnhnTGFDYThqZ3k1Q09UV1NXNDByWG94LTdXcGNybG80T3dHWXJNUHZ5R1ZBb3BGLTYydzltbmpXSHlSZHg1WGNnWE5sdEQzMXJGZTVXVjR3VmdWaWxlSnJISE55MXV4YzR5aXZxdkxUSEp1dnRjMG85Z3pVdTYwNG81bmxIelVicUdwRGhCSmp0TUNBWENOejV4QVJaRG1n?oc=5",
+      "title": "Stifel Nicolaus Begins Coverage on Casey's General Stores (NASDAQ:CASY)",
+      "snippet": "MarketBeat, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkxCN0NVOWJWeVZQaHFfeFBOSW5TSF8tMW9oS2o4SnAtX1N4bUl0RWJSTnlQd1hhd1BtbFR1YkRhal9jUDg4TnUzUlBUVElrNmIyUDdkaXYtWXEzNjI2N3RZejRQU0J0ZXJaS1lYRlpyZklVZXF1cEh2dUdqazk3TzNxNmJYOHZNY3V6WUJXWHFuWGZ1Y3puWlkzanRxaXdxa3lHTFlNeU1NR3JEdTBGMW1zS1lhRU9fVy1seTg0a3FWNHA2bzkyTGZPQ3I?oc=5",
+      "title": "If You Invested $100 In Casey's General Stores Stock 15 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-11-17T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ0NLMjEwTmdVYVdxQjFrOTVSSVQ4OUNJaGNuR1ZlV0tkM2kwVG9Za2xDeDE5UnlZclRjX3Nhamx4UF9TUml1cWwzTXdMcVFJaVJKOXg4X3dvUTlHajZhbGE4YjNDaTE5RjJIcnpJcDJyYlJLMTd4U3pHdmFDbm1sbXM4eHIzbXVxRExCSVFkcUhCX25OU0trX3Z3TDluU0JXZ0pDLUYxN0NIZmliVFMtaQ?oc=5",
+      "title": "Casey's General Stores sets Q2FY27 earnings date for Dec 8",
+      "snippet": "scanx.trade, 2026-11-17T08:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPbW4wSnZuNC1fVGhkak9UeTY5VTIwY3A2Wkw3WTByaWh2dDY1SDJjNnMxaElKTDhFdi1kTHI3dXU4VldLWjZqQWRFTV9HdU1IUklJVXVnNTZoRTViNkVmOVpXYzhPTVl4Um9QTDdvRGpzSElyZF92amZtT0VfSXZjNVVmVXc4cTlabVJhLXJDMi1PNktHTENtV3JNODFnUzVuMXdQM3ppQndZU1lMM1dzcFMyOFlrR0tpYlhnVTdsVENKQVFtVV94blY5U19oX0JqRUN5eFBVXzFJVGg1aU0zMmJYVXPSAeoBQVVfeXFMTXFSejFNcDhrTFlucXNpOWFmQzFkRmxySW5kMVJuOFNLejJ5aE8yVXQ0dnlJTmlzTTFqVW93b3dObEdGWHRIUVFrSzI2QndNbm1UX2pvcmRJZzNta1dpUmhVWWZxcEh5T0FSanpMbTZoRTdzcllYdThweXpwUnVuZ2twNmRUallwSndJVDM2bzgxQ3B1SGN0V3dCLUV4MFYxUHhITy11d3N4WVkzZnQxWFEya3pwaVh6Vy11VVdNeURHZjJlTjk1S1FsNG83Q0pIUUJRV0pIOExSZWpEMzdUUGhhdGltZWdRR3BB?oc=5",
+      "title": "Casey's General Stores (CASY) Pulled Back Sharply, Is The 11% Undervalued View Still Intact?",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYWtwUl9rdjNIdHI4N1AtTWlZR2xyM0dBU1VyUWRpR3hxaXJQLUJubW0weFhCWnBsR2JqMkt5VjFBd1BPRFhNMWt5VkU3a2xid3JmMHUzeE50cHBicmZ0MGZVRjhfMm1uSVRnbHFIYzJQTDJfZk1ZQXNxSlV2NXd6T1ZEVDVNNWp3Yk1LOTJsNkpYbTFYcjV0V096em1rUWw3LS10RmRHNmRIZExIc0VDSjNqM190Njg?oc=5",
+      "title": "Casey's Announces Timing of Second Quarter Earnings Release and Conference Call",
+      "snippet": "Quantisnow, 2026-11-17T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 685.5 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

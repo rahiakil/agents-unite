@@ -1,0 +1,70 @@
+{
+  "ticker": "EW",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edwards Lifesciences\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1ZPNHhpY0lCQUZJRmF5cEVQMzNnTWpfUVdpRHNBWDdsMW91RkF0U3FPQThieHAwSWRiUkpTeERIQ1V3R2lDYktrVzVMVXZoYkpZSW5mSzh1dVlUd3Rva3RNMk0xWFZRLWUybHlUTTBMcHZlSGpwVndfX1VFaEFVSHhsVVhCTXBhb3VDM2xlWUdDenl4WGJiZFc3MF83YmRMZzc4SVdMcGJLUHFZcVFIQw?oc=5",
+      "title": "Edwards Lifesciences: Momentum Returns, But Valuation Warrants Caution (NYSE:EW)",
+      "snippet": "Seeking Alpha, 2026-11-18T15:00:10+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-18T15:00:10+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3FnYUhYaXBJWTdmS19BQ2lsVVhYRk1TdldtVU1MaDJBeTZua2lYMmZIeFlwQmZWRzdJWHRlb3dWdWk5eEtGQXFXMWNDbWJkeFdMNUo1N1ZOVXlWN2Q4Ri1rRmlVUERsY09wQ0EtdDRGdEJEcDhYYnNRT3BhMzQ1RkNhNW9rRjF6M2kyZF82OVpfQVNMVUIyM0pHWkJyb0FYVG1XQnRWYw?oc=5",
+      "title": "Are Wall Street Analysts Predicting Edwards Lifesciences Stock Will Climb or Sink?",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000057/ew-20261119.htm",
+      "title": "SEC 8-K filed 2026-11-19",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EW/history",
+      "title": "EW daily price history (Yahoo Finance)",
+      "snippet": "close 103.88 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

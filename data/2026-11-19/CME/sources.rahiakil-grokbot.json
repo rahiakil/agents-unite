@@ -1,0 +1,133 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CME Group\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb0RCUi1KWUNHaVg4QjRFSXFfeEQxbzJqQmVNXzUxNVllLTlWZUE5aWJ1RktlTG5oSlI5WjB3ckE3R3RGc3AzWFp4cGN1cXJCSTQ4VU56TmJ0SVphYWNnUzhvQ01zczU5NkduRVNLekI1VzVVTXRydXJnZzE2V3VBN3RJbXg?oc=5",
+      "title": "CME Group stock edges lower after Wind Power options launch",
+      "snippet": "Traders Union, 2026-11-19T18:44:28+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-19T18:44:28+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbGltNXB1ZUVLSWJQSURzeXFwSzZDbDVUUUxidmZKUzZ1ZDJFZmJ4UmdWMm5NZmxmczB2cW9ma1lGRVlwZFRxU3pQM0pUUVZlZmxvakJxWXpMY3MwVVM5QzA4SkRVRGU5bGpjQk9WRFdmVndycmhpOHhmRjNrSlktdlRMTUN0azF5VURNVzVJMmZBR0NiU0oyTnNxNlhmangwd1o1c1hlU1lSRVdidUF4UUVIUE9YQQ?oc=5",
+      "title": "CME Group stock: New quote follows November 16 report",
+      "snippet": "ad-hoc-news.de, 2026-11-18T15:13:15+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-18T15:13:15+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYm5DcWhVYmtTMWtEZmlCVDl3dVNOdTV2ZXVCVl9tMmZhN1lxR1dmODFWV1BXU1VDWWNCZkY4QTJpcVhjZmhNcFRSWDdTMk0tcVY0YXpnZExmWUhvc3RrTjRaVlQ0eGNITi1xaThlMUNKdzdxZmF0Yjh1dHlqMzZvcC1SRTF4SU9ObXg5VnRKQk9lOEZ6bkZ6ZXczLUlfVng3QjBIS0U4OHg5YzB0bS1pb1NpUWE?oc=5",
+      "title": "CME vs. Upstart: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-18T12:11:02+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-18T12:11:02+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMlYyOGY2Uk1NMVpqcUYzaExhWHc0d001eHRRMndYMFdaOHpBTTlZdjVfTW5ERVkxTHZIUVlRaVF4Q1dacm5NMXlkdkw0aW0xZEhtb2RxVDBmVWJhblBLcXpldExzSDBUcFdlUm40V0VqS0ZVVHFMNERWdU1wVF9RZEFXUzZqb3FSY0lESG8wQXduSk1ELTlr?oc=5",
+      "title": "CME Group(CME.US) Officer Sells US$8.36 Million in Common Stock",
+      "snippet": "Moomoo, 2026-11-18T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT1MxemZkSUlwaFFOMWd0Q21lSkVWS1JyZ0tnMUV6R1dZaks5T3N2eU9UVXRDWEdRaVVKOVZpaU9KSGJySVl6aWF5MXMxY0ZWc0ZJNFVRcmVzVGUydWppNElOWmVTOE10bHg0eEZfYUFHZUNOUWotZ3pjSzFmRmxCRHZ1UkJzejVzYVhNU3IzTFRGMFAta1YycW55eFd1V2pGM1RwanhNeGFBYWpneGxWTFNrZXNCQ1dXUDFLODRMVE4ybElrZmJPb1R0ckN5Yk0?oc=5",
+      "title": "CME Group Inc. Cl A stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-17T21:37:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T21:37:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVDNuaGtUYmVTU084OUY4a3JiTEw5bWp0MzJXQ3ExREJwTkNudmpjTDJaSGViUDFCcy1hMklTbzlrTGdBcnV5ZzZYaXk3bWFacFEwakRfQ08tM3l3UnRlQlp0b3dMV1ZPeEMzdl9jbThuYzRyYTI5MnVQbzFTal9VUzBZNjBEVjA4dGl6ODIybXFmLWgtdVBBNl9wS2tHY3g3R0VZSzNQUThIeUg5TU1WZ0hR?oc=5",
+      "title": "CME vs. Toast: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-17T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjllNlhmWDZWZGotamYyTjUzZTJGQkd6SS1rWVExY1BNMmhtUXVhX1Fld3ZWOW9EOUJ3R2lSZmo3Xzlyajh2WDBsbUVyUW5reHc4TTRsM1BhVmlMRDBKT2loZDk3TlpGLWcwVWhKdWRBMFhqQTItS1ZfNHM1b2RVZjJJaDdhU0VQU3ZKRDJLNjRQUVFr?oc=5",
+      "title": "CME Group (CME) Stock Looks Fully Valued After Its 69% Run",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMGstYjYxMm5LME15SFlOSHhqQ1Y0c1RhUWtlNFlrZWpfM1ZkVVltYUh2WWNueUF5ZDltTUtteWgtU2dab0FMOEd6U0s1LXRsQmw0X0o0bUJhdUpFeVNUTk9waEJ5WjVXdXBTVVdybE5mRk1FdlVJb0VSc3ZfZjBlQUFadklTUlhSTERfQ05SSVhhaTVQT3FULUQySVVlNWJOak5UTE9ldy1RbzdPaXM1YkxXY081cUJETmc?oc=5",
+      "title": "CME vs. Morningstar: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-16T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 306.31 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

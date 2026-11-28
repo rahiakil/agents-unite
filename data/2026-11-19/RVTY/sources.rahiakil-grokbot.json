@@ -1,0 +1,97 @@
+{
+  "ticker": "RVTY",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Revvity\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ3dLeTBJSHJUcUJJR2xVTThOUGE0bnNjdkVWQXpHRmxrYld5eVAzQnhxQmozRjVBeHpmckM1RHR0bFg0NnZRdHNzTndIUUJCeE9DWWd5TmdXMXJhWFJqZ2ZuUzVLZ05nOXVLWlNub2pCUHMtVlNESmlCYWgwQVNDV3NzYS1nYkx0WUxSZHRrNkpkaFE2WlFzaGd3c1hqLWVIdWZjTFotV0IzZUk?oc=5",
+      "title": "Revvity Inc (RVTY) Shares Surge 3.1% -- What GF Score of 74 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-18T23:47:58+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T23:47:58+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0RpajNrSVB1WFFGRXNlX0NBN2t1T2stYUFMTHNsMjVhUWdTTXAxUjU0UEdIWEdiUWNaRTczSDBMZ21ZNW92dnZIUmt1bkktS2hYdVFWaHpzMWhjY2N6cEx5VEtfUzA4ZGhUZGdxLVZkOU1iTU9yVjBneVN6bVg3R1V6ZGtDUFV0NE1jOWNRVHE4RGpBdlQwUFJpa3RRYzNZdTI3ampkeGVDLWhFN3c?oc=5",
+      "title": "A 6-Day Losing Streak Has Revvity Stock Down 8.0%",
+      "snippet": "Trefis, 2026-11-18T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oeVRneHV5amZLU21ORFRpQ1FIeXZRY0ZjUUFHOF80QThBSDhaZ3VQLUt2NkNRWnluREh6THFyLTdBRGl6dm1kOGpXU2o3NC1lRHBmM0xmb20?oc=5",
+      "title": "Solid Earnings Reflect Revvity's (NYSE:RVTY) Strength As A Business",
+      "snippet": "Webull, 2026-11-17T21:25:18+00:00",
+      "publisher": "Webull",
+      "published": "2026-11-17T21:25:18+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeU53RFByWk12emNycHFQQi1OdDNXZTVIR2JvQnE3RWt0SVdiU2Vvb09QTlhqRUoxODV2REJmR1U0alV0UlMtRHpnNllxLUN4YXhEa1NCU2ZtazdtZElTbXlKdGRkXzdmNHBXUUhpdmtMdTNQMFcyRFFvalFsa213RGVEMUU3Q3c3cHRuazBsQ29GZw?oc=5",
+      "title": "Revvity, Inc. (RVTY) Analyst/Investor Day - Slideshow (NYSE:RVTY) 2026-11-17",
+      "snippet": "Seeking Alpha, 2026-11-17T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc2N6UlN6OUw4WmpsSFR4YTNYbHZLWGpTNlNoTGFWX0JFNEpWS2J1SktZWEg4UkZQdTBWSk1iVk1Tb2ZaeFVpek9TOG8yTmljM25PU0c4bUV6Q1pfVmFzMHJ4VHplOWtQaXA3anAtWGRDTjZhcm5EMVJtNlJTZkUyd3gzMnJpNzJNVmd6VjRyNFAzejREZmI0Y1N4QTBIdHBCam9uTmNZOUNrQQ?oc=5",
+      "title": "Revvity Inc (RVTY) Shares Fall 3.6% -- What GF Score of 72 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-17T00:41:48+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T00:41:48+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RVTY/history",
+      "title": "RVTY daily price history (Yahoo Finance)",
+      "snippet": "close 151.59 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

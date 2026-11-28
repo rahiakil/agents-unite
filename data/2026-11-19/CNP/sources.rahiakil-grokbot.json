@@ -1,0 +1,61 @@
+{
+  "ticker": "CNP",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CenterPoint Energy\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYmNwQXhydk01NnhCckFGR1I3cGJMU1g4LVAwUVlWall5b3puTkhvZEpZNm1MT3dTSjlCSTRQTlNfb3JCOWloWjlBZFJWUHpfS1FFclI2UUczZzZTMXRqVEFxdDVHS19nVHZpZkY4UUxsQTFmZlhXWUVTelc0OGp2NWxNRzlYeWRZTUZEX0RUQnBFRGU1d2pJSVAwY1I3VThZ?oc=5",
+      "title": "CenterPoint Energy, Inc. (CNP): Is This Utility Stock Positioned for Long-Term Growth?",
+      "snippet": "Yahoo Finance, 2026-11-19T14:50:08+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T14:50:08+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNjZiVlRNS0wxdTNETEpHNlFQblZudDc0dk5KOFJjQ0ZSSUdOZTlURk9tcVdIMHE4MEVMbGFDRlJuQllQSEt3MUEzTXJCRmV4SlVmY2w1aUxiNXU0UUZrN2YyZXhkSzZBd2ZLamZvdEJzeGRMQVhSZzhEMjQ4Sl9WRWpzODVrdFk3ZWFuaWU0cld0c1pwdVRlRm50VndFaHg2YW5XSzBMR3h2YkJXdHpwMEs0MXBlX3FLSlVrTy0yaWN3VEg3UUlCRzQ2TFFrNDB3aWFOZzNIU0lpeElxTFBGUkJjdDJlVHZkUXNnOQ?oc=5",
+      "title": "How Centerpoint Energy Inc (holding Co) (CNP) Affects Rotational Strategy Timing",
+      "snippet": "Stock Traders Daily, 2026-11-18T23:42:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-18T23:42:01+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CNP/history",
+      "title": "CNP daily price history (Yahoo Finance)",
+      "snippet": "close 39.12 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

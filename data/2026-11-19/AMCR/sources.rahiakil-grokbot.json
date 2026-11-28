@@ -1,0 +1,97 @@
+{
+  "ticker": "AMCR",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amcor\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNODRGN2ktNUpBa3I4b2doeEk1YXROUG9ZTFBIZDBBWDNUd3d3VC0xS29CU3ZwRzhMR1FSdllEUUJCZDNGSDBYQ0cycGZJeU02TEc3T05VaHRlbGdhOWhaS0w4NEJUQUVyczByajNIOFZQRjRsUm5aaG5vV1dxRGwzYmwwMVBKOHZZekxiV3Y3R3lZNldwVXpNX3JtVDVvalRxOEpqRVJxNjUxX1dlVmx4aW1hQjhpZlZwamduWlRlZFYzalFzc3ZxSHgxWGR3ajFIM21DeC1EdHVDS2lOLXpVYjdFUzhQZWs3YldBTQ?oc=5",
+      "title": "Sinda, McEwen, Amcor, Coeur Mining, and Hecla Mining Company stocks trade down, what you need to know",
+      "snippet": "StockStory, 2026-11-19T20:20:44+00:00",
+      "publisher": "StockStory",
+      "published": "2026-11-19T20:20:44+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX2M1OVlpYk5NRENGQVZOYUN0QzZJVGtvVnRqcTlqcXAzVElpaDU5Um56UUtWbV9peHdkYUJkcUdaX2FQYU92bFlLRHZBMnZadFJBSUV2X0RqQ1ZNNm5wbXUySzZfY0hLN1BkdC1tYjdXMk40c2V6ZWR6eVdLallQNVpRZE96UTB5QnZlNzlseFZ0dk9PMHUxN2ZteURVZkFTcEg4TjdYaTFjdw?oc=5",
+      "title": "Amcor (ASX:AMC) Sets an AUD 0.94 December Dividend for ASX CDI Holders",
+      "snippet": "Kalkine, 2026-11-19T11:21:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-19T11:21:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pR3JwTFRlTlZaYl9pN1ZDWUlXMWtjZzhHc1BDYVFvUWNIVkZ2dlFfWVFURDhSeUtEM1lPZEdNTFpxSHh1dW5tQWNtQWxiOGZ2bVZIOWlWT2Z4dTVldmcyTEZsZ3IxaTdYRGVyT05jNEJKTVZaRjhYX3RWUklUdw?oc=5",
+      "title": "Better Dividend Stock for Retirees: Amcor vs. LKQ",
+      "snippet": "TIKR.com, 2026-11-18T23:12:09+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T23:12:09+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUkowUzZ1ZjVoNUlSUFhrQVFTOWtzajVaVEdoc1VfQXlKMGZqc3VndnBzaHJ0aE1DSnNVMnQxYzRzTjlOeUptZzlSaENzaW1rTWZxRk5oZFpVY09lSURROTJpdF9PQWNPQWFvcjRSWDYyZkc0cFhJc2pzaUtMN0JzUzV1Q3A2WTBzb1gzTVBUZEhSRk9BbnFQMHFDM2FUR2V3N0JiTXVkYUhsNzBFdXZKSUNmVktQTm1hOWlMWFRaOWLSAcYBQVVfeXFMT1lBbld4OWFKWXRCNnlJN3NEaUI4dUlmR2hzYzZGczlmMHg3c2c1cWhOOEdaUWtJbVVBc3JTQWlKbllhN2JvTXFIMlFmYWVmVmhDZlYxUnQ1LVRkaGl5RnNFU0JCT0lqUXAwVFVqRUthTk4zeXBuNWVUTWVsVXZhYURGZHVSTTREekd2MXpsSXBSV0p0LU9tUnYxaWdEb2gtTGVHYTUwSWRIclBMUGNRSFEwTjNOemJaempiSklveHBOaHF2RGt3?oc=5",
+      "title": "Amcor's (NYSE:AMCR) Solid Earnings Are Supported By Other Strong Factors",
+      "snippet": "Simply Wall St, 2026-11-18T11:26:35+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-18T11:26:35+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb25vRkJDSTgwYXNzV1R5QnJtR1lhRDhvejdZVFdQMGw5VUJDcWlPcU9rejJLcWRNWUN0ejFtT3NNUFdLN2JZNldMRTRHRGE2UDlHU2NKb1ZXU19fc3p3NnB3cHpYNy0zRG5fRXp6by1SYzJHRkY3TzRCOUhkZzZNeGtMNVVXMnQyUmNVUlVtSHMwdGtraVZLRVZ5ODQxdms?oc=5",
+      "title": "Amcor (ASX:AMC): September Quarter Sales and Packaging Margins",
+      "snippet": "Kalkine, 2026-11-18T04:44:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-18T04:44:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMCR/history",
+      "title": "AMCR daily price history (Yahoo Finance)",
+      "snippet": "close 42.46 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

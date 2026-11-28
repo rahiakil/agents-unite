@@ -1,0 +1,61 @@
+{
+  "ticker": "ES",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Eversource Energy\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVmxkVDBQckFFVnJmT0s2OVVnaldaWmplb0VpeVhTczR0N0JzeHpJdkVkMGZQel9iYWtUV0FlQndKOGlzai1jQnJzLTBrM3dBNnZMbTBUeVRrMFBkOFdvQW9oODNjUHJoeXhTVVRBeU84SzFPWlBjMmdzUHczWnJDRjA3X1B3TEVRQ2Rpd0NaajdrcUdrT0dZRWhrdlc1NTg1M3ROcA?oc=5",
+      "title": "Earnings Preview: Eversource Energy (ES) Q3 Earnings Expected to Decline",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWS1jUVBjcG9pSHRWZ1RRQk5PSVphOHY3LW5EaHNxMVhtZG9MUHk4X0V3V2NkaGl3cURFeExOaDQ3ckpxM1FHYWt0V1hpQkY5QlUtRHlSVE0xSXB3ME1qdnpzOU5NYkVMR2kzb1BHd2J2Qy1iVjBzWVZZc25YU3Y1MklIT1I0ZlVRbi1fY1l3OXdUVTlGLVRZVS0zODBUNWpNcVQ3YklkVENmUDJEMUpJMTJvVU10dlVLMEV2cFI4N0NWZ2dSNXpJ0gHMAUFVX3lxTE84MV9vdUswbUdhQlR1eC16UHhHaG5lM3FYaXBHV1pLSVE3TFJkRWVJS1BTeGRMRmdJMkRJQWxDR01UaEo5RUxPNmV1UDJ0V1VvbmJBOWh0WWpLcnlLREtSOTAyWWlkZk1rTXhUZkxVUll4YUVEeEthZFVWOHFmUjJXUGdWa0g2Slh4Z01VQkVvS3BvdFNsTm1JU09sZXJGQTk4Zkxrb1Y2TTd1bDI0OWg1QXB6bzJGZUFzMm9GSHBvM09wUWR2Q210RHViQg?oc=5",
+      "title": "Why Is Eversource Energy (ES) Getting Fresh Attention Now?",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ES/history",
+      "title": "ES daily price history (Yahoo Finance)",
+      "snippet": "close 67.9 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

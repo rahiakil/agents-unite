@@ -1,0 +1,76 @@
+{
+  "ticker": "AOS",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"A. O. Smith\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1JDZ3B2VFFrb29PeUlsSExYRklwZVZ1NkR0MWdvSTRsV29YMmVDUFI3RGI0Y2ZGNV9NT1dabzVnMTJ2MGZDLWJmOFNwS3J6cU1NVWdhOFJlVDF6dVpmbEdNNl9qR1cxUTdkSEV2Yk1QQW14Y2w5alRrT3l6T1doMDBfSEhRWlZpZ3d0dmV2dE5CQQ?oc=5",
+      "title": "A. O. Smith Gears Up to Report Q3 Earnings: Here's What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000102/aos-20261029.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000104/aos-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-29",
+      "snippet": "10-Q",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/91142/000009114226000100/aos-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AOS/history",
+      "title": "AOS daily price history (Yahoo Finance)",
+      "snippet": "close 63.49 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

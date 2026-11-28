@@ -1,0 +1,193 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 51,
+    "no_date": 0,
+    "after_cutoff": 25,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM25rRW9GVTF2YmxaTW56b1g3LW44dmZMOG5UT013a3hhRDlqVXNyZWNQdG92WWZwT3I3NjRFYi1VdjJ6c1lCUU5MOHdwa3hYZzA2dHRnS0FVMDB5UTZDaV80MTAtOTBBZ3c0NXVJT1hpelZGaWpNRWgycGJMLUhKOG9veENkeUlrRWJKd0VVMnpFU0U?oc=5",
+      "title": "FedEx\u2019s (NYSE:FDX) Q3 CY2026: strong sales",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLW45X0p2eURMZlF4ZFR6UEpKSEhkc2F1V0VsdmtxdHhyTUpWdnJ6WFNMZnVzZURTY0c0Zm1sQXMtX0xLYktVRDhJSVkxQlNyNFVma28tY05GZF9uR2VrT0xvemVNZENRcU9Bc01VbWF2X2FoNXRTNnF1UFVjX2NCNkdPdDFZb3dIaWs0dlozX3hiajFqOGtxSjR5NDRHVDRKMWZJYmlEb0d4LTIxblZuWEFmdFBXN0duSVlLQWxuQQ?oc=5",
+      "title": "FedEx's soft holiday-quarter outlook doesn't change our view on the stock",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN3prR1d6cUJJQkxCeUVsTEpvTlBtLUdfWGZRTE9rLTEzUnQ2bGtPQjJSSmx4SnV6Mk52dGxnTk5kRFB3bURzNElLQ3VOemd4R3otS01fbXFyWUpSUF9kWUhCMHk1ZVYxUXc5aU1aTk9iQjlJajVoejJPLWJlNUU1SUVWVkhfdUdzR1U1Z0NZdWQ1UG1ib0E?oc=5",
+      "title": "FedEx's Q3 revenue up 12% to $22.9 billion",
+      "snippet": "Breakingthenews.net, 2026-10-28T07:00:00+00:00",
+      "publisher": "Breakingthenews.net",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVDBFVlRXdkVhV1hKV1RaMllIcXBWeUdONzNLcFF2Z1dmdk12Q2RqSmJaaE1hQ0NXOWNWMTQxWkw4S1hOZnBvT0pHNVRWZkFvZm1uY05heWF5U3N5Mm9xeVlPNzhleGNIUkNwOHR4QlREV004ZDI4eEdid3VaZExQSld1cjZOZjNhX3NHa3RzcEtwLVZtaDBVREFoV1FFalI4UHZOUnpHN3JuWURxM3poeEs2UW5yek1BSFVldlF2RQ?oc=5",
+      "title": "FedEx margins decline as it pays more to hire truckers, shares fall",
+      "snippet": "Reuters, 2026-10-28T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQjNEalQxUnB6WGJqRkcwbklibUFvc2tuaVJiaW9MSHU4d1JDem1vN01kbXNxaURrcm83UWJHN0hxSjM0OGZiWndFN25mc19hZm9pR3VKRjJNOE9BcmhCMG80OU83cDkyWmxISUNaT2hVdWhpOGJlelkwNmRTbXE5ekhZSTV6ZGgzUjlsZG1GWjJnak9Ma2VxcERR?oc=5",
+      "title": "FedEx hikes profit guidance ahead of the holiday quarter (FDX:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTZ1c2N1RMaUl3RHZ5RWF1M215VGdsOGVJRGR0clZHcEs3RWFjQ0NUanRFc1I0YVpodnJ4akE3UV8zQ1hPQXEzQXVBamc1ZXVFY1J6Vm1tWVVvcUl4VUZtalRPZWxTRDd0QUR6bDJUTWZ6RHfSAXhBVV95cUxOUEpWZENaRjBQQnVCN3ZlbHZzYVhjSXU4bTFTb0RNTkd4ZzRXeXNvY2I5Y1YwSHhabVlsUWx0VF9Yakg4YVNZMml1WDMyZjJITGZoRnN5OFI5ZnBGU05OMENMRFI3QUk2R3RHbmVSSFlJU1lUQnRCeVU?oc=5",
+      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
+      "snippet": "CNBC, 2026-10-28T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTER5NXJMbVhONi0wSV9Odjl4cl9iOHlUMVFKa19UWlRjS3JCNmFmWjkzNm1CbUlQaW92VXE0N2ZiNkI2eVJzdXluOTVTSF9IOVZGNGNzdGtmZTQzSko5Y0R5ZC0ydGlOSkhFM0lFT0NDZ1Z2NDdfWTktd0licC1zYkpsTXBqelNMYWFBTXZ1WkIwMWxpNi13dk16TGk0Ny1zMS1YaDlLR2lnd1U?oc=5",
+      "title": "FedEx beats Q3 earnings expectations and raises full-year guidance after fiscal year realignment.",
+      "snippet": "Pluang, 2026-10-28T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOUpsbkxtUDVaY2dEUUJubGdYd0NvMnFzVlppbUxyS2NNZERHcjZPYjJZMEstNVdMNXhnd2JsT1NLS2ZZWXJJbkNyNkgwZnlHOXVSMHZQX0U1UkJxdVhPR3NxMkt5N0thMlZjWWxvamQ2OU9tUExMcnE5SzNCaDZlU0NxYWFOVmc4Ym14SVRneE5DeGNFaHotUnlnX0JzWTdy?oc=5",
+      "title": "FedEx Reports Strong Third Quarter Results",
+      "snippet": "Business Wire, 2026-10-28T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaVQ5anFUMXIzLWhRa2poUG15VXYzQTgycGd3X0E2TmNuT0JVTnJyVjhUejVkOWxqTFRyc083cnpUb3RMbDYzZTNhNGxhMTZfUW1rN0xoV1lISE1aQXlMenR1QUh3c09xVTRIcjFoRkxRNTF6WWdVVnFLcWdoaUhqYlI0OXZvME9ZMVdPV2ZZWXNnSEtSOWxrOHJEenR5OHpjQWtNR3lZSUgwVWVRLTdjem5wTFV3VFpIYk4tcVpkWHZ3OE9EMVpqekNPSW4xNXhPZ3c?oc=5",
+      "title": "FedEx Q3 earnings strong, income per share exceeds expectations",
+      "snippet": "The Commercial Appeal, 2026-10-28T07:00:00+00:00",
+      "publisher": "The Commercial Appeal",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41VHlnaVhHd0RCTGV2c0IyM3pZZjh1RGc4aUM1R1R3T3l6TERtbUdXNnplZElmaXVma2N3WHF5eWx1ZFJrcFhtZzg5NlJfTk94RmpZdFhhM05HY29RRlc4UFdJQlVYZW54OVNvZjZOOGlKc21VaGc?oc=5",
+      "title": "FedEx Lifts 2026 Profit Outlook to $18-$18.60 a Share, Topping Street",
+      "snippet": "BigGo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000128/fdx-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000126/fdx-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000131/fdx-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926118604/tm2628225d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 307.82 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

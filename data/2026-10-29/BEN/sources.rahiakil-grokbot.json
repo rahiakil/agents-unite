@@ -1,0 +1,61 @@
+{
+  "ticker": "BEN",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Franklin Resources\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX092d2pUX3JvUUNaalJMelhHR01LQ04ydW9oLVFGLXdpaWc4RlhxQlNDa2w5aVFSNmxjcUdLekFod1pRZnA1Nnp1MG42b0w3UXpQTGN1TnJrZzJqaHB5aFR2OUQxbURpTFhOSFJsb1dOb3MzcE5peFZPLVB4RmMxb3VoQzRmVHdyc0RaSERlMmh4dWtBMXZtRmY0T25PNXBX?oc=5",
+      "title": "Franklin Templeton (BEN) Unveils Two ETFs With Bitcoin Exposure Built In",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPXzkzYzB4UG43WXVnZkNLd3R0ekJ4WEp0SHpLeHhMcklLaURWeVlOb0JjTlRPVFlYUzJ0LWhWdWJsUjdzU2YwY3lVNjZER052LXJWOUpORUx0SVN4T3lCMEdzWjd1ak1ISGRBdzB3c3RaSWhyZE1wSlp5dk5mZGwtRGFFVzJkUk9vLW1KVmo3bVFSbjF0NVRMcU1qM3NWZw?oc=5",
+      "title": "Franklin Templeton (BEN) Stock May Be 36% Undervalued On New Bitcoin ETF Plans",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BEN/history",
+      "title": "BEN daily price history (Yahoo Finance)",
+      "snippet": "close 32.34 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

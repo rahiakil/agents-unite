@@ -1,0 +1,139 @@
+{
+  "ticker": "IVZ",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Invesco\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdmhuTng1cjdtMjdBd2ozYXFvUVdVYTRjRFJOeXV1X2lOQUo3b3hYN1dwZGFya0FpTnNCTWNZRXA2MjFwS0MtS1RsbFZ5b0llTUhVb0U4LVljTDJzMlh6UHZ4enBNVVVpeTdXeVhiQkNTbUNuazc2N1lIT3UtSEpzM0xnLXR2bFRyX0Nvb2R4OU5IYzYwd2c?oc=5",
+      "title": "Is Invesco S&P 500 Equal Weight Financials ETF (RSPF) a Strong ETF Right Now?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWpoWTl3dy1fZklpTzB1T3A1VnMzSVJ3cHJEdGpkQkQzTmxscm5OV25RQ1dUWHY5Q3RzbW16eDJuai1oYXRVdXUwRmxmYlp4Z1RrTDYybjRTbnRzN2dZMi1IY1BCME4xSGptYTl6QlN6eHgzTHhkekNTaXg5ajRtZHVHNlhxbUFnd1ZNUXVKWm5zbDB4bkN1VWVjWkQ?oc=5",
+      "title": "Invesco (IVZ) Stock Could Be A Bargain After Its 150% Run",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWpncjVoTlJWVEFpODR6eEpDdjdxaEhHdTA1ZjBhRHB3MmlZWXI3NzBrc245cG50SURRb2s4bXR5OExfU3ZrY3F4dzhVaDdKcnRWUmlkSlpReEl2a1VhOVlqWWt4NjFRbGRkY0tEelg4R1JiQ1JST0NId0VlMnJqY24tdmVfV3VMNVZQZERKS3VDbFdfYmVTeA?oc=5",
+      "title": "Invesco Ltd. Q3 2026 Earnings Call Summary",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGhTZnkxeVFCbTgtTlNFU1hsWkJDSHNiN21lSVN0LW83NDdVbzBjRFBOUWhYWHFkUDlYNzZZS1dCa1M0TDdTek9VemliYTRLYzI1VXN4c0pONDZhX3owYjZNZ2JTWVRZRDh1clRSc3VtOWpkVGhQTWN1cTFGb3VfYUFuTDFFWTBRWGg1SDEtaGR1aEd0U0R4blBYaFplUQ?oc=5",
+      "title": "Invesco (NYSE:IVZ) delivers strong Q3 2026 numbers",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdkYxcG9sSW5WWllHR1lodnJHZjB6dU0wOXNuZEI4Y1FTZzRuZEVXaXVMd1g4cHR4X0t4WVEyMllRY0t3dHMzM1Z3ZTFQRGZQek9CT2Q2TlNrYVEzZG9hV0E1MlUzWVdJTEh6aWYwR0RoaTBXR3dfQ004QmkxTWQycHNKdk03OG1HYy05MVA2ejRLUlRPdXBLdWoxaTlBUQ?oc=5",
+      "title": "Invesco (IVZ) Q3 Earnings and Revenues Lag Estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVkhiVDJhU2w4OGpSU2d3eHczczdrZVd4Wkt3dUkxdnZWMERUTEw2MUg1NFlQUHQ1cTBlNG1uU0VudkwtNFVyVFdUV3BkaTBoU3pvQmM5bVFGdEdxSmNEbUxDNDlWd1J2cFlxaHA4QTRYYWVORkctOWtrOTVoUzY1cTI3ZC03aUo1eVZXeGMwbVoxNzJhTHpqcUJSM2hFckdOdUZULTA3alpLT0gwbktEdmZ6VE9hSmtITXBRTi1idnJyV2FTOXNCcHVJek1Qd0lF?oc=5",
+      "title": "Which Healthcare ETF Is the Better Buy: Invesco\u2019s Broad RSPH or First Trust\u2019s Biotech FBT?",
+      "snippet": "The Motley Fool, 2026-10-26T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa3dFYjNqTFN4VFNteEZ5Q3VLMXdTcXlrQl9wRGc0S3BDZ2REd2F6TzhnMHRWZUdmdGtIUEt6UjdURDNmT3VCei04WVpjRXdpdEVaY3RPbzhoZkhPY0hqY1dlbVUyd0Z3bmViVTlqTUlKX003bE9HM2YyMHEyZDN3bElKYkc2Vk9YOEVZUVh1S3A?oc=5",
+      "title": "Should Invesco S&P 500 GARP ETF (SPGP) Be on Your Investing Radar?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000370/ivz-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000367/ivz-20261023.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IVZ/history",
+      "title": "IVZ daily price history (Yahoo Finance)",
+      "snippet": "close 29.02 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

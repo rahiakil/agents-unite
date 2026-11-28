@@ -1,0 +1,73 @@
+{
+  "ticker": "ADM",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Archer Daniels Midland\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeWdILUFKSVhqSWZHVnZ3X1BsTWxmYW9aTDF4TUVFOS1TZWpHMk5lMmgxTTViZUpkR3NINmtLUUs1c1JWcnlaaXdNcWpMakxoaDdlWWFxLVdWcEN2NlhyTEFzZ0lIZFhtTE55Y1h1UTV1VnA3Vy1ET19ROUxtYzdfMy1QT05lQ005U0luM280YXJWeGxPbjdTUmZ3Z09ERldwNHo2YVpxNjdtOHZBRGlOODF2MFdyMHcwVTRLTTdyWnA5RHBDeWQ2RUhwemxYWlhaWjRIcW1wcUdIdXVO?oc=5",
+      "title": "Archer Daniels Midland Co. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWXFRUU4zVHFJNHlnY0ItU21RNGpwVEpjS3RvSEZXNXo5d3NtczVoMk9CaWNta09fU1cwLVVxaTJpUzluX21uVEFEWjE5NDBSR0dfV0xYTXpKZDdfZmwtQXg3dUhXNFgtMjhNbWNueWpMWTJ2RS02eUlzX3U5aG9hX2owNXJfTld4R1dYN29fNWNkR0h4SXVxUjhjbTQzV2FEcUExU1pfaUVtdVhoZW5ZR2c3UEtNWjBabGdLdEhDOFZHLXdtRFFJRDRuN2ZFZWxsdEJQUDl1MjM?oc=5",
+      "title": "Archer Daniels Midland Co. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-27T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcXU2WUtmcDlXV3h0TFc2b21zLVFpVzhZamxyamVBVHc5Uzl1N3JDYmI4OERyUTl2VmQyVk9JMDZOcE9JWmdad051ajZ5N2ZnSmRYQlp4ZUMzeVFRR1JuTk94dm5ILXFXWFN2QUJ1bWRqSDlGaWNWU2JSY0czb1NSRDFoeWhDS29jaG9pSUczal9hcTBOS280Mm05VDFhQQ?oc=5",
+      "title": "Archer Daniels Midland (ADM) Stock Dips While Market Gains: Key Facts",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADM/history",
+      "title": "ADM daily price history (Yahoo Finance)",
+      "snippet": "close 76.2 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

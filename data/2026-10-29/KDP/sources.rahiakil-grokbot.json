@@ -1,0 +1,49 @@
+{
+  "ticker": "KDP",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keurig Dr Pepper\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYzg1eVZ5dl9hX3FsUTBkMHBoLWF2WjBuRFBPTXhqc0w4ekR5dktmNWQ3OS14YVZ5djhkRll4d1Nkb2dRNzlObGRVTzFOSml2ZmhoVHhSSHFiamlnb0ZRbUlUR3hUaTg2Y0ZlLU9vcVM4YjVibmM0MmhuQTliQk9VeXVYMUYtT0FXMFo5ZU44NjBScjlEYUpCZGpWU1VxM0dOQTc4UlVvYXpzM0RuQk9Xd0RTLXM5NGh2NlIyWjNvVzVmT1VNUkl4eE1zMk1RclVXLWhxNTBTejBmSGZRV0E1b9IB5gFBVV95cUxPMUlYc01PcDB5R3Y3MFJsbFpMVVVmYUMxdXVzVUd6NWptTE1DRjNDOElTMy10ZW9NOEZEX0R2RTk4M3lVT3c4VEVsODR1bzFZSm5ZZFprOEoxWmlrNVAyMk05eWEwd1dXalhDWFc4dGhMazhkUFR5RzNnNUFhaGRVc1N3Nk5lOFJLbVB3N2dQRmtYalRWd0NGaG5tQUtpSnd5RUlaRUNhNUFsb0dvTEVZRzN0cXRXWlJCbEFnQ1N5ZFRaM1NxYXVXTHhMNi1jX19vdVJubVlabF81SHA4QkIyZG13czRRQQ?oc=5",
+      "title": "Antitrust Trial Could Be A Game Changer For Keurig Dr Pepper Stock (KDP)",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KDP/history",
+      "title": "KDP daily price history (Yahoo Finance)",
+      "snippet": "close 35.3 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "ticker": "BAX",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVDFiek5ucnY0OUc2Z2dydDNqMng4dUhRbF9FTW9zWDd6NGRCWWhGamJLMmEwU2lMT1ZwTU9zdENYU1BBUk1kU2MzZHJqOFJDTC1Mc2RnWEdlcVB1bm9POWhFRWt2THp3cTU1NEtSZkF5cGpyM0ZQUmFFb1FjU2JjNzdGTENldnVlUFNQb0tpQnVPNUF0QjZn?oc=5",
+      "title": "BAXTER INTERNATIONAL ($BAX) Releases Q3 2026 Earnings",
+      "snippet": "Quiver Quantitative, 2026-10-29T11:31:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-29T11:31:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkNqaGU2MnJvLVhYSlNWTWlwbzB4c2UyUm1ndDBmWVd1QkZZWGZLR3lFU19PRGdZdF92YmZTOXpCZ2hoMUo4alBxX2RZYlFCV2RKbHBOOUtYbkFCZi1HX2owM1JVUmJGM1ozR0lnc0NtSEpzWEl1SjdBYWFBTHd3T2dNbWJvbzZQTC1aUVdLY29pcE84SkRRRXFOSjRFblozOUNGZE10b1BidVdSSmJQYTdHa1JoZWZGeXRkeWlOLXQxRzRSQm1Dcnh2Sk5TNkVWUEE?oc=5",
+      "title": "Baxter International Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/10456/000001045626000004/bax-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,8.01,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026068278/bax-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-29",
+      "snippet": "10-Q",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 23.5 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

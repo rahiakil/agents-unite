@@ -1,0 +1,49 @@
+{
+  "ticker": "BR",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Broadridge Financial Solutions\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSDg2QTNmUDZhWTdHcFhkaldodDVaMzdkVVNyYnM2YVktQUpiY184MjlSM3FKWGwyVnUyNHAtck9SQTZfQmhUTHFiUnlabDRfU3Y3NzBEd2k4enlWYjhJUjFwSl9fRWxaSEE3TGNTVXk3ekV1MlNaem1YSTNIQ1pIS0pJVXhhMFpwMG95ZWR5OGpMZ0xE?oc=5",
+      "title": "Broadridge (BR) vs. FIS and SSNC: Can Recurring Revenue and Dividend Growth Unlock a Valuation Recovery?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BR/history",
+      "title": "BR daily price history (Yahoo Finance)",
+      "snippet": "close 178.14 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

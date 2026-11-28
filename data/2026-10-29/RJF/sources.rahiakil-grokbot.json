@@ -1,0 +1,94 @@
+{
+  "ticker": "RJF",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Raymond James Financial\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcDBtcGdpcU5RSElCX0dEVTRkZVdrQlZ6UDRQY0drVVlaU05WazF6YnRTLW10TnZlam15bGV1SEtwOG9vZGNYcVRkY1JGcTROb0Z0NWxFRnNpMVRpMXZZcWZtb2Exbkl2empkTmNOUTVzZmsxTnZHVnFPVHowSkQzQkoxWVQtWEdmWlVDaTk1cWRvSVZCYTdYcFhZU1c?oc=5",
+      "title": "Raymond James Financial, Inc. (RJF) Q4 Earnings and Revenues Top Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlJJMW5VclBENERhY3RoTnRHcGVDdlJvT1lXZm5oTGdMSGVyS3h2QkZLMkVNS04wYVk4ekNHdGljaXVINGNIeUoyYVNpQzZtT0lfUDFLTHpnZ0l0NHBQZG5VeGtSNG9vTXJkNGFPSnNVcDV2ZXpNVlcxOXVYV0pydnJiaGUzTGlzRlA5VjJiSVJrUWhaRm4xS0RmMA?oc=5",
+      "title": "Raymond James Financial (RJF) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMTNybTlma0hRWVFSYWg1YnhHUzN3MUxwNTdxc3NjMVgxWGl6dGloMnpHbDZzUU9FMkJRdWVKZVNvanNqUWtyVWp1ZWtCX2szUWJiSXVYRE90MHpkeHBRQWthWjNadVo3X25aRWNLNG5rUHN4X1FvRzZJRHdaQ2x3U1h6TnREZWZzWXNFazNnOENKSFFReGNwTTBTTkRmc0xQMlI5aXh0LUstZVo0Z1FIYU5lZTdrdlBsbldWcnpHU2JCMjZ0bUNRQkljREdWRFQ3MEE1UnlMZjlnMFNGSGVSRnRpX0FGYUk50gHuAUFVX3lxTE11bWdCZ1pPSjRGWnlQZkdoN204aHVoNVp4VzZ1dmlrZXdvTFl4UzBtOXN5NElyWXVGem9kblFJVm0tSHc4U1lLejNkanJqaTNfSVBQcXlCOEVUODZmX0RhZ3VQczlrTzVjeDFXamdxenNZdWlnaE1CMmRvQy1saUQ3REs0dUs4Rm5tYXVZM2xKSDhhQkN5UnA4OWp6R1VFS2lXSlJPRHlfMGlOTDZrUm5qcEkxZHd6Nk0tM1R0NUJVaU90d3FwLWppWUFMYlcyS2J6RmRmbklIRnR6MTZfUkwydHVPckJ3ZlNRTWZLN1E?oc=5",
+      "title": "Raymond James Financial (RJF) Heads Into Earnings On An Undervalued Narrative",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZXgwc2VkSlBjWUx2OTliNXNEY3R4VEllRkZsbmMtTnl6NC1WOXNneDVSN1R3LUFTRktjWHk0dlgybVhBbzhCNEJOYVJhQmEyTjdWSGhNSnlwMFFSR3ZDcFFBV1dBTWtpN2FZY1Q0T3YweU8ySmN0YlV2UjBFN1pnUGxjMFhFdUtWcDNmZFRkdWNLYXl2bnVGREpR?oc=5",
+      "title": "Raymond James (RJF) Q3 earnings report preview: what to look for",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000080/rjf-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RJF/history",
+      "title": "RJF daily price history (Yahoo Finance)",
+      "snippet": "close 161.29 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

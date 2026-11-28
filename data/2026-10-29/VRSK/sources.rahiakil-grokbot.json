@@ -1,0 +1,70 @@
+{
+  "ticker": "VRSK",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisk\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWm1wNG1BV3Y0TmtabEl5d21UQ0QwMUZMRWJYbGN5M2JSYno3eHhzQ1VtTlhLVUgtdnZ6UmxtSEdxQzhnYjJ3R1E2UnRlZk5MNHhQUEJrSWs0dENiV3M0TmNnOFNsZzgwZ1FqOTJDQ2UwTWlBZW5wRGEtd3ROa2FHUHhYRlI5TE94ZHpaZlhjSjdsQmFxQ0VtRWpvaS0teHhUYUVlbVB2aFN0TUJjaGxmMTdnNGRBMXBLV1RTQzRZcDRrdw?oc=5",
+      "title": "Verisk integrates insurance data with Amazon, Microsoft AI tools By Investing.com",
+      "snippet": "Investing.com India, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYm5fNDlmSkhBUVRpNDJIcjJhQWdYa1JDelllNTdLZEU2U1YtcWctRFJiR1JkMW1fU280dU9OSDlna2duc29pUFdYZWZPWDBtWXNJZjA4VjMxUkFZYjZiQ3g1dDFqeWdPTEJ4U0lfR1dDU0RBZ1AweW1HSTlITjRRU3ZDMEdMc0w1ZERrVGxOZHVHRHg4OTRmZ1VhVXVmTTlOaEFrWWZkOXNjeklFVzNkVFVR?oc=5",
+      "title": "Verisk Brings Its Proprietary Insurance Intelligence to Amazon and Microsoft AI Platforms, Expands Offerings Within Claude",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1442145/000095010326016441/dp255815_8k.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSK/history",
+      "title": "VRSK daily price history (Yahoo Finance)",
+      "snippet": "close 190.71 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

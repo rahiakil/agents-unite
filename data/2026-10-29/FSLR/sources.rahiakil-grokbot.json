@@ -1,0 +1,139 @@
+{
+  "ticker": "FSLR",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"First Solar\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ0xWRlk5TkwyU0trMHlGVHhjRjh3ZXhwaVFBU0ludHZYUWhBcjFCVUZzWmtTV04tWnlmSlJ6aDVZSEtfVnl2ZDZpeVpXN2piczJLMFp2ZW1rVl9MQ2VORnFsckZZWk1wMmJUZW9xS0R4X1c5RmdrcVlhQlJxdDRJa3lTN2tpU251djk0QlV1YW5vS3dZOEhLcA?oc=5",
+      "title": "First Solar (FSLR) Q3 earnings report preview: what to look for",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOX2FFMzhmTlRjNEp5NGZ6TXQwc1RZZ2tMamw5cUNIWHRpckhicFU1RzJSVFlodjJWOUhtMHJGN2gtNWlWRXlXRnhnQzFxQ1dpVklPaUVyWGRlSEVwYlAxMnRUN0I5QXNHNTFrQ01DeFNuSEo2VVFPb3ZwS3h2UGQzTlhaM3hlRmR3Si1aVU5KeXZPSUlGNS1sd0ZJYlNOTU4yU2oxb0txZ0Zrc1JDdzFhQW1kMmZwQVFlYjZoa2ZaQ01COC1BT2VyVVB1dDFjM0NaTnc?oc=5",
+      "title": "First Solar (FSLR) Opens A New US Plant, Is It Still 33% Undervalued?",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY0NoYUZzcHhLVFBqS0ZCQ0FNUnNFSFY5eTNIUldHZzMyZ3RYUEVIeXQ4LVplSEpWUWdYZnplSHhxaVFfODNVTXVtZUFaVnZLVnRJY3VyUmNNTGdwRUc2MlpnX0tSNWdRR19Za01KR3pZUm0wTFlZZjZlMEU4Q0p1cFRpUFhKVG1VQ2VCSW5UaXFhOU5WNGdPU3E3Y2FrRUtGaG1NTkg0RmdhVmE2bFgzVkpn?oc=5",
+      "title": "First Solar (FSLR) Launches New Manufacturing Plant Phase in Sou",
+      "snippet": "GuruFocus, 2026-10-28T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxObFZfYUw3bktIWUV0bjFId3psN1dyd2prMmo2cVlYYTNEYnBmOUhhUmVxR3dNQ3dUeFZqZWQ3RUhjaG45d3VOeDczT3loZ3lqNmJmTmZybkp1enpMcmRYTmRfYjRRdGt2Mkg3RjkyZ0EybFdpM2tDZFV3UnVWcGhJdVVsbkVaMnMwV3gtaXdGMmdvQW9WODlSc01WRWxmcHpLYll0TzktaGNmUGpjbXdUME1XQ2J6Tmd4NGRCOVRYVXZGdHlXOE1MU0hkNWdPYjlISTgzV0VrWlFqNVNwWE1kdWNrZVdHYXM1dUtyN3FvMzJaaG11NkRzdUpuZGdfc2UtMmpn?oc=5",
+      "title": "Enphase Energy Sinks 20% on Weak Q4 Guidance as Residential Solar Slump Deepens; SolarEdge Drops 10%, Sunrun Falls 5%, First Solar Dips",
+      "snippet": "24/7 Wall St., 2026-10-28T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.891,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZWppUEJDNDZGaTBNeGp0M1phSk9pQktVUzNwU25VSlV1UWl0akxFbXRDT1RHN3lac3RjbkVMTkdlUFkyeEtpa2RRTTM4Vng4RTdvNkhjay1MaWpNMVV1QTlkR2xweEhDUzJtWFM0QVpXNUt4d09sMmpKRE1kVHNSaVRjQTZ1cWd6eUJrSWd2MEVxSUpfa2gzRzJ6VHI?oc=5",
+      "title": "First Solar to Release Q3 Earnings: Here's What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMG1hMTJNbEpiWTVZRC1VdDdEekdSRUtseUMwaGZjNmdYNGZQcWFNRkZuTllTNmZQejBzOVBLN3B6eUU3R1BWOEFyUnZPVTR4U1F2ZU5tMjBTdjg2aDFlbzN1SlBlcjdLLThsRGc0djE0SGlLcV9MVUJlaWJkNEZlbmppanhvRWJuYmhsTFAtWnI2bUxfdWhJZW53bURGSmVfQUFZN2lZM0RoUjN1RHF3bk1uU0lzZm9saFhZYlV5aDhYX28tY0E?oc=5",
+      "title": "First Solar Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-27T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNFBRRnpzSEhJT3pMUXZfUE1GeVVQSVdtcHZVT25KejBNaTY3a1ZzR3hsWEVKSDhVYzhOY3k2dWszS1BjQ2R6Y1NadDlhUlFHY2F6Q1dDSFZKR2otcGlMWFBkeTJZV0RFeFdLdmYzTXpRTERaLXRkYXEwbkF0T2FoWlpfdkl4WEtGVkMwQ3FLNTVpMUlUTTRnY2J0YXBuOV9LV28tbUtXTFRZLUZ1ckd0Z19FZ3BReUV6NUo3VUU2alhqV01BVDhrN0J4bw?oc=5",
+      "title": "First Solar Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-26T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000211/fslr-20261029.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,8.01,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000212/fslr-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-29",
+      "snippet": "10-Q",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FSLR/history",
+      "title": "FSLR daily price history (Yahoo Finance)",
+      "snippet": "close 176.89 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

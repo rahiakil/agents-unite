@@ -1,0 +1,49 @@
+{
+  "ticker": "SJM",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.M. Smucker\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVF8wWDUtaXZfcmw4MG9jOF8xUVQyVlNpTHN0bDZTNmltUnd6YUJ5bEJSZTZBa0RMMUo5c0tJSUx5MzA1dV95R3U1R2p1X2xyQUd3MEZJelRfZWFpS1M0eFpzcTFVem0wZ0NNbVN1ckVZOHRqeDg2ZGhiMmp2WV9xM3NNT004cHlnWWg3NWpxUTd5MFZTTHhzbGdxZmJQa0F2dHYwNnpnc3Q4YnJsbHJIdGRJZHZWQ1JjdnhwR0ZuOV8yZG1SQkpxMzFYeE04bWVHcmtkVzJ0Y9IB3AFBVV95cUxQbmhCSnMyaExjdUVhOV9qMkZaeUg0OGRycEpvRkN4VXk4OXpyM1pJSXhZUG1NN2p3VkVRZ3RZZ0N2ZG5ENkFOQWU5a213Rl90YmljYXVxNHg1bUFnWUFsRjFaT09GVUVMUjJWMWFUeVk2bFk3SGdIdzdYMTBDZzhiM1hyaTBxcEwyNnZKbG5oc2hRSms5dkFVMTBneXl1ZlRNVUd3U3ZXMC0zVVdFcGlyZGc1azdfOVB3ZFl2emJiQV9wMl9pT0tLazN4WXBmZE1RZ2taZHUwdHlRcU5E?oc=5",
+      "title": "How Investors Are Reacting To Smucker (SJM) Refrigerated Uncrustables Launch",
+      "snippet": "Simply Wall St, 2026-10-26T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SJM/history",
+      "title": "SJM daily price history (Yahoo Finance)",
+      "snippet": "close 126.26 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

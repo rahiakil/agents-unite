@@ -1,0 +1,49 @@
+{
+  "ticker": "VRSN",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisign\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSVd6WktUS2NVVVItajgwZk96RXRSN1UtNEtWdUU5anA4NXQyUk5mREVyS2U1TGROcXlyOWJQZXpxdkU4WFd1V2xmSEFaQnQtOXJpUUlMTWo4bG1EbWZTN0ZBVGFrV2dWNHFFSmdYcnpFU3oxWEVORkk0blZIVVBpYXRMUGJIdmJ0cXBrVGFWVFMwckZsM3B5OEstcmptc3dmTThzRWhTN2xrWXBrX3BNejlmZ1liV0pWZTUxTHpRUzRBalp3clAyaUNSeGhBbFRWN0pF?oc=5",
+      "title": "Wedbush Adjusts Price Target on VeriSign to $367 From $351, Maintains Outperform Rating",
+      "snippet": "marketscreener.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSN/history",
+      "title": "VRSN daily price history (Yahoo Finance)",
+      "snippet": "close 305.95 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

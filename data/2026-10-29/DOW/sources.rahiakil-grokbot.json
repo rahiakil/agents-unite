@@ -1,0 +1,49 @@
+{
+  "ticker": "DOW",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dow Inc\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTldkdWI4eUhwTWU5Yl9kWHdHcjBDQ0VVNzI4SEtaZlI1RlZtREpwaDhuNEhUc0R6X2xRYnBXeHlzQTY3TDZRNDh1NmFUanBqanQ5aFlFZFlRZHhZMWt3cG5BRDNvVmcxWGE2azNDb09TbGZ1cGtnWmNCSVd2cHY5SWJ0VUg5c0VGa1BEWE9KU19WRXhTR053Rg?oc=5",
+      "title": "Why is Dow stock rallying today?",
+      "snippet": "Investing.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOW/history",
+      "title": "DOW daily price history (Yahoo Finance)",
+      "snippet": "close 33.62 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

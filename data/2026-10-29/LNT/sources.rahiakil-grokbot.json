@@ -1,0 +1,94 @@
+{
+  "ticker": "LNT",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alliant Energy\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORXNfY296UU5wZ096QjlKeFMzb3dYNmlCWXU1dy1TZ3FJWFk1RFFsbUVyYUNaZHNGSnBFVTFRcktEeHMtREJqQzJvTnBOMXF5TDVfbEpFZXFGSUs3Z1JRV08yQkVMR2NNNXZQVm5idjJwTmlKX0I4TTlGeVJ4M251RlloRks5MlZuRHpnb2ZCeDVseUdPczZDMHJiNGFmWnlMa01wOFU2Mm5KZnhzWm83b3hmZ214ZkFmVEhEOQ?oc=5",
+      "title": "Energy Department closes $5.1 billion loan to Alliant Energy",
+      "snippet": "Investing.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTWlJOWM4TXZHVDk0eXlYWXBXUnhFaXNuYW9mSVBLTHVJR0dNWGRHS2REczZlYUxHVHRjQzQ0amFoVW1EXzd4eFNtTUIxNDJHVXNtS2FCVEpNRHFqVjd3TVhiRTlmY1NSQ092QkEyNEJ6eHdTVjd0UWF6SEN6LWhFd252OW91Z3dBYjhTS0RyZmRZRlVxWjBMeHdZSWs4d1FkdDVtVXNDaXZkb3FOd0RQVktBSHViZ0dEWkZHQll2clFaQQ?oc=5",
+      "title": "Alliant Energy closes on $5.1B lower-interest loan package from U.S. DOE EDF",
+      "snippet": "TipRanks, 2026-10-28T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRWtiOTNnR3ZVNGRiSGdndWJZeEZqdjlmakh5WmplODN0UmhBMVVSU2FwcU9TSl8xbi1sbnQ1NHlvOFNUNEZYazFaQ3Axa1JCcnJvSllYMnlfbmR1NUNWQlBrOGxsNG1YaDRrUE5sMDZNWHpZT1dSbElGV3dqY2doRXZDTzNYNU5peHVha01aRTBaOGNNLXhXOQ?oc=5",
+      "title": "Alliant Energy Set to Report Q3 Earnings: What's in the Cards?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX3pDelc3WHVCdkZvUnFfZVJ6aHpkcHpsNk96M09CTWNlOU5HQ0o3MDV0cTJ4aC0zMjFyVTJ2UlVIRDZBWXA1MjBncm9qNkNtT01NU3JKeXZrWGNiMGJBUXk3RElINFh5SW5ZVjhzd2VaQ2dyeHQ2a3FDWFhwbUdkdDJEakU5U2ppUmZXVXJLckJYbUFoNFg3MXV1aHdHbjllUVE?oc=5",
+      "title": "What You Need To Know Ahead of Alliant Energy's Earnings Release",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/352541/000119312526435177/d160574d8k.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LNT/history",
+      "title": "LNT daily price history (Yahoo Finance)",
+      "snippet": "close 70.68 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

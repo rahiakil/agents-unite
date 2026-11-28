@@ -1,0 +1,49 @@
+{
+  "ticker": "TRV",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Travelers\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZnFnRHhOaHN0Vk5DV21sSmktOU1PbVVyRnV0U1VTdmR0VWxCRU5XMGo0YUx0Ym5JUmswUTQxdjdxWmZqbzhYZlU5TXBBOU9FYXVPQ0JZYnV2dkk5VWtmamRvZG5fUXVUd255VmNPa0hCTVpWVlRtMk01VnpXSi0zNHdCbDVIZTdmY2xGNFRzbnFLRnFmZkNHMFJJbHAyZw?oc=5",
+      "title": "American and Southwest chase travelers with deeper pockets",
+      "snippet": "Axios, 2026-10-26T07:00:00+00:00",
+      "publisher": "Axios",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRV/history",
+      "title": "TRV daily price history (Yahoo Finance)",
+      "snippet": "close 398.27 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

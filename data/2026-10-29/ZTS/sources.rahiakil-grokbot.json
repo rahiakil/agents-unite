@@ -1,0 +1,97 @@
+{
+  "ticker": "ZTS",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zoetis\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVUh2NkFCejFGRm5ZM2c5aWhReU9uYjNzLXBxZ1Q0LWJSQmljMTh2OUNPV3ZDWk5QVElGZmdQUDNOUEpvcm9fclBxTkJaaDk0NXhfTjNhY19sOWl6a24wenIxX1pHSVFITDNudkduejBXZlMtVzlaOEtNVDhNSndVNnlmTTNrdzB3R0tnQnNGSmxDWUJBUHZHZ2lMb3RIdw?oc=5",
+      "title": "Zoetis (ZTS) Stock May Be Undervalued After FDA Approval News",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNWJyeEVKU3ZkSTdKLWpUTGZ6cVMwaVdTMnNTaXhZVzZ3eEVUeGEzLWtvUGZ5SlhqOTZucmFvaXZXOE8xVGk5Q0xkY0tIOHFMTVlXbEpUdXFiZ2l3TVNDRlN3U21MQ2s5aGxJNHBlWGcydGw3WXl1V1d6YnN6czRLRnhka1pieWgzZHRkOThGWnJSeEpnZmlyXy1YSFJhMV9VSHAxYXc1bllEZFRzdWkzSHlvWld0R1lUeDhXZ21sMmpfYldHVGZ1RFhIR1g3SEZRUTJj0gHYAUFVX3lxTFBvVTc1LUJxQjBnSHJvcVI5bnBQNk5uSXNkcmQ5QUlkU3ZiV0ttaXRtR2tLVzd2YXBBMnhUMVhRMVRoUnBrY2R1eGJfQUVVcUUyOW1NSGRqYzUxdmFhY0dSVHM4RDBxS3RBN2JieENFajdkQU9hYUNSamdHMzZsTFJtdGlfWlc0dVNPZ0R1em9EVVdqcWQ0amRhTDlDN2NhQ0NiUjNxQ1Q5bHZwdEZsalZZSzI3c3ZLdG9FdjNDOGNMRW9vN09VcEU0NnhNekZhX0ZzSTVMU3lUVw?oc=5",
+      "title": "Zoetis (ZTS) Stock Looks Reasonable Despite Its 61% Five Year Slide",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZTcxYUZOMXRCNnNIYnJhc0NDNFBrbjR0M1lURVRnTUNVY3duMWdCdmVycWVRRnZJXzA5LWdwbjBlUzBvN085ejVobWlFZGJqWGo2cm8tQV9vRmVtYUZIWkFXbUVEWlZCcHNLTmc0dHBjYzZwcG9fa3NBWGRJNnFMVWxRdWRrUUtZVmVmWGVaSk1jMm5vY2c?oc=5",
+      "title": "Zoetis' Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTlROHNlUndkaDE2Tmg4UC04TmFBWWdEcHZ0UEdGbXRoQlBSMTB6Q3B5UXdvWnVpdG5iVVRISkkwX002RmpyWkZhUTh0amNMam1RY29icXJheGFhRVA2T2piY0dpN01DNWVjaVJueG5PMTdHMi1UMDVoUXRLTVRQeEc5NGU0Yl9pYUt3LTZtd2xJdkhnZTV6QlloWkFXRnFHdG5fanJUdEp5RnJpUVlGUDJ3?oc=5",
+      "title": "Are AT&T and Zoetis Unjustly Punished as Rising Rates Cool Dividend Stock Appeal?",
+      "snippet": "NAI500, 2026-10-27T07:00:00+00:00",
+      "publisher": "NAI500",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQnJHWnhRZmVjVUtzRlk1d2t6X3g3TG45RzZqOUhCVVhrVDZ5MGNhTjJEbW1DaHlURzlPR2pUakJwR18zdGdBNjNVN1VCdVRnVDdOMWszM3B6ZUwyY1RkSzcwTmR3cXBOM0U1SFhjYUF5UFR4NS16MGdHSFhyTkpKRFJDVFNCRTllQ3VDWA?oc=5",
+      "title": "Can Zoetis Stock Jump 30%?",
+      "snippet": "Trefis, 2026-10-26T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZTS/history",
+      "title": "ZTS daily price history (Yahoo Finance)",
+      "snippet": "close 78.8 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

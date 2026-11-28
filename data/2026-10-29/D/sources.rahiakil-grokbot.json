@@ -1,0 +1,49 @@
+{
+  "ticker": "D",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dominion Energy\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdWRnQk1FR0g1U3J1N2V3ZFJiRnUxZnE0QW9WMHBaS0F5Vm44MjRKcDIydjBvb1dMNEtFUEV4dzE0MmtkYm5JQkhUYmRseHZ3blJSWWlLRElubkxJRTFkdHc2TUhfbjVBMXQ4MmxpSWl5R05uU3VFXzNuUDY3T2tvRDlBczlyTjJabXRjZS1QdWc3Uzdab1QxZjExQlA0Y1Z0Tl83ZXJDZmZZaU95dEE?oc=5",
+      "title": "Dominion Energy to Report Q3 Earnings: Factors Investors Should Watch",
+      "snippet": "Zacks Investment Research, 2026-10-26T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/D/history",
+      "title": "D daily price history (Yahoo Finance)",
+      "snippet": "close 65.12 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

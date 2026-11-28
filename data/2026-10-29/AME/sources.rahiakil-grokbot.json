@@ -1,0 +1,61 @@
+{
+  "ticker": "AME",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ametek\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTQ2RW4wS3dTOW1tV2FhZ0F2XzdNaWNFMzRHaGx3LUtpWWNXRFVyNnYxSUh6YWpYSkdXdWthb2pTZXo3RldPT24xX0UtUGlhd1lTZkRpSDZieDlSbUlxaC1ScGRLLWladnVkMDBrYmNGby1LNm1YRnNOSmJSRlNnZVFUMXJPcURpYXV2bUNIbW5wSGJwd0ZPQ00xTjlfa1hkaFpHNlZ0dEhPZVBNaUtyeS0xcHNuNUZi?oc=5",
+      "title": "Ametek options data points to 4.3% move on Nov. 3 earnings",
+      "snippet": "Investing.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMkVPb2pOc3A1bmhiLWpqWFljVWRGSGRnMGdyMVhBMHVqUW9MMDRIdkxRaVhKLTVpLUJiNDNZc0tVUXJrUDlFSkRjVWdKMGN4a1FKckVEc2EzdXZEdUZCbmtGNWRCei1KNjR1MWRmOXREaDFIdjA4X0xVcXZyM3M1enRnd1VaY2xBUVlkRHE5Q0paZjhwS19LU3hIMXhkb2w4T3hJWnlDQ3UwS0NJd2ZFS05qbGhPUlAzM0FLM0l0bE1oakY1YlE?oc=5",
+      "title": "AMETEK Inc. stock pre-market at EUR 215.15: industrial technology group",
+      "snippet": "ad-hoc-news.de, 2026-10-26T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AME/history",
+      "title": "AME daily price history (Yahoo Finance)",
+      "snippet": "close 251.78 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

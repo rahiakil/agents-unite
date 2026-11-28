@@ -1,0 +1,121 @@
+{
+  "ticker": "CCL",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carnival\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQzd4emRKOVQxMHdFYl9ISm1zRFVOMWUzSDRwM2dfdGpDdzRSTFg4d3RVVWZSalFLNmNnNktZZ0hxYldfdnN1R254bURLMlJ4NEtpNmgzR0JRRnd0bHVEMlVTZzFJMkNyWmFIZjRTaGR0NDVEUl92ZnVyQU00MmNPbXRRdXR4MGpScUVfXzlHTFFDNV9vNHFDTk1hSlpDNmhMQUNNSzQ2aUNaTUdTNEtsalZfZGFXYVVuTmcySE5wNGFfWDFtUVB4NQ?oc=5",
+      "title": "Carnival Corp. Ltd. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnc1LVRwM3hHN0UyUTJJU1FaNDFTNWhfd1VaLVBXcUlZMDVTUXhuQmVLMlpFaDhiRjFqLV9pLVdHRXFNbl8wbXRFbldyam5nQldVRjhoSnRzLUp4NElRcHd3bno5N2ZRMFFYd215alg2QUtaRlNvNWE0d1BCcTlwdDk2Nm44ak1maUVvTWpCUHdVS1VQQnhEZWdtbDJkTnlW?oc=5",
+      "title": "Carnival (CCL) Outpaces Stock Market Gains: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVU5yZkRUVnZSWWlQcTRQemREb0VhLWduclpxTW1TTjdvZ01ucTI1Ul9NcWpBeDhuOTNDZ0w5REg2ZWVOR2JydHhXMEkxNjFrdXNDbHVVUHdUV1JGeDFmVTBYNFlKQlZnR0RFdHRJMHYxandva1p0ZHk5aDZXRHE4ZWI4MW5mc2RzRmhYcktrSjNyN2JCSzF0Rw?oc=5",
+      "title": "Better Cruise Stock Buy: Carnival or a 50/50 Split of Royal Caribbean and Norwegian Cruise Line?",
+      "snippet": "The Motley Fool, 2026-10-28T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMFVkRGJwclhxd191aVpEQ21sd0ZkUzNLWHQwU3JYSGE1M3owT0hvNGRVanNsUFR0U3VsWmZzaG95LUlXSXpXRE02bVhyRWU0OFZXcEFldktEMUtsTGY2SFN6MWhKMXB6aUNXMGZ6QTlmRV9MeklpSFlBOFpscmgxWVlIbjBqZ2Z6UEttazNrV0lycXV0eDN3N1hubUdzX3R4ck9ZVEZEVUNSR01xZ1pjZF9BdHoxNHJpWW9ubFE3bmlIUkw2cTJYMm5LQ1Y4QdIB0wFBVV95cUxPdG5rVjdhVG5hVXZYeTh2dENjZkZ6NTR6LVlLUndNZlYtRzB6QzFyaHFpQlZZTHE4R2R3cE9UT0podjJGb29MQjhrb2pkbEZtZ2FnRjJKUjZfTGxFMG1RSFJyR1lSTWpDcWJUVDczb1FKd3dKdEZRZk5oTHNseFUtR2EwekZIbmhuZ1NuTUE4NWlHS3RTeFVLS2IxQllTeDRzOEI1N29HTzFUaFd0VVZKdzg5MGtFWWFKNnlWQWVjc2hLOGRMeWVpdG9uU2MtWFBFRlhr?oc=5",
+      "title": "Should Record Revenue Signals Require Action From Carnival (CCL) Investors?",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNVdrTXpwUkJSVUQwYXV0U3ZEQmxaNGxGTFpUXzJZRzZMamZZeW9FVHZyRHRaQ0x6X0RGTmdSTHBkNl9iSkt4b2U0anRYcUJTNkowYXdEV0FvYnBGakptY1loVnc3Wnl0X25xcjA1dllhOTYyYmlIRDhZVzBmeXFpWkFzOW5xQzZjV3BhN0pGOTFxc09SSTlIR0lwTEpUbXVMSTRyWTVKOVJQSHJRSHEtY3k4TTZBQmU1dXJYd2c1d0lZMkpJNFVZX2doZDZOWm5iZjdjdU5mQWplR0lyREo2VVZCMHE?oc=5",
+      "title": "Royal Caribbean Surges 8% as Earnings Beat Lifts Full-Year Outlook; Norwegian Climbs 3%, Carnival Edges Higher",
+      "snippet": "24/7 Wall St., 2026-10-27T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.869,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcy1ZQUdNQnEzTGNlM2VDdWp5a3F2NDRZUVpVbGRfLU93NXVVSkpWRWprU2NEZ3kzd2tKMzI0MW9iRXRnbjllN3JmdVU1bFpFeC16ZzNlUFhBQWFfMFZtbFlkOGZxYkZTSFRnZTRxTGtHemNBV3FsX1VnQlBiTnRaR0RraThCTWhQa3BfYlhkS3lFd0o5VjNpQnFUdmhtS3lNZ2lNWWtMNmZncmct?oc=5",
+      "title": "Carnival vs. Royal Caribbean: Which Cruise Line Stock Has an Edge Now?",
+      "snippet": "Zacks Investment Research, 2026-10-26T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRDN4LWY1eE1qVkZZbnhXaWNodWt3UGFuS3E4QllWTVVyVG1JMHdGM2RDUFVtTmlaUUNVaUo2WFQ0NXNqbW1CbGU1YW5GWGpkU0lUWEVOVXlFQV9lOW83Wm1ERTViOFJyRlBVNHpnM0tJYjZkRVIwVEJYS0hkRXJibUgySi1uX3A1b0s3bjNwWEFKTzVuNlpETEtNM3dDWEszQnc?oc=5",
+      "title": "Carnival (CCL) Exceeds Market Returns: Some Facts to Consider",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CCL/history",
+      "title": "CCL daily price history (Yahoo Finance)",
+      "snippet": "close 28.84 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "COR",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cencora\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDhWQUpPQ1BBbWNGY255NnNBSjc5UTNIVWtIQlVfaUh5aTlGSUZuaXZRbkNqX3YtRDRhMXNFdEh5WUtuWEhjMGxscFhrYjVvaGpIRU1XamVud1pxWGZ1ZzlKU2RHcXRMM056WGsxUDJ4SmNiSEdXRnZRLTk2MWJ1NzhGZ1pmV2x4MUtWU1NR?oc=5",
+      "title": "Cencora to Acquire AON in $2.4B Deal to Expand Oncology Network",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUWFsU1AwX1prTE1iQ25ZZnk1RjhKdnFkcnVyclQ0SFFZd3ZBaEgwNE9uT2VVQThfTU5nYUtGc0FRazNJdGxwbEU3Wm1FVExBMno0RHRGTTFuZFNab2ZMZktSUFItRldUaVRETTJlN0hockpxb3F0Y2hJUWtsU0F2bC1CWmpsbUppUUk1cG41MWxYcV9QXzVQd1JR?oc=5",
+      "title": "Cencora (COR) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COR/history",
+      "title": "COR daily price history (Yahoo Finance)",
+      "snippet": "close 330.53 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

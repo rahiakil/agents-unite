@@ -1,0 +1,61 @@
+{
+  "ticker": "PNW",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Pinnacle West Capital\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT0dhZkJoV2I3ZDBCYmE1YUlIRmh2ZGFRenhpdUdJT2hFMzN0VVZsTVYxYl9ZMHFSNTh0RDA4SzVSQ1RkR3JMVVRSNkpkeXB2dnRSUHEwZ3R6T3BTLVViQUNUMjhhVnlCcFlWbklqeEl1cTBwNXJnQTA3TmI5engxdEFILU9TenZROFVKcW5EMkZlbEZmMmdyRE9ObGhJbldUS2pSem1tSG9UY2JCdGtSREVUNy12eWNfdG9BSkNya3h5S3hmSUdrMWJOelNfOE1WdlFHeFMxN3B6QQ?oc=5",
+      "title": "Pinnacle West Capital Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa0Y2MVd0c25KdmhRVVZTYmJ0LTZERVozdVJPX2RTNHkxb29LSjhGNUFKRzJjeENnYjNpNTlOZG05d3FydTg0NDYwVkhWZDdWSEQ1SnYtQ2doMHpTcTU2RW53TzZ1U3pjRm9VV183MzRsWXJDd0dycnAzaVBtVjQ1R1hiWEJBZTRtOHBnNFVFem9PUzRveDZKN1MzdjM?oc=5",
+      "title": "Is Pinnacle West Capital (PNW) Stock Outpacing Its Utilities Peers This Year?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNW/history",
+      "title": "PNW daily price history (Yahoo Finance)",
+      "snippet": "close 106.64 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

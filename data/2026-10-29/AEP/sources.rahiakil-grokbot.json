@@ -1,0 +1,151 @@
+{
+  "ticker": "AEP",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"American Electric Power\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVXJaZERqY1EzNUVGUWJNWFdFU3RUNS1qb3htR3BCSFA3d0pYOEI0cDE5Y1pfRXVWNURNSEl2WUpyYzRNbGpWdjd4bFEzSkpfUjJZcEJJQW5JZDN0QnF0Mkp6aDJfX1hwZDE2UlFqeWdTRmdTLU16WGI5dUhPajlEeVV1RDVEU2FreW1FNU43YVo3eXJJOW1nNGdyQ1FqRXFrNklHb1RBWUJiRXo5a1UySWU0bWhiQQ?oc=5",
+      "title": "American Electric Power beats estimates, lifts guidance By Investing.com",
+      "snippet": "Investing.com Australia, 2026-10-28T11:12:54+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-10-28T11:12:54+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSVA4SmlOdGt0N3pWMGhMQmlMTnRlUmo4SjRfSU9iZ3h5cVotRGt4UDN6LWY5TGlzalc4OXFhbVNJTExadkJIUlluSUNTMEYxRDZhQXNjQkhUd3pNRE85OFlpV2c2U21BMFhaYTRGNXhlVjl4SmVNVjctdlVaNHBzSV8yQmxUcm1UazRMb2VDUzl2Ykg1TW8xUVdxMGxhbm1fSXA4dkxKVGZoTmYwdHRmSExoakJWYWtHczhncjU2YjdPcFZ0eEhLWkNtQzVCUllmZ1BWWkwzUW5uMFBU?oc=5",
+      "title": "American Electric Power CEO Sees Once-In-A-Generation Opportunity in Electricity Demand",
+      "snippet": "Benzinga, 2026-10-28T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMXhWc0ZJRUlOSGRnVVI0ZHpXdnpuSWRhVGhsSzlXYWFBUmVYR0NvOTc0NzEzckEzejE5VHpwWGh3elFFMk9WVlNFTHNwYXBiR3FGMVlfY0NVN3hGNU5lTDVzTmZqY3NQaXRpOW1VWlNKWV95MjFmVnY0bWxnNlZzZ3l2Zlp4ajNLbkFmVmd6a014NmdDazRfTUtNem1xZw?oc=5",
+      "title": "American Electric Power (AEP) Tops Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JR1Q2Z00xUUdDUnYtYlF6MlZhVl9IS3dib1Z1NUFxb0g3MlJZckJ1MTZ5SzNEbVIxdXpNbUxWLWNtdjlQVWVmWkpBRkFyT0VNa3UwYWVYbw?oc=5",
+      "title": "AEP Reports Third-Quarter 2026 Earnings, Expands Capital Plan and Increases Growth Outlook",
+      "snippet": "AEP.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "AEP.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMFRreUNRX0FaMFZmS2FiRkRPUjljUHRHN2xnQ1lSel8zbjdwVFUwYmlXMTVqMm9nQ0c3c081aWNTZ2NaM2NGUGRUQmhWSnlsMDdKY1ptbUpfVlluckJrb0ZXZFQ2TmJOREkwLUdCRjlobnJ0UXB4RDQtcW9jSnAtdVlVN3NBc2lVQVZQcTBGV1FRMGEyWkE?oc=5",
+      "title": "AEP (AEP) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT1pvWEV1dVM0WE00bXJ2ZVhMOXRzNXYxalJUV1JHSWdjVUE2YWxJRVFDamdNVGNZTF9qY0x0bllTSUNxdDBGbmI1dkN6NE1PWVpmSVR2d0lLMVMyczZ5ZU92eURScVk3N1ZtdFdST04wUzhoNFE5ZFFDb1NXUVBMdjhmZU1rLUFhRmtNTzRXcDJyU3BRSnY2c3RlaFZmWDA3UEFOTkltbGpLREFfWTRydGpoX0g5Xzd4QmRHT2E3N1NKMllYUXBiV01vZzZzOUF1SzkwUWltN2hyNXRtaXc?oc=5",
+      "title": "(AEP) American Electric Power Expects 2027 Non-GAAP EPS Range $6.75 to $7.05, vs. FactSet Est of $6.88",
+      "snippet": "marketscreener.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRmVBRkpST0hDbVVkclFGSTZyVG5TcjdWRUxXdEE3LXNLWUhmOEtEM25GUGpZbjNFRndETEhMMWVqZjNHMkN6WlhELVV3MjJOelNfOXhSOVBPVXJGZWxfY3g2LXF3TG9za3dUX2lrci05TUxlaFlBTXRTWnlZTWs5VVI4MVRkSjZCSHdwalAydHNpUzNfeUpiYzJQaGhEWFBhcEdaWWxEdDFET0dwMTNSckZ0M0lzVmk3cWZJOEhFSEd1V3M?oc=5",
+      "title": "Jefferies cuts American Electric Power stock target to USD 146",
+      "snippet": "ad-hoc-news.de, 2026-10-27T14:43:26+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T14:43:26+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYkFVQWJRWk1rRWlvT2Vnd0pfbl9FQzV4Z3NRVlBCZzNuUkR3bzhQZVU5WDJpT1FhNUNRQmdYSXlLUnQ4QmJWOWVSM2hHMGJlTUhzYVdhc1hTb29BUGxpUTJ1YTluLW1aUFBiUzZzbzkydjNScmdNWWVGMmNEQmZhenR4Vk9SMmhic0VkWGUtUGxrV3BGNk91ZEdUdFVUUW1L?oc=5",
+      "title": "American Electric Power to Release Q3 Earnings: Here's What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000069/aep-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000072/aep-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AEP/history",
+      "title": "AEP daily price history (Yahoo Finance)",
+      "snippet": "close 129.34 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

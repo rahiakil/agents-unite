@@ -1,0 +1,121 @@
+{
+  "ticker": "LRCX",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lam Research\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON1h3cXFlcmNNUVMwN0QwVER5dThKazlLOHdDWjJMcUZMclB2cVFleGNadmttcjVKTWZzdFJRRGpHLUo0MWhQSmZ6UVhTTU1zVk82WnBCZXNnSkZ5ZE5nZWxXcS0zTjFsNHhkcjhzVXc2eDFUeHR0d2dlU1VMVmFlc29fbnZVOVIwZjIwaUpSclpiZTlabkZiVnhIQXQ0dWZiSUE?oc=5",
+      "title": "Lam Research\u2019s Support Revenue Jumped 43%. How Much Protection Does It Offer?",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbmFIWFphSkZkaTlBSW1qRGNSUXRTa2dJcmNpVTItN1N5d3hXMFdVT05heFdtdVhXRnBZNUhCZm81VDl2RzZDeGk3RzROTjJJUVBHaFNCR1RvZTN0YmdON2lHQ0VfVUFHTnNvNUxoN0Njb3FOMVVSdVZ1eXdlWHlqaHNKX2h6V0JXcHBNaHgtYlFnWVRIQTdSX2d2c0dzaXMwc01F?oc=5",
+      "title": "Lam Research Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcXgzbGdIN0FZQ283N3lDRVdfYmFMU09waF9mem1abDdsWHRjdkZoVG9uTzg1Q0N2QXJQT19YbTQ1NzJDNXZjSGh1V0tyWkh3ejVMTzlQSV9zdGRQRVowalRwM00xR09mZ0xLcFBlY3YwOWhlS3h4YjdBaGpUbEhNakFDYmhxZVNZd21QOVJqUFFJZ2dSTE9yOWdLR1dNRk5TSFZZbjlBM2N1RHVaNmkzT2xZakpBQ1B2cEppU1puVjBmdw?oc=5",
+      "title": "Lam Research Transformed $1,000 Into $37,462 Over Ten Years Despite Three 40% Crashes",
+      "snippet": "24/7 Wall St., 2026-10-09T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWmlxV3QtTjNaYmJnazFtMnJuTzJDNTZtdHAwb3k5Z2VXVGNpcWExZmhqbEVoRjhycVA3TmxNaUdfVUYyaGM2T045WVNaMGVILU5xaVRRcUxPd2U3OFVXSkpSNUdxS2NGTV95TEZJQkpTQ3o4WFZ6eUgwVjI4bTdwbkFuRGJEaFhnb1pSWWxpZFJYeExhUFNxQXM3OA?oc=5",
+      "title": "Lam Research Stocks Edge Lower Before $8.1 Billion AI Test",
+      "snippet": "GuruFocus, 2026-10-09T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOU5CRW94RC1jSWIxWU0yVkYwaU9WempNdUoyaXhmOGtERkg2S09WbGdSaXBOcHl2T0RKNHRXV09KWnJWM0ZzZTU2S3hkaWV4UmlYQlpiRVBMcVd5LVpRN1VxN2ZVazZnS3FxemhBcnpsd0YyekJVd0liaG5xbmV0Y0c1R2NSSmd0LVhNNFV0bjBwMjhHRFQ4?oc=5",
+      "title": "Lam Research (LRCX) DRAM Wins Put Its Fair Value Narrative Back In Focus",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.813,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ0RnbzZPdDRUa0M0ME40NjV2bmtGa0xQVXI5QzllTE5KT19QVDkyUW5ZRWg4UG1OMVJPSXZHcTdGTy11NXItM2c3UzVrLXFvVlMxZllhaGV1TTJFWXVqaHVpRmtmSlBLYzlkSWR4T0dZMUYxRTJ1TzdTMy1QQnZrLXZzd3h4cnlLOHQ0QVhaZG1MVlFNRV9WYzIzVEVpYm8?oc=5",
+      "title": "If You Invested $1000 in Lam Research a Decade Ago, This is How Much It'd Be Worth Now",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ2drTHJETEhoWnd5TllNY0lqajktQ3duV3BnVXNhcjNSUjBEbGlNR2FVeUtZbzZ0dkFvcGtlN1EyR3VVamYtUUF5d2hIUXlOWWZjOGt2cFBSb0lncHV3ZjVBemxnNlRTMF9ETDhHcXV5a2tqTDlLR25ia3RfQjY2V2xJbzJHLVVXODJYcnRtRDRnR2NSN2JTS3FJQ1ltUEJNS2pfNlRURUNqUlR1NWFwUExQeGJqQ0xybzFlZmVUd0RibWVRZDVvVjJWLW4wajFXMGZRUnRSRG1Lb0o3M0dFRmRkSjdyLTNDUWNVc3F6OU9XQQ?oc=5",
+      "title": "Analysts Offer Insights on Technology Companies: Lam Research (LRCX) and Micron (MU)",
+      "snippet": "The Globe and Mail, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LRCX/history",
+      "title": "LRCX daily price history (Yahoo Finance)",
+      "snippet": "close 309.56 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

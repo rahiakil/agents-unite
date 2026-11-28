@@ -1,0 +1,85 @@
+{
+  "ticker": "JNJ",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Johnson & Johnson\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 31,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkY1Yml1M0xsaTdRdUtsUXhsMS1tcGhtRjBxUnJYYWVnaXV0QWVBckpkYlNpYjJPT1ZxN1pGNDlBTGRiTlVsVlhRZmdtQUxQTkhTWVdESk1UR1JhRWdNWEQzZXRtMU1IUjBuM0hPc3RjMkJwX3E4Wjc5d245MXVaT1NHWk44Rjc4WU81M1lrbGxzR1VrSUE4?oc=5",
+      "title": "Johnson & Johnson Stock Has Surged 44%, Can Its Growth Justify the Valuation?",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmJrTzR4dnpjU09fS21ybElPTl91REJEVlNodXB5bS1mZjgtY2RheG10Skx3Q2tIYkpNN2FlS3dFR010Q2ctVF9fUEFoN0tLVHdQS0wyVGtQN3JGZU96bFVuZDkxdm53S0ZNdURTOUsxS0NiX1F2WUlZUkNhSTlBaWxlaVNPbUt4LVhrVnFmRVdNYlBBbW5DT0NCWE1teTlYcEV3MGVqQ3FwWmtYdGlj?oc=5",
+      "title": "Dear Johnson & Johnson Stock Fans, Mark Your Calendars for October 13",
+      "snippet": "Barchart.com, 2026-10-11T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXRLc3pVOVdYVWhxUEpLdFQ4ZzU2cEVRZTNETzdRNG9wT1dsYlBwR1BGd2RQNjJsZXFpYzJ4cTNyWGJFM2pQRU1mMHpXQjgzZWVJTHBFeWZRSE1CdnhiZ1pFdEtuaElVUVlXektNUHBpV3hBakF4WlcyVldyQWFicHNaTnZaX0piWkZlalM0VWZ2R2kxcFVNbF9HZ3R4ekw4NlhIMlNUSk4yTDNBcE8zQ0k0TDhBWTRiMDJKSVdTOA?oc=5",
+      "title": "Johnson & Johnson (NYSE:JNJ): Dividend Quality Makes It a Durable Income Pick",
+      "snippet": "ChartMill, 2026-10-10T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZlhfamVXM1VBZ1BfMWZhOXpnS2Fwc2xCSVlHeUpFMFMyS1AyVzE1OXhSQ0ZBbGFPbGtPUTM4aWdRVkFEYVo0NEhjRnB3Q2VEZ2pnOS1jODRxd09OOGJLMVc4STQ4STRjbzZMNlBJWUlzalNTQzU0UHVGVUw5WE9LNVNkNms3TGU3Q1pVc2g0dHQ0cmRI?oc=5",
+      "title": "Coca-Cola (NYSE:KO) & Johnson & Johson (NYSE:JNJ): Buy Them For The Dividends, Says Jim Cramer",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JNJ/history",
+      "title": "JNJ daily price history (Yahoo Finance)",
+      "snippet": "close 263.73 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

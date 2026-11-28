@@ -1,0 +1,121 @@
+{
+  "ticker": "CMCSA",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comcast\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 36,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 10,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYkpuenRkTXJYTUpEQzExcDZXZFYtcG1yVF95cDlWOUdjaGNmWl83MmNFNGUyU3hSa1R4XzktQi1NeWZYNTcyMGpBZ2RaandLOTd4VnA2VDV1czJ1Y2tnc3VSOURzamtvZHVmVHF2c0RnNGY1ajFIMTNfYTh2dzdTTmJWSFpPVVpoMzFVOFQ1WU13ZTY0bEhMWVpyZ2J4Z3VSdWdKVlc5TmpodzBUTXJhNHJMVWE3XzJfTDBVcHJoUFBOUDlveEltU0NGNA?oc=5",
+      "title": "Comcast stock: Peacock posts second profitable quarter at $261 million",
+      "snippet": "ad-hoc-news.de, 2026-10-11T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa1NLdWRQQ2ttcUczYklRay1uUzNCbmJNZXA0cVZOekJTVXBJRm9jcHVQY2hoTUtleldycGtWX0J0bkwwWk9KZnZmR3BPRV85UzZVc0IyN3BBY0pfZVBtOFhXUEJjRUpfRF9ISWJueHo1Um9iMFJ4Qkh4VF9fX0wzekYwRUxVM1ZyN1JlNVU3NXdHY0wtbUQ1dW81U3VTanRVMFBFTW0yWW11Rlk3dDRBMUhmZlFsWXhmV3fSAb8BQVVfeXFMUEtMaVB6NDNtV0FBblQwTkcxTktsSnZ5UjBaN3ptcTVnUnQ2Sjd4MkF1YlY4el9WS1UxcHEweWJSV19zTDlYblVNTjl2MzVTOFRzMGYwWDRsUGg5U1U2Y2ZDMlI2TDBicjVKT2pwdVpvZ2poWmtQNXotd0FwWkZZcHhxaUxiN0stR1FUMnF1b1loYlJ0Y241WVJfSEZZV1VESFdlOVB0UlRSbmdSSXZhNzVGWWJLaGFNYkxRM0hPeTg?oc=5",
+      "title": "Comcast has pumped more than \u00a3250m into its new Universal theme park in Bedford",
+      "snippet": "This is Money, 2026-10-11T07:00:00+00:00",
+      "publisher": "This is Money",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcS1JWkk4LWxhZDZ4LTFJTkpNY244eGdvVGdjR2RCQm1taDJUSnc3NFhuNzFLSTRXM1dzMWdxMTgtYkh2QWZua1ZyYjlPVlNCNG9HUHZ0clNlekZKTUtpczkxSldla2s3ekdQREt4OHdIa185S2N1ZEJNeXBwSWRnX214R2dkbEZaZl9DTFhQLWZ2QXM?oc=5",
+      "title": "Fastly (FSLY) Is Up 13.5% After Comcast Taps Its Edge Platform for Peacock Streaming Partnership - Has The Bull Case Changed?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWNmMEFYRl9aamtpeFdpYVNaMDhBRXEzTk5mcGZGVUVoaml4bk9ZSllyUlVqQU5ZWHgybzh2U1FIbEpRZzdzWHpBVGstQzdlWjgyX20wQWpIazZwczVzalRRVDhYOUpDM01FbUtjR054LURBNlIwN0FEV0hKaWUwMkhqRGJyYlZOaXJMeWw1ZTJEMXdmWlFiZ0ctNUozUmJKbzVTSXFJeTlQeWlMTEtPRTc5TXRBbkhhbWZwM1V3?oc=5",
+      "title": "Why Did CMCSA, NIO, QXO Stocks Tumble To 52-Week Lows Today?",
+      "snippet": "Stocktwits, 2026-10-09T07:00:00+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNREtaRkozaGZ0UWVjMDBkbHNwT3hpMHpkZDNGd1dxZThza3BrVDVtN2RMSDF3NkRGUVEtRjUtM3ZvbFltNmpIcHBwNXhTNWVIMWhKS25aUHRjNTMwNE5RQnh2eVVoMlVrN0F3TWpvSDEzTDA4cVBpREQyZzdYMUhsQkdlcVAxejNteXZnVEVnLTdiRmZjc1FGWW1JN2wxUW1nMVhCMENyV1NSTTRMMG1UMEc3TUt1d3VaYllnNks1TnFjY0I4azVnUDNpWXA?oc=5",
+      "title": "Comcast Slides to $20.66, Undercutting Its 52-Week Floor",
+      "snippet": "24/7 Wall St., 2026-10-09T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTU4d3lvX1M4NVFicXpzY2FpZ2lrVnBpekI5dVZXRVRxS19Tb2JhQ3dNTV9zY21BQ0k2X0Zxc2dtRnNPX240ay1zbWxtZ21CU2xYWWo5Y2ItZ0lfSkVkeWdzV0t1Rm0yTWJGNkpPVEVkMHFIY09ucmt0YkczRVl2MmhlMGw2UWl0V01hQ0lQbnAzWWZ0THMyVHRQamJadw?oc=5",
+      "title": "Comcast (CMCSA) Stock Sinks As Market Gains: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTJ2XzYxa3lKOGxCVnJlOTg0VEZfeWN5RHJfZ2FJYzQ1SU5sM3VtNjZIMHE1VE0xZFVJX2F4RGY1WFNYaHNwUHQ1SWFPY2lIelpVZ1ZYeXRfbDZ6Ymg3TGdDNW83LTRYenF5bk4zOWNnWUFJSW1WUEI0RlIzN2xqeHBfc1dZQkVEcXpYZXRtMlVHTzV4dEhYVHQwQQ?oc=5",
+      "title": "Comcast (CMCSA) Builds Smarter Fiber Network As Rural Broadband Push Gains Ground",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMCSA/history",
+      "title": "CMCSA daily price history (Yahoo Finance)",
+      "snippet": "close 20.68 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

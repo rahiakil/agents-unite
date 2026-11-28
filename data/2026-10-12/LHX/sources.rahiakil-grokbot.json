@@ -1,0 +1,49 @@
+{
+  "ticker": "LHX",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"L3Harris\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQktDQTRBVWdBQ2FnQXZtWU9ZZkxRM2xLSTRENnBuYUExRF80OFUtRThqVTNldXBSUUdOczFnMFFkNnVtZWJzZHE3UTg1ckRoMXFidXplaDVETXBOZ3ZfblBqa3NTZzNndHhkQVpTV3VhYjBrVVFaVUpteGsyazJIZXZ3SnhycWZySHJlTFF3OTNfRjdIbnhZYm5uSFB4Y202N0dqVg?oc=5",
+      "title": "Jim Cramer Explains How He Would Approach L3Harris (LHX)",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 238.25 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

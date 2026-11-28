@@ -1,0 +1,109 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 12,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMWNDcG1HYlROeUJpMmY5VXZnZWVoOVBEc0pCRkVBVFR2RGxkTk93MGR1MDJWTFVVM1NNcnB6YTlQV0hvbHM1cnFDUV9FNjY1QTJlRW5ZX2N4N1ZsaC12dUdsdFdtdDBwUlFjclJsb0FTOXBRSXVpcjZPVHlNcVQ2N3FVaXlzcnp6M3ZET0Y2R0pUMFlV?oc=5",
+      "title": "Why is HP stock sliding today? By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-09T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLeVdWdVpzWkVBb1ZHd1ZqSmtmekttcENQdnROaEI3WlNRUHBhMkU0TnpaWms2b3BlTjdFdkp5dDVUVmlxSVlBUjZWNU9QN3ZjZExGLWs3cHJmV3ZkRlBDZTFpUXZiWjdzZElOb1lDUGFHRk1GYUlOVS13?oc=5",
+      "title": "Why HP Inc. (HPQ) Stock Is Down Today",
+      "snippet": "Quiver Quantitative, 2026-10-09T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLWQxNmJidVVWSHBkcjZNdDdsLVB0THdBOGxFRXhyZm9xVlNWU2JMYlJ5LTNEMTZEUG42WDBjdDlCWVVhTHhKZGpIcTB0RGtWd2lGdUs0OXdOM0FDcVBGRTlPNGdOTmpnYkJBcU9JSkZKeG1TQVhYM1dTemRNZzU3cG9rQ3VIZno4NmRBM0xLSVp1VXFPS2FoUjRJVTk?oc=5",
+      "title": "PC Shipments Fall 20% in Q3, and HP Loses Almost a Third of Its Volume",
+      "snippet": "Hardware Busters, 2026-10-09T07:00:00+00:00",
+      "publisher": "Hardware Busters",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRUx1bWtkZ1M2elQydWV4QXJ6SEFHalRVdk52UlNHUEI0bHRGN3kyYnJwQ19YMDhxcW9veHF6YWNwTlNMYVlHRGY4a1gwRnZIcVBJa21hdXBvc0t6bm44enBVTWw1ZmQtcXE3ZXVuNjNZRFRCeXRaNVJ4MGM5OS0xR2tESk1RVXltdUFfZTAzUVlDUV9HMzZyNTQwd0dvc1dMN1Z0NnFvYnJiUQ?oc=5",
+      "title": "HP (NYSE:HPQ) Stock Falls 4.7% - Here's What Happened",
+      "snippet": "MarketBeat, 2026-10-09T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU1FlQUhzc1hYQ1FvZE4yVVVwNVlGNGt1NGtKY0pEYW1MNTAydkdsTHc1QWtMLVZIeWhUUllKYnlJa2Z3eXdrTHlsb0YyLTBOZ3UzdDhiUDIwbjNLYnhPN3JrZ0ZyTHh1UzVab3FXaFl1eGdfWDJmRk9VUGFUTnZaTTRlZGF1RzdBRTBwN0RlWk9zYUZ3bkE?oc=5",
+      "title": "HP (HPQ) Stock Drops Despite Market Gains: Important Facts to Note",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.637,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ2puMkNEbFI2amhUM1JLZW5JVFVYdktCVS1jRW9TWU1ncVBHcTJmeFBxejhsZzQxTXVuazlSMHYwcjBwdlBRMW5WZVFrVzkzY1NzVEZrNVBSSnlWQ19FUGl4Q2xKRjFrV0E1TDVTbDgtVlVJcTFZV1JhdV9zZ3pIYTc0U3Z4NEdQMTVRMFZSMFh3bTg5VG1QWV9B?oc=5",
+      "title": "AI price gouging might have indirectly hit HP's notebook output as supplier reportedly halted shipment",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 29.87 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

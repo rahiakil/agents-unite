@@ -1,0 +1,73 @@
+{
+  "ticker": "TMO",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Thermo Fisher\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 21,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTE5XTW1HUlpWX2pjVnFSNVhWbVBmcV90SElMSVowd1Vwek15cnlVTjFLTEU3S2wtNnlmWHFSRmlleWoxMWRWSGJoc1BHcm9GbGVORVJJNmZwQUxiZUhleDZoQXA2VE16T0hVQm9tSlVXRkZnUWFGYThkNE9nY0hHSzcxa0JNSUViU1RSNE42WlRrNWZ2UmIyVGR6ZmdMSEQ2UzZBRjZtU1pzbGtPRXlF?oc=5",
+      "title": "Morgan Stanley Adjusts Price Target on Thermo Fisher Scientific to $730 From $650",
+      "snippet": "Moomoo, 2026-10-12T12:59:44+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-12T12:59:44+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbXFiN2Jubjh1NjZncGhRYlV5Y0NFZWJFYVVRYlRSSnFmZnAyTmZNZWJhdWhxdFFyMDVkdXhRZmhNZVcxVFg3aGdoSjJLOHFXQ213Q3lQWmhjaVY0RXN2U052a0ZUSGNoNWJoVWozSEk3YzZ3QklWRGVZTDVYZ2NtZFhaZTBHckxDSXNSYmloUDNYRjNPeTNTMWJySUxUSFFZel9GUnd0TEpsS2lZbWFGNzNZVEN1Z0tmOTRmX09fa2VWOUNt?oc=5",
+      "title": "Thermo Fisher Expands Drug Development and Manufacturing",
+      "snippet": "Technology Networks, 2026-10-10T07:00:00+00:00",
+      "publisher": "Technology Networks",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdThNeHU5VU02VUJ4TFVGLU52QlNrbExDSXkyT053dXBtNkQ1VFBfNWVzTkJsRnd3YzI4ak81anBsRVFBOEFlZ2xDcUtDOGFhYzhXNDVLUFE2R1Q1WXVDcnM3V1ctaGlvdjhqSGtEaFpEVTdOSE1ETXJNc3I0SlB4VHZjSTdLLTRhcG1KVC1pbkpuWWc5ZHg0ZzNPcHpfRjQ?oc=5",
+      "title": "Thermo Fisher Scientific's Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TMO/history",
+      "title": "TMO daily price history (Yahoo Finance)",
+      "snippet": "close 662.24 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

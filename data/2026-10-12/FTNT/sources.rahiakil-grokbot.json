@@ -1,0 +1,97 @@
+{
+  "ticker": "FTNT",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortinet\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd1JUTXl3NGMxaHR0cU1PT3NqMDFYZFljOWVDOXE0MWlSdjNVWmJCbGZIZVR3Z0ZWNXJSbGVKWE9oVzAyY0tQNEtESXg5TmhWaGNqeWh4VjNzVGtyTTJQUzRRbTRxYXhCUTFqSDk5Y3hSSkU0VXk3YjlmT056VmpIR2h1dHNmTEV0UmZXMUdnRXR5U2cxcjlFT09DdnZiOVFlVFFfV0N3OERmeVBBS282SzZrUW1ZVUIxRi05eEdzR2daMnM?oc=5",
+      "title": "Fortinet stock advances as higher 2026 outlook meets strong Q3",
+      "snippet": "ad-hoc-news.de, 2026-10-11T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQnl3NVF6cTBDb0lwNTB3NlVDZTZib2pRZ19DVmZuUXpJLXZhNjk5MVJWMXpTUUwwcEw3NHJySVdRNmVDV05lMEEzcHpuSnVMcTNEVXFkNy01NmpNNVRLMmJXRi1DanhaLXprT1M5WTA2bERwZ1dWc2x3TE9rT19ISVRxb3F4eDI2UVRSdC1fN1BGaGJyaFFqcXBKNDRxbEJnVGY4?oc=5",
+      "title": "With Fortinet Stock at All-Time Highs, Here\u2019s What Can Move It Up or Down",
+      "snippet": "TipRanks, 2026-10-09T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVnJoZzltZFZVX1JDN25tZENjaVFZcjJsR0cxanZIaUdiRElCMEJocGhYUkpjQ1hLWmV4ekxyMHlKZUdtT1hjME9IeW9QVzVMV0VDem5ibThKWjQzd2VsUDFGVlFQWWRId21QNXFGMzNCSjFjam9nNDUzZ092YU1mUlYyN0F1Y2JXM3ZuTExuUldKdHp1?oc=5",
+      "title": "Palo Alto vs. Fortinet: Is the Broader Security Platform Worth an 81x Cash-Flow Price?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPblVQWkpidHFUOWdhNmZTY3hyYzA4TmY5Z1FVZHl1RVRLWjVmdE5HbXp3dUFsS1hnS21HS0pWMzg3SW1MMjJRdG9XdWl6R0pESkVWSUhnZUsyajEyS3ZUcG05aEc5RFdLcDVLWmhwalA1SzM3TEp5aW9RZmVyRWV3bzhkU0prMWdCMVhQeklFUGQwYTFtNFFwZXFNV2JIY0tvMzBtWQ?oc=5",
+      "title": "Fortinet stock hits all-time high at 192.55 USD",
+      "snippet": "Investing.com, 2026-10-09T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZmY4bXAxQy1JVmZXX2FFd3doejRRcEJVNkN6WEFjaEZ1c1h1SkxzZzVYWTdvcnZSNVgyWUJCMkhQYnBuN0NmVUJuS052OHJGQmZtYm55b09OU0dqemgzVmFtV3FCVXNaYzJtZ0xlRjRfakZlaTdkQllOUEQ3M3ZkeE50WThpbDhCblh3clVrd3lieTBwNi1RTmZEb3hlMUFCTWFBMFB5YVRfd1Ba?oc=5",
+      "title": "Are Computer and Technology Stocks Lagging Fortinet (FTNT) This Year?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTNT/history",
+      "title": "FTNT daily price history (Yahoo Finance)",
+      "snippet": "close 192.94 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

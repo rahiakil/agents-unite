@@ -1,0 +1,61 @@
+{
+  "ticker": "VYLR",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vylor\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSFpydThOOUJWLV9tdjlJVFhKRmNJZmtmY3FtVjUyaUlkRk13d1YwVVZzOUNMUFVEeDd2d09uSG90ck9zQnI4Y1JnVnBnSVNOQXEySFRtcTRvdFdaWjI1V2g0TkVzc3R6RnVjcGR5bkVVUGxNNjNzRjF0X2puM0ZEenlnRW12LWctMVFXclVkTkRvSkdOYUhHUGhXSFlZdmVRZGdPZ0RQN05HMG1RVWN0c2dzZTJSXy1jNHhzU1ViWDFLaU1KaUNhY2VPNkxPckh3SEdlVkN4Y2tFUUVYZU1QdnhfNWpLNXcwRHhwRG1vX2tYN2s?oc=5",
+      "title": "UBS starts Vylor at Buy, sees upside on seed licensing growth (VYLR:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-12T14:59:36+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T14:59:36+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcndHVDkweWF4M2VOS2xoamFrZklBNWp2OUpGMHQwZXNLMmZxRE55VV80U1JkVURmQW4wU3BiT3pqWjcxX3hZRzZ4SzZhdHlCRkF4dWxUU3hDdldLbDhhZlBaM2o0RFY5dTM3azNtQzNqXzI5OFBaSWpYdENheWEwVjM0MHl6SHRZVUprVjFCS0x4OXZRUlhjVGxVZTJvYXc?oc=5",
+      "title": "Vylor (VYLR) Stock Looks Discounted Against Its Cash Flow Value",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VYLR/history",
+      "title": "VYLR daily price history (Yahoo Finance)",
+      "snippet": "close 75.89 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

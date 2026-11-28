@@ -1,0 +1,49 @@
+{
+  "ticker": "WY",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Weyerhaeuser\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNE9iYWlfUHpJRWhpcGp2NGEtdkxwNnhqcFhoVTFiajZoalBBZkRRVDNEV0d5Y29tcEpYOFdBR0NDbTBzXy1IQlZMYXVpMXZLWThCajV5RFJ0U1p5elRkOFdWRUoxVzhvS3VPcDJVcTJ2d1FQbXk4YTFNSWhzLWV3S1dwY0l5ZXlTaVRQRzk0TGduV1o4MVJKS1VxMlV4TlJSWnY2XzJOYjU1ZjJBY3ZMaTlxeUY1UXE3M0ZSZlJEcU5yQQ?oc=5",
+      "title": "Avoiding Lag: Real-Time Signals in (WY) Movement",
+      "snippet": "Stock Traders Daily, 2026-10-10T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WY/history",
+      "title": "WY daily price history (Yahoo Finance)",
+      "snippet": "close 18.94 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

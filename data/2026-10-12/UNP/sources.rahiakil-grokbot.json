@@ -1,0 +1,97 @@
+{
+  "ticker": "UNP",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Union Pacific\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXdlTjNDdmFZbzFFa2U1RC02NTdjalNib2dCTEVlWG1obDNFWnRJZTk1TnV1Q2hPcGFtRHhYcnlyMGtmT1hvekpYLWlDY19IV011SVRWX0ZkVkR6YUZzZVYwRm1sbktSNWw4Z3NwR3VrZVJaRHhWUUgtQjluZTNQbk05S1A?oc=5",
+      "title": "Union Pacific: Not Too Late To Buy Now",
+      "snippet": "Seeking Alpha, 2026-10-10T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRm14anFuLXVYdk1GX0JJYVVtOWlsT0FKaFQtZjc0SkI4bUFmQXlpU0hpY25HMGREaXZKbW95ZllhcHlQNkNsdWpkb0h3clI2SGNBZS1TSTlNdjJGdDFTbjFFY2tqWlMtTS1qc0RDRExDb0pwT3BKWXJEZ3NFMmE5ZTVsa2JVbjAxTEJoTFlTRDNKaHE1alRCMnUzWnF1dWY4N2hsU25BaE95M2xZRVFVWTMwZUZ6WVAxVWJtWmJjQ0UzU2lyQXFfdUxVdmxFeWtpQmZxdzBWd9IB3AFBVV95cUxNM2NyM1ZkeURtSWU2Z1Jnc2ZvSWlsTFFwNmhKSWRXckxIenlNM09tM1cyMW5uRTdOMFFRcUVlb2FGR2RVTmJPWHBXQUlTZkUwOEMtdk1keHFKSjVnbC1aN1NWYnpzcnlnUlRRM2RjTkdBSllsaG5CWEhYUk5JNFh1b2VyVi1RdlhONTlXS0hBM0FvSFEwdDhVb2JFOXFjcER4TmZRaHhhVGM2M2V3NTg4M1pSZ1ZmMXVMb2tqbFNKRWk5UFNvVmNmOW81dmZ1ekVqR3dVMWd2WFBUYlNs?oc=5",
+      "title": "Union Pacific Stock And Other US Companies Facing New Union Pressure",
+      "snippet": "Simply Wall St, 2026-10-09T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSFZKY0M3ekZ3Tnk3dGltSVE2OEF4anJ5Zm1BZlppRWRxVmx1SjJuWFpLeUJDSTBLX2lFdXVoQ1RsZjl3ZWgxTWhQXzlnNDR4OThLZGJZek5UZTRibHJSMHJTVVF0a3hPZmxyVkt4REMwWWgxN29rRUtQSG9PbjZ2OGpUTUlfVEN2X2NDT3ZfY0hlUEo4b0IzaGZ6M05TTHNyY0E?oc=5",
+      "title": "IBEW joins six rail unions opposing Union Pacific\u2019s Norfolk Southern deal",
+      "snippet": "Railway Supply, 2026-10-09T07:00:00+00:00",
+      "publisher": "Railway Supply",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNemMxMmxpbzVvczM5YS1LRVhfOGZxQS1KM05jb2xwbWZHVm9TX2lUQ3ZjTGpLZGVQdERLLTVwTXVCWGMtLW1vdGFTZnNER005YXJaSWlDb1NyT0wyTF90cGlvQjRBNzJZcjJCNmNOWWd0TmJCcmpIRFU2TDBuamhMWnVJY1VHTVBYZ2gtTV8xd3QxdTRmR0ppVlF3akh4ZEc4dWxYS05Yb3ZCOTBWSTB5Nms3UXg0Q2EtYU9XcXdzRzdMTFU0QXFRSUZfNk1wNDlWOEE?oc=5",
+      "title": "Electrical workers union opposes Union Pacific-Norfolk Southern merger after talks on job protections fail",
+      "snippet": "Tri-State Alert, 2026-10-09T07:00:00+00:00",
+      "publisher": "Tri-State Alert",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRVVzTkxsMEoxWDF5Z2Yxdll0WkVWV0F5V21oZDBVWU02NHBWRy05MUh0UWVuZ0hkRkF5Vi1JeEZWVlFicFVjOGJOLUFKM3VNeWh0emtFVDRfUXpibmVBdzFVdnk5VXliRV8ybE1DeEJNZnRNb0Q5MGEweTFyQWthNDBhWDFyTnNTX0o2amFBVDRxVWVSTFE?oc=5",
+      "title": "Billionaires Are Piling Into Union Pacific. Here's What They See.",
+      "snippet": "The Motley Fool, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UNP/history",
+      "title": "UNP daily price history (Yahoo Finance)",
+      "snippet": "close 281.57 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

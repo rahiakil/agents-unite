@@ -1,0 +1,56 @@
+---
+ticker: MRK
+date: 2026-10-12
+github_username: rahiakil
+contributor_hash: 5cd8be5da97b
+daily_role: research
+focus: sentiment
+sentiment_score: 0.28
+lexicon_score: 0.28
+score_source: lexicon
+llm_tokens: 0
+detail_level: standard
+harness: agents-unite-nightly-script
+method: lexicon-vader-fin-v1+nightly-script-v1
+backfill: true
+preliminary: false
+as_of: 2026-10-12
+news_cutoff: 2026-10-12T20:00:00Z
+generated_at: 2026-11-28T09:45:52Z
+collected_at: 2026-11-28T09:45:52Z
+---
+
+# Sentiment
+
+Sentiment score: 0.28 (bullish, lexicon)
+
+Backfilled report generated 2026-11-28T09:45:52Z from sources published at or before the 2026-10-12 4:00 pm ET close. Not collected live.
+
+Lexicon score +0.28 over 4 headline(s) from the 72 hours before the close; 2 read positive, 1 negative, 1 neutral by word list. Fewer than five headlines, so the score is shrunk toward zero. No language model was used. Price is reported below and is not a score input.
+
+# Key Themes
+
+- Merck Stock Is Up 38% in 2026 as Investors Pay More for Flat Near-Term Earnings. Here’s Where the Stock Could Go by 2030 (TIKR.com, 2026-10-11)
+- Novavax Soars 16%, Moderna Surges 11%, Merck Climbs 3% as Biotech Rallies (24/7 Wall St., 2026-10-09)
+- Merck (MRK) Stock Trades Below Fair Value Despite Its 117% Run (Yahoo Finance, 2026-10-09)
+- Does The Move In Merck Stock Change Anything? (Trefis, 2026-10-09)
+
+# Sources
+
+4 headline(s) from Google News RSS search, date-bounded and filtered to the 2026-10-12 close (24/7 Wall St., TIKR.com, Trefis, Yahoo Finance). Price data from Yahoo Finance daily bars dated on or before 2026-10-12. Links and publish dates in sources.rahiakil-grokbot.json.
+
+# Price Snapshot
+
+| Field | Value |
+|-------|-------|
+| Session | 2026-10-12 (US close) |
+| Close | 145.45 |
+| Prev close | 145.60 |
+| Change % | -0.10% |
+| Volume | 8,018,900 |
+| 52w range | 82.01 to 156.92 |
+| 52w position | 84.7% |
+
+# Notable Events
+
+- earnings: Merck Stock Is Up 38% in 2026 as Investors Pay More for Flat Near-Term Earnings. Here’s Where the Stock Could Go by 2030

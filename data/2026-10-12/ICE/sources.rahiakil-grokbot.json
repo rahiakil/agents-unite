@@ -1,0 +1,61 @@
+{
+  "ticker": "ICE",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT0ZpTWdCNHYzVGNPZVpsY3N3NkJCNi1PTTZjbWc1SDdZWlRqZ2E3T2lDQjBaVDVpNkFFZG1FeXJMZW5BZ2Y5ME5iN1RRMGtMMnlBU29aV0E3SmJNWkx1N2FpamdNZURqRGVFWHRsNTNiUDJjMFdkVlFwVkYyQ2pib3VwNGItVDd4Q0N1Rkw4Nm1zVW8xVXY4RGpWaTJFSWM0bzZBSA?oc=5",
+      "title": "Solid Results and Robust Trading Activity Strengthen Intercontinental Exchange (ICE)",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQkkxRWxydHMwcTVhcGNYYWdtdnhQeTAtZS10OU5kRlBaWnVWZHQ4SU55Ykx2OE9mOVo0a1NseUJ1aWF4Y0JoUi0wWWJ0Q1VHX05PWFduVDBwVGtkSllqZlB4b004aHBjTFFfMDlHX1hiTGltNi02YkpsYzJTOFVPU0FTOTJTX3BpREZPZ0t3UHd0SDdBM3Z0Vllac3luVElKWHFSamZSeHhxYkhjMV9xSVRvOWtQNnNzcjJVcGZLTU94TXJQSHRmSFZzeUd4LVpTeEkw?oc=5",
+      "title": "Andrew Cuomo Calls 24/7 Stock Trading a \u2018Game-Changer\u2019 - Intercontinental Exchange (NYSE:ICE)",
+      "snippet": "Benzinga, 2026-10-09T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 157.42 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

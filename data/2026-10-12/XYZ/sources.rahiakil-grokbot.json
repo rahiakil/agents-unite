@@ -1,0 +1,85 @@
+{
+  "ticker": "XYZ",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Block Inc\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWNSQUgzTmVacUZJU3N4UDhwSkVMbzRCakJsb1RqNldxNUxIZmZka0plVTRyc1lHM0FjNHVaX0pwMTQyQzFqUzlhNEpYWVBUb3dzZU9iV2U1ZVVaWXU2d2drS3FNNTBxc2dKdzV5eTlWazJYallWS1V4Q252NXpfb01HZnhjdmZuYU1SQ2xCRFB4bzNXdHJzMUxhWWFNUmZyMUFPYUxGemc3b1hubERXTQ?oc=5",
+      "title": "Block Director Eisen Trims Stake in Rule 10b5-1 Stock Sales",
+      "snippet": "TipRanks, 2026-10-11T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbE5sOTNZVWdna0lidWpya2VLM2xWWUdoZzRnVEN3MlhmNzhYREVLQmEyeFNvM2d6UW9QOEVyRXBwRExXd0tlSW9LSHZ3TEoxRmdSVmNxcDNkSWtTNnZlMmliZVg5dXo5RGVTaGdkVEhFeVJ0d09zR0tCNnV2dUgyaVZ5RVlsLTdiMVJJ?oc=5",
+      "title": "Zip vs Block: Which ASX payments share is better?",
+      "snippet": "The Motley Fool Australia, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Motley Fool Australia",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUC1zdjNxTGViSDRtQkoxNFRxNy1nRFFkYVE4bjJFQ0tGSmtqaGQ0NGxpZko1MGIzYVRpRVlOSFF1S090UkU5N195ZkZpcGE5VHprTzhWdHpNZ0hPZlBHaWlZdkprX25HZjdBbW1oUUItVi1NeVhyZUI5S0tBdFZraTU3X192dkhSWGJMNm1rT3hUX2M1b0l0bDh3NjctMWcwUWluYw?oc=5",
+      "title": "Three sales under a trading plan: Block (XYZ) director Eisen sold 18,000 shares.",
+      "snippet": "Stock Titan, 2026-10-09T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOXzFPUUZkQ1o4UW94NXNualJKNm9Da01OVjlKVlZfdER1b2s0Ymx0c2xYVl9wTTVBb2VicG1JYWtvcUFvWXpDS3hzVlRFWkdiYzBvRUZIdC1JUWpESW82aC1CZkZ2bnJnbG15d01FeHZxQy0tUDExUmg2QndlVDRlZHlnZUhmdnFUZGVmZmIydnJUNG5NT3FIR2NFNElKODd3MjE0ckg5YkZHR1A5TEZoZTlQaEhFR2hrZEc0?oc=5",
+      "title": "Block director Anthony Eisen disposes of $1.36m in stock",
+      "snippet": "Investing.com, 2026-10-09T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYZ/history",
+      "title": "XYZ daily price history (Yahoo Finance)",
+      "snippet": "close 76.82 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

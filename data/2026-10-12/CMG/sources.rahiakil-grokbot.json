@@ -1,0 +1,97 @@
+{
+  "ticker": "CMG",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 16,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTTMyOU03OUM0OC1FVVE3eThHLUVDdEdTU2RTaTJsRndLV3RzS0JQMmJHcU54M1B0aVN6d0JjWk5Fc0N5cFJ5TFp6Rmk4bWdKSjg4eFlTdVJwVms1aW1GR3NqNkI3UXE5YkM0eW5ia1JiaDNGa2pQRGYyR2c5R3ZQOHp4NUFoMndaX2dTem8yN2JzOF9oR0NFcUFR?oc=5",
+      "title": "Starbucks To Acquire Chipotle? Neither Stock Is A Buy Now (NYSE:CMG)",
+      "snippet": "Seeking Alpha, 2026-10-10T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZUJIQnl0eVc4RHZvQ0JFMWl5TTI3X1czNGJybHVIekQwWEx3RFQ1V0hHaTdMYTdwRlpiQ3pOMFNnN2drLVg0S19CcWxKRWJ5eXJQenBvUVk2VV93QXRIeVR5UXZ0Smw5MjB0VHRTWEp4WE1lck1tMFBvRHhqMU82OXNIM0JwN25XU1B4TFlTRU4tanN1U0lsenlyWjdaWjdyS3JkdA?oc=5",
+      "title": "Chipotle Mexican Grill (CMG) Reportedly Drew Takeover Interest",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUkc3d25KcktQZ25Ub1dGalZvLUVETzlTMlJTd25BaldJV2FWdXJCYkQtUFRVWlFYQlU2UWZ4dXJ5TkZLbzNTay14eW5BbkxiSzg2eWlZaUlPMXI2aUtpZTNPZ01aMklneTlxWFNUcElMV01rWVJ2amhyellELU0tMjZITHhGMzBVeWZ2LS1UbEoweDJlTm9jMUJZd2poV1gtcTRmNmRpWEM?oc=5",
+      "title": "Earnings Preview: What to Expect From Chipotle Mexican Grill\u2019s Report",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOcXF6amMzWHB2aF9jREQ4Qmd5bklOZ3ZFX0pEdHIyRDBvenl5ZUJxMkxxZERqV04tVjdnZkZsM0JqbW9VLW9FNS1DSGJfYVJESEFpNEtjX01iczVVYzRlU21XMG1oUW1ISnJuMjVQdjVUbTRyZmREeWkxVnZZWnF6S1pTZ012T0dyaVhqX3hLeGEwUVhQR0pPY2p2WmdqY1luZjdqRzRRWVRSbUFDa3BrRHlmeGdFYVQ2X0h4eWFudlZXZ1RVdUk1V0g4NDJsMC1JSkJ5d3N6R2VDandPOXJRVEF5N2djcTJfWGN3MW82LVlIWVdUTU9nRkJ4dC1ZVG82ejNpQ01RR0NncWlLSUHSAZMCQVVfeXFMUC1MdHhiU1JoNFFTN2w2NGpzM2E2SjNXUGt1SGswQWxMU1pMcGJPU0ZYQTlfNHhWWUZ1VlJmMXNEZEltRDM0VWJxV3NRbG5lc1ZIaEctdDZDZjNuWmZDWWg3Qjd0bHVLQmxrcWVGMFJmWndiWUJCRHpWVHIzR1RDZmgzMU5oNnJ3U2ZkRVUxNFAtZzZtTDhlaHBXSHFrYWdIMUFTek1PRmcya042aTNfX3paSlhBUEVGWWRNcVYxX3U3d0xmUDFRZkFnc1JPaS1sc2RKQkd2dTJ1UWtrYXRJVXZOcW9fRktCSllUVjFHWGpWYkRvcHhiajVsLXFjMlJGaTRQQnZmOFR4WlRVY2tGazhiSk0?oc=5",
+      "title": "Chipotle stock surges 6% as Starbucks explores potential takeover of CMG - here's what investors need to k",
+      "snippet": "The Economic Times, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Economic Times",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQUlVWTF0MS1KR1ZkVHY4WFlHZTNGYVlFUVBrbWl2OUh1NEJhZTh2T2swd2ZYWDlYTnUtWWM3UzQ0VEpsRDF3OTF3Tl94bk5nQVE2bHEyZV9BVXFiOXJ0aEs3S0pENnpObU5xbnJrc21yN3ZoR3lyUVNQQjlCUGhDY3l2OWtORi05eXNqUTlMRmpObkViLXpSQjlmNkZwQQ?oc=5",
+      "title": "Chipotle Mexican Grill (CMG) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 30.4 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

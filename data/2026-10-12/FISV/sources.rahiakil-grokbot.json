@@ -1,0 +1,49 @@
+{
+  "ticker": "FISV",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 8,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeEZyRUUyMVp4ZDZqQkFEWUhJT2plcUdoR01hQ0dvRHZvWFN4cEkzaTNELU83TW1mdXBSU0Q3Zzg3eVUtd2c1WFZzcURJMXJ6czRiWXpIUkR3dFZ5Zi1NVkxiSW5FZm9RRlBGMENXUVFNQVBaaE1PRHpWay1YamllZnlvMi15S2VWemJoejdVRGhkakhfUG1TNU9EOU1nYjNINGhBNE05cFQ0dkozYmhGOTFsMG4zbmdHREo1M2ZPRWRUUlB1VnNKb0lleERXTVJxaWJpY29pa1RDTFN0UWFwVnhlVHZQN0U?oc=5",
+      "title": "FISV Stock Snaps 5-Week Losing Streak - So Why Are Wall Street, Retail Sentiment Still Weak?",
+      "snippet": "Stocktwits, 2026-10-11T07:00:00+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 46.05 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

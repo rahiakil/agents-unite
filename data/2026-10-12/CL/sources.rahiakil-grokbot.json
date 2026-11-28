@@ -1,0 +1,109 @@
+{
+  "ticker": "CL",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Colgate-Palmolive\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZk5ZZUs1c1N5d0xZT2Vfb2xPVkQ5Y3FHTDAzc3pRV1dzbTBtdmp2aEFCTnpzVThYNUdlRGNqWE0zcndFUmNNRDF4R1lyQWJKVXoxNVVJRVVXTk1uRFVXUkFidGxncVA3ajVDUVNJTGV1a1ZSanBQTWNzdGpvWDVnQkllTTlrQzBKUVlLclBRbXNpODlHOU1tVUNSZw?oc=5",
+      "title": "Colgate-Palmolive (CL): Can Hill\u2019s Turn Premium Pricing Into Better Profits?",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb19aUjUwUEQ0Z1Z2STQxZ3ZLWkFseVJJUUF0anlQWFJLWFVUSXlJWDE1d1VJY2prUTFEZ1RuenpjdGpmb2dmME5SWW1RUWRyYkgzVFRQaU1qb211YmNCdHlrRFpkMHF4VTB0SDhua0pBeV92Sl9oZHFkOE9pN1RTZDVlUUZjTXNibVp4WUlSeEpFaXdQQTRMenBPMmU0U2dxRzluQm5QdGdQMkdDeFR6VE94ZVZzQlV4dzM4ZjlSV29acDRETzNDcjV5U2jSAdIBQVVfeXFMT1JFT1JVWW5vZWl5RGllN1BoOVJzZzBrcDVLdk1oeW84S0lKUzNWM2trOEtnZjNkTl9DV1FTa21oY2g4RGhtN0x3eUNSd2pLUFdxLWU1QkQxaWRRTnliOFROWnlIQWxab2pzaE91RlBnSmh4cVZiQlVvVm1VaWJoalhMY2hzbEVnS25RV1laXzJPMUV0NmY5OTdmdFdYdEFhOUs4WGVYS3pMemhNY1A1elhWU0ZUWE1QOU1qRHBxLXBINW9aLVB1NFJQTEdTaTdmZi1R?oc=5",
+      "title": "Here's why Colgate-Palmolive shares jumped over 7% on Friday",
+      "snippet": "CNBC TV18, 2026-10-09T07:00:00+00:00",
+      "publisher": "CNBC TV18",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMmpzTnBHU1R4eVp4WHJrUGJTRzRpWWJDWXRnM3dHVlAzcWlIZEZJMHhuREVTN2xvT1NiOEc3ODBNVDNqdU1GbGxZdlpSZkwzV0FkbHlGVGNzNkFPUFFaSER3REFXYnc0ZnJzRWpKOG1ZLVBhQk1LdGk3OG04aDZLdlRoT2dtdnQ2RTZtM3hoa19WTVZJRFltMUsxQjNGdUlSVkE?oc=5",
+      "title": "Hedge Funds Think Colgate-Palmolive Is One of the Best Dividend King Stocks To Buy",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUmVubjBpNEwwMmwzT0lBM2Q2VWtXOFNpMzdqY00zSWZGdnU5dmZmQlZJVWV6VmVTV0lwMHlfOTE3bzA0eGJRUURiU2U2OEl5QlVLa29fOFRDVTlqUGI4OHh0eDN4RWFUVXFWLXdoallFeTVxOHhGVlNQS01aR2RFVlpua3RCTzBjUWlHSHBXNjhFdzc3RFJmcU9rZGUxal8yd0FNc2c0emtneE82cFJ1d0tmN0xjbFB4TE5kWlptWGVRZ0R3?oc=5",
+      "title": "FMCG Stocks Rally Up to 6%: Why are ITC, Colgate-Palmolive, Britannia & others rising?",
+      "snippet": "Zee Business, 2026-10-09T07:00:00+00:00",
+      "publisher": "Zee Business",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QeFBoM1hYdVVZRTNtaS1NVnc5Z3RpXzlCZllpRVZkQ2w5TG0xbkdyV3pWbTg3UldIeXRYWFRBak9FRmtVeXV6aFpWRmVnVkNFODVseExJQTRVWmxBTnA1TnZDaHpwbnBFWk1VaU1jQzlLRldCZVJkMkhYTHdTQQ?oc=5",
+      "title": "Colgate-Palmolive Share Price Rises Around 8% After GST Council Recommends ITC Changes",
+      "snippet": "Kotak Neo, 2026-10-09T07:00:00+00:00",
+      "publisher": "Kotak Neo",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLUhlNFltcGpYdGk4bzAzeTBhV0VjQjJkQnVDX08ycnZiYkNVM090US1TODRlcnZfUkwybWNaXzdWVVM3NWpJTUE2N2RyOEcyektQUnA4Mk1XcVIzUVloaDlQbDVvdGN1VzZFN3ZxUG9QeDk1WFNFeU16RDZ0dlFla0VSdFN4cDdVSUE5MHg4ek5TSFdQLXhUanZaMTVsZUdBZE9HZ05QT08yMk9aSGVVbS1hb2NZTzIzdVo1bXRB?oc=5",
+      "title": "Colgate-Palmolive India: How Could New GST Refund Rules Benefit the Company?",
+      "snippet": "Trade Brains, 2026-10-09T07:00:00+00:00",
+      "publisher": "Trade Brains",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CL/history",
+      "title": "CL daily price history (Yahoo Finance)",
+      "snippet": "close 89.98 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

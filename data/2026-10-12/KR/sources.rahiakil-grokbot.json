@@ -1,0 +1,73 @@
+{
+  "ticker": "KR",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kroger\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 44,
+    "no_date": 0,
+    "after_cutoff": 33,
+    "before_window": 3,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM09yWHQ1b1hJbmkyc1lJVGM0dzVpR29NRmY3a0lpb3lsbHdzTTAwcm1pRkktd3FzMk9nazRNdk1acVhkVXI4NjdhX2lLVnJNZUZnNkZYb0ZzajdjY1NQdGNjOXEwZlkxbjZrQ1N3b0t0S3BWa1djdk9zTUx1TjlwcEVjczRaaGdNM3dCZUJBd3BudVhnZHViOS1NanJ5dw?oc=5",
+      "title": "Kroger stops selling Red Bull nationwide, including Georgia. Here's why",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVG9RenczS1lNeEdrVHI1ODk5X2QyYlpLeW5xOEVMZXJLRy1vbVdiMXAzeTVKOHdMZmVkcUlKRFJSZVVkbUxYaHAyZEU4UUdYYlI2YWtScVRBTE5KSk9QVnRyUGpLZGM5OUNuWUR6V1h5WHRUeW5CaEhFc1I3MElHRGlHaXZXS2FfWm5meXVIZ3NJZXFkOURqNUw5WG82SXFEUzVON1k0STQwZ3RoVkRJ?oc=5",
+      "title": "Once-beloved frozen pizza brand sold at Kroger, Walmart is discontinued",
+      "snippet": "USA Today, 2026-10-10T07:00:00+00:00",
+      "publisher": "USA Today",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNG51Z2NEZXBIR3hXaldTZXN4Tng0cHM1ZGpXMjRZYlJoQnMxNi1MMXZ6dVBKY0ZsYjdKR2dMaS03c29WeFMtMkxsaVRaaWZJWW5kdGktSDU4dVZCQnh5ODJneTVsNFc5NDZJZVBGV01pLXlzdUJrVzY1Vk4xNG1tQTlZbFJRYkZvd19RS09pWWx2UjBpVXlYMw?oc=5",
+      "title": "Kroger (KR) Stock Looks Pricey Despite A 75% Five Year Gain",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KR/history",
+      "title": "KR daily price history (Yahoo Finance)",
+      "snippet": "close 62.56 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

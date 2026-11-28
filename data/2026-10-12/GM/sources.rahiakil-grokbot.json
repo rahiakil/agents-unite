@@ -1,0 +1,109 @@
+{
+  "ticker": "GM",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Motors\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 47,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 9,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVEc2LTA4OWI2dWU2ekxqc0Y5a2pXU2poc0FtWVJfVDdpV0E4dTVDSUJQWWpQMkIwaXp6dDNpNlhUR3dYejB6UEpBV2o3LTBoUFM4WVNxTEYtT1VDUDlWcXRvdFhSQnB0eGhiT0h2XzgtZ3lVWkc2ZUZ1MFZIODBreGUyZ29sRmtmZjVobzRhSzFQbDVGV0pLSkJNZ1Q0TTdkeFVSTkZFaFU1MjRKODhQNzRmcXZTNU5XODlsVlplNllFU3A0cS1raGIzZ0lmMkVWY2s3d1pyY2F5MTBqaGdER2dqOVhMaElI?oc=5",
+      "title": "General Motors Stock Is Up 7% in October While Ending Silverado 1500 Production in Canada. Here\u2019s Where the Stock Could Go by 2030",
+      "snippet": "TIKR.com, 2026-10-10T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQ2xrU3UtX0xCNGJubXNpanJyVjJzdXI5LUlLQUdBc05MT3hRLU1KQXlONVdHeFZIclBFZHg0TnhaeFRRbC1KRFBBVXk0ODhhcXFYVXdKZG9mVEFCWGNWb1NLQTNVZC1rZkNoRm8wX0Q1ZlpJdVBNV1VJenh0Um5GdmZQMk4wa1ZHZ1B1eG5VYy1aUnE4ZVhkOUtlUVhwano0TjhEclpJM180dVZ3QzhvWnQ5RDdld0VtaENVVnBqLVVFQ1Jx?oc=5",
+      "title": "GM China sales top 358,000 in third quarter as NEV share exceeds 60%",
+      "snippet": "Gasgoo, 2026-10-10T07:00:00+00:00",
+      "publisher": "Gasgoo",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zRVBqVjQwMmdDZlM2WW9BeUFvbzNET1VBc1d6WDhMT2x6VW94djdkUlpwVWg2em1JUGZ5MkNkd2xYMWdpS0x1V2hlaDZEUktGaGgwTl92R21MOFhhUVlacndiRW04ZG14Nl80V0F3SmM?oc=5",
+      "title": "With Toyota Surging, GM's Dominance In America Could Soon Be Over",
+      "snippet": "CarBuzz, 2026-10-09T07:00:00+00:00",
+      "publisher": "CarBuzz",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ1lGQUZyOFJUaC1EYW9adTBWWXBWRVNUZENSbzZrWnJqaERKalA3dEsyZWhKSWhiN2s5MWRnTk41aDVteG1PdVNCNWIySUxBU20wUUpHS1BqQjVWeURETDhEbUkxWkp0NlE5X0dteWVlaW8tOWhpemVRRzF3aXhSQnBmVE9lV0FZcmU0TU1ScjhqMGRXcFJ1X2FPVVRnV1U?oc=5",
+      "title": "GM Stock Value Down 5 Percent Week Of Oct 5 - Oct 9 2026",
+      "snippet": "GM Authority, 2026-10-09T07:00:00+00:00",
+      "publisher": "GM Authority",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3dwUXgtMU50WnJzUC01Qnl0TVJFMjJLUnUxOXR1STJSVHZuZEc3TjZWNEwxRy16bFhXUEpSWkM0UVh1QTNCc0RGS3EtVWxmYnNiOENCa2VQNE9odExEM0tJZ25rNU1YS2VqaEwyS3I4aUwyWDV6al9HRzlBWE40aDVGUXBXblBGNlZyWUROWkJfVGpUZkQzWnlxT25ENGp0RDlVLXBQRjcxNVZ6TjdKcGcxeFpoc1k?oc=5",
+      "title": "EV Stocks\u2019 Rally Is Narrow: Tesla and GM Lead While Pure Plays Lag",
+      "snippet": "ChartMill, 2026-10-09T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcEtoaGZfZHVmQ0QzQ21HUFFqR0g2bldPcHZtaFdfdmJ5UWtLdWhnaEhjaEtRa0FSWTFyQkhUSEhqQXJueVdta3JYWmEzR05rTjJjWlpCVU9icms2MXJOV1ktUV9WYkRfMGhReUFCT1dmTDlPUzkzOVVOb3IxZTh1N2R2YlNtVUhfb1ptSzFoOU9VR0lIWTMzenlSVmg4UldnelNQU0kzSmJ1T2FvYXh3R3VVN0I2c2laQk0xb1A0TllzWmxCRnhFdVoxT1poekdLS0J1ek1Ic01YalNYelNsTmQzRFg5ZUFTT19tbmp3RW9RMHJ5eFpkb1NaZHVnOGJnME5pQVBfZXM?oc=5",
+      "title": "Analysts Offer Insights on Consumer Cyclical Companies: TJX Companies (TJX) and General Motors (GM)",
+      "snippet": "The Globe and Mail, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GM/history",
+      "title": "GM daily price history (Yahoo Finance)",
+      "snippet": "close 82.37 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

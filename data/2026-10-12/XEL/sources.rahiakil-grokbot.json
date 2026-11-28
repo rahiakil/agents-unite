@@ -1,0 +1,58 @@
+{
+  "ticker": "XEL",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xcel Energy\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaldadTJlUmdFWDl6VWkzU2NOa2hScURVcTlrMGMwRUlCdkw2RFp1N3ZNemxoTGxiS2NnWDVjcUVJbkd0TElFeTAwYnFlLUdjYlBlU3ZHOWNROTYySV80RE5zdjU0NTZ2bmxsYV92bWM1bFhpSjVqQ0lNaHd3amRaTnVVZW5XeWZxWnJYWUNINllTMXo5b19YTHB2N2dEZXNGT2U2VzlvZEQwYk5qanQtRlgzNkhVSEFXd1p4Q3R4cmEycG81ODZ0MUtUenpuQTBHdGJB?oc=5",
+      "title": "Xcel Energy Proposes Minnesota Electric Rate Freeze Plan",
+      "snippet": "The Globe and Mail, 2026-10-10T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/72903/000007290326000175/xel-20261009.htm",
+      "title": "SEC 8-K filed 2026-10-09",
+      "snippet": "items 8.01",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XEL/history",
+      "title": "XEL daily price history (Yahoo Finance)",
+      "snippet": "close 74.17 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

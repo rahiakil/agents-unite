@@ -1,0 +1,61 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbmZlOE5YeEthRHNEbkJtVGwxWlBJLTJCMWxRN0hHaU5JZFNIdjNmYkpNSlVuX0dtNGdGVnNJbzBDVjJNX1ZyNTItZ0JfR0p1amVCdk9hMUhURnNjNFE0NnFxZlRvTk84eTlJU0tmZVdPaGVreHFycm1QM1M0XzBYVXk5MnJGZ2I3QXNBY3FOZk1nelJFM0pPeXdB?oc=5",
+      "title": "What To Expect From Domino\u2019s (DPZ) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeW9zM0pELXctNFd1Y0FKX2NEVVJGSV9YZ2QxVWUzWHZuQWpsWmJWeDlaWlUySUc1cHloQlRmVVZ3OG4xV1JBLUJJVG5iUFhpbmJlbFB5M2pTTk9jX0VIUXVoQVE0MVRMcy1rc2k1ZjBZOGx5TVU3a0VUNUdsbGtBdXdHOVAyN0tTekwxdGhURzZUY2RnSUNKVXFoNzJoZ1Z2UEZmbUJNT0lybkhkczliY3FsbjFtTlh6R1NKc0EtN1NxTnFpVW1DWXN3?oc=5",
+      "title": "Domino's Pizza Releases Earnings Pre-Market on Tuesday, Oct. 13 - What's the Best DPZ Play?",
+      "snippet": "Barchart.com, 2026-10-11T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 310.9 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

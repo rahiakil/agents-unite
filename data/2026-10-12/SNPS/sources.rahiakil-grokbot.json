@@ -1,0 +1,73 @@
+{
+  "ticker": "SNPS",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synopsys\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 7,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUTlMblI4S001d1VveFRQY0czamxlRjZkZElMb2FDTEgxSFExdFBlTEUtZ3lXb21VSTJuaGVudnkxT2ZpUFBrRG9sM05LTERvSHJ6YTdXZjNOMkNPaWhwMmRmVEF5cHF0M0lxZ2pKQU5qaTBwRmdldG53cjZGQ3FpRzZDMlJrVnVWM05pRDJNUHF4d3VXOGdWX2prdw?oc=5",
+      "title": "Synopsys stock rises on strong AI chip design g...",
+      "snippet": "Pluang, 2026-10-10T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHkwY0xwY1oxYlpDS1NzejFMT2c5SVpRWWluQzFfSnBTUnJ0UVhuZi1WMkJJM3plcm1GbHFobUN1TWpnX1RlaUp3LVdpcGRUUVktcmpxVHZTY0V4cHBYZmxCMjQtZDJwLWw4eUFfVWNIT191eC1mQTNYTUk5NDJPTUZGU2hLUW4wWF91cnN2cXlxM3JvekxxNkpvWEdiRlRhMTBDb3ZNcDdWVWZITmFMQVpn?oc=5",
+      "title": "Is Synopsys Back from the Dead? EDA Leader Inks Deals With Amazon and OpenAI",
+      "snippet": "MarketBeat, 2026-10-10T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbTVLNFZ2czQzNkM4bVFncWhwNzUtU05ZcXd1VkNBRWZqZ3djeHdMU3lZT2U4TVVtdXRaYVI3Q3dJdFpTaUtWUUlVTWd6a2dndll0azdHeV9GVFY2dVZjdWZkQThGY2wtbW1VZ0p3c3I2R3B4NG50RnUwMENoc0Q2YTNDWVRPUldObmNiYVBoZ3diVUJEOWljdUoxWVNXeUZqSnc?oc=5",
+      "title": "HSBC\u2019s Synopsys Upgrade Bets on a Business Model Shift. Can It Justify $700?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SNPS/history",
+      "title": "SNPS daily price history (Yahoo Finance)",
+      "snippet": "close 502.51 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

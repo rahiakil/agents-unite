@@ -1,0 +1,49 @@
+{
+  "ticker": "WAB",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wabtec\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQnlKQ0ZpNkhWc0FCMVVOTVVzRTVfMWJjWU50ZC1wQnJJdXFiaGVNdjFtQjAtNl9Db1N2V2JmS05BVjU2RnQtdVp0Q0tzdmVkNDhnenZNWS12bVZJYXJHM2tITGFRMkphZE9yV296WEJVTVlnbXpDeTdQbllkNW8tQ0Z6NHltSE9VN2NibHpDR0lsd0VSeEJjSjlVWXh5Y2NYWXhFQXBPdDdtUQ?oc=5",
+      "title": "Jobs: Accurcast, Wabtec, Oaks Retirement + Women In Trades Panel details",
+      "snippet": "The Sydenham Current, 2026-10-11T07:00:00+00:00",
+      "publisher": "The Sydenham Current",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WAB/history",
+      "title": "WAB daily price history (Yahoo Finance)",
+      "snippet": "close 285.77 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

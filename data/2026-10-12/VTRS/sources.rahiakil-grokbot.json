@@ -1,0 +1,121 @@
+{
+  "ticker": "VTRS",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Viatris\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 18,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSDNYSkhDQ3gzS0NRV0pXdFoxNFRxN2lRcXRDc3UwQTBoeUZtWlFiNXlGVnpkYk9OXzR6Sks0WXFDNWFhbjIxbTl1LTd4Znh5NTBySnRjWDBDT0J5NGhhSDhJM1Y0dEt6VjRZZTBZZXR5MjhJR0VjR3cwRFJBTUwyZnBaZVJDaXFrR1hHay1KcG9mNGpEVk4wZTNYelI1ZTQ?oc=5",
+      "title": "Stocktwits M&A Watch: Viatris-Pacira Deal, Coca-Cola\u2019s Costa Coffee Sale, Devon\u2019s Eagle Ford Divestiture In Focus",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSDhVY0hQSmFZc21RY0JzQzlrSURmallyZXlvYmZQTW5hcnJwRTFuNWxlczhzd1B6SXpMeFFic1U0Z0czNW5yZW9xeFJCRTBkcUpwNVY5MUlCNGp3ZW5HSl85NVVkdFd1aE1ibjM4MktucmlLQ2tja2NCcTR5dzhxU2hZc2MyVEk5X3VtbzRkTzN2YmRVZ3ZNZWVBVEtFM05WMGI4QkI0VW1NNXNvM0psdHI0ZVZiZWZRYlMyWFRIa1FYV1gzQzVqaGZhaC05QW1pU0t6b0pLbHlkbVBVbGVIZFA0WGFmdXlB0gHuAUFVX3lxTFBycHRhU2FyckZiVm10N1g5dWROYUljbndZYWlzVlpZczg0T1ZqZmNNZHB5dXc4S2cya3pmalUtZHhtMUUtdTlVMEptREpaY2pLV1lkSUdlU3EtOGRpNHlKa29mc2JZSWYzNklUTUZpamtYeXpkZ0FkbUVsREJiSXhMOTU4ZDF2UWVVT2FwMmNab1EzX1hadUtTV2RDa0NGeTh5Y2lmWkFxWUhMVXVPNFptM3p6MmhpdTVEbzNiQ0xRMVM2UHFTV25WR1dMeEhaT3MwcXRPdGVxRHd5c0RJOUhzRERFQVNEd1RDUlZsSmc?oc=5",
+      "title": "Viatris to buy pain therapy maker Pacira Biosciences for $1.65 billion",
+      "snippet": "ETPharma, 2026-10-10T07:00:00+00:00",
+      "publisher": "ETPharma",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMDdtYk43X3JSUXpsdnpwY25vQzNEVnkwdzB0ZnVVM2J6SFNjQnNNMEo1Y0ViN0h5WDQ0RFY4ZXVrT2ctbGozZFlSSkIxcjF5S0tpUWpNdWpmZWRUY0YwTEtYaG9MV2JkbnZVRlFzMUdmVGlXNm1jWWtPeGlCZ19VeWJycjlTdFk4T0FTUzYtRU51UGtkbnZVbExHa2o3dG14djZpa3Z5QzZ4UGN0cjFmdjFWUE1xR0M5MXVaeV8wWHA2N1UtaGc?oc=5",
+      "title": "Viatris to Acquire Pacira BioSciences in $1.65B Deal",
+      "snippet": "GenomeWeb, 2026-10-09T07:00:00+00:00",
+      "publisher": "GenomeWeb",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0ZJSmVKVDVOa0RuUm1RUE5ld2hpT1RfUkJWVGtKdnI1VDZiaDhUTVkyN2dSdkV5ZzB6QzYzckl3c3lpZGVsb04tNG05N0tMM0ptUTIwRWRjbkRBMmJIOWVPTFJjZFh1Mkt1Z3lXOHFVbEtpLXdYMi1tdWVRT0tEVUZmeWh3U1o3UjRjT2dMa1lFRlRoWnJCRTFHcUhXNVRVbG52Q2pEODA?oc=5",
+      "title": "Viatris inks $1.65B Pacira buyout to build non-opioid pain therapy business",
+      "snippet": "BioSpace, 2026-10-09T07:00:00+00:00",
+      "publisher": "BioSpace",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZkNNWkVVcWZDOFJxY25NbFVEVlFUaDBKN3c1ZXVkb1V2NjMzU1kxeUlYR0ZGZmNPbldwcW1va3ZfUXlKOTI1ZlVaUTRJUDVrTjZxV2ZjRktrblQ2MGJPNDY5VHpBWlB2YklTdTBGRW40bXV4UXVkV2NXdVBKUXFRNlAwUFA2ZHBobDI2d0lZdGlfdml1cmllaWR4MzJrYUZYU0VqcFNxaHlWVmdf?oc=5",
+      "title": "Viatris To Acquire Pacira BioSciences - What Investors Should Know (NASDAQ:VTRS)",
+      "snippet": "Seeking Alpha, 2026-10-09T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTFlDbXdoX1pYU2tjNmliRG5HVjlGWEhoTnhjTVJLLU1uU01QZDBDRXRuYlRQVGZBUW96TV8tcG1GSUswRGMyRFVRU19CaG5rNnViMkhaMmdUR3l5QndDcm1PdnJHUnNUUXRmSlFwRDF3ZnpzU2JrdnRycjk3Z3JfSEgyN3hra3RLNVMxUzk4LWFadlhlbHo5SXhrcHlWWDk4WWNUbFFKV3RSMzJmZHc?oc=5",
+      "title": "Viatris Inc. stock rises Friday, outperforms market",
+      "snippet": "MarketWatch, 2026-10-09T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbS0xT1lNb1NKWHlfOC1XT2IxYmFHYU5ITDdFMmVMbUR6MURyU21WWDNoN0hfYWNhUV9rT2VKWDhCNVJOUjJwMkxuN0pUTlZOeDQ5VGxVQldCUGJwdUFWdnFFVVY5VUFIRHlGeHdVM1Z4Vmp1dGVhSEFhZWR5R2ZYaVZQcHBIalAwZV9IZGpvZks2SkRo?oc=5",
+      "title": "Pacira BioSciences downgraded after Viatris ann...",
+      "snippet": "Pluang, 2026-10-09T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTRS/history",
+      "title": "VTRS daily price history (Yahoo Finance)",
+      "snippet": "close 17.54 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

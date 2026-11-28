@@ -1,0 +1,49 @@
+{
+  "ticker": "DRI",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Darden Restaurants\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc2tvcVUyV0JQbVB2THJzeGxLUHRyd2xHdnFhSnV5b1pkNThWV1pWaEJBZnBTeGMzZjhrazFYLUlsUVpSa3Z3QTJrNXZ1OG9BS19NWmFyR1Z1TzRWSWdMZkJoXzBVUHQ3NW04NEZXTnVqQ1pxN2lYcVlaY3ptSGlBZ0hxN01YcGlJeGN6b1dwdlJfWEd6SGs1Mjh2UXM?oc=5",
+      "title": "Darden Restaurants (DRI) Could Be 14% Undervalued On Its Dividend Update",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DRI/history",
+      "title": "DRI daily price history (Yahoo Finance)",
+      "snippet": "close 199.61 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

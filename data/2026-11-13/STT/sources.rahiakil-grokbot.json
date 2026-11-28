@@ -1,0 +1,97 @@
+{
+  "ticker": "STT",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGhLTUZSYzVtZTZhczluTTBwSEUtOVFHU3RHcjA1VVRNSXh1cmFRVGl0TGhpOVU3TEJPSVRzVnR2eHFaTVRwSERPZHNrODFvNmRhRUZxU0Jpa0l0SHFrMDFiSWktaVNhMkRmbVQ3V2NwWjFiWHZmRjczRW9WNHYtREtkZFpnTXZUTUhoQVdLdFBqdGJKbFBfQkRzRnF3Y29sZFlRbnNIZ3JyMmdp?oc=5",
+      "title": "State Street Corporation Declares Dividends on Its Non-Cumulative Perpetual Preferred Stock Series \"G,\" \"I,\" \"J,\" \"K,\" and \"L\"",
+      "snippet": "Yahoo Finance, 2026-11-12T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnYwclE3cDJ1Sk1FaVBiZm5ib3Zua2ljMU5IWWhvaTRGa3NOQUdZUGRud2RPSVNtM1RDZFBCYlVncEl2M0FaN0htX3pJZ2FXeE15bzFTR2JRUFlXcTZtbFEzNjI5T2FsRDE5TENqVG8zY2J6UXdPQ0I3bDJRWDhheDc2eGVfbUVQbEphWlR1YjMxVC12TmlpY0hDei1ueFA1TFJKSjM0eEZucjQ?oc=5",
+      "title": "Better U.S. Bank ETF: State Street's KBE vs. First Trust's FTXO",
+      "snippet": "The Motley Fool, 2026-11-12T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd1BvRERFNXVnQWxTQWZSdTBpY1Y5T3FTS0lWeUdKd0JPSkFJOWVHRDFLYnBZSTQ2YU9fcHdKakZ6dzdRVUN4eDlpem53REJaQlo1TktZdXZBbHJnOUFRQkMxU0FFVGpMa2ZtdU01ak9QYnZxWFRjN1lHS19acjZianBWMldfMV9NMF9RaHBsbTNjQTVDZFRJME13cUVDS28yQWlTZDg3TFg?oc=5",
+      "title": "Pomerantz LLP investigates State Street over Q3 revenue miss and asset inflow drop, stock fell 4%.",
+      "snippet": "Pluang, 2026-11-11T08:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdmVJeTJwMTV3Zi1tWXptcFRlNGNNUU5ZWEh1d2lGMmtpejBPQTVrM0IwNUVoOXROdWNMaGwzeno5Nk8yMjg0R25ac0FLZlpyWDVZYWVuZnVqR1Etdm1PT1pYTmdrc0d0dVdOMUROVkRQMUJBQkJrclhJODNMTFVyN3BVdFR5WGNGS0ozSTVueDdoOGNPMFhxZUpvZEUzRmhzLUE?oc=5",
+      "title": "Kopin revenue rises 52% in Q3, State Street reports 7.3% ownership stake",
+      "snippet": "Worcester Business Journal, 2026-11-11T08:00:00+00:00",
+      "publisher": "Worcester Business Journal",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNXJSYk1Gb0wtcE9IVTBmWkdoWnJqZkx4RDhJeVk1c2J2RFJybWc2bVJFS2ZHaFBTWkNZTkpCNW1IWnhqZnNwQlRMclh0Vy1CU09ZTXNQeFBQcHlIMF9mNFRlMk4zWHlJdW14YWNXaUpMY2xMQVdfaUdPU2ZXZzBXUklSU1Q3LWNoZThjRVRKelhvMkZqZ2hVN1lCQ0NyVHozV2swb2ZUNEhFX09nT29lT1RicFJIQks1SHR5Z21qNEhTWUlMaTVrS0FSV2dlREYyVTc2M3N0a2R0ZTJxTGc?oc=5",
+      "title": "If You Invested $1000 In State Street SPDR Portfolio S&P 500 Growth ETF Stock 15 Years Ago, You Would Hav",
+      "snippet": "Benzinga, 2026-11-10T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 173.45 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

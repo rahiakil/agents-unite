@@ -1,0 +1,109 @@
+{
+  "ticker": "CRH",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CRH\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JYjl3T21mNDBQbndNdExubEpXWk02d2xXX0U0d1VhRmZFd2tJT3AxVHFLYTUxaGdzUndCTS10T1RaSnVIdVVTSHJqdHc0U3dtenR4WDdLRTh4R2FsQXBVRFNuYng5SDRrSFRfbzRlS1Z5T2Q1T3lGWXoyUGoxdw?oc=5",
+      "title": "CRH: SEC Form CERT filed by CRH PLC",
+      "snippet": "Quantisnow, 2026-11-12T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaU9odGxCcUJucGRSSW1IVDdEOW9yMmpYSDRNb18wV19hN1pkNzhGSVZMb0Nnc1o2WEt0SWREcXNRTVVCU09FeC1CQVlXME1nRVJPbm9YVi1jb2NCYjRjOGc2RjJrRklvRzhld3BXU1dGUU5ERDExa21QcnA1NzFmNE5RbzNoVjdSbzFUYURGRQ?oc=5",
+      "title": "CRH PLC (CRH) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-11T19:08:50+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T19:08:50+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORHNqb25aZUhadkFGc3B0aW1lSlhNX0ZoSVgzUWFwQ3kzTG8tcGlGcnRhUFNxQk5ENGhIc0tDblJxay1WREYwTVllQWoxblhGUVJaSzlRM3kwNVM3NE81bGk4S1dOZ2JRY2d2akVTd1ZFMHRkRVk3enVPY0RUVkt1X3ZPYU9JVWRzOFROOWRiRzB1Zl9BTVhKTzVWSVc1azNtbjVkc1B3?oc=5",
+      "title": "Major Purchase Alert: Richard Fearon Invests $569K In CRH Stock",
+      "snippet": "Benzinga, 2026-11-11T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.357,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEtZRmloc3E5NWUzZWxvZktxbWNMVDN3SWFnOHpkTHVMeDh5cEtRTmJLRmcwbVUzLXk4bWhNeHo1bGhpLTV2RGhENHRXTjloQ3lOaGZVeUNMZTZZR1h4QXgtNXQtdXhzXzNXM2ZMTzVINkdfY2ZScGRnR2t3cVhEZzl1TzBYQWFQbXl4WGtEVFZMNXYtYjhGUkw3SEtHaXFRbXNPdl9Db0I4WDQ?oc=5",
+      "title": "Insider buying roundup: CRH, WESCO, GlobalFoundries and TSMC directors and executives buy",
+      "snippet": "MLQ.ai, 2026-11-10T08:00:00+00:00",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNV9LT1A4aTcxcHZSSURHX0RWc25adkZjbFFWQ3N1SVpHemZibFBpRW1xdTlURFJnckU0RTRFOTJrWF9IQndlcUFSb2VFUy00UUVLeGQtWmV5aEx3b0pDa2ZMeDE2TGxYakRaNVRKajZXRE9YMGlKdEk2QktmSmxoN2d4MHlXS2JXc0VlTHB3d0xQSnBmdlZnNkxhb1FJejlaM2RnLQ?oc=5",
+      "title": "Can CRH's Oregon Acquisition Boost Its Pacific Northwest Presence?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMnF2QktCdXY4SUt2eWVaWjRHQ1kxMjNSclB5Ny1udHViNXBMaTdHREtRNGtsWGk5WV9HR1hYVzY2MXF5XzZvNjdrallldzIzRTJMbjlnWlBxeTFtNkFQVU1tdG4ybHNFVWlzVnRxcGpjaXBOZFl6RDE4UlRVS3dMQVNDRk9wa1p2Zjk1UE9KMWxYU2ZIYTN1bkkxUW5sRFJwSkMtemxvMXByRk0?oc=5",
+      "title": "CRH Director Purchased Shares Worth Over $569K",
+      "snippet": "TradingView, 2026-11-10T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRH/history",
+      "title": "CRH daily price history (Yahoo Finance)",
+      "snippet": "close 93.16 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

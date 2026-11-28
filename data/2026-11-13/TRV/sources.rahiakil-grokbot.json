@@ -1,0 +1,109 @@
+{
+  "ticker": "TRV",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Travelers\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUWJ3bFZDWmlFNlRZQzFvU3hxdlhQcVVyTUpKRURuRklXd2xBZ3NSLXd3UFdfR3F5ODRLNXV5WkFlVkhRWlJsZzM4cXVxLUpVQ3JaVmtBMlNpR05xdXRodllLell6YlFvemN5elc2ZHlzN2xZVVNFaEhhX2pSMFUwd0loRFhkb0JZRzluWG8xdmswYjg1azRac3JmUVRhUmExNlAtVDZqUm1PVEM5UXNXWUF2VUJZRUNCX1ZHOVI2eGVEd00?oc=5",
+      "title": "Travelers Companies (NYSE:TRV) Hits New 52-Week High - Should You Buy?",
+      "snippet": "MarketBeat, 2026-11-13T15:04:04+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-13T15:04:04+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVkxPNVhQa0ViX2ZBVzFlaVNIQ01YZGF2WWZIckFBY3FoM0UyMmRkTFNvejJpdjdIaXhiWTJRUFZIOTlGMlpreFRqQldYZVF5YnpNYVpGUjBxZzF0MlByVDlaMmJqNVhaMGZqRUZIcHNwa1VCU09xR0ZHMUlka01hWGs0NW92QUc5M2U0RGNBTkZTTmpjdnB4ZUFDX3ZoUHdsS3c2S3pMQ2FwWkZwSFpheHp4aXdmNjE5anBYd25GUQ?oc=5",
+      "title": "Travelers stock: Insurer wins three military-friendly honors",
+      "snippet": "ad-hoc-news.de, 2026-11-13T13:25:40+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-13T13:25:40+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.791,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ25OWEtVOWdIbWtLTDM3elItdDhYenBvY3dPVHhHaUFyRWo3MkgtdElUWkdvRkhUaDd6aVNIeWk5TmljaTRWSllZOElkTkw1YW96Q0l3Rloxa3pDZmt1RWsyQ1AxRkdLZzB1eWFFNDY5b05KVFYwVU5WYlIxVEZldGgxTmVMRE1iS0xPRmdiVnJpXzFmZWVaSU9vcVNaTGFLNXB5MEpXSE4xZlZrTmhMQ3NaNmkyRzZuZEZuYnN2TXZLMGJBX1VhTzdtV3l0ekdW0gHWAUFVX3lxTE1xYkU2N1BfNGFOYmo1V0k2NG56RUIxMnNwUWd4WXYwMWF5b1JOc2JWY1h5QWdOWkdFOFFteTZsd3ZPb0dTTXdqRVJZbk10Z0lhX0N0TE5Mek92TVRhVUxTN1M1N0paMVo5YkFtbURQRkE3X1JtXzlmTmxCdTE0QnpDRkktaGdWZWc3LWg1S2ZiamtscjBkOFZuSGRPRzZjNHpJaHRrd1dtUUhfSHdBTWRlbWJnMzNtT0FHdk1wVllqRlBJa1BuLWs0QmMtdEE2UkJSN0J5ekE?oc=5",
+      "title": "Travelers Companies (TRV), What Is Drawing Fresh Attention Now?",
+      "snippet": "Simply Wall St, 2026-11-12T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdHB0dDV5bHhjc3Flc1JwemdQQVBuWS1YbDdTSVdXd1ZOTVZwRVFvcnVWR3RIWlVrLTN3MlY4VF9JN1hQLVZvZUJpeURGRGxRbThPSVdsejMzUlQzUWpBaEFvNnFSMVRDLUNlNEplS3h4dGVkUEpCazZEVXhYeUM3MU1TekdIS2Q1SDFBSHU4VDd3SXFDVVNXNVNONk9Hb0xRWlFMWElBWk9Ub2F3MTFBUFQyTno1Zk4zMDdZT293by1DQlBreDc1RnJ6STJjOWJWWVJBU0FqN0tJdWEtN0YweXlta2pueU1LUkJOeDg4M0hUZV9Qd1lR?oc=5",
+      "title": "The Travelers Companies, Inc. (NYSE:TRV) Stock Has Average Price Target of $370.83 According to Brokerages",
+      "snippet": "MarketBeat, 2026-11-12T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOExoWUFURFRpOU80bmZNek9KSlpSY2tEVlJtSXdUMV9nRkQzdllKcmdiSG9jNzNOT1M5akVPOGdad2ktSkNxM2haVmpaalI2ckZsT0dlZTI4V3VxS1lWQjJ2TmpFblhfNnRLTFJhU202Nmw5aXB0NnRlM1ZmTG5jSWRjeG1vWkJnU3BaZTF1UFh1Sm9iTXpXSw?oc=5",
+      "title": "United bans AI agents from booking flights on behalf of travelers",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNc2tiX0NSbDZmV0pyaEdiYTRCcVlKZTFMZHpWOUZyNHRZV21lZzVkU2NfSDBjXzB0dlg0aEVzZFlTVmRHQ3JSZS1XVUQ0aG03MEMwWWxZMXhiSjNNWjVickVnVThPZjZ3YTNEaVNvMVV3ME5xYnlkNnAtUUMxWVpscVVkdGs2aktTWUtGYXh5MWtvakl2aW1ndm9NY0trbGE5Q0hUQnlLN0tTUWd1QlM1RjIwamgxLVg3QlMwM1JJSmc1OUJiZC12TFViUUNoSjk1a3NKMjc4b2JYcmxYbWh1akxyR1V3eXFSRXc?oc=5",
+      "title": "Travelers Cos. Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRV/history",
+      "title": "TRV daily price history (Yahoo Finance)",
+      "snippet": "close 403.23 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

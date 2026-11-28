@@ -1,0 +1,106 @@
+{
+  "ticker": "NUE",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nucor\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaExEUVVXZjhZUGM5bVZKeGdGYkFUUzBtYjdsbHd6WG14QkdPMmpHTkY2Z1hkTS1nUlRLTmlhbFhzNExsRVpXazVJbmEzNVpqYjBuTFh4Ym5hVHhrdDF3X2JDZ18teEs0SlZUODQ0ODYxczNiWXNlSVNOX3hCc3lBLTQxb05OSUh4Y1hWQlRYaE1KRGF2OE5Qakc0SEh3Y3N3WGFadzU4UjA?oc=5",
+      "title": "Nucor leads as just two materials stocks sustain Strong Buy ratings (XLB:NYSEARCA)",
+      "snippet": "Seeking Alpha, 2026-11-12T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTFZQc0pTQllFQzRrU1lhalpGX3ZXSGkxRnlXTDFjeHRRRW9CYi1uZmo2NVQtdXB6dTRYZ3ZHRXBUbjBDeFhvSVJlRm5tczgwb3h3RnQ4a1JveVBLNEw4Rk9UMkdLZ3oxakpGR2lUSTBFMUlVVzJLY0Y0blhWMW9BRjRmRkxQQjdDLXRjQ05vLTQ4QQ?oc=5",
+      "title": "NUE Surges 82% in a Year: Should You Add the Stock to Your Portfolio?",
+      "snippet": "Yahoo Finance, 2026-11-12T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3hiQTdrcHJoSmhVaDk1b3I2THUycGVsUE1CMXpfUWtfS3NpcWVhdXU2WWE0VEFFTDZoUUZMSGdaOXRKZ0ZmdGVzNUxkV0lBRFdjNV9XRDU5WjE3SDhEMzFVcDdYWXJFeFVaSV9pNFE0RkNWcjc0bWgwM25WdXRWOVVuV2x1NEh1QzhGOF94NG9LdEE1YXNDTUlaTy1mTzJWOHdVdkpGbw?oc=5",
+      "title": "Is There Any Reason To Invest In Nucor Stock?",
+      "snippet": "Trefis, 2026-11-12T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTjZCZGJMN3pGRjZUMHFVTjBieDdacFk3Z0FVTGN0VGVWWUJlNFRGOFN5cEJYMnM2U05yb1JvZkw3RjE3MHdVaHRicWlqODVFR2RZdjJjMEtfN1prZGs5MVpiYTRkMEhmVFNKdXV4V0xOeks4WW1Hb25STFcyZUQ3Y1hxUGZCamxDMk1lVVMzaVYzR3pyaDdSZmlrR05pNmgtamhSN2MxWVJ3dGp3WDhTYzhR?oc=5",
+      "title": "Nucor stock: Higher coil offer extends pricing run",
+      "snippet": "ad-hoc-news.de, 2026-11-11T15:53:47+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T15:53:47+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRjdlcEMtVHBHNjVRdVE0YzZ4bjM0N0lFUmN4UjRPRHplcy1ja0lNTjRlR2FldW5QUHBrN1o4dGFaX1hMSE9hRGQtaGE1b01COTZlZGswcThkTHZuT25yam9UNENFLWFscmloTDNCUVUxUExabEduSjRuVHlxWlVKV0ZxVzdlbF85eVNkSXV4RjVOZ3BWbnFyblRZZGE1dzJRMmZlYnVjMDBkR0YzOFlRaTdJclZ1aXlac2VmZ0htTTVFZzh5WHFxRFE1SjdtUHlpcFBraFlVYw?oc=5",
+      "title": "Nucor Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312526454565/nue-20261003.htm",
+      "title": "SEC 10-Q filed 2026-11-10",
+      "snippet": "10-Q",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NUE/history",
+      "title": "NUE daily price history (Yahoo Finance)",
+      "snippet": "close 251.73 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "HBAN",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Huntington Bancshares\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc1hEYlc2UVRQSWN5UzZKR25xTXdkNTJURkpmR0NkcHg5UTRaSkIyeTJoMk8yLWVZZWhkMUpoT3I3WnJ2SkNBT3J3cFB1eUM4Z29DVFFmaVFOb0I1YV9SSW5qaHlYSzFnUXNacFliZ3N2STNhcFYzdV9Ud1JBTEtIYXIycGhqTXlHbjlDeF9fZWZZbU1rUEZDMVZ1d2tuZUVNVmxoTldCWGdVUUt2YTdld3ZqSXYtWkFiWDd5eXNTMVJzb24wd1RUeXRTRC1tcDhHR3RJ?oc=5",
+      "title": "Huntington Bancshares, PNC Among US Banks Eyeing EU Lending Exemption Under New Rules",
+      "snippet": "marketscreener.com, 2026-11-12T12:06:28+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-12T12:06:28+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPekVnWWNWd1B5Ui1FMlJMQnRDWDU5RVNKdkQxcUF6aTloc20wSjVXQlRjdXFNLTluX2h0bUdIQ09BcVVGNGxBSWtDMGdCRDQtNlpWakgtYW14MDVWZHZoVlNqbEQzYXJQV3lQbW5zS3pPLXh1UklxNmFiUktmMnFMUl9IRDBlb05KMHNMcDEtU25FNG9FTWVKbHAtUjAtV3ZMaEgwcTFDWnZDRVJnR2p5WnBpeUhEdkZLMkpSTlRMQ29BLTZqQzZFUEhSRUU5bXJiNm9r0gHYAUFVX3lxTFB1TVNLWGtuUEVSSlY3aHFneXdwNC00UEtoTk05cHhmWmV4alRMMllxa2RoUGNva1JTTzc2OXRkYlp3bWhPY29rcFlqLXFUOGdISnBNa01WM0hMSXVZYXNZNEExYlJidDRyU19STVNBSkh5endoU3MyOVJHdXJPS0hsZUZRTHNPUVkyYmo0NzBGQkdlb1VkRkNnWTBzcVRteG5LWWVQellnVzlVYU9sa0h0S3RDeEJQNUxSSi1yWDByMEI5bzZTaUFrQmllU0k0WGVhd3hoVklYVQ?oc=5",
+      "title": "Huntington Bancshares (HBAN) Looks Undervalued After Its Texas And Carolinas Push",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWldZRHE1QkRSLXBDX0M0Z0QxQV9KMzBCaWV0UEdjZ0FJM21hZl9yWnlfTHBIdDM4d0wzUW11VjQtc25LbVpndkxyVzlpSXNhQXZCUFdCUExXaS1jVVFVcmJsdGR4eEVXaUthUWpxRl9ZVG9BTlVUUjQtcmpYOHBJbGVUTjNvMVd6NlQ3ME16VmMxcWFVeGJlUzBFY296ZEhZV294cFRPRjNVX29Sb2hRa1lRbzk3MU16a3R6andVSWt1YTh5Z09VUDF1N0k2dWd4MHfSAdcBQVVfeXFMUFR6M2pQeHJsLUpKdUZ1WjlVZUZRUVA3Y3kwWDZwWVdrMDNHQlBiMnRNdHhhYXU0UVpqbEQzejJaOUJLREN6ZmNWallLUlQ3bzZIaXBsTnE2QUx6T0lmWXV2cnJDcVNaUlFTTFZMeTFrTVBTQVExN1RpMlgtZ2Q5X05PNW05SnphWXdqRGxpc3NvSTczd29MUzNKbG55MkdZWDVlWWEydTdFcHVvZEREbEZFeG5JMjVranZMdjRQMmREbWs3ekdHSWllX0czVXRjOGlGOHhaMW8?oc=5",
+      "title": "Texas Expansion Could Be A Key Growth Driver For Huntington Bancshares (HBAN)",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdnRWdkY5VExST0RpSW1ncks2YXBRQ1J1QkdsSXRtMlM3MHN2LWI4OVYyN012cGtIcW40b0p2VEpXcFlGdUN0cnJKVTh6YThWMGF1MFdWeWphWUFKLXJFR1EzaWtmTTB4cklHVFdPN1prQnc0WlFOLWlVMVlzcENtejhJbVFTSEZqS3BXZ3NLbWtfR1pzSmNMYnUwVVFhRnNlMjJlRGlYX2QxOUJjaEFQV0R6WVd4TFJxeG9RdDdPNmJfNl9NVE1tQU03bkQyQm9vek1TelEzN1VDNzFTNW5nV2toX2lOUkNPSjVOZQ?oc=5",
+      "title": "Huntington Bancshares (NASDAQ:HBAN) Stock Price Breaks Above 50 Day Moving Average - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTHlNQXExaEN3TVp0aWhMWFhvajlSeEpZYXJ2eUxxTmppWWtMSmFTMnB6ek1qeWJpVE9LY0JMT3V6NVVKVFAwaEhoc19pY2VMeDZOczJLNjQ1VFVWSHJUNHQ5T1l0U3d2cE1OS1B1VEVCdU8yMFh3ekgzMnFDS29menltV2piZXYyQXBfRlMyamxibGl4dG9URmRuMjB1RWRiQk1xMQ?oc=5",
+      "title": "HBAN: SEC Form 13F-HR filed by Huntington Bancshares Incorporated",
+      "snippet": "Quantisnow, 2026-11-10T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HBAN/history",
+      "title": "HBAN daily price history (Yahoo Finance)",
+      "snippet": "close 15.82 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

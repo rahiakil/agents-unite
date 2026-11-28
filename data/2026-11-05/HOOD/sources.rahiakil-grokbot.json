@@ -1,0 +1,133 @@
+{
+  "ticker": "HOOD",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Robinhood Markets\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 3,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQmpndmM5LWJabVNRMTZ4NGthVHN2VGFYYUF5cmpudVd4eHRZR1Z5SHBncE95aU8zVGQ4bU9pNG9DNS00MjIzeDJwZkVKa3NoMjYzQXdVcEdTYXV2VWpIaDg0NG1WX1dZUXFTd0hPeXVZdEZPVk5pOWZ6eGZQYm5FUHZNMWt0S3RoUXJVS2ZPMDM0UnZjZ3BBZg?oc=5",
+      "title": "This 1 Market Niche Is Growing at an Exponential Rate for Robinhood. That's Why I'm Bullish on HOOD Stock.",
+      "snippet": "The Motley Fool, 2026-11-04T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5reHNLYXVEWDVkcTd4NFhoQ0NzaVlQOUphTm9OVnl2d2MtQ1ZsSVRsQXVzRnVMUWlTM2tMMG5QSHJpWEh1UGx6eHE1YzNTeDAxZzZJazZLbGs2Ql9MZG4zcm1welBuVVBPOVBwdmNTc09CVE90VWc?oc=5",
+      "title": "Robinhood: A 1-Of-1 Company (NASDAQ:HOOD)",
+      "snippet": "Seeking Alpha, 2026-11-03T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHQxOHRZVDUybE1BYjNPdHRTWVp2SE5ZN3oxQXBkVnNOdkJSVTlybWNhMC1oUEpGNURFNm9LTy1PYzVKR1ZKQ1B3bjFNdFdCUkZsUnRVUU1nMmoyNlNGY2pBcUFsdm9oV2k0NlF0ckZXeHNuNlhtb2x1WVBBWlNmcGwtX2dqRkZYSW5ZcWZ2VVl3RVZKTGtxRHdhcEFJcHBvc1Iw?oc=5",
+      "title": "Robinhood Markets Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Barchart.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeHhNSjlPOUxMUFRLSWYxUnhhd0JNRk1nNnhHXzVxeWRxZDMyaThCRGdVRVM1OVlWYjFNU0NkcUdfczI0c1JZNk81U2VtSFkwZGNLNFowT1BLb3RZRUlBU19rN1ZJQ19jZXJoZDk0QkRHWEJ5NmVDeVhjQk1hXzJLNGtzT3c4UGlhdGYwZlpsaDBZVG84N25Vak92VEw2ZEk?oc=5",
+      "title": "Here is What to Know Beyond Why Robinhood Markets, Inc. (HOOD) is a Trending Stock",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPclV6LWV0LXFEc3dCbDRRRG5RMzFtbFdwZGVUc3ZkcE5lYkJqNkY4RmVIQ1J0Z2JReWRLZkFHakN5QnAyandFakZudWRDT3lFOEV4U2JnNmpJNkFuLWxBN0hCMlhSbWQ0bXNlaWVUS3JMbGNfenU0dzZuR1JoZlp2a1JNdlItWjNFUzY0MUszaTMxc21nak82aDEtQmFCVzB5?oc=5",
+      "title": "Wall Street Analysts See Robinhood Markets (HOOD) as a Buy: Should You Invest?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOckp4ZHhmT2RWX2JNalFHTkVsVG1OVndqZDVZNkhUR19VemJ2SnRaTm1FLTFfRm9IaHA1SDZ6WHllSlBEaUFhRWtNaGNhV29oNEtQRFoxR2NzRF9nUkRucjJpd3ZhdThjUEctbGZVQXBVbWNKd0hIcFRHcVVWVnRuaHBwWWZfei0wbjRkU2M1RXdSYk9wTXZicHVTYmhMOER0dDVmVF9sNmZKYkR5OTNEYUdWSERqaXVEVHpoRnRaTFl3cS1rLURpaGNHUkdWbHRMS1ZaQw?oc=5",
+      "title": "Robinhood Markets vs. Nu: Two Fintech Growth Stocks, but One Looks Like a Better Bargain",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.852,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN0ZkZzYxQTNsSEkxVnhrTjhSQkN6MFB4bWRCaGNWbGdJc00tNVNxMURoak9vMklWenQ5R092N2ZueWxKWk8yYk9neXJ3ekpHM2luXzk5UnA5cGxrMWp3MzV6R0g0REg2bDVmWXlxNVZnSmlRcEhiQl93TmVKM2EtMFE3NmpVZmt6VzhHMXdSV3BnWVpodzZNOXF3UjhMcWVEVm9Dc0FnbWY5Ulo2cWU2Vy1hQmFBWm9QU0tMeWpXX3VSU0N3RE15VGRjOElQM3h6R3VkS1RuSQ?oc=5",
+      "title": "Robinhood Markets vs. Interactive Brokers: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOGhVeS1SS2I2UWh1ZXVtQTR1VmYyQjFfU2ZweW5sYWRKbTZnaUVuUmlpWjFoUXZ3eFlKU0hoNENVamtLUk1HS3luUU92aWpLNV9oT0NVNjJYQUZsTE1pWHY5SlVnMnRVMTRfVWVtQUFUXzdXQWhTRmYwZnU5TnJLWnV5Mkx0Z0NtYjdzVUtXTERTc25UWU5ndlVKVUh5VFV1STdEdWdjV0VaREt2VjBOV3FlclJDNGxtck56eE0xVEVJczlxdzdOSTNTZVVWZlB5eDVGcS1PZGU?oc=5",
+      "title": "Robinhood Markets (NASDAQ:HOOD) Given New $120.00 Price Target at Cantor Fitzgerald",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HOOD/history",
+      "title": "HOOD daily price history (Yahoo Finance)",
+      "snippet": "close 78.39 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

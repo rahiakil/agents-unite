@@ -1,0 +1,94 @@
+{
+  "ticker": "WAT",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Waters Corp\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRXpvZTNIaW5RVDBNUWtHelIyLTlkZEZ4c1hwS29HXzhCcUNka0RkbGVuMVFQcmxDT2VzRkZ6eE5EM3FYWGJrTXUwNmRaYkhGNWhnWnM1MFVCTjd0d3BPdk1xQlFvTkhGU0hxV3RhSG9ET0M3cDY1R2k3NWVWbk1aenpaRkk5MjhEN2RJOEdmU2Z4Z3lsRjJCSktONzhoRGZCZ1lFTHlTRHp0eElyMTVFY29WWnBQYnN1T3NTRy14cFhkNkk?oc=5",
+      "title": "Stifel raises Waters stock price target to $470 on strong quarter",
+      "snippet": "Investing.com Canada, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdUwwMXQ5U3V4blF1eFIyMWoxblR4azRBbzNUR245dEtjOThIcXE1M3cyNTZkNzZMc1U0VjBLTW1PQ0lCWTBkX01OZ3U4ZEsySDdkTW5fRWVYanM3OGk1WGJaeHJqdGpRQkxjTldkcEk0SHlEaFNURFBzSWE2aUZZQ3I5aElHQkVneW5fOGF1R1hjSDRXQ0h6a0tGakJDdkZ6bG9hWTRMYUtaRENBSWt3MWl3Z0FTYlR3SnBIc2cyTXFWTmtvdHNRelpvdXZzV2ZBMFVoQ2d5dlVOV21CbjQwMkZ3?oc=5",
+      "title": "Why Is Waters Corporation Stock Gaining Tuesday? - Waters (NYSE:WAT)",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQlI1bi00Y0hjUmNQdzJlZFdkOXA2Z0tXWHNNREY1eTBVUUZRWHFlODF3T1JuYnJTcUFZRTdqYUdtTEU2NTBpN2FnR2YtRW5BeHVST3M5cmNxUzJWbHJ2SkNVTmlYazlnUU9EVTV3X3QyRlZqZ3VJR2V2OHZzdlFkM0lQQ1JRMEVxQXJNdg?oc=5",
+      "title": "Waters Q3 2026 Earnings Call Transcript",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZWdlYkFBNFZOVnVTbDM4dWYzTmZfOGpFUkpfZ0VuRkJ4ay1pYVdPanM4cVJjYWZJTERfYnZQN0dRWGVpeHVKM0dPcWE5VG54eEdpMmFfVUVWZzI1Z1Rzc2dJRXhFb3RwdHpDd3dOWXVyczdIRWt1T1VGUjR2RHBhcHR5Y0lmUC0wZjlV?oc=5",
+      "title": "Waters Corp. reports revenue growth for third quarter",
+      "snippet": "Worcester Business Journal, 2026-11-03T08:00:00+00:00",
+      "publisher": "Worcester Business Journal",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1000697/000119312526444400/d22941d8k.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WAT/history",
+      "title": "WAT daily price history (Yahoo Finance)",
+      "snippet": "close 453.08 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

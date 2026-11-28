@@ -1,0 +1,49 @@
+{
+  "ticker": "NI",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NiSource\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYlJxa3REUVZpdy1zWm5tY1BOSnhMSGh5NzA3SEVXNFVKcHNYVDUzNWlFWkVNUXNLTWRGdnBrUlJjS04yTTJYR1BOd1FsaTVDeWd3R3JUR1NZVVlzNktfZWdBVUN5dmVjcUhDeExoT3lPY0NYSG4yc1FvSmNGZV9NSE1LSG5ucEF2U0NEX3VwRkRUYTBTN1VJOVJWWTR0czhVSXBEYVcyS1hDSDE2ZlptV1dCZ0oyWS1EaWtEVGRQNkg4NVVm?oc=5",
+      "title": "Nisource EVP, Chief Op & Safety Officer Sold Shares Worth Over $1.7M",
+      "snippet": "TradingView, 2026-11-03T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NI/history",
+      "title": "NI daily price history (Yahoo Finance)",
+      "snippet": "close 44.44 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "ticker": "SOLV",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Solventum\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUDlpS21YOG1VcHRvMVRPUTBZdzVmalBWTzFLbms2VXZaYUpNbmVUNnpyYU42SmRpMkhRangzZm41THJTNmdtMEl2Zm1FVl9raVFzM25rOUIwTnplaG5PaXVoSGhoWGZoZ2M3RW8wX1IyRlpwal92b2lOdDBGM25fWUxhRF9XNTBFMktEN0VIT3FVQXZZT3VSdkV0cWU?oc=5",
+      "title": "Gear Up for Solventum (SOLV) Q3 Earnings: Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000055/solv-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000056/solv-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-05",
+      "snippet": "10-Q",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SOLV/history",
+      "title": "SOLV daily price history (Yahoo Finance)",
+      "snippet": "close 87.18 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

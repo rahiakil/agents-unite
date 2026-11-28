@@ -1,0 +1,121 @@
+{
+  "ticker": "GDDY",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GoDaddy\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTjdxY190c2dSTGdLNXZvdzkzV3k0V2V1WXhTci1qMEtmQ2J4SGpWMGZrbDJSZFNPd25iMHk1TXZDMjB5Q0xiQUgtS0l5QTVEUUk0eGRVakpQLUtfQzl3dktlNE9BaHF6emRCVTItU0w3eVdObXJ4U0NQemdJUnhSUlBRRXRYSVlDUjk0ekRrQkl3Q1h1YU5xRXVwTk5Wa2x5ek0zRmRsaEVIckJwWGRYYm8wYVBuNjdK?oc=5",
+      "title": "Godaddy chief strategy officer sells $117,800 in stock",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2VISGFfcFRuNHM0aERiNEJ0ajEzODEtQXp1ckVubVJBTjJsODR6V1pXWFd2NUZad3BhXzdpdWRqSml0QllSTEZWdWptSGtLYzJQVWQweV82NDg3bnBkS2MtdGZIdTFsU2hQNUhHMm5IOWt5REF6Nl9WYm1QaUh3STFpYUhGYy1vLVptYlZCREtjWnpfZUE?oc=5",
+      "title": "GoDaddy's CEO says he won't read work written with AI. Here's how he can tell.",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9veUtSNGpzX1Jmdm8wTVh5Y3ViVUxrT0FETm1PTHpSSG9rdko1R0RBVWVqRDh0dXQtd1ZfenByX0wzT3Nmc0RLYUVHM0NGRFQwUi03eVFFak5lVmZPN2t2cG5aaWwxZnQzSEFOSE5WTkhqajBOUERuYjdB?oc=5",
+      "title": "GoDaddy rises 4.29% in Wednesday's session",
+      "snippet": "Global Banking & Finance Review, 2026-11-04T08:00:00+00:00",
+      "publisher": "Global Banking & Finance Review",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS2lWb00tNENvSDA4MU90MnZOcGdsbFU0R2daS2lvZE5haWctSDJTakVXazJzNVAwY09XbEIxNDlheUZZR2RCSTR3c0ZyLTNROFhnTHk0Y0p3eV9mYTV3ZklOZ3J3T3pHa3NER0lCYWtEbEdlQjFHN2lxZ1JnQUh4N3RiQ2ducmxqS3FnUExqbVZYakp3cEdXcm1GcFE5M0tpb3dubk5ieWFENmtjaVhiUF9MZ0I1akNfWEFB?oc=5",
+      "title": "GoDaddy (GDDY) CEO Amanpal Bhutani sells $530,100 in stock",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZUYtSkVQX0stVmR5OTl1Rkk4Yi1pSTBxNXJ1ei1qckZrVjZIelVvSWtmN3pOYUdNVEpCSzI5UzNlR2t5RV9ObklzSkxPZGtmbV9feFJ4RXE5al8xWU0xWVdLODlNZjZNVkU0clphTm1weVA3WXlEUk1CclJHTnJWX1lfbE1FWlVTSFRhbG5HNm9PUXh5aFRxZzZpalFxQlJEVzdIQ0hSSHRDR0hHdTg5OHRQVmJvbXR0Q0hjd0pGeG50alJfa0lGUg?oc=5",
+      "title": "Form 4 Godaddy Inc: Amanpal Singh Bhutani (Director, CEO) For: 2 November",
+      "snippet": "Investing.com Canada, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTW1FZ1NCVk1INVd3alVwTFk3Z0pubFZHWG1mMHJaX3M4bjBOTW1xSXBOQms5dVFfNjJkamIyenVoNTNIY0p4YnZXUEMtR2p5TXgyWEpUWmtldm9oeDVYUWNCTWJpWlEwd1Rnck1OVVUxbXRZR3VpQWg1VlVackNzVC1NTV85Q2NUam5OMVFpOElwYVpCY19TVktLVmVaN3FiU3RvcFVVVWpzY3NlR3RlbjZUdGpmZkx5dmtnWXBLRW1Bb2JKaGRLeUlMbw?oc=5",
+      "title": "Wedbush Adjusts Price Target on GoDaddy to $146 From $93, Keeps Outperform Rating",
+      "snippet": "marketscreener.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN1hxdjNJSEZrWk95ZG9FQldpdGxTQmFEREFrYUZ0S0Yzal9FamZFTnNzVTgta2NtLTA2eGhuRlRXUHAwdm8xekk5dUd4N011cDNkeU9IZ283aFI5WjUwZDNIMUZ2MkpZaGVxV0gzSktmYlk1YzAyZDBsVTJtWURLUzVLSENocGdsNGgzVU9oWXBvY3NFZjJkejA5dW1jWENVdnhWSlRZOE1qOFUyeWtGNE5SMUFCSWl1OTVkakFzMVNMb1lTeWE3djlMUW5pZWdt?oc=5",
+      "title": "Citigroup Forecasts Strong Price Appreciation for GoDaddy (NYSE:GDDY) Stock",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GDDY/history",
+      "title": "GDDY daily price history (Yahoo Finance)",
+      "snippet": "close 120.12 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

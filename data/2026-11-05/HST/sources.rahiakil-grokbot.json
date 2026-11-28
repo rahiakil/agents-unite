@@ -1,0 +1,70 @@
+{
+  "ticker": "HST",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Host Hotels & Resorts\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS1J4dUpXRk8wdlJHeXlQZG5BRTRVS1BCbi1fNjdQNnR1X2h4NjFibHdmeHM1V01zY3dpbW5rc3pTcExfVmtEakV2SVVBaFdaZ2ROS0lEN3hYeGYyOHV5QVNFTzZFa2luTEdoUGViY2o0RHExLUVPZG9ZcXdmaWItTDlyZThTNVRTRnpFVw?oc=5",
+      "title": "Host Hotels (HST) Q3 FFO Top Estimates",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0NNVVctcWR0OFZ2alVOeWw2c0IyRkFyNEdmemJ5Q3J2N2dCNVFsUnY0TGVid2JfanNQQWE0cy0zc2pOeXhVRzZxOENBMVBkNDFHcWtuS24waEl5dXZwbV9fSUZULUlpZTdqSG1HbS1lbktiWWhXZUVha212aHYza2RMS21OVDFCNjZMVjhpMU9Uc0RLLThTaVVrd1BYdkk?oc=5",
+      "title": "Do Wall Street Analysts Like Host Hotels & Resorts Stock?",
+      "snippet": "Barchart.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1070750/000107075026000152/hst-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HST/history",
+      "title": "HST daily price history (Yahoo Finance)",
+      "snippet": "close 24.63 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

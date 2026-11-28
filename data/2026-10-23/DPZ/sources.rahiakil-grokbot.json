@@ -1,0 +1,61 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS0pVYlBDM0ZpWmtrcDJQYjBneW1EMTF0M2EtOGN5NEtpSHN4YU1McVZhbFRGUWNzWkZWYnNESXpzT2NOZ3VVZU0zcnA0UW5lejRuSVNac1pvR1o5a3N6Q1RvbVlVMGZwdmVUUXdwUG84R1JVM0FMR1JHajdMaGJNbzA3U1ltRXZPZzZJZFZudkl6aE5JM05vaFFsT1VfWWlZWVUzSTFya2FIaTd4aWZ2NQ?oc=5",
+      "title": "Why is ASX 200 member Domino's Pizza (ASX:DMP) still in focus after reset?",
+      "snippet": "Kalkine Media, 2026-10-21T07:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaTNQdTZWVzNxSFFKVnRoRDFFT1RzTG9PR2k2Qlc3Qk1scFhSWTZCWDdXbkt6TnlYaExqZ2Y5dWNOdGpWeS13blhrNmdWLWhHRTJxc3RhcVhsR0RBblhkU1pjd2R2bElnSWQ4UTJRenVFODhrUkpITXBmQVRDaGp0SVlvYTh1UVozSUN6Qmt0dlpjUncwRVJjcUVqdGlRNG8xSV9TUDlJNm9aRnl4?oc=5",
+      "title": "UK's Domino's sales growth slows from previous quarter, shares fall",
+      "snippet": "Reuters, 2026-10-21T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 313.61 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "ticker": "DOV",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dover Corp\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQXFoV3JmQ2Jibmx4U2xmWVFJYWItY1htOWIwRmdFNHE4NlRjajB3S1RLaXpQX0pOcl9VNUNZZmp4bGNJQm54TEFvMDkyNl9Bc2VlMnRlN1pkd0JkX19GaFZQejdQZXJ4dTFjSGZmeUpHNDN2SkhnQ3hrdWZiZFNpODlkdmR2X1F4RlBaX3hUR0c0VUlfX0J2eEtySVU0WDhlaUdwVTFNMjYwY21vSWpfXzd5MURveUtJNnZnNHpWTWltd0JrQ2tjSjNKUXBnTGU3U19tTnRNX1AtUQ?oc=5",
+      "title": "Is Dover Corp (DOV) Undervalued After Q3 Earnings Beat? EPS at $2.50 vs Estimated $2.57, Revenue at $2.23 Billion",
+      "snippet": "GuruFocus, 2026-10-22T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000032/dov-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000033/dov-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOV/history",
+      "title": "DOV daily price history (Yahoo Finance)",
+      "snippet": "close 199.2 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

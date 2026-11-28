@@ -1,0 +1,133 @@
+{
+  "ticker": "EXPE",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Expedia\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 5,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaDFhSFBfcndjY0J3dkFLeEUwM0pzbk5Ndk5wZ1J2TldqQXNIVjhBelNVbjl2aWhuNjB6THVMYVVHcHBiMU9WWFNvYWNhMFhiSFRHYzBSeGlDWWhmMzR2dkxFbGVSRXYtY0pDQUFMQW9TcDJkZUpSLUk0YXBsRmJzMld2MS1Bb3FIcUJ3UE9kMXpCbGFtZXBfcg?oc=5",
+      "title": "Expedia Group (EXPE) Stock May Trade At A Discount As Onboarding Launch Builds",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUTJRZ2dndTlTQWNNR1BjQlpDTmo2R1EtN05RbXByQnlkaUM0LVdLNDZBeWRyVmw0SndJcG1henptUEVTa0k5d0pjenhrTHhCY1NOT1JzYWJudFJTcFYzMjMyaXFMT0l4T0piS3Z1SHJwSjVUTWo1SzQtNFk0LU94ekpvUUVZX29v?oc=5",
+      "title": "Expedia Shares Fall 5.5% in Today\u2019s US Session",
+      "snippet": "AskTraders.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "AskTraders.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaks5d3JDZWxXRkhGd2x2THFHSk9vNm5ZUzNJOXNDQm5TUVMxdzE2TUdiS09BWmZpaHo5cXVMRm01UU5fTHdmdjFBTXNvUG5hMzkxbjlpOG1IOVFZYjFMakV6UHFhMnlYZ0kyYTV3RXZnbTFnYnhJLVJvdDRyWUx1LWZSYVZBYWNVR3JYZkVybkNPb1dHNlgyQVFLYzNaY0tQNUkzWkkzREdIY3Q4SHc0QmxDRC1OTW_SAbwBQVVfeXFMUE1UOUhraTJabVFad3ozNEE1SS15cFhjNE9pLWMzYzREdURmZ1Y5cS1mT2lRNVViWlhrTWh1aGg3dE1XdjlEMVQzNnI5Z1FTa3NTYlh4c0o0Um14eklCWHR0akNvckRvMVhyaVBnR2t3WGZaU1A2WUVuSVNKU2lmS3RaUE51TmlEMlpVcnJJTDh5cHBYZVhBclFjMnZxN3VTOXRiRE8tOXBRZ0V4ek5ENlZUc1pKSHNrQk8taTI?oc=5",
+      "title": "Expedia Group Shares Dropping 5.3% on 3 Reasons to Sell EXPE and 1 Stock to Buy Instead",
+      "snippet": "AlphaStreet, 2026-10-21T07:00:00+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLWNDNWRhN2RKZEdVeWhzXzN2czBaS05PeGlMT0R5dmF2OER4MDlKUF93YlNhN2k5V2pxanFMNTNVZE52TWNCSHZsNVE5WXZ0OXN2MEwtOU9KSXoyOU5uVG1fSFV6cTlpU3ptcWVYcWlVNlhUWmIwU2tPSGJSSFlEaFpWVFFqdGRZaVVldHd0cENwUkVmWjB5ekljaVNqMThWUXRyeVAzZXJEcy1SMVg4RTdB?oc=5",
+      "title": "Expedia Group Inc (EXPE) Shares Fall 5.0% -- What GF Score of 85 Tells Investors",
+      "snippet": "GuruFocus, 2026-10-21T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVDBBMW5rZDFkRDdSR0tXallKZXA3UkpkQkFzRWpyUHVPNy1nUThTbDZpcWN0ak5nMFZ0Si1fYlgtRzVRMVQxSTl0cFIxNDFuNjExd2JWLUwxRUpQclZyM3o3Y2EyUGw5LXJYR0Uxd0Zwa1pyLU1vTWFUM3JiRWI3WndBSFFad3N5WWI4U1c3aw?oc=5",
+      "title": "3 Reasons to Sell EXPE and 1 Stock to Buy Instead",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMVl4NV9xRzc1R2RiT2F3bGZaOUJGSmlpcV9lNDVjSVJHdlNqSDcwM253eEY5eEhtTWNWay1ZbGp4QWdtWWU5TjREa0lva09DZ01WYVNqS0s5bnI1ZTY3YjJnbDFtbi1RUHhVMTZaVW90Z0FacTRTMWxpSHNVdGxOUE4wVGpKNDRMYWc0S29n?oc=5",
+      "title": "Expedia stock extends upward price move as buyer support continues to drive gains",
+      "snippet": "Traders Union, 2026-10-20T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa3QzVFQwME40SEd4YXQ2UGZMMDBUR2lOQzFlRWhlcjJTQU41RmZJODYzLWRfclRXUElfX292a3ZmTHEtLXo3eTYyLUhFd0RwT2JiSUpadTR6ZUVOYklNc2RhODJhQ1lwODZnSGhsY1RVcDlBVnRrUjk5d3pXdU1aSFVLbUpjRGV1MG9TTGhraThDZUttTGVGei1KQnpmbVlCbGVPS1VCWERPRUowdlE?oc=5",
+      "title": "Expedia Group Launches AUTONOMOUS ONBOARDING, Helping Properties Access Global Travel Demand Faster",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFJhNWtnQlJJYkdSRk4wQzMtc1o4RXZQakdESloxeUJfUllDV1N5ZGo5UUp5OWdmLVpsWHU4TkdUVTdUck5uNVFmYTJ4X1lDUDVRUmdmZEJybTFCRWJBZFZPdHljRTY3YjU3R1VoNHhDemdmdDJkcWxNZWtxdm9VbWVlUy12QkRZUDBhb1d3bG1Ldk9LdWZicS1DWklaZE10bkJiNDQ3WlBFWUpqMWZIRlZPYU1YbFNT?oc=5",
+      "title": "Expedia Group Inc (EXPE) Stock Up 3.1% but GF Value Says Overval",
+      "snippet": "GuruFocus, 2026-10-20T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EXPE/history",
+      "title": "EXPE daily price history (Yahoo Finance)",
+      "snippet": "close 289.01 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

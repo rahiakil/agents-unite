@@ -1,0 +1,73 @@
+{
+  "ticker": "DHI",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"D. R. Horton\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVktkUkRGRWJEOHVaZEtuN1c1Y0RWcnBhX1BnMVo3dGM4NDU0MXdmZ1JONEpPQVppSGM3SFZScjRZaVhFYlctbzNwdXlnRl93dEp1aUptOWNDNFlBejQ1U3lLSWRmNFg4eGI0eXhKRjhyUTExY09JUERHaS16SUhHbm9FR2xFdjd2c2hFYllPemRQQjNwYkxoOEZXUks3ZG92WW5lSmVxMjhEU2dz?oc=5",
+      "title": "D.R. Horton Inc (DHI) Shares Surge 6.2% -- What GF Score of 91 T",
+      "snippet": "GuruFocus, 2026-10-22T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVXRSWGhLaEp0NXd4NzlRdVZ6R0ZUNXc1ckJ5eEFvdDUyVFF2RUU5SGMwYk15V3ZOdXFocDlGVVFfUEdXbDJTTFVLTTFtSGdJYXhYYVZSQWVETmVUOUszWEJsTDhNVFE4R3dCbG1vSWRWcDZkZ0xCdDMtQmJ5cVZ0WlMzNWwtZnVQU3poMg?oc=5",
+      "title": "D.R. Horton (DHI) Cuts 2026 Outlook Following Sales Miss While Undervalued Narrative Holds",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM0EySGdLMktDNk9wei1rVHJ2WjFlVjBaOXRiN3RaQS1GS2VybmZxX1ZuYXlYM2s1eXpMaTB0YjB6VzZ3R3pXU1diQkZmNklTN01RemE1R1FKY1ZRVlRMVk1NWE02b2hZYjdnS3BNU2xGdVFVQzhsdGJrOFBWNHA4QnJuWkNQTWdZX0NQUmZmVzNNRVJmbk9vRkRlbnN0QnczU1ZXRHU1cnc?oc=5",
+      "title": "D.R. Horton Inc (DHI) Stock Up 3.6% and Still Undervalued -- GF Score: 93/100",
+      "snippet": "GuruFocus, 2026-10-20T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DHI/history",
+      "title": "DHI daily price history (Yahoo Finance)",
+      "snippet": "close 147.48 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

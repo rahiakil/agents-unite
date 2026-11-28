@@ -1,0 +1,61 @@
+{
+  "ticker": "CBOE",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cboe Global Markets\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPamliOE5lN2x4NkltdEVXT3ZPR0JfekFBRnN0em91TENFOGZXSWZQSmhmbDN1bzdEN1RTSUJVSEtVLU82SzQwbnZPUUltb1ItSElqUHprQTBucTlXQ1IzSTJ0aTdzUDZfWDFaQl85bzJEYk1neHRGWWRseTJyMEt5NjEtSEZ4QWc4TGJEV3VQWlQwbVd3V2ZzT1h1UUVzdk1aVzRkd292TzFpaUhOdWV4RG1ERWhkM21paGkw?oc=5",
+      "title": "Cboe Global Markets shares may move 3.4% on earnings release By Investing.com",
+      "snippet": "Investing.com South Africa, 2026-10-23T14:34:37+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-10-23T14:34:37+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV2RlV2hjNm15Y3B0TnlCWHZuWW9ZaURLczNZajNGcl9oVjM5ektJd2lBbi1GZkVpRzJNMVR0VUwxOWVxdXVra3BWblF2Ql9waXdER0lPNFJYWmhxNGowLXItSEFIQlQtODV3X3V1MUdiMGxMVlFpT29INVR4QndhZHY4ZUhwbjZVS3psWk11WENTZ1ZZZ2R4X0dVcENVZzNWb0ZJdUJ3?oc=5",
+      "title": "Cboe Global Markets Announces Increase in Share Repurchase Authorization; Declares Fourth-Quarter 2026 Dividend",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBOE/history",
+      "title": "CBOE daily price history (Yahoo Finance)",
+      "snippet": "close 340.42 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

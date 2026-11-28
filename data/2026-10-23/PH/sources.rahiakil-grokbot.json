@@ -1,0 +1,73 @@
+{
+  "ticker": "PH",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVnlnWk1GeU1lOWxhUWJ1R3RSQVlmLVBKRjYybXIwUVA3ckoxemdDZEVyLUhSZTN5ZnE1aC1HdTNUOGI3NGR5dmhVQm1UTFlOTkxwWVhkdnpfWV9EMFVxOFVORGJUZE80RFhsbEhYczBWb1NnOThHVDFocTROVVRIdU1EV185U2pWekVGcUpoUS1vRDhaeXJvX2I2V2phWW03ZWJyTnhoOS1ZQXJDS3FjT0ZJdklnRzFXbnVj?oc=5",
+      "title": "A Look at Parker Hannifin Corp (PH) After 6.8% Decline -- GF Val",
+      "snippet": "GuruFocus, 2026-10-22T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkWkMtU2pMN040cHVLLTdEekxkOXRpcWpZT00wTTVYM0ktWi03c3JQWEduNW5wdEEzYlpnVFV1UjJTN0lPSFNZa1VSRmpzN3JsRHB6eXZfNU96X2prcDF3djVLajJfSFBYWkxSMjlaMldfRk13UFFYVXJkV2pyLUk?oc=5",
+      "title": "Why Parker-Hannifin (PH) Stock Fell Today",
+      "snippet": "Quiver Quantitative, 2026-10-20T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNWlUM2o1UFA0NVZSR0Q5Ul9DWVpUck9kX2ZrWjlTOGhUTTlRZ2Joa254TklnZmtIVkx4V1JlQVo1S01FRWRtMFl2Um9kRDlGM25fbms5QWRIMHZLcm9zejhUM1ZUdGVBem1sU3h2RzZiTXAtRFFhZWVMZFpmSVlrNnByZVVtYzZF?oc=5",
+      "title": "Parker-Hannifin Corp Stock (PH) Moved Down by 3.27% on Oct 20: What Signal Does It Send?",
+      "snippet": "TradingKey, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 880.57 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

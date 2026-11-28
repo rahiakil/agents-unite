@@ -1,0 +1,73 @@
+{
+  "ticker": "AFL",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aflac\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ3lHRGNEWURWWUlMcFpFLWFGVlVreXh5T3BOemFWYk5vRHNtdXRFWWhxVnpMd1RXMHIxTzUzMGVxWldCQnhqdy0wLU1Va1ZVQzBTUHZoX2lXVFNGcXJDZ1lwandHd05LR0Uxb21JZE9CU3MwYS1YUHBwRXpGdm9KbEhvVlVmTnVrUDVrSXQ4UG0yNk5nRmRLdDhGRThvMWc0U1ZMbm1QUmlzQkd4RnBkVnFMSHFlbVNLdjB6ZE15elFRREk?oc=5",
+      "title": "JPMorgan raised target for Aflac stock from USD 116 to USD 119",
+      "snippet": "ad-hoc-news.de, 2026-10-22T09:31:57+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-22T09:31:57+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ1QtZFZPQktEdVFjNDZoUUZNNEpKcm4tNVRDQkNRVHlOOW5FZWJRNWpqRWtUNVRyQmNHaEVJTU5XbkJ2QWJZck84M3ZFTEd2UHZTNzhJTVFpS2JGTnIzM1hKU25MTnROMUtaSmNpTDlWNlUxWEJVSnZ6MzM4cWpnWmExam5yVzJpNWNjd2RkVkxXQ0JwRHZUdU1GYzlmNFlmanY5UUh3YXJPaUU0VTN5RnNwLXVVTTRZNE5fbmVGWHNlems?oc=5",
+      "title": "Immersive Aflac co-op unlocks corporate career potential for Columbus State students",
+      "snippet": "Columbus State University News, 2026-10-21T07:00:00+00:00",
+      "publisher": "Columbus State University News",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb2V6UVVDenp1QzBzbUZPbm5hcFRYdUE5UnFMWEdIZXBVd2VhR1lNeXB1amIxZEtNY2pmNVJSbEpkSzVRNkpoR00teGYtb2VsRThWSVRlV2hnZVIxQWJPTEhTbG9YeGgwSWtrTFpZS2Jid2dUMUtOY2hnLXFYRUhrLS16aDFsTjJ6b2VfLURpREcwN1N0dU5XeVdSSQ?oc=5",
+      "title": "Beloved Sports Figure Brian Jordan Joins Aflac in Bringing Comfort to Young Patients at St. Louis Children's Hospital",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AFL/history",
+      "title": "AFL daily price history (Yahoo Finance)",
+      "snippet": "close 120.51 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

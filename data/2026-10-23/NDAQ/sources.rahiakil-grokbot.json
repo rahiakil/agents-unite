@@ -1,0 +1,139 @@
+{
+  "ticker": "NDAQ",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nasdaq\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzlYMElEZWpheDcybHdGNUJyelJDb1JNSVlBbHZQWXd5Znp3OGNWSnYyZ2MzRElldkFsblhleUtJZGxTYUVuQ01TZnoyeUxra29SRGZnc2JWRHo2NU5NMmY0YXhoeTBpY0xzd0Z0cWxXUFhIdHJNeHFOdHJiSEdVdXdyeTFfcGJnM2xVdWN0MkdPUVNRVGc?oc=5",
+      "title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.735,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcXNjekRRQzBna0NzYWJ2cFp3QnQ4LW4wX3Rpd0hiUHFVV3l6UjlWLTVFTzBQTThIc2htNlVvSnZyT19sTTNkQzZOX294aHVGT1ZTZE5GM3RqZm1Pb3pDcVBFYUhQcEdYaDFXcDlldHFkb0RRS2lzZVZMWVkzSTBYNGRsZ1owYkw2VDBfdk1n?oc=5",
+      "title": "U.S. Ski & Snowboard Rings the Nasdaq Stock Market Opening Bell",
+      "snippet": "Nasdaq, 2026-10-21T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRmVmV3loTW0tVWV4b0xJbUZ4YXNqcFpJTDdZVm4yNjdMREdtd1NnUGpWSEZqazNyZXhlVmZFWjdaLWFMUzhycHBHWlkwcnZGeUs3and5Z3VFZGdseHFHeXlqVnN2SjFCNzNHVEtFMWZTeHI3WHpQaUpLNm0tS3liYUVKeEVwLXlVZTd5OWlkQVZlYUdoa1lhaVdTYTRfQQ?oc=5",
+      "title": "Robot Consulting Co., Ltd. Notified of Anticipated Delisting from The Nasdaq Stock Market",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV3FPRzBudzlOaDJMMjFBcEdBV2F6U19mcVVlekppNUloVFB0WXV1eEZiOVFzSkcxY2NCV05IR1NjNlRHbEU4bTlWZ3F3bDZLLU9Yb1JEbkI3MXoybXBfd1pUNXpnem5pRUprWFZrQjBRLVdwaDg0WWJGWkFWWExvc0pwaWYydk1lMVdTaURIVENvRGVXdC0zeFZsSU1NbmFyU3kwZGszd1Rsc011cXVXM2tPb0J4cmdsUUZWcGxn?oc=5",
+      "title": "Nasdaq Inc. stock: results due October 22 ahead of the Xetra open",
+      "snippet": "ad-hoc-news.de, 2026-10-21T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONlM0SmRHeDhTNXpMR0p6WEpMOU1uUnBKb3NtVmFMM0p0NHdzcl90UXhuQ1cxNk9NdWlyNllUR3RTSlhiVTRqVDlFcGVLdW9aeUlUdF9UTzNtQXo5S2JSdk1pNHg4SVY5RVdrYklNTnE2RXdJVEE1d1ZZYVhzWUF3aVBVNFRQeWhQaWl5TEE1YzMyN2UwbnJNbUJn?oc=5",
+      "title": "4D Molecular Therapeutics Rings the Nasdaq Stock Market Closing Bell",
+      "snippet": "Nasdaq, 2026-10-21T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLW1UeDUybWdHVDFmUFlCVVN4U0Q0OEFJYkJISk5hQ2JRWHVXOUlwQ0gweFNDcXMtMDNYN2ttcm1aNUs0X3BUWmhlTnNVSllzUzlYR2RXUmpUUG5RN05lNGx3RUhxR3g5QUdpZDdvczFmNmRoUjhoUVA1dWk0NUZFV2VydDhHZjFlb20xbzNDYjV4RHM?oc=5",
+      "title": "Mid Penn Bancorp, Inc. Rings the Nasdaq Stock Market Closing Bell",
+      "snippet": "Nasdaq, 2026-10-20T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZHM3UFhpQjBodVVJZFB1M0F4TGNIZDk0dEJHX1hiOHV3anZ5ZlVDNUFnN21aZldtZWdIbU1GcFlNM0h5Q0pGd0ZOQmRYSmplMmZVNDIwY3RQTU53dEFuLWhLdTIyUjhwbVhXaFNTY0h1ZEZlUUlYZTVUcnlRM1B2SDJLd1ZoT2pPNkZlUkZkempGcFlLclpjek91cjU?oc=5",
+      "title": "Hilton Announces Planned Transfer of Stock Listing to Nasdaq",
+      "snippet": "Stories From Hilton, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stories From Hilton",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000017/ndaq-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,7.01,8.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000020/ndaq-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NDAQ/history",
+      "title": "NDAQ daily price history (Yahoo Finance)",
+      "snippet": "close 102.56 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

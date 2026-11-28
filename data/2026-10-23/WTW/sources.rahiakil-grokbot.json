@@ -1,0 +1,61 @@
+{
+  "ticker": "WTW",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Willis Towers Watson\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQakI0LXVENWZkRmViR1o5QWw4em5aem1QcGYwRzc4Z3pWb3hlQmtqbUJtcFVjSVdDOGs4UTQ0WGNSWFNOdEZKR0V4Y0hEamZIeVhac0IyWGNpeVFCZ2djZk5QQ3l1ZTJKdzMwdXctQW1hZDAxYllnQ0s4WTRRY1c4WXRDbllXd0NwSXMxVWh1MGZMUHpVYjNnZGM3MDJOaFk?oc=5",
+      "title": "Willis Towers Watson (WTW) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcUtLUDhIT0V0am1JcjRHUjFzUEd6anotTEF5VnplU3F3bUJaczlVZ29OWXVJdHBCeThtVUtnVExHc2F6RkVSc3dreTk4VXUza1NCRVJIZlphZ09SbGRqbmhLa1FNLWxoZVRQdUg2cENVWUhhUU5MYjQycnFTQ0JUdFh0SVZTM2dHQVJZcGRwSEQxbWx1ekJHUEN0a2ZqZw?oc=5",
+      "title": "Willis Towers Watson (WTW): Will Another Cost-Cutting Program Deliver More Cash?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WTW/history",
+      "title": "WTW daily price history (Yahoo Finance)",
+      "snippet": "close 325.01 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

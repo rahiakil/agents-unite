@@ -1,0 +1,73 @@
+{
+  "ticker": "EL",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Estee Lauder\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb21PRzdxRkZnMTh0UEpnVVllempCeHpGXzZheWdMV3BDX0RQV3pPTVk5NjIwVHNESUVmSE9scmpXNmxZZ19wRjg0YkZyMFZQWTJXQklnU00tWmVhMTNfekpyWVBsckd3eXJYQmZCcEFXZ0Y4bFBJSmhoX0pLQV92aWU1Q2JzcmhoaHRCVEhyZThldjdYWDl3YjVKTzU?oc=5",
+      "title": "China Growth Webcast Could Be A Game Changer For Est\u00e9e Lauder (EL)",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUEFlUUpvcVlkb3RxMzhQMXZXRmhLUjVJX3loX2Y5YWtfNDZjNWRYM3RRYUxQRnZaMW5ORmxMOW1JR3ZJTm9IeDhTQUFXVVZlRmd2bEdnRE1WUkRVR0VRVFUtVzZqTWljQlR3bVhidGF5OHhXRTM2VnR4STB5ajBNb0RCV05FZlRscEJUa2lpYjgyYWxidXc?oc=5",
+      "title": "The Est\u00e9e Lauder Companies Inc. to Webcast Capital Markets Experience: China Ecosystem Immersion Presentations on November 4, 2026",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMW9pbi1ITV85cC1lQ0N0b0YxQW0taE1LY0JDLWxPRzdpRE9SZEFuelFHeU1feUtaWmZmLTAwcUlfOTdvSnFNbnp3UTJ2bkFFcTFSUEpwMW5YSXNwYnJlcGRtUnhSeTdTUDREVkRkSmJBV1gtMFRaMWxjbjJxM2VaWkozS1Q1a2hhTTFjS2NrcVlNcFk?oc=5",
+      "title": "Est\u00e9e Lauder\u2019s $210 Million Investor Fraud Settlement Wins Final Approval",
+      "snippet": "Law Commentary, 2026-10-20T07:00:00+00:00",
+      "publisher": "Law Commentary",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EL/history",
+      "title": "EL daily price history (Yahoo Finance)",
+      "snippet": "close 108.67 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

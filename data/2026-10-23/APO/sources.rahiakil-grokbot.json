@@ -1,0 +1,130 @@
+{
+  "ticker": "APO",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apollo Global Management\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcFc2bzVYaXd1eEsyZWVhTEpUMzY3NDBpU2tSdm5FZDVicDNVYmJlOUs0dkg5NFV2ZEZMQU9QV240c1F6TVhhaTdRTnZ3UldsSmV3eWdMYzhuYzZtd3VaVkM0UVRIbzhRbjQ4NFVTZVhPS09qdUVJZDlOcWxmOEQtS3MzWUhJaTJiTTZfVkFHcC00eXdZTXRrczlwa0FESVpQQ1VCVjlvNlBzTktMM3BYUHAwR1BHYmluWExCRmZMN2o3ZlU3R2c?oc=5",
+      "title": "Apollo Global Management stock at EUR 101.83 pre-market: asset manager",
+      "snippet": "ad-hoc-news.de, 2026-10-23T06:12:27+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-23T06:12:27+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaTdBUlRUQTBybGJ1WFFYY2p3MWpYRE5tTzZwcUxsYkFuYnlCaEVOTE54cldKMHJGa1ZnbXJhUmNIVmxrdmpMLWx6eGl4d3M5VFhiTlFELTB4cWtrd1Y4ZXUzTHFsVTFGVnRCdVBuSnhnaGl5Yk44X1RmNDk3elJlVzUwVVUzZ051azJVb0lTYXNSUVJneWVHVzJMX2Q4TXQxRE9fSGdLU00?oc=5",
+      "title": "Is Apollo Global Management (APO) Undervalued As It Backs A $2b Apartment Venture?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSnBXT0ZXakFFbEEyU3hjUHdVUVZ3Qmx0MjBEREtzZ2l1ZUJVUFdxdEtfVl9tOEgtcDdtaGhsV0NKS1RJeWtGWHlUbU1kUlBHV1JmUS1Qd3lSSS1RWmNfSzZCcnNNcmM1MW93d1VON2tCYTVmY3F2M0xNdFdydktpd055U0VQWTB6cUo1ajhLMlg1UThZZmtVZnNmbw?oc=5",
+      "title": "Apollo Global Management Surges 4.4% After Hours to $114.79",
+      "snippet": "24/7 Wall St., 2026-10-22T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeHlKdktYeTgwV05VQ3BFeEo3SDJiWjM3ZkVvclhERVdockdId0FUVDRONHo5amlQc2UxN25yVFpYZGNqWjkwVW4wMmgxM0FhdGJIc3VFZFFobkY0S09RWWFTT1R4M1lUaFRaeC1NdHk4bEEyeExUTWxHOUtibTZSOXQ4cHRpNzlYUm15U0RBUWYtdkFqN0E?oc=5",
+      "title": "Apollo (APO) Stock May Be Below Fair Value On Apartment Portfolio Deal",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVVhOWZXR0FZcEYzd042R2trVkcxa281TzhGTzNpeFQ3NExPY094R0ZZRmh4ZlVsMDFSelRSa2xCbm5yRG1neWJrZVFSczVXanBuWHdqTkg3WlFHMEFjQXhQd1psTWZOT19KS0d3UlRVZ2xldXp3RWlBcVVVbkJ6LW8xbWM2aVM3OEhxaGdkRnJwOU85WmdjR1Z0UzJ5U1I2a0VwT2d6aXg4WkVtRmlQdDVlSndXV25UVzQxY05aa1RZTC1ONjM0X3h3?oc=5",
+      "title": "Blackstone, Apollo Want a Piece of NFL\u2019s $9.6 Billion Pie - Apollo Global Management (NYSE:APO), Blacksto",
+      "snippet": "Benzinga, 2026-10-21T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc2xhbEoxVHBpOFhLcGFacTRhUUMtS1JGWS1FdEhtbzdOMmlkMHItTjFxNERXeUphSDk4YUV0UVQtOThvVW04TXJYcTZyeV9rQ3dNUTJETGlCeFc1UXhleWFyVGl2M25rd2VqUTRPbnRSUEUwcERTWERQVjU4ZF94SHljWTFtSl9SMFhTQlVSMGF1cGFSYXF1ZTNhLTdMUV9FWkJlVU4zTkU2Qi1SV19NamVsN29naHdSd3Y2QXhoT1Bkdw?oc=5",
+      "title": "Autonomous Research Adjusts Apollo Global Management PT to $158 From $162",
+      "snippet": "www.marketscreener.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFVaNk14eHF0bklRLTd3X3U4NGtwLWM3cW1Rcm5nSFh6NHo4QkdvSnc1TWIzRTR5Zm1mbzI0Qlk3eHYwNVVReEFldmlSVnBrRmtBaVBlbzI5TWFpVk9WYlRGVGpBMS1WdlZaM3M0RW1zbHBmdDlRYWROd2J3bUROZkEyUERGWGdNRUhnRmpiWnBDQ01zdXFTVWt6WDZ0NDc5ZEliaEF0MlhyXzhiQlUxNEJYaFl2WDQ?oc=5",
+      "title": "Apollo\u2019s New AI-Proof Investment? The New York Yankees - Apollo Global Management (NYSE:APO)",
+      "snippet": "Benzinga, 2026-10-21T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000095014226002794/eh260845009_8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APO/history",
+      "title": "APO daily price history (Yahoo Finance)",
+      "snippet": "close 112.83 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

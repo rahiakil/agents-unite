@@ -1,0 +1,61 @@
+{
+  "ticker": "ACGL",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Arch Capital\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUG9VcG93dFNZa3MxT0EwVFBGRVJ4X1NfOWUxT0tGMzZRd0IxaldfOEdjb05OaEgzS0psSWlBZGFqTlkxR1BjeDI2TGZqdHd3cEctZDVQZlkyX3BmSS1PSzVNOGRMWGhXa25TcmhGODYwM244Y1JnVW1TeEQyMlBPZnVMR2x1d0ZoOGFzb1lZVDF6bmFaWk85R2FR?oc=5",
+      "title": "Arch Capital Group (ACGL) Nears Earnings, Is The Stock Still Cheap?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMkhYc2NGT19NYTJJMmhHWWgyLUNoenZid25JTDJrU05jczRiZmdaNmQ5RXBzOEFnanZ6Z0V1UWZmaDZxUEtXUXA0Ymo0QVZ2NWo2YjI0dFBTUFBHU2IyWnlFeGdHdnpiM2t3ZDM2VzNNNXNMUHdBZkJ4RXhNblBiVGJvTXpfZFJUVnY2RmdtSVIwOXllQU0wYmJ3?oc=5",
+      "title": "Arch Capital Group (ACGL) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ACGL/history",
+      "title": "ACGL daily price history (Yahoo Finance)",
+      "snippet": "close 101.69 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

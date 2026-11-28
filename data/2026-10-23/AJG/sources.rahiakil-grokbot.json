@@ -1,0 +1,61 @@
+{
+  "ticker": "AJG",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Arthur J. Gallagher\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeUY0UzE4Ymd1Q002U1ZpUWh3YnU5S3Q5N2JkajdNUE1Na0hkSWlaN1gxelczdnk1MHVEOGdMQmJncFVfWWdTbmNiYnQ0LUtTSl9qY0Z3blM5dDhCZmFISXF4eW5YQ2ZoVDc0NjZIUUVfQlNudnFLNzhjX3RDZUpmVVhQNlpTVE5OQlQ2NzhFX19EdFppYjU3VVpROE1zZ2tYakh1M3FRRERPRExXZl9lNXgzZnZVUGN2cHFiNXFmY0VxQnFLZEp5SDNqc2hIcGQzYmFqT3VXdXljSG9S?oc=5",
+      "title": "Gallagher acquires Mund Group. Arthur J. Gallagher stock has USD 66.2 billion value",
+      "snippet": "ad-hoc-news.de, 2026-10-22T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNGRVWjlCNU1Mak83Z1lzWlNzYWQxMDA4d0gybDMtdDFGYjlob3Z0ZlVZd2ZFRlVXZHVyYW1ZcU9MYVprVXB1RjhHeTJkRzNCWFVMRkY5QWk2ZVFGcWRTOTdRSGhDc2VTQWtheHNVOUROdGdDb2RiVmRlQjZ3UG14VkdXRzQwVmVEZXVPS0xVY1dQMkt5UFhjOFREQlU?oc=5",
+      "title": "Arthur J. Gallagher (AJG) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AJG/history",
+      "title": "AJG daily price history (Yahoo Finance)",
+      "snippet": "close 268.04 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

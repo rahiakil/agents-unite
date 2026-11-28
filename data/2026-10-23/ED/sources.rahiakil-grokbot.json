@@ -1,0 +1,61 @@
+{
+  "ticker": "ED",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRDc0eEltdk9IeVhuSTV3djZvZUozdEExUTRIOUQ4Uno0ZFRRNEdQcThURE9VNnpJb2tZcVduTzl0LW8tNmtwdU55Q0tWbGhUdEVUd0dTWWRnSkhydzd2WC1PU3NJa2dONzhYMmhnY3hXRDJ2Tk4xbWdESnozNTBkYTItLTN2T3BKSDJvbjlzdGJOX0U0eGxGRk5UQ0c1YkpKSmZmTXRwUjFzQnJQazVsaFNMOHhDNF90d0RYLVhLc09QZk42amc4?oc=5",
+      "title": "HSBC initiates Consolidated Edison stock with Hold on growth outlook",
+      "snippet": "Investing.com, 2026-10-22T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQS1YMjZ6RXFJZWxtT3dneUdqbTNHbTVoNUlhNUh2RG9uQnNKRXhvak45MzVuN3FuMi1qbnliV1JRSlFLYncwOEZBTjV5eTI3dWE1dmxTbUNKd2dTQ1hoTW1Oclc0a05BX3N5elEzQkN1dng1dDQzUmpaMkZyb094a3E4eXhSanotdnRoVWRfZ1BfSXgyd1ZEVDVzTzVxMzhOR0hjX2t0WU1OLUFUX1IwUXNOVjdvTFM2TllJ?oc=5",
+      "title": "Consolidated Edison: Hold For Dividends, Wait For A Lower Price (Rating Downgrade)",
+      "snippet": "Seeking Alpha, 2026-10-21T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 115.74 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

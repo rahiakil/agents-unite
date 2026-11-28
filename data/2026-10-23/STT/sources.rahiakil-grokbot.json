@@ -1,0 +1,106 @@
+{
+  "ticker": "STT",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiWlpSdzViQkgyMHBPWWRmUEYyS3NzV2JDdlRvek5WR3A2bTZSSVBjZXdrRlJ3QlBoOE1hUHpQSERVMEU5SlFkVkN2NlVnY21Eam9DMUI0SXNYMlU1dTFqaDVKc2pFWW8?oc=5",
+      "title": "State Street and First Trust prepare to enter Israel\u2019s ETF market",
+      "snippet": "CTech, 2026-10-22T07:00:00+00:00",
+      "publisher": "CTech",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDhDTXJNOTEwZGQyS2dXSVN6Ymd1NXp5ZDVsbEN2MTE0YVQwZVlpVldnWG5OTlRuSk1hNWoxeWE0bjByWkU0cUNLVVExN0h0NFExMnNsc0NkX1ppbzZDYTVfem1ralcwYVFhend5UGpVZzJNa2xZVEM3VGhsdld0RGQwT1JWcVNaMWoyZFVscnZHektqU0E?oc=5",
+      "title": "Should You Invest in the State Street SPDR S&P Software & Services ETF (XSW)?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVVdrdWNwYUxMSUROdXlKZTZNVkoyeF9Va3pzTU5iakVyY3VxME93SjNWNXV2eEFtaHkxcml2ZFV1dkpnRkE5MU9GcUtlSnJuS3I0MHZ3eWNYRWttMmcxUnhrOHdCZF9KamxRV3B1NGtEXy1IT0hWVk56Z3Jrc0dsNkhvalMwN0ZNT0JYaUJxU3J3dlZtUmtocXVLUzdhdGpF?oc=5",
+      "title": "Should State Street SPDR Portfolio Nasdaq 100 ETF (QNDX) Be on Your Investing Radar?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0MtSDZ6RUxnQzBKdUIwZjQ4aXBxazhwaEZZRUNGdjdOS3pORnNiM1FyQ2MtNjc4M2JHdmNkMkppU1lsYVI0RThyVndBVmZ1Y2QxN0JrSDYyT0VMZExMYUtiUUdFa19zLVJSSThMZ2VqVUgxbktDWVVpdWJBVkY0REYxVy1NLUEtVGlpZ2E3TzNpVnllb1FLQmk5Y2t1dWdEczRINg?oc=5",
+      "title": "Should You Invest in the State Street Technology Select Sector SPDR ETF (XLK)?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeG9CTDZBb3ZFcE9XeXZKR25rZ2VFUnhZZzJkdUdLZkxYcExacWJvWDA5Y3NBUlkwSnhGWUM0ZnVsNERnQXZyWV80Y0NtRC1yNGdyOF90cUNwVmVIM2l3Qi1uTTJQS0xDdGcwSVRfdi1HYTRRUkgwOTg4djFReTIxSTVDVTBfTHhFeHg4T3pFV3B6Q01xNTVBQjYxNjBqX3NJYThDMU1GT3hGUzQ?oc=5",
+      "title": "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/93751/000119312526426687/d167232d8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 167.83 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

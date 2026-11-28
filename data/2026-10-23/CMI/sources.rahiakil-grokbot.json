@@ -1,0 +1,49 @@
+{
+  "ticker": "CMI",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cummins\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 11,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUzd6Y3B1XzZtRkczY0E0Z1ZTSXRrSENCZHk3b1NURjFIeFg5dHZfeGcyQVI0X0QzNkZLSlUySWpINlZKajEyZ0VkbVZTTTZSZlBkOFRUVHAzOWhrSURrLVFUcUNnaV85dTY4Y3RKcGZmbVFvckxrbVNSNFkwRlhHY09oLXZ3U25FSzZPbF9kTzdVVWRsYjg0cnIzRFhpV2JKWWVINnhFZ2IxZHQxUlNGb0I2MXhfTUFoMElsUXZMY2RnZVVpTG04SmFfRlJvbVo0OEtKS3JVRXc3S0JoUjlSWmVR?oc=5",
+      "title": "Cummins stock: At USD 516.04, Cummins stock trades 30.05 percent below its 52-week high",
+      "snippet": "ad-hoc-news.de, 2026-10-22T15:19:56+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-22T15:19:56+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMI/history",
+      "title": "CMI daily price history (Yahoo Finance)",
+      "snippet": "close 517.4 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

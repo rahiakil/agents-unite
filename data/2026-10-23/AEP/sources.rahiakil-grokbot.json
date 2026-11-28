@@ -1,0 +1,97 @@
+{
+  "ticker": "AEP",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"American Electric Power\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWWVONDE5SFhLMzkyZ0VRSnRydEpCdXZiaWJnR09JX3FpN1lackk3RkZQSURDY2JmaXItSFVXWWk1blIzQjM5N0lnbmdvUV9faUsycHNjRlQ1cVdnbUQyWkpLdU1NNDJhRnBvOUxuVkozaEhOUmh3M29VelkwWUYwMG5qMnFKUi16SkFEaDhZbXREbjZUMGRNX3lGZi1hSUNzc3JPSjJrcXUzZw?oc=5",
+      "title": "Earnings Preview: What to Expect From American Electric Power's Report",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZzFRcWEybS15bTVSMVZmNzBJWW1WRU9KbThWb1Vub3FLWEhLdzBKaDJSMnNSdm92ZVhJbG1IaG1XaUt1T0NDVm0wVm5JYVFhYUFPNFVSRkVDd2toRU9XT3JGdFZZczBiMWZLWTUydzNWSVIxTkxoRXlFN2R1QzFnY25SRnpET3QweVBDdjBOM3dDdFlZenc?oc=5",
+      "title": "American Electric Power stock upgraded with pri...",
+      "snippet": "Pluang, 2026-10-21T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUXZqUmZ3VUZXbC1BSzEtOHI4c2VDay0yVTNEaTBhRVQwa2gtS1BZOWxzang4SndSOGwzNjMwbXY2aG9DVklQaEpGTG1tbUl0QU9zLXUxNXZXNDJoX3BDczJteUplazZfTUxlSVhmVHNjN1pqaXVXN3pjOEk1bG9fVC1CZDV4Wm1qalU5YkN0eDJ1bThtVTRTRXlPNFpZaTNMbXc?oc=5",
+      "title": "American Electric Power (AEP) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzNvbThwOWRZdlQ1WWhoUTlDNlVFNXY1bWI2N0trNzBuNktDUkFYazVHRVJieXRDczU3Z242SkdTNWdwWEtoXzhLa2lZQXBDMVZGb1IxcXczSmhkeXRHQ1g1OFBpZXJic3l5SHVKTDYwN19yTm9ZMFdMdW53bTlBOXhQTmxNTUJpVDRRamZ2c1BkdTltcTF1ZnoxWnBlbG9TRzluN0Mxdy1QUEhWUEpncWQ4OXR0WV9yZ3BmVWp6NXM?oc=5",
+      "title": "American Electric Power raised to Buy at BTIG with growth set to take another step up (AEP:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-20T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSmxZX2pXZ0psTV81SThQMFctakVwSWdwcEZtQ1JsMWRRZDFxanVoYXFPeUxxdGtSSmRVWGpRbTd3YTBjYTh0ZUlsdXlNRFRuNWp1cDZmTkhpOGV4dVl0NXA2SC03Y1FJRmM3NnZ0bU9XRVJHVElqV0cwSjJsTnUwR3NMcC1mTHA0Ti1US2IxaEpCQWdTamZOYVY2TkdOanpIVHc?oc=5",
+      "title": "A 97-cent quarterly payment per share is set for American Electric Power shareholders.",
+      "snippet": "Stock Titan, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AEP/history",
+      "title": "AEP daily price history (Yahoo Finance)",
+      "snippet": "close 129.69 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

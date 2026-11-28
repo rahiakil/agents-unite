@@ -1,0 +1,49 @@
+{
+  "ticker": "CASY",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMDZ4VW5neHZHbnZvbXU1UUMyN0FSRktkS1YwZjlJTmRDWVh5RVI0R2FMSDZhOXNqQUlXODdlM1hGX1JIVVpWVXpGdC1kQjVSb200akYxd0F0eVpYOGlWYW9jOWo2cjhaRkhEZEhETlV3dEpid3JzckxCYzE0anZFT2tCNldiVVVtMnNFREN4alZYY09DWVhvOTlfdkJ1c3JF?oc=5",
+      "title": "Casey's General Stores (CASY) Crossed Above the 50-Day Moving Average: What That Means for Investors",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 699.26 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

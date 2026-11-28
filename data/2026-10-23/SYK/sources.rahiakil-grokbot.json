@@ -1,0 +1,133 @@
+{
+  "ticker": "SYK",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Stryker\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 10,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkUzRHJiX1V2RFh1bmRIUGNIaTIxZWxyVmlPWXZKWEdyY2NpdmFjVm5WakxGY0wxQ0pWRGhfWllkdEtZTjM1dXRwR0R6TEFCcUdNYVBnSnBiVk44d05kWHczRTRtU2dKQWZPVFk4MWpzVGQwdUdERjFpby1vYWp1MkVLRVF1N2NaaFY5N2cxbnRXY2ZQajNxY2h1RXZtaWVVRWc4MFQ4dmVNR2pERHJvVThkRlI?oc=5",
+      "title": "Stryker stock may move 6.3% on Oct. 29 earnings release",
+      "snippet": "Investing.com, 2026-10-22T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkptZ1JWMGplUkVrTnUtUUlndkpROHJhR0RGck9OeS1iQ081ZmtuUmRXa3BWeXJpeF9xZUNvN0tMRHBKdGFkblFuWVk0U1RlV0dTanNzVk5xQVNVbmh2bTZjZXA0Z0pvYVdVanJOc3htYjdrLVNUa2YwbnVmZnFkZ0hQZzhCQk5FZjBnVXJidGM5dEhaQzlJ?oc=5",
+      "title": "Stryker (SYK) Stock May Trade At A Discount Despite FDA Clearance",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGM28xYUtNSWp3OGhLNFJrM3Vfem56NU5ZMlFadUJZWGc3RHJXdUkzZnRicDEtbE40eEhPMTJSbEs1Rl9JdFJPLTI4S0FuSDRnVi0xRzVZSFNQOHpoWHM2X09yV0lKX0tzZW1yVHpxSDRZWUp4QlhkT0s1ZDMtMUE?oc=5",
+      "title": "Why Stryker (SYK) Stock Is Down Today",
+      "snippet": "Quiver Quantitative, 2026-10-21T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd2FoRW5ORHlfb2ZZd2pDbEd3QnpjZzJLNktWZUw1TjE0TE0yU3JwZzBXSFdKeTRwc0E3MzdvYlVGMGFuTXQtdkp4R3JWVURNTktESktXY25uQ1NhR1VPaEIxU2o1ZUNuanJRNXJPNXE1Qlh6aUZacFA3d1dHSnpob1NfZU42Qk1lLTBfZFRKWWwyeUtVa2c?oc=5",
+      "title": "Stryker's Sonopet 3 Secures FDA Clearance to Improve Surgical Accuracy",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNEc1UW1TdzBrSlRYcVRMNWpGS0V2Mk41VWRFS2R2U2NrN1JuNGUxZkwwd1V6eGlsWUh2MlpqMTFFM2xMeHhjb3B2TmJSdUliRGF5Qk5CZnVINnUwbDAyQWxPWXVDTmxHWTNpY3RkeUg4dzRnVDVJVU9qRjVjSi1XMkt3UWdKWGZhNHc?oc=5",
+      "title": "Stryker Corp Stock (SYK) Moved Down by 3.70% on Oct 21: What Investors Need To Know",
+      "snippet": "TradingKey, 2026-10-21T07:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTk42SjhVMU1nNFE3Ujk5RFZ6enI3Z1BjTy1sTDJNdUdLRTFLS0pTendUMmFfMk5YUnFLNVhZNXkxOXhJenIwNFYxd2NGRlY2UzM1UXkzQkRId1BYSlphQlBiUDk4U3ZGQzlyeXpFQmpJNnlqNVpaelN2YzJtZ0JVanhvT3BvMHBmdDM2UG1mSWcydllXTWxR?oc=5",
+      "title": "PAHC or SYK: Which Is the Better Value Stock Right Now?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZmlNVXBBMmhMcWlOZ3ZUUkdrcEUtaGsyRlZmS0pkbE1UU0Q5dzZOQlFHYmRIWUp0ZkZlZEctaU8zZGVxQmc1MDcwY0hxZkowVlU0SXJuMjF3MFAyZXU1T0lJbUVDTHI0WVlUR2VBemtSQ2NaTTdLc2hMX25KaE1SR3F6OHBUQmlIaDVZSWVvY3oxcVRrOHFybEktWldXYjc2MzFGX2NSckRHUQ?oc=5",
+      "title": "McPherson rallies for families after Stryker tragedy, donations top $100,000",
+      "snippet": "https://foxkansas.com/, 2026-10-21T07:00:00+00:00",
+      "publisher": "https://foxkansas.com/",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjM0YVEtZUF6NHVyeklTRnpqZjRXa3ZWUHFYVk5mMi15UWlPQkRtRFdBN2NkXzJnYnRhRGJmUTEyaEV1TGE1N0NZbXR4ZTN1cUdHYzZtV29hTnMxLWd4TUFUdkJwZEJBd1psOFBCVk83QWVkUEU3a2xHVU15UFZtYkxNbk4zRjVwUEFoTnBaMUh6YVNtQkY0QU9pYmIwUQ?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Abbott Laboratories, Johnson & Johnson, Stryker, Waste Management and Republic Services",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYK/history",
+      "title": "SYK daily price history (Yahoo Finance)",
+      "snippet": "close 307.15 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

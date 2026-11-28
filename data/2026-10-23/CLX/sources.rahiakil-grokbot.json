@@ -1,0 +1,85 @@
+{
+  "ticker": "CLX",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX0RIRE9XenRFaE1rWXpnLVMwZEk1Rmxicjc5UmF3dGRvSVlBZUkwalE0a2Y3RjFmU0U4dnN5VEUtZkNpM3VzQkJGNHBkRHFxZmIxeEhHUHVBR1J3a1k1YnpRREZlQUJobzlibTJqYzBjQnRaV0dnTmVHVTR1d3V4dGFUeEIzOVlQTmRpa3dmRUJRQ3RVamxzSW54ZXJ4VE5tTElz?oc=5",
+      "title": "Can Clorox (NYSE:CLX) Maintain Its Edge In A Changing Market?",
+      "snippet": "Kalkine Media, 2026-10-23T19:33:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-23T19:33:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSmdoOUtsRzFFRWYtR2lHR0lqOWE3dUxiM1F2aF9WWWo3UnozZXkwMzk0WGpPeXZ4R3hic3BTRkxwcTU2OUtfNlVadXMydzM2dkxubm16WHMtV19SbldCY0NlMTZDTXhHNmZIM1c3S2lmZi1KaDJ4NVlPc3Z5OTRHZXc4NWdKUHlVNlFXLVlkMGNCT3ptWUV6WTdja01XTkEwVDcwVERWMXpPYkozUU9vRjBSbHEtSE0?oc=5",
+      "title": "Kimberly-Clark vs. Clorox: The Higher Yield May Not Be the Better Dividend",
+      "snippet": "24/7 Wall St., 2026-10-21T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.155,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSXdQem9DRF9HVW96ZGFKb2lkRVpNZ0dHUW1JNVdBLVJzTUNEUXU0djVObWJxTTRjdndvdWJRZDB1RVdReDR2TWdKQmlqLVNFRHRwQzhncFVrSUhPdUQtOUdSbXBLWndQUTRJSE1STHBqNHlIMWpFUmNfbngyUzA5SDBwWHhEekx6dU1yYzVXYmk0YzdfNllzT2hqZmhudw?oc=5",
+      "title": "Clorox Co (CLX) Stock Down 3.1% -- Now Undervalued? GF Score: 69/100",
+      "snippet": "GuruFocus, 2026-10-21T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMWF5bnBCMzVCVUFzdmlGeXdKaXNudTdsQlhoZGc2bnBtUkV1QUIwdEFXRUFCQlpXR2YwRVRpVlpSN3FpNGZLS3ozLWZWQW5JakN3RG9sSWgzU1JtTjRoTEFtY0N2M2tvRzdES0U2VGVzMGVPYXhGTWVCTlcxSkJFNVNTNHEyMEEtaUF6eERtc05BSnpuYVE?oc=5",
+      "title": "Clorox vs. Colgate: One Pays Nearly 6%, but Is It a Dividend Trap?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.45,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 86.4 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

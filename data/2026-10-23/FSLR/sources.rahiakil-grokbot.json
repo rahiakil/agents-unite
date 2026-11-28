@@ -1,0 +1,97 @@
+{
+  "ticker": "FSLR",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"First Solar\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTjlaSTJWYkNYWkE3UVQ1WEVCNEUzUW5FUkJOUk5SSmdkd1JHSFl4LXE3RG5lZzZLY1pzQW04ZTZjTk1jQjhDX1lfQmVTN3lIM1BkS0dhdWV6VExPWVZsSHNOaTd5ZEpBT0JPc3RNdW0zaGo0N21wX0RiSTFwX1hZTUlIY3BXMFJqMlFOcVpnLWx5Nk9EY09DMzZn?oc=5",
+      "title": "First Solar, Inc. (FSLR) Is a Trending Stock: Facts to Know Before Betting on It",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdVpTczdMaDd0Q1ZDT0ZSYUw2YThIa19sRFdlSmNfYTZnYmtOWkRFVFJ3amM0VGJlU3lhaUw4WW5PTGtUSllieC15RnNNN3duQzFoQmhLRE1uX1l3OUE0Q0ZGdHRvdC1ZS2YzSXJoRVZzZlhNdkNwUzZyYWxYbV9PaTNPbWNJWkVMUUhiMG5RbVVKSUR3WFVSS1VMWXpZdkVO?oc=5",
+      "title": "First Solar (FSLR) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFd2NDB1MklPMEgwLXdfczdzaDZIdzJDUHVvN2pRNkJ0OHVWdC05QkJVWTRoYXFlX2Iyc21fRjlIaFotTHpEelhqekdjblR0VUg0QUxrbjl2SDE4UjA4THdzNW1jSUpIbmJjSFRUOENpaW44NDF5TlNMY0NrYlh6TlpEWlpWMnJ2NlJWWlJQdktsOFZQVzNvNjc4WQ?oc=5",
+      "title": "First Solar (FSLR) Declines More Than Market: Some Information for Investors",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN09tbEtEaFptdG1PSDVvbWNUREdybEc0NWZWb2lHRTRtMkV6dC1wVTMxTDFaTUY4SFVMU283SjR5cnFXcjZtMFFxNzY0TGtBU0gwY0VCN3IySEpTOG9pelF6NlNsWnRySW15Q3VsZmRPZEt4ODhzOWZ6X2RXSVZkeFpzeDJ1TUwzM2ZGclZSSkRKZzZDaTRValdaalh6dWNvS2dsZTltQWhHUQ?oc=5",
+      "title": "Should You Buy First Solar Stock For Its Cash?",
+      "snippet": "Trefis, 2026-10-21T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWmlVRkl6YXdUQnE0WHprcG1hYkh0VThqWU1LUnU2MTdkXzY4OWJaTk9LM283N3g5Rmlva3M5S0ZsdkJRcnFYcDBGbXBhT2QxSHVGNk1fNTFpdDRENWlkQkc1RDhZTzB0UllIQ1N3TWRyT3JpUFcxTTE5cDQxRk1oNVI5bTktSGowRzRDcFg1dzUwVmhrRG5uR1hsSjI4ajh1ckF5bWt0b29PS29OelBiWA?oc=5",
+      "title": "Why You Need To Pay Attention To First Solar Stock",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FSLR/history",
+      "title": "FSLR daily price history (Yahoo Finance)",
+      "snippet": "close 171.99 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "OKTA",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Okta\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZV94QmIwaENmaDdSN0NmUThXWVhKeHFYTTRqdWVaUlZLMDJ4SkU0cGZENW5jbjl0TU1SZEdDODlTSlh3SjJZSVNFOGgyZkVLeE5YTkdRMkMwdEY1ekszXzcwTm54anhwRDFkLWlZano0OEIwYWw0VkU0WElHeXlRZDlYSXFVLU1IVlFROFA4b054clJtWnc?oc=5",
+      "title": "What Okta (OKTA)'s AI Identity Push Means For Shareholders",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRy1QbXR3WEtJYzliLUNXbi1ySm5SQ2d0aXVzNXh6WEtwV1ZOZ0d1R2E0LVI5TUk0MUZkWTRxVnF5emxhUUhVVlhQcENTMGNEMVJMcnA1aWFHZTVuaE8zUjZTWjVIdHpjUWxxYmUzbzFlZkc2MjQ1X2tXQm9Oa1dWWGdSSjBNTzVpMEdyNTNZTFFmZE92NG52NnFfUEhadndvUlBZaFFxdm4tbF92Rk9BNV9LeE5ySzNibFlqSTBiaDLSAcYBQVVfeXFMTm1aV19UY1dGaW9maDFQeU9LSktQc3B2STZjRXJ3ak9uYzYtTjRvU1dlNTJkSWhEeEJzeDhiTVM2X0V0S29keGhrTTZzOUw5cFJqUUZWcHpDMEhfNmRzVDY3RmVhS19udFRHN2pvQ0I0SDYtTk4zSlFoUUFsRzhFWXhJb1Zyck01VTRiVmdvVnoxMmNJdkU1dUY0WXpYc3liV3dMQzVsbm5PRmF0QjJGTkpiQXFCYTIxN1hNZjV6cnVESHpVR3Zn?oc=5",
+      "title": "Okta (OKTA) Stock Could Be 15% Overvalued On ID JAG Adoption Push",
+      "snippet": "Simply Wall St, 2026-10-22T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSDhROFJWMUE1dndlSFhQQXg0dGZqclZJTmtnbUowb3JfVWk1U0trQ0pUdHBmMGVOTjNQcF9hTXp6ZDBNOW9NU3BqOWhVcDJYOVFNMDdqRVVISlhVdUUzWlZlQ05GWkYwNGhOSjc5RVZIUFVLemNhM09vQUFNVDd0SXpmLXJlRkpMY2oxUW0tMjVlRHBQcmkzYXY3Sl9Bci1BNEx1TF9CcUw?oc=5",
+      "title": "Rapid7, CrowdStrike, Cloudflare, Okta, and JFrog shares skyrocket, what you need to know",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNWF0VXloc2g2TUk2RkdQTEN3bFVyUm5ESU1KZUdCZmlmOU5sSTBpbHA0T211UmFkN0ZHOTFncHpmYlh0a1RaVU5mTzFlRVBsNjF1UFExR3VYcGxEQ2ZsaHBGempWcWVrVHJPYk9VbmVFZlk0NjhEWGx3YTBWUUp5NGZFWjZpUWwza0ZmRi1LNWtHSnlHZ181ZW51UDlsRC01MXVud3BoUDJsNUpSQnpza1ZYNm9yNnYwVVoxOE5tWFN3V3VKVzlweVNCNA?oc=5",
+      "title": "CrowdStrike Rallies 4% on Expanded NVIDIA AI Security Pact; Datadog Jumps 6%, Okta Climbs 4%",
+      "snippet": "24/7 Wall St., 2026-10-21T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.866,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ0ktdjVFRXN5Mk54S0JsRXQ5aXM4Qm5JVTg5Nm1RYXhXR1drSUZ1czZQbjY1UExrY0l6LUNhNUt4cENkU3gxR1dxWGRlRkN6Y240RGNHM0JLcVBSWmRTU3ZYMHpfRXFEcnNxMGFOT2JUNTJqbG5YRkFwZzVrakZOc3IxektGT0ZzaDBKcF9WR3BHUVUxMllINQ?oc=5",
+      "title": "Why Okta (OKTA) Outpaced the Stock Market Today",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTJNY20tc1YxSndudlZDbkFkU0JvQ1NDbXEzcWUweGt2clZ1d0VjT1ZEd1RobE9iQ1lVdTJOS0tuWVpSb1M4NE1CWVhWTkVlcFdWb2FhWkpBOXRQLWlRWDRzUlF5MFBMSDlrVnhXY0VIdDA1VER3QlpudE5vSkVFY245Z3h1LWdPSDl3QmRiY1d2RGxMa3c?oc=5",
+      "title": "Okta (OKTA): Does the AI-Identity Turnaround Make It a Stronger S&P 500 Contestant?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OKTA/history",
+      "title": "OKTA daily price history (Yahoo Finance)",
+      "snippet": "close 213.05 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

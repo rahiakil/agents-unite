@@ -1,0 +1,61 @@
+{
+  "ticker": "TPL",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Pacific Land\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSDNhOG5mSnZwT2tDVFRGUy1tT2RJVm5KMmxSX3o4TnItQ0QwSGd2OEZ5alVhV2lObE5uWEVqdF9xc28yYk5UMTFjRWtneGNrcVNGcTkzUDVhOVFLc3k0V25yajFWam1xX192RDhrSnl3N3o4UmFBR0RGYWM4OUN1VlRJVFBQaDU1OTlNdk5LTnJWcWEzTTUzUHRPU2xkVFctLVlycS1WSnV4WG5sTXVlZ3pOSkZkVUpMeFV1U1ppQkctQQ?oc=5",
+      "title": "EG,AMN,HLF,PGY,BSBK,IMRX,LCNB,CRMT,MRBK,ORN,FRST,TISI,GRNT,TPL,OVLY,RVSB,GEF-B,NBBK,HBT | Stock Prices | Quote Comparison - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-10-22T20:18:46+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-22T20:18:46+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObkN5QzJqN2E0aGFEM25PcWtWTEZHb0hzdGVwVWVlY2lTalJVYzlzbGlOSXViM21sdFFuWWt2QWNGZ1BGYWJUUmQtaXAwQU5sc2FQZWhEUlFGNnNBNW5OZ3h4aEQxNl9WQXdoZ0Vpbl9FRU56UE5Kb19NUmoyRllNNmh3NEZrLVpkX1RRSkZZb0RDVTNFSHZWeV9Yc3k5TlAxZm1lWG9oREJTOThQb0R3bFdn?oc=5",
+      "title": "Texas Pacific Land: Several Bullish Narratives, One Ticker (Rating Upgrade) (NYSE:TPL)",
+      "snippet": "Seeking Alpha, 2026-10-20T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPL/history",
+      "title": "TPL daily price history (Yahoo Finance)",
+      "snippet": "close 338.26 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

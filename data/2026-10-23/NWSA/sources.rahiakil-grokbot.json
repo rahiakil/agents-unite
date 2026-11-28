@@ -1,0 +1,109 @@
+{
+  "ticker": "NWSA",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"News Corp\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTzExal9kZUVGX0t2dnk4ci12anVnOUhwUktuRFoxNFRtbFdIS2tjYUNUNW5YMUpGZmx5bUxKQy12TjdYQjJJbEQ2bG94MktOaVc4LWIxUXRBRW1fV1VGalJ6ODl1Q0xsbzJacXhHX25FQmg1SXhTdUZEcDkySm5LWXFFT2N5NEJwYzdhbWZIaW83X2tSM2NhVk9wWkhYVzZUbXh6MFdJbFFLa1A3aFI1YlpVS1o2S19nUVcyOGdFU3N4cFk0UDVPNjJHbzZSUQ?oc=5",
+      "title": "REA Group (ASX:REA), Telstra (ASX:TLS) and News Corp (ASX:NWS): Growth Prospects and Strategic Priorities",
+      "snippet": "Kalkine, 2026-10-22T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ3JPb3cybTkwazgyOFI4UER3SGZvWHpyTW00TXVzUEM0WDVzWC1jeVB5VmhGa0VQbFdkTzNObzV1YjVPY0lCLUdJZDI1dzlSRlhmRkhPT056LThuSzN1MFpIbE1ibVg0M283YmIyR0hZT3lnV0ZDSWNPdzdXeFRRUWNqQkxuMzh4NWgzblROTnJqT1ZkVkF4cjBNcDY?oc=5",
+      "title": "News Corp to Report Fiscal 2027 First Quarter Earnings",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlREbkRoMXpLaVZQTkhzSVBJSmdpbUdJVzZwdGlzY1VUeVBkc3FsTWlTZU0tWkVobUE2WkNDbE1GZlNSYWpNdUJrZnphUW4yRU8tOXpDNzJCVWRyQk9HNFkzb3VibndXS0psbWlRbUlVU0xSNUdENEhHTTJxOV9kY1F0ZDZ0T3FrQlJWalNZUXBSTmpPekxwZDcxM2hpeHI0NTB5T0xLV2VhQmw3QmlrRmd5cjFnYk16Y25RSnZUbWVPRGs?oc=5",
+      "title": "REA Group, Telstra and News Corp FY26 Results: Earnings, Dividends and Buybacks",
+      "snippet": "Kalkine, 2026-10-21T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000235/nws-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-23",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000234/nws-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000233/nws-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000232/nws-20261019.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NWSA/history",
+      "title": "NWSA daily price history (Yahoo Finance)",
+      "snippet": "close 30.74 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

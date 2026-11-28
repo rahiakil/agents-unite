@@ -1,0 +1,178 @@
+{
+  "ticker": "NWSA",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"News Corp\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 6,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRnlkV29XQXR6RW1XaVExR2lxZnJSX1NxWXEzSTkwUjlmYmJSaDdqcWt4cHFILXZWNlpnQXB4QnY1RVdwLUpHVG5RS21EeC1YWVA2d2QtTmxwXzY5X1BaTVdpWG55dU9pZmxGN1YwVTlhZlZyUnZfcU5kMlRoV21KbS16QjdTODJSQnp0SFFlZ0xyd3RjbnAybkNqM0V3VnFEZjhFUlVDM1phZw?oc=5",
+      "title": "News Corp (NWSA) Q1 2027 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUm1TbmZKM2E2U210M200X2Mxa2tTNW9MeGVUT3BUWDdDQ2FleGoxSUxGOGtXeFZsU1J6UHJXa0k2MFBoUm85NXNUQXJIZ0pldmhXTDV2bjQyM3g0SnIzeWxya3NadGJUb0o0N3p3ZWRlMXVxM0Z5S3hIcTRxM1kyQW9ZTHNqV3p0ZENueC1TWjg1cV9idXk4azBZZ0hraURBZFdWTXNpaDNvY3Zncl9Td2hkLWhNMGdYZjhCVzFfWlBGc1hjQk9qNlF4dVkyck52NUszemJSbUtuVWJwc1hucHJqT0lYQXVBS3BNX0VVY0l5LUUyZUJVNFR2OTlhci1JMFR4RUN1ZENydTk0OUFXeHFLSjJfRWU5cFZGZjdqZHhTY2pETTJVcllLRQ?oc=5",
+      "title": "Is Political Advertising Behind the USD 0.60 EPS at Sinclair (NASDAQ:SBGI) as Snap (NYSE:SNAP), News Corp (NASDAQ:NWS) and Lumen Technologies (NASDAQ:LUMN) Report Different Drivers?",
+      "snippet": "kalkine.ca, 2026-11-05T08:00:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLTFmVXhUeGFYYlVzQ3ZMMGVfSTJkUHFfbWR1dXdYVjVpT2J5enQ1VG9OOFhxSDdNVWxwMUs0NHRXRWNoeDRuOU9HalBUYmszVkxfU2tjdU8tTUtoZndsSGdwSVZ4QnRqamN5SGpRVEpFTHM2ZE9xMDh4UjFGVG9EemhTdzJQVnJUZGU3cw?oc=5",
+      "title": "News Corp shares slip despite Q1 earnings beat (NWS:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-04T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.072,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU3BaRmZBeE9QZkFaMzZNTnlGSW54dnVzYXhfY1hlZkMzOFRfb3NtNXFPWEIxeDZYYTJDNFVwVjZfeWJqNnNGak96YXNaWDVYbmtJZUZCVU9Rbm1HTFNRT3pHSDlwa3dkVGtiZ0ZkYlJoVW80MmpfNXZTU0luQm5MWXoySGFkWnljN2xfYVc4OE1DSVRJaTJZUjVWdmhFMXZ3RVNzNjhxS3JIUEtOZjZMNC1LaTVkbHRuMWtnRmFQdTB3OGg4djZidmN3LVhNQQ?oc=5",
+      "title": "News Corp posts record profitability in Q1, driven by Dow Jones, real estate, book publishing units",
+      "snippet": "New York Post, 2026-11-04T08:00:00+00:00",
+      "publisher": "New York Post",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaE9LOWE3d2loTVVmSXhaaWd5dFRtV1p4a01ISWpSbURoMEJFanlKRTczNlFOMWhuNFNFVEx1dmNSMVFmN3pocE1pLThDVFAyQWhKbFBueVcxemJqRWpWdmhuRHFMN1Jpbk9xNTlwdERlM3N2TTlKelUtanBKS01UbDhxUENTd29YSnYycktVUHp5dw?oc=5",
+      "title": "News Corp Revenue Rises, With Growth Across Most Segments",
+      "snippet": "WSJ, 2026-11-04T08:00:00+00:00",
+      "publisher": "WSJ",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLU5NVDA4Q19BRHdhVm83RVRvMlFUR1Y4MEx2ZjdxdXFISkJIeVNLZmFXR0t6cUI3QTYwSzRMWFVmWldwV193TWF2MGpOb1N6VTlWZDFZT3p1REhqMmdhbFFTaEUzeXVCQmU1U01raDhOZ0EyUTVaTFdWbldCbVJkWjhQTThGNVJ6UDZ3TXVoS3E2VXhNYUVpcmNad0Y?oc=5",
+      "title": "News Corp CEO Believes He Has the Antidote to AI Search Fears",
+      "snippet": "Yahoo Finance Singapore, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance Singapore",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3VhQzJqcEhobnBqWG1kaG1Tb2pCSFRyM1AzS3B4ZGRtR0UtN2plZnBUaWVDWHRESXdyaF92TEMwb1J6Z3NJcFRWLUdUWFVWU0NrbEQtX0JGV1BOY0ExdVEtRGgtVlpPTXlvLVBLdmtOenI3X3RvVU9McTBsT3RZaFlNSmpYd1dYMFpNdDM2QlVNY1FPLW1wQzhnb1NsRGZFNjJPN0w2cw?oc=5",
+      "title": "News Corp A earnings beat by $0.02, revenue topped estimates",
+      "snippet": "Investing.com UK, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR1d5TTdUSm5FSkRmWllKNkVNc1VmdUpkTTNsR0poTVA1dlAtQmphaVhFVVpFQXlGSDBrbUFFQ3E3T3MzTnpaOUwwcF8xSTNmZWVWckNzVWp6T1h5cUtrdko3N2NtQngzMG9MVG11QmJucVdoVlFScTl3N2VfMEZOUzZ4Z3YzUzYzeTYwTHRiVFZnZzZveEowaTl3?oc=5",
+      "title": "News Corp (NASDAQ:NWSA) reports Q3 CY2026 in line with expectations",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000255/nws-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000254/nws-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 5.07,7.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000249/nws-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000250/nws-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-05",
+      "snippet": "10-Q",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000248/nws-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NWSA/history",
+      "title": "NWSA daily price history (Yahoo Finance)",
+      "snippet": "close 26.39 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

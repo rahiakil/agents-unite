@@ -1,0 +1,49 @@
+{
+  "ticker": "AOS",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"A. O. Smith\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMFh6djFBUmp2UWdsdEQyYV9zV3M1d2dKSm9WTkd1TUV3dkVpekpIdDExZjJpNzdoVnBwR3JLX3AzM3ZhMmNxcTVNSVZUYUdYNTRSTWtQMENsY292V09odzdXaUltM3JURmRTSGNjbzlsWFNQbFhfbEUwWVRYMU4wLU9wbjNHRTk3MkVONUNFUGxsVEN0ZDBrT3JCdjhfVmdRZU5MVjJ6SVVBWU5sbFByRVBoM3lrVlNYX1Fxc3gxZFYyc2RsZVFQOFJR0gHPAUFVX3lxTE8wR094dDROVTVUaUMweHFKeG1mTmJJa1VYRllCUGRHNENuNjhiNXMtTVgxQkVyUlZoOVZQVFBIaU9rWmNwN0pkc2V2VklkZVFySy1FWE41OXl2WXM3ZnJmVWlReEtXRjkwZUlFS1B2RndFQ0ZleHo1ekFXTEswdC1NNjhMOGw5OXpnNEFRbllGZUFFLTNMaEtyOUs4Q0cxSVRLR09feFgwVzVHRXVqRHZ3V3hLV3FlSDR5ZWg0MllCVzUzZ3BHZ2FjWVhCYjVKNA?oc=5",
+      "title": "How Guidance Excluding China Will Impact A. O. Smith (AOS) Investors",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AOS/history",
+      "title": "AOS daily price history (Yahoo Finance)",
+      "snippet": "close 64.55 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

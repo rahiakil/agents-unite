@@ -1,0 +1,133 @@
+{
+  "ticker": "TTWO",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Take-Two Interactive\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 13,
+    "irrelevant_or_spam": 8,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU3VsUlJEUkhBcFFpSDRKeTdMZFVNdGVla2FJSDlFVGNRbEZCdUM3aFN3Sk5DOU9HSUlkd0w2WjQ2dEhZYUdhZ1hhUFNSM1N2cXBOWGFENlgxYk05V2NZelZPc0VrQm1GVXIyMThZeTdfcDRPMkFLT0pUR3lkNUpEX1pGcUZUczJvZS1LWHRGRXZTb3VxTjF6d2p4bFp0OFdjSWo1QW1xNWZ3VURYQk9WZDkzSQ?oc=5",
+      "title": "Take-Two Interactive Q3 Earnings Preview: GTA VI Launch Is The Critical Catalyst",
+      "snippet": "Seeking Alpha, 2026-11-05T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPRE5JeF8wZTJiX24tdF9pakJaWkZvaDVwYkFwMGsxQmI2RTN4T05ZRkd0XzFoQ21ScXVJckQ0cmhXMFJfYzlKeGVRenhJSXg4NjBCMFhUQXJVZzJibEhHYUJhSUpmRWpubTlHc3ZjSUduc01SVGw2VFFncjlkOTZRQkgwOS1ubE1aUmN3ZFFISjJhTVh3QzA5TkhNWFJhejR6SGlYamRPYnBDZDE1OVNpUDgwNm9fR2JQeElXcTVUVzRzS3VQeG1WTmlyNzJrRGxOSDZHOHJhZUZoNVplc1E?oc=5",
+      "title": "Take-Two Interactive Software Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYWY3a3plb1BwcFl1RFZyNmJzczE1TEVHekk5RkZaM05lVGZwZGprbHhmQTR3eGpZc0ItcDVpeDZLc2FWcGFOYnhuc3d4ZWRWX1ZpLTlJQjRselhiMGtmeXByNTNBNTZaNGxHN3YyejNiYUp0VGFaVzhDQ2kyQkdpQkgwZkN2UVFqS2NLLU5sdUNDdHcyNWtGd2VDYjFJNmtLU0hPOXQ2MmZiXzVoWG5lSEdGM1IxUjhla2RtUU9NajYwU2p4X3lz?oc=5",
+      "title": "Take-Two Interactive Software Inc (TTWO) Shares Surge 7.1% -- Wh",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTlltWUtYci1MbzdBWWt5R21CNU1kQ2lWRENHRjVuS1UtdF9FSFktV1JVMW9fZ1NGSUxWYlVWWjJoQjU3bF9nbnM4T2dIdVhWaVJ1Rjh4dHJrWXU2NDFBMHhTYzRTbzRRTWxSd21TemZWcmNYQ0xSMmp5VkJOWFRobmh4cFhhTUJWOUxvZUVtcWZEOTNyM2R4STh1YjN5Ym1lNW5reGZELVI0d29UQTNMSF84dXREanpWSFRMRjBsOW9BMFZEYUFYREN2cTVqaWVIaE9ZVDQxaTNuQXgzbXJnQnZ0Sl9wMDhIVFJyMWhKdTBud296aXZzejFJRWpuMEZhYk9N?oc=5",
+      "title": "Take-Two Interactive Software (NASDAQ:TTWO) Shares Cross Above Fifty Day Moving Average Following Analyst Downgrade",
+      "snippet": "MarketBeat, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcnlDNzNad0U5c2c4aS1LbU1IR19ZTVNESlVWV1Yzemo3T01QUHFZaTRObWRWdHVfd3hOQm9rV2c3ZEUtRzM3bktQTTJCbWFUMmk5SllBa045aTBHNVZucTRFLURoMG5NQXpEVWd4SXFUeUdhVXExbERTSzRlcm8zYXNVeFd3VnpfX0xIdmJoZFFhU2U2?oc=5",
+      "title": "TTWO Maintained by BTIG -- Price Target Lowered to $262",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONE1tMENfVkkzTnNrNTlpNzFtbXhVZzkzaEVnTTJMcFZ0VEI5RmRIM2tkR3J2dUVmNzhfa2NLcW9wUnFfa3dWdVZwek1HQzB6eHdHWG52N3lRS29PMWVKclNnc2J4eDNmcDc4WVF2MG5TekdheFRmeUlYMHRGT1ZYR2pXazFNdW02TDFLd3N3OW8wNFRY?oc=5",
+      "title": "Seeking Clues to Take-Two (TTWO) Q2 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaE9JR3JwcVluN2RiVlVaeXI5Xzh4WFI2VUVLOTdlbkp4X09pYlh6YmpGTHlMdzhadDAtNDRoSXF6cl9yRm1WY3o5a2ZFMjNyNjRDRUlJVHBrYnpCbkRmcldrQmRFbXo1dnVLTk1OMWp6elliZGFON0phUmJRS3pfd0Z1UjZJdklRUHFPT0VrZzM1SzA5SDREMDhFUE5qUEdlSkE?oc=5",
+      "title": "Is Take Two Interactive Software (TTWO) Above Fair Value On Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWE5xdU50YUFpSVVVLV9KZGY5Z2NWSnJENHBLakFoM2o4RmxEWnF2dzJxQktRbEVCbTNCajVLQ0ZmUS1FU0FldHFRQW03R3Q5V3dzbHJZRHM1bzJCcVRUOVR0NmphNDFpWENBMWpXYUFUV2FYWURKNTNvMlE4M2RkZk9HNjlmLUJ6aEpEbUJOQ0V4N3Y0bERDLUtMdWpxcTN1U3d6d1Y5RW9xc0hhTE9Ba3J3N0ZyRHB3NEVyQWpjMEx0d2ljVlZGUU55QlJmalJrcTcyYTVOa0JOdjgzOUE?oc=5",
+      "title": "Is GTA 6 Demand Altering The Investment Case For Take Two (TTWO)?",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TTWO/history",
+      "title": "TTWO daily price history (Yahoo Finance)",
+      "snippet": "close 214.87 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "AES",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AES\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWFl5UDR0ZmxJcld0WHhaSHZseXl5WHIxX21Pb2szOUllNUtDcTF2eV9qYnFlaURraVRwRU84SzhoMDRMWEZxUkg0S0oyZS1Yb2tXTTdfeXdSQ0h5a0tIM2tJLUtHbEVKVk1sWDJWbjJSZWVoWEp4OHJ2UU9yTk1VM3ZBYUQ3Nko5ckZQa1VCYi1DVXRLeDdJMUhUUXVBQnJwY2M0QUlDdkhoYmV2SmpqXzh6UEx2NlhvNzVfTGlNaURiZGxyb2JHSHYtY0dtS29Vb1dsNGNfTkpaQUVUOHhzN0R6cDZXUEow?oc=5",
+      "title": "The AES Corporation Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
+      "snippet": "www.marketscreener.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/874761/000087476126000156/aes-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AES/history",
+      "title": "AES daily price history (Yahoo Finance)",
+      "snippet": "close 14.87 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

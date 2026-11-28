@@ -1,0 +1,97 @@
+{
+  "ticker": "CSGP",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CoStar\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 6,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbHhidUF0VGF1MWdoYXlvOEVRbmVuUXdkVlRMWGc5aGNEaHNHTFc4NjVsRkN6RzNocEE2eGp4UkhQTjdfSndTc1h1UVpsVHAxTmZ1eUticzdIRXQ5eEYtYWtnSkRNVWhzZzVZUUdhTUhkaGMzMEsxaG5ENzJhMkltMTRPVUg1VHJGenQxR1ZDcHYzWHl5?oc=5",
+      "title": "CoStar Lifts 2027 Apartment Rent Growth Forecast to 2.6%",
+      "snippet": "Globest, 2026-11-05T11:27:34+00:00",
+      "publisher": "Globest",
+      "published": "2026-11-05T11:27:34+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPanI5c1gtSTRBd0Ewcm1TWG5JOHl4dS1XNWhzMDFnbmZoN3RXbEpDU21fX0NHcTJvcktxT3BiQW9xdEFaUDVuRlV6c1d0blZ6RkhBb0hyeGVsbEtjWGFpRWROVEUzMmpfVWQ1Vm1qMkc4N3A2SVhpSGhHZTRMNG1fUG5WYU15YndJblNnUXNQaDA?oc=5",
+      "title": "CoStar Raises Near-Term U.S. Retail Forecast",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS0RvMVJBQkIzbTQ3NHZXbGY2VDVaRUNwYzdZTXdtSThGa2RBWFRHdGxjeTNORUJMRnNpbmVmR3BzNkdTM0FwWU84R0FqUTJGTTdXRGEwRUxIckVXWWw5eC1uNFM3eExaZUs1WXdnYVBFSXM5RDhTN1FwWXladzNBTG4tUXlBMEkwak9SaFFYSFlQZ3c0ME9hVHVNN005N2RtMnJwLTBDSDdyRFpGb3E0VEpiRQ?oc=5",
+      "title": "Richard Kline Reflects on Losing \u2018Three\u2019s Company\u2019 Costar John Ritter in 2003 (Exclusive)",
+      "snippet": "People.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "People.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaFFDdHg3dEtzdndkLWUxTklqeXIxaXY5TUdkMmQzbVN4RXRrUzRIYThLalh3dGo2TWplcFpUcUJhcE5pOUJ6UFM1Y1FySER5bUNUdlowRW1VQl8wLV9CWHFHZFhDaGkzSjFfcFloZWlmd0p2T1BJTWNFQk1xRTROaVRXbU5OUGxJUXVBT01rcnBFcjk0dm5BdlV4UzRYRk0?oc=5",
+      "title": "CoStar Group Opens Nominations for Its Sixth Annual CoStar Impact Awards",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMTlsX2czMkYtY2pEdExqQ2pPNDRZOS1lNFB6YUZWaDM4UzcwcHNfbzk0d2xiS2lpTG5oMTJqeXlTRnZ6dG05VmhPTHdBSDhQMVNxNHRlMnQ3LXctQzNPSEhJcGZDaHhDeUNJVV9NS3A5TjJUSE44T3JKVGV0bWFmZUFEQzhqdEx4QVI1cE5jUXNFZUtOOVNhaXJHXzlJeDA?oc=5",
+      "title": "CoStar Group Calls for Submissions Ahead of Sixth Annual CoStar Impact Awards",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSGP/history",
+      "title": "CSGP daily price history (Yahoo Finance)",
+      "snippet": "close 30.55 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

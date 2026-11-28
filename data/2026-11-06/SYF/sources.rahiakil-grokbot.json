@@ -1,0 +1,61 @@
+{
+  "ticker": "SYF",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synchrony Financial\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMllydjl6dXVCV2NfRjdSRi1OOS1pWllGbEEzTEZkUW1xcDRReC0zTmdDa1RkTm5hVWJRZGJGMTI5TU9JTlM1ZHlhV3pHblJ3dEZNSmNvMTc0X0FNNXN2WnF5cEFoZHlycjBjclN5dFgyWlV1NGdweFRsNWhoMTlOaElISFFGUFRzZ3U3MTBDNHdrNHNHOVZ0OW5VYzRrNmxSb0ZOc0ZaSzNIUEhrZDl4QzZBMk44a1BWc09SUTVvNGRSZw?oc=5",
+      "title": "Q2 EPS Estimate for Synchrony Financial Increased by Analyst",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81N0pqQzRRLXFkV2lxSldHZnNaSE9XOXBoMzJWRVNrUUlnSFZQa1BJQ25LekFoZWpCUjh3YWhrcnF1YlNadGNRWjdFUnZydFpOaElaaFRyZ3NtSlA3?oc=5",
+      "title": "Synchrony Financial (SYF): Company Profile, Stock Price, News, Rankings",
+      "snippet": "Fortune, 2026-11-03T08:00:00+00:00",
+      "publisher": "Fortune",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYF/history",
+      "title": "SYF daily price history (Yahoo Finance)",
+      "snippet": "close 73.74 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

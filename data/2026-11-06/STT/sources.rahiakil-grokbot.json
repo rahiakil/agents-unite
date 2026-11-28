@@ -1,0 +1,97 @@
+{
+  "ticker": "STT",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOE5qVm5PZ2F0cGFiOUs3LTFLUno0UlV3Mm1OR1lWelZjTHJPZi1PSjhLLXh4cmVGWWR2b1BlalNqQURvMVltOGxJSjFGRVpFbFNIeWtGSFhCRGRPb0FXMkN5dFF4aURHSnBjSUlZUmlfQVRzcDFXWDc2aHJScjFUeHhJdVVzSG1peUJjdUJsRzRzM2ZNMG9rUnJrODJZVmRwQWYwV2tRZXZGdw?oc=5",
+      "title": "State Street Corp (STT) Shares Fall 4.7% -- GF Value Says Still Overvalued",
+      "snippet": "GuruFocus, 2026-11-05T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcm5hNDFOX0dsU2dzb2plNmxmVUU4N1BPcWl2QUFTSENSbmhZNkF4b3FuaTJDZEVMSDRhZkFzNlh5QUU3V2tKclEydXZnSjBoUmlyNG5zNWY2MVFLSnRpVk5zZDd6N3NkUDUtTEFLb3g2MTBpY1M3SHJlMFRQX1VvNWpRWWZTXzUyRnRxSG5PRllqX2FCMlNaX1AwdjhlbmtHem00QnJTLXZMalI5MzFobG1hNEhBNnFTZDJxWGdrV3ducHYzOXNqMGREcjkwdjZZTUlRRmpjNFE?oc=5",
+      "title": "SPDW vs VXUS: Is a State Street or Vanguard International ETF the Better Fit for Your Portfolio?",
+      "snippet": "The Motley Fool, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOHpKelB4a0NPQkswNHNLVXJ5bDNmUUw4cnRKNm1lam1uZ1hHNk1JYzM1bFpLbFpURmRhbGdfcU53RVYtVk9VVWdfTWxKU2ZLZGcyOHlJY3h6SS1CcEZyN2JWb1FQR2lqQzl0dGE0cnMwMVEtRmRSX2dzdGhjaFFpdDFvMjNfNVdUU2JReV9aWGRqRFFMckhUbW10MC1OV1BIOG5rakxDUUZsVF9XTHlXcnhONmVtMmlmT3pOYjB0NVYwY3lWMW50RVNHOHBNaVRTVUHSAdcBQVVfeXFMUDNUUTIyd2NBWC1icjRBX3VIcmpfZnEyQjNHZnhJVXJHYktNNTRDb0xJYzZ0Mmxka21lUG5Nbi03YXVGV1R5dE54bzUyQmFJZFhOZFBOZDhnQlZja01QdjJYUFNfNkFCQzRpV1dWSWFxVnIwdjNoUF9EWlBjcnFZN2dXQU1hWHpNOEV3YVd3ZnVyUjB5SGVTTUZldnZSQzg1dENqcmlpSFg0QTBoTWYxeTI4RElVemt2aFR5S2JJNUpVbnpPUnNDQmxScGNrZWlUeFg2bmk5cE0?oc=5",
+      "title": "S&P 500 Fund Launch Could Matter For State Street Stock",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVm1sWFBvRUtHY0hpY0kteGhTZGs1alhwVGhlSlNhU20xOHNCNGJiOFdySXB2Y1k2SmY5UjNObEE3UzJyay1SWmVQN205TWFfSDNpSmtraGluRzM1djkxOEtlTS1ETms3UmxzbF9Kc1VkUWltc1ZiVEZtVW5OUlEyNi1jWnhYSkJkOWFTYUhrUjhBek5CRVMyLWZoNlNaTFJYeEVkVFhSMWN0WWJlR2Q4Unc4X0NCNnM?oc=5",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today? - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT2p0VUo4V1RBY2NLUTZvQkZ1Uk00UG9qeGp0aFZnb0I5NmtqMXZ4clhjb0ktR0RocncwSmkzcXdvZDJndXgxOXFpQ0t3STg4RkxkRERfTmIxVHRPY1VhQllBR3pPbkYzTmd1M0hoUlNZb2JkTGIxOFBQbUtQclROOEtYNGNVMEo4QjBXWFI1Zm5rUE9GbmVNd2xYbHVtX0U?oc=5",
+      "title": "State Street Corporation (NYSE: STT) Announces 2027 Quarterly Financial Results Release Dates",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 165.56 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

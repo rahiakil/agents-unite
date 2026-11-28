@@ -1,0 +1,61 @@
+{
+  "ticker": "NOC",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northrop Grumman\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 6,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM2pHSFJmRXBvTzB2VWFZb0RBdG9qbzFlN1FLNTd4ZGdQbnU1RzVxa0hvQ1NpZjBFXzhEOVAxakpXcDNoR0dFYnhfVTFMRkZtbTVId0FIVEZtaXkyV3BvbTFHWWFYUXpUSlJESFhkN1dqS0NuUU53X3RYR05uS2E1ZVhWVUw0dXlNbllxaE5yOXdoSC1rRHdzd0ZMc3pFbGUw?oc=5",
+      "title": "Why Northrop Grumman Stock Dropped Today",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2VVQVBWZ0R6Ti1nZm9kUnJvdkhsMlREdVl5akF0c3hTSURWekQ2OVpUUnA0RXpuamZOWEt2VkhPaEtqT203V0U4NVVtaHJDWXBrRDFiblA1TGMxUnp5R3k5bmFPZTRVM2xhcFlEUUtHNVExNlJHVllTTjBLUkhjai1DZ3lWM1BRZzBNakFucUh0NGxuTmlqWS1TTVFOWGJy?oc=5",
+      "title": "Northrop Grumman (NOC) Holds A Leading Role In Airborne Early Warning",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NOC/history",
+      "title": "NOC daily price history (Yahoo Finance)",
+      "snippet": "close 525.01 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

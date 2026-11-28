@@ -1,0 +1,151 @@
+{
+  "ticker": "HUM",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Humana\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeDdReU42X2M3ei1PVjNJXzdNY1NQS3Y0RTZOa2xhU0c4VWxkZ1BJSjFkZ1p6YjhHanp3VjNib01KZGl5MHZfNE5ieXVRa3A1cUkxTlRCYjU0amxmSzRJR3JaaFRRMDRmdzNpTm9Ld3J3cHFQU1BQV2RPU3ZXNHo3X1MtT0FEazN3Y2NoTkcyanU?oc=5",
+      "title": "Why Baron Health Care Fund Initiated a Position in Humana (HUM) Amid Trough 2026 Earnings",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa2RPSTNFYUJJalNkdHZRcEY5Q2FqenJkVTA0NTFOT1ludG9GR3VpVjVwZlFmUVgyYTlTQ0Q2am1IRkdPd2s4bkF3OFdONmVfREJzNV9JNW9UaEF6OWZJTF9TcV9zWWZSbWlxSzdtbERULVdsNzVFU3g4MDd1a1RJYlR2TjBINmJtbUFMYUFnNDNFbVVaem1hWkhsZ2lRYTBsQnc?oc=5",
+      "title": "Moderna, Humana and Elanco Earnings Previews: What Investors Should Watch",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVUZSWlRNZ0l3S0pOTzJWbV9kYTlUVm9iM1lYZlVFTlZXSnlXZDlndG01V19EOFNZNDlydFA1ZDRpaUUzbTNMLUpobFNKQ1pfcVBFbW9HMDU2aVJ6WGlWRGY2Mi0yREFWQWVxbHRueFUzTUUwMTY4NDE2SUExMFZuY1h4dno4eXFiVmNpMFNWU1JLZEowTHFQWldxRTN3MGg0WjNJZjg4eG5sUmxzR0hVenE4eEY?oc=5",
+      "title": "Can Higher Premiums Help Humana Beat Q3 Earnings Estimates?",
+      "snippet": "TradingView, 2026-11-05T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdEkyaUJFU0lYbG1uYnhwb1JZcTh1ZEUtQkYwcUJTcTFuWGFmTENVSEpadmlpdDRyZHRXUFpLVzFVUzBaVHd5NXVuNEQwbjN0UkNNTzdVMGNjdlRKYUpubS1RX2dFYzZnLWdDOUpaMUZXTk54dnhCRzVUbzloZG96ZDQ1N3N3NWY1bWI4YkdwV1pTS0NPT0paN3Blbw?oc=5",
+      "title": "Earnings Outlook Might Change The Case For Investing In Humana (HUM)",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR044UGdxdXVGVDJEQVI2MGVvVnVmTDV3c3VxMUE0ckdmampUbmhYVmhjUzJiMjVEOVNFaExGTnpHcEE3VVNGX3BqNmdHeXBpTENNYUJocy1uU2hGSFVZZUVRY0Q1T0FBbnc3c2ZBb203blB3bUN3M1dOekNvUWktSU9sX05yM2hQMnYwelpwVmtIVEh0UHRsMGc0THpFY0dSTTAyMQ?oc=5",
+      "title": "Are Investors Undervaluing Humana (HUM) Right Now?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVzhCWHVSN3YzWlFaci1SNFBMajBlbE5VeEhNRURES3ZJU1ZHcGV0ajk1RGIwSHY2NDZodUJTZWl5SDBXbVJra0VBY0hDOVQxdGE1YWpMUDB4N1MwV1hSdUl6SmZjbmd3cjMxMldVOFc4cE5GY0Q1T2M0d1l5QlZqVktMOGJTMkcxdXY1NHB5Qi1zR3p4c1U3TF9DQmNXT2RwNGgzbjNiZzEtWm4xLTFiSFhYOUFjU3RW?oc=5",
+      "title": "If You Invested $1000 In Humana Stock 20 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZVdLNW1WWlp4ZW9EU3dNZ3JMejVVZWI3RURxakZ0NklaT0pOZXZPTlo2X0ppUjhiR1J1LWpBd0hEeFFKRXdwR3dKLUp1MUNadENFVUZUQVJHc3dmT1JMSEVqOHduclk3SDFpdEMtYmh0SjBMelFBY1VCb3hDM2N0cXhmcElWR0tuaFRycVAwa2Q4V200SFZQOHE4dmpaT1pFYUZZeUF1NkJPR1JkYnA0TUNmRUZJZFnSAbwBQVVfeXFMTzZiX0hEWTR2RXN1V1lYT2I0VlQ4QVVLVmduTW40b05SMkxYU1pjV08wdWU0U0RaZk1VdS1LbXJFZnFsaUxKSGJEYTFwdUxKTXJjOF9LWG5nd2lURzNsYUNGUWRMRVZ2YXdBY0N1MHY1UjZlR2Q1N3RNYTFySFpZZWd0NUNOTDVxNVdMOWpTTERBWGJJdDROTmhfcTJoaHNkcWEwOFowbXh4SnNqSTk5VTRpZ01MYVVJN0xLaFA?oc=5",
+      "title": "Humana (HUM) Stock May Trade At A Discount On Earnings",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMVNIUXlQNUlLeEZieEw5T2R6TV9WTHlrVWtzblZEMGxvbWtwa1hiQnE1RFlTY3UwWWIwOWVtZkdZbW0zZWpIenpMeEJjREVqQkt1ZldoQ1dNSE9lVkNNbFlLZ21tT096OWxuaTdoendaUlVGZldJYWZWMzFkNjNweXdfdFpfLUY5aWtR?oc=5",
+      "title": "Humana (HUM) Declares Dividend, Is The Stock Still Cheap?",
+      "snippet": "Yahoo Finance Singapore, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance Singapore",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000064/hum-20261106.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/49071/000004907126000066/hum-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUM/history",
+      "title": "HUM daily price history (Yahoo Finance)",
+      "snippet": "close 433.74 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

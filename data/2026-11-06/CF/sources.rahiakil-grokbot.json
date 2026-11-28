@@ -1,0 +1,124 @@
+{
+  "ticker": "CF",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CF Industries\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ1VzaVZzRWtneGZ6RU9EZ2xlcVN0UmlIUDN1V0xJZjVsWnhUd1RvY1FXZWZPT0htZTNVbWNSR2JXR3dMTGpIdDNJaWpvRjlHZ1NCLU1odURPbTQyUWZIOHB3dnJJS0YwWkZxbThVZHI1ajM0TWdCSlg3c1o4cGd4NXBCcndpZFBDd2RQYw?oc=5",
+      "title": "CF Industries Holdings, Inc. (CF) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUW1UM0d5TFZleEI5aElkTjN4QkduMnZTaDg2VlV2cFRkNVVIeWVrd0ltdjdGRjQzU2gtRlFYMks0RFhJanI4SHhvRndjdDl3UjVBS0RZUmhZZXlESkwwbndhSmEwbHEtd21aTkRFQ3lBbW13d3UwYV9rVldrYnJRRTFhZUdYZVNQMlpqYXVOUkhETWE3NUdNVDBWNWZoVVFmZkE?oc=5",
+      "title": "CF Industries Holdings Q3 2026 Earnings Call Transcript",
+      "snippet": "Benzinga, 2026-11-05T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTmFhOFh3bDRBWFVlUHNzQlU4Z2VtZmF4VzNmNzRjOEdvTVZ4VHhUU1R1T2dOWEFYUE9vMC1MUmJQVG8zWmdlUXl3RkVKaVEzRFR0VkRfUHBIZmJZQklmcklvYzJYaERtOUtFUnJ1ZjNRNi01Vjd4UUY1QnFFblpCd0pfSEFUS2ptRnVLRW83SmVnWGthVXBEbjZ6M0QycFBjeGFfbzhJMU5jallo?oc=5",
+      "title": "CF Industries (CF) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZEpWaTJhbzI4VDRUZmZ5NWV1NUdCdXdkYzNuVUdmbmZkcTVMQUxRSEdVMXFRRWJmckNxX0I0VTAzSVExc3Zma0NhYkJNM1dJdUFuTEFOT3R6bHU2SGVtemFyNmNUWl9nTGVUek5OQllZcmNzM1dRZHlzTHE4eU1oc19DRFdrX0FVQ1BjVmdVcEJVMWZTbXE0ODNhS0xnWjBKYldHYkhtckl0clN1dmc?oc=5",
+      "title": "CF Industries earnings missed by $0.11, revenue topped estimates",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcXdjQjRXVUtVLTlVNWkwOUsyMndJd3NES1VDaHZyT29pTGV3QlNFUDZnaUV0RkllYWFycGZjZEtuQU5jU1FQeXVXY0wxakJMSlQycHkzUUdZbTFKQ0FTeVhVNU5FU3hmNUtRNGlScGx2LTRXc0N4aGl1c21FSS1rU2dMZVFpamw5d3c0T19FVDB4eFVMRGZqOQ?oc=5",
+      "title": "CF Industries (CF) Q3 Earnings Lag Estimates",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000025/cf-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-05",
+      "snippet": "10-Q",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324404/000110465926122757/tm2628886d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000023/cf-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CF/history",
+      "title": "CF daily price history (Yahoo Finance)",
+      "snippet": "close 119.39 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

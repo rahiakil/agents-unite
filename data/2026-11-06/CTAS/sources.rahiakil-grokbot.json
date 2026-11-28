@@ -1,0 +1,109 @@
+{
+  "ticker": "CTAS",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cintas\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWEJMU2t1dllyYmItQ3NsNWMybGhTTU9mY2RVQzdxaHBSQ3R1YTRRb0tJSEZLdGRtbGtodlZFT0dLZlctNU9JUDVXM3h5YmowTFJtNGdtd0lKLWFQakdIQ3A4b1NrSV9WUkpTZWNVSkxRZ2pWWWJfUDVQVkxkR1pjUkNuOVRzdVZlLVI3U2YyY0MxSzlhX3FzbQ?oc=5",
+      "title": "Is Cintas Stock Really Expensive?",
+      "snippet": "Trefis, 2026-11-05T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY2M0U3VGLWlfSFN5ZXhRTkVsQ1ItVkFUTGlGVHBIN3hDSXRsUUhjb25xY0FVOEQtYXlnWlhGaElhTGpzVnpicWdTNE5yNFFrTEozRzlqTnB4UXZpeTJ2TU5raVI2SUxHYVk0OW9QVVByZzl2Q0hJNFJVSE1xM1I2RUFaVm5QN3Z0ek9ha2R3NEk2Y1NBd1dKQ0J2ZDg1WDVkYndtSVpTYWFFQWIwVFROWm1NN1hpMFpRRWdQR0cwbmVBTEc0TXZ3RndWWHRTeFM00gHWAUFVX3lxTFB5M1R0cGIzZHQ2QVlUckZURFk3Zy1CNm5QUFdlZFFtV0dEN2FuTVd3RUo4NmtIMkxORVJEZGtlOE1wbFYydFMxNk9LdzkyRnMtVGExc3d3OHBvMkZjUzhVcWFQVUlISHpuV0R2OE1jNWRlcUtDTzA4Zkx4RWVmaTdHMzlkcEttaW42UzBTQ05JM1JYd2hWUEM5Yk4zWlQ1MmptTzE2cnYza0pOSWo4REFnNnBaN0lpZjBPV2djLWhTTm5fNjB2ajJzbmdudmdwWmp5cVh2ZkE?oc=5",
+      "title": "Earnings Beat Might Change The Case For Investing In Cintas Stock (CTAS)",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUUJFbk9OWHVqV2JNYnkzV0tjQkhsY0dHOVJxSXo4Mm5JaXRwdGcxZVFVTU9QSGdYdFdPY0JZdkxNOHk0R1ZadlpfeDNJNlZIdlVIUFJEU2NrZFF5STF3SGlIMm5YREFlRTY4YnJxY0c4dm1sNV9rWWNEMWRwQzRmN0pYUFdEVEJxYm1XN0xWdE92cHI2WTJWRmpscjVkUE9JbWpxS2t3WWlpVGZtaWhOelVNZGJtRGprLTh3SE1OakppYXBrTWc?oc=5",
+      "title": "Cintas Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVzZBNUFQMXRkRnJmM0NPSmlrM21QbTRfQmlraDdUbzdsN0hNdmszeVM1UkZUQ25oOFQ5RG9oR28wY2VtVEVuNl9pOEJlZWVENkFmTVpEcmpPS0dXQUxKQzFqTmFsaDNEMlJjcXlTSzNwOEVZdXc4V2tsSUEyV3o5dXpNT0tBSlE2OWRjMmRzbzE3eUFCdXJWVndWWGZZMzNFM3pQX1VMOXVlTmhUWTktZVpaZUM3eElEbkd5MnhPbHhUVENselE?oc=5",
+      "title": "Cintas stock faces FTC challenge risk as UniFirst deadline nears",
+      "snippet": "ad-hoc-news.de, 2026-11-04T08:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa01XVmxVM2ZQVW9jd0pCb0VMZGYtcWR6SGw2UGlCd0htZ3RyZWVlalFnaGhBOTk2b2JVOVNjNGk2OG84RW14X1VlbHRCZ1g4UkhWdUIzMTNzbXFhYUFjaU1nOHh2bzBEblUxSjVDaE10TFE3dlJ3X3JOWGxHU0lFUnpfRXpzWHJ2VWtEUDUzLWN6dzRRUElteXZ4NGJsREx0aVNyWkkwNkRha29USmFfRnk3ZWp1OVAzVU9WNA?oc=5",
+      "title": "Cintas (NASDAQ:CTAS) Sets New 52-Week High - Here's What Happened",
+      "snippet": "MarketBeat, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeWZJTWR4YVhrcS1SV3NJYUs4QjgyXzExckNpOWp3THFseDA5Y2lIMTRXc2pGZlpIN1BSbFNHVjR2UGlMcmkwa1c5NzVNTU5RTkRoeXdxWWJTRS1sVGtzS2YxcnNSYVZ1a0xzcTEyY2ZuOGZvV2lmQTlFenp2ckdlTWtBUjFnNHJCVTF5N1g0N1FfVDBYTnNVWnhDV3drclJ5TEUxZA?oc=5",
+      "title": "Are You Overpaying For Cintas Stock Versus Its Rivals?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTAS/history",
+      "title": "CTAS daily price history (Yahoo Finance)",
+      "snippet": "close 222.36 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

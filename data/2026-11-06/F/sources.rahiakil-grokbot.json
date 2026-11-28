@@ -1,0 +1,73 @@
+{
+  "ticker": "F",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ford Motor\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWENFdFlvY1ZQVlBCT3M2cFpCckxFU21VX2dTaW9abDktTW84bHR2SWVrNWtSOUk2aS14UVpHV2FlQldPbEdkUUZfRldjR3U0M2NZRGhnLVNWdXFPUzhuYlk2OGFlcmdnNFFKd2VkSk56a0s3dFVaQjFPZFFKSFhkOGZhWVJVelQtZ1VxSnN0RzVtY2lQSHpLQnhCQm4wLUpzMU1YMVQ0UWxGVFA5SFlhLTI0bC1iazVKSlprdVZEMmZjTlNtTnNLSg?oc=5",
+      "title": "Ford Motor Co. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTVRjM05Qcjg3Z1FxT2tkM0YtNG5LZWQtdGZRREZYN1BBcTI5OTZQWnh2NXBYLUxmRWZzcHZfZ0hsbGVjTDhmOGVMU1hVcUFxelUzWjA0bXVJVW1mcGlYaGpuWkNCVm5pVE84MHJrT05KajNCYVEycldyaXpuWS1GYUZ6bThTRkVlV0pJeVY0d2VrdFpSYjRrTzQySUJZUE5pWVhDSDM2RWxBM05Ka0Y1MDNzRQ?oc=5",
+      "title": "Ford Motor (NYSE:F) Stock Price Down 1.2% - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTDJVMTR3ZzVTTGpEcDU1Z3R0c2JpamtDWDJtellVcTFSbEVVb3ZpV0wzT3RfdDJvWVdFY0Qwb0xuYWR5SFZYR0N3V1A0OFUxWS1BTlRMQnItMnhid3FpekxGd2hXQk1INTBJMnpHdndVUE1UbG8wWExlam1VVEpyNUdtSkx3c25hZnNwc1BQYy1CTmRQbDROZmhKRXdKaU04c2lEWFdwQ3ZwZ0dOU3lnNXEyb3lVMV9GOEdrLXVCSVY1WkhZ0gHKAUFVX3lxTE1WeHU5OGhHYktCRDFnd3puUG5jdDd5dWNpOGZMV2l1R2pZYmhJaE5KUlpkdVJWZmJMSWl6c0ktQzYtaU5PeEZLUXVCcGNrZWZwc3l1SnZTNzhNbjFKRzZuUTVBVEx5TmNRTVF4aEtnN2NQZnluOVp5cVlpQjNiNWZLNEtjV0ZaeFVONXNaVUQ1SXdFS3NHc3lhTlVHVDRUNXFQWEJpUl9XVFV2STlmMk9raWRIMGthRktkWnVtZl93aFpxNWtqSF93eEE?oc=5",
+      "title": "Ford Motor (F) Stock Dropped, What Is Behind Its Latest Update?",
+      "snippet": "Simply Wall St, 2026-11-04T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/F/history",
+      "title": "F daily price history (Yahoo Finance)",
+      "snippet": "close 12.44 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

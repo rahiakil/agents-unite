@@ -1,0 +1,85 @@
+{
+  "ticker": "LULU",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lululemon Athletica\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYXFHV2FJZDVYZHBzOWlIb1p0SHhnZzFDSFFBelVJV3U1SVEteVJXTnhtdFlFXzJuSjcyQl9fNmd2V08yYjhKT3FiRFpIMWJLZFNtM2hHbkRxVnFON3BLUjZaMTNBVHh1ZmRKMFNsQlAzcjFfS1JaX3M4VkRrd0JsMUQ5M3hfcFp4emQ5QjVYbVk3MjR2aW5TcWpUYUtoSXc4eGJrWjRncDNseUpCRnBZX1RHd01yRFVwclQyLUtJd2xfbS1IZ3dBaFdnbmJ1VE9WaWFCN1Z4ckVBdEhr?oc=5",
+      "title": "Lululemon Athletica (NASDAQ: LULU) Revenue Slides And CEO Exits As Stock Faces Brutal 2027 Outlook",
+      "snippet": "Foreign Policy Journal, 2026-11-05T08:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.765,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0t1Uk5lMVVzX192bkZoRnJlUy1HZXY5SEpkWk4tV3dOMFJSbWxaZU5XUG5wWm5xYVNGM1h2NHoxZkdacXhUcTg0aHNPUEZBZGY1RnRzMm5Tc3ZDb2JIN2V6VXRMcXVnblNuWDNrNzc5MTBlNHcwbDFMcld0eUtzSy1SMUY2ZEhXT25OU0xNVUh2Wmh2Z1FhV21NN3hNMnBNb2d0QQ?oc=5",
+      "title": "Kimberly-Clark vs. Lululemon Athletica: Which Consumer Goods Stock Is a Better Buy for 2027?",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT1VPMDQ1dHpUSHNSR3dPMzhaaVA3clR0cmtpYXg4Tm10NXpRaHNobEV2S0FURGJnTTJCcTJ1NVZsamtEd1hoV0hZZjdzMHhFWDAtSE9mempDTVBBVDNTWG5DRE9fdjJWNk1HWG9MTEZDci0xUm8xU0pCYWM3NXFzNFV4anlmeGJvX1BZX2JDeXdFRGNvNUUwTC1HSmgxTlpRcTdVLURyVVFnTFFiNnEyTkxOOGdSZ0c5SE9UX3JFZzl3X3JWUXppR3g1cWxZTkQzazBUR0R0YzNFVUZwdWh6dFY4dldZZDlw?oc=5",
+      "title": "Lululemon Athletica (NASDAQ: LULU) Surges 15.8% In A Month While Earnings Forecasts Signal Deepening Decline",
+      "snippet": "Foreign Policy Journal, 2026-11-04T08:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM1NuNjNiUC03X01zM3NWdzZ4YW81aGhRUjVVT0RzeHBRV3lQeW1sWU5yY21RTWtpUzZBbnR4VWtMaEtRcHNpc0hMdmRtcy1LZklxQkF1NG9aZVpCM2hzV0Fhc3dyWVJBek93cFM5YjFSdjA4OGJVRzVDaVRjUUhFQ3lqb3ZjWjBQa1lXWnVfb0M1Q1htaFMtbTZMdmp0Rm5QX3Jr?oc=5",
+      "title": "Lululemon Athletica (LULU) Faces A Class Action Lawsuit, Is It Fully Valued?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.101,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LULU/history",
+      "title": "LULU daily price history (Yahoo Finance)",
+      "snippet": "close 110.79 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

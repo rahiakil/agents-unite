@@ -1,0 +1,61 @@
+{
+  "ticker": "DGX",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quest Diagnostics\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMnBfcFpXQXEzeU5sX3pRR3dYUC1VamZWSXdQR1pSUzhJUzJlemVPNGJlc0FmVC1scWVJRktpV2JkS0pUXzN1VGd0eUUyQ3F4NUNzU0I3QnhTb05RSk1KQmVJWUNtT1daT0hmVTdyNHozc0JuSlo1UDNVdmtQeFMyMWJjcUFzSnEzOHk3Wkk0c1ZxVHlkaVY3cF9KUXYxbW4tOEVCVVFhaGZDbmd4TGdwa2JHYndlZw?oc=5",
+      "title": "Quest Diagnostics EVP Doherty sells $5.48M in shares",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGx2M0tVdGFKZmxrUl9EOXAxdmlLTE1tSk9qaEdGZ05YY002Zm5uMlJhUnFvNHZKQ0kxSU82VGxEVkQzZnZVdlI0VEVtSk15SGNkN2U5QzVRUHhfNko3Z0FMNV9MRXkwSHBaemlLTVc1Tk9HSjBFMlV2Qzk0eXRyZXZ0QW8ta3dsZU9HelRGVFRkSU9wVGFJLW9iU2lMUVhuVWZCQnFoem9EcmdIRHI5MDBzTmF0TENTUVUzZA?oc=5",
+      "title": "Quest Diagnostics Inc (DGX) Stock Up 3.5% but GF Value Says Over",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DGX/history",
+      "title": "DGX daily price history (Yahoo Finance)",
+      "snippet": "close 255.63 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

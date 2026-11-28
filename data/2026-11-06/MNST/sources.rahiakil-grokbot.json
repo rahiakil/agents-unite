@@ -1,0 +1,127 @@
+{
+  "ticker": "MNST",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Monster Beverage\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcVpyOUlvaWJWdzVmNFFEOFNyOExUeW9jMV9qc0ZxOVlWbUs3cnhBMzhYb2Q0UkxwaHBnWlBBd3NfRElYNHpJZGNQVHBOZDhhTDU2WGFwVU9IZEh2cXl1UEpuZ3VZSUgzREE3NFZhSHhXNFV3N1ktUTNodktOOGhUQVlUeF84SjJucW91QVlUZUVZUF9oVHRz?oc=5",
+      "title": "Monster\u2019s (NASDAQ:MNST) Q3 2026 sales beat estimates but stock drops",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.307,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY3YwamU2WFN5eW4telVQNW0wZFdqalV2NDhySzV3RHpfdG5JeUwyb2Y2R0xnd2M4NUFoNkktZ09kZlhwWWZrQTQ3S19YOU9UUnl3ZEQzN1FEblRGNWdlOXFiUlUydnV6SWZrd1lyTnpPeURrR0d2UlhaeXR1a3hkc1ZSNURwY2N6cVhTQkU3V0tISGdqaVQ1UlRfTzR5eVptM1E5eWtPMnViN1dNd2dMTFY2MFZ4U0FjSDkwdlphcko?oc=5",
+      "title": "Monster Beverage shares slip after Q3 results as margin pressure offsets sales growth (MNST:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-05T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVVhfM0JOZjdfYzd4MHRubWl5eXJHbGd2MXIwdVp6RGhaa0REUU81WGR2MDNjd2hBNnVNbEpCRml2UXQ1ODgwQ3VaM1hUVGs1ckNtZ3VnWFZMeGRQNTJ5U0FlbUl0X1JLWVViR1psOU1YNFlrWHQ2SFROazZDSnI1ZkItcGVJN3haQ3dudVBCNnBlbWZDNVYxTmdwQ0VZcnNP?oc=5",
+      "title": "Monster Beverage shares fall despite Q3 revenue beat By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.418,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUmctZXZrOFUyMlZRUDcwZGJZYnRUZkZmY2ZBRmk5QlBnaEtSdUVZd0ZwdGNoM2dxLUFjZTZUWXhVY0Z3aFdleWZKUU1tTFZCRXNndXRXamRlbkNMQ0RVMFlJMGFMelpXMUNwakZaTEJlYjRLSVhyRi1KWFl4X3ptT3FNZVI0T0tBcVdqWURxNzZEZ21fSFdFekhCSFJSN1lXYTNqWjVrRHdmQQ?oc=5",
+      "title": "Monster Beverage earnings matched, revenue topped estimates",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZXBuODlLVk9vSVlJRmdwMFFJREEyVDhfQXF2VkJ1MUs1eTNuTXhDUjljaEFnQmZWa2g5aFl5cVJIa2toaHR1bDdDeGFBbGdLUjBNWGt4SzlhYXdDUFlEX2g4UVVRQXhSUVUwMDJ6VVZnbENnZW5oMFVIUEVJM2t5Nk5ZYk9fTGdoRG0wcjdBV09KYTB3QU9nUDdHeXlWYms?oc=5",
+      "title": "Monster Beverage (MNST) Q3 Earnings Meet Estimates",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTEppZG84dU94a0pUdGdDVkJzWnVvcWN5TFdEa3M4RlNWRktOQ1lkSFZSWU0wVUNxOWdxemRmWTRLa1JicHF6TE13OTJ4cEVFUnRuUFRJQndpTzRwX1VUUG1qcnNXMXUyZl9xTDdmYVZmUEhpOXZFRlZ6NVc1aTFuWmxCai00UWNVYkthZnZFSFJYaUNGdmlES3NyMXpya2dmTXd3WlB0c19pVnFLWThCeDNZeUxuMmt4OFRPMjBnNW13Zw?oc=5",
+      "title": "Coca-Cola vs. Monster Beverage: Measuring Quarter-Over-Quarter Revenue Trends",
+      "snippet": "The Motley Fool, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123503/mnst-20260930x10q.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123387/tm2629095d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MNST/history",
+      "title": "MNST daily price history (Yahoo Finance)",
+      "snippet": "close 45.72 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

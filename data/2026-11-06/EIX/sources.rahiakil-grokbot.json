@@ -1,0 +1,61 @@
+{
+  "ticker": "EIX",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edison International\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSFR4enNDYUhNUGNvWTZFb3JuSHh2U1dBUm5FOHN4MmZVRWRub0VTYWdVYUZFTFAzbUZBa3pMSU5VbnJRU1hqczVxZ0dhZGRISjRuNnItV0xuVmZocThCVUZUNkdkeU9vY25BUGNUN0pyWXRvaTBKQ0ItOURqdDdiS3JENW9iUlZObkRGV1VLUl9OS2YzcmhpOWJHcjB2ZzZsbER5WndkZElBcUxFR0hKemc4Ulp3a1lXSk5NX3ZCZHZtWHB1TEljV0lQNzZrWEhCaFJ0T0VlVGJEQjh5cFNGUw?oc=5",
+      "title": "Mirae Asset Global Investments Co. Ltd. Makes New Investment in Edison International $EIX",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOWkxcFFwWklJYlUxdmpGOGpneWZYZDJ4SHJGT2piWWlvZjFvZ2NNUlJKVnE3amcyRGRiZ2REdEpPZHM0VzUtcVc3LVdqeU5RcFZ0SkVZRm5EVGlCbFBxZ0dnR2lqYlkwX1h4ejJsX0pJRVJvVGIzUmhnTS0yWGdscGx1TW1CTEZhd1hIa21qTFQwbkd2N255eHhmZlZrWk0?oc=5",
+      "title": "Can Edison International Stock Jump 30%?",
+      "snippet": "Trefis, 2026-11-03T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EIX/history",
+      "title": "EIX daily price history (Yahoo Finance)",
+      "snippet": "close 59.37 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

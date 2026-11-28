@@ -1,0 +1,103 @@
+{
+  "ticker": "CHTR",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charter Communications\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1k1V1p5b1lRbXhFUE5SVDdpOEszMkRwZ3Q4ZWVMZTlVUGx6UVNSNDdwLXh2VXUyVDlWbVI0OGRCd0tKSmx6V25Db00tOTYtVThmTzdqeHF0TGJIQWRET0xfakdidVVWUUpsMkZ3RGFJVlVfUUtFaWxBVklzRDlIVXhUcmtZSHpLcGR6Mk84MDhndnJ0VzliU01lSQ?oc=5",
+      "title": "CHARTER COMMUNICATIONS ($CHTR) Releases Q3 2026 Earnings",
+      "snippet": "Quiver Quantitative, 2026-11-06T12:35:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-06T12:35:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM1RSNXh1UElNTWYxOXJIaDdmSk5qWVp3WkdjT0V6bHJuY3VpcmEydWhhOVB2cDhMaXNuRHBMUkFRejJaTVBRNC1jMkJPVWNYWnk5QlJER01RR25vbU1jakg4YXhiVTc4S2RCNTl5TTFtYUhxa1VESWhVbnIzbC1ETDdIY0VSS1V3bmRWRHVnVDRLN0RUSkpuUmFIeDZILXhDZFBJSDZCWEY2ZEtTOE9lbXRpblR1U1RXNUpXc2RQcTl5dlZ5azY4Y016RDRxZm05X0tZTENheUVsV3M?oc=5",
+      "title": "Charter Communications Inc. Cl A stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTVFmWGx5Tl9WNHk0UXZ1bEx4ekdUNWtlQUZmQy1OOFdBQ3liUTdzN1ZmZFJwRGU2cVBjVU5OM1NtYkZ4cklfQlN6dWxVd3JrSGJYMlBZQnBsWHNPS0FUSW9fQjY2NW5mbFRIOWstMmpoajAzbXA1YXVBWTBaWXltUnhPVWFlOEpWWlQ2LTk4QkFGaHdvY09aSUc4VjJVVFdCZm1v?oc=5",
+      "title": "Charter Communications (CHTR) Could Be 61% Below Fair Value As Free Cash Flow Story Builds",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.791,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZWJ4R2VQVmctZjZTazQ3S2NycXlCWE5ELUNrdHppX1lqZkM2LVlJaTFneTAyc2pKa3NDSkQxSWVHQVNxczc2WUNuRzhIYnl6X0ItUDgyUjVCdmZXMnoxSWxqVDdvX1NHaUhoRWlCNzFfdnRGOWZvZHVPMzRyQjJYdlZiOWRwM2RLTEozdjlreXdPY3hzcEY3b3RDa0FWWlF5aW1kRFloOUktQXQxMnRlaDUyTTNoNFkwQms2TkIyTkpoMm94OHVLSG1FTDdGVEpkeHJ5bkJYYXVyWTMyUmt1ZFhR?oc=5",
+      "title": "Charter Communications Inc. Cl A stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000072/chtr-20261106.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000073/chtr-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHTR/history",
+      "title": "CHTR daily price history (Yahoo Finance)",
+      "snippet": "close 118.07 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

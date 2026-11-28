@@ -1,0 +1,142 @@
+{
+  "ticker": "BX",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Blackstone\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMzFNMGNOa3RtV1lwMVpDUWZycnVmX0N0ODJjbUFEbURsUEpQOEh4OTBNV25JWlgybWhIV0cta3kwMmlrdU9UNXRwTDN0bVlSYzE1ZHB3eVVoYnR2Ulo5ejliVVRGc2tBM2kzS0NBamtKTTlSQUNWQ2RYcHl4WXlvaDBWbUs?oc=5",
+      "title": "Blackstone doubles lock-up periods for some Asian investors",
+      "snippet": "Financial Times, 2026-11-05T08:00:00+00:00",
+      "publisher": "Financial Times",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY2JBaTREVDh5cngzRkVtaXQ4MDB4ZzBLWXhtcWlIRHdQUVhVenY2Yko1d2xmSVBITDlWSjdkRGNIOU5TN1JxV1hhanBfeTNVdzR5RU1OTWNFcDNSQWZRLVJDa21JRHoyYmxHN1FEMjNVRU9jQU9BLUVMQVRBc0E1RXhXR2RhY1paSHJiOGo2dXYxZG1maHE4Mjc3V2VVZUNLMXJF?oc=5",
+      "title": "Blackstone Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQUJGaWw5b1lqZHVDdngzbzhCMTVBLUtwV09RNW1rb3RCSWNvZlJ5M2tnSl9KOE9WWm5aUm1ZWHVfSXlsQ09fTWVFWmhsMVd3R2lrZGhKM2lPZzRsWkw2WVhOLVBFbVdrMEFCblFMSm40Z3pqMWxQN3NpekVwcENWVGdrc1RTZDM3UG8zUm1xdjNDOWFtbEw0czNCS0VNR3VQ?oc=5",
+      "title": "Blackstone Secured Lending Fund Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSS1RUGxVM0VEem5aQTdGQnFoVnIyQ1RpWDRST2xoaW1JVnQxN0FtMjFLSDZwR3RvMGREcUFBaTE4M1JTMnBEaC15eGstbXdxLVUxZDdqZlZHb3hFMjdldmNfVk9GdnJ1Vk1jc3d6dm5nQmV3cDRPYno2eHZQdjBBYmZmNFM1c2Uyc1EyTU03Y0EwRE1XUU15UGRrdkdmb1h6cUlBRWNUV2QwRUlWS2U1ZUU3SjZLTnc?oc=5",
+      "title": "Blackstone Inc. stock falls Thursday, underperforms market",
+      "snippet": "MarketWatch, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQUJmV3hpc2FweHlHUHFJOWs0N0s5WERvY2NtaXlzR21WSUplRUtIYkhWVWVDeU9UcU1nR0Z0UUc1cjVTZ1B1RmZtdTJPNC1leTZDUl90OGlWRTJ3NkJfZk9lUmtLYnBQNGdvV0ZMQ2sxeGJhcnNhZC1reDFwLUVnODM4VnlET3dWbWlwd0hJWnRVMUd6ajBfVzZ2dmVzc2s2V3JR?oc=5",
+      "title": "Blackstone Secured Lending Fund (BXSL) Q3 Earnings Beat Estimates",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeDhCRE1kNG1FeVZCbUVNTHBKNnhyZXhCY0pVNkJycXNpOVZMSDBnRlBrcE8zUUplSEt4cEMzdERpSXZJX1pBTmlvNldtbm91S1FKMzR6S3FnM3M4NVBvR243U0w4b0pZak9qR2ZSWWphcU9Lb3paQXlKYTJkVl9HREhxTThrVEJ1ZS1MS2JkYWN3S25tamhzSnNGNUs4eXJHWWJmdl9kdlZGYVNOSGREOUxYOUVhdw?oc=5",
+      "title": "Blackstone Lending (BXSL) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-04T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPU19hMFFPT1JtVG83ajM0amVkdkxfU0VKc3dEVzJRU05tMm1qeGk3TDd5T3p4U2JrcUp1TTlUYXd2RndRMjZOY3I4XzRHSl9Vdm5sN3ZiU1R5TGF6dVhZRl91R2JtSm1YdWFMLVR1enhIVXc0dnpYSGJwYWYxX1lYLWxVV3FXME9haUR5NF9jd21qNWhhaFBkZkQwS3VHNVZjbEY0RXdTYnpSZlBvQkVPR1g1T3BkR2o5MnNRc2JqMTVING5ZN3haMU0xZEM4aWhRdTduakJ6b2dSZUdsYXhha1NFcjBZbm1sOXljSEVUZktKQm02c0FjaFp0LUFKMUE?oc=5",
+      "title": "Blackstone Secured Lending Fund (NYSE:BXSL) Stock Has Consensus Price Target of $24.89 According to Brokerages",
+      "snippet": "MarketBeat, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS3NHX1BtVkR5NS1QQXB2WEFKTlZZNjNaMkxXVU5pRlI4VTcydWxKVXpxS3VqZ2RPVlJ2TktQVkxpOHp0U2xIRUtleDlwZGNDRmRKSVFoNVlQcl9MYzZ2aWVBVzJWcVRHNHRvZGxXdE8zcGRJWU1GZ3E1RFd0czd4cVowQmZQQ0xROEJOWWs0c3NTZ0ZST2pxVGh5ZGxja3VzOWRkaU1VS3dTbTlqNmFFZFo5Z2RiU0E1MDBwR2xHbzlKNUdKeEx2ZTgwMVNJbEsz0gHWAUFVX3lxTE9zZ0tUcUJrM2J1Y0RBTnNrVFZpbDhJOWR0RHFTU3VWdUd5SWEtbG1uN3lodWZkQlp1SUdydWFUbTVtWVRiT0lCcHdfMWZmYzliRE9TTVdJemJOdHo0YW9XTWxEOHQ0enM1QnZZNzNyWHhUQlFXR0Jrbm9oSGpJRjhLSE50bTNvd2xmYU00eXdlZjVYWTh5Q0U0a2Q3ZmRad1NROVViUlJIdUFPclNvbU90eHItcVdZd2N2TXg5SHFzdk9KWmFHaG9LeXpZT0FzOExJX3gtckE?oc=5",
+      "title": "Blackstone (BX), The Latest Update Raises A Bigger Question",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526451802/d179995d10q.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BX/history",
+      "title": "BX daily price history (Yahoo Finance)",
+      "snippet": "close 119.5 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

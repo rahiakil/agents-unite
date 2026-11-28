@@ -1,0 +1,163 @@
+{
+  "ticker": "MRNA",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moderna\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 35,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnU2eWEtSjF1ZzFSYjFhNU50VUpWNlhIVzVmM2Z4WU9XVUs3MXk4eThuR21LY3pRNWR6V3NJV1FrdUFaOC1abTVFWHI2ckZzclRRclF2ZEYwQjhobU5iclQ5b3Zld2ZKNnowV3NFYWl6TDFIc2VFak1DSlA0YWxzLURqWFpnZGd4YnFockl2aEt1TmtqVEJ0eFBSOVlaTkpOOE1j?oc=5",
+      "title": "What Is Behind The Move In Moderna Stock?",
+      "snippet": "Trefis, 2026-11-05T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMUJfVFVXOEVZY1hEY0tJM2U5UlIxY0ZadnJkNWNhOUxXX2NMWDdhaC15eC1EZnQ4S1JteXAzNlBwaERQWDZ2R2RkeFhQM0JPYUJIMkxMeG1JVDhVdVFIWGdMTF84am4wazVkX1l4dFg2eEZEVzdvSnFtNGx6Q01pMWE5aW1YZHRQYURFNVJZanVGRlBlYm1vajM1VG9CalhrbEd3?oc=5",
+      "title": "Moderna Stock Jumps 13% to $258.38 Ahead of Friday\u2019s Earnings",
+      "snippet": "FXLeaders, 2026-11-05T08:00:00+00:00",
+      "publisher": "FXLeaders",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNUxhb0JVWmtWMHlXRWoxU3lKLTFUNTE3TlRiUnBCU0tFQ0FwcGU5aEdfYThwQnZDclBzemJNM1Jzc3hvamNPZmVUZjd4NTBkdWg4WlYxbFV6SWhiZFpKWVR4VEJ6M0VrdGh3UDRiN05NbGVhZnVrdHA3S0FlYWRIdWRiNHJDZS1DX0VHVzFUVXotblFkaFF5eWJCc3pxUjlpZzMyUg?oc=5",
+      "title": "Ahead of Moderna Earnings, Here's What Barchart Data Says Comes Next for MRNA Stock",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYVhlQjBBSTkzdjdhbXAxVGxSMUxVZGZKd2hTMWpNLXRwMkRLSVBGYnhNME5aN05FZ3RxcnRiakN0VktHZXJ2VmVyRVI5QWwwbjdQWlFBVmNYUDRfX0ZCNXp4QUhvVmNyRU5pdjAxcFRWTy11TU1mX1Z3NWNmNEVlVEM3d0JRMkFuS1NRT0RaVWYyUXhITmo1ajZRcVFiYWdrbzRDWg?oc=5",
+      "title": "Which Dates Could Move Moderna Stock Most?",
+      "snippet": "Trefis, 2026-11-04T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVVKbzQtUzlOcGVFTzFqTWJ0cXYza25nekNwS00tWmotUjNiQTg1X0JKQmxZd1ZLTXZjOVlkUktJRV9CcHVWYXRiekhhelN2bG1DVWhnZmppdTltNTRVa0JMYkIycFBqTTNuSlprQ0NLMGg4VkhmRWlnejBiN29pTmVPQ0I5Z25tZXpabWI4bkc?oc=5",
+      "title": "Moderna stock rises 8.8% after mRNA-1469 Phase 2/3 trial advance",
+      "snippet": "Traders Union, 2026-11-04T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUW5PclVfQ3E3U2hhdWZDbjdRYVlUTElrSzhubmVCNk8zV2R3dE5lYng0T1d2R1EtdE9xXzVQZElJMlBfN0lHN1lHdmIxZnpRaU1vaDhkZzJDSXYtX3hmVTk5Nkxrd0o5V3dYems5ZWt0VHlzQW1PY0QwRk8tYVVaV3NsSzM4dHpwaEtOYnYyOXFFSnp2bkoyZGlmVzc?oc=5",
+      "title": "Moderna stock hits 52-week high at $254.51",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTZSX0JuOTJaSGNoZXNIVG16YmhOM3BjWFFyNlhubXQzZ2VWbUVDUERGRlVSOVp0dm5hb0xnbFFXbk12LWZmRFFHdWJyS09GS0gxbF9JTE05Z0V6YV9aVmpNcTBSRWxZcXRLNWlrdnJGS2JocGh3RlZ3aHVoVTZTVnhBTUdOOUsxS2l2VkFUVldRUEpRS3VTcElGRE8?oc=5",
+      "title": "Why is Moderna stock surging today?",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNTh6eFhVOVBNV0Rmem9ONjVCNzhzNmIwQkFZYlpwdTZKZjZKREZVYTF3a2dOV1RwOEpZM2F5X0E2dXA3NzJ4ZjlLdEJEeVFWU0puYkNJNFczbU84cm1ZdXluLVpfell5NWlLZmZYQW5hb0U1RjljQklBOFlINHNic2dIX1VvXzFCVHEwd2lwTnRid01xQTZoRkZqY09RdTYzLVZ3dVEzVXA?oc=5",
+      "title": "Moderna's Cancer Vaccine Is Incredibly Promising, but This Could Be a Major Obstacle to Its Success",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.167,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWWlLc1NtcXdjV2pneGtON1E1X1dreDB0c0lzRmtIcVFUaFAybkxySFNYNW5sbnRVR0kyXzJGYktIOVN4c2Y2RXVZZVo2SmE3MThjenJ6SHNvaUlfSmVBRmQxY29GdFV2SVpyaDI0NDhtRHMxSTR3TFFjczBCWm56UzlPNUdQM2JGNUpFeE9TbElYVDJuN0VJbTRsSVZwWFd0Vm1GSw?oc=5",
+      "title": "Could Investing in Moderna's Stock Double Your Money?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/mrna-20261106.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/mrna-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRNA/history",
+      "title": "MRNA daily price history (Yahoo Finance)",
+      "snippet": "close 254.19 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

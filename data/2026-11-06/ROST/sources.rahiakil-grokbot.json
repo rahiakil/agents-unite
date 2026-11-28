@@ -1,0 +1,97 @@
+{
+  "ticker": "ROST",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ross Stores\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZGYzSzFyUTE1eEpSZV9GdzNtRnU4OEFNbHRzd1AyTjV3M19WZTY5M216TF9wZ19jVVNmZTlKcmFuZkIydW92bWl0empVeFFnTGNNaGJZQjlUdVBSMzNsa0RicjJxd25wNlZpMkEwNnJZNnBOTmhhRmxucDd4dGRUdm45Q1dLWEtCT2QzUk44QkpSOWpYSno0RHV3RjVVVE9sV2c?oc=5",
+      "title": "Ross Stores to announce Q3 2026 earnings on Nov 19 with live webcast available.",
+      "snippet": "Pluang, 2026-11-05T21:13:53+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-05T21:13:53+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkUyc3p2dDVIR0FRdmtTdmJGTVBqaks3UDUzVExCSE9lNW4zZ2J6LW5BUm1hVWZjbWZKNnU2aHhvcGd2WlRibVlVZzdmVklLaWQtUzQ4S0QyazlqSG16azRvN1ZXNDFPUk14a2I5TERBci1zV2JHYV9uT0xLNUxuTE41dmc1YUs5RmYtOEItUDk2V2pSR1Q1QnlMcWo?oc=5",
+      "title": "Ross Stores, Inc. Announces Third Quarter 2026 Earnings Release and Conference Call",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTm5ieXFndTE5RjNGOHV6MW1weF9aUkptNUxReWJuZlhrMnNIYjJWdTViTjRPZThaQnpXdXV5M0VsMDFIWTZNSUhRT09HU2pTRGN3WHl0U092NTItUWtjSnBnVFU0ODB3SFNhdzVSUWxWV28tSEFWVmtnd3h0c0dCZTAtdDVoVW1VMURZWTdCVWxhd28?oc=5",
+      "title": "ROST Stock Analysis: Full Details",
+      "snippet": "JournalArta, 2026-11-04T08:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNak1vNVBkalNDUTYtT01UWV9pbU96dU42anRJXzRVMW5JNi1fNmxCaEotcFAtSGlfR3BraEkwZWpnZjVVWWpRcEppc3cydm1ieWlVdW5DNHM3RlpUSTJsLW1KSkJEb0FFbVprOVVaMDZXT0JKMHpvWnhFU09KWTJhNVJ3S3AyaUtaaHIweFNmVmQ0bFYyTDhEM3ZYY2JobkxlbTZmLVBPOUNicy1sQzc3NkNxYlRnYWFyQjBWT3hvSlpJbzBUVE5j0gHMAUFVX3lxTE5hT3Zhak9OQTR3VzlxUGJEZ3VqckVZOWRqdW5qRFdWMFZQOXBpNnFCRzJQc0pXSGg5SFRFbndmc1RjNE1ETWFNcjlacFQ0MGt6RWZzaWVsbTZoNWd1SXNlNW9KQlE5WktjWVZ0WDFpTnFudU9pckk0N250Y2tjVmRVbUJqWmF6ZmVNVTFnNzBlcjhKLWdtYkdjTDE3T3Q0NTZ0dWF4MHZ1UWRYd1B4SjBVTTR6NGdCUnJRaGo2WVlKazNGZE5paFVRNzJDdg?oc=5",
+      "title": "Expected Earnings Beat Could Be A Game Changer For Ross Stores (ROST)",
+      "snippet": "Simply Wall St, 2026-11-04T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXZ1aWVGY0NtNENCSFpzNFN4UVpRY254U3VlSEFGYkk5Rkd3aXVWOFZzb0xjdnNQaU1ORTQ2SFRRUU5WdlVxMHhNUjI0Z2J3SG1nZEZhQTlvOVFka1NmY29tTFlUM0NNRWRrbE0xYm9RWVRvcThnMGRiclEwYmE2UzJYOEQtUjFxb1FpREpYUDhBb3RfaUd0Q09USENQcUJaWmZ6S3c2YkFDOXd6LWc?oc=5",
+      "title": "Dow Soars 1,600 Points As Democrats Flip Control; Travelers, Apple, Ross Stores In Focus - Video",
+      "snippet": "Investor's Business Daily, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROST/history",
+      "title": "ROST daily price history (Yahoo Finance)",
+      "snippet": "close 231.09 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

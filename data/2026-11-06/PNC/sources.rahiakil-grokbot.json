@@ -1,0 +1,91 @@
+{
+  "ticker": "PNC",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PNC Financial Services\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXhWQTNXQkQ0ek53N3JDY0FCTk1uREVRT2VOa3pvZG1PVDFvSWxJQk9SRTMwZDU5djhCNEt3NlZ5N3BpN1dGbkdSOEszOWVFaWJUZDNKYzJLYzFuUzgzRGVhbGRUZzhsdjFxWUc5UFRNRDk4ZEFsdXltRUxxYkxVSnFkT0ItVERkNE0tRnVsLVdzYkhIdC1jSFdsTFp0Uy1C?oc=5",
+      "title": "PNC Financial drops 4.2% after-hours as CFO transition announced",
+      "snippet": "24/7 Wall St., 2026-11-05T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNW1ucmFYUldxQnZpRjJSaWNjUjhNQ0xQLV9iYk9sQkVYRHlJV2Qza2dCUkQ2ZUtieV9UcFU2eXRicW1NT1FmelQxbm1zdG5oQ2Zkd2VsX2pYd0xQRmpqQ09nQTZWX3VYY3FqZFE2eXczQTgyRG9ZVVRZdWl2NENiamtEajNxS2h3VEtYN3dyOVUyUzJiUzJUWUZvU2tWSWM1?oc=5",
+      "title": "PNC Financial drops 4% in a single session, shedding $3.6 billion in market value",
+      "snippet": "24/7 Wall St., 2026-11-05T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTEwzUFdsczZnSHhNQmhNOHNqNzgzUDZmTHNsZGlRUHNPWkxuNlRQQVF1MGpaWjRJZzhkVWMtZXpPRVlNNmQwa3hLSXAyMjctZHo5UDlFUFJEZ3ZGcHlIaTA2N0FSZmJjMEx2VjNVek9uMWdwcF9yM3pZMnJNZWdqUkRheFk4R1lZT2F6eG5qMU1oTzVPRGtHZVB2TUp6eWZoelI2dA?oc=5",
+      "title": "PNC Announces Chief Financial Officer Transition Plans",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026071110/pnc-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNC/history",
+      "title": "PNC daily price history (Yahoo Finance)",
+      "snippet": "close 225.38 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

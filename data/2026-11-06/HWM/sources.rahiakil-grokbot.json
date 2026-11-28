@@ -1,0 +1,121 @@
+{
+  "ticker": "HWM",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Howmet Aerospace\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMU9YTUxmaVlWTGg5WngzLWpQby0tbVJiMnQ0UkNwRkdrd0t1UmZ2ck5jeDZUSmEyVlBwNk9QeWlqMFFKQXNCc3dUelcxXzJDaExJSFM3VVdqMnR2ZXRBdEJLZVl4UHVpOFlHR2FyOHc5RndVWnl4OVdLVndrUE11MEItZTZjMHBMMld4YUZTbjRkTDRrckF4ZWNmYUh3YVN3aDZJ?oc=5",
+      "title": "Is Howmet Aerospace (HWM) Stock Outpacing Its Aerospace Peers This Year?",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcXF1WUl2VGNqa3NVWjVaX01mR2hTZWh3ZTFCbXlVTmtqeUhYWldaU3ZqdDBXdE9NUkVaeGpjUGpvdHduck9SX3FTbDRSbDlWNHdTQXRlWEw0ZzREbUhzNFhHR2Z1eG8zaWZXd1Btb0tCMFE4WEZUNEdNaDJ0SUdoVktveTVwU3hjUkRWTDFhNXB6aVVFdE10WkR4OGVjakd0dWtna0JrV2dsZU9HLWk5bFo3Q29XSm4zTHVjTklmSjFfY29oUkhQZHBIR1ZaMkFENW5z0gHYAUFVX3lxTE9qSXNLRHhXMWxlTU9fc0RuN1hGdzhzRFhTanNpakU3MnJkTzFISHV1N2JSTktSTkZRNEN6a2dkLVlTcUQ1ZG5XeVd6QVlaeXBtRHBoTGhwai1MTEp0aTNpajAyQnZZVmhncWRvRklTQXh6cFlLQnBjZzZXX25iYUVaS2d0emxtTmFHeE1Nc3Q5Zk52YzI0YXRXY3FXTERXbGthc2JscHNzalNxcEdZb3docjFBc1VkalhYQ0tuZ3FJSzY3LUJ6ZWtMSWFFdmRqeU9jWjhUSF9xMQ?oc=5",
+      "title": "Howmet Aerospace (HWM) Shares Fell On Defense Spending Uncertainty",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc3JUdjRVeXVjUlMxSlBGNUdrSkhkODdqQ3dsTDBDRHEzQ0I3V3BWOGJYSlpRMGtYc3hiaGRfMUJxOERORzdOV3FocnpvVEZNV0JUeUJpVlZhOXh3T2VEcVlVeVlhQ3J3a2phRV9ETGNqbHN4YXd1elFlOEU4c3dveFlDRTBmWlNnc2xXRkt3ajN5Vm9yZ19iV2FwRVQwcjZwUmY2Ul83QUFGWkFYTWNKbzRR?oc=5",
+      "title": "What Would A Short Seller Say About Howmet Aerospace?",
+      "snippet": "Trefis, 2026-11-03T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRDJjSnBmalBjRklfa3RCWmJhUkh3UERLZHJIcTFsRlZPM3VFLXJFUkVXcUQzSG1mT3h2bGQ4bDZvSGNiYXVlS0NPekIyak5wUDJBb2RISmFBTl9nT29jYmI0d1o2eF9GbFBab0ZjeDJPVWNHSVAyNFVqdTJOaTFhdU9kV0dCeFFLUk50bGlqMEd1eGNoSGpwMFVtR1ZZTE1yR0VtQmoxZkw2SUdvZFE?oc=5",
+      "title": "Implied Volatility Surging for Howmet Aerospace Stock Options",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZmNtaGljYXhYck9RaUhsb2NHbmpaVGdPZW5wVk5kYWJRQ2FMUEFmYzhST2UyNEdzellEd2tCcUN0cmlJSFhQQ29OR2NoaU5VOVVxMzE4UWJnSEZoUW9SRlRJTmE2NGZKc20teW1vTkZHOXBEVUdGSVV1YVJQVV9IMkgxb3NNZlEyYzN3ZlRzQUQ1aWtTU3o1V2k0ZkZTTmI5bzhYOVAyWGJncXR2LVc3elpqTS0wMFhRdkdRMQ?oc=5",
+      "title": "Howmet Aerospace: Strong Q3 Execution, But The Valuation Leaves No Room For Error (HWM)",
+      "snippet": "Seeking Alpha, 2026-11-03T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.681,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdEE0ZFdtM3FBLUtwQ1NPajhxc2J0NWstZ3ZDc1pPaktweGs2NVdyUG9rY0lpOXk5RWtPVkYtZ0lkZS12NThpdGNhdWljNzZxeVJ5UlE0M3JIaWFCTlhaNzlCc2g5dDdyYUtIVU1LcF9xMDlHbWtGVExTU2tUNjhMZHdtaXVCemc1eU9mTUhuckx2SzRqVGFSMG04WDJGMDU5TVZlSTRn?oc=5",
+      "title": "Howmet Aerospace Shares Rise After KeyBanc Upgrade",
+      "snippet": "marketscreener.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU0FERUUwVUgtZ1NNdjRGZGxoeDZYT21GNkpldVh4NXA0WV96bGVQQU4yeUZWX2FuUWtHVUZfT1pyemtTanZUWTB3YURiY2ZpQ3JJQXA2T3pSaG1XZ0g2ODU5WktrSGF5S2d1WUZNMURVenVUVjBEMDVmcWFjYlJ0NFcxc2VtUkZFdkNzZFItbFM4TjBLazlpZEtSakFVNldIbktfc3haU0RyTUMxdUI0YUpfZkljTnFTc2EwMU1oYUxxUQ?oc=5",
+      "title": "BTIG cuts Howmet Aerospace stock price target on valuation reset",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HWM/history",
+      "title": "HWM daily price history (Yahoo Finance)",
+      "snippet": "close 205.81 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

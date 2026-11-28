@@ -1,0 +1,106 @@
+{
+  "ticker": "DOC",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Healthpeak Properties\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNkdJSEJCWHNMMk41M0pNbFBySkM0eUppOHo0ZU9RWnY4X0VIWG01OFZ0YVZ2ZE1WR2NUOVhBblk0N0tEaHltQlRCUFFlVVo4QkluYU8tUDZ2UU9tLWNZSWtkWk5KWDg0RHBFaXMxeFZsdmpmbVpvNTAwNDdOQUNaWWFsRlRVSjZET0xGWHIwS3pDZ2YtcXdIOVJVUUpLbllJQjdmbmozYm0yOE9qQzQ5YXBPT1hwMHNacWRFTzZDRWd4S2ZUYXpGZG5qZzlWWDVzTzE1VUMwSdIB3AFBVV95cUxPZUhtV0hzaG1hZ3BmeGtXeDZVaTBPczJueS0wUmNESnFuTE9oMU5Pek9hRGFGamRyd2dfUXdmelo2aVVNTUpSSVJnXzR5eGpPMVVHVUx6MV92NzlaQk1VTHBKZ01kLThLTGcwaTFmVGt2MGpRU2F0MEI5cmxITDZCd0lKa2V3c09XbEFXVDFVR3QwNGpvb3otN1k1cW85X3FiRHZDb3FiVlowNGl5X3pNQVFiajlBZ004c1l6b3NPZk1pcTd0eEVnNjNzbnFITFljandNa2RnYTZmT1pX?oc=5",
+      "title": "Healthpeak Properties (DOC) Stock Looks To Trade At A Discount As Its 47% Run Continues",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ3VjYURaLS1jS1F6WWdfUmlmUnJrQzdTUEhkQ1lOVDNtc3l5X3RkTlVla0JwVmk0NTZGRW05T1VpaHpqMEdBNDF6X1lJbGhxTDh2ZU4tNm1uZENLNG0ybDJHaWRpdjAyUGRuZjBPZ2NXRjByUzloQUk0cFVrdWZHUTBaQUswb2R1OWlrSG1tNTdBOFQ3N1dWSGpHMGY5cG9XWDh1MUF2MzZtdFpyUUhoYnJxRFBYM3JROEVQOVA4VVJQbHF0?oc=5",
+      "title": "Healthpeak Properties: Potential Life Science Rebound Creates A Strong Re-Rating Setup",
+      "snippet": "Seeking Alpha, 2026-11-04T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcks3VkVUMGJLV20zRDNLQnhyYjJoSHdNZHdkR3Q0RGwtNDN6UDhlQWRnQmFRclJPemhDV0dHSE1WVFdXWDFwNk1KZFEwSG1WbXlTVmc4SHluWWlmcjB6cEtUZGRVaDZ4TlBEcGxYNFhpVFhoSG1QZ1JkQ3NLSk55ZU93aTJrWHRuMk91YjFKd1VRZVdleEJ4ZEVPbjdQR01qQjZSbVNfdFNPMjhSelhJRnY2azh2SGJXbGVjd1VFb0VKeDh6cTctZlBtcnI1NzFOcll5NWMza9IB3AFBVV95cUxNM0pPZmR6Zk96UlVUSU1IQnlJU2tjVmhJeFJzMnpwdUVoTHdveWlkektWbE1WeVJfbzNyNFd2T3l5c25sVW5ZNERLNE54bFhFb0JLTnFoNHpTM0kydzUwVUM3aWRGYVBJLUJMaDU3UkltZ3cxR0syQnFmeGRPTmp4RHB1MUtnUE5XcjN6ZnZpYzROLUpVWHIwdDJlUDNuWlkwUDBad3cxTTlfaHlXOEtpVlU0YVZDQ2pFd2lZSDFIMzdCUFVJd3NIZVlHa2dOMml5MV9CamNLX0FVZHNl?oc=5",
+      "title": "Healthpeak Properties (DOC) Stock Shrugs Off Q3 Earnings Guidance Lift",
+      "snippet": "Simply Wall St, 2026-11-04T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWlcwaFN5Y09Sd3lGR2ppbjh0eGdEbnlteHZUVW5JVFEtLTh5TkpJdXdLQjVtZ25mT3I2bFV0OExjWGYtVldvY0Fja0E3SHNoWGNadVA0UGdabDYxSXNkQXRRTC1oTUVtOTk1Rk91SEE1VUVUTnk3dHQ2WlZkTzQ5QWsyQVVackdfaXNJeGdXZVFEM2IybHRhcE92Yw?oc=5",
+      "title": "What Healthpeak Properties (DOC) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbk1pNW9fUGt1Y1NBMEFucEs2RFpPbU5sNnJqeV83ZGpyZ3NSNE5kNDloZU5xb0lsTS1UMG1tc2UyR1Z5R2l6aDFiWFJnako3UDBHTlVha044ODFpRG1FY2hQck95U3JHdlNxN05CdjEtTmxTdjV5YUhyOTY0ZXRSUzYyN0hUa2Vfc0tNNEhkdWZXT1BhQkpyWl9ZMWFGTEs1MExWUmZBd0FpRWhmVGw3UHRZREFXcmRaNkZ6TVRsNzloOXVQWFZRWGR1N3p3TDdvSkZRLUl5LXUzZnpjN3cwamxRWXh5T3lzNDFLNjJxd1FYUFNM?oc=5",
+      "title": "Income Payers on Results Day: Which REITs Set Dividends, UDR (NYSE:UDR), Healthpeak Properties (NYSE:DOC), Realty Income (NYSE:O) and More?",
+      "snippet": "kalkine.ca, 2026-11-03T08:00:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/765880/000162828026069522/peak-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOC/history",
+      "title": "DOC daily price history (Yahoo Finance)",
+      "snippet": "close 20.26 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

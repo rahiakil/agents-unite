@@ -1,0 +1,151 @@
+{
+  "ticker": "IRM",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa2JyUW1kNzhZemwxNmsxUWdub1A3ZjdPTGpGVEpUenZncXBhcXN3S245c2lpMlpGcmxIOVNhc1U0SnhSeGhtRFU5MDdNUkYwYVI5ODlQenB2NmhaS29wZVU1VmotWGtnQURSbGcxQWF2bXVmaUlLZTBENVBCQ1NXNi1mUk5HOWNIMjZsU3RLS3gzbWg4dWhOd05ZLTJNSWphcjFz?oc=5",
+      "title": "Why is Iron Mountain stock sliding today? By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWVkzaDA2bTlWb2Z2NVlpZVZoY1k3cEdvbFR6cGMwbWdnbHRLcEhBd1kyUHVMOUhQMzRfRUxmS2RMd2lKd1ZfRnNSVlhPXzdLMmVfUHdBdGhkdnRFRkNod29zcVZDa1lsaTE3czUzN2dWeml5RHNfd04zT2JUVm0tai1TM0czZlUxZXpkajRBWkEyT25NOExhMzZBOXc0bzVJY1JUbFA1UDFfcFVJNWNjTWttUjlyOFpvSnoxYVlqdw?oc=5",
+      "title": "Iron Mountain stock falls 3% on guides below estimate guidance By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOamZtMjV6RTlVS0Zzd2o3QWw4WlhIdTJTS2pNMllLMmU0VnAwYkxRanlxQUZoVGZPSXJNcktuTXFoWGRwRVV4bGl3QVNZZGVEY29tdlF5aU9hUVJuNURtV1ZFYV9wZ1k3Y2xteGxadmVCa1Joc252aU1BeU1wS2pxSnliaDNVaEdTNThVNnNhcmxaeVVwTFNsRVZReUdPM2RfNEJVZXNRS2w1bE1fSU1HeDFvTVVPc1ot?oc=5",
+      "title": "Iron Mountain Q3 earnings beat, revenue in line, Q4 guidance soft, dividend raised (IRM:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-05T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRWZqVmdzR2pUa3h4cGN1ZGhfTXJMY1dKem43aFB6Uk0yN2oxQ1VKSV80WEhaTFUtUnlCRXh4akJSZzk5ek9PcWZKckFaSVJ1YUx0SVhjNmhkSkxvdUtWQTFIWDQ0SXlGY2Rld0oxRUV3X2c5ZEJyYW5kSXNnYVRPZVRhRlNNWmFnY0d5bmMxS21ocWJ5Y2dLZkdXemw4bnQyOWlR?oc=5",
+      "title": "Iron Mountain Increases Quarterly Dividend per Share by 15%",
+      "snippet": "Quantisnow, 2026-11-05T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjZNS29KUmdpVUdrbmJmcUh1cGllc2pPdkpudWRpemlPYlR2RGFvNUR0a01SU1VUbUQzY21DdEtIcTJBM2lnV0hiZ0prMjFWUjI0SmgtRWg4aHZudGtONEVsMWp0MHdrWDBoaE5GMV9jV18zS3hBZzZPYzJfTk9LZG1LQUtwM0xmLTlVYzBCczdnWUJZMUFkcDI2cw?oc=5",
+      "title": "Iron Mountain (IRM) Surpasses Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeHcwbHJLMm12RmxZVDg5SVQwWVBQcnFFY0hSaTFjbUtEYlFVWUtkbXdWZjIxUmN2dUpvRGRzZDZkbHNRRDY4SVRuSFhRYU94RU1fQTloZ2FjWmkyaE1BTVJ1TVptZFNYNmRyN2J4U0g1SUQ1aTRxRDNjVWg3STI1Y2NTWWlLRzkxZ2FFTkxXcW9vaEZUaEdvMEZVTzJ5cWpNUXJB?oc=5",
+      "title": "Compared to Estimates, Iron Mountain (IRM) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQzh1Um5MQk9qZHFDY1dMdlZHODVrLXlNczFIWGVlOS03X2hTSDdYRXhWT2w5NlVwZkJlRmloRDc5dXNWVV92WGZMWWZIeW1DYlFrNzg3Wk5obUdUQlh0TV9SUU5OM1JReHVIalRlbFpWcXZyZ3dyYWZIN18zSmZUM1NodkFBbVowV1kwQWhVNkQyQmtwZVFzNGxicVZhek1uc1J1RXJR?oc=5",
+      "title": "What Analyst Projections for Key Metrics Reveal About Iron Mountain (IRM) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVklhRldZa3UtLUoxcVhyX0ZHWUxRMDhTNGl2N1RnR1VpOFB0anhBVnpoT3FzUUlDUDEwRlJDcUk4SXdrblBSb1A3X0stSkQ2Zi11YU40dlBJSk9TcGd3dEEwWVAwRnprNEZRX3ZQX29mSE1kMTRacExxY1JVWE9ZN0o5NUl5eXV5aUlzeTR0aElHeHc4WFdoU1dJTUFVUHRsd2V6UGpQcXotNGdIWHk4WXFnd0JpT2JLQVBjX1JmdmpFVE5uRmNKWnh2T2zSAdIBQVVfeXFMUE5mRnh3YTJrUWVaSDluWktCRU1xNWRUcVJQMjA5S1pkRFZtR0pXWkNwS0w5Ylc2SnE3b3daV1BITl81RGFyS2hNQ3FqWXJKS2NwLW5KNlBNT1FlQkxuakFVX2xONXlGdjlQRGJxZ3dKcGdVaGRIWWdTdmhnakptXzVFQU5rd2NOalpuMVIwUE5mWklOWHhZWHB1czdQSVlJcDhtR3hvQkpIdUY3Q2hIVkl3V1gzZi1QOGJteWNSOTVhV2FSbUxRc0lOMVp3WlJiVkV3?oc=5",
+      "title": "Iron Mountain (IRM) Heads Into Q3 Results, Is The Stock Expensive?",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000081/irm-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000084/irm-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-05",
+      "snippet": "10-Q",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 106.52 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

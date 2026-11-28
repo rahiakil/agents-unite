@@ -1,0 +1,115 @@
+{
+  "ticker": "SPG",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Simon Property\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVXJ6ZGJONWg1NTJGbXp5NmVJTWh2OFdrMTkyWVREVjYtMlZLS2xSQndZTDJSUGh5eWNSbE56N2JVUHhxaEZwVlI5VTNtYUlMMW5CUGNka1Y0dDF1WDFiQmZYel80b1lQcm1RemxEdG1RVW9zOEE1Yzg3VW9ZWjBoRGNjbkdXMWFZb1JuWTRjdUFyX0t4ZXlCOS1yUVlrdkZfMWlBWXplalFKT1p0MEtR?oc=5",
+      "title": "Simon Property earnings missed by $0.14, revenue topped estimates",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU1NQdldWektXNU82amp4YUY3ZXJJdFlHS2Z3Z05IczFEdG1oUllJZGc4RkxiTjdSYzZlX2JTbEE1bWZQYy02czROWnZGZHF2VXZ3b3Vrb3pDcG9wQjlQWW9xYV9rLUFtWENsMjFrSThzOXZOTlFJa0lwQzZpVmdCRWZlRTc2SHMxRnlMMUlnS25kRlRrQm41Ums1Ml94NWhwVk1LY05keUhNcTUxTEhoQ19Ua1RwLXdndjBkVjAxRUl0X1I0YmlQa0tVTWxGWkR0dVdmX1QxWEJSdw?oc=5",
+      "title": "Simon Property boosts full-year guidance after robust Q3 adjusted earnings beat",
+      "snippet": "TradingView, 2026-11-05T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc1FoTXJ5Nm1JcWg3LUFJZG91NjFMSzVEZDdfZTNkSUc5N1VPeGV4cnR2T1hHU0FrTGJSbllkXzV6WjJyaUxmbWZqbHhBdzVDc2hmMEljRllvcDU3dW1EYXNkaVpCLWhsTGstSnlaQ0ROUnFmbk9zQTV2MU9qdkVkRWJaR2ptc3FFdHBsTVhHNVFoWV8zRlkzNEN2VQ?oc=5",
+      "title": "Simon Property Group (SPG) Stock Looks Undervalued Following Its 131% Three Year Run",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPREVZVUlQQ2JUR0VQNnBBblNWZ0pDN2JUVi1CbHk1V0d2SXVVZU5qSjZWNDctMTROc1hTckotLUJrdEVxZXZSTjlnLUJ2dV9fMGVvcnhWWl9hZWFNVTdOMjQ3NnhyX2hOSzlwTk41cFZYSHY2aEp3dXBJSDY5cjlobjY5NnoyWVhWamM3WVVTMmxHbzZoUUpDVFRiSDRubF9QdmlseQ?oc=5",
+      "title": "Compared to Estimates, Simon Property (SPG) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWFlbFEzeHlETk41c21ZZFdOMTVGdUlxWU9CQWRQQzJsVDhDaW5pcU1hMktjRnN1OWdxeHJWVkpzTXUwcnhSQzQ0d3dvQzl0cUtYaG1PTUR5VDd6LWc4S05KZXAxSHNoemJUX3Zha01TcTdvcHhqRWlwckdwVFBPdmRBQWNYSmxqNFVXTE81bDgzQ0kzLWcxNXdBS3BReWZ2YzhnU0VpOURaRHVf?oc=5",
+      "title": "Simon Property Q3 earnings preview: Retail strength, debt costs in focus (SPG:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-04T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926123591/spg-20260930x10q.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926123325/tm2627777d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPG/history",
+      "title": "SPG daily price history (Yahoo Finance)",
+      "snippet": "close 228.42 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

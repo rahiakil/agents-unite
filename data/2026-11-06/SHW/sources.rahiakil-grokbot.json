@@ -1,0 +1,73 @@
+{
+  "ticker": "SHW",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 8,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMEw2NFNxLTlOQUQxVFFBN0pZUEw4MzhaZEI0ZzJtZnJVM1RDSnB0YmxucElNdlgyOVJDUF9xWU1IZUdDSjhzd3RiSkFEMU4yUkhZNUlzVm4zeVB4NnRSaUNPZUxVNjVMaW1GWUU4ZVk3Ukc0MDM1bUpmTFBxemV5cmhHRzA5RmJXd2prM0VNdmZweWRGUS1maXhLU3BWbjFHLUhxV0x6aXJfV1g5TG5hS2NR?oc=5",
+      "title": "Sherwin-Williams SVP Young sells $454,262 in stock",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlR5Z0k5dmdTcEktLUZDeWlMLUc5VnZpSTFlNldrZlZ5Ym52NGxweDhPd1RfQzU0aGN4ZEQwb29udGFDRDV2U2ZJdXVXcDlNZmRtSzFGVDNoWmNaRWoteXgwMlJLNFdRcmUzRVpLMC1NdmM0YlZhdmZIdjF6bjhmblBfNDRtZzBIZGwweWk3UGtRbEYtYld4R0lPR1VNOWNnS2U2VWFfOHZGRkNsaTAxYVd3?oc=5",
+      "title": "Sherwin-Williams Co (SHW) Shares Fall 4.0% -- What GF Score of 8",
+      "snippet": "GuruFocus, 2026-11-05T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWG5VZDZLd2tfbmhVVU0yYlJod1ZKMHRiR1RDNURGeE9EV09iQTFYamtzamllLUk5VW9IbVF6NHNKbGhRWDZ2MTg2d2xrNS16endESHY3T2dmbHNreVBMTE9VaDNZUE9LNWZwamJ5WWpBdzVld1pZTS1LSlM3WTNpdEw1MXRnUjB5YnZYWGg0MXRWZ09vUkFPc2lSLTJXRzFIdG85UDRIVQ?oc=5",
+      "title": "What Just Happened To Sherwin-Williams Stock?",
+      "snippet": "Trefis, 2026-11-03T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 344.1 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "TEL",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TE Connectivity\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZVR5azRMbUxSMnM5aDd4UTAtLVdfa1B5dXZXZlFMYnIyQWZLdnV6RFI5V2VZdS1KSHN6Tno5NVFBQ0s4dVdrQlhMN1gtSlAzeWcxZDFZSnUzYzZlS1ZUei1TWUl1ZWVYeUw3aFVhaDdfZXh0WEJzNUxvQndjOS1wT3JiVzBMbUtWMUN3RGdGZw?oc=5",
+      "title": "TE Connectivity Drops 5.1%, Erasing About $3 Billion in Market Value",
+      "snippet": "24/7 Wall St., 2026-11-05T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObnNUakRGbDg3ajF6Z3FkRFVJODA0dXJZekNyb0VsNXNQQ2pmZ1hWenF4VkVZMnA4MXBscXE2UzdJTnFrc3dtSU9KWDF3SXVHYXBfVDVocEhFMDlPcHVJemdvSmJuVHZFajJDb25WQjlhaUluUmJRb19xalg4SzJwT0taVnRBXzJ0VmxsTlZ2bzdPVWkxSlFLbw?oc=5",
+      "title": "Mouser stocks TE Connectivity\u2019s HC-STAK 35 interconnection system",
+      "snippet": "Engineering.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Engineering.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdlFQM2hySUdBYlNCTjJFRmJBQjhCOHZCNjFBWm9rZGFjUS1Za0paWmtpRGdTRVdYSGw1VWNxNFJhSHg0NE9zZHRuQ0RyMmhDWnlmM0JPcXBBd0NMZUl3eTNjM3g4bGc2eVFKU0lKelB3Qm84dF9rM3J5b3AweEtMRFNvRzVDZGRWQURlSnJiVXMxdFV5dUY3cVVqNEhMVFFjUnljMV83dnExbVh2d0FfbzFZWWhFTEZadEZNdktaYkd3VTJVM3llc1M0RDYyYjF5?oc=5",
+      "title": "TE Connectivity Earnings Call Signals AI-Led Growth",
+      "snippet": "The Globe and Mail, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNamtRV2l3a0NEMXU5UDNST29ZZ2RPekt3b3pMalpjY2hIaWpjVmhJdEc0ZmczWU1Tdkt3UnlHUUlfSUhqTUQ0S2pZWlJqOF9nZnNtc1JJOHZFUGRmV2tNaHFVZ3I5TUYyOWItcm5NcWlZNDB6TGdYLS0zQnJyWUNUSmdqZUtDczk4dko1RmY1OUlZUUdQUTAzNnFjYzlFd2NLUFcwZlBBQ0xSbDRfQ3V6UFlUY1BtYnFnaUxUZXdkSUNNT2lqeGfSAcsBQVVfeXFMUGEtOUNMMWpSQWlTZDN3YzBLRy1hY1Q1OWw2eDNzMXE2TkNxbTBwZzJhVm5OWUkwUHh1aHpKVVlrQ09PR0xDeW9Oc3ZJcjNEX0pKOFdRaVNzOTluTU0xeEw0a2RNTXl2Y0s5V3JuWE1xU3lOQ0k2WFA4TVJkWXcxczgyaVdmczQ2N05ESWRPa29TVEhiellzZE5yZXlIZzFucDBWVlFtYUIydm5PLTdlcnVOLVNoWjNVSEhZR1Y5VFNzNjVPOWMxcmViS1k?oc=5",
+      "title": "TE Connectivity (TEL) Stock Trades Below Fair Value On Cash Flow Views",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TEL/history",
+      "title": "TEL daily price history (Yahoo Finance)",
+      "snippet": "close 207.01 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

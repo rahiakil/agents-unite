@@ -1,0 +1,115 @@
+{
+  "ticker": "ES",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Eversource Energy\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSmlCbUg0RG1HMF9oTHUxQV9Md0tvaE5DY25MOHY0aVVSU3g0aE9acmRNXzhsUEhDby1FYVptN0xtM2QyaGlDOFRyRVhpX296TTRzWWRmNmMyc21uTlN6bmhERF85Ql80N2lyWmluV2lPNVJqZEJ0bVVuY19CeW40SURTMTAwSlk4Vml5N1hXcEs0bEFweUE?oc=5",
+      "title": "Eversource Energy Q3 Earnings Miss Estimates, Revenues Decline Y/Y",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXJhSmZWVnp2MTFnQ3VKT0NGZVFTRXA1OGRZRXJNa09sUDBIRVFsMVl0LWhja2E1SGY2NFJKd3MxQ01xbHAwYTBiblV4MFQyeXlVTExxWTdaTkNRaHJBX1dRdG9pY1pBVlk1aGVMb3FvM0JKRnhsZkpIZFVJOHNpOC1qc1hsbUkzUWpRc2k5c0dPQ19VbTdpVEdBY2s1cUFPVllV?oc=5",
+      "title": "Eversource Energy 2026 Q3 - Results - Earnings Call Presentation (NYSE:ES) 2026-11-05",
+      "snippet": "Seeking Alpha, 2026-11-05T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNU2h3amVIMTV0bUl1Yl8xdjd5a2FiY2QyNm9WWnNxUXZjTkpvR0JpM0RqeUZYX042RmJmbExsOUNScG1aVzBDMWRBci1VRmpHWHJmcHFRbURoRGw2R3Ayd2k2OHZZU2V0aVd4STBZa2VWZTZydGZDVHlsdk9MMkFiczBYRmczUGJXVWRlTlJiUnVpTDJ2d0ZOSGNWODVIQWtrRlEwSTVUaUNLSWZ5OHhCLUxQY0dxOTlGeXJ0dFRoWEZ4dUtIVDJybFg2ckQwZ9IB0wFBVV95cUxOMHJJam5TOHVhbEVZNlRmbUUtam9NLTlPekdEdUxwX3QwWG96WDJOMjZaMlFGSmxvV3RYdTdlSDJHWEdBcERLQlY2aWlJdDlrbnY3MlVrODZJUjMzM241NUlaeGo0Z0xlaUpwRWNFa2tjNHVucVZzeWQ0R1hmcnBCS0V2X0VSZ0VHTmZvRW5rSl9nazM2dkRrQjJtd0FQYzNYSURLZkV6ZTdkbWJmRjE4VWVOcEZReWZDUEM4N3UxVzVKYXRhRno0TUthc0RyUjQwUjNj?oc=5",
+      "title": "Eversource (ES) Stock Could Be 20% Rich Despite Raised 2026 Guidance",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.433,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZFpESkI3bTJpWEY5VnZoRFZOTUFDZjJmZFJkQmxlbGgybzJZcE40d3RYSjdTRk95X3RpRHptX3o2R2E0RzZsZGFoRTZab3c3em1WbjVfb0M3X3dKRFlodktBQnQ3X2hNRWFhT3hSazAyTXczOWFZTGNxc2IzNFFXbVIwb0xNR2FLTHI5UzJTWllDSnVmOEdNQ1BGSlFhMTFXNXA4NmFXOWE4amVZRnlIemlERm9LWUI1dlE?oc=5",
+      "title": "Eversource Energy earnings beat by $0.18, revenue fell short of estimates",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUVJZDl6c3lxNHpPZFcyTFNiVzJiZmlMZzY3NVNjcFJPU05hS1hPUW1wS3lLc3NPTHNNWHFadDdFQk9pNThUNjliZXVvWGtTRy1teFdLRWVsRWNTZlZWWVlIcDVFTUZad2FDZmFZWEp3czdMSk9QMkptSWhRYVQwOGFjNG1hWkJRVzBKWUh3Z292NHItQ0U1OUxhNVhWdw?oc=5",
+      "title": "Eversource Energy (ES) Q3 Earnings and Revenues Lag Estimates",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/72741/000162828026071541/es-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q - EVERSOURCE",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/72741/000110465926122703/tm2628949d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ES/history",
+      "title": "ES daily price history (Yahoo Finance)",
+      "snippet": "close 69.84 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

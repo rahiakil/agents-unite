@@ -1,0 +1,61 @@
+{
+  "ticker": "SJM",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.M. Smucker\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdE53U3l6YWxVV0U5dDJlTjNaTUlJbGFNTHJwaFRMc0pCRVV3TVdRWGZhc2YteXVYWUhINmxyRFZiNXhGcmdOTW9GeWtGM3ZRV2t2WVJDUXg0UmZMVGZiWEN4SGpQbDFOeDVGOVdFVUU3T2Fha3ljNmlibl90NXkxVEdvdzItbkhqQW0ybU52UlM1RERL?oc=5",
+      "title": "SJM vs. KRYAY: Which Stock Is the Better Value Option?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOHoySHZfMUpLQWktUDZ4V0lKM2lUemZDZEVESDFQdEdqZEI3eTdSdWRiY0dDOWVZcWFjR1dqdEJLWW1TbTlLMzZMeWM5dGQ4NXJnd0VBM25RZXVqbE5uand1MUpyRU1wV1ViSVI1QUlvOC1JR0FJZ2xrUUIxMWRVOFJCRm9WSUpOMlJ6VXhQUQ?oc=5",
+      "title": "The J.M. Smucker Co. to Report Second Quarter Earnings",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SJM/history",
+      "title": "SJM daily price history (Yahoo Finance)",
+      "snippet": "close 130.55 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

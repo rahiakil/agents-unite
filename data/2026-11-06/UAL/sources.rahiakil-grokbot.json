@@ -1,0 +1,121 @@
+{
+  "ticker": "UAL",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 16,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRTA0NDRoc2c1UlZabkZzeFFGbFNzV3EtMXJwQ25zMWVoRnR0bGtFSFloQkNZRWJ6aWx2TVFYYjRIWk1LQXVyVXhadVhBSzdOTmF5SVpkY0lWeVFqVmxKNHYxV2tjUjlzVUVQNUVDWndsUkIwUDNVTjB2dHF1eWE4andfeHJnQlFqUmQ5c2g1N21mX1UtcEZzVk5KSjdvY2wy?oc=5",
+      "title": "United Airlines Stock Outlook: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRmhENmphaHBqb1BsOXVaX1FENktMbS1TX2F1TEN6ZkFMRHhuUW93LUNOSlJxSnlpbkVCeVBYci1LOGhnaUc0ZmhVdDJVY2lVMXlHbG0wdm9qS21DQnpranlIb3BBYVpRa2t1Mjc1WEUxZzA3ekNEWnN1aUdnTGlEaUw0YVczeUcyRVZOdVdRMDhVR0VIa2xqV1F3?oc=5",
+      "title": "United Airlines (UAL) Stock May Be About Right After Oil Price Relief",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGU0b2RyVzMybTNOMUZZMTJQdWpYVjcwTTk4MkEtbUJ5aG02SWlfM3VmX3FzTFhjUGxXc3EtcUtBcnhGeGdtYTdXM0hUdk00cjBkR1JBWE1NRlpUcWtZVkRBNlBYMFoyYUZKRE9DdTR2Q05YenJ6Sk9XOGNRNlJkbTNDRmFOejlodktQcTRNMGo3LWMtdE9ZclRveGs?oc=5",
+      "title": "President Of United Airlines Holdings Makes $4.00M Sale",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNME12S0t0QnVWY1AtRUhrNmpkMmVMMEUzUTFSRDRPRXV6dlYtRHdEX0FyaWFKMXZVS0VrTmNVeXFFcmsyTjRJRmpXRFVKVmptUk1scEdYZVRwRW43SnhTT1NZbHh0ODJIc19KS0JiZ0EzcnZ1UEJqdXNMSDhXakRnSDRoLUVzeHNvS09id0xZUTI5T2pFSkFqbTFEdWFlNXE5VW1vX3NyNGRUcVRW?oc=5",
+      "title": "10 Industrials Stocks Whale Activity In Today\u2019s Session - United Airlines Holdings (NASDAQ:UAL), Uber Tec",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT3Ffa21NWE0tS0sxaVJUSXBMd055aUFkWF9sMTZkenpQZzdQMEVvVm5CTXFfUXZzUkJTYUJBeG40OGZYbnRmVWZ5azE3MkszbnVFYk0xWklsUUJmOHdCdlo1QmZfSDU5dFplYVhFRlhrR1RDSk55QVRUMFpDQ0stcjZ3RGVxdFVmWXNtOFVpMzM2U0VWaENwVHpNcTgxSnRoX0hBTjVibk9NODNjU0pha3psaFp1Z2pmckdubEY1SjRCdjZvLV9YSmRR?oc=5",
+      "title": "United Airlines president Brett Hart sells $4 million of UAL stock",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HR1hpWkNkRm9pLXIxMDlOSk5Ka1JOd3g1Qm9PNi1aeGNxNXV2ZHFURy1rRjB1aFhra0RYMGh4VEZzN2wxclBZN1RpLXhabzdaSFNSeDJRem9mQXAxcnJ1RUNRNElxVHV2aTBUOF8wNVhkTEU?oc=5",
+      "title": "United Airlines CEO Scott Kirby\u2019s Wealth Tax Proposal Contradicts His Business Strategy",
+      "snippet": "National Review, 2026-11-03T08:00:00+00:00",
+      "publisher": "National Review",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ0Fob1RlaURyRHFPaEVidFc4VDBfV0lhQzN4c1RNbGRCdFBSWHk5SWhFYWEyX1V1b0VvN0EzS2t5RHhkU01YZ2M2MDFMeU1qc3YtemIyN1NkdzUyOGNwOXZaSUpNOVJHTG4xSnRsRHcyVjB0VnJhUFpfRnpZQ0dZblRhUHRGN21RUVlza2lwX003NGV6OU1nOGNkQmdENHFpWXRJVUY4cGpDV2U2V3JqV01RbkNXLUFSalp6ZWE2NXRHbjBTZmpOdGNmdw?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning United Airlines Holdings Stock In The Last 5 Years",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 112.74 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

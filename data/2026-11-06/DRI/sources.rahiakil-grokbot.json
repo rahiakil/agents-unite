@@ -1,0 +1,49 @@
+{
+  "ticker": "DRI",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Darden Restaurants\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa014YmRHYVJ5cTFhb2pwSG5oQ1dUWFhmeW9fNC0wNmZCdXMxeEprdlB1bmM0eTlNMFUxclFPVW5DUUlCdGRrVHJBdUhXQy05VmRkZDdURGxkNDViMUZEdnlCdkN4bllvT1JlbF9IdHhNMzdyTnpKbjJGbXVRejVCX3k5aG8zc2l5WnpNd2FuSTZHWG8yZXZraU9tdVFrXzNNVzB2Q2t1VGl0RC1reGZMdA?oc=5",
+      "title": "Darden Restaurants stock hits all-time high at 229.8 USD",
+      "snippet": "Investing.com, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DRI/history",
+      "title": "DRI daily price history (Yahoo Finance)",
+      "snippet": "close 226.35 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

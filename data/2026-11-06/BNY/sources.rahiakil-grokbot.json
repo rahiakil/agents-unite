@@ -1,0 +1,73 @@
+{
+  "ticker": "BNY",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWngxS2FyWUE0SGxxWXI4YXFCRTZOZF9ZWWtPbjNZTktZTFJCU2lvYl9NNnhWa2xUem5fNzY5dGN4Rm1sbThLb2VVUVFLR01USTNiOGgxZVhNSkl2QzJabFZZalBrTC1lUk1aV2ZSU0VLa19OU2lTUFM4ZDJHakFnRlVZS2NqS0hWX2NfZ0NDbnFzdTBrbldqRGVTY1FNZkxOYXFHd3JCQ01xNExSNWFaOTh6YUUyQWJWc1VOQ2lXSDZybjNZSDZJckZWbnBzT2VUNmlFTm1ZUENLa0ZEdmVJRDNPejJkN3M?oc=5",
+      "title": "Bank of New York Mellon (NYSE:BNY) Share Price Breaks Above 50 Day Moving Average - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORVdjdFp4Ry1uUzJpaWQxWnhtemczV0NRUms0eXdTMUszOEh3elpSa21mX20yZEFEVTRzdVJRUUhzR2pxb3pyUV9tWV9XU2NxUTlydHN5VUp2a0JxV0JUYm1ZWjNHVEtVeGJocTZPV2JWSEprVERjTC1URVczUk5qOUQ5VTFKYWRSOUFKVmhhaWlDSXgtaGxJRlpB?oc=5",
+      "title": "Bank of New York Mellon (BNY) Drops 4.4% in a Single Session",
+      "snippet": "24/7 Wall St., 2026-11-05T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPM1BnVThvT1NrV1lfaUh5Ylo5NWl1QUJ6RUZKQXh6WDdzWGlmLU00Y1lQV2hIN3A3bVBGV00zcXZWeHFVbEk0bDlET19sM2V5ekFKV0xYWUtmcEhqLTVWYUNBOEYyS0xtSkFEXzlPVFA5NzZTVkJEVDNkZTVYZjJOdHlPSGpxQ0tDeXBjcHd3b3RCWFpYb0VkNXhHZnlWV0hhcng3ZEhPT0hTTk1UNS05XzNXZHQ5WGNvd2RYd3otNEV6Nk85Y0JBd3Jwd2tpUi1ndlhRVHRn?oc=5",
+      "title": "BNY Mellon Municipal Bond Infrastructure Fund, Inc. (NYSE: DMB) Announces Distribution",
+      "snippet": "Business Wire, 2026-11-03T08:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 147.72 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

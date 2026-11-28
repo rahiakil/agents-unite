@@ -1,0 +1,133 @@
+{
+  "ticker": "CLX",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQU5uMnB1OHVQc0tvR0diTDJCaWcxYnVlU2l5WlJTcWZQN3BnTEg0US1nYVBIS2hKQjhXWUZGWVN1VGdRRUZpMGtXR0V0U2l2MFh5MTdoTjZuVnpzb2FRYkd2UURoV1Q5WHQ3R05ySE5wajZrekNvN0pmbmdsNWtzeG52WFZTT2d2R1NfQTFvQU9tX3ozRWpuR3NCMHVUOExFbS1nUTJfWEYwUnZPejg1a0tmbEpEQ2xweGl6S1lTd2_SAcYBQVVfeXFMTUNscThjZ1dQZ2VtWVMyS21NUXlnVVhpZlpGMFdpWkxtLXk0cFNHUzBxdl9PdURWTVczSktUV0dvTlVqb3BLNDFjdThXWGxrTGtZYmJEa0tUbUFXd29uQXpFbk5pWll3b2F2bEJORUZNUFVxQkdtUmVoYURHcnprWUxOdWUxTUF1dVdrajB6bWhHRGZuQ2V5ajR0SVkzMWJzMFl4aGlxVFdCZkpneDZScjl5bmxrMVJPcndnanJJVFV3aVVXN2xB?oc=5",
+      "title": "How Strong Quarterly Earnings Will Impact Clorox Stock Investors",
+      "snippet": "Simply Wall St, 2026-11-12T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb1VqNUQycDdCUWdIRU9FSUVpYzNpYnFfbm5WanhQZjlSWll0N0xUQ1U5U0N6b2RJOUVSNzNoOWdDdl80MWVYYkRpNmg0cG1yRnNWZFFhR3pMak5xSXNXOGNFSGIzdDdnZnRfcHF2MmFPSnNlM2lIb0lKeEdsOXg0Wlg4Z01xZXFZallCcVdOQ2hBclB3eEtqZ216ZmYybVBkZ2tQZnNXWHNFekM1S2I2TDM2aVBHUQ?oc=5",
+      "title": "Clorox Stock Rides An 8-Day Winning Streak To A 21% Gain",
+      "snippet": "Trefis, 2026-11-12T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWo0aXpKTEJkQWdPNExoNnU5WGxxT21FRU5PZ2RDNmRDMV93WUZJc2l3TGFLb21sNTNKdTZpSGduZ2d0cmNMNkhkZHJGak1zeVlOZi1oN1VaQ083OGFjZWxnaXdobXFBUXd0M19QWDJsV0VySGlJS2xodmtEbkZTUngzX0piblF4QlFaN2s4azhOaUt6TGlES1JadzhtS04tVWw3NGZ6Vko4NlNaYUFsV2J4X0o0UQ?oc=5",
+      "title": "Clorox seesaws amid speculation of takeover interest",
+      "snippet": "TradingView, 2026-11-11T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWnNpSk1UWmZaR1pPRmk1MXpXeHctOEVEek5oNmtvb09zNkJSSDVMdnhUZjYwSzR5MjNnMXdUQ3l4VVpTME53M3hHNUZYUWcyOGhjNDRkMFd5OHZhQ0lFb0xCeENqMERTeFZveVhFRWVPbW1VZUQxMVlZcUZHWDZUZmZSS3JUdTJhWU52aEdhejVkLTNqd09oLUZHRVdqaDFBSjZ2bEVveXlURU9xYV9wZGQ4bEhZS2lzUGJBcl9GNVdaQQ?oc=5",
+      "title": "Clorox (CLX) Shares Rise 2.4% on Acquisition Rumors Amid Dividen",
+      "snippet": "GuruFocus, 2026-11-11T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV2RlZEVyekxqNF9hcjhnX2k5SXpLYlpsZGp1TElmWmh0dkJtUDZFRUJ0ZkY3UW5fa2JEekV2TWRqRnllVDJIMWhwVFpVTURVMUlBbElLaEZoVGk4VHFaV21tQWVlSUZVQ0g2aERWVjcyWUVzQzZ3QUQ3V2tqUlFrMUxicEFrQlMyd2VvX0FYamY4ajFwVG9uZkVIaXJwOFJaQnFqVHV3?oc=5",
+      "title": "7 Green Days In A Row: Clorox Stock Is Up 21%",
+      "snippet": "Trefis, 2026-11-11T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTZNN09Ja1JSa0tXVTZGY3cyaGtEZUFuY1lfZEZhUkJaTjRtNHJ1cnRrUDBtdHhBQ09iZlVuaDBwamR0YVRaVGNiM09DUDFvNFIyanh1RHllMzhCWlk2UlhwTk5kdlpGWm5pZHJuOGMtdjVEQXJ2bFczeDgwQjU2alFKdTRSZWtNQ0tj?oc=5",
+      "title": "Why The Clorox Company (CLX) Stock Is Up Today",
+      "snippet": "Quiver Quantitative, 2026-11-10T08:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOTRKMENrVVRBdER1enV0cHFkX2RDdm04cXBQeWs3U1d0WHZoU3JYdkdsVnh4MXR5cGxzT0tRd1lwS0JSVGNXOTJLSnBDUnZxN1FkcVNiWVVtd3NENXVWWkxVN0Rndkl2TDlIZk9nUUJaeGtaWVFLckNqbThGaDFEeHNKZjBlNW9vb3FzMVNkbG94T0FFSWFHNklTVlhEZ2FxMGlIcGRtYW1HaXVpRVJ5enk0cUJ5b3V5RUFEeGkzazNFUnIwTDBR?oc=5",
+      "title": "Beutel Goodman & Co Ltd. Acquires New Shares in The Clorox Company $CLX",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRzgxOVRyLWU0bVBqU1pndC1TOVRWM2Itckh5THZQWFc3WjcxVGlCckwyQmluTlRRa2c0NUlZRjU2Zk5XUnROWkJwemdHVjFjZHVWZ01jS3dZc3p4Z2o1ZmhOakstWDBmTUxyQXBVaXEtZnU2YWdBV21kd2R0X1NoUkJ5aWtSZzNKV2V5TElUWWxuaGNQRHM4ZDZDZllFMEkxXzg0WGFqbkNnOGlidHRGbkxJbmdUNEtyQjZNZ19JV0x1WlUySnM3Zk1zdW9QQ3g3aTRv?oc=5",
+      "title": "21,394 Shares of The Clorox Company $CLX Acquired by M Holdings Securities Inc.",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 109.46 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

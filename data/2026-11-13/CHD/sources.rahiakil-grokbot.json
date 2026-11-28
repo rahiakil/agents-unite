@@ -1,0 +1,85 @@
+{
+  "ticker": "CHD",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Church & Dwight\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSXV5T3ZtRnpPVVBPb0p0NDBfY0dlOFRZQ0ZQdTNQTC0wUWVnZS1OendEZEQtZkFJam5SUTFDTEdIdGFReGoxcjdJeDNxS2Fkal80RVN2OEkxTU5lOXpfX0JveXRiMDRkMUNjVzlOYXpoSTQtbDVYZXoxbWUtY0tsXzRhdTMzeVFZX0c1UWtGdS15bk5OQlZCUmFnQ2k0UjVjMHp6M3RfYWJmVlB5U2U5Sy1YM0lNTG9Bd0E?oc=5",
+      "title": "Church & Dwight EVP Surabhi Pokhriyal sells $2.44M in shares",
+      "snippet": "Investing.com Canada, 2026-11-13T08:36:03+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-13T08:36:03+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUm1CTEdHbjRKNU9fZnFZZ25KZlBGcVJWYmhCNGI0YUR2TXZ5QVdZLUN4bW9DYWM0eHcxVEhjNkFBU1FlekQxbXhJcXdEeFV0cGdFb0psbFhNMlY0RjlmZFc0eE5FWHBfQnpsWWhhblktQU9KdS1IQXpqUUxBOFFsWWdjbDAxYmpIVnhETFVlQ0VsZURjRXc?oc=5",
+      "title": "PG vs. CHD: Which Consumer Staples Giant Has the Competitive Edge?",
+      "snippet": "Yahoo Finance, 2026-11-12T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcmZxTUhtVldMMk94TVNjMXR3OGthalRsMHJOTVo2ZTZHU0NMbE9HZndwN1V6MjhkR1gtTnAtSzdUTEJjazFjRWUtOUU5ZUxGSi01UE1EaFFoVU80S3ZjSzJNc2NXVmdhc0hRblhPR0dQNTF3Q3UzMWYyQ29QLVFQNUNZMllXLXZPVW52ZVR1MTVRZHBsOW1ndlNOdkQwUzllRUNFeVFjT1h2ZGZxWmFqY1dpYkpsLXRLQ2JJQXgxNS0yWndvRUtHU2JDVmRpSG8?oc=5",
+      "title": "Church & Dwight EVP Chief Digital Growth Offic Sold Shares Worth Over $2.4M",
+      "snippet": "TradingView, 2026-11-12T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVAzVDFMLVNpOXdvT1hXWWJjSnhXMlNiNE53OUdCUC1NNHl5ZGtpMUVSQlpIMWFFOTF1ektPRFpzbnk2emxaNUJYdXdVVDF2bjVVZ0tEZVNuT2JiWmhCQVc3Sk5PQ2k0c004OUF5VEYwcTdPQW1JejhJVTdaS1UxRmR6VG9EcThPeW12dEdWcDZWTmxhc0p5azZ3Y29rX0g0MGdFb2llSklNWFY1TzI5c1prb0wyMTDSAbwBQVVfeXFMT2hxcGNHQmNSWFlKcUNYYTVzRGVtYXlENThaMHVPMDFKMVdWMjdoSExpYlJ0Z2l6RkZsanRtT1hTSHdtbTRmOGphMWMyOEhmaHlZc2hVNTNoTXhrLVQ1OWZiY2c1Ump2NXp6LTB4dk5RUWtuc0s3amNOdlJwZTdBT1ZzSXFNa3NVc1EtR2l1bENjZ0lXVWRXdHk2a0YxUWx1VDVRSnlpdF8yLURISnBEZ3pRSjZ2a0t4cDJmdlM?oc=5",
+      "title": "Why Church & Dwight (CHD) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHD/history",
+      "title": "CHD daily price history (Yahoo Finance)",
+      "snippet": "close 113.0 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

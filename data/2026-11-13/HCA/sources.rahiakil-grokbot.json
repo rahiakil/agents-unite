@@ -1,0 +1,121 @@
+{
+  "ticker": "HCA",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HCA Healthcare\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYmV3M3BfMmtxR0hSVVJ1R2Y0QlJYX0hvWjNhbkJtR2FLZ00tbE0xaEJlcnc4TUplVWZHNnZNd2x0RHdnS3JMZTUxNUJrd0pUNGEtN3BGaldqMlk5NlZTNElCSkdiUFBuWWlDRmItRENJOWo3OElBNHo0SFR4S1F3Q0ctb0RnMldoam1LanNZdlItcjJhZzAwRGJKRjAyOVR5eld0Q2NOWjFGbWpDM1ZoYVd5OUVSZV9XTU1Vb3dZa2NWX29yNVVDbjRRRQ?oc=5",
+      "title": "HCA Healthcare stock faces flat 2027 outlook as payer pressure grows",
+      "snippet": "ad-hoc-news.de, 2026-11-12T15:31:40+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-12T15:31:40+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLVpEa3hUckNtMFNfSDZJa0RpdUNTLUhTMDJUWWdKRnh0YkR6ajdsZ0tLc3U0UU03Ri0yTHg4WXNVSy04Z2dNYjQ0QnRYeVVMM3lHY0F0MjNybUhNM0pTMktKQ1prMXNLTEQxa2k0MGRmSU1tMmMyQmJwZHhBU0hPc2tmY2pqYlJwdWZZVFN1ZXVxVlNRR2gzRGR3?oc=5",
+      "title": "What Really Drove HCA Stock Higher?",
+      "snippet": "Trefis, 2026-11-11T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONjJKZnVrWmw5a3U0VG00UVZkdjBPdHFEamJ0NjN4ZVNuNnRaWUVWcGpzOTM1VHBVY202cVFmTGhfLUQ5bHliS3YxeXRZVEo4NENDa2txQ19UeE1DdzJxaEpfVkFYamhBTkZGeDdmTVpoUTRPc214OEROZGVKVGpYODRFS2VKNlFiRmdNenZuZ3drVDgxRWVWMzFNenZmWXZtaHl6TEVWSmx6NjFVeVBtbGt1NG5YZU9rUUlsQldSa2xIbmdsWERiTmx5UHFFTnhGNzZFSWhUdWYwbGFLVFV6NGRCM0Uwa0VHOXhr?oc=5",
+      "title": "HCA Healthcare, Inc. (NYSE:HCA) Stock Has Consensus Target Price of $480.13 According to Analysts",
+      "snippet": "MarketBeat, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbHRHNGluVFF4bWFmZkE0a1lSZEVubmdXc1FUZ0xTMWNZckxrNVF1T3pBcTBod0FtUVBWTFBvRWJRM2xyZG04VGlxUFFMdEJ0LXNEWG1aektRS1lRck83MjFKaHgtRzZrbldfcDc5WjZveVMzUTlpUkhkN0JsYkNlNjhFWVpyQWstOGVqRWNMMGdndFZZd0ljbDR2WWtSeC0wQXowTkNQMWFaa0lSa3lua1AwWXpnMU9iaUE?oc=5",
+      "title": "HCA Healthcare svp Erica Rossitto sells $1.77M in stock",
+      "snippet": "Investing.com, 2026-11-11T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY3hmNEM2MlRGNl85bXpCbHJZY09lZG5ucWlYWDJZWUl0Skxma2RwSE45MmZ6VXVuM2EwYktua0N5V2FCOXYtUlZRZ0ZxMmxFUHhXLUE5VVFTeXh6ZWliamZhMVJxUnFwMUdQOVdnZmVoZmI5dU81UFBYVUlQQTlVSVZmaUlRT3A1cW8tczhUUEVEakd4enJGOXFNdUFaa0dweFF2ZUFIT2ZBdDJTZGNGeHYwRWQ1dEZ2T3pxM0F5TmZ1R0pJd2d1bA?oc=5",
+      "title": "Behavioral Patterns of HCA and Institutional Flows",
+      "snippet": "Stock Traders Daily, 2026-11-11T08:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPS052dXhzWk4yYWpGSE5VZW9seHVTN21DYklyYW1RbUp6bGt1M1Jacm9KRW9HYW9JT1ZVUGZnRzJJQk5BTnFJNTFqeTE3WjhLR0tnRWwwbmltQUo1QnRuQW8wYkZpN2pQM3dnVlpBejdVeVhoNGczRFRYOWpjbC0tMTRGU1QtcFdoT0pzRW9yQ3VYRHB1NnhZS0RRbXFBTnNhWmFHcjNiM29Md0p2TXoxQ3NzWEpnMUU0S1ZRSll3d0dKeHNzcUl5TDJHc0VRZmw3UWd1N3N4UmxwY0U?oc=5",
+      "title": "Form 4 HCA Healthcare, Inc: Erica Rossitto (SVP & Chief Nurse Executive) For: 6 November",
+      "snippet": "Investing.com Nigeria, 2026-11-11T06:26:18+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-11-11T06:26:18+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWW5xa09TbmVkNUJ5QUtaMXlHWXFIX3pCbWtPeTlwUEV2UGRxR0x0MUlrUHZmc0xfeElpUkdkYjhGdk8zWDJnOWdydklLT3k2cW1uSHRFMjZfcjNUS0JYcFdqOTRKUDBSSnFYVks4dERsdU56bDZhNVJLX3ZtZ0JEYmFyNXBVME1UdW9VWXNPQmJTYVhKUjJtM2tPOW01UWJJaWFlOVEyeERoVG5sU0lzQnFBWFlGNkpDMWNTbkNNcw?oc=5",
+      "title": "Here's How Much $100 Invested In HCA Healthcare 15 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-10T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HCA/history",
+      "title": "HCA daily price history (Yahoo Finance)",
+      "snippet": "close 499.05 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

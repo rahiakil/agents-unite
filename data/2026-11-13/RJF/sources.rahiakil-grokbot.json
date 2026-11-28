@@ -1,0 +1,85 @@
+{
+  "ticker": "RJF",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Raymond James Financial\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOM3YxQTNpb2JUbU12X2k0QXRDV29GWWUzZ3gwUTNxRXFWeno3ekx3WllFVzR3UG94V1ZLOXVVY2hBZ1pIM0YtRXNlYkZOSFI3ZEtITDhZYThVZk9pRFU3cDZsdUZmaThtbHgtOFpxclZpbEdqLUxkeXRtQzBqU1RNdXdNdC1KS1JYTnVPaUJrd0xiY1M4eXZpTmswMnE4eERtNTZ6dFNpNXEwZ01yMEhmRlJZZU5GU01CcEFPdXNEV1hweDNGVVNxbW5RNElKdHVPS3MybFV6eUY1WUpIZU1hOE9EUkV4YldIc0QyX2N3?oc=5",
+      "title": "Raymond James Financial Forecasts Strong Price Appreciation for Bird Construction (TSE:BDT) Stock",
+      "snippet": "MarketBeat, 2026-11-12T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5YmRLT0hDS3RRM2pjc1hzb0lsa0dPbW5uLWJfeFVaX0ZGZHk2S2tRN2pwcThDOVlvVUpwOTNJRHJZSE1JUWtCT0dkb3NGNk1aOXlsRTN2VWQ3a0lkVkVHVlN5NExzQlJ6?oc=5",
+      "title": "Raymond James Financial",
+      "snippet": "Forbes, 2026-11-12T08:00:00+00:00",
+      "publisher": "Forbes",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ0R0amNYVkNXVWI2Z0NXMU0wdHdnb0tDcFZZMXFhcktLVEJTRGxRX0ZDUFdoNF96WVV3Vy05cUh1NjNXMDNuOTMtR19hTWJrT3dKM0hBNGt0NmxobncyNW5vcmxMNy1udFFiaVU2cFhKSnlOamZZczBhTnJyb0g4RG9FUGNKYVNXZ21ZWi02UUplS29jZWxUVk8tOA?oc=5",
+      "title": "RJF: Raymond James reports $375.2B in 13F holdings for Q3 2026",
+      "snippet": "Quantisnow, 2026-11-12T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZlBNZGRyWVVKcF9LaThmMl9VMUhSTkUxLTJKV0pabUstLWpJRUM4bll5ZVE0clcwNnQxdnlZeFhxeTV2U3YtT2VVam9FNGZuSG1uTFFIajhKRU1ENDRiNXhVWm1WRXZJdnJhOUFtVGVlSGF6aHJ3ZGJCc081NEdnZ1FhMnhLazIxVU9YUkJhV05NWlZXRWZIQTBOZEI0QUduUVFZWjI0ZmN1eUhDUG15VU1zMHA2bXhQZ19SeS0wbTlNZTRTQnUyQVljald6YTJfMnc?oc=5",
+      "title": "Liquidia (NASDAQ:LQDA) Stock Lifted to \"Strong-Buy\" by Raymond James Financial",
+      "snippet": "MarketBeat, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RJF/history",
+      "title": "RJF daily price history (Yahoo Finance)",
+      "snippet": "close 168.64 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

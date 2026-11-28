@@ -1,0 +1,61 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLVBuWnBLWXlxTWxpaEd1a19rWkRfVDRGU285aVNHbFl1bGdKd2VDTmp2azA2WGJGNEplQlltRE5fSW54Ml9sMFRXQUtYckp1aXhUQ0prMUl6ZTVDYjM1YUZlZTN4T0F5cHc1TGJQODJzOXRVWDhvWUJDanhWUkwya0hpZmhEQTlKRFhZS3pZZkRSYzhQMDZWaE51VFB6WG1ET3c?oc=5",
+      "title": "IQVIA Stock Jumps 59% in 6 Months: Here's What You Should Know",
+      "snippet": "Zacks Investment Research, 2026-11-13T14:31:56+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-11-13T14:31:56+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcU83X3FfS0lqTy1ERDJkZFhWdzgyaVdacXVtQmMyZzNaWmMyYXo4S2NTZ0VyVkVXU1c1d0E5aDVyMjFDcXNtX3BvUWxUU25nN0M3WDFRRmVkN3o5S0VMd3VJdXh2QVpNY0pVWW9YLWZkWC11UGlQa0xxdkFlYmpqbzYyQ0R5bUpjZ3F5NEJlSE9KVDlLMWdyNFQ1TVBoU1RWWlVMa2JIZV90Z0xhVDhIY3R6MzFOVXBPSW5kNTBkcFRvcU5TQUs2QW14Q00zdl9CVkE?oc=5",
+      "title": "IQVIA Holdings Inc. stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-12T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 265.12 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

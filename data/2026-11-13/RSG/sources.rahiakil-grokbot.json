@@ -1,0 +1,85 @@
+{
+  "ticker": "RSG",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeVZhUzl1UkVfRTVOak40R3VuN1dTOVhvbEE5Qkk4RXI4Tk5OTmdUdkNXVTRxQW1kVVFmZ3BsNWpTLXlNUnR5UUNSU3BzaGFBc1psWE9qcnZ1S2VxdHJuY3FjX19wQkVrMnYyclowc2NqczRlbnlMYW03M20wZWx2MXdDOUN6a002R2VBcXVHcVBoUV9DTXlsZ29ZaEpZZm02UGY2czdCWkh3c25zZW1WNm5LbVdvQjVSNmxZUWFqZVpvVUxWTjdLYlJxdEIxS3E0ZnEyTmsweTJYb1JlM0E?oc=5",
+      "title": "Republic Services Shares Three Simple Steps for Recycling Right This America Recycles Day",
+      "snippet": "PR Newswire, 2026-11-12T11:04:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-11-12T11:04:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdXlvN3BXZ0JZZXUwdXpUblpDLUFyT3pyc2ZPa0hMb1JPdk45cWQ0WDlmZzU2RWFGaUZZeGpWU3J4Q0FRbEdLZjZIT251eV8zTFp3YUpOVlg3aWZPeFBSaHBMdk45eGoxMktoRFVNVE5oZldQSEJIaWFnZkJPSWxwWmYzdjJQVDljZ180MkpaRl9ZUHVzQWpZ?oc=5",
+      "title": "Republic Services upgraded by Argus on earnings growth (RSG:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-12T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWWEtNTNqdVVFWjB2VjV2ZjNHdTdleDRocGkyWERCT2g3eTVpbUlhS2ozWXA5c2tQb0NGRnF6cEhiT3dEbXdRVEpiblJNSTlQR0dXM1BlX3NERUw5VFRMZzNQX1hjR1FCemJRQjluaVVkTWVCMkxYWVVvdng2aFg3QmduOEFlMnlnQXRUa3FJa0Q1SDN6amhvdw?oc=5",
+      "title": "Republic Services Shares Rise After Argus Upgrade",
+      "snippet": "Moomoo, 2026-11-12T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-12T08:00:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeG00V3UxVEs0TG1Tci1qN3NRTUU5UTlrT2NaaEl0R1V5aTFjVEdDbFBCaGdVUllPRy1oeWxaU1oxTHJWS3BseHpMSmNnNFdiM095cTV6eFZhQUxTWFMyYnVKWmFDMEdhM2dhSDM3ejB6N2hSakVHU1VLLWhCajROTW1xMVF0T0tPUzlFVUxGUlAybzFnNm5FdHozc2daZDZGekdEODRQS1FlUDg1dDdr?oc=5",
+      "title": "Does Bill Gates own landfills? Yes, through a big stake in Republic Services, ProPublica reports",
+      "snippet": "Nacionale, 2026-11-10T08:00:00+00:00",
+      "publisher": "Nacionale",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 252.99 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

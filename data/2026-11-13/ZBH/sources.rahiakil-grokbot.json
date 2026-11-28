@@ -1,0 +1,58 @@
+{
+  "ticker": "ZBH",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zimmer Biomet\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSaVBKNkhuSWlVZEZySkVQMmZZSW5rWVZTRVZQX21scU1IN25EakRSeHQ3eUJ2QTVwaEx6OENMY0kxbURkQ3lYWXZGSC13TFppXzJJSkdSNEg?oc=5",
+      "title": "How Investors May Respond To Zimmer Biomet Stock Surgeon Guided Autonomy Launch",
+      "snippet": "Webull, 2026-11-12T01:06:00+00:00",
+      "publisher": "Webull",
+      "published": "2026-11-12T01:06:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526458323/d118853d8k.htm",
+      "title": "SEC 8-K filed 2026-11-12",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBH/history",
+      "title": "ZBH daily price history (Yahoo Finance)",
+      "snippet": "close 103.21 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

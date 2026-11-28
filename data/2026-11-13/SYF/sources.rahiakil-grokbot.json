@@ -1,0 +1,106 @@
+{
+  "ticker": "SYF",
+  "date": "2026-11-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-13",
+  "news_cutoff": "2026-11-13T21:00:00Z",
+  "generated_at": "2026-11-28T01:30:52Z",
+  "collected_at": "2026-11-28T01:30:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synchrony Financial\" stock after:2026-11-09 before:2026-11-14",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTHNNQ25kdXlUVDhma1Q5eGZXYkluT2pkNm0tcFB1TXFzWm1odmNITm9zQWJ0N2NMdmthQmRwbVh1YzNpODJ2dkJIdlRiTjEtMkNxZVFSdkdZLXpmSEJBR3VDc0NZNkZmTzlTZjZpazI3dFlRYzhWQkxMbHJkMUxrTmEtQWEzVTZ4c3pZVGVnb3VNNHo5amM4SGdVT2VIVVNQM2JVSVFB?oc=5",
+      "title": "Synchrony Financial Sees Several Paths to Double-Digit EPS Growth in 2027",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNajdNRDZySTJ5cmZfbEJUc3p4SUltR0FnRUZROW9NdzFxS21DV18yMWtsNG1sVk94SkFxTWFIOEJROER1cFNJZVJUVUZJTGNGdlNUd19iTVYxS2J5WHY5aHlINE9mQmloWTd4cG94b3RFM0NmSEdwY01yV2tLNl9VV0poY3lJT0o1WkY4SFl5MDhtMHNOTW1fcHYzelJKT0U?oc=5",
+      "title": "Synchrony Financial (SYF) Stock May Still Trade At A Discount On Earnings",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZmVLTEh0dHBNNzFpMTNOYzNleUdFamx4RjNJMktSbkRrcTVFMVJsZ2lpRUZoR1NiMnNNbW83UGNSQUNiYVBQYmktNlNCTUt2TmRudmdyV3JnWGhGRUk4MTZ4djItMHk5ZlZfU1ZxejZQcFNTd25OeV9zZVhBUlhERkN5MDRpN3p5S29JZlBsZFpRUjdaNjI3M3h4NUpDS2VKTkhmNlRB?oc=5",
+      "title": "Synchrony Financial (SYF) Dropped, So What Is Behind The Latest Attention?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Pam1tUXd2ZXUtOEFkdGZ4YVVQUnExTXRKRFlXU2VlT3lpYkhUM3NIR3YtU0xZMFFSNHlZZjhnaEJkS2RMVjRoWWUtbUxfU3h5eHVkZTU5ZEVTUDl5Rm9yUERTSHkzZw?oc=5",
+      "title": "Synchrony Financial at KBW Fintech Payments Conference Transcript",
+      "snippet": "GuruFocus, 2026-11-10T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYnZjTmtqZUowcHRBT2VFVzhtemVraEUzSjdOcEN5aFVQbXBMYzBodXZKWGR6c0JDdmc1ZEl1Y1g1WVpnNTdQZUVsV2V1dWtXTFpxbnR1Rm5Jc2t3ZmdteW9KakdoOFQ0eVQxdHN3aE05TjBGY0taYXdTOWZWemhRVkFMN3lJUHJpMFJBXzRfdFB0TXNBbWhzVDR4Y05TVmVpbTh3YlVTSTdmbkh0?oc=5",
+      "title": "Synchrony Financial Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000045/syf-20261110.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYF/history",
+      "title": "SYF daily price history (Yahoo Finance)",
+      "snippet": "close 72.25 on 2026-11-13",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

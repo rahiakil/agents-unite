@@ -1,0 +1,61 @@
+{
+  "ticker": "NOC",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northrop Grumman\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 30,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 6,
+    "irrelevant_or_spam": 13,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOHFQTlpOYkRwOVpyek1kZjJkT3l3TWFRczlrNTlBazZBSTlGeXV4TU1ITHlrZEJfMmdYVW0xWFRudHlyTTlXS1NmOS11aS1MQmY1aUNtdE5NbHZxTk9RU05NWjF0UGZ4SWVXd0RudXRYWUtHVF9wYW9ua0RNOVYwV3llSXFMWUNncEdtc0dDcDE3eDBNbGxYOURXVmRLY0pnXzZ3OXo0Sm5uZm5fWVFibTdsd3dYVEhSTW1DN3BrV3V6cTQ3WUhHWkhLcWs1dw?oc=5",
+      "title": "Why (NOC) Price Action Is Critical for Tactical Trading",
+      "snippet": "Stock Traders Daily, 2026-10-30T09:10:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-30T09:10:01+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQUhfdTZnWmdyUjQ0NjlKXzN6V04tZ3J2V2hqdWRxcl9XWTZMbGMzZDRYdTRfZUJrRDFEY0N1aWpKdGhKYzVJUFBnaG1wanNDZV8yanlrNXFZVVIwRnV3UGdNRDU4NjVhUDh6c3JjTm5pdjlJdmZoZy1BcW5aUERGdHpJbTZsM2FEd1RrSEhFUUZKSTVxR2VSRFZuYw?oc=5",
+      "title": "Northrop Grumman (NOC) Stock May Be Fully Priced Despite Defense Tech Updates",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.162,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NOC/history",
+      "title": "NOC daily price history (Yahoo Finance)",
+      "snippet": "close 557.54 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

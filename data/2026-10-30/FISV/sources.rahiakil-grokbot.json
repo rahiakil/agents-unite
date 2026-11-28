@@ -1,0 +1,121 @@
+{
+  "ticker": "FISV",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSW9EVzUwMFZ6cGlwcFJyMlZYY0EyajN5UkNZbWF6M3ptdDhjM29kaWEtZEFHc2VqNU94dTJYT1lpbjFrRzZ3ejBiZ0N0QnloRVRWSjBXZW9Cc3pOdjRfeXNPZUdpOUhKaHNCVllyNXJDZ3JsMVlZMFU3S25XWS1uYVRXbm5yMVJsTzNYdEZDdkFFMjJGdjJYWS1hU3VYYUJpRGhQdUQ5NW1maFFIZVVUcXVMbFhGZ2lW?oc=5",
+      "title": "Fiserv stock trades at 44.85 euros ahead of Q3 results",
+      "snippet": "ad-hoc-news.de, 2026-10-30T18:05:59+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-30T18:05:59+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMUEwMzJDMU9WNVg2Ynd6WWg4YVFuTW1MRk5rVERvZ3VQSzdNYjQ0MVQtOTNPRW9nTjFuRmM5WXItbnJIY05zMWtqMjA5bEszZm1VRFBTZjFuaUNGTGJtZE9mbjVVOWZ5cTZRbjF0bU14ckROblFnY0VDcEswQ0VNTW5OX2pMUTJPbDhJekxkSmpQNEkyb3ZtV3FZQm16dC0w?oc=5",
+      "title": "Fiserv: Price Is Down But Strong Fundamentals Remain Intact (NASDAQ:FISV)",
+      "snippet": "Seeking Alpha, 2026-10-29T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.665,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV2pDNUV1SXZxZ1hHbnVGWHRtRWtOWDZqeUpIc0tnY2ZoVWtJZVp6MHFmYnJONFZ6a1RKT3IzVEVVX25aeHM3a2JoREQ1SHZRdVoxQ0p0SFRoTUVtemhJMW5DLXc0WVRHMjA5T181WkhNenR5YTZuandla0QtUzJhdklhUEFheFoteTlpS0lwRjZtUE4zLUhIYUpmYw?oc=5",
+      "title": "Fiserv shares post their worst day ever after a brutal guidance cut",
+      "snippet": "Startup Fortune, 2026-10-29T07:00:00+00:00",
+      "publisher": "Startup Fortune",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.844,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa3pjWUtyNlB2M0R5YnRaR2ZtZ3ZtMmNXMHhMaUFrTWtSX0FSZkMyUDJSQ2tITlBiY2FzcVdiUFdoUW50TWNDQWR5OWZrQWxvT3lDSE5nUks1eVhOcUhzVGNMcWM1OFZIRFlpd1dieW51aEtmMnZ3bDZmZlRtY1RLTl9QbDJQWXFHbW5mOG10QU5fTnlQ?oc=5",
+      "title": "Fiserv remains a strong buy despite recent guid...",
+      "snippet": "Pluang, 2026-10-29T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVp3a1o2QjBDNDhPZ0pyaEZpZDdJeDVyWldLS0VRc1FPdUFQQnFsR2FLNkNWdUhPbS0wSm03cHU5WmpKNExOVFNRWmdLRFVvR0dXZ2o2M2FxdUMzb3ctQnpsa1BxUnc0UGs4dFNFMkpNYTRSRXYtNFhaYW9YeXVlUUZOUWlUZG5veF9nZ3UwWWgxOWpRUkJKUUQ5eTRIUEE?oc=5",
+      "title": "Fiserv (FISV) Launches Commerce Hub Globally",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPV1FrSmVSclhqZ3FkQlhYTXJTaUs1RUxtQXdxUTRxRWdvbmNuMW1oUE9QUlpNVTN4T3c1R2FkTjg5cWk1VnBWYk1xTXdIQlZuVWVtREMzSldiSmpiWG5TbkpRcnF2YndsZkNpSGFIcXUyUWhZNDJrMDZ1bnlRczNnUFpSX05OeTY0amc?oc=5",
+      "title": "Fiserv CEO to present at Citi\u2019s FinTech Conference on Nov 10, 2026, sharing insights on financial tech innovations.",
+      "snippet": "Pluang, 2026-10-28T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMDdjY3diRktmR3FpNkhISU5fc3g3WW82X0NSTmRxRmJwZ21zTEdOS0VyS3dxOTAwOVZLeTZyOUtUcElrckFockQ2WUZWYVZMekRaR3RQNGRpTGl5Ym42XzdnZVZxcXg3QnNnTmxjNFlsWndDb0hJUzB1VGVQSk5mMGZoYXVvTnpSVWl0QkRnWUpSbXB6MkhTanJUcVpNZFpvb3MwQ0FFMGkyV2N4QXBkQ2cyLWQtNHNlUTF5alczaGZYQkNTZWJmaw?oc=5",
+      "title": "Citigroup cuts target for Fiserv stock from USD 57.00 to USD 53.00",
+      "snippet": "ad-hoc-news.de, 2026-10-27T21:18:17+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T21:18:17+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 50.02 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

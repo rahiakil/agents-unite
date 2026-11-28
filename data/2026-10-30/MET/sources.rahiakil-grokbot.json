@@ -1,0 +1,97 @@
+{
+  "ticker": "MET",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3hfTzZSVzVhM3N4VjV6S0F3RnJFR3h1b2ZzVWUzejFhcWNGYmtCUjhmektyVGQ3WVRpWE80eHpuaUVLYlgtOXQ2VDFwUWNKeUxFUVEzYUVUaXRTNUE1Qml4UTRremFJSWdEdTVjYlJNTl9YLXBNOU9NRC1UeHlONHBQb3dpa01CMEF5RFV0Nzg4cEhWMXRWS1RkTnpzd0ZsMWVuWDh0dTRGbG5fOFVtX0tlU0xEOTh5ZUVuN043bXVKV3Nj?oc=5",
+      "title": "MetLife CEO and CFO to Speak at the J.P. Morgan Financials Conference",
+      "snippet": "Business Wire, 2026-10-29T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaHRzRmg0MnF6NTJPNTVpdzVPSTZsWlkxMUhydmE2am5WclBXd2Z4aXJFUElSaWtyUzgxd0xCSHBMVDk2Wk54WlBodlZUZEtvWU9CTld5MW9Sa3Y4bXVSNTF6VS15ZjNHd1FXc2ZoWWZnV29NOGpNRU1EVGN4aEx1Tl9ILWVPRGhPZlozSmU3d1FwRVRwY0kwNWh4WjZQbnJuVXliSHJ3?oc=5",
+      "title": "Should Class Action Settlement Require Action From MetLife (MET) Investors?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50Ykgta1AwY1hWbHp6MFJtZ3U5enRyU19mUzhrdUNhWDBDcnl2LXFnV1RJTGJ2Z08xVXlxcjlXSi05UmdNZjhsdkp1RmgyelhaVVV1U1VsTUVGSWFMNHJzVkN6YXlsZFEyRWlwZVJrYWJEdXJSMmc?oc=5",
+      "title": "PineBridge Taiwan Renamed MetLife Investment Management Taiwan, Leveraging $748 Billion Platform to Target Taiwanese Equity Funds and ETFs",
+      "snippet": "BigGo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRjRFckpVWVBLSjE5U1A5SWRiWk5pVHVXdmxwdHdPZ1p2V3dmV1N3cHhJRVotdHdSNkU5eEZRZEFYaHhzUndSeUYxOG9LVjZVOGpPdFVwRk91R0dRcDJHem1TRFVqUDl2LUhmZHlRTk03YXEzR0xPTzdXbXpfQ3pNNlg2N0V0WTJKVmpZaXhqeWtvV1ZyRFE?oc=5",
+      "title": "MetLife (MET) Stock Could Be 42% Undervalued Despite Policy Settlement News",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHBWa2hmUFdITFJVZjI0NUdlZlpXWjhubUVyMVRIU2h1RGJ5cXQtdnNLZGxyRHRFd0FaNzlKdVVxT2FuNUxEekJZRnhQUGxsRDBHV2tmLU1DZXdfLWpTSDNQcW4wdE9rTVgzdDZoakR1eHJxb1FRVTBXQXBkWXhjUk1CTXFsbW1lSlE2SHhJaVVER0ZSb3dyYmw1WDlUWXRiS1BnS3FNQQ?oc=5",
+      "title": "MetLife (MET) Settlement Puts Its Undervalued Narrative Back In Focus",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 100.02 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

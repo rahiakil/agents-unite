@@ -1,0 +1,67 @@
+{
+  "ticker": "LYB",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnR6RG5HMXdkQ2NsckxYeU5ZTmQxd25SZ1AxNm8wVkk2QnBYUXhzLXREZGczMUl2WjduZXY3N0FURExuaDVuc243SnNQbDVVX29TNUE5bXRNbUtWUkozMngwRGxPd1lDQ20tM0RBaHhVUmVfVEw4U1dIdVprQU0zY2s1LVZUWHVldjhtVFB6NkRxMDA0LTRJbTM4TFhCS21ZZzl3d0FpS1JnSDVnNjduRl95cw?oc=5",
+      "title": "LyondellBasell earnings on deck amid petrochemical headwinds",
+      "snippet": "Investing.com, 2026-10-29T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000067/lyb-20261029.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 2.02,8.01,9.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000070/lyb-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 68.64 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

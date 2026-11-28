@@ -1,0 +1,49 @@
+{
+  "ticker": "GL",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Globe Life\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeXRDcnlsWTRxRFZFMkdTOUtvVzl6bXFGSGtVamZaMmE5Q0ZpbWtiWm5QdTh5dlhDMHpqY3J1OXRRV3dIX24zY1k3aF9FNXJCV2hhTFphSVhHTnFlX3Z2MnRqVjVsWkxOTlNrUURyOXVwZzliMVNYYUZDZE1HNGVXMUE5eVdDci1GU0dOWGhMQTFmRzNkeDFNUnktRXF5NFBIS2xpdA?oc=5",
+      "title": "Globe Life: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "The Motley Fool, 2026-10-30T14:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-30T14:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GL/history",
+      "title": "GL daily price history (Yahoo Finance)",
+      "snippet": "close 159.08 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

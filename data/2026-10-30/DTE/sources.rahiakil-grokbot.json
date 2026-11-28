@@ -1,0 +1,61 @@
+{
+  "ticker": "DTE",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DTE Energy\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPczNKQl9TTVZGbGpZcWdwb2tYclVMaWhSN0F1eGxwRHdjSDRXaVpJWTdTQU5NMFc3OUxCeEJidmtXZU1GODVxT1FDV3ZiSWkyc2YwZExPMFpzYzNPenpHTk13WFNTM2tzRFNMLUs2eEQtLW9tMi1Ld1RtU0RzSjJPaG5JVTFhTmNxX0x5RDFqYTBtM3I4bkE?oc=5",
+      "title": "DTE Energy and sonnen Launch Michigan's First Residential Battery Virtual Power Plant Pilot to Explore New Ways to Lower Energy Costs",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONXBHMTJjZm9DN3gtbmZQQ0V0aUtLbEtlRldTVDhMaWNLekZ1UmRWckdJc2N0aTZqZURDRmN0V1E5WlY3Y1NtbTZEcUtjZ1YtMk1aeWZLUGJQMkdWUl90M2RyaHU3dGFaQ0ZSMUk2LThJaEFZZThkQy03ajdOZEdrVUlnV2xxbUJ5MXVHOVFDWkJYUnItbkpQN0VRMW5KZw?oc=5",
+      "title": "Analysts Estimate DTE Energy (DTE) to Report a Decline in Earnings: What to Look Out for",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DTE/history",
+      "title": "DTE daily price history (Yahoo Finance)",
+      "snippet": "close 135.49 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

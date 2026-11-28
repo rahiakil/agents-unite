@@ -1,0 +1,61 @@
+{
+  "ticker": "PAYX",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paychex\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ0hnT0p6VjhaOXJxczY2S0RiZkIzNlo4VnZRU2ZJZEZVYVkxZV9VTU50NmlDejRjRGxYZUw0MmxNSmJsWkpPekplN1VlQ1Ewcld3MFZLU1E1QTdocTE5QW5QTjRwdXJvYzd1Y2tYQnNVdmpCa2dFal9BZ1B3d0NQTlc0eDNSUHkwOVlaSXp0S2hRb1BTTGVVekIxNFRQVnRwLURBSVJyYUF0WnZvbGd4NHhydEo4SVpFQ0JtbXFRRUQ?oc=5",
+      "title": "Paychex Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-29T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVnNjSEc3Rmtud3A5UGx6TmZPVDFfZXkzRF9TV1UzRjE0Rnhobl9yVUlrcWpxZWpVdEcySWpUM1p5bWQ4ei16WjBXMjRRUWxFSzAyTkFmSko2MFRjaGdSRWhlR3B6YllhQ0lfVklFWVJvMFlYbXJ6WUoxVWlIMTRrazg2UTNOQWoxNlVFQ2doNGRpZw?oc=5",
+      "title": "Paychex, Inc. (PAYX) vs. ADP and PAYC: Can Its Dividend Moat and Recurring Revenue Strength Restore Investor Confidence?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.827,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PAYX/history",
+      "title": "PAYX daily price history (Yahoo Finance)",
+      "snippet": "close 112.12 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

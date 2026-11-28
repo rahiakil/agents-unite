@@ -1,0 +1,97 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSVF3aE8yb3lVRjhVTFlOSUw2T1o1c2UyTktpOXR5bkZVbFJUZTFKdmNNR3ZYdUxvSVBxMERRMzFHdUhGVUVBYVVicWhScHhvWVBnNkd6UzRpRmNnT21RdXJ0Y1I1M3NwM0lNRE14X3ZfalVnXzRWN1FlS2VYTzh1czJ1ZjBZajYtS0MybHZyYXMyblFNVXc?oc=5",
+      "title": "HPQ vs. AAPL: Which Computer Stock Offers Better Investment Potential?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMTVrNV92UlctWjVMelNKdjA2S2dLdmNMc0dsOGZxaUVCblRfZzBSQTFNcmdqV1JuNW53dEhOOGotZkZiZVNMVjduZGFQdDNDcng1S1I0VWVuRzJtOHdycHZnWDdKTDkzcjNHbThqckdxSGdDNlJQbUtXWnQ3OFpuSHNDdVJLWUxtWHc?oc=5",
+      "title": "HP Inc. Earnings Preview: What to Expect",
+      "snippet": "Barchart.com, 2026-10-29T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTDY4a0NCajhjcllKRW8tWWJ0OWZiNzBWZjZLa2tWNmppWExOd25hOWtiR0ZFcmRTNkN3aVY1V05KVVA3ODVOSnN5c2lxclJFQnhhOE5ZaG1UTE4wUzh1eEtWRHpfZS1mMnR2cURiMUpsR2UwQjhQVi1YNWtJR1VNRHZSbnEzaEdobnhhS2V0ZlpFRnRIdUtwNXBvRlI5aUh4Y0JUemlXR25sS1hfTkFObXdVbllkcnhtb1NQRFhLM1JhOUE?oc=5",
+      "title": "HP Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTllPM2ZkM3E1WHNvQkE1YjhfanV6TWdHYzZjSjlmS1kyVW5oelVhSHFLMTA2U2NCN3lGVkJKNGRBYktmbDFfaXBmeVRZZ2dzRVgwUENDN0t0TDZxTUNDN2RmV0hNeUNEQXlrRkI0aWJtbFBVdVlpSXFQNVVUa1dJQmJMWnVYZFRTZlE5T2duNkQ5YjhnYXNxLVd3?oc=5",
+      "title": "HP Inc (HPQ) Stock Down 3.4% -- Now Undervalued? GF Score: 80/10",
+      "snippet": "GuruFocus, 2026-10-28T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUmZ4R2JhLTU4U013UjFCRi1rc2FicVY3eDFLTEFZT2ZBUU84S3NWeEZhd2Y3dzFHRS1zWTR5ekRRblpUNEZ2eE1vZFJsVHY1eXREZDc3T0lnRUNWVHNLTU5qZHZIc2xPQndBdFBXbVVfcXl6c0NCZWdKdHc0OXNjVkx6LTlSYTJLM3NGekJfRkdfQWlMNGFuY2Nn?oc=5",
+      "title": "What Did NetApp Do That HP Did Not?",
+      "snippet": "Trefis, 2026-10-27T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 28.78 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

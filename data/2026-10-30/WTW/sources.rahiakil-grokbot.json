@@ -1,0 +1,139 @@
+{
+  "ticker": "WTW",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Willis Towers Watson\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc1NlU1BqaGlmQmFsWENpRU1QQl93VzJRSVRKSV9VOXNjNG9scy1ITjQ5XzJrRm15eW9ycmlmbE8wWEhnbHdNLXNGakRpQVktak5JTi1NRzFMTTF1MHFzZVlkZUF5SndrRTd1MWxCTG1OQmFVT3RuY0c0S1E2NzltdzdqV0tqRzhIX1JzcXVJdnlSdkN0b0dxNmhFZnkyeHptajB4ajdPWGgyODA?oc=5",
+      "title": "Willis Towers Watson Q3 Adjusted Earnings, Revenue Rise",
+      "snippet": "marketscreener.com, 2026-10-29T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUXpJV1p5ckxDMFVZb29PRHZzNEd1TTNScWdPcDF5eXVWMVVkM1YzQzdyUVFzU3NSWld3aFBvRjRsVzZ2cVo3T3B5QjFCWEkzVWdFVG9ZQXc2UUhqeTdBV2ZZNnNOZmlMRUlXbGdPMGVFNWJ4aGxtcHJSYmFQN3Axckp0bE1lLUQ0V2NDdmQzSjFxWHNrR3J3bmZQSkZSXzhxSkF3V2toVExrTXBpNTBCTjR3OE91WS1VQURvYjlUSFBrUEw0UVZfU05INDVGd0xWRS0wX0xR0gHbAUFVX3lxTFBkbFF2ZUtuMGpfeEhzdUtRdkF3ZGdQMUxtQkwyN0pqbmYyNHA5TkR6aUE1VHhOZUk5QUlmcGZMSl93aENibF90eGJjMEI1eUtLcUJhdXBKUDN2ZmQ4NFkxQk5qNzVUNFFRanFQZ0FfOHdRWUdrR2RaZXhMNkFvQlYzaXRCMVFkakZRSjBNMGlIZEZMVW02cFNKUDZzYUlLejNiU1l5SlU2NC1DOUF3MVFva0U2Ni1jMWota2ZYeE9sSkJUbm1GU3hqcUEwMEg2U29DRFA3M1FfT2t6aw?oc=5",
+      "title": "Willis Towers Watson (WTW) Stock May Be 32% Undervalued Following Propel AI Launch",
+      "snippet": "Simply Wall St, 2026-10-29T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWRzWlQzTGh6cDItY2lnZTd3elVERTNHcFJNNmdkbzdwYWFfQUZqcThYd3dUVzJ4Y2luTlVEVktEMlgzVkFCcENGVGN2S0NUR3pUcnZ4M2ZIMjdNSEhkYnhiNENiWEtwdEhBLWRGOFNrTkd2ZTJPbkhDTEZLR3M5aldCVkIyYlg4b2lWamw1RjlPeDk3ekVV?oc=5",
+      "title": "Willis Towers Watson (WTW) Q3 Earnings Surpass Estimates",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ243WEVmY0tyMXFhcDA3VEdGeVcwODVSYjdZM0thRDVhZFB5ZU53N0VsM0o0cUdDSDFYYXVVZUlTM0E1TmMtbkRwclpVdk50Y2F5UjVUYlctbnA3TWpEMkZnTTZTSktHRVB1cVRxM3JfM0tGRUQwYkp5bmFiTFZHYy1Id3M0dm5Qa0RQNHZraUstMG9zdnQ4TDdnYlJHVlc4YTBjMWg5SjA1SmlJV0JLTTJJNkJWVk0?oc=5",
+      "title": "Willis Towers Watson (WTW) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-29T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQjBtS1RVN2hUdm93X0lKUUU1Q0VjbzUxSDN1RjRJSVM2UnRKVW9yUmNZZEhNNHZqZzRzWTNUNlB6WEl2X0JFcU5TNExsX2d4UUpLV1laanhkWElkQnl3bTYyZV9qcjYtRzJxTnJVaEFJZkx0bEdJWkVUOUJ6U0pXWGRTT1Q1eUh6dXRxWjB3V3hpemh0RGpQMQ?oc=5",
+      "title": "Why Willis Towers Watson (WTW) Is Getting Attention Today",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSFJMV1Yzb1ZQdEp3bGtsOElJeWZOcFNDZUJjUGJEMVhaNTdUYm41UHhYd0l0aEw4SzZTYWhVT0pLRzdiN25DY3ZsdlZNRnBOMkdCVlZDSkFrTVc3ekhPVFdjUmlOU2lhcHBYWUNnZWVpNE5NZzBRX2p2RFBOdnk2V1hmTVgtWW9Jc2I0RjlzUmlETlJKQUpn?oc=5",
+      "title": "Willis Towers Watson (WTW) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV2dJSGdjTThMTVRxR2JYZzB4NW1YRk1DTkNqNUJRZ3pnUnRZS3A4X2dTSm1RdDNJMHhUT2thLTM2ZWJjQzBucXlTaGJCZF9HbE80T2w3Y29pRGV4Q0tZVHpfcGg0U0xIWkVTVTdRWjl0MXJMcWNmZVpib0o2elBnSHdiVzZOMV85RUlCYVF0ZkZ3MHpqQlVTOVNaanlwczg?oc=5",
+      "title": "WTW Launches Via Retirement to Drive Wealth Business Growth",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1140536/000117184326006942/f8k_102826.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526437327/wtw-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-29",
+      "snippet": "10-Q",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WTW/history",
+      "title": "WTW daily price history (Yahoo Finance)",
+      "snippet": "close 324.42 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

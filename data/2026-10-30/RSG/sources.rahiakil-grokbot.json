@@ -1,0 +1,163 @@
+{
+  "ticker": "RSG",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWmN6aWFIckt5NUVScXpPRDVESThlMXFEM1d3ZkVmbUZRbEEyd2VIODdKRjRUb3JIV3F4X0d0cDRseU5GanR1TmZjMEdiR2E0bUlraWk1ZzlGUlRUdzhJQ25GYVc2UzZuS1QyRktkbkZFNTZMWVVfNUZtSXZoWlBhOTlLczZlQjVLQzcybEczenE4WGpXa3FGV1Rn?oc=5",
+      "title": "Republic Services\u2019s (NYSE:RSG) Q3 2026 sales top estimates, full-year outlook slightly exceeds expectations",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcmxxODIxdklGUGxVdS05a3YwanNTY2hCbGllVUUwVEU0XzlLdjhVUlRRYmtHRzlJSG5sZmdodEtuN0hJRnJxdEkxZV9GNERwa3dwcWlXU25BdnktMUtCUkpIc2JYaE1sbU03SnpucG5UM3c2QnJIaVhrMDZWNVpMSjFCckJ5N2x3bE9fNTZVMW84bkIwZFhEOTk0ZGFpQXlTMHFYMg?oc=5",
+      "title": "Republic Services (RSG) Workers In Salinas Vote To Join Teamsters Local 350",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEZzMjJsUERGQVM0dHpidzR6MExZektza3pJOFZSX1g2T0lMZXpzckhiYTN6Z1dPalIyVGEyNU9LdkFqMDk2WHFvVUJqUk43R0oxa0RDZTVJeS1Bb0Z0S1JzV25vdWQ0Z2ZsVEwtb0xFRlVOVklXOW1kWWRvM28yYUZLZjlIRmp0Sng3YmZqOEYxdkVQNU5lZDYzMlZPU00?oc=5",
+      "title": "Republic Services (RSG) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTW43VTJ0T0Z4ekd3SF9YVnV1UDY4V2dyWVZ0d1J5alIyZnFKbkZtZUJ6Y1ZaWHIwc2k2eUJUcFE3ZUZzVF9yREU4Q0pGUzVRZmNhdWpkdHI5TkQ3NE11Z3QyZDNaR3RrNEhBQTI3TFFkdE4xVWRWQW15NTJlVDFoYnZaWTNuMFJTSHUtZF9ER3ZNbjJ1SzdxLThTQQ?oc=5",
+      "title": "Republic Services (RSG) Beats Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVnY4VzRBQVBkMmFJYTNHa3ItOFBmVU1RSl9XSnM3WXFpRTJQUmhWOUpRdloyZk5WYlI2cmRlSXhXelV4S2s4bTJTTEZTY1lFTjExR0huT2FaSjdiakxnNG5DVS1JdHdMcS0xX3RmajF5QzF0QUZnMFBUeFlPTXF5ekdzRHpTMHZGN2ZZT05CUGk0NkR2eHhEREVpRS16MWo0U3M3WFp4RmUxMDk1cURwTVlYamdDLTZNR3c?oc=5",
+      "title": "Republic Services (NYSE:RSG) Q3 2026 Results: Revenue Beats, EPS In Line",
+      "snippet": "ChartMill, 2026-10-29T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX3V0ZWVjQy10R0hGVnJ4NlpySVlLekR2bkF6XzlTRFI3YWtRdjJfUW1VYWtQbWRzTXRKU0MtY282Qi14UndFeG1CTy1RZGI2NmpkZHFWM2g2Nkt1UzBXNWdMOFJRakJwMzc0Q2ZqWDA3WkVRTlMwX2sxRWx6OW11bUtFRnZvUTZyYmtUaVY3ODVsdWJZUGc3cDhPcUFZdlZwUXc?oc=5",
+      "title": "How Earnings Beat At Republic Services (RSG) Has Changed Its Investment Story",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzZaVnJjeTBvY21MRER3dkxFNlpwQXpBanlGYjFkRGJTSTNqOXY5NmhITTVTQU9namNMajZqN1ZMcFZOcVM2a25vR25acU9fUWxtUHZIeDRwT1RXMjV2Vm5pVTg4Nlg0c3JSdEd3c0JjaFBUQWRFOHRwZm1Nd2N4V3YzLXdJT0VIOWZVMVlLMW5VRF9kR3JtNDFJemRLd2NNeEVFMFh3?oc=5",
+      "title": "Republic Services (RSG) reports earnings tomorrow: what to expect",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZlFYZldkOFRhTjVCUGE4RkFLbnpVU2R5OUN2dmd3Y0VvX2RSd3ZBRGY5NHg2TDVTeFYxQ2lPNElvdnlyVDRhTlJOdkxobWVlUGhiRHp6ODNjQWRKak9rbUZTVWFoYjlDVjRTM1RZZXpXSFJTN1RXeU55YXowNnNKSDNzOFp4YXdOeDZCa2RCeFBhdk1STlM0NnpPVW9JNVVRU3c?oc=5",
+      "title": "Seeking Clues to Republic Services (RSG) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUTI4Z3JXb29pY2gtZHJhdlNEdjJ6WlBKcDZrc293eHJFWUR1aVIwUEszdWFOal9vUmc2d2pGYks0VU8zQm5QZjhOSlpvYW9Cd0d5dThfZEw2TzZFU2MxcVliaGJMTzR2Mm5Pby1kd0kzYTV3VUFsTW5WYmRyYUJLa3luSmFSRW5mN3N5aG95SXJZSHhYR3YwYUppM1QxOUZsRFo2RjYwOXNhdlZ5S21iVllSUzBoam1KU1RWdHRIQTh6Vl85WF9WOXRXZkRMa2ctbVc4ZVNzZ2txNFl6dFNhRVhTa1pHb3c?oc=5",
+      "title": "Republic Services sets October 29 results date. Republic Services stock falls 1.40 percent",
+      "snippet": "ad-hoc-news.de, 2026-10-27T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1060391/000106039126000327/rsg-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1060391/000106039126000326/rsg-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,7.01,8.01,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 244.04 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

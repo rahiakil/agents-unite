@@ -1,0 +1,85 @@
+{
+  "ticker": "EL",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Estee Lauder\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQemsxQ0R2bGNuOFNaYXRaNmZMMHBJUWJBdWo5SFNFY2JQUFVkYmN3ejJIZ1gyWjdzV3ktejJhaThMbnM3XzA5VkxILTc4UllCWkZqY20wWm9FbWpHRVpDbkpvUnRTclozTkJCRkZmN21TMURLZmJmMlRjMW1Sbm9qWVpiWW1MTTR0Tjd1VWNUYVoxSWRheDFwV3JVRS1RRC1nOHNFaUpzR3kzM2c1b0E?oc=5",
+      "title": "Form 4 Estee Lauder Companies Inc For: 28 October By Investing.com",
+      "snippet": "Investing.com India, 2026-10-29T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNREtjWnlHdmtfLTlTUnJoSGtLczhUUmdWMHVLSE0wc3hBSDV2R3c2MTVjbWh3QzdMTXQtUHd2UUgzQXVPZGQzbTR3ZXRBMGhNLVh1TWRfb3NBUmM4YTBlMllfTUpYWURaMExiS2Naa2lQQjlCRENTMXgxRjlwM0NUclVjNXJEeVVRWWk5WHFvSV84QlYxczJ2eGFpRF9vWFNmZ1BIY3ZxYWU?oc=5",
+      "title": "Exploring Analyst Estimates for Estee Lauder (EL) Q1 Earnings, Beyond Revenue and EPS",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeU5rYTNiNkNBdXVLblJ4UWt3ZTlNUjUwY3lmRklSNGR6VThHRGFqbGhoZG1tQkhyN1dnS3Y0ZlF1eDUyTU1fTVgwMjN4QWI2TTFlT1JhRnVSZnkzMUdzV1dRWmVTTXBncGljVHVBeVF3eHBBa0hGeEEzZzV1R1l1aVRVWEpfckVxcHhkZE9oLTZaTjR2cjVHY2YxVGNjMU5BN3EyUWNaYk9JZUpRRUxldE1qT21SdE5CSENGYkNleVpBUFEwUFpkRDdpT1lIUWp3WnJz0gHYAUFVX3lxTE94UGdPNWNGUlZTNUVoLVkxZGNEQ3puZmo5U2dJRGwtdjMwMF80SUpOUXlFOXJGY3I0WTB0SzlBcF9INkdFNzFRTndqd0Q3VDFFUjdpdWhxdDc1QWpScEI2d0oyWG1yQjR6ZWNPczJUdnlkZWJvZC1naVpoSFduZXBHelcxaktHVENtT0JiSDRDdkNhRFNPUFV1VHN0dW9XbDZmNXpyQVJMWXVUMFBoWjRoM2M4dE9aRjgweUJSZDFNNXVlV25TdzVneFhTUm10cUxVUDd3WWxLRg?oc=5",
+      "title": "Est\u00e9e Lauder (EL) Stock May Be 8% Undervalued On Recovery Hopes",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEVXdWEtY3kzOV8xQ3VmQjktOExkZFpQRExFcEpyRkhUUVVZa042aFpGQVNCeWNlLUZWV0VRUzZLSmNITk9yR3IxQXpmNmxnRXh0V29hV2ZiVWxPYW1BWFpwTGlUY1czZ05vSm9xbE55YnhmQXAweWxGckhXNDBKLTZydFJSUnkzcnk3b0ZYd3A4dDFLUm95cA?oc=5",
+      "title": "Estee Lauder Gears Up to Report Q1 Earnings: What's in the Offing?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EL/history",
+      "title": "EL daily price history (Yahoo Finance)",
+      "snippet": "close 109.23 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

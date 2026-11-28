@@ -1,0 +1,61 @@
+{
+  "ticker": "AEE",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ameren\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFZPX0V4QUNiYl8yX2kwdXJzUEc4VzJqbXh2UjhfUjFYRm9kNGM4eFZ3Q2E4NWhSSXg2SWtQdUVpXzdvUkhkM0FXb2pSb1NiWnFvaTJVMl84dUZxZ0hlWlpNZ3NBaDdhbG52UC1VUmFDSFJzVGE4aTJycEcxVjdvcHFDQWJBRkpZVDU1Y19sdUhCMmljR1J5NnFzbGlpYlU?oc=5",
+      "title": "Ameren (AEE) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ2ZuUE14MXBPMTlKWTVUaEhEOVJuRW1KSWhDOGR6aXNybXYzTUY0R1p6b3pxMFh5V091dTZWRlBTOE0wazBKX0N4ZHFLUnozNU1qRDNYZVhZN2U3VUhmZ042V1ljeVhWY2hvcWU1Q3NITFlZZjUzZXBoajQ1U0gxdE1udU9RdnNsSmFKSkZSYnVDelhXVXc?oc=5",
+      "title": "U.S. Department of Energy selects Ameren and Pitch Aeronautics to deploy grid enhancing technology that seeks to boost capacity and reliability of existing power lines",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AEE/history",
+      "title": "AEE daily price history (Yahoo Finance)",
+      "snippet": "close 110.54 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

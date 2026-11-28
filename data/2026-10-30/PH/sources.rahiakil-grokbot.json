@@ -1,0 +1,109 @@
+{
+  "ticker": "PH",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjNDVTMwdWpIM2FqTkNoWm9PdzEtMWpzcFJENTlOTEFXd3FDeGtkSGFhOU1fcDRsaE5SdWJQekhDZlVUa2hxU1pZMkhtN1kxQ0l0TERqVEZNZXVyWnh5ZFFEQ2hhcFZPVkFoM0k1Q09RYmxBZmlFUm8tS1ljMjlHYWFYdzJGenhTQlBZR1RQSXk2VkdFZ0NkRUEwWGs?oc=5",
+      "title": "Parker-Hannifin (PH) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb2Mxbm9wMmZYN3Y2ZDlMeDZDY3dwbVRmN2FlZTZKZW9PWEF0ZXlxYkdNSjI0NWtiU0VZVUlONE5fWS1lNzlKTUZfVGRkM0pPWUhPdW1zc1QyYll1S0NFT1FGNFk1WlBXS2JubUgwYmNiN29pNF9DUjJTblRuS1l6YVpMNU1CdTBRTjFlSXhUbDI0WEZHX2pVWWp5VWFwQlhhZkI5b3lCeGViY0JhdFVIUlZvanJkU0Rud0txdHktdnlXM2dCRFh1bTJQZ0U?oc=5",
+      "title": "Parker Hannifin Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-29T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMi1aNWU1bTBsUEhfRHdSbVlBY2dza01ScUM0czBxREtKSmplbTBqcVMzZkpqT1BUV0ZST2FHTUczV3NBNHhSS05rRExnYnp3WHhnQW0xZmFkUm82X3hoTzhxX3ZBN2l1MUFEbGl4M29WOFlLQmYydkNETVZydERUTEkwc1NIM0E0ZU1TYnkwa0tldzNQVHgySjZxQnpsQmhJWVc3aTRiMVo0NktOY2ZLM3pjekQ5Q1lwVmdPdU9fTjJ6dlNIQS1SVmNRYlk3ZzNjS3BV0gHYAUFVX3lxTE56bHpUVXJHNVl2NVE5dDhoWnotaXJEa19lZ2FNS3ozN1Q2a3JlZU1kaUlLWVJvTFhmZFZjUHhHb3Z1ejNZbnh4X0ZfT2ZwRlpIODlpOEtJeW16S2JvckNpc0hRd21TM1duTExZcTJxR2VVbEVfUHFKYXd4WVlYY1NvVFBuUXBUeEVvcnBxTFdoVlhhdkFNckRJdWh4S09wdXJaQnZ4cHRzN0VVQmdoZk1IVkdSRHBjMmNUUkdjU3kyblJ4bjd0VDIyOVJudUhGU0VtcTF3XzJscg?oc=5",
+      "title": "Parker-Hannifin (PH) Just Gave Investors Something To Think About",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWnp4elFOMHl3aXByU1pYbDB6UlptcHVVRmdUVkxibWxWQUtQUEhYRzNNU1lfX1k2NlhiVDJvbmpaZlY4dDhraTBKMTN1M1hHeV9NWWpNb05ha09EaEh5clA0OEFCdXZBRV9oWUFnQnNCU09BLWFVT0hxSWp1TXRqOWRhNzF2SjdhdmVabjdYWEtlNV9IZG9yd3JxMnFQUzdxTmc?oc=5",
+      "title": "Is Parker Hannifin (PH) Stock Reasonably Valued on Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOclNVeWlsSEhNWG84SFAxQUYwaWliTlN1TW9nX0psS1FBRlEtaWFuTHhKZV91SjMwNzlfTnhsMklvQWFqamdxa1FSTDhfRmV0aC0xLXZSQUVQLUlzaXJjN2JFQkpzSzR5X0xRbG16eFNuQTVKaXhudTZJNF9EV1E5enFMZHplZUExQzdIQkFYb2t5RlFadHdWNTl2aTV3RnlaMGc2WW1vUGN6V0JxM09laEtuaFF4NHJRX2R0M1IyRXI0SW9jc0tOSlZjSi1tcUk30gHWAUFVX3lxTE42QzJEdmEwMW01enNvcjVEZlBxN1c0c1NwSkZlZ2JLWkN2Mm5nSm9sbllMeG13UXI5bjFYXzU0SGVoOUpodDVfeEdneVVENF9wSmc1MGJuMFd3bjJlc04yX1pfN0ZSRlFMNjVMTjJHY1BLOUljY25TSnJsT2pDQTgwTUtSY09NMlVzTVBhZkp1Nl9iZGYtbTFIcVJRa3F4RDRjR1JtclQ4WFhNOGFrTHZMOVhIcFl2RHg0dFRFRTN2UVBuenVweFM3Y1NxSzc3LTNKTXFyN1E?oc=5",
+      "title": "What Parker Hannifin Stock's Earnings Outlook Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVTZINkxsSGlxQWRfdDgtZ3dlVUtUZnMzeXJoTFZvdnFtZlYyWFpCeDdDNHBoZWJldFE5cHZlellFbzlOakFRWnZiMXJtMHRRUXI0VEY2Vmw4a05OOVotRXZoUDdkU0F4X0IwYTRIQjBLa3Z4QWdPVmc0VGtYRU1hY2RZb056bjFDVTNuZFZMdGRfdFFFcjQwdWlWRmY3cG5KSmpkdGdDRHkzV3JyS2RUQkNvUkVBYm5nenBxbkpDRWVIbzQ?oc=5",
+      "title": "If You Invested $100 In Parker Hannifin Stock 10 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-10-27T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 899.82 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

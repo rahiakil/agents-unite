@@ -1,0 +1,127 @@
+{
+  "ticker": "ESS",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Essex Property Trust\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YOGVNNUNHYUp6dlFNZG5teXd3QjhoaFNEcXlleDFtT2R2RWlpVzVBWF84MFBmV1FmR3B5Y0FuMjh5TGU2dWdHbnM3UVltNTREV1RMM0NhVEUxVUZn?oc=5",
+      "title": "[Essex Property Trust Q3 2026 Earnings Call] Essex Raises Full-Year Guidance on 7.3% NorCal Rent Growth, but Warns Higher Rates to Clip 2027 Earnings by $0.12",
+      "snippet": "BigGo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.064,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaV9waVZuVFNzdFZ4RkVEWlU5LVFoTmQtZzY3N0RpTXotejd0ZlNuTUZsVzRXWEl3bGlDNnZXa0xKakRrYjd1dlB0a0xiME5KY20xc2ZGRS1Kd2d3ei1hbDlfRkZQSzM0NzBBbzZ3Z1FQdHhBMTZsOVhNSk11OXpicnhrNXNCTEkxS1lqWjhJNS1zYnQ0cTNIVUVhVFdlZw?oc=5",
+      "title": "Is Essex Property Trust (ESS) Reasonable After Raised 2026 Guidance?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUN3djJHeExXRVZ0eUhMb1BrTHk5NXRMQzlfa0lKN2xhRjFiN19YV290SE44d28xODF3RnNmTE9FeERTQzVWcDhLLTdLUHBXbW9uUFlYRHJBVnFPMU1WbjFzNXJNMUEzOWl0a1VCaWdqMVhzREVtMHpLbEVHaDYxNjNVN0VYVFlhYU1nLXR0SU5YOGthaUo1clhfNG84RUtoMXlpN2stS3NUdXlkUWJaeG1oZFJ5b28?oc=5",
+      "title": "Essex Property Trust (ESS) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-28T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdTJxNW1ETWV0bjdMVjZuMHVHRWJFLTZjajV6czdWTzZEOXlRWDdsc2RWVUl4OFhWMTdySVFENkRTc01NaGFNSVRaQTVESk9vY2E4dmVUbHJsZHR0M2lyMzQtQmx5U0JlVHBzSWdiQUthWVhhTzNLenhwN1U1RkdBc3RYZGlsWnFXbUc3ZGdXQQ?oc=5",
+      "title": "ESS Q3 FFO & Revenues Miss Estimates Amid Rising Property Expenses",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUkZXVjVfczN4ZERmYmRWM3RpUzEyTkJuazFpUjRSQ01samU3WXh2bl8zd1BqaTlmc04xaWNWelZrNnI0eGNhWFpiVFU4NWFBRWg3ZjRwMFBON2Y4azRkNkNpUzdrdE1OdTFRRWg4UDJQZlZSQ09zYUYwaV9OenVxdm9uSDExX1pxT3U5LUxxSWhYNG8?oc=5",
+      "title": "Essex Property Trust (ESS) Q3 FFO and Revenues Miss Estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0N1TS1NX0JHWDQ5YWl5Y1BrNU9jS2k5QVJvNXBlRm41NjhDd29FVUE5OXRxMG1tdHZEZ0tuVTY3NlJuYlZDMllCcGpvVV9WMDAybzl1Y05KSDRqa0Y0S2U3TERhUlhyS1gzY2V3ZWhTYWVFT0lOVmk2ZmQ5ck53NWxKcm1FOUEtRk9NTHZCc0M0NDRSRHY0?oc=5",
+      "title": "Essex Property Trust (ESS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/920522/000092052226000030/ess-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/920522/000114036126040903/ef20084268_8k.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ESS/history",
+      "title": "ESS daily price history (Yahoo Finance)",
+      "snippet": "close 264.18 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

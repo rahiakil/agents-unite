@@ -1,0 +1,151 @@
+{
+  "ticker": "HLT",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hilton Worldwide\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWWozSUdzeGN4cHlLUDd4SW05NVF0WUxDQU0xWW00YUtIRnZ5bHNfVk11SWhMcUVtRXZaOWZ1VUpPWHQ1bTRYbXdOWnhEb09oRGZRdEdWcFZrT2xRbEdJMFI4MEFVRXF6RVBMZS1FYXFQa3NpV2xScEx2dEk1Z0lFOUYxeEhXWTh0VUNVQUZmd0dSY1JBSFJ5aVlJYkJGMjB1SDJPRVJMeGxHNVdvVHdkNUI2bXFTYmFRWlcxWDAxd21zdG1JMlE2TmV5NkxydGdEOUhhRjBvTHo?oc=5",
+      "title": "Hilton Worldwide Holdings Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-29T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPVjZoYVAxRldnTVZOOFBrX3RyQ01DTGdqSW9TMXprNkNsbExEMk9kdEVlZ2t6Q3cxMzhkWG53YWc0NndkazRKQ0xTc0JSOGEwWXJWeEFicGcxdzdPWGlVNXFUV3AyYmpVRC1EWmJ5Qi1vR0xTMkUzQm9TMzB2bFZrcEtmR2xqTTlIVWV5a2JxY3ZzQWFPSnZoMGI1QWdmMkNKdkNNVm04V2xwejNIX1hwWVdnSV9CTjYxekd5UHJRV01Kd3NJNWlaNVczWGlCQ2FnX2pBRzhQbnFqYlhnVXMwMjR0cEkyZERuR3h6XzBwMEVjYlgtSC1DRGVJNm5sOHdjSHdnSEtMV0pLWDdtMTQ1czQ5bWhhT1o3YVowOGlPS0lDekYxZEVYSTNidzREa2o2WVJvV3U5UkV5VEFac2kyeDFVRDlTSUcwZG1rWWotUC03dW8?oc=5",
+      "title": "Here Are Thursday's Top Wall Street Analyst Research Calls: Alphabet, Boston Scientific, eBay, Fervo Energy, Fortinet, Hilton Worldwide Holdings, Lennox International, Palantir Technologies, and More",
+      "snippet": "24/7 Wall St., 2026-10-29T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnNPUDRYMWtzd0xDdTczNUdZVWdNQ0VwVXBkM0JHUFVxdTJJSy1DMGJXZTJqU1RERXRVT1AtVXR5SER6M2NzZ1NqNm9XMlNDVmFkenVPQkp2aUZiNUVsNE5nVmR5VC04eU1VSUgtZWhqSWlBcmJ4Z3V2UWpJZ2JTOUN5RXpldW93U0xobWR1Z2VmVVRLQV9xQWlNNU9HcUc4cF9lT0ZR?oc=5",
+      "title": "Hilton Worldwide Holdings (HLT) Launched Pay With Points for Digital Bookings",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZlJoYWI4WGlrRFpzVUZiU0pMcDdBM0VpU0xvMWF5VnYzbXl0TWs3Znl4LXpWSmQxWWRYSHpqRXNTTEw4Rlhhd2ZDOEdENzVJWktMMUtBVUlPZ3N4SmxWZmJrRHhBYXNwUzdSTXRYTlk2NWxrUGRORUlGcTRYV19HamtzMnZ4Y1dEcERLSG43WmVsTFF0?oc=5",
+      "title": "Hilton (HLT) Stock Slips As Q3 Results Meet Margin Pressure",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMmFqTHM2MU94eUw3VWJpazhBd3pDVDUzTVg3N1M0RFRoWWN2X19Kd2lYdmIwNUZZYWJMZXk1LWRjbEVoc1VtOE1GTG9uWmJlcVFwNk0zR1ZvcU02M1RjRFZKbUJqOFZLMHNoSkZKT1lXYUpOc1NGV0pHdTJIU2xTcTkwRzE1OTE2dDZLSDZfbmFhbFZV?oc=5",
+      "title": "Hilton (HLT) Stock Could Be 39% Stretched Despite Raised Earnings Outlook",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.188,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObG9zTVI0NVZObmRxRi1kdkdiR3NpY09hTVlCNlR2S0ZNd3BUaVBfTUJMY3doLTUwNklYcF9JWEstY1dBendMTkxjRkJDcXdYWExvMTludmkyTnlMYWlhWDc0ZlFTY001LW4wSjFQaE84Z202ZENyb29pdTRzMGx6Ri1iQTRsY0hFZG1tMFlTOVV2aC1JSVdFanpkV2N0c0ZXS0IyaUJqSHN3OE5PdGtSaXcwVEQtdTNMWXZNclhRbUhPc25nYUVlaVBQQ0RlZWZMMTBYMHhTNGh3SUlPM3lWRA?oc=5",
+      "title": "Why Is Hilton Worldwide Stock Falling Tuesday? - Hilton Worldwide Holdings (NASDAQ:HLT)",
+      "snippet": "Benzinga, 2026-10-27T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1NFNzJ1Y1FTZ0ttWldwYXBNajVsNDg3MmJsXzRqRFUwVFh2bVVmUjd2TDJiMC1MQldsOWpjYWI0MzJVcFIySjRtSGFHWVNqektfMDVLMnY3UmpqY1BiSEhvR3Q3bFhGWVpXQWM0OTl6aGxHQU5ZaS0yM0JOTGRpUzNzOFZkZWx5eW9LdGlCUmxKQnAwMGg2VGtmRms?oc=5",
+      "title": "Hilton Worldwide: Impressive Growth Is Largely Priced In (NYSE:HLT)",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSUFlTFg3bk5PZXpKUFhOX3FEQ3BBVlVTV3hUMEstcmxPQnVOZ2Z1RC1mRGlqYWx1MjRTSUtScFd2STY4ajNBaFJWa04ySWdwYVIzMzU3aGZwUDNGX0Rlc2d2U3JDU0duNlVPWU1sdHhJR3RuMjkzaW5naEJDUTI2MlhjblNGc3VuamFRS0xzamVBVXpjUTRKTFNXUW5LUQ?oc=5",
+      "title": "Hilton Worldwide (HLT) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000049/hlt-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1585689/000158568926000054/hlt-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-27",
+      "snippet": "10-Q",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HLT/history",
+      "title": "HLT daily price history (Yahoo Finance)",
+      "snippet": "close 356.92 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

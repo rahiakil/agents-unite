@@ -1,0 +1,73 @@
+{
+  "ticker": "FICO",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fair Isaac\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa2QwV2N0bjBSQWs0NFlldkVYRXo4bnNNUmZxQjJSeEE1MnpUZGRyRjBNdlhQYVlCdzBINnFfNC1BY09oa2lHQnhtNFUtLUpNOElKZzlaSGNHMzNCd1ZlTjdCQ2lZQmxXUVZrNjRmQktEQWlwY0JJb1lfX0dRbHAwUUhkbnY2Qy0yTTgwR2hpSl93eHY2RzZ6ajVlQ2FsTVd1M2J6Yzh1TmQ2VjhYWWpoaWJ0QVItWS1J?oc=5",
+      "title": "Fair Isaac stock may move 6.5% on upcoming earnings report By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQVY1TEZTdHZQM3RxWVFMRjFlYW0zdjM1U0ZqOUdwVXFPZTVIQWxqTTB5OERpLXJHb0Z4dVVQb3NKV2F3S1dzeG9ycThBY3JBNzJXZnhXdkVjMW5HUHJocDNoUVVvbHpzeXhKODIxZmR6VTJKZThRWjV4TkNla24yYmlkQjlYMzd2ejRsSjh4TWVuTVJCQnpVSF9Cb2FwVnpnRmtEZk9ob0hfcGZYYm5z?oc=5",
+      "title": "Does The Fall In Fair Isaac Stock Change Anything?",
+      "snippet": "Trefis, 2026-10-28T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbXhJX2ktRnZ4T2wyQkhyQUNCaUlEbDdXbkxyV290VFJRa01iZHBINnUwZXdXeXFiNVRUZ19kR05CbXExdDFvYlItSDhZcmZiSllvZ2ZIUl9zeWx2bG5fUDVKTmpkcEUxa1JZeURLSkxHYThJWldodFVEUWQtSEtTOG91Q01tRnhHdnlrMHhvNHpidllzYzd2QXV6MWRIdw?oc=5",
+      "title": "Fair Isaac (FICO) Freezes Mortgage Score Pricing, Is It Still Below Fair Value?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FICO/history",
+      "title": "FICO daily price history (Yahoo Finance)",
+      "snippet": "close 711.23 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "ticker": "CHD",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Church & Dwight\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNnlVdmc3S0gzX3FZNzFFZkVINkU3eG5vbGNsNmg0Mjc1WVZwRkwtYXphZzU3dmhTc09MMllIS3gxUWdRX21RRExzWDBOZ3EtTEpfeW4zSHZiSm5UU2R2ejYyODV4UmZkWTdXRTZGSnlaaVB6S3RWbk9hM3VwbEl4UjA5aUlnR0F1Q0c2WEI2VDUzbmV0UTh5Mzc0ckYyRkJnNmwtNGdYbHd2aEQ4ZGc4dWtCY0tnSi0xZ2hJcUh2OA?oc=5",
+      "title": "Church & Dwight stock rises 3% on earnings beat, raises guidance",
+      "snippet": "Investing.com Australia, 2026-10-30T11:32:44+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-10-30T11:32:44+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLVR3ZW5sTmFjVDA3QXhoRlY4UlkzR091RE5DRmpEQWl4bmJINjU5ODBlRTZmYTJpb1poSVNHeXJPUU9pNHowNGlfWFNHY0Q0OEhfcTZJSDBCd3JQUEE0ZDdXVmFLQi1Tbkh6NUI3NWMxeGZCczA5ZnFtenNfQVpmQ1NNaW9UcWdDbDlVaDJIMmE5S1ZsRjYtcGw1a19QamNrckUxeDJaQzNHZW1ZZHFfTHEtdlI2RF9pQ2hvNEU2cUw3aXh4dFAw?oc=5",
+      "title": "Church & Dwight Earnings Ahead: What Past Reactions Say About The Stock",
+      "snippet": "Trefis, 2026-10-29T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQamI2WnM1MEMwUWdoamxmZkFOZm1JbUF0ZnpuWlBNUzJ4REkyanlNUHd1RDRTMk9ZM3dFYXVPMEFHS2VJNG5FVUF2dk5oRzktNk9RWTl0a1d1OGIxcVptMFRBandnR1JNXzFmS3lUVmJ4b0NSczJkbGhYRjd1SllhOUNkbW40enlHeWpCd3N5dF9vcHVhQktMRUZ3?oc=5",
+      "title": "Church & Dwight (CHD) Q3 earnings report preview: what to look for",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYzJLMjZqMDg3SjR2dXA1YmpsQXdaNjdrUGZhUjBqamRSZTNFM3pnMm44MkowV0tmd0R4T3ZHUnN5b0FWQ1ctNUVrMVVNTGxJWWVrdkd0anFfT0VMYzBCTWsybVA3cTZldk13WXFwc3k4XzdRWTUweDNBMmg2Y0FrNmJSNElPMXVVSjVvSXAyUGlFX1RQQ0wzeHVR?oc=5",
+      "title": "Church And Dwight (CHD) Stock Looks Below Fair Value On Cash Flow",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526439864/chd-20261030.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526441040/chd-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526437814/d178220d8k.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHD/history",
+      "title": "CHD daily price history (Yahoo Finance)",
+      "snippet": "close 107.23 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

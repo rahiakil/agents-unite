@@ -1,0 +1,37 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": true,
+  "news_query": "\"IQVIA\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 264.88 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

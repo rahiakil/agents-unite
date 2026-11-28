@@ -1,0 +1,82 @@
+{
+  "ticker": "SW",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Smurfit Westrock\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON2RQTlQ4WU0tRU1sZzJfbDJxTDBuU3JtNzFFYy1mV2g1YlJOSWJTVFFnV2JoYVdGOVZ6Rl81d0VjSXhsdzBrcVJULTZvNmNrOVR4dEJEWktza2xraVhSeFFTZWtkdkotMjg2SjAyU0VqR3A4N0UycS12R3hPTGluUkRfbjA2RTkybktFbXZqeHZOT0JiMXVwT19xOGRfVWtU?oc=5",
+      "title": "Smurfit Westrock hit with subpoena by US Department of Justice",
+      "snippet": "Business Post, 2026-11-04T08:00:00+00:00",
+      "publisher": "Business Post",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdzY2TGxQM0xJMnljbUk4aVBmX2pTS1pvc1B3cndoUTZZYXBBT2o1ZloxaWVWcV84aURDYnVkMG9Zdl80RUp4emZheFFuc2UyN0dkcjlQd2FUS3hrNHNjN0FCM0JOYnh3R052T0s5Xy16dnZwMk9KV0ptTWJKZUljUnVfOEc3TzJBRWxKbzBiMmgxbHV0VVBKN0FtZEdyUVZYM3Mw?oc=5",
+      "title": "DOJ subpoenas Smurfit Westrock, IP, PCA, Cascades over containerboard pricing",
+      "snippet": "Packaging Dive, 2026-11-04T08:00:00+00:00",
+      "publisher": "Packaging Dive",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSWRsVWE3N3MtUGRwU1ZycGRwRFNEVEU0TzlyejZHQmk2UHBZX0k5YnhTYVJ6T2hULU1rZ3hxdnczRFlrbW5CRHJ4VkRSa1VnSC1wcnlYVklQSko0Ri1LczR3UU9kOERLWDNid3o2WXhVRlVibFVxWl9kMzVrS2RzZmVrVDRBbWo0WTZnZDBjdmdnUFhEYVlmNGVYU0JiQUlkcWhsMjk4ZmVzak9x?oc=5",
+      "title": "Citi Maintains Smurfit WestRock(SW.US) With Buy Rating, Cuts Target Price to $50",
+      "snippet": "Moomoo, 2026-11-03T06:38:14+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-03T06:38:14+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/2005951/000162828026069766/smur-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-04",
+      "snippet": "10-Q",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SW/history",
+      "title": "SW daily price history (Yahoo Finance)",
+      "snippet": "close 44.51 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

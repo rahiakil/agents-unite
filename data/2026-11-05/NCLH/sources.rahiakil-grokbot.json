@@ -1,0 +1,133 @@
+{
+  "ticker": "NCLH",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norwegian Cruise Line\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUHJURk5SRFRvSVkxWHdYMnpndlA5cjZaUHd3SWt3WHYyZmxYQ19BaG9GdTRyanBxaWVSRlUyT2dZdXJHaTEzUUlnOTEzM1FLYmhFeHZfT3pZeFB6QnAtMWZjaElUdjY0RElycnlQZF9QcmlfbkYwaGYxanR0UWJCcmhvUm9YUzFndHFUVEpUcnVHbDBQN0ZQY0Voam1iUQ?oc=5",
+      "title": "Norwegian Cruise Line Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUkhYNXE4amg0b0xqZV91c0N1b2FqbUlvMDRRaFlOYTIyWGVfRXJ0cmZMdXBxT0taVWpNR2ZVcUlDVlJVekw0Q1dCN2hsdXpNNzRqM1JBYlFWSUxNWHV2R2pST19oeWtLbkYzcjluaVlDTEhUcElCeFJaZWtGclRTYzc4aHVQc25yTUUxbmxxamxmUmhPLXJrWE1Td3NxeXROem1sdEZicTBjQXpQOXlPZm81eUdfSDlERWZVM2VzamI5Z1o4WmtWSjFhNk1Wd0xDVGF6TUs1MmwweXU5Nzhz?oc=5",
+      "title": "Norwegian Cruise Line Holdings Ltd. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMnJlR2p6bVYybTF0UUkwand1cmZDWE9Ia3hWTG9QVGF0NF94UV9fQUFSaGdkZjRNUkZDWjZramNVSkVSdXpUeFVjNWZyVnM3VTlPYmc5X195N1VqZVlyeTJLMGh4STYwRjZnT3ZBR3FTYXQ3MjVIOW5GX3JpZkdGMHgxbTJQRDV2MFRveUFuNWdoM2h5eHc3Q0I2ZXpZLTds?oc=5",
+      "title": "Norwegian Cruise Line Holdings Ltd. (NCLH) is Attracting Investor Attention: Here is What You Should Know",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPejdlcnhsdmd2TnZLem9WR3dNUzBYYlBEVEM5ZW1nWU5SeTIta3kwd3QycW5qTkpreGFFZFJDQWdYcFpqQWxnOVVNcXlRS3BhVlNIR29UUy1qemlrSXlKVVZocWYxX1BIaDRxSFVfam80SE1xc2JPMGRwTzBsOGJoQjhEWEs5SEkweDY0bXU0TDMzYklLQkt1bWtEdVdYMUdQVGEyaFViX0szajBNbTdYcTJaY05RLWxtZ0wtcHBpLW52azBuOHNMSUk5YS03OUVYNUg2TDZrTnlNR1FPN05EUnlVd3dfOWx6bXV6NdIB8gFBVV95cUxOTjAxLVdVWEYtcVpXdS1lQjRFZFM1cVdzbUNWeDJ2ek10S3VYMFgybmJqblVDcFJRQjZiWEVseXFXU2xyX1U3S3VFX1FWOGE0c3VNZDV1RWNiUTZoWm5VWDBISnJock9iOUxZQmt4aVlfRGFuWHFQQnFzM0g3WjdkeG5BTllkYjFTMlFOVXU4V19GRGQtUlkxbFVtdU1QMElsNXlFYjdJZTFHdGpHcXVLZFV2QUJYQi1rZnMtWXdyZ1NCRTlYM0Y4SlJ4YkJpR05TandSbHpEdWlRZHhsQkx0VFM1dGNiaDRkYURMUVl5amkxUQ?oc=5",
+      "title": "Earnings Beat Might Change The Case For Investing In Norwegian Cruise Line Stock",
+      "snippet": "Simply Wall St, 2026-11-04T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPelNiRUJjemMtbUlyM0dyY091N21sT0JFZjh6UW1aU2pvVTM2eUJISUU5dHpCSFpQdUtwQUp4MWhkNFcxazc5UzlXS0t6ZUVCbXlnOHJGVUFWZFcwNlFYNDlfdVdMb3JXQVhYaVBRRlZ1LXBoNmk0U1Fwdm9PTjB5TGpmUng0NHBibWN5YXNqU2VKc3RuS0VSZ1I2cHRmeFhVSTFqeXNjTjJEMnpFNzJfV3p0TUhTQ04wZjRnX0dSeWF4aDhGb2RpVzVSLVFzdWp6TUVodlVlRG9TakVJYl9WV3BNU19BVG12QnFSadIB8gFBVV95cUxNNDBIYkZHOUFIcjQxM3VyeW9kamZ0YkJJU282UXFFeFdMX3lZVlBEcUQzUkUtRVYwRU4yRUw5dldrTzlRUXRkX1ZqaVBvX2pHbHZ1OWg3dXM5N3haNGtvRW9PYnZmVHNzUS1vX0JkQzVITGVucUU1NDdsbWZDRktQdXl0WlUwX0lFbVh3X1JtQ2hSejRHTU0xZnpqUHp6VFF3ZDBCNy1DNEpSMVdQQzBGR3p1M0w0emp3VGxwU3JGNDU0OThHSVFCc05icENxeDQtcmU4dGl6SXNFLWVoYU5RS2NyOTFWQm54eVZCZDBtMzhmUQ?oc=5",
+      "title": "Norwegian Cruise Line Holdings (NCLH) Could Be 4% Undervalued On Raised EBITDA Guidance",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORkc4bVJIa0lqZm10dFlhMHBHR1lPeThVNE82cUhCa0Rxbm1Odmp2VzM3cHlTclVUeG4xWmVXWmhUbjM4MDItZkl4YnZoczBBckJCOWQ0NnZ1RVVQNmI5SWNMTTE2OVQ4SWV1R0cxbEE0N0JhYi0wN2lrX3g0WEtMSGZNUEUwd2ZLVU1nVVZRTkFoa0szSmhZbVVUVVNxQQ?oc=5",
+      "title": "Norwegian Cruise Line taps newly-hired strategy chief for CFO",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ0JlMVN1U0R2bThGcThYUUVfT3NxcktXbzM0U2RBajVEay13dTZxMk9sVTVRZ2JkSjQ5REJBY19HMENRUm5FbHdETHA4RWk5TDBobU5mQjh0MWNYRVozZVNfNDdzRUNkZE5tSm8zMmZDaDR0c2diT1RvcjZ5d2U2WTAtUW1jYkxRR2VqR2pKRURJUTVPczZKSU9Va2lLN2NSR3RBQ2RVcFI3MHRrdW1nMXRFLXhYalUwOEltT0FMVG9vSEU?oc=5",
+      "title": "Norwegian Cruise Line (NYSE:NCLH) Raised to Buy at Freedom Broker",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORWtjRUI2M2VrTFRZbWdTWFV6ZVRTMHk0Yjk2Rk9faTQwWXJrdm42SS1ZRF9EeGpCT1FGZkVQN2k3WmNWZ0ZZd1R6RkFWYkkyNFJJRWNMWk1hQzJyTmpPdG5VZVoybkFfRTl4UlJjNFVhVWFiMXdUblkxdUlhS1NhQzJUcmpHbTNOalh3NmpqeUktci12TFNGVTNjTndoU0VzYVMxYVRud3ZHM095NFhqQmkxOHRTbm1xTXRYM254Q0FCY0RoTlFFQQ?oc=5",
+      "title": "Carnival and Royal Caribbean Climb 5%, Norwegian Cruise Line Rises 4% as Oil Prices Drop",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NCLH/history",
+      "title": "NCLH daily price history (Yahoo Finance)",
+      "snippet": "close 17.76 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

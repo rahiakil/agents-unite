@@ -1,0 +1,58 @@
+{
+  "ticker": "FITB",
+  "date": "2026-11-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-05",
+  "news_cutoff": "2026-11-05T21:00:00Z",
+  "generated_at": "2026-11-28T02:00:35Z",
+  "collected_at": "2026-11-28T02:00:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fifth Third Bancorp\" stock after:2026-11-01 before:2026-11-06",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV1EzdTc4LVBhUDBPZ25JdlRQQUJoaEc4aW9TYXZsaUhDRF8zUngyb1hiZnhvYXFCMmtWZ3RsY1V2a05aeF9US3ZOcDFYQ3ljMUFFTE5FcWtvbDRIWFdaaHA1MG44OHI5OE5QMlpnWVBaTm1TOXVvQ3dyOWt2RFhmQzNCTGljaWxGQTZXcTljOUlReTBwbVJCcHYzVHk2cWlJY05kanZHdU95T0pwQ3FISHhoR0QzSmhBQ01YUzlRUjVjdEJiU05wRktLMWV6d9IB0wFBVV95cUxNWm5XeTZCNFg1QXlieWRpMVkxNUtmWUo0VnhkUnRQRWlDeFg3eElRNGdhcUp6NTFBSXpoWDFWSHUySVhZLS1TZ213MnFEeTJXbzNiUTIwSVgtMzIxRXU3ek1tbHBuY0pqekktamJycXlLN29PZzFFZWgzOGt3Ykx3bldhUkxOOFRxUWh0QzFPVWpzZ19jOUhJcE5tU1l6cjl5SUdfc2g4aUUxVm9yWEVJb2l3Ml9BQko3cFluVmk2cFkzRFljaUpNS3VpenRKZmFNdkJn?oc=5",
+      "title": "How Stronger Earnings Will Impact Fifth Third Bancorp (FITB) Investors",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000243/fitb-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FITB/history",
+      "title": "FITB daily price history (Yahoo Finance)",
+      "snippet": "close 53.45 on 2026-11-05",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

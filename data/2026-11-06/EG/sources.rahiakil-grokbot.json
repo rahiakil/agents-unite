@@ -1,0 +1,133 @@
+{
+  "ticker": "EG",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Everest Group\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOUDZFeVY3Rm5vbU9OZnVTenlmTFhYdXE3R3RZN0RXWmRHLWVZTm9JYWNraWFWSHNHRUpoMk54R1pOMDY3a25fUUYzUU5ldmZKS0lhQ3ZaeUxsVEllVmZmekVCYVM2V0xDUVRjM2pRN2NFdjdwcXBnc1o4TkFReDhNQjM5cVUtM2FtWDZvZkx3YTcwXzh2VF8yeXpQZnR6LW1rbjRKdHRaZDg4d2ZNcGpMaGlkMkJna3FoczlJOFRHSnFUT3RFWkZiY2NxVmc5MFpJTlg2WC04Y3NuSFEwcDJCWjlGZjlYdDZZLWYyazBpc3pWM2ptSXUwcWl2NlNhcFRQeDl6aVF6TEs5RDJnaXFWanVOU3lIaVVvVmRoelpVcXVMc0xJYXg0S3VmN1Q2aDlUNHVsY0VtcVdCQlg3dUNUWTNVQQ?oc=5",
+      "title": "What Should Everest Group, Ltd. Investors Know After 11.4% Stock Drop? The Law Offices of Frank R. Cruz Outlines Securities Fraud Class Action Lead Plaintiff Deadline",
+      "snippet": "Morningstar, 2026-11-06T19:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-06T19:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPa2k0aUJTcFNXbG9CRzVMbkJLRXBUcndJUEM4QlVHeGVoVm94RUlNN2xOQWVITWliV0xPNzNJWmswcnRZLTRnaEZQM2d6NVJDekk4Y19CLWRBejRWRzJoeEt1cWlsMUFaaEpvSWZ0Ty1kenZXOFM2aEpISFVsN0IxbTZzMC1leUN5S0o5czROaENkXzFYNXptLWhfQVRpejJTaTBqend4eG9vZ3dBcVM5M2JSR0JDMzNBRHRMSXhfNF9OYWw4VVVaNTNnNVIydllSTTE4NDkwZ3ozaTJMVkktaEhObXprTTU5ejFGRDlaQjRvMkNXaW04N05scVEySUktaGtkRW5LdlJLb2RObnNVY3RvUndlTk9FTjdhVXNtSXVGd2N5VzQ3Y1pJYlNZTHRCaTZHMWlTMW44bGVyaXVn?oc=5",
+      "title": "ROSEN, NATIONAL INVESTOR COUNSEL, Encourages Everest Group,",
+      "snippet": "GlobeNewswire, 2026-11-05T08:00:00+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNHZZWnBfVTZEMG5CR1lqa09aZ3YydVlEU2gyYmtuWllNQUNIblZDZlRQNEhUZ1ZTck5fSU5hMlNzWXJKNDlIRVlDSEdJTk12MDFvV0EtVDlLX3ZXS0hOQmZoZUE0ZzgxOERxZWF2dTdyVmFORFFmeE5oMDAwTEplWkk3QXJJZEdYaWVPVi1nT0VOMUs5X09sZ3drVG0zUDFtd3hJX0lrT3B4WXZOenZBRjNxTjZPU2xENHBmZjdTeUdZbnhmMkFZddIBzgFBVV95cUxQRjJiN2FUcktjU2RfZVVYWnZxc19scEVYbWhCczhfRzdEMXV3VEJmT2d3VGFhaWl6YkcwNkZYbnF4ODU5LVZqVGRSYkxvZzFrMC05NnIzbTRCRkVMVHJnLTdrNExEaXhHSi02N3ZpRHVFVWUwX1llZmg4eEM2UXlXQW9kWjlGMlpSY0F3YnVRM2t5SkNlZ2VQMkxaSnJrUGlEbWFGd3pzdnB2RlBXZHBiUnBUZmNyLU9DdUZCc1VVZndRNEtpYkpibncwRjdMZw?oc=5",
+      "title": "Everest Group (EG) Stock Looks Undervalued Despite Reserve Strengthening",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.388,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOdkZBQllWMk9hdmhPUEtickt4TkVBb0FINFpKbVpha2k1YUlPYU15Snc2UGdoaUh3VlM2M2ZmWUxWbzRmN0NNYmpNTUoxbnUtaTBzQkxndTJCV3BDS2dPSFc4YmNOWElvN1FnYk96dTI1VS1VSVEtMkt4TWJQeVlNVVhCTVpUZHBHcC1JNmdPRUtuWUdhRzhfamZadWJlMGNRNVNndVNHUzdLVnc2aXFhSUoydHdsMXk2eHFUYkI0cUFCSmtmemlsS3QzazlrR3Y4eGtXeXoxd0NhMW1fYUFYYjhrQmZZcEQybGpQcUV1SENKbXBhWWdITWZuamQ5ZmdwTlltRWkxWTUtS2NOelliY3dxV1lFelNSaFRteHJCcFhveUphWkRqdzRQaEpmbmxMbkM3cmVhaVY4UnBfSjEzRUdjcGdRamMxdkNFcGk3c0pDaDVZWXk0?oc=5",
+      "title": "Everest Group, Ltd. (NYSE: EG) SHAREHOLDER ALERT:",
+      "snippet": "GlobeNewswire, 2026-11-04T08:00:00+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.447,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbm5FYzhZR0hpcmcxNmhLb2RDZnljY2h4RlBWSVdnSndYM3ZPUWJ5Vmc3RENFTEROMW00em04Y0FHN244a3hUVU5naTlHbm5QTU5yU29kdEZGaDlkaW03Wks3QkdWYmstUmFxcGJxRFhCVDBveGtJc2JidElHVUR1WktsV2hhbV9lbjhKLVVIR2ExdHl5RFBvX3NjLWJPdw?oc=5",
+      "title": "Everest Group Announces Dividend",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZDl3aEt1VTljM0VoRnFKTG1oWnliQnJrMnhwQzFGVVIwOUYwSTNjX2tCNDZ2UENvRHV0dXNmY2xTeTJsOVNRVmhmTXcyVkxEQVotRVFDRDRaRl9WMjZwWFhrWjk2NHVldndRTHVaUXFGTGtsWXE5eHFPYzViTXpqWHp3XzNIWGF3NEFsS09kU3BXbFJ5dVppbFZJZ3pXejVza0Jka0R5QW5ZRUJ5Q1llOUlR?oc=5",
+      "title": "Everest Group (NYSE:EG) Price Target Raised to $450.00",
+      "snippet": "MarketBeat, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNeWREMlJhOHBSeHVjbUdBbWJTc1p2NTRGRHVGbjRRZFhDNDRMamJLWUJQWmFkVHhJMzVtbkwtSE9LVVhET2x5dHJPOXYwWGNuMzdsZ1c1anFxSkJHT3ZwOTlsdXBoZzdjS2UyVlZsSnBXNG56TlV2ZVZxcEVjWEhmRWkzd0JsdHpYZEU3SUZNaEVnN0JhVjdYYzRwZVVmMFZGdVlHMWlqektnUU0yVHc4NXFyTHU0MHdiVmpOdHlOWEtudjU2eDdTbndqZ0RrdUN4bzQwTWgzalFZS3lDOEM4UGZDWTdjS2pFUmIweW9IZ0RIMDc0UENjaUprNm5PQVZwdGdOQ3VINm9WTXVlRE1kU2VDMVM5ZDVOdHF3N0dndmUwYlRE?oc=5",
+      "title": "EG Class Action Notice: Robbins LLP Reminds Investors of the Lead Plaintiff Deadline in the Class Action Lawsuit Against Everest Group, Ltd.",
+      "snippet": "Morningstar, 2026-11-04T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNcWg4MjNHcjhkbVhqeVE0cE5iRVlrVXNxdGplYUxMVFZla09fWGFoQjFYZHlzWlhYYUdvMGRRSy1HSUZRS3JzdVQyUFVKbjJtNXZYNjVHLWZraDRwbmtCRzZ2MjM2LTF5LXVmcDIwOXJnT1I1T1FlcVR3STRwU2RHLVlGdzlnZFBUbnZZQWxvcDVZT2JHWFcxYk5LSW91MXFuZFB2dTdpMEUwd0NjLWs1WXZrNHo3aWQ4bUFvckp0aFpWN2ItVVJHbkFDSW9iUHRQMVl1R0UybzZyaE14YzlDWnItT1pDdmFXaV9IYldoRDYzb1pGRDlfZ3NCMXpTc012cGJCem5NYjJDcnlXTFkwUTA0SEpQT0ZXV3FCSm1HQU1PN3pQbkZBVHZfQkZMVkZleXNLZW9Uc2w1aV8wTnd6N1VoT2ZYZ3YyemloajJSQV90UWkx?oc=5",
+      "title": "EG INVESTOR ALERT: Everest Group, Ltd. Investors with Substantial Losses May Seek to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces - December 28, 2026 Deadline",
+      "snippet": "Business Wire, 2026-11-03T08:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.194,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EG/history",
+      "title": "EG daily price history (Yahoo Finance)",
+      "snippet": "close 411.11 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

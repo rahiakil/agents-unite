@@ -1,0 +1,61 @@
+{
+  "ticker": "CASY",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMzdsUUgyTHpkMFd1NUpvNzlLZS1Ndkpub2g2U1dNN2p2ZnNiN2lnTElTaXJQVU1rZGp6M2Y1aTQzTlB0QW9ZNWhmY18tRC15cXprY3pLX2Q2anpKVG9haEhCTnVYQkF0eVFvREFEWkpzaEdFTFdGdE1SbkEyXzhIQ3oxSmFXNnUyNlhSZGpDcFBuTGItNFd6T3RtOXRmZ2FxUjFsMUM2UzZna1dxUW9TVEZoSGtUQ1JtRndUVjhWTzJUMzBOMWQzMks3amRQU2Rla1RZVmdqQkhpb01oQ1FfZC15Y9IB6AFBVV95cUxQcG9vVE1Dek1oNTBDc2w0cUZJV0pNLU5pc0xmT2p3bnl0UWZ4ZnZSM21WYlVscFhkSXI5dzFGVDRnRXFiVFhpVTJhUHVWQ1BhLW8wcE02aEFmaGpFYU5kekg2TF91ZUJEekFiWE9CcXdVSTlaTkpuc3d2eWQtWnNrRzQ0VDBaRUFqaTBtd0ZkMkZxaHBpNWp1cFBVS2tIdmVCeW1vZVNiYXdJYXNFc3hyLU1oVnViSjBCSnlPaVktV0FsN216bElrcFh1OEcyZW1NWFlzSlFhbGpXeHZSTEVBUWY2T2tkMXJG?oc=5",
+      "title": "Missed Casey's General Stores' Rally? Here Is What Holders Saw",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR0sxampEeUxQMkpKRi1Ibm44eTNkUV9tSVZSVFJQdFZkSGdvWFpvS3ltc2FLRHRFVnJOS3AzYzE2X3dfdDRYLU95VkZoeXE1Q2x4ZkJfOGFCUG53U3Y0Vms2RXB2Y1RidGhMd3BrcEZwS1JGZDFIdm1falp5RElITFgtelowbkdPZ29MVURPdE95bW5XN0JKUQ?oc=5",
+      "title": "Casey's General Stores Has Fallen 10% Since Reporting Earnings. Is It a Buy in November?",
+      "snippet": "The Motley Fool, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 687.64 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

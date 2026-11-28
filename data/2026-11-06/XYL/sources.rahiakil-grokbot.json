@@ -1,0 +1,97 @@
+{
+  "ticker": "XYL",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xylem\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkNRZWlGRFhvR2V4XzI4OUJOUHlMekV0NktsMnJDN2wyOXVfWUVRanBhRFFDbUprcllMTVl5ZnVTcFlnTF9QS0MwRDg2UzA5TmUxQnZWWmRBb3ZqTnhNdTVhaHNXeG5TYTEtN0prMG1PRURrSl9lMllBV0pxZ21KMXFtdnRIMDdZYk1nRGQtUmhhdzJaX1HSAZsBQVVfeXFMTVhuM001YTh3X2VXTHJscjRWM1ZGbXh3T3hfTl9DdjdtQUNXTlEtMEgzT1FaalB1aGRuRjNFZ3ZRV1V2THRrMUVGdVZBQm9lOVNjR0lkMXNhWll1TDl1d3ltX3ZrQ0djYm0xd0tIQm1yaTNFNG4yTm5Rd2xHN0ZFTFNqSDBCQmZMb1RJOVVtLWpuYURzZUZ0d0JFaTQ?oc=5",
+      "title": "Cramer's lightning round: 'Xylem is not as good as Dupont'",
+      "snippet": "CNBC, 2026-11-05T08:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.341,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOZHlKenZZeDYxcUxERVpXdm42d0FVdjl6b0pOZjlrcUxDYjFBaW5INnlwejZKX0Q2anRrY21tcE5Td25tcC1ydjZZU0RHQ1RCc3pyTmJSdzJRNjMtVEVPeVJpZXhEamhYby0wM3lnQVpPRUFvdnd6bFpxY0NCNVRGODZWYk1jbnk5WXc3UHZlWGxlOVZ3RDhjd0lZUEFvTG1OZnQzS3lFSXBwQ0hvNjN6aGxkaHBocWZILXhFN0ZYUHJwMzZwcWhKVXZ2YVJISlpqRkxYeXBqN2dhVmJoM0RQUjdXNVYxaUhyOVVVUjhaQzdPVTE3Zk1jcVI2QkVvTm9VUU56UndVTQ?oc=5",
+      "title": "A look back at water infrastructure stocks\u2019 Q3 earnings: Xylem (NYSE:XYL) vs the rest of the pack",
+      "snippet": "The Globe and Mail, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTktwcmlkNldqRU1GS0wydEZGSzVIX0Zra0tocG5WVTJ6am9HR0hYenQzSGhudWJ0djFBSmFZNE1QOG54OC1UQm5vUlo2eWgxMWRrQTRQRURDbHZpT2pTWkRmaEpRcHlrUEp1LUY0ck1aY3JfN1ZwUHJzaEdtN1NPNWhobEcyY3FUMERwVWVWSFoyR085czZaQnd0bXU?oc=5",
+      "title": "Xylem (XYL) Valuation Faces A Fresh Test After Strong EPS And Softer 2026 Outlook",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTUI3dmVXeGRVVHdkNmVrcXNmMFVKMTZ5YWJEcl9rMVpMXzAzcnRuYllRWjA2UXgwQUM4anUxcVlyRjVKU0pwQU1GSjMwMzBjVGtIX3hGWXhHdlpraURPTXpGQ1lxclh5TVFEUjlHMnd2Unc2cERXZEo2dmIyLV9wc3VCYzdBb3BJNEtoVzBZY0JLdktoVjVqeExSV21tNmNaRXlBX050cV9ha1Fy?oc=5",
+      "title": "Xylem (NYSE:XYL) Stock Gets Downgrade from Argus",
+      "snippet": "MarketBeat, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVFJEZE9sUTQ4OXpJNWp2RTRZLVRWbzc5N2EyWk5LV2JFX2lhY1VkaVdTd182WFFWZ0ZnUktyWnhuRzFCX1ExckwxbXZBcUYyS25OdzhaaVRsbEhnN2Vqa2VVUUd4c2hKNDBLbkRTWjdhZ1hYc3lmUkF5ekZRR01hMlBrb29JYXN0c1FQS2JIYWxnN3dGRHFEWWRaRDZtWV84OTlqZ0VYUFVRVTlUZTNNRU9OTTNFbUpQYWZB?oc=5",
+      "title": "Xylem Inc. (XYL) Securities Investigation Notice - Levi & Korsinsky",
+      "snippet": "PR Newswire, 2026-11-03T08:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYL/history",
+      "title": "XYL daily price history (Yahoo Finance)",
+      "snippet": "close 97.83 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

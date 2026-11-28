@@ -1,0 +1,115 @@
+{
+  "ticker": "FOXA",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 9,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc3lFblZfTXdQcHRJdjd1aFYwb2hUV1lHMlNZVTB4VExvZVlYa0lpT2k0SFhzN0tzMm1FQU5pN2xfa0QxdHByak0tTFVhdnpkQ2xEWnRTSVVqeER2TzBlZ2FJOHpRS3ZkRWxfYURJTXpUY2xCbkJJamM2U1pkQ2Z3enBEaXJTeGo3c3JZSzhoY3RCSW1LOGVIeE55Q1dYN2tsN0V6TWRjS1JVbHVRMnBYZm1nNVprTjZKU3UxMzc4MlpZZ2w4aGZEQUR0RQ?oc=5",
+      "title": "Fox Corp. Cl A stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSUNEdVBXX2tVMWp4YjFiZDZUOTQ1UkQ3Z19uLXJmQzhBSFFNMkY4emNEZWxXQ2tHTjNJWjAtR0VtekpTVWhmVm5zTUJvSnhZTWtWaURpQVNZU0ZxZDFOTEd1RTdRTjFITWhhNF9JSzMxajRMWmJPUllUMFlpaGZ2X0lJMWlRdVREQ2hfUVNtN2hIR2RhcmtZUEZSR1poczQ5T0t4MGlJbVpPdldRc2FUX2U4azg2Z1Y4bVV2Z04yYWw?oc=5",
+      "title": "Donald Trump Criticizes Fox Corp Amid Viewership Drop; FOX Stock Shows Fair Valuation",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdXVPOXNhLUJDWkdsMnZPQzVYUDdINlh0UGZnbnBoeENfTF9udHhMM1dBT3JGbkNNVDZDMVowWWJzZU15eWU1cnRlZ29DOWxKWkJPeU5vVzdxRW1oX1VDWGd3VThJZTM1dWNueERERFVlQVlMcVRYcjVTUzR1UE8tU1NKeW1TYmJIaHVQZFdqSU9zMXRqdWFkYk5jOE9XQQ?oc=5",
+      "title": "Why is Fox Corp stock surging today?",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTFpJd0xYalU4a1ZYS1Bud3ZEZkdsNnBZVUxCdFdUQnNtNGdJRXRNT3B6OFloYnpFbGR4UTkxMVJGTUZrUFBqSnN1Vk5zemlSd1hmLTludC1JTUhtQUZYVG51R3FwZW5FYTFmVml5RG0tbGZzRmlfRTN3VGN5MXdiNHAxa1BQejREYWFydzNfQzdMRVIwRU5hM2NwekZEMGs?oc=5",
+      "title": "Streaming Success: Fox Corp Channels Tubi For Q1 Earnings Beat",
+      "snippet": "MarketBeat, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdkZmWThmc0xWRUlUOGZ5aHZMZEtBdkVJYkJGd2hRR1l0cGpUNUJxQ3gzVnZkaDdRWmR2QWxkVkhWUzZxX0VDeW53cmFudWM5MEROVWNnb3I5aVhWMGNyXzN0UUo2dmhBQW4tczFIM1NOZDk5N3Nid1NaTldUOGNZZ3pRTktOLS1GN0JRdzVrUlJVVDFOTGE3QmdzQmhSWUdDQjNqZkRB?oc=5",
+      "title": "Fox Corp A earnings beat by $0.48, revenue topped estimates",
+      "snippet": "Investing.com Australia, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526451888/d141597d8k.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 1.01,2.01,2.03,5.02,7.01,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526447183/d85875d8k.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 5.07",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOXA/history",
+      "title": "FOXA daily price history (Yahoo Finance)",
+      "snippet": "close 66.64 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "RF",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regions Financial\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZGg3SGhRRnNpWUNTTjh0N1FnelpKWjNoS1RxNHNvX3ZSejlQRG8xLUlMcDhjN25pT0w4cE5XX1BDRjQ5aWwtWjREajdzcUFJLUZCYlBuM2hTVXhSck10UUxWaHBkeGtSNmE2X1N2eVU5VndjdTVRMnVIb1lhcTBEckVVZzBPajVyWTdmLXFiUVI2S1dUVjRFMjhJQS1XN2tuVE1BT0phNmJFd2RUY190dk11dktYSENyRUJDTW9yX1Rrc20tRTJmTjhNWFFYblZhel91Sg?oc=5",
+      "title": "Regions Financial (RF) Executives to Present to Institutional Investors in November and December 2026",
+      "snippet": "GuruFocus, 2026-11-05T01:10:57+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-05T01:10:57+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkxTeFNEZmo4WTY1SzY3bVR2NFk0QXZyeE9JZGZ2ZjNYdnh3SU9BdEprVFdleWczVE0zWHd4YkI0S3d4MmFlNk5XVmJVV01Wdmk4NXNuTTRzZzF3MnM1cVBTUFZnUW5xbTBPLTBGVjBReUx5VzNuVDRyVWs3LWE1UmY2Rlk4azVzNTFseG5uRmxJQ3NQVlYxbkd3SGNqbmI3dkxLTHNYQllOZGVX?oc=5",
+      "title": "Regions Financial: 19% Total Return In 12 Months, More To Come (NYSE:RF)",
+      "snippet": "Seeking Alpha, 2026-11-04T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000066/rf-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RF/history",
+      "title": "RF daily price history (Yahoo Finance)",
+      "snippet": "close 28.31 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

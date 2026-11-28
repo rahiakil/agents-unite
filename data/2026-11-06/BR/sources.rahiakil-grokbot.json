@@ -1,0 +1,163 @@
+{
+  "ticker": "BR",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Broadridge Financial Solutions\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSTE5UGZ5NFI1SVVwTjZwMG5TRkFDdzU2c2lBVWJVd0VRWVFGWFRmZHZtY3gxQzh6Y0pMa3l5Vy1vQ2V0N1BrU05nVUFSVzA4R2hZSDVwUWxYV1huX3U5eUVMUnFfYnJMUlBhV3pBVTRZQUlEZ1RheWttOGUyZGJ3V25VbGczcUY0QWlkUHRJMmtEOGRJUTVwWG9OSHRrWjNIVkVxZQ?oc=5",
+      "title": "Broadridge Financial Solutions, Inc. Q1 2027 Earnings Call Summary",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFRqRy1leS1YQWtCNlNPemktY1RyNU1wTVhzMU5DaEg0bEtZMElpY1dNaGYtYzZIbWR2MU52Wi12OHQ2Sm9scTVUbFcyV3dLcUtmOW55Unh0Y3A0QkQxcUt5TzRqR3JVandMNEZ0aXExb0JQQlhMWkxZdXpaUjBKU2MwaXlrRXNTR2VkaVAwVXBPMVVBbWQybm5HVzVkLUhPbXljdkt5cjItTFRMZ3pPSFJWa3dHZ2lodVE?oc=5",
+      "title": "Broadridge Financial Solutions, Inc. 2027 Q1 - Results - Earnings Call Presentation (NYSE:BR) 2026-11-04",
+      "snippet": "Seeking Alpha, 2026-11-04T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50dXJQTDJJR0Jld3k3QjV0Qkg0bDlRTjBRLTZiQlB1WmVValZzcWE4TFZNNzRkbDVKRThwOHJrSkNQTGFTRG9PSEFUMHBCcmRsa01FOU5yd2dfeFk?oc=5",
+      "title": "[Broadridge Financial Solutions Q1 2027 Earnings Call] Broadridge Posts 11% Recurring Revenue Growth, Reaffirms Guidance as Tokenization Push Gains Steam with NYSE and Kraken Partnerships",
+      "snippet": "BigGo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY2tFRWFVRTVucFZ3ZVZRbkpGYWRWLTVqeFhlZEZRaTZrTnV1UXpRNDBodm5vWjR2S0s3M3k4SC1uaTB2a3hBaWVCdHA2QkNobXRfdy1BTThVYnk2bXowMlFtaVctOUJrQVkzaWRmZTc5bncyV3BkeHNWUkNsdndkQTBOa2plRUphX3lMdW5CRnlHUkttWTNfRG5pVmhOMHphMFpsOUx5ckVhZjA?oc=5",
+      "title": "How Investors May Respond To Broadridge Financial Solutions (BR) Earnings Beat",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVFaN1BVdGxUREhoY2NEbHRrOUN2OG1tWHFvdnNyWWNuaUlVaXhSWl9TY2dkTHQyOElJUnBFNUpRdmRXVTVxVW5MWjdXLXpWdGU2NHQ4TGExMEpvN2RTV0cyNDl1YVRuRVJsaENPU2RzSHBBU3FYME4xLS1UUVBscXg1bG9OTHI0ZFFrSmZvVG9LWmpqWnRGRUlMNWpIbnZYN2FZMzZ5d3p0X3c?oc=5",
+      "title": "Compared to Estimates, Broadridge Financial (BR) Q1 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbFBFaE9PV0NNLUpkTmp1MjhSc2tsWU5rRFJJbHYwNV9OLWNkLWc5TE01VkVybDdtd3RJMmIyeDl4V3dxYXM2b2hhNHpEdnZoM21pazltb21ydGpfVW44ZXNQb3g3Y3lwZ0RaLUw3ek80QjY0NjVPcUFxTWZCdE9MSGdVTXlJMUpfQ3JGVQ?oc=5",
+      "title": "Broadridge Financial Solutions, (BR) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdG9xWGg5QmdJUTl1T1JIOGJVck5UOXppVGZnY3YzVGlvTFRkbVA0dWdyN1o0YzRqdEIwQjBCR3hSLUhZWWJCMUw5YTl2NFBIRURjc3ktQmNpRlphYXN1SFdqYjg3eW1CVkpVdWZPN3NndU9jRWxtMFZvYUhWcld6VGljZ3o1Z3daQm5qQTFCclM3QU1PTlFoMGNWYmlfaDNTelBjTTZkek9PblNyc2drUE02TkJxZTBncXNfV1FRcXI4akQzS0pNdEJBYnB5ZWM?oc=5",
+      "title": "Broadridge Financial Solutions (NYSE:BR) Delivers In-Line Revenue and Adjusted EPS Beat",
+      "snippet": "ChartMill, 2026-11-03T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOExzajZLYm5tNEhDXzJsWHVfcjZkam1LUVM0SHNmZGJhamxyanJsYnVhYkhJaVhfc0lGZ25CMWJ5RUQzcU5mMWdaQWRzRWdBdF9GYzlfR0tYLXlwNy1zX056TzBtNGJubHpZVlZyYnBaeUUzaXFQUlh5UUpTRDJONmVwVVpwNUs0MkNZcWNvTnpYbFlIX3g3eXpORkcxQ0VyYjk5Ml9n?oc=5",
+      "title": "Broadridge Financial Solutions (BR) Ties Its Governance Tools To A New Tokenized Market",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZU1RN3J1NGxMcVhSQ054aDNnbGZnNEE3b3RRTm9fX1Z1WUU0UDM1Q2p3NEhtMkF3OXU1dk5LSUZFcTZ4a3NrRDIxT3hHWG03UzhVZ3lPa1BPSHBudnQ1aGYwVkJ5d0ROejVteUN5SG00NEJHTzBDMTBtY3pIWnVxWHJDRHQwOU1YcFJxczdJUDlyejlOemJNaGJtUGFBZWRvQWZr?oc=5",
+      "title": "Broadridge Financial Solutions (BR) Q1 Earnings and Revenues Beat Estimates",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1383312/000138331226000030/br-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1383312/000162828026069260/br-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BR/history",
+      "title": "BR daily price history (Yahoo Finance)",
+      "snippet": "close 190.4 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

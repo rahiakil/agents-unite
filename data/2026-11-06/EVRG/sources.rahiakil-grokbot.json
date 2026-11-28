@@ -1,0 +1,127 @@
+{
+  "ticker": "EVRG",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Evergy\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU1ZwbUdnbWowMGlXNmNDaVN5QUNMQ3hRQkpRbHZzRXo5cU94clF2a1BZSXFFalpHNFE4cnZGS3pHYXRhTVdxSnQ3d0Y5NWMybzl6S1BiM3hQbGZOYTNuaXY4NFpiY1d2aTJaQlItRnhjNll5Uk1CRWVTNTU0bTI3dnpGd3F2bDhrNWxuYnY3a1oxUHdCLXpvZ3pZdGxsQnc?oc=5",
+      "title": "Evergy's Q3 Earnings and Revenues Beat Estimates, '26 EPS View Raised",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOckNvUTlVNWhSbzB4bFdNTmVyOS1McGVsV1lTOEZwdUhsZThjNjhWTDhnWWxnbUFCM1Uxd0tYcUhwYzhweUluUTlTaldxMTBZWnluSUZYU1ptS050ZTN3eTh0YWJ4UFY4TlhOOU1PbnBnQ0hpZ3lhTHcwLXk0ZlB1QnhzSGhLS3FibWZoOA?oc=5",
+      "title": "Evergy Q3 2026 Earnings Call Transcript",
+      "snippet": "Benzinga, 2026-11-05T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMEkxbjVqZ0taSU9VekFONFFWcUZSZXYyYncwSXhmcVd0UnhPNkstc2FhLUlkSVVhcDB2ckdBcmdRWnI4am50TXVQRDZYMHI3THJYQTRjTmhwb18tLUVCRmRpUlN6MlBnbUptay1kSi05Nk02X09tTVpjSkJWUXAwMDd0M3FDRWp6Zld1RGNndHFQWXRadTJz?oc=5",
+      "title": "Evergy Inc (EVRG) Q3 Earnings and Revenues Surpass Estimates",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVRmVTJaeHNCdFVtUkk4cHNVWklQR3ZaN2p6MGMycDNmekNjTlVoYXhXcThocW9hOXM5WHpheWM5RlZmZ04zS1NucHUwUDlQOTBNVk1zSzdVTEZjWU5jUkNWZUNGWFlsbFRlYlpsNVdTMlZMTFVYUlpXUThtcGhNcl9icy0xWG5xUGhJVms3a21sRTVyYW1DMmp4Qnl3Rlo1cEFoQWRR?oc=5",
+      "title": "Evergy (EVRG) Raises Quarterly Dividend by 4% to $0.7225, Yieldi",
+      "snippet": "GuruFocus, 2026-11-05T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTE9pM01US0ZlcnNkZG1MQ04tWkQwZUtwWE1SNk1NV1p5R2VXcXgwbEJPREtyQzAxVHVhWUx2UmZrVGFoSk1RMUV1OGp0MW9Dd0tmbU1TX2ZyOEZuWVp3Sk9XVG93T1M2S3NsUEJScDZLS2NsenMxeWluVXdmMFBtaENqQjZvWmdnN2c3Tkw1T1VQZFotclJJQUJaalJhOXNCM0gxMkVB?oc=5",
+      "title": "Evergy (EVRG) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZy05ZzE3Q3lnQkJQemVvQjVNUUR0NlJ2anFNTnNfRlM5UFNPLXpwZks2X1cwcld1X3lPb2llWGpYa3NCNC1LUXIzRFFKME02dTBPSUJzTjAtOFBRMTNLZ3d5T1hhVkNQOGVaSUFFdzdvZzQ4Vml5dHhRdS1NOXR3X29jNmt2MFRKV0dSVjR6WU9sbGRyejJER19ZSGNLUQ?oc=5",
+      "title": "Evergy to Report Q3 Earnings: What to Expect From the Stock?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526448521/d193466d8k.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,7.01,8.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000117/evrg-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-05",
+      "snippet": "10-Q",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EVRG/history",
+      "title": "EVRG daily price history (Yahoo Finance)",
+      "snippet": "close 87.54 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

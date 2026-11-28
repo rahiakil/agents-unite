@@ -1,0 +1,61 @@
+{
+  "ticker": "WRB",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"W. R. Berkley\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNW85cm04ZlBqakZpdTMtbV9XTndkYWM4bEwzcGhXZFByaXVYcXE1YjJDSFZCVWNxeENtX29lTDRMWFBGSm5HTFNKUjRnejZqLXB4cmZmTENQcnJKa1BqLXFyREJEOXhWZ25JMWR5VERtS2hwUHdfVndrX2N5QVFGMTZfNlpzeVlNd1VreVdWX1p0OFRXbDJDQURjTUhLbVdzSFd6VDJacDA3TWNOeXR6Tm1WOA?oc=5",
+      "title": "W. R. Berkley Corp stock hits all-time high at 79.01 USD",
+      "snippet": "Investing.com UK, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ1o5MVVqckVFeU1fdlhQb1pZN0ZpWC05NFFHbnNDZkJiQlJrZXRCX29iQWVPT2VqSWtTc1RWRERmMWlCUW9sMzVMTzVqMl9jcTUtYnh3TXprUGVrUXA0WXAtX3Q4bWdWSXRYTTBKVXRSd2dtRURjVzNGQ1QzVXFOT2twYnhJbDBIVWFyNmZsclRDdHBnRjhqajBxeGlJSHl4NUw1S3pXdkdIVXZ3N2xUWnBXYlN2WDk3SS1wbkE2a1E4eVQ2MVHSAcsBQVVfeXFMUDV0TG10ZW1VM2tDNnBuOFBpTHlMSnBUSUhQQ3FsTlpGdWcyYUMyWlI3Y1IyUHpNeG1aVFgtM1kxX0ZtTkNfQjM2Vmh4b1AwTUN0QlAwNXRvVU1GOWM4S1pFbFA0YWNlQlFlSndQNnFVbFdmZUZMeHRXX1FfVDdEMjBOSFNwYk9ZOHQyZVpvdnRwT0RJRDRpVW5mWW4xX0NaME9makZFSU42XzJfMGdSdDhYYVlXZzRkTFZsQjVPQU1uQVNKaXBSUnF4ZE0?oc=5",
+      "title": "W. R. Berkley (WRB) Beats On Q3 Earnings, Is It Still Overvalued?",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WRB/history",
+      "title": "WRB daily price history (Yahoo Finance)",
+      "snippet": "close 75.23 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

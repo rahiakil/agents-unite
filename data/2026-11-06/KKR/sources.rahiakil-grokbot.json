@@ -1,0 +1,118 @@
+{
+  "ticker": "KKR",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KKR\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSVRHN2ozQUR5UkZ5XzdtOTRMQTdfYzU5Wi1YX0FBNHRxM1BZZVlKQ3ptNUQtbTc4bng5TG5pbXVZR0h0UDl0Q3ZmSnhlYWhkVTUyb1l2TkdFcnFrVFZLb0MyNWdCLVFuc3dUenF4QlJ2TFZOWm5YTnhwcmN6ODR5TWZDcEh1WHpncmxPaVktUDM1Zkd2eWZYS0VsOG9xMXRDRXVHMjZmOWVZS2lrRlE?oc=5",
+      "title": "FS KKR stock shows volatility as Q3 earnings beat expectations, NAV lags (FSK:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-05T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS05rZ1FvQ1ZvajlEY1F6ZnFPdjNvc3g1QVhZRDl4Ymk5TXNNWFM5UkhnNjVCWnA4X1lBaGdpNmNFMi1qbk90WXZld0F4SWNHRnFpUjNiSXlnTXc0WnI3VXdRNjBjVTQ1YW82a1FuMklMODdnM0J3THRWN2RSd2wxRWZZNG5sY1RvTnRJOWh6REYyQ0FlMzgwbzhR?oc=5",
+      "title": "FS KKR Capital Corp. Announces Third Quarter 2026 Results",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcUVpbUFTbGtfU1R5VmFRQmp3akNKeUtUSkhGVVdleFUxU3lSVFJrWlFoTVlmeGFfRlo2bXYtTzBPSWRXWk5zelU4M1BJSUV4NjBacERKYkN2azBIdXYxcG15UkxrYW53dmFwMVdwb2ZVSFoweW4yUUpHTVNoanZRNFJxeFd5RzNiNFF1cnNEVQ?oc=5",
+      "title": "FS KKR Capital (FSK) Q3 Earnings and Revenues Beat Estimates",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUXVwMmlfc1VVYVVOVVYteUVXLTF4NzByc0ExdG5SZE5EMFgwVFFnZnhXcExxY2dSWGMzS3JlRGQweHRSWC1LT0lqalMzTDZJYVNqNjBmbkI3LTJhNkpHd29HOHZRbjRSUy1jUG80Y1NpRnlkeFdmOHIxYUExY3V2ZC1KMk40dnM0aUhRUW01NnJ4NW83MFNKV3lKNlhXM0xnVDFDNw?oc=5",
+      "title": "FS KKR (FSK) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-05T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb3ZTdUJMMlprVFVLNi1oMjB4OFlpcEx6X3U5RW9uek9FaFQ2ZDEtdzFSM3Mzd01USzhkaEIzNW1YYndCM1hsZ01LLU5HbExZOEFZYllpcjQ0SW5SeVpfSnl3bk84ODNYY1ZnNnVWd01fNWp4a29Pb0phU3VjRWVMd045bGdrTFlJRG5IYQ?oc=5",
+      "title": "Ahead of KKR & Co. (KKR) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUFNlTWhyeEZ3T2xTUXVwTFFqbGU1YUl1MTZYQWhoeXh6ZU5nSGx4RzMyVlBJaHNsdE9oWnpsQ1pSWnh6MWE0MWhiaEF1Mjl2X3I0QnNrVWlfei1DV3JXYkdXc1BGWXJUMC01SURGVkVoTHBvQW94UEtYNmpjZEJpTzlicWZIcWR3bXZYZmNfZGlBX2xNWERFNzFlRm9sNVRodnY1Sjk1MVFqUQ?oc=5",
+      "title": "Retail Flows and Industry Consolidation Power KKR & Co.\u2019s (KKR) Growth Runway",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404912/000114036126041894/ef20084883_8k.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 7.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KKR/history",
+      "title": "KKR daily price history (Yahoo Finance)",
+      "snippet": "close 96.48 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

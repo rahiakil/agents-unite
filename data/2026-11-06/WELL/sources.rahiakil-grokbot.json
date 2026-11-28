@@ -1,0 +1,49 @@
+{
+  "ticker": "WELL",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Welltower\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUFR1ZFNuNTd0c0ZhaXF4eUJpNFliZVB2TklEQzBUT2JjUlBQSE4wUG1USktGeUI2NDl5MmdZVzl0OTN1eGZ6OWhkblllQ3BkSlFSYXJvbWVxcjVvVmlnZnJlcjRqVUktdlZ5VzFCQTc1VEc1eHpxWG54MmhIWHR2YmtPRS1tVUNWM2NLYjZjUU1USTRyYWpPOW5JX3ZWbFFkRmV4ZlJWeFU?oc=5",
+      "title": "$100 Invested In Welltower 5 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WELL/history",
+      "title": "WELL daily price history (Yahoo Finance)",
+      "snippet": "close 245.01 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "TDY",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Teledyne\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOX0pxeW1qVGxNQ3dMZk5xRzhKYVFjTG9PTzJoUzFtd0VXa2pHcTRGU25obnR2Mk0zckt6S3FTbHBVMUJ2SkJ1bllnZnBhUEpfaFJaWVJlamZVOTJXQktKTzJMaHR0Y2dvSERVQ0xBMVVINnFDQ3oxZXFaVXIzZ2E3Wk43SVhaUmtZQ0J6c29nSEZLYjZIbjYtel9kalFLaXg4SGdsMDlJSHRRMjlxckFsSG1jTk91MDIwdURyc2ZRTVdNSXR6S1FEREk4d1VlN2VKWF9sOXBZYTZSRmlhcWlXd0FiMVdFUQ?oc=5",
+      "title": "Teledyne Technologies (NYSE:TDY) Stock Price Breaks Below 200 Day Moving Average - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc3lCMXRySThsUnZaUnZVVm1UT2FxV3NKTEJsU3ZOSnVHTEpabmVHbE1aejlaOEtsMWVKRDZBQm00ZjBrUGU5RmhybXkxZ1JJaUt6QWpUMTM4X2I5YmpxSE9Ub0xINHI1U2paSTdRa2hQMXNKUWEzZHU4czNBTHJkOVJ3alNXZUNkMVBPcEU1cm05Q3ZXS08tdjBBWmdWSjZ0SkppR1VUZUJabHRocEkwOXV4X21jTmNMbWRF?oc=5",
+      "title": "Morgan Stanley Maintains Teledyne Technologies(TDY.US) With Hold Rating, Raises Target Price to $725",
+      "snippet": "\u5bcc\u9014\u725b\u725b, 2026-11-04T05:42:23+00:00",
+      "publisher": "\u5bcc\u9014\u725b\u725b",
+      "published": "2026-11-04T05:42:23+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TDY/history",
+      "title": "TDY daily price history (Yahoo Finance)",
+      "snippet": "close 618.6 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

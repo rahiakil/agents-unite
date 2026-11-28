@@ -1,0 +1,73 @@
+{
+  "ticker": "CNP",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CenterPoint Energy\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkNNbnlCUjFaTWFHeFYwRTJVbzdwLTZXMks2MW1STjRxUUVCUy1BbktlMTFSODhETXBRaGVxaGJaWDFtNDFMMmxpS2h6MFo4UThCODlkekh1bmFpQmE1MlJ3LWhNVVhrZERMZmstLXQ4WDVVWnNlWnNwdkQ3RWNqczZTNzlUVlBDWHVQVnpVbjJnODV5RUt3elVR?oc=5",
+      "title": "Could CenterPoint Energy (NYSE:CNP) Be Losing Momentum?",
+      "snippet": "Kalkine Media, 2026-11-05T13:28:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-05T13:28:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzRjVWJUbVRYTWpqdjg4R3FPa0dZdGt3WXNKNEMyMm1FbVdqNjNIQmJ3QXhFSzZBRzVVOXVnaU5ORUhEWlB2S0ZDYjd4dEtld2xvQ1hCR0MxZTUtZ3hnQ0d6TnljVS1nTVJsRkVYTVM3cFAxUnZ1NlpQNy02WlZsRmtHYlJLaTNlV0QzcmYwRldKSHhWQlZwX0Zjb1N2U3hRS2pIMTZLYnhYMm5lMDZn?oc=5",
+      "title": "CenterPoint Energy: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "The Motley Fool, 2026-11-04T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2LWw3VmliOFJyOElPV0YwN2ZQczRhbTZ4WkUtUHNNNGJfNjJ5OGYyaUtERFVSb0VNSDd1MzNKS0VMaE4ycm5EdWxHZ0wxS1J3em80aVRKT1hDNjJ3cG9QcklzNA?oc=5",
+      "title": "CenterPoint Energy xStock: Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-04T04:26:18+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-04T04:26:18+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CNP/history",
+      "title": "CNP daily price history (Yahoo Finance)",
+      "snippet": "close 40.66 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

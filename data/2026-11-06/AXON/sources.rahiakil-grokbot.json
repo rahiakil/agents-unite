@@ -1,0 +1,136 @@
+{
+  "ticker": "AXON",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Axon Enterprise\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 26,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN0JjSHdoS1NTT2x6RlJlSzFsNDc1b0F3dVUwQklSNldyNFA1cUhrVEZOdXVQN0ZiYVN6aGpuT19kX24yQnhGdHdmU3lQM3pUT3ZDRWxMb1gzaC10WGUxTkZOdi1ESHpTSUFBRG5CXzZPLVJRS1htNC12SlFLNUItejliYmtiUzUySTVHWWdMc0tJUnRpRVo1SC1pcU9pQ21SYS1tQVBoTkdfOERxX1hnX2ZVZmVwcnl3X3c?oc=5",
+      "title": "Axon Enterprise earnings missed by $0.19, revenue fell short of estimates",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWTVqWGFsRzdHQ3BJRWd5Wm9ieVN1QnZXYmVCRmoza2dvbVMyaWtNYXU0RXlNSFJubFVFS1NtaTc2eFNoRXJ4WXRPem5hb2ZPQkEyaXUyenNpQnlXMzdhUGgxZWc5Q0V1MlROUy1PQ0pVQW1qSWMwcG14UGJTNHE3UUxoaDBYRjdvSEMxYkY0a01vOWZ1RlR1VTN5clo0dw?oc=5",
+      "title": "Axon Enterprise Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzRMdG1kd0xxZlNvdHNfZEMxem1FcEhtU1dRUDBDYlE1R25wOTFETW5WN2FhNWpxZy1jZDFqb21sUEdLcVcxSWV6MnQ5NmJLSVRqRVk4V0c3aVdTZzFjZEV2ZjJES0doU2tTc0VlbVgxbzh2aEJVUno3WDVSTkI5V3Fzak9DalMxQ0lJU080cmhURl9LdVFac2dTU2Q4dw?oc=5",
+      "title": "Axon Enterprise (AXON) Q3 Earnings and Revenues Miss Estimates",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHd1pHSlFxQllHb3A4cTg1NnpZMElFaVUxTGRXaDhTbEJmYkRXeXB3MUJSOElKdndNOEhtbjA4MVNuNmwtaGluYnhKWHlFZmtwNUlxNEhSWk5xdw?oc=5",
+      "title": "Axon Enterprise (AXON) Q3 2026 Earnings: Results, Market Reaction & History",
+      "snippet": "24/7 Wall St., 2026-11-05T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOGc0YVhGR1cwOVNnMXY4ZS1yUXU0a1NQeUo3bVh3WnlQMUhyMGprTW5DSU1wQkxJcXJ5YVM2ZEhQcElTYlRCckpLdXFWa2FFSmRNMU51WUpOeFMzQS1oTlpielF0SkZzRkY4MTh0SGdsVXV5cnJTODdicjhScElDYU1JWTE1SUNZUkVVTHc5ekRpNTVfMFRYdG0wdEc5V04wOUR4czR2MDllZw?oc=5",
+      "title": "Should Axon Enterprise Stock be in Your Portfolio Pre-Q3 Earnings?",
+      "snippet": "Zacks Investment Research, 2026-11-04T08:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV3R1b0VEYUZ2NDM2VE5ZYnRmamJ0MjVxTXZzSXlFS0cySy1WR0lyTnFrVXhxNGFoZmNFQ3Q5UmhLVi1NTFBoVzRzZzFXeUphSWlBakpidU5HWFkxcHBXaTZiSEx0TEw4Y0tiY0tRNjZKTC1TSXRYcG03X2xoVVF1bGVNWGM?oc=5",
+      "title": "An investigation into Axon Enterprise",
+      "snippet": "Binghamton University Pipe Dream, 2026-11-03T08:00:00+00:00",
+      "publisher": "Binghamton University Pipe Dream",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071150/axon-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 1.01,3.02,7.01,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AXON/history",
+      "title": "AXON daily price history (Yahoo Finance)",
+      "snippet": "close 313.0 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

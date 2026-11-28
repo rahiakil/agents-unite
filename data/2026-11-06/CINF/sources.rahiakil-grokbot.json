@@ -1,0 +1,73 @@
+{
+  "ticker": "CINF",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cincinnati Financial\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmllR1g0RDdvSHhjckdzOW5CVFAxOEV4TEQ4Z05jM3NLczh5NkRNdnpNc0VtblByV3hyRGRPSVgtM0hrQ2VEWXU3VVQ2V0k2aUhBNmN2LTZsdFUyVU1WNlNHc1hOWTF0R0dITlg3XzdSLUg2YW56d2prWlA5ay03N1o4Z2FJRG1kTW56elpVVVdoSG5oZURLVEFaNk53RG9mRmg1LWxVZXFOR2c?oc=5",
+      "title": "Cincinnati Financial\u2019s Dividend Looks Secure with Strong Earnings and Low Debt",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTGRzRmluOWU1bGZJRnYzOUFOdzhNbl9iSWVXaVNNM2FvSmtvUVFjY2NnMHNsSTYyR25VQTZCYUtHQ21ieFVNVDUzVXduUmZkODJGZEI3ckVCdUhHclYySlRocHhrdDFncElkNGpicG4zMUIwTnNnclpUVUlmZVVtMGs2a1ZvUV9UTUdWWEJwV0pDMnBONWktWWpWSjZqQndTa3Q1aXdSUGNmMWFrc1VfeFI0NXQ4WjZ2a0h3V3c3WjFlR1Br?oc=5",
+      "title": "Cincinnati Financial Corporation stock hits all-time high at 194.96 USD",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHVROGtXS2lJSWQ1QUUtR1BIZUhDYW9UYnkxdHJkYzlaSUxuLVBwck1kaGJhdVNaMC1NT01OUmVPRjl3b2VpNE1EQVExaHZZc3Rqb0V3NWxRNGllekxBOURKbVNTSzZPaXA1ZWtXRzNRc3cybnFlWUNWUHAwNERmejgwUEJlcVJ2NWNJeW5wWE5CVE55Unl5UzM1dDJReVQzanc?oc=5",
+      "title": "CINF: Cincinnati Financial reports $5.32 billion in 13F holdings for Q3 2026",
+      "snippet": "Quantisnow, 2026-11-03T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CINF/history",
+      "title": "CINF daily price history (Yahoo Finance)",
+      "snippet": "close 185.48 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

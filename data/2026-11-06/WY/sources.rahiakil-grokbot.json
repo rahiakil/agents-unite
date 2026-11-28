@@ -1,0 +1,61 @@
+{
+  "ticker": "WY",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Weyerhaeuser\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmZFejlIMFdLMFVuNTZsU0RTUGdBaVd2ei1mY0MxMHNhOW1WU0tTc0VERjUyTlF4OVVrN1VSZF9EbGZ3enZkOWRjVWhyLUh5QmJFMXR3WkVBVm05cGNIV3RvRzE3aXdvYVZVc1hWbzFObHlGNWZDeno0M2F2YjdCUXRUemlXY2dnYzRMdS10LVpzT0M5ZU5SbUVBMTRlbXhDV3c?oc=5",
+      "title": "Why is Weyerhaeuser stock sliding today? By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-04T00:48:16+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-04T00:48:16+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQejJ1dnNBaTB6ZXdMOTExZllFd3ozbDFPNWh2Wmc5SUZNaDJwNEVrR3VfMm0yeHVhQ2VDaV9meUszM1NLMUJzVENqT0tERWJsOWctcEkwS05JWGpCMWNnTnlTaXE5SnVjX0hmcWlXOFNRQTc3NGgzZVhUaVNSY3JDNGdmZW55WmdyTGJkMEdNZVBSMTNISWJCREt5WnVaOW9uZmcxS04xYjBqTXI1aVlKbjYyenlWekRteEoyM3Y5R3RVb29TbXFLdDN30gHPAUFVX3lxTE5FOEE5SkV1STVfSGE1VUVkN01nNDJzTnV5ejNkQmF5eDN6czg3amJ6NzJvUXl1Y0VMdjA0WHlRWkM4NzZ1NlBuei1UV0JpOGxQUUUyOFZPTzRzU1dIdVM2V2ZvVHkxT1VROFFDNWpoM2hMQlQ5U3NyWTlqWk1RTXFRVldIZG56ZmNKbFJNOTBod0pkc3VqYjZ4cVVFU0R0T01VdW5fTTUxMzRGRm1pcWltZFhBcklFekZySkp6dm5XZlo1ZTh3VEFnWkx5bUx6NA?oc=5",
+      "title": "How Investors Are Reacting To Weyerhaeuser (WY) Lower 2026 Spending Plan",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WY/history",
+      "title": "WY daily price history (Yahoo Finance)",
+      "snippet": "close 20.98 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

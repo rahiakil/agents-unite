@@ -1,0 +1,49 @@
+{
+  "ticker": "LII",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lennox International\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV0hQWERKTVg0aGtNVlhrd2NmSl9HYmwwdkRHUjB3b0hsdzlHMnZTOFFXRnFuT3hoQkdKVTYwYzktcWhCSi1EZmphYmN0Wld5VUNOOWkxVDNKOTQycEJZVHdMQzJYMEZlTE03R2VUbGlJNjFwZzYxcEpPdmg1Qktnd19sblJZT2NZa2Uwek41Q2FaRXprZ2cwNmNNay16LVJobE1zbg?oc=5",
+      "title": "What Does Lennox International Offer That Masco Does Not?",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LII/history",
+      "title": "LII daily price history (Yahoo Finance)",
+      "snippet": "close 341.97 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

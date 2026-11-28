@@ -1,0 +1,133 @@
+{
+  "ticker": "SYK",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Stryker\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 8,
+    "irrelevant_or_spam": 15,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc2I4anpTMGs3RTZ6MXFFeTllTV8yeGk1RzVIbk1Bby1FRGh1eHBSVjdEWkFTVXZpaWVjMnJmQnN0OG1WRjR0Q3RoUnExdG8yZlZuNzRpUFo2dEg3MkVVQXZ6VEpRSmtEV0V5TXh3dnZqV1BEdjJ1M2lhVnp0RnM5ZGxjalAyZTlVdTJqMVZvQ213cjZGRlROSlVGQ3ZGc01MOTFsRHJB?oc=5",
+      "title": "Can Stryker (NYSE:SYK) Turn The Corner After A Tough Quarter?",
+      "snippet": "Kalkine Media, 2026-11-05T18:27:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-05T18:27:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zUzlpU2tVRFZ5Zkt2WmxYdDdVeXl2Yy1CU3hxNi10UndpOXN1cUhuWWVzNGRnRlAzSmI0ZHZBb2ZyZlFGRHZKRW5iNUw1bXVTNjV2X1puQmN2WFRqamVjdmhB?oc=5",
+      "title": "Stryker Advances Strongly in New York Trading Session : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+      "snippet": "\uc7ac\uacbd\uc77c\ubcf4, 2026-11-05T08:00:00+00:00",
+      "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVFXSDZoZXJ1QjJJNXotNDJILVBGTGNqUjhOMnRuWm9xTlNhZFRxb3l1Sk9IS18yY0NyUEZyVGdDbldSOERlcGpZYXF3Ty1vS1dnc3JZa2ttekt6N3BrMVlFeDZIUnV0cnMwZF9LSFJveFp1b1RUaXBVUkFlRms4OHRSUVp0V0ZfaU03Qml2WVhCcG9lMnhsdFhPTkpzNGNkM0JZNHJyaXNacWlYdVZPeTRMcm0yRWM?oc=5",
+      "title": "Here's How Much $1000 Invested In Stryker 15 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-05T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQRzFpWUtGejhoME9HcTZzbVo1NGIzS2w2V2Jzbi1Ed1lkQ01hRVE1YkpldzQzZVZXNk1tLUU3U2RIeGdlajBqNXV3dWdBSnNFbl9Haks1LUIzc0V3OUdIYmxBaTYwRUhsRDF5eHhhUHV5RFFNdmRvWDV2OFhvT3V2Undpa3Jtay1wQ3NOcnl5eGZiWFZzNUE3OUpmS2pHNTVFQl9sQ1owVGZKclVEc2MtY1dTWlRKNXNrZlREZjF3Mmw3U09wOFh0Vk5NUUFwYnBpenhiVVJfSlB0cDNTZFFLai1CQU5STklMVVp5WS1WTjQ?oc=5",
+      "title": "Stryker, Omnicell, Zimmer Biomet, Artivion, and Dentsply Sirona shares are soaring, what you need to know",
+      "snippet": "StockStory, 2026-11-04T08:00:00+00:00",
+      "publisher": "StockStory",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOW0xWFM3UloyQlFSQUplRjllZFNPZG5sSlZPbDNxckRzV3dncnF2VGVJSlJfNEtpaEdCV1F4VF83Nkg5c0xUY3dEeXdjcUtoSUdpVWVKcVM2Rm5JbmtrWTE1RTU1b19oX3lKT05SSzlrVWltWThMd1ptbzc3RFF0TFBRQXFqV2ZWZjlZ?oc=5",
+      "title": "Stryker shares jump more than 9% after bullish technical momentum and UK robotics deal",
+      "snippet": "Traders Union, 2026-11-04T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.818,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNenl2bWk4LW5DNm5sdVBDYjJ3Z2xBZk9EVi1CdUVKb2xSU2xtTEhtSDBEYlZvYkwtNUczT1lSY1pWem5weWJ2N2dURFl3eVo1SlVqOGU4b1NNbUJYYmJ6RW9nNzBQa2NYZVBKU29fcy1aOV9LN29oVkV3T18zQndFQWVaN3NMODFKSWpXUlFLVGdnUlJOR3plM1B2ZlpvZjhyYUlwdmx3aUdFV25kcy1iU0JGNGN2d3NuRkhHVTBoTl9nQUFEQjQwSGVubXlxLVpvdjMzZDR3b1o?oc=5",
+      "title": "Stryker (NYSE:SYK) Price Target Cut to $336.00 by Analysts at Rothschild & Co Redburn",
+      "snippet": "MarketBeat, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTEtIRkpLZGQySzNNZE00Sm1GM3FtZ1JvUmFqMlBFQ0duaE9rbkpoNGIzblZaRi1VRUhmWndyRExMcG03ZEZiNWszblFqa2Raa3N3QWlwbGdVczR4dmhMaGlhY1UxS0w2ZmxuX2xOLTFqNU9MZGxxTXlZVmhDTVpWYm43djhJS3RLLVo0Q3Z2SUxiVVBJaDY4ZUJPZnVMUVVJSkZyN1IxaTFFd3lIQTVDamtRMVc?oc=5",
+      "title": "Are Options Traders Betting on a Big Move in Stryker Stock?",
+      "snippet": "TradingView, 2026-11-04T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbnJFVkJJUXpabTQyOE94M1JpMGV4SmtnYk5WblFTVWZRbWdzZXZtT1ZvZ1EzTktDVkpKVVJacEJYQmxrZmp2NHNfSEdXMS04X2wwZDllQndJbjFGcUxuNFhkTHdiZkl5LVNnSm51QlY4cEJRUW5PUGRBaTJ5R1pKQQ?oc=5",
+      "title": "Is SYK Overvalued? DCF Says Worth $165",
+      "snippet": "GuruFocus, 2026-11-03T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYK/history",
+      "title": "SYK daily price history (Yahoo Finance)",
+      "snippet": "close 325.87 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

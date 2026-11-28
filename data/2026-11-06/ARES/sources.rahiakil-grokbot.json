@@ -1,0 +1,70 @@
+{
+  "ticker": "ARES",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ares Management\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTjRTTWx6dEtrcV9GZTVQNTJNd1h5bzFoVnkyX1dTTmV2RldLZGNLX21UbEZtbENUUU1UU1NxQlZzMTc2UG9vZmE2VXVsekoxV012N0NsUHVWb2wtQzFqc1pXNzY4dGw1YUM3OFJ3cGRoOUY5dXR1NWdjeWlDLWxiY1pQZjlqQUFkM0l2dzB6OTVxTU5oQnlCdVF4OEk0WlhvU1haZnFMYjVQQQ?oc=5",
+      "title": "Ares Management: Build A Long Position With The 8% Yielding Preferreds (NYSE:ARES)",
+      "snippet": "Seeking Alpha, 2026-11-05T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNanA5Zm1aTU9FUE8zc3NVdWpDTk1XRWl0bVJ0cHhSWjlIQnRYNlY4cng2aWgyYXBGSEg2eXlfZXpZbGl6aXk4ZEhmb1NHMGVkemRPUE00dkM2SzUzSTdBWVppNEF0Q0xFLThoalNpekdsUmZiZkZpSXZVRmw4ZnlFUmRNNklObTA5NHdRb0JNSERjNEZ6a1pvZE1BRkhDcHNZZk1HcmRkelpKbS1jN2l6T0Rqaw?oc=5",
+      "title": "$1000 Invested In Ares Management 10 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-04T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1176948/000162828026071628/ares-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ARES/history",
+      "title": "ARES daily price history (Yahoo Finance)",
+      "snippet": "close 133.98 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

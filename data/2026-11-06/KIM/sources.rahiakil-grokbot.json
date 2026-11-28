@@ -1,0 +1,85 @@
+{
+  "ticker": "KIM",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kimco Realty\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWGRnZFphMDVFbjVTTmJIcE1FWVcyeUdsMDRhd09qTUNBNncxSlU5M1ppRFc2b3FGZDU1UUh4dTFPc0QwT3BkckFiM0RkdDZNeUxvYVVTaXVhZFRTRTJwWFNPTWtERXYxakZ1SUUwWF9QbkFOcTZEZS1rWUdpRGcyV0VXUTV2QUNqa3lqNWVTSFpaaVJIR3p4M3RPVXZqSEJLM0QtTW5OM2g5Z3BIY1M2eUhteHdHZ0xzaHhDMmNvUW92UDh1N2d30gHMAUFVX3lxTFA1VkNiOXZHTkEtRlhSb0FDYVdLaEIycnd4VFdrSmZBZHpIUkxaZ2liUFRxSFBkekppWE40WmpGZGtnc2FPOUdpb05HWC1JSWlTSjZSUHJrbXJmRWJYZXdJSUpWSWNMX0hCdXUzOUIxZTlYY1hXVmxpaUJ5OENCMG5LWG55ZGhOSk5kUUZ0TXNIUHZLVFA2N1pXYmxYTDJaQk1ObVZhZGw4V21tbGRLSlFUdnBmRzR2VVBYX3c5d1lRVlNONkJUblpwY2xvZA?oc=5",
+      "title": "Kimco Realty (KIM) Stock Still Looks Cheap After Its 64% Run",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaVVMSVNFWU1ENzJ5NU8wNWlFck9fWmdjZ2s2OFd5Zy1vR202dk5uRm9zTy1vSDN3bV92dTdQbEtNRkhseG13MGtOTThxb2lVZjFxTTFRYTE3M2M0OGF4X2d2cGNmVy15dEpYMG5DZGNkSUlsM0lxamRyTHhXODQxbUNndnRLWWt2QTh2c1FHY3psOWI2YU5IMVk2OA?oc=5",
+      "title": "Kimco Realty Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNek5FSWJnMGhWMTVXZDRCZlVNZU5way16eWE2YVJzQWZUQU9ZY190U0RXRWs4cGEwS0R6cm41cnB2TDBMU1pMaW5KSHNsS3Yzc0VyUTU3SmNBN0lrS1BpbHFkNjFUWjZhNFdXUkJPY0ZBRHRZRGhFN0tOUjJmb2dhTVByT2dnWW5MNFNXUzNvVVI3MkJrUE5ENkEtUG1icHJoOVZXNFRFTmVxQlIzeEhHa3Jn?oc=5",
+      "title": "Kimco Realty Corp (KIM) Shares Surge 3.6% -- What GF Score of 75 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeWFBM1dSYXItaXZjekxEVHJnYjFEVThxTDhEbWNCaVRhc25JaWp4TTFrSDRnMnFUcmRlQTZJNWd5RUdUSGNZSktYY0Z2Z3J3cW9lNWhjMkxRZWVzLTh2NXJXTWN6a0N5UjBfWE5pSVI1RjkxWGZ6ZkpTaDV3TUs1dXdaVDB5cnpqbkxfYlJCMFA1QnJCRVo0OU94cGRKZDE0YXRwSGs5a2lFMklkS29rZ2VFLXB1ZUZQTW8zNjUwZTNQdnNRN0h2dG02czN1Zw?oc=5",
+      "title": "Kimco Realty buys two Louisville shopping centers for USD 295 million",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-11-03T08:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KIM/history",
+      "title": "KIM daily price history (Yahoo Finance)",
+      "snippet": "close 25.52 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

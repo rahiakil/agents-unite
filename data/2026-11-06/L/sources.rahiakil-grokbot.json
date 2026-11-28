@@ -1,0 +1,61 @@
+{
+  "ticker": "L",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Loews\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbzBzQzBuN1A1RzN0SW4wUUNZWTRrYVA1U2RtQTdjWnlncFMxTjc2R08wbENjcExfTXJTVm1pd09RV2dFX2t3T1JBVDlCc2pnV0ZWY3Z6Q1FCTGNiLVFpZTM2SldiUUs2ZzF6SGUtRi1FVGJSRFR6YzJURlI3TnhHem9aZHFvMXhCdl9MaXE2dnI?oc=5",
+      "title": "Loews: You Could Play The Volatility, But I Won't (NYSE:L)",
+      "snippet": "Seeking Alpha, 2026-11-04T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUWsyQ3Awd1VoYXRHRWxDRlFiNGZrVklBZmZiQzQ0QzVCLUpub3MwUV9Ga19QRDlxVEVuMGFOUEpPcXpYM0YyWnhlUDJMUVBueWlrZ0VqY2dFU2YxMnhYYkd1ZUEydHBONlp3YzMzbVJmekxYMVRSMFJfdHMtT0c3dHAwUnFnRndHRmsyN1pWc2MtQmRvUGZ3Si13?oc=5",
+      "title": "Form 8K Loews Corp For: 3 November By Investing.com",
+      "snippet": "Investing.com India, 2026-11-04T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/L/history",
+      "title": "L daily price history (Yahoo Finance)",
+      "snippet": "close 109.71 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

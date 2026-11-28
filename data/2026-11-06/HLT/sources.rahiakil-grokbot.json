@@ -1,0 +1,61 @@
+{
+  "ticker": "HLT",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hilton Worldwide\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV3B6c01zOE5ERXZ1MHhPUjM1RDNPU0hUb205TFhrQmU0WjdoMWdKbnd5LVBaQmhBM1MyQWNmX25EcTktMUlvZkhDSmx3cWlUOGExT2dsQmxENnkxNXBRYWtPYk84dlpsUFhueHdKUjJTTk03VDVSQldZbHROTnFad2xXQlpqX1B2WkZvbGxqNTR5ejhfeXIyR3ZUa0t6dHFGQzMxQTJyWDdodEhLdlpIWGZ3Tm4weDZsV1FuU3YzR0ZmaUtOTWc?oc=5",
+      "title": "Hilton Worldwide Holdings Inc.(NasdaqGS: HLT) added to NASDAQ Composite Index",
+      "snippet": "www.marketscreener.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOEVtNlNkYlpzcjg2MkgwTTI5TVVULU9IekR3VEpTUmNuTHNUNGNoczlVZkJ6d1ZXb05RVDhHZjFhbG1YRkJKemlpRU5oUGFybEMzRWZwbHpodmRSdDdneHZDOGJpaVhFR21FR1B5NmNDalo0RThaM2FqTjF3QTBERWpkd1V0QXdIUFp2WWh6djk3M25tSHVYbVZURUU1N2dvM1J0ZU13eXFuYWUxd2ZrOVlKT29sMERESnZkelJjc2FrQWtQV1pUYWlVbmhrbm93Nk45OTVn?oc=5",
+      "title": "Hilton Worldwide (NYSE:HLT) Stock Price Expected to Rise, Citigroup Analyst Says",
+      "snippet": "MarketBeat, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HLT/history",
+      "title": "HLT daily price history (Yahoo Finance)",
+      "snippet": "close 370.45 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

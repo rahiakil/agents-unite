@@ -1,0 +1,97 @@
+{
+  "ticker": "DVA",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRzNBRVNrdGFwejJqUnRLblpJNWtEU2tfRTJzdDRBRE5PNXVZcUwzMTZ4ZVF6a1RpNUJKMVZZbjFaXzdyd0tWRzdDMjU4ZGVyaG5LTUhMczQyY2tDYnhDZlJNbkFYYWNuYkNDZnZoNGVnQV9NSHV6Z3FHNVpxNXE2OHczQW40RjFVMFhWNXY3RmZmVEl5OHQwLTdsVE5zWVI2N0E?oc=5",
+      "title": "Investors Heavily Search DaVita Inc. (DVA): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdzhHMXg2c09xOGZoWnAzQTZUaU9jNGVldnhQUWxpMG1haVZ2NWlROWpGdVhmcFhnZkR4YWRXdXhaX296ZFJOTDZQS1dfY1ZFUmRrdENTVXA4UmtGWWZXam5XWmRyQVQxZHJxZFZmMklJWVpaQi1HT0h5SFllSF9jNnBnQ2FJOElrNXU4WVJRTzF0S2VWUm4zUE9Eb3hmcVV0eUVjaThGT3dSbWliNktsRTZfdXBfZUtHdDdRWng2aGh1NnRYdVV5bEpfNURQemZJZ2dpTXAzS2ZlQzI1cHJNNjVvc1VfYXFYOGNDak16YVNkSVdQTEVCWUhGb1Babk5SbjAw?oc=5",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of DaVita Inc. - DVA",
+      "snippet": "Eastern Progress, 2026-11-05T08:00:00+00:00",
+      "publisher": "Eastern Progress",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.447,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0xvQ1dVdno5X2JpUUJsYlhCNzZQMjBoN1FhVnpUNGdYa0x6UE83ZUdCTExfTko0eVVrRHdzUzduYTRxVjk0bnVrb0R2OXFsUUJ0Z3FXamlkTHJncHJCTFItX0RBTWVjS09BeW5UNXpSLXBmVlFMM0o4UmJKa1VQWFFiMnludmNoR0N6ZkNIVF92Q0RwV1E?oc=5",
+      "title": "DaVita faces securities fraud investigation aft...",
+      "snippet": "Pluang, 2026-11-04T08:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNUmNCYlF5aFEzY0JCLU10UjI0ZDQ3Si1DTWxvZGx6WWwtTjVNclJEdml4ODRYOVhqaUZEYXQzZXVSdHU3bHFzMzBocFQ5WDR1MDM0M3lpQkczMnFfN3FuZk5aeUsxdzdUSnkyeU1kR3B2YVY2ZlVLUnM3RVdoVm1JQ2pxdWhhbkZ4ZHNfMzFmb3hqamFTOFdpdWI1dHV2VVdkdm56aEEweUgyTERhZGhuMWN6czZxRldIR1lQdjVuOEppeGJFS0ZmaXByamJaVHFQSXlNeG9WU0hLQmIxR1QwSWlwaWhaMVRkalBNS05qNGNHR2dRRzBnMmFLcW5RbnRkd0U5UzRxUmZjNnhLeC1iVjlGSFdpQQ?oc=5",
+      "title": "Lost Money on DaVita Inc. Shares? The Law Offices of Frank R. Cruz Investigates Potential Securities Fraud After 6.23% Stock Decline",
+      "snippet": "Business Wire, 2026-11-03T08:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.637,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPanZkMEhYRjJUdXhydzJ2TjZsbUxEWWcyU3FzcDJJelpaSHl2bS1OdC1LUlBRS095UXh2M0tXQm83WFFIbmRmbjJPbFhhbktIejJSelFoNUNxYTJPeXcxZWtaM2YyYmMwV000QVBHX2QzVk5walZkekVwbUFHUDkwX3ZqVWF4ekk3ODZHVGpmcEVHNTNNSmJwbU5SUFpnMHpOSEJj?oc=5",
+      "title": "DaVita Inc. to Participate in Upcoming Investor Conferences",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 191.35 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

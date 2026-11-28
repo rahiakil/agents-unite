@@ -1,0 +1,115 @@
+{
+  "ticker": "ED",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWkJjNHRvSnJwYkZyM2lfZGZqVkRCT3huUGlCZGtHbXhpRDB1ZnhLZ2NfMXppd2x2OVFqWV9vR0hMUGZvN1RjamlkUFNEQlpreDZ6TXUwNDBvQ1phMjB1bmZCd0lnM1dPTmh3dGozaXpPZHBIUXVDaE9aYTMzV01UbkJKdjZHa0o5LVFRWm5CdUpXSnd0YmpJbS1zbHd5X3d3bHBYaDFIbHRaSS1oUUlYLXZXaDNTY05BTVhNSklnai1vMWZpMDNrX0hfUnF6ZGE5bEFNSXJFYTdtZVB0ZE9Z?oc=5",
+      "title": "Earnings Flash (ED) Consolidated Edison, Inc. Posts Q3 Adjusted EPS $2.07 per Share, vs. FactSet Est of $2.03",
+      "snippet": "marketscreener.com, 2026-11-05T22:28:13+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-05T22:28:13+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdzNlTkUzd3BmckNmUFRqWkh0ejBydzBqbXByWm5vTEVWaEpNLXNSemozMlNNSk91MnFCTjF3R1FhR0hwRlRmYmlndUliUFNDalpCMG5qRHFkWHE0bHJURW1oaDVOa1l0VGpXbUxXcFJTX0JhaGRKX2g5LVg3d3lqT1RWaUt6NU1ZNnhFUmJzaWhuM0JFeXhCTnNUUURzTkdjdjNmZnpsTFVfLTNsNEJMa0JscDVWUGltMWJSVw?oc=5",
+      "title": "Consolidated Edison earnings beat by $0.07, revenue fell short of estimates",
+      "snippet": "Investing.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOWZyLXhLekhEQ2tOc29IaXZrVFVVZktOQ3JERUFBZ09PSDFBb3Y5V0N4NFB1X0FxZldrV1dCUThPWHc2ZDh4ZDYyaXZSNlM1Q2REWEdBTUc5Rm94cTA3Z0wyTXYzSUpmU0drUndMZVNkM3FjXzAxeW9hZVRkMUZaR0N4amlNV2RrdEFaRWdTR1VvLXdFWTA2eGpKOHhkZw?oc=5",
+      "title": "Consolidated Edison (ED) Misses Q3 Earnings Estimates",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSUhHdEZsQzRVTElxVnpQaDY0T3dEd3g4aWtlbkdHWTZZajJOSnVaUzIxanM2dVRDYV9HSWxtSXV3eTBYOHJBd012UlBjR092anlpZW5UTXc0ZFE0WkJWWkZRLWxES21DUk55eGJQR3V6bEpybzVHYWV6MlYxdHYyenZTLTRqWmtnRmV5Mzc5WWVLenFSNTFaYw?oc=5",
+      "title": "Compared to Estimates, Con Ed (ED) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3hIVjlPcm9XQWZXZ0g1azBJWExDdXk1RF9oVWwxdzlQLXRvMHJDRkg1RW9wSkdQT0FxdTNzUGFmRHhqUXBoaVlPTnVycFYwUHZnSkV6UjhCdEZseHVmcFNxdmduQUNab01hOHRhQzFVNTRrQ2tKQ005aElib2IxQ2NJMWs0VFVWWFptUzQ4VFZqdTYwX2owdDNsU1NQa1l3TkRvRw?oc=5",
+      "title": "Consolidated Edison to Report Q3 Results: What's in the Cards?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000157/ed-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-05",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047862/000104786226000155/ed-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-05",
+      "snippet": "10-Q",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 118.56 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

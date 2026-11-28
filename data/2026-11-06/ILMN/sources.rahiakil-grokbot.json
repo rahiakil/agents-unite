@@ -1,0 +1,109 @@
+{
+  "ticker": "ILMN",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illumina\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSHJjUFlNR3Z2R0lhTXYyLXFfcmNQbWlVLTBwTzJ6WWltbVpxRVJtUF9rbVA1bzhnVVBjRFNoQ1hXVTB5TERIbTdoRGpYVDVjTkxRMXhUVU9Ma0RJOGcxbFZYZ0c1QldaUGdrejI1aXh0TGhQdEg0NFJEUm1BODc2cUw5RTUyX0dxNXg0dVJJUnREdw?oc=5",
+      "title": "Why Did Illumina Stock Jump?",
+      "snippet": "Trefis, 2026-11-04T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTlF3UGIwSUowWVc1MjgtVUlEMDVWLVEyLURHeE0xMU9EcXp0UWgtVlpXWW5FVjhhajdfS3Frem9aRHNyMUIxSkJGQl91cjJuUVBObVFNTzNPU2piYmlEbUp6NjhsYzQyRWx5TGJWdlVYX09iU2VwRkhTdm1CYkJtLXhLb0ZCTndwUktFbGw0NmZFMmJx?oc=5",
+      "title": "REGN vs. ILMN: Which Stock Is the Better Value Option?",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdGhqMDdQVGhhNzJwb1ZhZ0JZajlmZHc4Ymtod3A0eDA1a2wwbnRpTnVmOHY4RjRFMGRldzEzbF9PM0hxZTRIUDlPRThFQlpwblUyZ1dBV0pTRkdORnRfU1hGaUIzeGg5UEhEaU1TQWZWckhzRkRmMG94a0NVWWtmZVFZX2liV3Z2eS1GZF9wQTdYa0NFTHlLcmZpXzdrY1R6X0l4ZS05bmhMXy1Wbzd2aA?oc=5",
+      "title": "Illumina, Ultima Selected for WGS in Next Phase of Singapore\u2019s Precision Medicine Program",
+      "snippet": "GenomeWeb, 2026-11-03T08:00:00+00:00",
+      "publisher": "GenomeWeb",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlpvTzdxdXE5WjZUQ0RxZkpnLWU1cFNJWG9IQ3BQaUpadkpSbmJaVlRNVXRjUFFCazVJRHZ3bE0ydE5VRERXcFpHbXoxWjhpdWdVREpzaVZUZmV5SHk1RHpQeVItY0czTExLdGRjcXdQSVNHVk4ybzdvanhwUE1MOGtnVHpwejI0SHA0NGN5RnFtNDh6OHBqc3E2aw?oc=5",
+      "title": "Illumina, Inc. (ILMN) Rallied, but Mott Capital Decided to Take Some Profits: Here\u2019s Why",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.705,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcm9iMFBaeWxIVlVHemJnNjBqVVNXdVo1WTVybXNyM0RlaGJlc192Y3lHdnJmTTlOYTJlcXJVdWxHNFVBN3o3WnNVZkFQT1MyMVQwVU5wUE4zTDZVWm9PMXhfYmk5cVBXMVdEWndWVC1jZGZlWGVBMVVzUEcxOHJ2QUVMS0NfanhpNGhoYUFkX3hKVl9nUXJCZTQ5SXAtejdxdkE?oc=5",
+      "title": "Illumina (ILMN) Selected For Singapore Genome Sequencing Program Covering 450,000 People",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeG5jc19QQXhnSWZ3WHhUWUduUG1ESUlPZ2FVNkJmSEo0RU5nSndIOFFLaHdrdjBOMW5DajRGb0NWR1B5cFdiTU53bzlqaVpKMkdqV250NEtqYXdFNy1CQWFLSkVxQXFUVVJTRmpZMzJxLXhYa2pNNkNyVGgwbDBtcnpCdTlOY2NuNjk3a1Nuc0l0OHhVV2M1cGI3T1FELWdZ?oc=5",
+      "title": "Form 144 | Illumina(ILMN.US) Insider Proposes to Sell 87.2 Million in Common Stocks",
+      "snippet": "Moomoo, 2026-11-03T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ILMN/history",
+      "title": "ILMN daily price history (Yahoo Finance)",
+      "snippet": "close 213.13 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

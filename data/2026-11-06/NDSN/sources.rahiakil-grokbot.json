@@ -1,0 +1,109 @@
+{
+  "ticker": "NDSN",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nordson\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNXJfc21UTUVCdlNCbnB4N1dVbEFwZlNlQTlaSjVHVU1LcUoxMTAxRjVWbTRKaG1NRV9DcWtBRHh6S0tCVEFLeGVOa2JPRjdEaXpWWlhhSWdkZ3YxTVRiemlITEpRZ1ZWTFF2STdJWElXakQtWjNPVkoycXB6VTg3T3haMkRGeEE0RTFVc3hHbDE?oc=5",
+      "title": "Nordson Director Trades $201K In Company Stock",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUWlPYV9WOVhGYTItU19LYl9rWTJ0NktBTEpEQWE5R0dLYWJ5Uktqek56bFFRczVmdmNYTF96Wl9Vc3VLNGxBaWhOQjVNUDllM3VGQl9CaFZYdExXU2dKV21IR0RHX2laRFVTbXRpVnZuVXQyclhmbGVMRGhBOGlnMWdocDFhOXFEWWczZzBnNHY?oc=5",
+      "title": "Nordson Director Makes $188K Stock Purchase",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRERMTEhhU2s0NkRRajBnNzdiaGVCcGc4MDZ1U0FRNWlJQjV2dk1nTlZ2aUtncmhlZ2xOZFhFOUFxYm5wc2VLUEhWNC1Kc1c0Y013QnJadjFJeWY4MGRLZmpCSmg2VFJUdl9uUU5kcS1faVJMZXRqWXowc2t3cmJRR2JLWlh1aUFOVWpWUjJnMkhVNWt6RXpMVGRWdlhVbzVlWDJzNXJfai03LWptT0E?oc=5",
+      "title": "Michael J Merriman Boosts Confidence With $188K Purchase Of Nordson Stock",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbVJIc3dNTVdZN0NqUGt5RU1KTTVOTzgzVFhDaks0WVRZMW9lVm5iMzFPM3pMSlV4cHpyeGVvY3BJbEZLM1FReFZjYjBxeDFFY0ppdzVwcEJQWWMxdmpwdGRLUGJqWjlKbUlveEhPNy1WREJaYkI0ekU0d3FiZmxLOWx6YWpDaWE1bmlQWk80ZzRseUJqcWM2TGlFOEtabWp3TzRQNG9JN1ByYTVadXZJZkdkcUJOSW5pRkstRlRjUThLdzFEWHVYY2t4Yw?oc=5",
+      "title": "Form 4 Nordson Corporation: Christopher L. Mapes (Director) For: 30 October",
+      "snippet": "Investing.com UK, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZkgzVUNrbm9hMkpFMmxfWldDWkZPTUVYYTFwbHhDUW5XU29NRzdxZDRnSWhPWHUySHhzXzhpOXNzc2UxY2llRW5IelB1OVpPeWJZekViQjZNd19zSzFQMFVaOGpFZnlfbWs2Rndxc09feWhjbXhkejR4VTdxS1AzNWt2UVlGdTdERzhtQ3NxNXl1Z1pjQnFFbEJFWW1DSDdYRzhtVUY3cw?oc=5",
+      "title": "Eye On Growth: Ginger M Jones Adds $188K Of Nordson Stock To Portfolio",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTDVfZ0xVSVpKVjUyejJocGNBV0dxUFVNVC0zczNELU0wU2lMSF9WcVh6V05rc2lNOVlmaWQ1aHNnM2Z4SUc1T25WMFBVdFdoUUthYlVnZlA5S01JUTJCaTJPTk9QN0I5NHpOSk5HWUVRM0Jtbk5zYXlqS2xpcS1HZjN2QW5hTHpwb2c?oc=5",
+      "title": "212K Reasons To Be Bullish On Nordson Stock",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NDSN/history",
+      "title": "NDSN daily price history (Yahoo Finance)",
+      "snippet": "close 309.86 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

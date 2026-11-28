@@ -1,0 +1,58 @@
+{
+  "ticker": "WTW",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Willis Towers Watson\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOR2ozZExLSk05c3libnVfakJZakQ5RnE4UkMyaDd1emdBMk5YaWlfNHJzQjhrd0stNXZRREpuU2xHbGd2U29Wd1phSi0wVHdJa252S3FFQzRxaGFmckhjR1A0UjZXSXlFV2tkUnNyalJsb3J3b0U1VnRjU21ack9xdHdISV9oLWszcUZLQjF5S3NvdERGUjNfNXpJenN1SGxXZy1IeXdkenpGX1VTWllaRUFxM0pxdzJva1ZJb2h6MTZjSXFCUTMzWEJLclZiNHB0TG96Qmg0WEg1RXYxbGVaWlhtbW5xUWQzY09XdVlYZw?oc=5",
+      "title": "Willis Towers Watson Public Limited Company (NASDAQ:WTW) Stock Has Average Target Price of $369.94",
+      "snippet": "MarketBeat, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526445385/d227851d8k.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 5.02",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WTW/history",
+      "title": "WTW daily price history (Yahoo Finance)",
+      "snippet": "close 328.86 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "PFG",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Principal Financial\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVDFWLXNRN2hiUUdKV0lfWUg4RlhaMWlxMGNwZE5HVG4yWUFIY2YteVdwektBVDl4N3JWN0lWODJLczZTeld3NkQwTG1JV0xSQURaZ29UbTlRbTg5VWxkMmtJcDJTSTAzN0JLWVA2TGkteTNtZVR2SXEta2ZJLVJXekliSElRQjZqbHQ3anRTT3MyQmwzOWRzd2RhT1l4SmUzVFE?oc=5",
+      "title": "Principal Financial: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-05T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeDExZGJRcUg0Zk5NdHVDVlpNZjNrb2lkekxxZE9uaGV0MU9PaG1wanpWYWd2U1BWdVh5S05FZWJUMV9zbzcwRFN3eU9mZXJFbm5FYWE2SG5xVk5ZNGRUVExtU3RtdTd4U09jOEtfc1RqRkJSN2dGVVhRUHF4V0hjb1FORmdyaV9iZGRRMjdPdlh2bjBDdnhLWGkydjhwQURKLXhKcVRxanEzNTVaWTJIdDNUOXZIS3lGSW43VTRDbU0tUnctVGhNay1GXy1IRENFeWVMMQ?oc=5",
+      "title": "Principal Financial Group (NASDAQ:PFG) Breakout Setup Backed by Maximum Technical Strength",
+      "snippet": "ChartMill, 2026-11-04T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbmRpRDFQaHd6R05XV25sdjl1ZHRPX3F6Mlpjdk5UMEFnamdfLVc1TkN6bTRieXJXTXF2eElrTUhDUDV0bWROdlFEV2U1S1U1RXF5Sl82YWtfR1JmUTA5R2YwT2dNc2l0VVV0OUVhQUh4QmtuZzlqX05rX2hnVlJQM3lsOXJ3VW1SUVU0SE16Qm1iMlZpNDhXYlZpUVliYXVGR3RaWUJnSENDZXo1LUdRMzB2SjN3Y3JIT0kyd29pc2trYUZt?oc=5",
+      "title": "Is Principal Financial Group Inc (PFG) Overvalued After 4.1% Ral",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQVRpZkF4UGhwUkNnTU5uX1F0cENGLUQybE9ZOXlXanRSQ0xqeUJDeHVmLUkyOGdpMUVkN3pqSWR5SW9VNG03aFBRREtwNVNOaGhKTFR0MVlaUFZ2dzhjdWRHcXE2OVB3NVA3Zk84ejZHaEVVMXljUVNYTUtDV2ZMM0FfSzRpRmxSQ3BvVnZyamlRZkRoNFcwR3IxbXNaY0VmaXAwWnVQZ0VNbFJQVHFtWmYyT3R6LVJyZ1U0aFRxcVpTLWdwZHViNTB5M3M4a1hubk130gHYAUFVX3lxTE1yM0F6YXFERVVSSURYOUhEbnloNkZtY2JVME52WTBla2JodXBMODdsQkNLazNPeWhNNkpTdlZ5UkxpSVFrWXFpNjdFUWVubjBxTmlrQlgyVkxVOGZoalNFSGhNQ1g1WFo4dTV4WGttWFBKdGlPR3dmNTFmVjI3TFhRSVNSZ0JOdXVveGdjdnRxbTB0YTRIWjMwdWgzV2R1MWZFVTJXWHZ6emtYck5NQ0o2d09MaXJvNkU5VkRhczhILTlKQnJ0MzU4aGNWdHlWQS1qMFJmRVB4Sg?oc=5",
+      "title": "What Principal Financial Group Shareholders Got Right",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PFG/history",
+      "title": "PFG daily price history (Yahoo Finance)",
+      "snippet": "close 110.91 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

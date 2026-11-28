@@ -1,0 +1,109 @@
+{
+  "ticker": "PCG",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PG&E\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNnB3b1RlNVJ2S21ZMy1majRfX1M4MldMMWlQMnM3Unk5NWdzelJWcGFFT2prMlBFOGhNWHNQbU5LajdtNGZDRXQyOUVNbGpZeVhtM0JxZi0tT1JBOE50MUVxRFJ1MDhLNFZBYkswdExFMnUwNTBkM21PREk1cm5KZ1FJb3FRTmVWVWUzVE83SktXRGU3MTFNSmNiLTRDaHM?oc=5",
+      "title": "Where Will PG&E Stock Be In Three Years?",
+      "snippet": "Trefis, 2026-11-05T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb0VYcF9YN191U3l2YjVfV1BaZDVaWndyS1VrSDVTeDVoeXZGaFBrV1c4SzhUWmpSbWpKSkZCeTVmQlZ6Q2dUaktfRVBncjNhTFJjN0hfRTF4R185LVg2ejNiNW1WN2o5aEVYVjZMZXVuYzFNLV9WM01vbkI5Z1B2RWFnQkFzaGFwcDlfS0JkMGNqSlI3RWtSaDh6RHZoRGRUZUdNRXdaYXZDUG1oU3V6YmxNUC1feHk4M21fRtIBwgFBVV95cUxQdzFHejhJNmhwX0tPbjhfRWNIa09JMlhkVG1RaHRMV3U5MHdoR0FaS2lSSFJ5R2lkTGR4X25URmtTSDYwLXZUNHNMZ3pxYlNFdFpwX05lR0Q3bkgtTXgwVmtlTEFqTFlnT0lwWnpTNDZqZ0lMdGFpTEV6RUxlT1hKX0haaHFuUUx5VHRqblNWYUdWRlRfRzJIeV8zT2lFYVNUZV9JcnJXTWJWUTNobFB0T2FEeDlLY1dKQ0dVUnRoUGdNdw?oc=5",
+      "title": "PG&E (PCG) Stock Could Be 43% Overvalued Despite Wildfire Liability Push",
+      "snippet": "Simply Wall St, 2026-11-05T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.151,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZUs3Ty1ZWTFfclRTMF9adENjeS1WVHU3cTdDWnU2MFRybjRtYmNKWE85SEE0Y01lSjRhaWN4LU0wejR4X09YZm1DRm9uWGFJRG11NUdubFk2a3pUR2I1Wm0zamdqeldTcjI3bkVpM2tjYlYtcXRPZnZ0MmFiTVBLeXZ4N1JmNWw2a1Npb01SYlFXSlluT1UybXJpQUpsZWNxblE?oc=5",
+      "title": "What Does The Market Want From PG&E Stock?",
+      "snippet": "Trefis, 2026-11-04T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSnZJUkZ1aFllcHRJcXV4dkZwb0lZQllwYkRtOXdIZktud3NyR2Q4cFVjcU5kWEJVbEw3LV9oZU1DY3lIQzRXYV9WbWg3eUdKTWpaLXJPam8taFZIU2hUUFMyT29lTGpGOFIxUUlBWnZ0YzkydFFhYnhraTNBVF84TVR4c0hsZThMVE5IU204MmdicnNxRjFvRGtYaWJ1ZWJQY3BYOUc5czI2VnFEQXo5Qm9MeUhueUpXZXJiVdIBwgFBVV95cUxPWi1tdWZpaTJraFVUZnpxN1pQUTlVWi0xU05HWEdjV2I0NjNJYURYVGhiXzJiaU9yMWRtSm5hRERQaGxaYXhyLWtFakl4TFJxYl95Rkw0Tk1NUkthOXUzY25CZ0gyNmdKVElKNXlvaHNXWXJGVndSN2I3a29URTJjTDFKOUJBUEwxeTdYeDAwQmd0bVZpamFCb3hlRHg2LUxJckFsdkJ3RjNnWUJwUjBGcUdkSDhZVnZpT1BWVkZWTjlYUQ?oc=5",
+      "title": "PG&E (PCG) Pushes Wildfire Liability Cap While Warning On $2 Billion Grid Delays",
+      "snippet": "Simply Wall St, 2026-11-04T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjN6TUZrTzFVRHZ2SzRyTkxhcTlZRmp4cjhhNW1qTHY4ZlVnbjZ4R0VCdDJIOEZ3RkFCSkdoXzJFaGliNC1NeVg2bWV5aDFab19KdEFIYzR5eEdfVUNIUjdRWEQzbkczdWxFRTFKdFhVWVpranlqaHp1d1dkSmhYNU1kcVpRY2xoQmpBaFFDM25adk5SY05CWXlhaXFONTg?oc=5",
+      "title": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
+      "snippet": "Yahoo Finance, 2026-11-04T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRDd6TTVGUjlfaTVEc0NXaHlPUlhuMVdYQ2owWHRZWjZHTW5NMUFOT3VCTTNMa1A4MnRSSFdMXy1VTEtqVWx6OXlZZWRNd0daSkEwSC1DR3ZJTC1FbWl1Wmotb2dqOGRQbUJkZ2xwYXlvSUhvbVcyX0N3d2dzellmdWRlUnN0X0JVRFZSMlJ6dE5oY0t2Z1RhVW03aG1rbC0weWluTjNMekQtUnVtaEs5VlBpZTllWDNn?oc=5",
+      "title": "Does Earnings Miss Change The Bull Case For PG&E Stock (PCG)?",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCG/history",
+      "title": "PCG daily price history (Yahoo Finance)",
+      "snippet": "close 12.97 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

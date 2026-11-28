@@ -1,0 +1,82 @@
+{
+  "ticker": "PSA",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Public Storage\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWTRZWHNFRmZpVzljTzNPLWVGSE4zOUJkTGFCRkRQOGFabktnTWthWFRHQkFLemFkQ0hqdHVTeHl3cHlpVENuUG5IV0pnQ3BwN1lGNnd0V0dHbzluTlRpaXh3aUc1OHhvMUZibWY2c0xzTjc3S0duRFZaQ1hqQTNPR1VMX2h3OUdValQ4YnJzNE5jZVZGcEtqMTVOS00wenVwRWh2VjdUWDVTdw?oc=5",
+      "title": "Public Storage stock hits 52-week high at $339.0 By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-04T14:32:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-04T14:32:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUTlYR1lFU3J2d0R5UzZRczZRUHhNR21wTGJQR1BjbDloLTZfdGFxbFdmWVhXVUV1RDJvM0pLTUw2TzNacmU4VVg4YUhaVER4NmVfa0FfM3FZNHBHX2h6TWJxTDI4RXNIYkxDNk5NdHlyR0RWWDRkeW1mYTVsc0h0QjU4MTJSNUs5Tm04UGFqOHZuQWlKRzZhYklPc19qdXpVMTJJd3Y2NmNZQkgxdWpXR2dfZ3EyRG50ZnNtbDlWN2ZSYVVESllrYzRYeWNkUQ?oc=5",
+      "title": "Public Storage (NYSE:PSA) Hits New 52-Week High After Dividend Announcement",
+      "snippet": "MarketBeat, 2026-11-04T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUZtS2lwOTBZM3lhNndUeUNhbzZzWE5UZGE4MHU5bjFyV0k0RDZMaDZTcVhLT05keVJNQ3R2VEtiTVhQV2pGUjVuSDdNS2FSbXZxbEpkM3RXbnFVZG1YY3h2d0MzSHFQaFdhV0x5SjRxWkpqb3d6UjJ1YWxUY0FfdWtOR0QyWlRHcmpEV3Y1Z2pjbUZPRHNodkJuMFlfNXBsMkE?oc=5",
+      "title": "Public Storage Declares Fourth Quarter 2026 Dividends",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526451826/d191331d8k.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSA/history",
+      "title": "PSA daily price history (Yahoo Finance)",
+      "snippet": "close 337.46 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "GIS",
+  "date": "2026-11-06",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-06",
+  "news_cutoff": "2026-11-06T21:00:00Z",
+  "generated_at": "2026-11-28T01:56:30Z",
+  "collected_at": "2026-11-28T01:56:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-11-02 before:2026-11-07",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pcXlwaDdVdHNWLTM5MUtsU2s2QmRvaGU0OHhVMUIxQ1hjeDByZWJqSW5BNlNYUUNwSnpNVzdjbkRNYTF3NmZUbDVzOGpZZlh2eFJoa1FxMjBnYUcx?oc=5",
+      "title": "General Mills xStock: Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-05T16:13:28+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-05T16:13:28+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWWt4QUpKcjc3RjFCbUJCYlViRHlNUk9QTTkxMi00YnRKaDJSWTBycm9BWlU5SEhLN2p3Wk02c3VHYzBTb1RBS2ZpZWczc3BGWDQwYURpYzNEQVB5elJSd2hPZ01QRFBESjV4OVNOWlE5Sl9vVU5RRHA5c1BVQldFcDRjc2Y1UnpZc0hVMWxxT2p6QV9R?oc=5",
+      "title": "General Mills Just Gained 15% in a Month: Take Profits, or Buy More?",
+      "snippet": "TIKR.com, 2026-11-05T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVDRSUlhEWXd5OXlTcFM5cjM4OHotOHNueGlxMFl3X01RNngxRVdLbVVHQlQxLV9HMGM5SnFnVG0wakhJd244a2J4ZHRrYXZyX2NodHl5aWFsLUNZUFJENXVCUzk3a3R2UXRRUXdlQ09mSTRtOEVWU2RPdHpaOXFEbkw5bEEydlhtQnFGWVpvQUN2YjJJVzRkSHE5aE5iOTNXUndHWjA4SHdDS1dWYmZ5amc1MDBnRTR6bGhTaHM0MG5qYTNXaE5lQVNhVUg5Y3RDbHJwWVpuX1FTZkRfYjFEOQ?oc=5",
+      "title": "General Mills Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-05T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-05T08:00:00+00:00",
+      "published_date": "2026-11-05",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT2JhcEFjRl9zc1hPTEZ2Wkw3bVl3a0JCQXdIOTVLWTVRTmkyVFphMl9mWk54WXdKUGVnZ3hlVmJOeFdtcThUVWtHM0xQS2lzT0VsdWdCdnlTSnFNU2p5MVJWWnljYlhHeHphcXo0cUhSaXBncHVKdGtaWlNWNUlZYTY4bFVTdDdLd1ExMGJxd1BwY1c0cHBGNkZMazNBcFNUWUhzNTdpVjQ2RDZtNUlPMQ?oc=5",
+      "title": "General Mills Soars 5% With Packaged Food as Kraft Heinz Calls 2027 Price Hikes \u201cLikely\u201d",
+      "snippet": "TIKR.com, 2026-11-04T22:07:27+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-04T22:07:27+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWJ6djZLTU9yVjJrTHF1cnVDdmRjWGUzSE1ITzc5SXNrT1JoZ01QRk02MlpUUGhfX1EzaGljbFRINlJoZjY4dDdIRmt2Sll4SzFrTjNCenFtNDhub1NpSUlNZGZHQUFBVV9KdVFWSE84T29qSXhINjNTUVV5dm1RS1FXaDdPUEk5SjhQMVB1U0F4MFlfVmktUEp6U1NFZlA5LWYtcVZya3ZtaUk?oc=5",
+      "title": "Should You Buy General Mills Stock For Its Cash?",
+      "snippet": "Trefis, 2026-11-04T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaGdBbDE1UVhacG5mMi1wZlVYVTNaMVVwNEV1S1NEbzQ5N2hVeEVPakhYRVRtSnBjOVVjUWNEZldIcTBuR21TWG5venBodTA5WmhabTJjdnpwcV9SeTFMOHJ4SWdfTmI3VkRxQ3oxcnFDeEJkLXdTa3c5dUlPLTNyUW9ZcmNnaVZEemJXbGxkcm4wQmhYX1kzTWJmRHRWaHR5SElCRlVzMFFFaE9RTUE?oc=5",
+      "title": "General Mills Inc (GIS) Stock Up 5.2% and Still Undervalued -- G",
+      "snippet": "GuruFocus, 2026-11-04T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-04T08:00:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVUpmMWhFdmFtbDBVRFdvV2VyS3o5eGpnalpTS3FxTVN1bWJEOHJZdEJkT3hYTDNYdFBLLXdqemtIc3lEOHlGeHNEWXdEcm4zOUhnckg0aTNnajdvd2V2VzRNYlFMVHl5TV93VUpaWWI3TnVxWmdsdjJNc3g1SXNDN3AyVi05WWRCNUMtb3RhRkwxTG5INUUyNTJESjlJRjc2RzlJQUdzTExLaGtkMDA1WS1GWGEtRmFYc3Q3TXVDNHdpdW9zc2p3cmZrQzNUSzA?oc=5",
+      "title": "General Mills Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 35.51 on 2026-11-06",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

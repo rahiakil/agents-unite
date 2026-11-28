@@ -1,0 +1,109 @@
+{
+  "ticker": "STT",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 95,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 25,
+    "irrelevant_or_spam": 60,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWdKMnZPZnlPR21LV29IZXdsV2lSbVFIMlpVeXluc0g0UkMteVE0b3BrS01zdGM4MlJjbkVwa1BWY0p6YnZLTlgxZW9CTDJyOFdzZUc5eDlWOG1NNWtlMWREOXRiQlRQRzg1MmdUTTltT0RHeC1KbVl4bmpOMk16OVoxTG9BZ2s4R1lDejRwS0czU0F3d1hkSg?oc=5",
+      "title": "A State Street (STT) officer proposes selling 350 shares he received through restricted stock vesting.",
+      "snippet": "Stock Titan, 2026-11-25T20:11:18+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-25T20:11:18+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVXVBeUd1Y2s5SDY1Njh1eldDaHhrc3liWjlaVDZGbTZoR3p3c09XUFZYV1V5Z3FQRHJJRU9hWTB5dklIZzJjOTBEa0luanozWmwzRTJxUkpGM3ZZeWpLb2FLMHJQRm55T0s4YUtoUVZ2SjRsWmVHcEU2bnJIck9DcDYtR1JjcVZBRkt4a2ZkTGlWVTVoS0NNZDNsdDYwLWJHNFhfa0RQT1FleWpwUWpCUTM4S2piRVN2Z3g1ejFVeV9uRTkyM0ZoVG1TVXdhMEtTZjN3ZjdSMjQtZ0JqbjVN?oc=5",
+      "title": "REG - State Street Global Intertek Group Plc - Form 8.3 - Intertek Group plc",
+      "snippet": "TradingView, 2026-11-25T14:43:38+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T14:43:38+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUxvVEF0bDF4SVlsRzRWUzZxMXM3UXB3TGt6b1A5bkI0UEtoVzh6bVRaY2ZjMUJHdnAxYWl3cnZNMEtsT0Z5MWdZZWRKUlloZThqNW9OcGVxeXV6OG5CNWU0VTROQWhKVVpEUkhINFRTLTNsM1J2akxHQ2ZLcFdKb09LM0FfR25FYVNfR1h1dWJIZElEWV9IdU9fX2hFSTZOQUdLX3JjeTdtTmFjeENsVXdsZHl4MTR5VHEzaVg1TG9oUQ?oc=5",
+      "title": "State Street Group Reports Ceasing to Be Pantoro Gold Substantial Holder",
+      "snippet": "TipRanks, 2026-11-24T09:11:53+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T09:11:53+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUGNQV1puMHhzaERrWllTcld1RGFuMFEyZmkzOHExSjVQQVhHYlNzRnRRMXZUYW90dlZMYXc0MDZZUWExY3AzMUdkOG1MLVhwaVZib1RoOFJweXhyVWFKTjlSWFBaejd1SWh6RUVWT2JURmNabWlNbnAzX2hCSTR6WWtEQ2I4R3laWFAtb0hyeVI2cWpiQ3o4bmd5MEFWdnZqYWlUUXRnVWI3WS1maVJpUllCV2J6T2xVZ1h2dlhKRE4yVU5lSDF0ZHhrdDNTRmN0N2xsbWFteXAtcE02M3QzRk1fcmdMMjhtRnQydkR0elY0QQ?oc=5",
+      "title": "State Street group ceases to be Credit Corp substantial holder",
+      "snippet": "TipRanks, 2026-11-24T09:10:21+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T09:10:21+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTZsdzE1TGJQZkFKbG5ValZ2aFAtTS1FUWZYV3RrT2d6RW5XalJlamdPZ3VZWE4tRE51WVU1MUhJM1l0b29ON19IUGRDS3RienNxRVI3UE00VG9rQzR5QTYtb3BMVXVaSkVETmlPb0dHY2pmODdkODl2cGJvZTNSbWZudXhfYldHT1RMcTExZ21tUUkxM3hmWXlPUzZHb2dpSHI0QXl3S1Z4M3FFNGdQbXI0bjhDdkdxc1JIQlUwVTl0Nk02alg0?oc=5",
+      "title": "Key facts: State Street Adds 78,631; BlackRock Reports 10.29M Shares",
+      "snippet": "TradingView, 2026-11-24T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQVdNZERWSWp2OHRjc09OZjJ6NWNhUzliZ1V6c1k3SUpRTFhhRmVlckxfSzlHdHlPVTNwdHNDaXVyYkFyNlVYVGQ1QkY1V3pGTURFZ2RWRmZxQ0FOV1c4cWFOM3IwUFdXZ2FUQ1hlZzBBaVBzRTZzdFVGSTdMTEQ4am9JcXJKMWt1YmZLU0tZalBOZUhhcGhGdTU1d053MGNwZDM3N3V5OG4zbG9NWDFmVVVWMkRuQXpoMFFwU0xPNU93OG1PZGtEbDJ2QjhCcVpFTWRRZ04td3NHWDdf?oc=5",
+      "title": "State Street\u2019s Masahiko Loo Says Treasury-Stock Negative Correlation Has Returned",
+      "snippet": "TradingView, 2026-11-23T00:35:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T00:35:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 162.03 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ticker": "CMI",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cummins\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 21,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 5,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS2VDdE5IeXh6dENyRHFsTGpXUl9CZU43Q29NaUVBOWNaaWx0cWZLdkRrVS1mYzRmRGI0LUpvOGFrTVdaWHdKX1IxTVJCWk5zWXVnWFdVVFFoanpJeWYwcFdNSzBrSjN2Q1k3TGhWXzlieEx0bnJzclJsNjRvZzBFb19oaVEwbkxWNE53YVZoSE9WYzNkeHlQRnFoZ3UzQjNUUkUtVmc1WkRTdTNB?oc=5",
+      "title": "Cummins India Ltd. is Rated Sell by MarketsMOJO",
+      "snippet": "MarketsMojo, 2026-11-25T18:16:23+00:00",
+      "publisher": "MarketsMojo",
+      "published": "2026-11-25T18:16:23+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0J2VXlhbF9CQXlfcFpxVFpOVTh0dEp2QzV1NTlsZ2VQNlJmNjBXTjdCR1lRajF6b3BqMXZhMm5YaVhXX1AzbE84UnNlZ3RCRTVHTU0yVGxLaDlSX09zSTlJNEdLTWQ3dEM5QWRlSFRuSGVIUjV5Um5DakZRdUhwd1VrNk9oM2M0QUVGTEU1ZjZYLWI0M1JlTEZHOA?oc=5",
+      "title": "Cummins stock hits 52-week low at $400.51",
+      "snippet": "Investing.com, 2026-11-25T15:17:56+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-25T15:17:56+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjN0WDRLYkdnZGEyZ3EyN2hSMWpkcVFyY2UzZ0J3enJQRVFsbzhTX0UwbHlldk1wcWJ5dnJXWm53bE9Sdjl6SEVJcHZiNnB6ZzlwOHVjOFdheFhQLW5wRndGb2JYcHlDYmZJZ3dfWFVPS2lzYnVaNXYtMm1LcGpieUR3M1VUTVhkeVNlYmtJZTV3UkkyMHlwUEpXWWxjYzdBNVdPamx2UWlfWWxlakJZdVNKRGxKRmE0U252QlRfTVRqaE01clVv?oc=5",
+      "title": "Cummins Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T21:48:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:48:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNWtmdWZHUm5rejlOSlpQbDZ1VHlqXzdZRjVOd1FHN3NGeU1iRi1iRHcxOUEwVklhVHIzLVBGbUFSMTBReGFGbUYyT2tpdHY4RVlBc3d1MlFnY1cwam5pOUJmU3VuQUM0RGYxZDRRMjFlSlRIYkNRX0ROcjEyNjdaX01LVTZKNFJjMEVJMkJjVEp5ZXE0UnB5Qk5SM3VOeGdsUlA2T1UyTWxKc2VrT29kTXozeWk1QVZtUVFqbEFBd1k1OHBKT3ZN0gHMAUFVX3lxTFBHeFRDR1dpZ242QW5hLXUyNTdUbW0tSF9DRGNVUFRnVlBPdjllVTB0VlRpSXFDMlY0RzhvdS1tYWxta3VOdDFfZ2E0VDhDdlVMcndfeE1vNlVRSFBSUmVwVkltMWNGYVZIZ2FVYkhHSkh3dzhPRm4tWUJPR0JERkZuazZfYkExbGNGQXQwZ2Q0RGVJeE1lenZvRl93TE92NWx5aW42SG5mUWlUYWhVbGt0N1BJbWFTb0dpUk5GOUs5Ujl6RGxycFJkSFVJNQ?oc=5",
+      "title": "Cummins Stock Has The Bull Case Changed After Revenue Outlook Cut",
+      "snippet": "Simply Wall St, 2026-11-24T09:12:44+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T09:12:44+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWWVxR2k2N3U2dFp5aDZ4VHlibWYtaFlRdmtiQmswUXRma1NNUnItT25ERGZ2TDRBaDVhQzdXMnMwNkJ6VmloUDVSMFFJNEVkUWRWUXhZRDdPcWttZTlXYlFTWXkxVWNOOC1fdmZ3N3NCaWNHd3ZPVmk5ZjhkSXRuWGR2b2c2cFZBQVFIc21uVUhSOGtkUUxybGJ4aUlmbi1KRW9MOXN1SWcxSktveDh5X2lLT1g1MHJWQTFfcw?oc=5",
+      "title": "A Memo To Cummins\u2019 Power Systems Team About Delayed Shipments",
+      "snippet": "Trefis, 2026-11-24T00:38:54+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-24T00:38:54+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSDJEaU5xaTk0UndpdEU5OGVfTk1nTE5fNjMtYk9McWlIZ01qWXZFN3hzdkR2a1B1em9CWDNpM2Y1Q0xfc3pJZm9LZ0d6YW96T2M2U3FnSHp2b2l2bGpWU1VvOTZjNk5DeEx0Y3dvQ0lEQXJhNGpONWdQY2g4SzVEQ19HcmllYTdka094emUwLW5ic2phOWtrWE02LVRBVThkbHhiMFZIMHloZGtvTzhoS1pCcFFDbkhsbC12NUZKZVMzTWt1SGVHUHpSbzBKWmtGR0lhYlE3bVNSLVB5WVBELQ?oc=5",
+      "title": "Cummins Inc. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-23T21:48:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:48:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORGdqb1VkWEU4NGFIT2gwU2cwQlRhcHhvdG9ldnVsdjVVRmFtVTU2bUt6bUtsQVJvNGVEMjZFdGhHVk5wVzlRX010ZEN1Z05RM2VfWUVpaGFsZk1HbktFS2NCbXBadWRPVTdoZDdXVFJmeUdjMk5jNWdKblVYUlFLRldTZmxoSkw5M3NtamtYNTZ0YURkbDVhTTEyXzAzUkQzNDVieHMxOA?oc=5",
+      "title": "Are Wall Street Analysts Predicting Cummins Stock Will Climb or Sink?",
+      "snippet": "Yahoo Finance, 2026-11-23T15:28:36+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T15:28:36+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVDlKVzhnaEU4NzhpV3ZrV1c1U2lrbHZZci1KTkgxYkEtcXIxVWpkdGh5Q0NzOEdqYTFSRGMtV2NQQW9wUjBkZkllVkFienVtZUJzbkJWdkFNS0tjdk5kRUlNUUw1ZjhOWG1vY01uNXlIR0pocmdobFVxTk9WRzJjaGZFSmFSb3N5MTRRZGdQbGhLMGU4R0d2YjFLS1pTeUpvdG5mb1U5dm1pM1JXbVhqRE5BTUs2UQ?oc=5",
+      "title": "Cummins stock: Argus cuts target to USD 609, keeps Buy",
+      "snippet": "ad-hoc-news.de, 2026-11-23T14:42:13+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T14:42:13+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMI/history",
+      "title": "CMI daily price history (Yahoo Finance)",
+      "snippet": "close 420.72 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

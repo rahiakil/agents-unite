@@ -1,0 +1,97 @@
+{
+  "ticker": "BAX",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Xd0s4M1FoWWg0QzNTTmhmdHBnblNuRVhIODZ3aW9Hd05uM3YxbVc2MDlhMmFMY01NZlJxU2dwVkZMSUtsVmZRVTFQZ1BmLXdxdlFfRmM2eVI5ZDFFS0dSeHpsYzUwOWhY?oc=5",
+      "title": "Baxter International (NYSE:BAX) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-25T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-25T21:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ1o0OUZvUzc5NHl5cmRBbFZNOEZNNjRaanl2VHJzT1c4NkRjSFREY1ZvYnNBZ0xhbHJ0ZDFURWh4d0V1RVY1eFRKeUNTelgtSThsYjdYcFFuck1sOEdJVm1lSnVyWXdTNHNYZU8zNzB1a3JUUkw5TjNISTV3bzNXQ0ZCZFdBcEZ3Tk9UWVRsWGRqc2NBSThobVF2NWFDOXhUbkU0RmZCTTlPMFlwU2pHRmd1ZU92SnhyZzA4N2lDSENYQmI2MXRTdW1R?oc=5",
+      "title": "Defensive Healthcare Buying Lifts Baxter International (NYSE:BAX) Today: What Investors Should Know",
+      "snippet": "kalkine.ca, 2026-11-25T20:36:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-25T20:36:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uRm9xNjZLRDVCVGxVeHdibENZcmV3Q1JmOVlfeWNWOWJUV2pjcmp0c04zc1ZIU1llbHphdWoybS1xcnp4cVNuT2RlN01RbkJlemdpd1Z0Yw?oc=5",
+      "title": "Baxter International Inc. (BAX) latest stock news and headlines",
+      "snippet": "Yahoo Finance Australia, 2026-11-25T13:50:22+00:00",
+      "publisher": "Yahoo Finance Australia",
+      "published": "2026-11-25T13:50:22+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUg2ME05VlVzY1c1LTJTb3c2Yk14eUUtQnpLbUpRYjFvTXN5eXg5TFpvaG1JVVBmX09TX0NsOTQ1LWlnZUU1RVlIRVhHNWRkVkpRS043YU11WkpGOVFfOVpfTDdOQmVpQ1AtLXk5djRkYkJKY19uUC1ZY2NrbVl4dFlDX2g3OHFydTY5LTViMUNHaVItWUV4MVEtZEJnakhVdDNLUVp3?oc=5",
+      "title": "Baxter International (BAX) Just Overtook the 20-Day Moving Average",
+      "snippet": "Yahoo Finance, 2026-11-24T13:35:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T13:35:02+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZHk2MVN5OE5WODBlc0N5ajNrT3dYRk9XWkVQTTJLZ0drSXdzNVF5UlFvbElzcldEc2x5TzJrWDJET252TVFRUExRa1VmNjd5d1RQSkRhblIwWXk2WFV0UVFWVUs2cFE0blRDZi1qRWowRUswWTQtLXRpZTRBOE5jMi1fcGhzX0p6azFvWU1rSER1SDlaTzdNbkx5YjRrbnNHamhrUWJPZURwMWs0ZEZKbHp6OWE1NzNnY1RrWmp0YmNlOEt3OVVpeEh3?oc=5",
+      "title": "Baxter International Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T22:11:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:11:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 27.26 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

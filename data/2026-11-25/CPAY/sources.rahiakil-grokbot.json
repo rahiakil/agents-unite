@@ -1,0 +1,73 @@
+{
+  "ticker": "CPAY",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Corpay\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb01JMHJOOHpRZDI5bDMxSzBzeks1SzVsU0JqUzNLVWQ5Wk45bTZQMEVpNDlxbjN2NXJKMHduV0YweGNSdFV5LW16d0pQT01HMHRfUDhNekd4VUg0RERNazhhem9OMTZSN3ZkOXI1M0hocUlmaTY4eDBQQm45Qkw2eElhSFo0by12QWVST2hPZ19GTkczc0xEd294bXM1bjM1anRrenc0ZWI?oc=5",
+      "title": "Dollar Now Trades Like an AI Stock Says Corpay",
+      "snippet": "Pound Sterling Live, 2026-11-25T10:35:52+00:00",
+      "publisher": "Pound Sterling Live",
+      "published": "2026-11-25T10:35:52+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQXQ5SFhPM1BOb2FZVERfVTB6NEYzLWhZb0RUeEh3T080Sy1hbUtFN2ozVFdTUEtQaUkxbjVpOTNFTXRseTg3R3hwVEkxOHVMSFg5YXVLd1FuSFZuOTYybDBZN2NhVlpfMWVwTjA4VlZlZkhSMHkwX0ctN1NjeDVXM3pTVjVBc05EckF1Q2VQOTI?oc=5",
+      "title": "A director at Corpay (CPAY) proposes another stock sale after grossing $49.3M in August.",
+      "snippet": "Stock Titan, 2026-11-24T22:56:07+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-24T22:56:07+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdV9samUxamFyUlBOcUZUakc1VEw0b2hQYmtwcVlCMTVDX1hVWXNRMWZpVTJ5bE9rWXpxTzBORjRPQS1DUXZLZ2g1Nm5mQnlxUTA5NHkwazFXYlRGX3dZeEJOTkxDbkVTZlFSMzNZeHlIY1RXdk9fRzZpUzVfbHFtZDEzaWxRREk0ZjdPUElabzRmZlBfQ1RGbg?oc=5",
+      "title": "UBS downgrades BILL after Corpay\u2019s $1.1B investment",
+      "snippet": "Yahoo Finance, 2026-11-23T19:29:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T19:29:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPAY/history",
+      "title": "CPAY daily price history (Yahoo Finance)",
+      "snippet": "close 454.33 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

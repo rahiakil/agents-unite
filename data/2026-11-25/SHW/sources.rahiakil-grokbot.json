@@ -1,0 +1,133 @@
+{
+  "ticker": "SHW",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM1NZRlVyZnRNa3czX0thNE5MemZwNEE2REtHLTJtNzJDOHlZbGF6T0F2d1N3Q0ZENWNwOUt2OC10bjg2RTdEcl9ESUNFWlY0TFRBMlpad2xzWHpucjl2Rkt0NWk4TXo1OWpiLVkwZEIyOHQ2b0ZNMTcteUZvZ0J6LUFuSDd1Ql9ZRHk2emZEcUJsem9aRHc?oc=5",
+      "title": "Dow Up Nearly 150 Points On Gains For Shares Of IBM, Sherwin-Williams Co.",
+      "snippet": "Moomoo, 2026-11-25T18:17:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-25T18:17:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOXp3NW5VU05zSXJjMnpxYmNWbUNHdGc0WkxuZEhELUlEcnAtLVV2VlVQTDA5ODhFSWRrcjZfblZqVjZ6S21xeGlTMXlfbXk3Uk4yZHQwaGs2bHh0UXcwajlvRkJDM0ZOTzhXemJ4dXYtT0E2R1R5amRTc1JWdU1vVHdERDJySVRkNU1reENER2NyT1NJaEkza2ZVaVExOGtfbE1ZNlJqVTVCdGY4QUNRcWZlVXA3Z2ZOekdn?oc=5",
+      "title": "Can Sherwin-Williams (NYSE:SHW) Maintain Its Dividend Amid Cash Flow Pressures?",
+      "snippet": "Kalkine Media, 2026-11-25T17:29:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T17:29:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeDNWSC1HQ05TWnk4emIzLU9NT2pMcEtQV3hWNWNXb0d1WGhFZk1hcFhnLTF1ODZYbFY2ZC01bUF0NlRLdEZManlZZ295NjgzSlBodVVBdm1xVlJ1TVp2SE5qTWZYbVhYdUgwUmdoOGEyWFFuamJDUG9obzVFVDItMGZIcXBVTGZMRFhsNXpiVE5UYVF4VTZtcGpIRU1ENFlpY3h3RWJlTUhLUTkweXpQQU4yRQ?oc=5",
+      "title": "$100 Invested In Sherwin-Williams 10 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-24T21:30:17+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-24T21:30:17+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdDJLb2JOenA0SUpBNzExbWZBNDBpN0xnRTRMbWptUkt2aUN4NEJ4M3R2YkpOSHZaUmVQOG1DLU42QmRXdUoxcGVBQ1FsZkVMTEpzdTlIazlSYnpRZHhyN3JoTHYyV2Z0WTB2VGNmcXUwTkMxV1E1TFZyQmE3ZDZjVm94ODRwY0NQcWtWcHBmdmk4SFBaTTh4UXNuQzlobm9tamg1N1F2c3A?oc=5",
+      "title": "Dow Jones Leader Sherwin-Williams, Target Stock In Or Near Buy Zone",
+      "snippet": "Investor's Business Daily, 2026-11-24T19:10:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-24T19:10:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkVDd0lka3hkdVlqOTBYb0htMDhOem9xdmhraEdBSnlpb2lMMDY1VWFMWjBLZVgwZGtmWUpaSzdLSzZtVkNyUlppVHlMd3pVdjV6Q1dNbjVLMDBhaFlFNVlMNTFRQ0pZcWYxVUVoOTVlbzRYdGZsMU9Ka2pzWHhlMEYzd25hckpHX0NWaFRnYWJUZW9VUDYwSjU0Y2ZnM21McmNPYlRzc25YU0p4QjRhZA?oc=5",
+      "title": "Sherwin-Williams stock: Zacks puts shares at Hold",
+      "snippet": "ad-hoc-news.de, 2026-11-24T15:25:04+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-24T15:25:04+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBubnFxT0QwVzZ3ZWRlZUxCSVpQR3J3S0tKNkFpLWZCM1NCeFR4eGs1eEJKVnc0dlJEWjJXVVpUcXRGQ3p2aVFZ?oc=5",
+      "title": "Sherwin-williams Company (the) Stock Price Forecast. Should You Buy SHW?",
+      "snippet": "StockInvest.us, 2026-11-24T08:00:00+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdGhub2dzQkFRTFZFcTZUckdOclYtUi1Ya0lDcDZ3aHc0TUZqcXJEV2w5QlRudUp2Qm00SUpqbXYxakdDY2dtR0lVMmRScUxsbFhXXy1vcjRIbHVXOU5iRnk2eWx0MzAwWks5TFc3Wm1CWS1lQkhTVENJaVRJeVRoQWtMQV9QeGJwSHhJNHQ2VWE4cUh6MTVTQnFrYXJXZ0dEcVRYZlVtdG50d2w4dG9FVDZR?oc=5",
+      "title": "Sherwin-Williams stock at EUR 321.15, up 0.64% premarket",
+      "snippet": "ad-hoc-news.de, 2026-11-24T07:36:36+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-24T07:36:36+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnBYY1VUV2p0cmxPX2M4dUhEYk5YeC1rUkRacER1eDIzQnh2VTNUWTV2MmlaTFNTSTczVFQtN3prRGY4b0I0OUZWdzBLNWdhWWlLdTdWN1ZROVhlaFk5VkV4aXlEOHd3MW9iYnpHQ3ROOExNbVc0Nk1uUHdaWnJkTmtyc0VVN0N5MUhLQ0hKbmIwem1jOGtaWGhGQ01XQU1tTnZjbEhqNnFkNXRGcTZhdkpyc2Q4Ujh5NU82QWI1NTl6UQ?oc=5",
+      "title": "Sherwin-Williams stock: Lang & Schwarz updates trading reference",
+      "snippet": "ad-hoc-news.de, 2026-11-23T15:33:15+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T15:33:15+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 361.02 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

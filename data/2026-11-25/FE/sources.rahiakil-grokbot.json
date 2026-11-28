@@ -1,0 +1,139 @@
+{
+  "ticker": "FE",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FirstEnergy\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PMm1hTGhUeFQ3ZHZDajZJbFV3aUxob1R4c0NTMEprWFR3WnNpNElGckFHVFV6VFVfdXJYak1sVm04Rm9GUk1QdzFtLWdqMHVoa1BPVVkwRk1BN29Z?oc=5",
+      "title": "FirstEnergy (NYSE:FE) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-25T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-25T21:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2VPNnlZS0ROYmtHMWlqd2M0bV9LSFlHcW5BMEdiX2FDcUx2eUtZZm9xTXZTb29SMXJpZU5FUTBBY0NOMkVWSGZJZktzTEJkUi1aRjJTR1FSUHl0dktMUDJvZ0F2cUl2VjE4UTAzVnduTXBGQllNWVhOeUF5Q0hJYTJROFVfeUk4RnA5MHh3bmhsYi1MUDNCQXRuT0Zsc3NnT3JQc2hn?oc=5",
+      "title": "FirstEnergy (FE) Contributes $300 Million in Stock to Pension Tr",
+      "snippet": "GuruFocus, 2026-11-25T15:55:56+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-25T15:55:56+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3lucVZoVGxwbjJBRUlZMTBmSFBSMGxzSnRMUjNpcjBEMVFhc1VyVkM1YmRKTHNfUXI2dUE3OVFfQ3R3SnJ4dFllcURxZk5MMUdsVXJodDVoUGUxVWtjdkhFLWxiN0Rna3JsSW4yQXFET0M3X19FTjVIWVc2c1JFNVE0VTlCUmNTNVM2aDY2bnRJaUZINHc?oc=5",
+      "title": "FirstEnergy puts about $300 million of new stock into its pension trust",
+      "snippet": "MLQ.ai, 2026-11-25T15:07:52+00:00",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-25T15:07:52+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMjc4TnY1ak9hS0FGVVpWNXVJYVVzVnpxOEEyVEd4T2s2LXRiRHZVQkJJZDhyNEVZLU1NRjNWYnNyNW5ycmVKbzZtX1FCQzFBWGpocXBodzVmT09ZR1JQckp5MHg5TWVnMklRWFdUNXg3MDU0bGR3OFZFODNaSktDYVpBdWJzSmR2Tjg1TkpRS0NJcUtTaVUyTWJSZjlQYUhGakstQlE3bTZqZFlDTmc?oc=5",
+      "title": "A pension trust could sell FirstEnergy (FE) shares, but the company would get none of the proceeds.",
+      "snippet": "Stock Titan, 2026-11-25T13:38:38+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-25T13:38:38+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.412,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZllPMkNMU3pQeVp4TlJsMnZ6ZFNTSlZ4UjFQZDZ1SVZISmR3ZG1Cb3J0RjVLeTN1Q0lVczVyTXEzUGl2anN4TUpwbFV0aU1LbEZaSXFMa2pfaUxFdHY5dlN5cTJLY05ZQ3NkRlhGMHgtTXpENS1XbGszNkJqaVY0Z2dJWktGRm5LVlZCelBvR3hPNE9jS2NtR1dQNXNCN2NGSFFrTldR?oc=5",
+      "title": "The retirement trust at FirstEnergy (FE) received 6.33 million shares to cover certain future funding obligations.",
+      "snippet": "Stock Titan, 2026-11-25T12:41:20+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-25T12:41:20+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFNnNxSlR2dXdtWW1FTUZHVFZvVm94d1JXaklfS2d2V25wcWgwUnZTaW1PMzN4bXVnakJlWHlOU3VWN0loejFBczBLMmFnSmpQTVhaY0hDQXFYeUFodDhveG5vLTdWRDJVWDVmcE4xN0ZDNkxXSHVOcXRR?oc=5",
+      "title": "Wrapped FirstEnergy Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-25T07:00:12+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-25T07:00:12+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Fb1VjeUpVU0x0b080N1dPRFNHWU90X3V2MHp2YzBzdkg4Z2xfMTZscDZ5UVpxMURYa2tySkRYSWVlSVBMYmc?oc=5",
+      "title": "Firstenergy Stock Price Forecast. Should You Buy FE?",
+      "snippet": "StockInvest.us, 2026-11-24T08:00:00+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1031296/000119312526478506/d195970d8k.htm",
+      "title": "SEC 8-K filed 2026-11-25",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1031296/000119312526476850/d185350d8k.htm",
+      "title": "SEC 8-K filed 2026-11-25",
+      "snippet": "items 1.01,3.02,9.01",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FE/history",
+      "title": "FE daily price history (Yahoo Finance)",
+      "snippet": "close 47.62 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "WYNN",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wynn Resorts\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZNDUtWDh6ZFZMUlo1empCS0Z0NWh2ODE1V2VBYVVYOG93RjVBZ2plNHFfWG9mUmJlcy1KWkFDa2diWFI5Wm05UENfeHpJQjBZOWZ5a053d3BKbnZMaFp4cEVKNmhfMjJXcmp4bzlIaGpnNWQ3TUUzLUJR?oc=5",
+      "title": "Fertitta options trades raise questions over fate of Wynn Resorts stake amid Caesars purchase",
+      "snippet": "iGaming Business, 2026-11-23T23:09:17+00:00",
+      "publisher": "iGaming Business",
+      "published": "2026-11-23T23:09:17+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGNVTl82aVdNLWhWVndQUVktTEhJWmw5MUFPSk9xOFF3cF83N2tNN1ZXTU5oRFd5MEY3OUZoTUZFbWptcHNlSV95RXBYRWpqR3Z0RGlTS2lhWG9vWkhmLVpUNzdMdWlXSWZUV2RqNVg5MEE3bnR2YkV6eVNQa01INmZuREVEbXRnYlNCQ2tvSlhrSmludjJiZlVfT3dJUkFfMmRsUHZtTGo0MXR2R2NxY01ZQUg5ZmljLWstVjBwZw?oc=5",
+      "title": "Can Wynn Resorts (NASDAQ:WYNN) Sustain Its Brand Strength Amid Market Uncertainty?",
+      "snippet": "Kalkine Media, 2026-11-23T21:34:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T21:34:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGt5OUVFMjl3T0JVWWM3QmN0eTk2ZzNtRWM4aTgyem05TjU5ZEI3OXd5Ymk5dU9XUVZmNmRJTTVfeTVYRDJSb2Z1MUpKWVpEYndnUVhneHJ5TzNLWVYtUWw2ZmJ5ajF0V216aWtPUEliaTRvUzRVY0pnSkxaVzlacXZpYnpYZThGNmh3NElYR21uLXQwcktlaUVzSVZraFN5LWhkMFRPeDQxYU1YemgyTmpsR2l2RjVzX2xDYU1PRC1vMkZYcHRHNXZUVHctZE05bmwtUklNTQ?oc=5",
+      "title": "Wynn Resorts (NASDAQ:WYNN) Stock Gets Price Target Reduction from Morgan Stanley",
+      "snippet": "MarketBeat, 2026-11-23T13:49:53+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T13:49:53+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWkJkSDZLWmxTZGF0YUpJbzBFLWhkam9na2pUTWlUNmVZZDhqSWdJV3FtbkRnc19qUEY1VExGZWJLTVFraGgwRVVhSHdpS1Z4bklRQ1JDTFowclM1YVNlWVhqeFJ2bm5YcVg0Z290OGtqaE5VUW4tYmxSRzVod1NXZXZXdllfdDJuQVc3LTFIWnM0RHdkLU5jTnpUQmxFVTBNUVJSNDB3UU9XdG5zbmx2Z1QtMXBiNTVSWkw2clRCNGlFRXdId09abjkyWEIwSlXSAdQBQVVfeXFMTk5abkF4emNEUWhxZk1RUEJRelVqQVNWQmg4ZzBBdzI2ajBNeERyekp0VVYwQ0k0cC0zU1lTb1lkLWh0dV85dTJhSGhhSnhzVVplVU9HbmpTMGl0M0FyWGw1Z3hyMHVzbUlHaU5wZmYtMGpsS1VzYUxhOXByNGQ3aFFubzFtSXg3S0ZtOWx1Mnc1YnE5cV9EMVBMOWRPSFhjdjdWQjJDdU9IekV5akdOSVZsVkdIUXNUUU5lanpESGs5VjRpcDdHRnRvWFZIZHN1b0FVT0Y?oc=5",
+      "title": "What Wynn Resorts Holders Got Wrong Before The Slide",
+      "snippet": "Simply Wall St, 2026-11-23T08:09:07+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:09:07+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.681,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS0gxUUl5S2ZZODN0MHZtS1R2WmlpQ3RZUEdaMVdOc1IxMk80R3Byd2Zfb3lJUF9hbHI3V003M3pnRGFEbF90TzZfcjBZWi1xek5Bd0d4aHJVTVpaVFo0eFp1UGVuNTR3ODhOSjg3OHVBMkxRZ2NRclJmLUhOUnhORkVHTW1GRXpH?oc=5",
+      "title": "Wynn Resorts (NasdaqGS:WYNN) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-23T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WYNN/history",
+      "title": "WYNN daily price history (Yahoo Finance)",
+      "snippet": "close 86.08 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

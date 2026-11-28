@@ -1,0 +1,85 @@
+{
+  "ticker": "IRM",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQU3d4RjFGZ3dTenpFQTVvTnhGUjVsVkozU2g1b2JDeGpzTXEzR194OG1GODFhOXV1UGtmdG5iRnBuTEZzM0pLS2RBUUxWYUg2Z2V2OW0ySkhOTVJXMHpIdGl5TUtZNHIyeWtVeVItU25fX25TNU9HQnFmOTJ0bGhUT3JUblkzYXJTa24yenBieFlUcE5zY2NFaWExcTRXWVJGZWFVR2M0VlNnY2pianJqWnd0NHZlN1pKRW9RdVd4cENraWR5bnZsa0RBdlNSajZQVzVmelJ6WXp6eGdCaVJPelFIeUtCUW8?oc=5",
+      "title": "Iron Mountain Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T21:56:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:56:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlFpNWNnWFVZZDNjZkZRTmJ0TGw0cDlwUVhhUll5QndxRDRxb2RENGxRby10YlFXVW81eDNlWTVKVWN1OW5WNmVxSm85UGg2bmxFTU5Kem5TOENuNDlpZFJ3bjkyRTdVakF2dVFueW5xcGJmQlNoYUJPQUdZYWxMbENSdVNLVkFzNzZOUzk0cXlQZXRldzQzYUlzejN0bG4tNWJFU3RqSnB2RkNfb2I1MlR3?oc=5",
+      "title": "Iron Mountain Inc (IRM) Shares Surge 5.0% -- What GF Score of 87 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-24T01:06:11+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T01:06:11+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeFBpWlBqcVNHS1M0ZGcyMnJtRDVQTlYwRnJjaHg4Wkt3LXg2NkhGVlBVYUtMd1htRFh0clY5TmxjbTNWSzlKMFpxNldQdnUyOWNxLWhPMHROVmpzRWZHM0dYcnY4RVVzUTEzUVcwdnpQUTd6ZVI0OEw5LXBMZTlTYUxsNVI2czRoa2xrenR0NmY4M2NTV1NZ?oc=5",
+      "title": "Why Did Iron Mountain Stock Fall Again?",
+      "snippet": "Yahoo Finance, 2026-11-23T14:00:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T14:00:03+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSUxGMkg0NW9ZR0FVMktGOGgxS0xBTjVJZUZTZDJmUTROaUxuMFVNdTh2Z19rZFdrU2tZSVpqZlpRaDRJcDdoZ1hwU2hQOWNmWFlTMGhMOENoOFFTUGlqZlA5cnhkbWlTOVgyWDM4ekVNazg1bU8zRm1COEhnMTRSN20xTmo3ejctYXU2c1NSbVVCSGVYbzk1c1RwSUZBVVk?oc=5",
+      "title": "Digital Realty and Iron Mountain Just Fell 10%. Their Dividends Tell Different Stories",
+      "snippet": "Yahoo Finance, 2026-11-23T13:17:43+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T13:17:43+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 104.06 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

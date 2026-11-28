@@ -1,0 +1,121 @@
+{
+  "ticker": "ETR",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Entergy\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYkR4eUo2MzNpYXVvSWNxQW9TSE8zUXpxb2p1d2VfdmxyRTlIX2pBLVZYR0puOGg2aW9sTXQzM1Y4NGs2Y2ozUXBOVEVmNER5eHJhME90YnRUT2FjcDcxdm81R3VUQ0F5ZW1ndlN0NGh1Vm1Oa0JmZVZTU3Y4RGVWU3lhN3hLazluTkxKRGFRNDdZNG1aMXlXZGpUa003WFRDOFNr?oc=5",
+      "title": "Form 144 ENTERGY CORP /DE/ For: 25 November By Investing.com",
+      "snippet": "Investing.com India, 2026-11-25T20:08:06+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-25T20:08:06+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWnVCMzlYRXF1Ny1PZDlXbHFtVHgyU0dkQmwwR3ZfSlM1U1pMZ0Y5YkVkVThuR2U3MmJxX05la2ZOS1VLUVZGc0hwdUdma3BROVZ3M05BODBNZUZPemw3UEhXNmZIZV85RnRUUmtOMEE3WmtuejMwQ19mclRKTm13SVprVndjazBlbm01MG02Ul9hZw?oc=5",
+      "title": "Entergy Officer Falstad Files to Sell 4,683 Shares",
+      "snippet": "kalkine.com, 2026-11-25T19:47:05+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-25T19:47:05+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY1FPb21LTzFwbG11RUpWLTJDc2l5QUhCZmhhakN2WGlIU05iTFBsaHhudEJQRWNDc050OVhiVFlwVDV5MHVEcU8wWnFVUzJMQVRHQXBFME1pZzJoQnpmN3hMWG1aejFKRE9xR2taek4xNTFUdFZUUkxfV2d6SWhnN1lUTERkVEJ0MjAyNXFCLVNYb2tlclE?oc=5",
+      "title": "An officer at Entergy (ETR) proposes selling stock valued at about $500,000 around Nov. 25, 2026.",
+      "snippet": "Stock Titan, 2026-11-25T19:35:51+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-25T19:35:51+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6X3g5TV9wQWhRaHNKdUZBZktNNzBkZWpXU2l0VU1ha2VDOG5WNG0ya1dsWE1jQ0JjMWFNQ2h1OEUxQk0zbENEeDJBMW5NQVNTNElzY3Q5b3FwM3UycEszWXUwNXE0WlJrVVFCYW9UaTRkV2NicnpRVEpLX2Y?oc=5",
+      "title": "EEI 2026: Entergy CEO Drew Marsh Talks Economic Impact of Data Centers",
+      "snippet": "Yahoo Finance, 2026-11-24T19:24:18+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T19:24:18+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTFNXbWNnT3pGeUNnVXd5ak1HQ04xcWdYMEZJcFhFS2hmcm12YnBWaWFYeUlwQ2Vzal94LVNXNXhsQ2hIZXRiUHBnQXhrVlh4WlRGMV9sY0syZ0hnWXNJdU1jNVFRTEw3dTdQalZtcUMybWtlZGRIS213czk5NEZEelF2WGRnZURGVEZ0bm9wRWx1cEZxVTY0WlllWk1vWmdhYXBsTi1JRVNZang4TUw5NFJ2eS1VUTBjN2EwMzg0V1hsZDZ4dmNaMnhjREdobGZ6WVNlQkpPazQ?oc=5",
+      "title": "Entergy Corp. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T21:49:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:49:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CSlZZbHZQQ1hqTzVrc2RnajJydmtvaEw1d2pCdnB6Y3l1YjBuSkJ0VGJwVlJwX1hCZlY4aDFtaXF6NGd3M080endTenRsZHlpVThRTjhnbEw2TkZ2c0N1Rw?oc=5",
+      "title": "Entergy Plant Costs Rise 63% Ahead of Meta Power Vote",
+      "snippet": "bsinews.id, 2026-11-23T12:18:45+00:00",
+      "publisher": "bsinews.id",
+      "published": "2026-11-23T12:18:45+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82YkN3cnJjSmYtWkVjbGFmZFF5eFdpTXFGN244YlRHQklJMHUzUmwydUxwMi1YQ2RFTlh3bk5rMjJBQXNiaVpwWXBMY0VHdmdqX2l2aTFCMGZXTnNSQUJYd0RDTEoyQXEtSUF1N1ZLTExqSjBV?oc=5",
+      "title": "Wrapped Entergy Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-23T05:55:57+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-23T05:55:57+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ETR/history",
+      "title": "ETR daily price history (Yahoo Finance)",
+      "snippet": "close 107.32 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

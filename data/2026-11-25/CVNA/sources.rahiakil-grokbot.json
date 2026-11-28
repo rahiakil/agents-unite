@@ -1,0 +1,121 @@
+{
+  "ticker": "CVNA",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carvana\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQclF1SGpSWm1MSHpMaGxQQlBzZ0VrZzdYSnIxWV80TmpMSVdueWJuZWlYSDVLa0ktTVJqZy1XMXdoZ3d5VTBjX1ZLQjV0QkZsZ2ZQMEtXTnZsN0NNVkhxRjZyV2FIQjZ6MXROemdoQ1B6UUpoREk0TEhwRzFXOUZ6bG91N3VZbko4VEZxZTZn?oc=5",
+      "title": "What Moved Carvana Stock?",
+      "snippet": "Trefis, 2026-11-24T16:06:01+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-24T16:06:01+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNG0yVEdJTmYzYTE1TVhLWXdndWtzbmhFbldtRGFCQWZGVW1haGhvUjB3SENpTEdlR2lfdkpYYnB0cURJZHNqZWZVLU5DYzJWNWt0OV8ybThXOExYRTFkcDc5Z3dUMndnbF9MeVpKeHBBeHhOSzFBZ3VHNXVoRzdEdDBiWDBHQllkTHd2V2U4N0dFQjRicS1Z?oc=5",
+      "title": "Can Carvana Stock Fall 40% Again?",
+      "snippet": "Trefis, 2026-11-24T15:29:37+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-24T15:29:37+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT3BnOTM4TnU2aG8tTE5wYUkxWUZCSWJEZktZNzBlQUo1bTlWR05NS0VNVS1EMkhOVGFUbnZKMkRpUXdHT29id0xWclRwWU1iaXVtZ1g0clNtVUt3djAwTkRHSmZyYVdJbmd0RlNWVDJGNVd2aV9oNTVFOU1VSXZzQ1lrN1FSamRSZzYtSTliSVlEX201VmRTSGx4MF9Fam5JVWZnNkNpU1VxS2l5TnRkRDc3U3JTXzlhV2pwbWcxMVRTdXJvdlVDN3lwdTI?oc=5",
+      "title": "Carvana stock: Carvana completes receivables transfer in CRVNA 2026-P4",
+      "snippet": "ad-hoc-news.de, 2026-11-24T15:22:15+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-24T15:22:15+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaHNfSllsOTExRm9WdW8wQXRsU0ZDMlR4akpkeG0tMncxMWh2SFVnM1Z5VUtUX1pabldhd1l5ZDNnS2pmNWdpUEtEQndOMkxmNFltTGlRcXRKQ2pNNkNkSEx5MFRIQ0Q3b2NjTElxa045UFdlR3JURjlJWDNmTHpHRE0tWjFtbndsU1dka3ZfOGkxYTROQ0NWdGZiSjViaFZuTDRTSV93?oc=5",
+      "title": "Carvana Co (CVNA) Stock Up 6.2% and Still Undervalued -- GF Scor",
+      "snippet": "GuruFocus, 2026-11-24T00:33:58+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T00:33:58+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM3pVQ2dxTG44T2VfZzJSOHd6UjdIMWp0Q3h1TlZwc1JuV2JiemZySTdwUmJIeV9MUVlZUTVCS055RERZTkRvajJ0Szk0dGxKUVlPc1FUbUVydVZBb3k5bmhIdzIweW1pelhLTkNzYVJMa1hsVzduQlRILUh5b2NZZnZvOTZzdnZvOHk3WXlLLWREVjl6SVByVHA1NnNjMXY2QjJMRzA2N3dDZ0ZpOUhjTGNxcVlJdEFIVmRzZlRYdw?oc=5",
+      "title": "Stanley Druckenmiller and 9 Other Big Funds Sold Carvana Last Quarter, While 11 Bought. Who\u2019s Right?",
+      "snippet": "TIKR.com, 2026-11-24T00:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-24T00:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbEY0VVJPbEI1T0ZDQzdETnlVWXRIWDlxM3g3U2RHWUI5eWJwRE53am1xYV93QkhITGpzS3VQMUJyLVpyalB5SjRzZGRpTFd3NWs5YnBmZXlDSFNfaHNHcTg3Q01EUUp4VWNMcUVadFdSQkYwV1kyQlQwbGIzZi1FX1UxbWlfZVdVRHVBU1JlZmRMd0c2ZVliVkcwN0VaeFFENllOOE5RUTFfUERZanMxemFLMDBSVm13?oc=5",
+      "title": "Carvana stock: shares trade above the November 21 level",
+      "snippet": "ad-hoc-news.de, 2026-11-23T14:50:32+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T14:50:32+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDOHU1cHdSR3NDZW9mZ0JJaDd2aDVLdzI2Y0tGUmk5S2liWGxLZEtwZzN6eG1YTlZNOXZ6c1J6MnU0MDlOYXJfM3lCUHZuRnY5WlQ2UzFZWWJPbGx0VE5tWHdPREVtLWZ5amZHUXhqRk9GQVdy?oc=5",
+      "title": "Carvana Tokenized Stock (Ondo) price today, CVNAon to USD live price, marketcap and chart",
+      "snippet": "CoinMarketCap, 2026-11-23T08:00:00+00:00",
+      "publisher": "CoinMarketCap",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CVNA/history",
+      "title": "CVNA daily price history (Yahoo Finance)",
+      "snippet": "close 67.84 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

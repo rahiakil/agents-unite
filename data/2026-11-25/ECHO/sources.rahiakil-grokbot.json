@@ -1,0 +1,121 @@
+{
+  "ticker": "ECHO",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EchoStar\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSjh0dEdTb09nZmRaZnZ4THFveGVwTWIwOWpnRGxTWlM5eDdzVmVKbHJXT0tqWnJfN01Kd1ZqR3BBWnFaLVJ1dzZxa0RGcER4c3JsUktJdkNQZkh5V0xpNWx1ajhERllpenlmMTV4QnNLTWxJM052Z0czTnItMHlwTjQwTElaTHkxX0FfZjFvSDdBdFpaT3dmU1FteGxpbm1Lbm9JODFiaDVKenhPUnF4YQ?oc=5",
+      "title": "Why Is EchoStar (NASDAQ:ECHO) Brand Boost Mobile Adding Fairphone?",
+      "snippet": "Kalkine Media, 2026-11-24T12:54:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-24T12:54:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hbThMNDVnNmNLMGhPYWZpLWNTZVlPZXhQaWlvOUJiRTN0cTNHaEZuU0c0ek93YTMwWUd4M2oxeDlpc3RPUi03a0ZpanV0SjIzZ2lIWlJPd0ZVby1EOUc0dExXZzVwNVFCc0EweE00bXgwcWJnWjVQTlgweENBdnc?oc=5",
+      "title": "SpaceX Stock (SPCX) Rises 3.6% on Reports of EchoStar Talks (Nov 3)",
+      "snippet": "Gotrade, 2026-11-24T08:00:00+00:00",
+      "publisher": "Gotrade",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTzlUTkVTNWMyWlJoUnRqejh5V0YxYmRrMTFUZ3F4ZUdZdzJzN21saEJlV0xyMVhyQmVlaE1NQTQ2czFLRF9rd1pMYzNEMTJlWFo4Rm1NTWQ5cU9Wck9kVGp4X0p6Sl9MNzFaZGxPbUtlN0o4NUJmNy1LYnpIM28ybnBocHJsN0MxYXRPWWFJREZLNEJ4MkRVajlHM180YTVGMW9EdlQ1YjVzczVmVERVLXQxX2IyejhlWldaY2JGNm9vZ9IBxwFBVV95cUxNUjRiUm5PM3NhVDFWU1RuWkZXSjNmOHlPNktMQ241MlFLUVJfRjFhN2tVdERaZ1p5WkFCd192WGJSM1VrZzZxVXoxOVl2S2IwQjNkdDNnem02UEtBVFRpR0NBQmxmNWtUd1RTLUtuNnByaVc5dGZWTHlBa3hrNEZBZU1ObEgtUzlVOThpQy1NeUkzdkYwMEhZbndQXzBjUnhQckZ4MDJWMkRaLWxHQ3NUejRCTGdiZ0dGM2E1TEIzMk1RX1Vna25Z?oc=5",
+      "title": "Will $525 Million Settlement Change EchoStar (ECHO) Stock Narrative",
+      "snippet": "Simply Wall St, 2026-11-24T00:13:33+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T00:13:33+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOWFNUbTJIdTBVYXBGVzRac2hBMGNad1d4V0xoWlFiZURzMVo0dmdfVFVnZjZMLV85NXBVampIZ3VDcF81TmhSSTNrUF9RVS16SmRCWkpSZElUTFJUaHNXSFV2T25fX0NQLWxkZldWaHJmNW12NHBqMWdHV1pTamdsTDBJUXczN3VETTFkODh2czhxdy1HV3VCUVphd0FnWEZIRDJUYmZWNkFsX2JmVVVqTm9NTHZUb09DZEdwXzRBdU8yYnFWWFQ2SS1qbWdhWVl2VzNlQzFBMndHRXM3WXIzdDhDX3lab2xHd0wweGxNTzNOUlRMNkpjbnJscDRLU3R6MlE?oc=5",
+      "title": "Harmonic, Quantinuum, Xanadu Quantum Technologies, RUM Group, and EchoStar shares are soaring, what you need to know",
+      "snippet": "TradingView, 2026-11-23T16:21:26+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T16:21:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWHl4dzZKUjBraTk3NDdIR1RmcHhOY3BxWUZuOElNeW1tUm54OXNUcmRSdDE4MDZwMVFKdzg0bU1NempVS2hBeWRFRmx2LWIzNmh3TlUtS3hKOUpQSEVNWUdXOVdvUTNOUHo0THRKWDJGR0E0TUM3ZlRNejVwUlgyNXR2d0doeTU4cGp6RHRrT0h5VjR2MmZ2bUw5cmo1Q0F2UDZjMjk1Y1I5ZFh2?oc=5",
+      "title": "American Tower expects $525M in settlement with EchoStar's DISH Wireless (AMT:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-23T13:35:47+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-23T13:35:47+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT0lXU2pEYzIwNUYybThaRXBlLUZQNXN6RkZqckpRVmI4QWlEcmM3ZEV3bWNKOC1qeEpMZEQzb3Q5MFBOQVBpbHpIMjZyXzhLbXpiT0RmOUxqUDFzNW9hZEpQS2tpcklsdV9nZy1CZ2J0ZE85d3Q0SGliZ09ablNGZDUtVHBFcXNOb25TT0tWMkNqcEFoMUVyT20zYkxyam9TZFB5OEN1SVZYWlI3ZmNhZjBXTXdEbmJUT2VjWHlIT1VSc3U1ancwenUzSFBPN1pudm1Tam5XbXE4LW5lYTBQN0E4UHBUR2FJ?oc=5",
+      "title": "American Tower expects $525M in settlement with EchoStar's DISH Wireless",
+      "snippet": "TradingView, 2026-11-23T13:35:47+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-23T13:35:47+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNck1UeU91VlU3WUFnOVlCTHBnUkZocWhoT2J6Z3ZwSDRDRno2aVN4M3FFZVJzWm5tR0VpV3NDU21KWHExT1hrVGFKTDRlUVFLMmhNaXlISFdHLV9FSWYzZGhzSjM4R1lUZnNJLTJzV1JhTUVZVGtKQXpmdHI0a0JDd0x6SzhDcDZPY3JCYlhXR0dVMVZNVjEtLVl6Y3BldFg5bm1zOEJNWlQzZFZIWmJLOTI1WVhzdi1Q?oc=5",
+      "title": "EchoStar Is the Real Winner of Starlink\u2019s 40x Phone Upgrade: About 262 Million SpaceX Shares",
+      "snippet": "TIKR.com, 2026-11-23T12:03:16+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T12:03:16+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.848,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECHO/history",
+      "title": "ECHO daily price history (Yahoo Finance)",
+      "snippet": "close 85.74 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

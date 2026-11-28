@@ -1,0 +1,109 @@
+{
+  "ticker": "TPR",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tapestry\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMXhoUVJkQTZEVUdFMnAtWW90MEdjTjdUU2hBb3pHSkxpT29tcG0zZkhaem9kajdFa1hBdjFVOEJjemlVUVVvSmpQTXdwMHFUWWkwaVdyLWVYb3JzQ2F2OERRN0xJNGYtOUJ3WWcyNG5XOGdSSC00UXJsTmNIVFZDVHRkTkFxNnRQS0g1YU5OWmZ1Yi0wa29OVHkxa2RZaE4zRUFSRQ?oc=5",
+      "title": "Tapestry (NYSE:TPR) Brand Repositioning Puts Margins In Focus",
+      "snippet": "Kalkine Media, 2026-11-25T17:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T17:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY21rNDJEX1J1ZDFqcWFKTDFRMGRkZlRYU2doRjNMbGJ3OWZWYmVVTlk2VDR3Ql9HLTVDVTFDZ3N0QkEyelhkb2lVRWN4VERlaW1UZW0zWEVOckpVbTgwcE5oRURYUmFQTTlrRlMwWE9TbEt2dXNtUl8wbjJyYklZVVVYRnFueG5OZXJsZ0cxbF8wSGpQbHpoODBIWFlFVHBKcUxF?oc=5",
+      "title": "Tapestry (TPR) On Earnings Momentum And Fresh Coverage Looks Undervalued",
+      "snippet": "Yahoo Finance, 2026-11-25T03:14:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T03:14:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU2NwX0t3RlZXUVdyY3doYjlrUGxkTmJFZEZ6dW9BR1hiRWhYRm9QWFV0X21YbHdpM3B4Q18xaXVyQTg2SE0xQWJPWXRhTWV1bUJsdEdGVUFQWHdxYmMyZkdWcU51YnFlR2dSaUVFZ0VrWlVDdzI4VzAzNWp1eTN3SDVuSWNua1JfWjhYaWZhdGtwa19LeEFjMmlRVnk?oc=5",
+      "title": "Earnings Beat Might Change The Case For Investing In Tapestry Stock (TPR)",
+      "snippet": "Yahoo Finance, 2026-11-25T02:10:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T02:10:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iZVdiZ0VQY1lIWXRRYXZtV2ZXQlFGeU10R2FFSkZiZjJMbk4xN0EyeTVhRTFBYkRPRWRTYlgwMVdtX0ZHMjFUMGNPUnpQWEpMZnNZWEFmV3Q4SHNEX1FmRVN6SmxVcUFFd0E?oc=5",
+      "title": "Tapestry (TPR) Short Interest & Short Float | Updated Nov 2026 $TPR",
+      "snippet": "MarketBeat, 2026-11-24T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRjR1VldoaEg1VExTRFRJS0dmMm9pWXljd0poQlV5dkJhU2lXLVE3emNwaE8xbEFXWmpGazEyc3JtZEh0SzNQaWxkWlpWRmJYb0l3clFyVU02ZWtVUDRoSTZXY2NJZF9UcUVuTjZIaDJhMmE3QlZ6M3JOREF3N3pEcnhibHhRYm45RXdydmdESEVsT29oLTMxeDJDbGtLcV9KUi1EckFhdGhIbDhwS0I3dEwzYmM2QlBIUEZkNGhGZ1k?oc=5",
+      "title": "Trading Systems Reacting to (TPR) Volatility",
+      "snippet": "Stock Traders Daily, 2026-11-23T20:52:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-23T20:52:02+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42MTVqalY4ZHlOYkFXRTk2NmUxTmtjX1d1YU1lSnhxdFkyZDVyMFc5X2c0QmxtX0wyS1VRMzdLQ2lwQTNfaFcwTlN4dndIRVBveXE0VHBDaHBWWWdTT1lWWGhLaXc2NXYtSE84UHZtaDE?oc=5",
+      "title": "Tapestry (0LD5) Q1 2027 Earnings Report - Results, Call & Slides",
+      "snippet": "TipRanks, 2026-11-23T18:46:19+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-23T18:46:19+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPR/history",
+      "title": "TPR daily price history (Yahoo Finance)",
+      "snippet": "close 129.6 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

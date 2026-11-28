@@ -1,0 +1,61 @@
+{
+  "ticker": "HSIC",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Henry Schein\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR1BYQm5NQXU5X1gzZ0k5bWtzSHB4RVBGandFeHZxUHFIZnFNODN5akk4aDE2NkR5ZFN1c0lHUk0ybWZ4MUpxaEtvemV0T0dwQTZfWnk2aHVfTzFUM3Z3OHYyMEdHQ211RXMxRFVyUllhRU0ySmczYmJ2d3kwMDdpVjMyQkpsRE1VU0NPaw?oc=5",
+      "title": "Henry Schein stock rallies amid buyer support",
+      "snippet": "Traders Union, 2026-11-25T20:46:30+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-25T20:46:30+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWDkwZ041VEJVa2FpenkyYmlVUkw5RDNFdFZWOXhJbzBSZXZvdW91OEdLajduS1NYeFJDQUhDLVlzVjZQeV95ZzZzYnFEUnh3bFRYbnZNU1RiNGdHQ21FdmtsUHpYYWl4UkpTWk1DLWdUamFhdkxqX0VLQVdZTVp1bW96blVaQm12OTg3VXVFWWlkLTJzQjVkTzBUV1d0WUZnWExjYWpXZnJIME5ONVBvWjVlZjlYS3RYVkczNks2YUNyNUl2bjhRaFE5Z2F5QjNrOERsN3dZcw?oc=5",
+      "title": "Henry Schein Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T22:16:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:16:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSIC/history",
+      "title": "HSIC daily price history (Yahoo Finance)",
+      "snippet": "close 88.73 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

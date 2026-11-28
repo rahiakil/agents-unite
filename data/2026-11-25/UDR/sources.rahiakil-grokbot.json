@@ -1,0 +1,73 @@
+{
+  "ticker": "UDR",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"UDR\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd3ZhRHdPeHVWQmYtT1VDZFZHY2hNNEhBWTRtMDItaFN2clN3UHJGalBTTjZacFBrSnV4VFNUcFVuZDZXQU1FQ2xkOEhQWFNlUUl2SFJOUmZmNklOT0FSY0dHd3YteU5fdTRkeEVmc1lrV1JPdlFHa3RtanVGcm5FeHNIYk5KSkltcmhBRi0xd2VHYjZXZ1dQaVdZb1g1Q1pucnBEeldOaWJyY1hKRktwQXNoU0ZjQnFGRDVranJ0d1hzVzZyRlJYXzBseXRORmdjQ3o3ZWVCVWQ5UUxX?oc=5",
+      "title": "UDR Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-24T22:14:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T22:14:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORzBXNFlMMk9LWXpnWmdtQjJIeUZwRnlReWdMem9SOUt5ZkZ3VHp2X2YySjZ3WXI2RktNcTBiRWt5LXZzTUUxYmVlbnJNRjhFaGFZSTRtSUx1T0hxaDIwV29ILUpaV0YwTGdBckxTdEI5eUxDSlplSTBBSkpjSUJvMEM1UlFLUVRrUGp2d2dWekU2TjVjc05BWS1halRaOV8wVTBTM0d5UV9nLV9jYTh0dmpSVUdqODdsUE5Ya0x6blo?oc=5",
+      "title": "Zacks Research Has Bullish Forecast for UDR FY2026 Earnings",
+      "snippet": "MarketBeat, 2026-11-24T12:47:16+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T12:47:16+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaHRzQzFGb1d6bzMzQnpvUzFRN0JpTzBCdnczY2ltb1pKMEhXR0ZkQ1BZOVM4X1ZoVk1xeExxcVB1RU1CdE14Uzczd1FBaHJyZm4xVG1ERS1veEdnY1BBcDhoRVNSbEo2MV9mSHkzWDZDaVFZaldQRFpjMmp2bUZBS29WcnUzUnJpYU55VVoyUEctYURuWERpOHdDMA?oc=5",
+      "title": "Better Dividend Stock for Retirees: American Tower vs. UDR",
+      "snippet": "TIKR.com, 2026-11-23T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UDR/history",
+      "title": "UDR daily price history (Yahoo Finance)",
+      "snippet": "close 36.67 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

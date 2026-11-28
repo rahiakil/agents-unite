@@ -1,0 +1,73 @@
+{
+  "ticker": "FDXF",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx Freight\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ENDNlV1V3Q3llOG1xaGZpVHdQd0piMlhvUnl0SURuNUZUVFZfcXVyV2UyTHo2T2FGaEtaZEZoUldLdTl0cXBPMVpmWTdseDVVWEQ1U2gxX0ZwaGtLOVRYNjJOOUVfYzJvRzVzWm92U3Znek0zNFY5YXB4dkh6UQ?oc=5",
+      "title": "Top FedEx Freight (FDXF) Competitors 2026",
+      "snippet": "MarketBeat, 2026-11-25T12:29:23+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T12:29:23+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXh5cUxMcFhJOVlHaHVOXzNscGxNU001MXMyN29NeVhmT3BzU0Q5ZkJpTXJxbUdialEtVTFRVE9oUk9KUlE4VklVd0ozcEdOQmxhM3BLb3ZRcVFZMkJScjdvXzIzYjRYMGU0eXBtcGhtbHpubDNUc1I4amRlejltR0g4VjY0UFJpRV81Zg?oc=5",
+      "title": "FedEx Freight Holding Company, (FDXF) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-24T22:03:13+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T22:03:13+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iMjVwYVZEeFc0Q3UxUXFOTXB5azZJNGV1ZEs1eExoZWRPY0pXZkprc210SDR4M1NWRGtFUHlVY2hDSVQzVGtkbHROaXVvTXhFLXNudERjSnFhOFpuQW5TdFZHMmZyYTNwczBPZ2p3YldFSDR5ODR6S2R6TXU?oc=5",
+      "title": "Wrapped FedEx Freight Tokenized Stock (xStock): Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-24T04:46:18+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-24T04:46:18+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDXF/history",
+      "title": "FDXF daily price history (Yahoo Finance)",
+      "snippet": "close 118.71 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

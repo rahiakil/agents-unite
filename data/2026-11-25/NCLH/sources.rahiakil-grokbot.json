@@ -1,0 +1,97 @@
+{
+  "ticker": "NCLH",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norwegian Cruise Line\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUy03eUJYdGJ2NnQydFl6QWZQMjMzVnkyRUtOelN3VzMwRjJ1dWhlOWIzNXNjS2h5bWx5ckQxd1FKdzBBY0lTWXphWXdwOEVhdlV4c0Q1VGF6VElJZlZxcXNwYTg0MmJGS3k3Ykx6bVBSMDMyX1RRTm5XTU9uYWhuUGUwUnFWLUQyS05HbzZBWnJodndhcU1HSjBQMU85QXpRbk5RcmNybEFhUXM?oc=5",
+      "title": "How Is Norwegian Cruise Line (NYSE:NCLH) Navigating Demand Changes?",
+      "snippet": "Kalkine Media, 2026-11-25T16:46:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T16:46:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMllrVk9iX3VYRWtyc3FnbExHYWtMcFBxSmhxZWJuN09sVXAxTTItOEhUVnFfOEwxOFdwb2hjdUZnMkF3dHN5VVg2VnhhWDVYbVNhZDlpU0ZodHhXSV9hR3lYWklkakNWZi1fMnAzS2lIa1phZWpIZi1yTlpsRXBFRzlsb3Ita3hoRXJxVlltamlsQmpLTm1iQjRDeHZuUlBFUXJz?oc=5",
+      "title": "Can NCLH's 30M-Traveler Target Strengthen Its 2027 Recovery?",
+      "snippet": "Yahoo Finance, 2026-11-24T16:36:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T16:36:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNa3BEd1RWNHJ4QlJla2JPNnN1TnZJbFI0bjNuX1pnbGFRUDM5Y2JtU3JmOUVRV3EtVTRQdEozMUxEb0p0Ynhzbm15ZDVoZ1k5TWVvVnRtRHRuRTY2RUpoaWVWR3hGaUl1enVCSnhkUzdlVEZLZjlEZVNZb0UtN0V1QWRIMkpfZTMtX0RBS1o4TldQTUJaQ3lMWVJiaGtNNmswNk5rZGU3OGZJRlNJeGs0U1lIQVRteWs4M0o3aFRPdXBOYlRMN0hfOTlEcDlDTDBid3FYME03OUUwZWo1aWplYlJwa2lUSmpoYWdVb3A2LTVtQQ?oc=5",
+      "title": "Norwegian Cruise Line (NYSE:NCLH) Shares Cross Above 50-Day Moving Average Following Analyst Downgrade",
+      "snippet": "MarketBeat, 2026-11-24T05:23:23+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T05:23:23+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNX0I2ZFIzYjNSdm1lS0RnT1Ewd3VDT0hweDhYMml6ZU1oeGFlYXgwREZFSmFqT3FBYVVDNmtJYy1SN2VodFYwc3dudVdKS2ZxT19EbHAxMlFVaFJPNmJJUEV1aEFBUkpsbVpUMFotTnJKQmNOQkFaM01WcmNnMXFTZ01KdjJIa0RhZzhHS3pTOElmNE5Ha3ZiYzNYSXFhZkVmTjBSQlA5d0llRTRZWDJnLXdrdTVpSXR3dlFKbGM2azRzRVRFUlgxOEtzY2RTREk2ejJjcXJjd2MzYzZzWjJrcEdQNmhlZUMtQWxaNtIB8gFBVV95cUxPb0VrX1RWM0h1QW82M3Rqd1Bsb2RKY3VWdmVuTUdTWEs5OEd6cUh0NGkxeGtQUXU0azNQa2pYYVhJYi1xb3JEZHpkZUFBZDZtQmVZZlJBeTZlYm42TEluVEVZWDZuSE13amltb2t1YkVtMGYybVF0NzBSSzAwNU9kRGc3Mnlsalp3djJnbUN0MnQyMWljTXgyVW0ycnlock9Qa2xaQWwzdDVadDhzWXRaakZ0dWVXTXF0QVdXdnQ2RlBCbjZaRncxeDIwVlVidE1MR1Y3Z2tFZ2l2dC1Zc3hmZEhvNUQwMTVxTzFXYnVfWHN2Zw?oc=5",
+      "title": "PortMiami Record Tests The Case For Norwegian Cruise Line Stock",
+      "snippet": "Simply Wall St, 2026-11-23T19:10:14+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T19:10:14+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRkhNc1lsZW1XTFJMMzIxZGs3LVVraUNaUUEyR3k2VVAwb0NFMnlqTDc4VFlxNEUxaWVFa3lxY3c2djE1anJDT2d0TXdodXh0OGJDUGhYV1pyU2RqR0hac01RdmJ4N1NBRGxMbF9wOXM3VktuamNxd0h3MmE1R2FPdXdOX3d4bkl2MVVqTzBTOVNVb1A2Y3c2dnZ1dktFdw?oc=5",
+      "title": "Norwegian Cruise Line Holdings (NYSE:NCLH) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-23T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NCLH/history",
+      "title": "NCLH daily price history (Yahoo Finance)",
+      "snippet": "close 17.0 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

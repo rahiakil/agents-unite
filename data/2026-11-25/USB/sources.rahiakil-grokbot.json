@@ -1,0 +1,133 @@
+{
+  "ticker": "USB",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"U.S. Bancorp\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3dlWW51NXZVNFMzWFRRa0FmQTB3dGcyUkdxVFdzcGxvRmt5NG4tY0RFdlFFRVhNdE5sMExMZ3pNZ29yS09VYXp5dGprMHA3bVRqV0p0SEd5VmE1bml5WUpWYWtaZkk3elNrT1k5ZXZvcFN4RGVfd2FueTJ2aDU1cXVaZjNJTWRvUm85Q2tZTVhuRXk2SGd0cVN0aG5PRVBFYnNGN2lFR1A3QkRYc2xIT3AzMnpLUQ?oc=5",
+      "title": "U.S. Bancorp stock: Q4 report date set, up 0.40% at EUR 52.65",
+      "snippet": "ad-hoc-news.de, 2026-11-25T07:40:15+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-25T07:40:15+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ2ZCOHdCUVBadUFtR0plcUpxMjd1LW9NZ3JvZTFrU1FzYV9SZElrMVNoS05YSVBxOHNkeWFzOE5zOHpQa2xjUzl5M1JTdVBuTU82NDRsSTNVdWJlNW54ZTVrYWhQNVkzeFRDZ3U0ajhyamFwMjVaSWpaZmxOZ1RsQXU0a3hvS1BQRnpxVGVQdGZsQjlzTzY4TnI3SGo2LTVOSmQ3ZGx3dkNmQmh1WnM3RnhCQ3Y5bDZNNVJrOHNtM3JzcGgybWlKd1VQTEMxZ0ZhSkRBdjFOanE?oc=5",
+      "title": "U.S. Bancorp stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-24T21:41:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:41:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMzhSNnhxT2NyR1JJcVNNWEJmX0FIVmpIbjZtT21GdlJsdHpyZmplZGRlS3lyTzVXTklEeWpwb242RG5CT1FyanE4OVRWTmdZYkRKUENsQnBoTjJ3Yzh5aUlHV3Nnci1FMHczUU1zWFk1UEdIcmVCdmxFbmRxcmhqOEJid04weFhCZXRTRzlQSlBaVDROekJKbmZDNlc0c2dzTWVyV0I2NllHWHQyZ0NtdXhIaXg?oc=5",
+      "title": "U.S. Bancorp will report fourth-quarter results before markets open Jan. 15; its call starts at 11 a.m. Central time.",
+      "snippet": "Stock Titan, 2026-11-24T14:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-24T14:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSkxwbmZQdDNnX3h6TTV3QnNxTnFsdVFaeUpfWGVLQU5nMlJYNW9fY2JkX3FyeWpMb1VXbjhyTG1laUtmZFdxTVNTMmlBbE5MdVFUaHdJSW5QeEYtOEZoM0VkZldBcTQxZ0pCSGtMSXBlMGloLWxKY0Y5VG1IdDlzQ3NYb2pmdXZLbGFuS1Mxb09rYkYzaDFVTzBQdDFNUjQzWjBlSjl2RHdVYXhlbjBnZHZkdGJIdHNh?oc=5",
+      "title": "U.S. Bancorp stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T21:41:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:41:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPek8zMXZEcm9yOEJNbU5Hb01XUUp5UWpWTzBuQzhtZHlmbjk4TXEyUHVvOXdzRGhoTEEtd3RfMFN1WlNKa2szTDhjNmZLWGV4RmlLenhER25zbkt1eHpweEM1c3hnWlFqekdrb09uTXgyMFppbWI0MVBiM3k1Z3JsWDZnOFVUamJDZHgtQjh6N0FHenE4V21F?oc=5",
+      "title": "Will U.S. Bancorp (NYSE:USB) Keep Its Story On Track?",
+      "snippet": "Kalkine Media, 2026-11-23T20:16:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T20:16:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFZoM1dtSlRrSEozdE1CcVV6aXItZ0RBTnVXOFktX09SWGYzUElfVGRxU0V6eFlabno2Zk9zM3d2WDdUQ2Z3LU1BZURyOFRMY0h5UU9rY3NBWVYyMDhXUHdzdVpaRmpZREVBZzFlNHRZV0VtUVg3UGs1Wk1pVFhoQnprWHRXdmhPcWhhTWd5MUlqc29ZeFVQQg?oc=5",
+      "title": "Better Dividend Stock for Retirees: U.S. Bancorp vs. Regions Financial",
+      "snippet": "TIKR.com, 2026-11-23T17:13:21+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T17:13:21+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQenkxUGJKcXRSMm9NLV9WUm5XZXRyejMzU1FmR0RCRkZjWm5YajdoYnFFOTJLWVBCR2F1dWV4Q2ppN3JRSTZzZERSRXkzZmpJQzVXTWxHODRIdjNtVlZVX05peGhoa0ZJaTFwODdBZlIzUHJOdF92d2JOSjVpdTBneWZ6cUZfeGV2d0FqbGxqRTd5MEFpbDZSQ0JwRVNoTXpxOFlHN3hOMTZoQQ?oc=5",
+      "title": "U.S. Bancorp vs. Citizens Financial: Which Dividend Stock Pays You More in 10 Years?",
+      "snippet": "TIKR.com, 2026-11-23T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdHZ0SVJ0M1VNRDN1VFJpbXlSNGtFQUhNWTV6S0ZlSU0wZW5xWkRWZDZtZTRvSWhSVnJ0a25WOGZwcUZ2RlA1UEFpNG1ST09qYlJ2bW9FaC11NjQ2TVl1YzhsOXFkaWNrODdFLUJRaXhqc083ZnlMbThxNzNSYlZFV3luZEEzU2lPWjh5a3IyUlgzbHVEb2JYTGVlRHNlTFVFMlVkM1dSc3dsYmRIT29N?oc=5",
+      "title": "Better Dividend Stock for Retirees: U.S. Bancorp vs. Huntington Bancshares",
+      "snippet": "TIKR.com, 2026-11-23T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T08:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/USB/history",
+      "title": "USB daily price history (Yahoo Finance)",
+      "snippet": "close 58.55 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

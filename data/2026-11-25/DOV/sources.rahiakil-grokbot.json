@@ -1,0 +1,85 @@
+{
+  "ticker": "DOV",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dover Corp\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHIzQWo3QVpRdWdSTmI3bnpnWFF5MWtPdzloNTJTTkRoVi1CVko0M0xnLW96SHhLV3hxTlFlYkFlcElGMzJBRVRDWWtrR29OaUZ1SzBtWnMzWWhOd29NVEFReFN5V3pJa0VYTC1HOWhrQ01Fb0NQMnIzV3Vna0Nyb05jRld2UjZENWxNU2RINWE0eGh0MmZxS09BeFNyLU4xZVNHUHJB?oc=5",
+      "title": "At a $66.85 exercise price, the Dover (DOV) treasurer exercised stock rights for 3,590 shares.",
+      "snippet": "Stock Titan, 2026-11-24T22:36:45+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-24T22:36:45+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3N6OHoyUmswYTQ0bWNsM3NmRGNET2pfQXRyWFBUanZZVUZaTmlVSFh3ejMyY1dsRVE3Ynd0cDdudlBFX2dBYTFJelRycVNQQkVySE5LbkM1TTFVWDZxbjhfYU9SVVNyeWZuZUZQVFVOS1liRFhra0VjN3U4TWlrcDMyNVJLVFF6SEtOTFprTmk1Q3h3ZVpZazJvUHRwMUY4OEtDMFp1eFp0Wnp1STNJaElxY0lsUQ?oc=5",
+      "title": "Dover declares $0.525 per share quarterly dividend for Dec 2026",
+      "snippet": "scanx.trade, 2026-11-24T03:16:26+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-24T03:16:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNzZ2TkZuSG56S1JxNHRuODdvZ0JtLXJxM2ozTDN2NmJHaFNWMW9JMDZPNmtSODNNRE5QczIyM2pmRHFldW51VkRCb051ZjdZOUpqeXJqOXRrR1pIYjMwU1F1NDRmTWV4SFlMaWdvaEZJNzBYN1lraU5BODRmQUh4NFgxU2dyQVBRMkt5LTNLOE83S0ZIRGV2dkFPNDVkaWZ5TjAydXlLOTFhZDZrLUhFbGJNOHo3eDQ?oc=5",
+      "title": "Is It Too Late to Buy Dover Corp (DOV) After 4.2% Rally? GF Value Says Undervalued",
+      "snippet": "GuruFocus, 2026-11-24T01:40:23+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T01:40:23+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3BwdzFBQXJZZWhjR2NEY2xJOE5IWU5ZYndpZHdLOVNwcGY5NXZKOHQyXzVIYmdmM1UwR2dtM1lzZjQ4WjVRc2xxdTNHbVNmSHozTjJycjBzZEtBcUF3Nkh6cVNTWFdhdmp0UVhhUENzbzl0dWM1NENHRXh0RGd5YjZCYkNBY3ZoemxNcklETzFNdE5HcmVQX3BWSmt2SldUeFJ5S0FaRjd1anFSb0wtQllUZ2VGOGstT0luOHJB?oc=5",
+      "title": "Dover Corp Q4FY26 Results: Earnings release scheduled for Jan 28, 2027",
+      "snippet": "scanx.trade, 2026-11-23T21:36:40+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-23T21:36:40+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOV/history",
+      "title": "DOV daily price history (Yahoo Finance)",
+      "snippet": "close 205.35 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

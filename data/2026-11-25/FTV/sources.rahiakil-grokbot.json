@@ -1,0 +1,49 @@
+{
+  "ticker": "FTV",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortive\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNktReS1ZZU85YmFlV3RkREUtb0ctdUdWdmdTcE8wbkdGZE1RS1RyOTdRTGJfX25sM3pWanZjaHlmSHAzamZQQjlMWXIxZTVITDZVcGJJeEhzS3RZQ1dXYTdvZ2d3dWRHUEszWlowclI2QnN4MFJ6Z0xiUWlKQ1BjVXVUWXAtbmpnQ3lTUkE3em1DaHJNaG9vNHpQUFlaWTF6WHFYUldXWTNjZnB2WVdUaTd4R05UZVVCdjdxUUZVNThsZjJ0SWJrQzBKV2lwd3ZmSUJMU0Z3?oc=5",
+      "title": "Fortive Corporation (NYSE:FTV) Stock Now Rated \"Reduce\" by Sell-Side Brokerages",
+      "snippet": "MarketBeat, 2026-11-25T07:23:57+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T07:23:57+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTV/history",
+      "title": "FTV daily price history (Yahoo Finance)",
+      "snippet": "close 66.11 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

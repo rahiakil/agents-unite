@@ -1,0 +1,61 @@
+{
+  "ticker": "IR",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ingersoll Rand\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOemFtYUU1Qlc0OTIxRDFxa0x1Z3dEazRLN3k5T2lLVVBELWxkSlMyMENpaFoyYjllWDlFQXJ2amZqSzhuOENXb1hqOGU2U09VbFhwSGFNd213eFpSLUR6QlMxVUhNcXh4SE45LVVCbi1IZS1PMmNyMzlCaFZvOEJTZzhzR2VnZ3dVMDZJOUc1MkliQ3c4THZpc3RSUTFLYjVxVmxzVml5Q1AyODFjbUt5dGFn?oc=5",
+      "title": "Ingersoll Rand Inc (IR) Shares Surge 5.9% -- What GF Score of 89 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-24T01:06:11+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T01:06:11+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZi1LcmU4Y2JkRlg4cWtsTVFZZ014NS1XS2hXRWIwWGdoWnNwNXVXVE1HZ2RwTFM4MG04eHBUSDVocEVNUnM0ZnJzS001aHBfN2NMZkZlQUpOWlhjMnpQTnNaSnhlN2llZE1feTFTLS1hb1FCc1NZa1M4RXlNUTBuQnc0LUZpdjhGVnBZOWNTZnVfZGs?oc=5",
+      "title": "Ingersoll Rand Inc. (IR) Stock forecasts",
+      "snippet": "Yahoo Finance UK, 2026-11-23T21:34:32+00:00",
+      "publisher": "Yahoo Finance UK",
+      "published": "2026-11-23T21:34:32+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IR/history",
+      "title": "IR daily price history (Yahoo Finance)",
+      "snippet": "close 83.14 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

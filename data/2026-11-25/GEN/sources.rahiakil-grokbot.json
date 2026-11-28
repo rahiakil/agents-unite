@@ -1,0 +1,61 @@
+{
+  "ticker": "GEN",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Gen Digital\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT0lGM25vQW5EbGZLRlViQjNRWmFUVzlKSXJ1Q2ktZGI2em5mbzFRdEZtUFlIMnBzN0F5OEJISW1jX3RpaDhUc2hvZnc4akNrUGJPTTZMak5BWTlBVjc5UnNkemhIRGtjVG0tSkZkZW5QbWlTTkdOWV9Udjd2VVZCZ2w5MURyRjdKcHQ1WS1OeWdHbTBaWlhrX0s0Xy1YTklDcHE2Q3ZxbElpZEh0UnFIQ3JmOGREWm9mdElqdQ?oc=5",
+      "title": "Gen Digital (NASDAQ:GEN) Stock Sees Heavy Call Option Buying",
+      "snippet": "MarketBeat, 2026-11-24T17:04:52+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T17:04:52+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQWRZbktMSmZ5YnNfemIzQmZCNm1qREd5LUJ3RVZmUng3ekdrejVWbTZLRU16SFVTZVVfLV82TXZBX0luT2Rubzh2Y0ktX2p6NkI1bElyVnJSRTVLTklYa3FrQXo5dkN4T2dLM0tVLTlSSTIwRzNsZXlpRERHeV9mOGRQZHI1VkM2VTNSTWtkZnVfX3FTU0R6S0FiYjBOSXltQ1BkTHVjczlVOXJIRmszcUhMNXBNQdIBuwFBVV95cUxOVDlXWFJyN0VKX0tTTFVmX1d2cDJISU85aFpGd3dGZmV1TURTN09Hb3ptYy1jdlQwTkROOWpoSkFSUUNNckR6a29URmsxTVhfZF9TMmY2MWFTNUZ4anBzeGZ4MzRxd3c4dzhCMk9FVjJhVk1DcHpjaHZ6TW5CZmJ2MkhZZTBPSTE4bGJmX3o2WWlTUVV0U2JaclNiTV83V1FCNURlckttRU9MQkVMT3VxSDFHV0Y5enJXMGFr?oc=5",
+      "title": "Have Gen Digital Insiders Been Selling Stock?",
+      "snippet": "Simply Wall St, 2026-11-23T10:22:29+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-23T10:22:29+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GEN/history",
+      "title": "GEN daily price history (Yahoo Finance)",
+      "snippet": "close 30.17 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

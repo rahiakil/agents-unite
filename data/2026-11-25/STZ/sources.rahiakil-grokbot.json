@@ -1,0 +1,121 @@
+{
+  "ticker": "STZ",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Constellation Brands\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZEJVYXJfekNhYzQ2NzZIaW9vdlJtN0d2TFExNVpySGt5YTBSZHl4YjJwanhTdy1Ea2hMa3RlT3RiazFyeGFNODkxQW8wNnNLc0hDM3g5RGpfaTNhZzZnbEMtMnZETGFTZlRoUGZPMUdpbGo2NzdNczkzN1FMWm9GcHE1WmQ0cHV2MmRaY19mTWRwbHVKNGtjZmRIT0ZVMlk?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for Constellation Brands Stock?",
+      "snippet": "Yahoo Finance, 2026-11-25T14:00:05+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T14:00:05+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdG9UNy1TQzdqc1VpbmdleExKUHBCVmFFQnFyakhJMVh3aUJyQk9Bb1lPOEQ0SWdZdFFkVFNXWFp0NjJ6Mk1tQk1wUE50aTVRLUJBVjJsNWM5bUlOa0dwTXhXcmNCalJMblZZSkQ1R2xPQmRGQXJiRDJnS0ZwU0ZBa0oxSWtaVjNwOXlEVUMwUGFEWWhrN183SzAzTXFGTFpDd0pIQWNrQmNzN3h6ZXM4YXR1QXExS0ZQQnNwT2xYeG1NbGUxXzN3d3o1UEtRR3BjQjJUYk1hWkowZ1dub3dhcXVPWFpoNVNx?oc=5",
+      "title": "RBC Capital Sticks to Their Buy Rating for Constellation Brands (STZ)",
+      "snippet": "The Globe and Mail, 2026-11-25T06:54:53+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-25T06:54:53+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53azllQnpzS0JRTUY0b0Q4RFRkWGZLWnUyNDhhaUhxRG1kTFM2OVlQVnU3cjFISlJqWUhTbmlYTWtzbmNycUh5TXRWcW10VWZRZlJnS3d2QnJGNjd3eEMwSkFya2t3TFA2?oc=5",
+      "title": "Constellation Brands (NYSE:STZ) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-24T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-24T21:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjQ0Vk9xWmFBWG9jQUpST0ZZTE93MHpvOEZ2MHdXRV9sT3JzLS1MQTlEc21LQlhYaDNhTzVhcmRlLTYxaXJxSXZtcVljbjdsa1NMaERnbDFWZjZzQU01REt0dlpaY3p1U25VZlFqM0ZUdktmREVTTXVkNkxRWDJzYkRlaDZsNkF6eGFsRjBLbGhIdXZDVlpGNFczV2xoZXdj?oc=5",
+      "title": "What Is Driving Constellation Brands (NYSE:STZ) Into Focus?",
+      "snippet": "Kalkine Media, 2026-11-24T13:48:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-24T13:48:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcUp5S25jZEI4QmtmWG1aMXpnMEwteEU2a2hOQjRxRHhrV3pQVmpLNHkzNVR5ZWIxZGkxam5VUUlsQjQ5M1ctaE9sZVg2cHo4a0tQWXJwemt0Uk45aHNVWkhGQTBGMm9pcXVFTEFpaWlOSU5aNlVhZDloUkVsQk5uSnRtcnluTlhRT3Z3Y0VMdndFdWx5VUV4NWlhb1F0V0FRWFJsb0NTNTlsODBKV1E3c2JNbHZxR3hIZ3p6Z0ZfaWFNRDhNeGJ3dUdOQnMta0VEQms0SE5taTdqQ09iOWVFZnhhdGRURzNVWWMtZUllZw?oc=5",
+      "title": "Constellation Brands (NYSE:STZ) Stock Price Breaks Below Two Hundred Day Moving Average - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-24T08:44:19+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T08:44:19+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY244WnBvQ1BKY3psQnQ2TEpBbGRQSVFWNVVkU093ZHVfYXAzR1RpclNLS1YtNjF0UUtwLVNCNGNybEdYSlM3RUtYX3VhZzNZSHlUVHFSdUtReVJjazNXUnYtQzZkc1V2bWg2aDlrMUdmOEtQSS1iLVpLVGN6VDluTWVsSlc1dldsNW5QQ3JQVlFKYnA3VlVwVWpUc0REWURRcW5FZDV2NzVjeDVNcUN3Ym8zMjh2dkF3VTJJ?oc=5",
+      "title": "Constellation Brands Shares Slide as Investors Weigh Insider Sales, Cautious Beer Trends",
+      "snippet": "Moomoo, 2026-11-23T16:19:23+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-23T16:19:23+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRGtETFNmdm5SZGZzOTlZZExleVVPNFJEOHdYT3FYVElxV005b1hfTDdTZWdRRk9oM0VGSUhIWHF2MFpPeE9DOXdUN2lqQXdIMC1Pc3JPV29kcXlaRzhpSnBUakJhLUpxY2hua1ZYdGUyVjdwZUJpc3ZRcWRPWnJwUXZQREsyQVJyWnI3VGdPc2hwRjVub0d3ZmhBOEhRS0VES3ZzRzc2Mjd3RGdhemtIMENLNnJoMHU4?oc=5",
+      "title": "Kimberly-Clark or Constellation Brands: The One Dividend Stock I\u2019d Hold for the Next 10 Years",
+      "snippet": "TIKR.com, 2026-11-23T06:22:09+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T06:22:09+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STZ/history",
+      "title": "STZ daily price history (Yahoo Finance)",
+      "snippet": "close 139.97 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

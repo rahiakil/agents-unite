@@ -1,0 +1,73 @@
+{
+  "ticker": "HCA",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HCA Healthcare\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 1,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdWNmWVFnOUk1b25qMElSRzRwOVl5c3VjVGJVVWJBV09SWXFtZkdGX21uMm9IVV84bzdFWTQ2ZHlvTk1ITTdtaC1qdlNySUFZNkxkNXAwM1ZSMnRRaG1EaVJzUXUxdm9LVzdoMFdXVndqcU1BLXJ2akZuN2VTbEVqSUVKR2VzMnhmY1ZEZS1ldjh2YmZVcFZEeTZoU1ZtWnZLdXVSYlNnVXNqWG5ELXhtMnQ0bm11cDZ0UzY0WXFmVVQ?oc=5",
+      "title": "HCA Healthcare stock: JPMorgan raises price target to USD 475",
+      "snippet": "ad-hoc-news.de, 2026-11-18T12:29:38+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-18T12:29:38+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYjRYM2NGMzZvcklPRUNrcmFLZHR4ZklkOXhKTTdrbnNhY3N2WVB1b1ZBZFZlWEYxZWp4VlJZV3lfLXBNLTlKZk15bi1CeTFkdXdHcTh6YXk0YXRVdlBZR3RlRXA0c3hUS21RT2N3ZE1uVFM3d09rdVZTNDh6blY1RU16Q1U0ZW1VSUJIY1BRZ1pFNFhnNm1DSFZNSlU4N0FubVFkQk5UX281bUxZWEtF?oc=5",
+      "title": "Law firm investigates HCA Healthcare for possib...",
+      "snippet": "Pluang, 2026-11-17T23:38:40+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-17T23:38:40+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVFjU1o0czhDeGpNZ0xJOHJSeUp3bjhqM05UcXdsY2wzSFo5YU02cWU1eXY3VGxUZFM1UEVhVlB0Z1FhS0ZkY3ZwZ2xKbU9vZGIyQXotbktPUWtBdGF6UDlXVW00eVRvZURlU3VyRVZwbG9qX005emUteHJNeWI1LUtvakFSQ2Y2b21WLUdoaHN6cG1VMjdnMTZsOXg5ejRXTm1tU2U5dGR0emRkQzB0LTU4ZWsycGNfblJmTTBra1R1Q3ZNVFE?oc=5",
+      "title": "HCA Healthcare stock: Medicaid change may ease 2027 earnings risk",
+      "snippet": "ad-hoc-news.de, 2026-11-17T12:46:12+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-17T12:46:12+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HCA/history",
+      "title": "HCA daily price history (Yahoo Finance)",
+      "snippet": "close 476.35 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

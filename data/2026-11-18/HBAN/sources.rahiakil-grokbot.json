@@ -1,0 +1,73 @@
+{
+  "ticker": "HBAN",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Huntington Bancshares\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU19fdldsUDgtM2l1RDdNb2lGX3RfcEktLWJqampRVlBtNFNUbkhVVWpfbEZrS3dQaXVxV3ZHQkZWdXFheGJZT2tGdUhncDQxdnVEN3lWNmY2TXlDNUdLQy1haTZVS0RJOGFteHlvY3dQeXBmV1VtNDNMVmZVY2doNGttOEhJS0JOWmFJYm50Vjc0RnNqbThBeXBEQ0szQXlxSXpFSGotclZrNGJRUTY1WkN3?oc=5",
+      "title": "Huntington Bancshares stock hits 52-week low at $24.24 By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-18T20:48:37+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-18T20:48:37+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaVJWaW1NVFZKazJnTS1Fejk5cnVsQjlBamNwV1VUOFdXRmQ2R2NHVkk3WUwwUlhsQk05TDI3enZ0aFhrdGsxcmptTldYcFJwNzhCbnowZnJ2dGdFajBOSldjSk14ZXduWnJjcVR3WmZYYklSNVpwV0lvUFd1ejFrMDFnYXRrQWZQQ0lHSFpZVGItY2JqbjlNRTBfYUptNG0yTDMxM2pnTDcwUGNp?oc=5",
+      "title": "Huntington Bancshares stock hits 52-week low at $24.24",
+      "snippet": "Investing.com, 2026-11-18T19:40:03+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-18T19:40:03+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMHpmaDdzenZON0UxWkt5ZV9obVJzSi1xTUJTUWhDYTNrWVpzbFhMRkhHcHRBQUdzRndfYWtNLXBodXV4UXg5THNzX2VqcHg2YzBjRUJoTmtmb2RHNUVwa0RGTmxKQ285QndrZXk1Nmd0Q2c5dGl2MnhtTkVxc0E3ZGtpa0NDME9FRGRUcTJldzZhdmJ5OTNNWUo5T0x1d0ljOC1YZjB2N1R2d1J6S1czcUxhWFVrcGc2VWkwYVowRnhFNXNrdjJDVUFkdDk?oc=5",
+      "title": "Huntington Bancshares: Fixed Income Securities Are More Attractive After Recent Acquisitions",
+      "snippet": "Seeking Alpha, 2026-11-15T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.659,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HBAN/history",
+      "title": "HBAN daily price history (Yahoo Finance)",
+      "snippet": "close 14.94 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

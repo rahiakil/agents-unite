@@ -1,0 +1,109 @@
+{
+  "ticker": "CHTR",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charter Communications\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 43,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 5,
+    "irrelevant_or_spam": 21,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeDFtNXpaM0lZaExEcWFkWFIyUmwySkNGMXNvc0lBZ0U3cnZGVnV6ZVF6WjZqbGEtbmYzZWhsVmtKeEttTFdfWWZmdjBsSklxVll0RWhLZm9icmtOTlNLdG1RYWNTMWNsVlRMNlFrWGJxd1U5bTZaRXF3NmRGYm0tbUNlNWNLNkxCcnhLZ2pGWmtyVDZSUFdCUVBON1c?oc=5",
+      "title": "Charter Communications Prices Eight Note Series in $1.5 Billion Tender",
+      "snippet": "Securities.io, 2026-11-17T22:31:01+00:00",
+      "publisher": "Securities.io",
+      "published": "2026-11-17T22:31:01+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdlpXQlkxUFpEc2xubWFtYUZmTFRIQTd5S2p1Rng4Szl1eTE5WFdaNnJSQXpqU2N0UTR3SExFV19YQWxNSU1tNXVfZVZZaS1rNkxvWUIwZTZFVFFEN1pRVEFOYmtfemNiLTNReGVNOFNyTzdvQkxGaEs4cHgwUHJ6M3Z4Tm5uMU1IMTYtVjg4aVBEdVprdGYyZWNWbWFFa3FmNTJuR2lkSDc4Ni1WTlFjZ1lvVmstRlZkaWc?oc=5",
+      "title": "Charter Communications stock faces note tender deadline",
+      "snippet": "ad-hoc-news.de, 2026-11-17T21:40:30+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-17T21:40:30+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUxrbzluYzR0Qjdqczgwb1Z4Z09HdUJaUnJVNzZYZ2o5QlhrYm4zRk9VQUtrZG8tNkFIak16aDlNM19CYXFJZDFfOWZyOEZ2ZkZPVDVDa2xMQWdWVWVKcFBEazhpZjFTRDBXQThha3RlOGZWOENidWZ6cFlObUl6MTUtRDRrMDhLSHg0eHdsUVFEQ3ZRMEtwWmNfUnlZb3hkdVdjWms3UmVybWozMTJ4Qko2Q3A2ZTN0MEdLSDdtVUZySGtldXdv?oc=5",
+      "title": "How Communication Services Leadership Lifted Charter Communications (NASDAQ:CHTR) on the S&P 500",
+      "snippet": "kalkine.com, 2026-11-16T14:30:00+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-16T14:30:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmRHVExpUzRULXV5cW01eS0tU1QyMV9Ec0FRTzNPaWE1WVBRNEdkTjhoTW9KSmFBUWpHbktFQ3IzT1RkanZ5THdkR0xUeTR5eU0wc1labkdNS2I5aVlqOFlhUkFBMlZDQVRTVjd3eExQdXdXODdhTHpuSzFCVHJKVDZBQy16RUNnMy00Z1FEMTJFQTZrSmdhT1hQNkpFRTR6ckg1blF5MjJLSktYalo1QjloTC1NdXF0aUNKYjJqc1ZRSE1jWnR3MDk3RTJWZ3N3QWNVS9IB2gFBVV95cUxNQUwxX01zUDlxSFVmbjJXdXpudWtpM3dqVktsMnJVV0EtUE14UTFRWC1aZjFWZ0l6bnZ1Z3gtT2M4T0xNaFJWU2J0OVhnbmRCd24ySzc1OUZXYjFwaGZvVGppZWE2YmxJQU5zNUppdjdGbE9GLXFmR2E2S3hMREFSaDBOTnI3Rk5hX1JoemxENGtrdXJxY2JLcWhFMXU2Q1dFaURVaTFBekFWUjVHZ3c4WDFrak12SjFKMVpWUDFpV3JreUJTQ3hmMzdSQjRndURRM0xBSWp4eEh5QQ?oc=5",
+      "title": "Did Free Speed Upgrades Just Shift Charter Spectrum's (CHTR) Investment Narrative?",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWWdvZG9KdjlMRFNCVkMxWHZyY0JnQkdmR0pjc1ByQjlhbEszQ0pqaUg0ci1Hd2U1dk1HbTdpeFFKOUVYYUZyaVBOWWdZT0ptaTNKZl8yOHdweHdsNkxpdGpWTld4NDdncVVGNllOenFOQXNGNlJ3REZlOHd3MlZBdHc4aTdrbHdEQXM3eHI2dDhDNEM0bFROb191eHFHeEJTbHo2TFcxV0t5ZjJGeGc?oc=5",
+      "title": "Charter Communications stock hits 52-week low at $20.71",
+      "snippet": "Investing.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaldQQWVWVWZpXzBXcG43UGxURGk4eFA2TmNWZmN0ZDFQOUpHX2d2U05ycmRlSWxNT1Jxa0dONlBpcGREckROZm5ScFpteUlhZlVpaXVXd2VSbkZ6NHFfYy1ncU9DSC1YZlFGdUM0aGJjTnROTFlnbk5lbV9pLWlWa1BFc0hYSWhGQWpQVm9BaTl5WG5XbzNTNHpPSGNudE5tQlZvX1RzMGRoU0YtMDBYeWszMGNLRlZ3Uy11RERTZm5WYnhwSC1xeHVWaUJLREtNYmlPRdIB2gFBVV95cUxNeXlfc1pQM19UWUxtUTdsb2I2dWZCRnBWV19jQVNSbVB1YnNFMVlZUkNMdWJIMkRvUFZGdmZ0YWpOWU9ZWUVOa21SZHduX3JqUDJwZFJWOGNsbGYwWFlfOUwwdEFNTG95Z3BVWURTZG1ic215dHVuVl9ta1RaS0gyVkFSV2ZnUmVBYjE3RGlNdUQ2VTJvT3lVSDgwSFJnb0g4QlBUWmdhdWVGX0F3WWxmVUJOb2JiOTBROEgwOUtCcUhGMWJnZjh4RGlQTmVIVVU4QTlRSGlkcU5mUQ?oc=5",
+      "title": "Charter Communications (CHTR) Stock Could Trade Below Fair Value After 80% Fall",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHTR/history",
+      "title": "CHTR daily price history (Yahoo Finance)",
+      "snippet": "close 139.19 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

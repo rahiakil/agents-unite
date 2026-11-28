@@ -1,0 +1,97 @@
+{
+  "ticker": "ES",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Eversource Energy\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOb3g2WHRLWFRLaTJ6RnBCQ3I4bkY1ZTlyLTNLTzJyX3B1WlE3cnlUa211Ti0wOWphRGxmSWtHSlpNZDRNbG9kNzQ0UHlhMUlvYXJpcXp4NkpMWG1QbjFmbmFINkpJNFIxYVpvUG55OG1OMGU4WWV0STVTamZlN1FKby1CVW15ak9wbHBjT2JR?oc=5",
+      "title": "Eversource Energy (D/B/A) (ES) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T04:38:55+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T04:38:55+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYlgxSEN6YW9qTXY1SnhZUGhXSV9vcGpOaTdDT0VLUm51ZXE4b1BONWtuNjNyd0R3NVNaS3gtUXN0X0I5U2ZDOXJzUDdUREdfUy1lY2ZsSExDU1RYQlJROGxFeExMOVZab1BROENoUjFKZy1aV183OWstR0pxZl9sejNZbG90ZHRvY3dkc3FPdDdiVkNmaVRnbXdRaXk0STJHY2gtM1VMcXNZSGYzMnc?oc=5",
+      "title": "Paul Chodak III disposes of Eversource Energy (ES) shares at $71.15 for tax withholding.",
+      "snippet": "Stock Titan, 2026-11-17T23:26:57+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-17T23:26:57+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUWtyTEdWcUFMdHFYUHNDVzB1bmUtbExDZllrcGZiVE1lUzhDTW0wMDVIaVZRZk5FVEsxOEdleUVWS1BQTzBtQ3FiTXREU1FxV3ZHMGp5aGxFQTNHWTFEX3laMGZzUFN5eVg2VWl2ZXNQZmJTZGg2d01NbUJkV1R6dVFfM0haQmRYbmNLV3ltTFdIUVlMcWNTaWRoMTRDUWJoS1Jpb3k3STNlNTRSSklDVjd2RHFTWVVWakNySW1EYm5MUlBXNDFuRA?oc=5",
+      "title": "Eversource Energy stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-16T22:02:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T22:02:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUlNxWmlwc3dmeXVSd3ZaZmJCTld3OWk2aFpBdS1UZ2FTNjJzU3VQX0E4Nmxqb19JZ1hlOEtlcjB6N3I2OUtYenMyQTF4Rk9xTzVHXzJmZ1VTVHIzXzJlLVotOFplU3hucUhxYVJTRzJDaVZFbnNleTl2ak5yQzhsUjg0akFRd3g3Q0ZmMUdLR0FodHRISGNSUWp0ZmdfM3lPUlBV?oc=5",
+      "title": "Form 4 Eversource Energy For: 16 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-16T14:28:36+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-16T14:28:36+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWkNUZElDeFpxTnNxQ2tvbko4VmRmazJLQWtXWEtEYV9wZVp0YUt6TlBlMkxnbmJXb2N2bENyM0NaQUs0SENicHpfN002QjFhYVk5Y2NhWHN0T2FUVXphaVpmRmFwWGV1SHBXU2tEblpCbld4VklubW1XX0s4c0R3T1A3aG50US1LVnJKcXJnVEFUbjgxZGdta1ppbHl4X3NULVFHWVFMOA?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Eversource Energy Stock?",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ES/history",
+      "title": "ES daily price history (Yahoo Finance)",
+      "snippet": "close 71.53 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

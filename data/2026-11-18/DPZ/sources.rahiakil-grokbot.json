@@ -1,0 +1,109 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 8,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa3o5d3BoVU1qTzhlUXRvYzU1SUxJQkJxTVRPYkdLZzh0TGotLU8ybEIzTTZKSk5TWEhfTnBuWG1rNm5ScFJxMEYyMVVPdW5CbE1mMTFqWDlKMnRmanE1WnZKRXRwQlFLMXk1d0RoSDhYYVY2SUQzSXRscWdvUUc1UFFkV25nUGJnS0hfXzJFa3FVNjBhLXN6VGZ3?oc=5",
+      "title": "Why Baird Upgraded Domino\u2019s (DPZ) Without Needing Faster Order Growth",
+      "snippet": "Yahoo Finance, 2026-11-18T16:13:13+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T16:13:13+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjJRcDR5YU9PSUFOaE1lbUgwZVZLbEZZN0kzNUktdE93MHdJRWgtUEhVZk9rQ0U1Y01xZE9STmc1QkNaNFdyS2V2eXIzWm42b1B3NS14YnhRY2JFMERRNEFpcjJHN3pKRkhab3NpQ0pLQUJsTnc1RlFuZ1RpOVFaWHBGNjVrNGNhcjNPZm84WUE3N0U3RTNVaVdoS0JtOW5C?oc=5",
+      "title": "One NASDAQ-Listed Restaurants Stock Near Resistance Level: DPZ",
+      "snippet": "kalkine.co.uk, 2026-11-17T08:00:00+00:00",
+      "publisher": "kalkine.co.uk",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FNXBnaXJNMDctWjZpNnhWSW85NkJnLVhwbWEzRWpLTmlDbGFqSGp3TktzbUpNTzFuNGdFWTdZMG96aG5aeEhfeW51MFFxSl9vSl92dnBuY1gwcERjLXRYbA?oc=5",
+      "title": "Domino's Pizza (NYSE:DPZ) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-17T08:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakk5akF6RjhoSG1yVy1UdGJSWXpoQUxRT3JwR1o5bU1PQ0kzZFItLUxkNmszOEI2WFZ1aDR2dnJaVG81QlA5VDZ5Tnp4MHdhYVNFSC1DbDBRQWFCMUZQTnV6ZE1GV3VhT29fRW1FM0M1b2k2VlB3dzlLQlA1SjZmRFdxeWR4S3RYcTFJWkgxZGEzek1oaUdneHBTZVp4MFlYcm85Z0NsaTN5WHh1eTA3eUlPd1RhN0ttRnc?oc=5",
+      "title": "Domino's\u00ae Fires Up Flavor with the Launch of New Sweet Heat Smokehouse Pizza",
+      "snippet": "Domino's, 2026-11-16T08:00:00+00:00",
+      "publisher": "Domino's",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2Y2MVViNDBLV1o3NVJSRXFYR29ORHZWTXNoeTRBaklFc3NGNkZzaENJOXhWVGdIczZOaWFRT19sUWFmUlQ3bFVDdThzOVVPaWliQW10dXdSRnlteExGTmdSam9zYnY5aFhXQUkxRlJSamVteFVjMXBlRW1OSEIzWms1TQ?oc=5",
+      "title": "Domino's launches Sweet Heat Smokehouse pizza n...",
+      "snippet": "Pluang, 2026-11-16T08:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZGJ3RE9wZFI1Mjk5Q0cxVmwxT0hYUFFDeFlHSFN0dk1qSl94WENSTnNqN281dXZxTmdSZkU4RzYtZ2p1Uk5SbzAzU25ocGFBQU9BcE12RkhnUmZRRlRRS0VYd3dtTEJaT29JVmwwdlFRZXR5XzFtZTVyWFJodURiNzc3d3MtYnVnV2FMWXhoaWZDWDJQOHZQMlJ1bGM2TXFGNllGZFhSeTVQd1MzXzZMTWs5OFprTnFncVJENW5CNE1uTDNmM28wNDExbGVIZw?oc=5",
+      "title": "Citigroup Cuts Domino's Pizza Enterprises Stake to 6.0948% After 12 November 2026 Transactions",
+      "snippet": "Kalkine, 2026-11-16T06:55:38+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-16T06:55:38+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 353.54 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

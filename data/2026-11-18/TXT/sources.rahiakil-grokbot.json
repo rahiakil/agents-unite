@@ -1,0 +1,106 @@
+{
+  "ticker": "TXT",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Textron\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3dHaDhmaXJBeGJyZ3BJWExwLW9HTTRLcUltSVVORGRLblE3RHB3VGVtWXlWeWFIUHRHSWpob2FGcC14MEFRbldpb1IwMS1kbG9CQkRXRHVoUm9pQms3UmY1d2ljeWdyWkhIM29JeDNsUDl2TEk1UlJib0ctTS0xN0c5ZFEwTmpsWGxkamozakFHeW5MTW1KaUpOTFp3bUF6VGZJOGxlR2laNW5iY0NNY0N3?oc=5",
+      "title": "Textron Sells Industrial Business for $1.2 Billion, Authorizes Buyback",
+      "snippet": "Benzinga, 2026-11-18T16:50:14+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-18T16:50:14+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV3lFWW5nQ0k0OWtYb1VxNE5aTUZZaXJ1UjV3bG9xUmVmQll6TEJndjh5b19LLUY2M1BtakVXbk53SXZEc290dkVkNy01ZTl1Vmk3c0xwT09FMlE4VEZ0NkJnTVJjY1B5ZllRRlI0OGhpUHdBLVJJVzRoWkdfMk10NGd3YzNOVnc?oc=5",
+      "title": "Textron Agrees to Sell Industrial Unit for $1.2 Billion",
+      "snippet": "JournalArta, 2026-11-18T16:47:51+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-18T16:47:51+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wSmwwOEhQUUZ0MWRBX1R6VGZNZXNzaEs4dXNHREhoUnRPR3Q3WWNQMnlva2FHMlZWSmdGVnBHSld0ZnFvWHpuVDFlYlJWMDJZN2hYS1FON0JpYXJkbTFUajU5N1paQ001UXl3THZKTVR5VFJ1MmF6UHQzbGo?oc=5",
+      "title": "Textron to sell Industrial segment to Kingswood for $1.2 billion",
+      "snippet": "Crypto Briefing, 2026-11-18T15:01:51+00:00",
+      "publisher": "Crypto Briefing",
+      "published": "2026-11-18T15:01:51+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLVp6MGZTNFRKMWFuMVJpMDRTeXp1V21VdEYtOG5WR2tINkdma2Z1eFNYbnh1enhrSTVSSk9Mb2ZtV1EyN3hCN3BjbmluMzNTZXNkdHRYMENhWmdncjNqdUc1X1pmSUttdW9jd0pCeXM3V05VVGtRbnJoMnFxSUMxQlhlcDZ3bFIzeVJNMVBsNTNqR3cwVGRYRHVyVQ?oc=5",
+      "title": "TXT: Textron Inc. filed SEC Form 8-K: Entry into a Material...",
+      "snippet": "Quantisnow, 2026-11-18T13:04:45+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-18T13:04:45+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSXJPcVZnMlQ4N3RUVE9aNlVncExzMHRkemZWMExGeUFoazhpdDFuMFROSm8zTU83dHFXRUVnRzNVVF9Yc29ibEJRYmk0ZDUxT2w0djFSZzdMeEFrTXVjVmNVbGlOTUQ1b2VIYmVIMzNQVE1qbnRNVXJnMGZEelRXcnFXNG1BbUJFMEFfWm9LM3JBWXlXWnRNWkxHcnFQTFg1X1lzNEFmRERrNHBuTXhNeGNmbmRCa1hiTkpHVjNuLWFBTXJpUFpoWnhxQzAxTi1oMEs5a3RiLVdJWEs5X0E?oc=5",
+      "title": "Textron Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/217346/000110465926129345/tm2629751d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-18",
+      "snippet": "items 1.01,2.06,7.01,8.01,9.01",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TXT/history",
+      "title": "TXT daily price history (Yahoo Finance)",
+      "snippet": "close 82.79 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

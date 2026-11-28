@@ -1,0 +1,61 @@
+{
+  "ticker": "TRGP",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Targa Resources\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeUQ0bUF2REoxMFVXZ3kzWU1OWlptTWhSbTcyY0VzbEtPOUw5cXFIWWZyVWx3R2dVNjlOM3hyd2J0dUZHcHFTUVdrMXRNNmtzS0RoYTM3MmM0ZlhHem9rYXBOcThOcVdCck1FZnNIY2Z1ODRiQnpMT1ZGMkRJTTYzZE1GbW53WEpqWkFOaWFiZnY1S0pRVThHZjd0enBCakVYQ2huaXJ5U2RjdTFsdE1pNng2bFp4b2V1a3pXb0JQbWtMS251SV9iTA?oc=5",
+      "title": "Targa Resources (TRGP) Receives a Buy from UBS",
+      "snippet": "The Globe and Mail, 2026-11-17T21:14:10+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-17T21:14:10+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMkFiUk8yRGlzMmd0aWwzcE1qZmVvM0NnNFc3dnFOUzg3V2Fqbk5Sc2puVk5wZ2VFTlNJV3NVd0VCU1ZEUC1HSjBnOThjeGFDaERablI5QV9fcmhGbktfTFpnWTJ2TDFmenZySjcyUURTWVVTVUNUTU8zQUtOSjBNTnBzT3dfdDZxNklfRktMb0pVUjJ2SzlXWUdXOE1WQ0F0dW1Cd1Nib3ZlVjMxYmNBMkVXVmstc3lxNjU5UkpzaC13NzlkbklvSEp3UTJudWUyVlUzRGgzT2FXVTV3?oc=5",
+      "title": "Stifel Nicolaus Issues Positive Forecast for Targa Resources (NYSE:TRGP) Stock Price",
+      "snippet": "MarketBeat, 2026-11-16T13:17:16+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T13:17:16+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRGP/history",
+      "title": "TRGP daily price history (Yahoo Finance)",
+      "snippet": "close 290.17 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORmVZbVZXN3I3RFlnVmFUYlRpVW52ODl6OGZwMzg2T0lfbzNMc1VfdVBINFktVUtRWmh6YWZMQ25zd1RqMndEWTF1RUY4dzBYbm5PT0dSRi1QUWNlYk9VOE1ibFpIMlZwN3RtOW1aQ2xmTHQ4OVNubkQ3NE5yM1ZfUVRySmdFMTFLQXBfUV9vZGU4RnVwNUpKNnk1Si1PRDR5bmZZM3o0c9IBrAFBVV95cUxOb0xqbHAzOFJ0dGE1Z1pmSGxmX0pWMEtBMGljTEFfTGItXzBRc0hoaEo2TUdCOVBtNC1zTWxqOGZIWDJXOFpwcnpMS1BBaktac2NNdlZiZExZcFhxWkUxcjZXOVhsNDVScGJ0ZG5NZ2NqSDJ2b2EtcGl4SXlTNVAxTFJ1dW95blNzYmp3Umw4eUpLX3d2aDh4Z3M0azNHbHlsaWx3d0lUNFpJcWJ5?oc=5",
+      "title": "HP (HPQ) Stock Trades At A Discount After Its 33% Run",
+      "snippet": "Simply Wall St, 2026-11-18T15:15:50+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-18T15:15:50+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZTVhVnlDRnplbE1SakdPWTRMaURPcnpoNlZ1Z2h6RWVKM0pHd2gwUlk5ZnM2YW5vQXpERG95OVB2Q25sQzltV3IxMy11T29TR09oNTUyU1EtMHFOeUl4anNwbk5tR0JWejJSc2FXc1h0aDhwQmdTTU9xemZZUTRFOVRfRGstU2V3bjd2aW5yVDRZaElxNWdfUGUtemYya2Q3ZXVqdGV3?oc=5",
+      "title": "What Does SMCI Stock Offer That HP Does Not?",
+      "snippet": "Trefis, 2026-11-17T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOFVUVmNoSHNnUTYwQkNJYktjdGdtWVVvcnBWMzNVRnNVQ19QU0lCeV9fdl9lVDN6QW1wV18xTEJIRWNSbFcwS3ZXZU54aHhndGNIdy0zZkx2MFQ4SkFDOWxwNXdqZ1NQVi1EaWxpS2Rxd0M1RjY0THdMci15ZGRvaWdpQUh3MG5EWUloXzlUVjltWHpmdzRPM2pUaktmS0x4N2EzclZueHJqdUE?oc=5",
+      "title": "HP Inc. shares may move 8.2% on earnings release",
+      "snippet": "Investing.com, 2026-11-17T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVmVQTTdsc1NQY3pfYVBMNkRfZ0RBbllkZGhYSkZ5N1NRdElyWkFBLUw4dkp6cjdxNGpxR2wwdTRieXQzUEFBQlJDaE5obS01ZzJBWmprd3cxSnNkcUVjM1JzMGhnZGVWa0ZyWmhFX21iUk9lOV80Qkl1QTdMOTQ2Vy01d0RVZEtvWC1PeXhUajgyeW9EZEUzVXFNUkRaZ21TOWMtQmdMajhwX0pPaUo1S0E3eldkeG4tWWZZWUpBTzZkZFNmajVhd2ln0gHOAUFVX3lxTE9JQ3cxYmZybEdsbU1yZm9mLWtxOV9pZnBsZlNmRk5fNFFSQkU1SHdHelZjaTBoYmM0YUZiRDAtYUhWY2lDc1RzeUZkZ3lWQk9WSjZDLXFvVUlmdUd4R2o4WE5wZExsb0JtcGVrZ3c2RXBpQkJmQzhsZWZBOU5YNkxwZ0ZGOWhpZXdQdXAxUUZqaDRJSmVnLXJpV0ZuYUJyV25DT1cxa295Tm1jYUREODJiUFJoeU5RYWtDaWYtaTBVMy1uZTFHNEdsQmoxYUJR?oc=5",
+      "title": "HP Fisheries Department launches 2-day drive to replenish fish stock in Pong reservoir",
+      "snippet": "The Tribune, 2026-11-17T08:00:00+00:00",
+      "publisher": "The Tribune",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR2tLUEx1WFJXSDJ2aVZMYWg3bzl2emQ1WlZ0Rm1ndWN2RXVOeVgzRWo4NndJZ3lyZVRSLUxlMWZfSU9hc1pRRWpib2MwVEFnMmdJbUZIamhhNFl6Z1Y2aXFPNWRCWG5RdlZHZEdiaXc5eUJyQVR5QW9haVFBQnlvOF9manVWemdNRWsyaVU5XzIxRmd6dWg5RWZTYmk?oc=5",
+      "title": "Analysts Estimate HP (HPQ) to Report a Decline in Earnings: What to Look Out for",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUU14NnVMUVpER1FubXVGcThOMWJXVk82YTBydDRiQXF6TVJzR093a05tYk9QWUZFV0tjaXBKalpjLWJpSHh5aU5JeWRkYklBZUg0TFhEWlY1aWRvOFUxZzNWckhyWlpUaTF0V1ZhUURWM1U0YU1EaGRLOWZKNllneXlkdWZLV0s4NjA5ZVN6LVVZU2U1WHNkem5Pdw?oc=5",
+      "title": "Insights Into Helmerich & Payne (HP) Q4: Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWlxRS02QjVleVdMNHJLUkgtNDg5aldLYUg4QVNZSC1JWlJIMlVuWmk0TkplWG0wWjd3RnpZNmJ4emczbGo0TTF3Q1NScEFHempvYW1QbnVvYk5xSE41Y1VzT1FpSXRhaV92N0tIOWVXUXVScVp2cmRNREo4bEE2UEFfNTNXLWV5SmhnT3NRVnh0dGI3UnRDNUotZDZLTUpz?oc=5",
+      "title": "HP's Memory-Cost Trough Meets A Whisper Number Above Its Own Guidance",
+      "snippet": "Finviz, 2026-11-16T08:00:00+00:00",
+      "publisher": "Finviz",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOEVNUXc1eTNwMVFSZEY5Sm1CcHNDYlRBTTRuYmJnc1o4Ujh2X3lWWFVQSDBJbVlXdmQ4a3Z1UjJveGNSNkFjSWNRN1JSNkxFMFdtcTN2bmNCaW13OHp0aWxHcjlraFlBb3B6UW8tTUVzM2Z0VzN3cUZpa3RZc0VSbmRsLS1RRmNzOVFYcXQ2U1lCWmlmN1JtUFV5NmNQU1V4ek0yWlItR2pRNllVaXBCSUI4aUwtY3EtOVRV?oc=5",
+      "title": "HP (NYSE:HPQ) Stock Rating Raised to Buy at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-16T06:21:43+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T06:21:43+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 28.66 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

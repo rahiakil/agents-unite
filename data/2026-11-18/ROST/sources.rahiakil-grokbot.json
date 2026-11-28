@@ -1,0 +1,97 @@
+{
+  "ticker": "ROST",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ross Stores\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT3ZEek1KVnFfczBQVnBmZGYyV3RWUUF2M1MzMkFhcy1yRnpGNWh3NnUzZ3lIMzd6RGpDcXlrRXN5RzZYdDgzTkZmQUtkZkdUT2pFTVcyUVhzcE1EbERHR25qSUk3bGdROHBfU2NWRzdKdzgtdUFCVkgzY0c1T2FlLTVlbTlzazZLUUxqekJ1Zw?oc=5",
+      "title": "Ross Stores, Inc. (ROST) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T19:30:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T19:30:02+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYU9jS3hqSV9hNjhreFNHZ1lJUFUxQm55Q0h6cE4zUjlfQks0anFpeEw2NGFCRVNuM2xBVFFIS0lscG1GOGhWdEE4NG96cVkzX1BhSG5wZWRlMEk1UlZlSjFPWEpCWGNoUkExcjdzUFd0SkItZVByX0p1MGVOX1c5RzR1eDM0bFR6aWhRTGxlbWNpb0R0aXBsUTIyMk54QWY0SS1IMmJxQnFNOWkxZGk0VHg3dzhfdkVkMFpPWg?oc=5",
+      "title": "Walmart, Intuit, Ross Stores and more set to report Thursday",
+      "snippet": "Investing.com, 2026-11-18T19:04:24+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-18T19:04:24+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUdiRjlZUmo2Q2pja1dRZnJnV0hxcUtzbTlFcjNhbzdCWUJoWHJrRDdhYVNVcTZJS1RHeFpCQVkzWmEtX2VKRTdsSktaMzg0OTZuN3pCZGlIbS1hV0FBWExXamlGbzRPd2VrVGU2RnBJZGYyUWw5eWhsTVJaYy1JcjQxbFJFTU1nNURJb3FJeFN6dlZ5U19hMkJLUW40SHBjRF9BU3ZPT0taTzdmWllhRWVfLWMwQlNGVFE?oc=5",
+      "title": "Earnings to watch: Ross Stores reports Q3 results tomorrow",
+      "snippet": "TradingView, 2026-11-17T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWNvMWloUmJtOXktWW5LNEcwSFhrcGdGTi1SelUwTS1QM3BJbWM3ZlE0clJSNnhSaDNmdy1fUFI3UFk5dXBub08yNUlVcmNhV000TTdVTGtKUkZjRXlvY1RQQUxuQTRpcDVfM09JdFdyV3hMTHpwUWkwbG1rMzQ4U0l4S0JMeTFTZW1FcE95SnFUeDVtN2xaemVqa0ctOHFUOW02N05tZUo4T2dMNEE?oc=5",
+      "title": "Ross Stores Inc (ROST) Stock Down 3.8% but Still Overvalued -- G",
+      "snippet": "GuruFocus, 2026-11-16T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc2lrUE9Ic05iS0ZRb2NUbzFvVEt5anRHYzVvX0VNSzQ1ZENVZGFYRHJXeXV6MUpyQ1VnYUtRWTVGekRWZjZfcVFvYmlHQTN3ajVSaExSTDNGMW0teXJwSWV6dHVSVWliX1M3WnphRHJaSHU0cHpqa3Fac3g1T082bk5jXzV3TGVvTElJVEhfb1dYcWhncGtJ?oc=5",
+      "title": "Curious about Ross Stores (ROST) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROST/history",
+      "title": "ROST daily price history (Yahoo Finance)",
+      "snippet": "close 227.64 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "VTR",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ventas\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLW9lN3ZyZ2FKS3hvQXB3TTNSX052VnV6OTNYZ3haZ2FWY1V2T2xCMDdmd1dFR1ZCbmlOekRoUmx4NFZqbzJIZk1DZnAwZ05IeVFMOGcwa0d2VUgwbFh1MC1UVWtvbnFYZUFobFJxdEFzcHRBT1FUWWRvaUhjT1c5clBkOFZJbm5VNUFvUFpJNzMtcE1sTEtOelpGV25mZEx1WlJuYkJMOWdWeGtsbVZrbnRqUEw4YUVvWmVDanlrcWtNM3JZZ2Q4WnNqVzhZSHNMRk1TenFTOGNlRUdueVcxQW9n?oc=5",
+      "title": "Welltower and Ventas Are Riding the Same Senior Housing Boom, but Their Valuations Tell Different Stories",
+      "snippet": "24/7 Wall St., 2026-11-17T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaWp1ZGhPQ3dJVGdPcG42bXBSR1g3dmRZQXdBYVozSjZSLUctT1RTSmpENWhsX01MWVFSczJDcTU4ZFhRM3R5ODZDS0RtWWlwellmLWVmUWNhUUVSNmVuQ1FxVE83MHFyR1l2cmZYdGxZMUJQLU5EenRLaC1jaWp1RFBYczZ4Xy1Ed2RiRk5weVhDd1A4VkZoYkUtSlJnOVZZVUZYaVpJT2FvRngzTWF0aWtuRm5Kd2YweFZBdzZRb3RzZ2ZaQ3FoUnJ5ZU1DdkRQV1ZrUU4xRE9GZw?oc=5",
+      "title": "Ventas Combines Strong Growth From Senior Housing With Steadier Growth From Medical Office",
+      "snippet": "Morningstar, 2026-11-17T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04Rl9WalVTbVMtSzh4ZnhULVo5aFZQbHkxaWtNZFp3NFVoY1dBRnBDVEJyTEEya1BhX3Y4c2dYLUxldTF4YXlVY3U3b2x6RHEyQUxnRGItbjhBVktaRWRHQ28tWUl4S0gtYm1qOFI5MV9ULVJF?oc=5",
+      "title": "Ventas (NYSE:VTR) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSDFnWUh4Z0p0ZW9yN3FQY0FCeWR6d0pOQkhfM3VCb3VPVFFfUWg3aEx0TXo4S3cwdlo0b0laWE9sX3N5b05hcUxXU0FlM3RTUVhMNXF6bXFLZEMzTlpUZ0dib3lUakplbEhCSVdfVkRCUEVEU1RjT21NZTJvOWNHRmdmUVZ5VTM5M210UmVBWkFXQUxLTmJDMkZJdjBlNktEOW9TbXlCMENVaFUycjg0bmNYdW11bHkwT3hj?oc=5",
+      "title": "Wells Fargo maintains Overweight on Ventas, lifts price target to $102",
+      "snippet": "scanx.trade, 2026-11-16T20:02:51+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-16T20:02:51+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTR/history",
+      "title": "VTR daily price history (Yahoo Finance)",
+      "snippet": "close 88.2 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

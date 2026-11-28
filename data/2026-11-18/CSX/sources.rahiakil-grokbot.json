@@ -1,0 +1,106 @@
+{
+  "ticker": "CSX",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOURub3FTV2ExVm1HR2I3TS1OcF9oWjQ4T1hhaURBdVhrdldrN0lPcElRZ3B1bzU4dHdzZmpKYWJlaTZwd1Vnb3RqM3Y1YzZSVVVjdjFnQUQ2UkNzUmljY0JTUUN6Q2NfNzA0M1FFUXpaWWxCZTdNaFBlclZDbmRlc3lZTW9ZWE9lamxMdDFHek90LUE2S3dCMVdBN0E5S3RTcWc?oc=5",
+      "title": "Form 8K CSX Corporation For: 17 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-17T22:22:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-17T22:22:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVER5VUtrWWJXM1djT3M4aVRQa1ZOTEhTVS0xeFZwV01uMXJRckdneVo2VmlxdjMxZXJUQkprT1JrSUFyOVlYSzJrendQY1h1U05lSjJHQUtwQm1vXzlyNmh2UmJKd3F4Nk0weGdlcmV0alpCWkdtSm44SFRYekp6S2ZjblNHOWh3SmVRRFpvSVlKekoxNXdOMQ?oc=5",
+      "title": "Where Could CSX's Next Growth Come From?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOV9IUEkyVEh2Q3V4Z0ozNzlDLTBwRWRlZ3ZQdWdudGR2RlgtUG5SU2RxRmZxYldrRU5aWXFIRzF5VmNjWDBYbjdsV3B5REszNGlUdkJvbEdZSDdEVFA1eTlMNVVmSmFEQzNrTnZIVFpOMklTejBKb1hPeEE2Z08wRDVaWlhIaEg0a0k4UzVBMWRlZ1FPRFJYbVluVHA5TnpJb3dZRGd2SnVqU2FTakU4SEFyR0JDbzdJekZ4UTh3?oc=5",
+      "title": "CSX Secures $1.2 Billion Five-Year Revolving Credit Facility",
+      "snippet": "TradingView, 2026-11-17T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONTlSNnBudkdXY1BHc29pZU5BbWw2OFV1d2YxYlNHdDNyNEFicGVBaTFoMzlVbzlxZ0RDbmZ1RV8zRXU5ems2bjE5Nk94S05iTkQ4QnQwM1lnZUo3VUVMRkhCcERTMU5XYnJvVVRMOHdxWGdmeGRLUmZOV3BNdUJzNkRUZUNlOGZHNnAzTkFaOXVhTDRxSWJKNzZFa1VvZw?oc=5",
+      "title": "CSX Stock: $52.03, Little Changed Nov 16",
+      "snippet": "JournalArta, 2026-11-17T07:43:10+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-17T07:43:10+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTFA1eEF1dVlSYUZQWkJlZFA2WFllNlJlbHZWR3hjel9CMnloLXdEbmVycmpYZWxQNjNFLXZROFczR0gyNHJwMU5jdzZWVmxFRzBaQk54YXNKbjJ2SUlaWm1CdW93SnlWY0FQVjZ1eU01Q1RTaWwySVpxTlhOdDljRGlLVnRtNWlmdURJSnNvMnpTMFI4V1BuRDgtekktSG15elg1bUVfQ0I?oc=5",
+      "title": "CSX Corp. stock at EUR 47.16, down 0.40% premarket",
+      "snippet": "ad-hoc-news.de, 2026-11-16T07:30:49+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-16T07:30:49+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000095010326017684/dp257074_8k.htm",
+      "title": "SEC 8-K filed 2026-11-17",
+      "snippet": "items 1.01,1.02,2.03,9.01",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 51.33 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

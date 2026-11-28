@@ -1,0 +1,49 @@
+{
+  "ticker": "STT",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNS1R4VVFLWW5RZ3hPZUNyMGF0NW5RTDFlbDc3bDhEMjIydlhkWmxRNGVHbnlrRXY0WlNtbXBZSW1idV9EMEtCa25reXJpZHlKMUpBX3RQejFxa1dXR08yQmloY0I2bEFWZ3BpY2RJcDJqYU1uWFpPbFA4VE0wbzNaLW9EOC10QXVMekJmN0xkcHByZmtLYUtfMGx1WHMwVld6VTVuUHh2ODkyS2FBR1RGQi1IVHJPODJXY3hTOHRTRDJMZzFNbkdTMWdLRXQ5QUxfcUVUYnUxZEFySnZPdXpKNER0X1ZFdmdXLWwtbU0wcjRfbXJpN2VlRWJiUXc0c3Rocm9kSQ?oc=5",
+      "title": "Texas Judge Greenlights Multi-State Lawsuit Accusing BlackRock, Vanguard, State Street of Using Climate Initiatives to Manipulate Energy Markets",
+      "snippet": "ESG Today, 2025-08-04T07:00:00+00:00",
+      "publisher": "ESG Today",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 110.06 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

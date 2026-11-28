@@ -1,0 +1,49 @@
+{
+  "ticker": "UAL",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWTNUT2lzRFdaQU4xbkJ1cnVfaE82V016LWExZ2Q3YXJWSFBtV2dXWVZBZ2YzeUdHNnBiRUZrd0xOMWx2ZUpRcFJCOXU1NzRMRlZKUnE4eDN1QVhjb1EzTEczR3Y2b3c2TjZVVTIxdnRoWndWcWtUYTZwYjhTTEF5OXVkOGdkZGlQVW0tdnhUeUJuV2NWZkpJSXY4eTAzUUxZeFZhWHVWMklTdjJyOGg5VzBaR2FmZ0xEMVBTS1dNZlZRc0lmblBwYkszYk1EMm41TWl6WEU4LTdYM0pURGtkNmhYLTTSAeoBQVVfeXFMTlJhX28zZkp5ODlMYUtOUWN4X055Nm9zeEhMVW9yN21VUENHLWQzSjBoR3RKMmUzSGpOYVBpOFZIaTg2dnZmMzc3VWI4bnVZVEZlWnBrLUt6TVVNejU2VVc0bUFiUE1zcTQzUXNOcjVIdUxaMHRpa3dWcVRyZWpNd2lGLXJYbzVOT1J2NnVyVFdrTURfeE5jQjR3bmltLThMRktRMS10YTdBVWRaQXNKSDl5cEZJa3Vkd0h2cEc2SnV5QlcyUVI0VWVXVW1Sa0l5eUlWODZvektLbHBZd3hYQWN0ZnQ4N1BlRDNR?oc=5",
+      "title": "United Airlines 108 pilot declares mayday, makes emergency landing at Washington Dulles airport, was bound for Munich, Germany",
+      "snippet": "ABC7 New York, 2025-08-04T13:18:13+00:00",
+      "publisher": "ABC7 New York",
+      "published": "2025-08-04T13:18:13+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 87.66 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

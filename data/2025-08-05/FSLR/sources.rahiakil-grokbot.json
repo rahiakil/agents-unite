@@ -1,0 +1,49 @@
+{
+  "ticker": "FSLR",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"First Solar\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMWd1b2FkdDA4MUhIOGNyOEppVnZsU0tCemdjYktzM0QwVERtTmlkT2tMSXMxMHZ3dWtLTmFCQi1FWmVpQ29yWmpqeGV6U2RBNm5BbDktYVRFLWc5TU1DcFJlTXBxakFzYWpvNzktbGlMZmdMazRJTDRiMmFrWHpiYzZZem51a2VqQWwyMXJ1LVFaMnF5TmtGbGNjcXJnZzV5NmZiQzVpNDhDaEt1eTJPOVZ6ekpMVDVWdHZ1YWwySEJJMFRLTzg5aEd5Vl8?oc=5",
+      "title": "First Solar undaunted by challenges from China, Washington",
+      "snippet": "Toledo Blade, 2025-08-02T07:00:00+00:00",
+      "publisher": "Toledo Blade",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FSLR/history",
+      "title": "FSLR daily price history (Yahoo Finance)",
+      "snippet": "close 186.84 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

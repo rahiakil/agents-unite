@@ -1,0 +1,61 @@
+{
+  "ticker": "COF",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdmxHLS1xcTJSdGY5YUI2LUZ3VHczUWVRODBkcTFmMU5mNGpxY24xWFJNNEpfZjNOR3pyUmdGRXhmYzdmMVlUU3Noemx5T1IyOERRTjVWeGs0MnNWYjkxTjN2cDJnYU9PWFBRbWNTWTdkakg5Slp2OERuR2paUGNXdlRvYTlQcHlxekZKS0lZQUh2alNabXZTUlRJLWJqVDV3NTJyMk5veTZBQ2VaZ2I3RWRkVXBCa1JhVEJzYW50QU52THpCQm1Dam5RY1d5NFhwTE4yeWZmX3V5OFdFN0hGZklyUVpWdw?oc=5",
+      "title": "Monumental Sports & Entertainment Launches A Content Series Capturing The Transformation Of D.C.'s Capital One Arena",
+      "snippet": "Pollstar News, 2025-08-04T07:00:00+00:00",
+      "publisher": "Pollstar News",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02Z3VHa3hkeTdySWQyenBVM0JydUN4UWZ3ZUxUVHNialNNRlNHN0IwOXVqN2RsVmF5d3E2M09TNXR1VW9fN0xkLTlsV01mNC1iRi1MYU5iSmxsTE1WcWFxSUV6ckFBaFc2bnhieWxYdTFmdjJTVVlCaQ?oc=5",
+      "title": "CFP Semifinal at the Capital One Orange Bowl Recap",
+      "snippet": "College Football Playoff, 2025-08-04T07:00:00+00:00",
+      "publisher": "College Football Playoff",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 212.0 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

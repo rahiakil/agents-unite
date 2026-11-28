@@ -1,0 +1,49 @@
+{
+  "ticker": "PLD",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Prologis\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQckFYbFItOWlELVZScmRmMW1TNnZYV2c5QkdySTBwWno3b3pCUlhUZ1N4ZFRsdTBJbnpIMXlVVE83VGpBZFhyek4wSVVqRmRzU2RJQjZmZmpVOS1pcTJwQ1hoSzktR29XckY1WklCc3NCbnI2ZW91REVUSl9GcWZsWDFjdzRKZ1RXaXFwMURBZXY2a0RtS1cyZFJoZHJkZXJzUUE?oc=5",
+      "title": "Prologis plans next phase of AIPO near the Orlando airport",
+      "snippet": "GrowthSpotter, 2025-08-04T07:00:00+00:00",
+      "publisher": "GrowthSpotter",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PLD/history",
+      "title": "PLD daily price history (Yahoo Finance)",
+      "snippet": "close 107.04 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

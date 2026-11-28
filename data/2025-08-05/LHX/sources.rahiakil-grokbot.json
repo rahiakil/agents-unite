@@ -1,0 +1,49 @@
+{
+  "ticker": "LHX",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"L3Harris\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vYXoxeTJvYjVlaXZnbUZSenRfZE5LdjItYTdKenhsVEoyR282UnR0aTFOWmhWbnk1U3F0a0xGUXRRMnhXTGp6R3JzVWxlMVFCdjk3Ny1PT05SeTRxd2IwRTFhTXRUdm1SN0Y5c1dYNVFXZ9IBd0FVX3lxTE9MYlZ6dzhEaVB4RGtZSDhma1ZYelZjTVljRTRsaHh0YkF3RXFZOFhOQmJ6RXVqanItTU9WMlp0VXhrTmNwdUVqUHJoeW03aGlMM1RmOW8tUWJhWFhfUmhyT1pENGlNbUpJMVZwZzgtNzRXTkdlT2ZV?oc=5",
+      "title": "L3Harris, Joby Partner on Manned-Unmanned VTOL Aircraft for Defense Missions",
+      "snippet": "The Defense Post, 2025-08-04T07:00:00+00:00",
+      "publisher": "The Defense Post",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 278.22 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

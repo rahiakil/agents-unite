@@ -1,0 +1,49 @@
+{
+  "ticker": "UPS",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"UPS\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZ1NDcWZvM2twQ0gwSkZyYUUzOUZmZzRMUEtlY1JPbGhNNnMxdTJWazJYQlBMMlNjTkE1N0x4Uk9JQU1sRUZiczJoaUQxSURTYnF0bmlLa2I1TF9YN0p6cDRucWRKbmR0aUx4QXZRSkoxdzh6ckZfOGZVbU9wellxV2VjSGdqbllRMFI3QWNWbEFRX29kR0JtX3JtREY1ekR2NTdjczZodE4xN2w0V0R6QnYwT3pFdkJoczEwOXlNOERnOHpFNDdiUEhjM1lueVNpbzA1bTl4R1A3ZnJ6T0o5dkJPTlNhalU?oc=5",
+      "title": "Dauphin County woman charged with theft of nearly $150,000 worth of goods from UPS warehouse",
+      "snippet": "FOX43, 2025-08-02T07:00:00+00:00",
+      "publisher": "FOX43",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UPS/history",
+      "title": "UPS daily price history (Yahoo Finance)",
+      "snippet": "close 86.78 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

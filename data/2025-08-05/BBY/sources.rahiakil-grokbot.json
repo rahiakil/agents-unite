@@ -1,0 +1,49 @@
+{
+  "ticker": "BBY",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Best Buy\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMVhiem5Na0Z5b0pSemY5bXA0REItaWRhdmd1RTVtWTJsaUdzRUJBQVVZeldyWl9YcUh2Ylo4QjZhRlJSQzlkNXJlQkVqTkdZeGlDSXF4aThfU09sYUtCb2x2T0NiTlQ1YmhNX3pZUWI2ZTlpeXJNbjNOYVlRM29RSnJnZERvQ2pwME9JU0VleVlFS01PZThj?oc=5",
+      "title": "IKEA Expands in North Texas With Two Best Buy Pilots and Two New Stores",
+      "snippet": "Dallas Innovates, 2025-08-02T07:00:00+00:00",
+      "publisher": "Dallas Innovates",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BBY/history",
+      "title": "BBY daily price history (Yahoo Finance)",
+      "snippet": "close 66.98 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

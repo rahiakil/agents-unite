@@ -1,0 +1,61 @@
+{
+  "ticker": "GOOGL",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alphabet\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRHNaMjhGdGdzUTZPZWVNVmtkVmxObjJ2aWU0djJEZzBrWFFiNDJ6cTVnSWt6c2x4TWVNMHo5eHppTWMtOXlrT19HUWwtMEFjSXdKdmNmUmo5eUFGZ3hpaVk3VWhtc3luRFNVeXNKc2RyMkFhX1F5VnpNdk9rRWxLVmxNLU5lekFXT2swOGxUYw?oc=5",
+      "title": "Is Now the Time to Buy Alphabet?",
+      "snippet": "The Motley Fool, 2025-08-04T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbk12dlg0UzR4NDRGSFIxeG0yRFZ2dUlSM29qUnhwc3VNbzh4ZTYwbnFjdlczUHdOM2VXdVEzakFLQ2tRMFhFY05oVkJGTndPaVBnR3lJWVVyRGpsczJERnFGemN0UWJpci1ZdVc5MmdLSFNkajRJX1RQeWtSbFpxcTNERTlVLXNZaWlEMGxoekdEYm92?oc=5",
+      "title": "5 Reasons Alphabet Is the Smartest Stock to Buy Right Now",
+      "snippet": "The Motley Fool, 2025-08-03T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2025-08-03T07:00:00+00:00",
+      "published_date": "2025-08-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "title": "GOOGL daily price history (Yahoo Finance)",
+      "snippet": "close 194.67 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

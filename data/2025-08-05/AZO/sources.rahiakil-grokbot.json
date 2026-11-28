@@ -1,0 +1,73 @@
+{
+  "ticker": "AZO",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AutoZone\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObjk2bktmOTNPMG53ZXRRZDdCOHVGaWZvZS1ZRUZkUC12d3E5YkEtSjJVWXFhN1VnZ2FhUUUwOTU2SkdJa1EzYkpJVEwzV0VkcFJPR0l5TGRrZFpwcXY0MFRBUnRobUN1NjhELWhDV1RvMVZuYk9rWFRoVFM3TGZZQldyNzc1UFo2YTNMeDFOa2U0Q0FrMXk3b0paZXhhQQ?oc=5",
+      "title": "Woman shot, killed in Bedford AutoZone parking lot",
+      "snippet": "News 5 Cleveland WEWS, 2025-08-04T07:00:00+00:00",
+      "publisher": "News 5 Cleveland WEWS",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZVhHMTZ6UkZXalpCblpIc010VjJPYno5NDNkQXZaaTk0RktpaUFZbGdlT2t4YU5fUGRmLUFBczFuZEpBSnNOblhrSXhlUDh1MnYtSHpUVFY0OUk5MzVwOExqb1FaY1pkQm1Kd3NDR2pzbGxMYkdwQU1yV0lMS0JIeFc0R1Q0Z9IBmgFBVV95cUxPbXlPVVJ2Q0FQcFVxVzBtX2Y4aEhYMVRYcTVPVDQwbmNJSWhMWVJxMi1DcWo0UkZ1a3ZIZ21RZWdOUDBIYUF3UnRMcXJFZ2dwUWZIVkJ1a2l4b0ZRRGU2UVZ4SndRQVdQV2hibjFJR2ViWWlOZFRUVEhUTDVkMGJzZG1Za21lWU9BSS1CX01ua0lPVkQxNE1VRFl3?oc=5",
+      "title": "Woman murdered outside Bedford AutoZone",
+      "snippet": "Cleveland 19 News, 2025-08-04T07:00:00+00:00",
+      "publisher": "Cleveland 19 News",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.66,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRDdrWWowUGtSSUxFSmQ4dWlrU3dkTk5VVXFyLUlkX1JMZVE2LVVIQng0R3prZXZzWldWQWc0MkY3Nl9qd3Y0SjhmY0xLSTNxYXJSSGRtRlN0LXA1ZU14VjhrUFRiVlJITkZJejRjajhIbTdyV2k5YlJxdzNURm5keWZ1RGxzdE92WW41ajZlLS1aQQ?oc=5",
+      "title": "AutoZone\u2019s AI Strategy: Analysis of Dominance in Automotive Parts AI",
+      "snippet": "Klover.ai, 2025-08-04T07:00:00+00:00",
+      "publisher": "Klover.ai",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AZO/history",
+      "title": "AZO daily price history (Yahoo Finance)",
+      "snippet": "close 4011.25 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

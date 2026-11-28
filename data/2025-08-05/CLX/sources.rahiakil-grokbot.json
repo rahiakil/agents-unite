@@ -1,0 +1,49 @@
+{
+  "ticker": "CLX",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQU1mR1VvVnBsLUlKdnRnZ0k0OEh2Y3RsWTV5UHJUNlJ5Rk40Y2x6VlNzeDFMcXh1VFR5LTZpN0pGRmtnemFMX0N3WmJ3LUI4aHd5Q2I3TjJxTkQ3UFlPSXlCemRJYmN6VjFNQUFYbEcxcnZDaUhfOUxZRFV6RjB4bk1oYkRJYlZ1alIzTkkxbTFRSFNGeXBQNDE3ZTdtZUdyNXc?oc=5",
+      "title": "A Deep Clean for Clorox\u2019s Tech Stack",
+      "snippet": "The National CIO Review, 2025-08-04T07:00:00+00:00",
+      "publisher": "The National CIO Review",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 125.37 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

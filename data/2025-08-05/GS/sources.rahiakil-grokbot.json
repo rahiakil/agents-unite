@@ -1,0 +1,73 @@
+{
+  "ticker": "GS",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Goldman Sachs\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUDI4OHJvcTFPOXU4R0xmVFFHZVBmSWhoMGZGclJqTlpRdE8xZWxpbWtLWDJET3FUZ3UxTHBGX1NUOFBCV0ZTMGloOU45TFRZNDhGTklhRnQzTjhzT1AtZ3FpNm4ybzFTNW5JTm1lcEk1QTBoT2tyUDIwYklPUERGWWx0UUJPTko4cTBJbXlUOGl6Z0tVM3hmRzBacVhsT0trUlItUmI3a2N3Z0pkRXkxTkkwTXFvMkIwc0hR?oc=5",
+      "title": "LSEG teams up with Goldman Sachs International to launch share buyback programme of 'up to \u00a31bn'",
+      "snippet": "Investment Week, 2025-08-04T07:00:00+00:00",
+      "publisher": "Investment Week",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU2xhZkt6VHA0QUNoaWFNWklfRTdrTkMxS05ORVoxSTltQVNRUm8wZjZRbjc5V29ZdG1uOWNIbk9wRmI0R29BWlFPWHZ0Yjh1aGdJREpyRkZCRHRqOVVJeVYyUUFscnNSVUFPbkRBMWJtYTFqRGtaSkNNeC1FR3p0bFJjQUxvZXNSM0RVVVJfZzBJU1NFYmNEUnJNM20zRTZNN25HY1VfcXFzY1RjOUNZ?oc=5",
+      "title": "Goldman names Ratesic as vice chairman of consumer retail group",
+      "snippet": "Reuters, 2025-08-04T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTc5aVhJVVBNYnhrTVlqV2lyNUliZ1lVejlHSkhPMm5SRjdIY1ZHVmlWeFBsSmVYQW1lMHlOOExRZnlqSzZSTVU1UUl1Y0RJSjBHTzIwMlhZX0hxOF9nVE1lM2gyQTFvX1JIdWtObkpYWklQMGdNUXVSRkg5NFBZSnpEU1VwYzFHLU4tZ2lB?oc=5",
+      "title": "Goldman Sachs: Dow Jones\u2019 Heaviest Hitter",
+      "snippet": "Disruption Banking, 2025-08-04T07:00:00+00:00",
+      "publisher": "Disruption Banking",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GS/history",
+      "title": "GS daily price history (Yahoo Finance)",
+      "snippet": "close 720.91 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

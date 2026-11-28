@@ -1,0 +1,61 @@
+{
+  "ticker": "T",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AT&T\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfVUYwZGU1VnRFSjVBVGQ2Qkt1UUluSEJZNE00blY5QnJQWU5UVXFMdURlcDZDWjVOb09HOFd6eENFNGNSeDlqNjV6Z1hOZW5UdWZoSkd5Wm9pcnJ6NEhUVmtTRmExNEM4bWhNYTc2UQ?oc=5",
+      "title": "AT&T $177 Million Data Breach Class Action Settlement",
+      "snippet": "Claim Depot, 2025-08-04T07:00:00+00:00",
+      "publisher": "Claim Depot",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS09IaHN0MzAtdjBwSkV5Rlk2VTZZVkczNDRlZm5UVDBoMDhNMEFldUlPRzByQjUwWVV1YV9wWFE1bFoxYkZmMWVsTk43MGtXaXB2ZF9iOXhPNFhocmhheDFhbUxGSkVYWWQtdHJYWTllRHZVN2VGRW8yRE5qUkpqWXhaeFZqZXdGcDdOZjVEVDBtRDJLZ0ZTbWpGVTBjUlZkaXlZ?oc=5",
+      "title": "Read AT&T CEO's frank response to employee feedback about a 5-day RTO mandate - and much more",
+      "snippet": "Business Insider, 2025-08-02T07:00:00+00:00",
+      "publisher": "Business Insider",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/T/history",
+      "title": "T daily price history (Yahoo Finance)",
+      "snippet": "close 27.77 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

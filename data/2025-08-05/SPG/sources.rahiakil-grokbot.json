@@ -1,0 +1,58 @@
+{
+  "ticker": "SPG",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Simon Property\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3d2aER2QWNxN1lfQmR5bEJqSFpnRkhfRmIyU01fRzZkb195UE5nQmtDT2dVX0k1Z3lzY0hvS3Z2R0o0V0U3U0xSVDluNkIxbTdXWHFfQTIzN3hDV1BPVUxUR1d5bWZEY3lLV1RodnFrdmRjSmJhT0tldnJiSGptNlpKN1JGUndsbmJxb3hueVoycUI3eTUzMnBwaHlka19HY3c?oc=5",
+      "title": "Simon Property Group Transcends Macro Uncertainties With \u2018Robust\u2019 Q2 Report",
+      "snippet": "WWD, 2025-08-04T07:00:00+00:00",
+      "publisher": "WWD",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465925073630/tm2521096d1_8k.htm",
+      "title": "SEC 8-K filed 2025-08-04",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPG/history",
+      "title": "SPG daily price history (Yahoo Finance)",
+      "snippet": "close 169.31 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

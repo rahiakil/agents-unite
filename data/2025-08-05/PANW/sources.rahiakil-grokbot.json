@@ -1,0 +1,49 @@
+{
+  "ticker": "PANW",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Palo Alto Networks\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQem9USURBRlBsYVhpcWxXdFNLMFJkYXE1UnFrU01tSzZ2N3FuamhCd1RXRVZMd19VSXh1VDZrdmQ5emFuN2VrTnoxN05yTzRaOGgzVTk4YnowenpzcFctVlZMZE90a3QyOVh4c283S0ppVnZoeGtQUUtxOC1mb0tFNlZMSDV2elJLUm15SlJGUmxUdUw1WklHRjVnMllDTXZJQ25saFBaa0U1dEtNelBTMDFR?oc=5",
+      "title": "Breaking Down Palo Alto Networks\u2019 $25B CyberArk Acquisition",
+      "snippet": "Forbes, 2025-08-02T07:00:00+00:00",
+      "publisher": "Forbes",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PANW/history",
+      "title": "PANW daily price history (Yahoo Finance)",
+      "snippet": "close 169.09 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

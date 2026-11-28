@@ -1,0 +1,70 @@
+{
+  "ticker": "MRK",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Merck\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOREhWU3pNVlZ2dUVtTnhzSFJxdEhLWW1qdUtJNTZuSklYMy1TRzVXQ1BwT0FUZlB1aC0zeEJYLTF0MWpwMnRHcHRkNEdOdWw4eHNUOEJWRFQ3MkxtMGRia0VDcUctei1JVE5OU3BzNV9FUDExcGVwbXVnUnVnYk00VnV0cDZnY1M4NC1TdEs4bVN0aGVwamstcEVENmdPSFMyb0ZYUmpjQ3pDaHM?oc=5",
+      "title": "Merck completes sale of Surface Solutions to GNMI",
+      "snippet": "European Coatings, 2025-08-04T07:00:00+00:00",
+      "publisher": "European Coatings",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOWVMbVNtNDQwamJWbTF3Sl85azJNRElBRXNzS1I2LUUxTWstM3ZLcTh4VVk5ODRmcGxXaV9uMlVGZTloczFqRDBWRUpqYUE0bFpMY2t1eTBMbjZlcW5jLXRIbURCdndzVjlhRVpyRmszZGltbjU2MXVSZUdLTmRObjdiZHhiOEpzazZra1BWaWFEWGlTNTYwNm1tRTZrWDdlZWJjX2dkVnZnUlNubzRsbENSVmhNNVFzdEcwWGtkNWVKemhyVlE?oc=5",
+      "title": "CoreWeave Buys Part Of Former Merck HQ In New Jersey For Data Center Campus",
+      "snippet": "Bisnow, 2025-08-04T07:00:00+00:00",
+      "publisher": "Bisnow",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015825000014/mrk-20250630.htm",
+      "title": "SEC 10-Q filed 2025-08-05",
+      "snippet": "2Q25 FORM 10-Q (6.30.25)",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRK/history",
+      "title": "MRK daily price history (Yahoo Finance)",
+      "snippet": "close 80.79 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

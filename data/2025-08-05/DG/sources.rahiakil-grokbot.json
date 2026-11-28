@@ -1,0 +1,61 @@
+{
+  "ticker": "DG",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar General\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObEQwS0NqLUpHd2t5Q2hycUx2RnRtYy1ZUUk0ekI0ZExKVUY4Z3BZY3o1U3hZbUt0NHRKR0tGVEx3bHo5dlo4a1FpRmZ0SkF2S3NOcXhsaE5Ua2JnSDFBT2xTM3pva1EtU0IyejhzTkYxdjBXS0NCNFk0Vks0ZjBWMGFGNGltSUFNUk5CX0NjTlFpNDk5NFB6UloyLW5fdFktVDE0MnVfWU1zVVZhVk1ya0VmUFFWbndFWDFYWkdvcXAydHlTdlIzS2tGM2U4WVYxUFFoVHFaeWF0Z2tYam4yRHdld0d4a04zVEtwa3VvRQ?oc=5",
+      "title": "Dollar General Market with fresh meat and produce opens in Delaware's smallest town",
+      "snippet": "Delawareonline.com, 2025-08-04T07:00:00+00:00",
+      "publisher": "Delawareonline.com",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnd6anp2R19WdzlBeEdfOVR5SnRtV1E4LThYbVoyNFV3MEFYaFV6alBHM3JLTENUVUYzNXhmcUtrLTExWUs1N0dHY0cxLXRiR3ZCazFDXzZ2Z0xwQjE0YjdGeEdCblFRTU1ocGRDQ2x0ZGRvei11TTlUMEdoal80RkVLR0d5YTRCQ2JiclByVFJLN0xCby00elZzTnRoeGVWRnExOEpjNHBEMDloV2htRkIteFdRVFZDZG80?oc=5",
+      "title": "Public\u2019s help needed to identify people accused of stealing from Dollar General, deputies say",
+      "snippet": "KEYC News Now, 2025-08-02T07:00:00+00:00",
+      "publisher": "KEYC News Now",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DG/history",
+      "title": "DG daily price history (Yahoo Finance)",
+      "snippet": "close 110.86 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

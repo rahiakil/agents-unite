@@ -1,0 +1,109 @@
+{
+  "ticker": "SMCI",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Supermicro\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUUJLWGFxajlsSVVyUjRSSlFaMjJQYjJMa3l3ZTZYdkI1OVEwTGItSTgxQm1uaGJWYTlsdHYtRmc0aXRvbFVuaF9YLS0wZ3RUY2d2a2xqaGxXeFFSQkZWck1rejJhTHF0RnkzaDl2MlZ6OXFiN2lsVDlYOEt3VHBrSHhSMHF1WnIxcTRaQ2hQOV8?oc=5",
+      "title": "Why is Supermicro stock up 7.4% today?",
+      "snippet": "Traders Union, 2026-10-27T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGhScXljWk44Q2NsbnhPOVRUV3NvUVYwWkJqazUxcnJHbE5zenozZ0I0NHpTSEtQNTViODNidDcyM2tDMHg3RFdhR1V1WUU4LUtvWHQwOTNvdTBOVGNMME1sX0xfcWFUZTZkcWRrcFd5MVhtWmVqWGR6Wm9WMmFjRkRPelZZTHZrZTlVUzI4WFVmOEVoZ19HS2NaYldOQUZ0UHR6MWZKM2xINlU2bExBRg?oc=5",
+      "title": "Supermicro-backed neocloud Argentum AI seeks $5B for chip financing: report",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSFdyYzlkRGNySnlodW9maXZSSFdNMmwxRDJfWGJrWGFqcmEwVDlubXNxRVMwZ3ozRXd6QzlJQVJFQVlJZGxlUVFzVThxaDc5MGJIdUcxMTZTUEhCa1NTU1NTVUZhdnFPaVlsQWwxZzZPWEVrcllrWHhQbGlQTWtSV0c3cjRIa2h5QUk3LXBMRUFneUtRWW85T0RwaC1wVUtkU2tSaXlibnd2UVlaU1FJVTNR?oc=5",
+      "title": "Supermicro (SMCI) Stock Gains 7% as Argentum AI Pursues $5B AI C",
+      "snippet": "GuruFocus, 2026-10-27T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUwxcm5aeXpUMTIyb0lEdFEtTVZTcGNBTW93MWJlLVV6QTBlS0ZkNEI3ZEREeWVFQ0dVaHdBUldpclJSektZZ2Rpc0diRktiVWhYN0Y4N1NZODdjRXlHSmR4WkltdFZrYzA2WjJlWHVJWnY1N3NGeGpnc1hDWHJocmVldFBTUnlUanZHc1Z3Q0FwVXlo?oc=5",
+      "title": "Supermicro (SMCI) Is Growing Faster Than Wall Street Can Trust",
+      "snippet": "TipRanks, 2026-10-27T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOV3ZCLUdoWDEzd0E4UWdrRlhpRDRKYkpFeTRxNjlnZTR2SHRnVEZzYk8zcGxxZ3Fzc21Lb2RBcDlMOUFuZHR2RklpQURmdEtObC1RYU9CMUlaamVoTDYxa0Z6Q2V4QV95YmFkQ3h1bHpzeTU3SEVnUlRhc2hqSldwcVlrbThvczFyaERNUVRSVnZzMVU0cDM2cnJhSE56d2ZzWkgwWjJxMVVJN2stU2dwVUNocHI2amU2THFtY1B4STRsQXFXRk9aT0dBVVY1TXd2Njh0Z1hNdWtDWFVmb1FhV0p1SFBISmw0OVpjRg?oc=5",
+      "title": "Super Micro Computer (NASDAQ: SMCI) Stock Trades At Deep Discount Despite Strong AI Demand And Raised Guidance",
+      "snippet": "Foreign Policy Journal, 2026-10-25T07:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.632,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd2diNGt0TW1ZUUlXdjNzdnk0SkF3MTd3cm1taWR6dkUwNlZ6OTBFN2YweTVDbFFDcDBjNExrRFRRVVBMVEdxd080YTlrRUhxVVN3OUFsUzFwM0JkRkNaVkstcDlFdS1Mc0VWVHlJM09xSjAxeDIxU1E5RGVCNkVZWF9ES0JycVdSQURTSHBodWJVVXNLYXZJTGJKS0lEZThSVGNuNnFoTUhoZmZ3dFFxTnRRRmFETnZtaDVrSGZTeERRRW1j?oc=5",
+      "title": "Dell, Lenovo, Cisco, HPE, Supermicro: Why AMD\u2019s New AI Blueprint Has Everyone Signing On",
+      "snippet": "Barchart.com, 2026-10-25T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SMCI/history",
+      "title": "SMCI daily price history (Yahoo Finance)",
+      "snippet": "close 35.81 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

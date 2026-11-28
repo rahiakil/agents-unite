@@ -1,0 +1,97 @@
+{
+  "ticker": "SYY",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQW1hNVdrVXZzS0w1OG5NYmhxN3BvdkFTak5UNm53cGdkRkc5a0NzZnIzaE11MGRaQnVlMURGQWJwSmZjNHVobU42V2UwSWxhSHRtb094RE1wLWJ1YmxmS2xJcDBjWHVvUlBqd3NnQ096Y1hlcFQzN2VKRkxMbGFCaTZBZzJFZGtBM05BRFIteTV6d3ZLYS1qMTNfX2FUUQ?oc=5",
+      "title": "Sysco (SYY) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNDlIWHBaUS1nQlNYX0E0UWl6NENsanVkb0pBYkNlQ0FiM19ONnJVb040V2xWbExUWFp1cDZ1NzVyOVpHMTZsazlWSDI0cFdiaUhDVVF6ZnFNVzFZbEhCWFUwc1VtcWowRWhzeUNDWVZQdk1Id1hkRjUtS0sxdW1ZLXVaRDBZc1lxNGExdlBzQklzRDg1Sk9lQWNQaHQ?oc=5",
+      "title": "Is Sysco (SYY) Trading At A Discount To Its Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQVFEU1JiUkJwQ0VIemhIdnNpOU9YYmhhbmp2aDAwdXJCeFpIQWZ5ckt5TExHc2EyMmFFLXF3cDJCTGwtWGk4NGEzSXpCQkRfZHh3RHZPSmRyRFloNHZabjJJc05GSTc0aGZLejY5blhSMmZvd2JRcTZkTGVOMTl6QjJOVU1JOXl4ZW1YSUc0YmZhNnlhOExyRFZaMEU?oc=5",
+      "title": "How Investors May Respond To Sysco (SYY) Los Angeles Strike Ends",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTTlJaU5PX1J5NGlNdUVmYl9XV3ByNmhlTUt5aWgzM0h2VWFLZ1VXMC1nbngtVFBLNXA1X1RCVVVOd3B4dHh3TkJPVkI1MWtYTGFYSktpaXloUzNZSDY2dTBEU3lNbVE1QS1Xd0JncnVscDNacmRLcjJYdXNqMWxvRGxOLVNHNWNLLXBCMU1JRDJRRERlaWxMTFE0MzhfVUlrQnZpaXp4MXdqZ3FpU01CcXRCZzBGc0dkQlIyWmtUSlNmMU91bXBJa3V5RTc1NVg3aHNlb0p0NzY?oc=5",
+      "title": "Sysco Corporation Stock 12\u2011Month Price Target Raised to $91.73, Implies 13% Upside",
+      "snippet": "TradingView, 2026-10-26T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa2Q2d2FoMXprdTdPLUtldk54ZWpaSVEyYWZOclVYak5uTnFLbjlDcGdrcE1FZnY3bGdzZTNaM0NFSktqc0hudTZSRGl4Rk1zREdpWXNjSlJtckVPTGdYa1dmMHBCZkp6SGNLU3MtQnVtV0lkWUpZUjlvRGVwcU1iWVFHWHIxYWJDRWtjUzRtWk9yaU5OVjYzOVpCYV85eTV3RHB1NFRDZm1GRzhuUFNXUmZDeHVkS3ZPN0lPSzVB0gHDAUFVX3lxTE9malJBcTlKcE9TVHZFcWJxWU4tVmtNTzJtMG9lQkh4R1NkLXNMNDE3aEhwR0s1M3E0cXplYzk4bHgxeXlGMFRkVUdKVF9EUVdtbGEyUHJpTWZYRl9VU3NVT1BsTmdPOTdBYUlBSC1Vd0d2VExQSElIZ1VlUU8xNG9IeW9JNE9UVVhTZUh5UkFLaGtMOFdaQzRVaXZSZ0dHSnBlSExYYktLeFk2VDRPWnVxM2Y4UDRWLUt6THlDN2tRaEJ4VQ?oc=5",
+      "title": "Sysco (SYY) Dropped, So What Is Driving Attention Now?",
+      "snippet": "Simply Wall St, 2026-10-26T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 82.15 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

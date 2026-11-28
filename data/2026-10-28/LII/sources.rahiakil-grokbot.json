@@ -1,0 +1,67 @@
+{
+  "ticker": "LII",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lennox International\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZE13b3N6ODZubUNrVUpaRmdBdW4yaDBVclMtckhteFRxRmNYWHYzcE1HejVlaXB4bElyTnJDUGFUU1ROdGFkdUhEYkdUNVJtMzhPMndHV0NEVWl6VzVKTkJ2WGVaVEU1aUFZTXlZSno5bEZ5Tlk5UUxLWHItQ2xPbEpNQXRWR1ltQlRhRUt4VEdiTXRacnQ4ZTlheTUtUkFTZXBXT241bDVaZ1U4T2RTREtrRFR6LTRnakdGQXBVMFJ5am5qVjZYV1BfQzhVYTFxLWc?oc=5",
+      "title": "LENNOX INTERNATIONAL INC (NYSE:LII): A Dividend Quality Case Study for Dividend Investors",
+      "snippet": "ChartMill, 2026-10-27T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000094/lii-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000096/lii-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LII/history",
+      "title": "LII daily price history (Yahoo Finance)",
+      "snippet": "close 332.64 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

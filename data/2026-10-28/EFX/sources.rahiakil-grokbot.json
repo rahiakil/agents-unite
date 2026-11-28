@@ -1,0 +1,109 @@
+{
+  "ticker": "EFX",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Equifax\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFl6eFV4U1IwbXIwbXdtWXlGMGhDRGRCZHVpdUs0cWRjcVJybGR1UFV6d0tjd05jN0tLbFBoVlp1aVFMZWhmRW8temdlYW9Ic0xKaXlERG8xcWo1bDQtTnZvaUxELUJhS0FFWWlnaXZ6YURKNFMxTEFCb1BDNUxMaEI4VUxxblBMa0lOdmRFdEpzWFFPUm9uVF9VVnM4aDA?oc=5",
+      "title": "Stocks making big moves yesterday: Equifax, Nubank, Verizon, Borr Drilling, and Booz Allen Hamilton",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVTdsM1hUejFDUDVlU3ZjNW0tZUxvUWtablAwZjdqWGtVdERXQ1BMN0NEMnZqSUctNjJrVlQwcjhCVGV6ajRnQTFKa25lNEgxamZZUUFaTDdGb1hmSWhxZ2h0M0JRRnZMME50THlVeG1xRUotUGlZdHhrV0hfYnVVcnFXTlZUWWZwUE1yM2ltZXd4VldYbXc?oc=5",
+      "title": "Why Equifax (EFX) stock is down today",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWkxHN21Jc3JBODRNaWtISm9QcEc2bWNpQVRmM3R5ZExBREpTZTlJU0JUdEtkdFppa1E1UWJzYmE3LVZUTGpuQ2NaWF9xaFJXeEs2YVNMcTV3MnE2N0V6VW15QjlTNktaQ242Rzlub1JMcjVUbmdEUTJwQ0NvLTBnTmNaMjk0VTN4OTFldkx3UWZENkxZMl9QeS00NG1QMGFLTHpYOU9JLUlfMkFxT0w2OUdBSFI0QjJGaWFSeFJ6QVdwSmxr?oc=5",
+      "title": "RBC downgrades Equifax stock rating on mortgage weakness concerns By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.718,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQUkJHRHp0WUx1UjVJaTFtWm0xTWxKaXNGem1kN0s3UE9xT19yak5rVExXWkc5TUZCd0NEVnBuUk1SUURiQ1Nqem5HUFQ3S3gxTFBjWENFRGdpMlA5RlJxSURpX3gzRHFXemRMWk1uUk5od0RZZzZ2N2puWllZNkpGakdvWEtVWmVMQWtLdC0wWVFXQXJrY2JNTy1URVhhOHhSbzFadGVVRUs1QjNsSlVXY09IS09qSmxWRDlJbzVKYWUxLW9qMG04OENNMlg1a2NLN3F2Rlo1QlZYTkFiT1VWb3FRNGs5NFRtdXQzMjllMld0b2p2cGUtMzZkdWZUc3E3OUZEckxQME4ySHRGdVNVUDlqSkh1RnNQaVVEaDVtdWFVbTZlSS1aWm9meEhjNzVHWUNRNDBJczEzQmlLaHZXand0ZUhjbHc?oc=5",
+      "title": "Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Block, Boise Cascade, Equifax, FirstEnergy, Lockheed Martin, Lumentum Holdings, NetApp, Roper Technologies, Spotify, Technology, and More",
+      "snippet": "24/7 Wall St., 2026-10-26T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTmUtckk1RG9LS3E4bU1VTUM3ckdoeWFEQTE4STB4UVQzaElWd3ZRTDZCXzU1NzlmNXhrYXZBWFFBb2hlRmdXOTI0ZVpHOGctTjN0QUpCRmJZOHQ2Snc0cjBQdzZPVkljdVlqQmdlaWRlbU85ZU1PSmhaYW9nOXpaN09iMVZMZUtZRGxvUHN1SkZIWjJRdlBHNk9CeklCRWFkMFp0Y3A0WEZ4MWdIRXItUkdB?oc=5",
+      "title": "Equifax cut to Hold-equivalent at RBC amid high rates, regulatory headwinds (EFX:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-26T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRlNlY0VrdldCVWFEd1JXT05xamRfUU1fRlVRSEJkd2lIZVA0MTJtb3dfNUhYV2pma0Npcm1ITHo4Y2RyYkhuOEdodzVOMFI3ZHp2Qm02Y0xNUkJ5TU02eVplYzNtMW0xZE1LTWdRZW8tTWpRdHAyeG0tNzlmcVE0QzBnelVpUXpMTC1udENOQWJXdUVxdXJheDR5dkxxLVRsaGtsNlY4dw?oc=5",
+      "title": "Don't Overlook Equifax (EFX) International Revenue Trends While Assessing the Stock",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EFX/history",
+      "title": "EFX daily price history (Yahoo Finance)",
+      "snippet": "close 176.03 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

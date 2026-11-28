@@ -1,0 +1,58 @@
+{
+  "ticker": "TECH",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bio-Techne\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ3RaQWMxeW91Mm54VHhGSHU2NWI3Y0JRQXdmaWh0Y0hoLTh2MkREN3R5VUgtSXBqQTZiSlBYeWNEMy1mbGxNZ09TT2E3YkJEcFdWU0oxUTZhcjlIbEQ1US1rVUlHX2dreGhZdmtNajUxbjlJZGUzTEZ4LVZHNU9Kd25kaFZ5bmp0Q0xPZkM2Y2k5V1Z2Zmg5WlktNTVUb2RUeEM1Tw?oc=5",
+      "title": "Argus Research Downgrades Bio-Techne(TECH.US) to Sell Rating",
+      "snippet": "Moomoo, 2026-10-27T11:46:34+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-27T11:46:34+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/842023/000114036126041062/ef20084361_10ka.htm",
+      "title": "SEC 10-K/A filed 2026-10-28",
+      "snippet": "10-K/A",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TECH/history",
+      "title": "TECH daily price history (Yahoo Finance)",
+      "snippet": "close 72.69 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

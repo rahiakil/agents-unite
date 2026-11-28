@@ -1,0 +1,118 @@
+{
+  "ticker": "NDAQ",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nasdaq\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQnFUc045WDhKbHR3VWI4Si14dGJCLUZDa2E2Q2tVYW9sOWtZRkJmTUtHV0pYa0JmdzdacXpwcnl4aGF2SnlLTGtuOHhHb1BURUU1S2NNM2Fqd0xKYUxNajRzcXg3WkxnNGFzaXpZUnFRRF9hNGxrSHpXMUpiSG4wRjE1a3Zfc3I5ZGI4SDhnb0JTamxf?oc=5",
+      "title": "United Fire Group, Inc. Rings the Nasdaq Stock Market Closing Bell",
+      "snippet": "Nasdaq, 2026-10-27T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0VHNFliU0NYRFctTi1RSTJKVTJSdnV6YzBNWTlQRGpZLVlTUW1jUU51Q1ZoaWpOMk9UclhwMnFCWUpGbS15QUM5RDFIckp3RTBmemtmMDFZQlJWV3hjTWlKSFNqaDE0cENVRXVlcklLc0d2U29kMk9tc1BkTzlWeXdadjN1LXhB?oc=5",
+      "title": "Leonardo DRS Rings the Nasdaq Stock Market Opening Bell",
+      "snippet": "Nasdaq, 2026-10-27T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeF9jSS1NakdDaDN2bzNvMURDS3lxRzlQaXNMb0tWRURYalJtZFJSSGxqenQ5b2Zhb0Y1Q21zR3h6MlJSSHBhVWFHRDQzeG5JYlFfUkwxLW04eW44d2JrTHh1SGhOYW1XSVJGclhpSWd5Q1ZCVmVKTnRYZjRwaG1rdw?oc=5",
+      "title": "General Motors Will Move Its Stock to Nasdaq in Tech-Driven Pivot",
+      "snippet": "The New York Times, 2026-10-27T07:00:00+00:00",
+      "publisher": "The New York Times",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MZ2owdURqOGNmS0VjcmNRVC1KN0M4bHk0TDR4bFMycFM4QTZEQW0yVm9QbnZkXzZEOHRqVGxxY2RQX0R5b3BzaVM5X0FPV2gxQUdHRk1MU0FYVkNiRC1zRXl3cDBIdTBwMFdYOVRobVUxcGfSAXhBVV95cUxQai1qNng2OEZDSHZRcnRJd0VPOEtpV01HUFBXOGFnQkhpcF96LWc4NXcwa2JQRXhVa2k4ZXN5YWhYVngwX1R5aV9yQXQxTHNyR29Za3drdnItdDZ3QTREZVlnTTBwUThBTEY0SExyVnVvN2xtcHI5SEM?oc=5",
+      "title": "GM will switch to Nasdaq from the NYSE on Nov. 17",
+      "snippet": "CNBC, 2026-10-27T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT2VRU2piTW1ISlJoX2VmRXl2TkUyWFhtdkFvelFFUkl5d21LN08yUjZWcGxXTGx3dW1ua2cxdF9mMjZHRm5mV2RuU2FyT3pGeWhZcEREZkw4MTVZOHBnVFUyUzRVYkxSZV9LS19rUk1TUm1lbjhYRWdxd2lHQnIxbXZLN2JuVkZkcEdfTWZB?oc=5",
+      "title": "US stocks (Dow Jones, S&P 500, Nasdaq) rise as Anthropic IPO filing lifts AI chipmakers falls",
+      "snippet": "Beinsure, 2026-10-26T07:00:00+00:00",
+      "publisher": "Beinsure",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdHNJSG80ekdKTnZQbWNNSlZjU0xGcE5GX1pfX0toVXFNWEpMNU5vZE5tSF84bjVzenhYc3pJWG5YQzZFVG5EcXpvWDllS3R5cjg3R2J0VWYyZU1BU0x3azV5RTlBc0dNaU5vaEF2Nk5SN0pkV1RnUS1ITk05Z0w0Njd1Zy1xREpkTFZDSnZCcXZOdW5nSEFVOA?oc=5",
+      "title": "BNB Standard Corporation Rings the Nasdaq Stock Market Opening Bell",
+      "snippet": "Nasdaq, 2026-10-26T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526431976/d285447d8k.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NDAQ/history",
+      "title": "NDAQ daily price history (Yahoo Finance)",
+      "snippet": "close 105.55 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

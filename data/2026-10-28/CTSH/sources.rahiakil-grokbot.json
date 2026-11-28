@@ -1,0 +1,133 @@
+{
+  "ticker": "CTSH",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cognizant\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 35,
+    "no_date": 0,
+    "after_cutoff": 27,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb3FnTnAyOWYwdEVzOWg5VElQdjFxUTN5LXZzSTZNX0hIVUJvOXZ3OUlIdE5abGhtS0JtVDJhTUVQUlpKeHdRSVdWS01pMFdXMUJJcjRIdzR1SzVpQ05jUFpZYjNWRVlWX29GaUNSbEtJNm1HckhpNHZMZGl5MHRVbUViQ0R4ZkFzblNuVnRxNmRZbzlLTlJ3WEtCTlZMN2xLczNoUUkzM2dscjFialVHaHlwNnNqMXhLLTJ2ZGZyWjF5aExHR1RvREpjVDJ4dE42bnVyXy1QWXQ5UDZPbTFxTjRFM18?oc=5",
+      "title": "Morgan Stanley Adjusts PT on Cognizant Technology Solutions to $70 From $51, Maintains Equalweight Rating",
+      "snippet": "marketscreener.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZGVFOEVDdVAwOVBZQ0tkWkptMERva3BPQWh4SmdBOVp6YmRZVWw1ZkpZWWIzX1g1Tk82dTVUZDJKcEpKMjdORGZCazc2VE1EaGpQVC1uV1ZmMTlkNktsdnN1SFdoeHhJX2xCOVFmSmJ5YnBGQTZ3Z0x5M3k4TWVSWk9RaERKS0hCVl9oQ1Nib0RhcGZycnRPVWxtY1NSUW5JNUhlUGZlaDZ3S01TT2g1VWo2WUZhYloyeEc5QXZQelc?oc=5",
+      "title": "Guggenheim raises Cognizant stock price target on deal momentum",
+      "snippet": "Investing.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTC1kQUpETE5hZEFLNjNjSXMyR1hQV2Y5bS1oYnFGVHM3bmNEaDNTZ2J0ckg0S1ZHN3Q2bWhyUzdETVBha09TZ2NreFcxQldKU1lVd2g2Z3V2eEo1ek1sMGtLdmZsR0RVZWJQRWdYZzdhN1NMQkVjOXc3WmRwRzNUY0RQaTRVSTdvN0Vlc0t5T0l2clMzejhJ?oc=5",
+      "title": "Cognizant strengthens partnership with Travelport for AI-native travel platform: Will CTSH hold $67.38 support?",
+      "snippet": "Traders Union, 2026-10-27T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMUlzbzFXY1VSa1JoYS1ORmNXR3RTdEdkZk5ucVVRSTRVQnR1WHlmQjRJUThhbmtaeXVUMVJEcFN6RmVhaERnbm1KODdIWEVybmxwc0ZtN1BYRU85WlJIQUN2ZmVVR3FuelAtZVRIS2pCa0VkOXYtOXBlcjBPU1dicFdFNlNwVFkzZWtuQmd6VXBlT1VoM2dXdVZzVUJ4VkNBX052VFVzM1F1TUU3MEtYb2dGLUlJWnIxZ1BrRUoxend4VGZ4djE1S0FmeW1yMUQtTVR3d0xJTWpjcml4dGdnV3pSVjTSAeoBQVVfeXFMTXA1dm82WGxZTGgtcDJFV2p6SlhuR1FUeVc3MzVKQ3Zwa29LWmx0QWU1Vmg5RGU4TUttcG5OZjB6Q0IwbnJTMzExYVdfSEVCcnF2dXVoZVpiS25xTXFfSHhFdmlRNkNFdl9mTTdXWG14NWlXTFBpcE9PMXR3a1B1NDI4STFnR0RzeGd4QWticWh6cmhmUWNQVS1DSlgyMmVlRERFN2YwakVmZE5pV1FSUTAtekU5ekZ0Mk12dUVkd0pKbkRrS1FINVpWcm14NDZ1SnBPM2tGN1pBU2NjSHFtbFNJdmJoUU5aOTBn?oc=5",
+      "title": "Cognizant eyes Sarvam stake; Ather aims for higher market share",
+      "snippet": "The Economic Times, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Economic Times",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQUQ1VGdjWVZTcXV3dDlXdHFuVnNLRS1EN1ZjTmhpalBld2dEaWtDVzZPbnNpNFZmeE9pZHZ0aEdoMHRzU0VkMm5XdV93NmNCNHpsUEU0dWJlN2U1cEVsMkxRbHBiNkJkX0RQdm9EbE1IQkJvQW1sUGRoOFJQWjNWN2dhZWtXQ3dsVk5tR2UtVFU2YXVTLV9hX0NiUTJCV3ZPREdXdV9hZVJkemlhSnBhSzhaOUNjeW1pUnFMLWFUbkN3R3NWRmwzR1U3RWZ2RVdrNHdQa20xX2JYMEkzY05vdjEwaWE1dEU?oc=5",
+      "title": "Cognizant Technology Solutions Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-27T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTDh5WHlZSFZvZEJMQjZ0ZlhkOUZ4aEU0aHZTRlE0THcwRi03ejg1LTVlMll5THZDNy1kUGp5TXdvNHQtUXNWUDVQWHd6Tjg0ZWctOHFkX1ZsQ2FFaFZtX1JhUEhlQ0JGZVBRLTNvc2F0UTAwYThTOV9iZ0o5b1Y5SmhZek15MnI5d05NM2VXWGp1bW9qaTEw?oc=5",
+      "title": "CTSH Set to Report Q3 Earnings: What's in the Cards for the Stock?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPazFCWHhDZm9jNjRlQ0N0Y01ZTlVlWjRuWU1zSVc4UUE0amVDSDIzWUVhMkdBRlhJNFJxUUNEaGxzaHRSSFd1U3pTdm9ybm5sZlpoMjhMaXB6ZnpCbkpic1UwY2N6ckJ1NWEwdmJmVmhldU1yNk1Vd0hMSmR3SGh1VTFYOF9ZbDFtVy1DSDNPR2F5RUVuXzFkaS03VURCOGVUZmdxb09QRXI?oc=5",
+      "title": "Cognizant and EBRD Partner to Accelerate Digital Transformation Through AI-Led, Outcome-Driven Services",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQakRhd1FwVFMtVVdhcUFiQ2p4QlhIRUNlb0pLNnNiY0V6T3JySFNJZ29oZG8yR3UwMERCeWhoYWgzZjhVZmVqUk4zVUVpR3JGZnhBNTVjR2Vqa25pSFoyRjU1aEFTcDZiUEY1ZVhlVE84MG9xYVkyVTFrNy0waUxPS1JmVnZaMHlQaXZpUjNYOE1zdndjWVc0eVNYV1h0ZFBJ?oc=5",
+      "title": "Cognizant Lands Five-Year AI Partnership Ahead Of Earnings",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTSH/history",
+      "title": "CTSH daily price history (Yahoo Finance)",
+      "snippet": "close 66.36 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "ticker": "HOOD",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Robinhood Markets\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeEY4ZlRoeElpTll2dkdoMEh0NnNuZE5ZdXU1RUVnNjJSaXpRWUVXWWJ5VUVrbllVcTJPcTFPbzcxMmVvVXBLMzNVWTBQY2psbTN0bFd1VHpRaUU2cXRaOWdnbUZleHNSdEkxUW9UajVLeWVSUEpfUlFHaURoektaVXduT2hUN1NBQzdRYUNpbzFZUlJlN2hWdnh3?oc=5",
+      "title": "Robinhood: A Broker Still Traded Like A Crypto Stock (NASDAQ:HOOD)",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSmxjclllYWdNZmxjSDVZUF9TRVFNM0R2ZXg5M3AyYjRmSElpbFJQYzRBTnhFcW94dGs5YWI1T2ZvTWRxV3d1TWw2NFVfOXFwcTdhLXlBRmd1MlZhTUNNTFJhVEhDejBVSFVucmtzRlQtdElHZGhCRG9kalJ1b0QwSHNUdVBwbXdsckdLUmhoeFZKeDNWbXplVEc5Vl9TcUVYb1BR?oc=5",
+      "title": "Robinhood Will Report Q3 Earnings Today. Ahead of It, Who Owns HOOD Stock?",
+      "snippet": "TipRanks, 2026-10-27T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTHlnZGtRNlprUm14OEdFSHU2M0haazBwWExtT2ZDd1RvbUlPQV9fcExMdDNxVUtzZGZiUERZb2t5TlBjaVAtcENhMXI5RzRVTTBNNTgzMHh0bmdhaVVKbnd5TURYRGMxYnNENmRmVGNrWW10YnlHYk5JTkpyeVZlY21kRVNtbFNkdTNsLVQ0bTJSbmVmUUVyNnptZ0Y4UjIybjRUellQSUY?oc=5",
+      "title": "Robinhood Markets, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:HOOD) 2026-10-27",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWHZubkZER3RSMGJOSXc1MXB2T1JHYld2VGFyd1I5OE9ST1FlZEFTRWlMa2VvOU82ZThVRnduRDN1V3dQZFJPQzYwTEk5UTdLbGJ2Q0YwME1qeXpsV21MbDdRZXJ2NjZjSTNRV0JzX1o4T0s5QVRpLUd1aG9SeVZzZ0YwQnB3OFl2bFdmTXBlUjZuUHZ1dHl0UnJB?oc=5",
+      "title": "Robinhood Markets, Inc. (HOOD) Q3 Earnings Surpass Estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNVFpcVFrN1lOX3lXRjI5bmlTU3hSazhldEdKTjJOWkktMGFybmRrcVk5a2RTT2RmYzNtM1d6TFlCVnlaRzl5SzY4RFROMFc2QWI3M1IybDBTQjl2Q0F0X2RXa013SndnM09DMTJ2MWoxNHYtVkg2a0dZZllQeDBCNU9NY1hDLUswTzlYZEluSGZacmZXWEJOMWZ3aC16bUtGb1UxTjQ1UDFXQmNfWHhndTZsRThlMy03d2c?oc=5",
+      "title": "Robinhood Markets earnings beat by $0.05, revenue fell short of estimates",
+      "snippet": "Investing.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTEdBVnFNc3RWWjRzWUg2YlFnQ1NwaHFpcDBIX2ljV2lTOTM1S2VhVHZZamlqMEVxUWFtMFozWThyZDJ2akZEaVA0bWNVcy1ocllUdjFRb2lvT0hVY0lSemVLT0R6OExJWGlta3FDWDNqb3BkVGlXTGhBLVM1cFk1VDc3ZUh4NGlKSkgtODJHMERkMmRYZ3BnS0t4N3R5d2pPWnBEaFA0bC1OdjBFREFXRXJCZG1fdG1naVlSZ2hDLWhlWURFWVlJaUlQSFF6T0Z2NU5XZXpZTzVIbU5LQk1FeEpBNFhTVWdNcmtOblJBbXpCMm4xeHNOQ1Mzb0dGeGxoVVVWSg?oc=5",
+      "title": "HOOD Stock Drops 5% After-Hours: Robinhood\u2019s Q3 Revenue Climbs On Prediction Markets, But Misses Wall Street Targets",
+      "snippet": "TradingView, 2026-10-27T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPejZhTFMwbUNDTDkta1N2SThzZUpPdTJFYTUtRGNQSmhuaEMtVU9vYUpQMDZnbDBpb1VBUzV2dWhtczlET0NGQ3pkRm92bkZyeUhTTVhFLVpGNk5Hc19WZkFyVGkzeksteC1ETzl4Z2lhQTRrbF80VkoyRVU1eVNPdm5sNXBmSXotZ1hZd3B1LVBKT044SXpDaG1uRkNYVFR6WTBB?oc=5",
+      "title": "Robinhood (HOOD) reports Q3: everything you need to know ahead of earnings",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000170/hood-20261027.htm",
+      "title": "SEC 8-K/A filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000167/hood-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000164/hood-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HOOD/history",
+      "title": "HOOD daily price history (Yahoo Finance)",
+      "snippet": "close 91.43 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "ADP",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Automatic Data Processing\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSXdPa3UyTzk2bUZBY05YQTFlSDNfZlIyUS1lS2J1YXJ2OUVNWlpyMGZERW1hLXZISXh2OEt0X2VQTUJ6MktzQzh0TldJR3FxRnFCamtUZXBtUGZCMEhxS2hPSm03WDBhcngxX2xGVkZLam51Sk5OZkluYTBSc2RxN21Ma3psc0UtUER1bFVmSDZHMndFWi1aSkF5QVdnaFd1U19Kd1J1WnlPTTlIR1Z6Wmx5Z2NMN19nQlBSWnN3UlVTQzg1d2RZcGZMalUzbWs?oc=5",
+      "title": "Guggenheim raised target for Automatic Data Processing stock to USD 340",
+      "snippet": "ad-hoc-news.de, 2026-10-27T15:23:29+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T15:23:29+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbkhKaVJZSENUYldDU1ZrSHlyWTVJbmdRTWttajZMc3I4WXJDSU9ZY3RoRnlDYTdmMGRSZExUYlpteldWaTc2ZDM0aFdaTU5WUXF3Yzd6TThOV3k2TDhhSHdHNlZxb21PZXdfTUlkNTBSenp1cl9CSE42NTFFRUd4WDJuVVRDTUJpQzFhb0xqZmZmRWhCUU1zZTBSeDJlWkRhc19fWXl3Y1ZNNUdWVVpab1o1MU5Ebno1VVpOTmRFa1d2WlZhTWUyUjRPcjNOYXh1VG1KdjhUSQ?oc=5",
+      "title": "Automatic Data Processing Earnings Ahead: What Past Reactions Say About The Stock",
+      "snippet": "Trefis, 2026-10-27T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000033/adp-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADP/history",
+      "title": "ADP daily price history (Yahoo Finance)",
+      "snippet": "close 285.37 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

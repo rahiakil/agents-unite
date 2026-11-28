@@ -1,0 +1,61 @@
+{
+  "ticker": "MOS",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mosaic\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWRVMUxmWUhuOE1VaW96WVp4bGJRVERCeDRxUDNxTnF3RVQ3Qk5tdjV2bmt2LXRCYy1Ld00wNkE0QkNYUVpldFNHMm92eHBpdlJZN2dsV2pXOVpRRXc0Q2l0WDY5SF91TzdvT1BleXRyUjJaOFdYUTJWZmxPaFdjZ3ZMdkR6SUVabzVDa1plVVEyMlRtTEwzQ0pxeHJtWmhYUU9B?oc=5",
+      "title": "Austin Mosaic Fest starts, brings artists together through tiles",
+      "snippet": "The Daily Texan, 2026-10-26T07:00:00+00:00",
+      "publisher": "The Daily Texan",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbFo4MTV0NXFPM2dzcEk2RzNsVWZmSDAtX3h5ci16d0IyWTNGQ29qU2RVTFdHMjR3a21IYWUxLV9WNzJZUnVpVW5xLTNnVlVGQlBaRkZIaWpmYVk1YU13Mjhfb0xNZ1U1N2hFWWNxNzM3M0xMQlp4c0dnRlpuTDdHUW8yVVB3cHBEWk01TkM3dmtaSDBlZkxaSkIzcE5LbXByOEtIRG4zQQ?oc=5",
+      "title": "Mosaic Vocal Ensemble Brings Copland\u2019s Rarely Heard Masterpiece to Eureka",
+      "snippet": "Redheaded Blackbelt, 2026-10-25T07:00:00+00:00",
+      "publisher": "Redheaded Blackbelt",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.51,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MOS/history",
+      "title": "MOS daily price history (Yahoo Finance)",
+      "snippet": "close 18.33 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

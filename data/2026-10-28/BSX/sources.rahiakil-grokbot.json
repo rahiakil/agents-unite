@@ -1,0 +1,82 @@
+{
+  "ticker": "BSX",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 28,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYjg2dmhmMEZOZGNxTHFQTzVkeHRJQjBMbVNwOFVEb19yOTBCZllnc01PcjRUQlBVUGE4bi1ZNVpBWkVVbHVuZHY5ajJ2V0xaM1R4ZXRJVENKaWJJYUtIRWYzeFduZ0JaTDZPLXRQNW80WGxaLWJJY0I2LXN3MExyTmRFUWQwdUhlbzFPN2dMazJxRXR5aEdlaVN6MHBUZE1URVAzdTNnN0dCQm1S?oc=5",
+      "title": "Micron, SK Hynix, GE Vernova, Alphabet, Vertiv, Boston Scientific, and More Stocks That Explain Today's Market -- Barrons.com",
+      "snippet": "Moomoo, 2026-10-28T14:39:31+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-28T14:39:31+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU3NqUHlyY3lCU094VzFfZDNCbjBXV0V2TUJ2NERTUk9tQ2hkRm4zX2xpMUE5a3JiNkxKaTdKS3FUV3JLcXUxOWJ3VzhMcjJYS3Jzd2lHZHhsaVdfV2FrSmM1VDhEYTRjOHI5UmRMNVNza3Npb1JmajhLdW9mUUdrb0NsaGZDNDE2OVYxV3JVVTc4NFZrc0hsekc3QXR3MEFNT1BtTlMyYjNWNTJXd0U2WFl5UTNwSjhCc3F6SXByMGVZaC1PcUpNcTdvUXBpaUdJN29ZUA?oc=5",
+      "title": "Boston Scientific Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-27T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTm1veF95b0Q4T2FYY0dnUTlVR1hIUUNsTGE3SUs3YzlMd2k5bUtXMHJtR1g5M2xLc0FFSmdwSDZOVW1hcGlaNFE1cjI2UnNFeHlrVGJUQUVwOXdYWElxNzY5WGVIY3FzX09Mc1N3RTZIbmhaakZ5OVRXOS1RT0hsdVExeGVmbjlIalBfRkRWeTJqM0EtYnF3TE5lY1djSUlwc3FuRVlCYk5CcHV3ek5tUFQtcFJhQ0VkLTlJdHRqUEEwTDNQTi02YUxn?oc=5",
+      "title": "Stifel cuts Boston Scientific stock price target on cyberattack impact",
+      "snippet": "Investing.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000066/bsx-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 42.43 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

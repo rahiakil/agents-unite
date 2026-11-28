@@ -1,0 +1,151 @@
+{
+  "ticker": "HIG",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"The Hartford\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tMVZBemNSak9WNmptc0NKTzV4eDZQTlI4WDh1ME9LTE5Gc3NBSW9MaUc4WTFmUHdMQjFpRGFENENtWkxCZXpMMjlMd21KZDNBaUoxWTU5MTVBdnVX?oc=5",
+      "title": "[The Hartford Insurance Group Q3 2026 Earnings Call] Hartford Lifts Dividend 12% as Core Earnings Hit $956 Million, but Small Business Pricing Pressure Clouds Growth",
+      "snippet": "BigGo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLTF1UWFTTThUQ3ltRl8zNzZXLTRtb3NhNG54QXY5TnYtbkluMHE4aTl2ZFg1T2hPTC1FVDI0d3F0Wkt4X3lrQWJjeTA5TkJwaW5ab0hwdGRLRmN0TWFYWXdraFBVRnIxZkZmQ3dhaVlCRzROd21VMmp6bnBYVDFtcWpvbXVRUEdPTlRJbHpReEdKQUZtdTFyT3ZDZFd4RUVBMmtaS1ljeGd6Zm40WlFOd2lkSDl4cms?oc=5",
+      "title": "The Hartford Insurance Group, Inc. 2026 Q3 - Results - Earnings Call Presentation",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRmU3aVFxWW45YmRaTFl0TWI3R0dtV214a3NIbG42S3JVb25GTEU4TzI2V0VUNHQ0MWtnUXFqWjFPNXNWaTJRbUNLSUgxUU80OGZpZVNGcXdZczN4MEJ4SkNYcG5SODJiYWoyZ1NCSjNDZmZxb24zU2FTeE9vRld5VTRZZ2QyeXQzaGVzYk1mbWJ0RFhTZHlwM0s5WlVaSWVS?oc=5",
+      "title": "Hartford Insurance Group (HIG) Could Be 9% Undervalued After Earnings Beat And Dividend Hike",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUVkyanMweWh6NkczdnpfU2ItNmxXalFZdDdHOWZvNnhiX2t4VFhRMG5kQ0gzOTJXTk50M1pzZDhUZUdHRWFfd2doeXNpR3hyaEdsbFVUbXFBaTdKVDktazVaU0VINkM0WWJPRy1UTGhwWUdfdjRjdUlob3pwc2pleWF5Vm9JR2Y1QlphZWU1Zk1rYkoyd2ltblNwcFZKeThuNWdsNGtFVjhXdm55Y2VjZUZCbFBldHQyWmNNUEUxWjU3NTd4VUNYaFBuQTUzV1I5Qi1kNWFSZGfSAd4BQVVfeXFMTlB0TGxVNnVfOXpOczllU2owVVdyM25KSVlid05INENLSEVnMU8zeHllVFJ3bWFyLV95MHRYSmtxTWdyNDdmVmZxdEYweUNtaTJJeGEtRzQydWJrem9MQ3praF96VDVVZ0FoVGRWcjZOa3dJbnBTVF9qdHBJQmY5eFAxS0ExdV9LZlB6V25Tc0dEVDZRaUFGeTM2cjV4M1BQZXN0RmpoZC0waXM1UDd3NHNkNFNScEdHaHNKZ0trcUdfbDBoZk5McU9nRXh3dXVoVGtmRVVCVkpiSk1NMDB3?oc=5",
+      "title": "Hartford (HIG) Stock Slips Even As Q3 Earnings Showcase Underwriting Strength",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTHJud2tUcldNMk1IV093VU5GUTNyaUQwY05JR0hwaTZneVkxbF9za1p0V0JJS2NBSFZFcXY2akd2WHZYUHRacUN5R2dSZk5Ha2RjS1VmX3NnQlhUZ3oyck5aejhUMDlEcTBTb3BHNUxNb25qdUQxZ1hHQjltLTFNempacVY3dzRQWjRub0hvZkRiWW5OcmRELUJmamRTa3hub096SUVoMA?oc=5",
+      "title": "Hartford (HIG) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUVNvUHVjbHI0RG1rX2JBcXQ0WUl6eVZabjM2bGdUbWVyTENPV0tGODUyb3pVTmM4Z0QzX290aHJscWVma1U3M0VnVTBkc0t6VV9YcTVuUzJPLWc4MXkxYUVTaTNxdDdBS2xfbWk4eGNydnNWaXZ6UmROaGJETkk4QnE0cVpCbU5uLTg4alR2dVZzano4MldRTUczall2VVlLMDlpaTl4MzJmd3ZaMlQ1V3J2QjF2eUU?oc=5",
+      "title": "HIG Q3 Earnings Beat on Investment Income and Premium Growth",
+      "snippet": "TradingView, 2026-10-27T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVTlWUEZ1VllKNm9uRkM5UzJ2Z0ttdmtYU3gwNVViNG1KeS05eEpOMW96aHhWZWFuUnNJNC1hck9RUHRxOVNaNlZVOTFidkhwSkVhV05SQVhDZUlkYVg3cHVfNHFFdzlpQ3RNeUVQa3Y4SG9XUzF2TGF2cUFBMVFUWkIyYldUMzlDblc1enMwZHFITkMxWW45SEhlZWdWVXNoNS1vVEV0T3BhNllMbFc1OFlWTFRMQjUxMEpzOU53?oc=5",
+      "title": "The Hartford Reports Strong Third Quarter 2026 Financial Results",
+      "snippet": "Business Wire, 2026-10-26T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObkg2VnlvWEtoTi1BY3hqT3ZQTGtqTVdrbHJIcU8xajhydG1kd09YSEFKYklzQkhPQXVpYmE5QjZqOHgyd1NwMFgzLWRoSG1VcEswVVNNTXA4REdJbEFtQTBwMG1meGl5eFFybFY5WmZsNEhmY2VCYnF5RU1qZEFVMkN4azZLaXJxWWhhV0k3YnVNdnVrZXVHbWpPV3o?oc=5",
+      "title": "The Hartford Insurance Group (HIG) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000079/hig-20261026.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/874766/000087476626000078/hig-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-26",
+      "snippet": "10-Q",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HIG/history",
+      "title": "HIG daily price history (Yahoo Finance)",
+      "snippet": "close 130.04 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

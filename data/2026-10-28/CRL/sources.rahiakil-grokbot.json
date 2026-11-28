@@ -1,0 +1,61 @@
+{
+  "ticker": "CRL",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charles River Laboratories\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb3VlOXJhTkszblJoNm82cUxHaEpJbFVoeFhraTZNRmM0Uk9fZjMzbnllYXB4a0VjNFU5Z0tQUkhtcVhkNHFaT1E3eTlYX1lpMDhBZkZhUTB1M3BKNV9PZVZIdk0yc2tHV2tZcGlwa0JWYmUtbnhGMGhvMG4wanZhWlU4eVB0YThUQU1ZTkhXeG1mWnFUdEFFTnBpeldzb3NtSW1VM2tPOVEtN215SDlsOVBGZVA1UklPX0ZUV0xZbjdwXzllckN1QlRwRVA?oc=5",
+      "title": "Charles River Laboratories International : Vi",
+      "snippet": "Moomoo, 2026-10-27T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTzJNMHpHMXZtOUhvMXhQNTVGZGt4R2hTckNSZEU4NTJvdUEydGF4V1pFWFJUY29zT2p1T0ZfeFZBWjg3SmtiMjNIVkZ3bnp3c1pYV1RFaUp6Si1IY25EUVlTbmszU3RyN1k0OGpaLWdydHFHd1FLVmp1M0lmaTc2NDVkQnh4VzNPOW16Q2RHVk9kN0lvZkU3WG8tTQ?oc=5",
+      "title": "Charles River Laboratories\u2019 Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRL/history",
+      "title": "CRL daily price history (Yahoo Finance)",
+      "snippet": "close 373.98 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

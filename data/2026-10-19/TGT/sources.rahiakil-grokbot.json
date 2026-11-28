@@ -1,0 +1,97 @@
+{
+  "ticker": "TGT",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Target\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR0xXZGFSX3JCOXdydGxpdjlWSXQ5Mkh4R3NyV2NTQWRTRS1XLV9Ud0hqZTAwa0hjNHRsbE90cnR6TGxiOHpIYTRUWEhKNXFDb0M3akNoUURybEFqMzFjV1NaekVNRzg1QWstWV9QX0NuYXFJckRrNGJYWWZlS3hVZWpreGV0R3d2NEhKLXBsWm8yZmtyQzdIZEczWGZJZy1WdXVwNmUzRUNVZw?oc=5",
+      "title": "Recursion Pharmaceuticals (RXRX) Stock Sees Modest Fair Value Lift After Analyst Target Revisions",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVNscDhXSF9fVXhlcWQ3M3B5ZzkwVi1DV0RjN0UxV1Z4YzgwSTZaQ3g4M1lxblNXWlplNDdhekh1QlBnVmY2UTFzcnZHQWdsV21TNXhyWVk1TW03cXpTMGhwUGJjU2xJdUFZd1dqSGFfZlpXZTV3V2hSSXlGVk5lVEJxcnUyTUtXa3JEVVVTU2xnWjh2VWF4QlZMbVc3U3c?oc=5",
+      "title": "Pulse Biosciences (PLSE) Stock Fair Value Rises After Analyst Target Increases",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY1djdnh1aFhHeDA4bmlHQTRHcG9wX1hGSnRKV2RNTk1NYy0weVNpLXAzY1BJZDhvSFNHRUxpOGhGeEZqRy1ZYWttZzF6bi1ITkhZMVc3SjBDcWlKcmR2THNLSlcybkwtUndzeEd0YUhnel9OWWtrbEo3X0NVRFVsWVJGcENMSWZlNlVUUTBTNWtyeVY1dGc?oc=5",
+      "title": "MGM Resorts (MGM) Stock Sees Fair Value Cut After Mixed Analyst Target Changes",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPODh0LTM5TDdlSWNOeHdsMm5iMHdFcDhOSWlSRnpNRGRWUG44R0c4LUx6Mkl0YzNMRVpkRklkUEpjTzhTYmR0QXdTMTZ4alRxb2FUaTUtXzZ4MWpQM2VQSVFXaDlUMEFlYWl4aEZhakp0UG5jQ3ktRFhkUU1QVXZJLUZsX0RPZkhsOHFWcWpmVjF5MEhYQmc?oc=5",
+      "title": "1 Safe-and-Steady Stock to Target This Week and 2 Facing Challenges",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcVpQTDRZa0piOWwwSGotZldla0lWWXBpU1RQbDNKWlRNd0haWFRqckxmdkt4Y005b19aSDBRb0szTGx6MUpKN1JmeW1kd3ItRHE2Z3NPVzlna05wNXZ3T19fdEprOXdVNUdUbzhtZzk5M1FGamRMOHlXREhYbVFRZ0p2aUxxX0M2TWprRWdKTmJQVE5Tbkw0?oc=5",
+      "title": "1 Russell 2000 Stock to Target This Week and 2 That Underwhelm",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TGT/history",
+      "title": "TGT daily price history (Yahoo Finance)",
+      "snippet": "close 153.29 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "ICE",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNcXNyVnh4eXVyZHJ5eDNSZmZUOHB0emh2MjVXc1RPYkFnUHU1TnpDQVlqWWhDTWNmUzdUOFdTcWVsTTFWelVRZkpuLTRBaC1CVE9rbDJOcERxT1lXZTU1bW91TDYxaGlqeTNwRE1ycGFUNGs3aW9aUnY3Z0VHN1NjZkdtTGNVNUNuRXF3YVJMTWpaWHBuVjF2Z2xnakZQYjhJNWFTTGszeVZnTnJvejFtVE9mMFNKaF9LaFFXdjJHQUlHX251MExVR3REUlJ0c0tzaG5lR0hoQzVzTmR4bTNiYWJaWnRNaDE2VWNBOHctZlBNVnRJS21tMXZEWjg5dUtYRFgyMXh1dTFXWjhuU2RzRkFaWFM3MXF3?oc=5",
+      "title": "Zacks Industry Outlook Highlights S&P Global, CME, Intercontinental Exchange, Nasdaq and Cboe Global Markets",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 158.4 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

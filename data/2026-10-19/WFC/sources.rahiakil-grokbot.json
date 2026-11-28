@@ -1,0 +1,97 @@
+{
+  "ticker": "WFC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wells Fargo\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 8,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdWE4OTZBQkdQbkhYaEt5dTBrbXF5QVFGdTZrWGh5Rkh4ZTBqUl9rcEVoU1ZFN0NFamh0aHRCU05HT0lnaEd6UGdiNjBhUmhTLTlsT2xkN051aklzblQtaTZYZWNMbTFjbVV6cVAzY1dScjMtRm1UTWlsWWotV0JObVAzMk9qRVJRZTRobXEtcW5CbjNPcXFrSFlzOUVtb2JkYlVnR3hSelYxdnVxRFBONm9BZ0M?oc=5",
+      "title": "Wells Fargo Earnings Aren't Inspiring Enough, But A 7% Income Opportunity Is (NYSE:WFC)",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.547,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTjNneWhkajVNVHI3U21TM2dLV1dvb2ZSa1ZHeVVkc0xzLUFvNmhybERoc0ZRVzFvZW1LMjlpZHdOWlludTc3Y0tZN1A0NkItenZDTTdyX0wySUdIcnh2MnZVN2g1UzlqLXc2ak9hRm0xRm5RZFRIVDM4Smpjc3VNTV81Nk4zTHdRWGJSVTZab0JhRFZnVDhzV2drZ1Azbk1LQXhyakRQbndYbHk4VVJ1ZXdhOXpxMEtwa0NLWXNSMHZ0X2RQ?oc=5",
+      "title": "Goldman, Wells Fargo, Morgan Stanley see tokenization as a growth play, not a threat",
+      "snippet": "CoinDesk, 2026-10-17T07:00:00+00:00",
+      "publisher": "CoinDesk",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.831,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGtQczhvZXM3aFVWMXBMT3d6QmRCOFQwS3YxaWpGMXN5enM4MVhKN05jeFd0bWdxZGVURDJfb1NFX05CZVZ1T2ZpRjFRSVY1bWNHYVJMRE1USzRQTXVPdmhoRk9UeUxkUlVzSXF0aV9uUlRGbFVEWlk3Zm5FN0Rpd2NhX1ZyaVVYZXhHRlIzNXJFaTNMLXZtbDdLdU9xM1NZUm1YUUhHMTVuNTc5YWk4ZFFIcw?oc=5",
+      "title": "Wells Fargo maintains overweight on Seagate, cuts target to $865",
+      "snippet": "scanx.trade, 2026-10-16T07:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT2E4Wk9yaFZoeFRKa2xEQTdLTGpXbEFFQ2VVTGg1Rld6MGhremFjR3I4NVFqUkpXVng4NzNKVGhxZkpjbnFOSkRqWWliVHo3aGtNNFhpUFp1YUJVaTNhMW40ZC10NVpjbWhrdm51TEo2N3BnSlp1UHpjenZYU1NkMDVGbEpzdVFrSWljVWxETlFEZ0U4V3VkTHhPaUx5akNpeExYQ2cyTXVqNDdLc3g0c1JpbTE0TXJha2ZadVEzeS11OURqeHBnMVhubEV5VnhaUjhPM01GV3YxLWlOQmJWRm5NaEhmNVp4cE9GNFlaQnJWWnBvVVpPXw?oc=5",
+      "title": "WDC, STX Stocks Headed For Third Straight Weekly Loss - Wells Fargo Slashes Targets But Sees Opportunity",
+      "snippet": "Stocktwits, 2026-10-16T07:00:00+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZGJ5OWIzYUptajl1ZHBFWjRJa1E0VWVoZ3ByWF9Yb0oxR0I5b1NlSVJJbnVEaUlTT3J3SnZydTl0NW41VmpSLVhWeXZvMUJMVEVGanY0dWhlX3YzaDlhZWM1QVpLMzdpTzhseVRhQ2MyQ0x6emZESjhGVVdMQUxGVTJQclg3LTJMdG90NzdVYXJ0Mk4tbVEzdVBxLUpSdDItZUhGWmhvRmR1aHNDZldmaG5OUGp4U1BUU3FhSDlrYVRtR3JnbHZaUk1jd3d0NXZEa2E1Mg?oc=5",
+      "title": "Oppenheimer Keeps Their Hold Rating on Wells Fargo (WFC)",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WFC/history",
+      "title": "WFC daily price history (Yahoo Finance)",
+      "snippet": "close 81.8 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

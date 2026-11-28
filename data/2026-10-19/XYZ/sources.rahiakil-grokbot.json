@@ -1,0 +1,49 @@
+{
+  "ticker": "XYZ",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Block Inc\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYlpLVzRkM1pMSGR5RDB4LWFqOEphdTJma3M1dXZVTjRvTk9hNGFZZ0hDak50UDNZNGlfQ1dMV0lGS1JRUW45bEtUdGZLQndPQjZ0bnlhakZyRy1Kbkp5Ym00MmxwN0ZEcjg4eW1mWUlENGpDYUYybllaN2w5MWZWdmF6NVkxNk5ybmRLV1NJclhpeXZOLWM0c1dQUmlQdVRFRmhfczkxc0JJWDVOeGZEZg?oc=5",
+      "title": "Argus raises target to USD 46.00 for H&R Block stock",
+      "snippet": "ad-hoc-news.de, 2026-10-17T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYZ/history",
+      "title": "XYZ daily price history (Yahoo Finance)",
+      "snippet": "close 77.5 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

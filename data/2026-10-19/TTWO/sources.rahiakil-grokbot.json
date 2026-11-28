@@ -1,0 +1,85 @@
+{
+  "ticker": "TTWO",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Take-Two Interactive\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 7,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmRHY3hWcHZxMjZFejB2V3hGZjBHMC05VFh3NXZ2cEZPblNnVHdTa2JaVUlHN2lMM3J3MVFWWEtiQTZEVXJGeGVXNjZtbEh1NUp0SDNBWkJPWnRKMmZLTU9rVGtsZVh6YVVWbllobXM0RVBTdkNYSXFTNGs2d1p6eW02T3BLSFZtaU9mZlN5XzNEVFVBQnpBY1NFN3RKX01JNHlPc0xuMHdLZ0RfODZFSmVROHpsQVIydXFNUy0ta00wR3Vx?oc=5",
+      "title": "Take-Two Interactive director Siminoff sells $67,775 in common stock By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-17T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNFgyV1VnRXRLNWxDSnlwYkVRVUh4Q1ozMnVXQzU5a0J4YWxiWEdYWURpNE5Wd1lxaDR6eWJNWFpVM29hcVprdmVQVFV0WDZhQXNBcXF5bkZmTUtyMGE3ZDI2elZiUlg2anBHZHp4c0xEcnFiNEtWSTRIUHlQVHdSNVg5WVBMYWxSTEdUNXpldkFySmhaNUUzaEprMVg?oc=5",
+      "title": "Why Take-Two Interactive (TTWO) Dipped More Than Broader Market Today",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZnpJX2RqT1NnNmJ0QW1yYllHYmZnVlhwQWsyM01rSUZjMEpTbFFFNDh5QTh0MUUyaGJjX0M1aXV2OXplNGl6XzlIcTEtWDdQYXdQN1M2V1dBWFJMRzF6aWxMVjkzc1ViUFBIaExvZDY1bm84QW5nODQtdWppU25fMFl2YmFZZEJsYVFpZmdpYnp6eHVpaTBEX3F3WkMxcXVlZjlOSjBzbWx3NlJ3YjJOcXZiZ3VQZTNDdFduNGtfY19iMHFzZFE?oc=5",
+      "title": "Two trusts sell at $202.92 a share for Take-Two (TTWO) director Ellen F. Siminoff.",
+      "snippet": "Stock Titan, 2026-10-16T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMmswOS0zNm5zVE1hcDZiTlczRFpYNFZXaTNyM1NxZktEQzlGRVlrQlR0bXR2dmZDaHNITHRuM2NNSjlDT3lvWTFKeTd3aV8xY0NZbnJIZUJoVWRib0JWUS1PRkl4YlBPaWh0Q2gtZFIwZGlSYldFM2MyZ2lvZkdNRnJjSDRXZDRIUWljMnZqYnhsdU5VMTZWNk91YzFuSUhrNlFBNk4yQnFsUnFvWW44aUtLYmVBNS1lSko2Y1pvRmhEWDk2eWlSZDE0eEpkekFGcDQ3NzU5cWtwVDlD0gHiAUFVX3lxTE1IaGlEN3RiQjU2U2hTaFNHYUs5bFJ4SDM1MU5pdEpZYkFwR0NKQ0YzMVBNcTRKajVmZEk4c2lndzFBTFlINWZ1UjZVR0hILTlYX3VSbFI1azlZU1ZDOXFjbUFDbUlCWkotS19CamtIWWxQaUU2dk92TklUaU9OdDRFVzFxeDZlT253TFNVcENVNHJ1alZGQmJGMkZ2bUgzNXhSQ1I5aXJCUWM5bjZPcnhWSUJsYkJWZ3h0TFgwUmJmQldLbTJGR1FYYzR6SmUtNTVJZEU0a2FSbXpIYklNSG1JUUE?oc=5",
+      "title": "Take Two Interactive Software (TTWO) Heads Into GTA VI Launch With Industry Eyes Watching",
+      "snippet": "Simply Wall St, 2026-10-16T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TTWO/history",
+      "title": "TTWO daily price history (Yahoo Finance)",
+      "snippet": "close 204.92 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

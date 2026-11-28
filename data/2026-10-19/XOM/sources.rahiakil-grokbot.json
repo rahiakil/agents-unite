@@ -1,0 +1,94 @@
+{
+  "ticker": "XOM",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Exxon\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 8,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSXF4MGw5RWtQMHV6YXphcUVxbl9zYlBVX3pOWW9Ka0h1SFN4V3BxWERUeE44TTdscWF3cXB4MjVkbnI3d1BnaWdZdU1QeEFiVUZCdlRhc0IwRTV6VWxHR0VJd1VXMks5SmRiZkh2bklLUURQZnNxOFNXemF6Zmtsa3U3QnZBSzdlNHJuM0UxVjFsT2UzMjhBZ3FwWjM?oc=5",
+      "title": "ExxonMobil (XOM) Stock Fair Value Edges Higher As Analysts Rework Earnings Outlook",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdlM1elZ0YlN5cHpUWmM3SW1aRWswY2p0ckFYM0FtUTJ3eHFMMlRpdkdQZGxCTk5lLXQtdUVHZXhuYkVyaldwVjJrdnIydGNIMGM4TUhHTy1uNkppWTRGa1dwU3FXQ3J1dFF2a1I4SVB6RzhuUEY2R1hLc0p2cDhzOFlaYkFQaE14Z1c4Ng?oc=5",
+      "title": "Exxon Mobil's Q3 earnings boosted by $4.5B refi...",
+      "snippet": "Pluang, 2026-10-17T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3FpV0s5TENDMWQyX3l0cDJZZ1dYVTR3MEJZT2tOemdpNnA3WUtFOThWUzBZTXNqdFRHR3ZzdWFpd2s3bEZ1UUdKMmJMUHBEaEVnX2NJMmJCaWUtUDgtYTlFQ0VuQi1PeGRmTk4tZUJ3WVRxWmF4QkdkbFJwZWlqNzhVeEpxbVV4TnZoVjhrTkRQMlVwYXlTOFNfdndTOUE?oc=5",
+      "title": "Exxon sees higher refining margins adding $4.5B to Q3 earnings (XOM:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmNBa25laWhseGhxa1d0RFV2ck15V2ZhM2RibG5hd3ptazNWdURLX0R3cEhZQXVNWmFid2RPZzhRMzB6Zl9oVFhhNTlZaDFRVzMtcFRFTm10bU9DTVYwVktELXNWSnhsUG5lWWZITWl5cVk1QzlZbWt5S3YyQlJYYzlZalhEOXFnRDM1cFBWOGNsSUdOTkFGUFhEbw?oc=5",
+      "title": "Exxon Mobil Stock (XOM) Climbs on Likely $4.5B Iran War Profit Boost",
+      "snippet": "TipRanks, 2026-10-16T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/xom-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XOM/history",
+      "title": "XOM daily price history (Yahoo Finance)",
+      "snippet": "close 178.28 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

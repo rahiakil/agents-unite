@@ -1,0 +1,97 @@
+{
+  "ticker": "ORCL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Oracle\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUjVIMHN2WEpIdGlONkphTDVTN2xoallTeE1Xa2VNYjFFS1l6dVh0a3Q5WUROb1hZQ1d6NjVRaUMxTGk2UVotYk9BSDBTa19LNERqTlRwMm9ERDVjWkhnWGsySzg3RENvdGM2ZlR2c0Jwb1RObWRRNkVDeWVEaksxaVhya05rQnU4a3JGWWx0TWR2NDhuYk5veE1iMDNkdFNGRklHUA?oc=5",
+      "title": "Prediction: Oracle Stock Trails the S&P 500 Through 2030",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSUM3eHBSVmdXZllqNmttTkNiZTB6NlJWVWFhaXVnZ3ZLZG82SGIxTVVnOWc0V2xDLTRGNW05LWpuYkZwb3cxbTVCMUMwdlQ3b0szcFBfVy1HSkhfT0dtMTlacUt5TktaNG1pWEZCRUJ5cTFrSGpTeWNoVnJqaE5kMEdHeThRb2p1cnVWNmJXRGxtajA4YjBr?oc=5",
+      "title": "Why Oracle (ORCL) Dipped More Than Broader Market Today",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMnBmTDN5WHRmTjBhbUdUV2oyTGVBN2VxQTJYWHJXdEJIejVET1RUYTJjak14QWlmVDZsYVg4bUpSTFpKUVl4dnVBRDNDMUVJd3J0eDJrRkZZQkVvNmgteWRFRk53bHY2X1lZNjFGdmJRQ2w2UU5yY1A2TVFPMGhmMmdNMnBoektvR2V0X0Jn?oc=5",
+      "title": "What's behind Oracle's latest 4.7% stock pullback?",
+      "snippet": "Traders Union, 2026-10-16T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcWRBSHlCbE5WUmZfZWlpZHRiWExiUXZBVnpxVWRhYXRHekh2NUp3U2ZIODdBMWxrU2RVWDBGQ1d0ZVRhV0RZOTQtUzU2LXNsdjBQWk4xMThKcW1TVUFDMTJfTllaYXhaNzFjaWpEUlZ5eXZOTTRSNWR5VTh5clN1NEpLVDVKU3JFYnFsYW16cldVbnBF?oc=5",
+      "title": "Oracle's Cloud Backlog Just Hit $664 Billion. Here's What a $1,000 Investment Could Be Worth If It Converts to Revenue on Schedule.",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjVUemx1RFJKTWtPM1gtZl96SFpXTVBMNVUxQVE4QkFKZFpqZWVjZDBvZmUzOVNvN2RhMFZ3U3JvTXBleDJkaWF1RFpPdlBhMTVLVVpQc0RxV01CN2ZzblROWUxhdkhRa04zU0l1aFlZZVd0VDFUckJhQ2E3RjU1TGpQRC1xRW93MU4wVVZTaw?oc=5",
+      "title": "Oracle Stock Is a Waiting Game, Says Top Investor",
+      "snippet": "TipRanks, 2026-10-16T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ORCL/history",
+      "title": "ORCL daily price history (Yahoo Finance)",
+      "snippet": "close 129.59 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

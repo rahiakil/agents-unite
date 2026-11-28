@@ -1,0 +1,73 @@
+{
+  "ticker": "UNH",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"UnitedHealth\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2Q2V1l5TExmbkJ4aUIwTDNwYXRIM3V2RU0tWGhPUFRKXzFWUC1kckh1dWw0VFc1b2FGbWUxRlBGTjZnMlpsMkI1VXJNNXYxeVUyN0VlWVFrUGFNVnN0NVQ5OWU0OWljbXFpZ3lSNmZiaUNmTjZUQy1ZVDJlYThVck5LUWU3dw?oc=5",
+      "title": "UnitedHealth: Q3 Confirms The Bull Case",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYTNhOXYzQkRYRVhqZExiLXhmV245VVZ0T3BtREtNZ1ZpbHhta2c3NjZWWmd3UEJ3LXJZV2U0OXN0UGExNmpNZHBKWU1UemVlQUlDSWlnNWtQbmx4VW1uWVFiLXM2ekFwQkNheWpDTzBSVmJ5bnVzeUx0bjQtdlh6d0VVRG9PT1JGUDV1LTdZa1E3VDdjbUlvMg?oc=5",
+      "title": "Learn Why The Bull Case For UnitedHealth Group Stock Could Change Following Earnings Beat",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNWNXZkM2UGNrTkpFeEoxaWsxWnEyVFdKbllUR1dfOFB1dGwzMlRtVUJubFdDWE5zd190UEN0bGFQS25wXzN1SHZNQ3dXWUg1U2N4TzVBWG9PYnBGX1RneU1jYWQwa1pJT3g1S3paYnVwQklVbGlndTJsc1NIeGpLT0ZfcmtGblRRMkFkV3ZDNTJyaXZ0bktkZzNhRGIyZnZtdDVOWWl6UnZFVGVyZTFHZm1iVlBDVzBsbEsydGJ3?oc=5",
+      "title": "From Verizon to UnitedHealth, Corporate America Is Balking at \u2018Tokenized\u2019 Stocks",
+      "snippet": "WSJ, 2026-10-16T07:00:00+00:00",
+      "publisher": "WSJ",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UNH/history",
+      "title": "UNH daily price history (Yahoo Finance)",
+      "snippet": "close 406.88 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

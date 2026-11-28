@@ -1,0 +1,49 @@
+{
+  "ticker": "HUM",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Humana\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 5,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yMU9WdmxmZzJfU21rMGllajBkdkhlUGxURlpjdWxoU1RYY0JJcnVubHVYaGZxU0Z4c1o5OTROeG5KeldjNVJ2TEhTMlRiZnlLMmdMN3ZYT1VvMjFUeHd4aWlkUWlLN0k?oc=5",
+      "title": "Humana\u2019s $2.8 bn BlackRock deal follows Medicare Advantage ratings recovery",
+      "snippet": "Beinsure, 2026-10-16T07:00:00+00:00",
+      "publisher": "Beinsure",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUM/history",
+      "title": "HUM daily price history (Yahoo Finance)",
+      "snippet": "close 414.98 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

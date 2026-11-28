@@ -1,0 +1,49 @@
+{
+  "ticker": "ECL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRFQtbktsQzhzNUlhSkdwM21YVjRyTnZCd3hDUW1QRG1xbVdxTzJBRE1ocEpHdHQxQkgtUGstMVZ1bm1ja3FqX2o1b3hBRnJqUU50RHk1NVZhYmJ2NEJJSi1DR1NQQzVpZXZRcU5aTTB1LTBtc0dORElCQmwyRERGbUhpVmlJVW8wMXA0NjJZeW52QzFkQjhCdE91d29rdF9QR3h3VGY5UkFCNjdlUlM2YXpFTmRUMUoyb0tVN3d4OE9QVzIzZFFlUjI4REV0Y01jVUY0LTdnOXllRm9tWXlldHRHVGFDckRiVzdneDhGNlI2bjlrdHJ5T3pmeUdLRTQ?oc=5",
+      "title": "Analysts Conflicted on These Materials Names: Corteva (CTVA), Vale SA (VALE) and Ecolab (ECL)",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 285.94 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

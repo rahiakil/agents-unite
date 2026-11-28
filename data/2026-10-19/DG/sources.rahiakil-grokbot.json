@@ -1,0 +1,109 @@
+{
+  "ticker": "DG",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar General\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdXNsNWs4OTJjOGVUTl84d181YUFvSzVWbHl0Z1RVRjhqTmlvSTVRcks4eTRVdUV5cmxkdXJyVncxSG5sUUplSjVzdE1VRVVEdElfcFNBV3hwUXp4MlZWVFdqcW1oZ0RkQ0hDaVY1QnNnNlZ2WUR5Zklhbnh0d3dWTGJWYkFIakxBQzRNa3V1a1JULVFTZXZLZjV4UnBNRU9SSE4wWmtWR2wyMy12TWJhbEtzQ0ZnWmVuNTdSc2hLWm5yUUpsTjRiMDBpY3VBWHJKckZ30gHTAUFVX3lxTE11c2w1azg5MmM4ZVROXzh3XzVhQW9LNVZseXRnVFVGOGpOaW9JNVFySzh5NFV1RXlybGR1cnJWdzFIbmxRSmVKNXN0TVVFVUR0SV9wU0FXeHBRengyVlZUV2pxbWhnRGRDSENpVjVCc2c2VnZZRHlmSWFueHR3d1ZMYlZiQUhqTEFDNE1rdXVrUlQtUVNldktmNXhScE1FT1JITjBaa1ZHbDIzLXZNYmFsS3NDRmdaZW41N1JzaEtabnJRSmxONGIwMGljdUFYckpyRnc?oc=5",
+      "title": "Missed Dollar General's Run? What Holders Had To Believe",
+      "snippet": "Simply Wall Street, 2026-10-19T07:35:24+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-19T07:35:24+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmVldXRzZlJaNUtLOUFIWGdMWnF2Ykx4cURfWTNXMlpBODY0RWtlSXk5SGg1TjZ3Z0VNQy1tZUxJMENuTml4Z3BuOTdEZldFUEFiWVdIeEtueV9kQVA0dWx6MkdpVGcwMklueXJkOWc1RlBSdVJPWVAtbWt4LVQ4Z1V3UDVRVHBKTTVoRDZ6aDVYX3JaclFqaVpjbk1GVnlEUUoyMw?oc=5",
+      "title": "Secret shoppers caught Dollar General overcharging on about 14% of items - it now owes $1.8M, and customers get nothing",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWFJpbWxMTFVFSFpEOGdoNTZkeUpwZl9kc2dKLUJOblZVcXVYZHhaS1d2b2xzbEZqQVpSTUdBbktIbEJtOVVyOGJES2dHX1FVSHdzOWllMFBndlVZT3R6bFR6UVZ3Mnh2cFEyVGxxc1NyQWFIUlFPNDY1YzBJVlRWSHRpS0otTlgyZ01UZ1laNTA0RHhZX0E1TmZkLTkyYjctV3c4bjlkLU0wWUlBaGNndWJTUm9JUllwTEtIeQ?oc=5",
+      "title": "Foodlink set to get over $1.8M in donations after AG\u2019s office investigation into Dollar General",
+      "snippet": "WHEC.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "WHEC.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZHlsak1ydkpQdkwyNzdVOVlxLVFnVmNPa0Q0NXlQTjlKekFEaGVTZDVsV0FqRy0tUGlSRmFJckxOSkk4ejdsSVEzYS1qV0VxRUlEUkhST1dDcnNPUXRTSGxYNHFtbEFlXzQyYWJ4LTFOTDdmWU02U1RqT0s0SFU1NU0wdmtuS2d2QVBhSnVUa0VVZ1d5dDVLOUtIbGMzZw?oc=5",
+      "title": "Dollar General: Internal Turnaround Meets Macro Tailwinds (NYSE:DG)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT1lWdG1oMUVWWUtvLTVRVzRsbjBITndoZXhPRkFxbjdPeW9sOGdMQWFqRnZCdlFqcjJuNGc2ZUtxc2JneFNlZjQ0UERGTUxKMHlma3Z4Qk03TklLby0yUkpyWk9nU25wT3RZLUtCQ2JPN1hQWTBaYVkzSHM0ZzdIRUFRdnptQklBV3QwbDZOSDZaS0FCT1pmT0NDSEQwazNEUmxhb2R6ejJhM2FUbWNVRlFkcE0?oc=5",
+      "title": "Dollar General must donate over $1.8M in food after overcharging",
+      "snippet": "Supermarket News, 2026-10-16T07:00:00+00:00",
+      "publisher": "Supermarket News",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPT1J3VWpXRDZ3NWRjSUhwdkkxZGdKSDhqSmtuQ0ZFbEFXX3FMMVl6bmN0UlF0NWF1eTg3Q1NzVVAyY0xkN0ZXcWZyeFRyMmhKTkhJUUpjOUZZaDdmdF9NcThUZTVUTHllMkliR0kwa1dZRk5ta0t0dHZlT2FydFRTOHRId1k3TkZZZ0pCWl8wc3hMVFBDRXpmMk03eUR0bGU5di16eDJaNHBqZEZrV2VOUGFCdjVkSnZjQ2xQRXNvNkttV0FjcU5iNHFpYlVlbklJYnQwOWxWTEZyUFRQTzZpR2hSYVJuMFd3d1J5dzFHRU9COEhiSERyY1NsYWd0ZjB2dnhhRXpHdS0?oc=5",
+      "title": "Customers raise concerns over months of heat inside Fort Myers Dollar General; Company says it took steps while awaiting repairs",
+      "snippet": "WINK News - Southwest Florida, 2026-10-16T07:00:00+00:00",
+      "publisher": "WINK News - Southwest Florida",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DG/history",
+      "title": "DG daily price history (Yahoo Finance)",
+      "snippet": "close 133.27 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

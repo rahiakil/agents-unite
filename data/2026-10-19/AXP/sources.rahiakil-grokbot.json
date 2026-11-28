@@ -1,0 +1,109 @@
+{
+  "ticker": "AXP",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"American Express\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 5,
+    "irrelevant_or_spam": 6,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSFRkNlNIOGhCSjc5dVFfM1ZPX2xjMF81aW43cmNVOEs2bzBEVjlJM3BxSXM3RzcxQ0NuVEppbzlJYVYyODVweW1IeEhFUjlzWXU3T295VVFmOVdEVV9IclNGa0ZmaHBOUE51dGZNdFhYakRqN3F1TXpPUEs4aXV6eTNvazJWSGVjTGE5VkQ4TUk0ZHZua1FJ?oc=5",
+      "title": "Here's What History Says Q4 Will Bring for American Express (AXP) Stock",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczBhaXd3dk9SeGJ0bUJDejlUczdGTTY3YmZMZXpxc2ItSXVyYlFYODJxZkhSOTlLS3BUYWo4VXl4cEhXSkM1MWhWMnEzdmZ5LTU1cHVxRGxuZXR2bGhyUGkyVHU5Ylh2WWRRZFJySDZMenFkdXVmdUpHZGNhcHYyamR3YnFqTXJCNUNBbTBTRXBuTlhkMWc?oc=5",
+      "title": "Greg Abel's Berkshire Hathaway Collected $479 Million in Dividends Last Year from an American Express Stake That Cost $1.3 Billion. You Can Put the Same Principles to Work for Yourself.",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQazN3RlcwVnVmM0lQTTBmVzlFMmtoY1V0aHhGOXdXMEc3ZFBZaGNyaVNkZXZXc2p3RjBtWkNoZGk3WTRoSzVRc1M0eEc2R0VJUEdPTHNNQ3BidjlkaklheS1mTi00QWFPT180OThianpBRk5uRktmWEhWeFMyUks4Y01QU0JuWEtoMXJNWm9pSjJWakhCV0Y0ZkRSSQ?oc=5",
+      "title": "Did Strong Credit Quality Just Shift Amex Stock's Investment Narrative?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORnBldURSM3V0azlVTzFUODRmNHRyZFl1XzEwcUJ6UmdYaXNHMXlWb2xybjEtb01wZlJnd2lGSGZuZzBTMkp3OHNjOFNfVlpfR0tzRmZHNkpkdklVNHY0d3F6VFFmWWl3RzNjNkltX0pMRlV2UXZiWXRyM2VmS2NHTHcwNWhUZDBVMmdfZlVOcWhBWlpLdWxVZkV2UGpydk1vU1NZ?oc=5",
+      "title": "American Express Pays a Small Dividend, but There\u2019s More to the Story",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN1VNQUtsUUFFV0U2VktlX1VkMW5ZdDN6YUFjVll6WGExWDZGbnVJVXozNDBWQjFXWGU1SzVkX2FYQ3lnZkUtZmJjeUpmblNnTVlVMV8tOXlCdDlFS0hYMlc5bWJIMElJc1ZLMFJudGNYLXpyMVBCU3ZQZy1la1FsaWdtMmZwOGdlcmJrOXdfZm9Ua3lHSlZJTDNTcVBQUm9BaVdHTkZ6VWp6WDltNjFMaQ?oc=5",
+      "title": "Will Rising Expenses Affect American Express' Q3 Earnings?",
+      "snippet": "TradingView, 2026-10-16T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc3YycDRHNGJMU0JWRHFoQ0JlVlpiWDhmSTJ0VEtpeVpjYVhoV3B4d0dsc2lJcEh3Vm9raHptRHc0ZHJMMEZ1cXJYZlVVWVZxaGUzMHFBbExHNVBvNFF1VlBLZl9DTXRjRk1UX3l3SHpyWUI4T2tGUk9BRmxQSnFKb1cycF9QMGt4WFMxZERoMW9Kc1lKcFd3V191cXkxbDUxQTM5QzNn?oc=5",
+      "title": "American Express (AXP) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AXP/history",
+      "title": "AXP daily price history (Yahoo Finance)",
+      "snippet": "close 316.41 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

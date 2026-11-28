@@ -1,0 +1,49 @@
+{
+  "ticker": "PPL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PPL\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcjAzc1BadGhOZEZwTXk2S0d6TGtHTEdCM0ZqM0ZqOXJaZUZtR190SnBzUEpUWFVjYllrRWNmOUV4emx1cm4tU3N5eS1TejJVbzJRSnl2YUZsWVpHY0l3Mm04VlRWa2lYMXF5S0ZLa2NtMTZSQ3NLNG4wUVpDS1dkelhhbEkyVWJYTldNUUVqdFdLUEFDSXRyUk5haDZ5TDhNa091RVBFY0VuVWF3STQ1UnR1Y2JnTzNvdjBfTHY3VHM5MmhSUU5OM1hRbjg?oc=5",
+      "title": "Most Actively Traded Canadian Stocks: Pembina Pipeline (TSX:PPL) in Focus as Investor Trading Intensifies",
+      "snippet": "kalkine.ca, 2026-10-16T07:00:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.38,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PPL/history",
+      "title": "PPL daily price history (Yahoo Finance)",
+      "snippet": "close 34.31 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

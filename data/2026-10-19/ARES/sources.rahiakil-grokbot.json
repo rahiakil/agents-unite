@@ -1,0 +1,49 @@
+{
+  "ticker": "ARES",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ares Management\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNQ1JXbnh5UXVzZzN6RHF5YnkxZXRDb0g0dEZRdU9qejNNUWJuZkpXSU5SSS1wWDM1MG96dGI0SnFqRFF0U1hNenJrZUxKRzUzWXdrc1d2OFdWeHdhN2F2RlhQVC1sQ2RJUnJNeHJFNl9lLXZvTlZjd3lGaEN0cjR6c0x5eHVIWnoyNDRWSkU3Sy1aNVlRRmpiQW54QTBlMFZLeWhtbkxXWFR0LVd3S0thZUUzM0t1SWxRQmwwYnpkaXRwQXBwbV9JbEZhcGc1eE5JN0loLWd1WEc2aWpvUlNNdzVabDROTjJtNGtWVGNZU0hiVFhENWh5Q2JaaUdFQVRNUnZ3UXBXdWJVVWpMb1JyQkhybFBUQQ?oc=5",
+      "title": "Analysts Offer Insights on Financial Companies: Ares Management (ARES), State Street (STT) and US Bancorp (USB)",
+      "snippet": "The Globe and Mail, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ARES/history",
+      "title": "ARES daily price history (Yahoo Finance)",
+      "snippet": "close 113.0 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

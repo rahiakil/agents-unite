@@ -1,0 +1,49 @@
+{
+  "ticker": "NUE",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nucor\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2N5RXB0ZlBGTHJCWDZVNDZLaEZaZzNtOU9BRWxpVVh0b1pQeDM4V3oyRjRIV3NzLUwwQmo0elV6Z2VGN1RzVFhFeFlDQjFhVG1uR0Z1ZFFzWnMwTDZtRTNiaTAwTnJJUk9xS29qV0I0aFI4Ykp2UU9iZXk0eFRQaTl5dVc1TnZGNExPSmpBcWRaMjRzR295NWthR2N0eHdJUW5kNUVCXzJTSmZOcXpYUVRR?oc=5",
+      "title": "Steel Prices Surge Ahead of Q3 Earnings, Boosting Nucor Corp (NU",
+      "snippet": "GuruFocus, 2026-10-16T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NUE/history",
+      "title": "NUE daily price history (Yahoo Finance)",
+      "snippet": "close 260.73 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

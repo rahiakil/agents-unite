@@ -1,0 +1,49 @@
+{
+  "ticker": "OMC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Omnicom\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUk5XZHpkYkFvWnlWUU1KRnFIQ1o0TkVyNmZqNzNZckQtb1lhTDlkMnJCMm5HQ2JDWnE5d2FtM0UxMUhtNHNIMlJ6ZWNWazBTNTlHc0h0cklBRUNvVHFVSjN5eXNsb1ZNQUtrYUEyMzVSX0NIMV9HSE5CUnJmTlFlcGlhRjZVd0xWVTU5OGkwcl83XzBPQXVadGdtWHdRRHR1bHItREF3cw?oc=5",
+      "title": "Omnicom Schedules Third Quarter 2026 Earnings Release and Conference Call",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OMC/history",
+      "title": "OMC daily price history (Yahoo Finance)",
+      "snippet": "close 79.44 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

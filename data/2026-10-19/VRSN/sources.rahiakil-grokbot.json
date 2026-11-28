@@ -1,0 +1,49 @@
+{
+  "ticker": "VRSN",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisign\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSWhqLUZTWlJydmtESno0OUVQZ0VkekhhbWdRa0JYNzRyMVBlbVI1cllVNmtXZkN1c3ZiaXRiTjhlemJTSVZIeWdWNUdNUkxRVG9xZTljSkNUaFF5RFJ3VHZIVURobHJ6TnBSV3RYZHprNlgyWG4xTV83QzRWNjI2NmdGRzZ0b0xGRjV3SHMyQUNGejBMeVVDeVc0R0R6SDFoZUI2ZWpSRkxabEhG?oc=5",
+      "title": "VeriSign: A Recovering Domain Base Adds Weight To The Pricing Engine (NASDAQ:VRSN)",
+      "snippet": "Seeking Alpha, 2026-10-17T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSN/history",
+      "title": "VRSN daily price history (Yahoo Finance)",
+      "snippet": "close 306.48 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "UAL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 31,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWmxVRXZ2eHVjeHdMcERsTlE3MG5IRlpTdFR2c3l0eFIwU2xLYWQtbFRCclFBYVpRSTl5dnNveENIRUVIRVY0YS1TMjVxTG1GVFRPT2ZqSmp3UTJubUJYc2ZWeHhxSWNUek5kRHNtSTFVSl9neWlabGFtYUJEZVFJQkx6OTlpZ08xR3RlZXhvSEx2UmNjRE9ETkJ3Sk5kSDFaNTl0SA?oc=5",
+      "title": "United CEO Kirby defends higher airfares, seat fees as costs rise (UAL:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMnRsbU9LVjhSMTM1TjRXVGlPYmU3WkVsTDhXVVFIT0xiUlVqeTZWcVNtS2gzanppeXVOT19nNGg1TzI5OGVUbUpWdEo4Y3VGQVM0ZGNpeE11UW85SjFoaTJJaVZ3RDRKWm9NN29oZjhHdWpMMXU2RzF6Qkx1WE02NnBhWQ?oc=5",
+      "title": "United Airlines CEO Salary in 2026",
+      "snippet": "Aviation A2Z, 2026-10-18T07:00:00+00:00",
+      "publisher": "Aviation A2Z",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR3I0T3FzczF2VXZuNnU4UWwwbnp6dGxrOUVmU0Rzck1qQWtKYnZ0NGNpMXRlYUlXUWVrS1oxd3VqYm5oYWI3RUhzaVZzWnBlc3hXNG9EVURWR19PNzRsWkxfVHByZUE4OWJLclVjcDFxYVEzSDlHOWY1Qk14UlBFVm4zVzJ3ZlY0VmM2OE1YTmxhNnNJbE8ySWgwQ2c?oc=5",
+      "title": "United Airlines (UAL) Q3 Earnings: What To Expect",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZlpud1kxVTRTLVFMd2FWVl83SGFqZjN4eV9KMHNwcnlXa2RmSVh4TUJIenZ6SlpNZmVqbkVoaHhMeGF5aUFWU3Mzd19fdlhYenFGRTBWZTJBVU5BZ1hxUlEwekpJNlRJcEZBNHNyWi1nNFkzYXd5TW1xUjY2TFd3VUV0YlA3dnVxN0xZc19uZ3paVVVxMHVtYlF6NA?oc=5",
+      "title": "United Airlines: Higher Fares, Lower Profits, Still A 'Buy' (NASDAQ:UAL)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRDJfUU0tbC1Gbm9GVk8wek81Vk5sLXZXdVBHS1NnUEpyVENtSDRXc1o4TGV4RjB2bWwweWJtVmJ2a0lMZUQzMFRENjlGOUQ4aU0walV6VmR6Nkl2UmV5d0xrT04zdzdLbktDd1lLQU9lU2Qwb29yOGJXenB2NWQ0N3oyMVpjNzkzdkN1NEY4dTJRLThIaHVkMFZZcU9RWWhlZ3I5cnZnLUp5UjFLbEkxWldlbXZReTVOZ1E?oc=5",
+      "title": "United Airlines Stock (UAL) Set for 7% Move After Q3 Earnings Next Week, Say Options Traders",
+      "snippet": "TipRanks, 2026-10-16T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZF8yMjY3NlFOSnZTbnlmYXJNV2VHTUpIWElhSmZuV08xbFJoX0U5bVRDTFN1dUMwd1pZMXJvTmdjLWRzam9YUS1VVFZUOTF5cFBnVURKd2NmWS1FNC1jUmloWGhxRDdxMXhWWU9oT2hVTUN3NmZsTndwZHZOeUlwU1FZMW9nS3BCVVRLeWczMERtWVdoeVEtYmpzOUVnWWN3dWZ0NQ?oc=5",
+      "title": "Air Canada, United to add routes, increase flight capacity in 2027 (UAL:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 95.6 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

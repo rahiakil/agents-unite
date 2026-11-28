@@ -1,0 +1,73 @@
+{
+  "ticker": "NOC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northrop Grumman\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRGxrT081cTZpNHNUX2FqT0FPSUs1R2NhdFpxamRJQ0J0T1JyV2FnN2FGSWVvVVZYZkEtSk1pU21Za1RIQlkyR19kMFYybUd4NVhHbzJoMHpOd1ptN3oyT0ZQWV9aSjIxanBKUWpqMXpCRkx0YktrOVk1d3NLZG11YmpKcFI4Z3NLdjA3Uk9UNkw2RGFqOUE?oc=5",
+      "title": "USAF Doesn't Want Northrop Grumman's Stealth Drone",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.134,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZmktdEVrSkV0LUgtWktLRENDSHBZSFpvVE5rYndPeFJCVFlJR3RKY3hhcmNBaWlJUjNJY2VlSHlta0hrM3ZPdVViQzdJLWotLWxNb3dxRHU1bV8xQl9pWkxxR1Etc09zYlJTVVZnVkUxeDAtUi1IMDhJWXN3cEFVMDlmNWVqZGdoY3o2MUdDZGJGODduN2Y3UC1uWUE4dw?oc=5",
+      "title": "Northrop Grumman (NOC) Is Down This Year and Trades Below Its History and Peers. Time to Buy the Dip?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcE1YaXB2V3puUmxoSWc5V1JvVFlzcld2azBoaFhQQVZNcW1jVzlBYmFSdUVQMXVpd3hOOG9OZ2Vrcm9FOFh4RDE1MFV2bHpQd01rQWZBbTdQNlltSzJfT1ZKcHRrNlVvXzdYb1dSVnNZOFZOeFdyT3BWcFRZZTM5YTltNEJWcmZqMWJPdHRoZzFmZE1NcVVHdnRRSldtTmVhdGh4TWZn?oc=5",
+      "title": "How Investors May Respond To Northrop Grumman Stock As Earnings Estimates Rise",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NOC/history",
+      "title": "NOC daily price history (Yahoo Finance)",
+      "snippet": "close 510.65 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

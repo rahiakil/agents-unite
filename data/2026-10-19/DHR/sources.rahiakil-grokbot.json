@@ -1,0 +1,121 @@
+{
+  "ticker": "DHR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Danaher\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVHR6V0o3MHVic0IzTklwX3p3S2FxQURJMnd6NHRkY01CUl9OY2ZVdnhsT0dVZE1MbFBmSDh0R0RmOUhYTTJIYmw4VUdUd1oyMnBCQmhfRlM4cFRWME9SM05DRXZRa1NBS2FlOEZMb3pWZTV1VjY1ajZWeFRPN0ZTbC1UWnpmZWIyLWpVWEZZMWxLWjlFaTM3MGU3WUNhZ1k?oc=5",
+      "title": "Roper Technologies (ROP) vs. Danaher (DHR): Which Is the Better Long-Term Capital Allocator?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX1hnLTRhSlhnbUd1MUpkUFZpSVBrZWNyZHNrVkFYMFhhZThpekx5c2taTFlWR3M1aVB2VkVpY1NuRVB6MS1mZTBHSjd1dW5UcW9iQ1ZTQ2otUnl2ZkNHTFo5djBJWGlFVF9MV19aQkFEMGFrSG1JOG5aSEttbnliR3VfQ1FCSWVRZzZ2TmhERHlnTUM4X2d4NjA0Z0VURVQyN0hUTU9FbFMxYmROQk8xNFEycWZmQl9yM25jdU43ZTN2Y0k2eWdIa2lSa3pmampBYTBDWNIB2gFBVV95cUxNU3E5TmRrMEh2WFZvZU5ha2VJUGJQTXAxOTRwblFTeWp3eGwxR01YSlpKUEV3ZENSYTZvbHNpT3RKd1VmdFJGUmFjZU9wMkx1TVVLcFhCbzNJd0U1cFMtQ0lnVV9GTTBCazdNRDhyRDAyVWJiMzNVUWluREtaWFc0WUVrOGdvay0xR00tMFoxYXhHNkN3NnpWV3Q2M011Y3Z4NmpSQTVLSnVpUkdRMWRsLVhYTk9VaTRydlZ0ZF9BMmVUSkNmWjYtbFNJWUV5eFpCWktTX05Bb3pwUQ?oc=5",
+      "title": "Danaher (DHR) Stock Looks Reasonably Priced After Its AI Lab Launch",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOWNxckhYX01YS3BNb2hjYk5nak5MSzBaVkk0NnF5M0pjQVJVQWNoTFhvV2VxWDE2T29oUXhzVHlTaXVuNXFlVUNJYWtvUjJMUkM1MUlOX2x1UHRaRXRTNmJ1NVVkV2MxeWJUMFE4eEZvTWZvY0k2WkMwU2F4aVowRUxxdWNjOGk4aV9vMTFGaUpDWXd3eExnWQ?oc=5",
+      "title": "Seeking Clues to Danaher (DHR) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM29sQU1LeExiMVNJUHhjR09sWUVTTW4yZmktblM3Q1FQaE9wNHM2NU9CWkZub2pVWFNsQmdFYjVvOHBxbVVEYUpXc1NqdVBhR0hrcHpPX0FQZThQNWtTWWoyRVpVMGg3NmVGWVMyNUVqcnctdnJBZUgwcFJZTTMzTFJfZ2xmbHJnaFZIaFM0OW4waFZOOFJjcll0VE5jOUFjRDhaRk45WQ?oc=5",
+      "title": "Danaher\u2019s Stock Is Pricing in a Recovery. Can Its Earnings Deliver?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSzlCdDN2Rjd5eWZmUmdnU1hIUTg0ZFhPQlNZeXpnOEJJRGJ2c0d4NmhuT25ZWDNIZUdiM3BhNkpGc2J2Q0lQUHhhcmVUc21NX1pDVkR4ZXhiUVdlRjR6ZjNxQlpRT25iY253S3RyOFhkcGZPOWMtZEJWWFpFVW1YVXhwbGVmSGYtTkpSTkZzaG1iMWZqWDV5bzhBZ1BxT2xMT2RjbWdrckIzcGM3U0pJWk9KamVvamtQWHFVSzdsR1BwUWZTYlRINExTTG9CZmIyZTNTbw?oc=5",
+      "title": "Danaher, Nvidia Combine Lab Instrumentation and AI to Advance Autonomous Science",
+      "snippet": "Genetic Engineering and Biotechnology News, 2026-10-16T07:00:00+00:00",
+      "publisher": "Genetic Engineering and Biotechnology News",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbG1BMVpYaEpJeG5PWUF5THZsRVVoajY0RGtHdDdPcDlNdHE2WlNuLXNDNjJFQ1ZVQWhIbmEySUJxZDhqQjczSGJaT0w4VU5NbDhzT3BPamhyX3JidEZPRmIyRDNiR09mdTRDQWRJTHZQUmVMdnV5bVAteTJnaVNNenhlSUViU3JEZ3YzaW5zaHBFSUQtdmlFd2xUUQ?oc=5",
+      "title": "Danaher Gears Up to Post Q3 Earnings: What Lies Ahead for the Stock?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1IxWnFmT0FDZzhLSENzM01JUzBxTzlkMjZzdVVsc3FZeUI1VHVYT3p1dTdGUnlISW1kT2x4a3V1UFhrNzc4YzdrVWl5cEVjcU41bXdIME1BdU1NRG5nMzZIVy16TVFsSGUzZGVSSVY0MWtUd0NCYjNFUmRLa0Rzdnh5WDlfSmdYYU41UWVmeDhORzdL?oc=5",
+      "title": "Danaher (DHR) Teams Up To Bring AI Into Scientific Research Workflows",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DHR/history",
+      "title": "DHR daily price history (Yahoo Finance)",
+      "snippet": "close 224.43 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

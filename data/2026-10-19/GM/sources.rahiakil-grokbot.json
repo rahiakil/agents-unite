@@ -1,0 +1,97 @@
+{
+  "ticker": "GM",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Motors\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 61,
+    "no_date": 0,
+    "after_cutoff": 52,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeHRUcW1PVDdHMTZYQ095bWZCR0g1Skl4OTloZ2FSSkkzdDFiMVlyUkZsZU1CMVR2WEl1b2VudGxLSXRtc3hPREdVbzc2OWR6amFvMVh3ckJZZ2xxaU1USGR3X1k3MkJneEUxc214N0w3eXJKdGJ5Um5RVUpEZ21rU3BtWEU3TnVMdU9yem5PS0VkU3Q1cjREOFJ4X3hFcXJs?oc=5",
+      "title": "General Motors Stock Is Up 46% in a Year. Here\u2019s Why the Street Sees 24% More",
+      "snippet": "TIKR.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdHdLVkZuZWhvRFl5QkdVempSSHVFcTlXMHVxUWY2WGYyd2xKN3pIYV8tZE5zT0xMSTJIMG5DU0xHU1FrYlYwMEM4MUlEVXE2c3MyYVNJSWtfYVlFN09mVjBYS1MyZW9kWGp1SWlEN05YNnJUajAteXdXMG8yVGpGb0xrMGNYVXdfUmNXREF0MjliOFpJUWY2WDVvNTE0SkhL?oc=5",
+      "title": "General Motors (GM) Reports Earnings Tomorrow: What To Expect",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM3VXOW9IUE1kSDk4V3l6Snd4NUJOcDg3TE9wT1U3M2dTM2R5blludUNIbXNEdkNielFET0Q1YTJiNERwSzVqcVhGWTlSdlpESU9TUXUwRHE4cVZEZVU4aGJ6T3luMGhUeEJiaGZhUmRYLVV0amRzZkVBX2FSclZIRkhIVDdWNGZxcm5MUjJlVnFaZF93YjNWcjdjODJZVFg3TUtSa19oelZCcGhSNHh1Wmwwdmx4Wm5FYjFtcWU1dFQ0WnFObWxyalptQmxjZjhXQjZfSQ?oc=5",
+      "title": "Here's how Ford, GM stocks did for the week ending Oct. 16",
+      "snippet": "USA Today, 2026-10-17T07:00:00+00:00",
+      "publisher": "USA Today",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeHJtLW1CODRIZnNXUExPMV94LXg4cG9ld0xkUGpxYWMycWFoS0NMTURpd0RsZkl3VFU4YVRoOXU1WWk4Z1JaTkdaRExPYlV3V2VjNnhqZjJzV09EenhZUDltZHN5MkZ4bm1GTTc4aVBhNnNkaXBtSm40VzJ4MkdoOEFJXzJnN280clpybDJwbGNzVXJuekYyYUU2S25TZzRM?oc=5",
+      "title": "General Motors Company (GM) Is a Trending Stock: Facts to Know Before Betting on It",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbzh1dlFMejIzYlljRkV5R3d1bWtqbkN4QkFTOGZucWtPLWdqRVdJRjhiaGpmeFNPS1VjMmJSR2UwdjczRFU0dUx4RE9kcGtHWXhEZ21FYlVKZDlOdzdXQTJzRGNBOTJUU29GWWswUm9sN3FZNHREV1dNQng0aDhGd042OVQxVmFER1ZWSFdhRWQ4Vm1wSEc3eHJ6bm1CdmxrRjFjc2hoWmpKNVJSS2dNNmVXektqcG5DUURHamVQYTByekRhd0E?oc=5",
+      "title": "Ford Rises 2%, General Motors and Stellantis Edge Higher While the Stock Market Sells Off",
+      "snippet": "24/7 Wall St., 2026-10-16T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GM/history",
+      "title": "GM daily price history (Yahoo Finance)",
+      "snippet": "close 82.75 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

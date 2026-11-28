@@ -1,0 +1,61 @@
+{
+  "ticker": "VTRS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Viatris\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUJfdFNrcnJJUFZLYU1qaVprSXZvYV9XVzNjWjYxMUtMSUQ1RVhQRTBjZGtja2F6Tl8temxrOE01OEk2Y1dVZ19Qb3p3SEMwdDV0eTNIVDQ1aURjaHljWU4ycjhVTXpMRjNqajR6Tkp2SlhSa0xjZ1prZkVhZUZ5VDV5NEc4bGhDWTFoeWVRQlhVN002ejF3bzF4cFk1cldab0syeTZWXzFuVmVzczNVWlRB?oc=5",
+      "title": "FDA Approves RYZUMVI for Presbyopia; Viatris Seeks Commercial Partner",
+      "snippet": "The Clinical Trial Vanguard, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Clinical Trial Vanguard",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYXZmQjV0WlFNOXN5STFlbGZPM1Ffa2x3NXBCdGFTeFgyUzJCdU4wdlVyaFg0MnFqTUVyOVE0NnJLOU1FTDRSbDVTaTkxVnNQWWZNdGdPNXA4ZEcxdlpETGxMWjctZWRPWWxKUm9rWjBfTGVFQWhiMmhCX28ya0M2MnQzbzBYSFNIejNmY280QjlCS0l6WDZF?oc=5",
+      "title": "Viatris Receives U.S. FDA Approval for RYZUMVI\u00ae for the Treatment of Presbyopia",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTRS/history",
+      "title": "VTRS daily price history (Yahoo Finance)",
+      "snippet": "close 18.26 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

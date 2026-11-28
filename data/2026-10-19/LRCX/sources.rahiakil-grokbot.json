@@ -1,0 +1,97 @@
+{
+  "ticker": "LRCX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lam Research\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcXJrWkxGNnNPOXdaamJVR3EwVm9yOEFDdzhXWWFZVmFYaks2UjZQWFpKR3pzeTJSRTJCeEJrVlJ6d3hHVEdXY25LYmFmUE1iemhSVmhSV1RLdWxwY0l5NDRDRmNrOUpmdTktUXNGak54RkZRSVJMZ1RyV0xaWTBYWHNDakxSXzJLTUh4QzdxcUpObzNKYUwwdzFiXzcxTlNyS3ZpRl9QamFCcS1mSXc3NUlFdWZ1cVkxRDYzbDZJa0Q?oc=5",
+      "title": "Lam Research Stock Extends A 10-Day Losing Streak To A 24% Loss",
+      "snippet": "Trefis, 2026-10-17T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOFhjdG5TNUZQS2FzUWU0R3paMUZQVWV1ckR3TkdsdnhreHF5b2VLcnJadmdxM1I4YlJqd0hpN2hBWnluSkJuZ25UY1luLXVEdG9lWTJRc2xYcFg0dEloSVFnR055QmxoZXRXNXBjZEdIUHVNZXdXU3dvbm5GaHgtdmc0U1lxN01jVzRyU1hUVGp1d3lxeGJxTFZ3?oc=5",
+      "title": "Lam Research (LRCX) Stock Stays Fully Priced After Fresh AI Fab News",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.677,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWFhRUG1kaEVrYUlKbUJ0MmZkMU1NUmtvaWR2blAtbjI5ZHdfMnBVQ0xtNWlCTzBtUTZZUnB6REFLSXRVT0hDRVJ2UDBFT29zeWdPaTlYWWRYNV9yaXhSNEJRNTJsTFdiY2tvWmg5Ry1kLU5zdDc2U2VBcVdQZ1p0QUpkRjZpcDBDWkJZM2lJeS01T1JId25ydFZR?oc=5",
+      "title": "Lam Research (LRCX) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVHd4WklxMTRkcWlqVWdyS3Ntc1UzcjAzVHhWelplZzdiZmlmMDV4c3ExM3dMbm5LT0RuNUlQVGEzdEU2c1ltVDQwOTNLQmdqV1dnVHNnQ3Z3SzVjckdUemZCMlBBZWlyNFRFMVpiUEpkeDFJU3Bybl9jbnlBa191Vno2Y2JyU0x0Y2FSMUJPbXJZZ1FDaUF6dGl0Q3JjZw?oc=5",
+      "title": "Intel, Lam Research, Amkor, and Kulicke and Soffa Shares Are Falling, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVGltYkFJbjdKTFFvY1hVWE1BY3VnbzEzSzlZbGVheDF1NkloX2YwVGFPdUk2aDQ2S01XbW9fcUlkSEVqcU5XX3RsamdQQURwdlpTYW5ZelI3ZWQ5N3ZzVFlsb3AwUHpfM3JqRmZyZUlhLXp5TkpCb21aQnRkaGR2YnNzbHVSVG01cmpuTmhacXJhand3R2w3RF9yY05CcHloZ014ZU5DVkVkYnNDRnBV?oc=5",
+      "title": "9 Red Days In A Row: Lam Research Stock Is Down 20%",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LRCX/history",
+      "title": "LRCX daily price history (Yahoo Finance)",
+      "snippet": "close 272.2 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

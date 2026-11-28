@@ -1,0 +1,115 @@
+{
+  "ticker": "CPRT",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Copart\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVEFFWTNhNHJqVWwweVI3NkJ2djNiVGxUa0ZnZlgycFItajJpekFuMFFMMHFzU0ZFVXZWVEtVNWFGU1VaZWt6MmFPM2ZtcTcwNmhaYUw5X0Rvc1FoaW5xOFpDTlhXd25XcXg2S0NsQnlFdzJHc3N1VFBhWm4xb0l5WG90aFhwWHBwSFFEc3BpdGd3c2sxSVhxdzRudTV2eDE4ajJqOW1vbnFRQ3Y0dm5femFnZUdSVmsza0xoa3RwSVJ0Sm8?oc=5",
+      "title": "Copart grants CEO Adair options for 20 million shares, subject to shareholder approval",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-10-16T07:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUERjR3lCb3V2WVlvYllINUpWc1otQXY5a09OeFV1RG1TQUZ5b0ZTOXQzemZ5NFlzTWtDN3lCWWpXQzFpUU9hbHNfZ0dSWEZwT2tsbVBzUXpWNGxaWHF6Z3dMZlJNZzJOVHA2RF9QYjl6aUlXTUdZMU9GRmtmaFRoZXo1bXRXbWR1NTJZeG10NVFBMFdGaHAxT2FVcG12bXctYkVPaUNpWWRmZGJ4eVJnV2NBQnY?oc=5",
+      "title": "Copart closes acquisition of ACV, which is now independent subsidiary",
+      "snippet": "Auto Remarketing, 2026-10-16T07:00:00+00:00",
+      "publisher": "Auto Remarketing",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRGtJeVF1X1BEUWFhVGxZdk41MFZyalVGYTJ5MmpBaGMzeHp2TnhzX182b3Bjb3JQTW82UEdsVzItWnNtVjJwVFA5R2hEU1JEeVB4N3NWQXB6NEkyQ1E3RUJiUVNjck9ZV2xjS2F3c0d2M3NzWThFUmtQYkRsM25yN21OR2QtVHp3VVkxUzU2T0Fmbl9QUzJtZ1lZTmFUYzItVEprWHdSM1h2aXNqZ3J2V0F6bUpTVEI2a3hvRENqckV0NElYQl9vUW1xSnpOSElOcmcw?oc=5",
+      "title": "Copart acquires ACV in $1.9 billion deal",
+      "snippet": "WGRZ, 2026-10-16T07:00:00+00:00",
+      "publisher": "WGRZ",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSzhzaHFucktkTkU1QWc1WWJyYmVBWTllS29mTnVHOUVvZFlIVVRqbEIzbkNFNFVkZUptMjFjd3JXS3k1QmdrOEZCVzZYZHVic3ZfRUtXZ1k3RVRYS3JYXzRhOWRZOGNNVWRweTJyYnR2VWR6bGpNV2hFZFFKZVBQSWl4YWo4ZVo2R1lBYjF2cHhvb2ZYaU96ajQtRk5KZFNFR2ZCWXBB?oc=5",
+      "title": "Copart Completes Acquisition of ACV Auctions for $10.50 Per Share",
+      "snippet": "citybiz, 2026-10-16T07:00:00+00:00",
+      "publisher": "citybiz",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcjFZb0F3bTd2Vk5sY09BTVJoMkRfb1daVnVpcVBnYi1HRUdoWnFTT19Ld0JsVTlSb0N5bG1VYXNnLVV6Z3Q3dzRiWEhkd3JrRjB1N1RhNy1vTlM2Q3hGdFMxYVgwdnB6S0M4Ml94VDVmTmxFeXV3OUpDS21tcVNIYm4yWm1IUjQ2UlB3b0kyblh4Mml4YmhtMG9fS040VXRZSHQ0?oc=5",
+      "title": "Copart (CPRT) Completes $10.50-Per-Share Acquisition of ACV Auct",
+      "snippet": "GuruFocus, 2026-10-16T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526424052/d177727d8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535d8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 2.01,7.01,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPRT/history",
+      "title": "CPRT daily price history (Yahoo Finance)",
+      "snippet": "close 27.51 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

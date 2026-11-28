@@ -1,0 +1,58 @@
+{
+  "ticker": "CDW",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CDW\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOU1FSzhEeDJIS3o5OVJCdjRybXFrRHVzQWxFNkhBU05QVzF0bEdQV0M0aVJBZWR1MjNhNjBWTHAzdC13R0JhZ1h1eEdaTlEyaVc4NUdWMWNGMXVlRmhOSnFEZm0xd042anlOR1AxSW15XzR0NkRKd3cydTVkRW1kN2E5YXV5WFY1NnMybXh3VEZkNDlKQUdaOEFpRDQ1bDl5YmhldWJpSjE2Sk1FVnA3LS1qRUJfYngwMS1uOHN2N2RrcnExN3RZNEY3UTA?oc=5",
+      "title": "How Is CDW Corporation (NASDAQ:CDW), an S&P 500 Constituent, Growing Sales While Gross Margin Slips?",
+      "snippet": "Kalkine, 2026-10-17T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000106/cdw-20261015.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CDW/history",
+      "title": "CDW daily price history (Yahoo Finance)",
+      "snippet": "close 152.65 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

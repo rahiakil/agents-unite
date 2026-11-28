@@ -1,0 +1,49 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOUURuM01rRVgzajV5cC1OX2liM0xXN2R1ZUtCaEtBMmJ5WDVlYjRqQVJqNGhOWHF5ZjRBQV9XWWV2NGhyRmd6RFlMT2NGNFdZQmE2WWRERC1Gb21pSE9nNkhsNDhRTkhtZzRoV0Vqc2l4cmhZMkZ4WkNxdFVDRS03YWtLWHZMVEswRmY2R016SGk0MEVDYlEtMHYyU1NySmUtVlVfU2lXT2o1MzBFUEtJT1JaQ0hwNXFqbEZrYkpmXzg1ZWwwSjA1U1RjTG9xM2QySVhjcFcwN1Q3RW8wTTNiX2hQd1hLT2RRWjA5RFZ5Sk5JSGFUcGh4el9rSmFVd2pKeTdWRFNhMFItY2JX?oc=5",
+      "title": "Stocks making big moves this week: Hewlett Packard Enterprise, Frontdoor, Chipotle, Domino's, and Manhattan Associates",
+      "snippet": "StockStory, 2026-10-16T07:00:00+00:00",
+      "publisher": "StockStory",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 305.42 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

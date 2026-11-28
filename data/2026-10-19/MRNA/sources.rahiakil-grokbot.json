@@ -1,0 +1,133 @@
+{
+  "ticker": "MRNA",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moderna\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblZMamtZMDBoVUlXTFZfMjBReGUwYVNzbnlTX1ZQRU92QmlkWVk3Q0k5RlZOdUxNMlhZd1R2cWFFYzVjMVAzVWNibVVVcklxMUkyOWpuQXRISFJ3OG5CR0VaVFQwblZUUVlCSEtFYm9DMHdWNnI2T2tsZGR4RHBfZkIwSVhtNnRFS3pXMGVFWi1BSHVpVkx2U1BwY2RGUQ?oc=5",
+      "title": "Why is Moderna stock dropping today?",
+      "snippet": "Investing.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yejRQN0ZoVDBPVmlwQmUxRS1NZDRfd09FVldnbmhFNHFuLVBQeHhiVURUYlprWkxuUTdRSVBOWXpYdUVpcEgwMHZVX1BTRzAyYzZTelVJZVV3RmhnY3JWVUJpSWN4S0lCNnhjMThIVXBOMXUtZDFIa2RPT3I?oc=5",
+      "title": "Why Moderna Stock, Novavax, and Revolution Medicines Are Slumping Today",
+      "snippet": "Barron's, 2026-10-16T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaU1oN0NiWHVSZ3l4S205Tmd1MzJZVGJBQmtsTVVxdXAyQUF5NU9PcDBTUWt0TzY2VDFiN3ZSRjdEQmIyMkhYU2R0a0NzVjVYYkFDdkhlNU5qX1RTajItZjZKTDh4V2VjZWZsQzlRVWRrdWZRUmRyTWFZNFdCTWJKVGt4aEVCYkhkZWQ2UVBuZjFyY0lYZGpldldnZnc2eDlNaVM5OTV6eDRGdw?oc=5",
+      "title": "What Is The Case For Waiting On Moderna Stock?",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOHlUa2xRWUQ1akY1WlFlSVoyQk14czdKbGY1VUVUcnFucW51elpYcHpQbFB4eklyQVhzUUNONVBWS3ZrX3dubE1ROEJIWW9PNWk2ZkNNTEZPd3A0RUdUd0pmTlNMclpLalFjSk5Ed2Y4ZmJQQ21NX2RtZXdzREZxTjF0S3c3RUlnck1tQ01qQ1c?oc=5",
+      "title": "This week in charts: Moderna\u2019s massive stock run",
+      "snippet": "BioPharma Dive, 2026-10-16T07:00:00+00:00",
+      "publisher": "BioPharma Dive",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd3JoYTcwRV9BTktUb0JER3Z0UG1USUVmblVPUTRaRERyMU9pb0gtczctRWlaNUxMdFhNV0xTX2Z4Z200UWFjNFdoY0F0UmxMSWN2R3dTS2xfZlNmSTVfamVQclhOeElUa2dvVl9jVzhWaVJPN0xLOVM4anV2Q2s1RWlPY3pMeEdrdEJaWVFyaldndHBsOHNNejd3MA?oc=5",
+      "title": "Phase 3 Cancer Vaccine Success Could Change The Case For Moderna Stock",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUGpKbm5BNnBxQ3lCVjZUYlFFWm1yZWJuWXZzcTZFSUZVRzd1UTNXUkVheTU4X2l5eVNaRU5sMjd3eHllS0NWSVJESXNlNDF1bXZ5ZTc3Rlc5Z2NDYVh6TFJSVUhHNUxOU2NCd2JGSC1UQ2h4b3liU2RLQTZIR3B0a3BmclotclpLSzRhZ0t6eTZvUU5jYVRtNERDRndjS1Jhc25Ed1RrdVdSMS0waFhxSTBnVHNKQml5ZWYtY2cxcm1zOXZ2SDM3TWROTzN1QQ?oc=5",
+      "title": "Moderna stock sinks as Wall Street turns cautious following blistering rally",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHhSdXJUSzdIeFNLT1ZoenRYU0hCbDBxSnNiNlhYVUN5UThQNm8xdVpqQ0F1U2xFcF9lLURPWU1WQWFfcTBmMWlmcFNjazUtb2hsWDYtbUZtQ3liQ1IxQWJkd0dkOUkwY3ZwYU9RSWJnVVBEeGw2SUNtNFBxUlg3MzFJeVRrbF9US1poRjVzb3F4Q3lNSDNZYldVYy1nQVpZc1Nyd2VxX0dqWXl1UkE?oc=5",
+      "title": "Moderna stock falls 10% as investors take profi...",
+      "snippet": "Pluang, 2026-10-16T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObENPU1hCVDlETEFvYWw0RnpQUVRndTMtbnNyVHpWOVNxU3lvdmJsNmhCTWJtNlhURHNBSkZYSElMMDlCVEpEcWVYQmdkcHIxRDRuYnEzeEQ1Mk42NVZoYll5Q0lZQVdyVGlPRFF4bXQtaWszR2VvYVZKcGlhLW1tSlA4SjIxWU9TM29pWVJJclBzaXEw?oc=5",
+      "title": "Moderna falls ahead of cancer vaccine data next week",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.784,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRNA/history",
+      "title": "MRNA daily price history (Yahoo Finance)",
+      "snippet": "close 226.89 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

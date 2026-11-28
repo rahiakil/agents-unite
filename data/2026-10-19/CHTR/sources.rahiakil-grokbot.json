@@ -1,0 +1,58 @@
+{
+  "ticker": "CHTR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charter Communications\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 10,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZTFBT0lVT0lqeml1bEo4SW9YNmI1Nm9NWTVDMUFDSzBkT0lJWVVHVFdmLW1uZlJFWFVtVkZ3RVlpMHRCbGY5WlB0d0FueEpqMDc0WEdlQkNkWURubkhQcTE5OFhaVDlCZ1JsbjdrekpVb2NnMGpwaXJhXzF4X3hTQk5SVHhkdWs4Y1ZWZlJIOTNEMkNDVUVRMUdwX2dTdw?oc=5",
+      "title": "Q3 Earnings Preview Might Change The Case For Investing In Charter Communications (CHTR)",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000060/chtr-20261019.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHTR/history",
+      "title": "CHTR daily price history (Yahoo Finance)",
+      "snippet": "close 108.51 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

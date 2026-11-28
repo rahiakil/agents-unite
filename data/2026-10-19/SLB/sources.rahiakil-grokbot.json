@@ -1,0 +1,61 @@
+{
+  "ticker": "SLB",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"SLB\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzI5Y3BJeGNBVVFhSm5TWWZKZHpBOVRUaWt1eF9qWHVTQmZRMzRNd3hZd0VSblZ2YTd2SjV4QXdlaUdhVm5jc1FsdU9oekVZeHVXOFlVR3RDYU5oLWhxVzAwWV9SazVnNTQxTll5dF9ycmppd1VtZFRrSGtYWFh5Qnl6azlpSGU1aXhxWDZVa2VkaFJ5?oc=5",
+      "title": "SLB (SLB) Gains As Market Dips: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMFNfT3pXbi1zTkNkekZJQnBQemVmQTV6bF9QLXB3VE00c2NMMTRQOUp0VTRBUnkxUVI5VjBnc2dQMjlSektHRmZTalYzUGdkVDZNb3FDaXo5NVhGY1BqZmRZOER1SW90TjYweTJLd0wyQXIxUjJ2T3A1UDA3dHlaeFhqTWlGRHdBZUE?oc=5",
+      "title": "NCCPL adds 22 stocks to SLB Category A, removes six",
+      "snippet": "Mettis Global, 2026-10-16T07:00:00+00:00",
+      "publisher": "Mettis Global",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SLB/history",
+      "title": "SLB daily price history (Yahoo Finance)",
+      "snippet": "close 49.09 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

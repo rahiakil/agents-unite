@@ -1,0 +1,61 @@
+{
+  "ticker": "HOOD",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Robinhood Markets\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQekVLejVpdVJnVkdKYXk4QVFvN0FrcFBFU09mN1BsdW5Xd1JpeFRVTVNGTTl5WVVENjZiQjF3Um1McFpwU2t5UFhzY2tJX1JYb2o5SlBMR2RNX3FuSUJ4T0lQWnlOdHBDSXcxYkplR0ZUNmpBMGpEY1UtXzhQUlNYeXZBa1AweG5XQURkd19jTHdiMjRaQ1psSkZXYkZURHdCb1pDRFA5OU16VV9WUUZDZmY3XzJDRFFnNHJqRXNXZnd6dy12LWtLM3lDdHd5dWxvZHZEcjV4bWhUYlNOTDV0QUQwUEI2WlRING5RdHozWVNQaUpacHc?oc=5",
+      "title": "Robinhood Markets, Inc. (NASDAQ:HOOD) Stock Has Consensus Target Price of $129.66 According to Brokerages",
+      "snippet": "MarketBeat, 2026-10-18T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNzBaRzNJdnlpakI1Sjg5cE9pS2psdktJN3gtYk9pT0tYN2VaRWhuSUtheUY1Qml1UVhmTmhPUUF6c0JfQlJYUkxhS0N6M3NMd1k0Q3BCUXk5TkNCSXBrLWRrYVFBSXR5aVNJaFYtWHY2anV3VlI0ZTd2OXVZT29GNm4xU2ZHMy1hemxXYV9yQ3NyMkhiRjJ6Ym00OW9JZ3ZVSjlz?oc=5",
+      "title": "Is Trending Stock Robinhood Markets, Inc. (HOOD) a Buy Now?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HOOD/history",
+      "title": "HOOD daily price history (Yahoo Finance)",
+      "snippet": "close 96.52 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

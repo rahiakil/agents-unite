@@ -1,0 +1,73 @@
+{
+  "ticker": "FOX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUHNUNXU0ems4eWtnMS1hTG9FUzdWcjNvWTltT244VFlPQ2t0SG1UeWtCX1BwQS1MSnhmNVhLSFZBV09FclVKVUwwcUlpQW1JNVhUUlZQYVN0UWZfUE9CSTgzOVVmTHhfVDBVUHROemszTDI2MGZVRVlzbFJGMXJrWmM4NnJ1cDB4RzNBaWtGUDBmTVR2VERnNTNQSVFtVUZRNEVr?oc=5",
+      "title": "Workday downgraded, Fox Corp. upgraded: Wall Street's top analyst calls",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORTVGVU9GakNNckw5T21sSkZCUndCWmtza0NPMFpjazVaQWE4SHNKTS03Um92UFptWnFUdmVlZmhkTFcyTUpKd2hKODVGb0pwZVBmbnd1b0JFTENfTlE1V2E5TlNET1A5Q0l6ampJLXJreFVEZ19kM2FINFdWWjBDem8ybm94ekF3eGliR1RRUnpzUE5XUEhsaWtFRjNiSmZ4YmJERWVvZjBCY2NXYVFSaEZxTFhQMDR6c0dKY3ZTdXVFWkwtXzAyMkNQOTg4ZnZ2UnAyWFpPQmtUdzBZdlo4?oc=5",
+      "title": "Fox Stock Is Gaining Friday: What's Going On? - Fox (NASDAQ:FOXA), Fox (NASDAQ:FOX)",
+      "snippet": "Benzinga, 2026-10-16T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05MTlBVWhBR1BncnBkWE1DVlR6akM2d3pQZ0J5M0VmaVRxMjFLQkx1TmxTTndSOGFnTVhYU2JJRGNnZFJxUEl3eTF3bExORm1KWktWQUtzM01rdjExbjhrdXExUEtWaWE1SzZNbVoxU1NOVXFkY1NNT1F3?oc=5",
+      "title": "Fox Corp.\u2019s Deal to Buy Roku Takes the Pressure Off NFL Contract",
+      "snippet": "Barron's, 2026-10-16T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOX/history",
+      "title": "FOX daily price history (Yahoo Finance)",
+      "snippet": "close 58.33 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

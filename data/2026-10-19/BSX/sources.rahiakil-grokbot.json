@@ -1,0 +1,49 @@
+{
+  "ticker": "BSX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGFEd0dKM0xyVG5fT0pZd2dZNDRTNllmUldreHJiZHRrSndVV0hGdG80UUhjWUVHaHFLcTBxT09ZQzRocm43cDR5RGhaNVo3RWxtVkRwU0Nxd0xjYVRDWFhXUEtrU2Y4a3JwSlhjeVpFUEZCaGRCaWdZaDEyQzl6OEo0ZTN6X1ppTG94NkdUZjlHcmZtTUdZM3R5LWExNFVKd2hacHp0bmp2RWpq?oc=5",
+      "title": "Boston Scientific: A Better Valuation, But The Turnaround Needs Proof (NYSE:BSX)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.238,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 45.05 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

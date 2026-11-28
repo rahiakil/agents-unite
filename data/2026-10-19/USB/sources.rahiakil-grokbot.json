@@ -1,0 +1,85 @@
+{
+  "ticker": "USB",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"U.S. Bancorp\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 12,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0ZFOTAySjQ3YUZTMGIxOW9ScDR2a3VzSHlVaFZBZ3hPc3pCM3dNb0R1akstcE5QU3h4NFloVE12VjlNZlRLakhfWEw0Y2xKeTNJNktTRFdMbkMwYjNLcExHSXpsLTdxYVJ0VnBmQTlPa1RpRTd6aDQyeVBOT2s2cXlLZmhmZDZXNGtHNUFyQWZQZzN4UjItVDFua0tVMTdrNWZ3d2ZsVWp3SHIyN0pMNmlYSTI?oc=5",
+      "title": "PNC Financial Vs. U.S. Bancorp: The $560 Million Difference",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb0NWWmdWUnRSZ1NEMXh1U2RyeDQweXU0THM4YURfZ19qTnFvLTN1MnVETEJ2UGFCcTZWS0hnTHFjcUpNekdvSkdHaTFlbHJlZ2IyTUlhbGJ4MU84MFZzQkEtVjcxSWJFSGVZMVpqc2lmbFg4UGJwYThnVVp0WDBCOGl4cw?oc=5",
+      "title": "Why U.S. Bancorp (USB) Stock Is Up Today",
+      "snippet": "Quiver Quantitative, 2026-10-16T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUEVRTDFsTHd6LTdZdHMyNFZmZ01PRF9SeXMwTm80MldnMGR1Yng3c0lvNmlhTkc4b05BcGRVdnIxNE80S1Y1R1FHdG5qX2lTYlVlNlh5U0JCRTFwc1V6WmQ1T0NwN3pwVUg2aDNPUUdXNWxONjhqQlMtc0p3RjdqeDlYOWhMQmQ3QV9hNEVBVnRJTVFPVnlCX05TUEJCa2NhYVVELWw5eWMtUkxIU3Z4SHNRUHl2TnZsRVF3eERud0ZJRE5jZXZfNDNtTXdnZDJ1YXAyaQ?oc=5",
+      "title": "U.S. Bancorp Posts Record Q3 Results, Expands Initiatives",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVG1CcFlqZEhxS2xsTWhYZkNGWXNhNzA4UjJrbVViOUtWaEh4NS1KMFpVeWljMHJVQzBjMHZPaWg5Um9oeVU5VjF0T1NYNmhsTjRib19PbWNRTmFxZmc5Zl8zbkE4UlllTmNZYkdOeFA5RldVSmJvb2FrbFllcjdDWEFfeWRfbURSNG4xdl9uVzNTWEtwUUE?oc=5",
+      "title": "U.S. Bancorp (USB) Stock Climbs As Q3 Earnings Reinforce Resilience",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/USB/history",
+      "title": "USB daily price history (Yahoo Finance)",
+      "snippet": "close 57.85 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

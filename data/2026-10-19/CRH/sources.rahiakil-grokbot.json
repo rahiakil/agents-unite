@@ -1,0 +1,49 @@
+{
+  "ticker": "CRH",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CRH\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdzFycGV6VzNSblJ2NDFZUGdTeW94VTRFOWc4ajlTR3lnSnhBMHpxVWhQWkV1d3dPN0RwNEVNaGFqWE4xaFc2d0loNUxuQVFsclJPeWZJWlZpcmFDcjV3d0ZCUTQ2YXFzQTc4dXlEc3RvMnZzaGtMUmU4ZkFJRlBxOXJ3cDVQZ2llYlk5MVFrVGZDVU82TW9YZjIydzVzb2lVNGItd1FVSllKVlZHQWpwbnNOTmtiUTVfMzVvbE5vTVE3Nk5WSHc?oc=5",
+      "title": "Joe Brennan: CRH analysts play catch-up as Wall Street braces for rare earnings miss",
+      "snippet": "The Irish Times, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Irish Times",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRH/history",
+      "title": "CRH daily price history (Yahoo Finance)",
+      "snippet": "close 83.18 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

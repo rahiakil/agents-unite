@@ -1,0 +1,49 @@
+{
+  "ticker": "NVR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NVR\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaXd0X0xqVlcyOG5uYldWdnk1WXA1QWk4SkF6d3dCUjdnWVZOMkExdE9SYWJvME8wZHBiaGlicE9DZnpKLUZYZWtQWEcxcXd0R0ZCTW0wZkdfWERSRmFvYXN3a2tmTWVnc2RJVHhkWkxINXJTYjg5MkVocE5mY1czbTZMVUd3eUFUOGRRcDBhd3B4UktTd2xvQmhFaUM?oc=5",
+      "title": "S&P 500 Futures Up in Premarket Trading; NVR, Cooper Lag",
+      "snippet": "Barron's, 2026-10-16T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NVR/history",
+      "title": "NVR daily price history (Yahoo Finance)",
+      "snippet": "close 5828.0 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

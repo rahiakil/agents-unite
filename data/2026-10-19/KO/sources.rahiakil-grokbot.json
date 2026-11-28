@@ -1,0 +1,121 @@
+{
+  "ticker": "KO",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Coca-Cola\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVFdFMWdoeHJPSGRSWTJZVlVpd2EwX0RQajFydzk1dWZCM1YwazRIUUxjdjNfdlo5TjZKVERqQm5yakFGUWpPR1d2WEhqdU5iaGVhT2lWSUFYUjJtbkNUaDk5cnY4aUlGRzY4TWZRcnkzWVh4dHNoRHhtZ2VoaV9JbVhDVHJuM0dNZ21zdGpoQUhKRnlHaUE?oc=5",
+      "title": "Coca-Cola Yields 2.3% and Nike Yields 4.4%. Here's Why Only 1 of These High-Yield Dividend Stocks Is a Buy This October.",
+      "snippet": "The Motley Fool, 2026-10-18T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ0R1N2NSbkd0OTRWTE1nRmhkYVl1WmJrWjByVVNrYVdEM04yZXhMUk4zUFVHWXgwZXhoR2pUNmVxZzZLRWFHai1SMDQ3ZkJqMUo3S2hzUGRtQlhwcmZRYURfenB5MC04dnlCWDhTMUJxVXBjcFpoYkJKdnJoTkt2aUk2eFpLWElMU0RhemtVZFVnZVV4?oc=5",
+      "title": "Coca-Cola Stock Is Up 39% in a Year. Here\u2019s What\u2019s Driving the Rally",
+      "snippet": "TIKR.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX08tWmQ4NDJ6bU1abEtEN2I5Q0ZJeGlRbW9teUZSanBlVjBRRFdxREJFanlYa1BjaEwzR3NEZU54cnlvSTRqZk1rS1lLV2xvLVBWbVBVcXZRLUMwMGRFaVUtb0c5U3lwQThKbWVvM2lKUzIyY3BHTEh0SnkyQlBCOU1SSFl5WFpQY0ZoVUFmSVJCZw?oc=5",
+      "title": "Warren Buffett Paid About $1.3 Billion for Berkshire's Coca-Cola Shares. They're Now Worth About $37 Billion.",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXpZNTRabExnWE5YeUNUTERXZHF2UjNmSU43c3RDbHczRUJUTk9MY2QzaXBlQUpXQ1pFeEQ5YzhGQ3dTNk9ZOEVGdzRhd0JxUHhoenNqQnZtajAyQVVHYzBLb2FhWXBmNkRJamd0aUJOd2o1cmt4Y3pRSExkcGNncE9JekJnZElKWjBMTThMckNqOGxCZEdVUEc3OUNuUnJGLVN1YWQxaGNxc1d0RTdoQnNhZlZmeU9GZFNnZkV5anItUUpaeVFuV2xZVnRTMjNmTzh1dFVVd3pyWHpO?oc=5",
+      "title": "KFC Had Pepsi for Nearly 40 Years. Coca-Cola Stock Is Trending After Winning It Over",
+      "snippet": "Benzinga, 2026-10-16T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TZ2ZZQ0ljbFNOTmVNSFA4R2hJVFRpTVpKbUpZUnl0QmtvVUZqdVJocnVpcmFjTVl1Y2tuLWJJaW0yWUxoMVhmU2J5Z2cwY3pPNmtvdndNYmtBbzBRQlpabU80cnVERlBvTVk2NW1uUjdQUU5FVExSM0ZFTQ?oc=5",
+      "title": "Coca-Cola Wins KFC Contract, Ending Decades-Long PepsiCo Partnership",
+      "snippet": "TIKR.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFBSUlZjbHhjQWE5dDVzZHltN0p1aEl2d21RXzdmemZTNWJsaEgxQWpmMzZJd0t1aDllbHlGVXZNNHplTGQya0Z6bFYxc3JPSGVFNEU4NmJtcEdGaVEtQUFpdUVfTjlWeTVVVGVhTUJwTVJTU2V6VTQ5TmlkREtmWFR5Y3ZPRkQyd0JHV0lPd0VGa2ZoNUNnZlFiSEp4NEhncVFhNUJHZHAzOGc?oc=5",
+      "title": "Coca-Cola Hit a 52-Week High on October 15. Here\u2019s Where the Stock Could Go by 2030",
+      "snippet": "TIKR.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRW5iZ2FSVEVGWG9XSDdjeUJnRXhuX1dXUEZvbTRUMGdCUjZleWVranNpaWNMTmhETmhDR2QyRXpQVFFUSTE4eHFDY0FtN3ZWNzVqZ0VZcUZxMGhEQzdCSzRua0hyOWIydTdqb0ROcWxtd0g4ZUEwM0xQMlFEVlR4OHdJQ2FlOTlBWXJ0b0kzc0tNUQ?oc=5",
+      "title": "Coca-Cola (KO): Is Zero Sugar Creating New Demand or Shifting Existing Sales?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KO/history",
+      "title": "KO daily price history (Yahoo Finance)",
+      "snippet": "close 93.42 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

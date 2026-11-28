@@ -1,0 +1,61 @@
+{
+  "ticker": "EME",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbmo4QXgzVWFybktPanEwYlVKUG5NZGYzd3NCRV95UXJXeE5aS3laRzA0NmdzTkZVT2ozX1NWZ3BQUHhMYmZfSHVEV2lSWUZsTWp6VW5IWUZJS25jN0xvTVFwamRsUFJZcGctTTBNbnB5YzJkVG5ud3NLbEhubTRVbExlcHcwai1tdUt4cU9KbVlqNUdWdnp6RmRvMWQyTXROQ1E?oc=5",
+      "title": "Is EMCOR Group (EME) Outperforming Other Construction Stocks This Year?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVEYyWnpkeEdlcnM5RG5uZFR5Z0UxZGl4QVhKQWxORE0tM3p2SG9yZ1liYjQzVnFfVXNmNGZseHFnMmtXZFVNOGhETFdnRWdmSDlka056QVk2dmV0ZXVZR0Rzd2l2MkdvekxBemlIS0NFS3FXZUlqMkZ1Ml9Xc1hVZHM1Rm9aZi1yTGJOOHdLUUR3LTVZT0NHbzNHelE4QXVFbWNIdVVNNFo0RFRVTU5Jd3NXdV9CMW4zcmhLQzkxeFR6TGxqZ292RTZrWHBxSHhoaExNRUU3NTN3VFdYSDhVaE1Bc3lUQQ?oc=5",
+      "title": "Can EMCOR's Turnaround and Petrochemical Work Lift Industrial Growth?",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 716.79 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

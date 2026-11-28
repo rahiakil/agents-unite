@@ -1,0 +1,61 @@
+{
+  "ticker": "FIX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comfort Systems USA\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNc2pmOFN5VG40QmM0UnZmcElDWFFEdDhMWXVRbnM4cUhpR0ZKdUs1c1g3V25xZTg5YTNoT3lnRGZkQlBPUF9GeG51QlZQMWNtZmE3T3BFU0R5dV9sclBoOWl3bDdFQUpXbjRpRlBjcGlvcmRoZnQxZTFmTjVXeUVveGt0X1FMeU5MMEdqalRjd0Q4NU9YMTN1T3hRTlBBTHduMmd1a3BrMGgtdVlRUVllR1Y3bkF1aXk4NjYxSjRZQnlEOGdVQ2R6WEJydGlQdjFEdjd3Und2VdIB3AFBVV95cUxPSi02Y2J3NWxad3F5UFpOWjZ6RVZKal9RQ1B2dFRMNk01WXA2ZE9FVzBheVBLZW83dHgyd2l1MlZLQlBNRTRseWlpcnZXeGFNSmVHLTQ0S0hSTUxQQmZFRE1fMTZ3YXNuZnZYaUpRRnZDYUo4ei1SVm1MWFUwdVBhb0pDRGc3SEVFSXMweFctbjdGbVpIV3Vod09fcVlIWWRIb2x6bG1uVE9MdmpVbDF0LVBaVnNFRGhpSlN5b05SMTVNVGJTd0JvdlZTLUFrR3RJdnNJcVhZSThwQi0z?oc=5",
+      "title": "Is Comfort Systems USA (FIX) Still Cheap After Its Huge Rerating?",
+      "snippet": "Simply Wall St, 2026-10-16T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYm5ia0ItU1p5QUkxSU4xM2c4Z05uTF9LYzN6WUV0X05fTVhsejZEMDB6RWlORWhtaXhCVWY3dDdOVHVmNTd5YXN4ZTlHdWhaSjM3dW1MbnpYT1VVeUFzb21IRVZzYjFyZUNhanAzczZMU3JNOGp6VGliaWxuVm1MYkIzS2hLSm1SM213NDF1Y1hCS1NrZjFhMmxwdGdMU3RCY1M2dEYtUzVvLUdjbkVHOU1EbHIxdzZkWndzQWgxYkpFeExDaXFWX19LVWtDdw?oc=5",
+      "title": "Comfort Systems USA Announces Third Quarter 2026 Conference Call and Webcast",
+      "snippet": "Business Wire, 2026-10-16T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIX/history",
+      "title": "FIX daily price history (Yahoo Finance)",
+      "snippet": "close 1464.0699 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

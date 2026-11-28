@@ -1,0 +1,61 @@
+{
+  "ticker": "KDP",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keurig Dr Pepper\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOalFPcFBHbzFwUXkxRTg0NDhKbGQzbVhYMUF2QmRSS0JKaXAwMUJham5zY2s3TkxwMmxHS2JIeGp6eDRFNFhNd3pJVVlRRmxqTHZmSFUtT2FfNkZQWDY0MG5uU3JKR1FXbWl6Nzg4RVE3NHhBRmxIOXZ3TU1JNXJCcHRVODVRc2lscEtPTkdYckpYSWpSckFFYW5sZ3RIOHNSM3psSG9BNUZwVm5QR2RMclNOdUUxWG5t?oc=5",
+      "title": "Keurig Dr Pepper: Acquisition/Spin-Off Uncertainties As Commodity Risks Return",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3JfUmlWSDZvU290aTZmanVCT3JzYk02eUk1RXF1Y3lpTVZMV3M3b2dYS1V1bHZabkR1N0JqRFBVei1nNXFqMXJXOU0wc0toMW4tNzJwQzVzLWY1NHlOWEVnUi1KRVh5YVBoTDFWdkZ2dXJZZ1U3aEpRbmlDckFYbEtER3VjYjF1?oc=5",
+      "title": "KDP wraps up JDE Peet's buyout at \u20ac31.85 a share",
+      "snippet": "Dealroom, 2026-10-16T07:00:00+00:00",
+      "publisher": "Dealroom",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KDP/history",
+      "title": "KDP daily price history (Yahoo Finance)",
+      "snippet": "close 34.46 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "RCL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Royal Caribbean\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 7,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcy1mb2ZTLUZtal9YUFJUend5dzhIZXZrbVpET2ZWbkdBWEdTRzM2NWY0QmstbTNNODlQcW40ZWR1cDZLTWRuS3djaHI4bVZUT3RTN205cGJxVDFiNXJRLUFTS25jQ3JZQzR0QnhqQ1M2V0Q5cWN0SHptTkVxM0hZb2hxQXlnd0ZfaEMzSkRMV0YxQQ?oc=5",
+      "title": "Royal Caribbean News Round-up: October 18, 2026",
+      "snippet": "Royal Caribbean Blog, 2026-10-18T07:00:00+00:00",
+      "publisher": "Royal Caribbean Blog",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWQmptTl9uWWdPdmo1c1FqZFRJQXJCanVDWmNBLW9mM3VxVDJPZGUzOG1XUTVobFJzc2hlamhkN3RLRjhJOUd4d29XOHlkVnpSV2Vxc2ZTUFFzd0FSQm5tbzBRTlNQRXRvZHUtS3FoYVRneDhpVFM0UzZQMFY0UQ?oc=5",
+      "title": "What Royal Caribbean\u2019s $3 Billion Sandals Deal Means for Cruisers",
+      "snippet": "https://travelhost.com/, 2026-10-17T07:00:00+00:00",
+      "publisher": "https://travelhost.com/",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRmV1LVZTNHRLb1VWZFJFWWMzQmp1aGdpa0ttWDdIVHY3ZGhEV0tjT3YzVDcxWkdhamRkclAxRzdlX3ZIcjJVOUZ4ekFkOWpZSXc3azNMQl9INWxBWS1majVUbWVsZ2pQaHNmLTFzeEJERXZvcllZWE1rT3Jtak9iSE1IRG1fNUxJNWoxSUFldmN5WmJqM0JDaXpLWllRTlB2?oc=5",
+      "title": "Will Royal Caribbean (RCL) Beat Estimates Again in Its Next Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYzVwckFzOWF1Nk01R0Vtb2hKS1M3MGFtaHNJLXpLRUZKeEVLUVBKc2lVbWdUQ0lscEJ6a0Z6WWdGZ0RvSlFsUzRyN1c4elJub2lDa28zRndxV0dDcHBLTkY0MmplQjNqME5mY0lGc2pwUmtjclNfUWJOYnpDcEttbGNhM0lETVpCcDY2aDNYdG5GSktGZm9LTFBzRmZyc1NXQlZpVw?oc=5",
+      "title": "Should Expanded Europe Lineup Require Action From Royal Caribbean Stock Investors?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMVRHbkt0TW9tRzd2dzdnMlhiZEJ0dnZHZWw0S2FGZ0wzalBwNnJ3em1WTXlKN1lWdlNoNmN0c3JtMGI0TWc1UlVZN2NOdmhBR2NuQ0FXTll6Z051V0M4YUtkZ3g3WUhOek5tN0tHQTlzbHQyVFJqdUFzSjF6QVZScEhmYUFmVDRLaGNEeW9ENUl6cDQ?oc=5",
+      "title": "RCL Stock Rises 12% in a Month: Should You Buy Now or Hold Steady?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQV81WDNkT0g2ZXlDN2U0R0p1aTVKRmRLazFiczJwbFhPX2ZBZ2FXTkxzelI4Y0FvZU5EQ29pd0JqUzdpTFFydzQ0OUVZU0N0SlNqV19PTlAxUFNJc1ZCUWpEN2k0WUM2Y3E5QmdJeHJpaU9LYlE2TkdudVg1cVNBODA2R2lTWkFVWEI2YzJfaDJzQ01xRl9N?oc=5",
+      "title": "ETFs Are Net Sellers of Royal Caribbean (RCL) on Oct. 14",
+      "snippet": "GuruFocus, 2026-10-16T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RCL/history",
+      "title": "RCL daily price history (Yahoo Finance)",
+      "snippet": "close 281.97 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

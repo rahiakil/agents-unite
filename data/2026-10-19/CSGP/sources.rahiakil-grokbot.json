@@ -1,0 +1,61 @@
+{
+  "ticker": "CSGP",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CoStar\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSW9hUHRuZjdQbjh3QTFycWFtR3pINDcxQ2dTellNUWNwX0tRZ1Q5Yl9wT19ublJSa3l0c1VYS2Z3cS1IVWp6ampQd2tRSm9NblU4UUlvdGxEaG13ejNPaU1iaGktNDZJLXJzUGdyRHFpczkxSlNvOHpBa29sQUFWSTliVVNFcVk?oc=5",
+      "title": "Lori Loughlin Shares Hilarious Plane Video With 'Full House' Costar John Stamos as He Tries to Keep His Distance With His Dinner Tray: Watch",
+      "snippet": "AOL.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "AOL.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa184T2Y4ZVpYQWppWTdIN0JKaWN4SUVvZkVNWmp6dTZZNVllVUVESEVWOFJSV0pMVG45VnJNLWVjWE54eUZVR3ZDb1J4TEdaRUdSa0ZRMDdzVWxGamFoUnF2cklGOWtqbkFyam52RU5Kd3E3bW1FT1RoM0w5WkN4bkdibFVadjNuZ2YxX3ZuUmx2Tmlsb3c?oc=5",
+      "title": "Learn Why The Bull Case For CoStar Group Stock Could Change Following Apartments.com Weakness",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSGP/history",
+      "title": "CSGP daily price history (Yahoo Finance)",
+      "snippet": "close 31.81 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

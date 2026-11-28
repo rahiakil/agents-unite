@@ -1,0 +1,73 @@
+{
+  "ticker": "BIIB",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Biogen\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemxnejBocFFZMmRPSVFQcW5wTEIxMC03N2owMHNOMHdyOG9haXZicnVpTjFKaHJtYXhMUjB3Z0lSZS12WG51aTBtd2NrVkRYUVptaGRhcmtnUHhJeUVYWW5aZXJ3Z1p5a0Yza09nTHJPV1IwVVVPM3lCc0dCdDJYc3JwWWJqTkwyUUs0RllVbjZyUVpSTUh1eWo1cUh6V2pGaG9rQTJhZnFnc1E?oc=5",
+      "title": "Biogen: The Bull Case Is Extending Beyond Alzheimer's (Rating Upgrade)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa29KdGZGU3B0NlBSeFdVYmJoNkNfLUdKOU90SnlDZDFGTDJScjd2M0J0dHdqWUFERXhPV3JyNjFyLVFvbGJKT1Y1V0tMRjc2Qm84d1hveXc1cEdmbWFtTmFZWWR5WUNRTGpYOGcwRExwenhlSUZKbjhRX1pTSGdLdVdFeWphekttMzRIV2tMNWlvbmNhRkE?oc=5",
+      "title": "Biogen-backed Estuary nabs $93M for kidney disease gene therapy",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS3lkNUREdThFbDhPR1NEcVZvcGVCYnU1VXRtOEEwXzBuYUt0cUpJVlp2R3Z2QW5xRTRGdVFxR0lWbTFYVy1nMG4wNGtTMkNuaGR0WUdRUDYyNTRWRjgyM3R3NDNQMEppRVBiQjdtZFF4WnE3SW85YWdENk56NWhSOW5FWm8wWGM?oc=5",
+      "title": "A kidney transplant milestone has Wall Street excited about Biogen",
+      "snippet": "TheStreet, 2026-10-16T07:00:00+00:00",
+      "publisher": "TheStreet",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BIIB/history",
+      "title": "BIIB daily price history (Yahoo Finance)",
+      "snippet": "close 233.48 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

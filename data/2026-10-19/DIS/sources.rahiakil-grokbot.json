@@ -1,0 +1,109 @@
+{
+  "ticker": "DIS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Disney\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVJmZnB0VFdNLTViWWVPOVQtN0pHeXpYaTJCbHB5cWxYUEtmUGZ6Mkd2U1kzU2JPWVpLTHVGQzZISmhDbGdhOWdRREx1cE1KUHZYREd2QW5OcEtSTTE2U05XYlZ5RlJUMklTZXV3UjdSdkRlTGE0b1MteUNjZFhuX25SRVVIS3c3R0dxckNmZFVyNW1sM3c4U3ZULTBvck50Q3RWMVh1MG4?oc=5",
+      "title": "Disney to Pay $60 Million Annually for 66 Character.AI Employees - Alphabet (NASDAQ:GOOGL), Alphabet (NAS",
+      "snippet": "Benzinga, 2026-10-17T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHhsdFBhNGcwVHhweDQzYmJxUksxNG1FTGtPRkJPbmUxTkZEdTFqTXpFdk00VVVtNDBTVTBOOXdxcTNQdjA5VE56Z1VyZXBJNGRCNXBHLU5EZFhLR3NUcVk4S2JfaVVwTFF0QUd5RnpkWmpjU3VJakdHRDBiSTRlREZ3ZHFqZ3Iwem9KQVhURDFmbGhzR2Jr?oc=5",
+      "title": "Disney offered a 13-year-old $2M to sing in \u2018The Lion King\u2019 - 25x his last paycheck. His mom said no",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbjdTVXZJOGE0X0xkOElrTUMtZkZlRXA3RVR1bl81QWJGZnAwR3QyTWh2dzZPX1JSd2lzQkZhbEhNTkRtSWh0cTljcGlqZWN4alFwdm5WMWRRc1J0V20wend6cFNqWlp4SkQxeXRJMDNEVWNreWN3ZGluNXNiNG53MXNOVzdsMEEwZ1JyNWx5UVNDSC0wVlJ4ZA?oc=5",
+      "title": "1 Stat That Makes Walt Disney (DIS) Hard to Ignore This October",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORHRtNDh3TmU1MlFQZG9BbWNjTks5aFhJR20xSDUtZG53Z3NZNmk0SVprN0RiOUFkbXpteXZ5NTZuYzZFRFoyT3VXbWZjRUNlNlYtZFBScHhza2Q2cmtwV3hyTTJ4bmtPWUlIajloS3pWRU0yd1V3UGNSZEkzZ3RsUU44WHJJUQ?oc=5",
+      "title": "Netflix Stock Falls After Streamer Replaces Content Chief With Former Disney Exec",
+      "snippet": "Barron's, 2026-10-16T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ3dMd3VWQTVZM1QzSjItdlZ5dU0zZU9rZl91UndsNEsxMVVzSFo3ZmtBUEgtZUY4b3ltdEQtOGticjVKSmhKMGZ3NWZ4bExidm5lUF9XSTNZSGJHajZaQ2cxVmttZ0RWS2pST1dOcjVadjdoYWNzZVVvS2xvWElTWkdwU2JfZGxJZlNfVGRGVi1TSFlNUkoxMnJDeUtUUFhxY3Z5WV9CUXVqcWxjaXdiMTRhbDVYemxKMElzd1lQblo0S0dwenFTZVFlY3hzTi1kR3Bv?oc=5",
+      "title": "Netflix Falls 3% as Peter Rice Takes Over Content After Layoffs; Disney and Spotify Hold Steady",
+      "snippet": "24/7 Wall St., 2026-10-16T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeF9HVm9ybWNUc3lQazFFN1FBSDk5eERQNm5DaUt5c096MFhxd1JXMDFFbmZVWUVyR3pEc3FSQ0pwTUczTF9qTE1kWjlRVmlUelhiVFd5d0xzWlR1N05hb0tkbHVzQ1lkbUVGWnhmaGlkVjhpbERmWXJ5Rm0zTl9RZFVqbEdMQXBwZEZTZkFaSUktZTFqVTNBdFln?oc=5",
+      "title": "Disney Could Buy Character.ai. What That Means for DIS Stock.",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DIS/history",
+      "title": "DIS daily price history (Yahoo Finance)",
+      "snippet": "close 109.59 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

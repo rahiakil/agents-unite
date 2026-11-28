@@ -1,0 +1,49 @@
+{
+  "ticker": "NTRS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northern Trust\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbnhVeDd0YUROY2tRdHRZTUlwUTl0TW5BSFdiWGRiQ195ZlQ1QXk5Vmk2T1B0NFBWcXJMcm5tcmpxM2tLTlJZWFR5bi0zcFRGZnA2bnI1U1dXeENVRUF6a3A3T3JpWFpwMUNJcll0WU9CTEwweDNWREp1YjdrcTlZcENwRWpnYWQ1QjZ4dGFoQko4T2pxOHJfbmVwVmlFdw?oc=5",
+      "title": "Countdown to Northern Trust (NTRS) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTRS/history",
+      "title": "NTRS daily price history (Yahoo Finance)",
+      "snippet": "close 164.46 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

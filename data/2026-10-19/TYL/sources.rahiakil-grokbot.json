@@ -1,0 +1,49 @@
+{
+  "ticker": "TYL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tyler Technologies\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWFJtd1N5ZEt5Yzc2dkZCYkJ5LW93cE84QUFGNWczQncyWGhqYlJybTRXQjY4eEtjellkZms2WmVsZzNwclllQkNzeFlLWG1JMlhfZUVMV1V5RjdxS1RwTUtaWFViM2ZhY2NaalQycEszOHVCQ0NKNzg4THRNN25DTV9uOWVySUQ0VVNJejRuWEhaYmpaUVJ2aEN0OXlxTzVkb0xFckJJZUY1NHZw?oc=5",
+      "title": "Tyler Technologies Has Withstood AI Risk, But Upside Remains Limited",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.09,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TYL/history",
+      "title": "TYL daily price history (Yahoo Finance)",
+      "snippet": "close 360.09 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

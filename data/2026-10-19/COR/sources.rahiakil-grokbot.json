@@ -1,0 +1,61 @@
+{
+  "ticker": "COR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cencora\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVHVpWHpfcUI0aEZEV3hlTFRxUXFWS0xrWmFMQlBMSHVOekVPUmpWd3VzZGU5b2RESDBucGd0OS13OEE3QUlVZlM0WUF2aUZQTnZwZUFjLUNQQndUZGlKUjhkbzkyMzBTOGdXZDhfOWZwX29aWGNFNnd4RWUwUGVGcEpNZTdNZi12Y1ZuNmp0SEZINE9VLTdYMnhLal9BUjNMRGhtdnF1SGFLdjFsSXhUbkl6dWVMN2RrMHFqcFpjaFpsQdIBxwFBVV95cUxPNm5GWmFpNmNrMS1vVFRJVEduQXQ2TzV4TDNTMUZzUVd4ZlJMZWlPMTU1dGpMS256VVU1OGtURjBSQUNkR3NiZVN1RUZRVmVsQm1MYkxISEFnSFB3MkhkOFFmQkR1SUpsMmM0TEhlSWM5MTZwMXV2Vi1VQUw1UzVtRnlaZzFSYVdoaENOY1VaaXE2Sk9HUXo0TWtyVm0zR1BfY0s0a2stcHdwWHYxeExqbGY1UXRPRHRaM0l4Z2dRYUNTa1lHQ2xB?oc=5",
+      "title": "Will Raised EPS Guidance Change Cencora (COR) Stock Narrative",
+      "snippet": "Simply Wall St, 2026-10-17T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbUxpeVVPZDF2dlNqU0x4Rkd4amU5R25wSlJUVl9ka2hwUm5TbFRHb0NjcE02WDR2TGI4QXN1Q1EtdGp3Q3lGZDRSZVJpTmQxc2VaSVVGcVhzZ0tDRU1XbEpqeWoxemt6cGNhcHRMdlpwbVFxejAzeWMzRUdIekpvM09aZDdQOGN5NHFTZWpLM1ZvWER0VXc?oc=5",
+      "title": "Cencora (COR): 3 Reasons We Love This Stock",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COR/history",
+      "title": "COR daily price history (Yahoo Finance)",
+      "snippet": "close 340.0 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "KLAC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KLA\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORDRZTDFXOEpYY2ZIS2hrSVJtVXZsNVYxbnkyZHB6NXdUaVFJMVNMUE5QbG1Idl8zb0Qzdlo3REthaWRZNWJsbndvb1BjczVZTHB0YjlGTDk2RnFzejV5YTl2YVp2UlppNkNxMmN5VUV5R0VlQ1lfMW5NazlaVVhVSE1vNF9ZbUx2RWNBQmpaVDZwbUFHcWVrS3YwU2dTZVkxSTBjbkpfUUJOdFVYaDl2OXZjU2ZNWnllcExVRmM2R2lOa0h5clBn0gHMAUFVX3lxTE15Z1pNcy1mZWJlWEtyWFFjelJNUHJIei1FRGI5UWJWQmRUeUg2aWY0bmpqc2ZpcHZkRHVmQnBUOEJlX1Z3UWdrN3owcWY2bG9VZUFyR2VVTUtJUTZUbGtNb1pFNUl0bUVzVlBzNUlrV1FWTFY1dVZPeVRxSDVqRjdoVUcxWWZ4V0ZNYUtzQUFPNDlkRU04SVVEV2h4WXlXeGQ3MFJCREEwalB1Q0RINkhYUEV0YnZBQ05mT0Nuek9iMGtpZ3MyWnhheW05UA?oc=5",
+      "title": "KLA (KLAC) Stock Is Caught In A Historic Chip Equipment Losing Streak",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPenJtSmtCdURVTFVaVHRhWUZBMzIyNGFlRFNOeElLMU8waTFvVk95b3JUR3ZoXzF5NXY5ZlV0RnV6MFVkTUZyUk5HQ3RhTHBGMllXMVVSM1oySlBVVEd1QlBOY3pHeXB0YjBiVXZNV3UyMm8wTC1JOWxYNkJwNlotRFBaTTJnb0ktUDEzb2pHNk9zczJETks1a0JMMks0Q0lldGdjZnFTRVI?oc=5",
+      "title": "A 10-Day Losing Streak Has KLA Stock Down 20%",
+      "snippet": "Trefis, 2026-10-17T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdU81S2RydGt1UDE4NjVWVlhiWnNGaU1ORWk3ald3ZnpOV0ZtTnFWM0ljbTFabGJDbVo5Q3hOQTVrY1pXR0J4TmZNM25mMUYwcndackpZUU5oNUktUEZFamJGYjEtWmRTbkd6WHpXOFpia3hXbVdRTlFYM29fTkFEWjFmVk94T3pIU0JCU25wVjhDcXNrNWotSFNqa2JGMXc?oc=5",
+      "title": "KLA Stock: 9 Straight Red Days, Down 16%",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY2JfdTJMRWFtQldtNTFtaXBMZXR5Q2I1RWxqRFk3QUJzTEE1WmdLYU9HTWlGZS1venJ1WDFvaHZ1TGUtQWx4djNteGRIcktWbEVXdG5HWFhFYi05SEpGNXpLYzhLejN1a1lUay1NZzV4UWp4bTdjanVienBRektnLWhUemd3c2lHQWVZb3c1MS1kMTUtMWlGd2tiM3ZxZWlyZG1uWFRNZHVvNFgtOFY3d1RKTTFrbzZvbEo3WHdoV0pNdHZGNWxqVExkVQ?oc=5",
+      "title": "Fund Update: 248,700 KLA (KLAC) shares added to PineStone Asset Management Inc. portfolio",
+      "snippet": "Quiver Quantitative, 2026-10-16T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KLAC/history",
+      "title": "KLAC daily price history (Yahoo Finance)",
+      "snippet": "close 166.4 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

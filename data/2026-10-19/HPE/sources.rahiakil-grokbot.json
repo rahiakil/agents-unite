@@ -1,0 +1,133 @@
+{
+  "ticker": "HPE",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hewlett Packard Enterprise\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVjlhWjEyc081ci1yNUNGUVp6WDVDc0Fkd1lzcV8zNWFzaG1PMjNCbkljYl8zeDlEaHh2Wm1uYXFBdTFXa3lBLXlic01xd2dCU0JCdVJnM1l4ZzBqWkhfR0dyYnc3QnR3NHVCa1lxd0NtVzljWTM1d0RrQ2tpWjE5NkFMNHpBXzIzcGFOLWtZMk9xeWJ1blZ0c1pWRm5WMXprS2gtam40aFd2WE12U1NNc0g0Qkhodw?oc=5",
+      "title": "HPE Stock Alert: Barclays Just Delivered A Stark Warning After 145% Rally",
+      "snippet": "Barchart.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOUdTZWF0bWNmc1k2NUM2ZDBadjR4QXd0LXBnWFVtMDJ3RjFWOEF4bGh6OG9jNXFiVWJVenBEeXlDU0tqaU1pQ3ZfcGhzS2ZxeU9QWE1naHVvYTM3ODFWTjAzZW1LQlA5c1lXVnphVHctaGlRYmVTMTZRSVZ2UjlYekJiTjZJWEhXU2RjR2l6OEUtX1BRYVNaMDAzWG1ySFlCaWJpVDR2Tnc3emx5SHZPdU82dHRtNEdfQ0JDcFNXdXI4NWs?oc=5",
+      "title": "Hewlett Packard Enterprise (NYSE:HPE) Shares Retreat Despite AI Orders and Higher Revenue",
+      "snippet": "Kalkine, 2026-10-17T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjUtaFdITGpGS1h0QVZmdHVZNmRaR3hEOWRUU2FGWmNfYkRmRXlTZTA0eWtmY01VRDk1SVF0MnJ0clppQnNwbWdLYXRGYjdnajFSOTcxNUJqaTVSQ1I0d0pQRlY1Zk5KVkVOaE5hUENPbGs1cldPWmkxdml1VkhHLWFqZFZoSDdObkl1UmNKb096dmJLZnBNMkNZYnh2cWNjOXpwWFdHb1hpVWxQcFFlQ3NHQQ?oc=5",
+      "title": "Why Hewlett Packard Enterprise Stock Plunged 20% This Week",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOUURuM01rRVgzajV5cC1OX2liM0xXN2R1ZUtCaEtBMmJ5WDVlYjRqQVJqNGhOWHF5ZjRBQV9XWWV2NGhyRmd6RFlMT2NGNFdZQmE2WWRERC1Gb21pSE9nNkhsNDhRTkhtZzRoV0Vqc2l4cmhZMkZ4WkNxdFVDRS03YWtLWHZMVEswRmY2R016SGk0MEVDYlEtMHYyU1NySmUtVlVfU2lXT2o1MzBFUEtJT1JaQ0hwNXFqbEZrYkpmXzg1ZWwwSjA1U1RjTG9xM2QySVhjcFcwN1Q3RW8wTTNiX2hQd1hLT2RRWjA5RFZ5Sk5JSGFUcGh4el9rSmFVd2pKeTdWRFNhMFItY2JX?oc=5",
+      "title": "Stocks making big moves this week: Hewlett Packard Enterprise, Frontdoor, Chipotle, Domino's, and Manhattan Associates",
+      "snippet": "StockStory, 2026-10-16T07:00:00+00:00",
+      "publisher": "StockStory",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdGlvVHNtejRjQXI1dlR4cHRLN0Nka1hEN21zc21tRjEteTJOTm40WnF3VGVNTlAwSU1qUXIzYTc3TnJLZ1pTTHFLeW5HMU1xTlhlazFfeTFCLXJCUXZPeWRvbWhBWXlSSmpZSDd3bWtEaTgtMW4xNmxCbml5aHVhNjJxcVloQ0YzOVhETUNDdjN3Vml0akV0M0JnamRSdnp5?oc=5",
+      "title": "Hewlett Packard Enterprise Falls 5% as AI Financing Worries Extend Hardware Selloff; Super Micro Sinks 7%, Dell Drops 3%",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.813,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZnR2MndTNWNTSjZPWXlUYTZpcXZzZGV1YmVKQmtTbVlRSUwzcl9aMjNCWVZMdXBidERyM3Z5OV81UDlBampPTkpUZVFYNVZPTTZsYXBvY2NELU5ELTV1OENZbndTZXgxMElXN3lKYkJNX2thejE2WDhlSTYyZWFNazVaRm9KV3RMcGJJVkRLZ1lmaTNDbVBXVV9yYw?oc=5",
+      "title": "Has Buying HPE Stock\u2019s Dips Paid Off?",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWExPUlBUcG9IRmcyY0g2Z1BuS3Vfd3RBaDlhMkk0LWVXSnNyRkZaQXNLYk9keldDdlYtcnpaWFZiWjRiOFU5a1dfTmwySTNiSEhLZ19SWHNZcFMxbV9scjU2T2tBV2M3Y3dIYkwzOElRQXFlUUV3?oc=5",
+      "title": "HPE Stock\u2019s Worst Week Ever Exposes Wall Street\u2019s Newest Fear",
+      "snippet": "Barron's, 2026-10-16T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.832,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR1VXNGlXSWptM3IzbzZuem5OS0hiNzE4S1BRdXJaU0s0Vmp0WG0yTXFKakloQWVZeHNKbTU2STk4X3Y1bVQyT1p3NEJEbThwc1IwSnBWVEg5SHFEQ292eDdmTDZaYUJmNjl1bVpMOFc0bWluTmRkUDFZYi1XanM2LUVHaFYyMnhzZF83Umx2R29iVzBJMmtFNw?oc=5",
+      "title": "HPE Stock's Worst Week Ever Exposes Wall Street's Newest Fear -- Barrons.com",
+      "snippet": "Moomoo, 2026-10-16T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.832,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPE/history",
+      "title": "HPE daily price history (Yahoo Finance)",
+      "snippet": "close 55.87 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

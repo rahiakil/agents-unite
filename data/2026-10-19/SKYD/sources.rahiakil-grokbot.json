@@ -1,0 +1,130 @@
+{
+  "ticker": "SKYD",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Skydance\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONUZQTG5jbHNJdHJoNjE2ZF9nMzg1Y3RqdHVzMFcyODZmQnZ0am5ZS1U0S0NwbzZCT2xsVU4xNGNrbDF3a3VEb3l5ckJUbWdWNXQ3Q0c4VDlaVUpmSHBNV055SmxCOVNUb1l2S1prNDc4aVp0d0x3SGpIY25uRnNLTDRLUWdHUklsaDJzUDdaeDh3M0pnNFduNHN3?oc=5",
+      "title": "Skydance Stock Turbulence & A Berkshire Head-Scratcher",
+      "snippet": "Puck, 2026-10-18T07:00:00+00:00",
+      "publisher": "Puck",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQXzZRY3llQUlyX1Y2cDVvdDBrNmswX0FwQ3RBRzRxMUpPcjVFc1ptNENsMDJoNkg3ODdCZVNfeHNRWnpmenNHb3dSUFhVdGgxeXlrVHhUSVAyN3BQVGp4UFRmZS1UdVAtM2sxQWc5SHk0bHhiWFBteGU2YnFPd1FKMXNDbi1QajhhV2g4eEh2c1IxZGREN0pHUllMWHY?oc=5",
+      "title": "Skydance (SKYD) Stock Looks Cheap After A 79% Five Year Slide",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeFdITmsyN0xwQlpiVUlVbUdpajNaanI4bC1ITGNMT1VjMmJaVHBMVF9vaVhqSVZYd3dBUl9vTmNrUGpQNmVzSllQMnVCbl9DMFppQUZYemk3T0VDa2JHdmt0WFF4cFc5ZkF6QzFqMUVGT1B6bFNzVWdwc2Z6eXcyX2UzUFdnUW56NG52b3owZldaa21lSm5jQzdLV1hFYkRwckNn?oc=5",
+      "title": "Skydance (SKYD) Closes Its Merger, Is The Discount A Warning Sign?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0FPU2dGR01zSUQwOGZvRlFpQXBIMEJpcV9wTTlKRmppcTUyQVllWGtYOWI3dGRJNlY0QTJWaG5vTXVKcDlkaU5YRkZYV3h2X1VHMThkVl81dWF4R3M0LVpTRGNtQlQ3NGpxaUYtTDFQLVVZZGJCS1dfZGstTHVLMTVRbE9RLWJONkJPclZfSzA2YWJKSWtQNllud1cyS21rOWZFYlIwaFprRjNiRVhJUHppUHE0Zw?oc=5",
+      "title": "Will Paramount\u2019s creation of Skydance test France\u2019s cultural exception?",
+      "snippet": "France 24, 2026-10-17T07:00:00+00:00",
+      "publisher": "France 24",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUGVaY0lKWE9USTdldExWdkhEeFZFbzgzT1IzOVNWcWRxbTQ0QzFrUEt1SVFpbFBaT01oeFUtaVB4Qmd3OEQwQW5QQ1hFeGMtSnh3N0txWlh0ZjJQTnhsOHhZWEwwMGw3c1BYZlhHS1RCU2J0Vzl6MXhnYUpzR2Foa0pfYktzVTA?oc=5",
+      "title": "Skydance (NYSE: SKYD) stock forecast: Analysts see 28% upside after Warner Bros. merger",
+      "snippet": "Beinsure, 2026-10-17T07:00:00+00:00",
+      "publisher": "Beinsure",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUdNRXF1ZndwY201VU8xQ0Q0d294dmtBRk5yTlNhY3BjZDNkaXhsR181UXIwR2VDQUswYmx3dnZud1JrT2ZSbHhvcmFDbjNCeGxfUldGQ3N2cUx2bUlIZFVPS3hkcmlzOGJJbE5LTWVONkFhRy1OeVNvMTRWaHNWU2VoV1c0YUZ3SHFrQVV1RlNkQmZ3eEZLYzV0VDd1R21WUmNV?oc=5",
+      "title": "The Sky Is Falling for Skydance Stock as Financial Concerns Mount. How to Play SKYD Here.",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1RVejJ3T0RYQlJoVTdzaTdfZTI1XzRzRlVnN001Qm5ubHI5UW54c1R0ZnJkZzVDdEpHTFFWYXJZVk5ZSmZBTENKZVZzSmZxazlLTE5JWWg4eW1wMGJ4OHRCeGZGWElscDEwTVotaklXdFE5SUJITmdqVnljRGo4Y2dSMk95Z1VzX2hwMGRpS1BJOGxLcXdmb3ZFaHI5VU9PVTlGQw?oc=5",
+      "title": "Skydance On Track To Be The Week's Worst-Performing S&P 500 Stock: Bernstein SocGen Halves Price Target On Cash Flow Uncertainty",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926116333/tm2626659d15_8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 5.04,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SKYD/history",
+      "title": "SKYD daily price history (Yahoo Finance)",
+      "snippet": "close 6.8 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

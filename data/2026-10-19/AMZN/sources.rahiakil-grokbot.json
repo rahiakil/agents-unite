@@ -1,0 +1,73 @@
+{
+  "ticker": "AMZN",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amazon\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNjNwTDVBNnZtbmpJa2REYkF4WVgwQmpyWU1BOTJYYmRUNXhNMG9DX2NlRVkxM1BtZVZkZzF1V1BzZmgzc3FMZHlxQjg0Rzdhd0VUMFdtbmZHVS1Bc0ZQc1VyOWFOVEIzLTc1UERXYjJsS2JLSi01NGJMODZQd1FrVEFjM2h4d0NwOFdZcmc1RzFCS09raWc?oc=5",
+      "title": "How much Amazon stock does CEO Andy Jassy actually own?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUmtpcmVpdGdlMFNHcWhNWU5MZXR1dnFXWDlKTDI1dXlQNzlUdk0yYUtUQVFFbFBtN0xCMTRLaEdzNXRENWRFRzJ1Y1hHR2FoNDJwZEJGSWJEOC1fRmV2emdCTWNnRWZjN2N0N0hjemxJek9TVmE2c2R1c0Vka2xiWW1IeENRREkzN0N6d2RONV82UQ?oc=5",
+      "title": "Should you Buy Amazon Stock Before October 29? History Has a Clear Answer.",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSTBvS2lOODJZdkRyMmJYY25zY0p4dWZrRWI5LVY0bmszMEVaOUsxMDdPaGZsQmgxWjNvQUI0N21qTTFKVkROY2ZqYVlYdEkwNFBid1M0TVd0QmNFTnB2ZzRvSU5HX3VuOGxMaml0SlNvMXVrUm8tWUx5eEk3aUlVcHUtNjA4QTE1NlBsOXMwdjFlc3NLcWVF?oc=5",
+      "title": "Is Amazon Stock Poised to Gain as AI Boosts Cash Flow Prospects?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.827,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMZN/history",
+      "title": "AMZN daily price history (Yahoo Finance)",
+      "snippet": "close 262.45 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

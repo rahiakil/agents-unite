@@ -1,0 +1,121 @@
+{
+  "ticker": "PNC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PNC Financial Services\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 10,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0ZFOTAySjQ3YUZTMGIxOW9ScDR2a3VzSHlVaFZBZ3hPc3pCM3dNb0R1akstcE5QU3h4NFloVE12VjlNZlRLakhfWEw0Y2xKeTNJNktTRFdMbkMwYjNLcExHSXpsLTdxYVJ0VnBmQTlPa1RpRTd6aDQyeVBOT2s2cXlLZmhmZDZXNGtHNUFyQWZQZzN4UjItVDFua0tVMTdrNWZ3d2ZsVWp3SHIyN0pMNmlYSTI?oc=5",
+      "title": "PNC Financial Vs. U.S. Bancorp: The $560 Million Difference",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPelBKb3hTMWVtQTdGTTFDbEVoV0k4YTBzdEZ4VDl5VzRaNGg4WnEtakhEM0l1MHJjRWZLWFVjTHRlNWtfcWQyWFdpSDZxWnZnazl6UGNYdGFJaXF2dGxlYllIWDJnb20tdUY0eWJZcklsUlZMbUZVNldqQzE1Sm9ZbXJKdVY5RzZoSHJCYm9falJwNXBTcVh5eXV3?oc=5",
+      "title": "PNC Financial: Fed Pivot And NII Growth (Rating Upgrade) (NYSE:PNC)",
+      "snippet": "Seeking Alpha, 2026-10-17T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX0hZM2JrWDg3ZjVKakFHQW14MkhHTkdNa08xajVjVnpHYmRHMkpPR21rd2FiSTFjNnQ3RUhCS0ZBTUZVZTNVRVJhWHNXN3lrdzlZeUlVVGd4Q3l5UTVOQmZ1YWtaVmt2XzVObGYwTERJS20wTUlzdHhiX1RzZ1ZmQQ?oc=5",
+      "title": "Who Owns PNC Financial? List of Major Shareholders",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSVJLdVdXbjZTWHlPMmdfd3kxU1YxN1g1ZE10U2FpdjdGVHl5Mmphd1ZOX0pKZEVZMVdCX1dNUHNucW93UFh6MHQ5REoyYV9KY2xwbTluUklYSVp5eS1sVjBMQ2FsWVc3LW5NQ1JBY0VydmdnX2xYelYtU01UTk4xX0RxVVF2cVNWUDIzYU91TGZnWDZ1TjlxMjRLZE5raXZjalRrdy02R08zeWQ1TnI2MDlkUWdrcjg?oc=5",
+      "title": "These Analysts Revise Their Forecasts On PNC Financial After Q3 Results",
+      "snippet": "Benzinga, 2026-10-16T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZWlLTzVKMk1FeUduemNfX2ZLSTU4NVU0TG5QVDdrZC1KQ1V4Njdpd3hTdUNqWThfRWlJZ3VqRVMwc3U1WFBfTkNjLU5ENTRfdHozcDVXRUxLdXNXNGZVbzI5YWR0YjZGcF9ZekMxaUhRNGVqMHdOQTZxbFBwRmxzUi1aT1B0ZklqS1RqVmdDUFA0WVYycFpHRC1R?oc=5",
+      "title": "PNC Financial: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVUFqWUl6ZF9aRm96aU5pT01mc0pJY0JZX2tQUnR3a1ZHdTFoWS0yVWZLVFcySk8xUE95ZkYyZ2xQb2xGbmx5WFNxWU1KQUgzTVotODVESFB3ZC0tT2puM2s4WG5TRUxnT29DekdhNndWakdfVS0zYnJtWm1RcnVvWml1ZHpGSmp1bEVTT3psaEh3T2ZfT0lkY25hRzZzQ1dBU3pBZzVielQxNjhfM1NmSVNhcHpQa3h6MEl0cDAtS1AyRDdhbUZ2dHNsVUdCcTF4allMUlBB?oc=5",
+      "title": "PNC Financial Posts Strong Third-Quarter 2026 Results",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS3c2NEJteUxpMWNmWEVRSm1SU09md1NnNXB0SEZCMVhpTTVma0tFSE5aQWJXZy01ZTRDQWpDSDluSTh3Q3I2NkJWOHVXQWRnMl9DSFJBbXhpZEpFVFgySnNWXzBIMm1hMU8zNXB6bFJRem4xaUsxV1ZpS2ZPT3l4OHdjbGZZVDFnaHJoXzhRdElNcElBVXpXTVhHUGQ5YWNqd3FyNkJzeHdEWkJsWndvdjN0aHoxcTJ6VGNTc1dRcGpaZ09FUHhBSEprcTlCVnZqNFhjbUJjdzjSAd4BQVVfeXFMT3E3bEdkblI2NkVDX0QtSUVscGFvRVEwT0VlU0tVZUNIT3lDY2VqVFJfWTlKa2xRV2RZWFFlbUhBdVl5Nmt5amxneDFqQ0pqcGhjelNoQUdDZFEyd0FaLS1kNnV1TVc1UFFKRmdqVEU2SUVNSUlsdTljWUQ3N0ZLZm51RzhwZl9XWFZwMG1sYlVWSHJRMWZYYW1NRHhsNFBSZ2RiMVVxSDV4cjNTeUctUUsyVTdlRVlkV25QTnRRemt0TVBRd0tSOFNfQ1hFdEJ1OWtMOGVBYlVkeGpuMU1n?oc=5",
+      "title": "PNC Financial (PNC) Q3 Earnings Sharpen Focus On Margins And Credit",
+      "snippet": "Simply Wall St, 2026-10-16T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNC/history",
+      "title": "PNC daily price history (Yahoo Finance)",
+      "snippet": "close 216.21 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

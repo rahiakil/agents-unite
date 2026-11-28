@@ -1,0 +1,82 @@
+{
+  "ticker": "MMM",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"3M\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 69,
+    "no_date": 0,
+    "after_cutoff": 65,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcnBUbThxUWZHdXdVMGljQkhlRkFUT1BYSUVfYUdGRmYyT04ySE1PV2RsMnlKVldjSU5NdmJORWExbTR3Y2hLYlJxUlU2S3l3dFZWdF81cmRXS1pxSFUzaVNMakxoM3FLbENqemFKMjFMUzJiNW1fSTRsMDhDb2F4d0g1a2FaajNRQ3pmVGdJT0hXVlNn?oc=5",
+      "title": "What To Expect From 3M\u2019s (MMM) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRnQ1SEtOTFVWeFItc29MbVI0cUFZTmM3WkkxZmJ1RVIzX0lBODEyMWMzOGNmSEgtSEJyaW9BcU94U2l2dWdUSklRZnpzOGFuR0tHVVJsU1FKenFMSHIwVVdYWDVGTVNDTTI0Q0tmQkc1a2dwUmc4OWlXREdRdzNqbHFYQmtSV0ZoOTQ0NXBFZUotbHdnakFfaURJLTdlVzRWRDBTNi1DejZZci1QaWVocWhUdzN0UklvQUw3X2g0eDYzZw?oc=5",
+      "title": "3M Stock Struggles in a Correction Before Earnings",
+      "snippet": "Benzinga, 2026-10-18T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR2p2SGtXcm5nZ3lyQmJCWDNsR0tkYTdIU3dLWmFuekZKU3JPRlBUQVU0UVpZV3lKZDVjY0pEX29YaXhMZ2dxVS1nZVFROG9ROXRicTZSWHVFNFR5bHZvQzZaLVlUMUx2bHFMYkcwTHFiY21DcEV3bVphaHFVbzdwSFpsUzNtSGoyTVFTWWp0Sjh5MHhpQkVwZVlyeUIzY0U?oc=5",
+      "title": "3M pushes back against Australia\u2019s $1.4B \u2018forever chemicals\u2019 case (MMM:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/66740/000006674026000303/mmm-20261019.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MMM/history",
+      "title": "MMM daily price history (Yahoo Finance)",
+      "snippet": "close 162.01 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

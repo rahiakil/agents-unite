@@ -1,0 +1,61 @@
+{
+  "ticker": "SNPS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synopsys\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV0lPOFE2dmZPcHY4ck9tcmFOZ1hVVGRNOVpyNnRCeThTZ3h1N2dfNExjNmVRQVNrbV83QUk1dTQ4cXhmZm1DSTlHMUxGVXRTZm5IdUEtdjB3QjdTdFYwc0J2TW1ZWG5tNHAwd0FXQkhFLTJELXpGV0hnQl9uUzc3MWN2c1hLX3d3aUgyOG84U0Z0S1JNNENjN2NRcWFMM25Q?oc=5",
+      "title": "Synopsys(SNPS.US) Officer Sells US$6.76 Million in Common Stock",
+      "snippet": "Moomoo, 2026-10-16T21:44:28+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-16T21:44:28+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0tVbnlhU3VnMnQ0anoyWTdRZkRoWjZZMjZ0YlpxMW9pSFBTeWxvR3ZIV3h3VG5SeWlrWjl5Nk5Rd2Z6U2VxWmluS2s0V3htWVdKdEVJX3B6SnM2YjJjczlSTDZCS2lYSUlXWUhveG52VThKVnJoV09KZFFRV0pyRUJPVnJVdkhPOFpJWFBkUlYxUmVuSnRyZUxlWXhUMV80X0g1MWp6QWJOX0Q0ZEM0TGJkRWZnd2NqenN0N3NZRjJuVF9vTkV3?oc=5",
+      "title": "Synopsys Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SNPS/history",
+      "title": "SNPS daily price history (Yahoo Finance)",
+      "snippet": "close 454.58 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

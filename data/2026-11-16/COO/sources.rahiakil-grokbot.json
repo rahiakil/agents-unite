@@ -1,0 +1,85 @@
+{
+  "ticker": "COO",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cooper Companies\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQlVMeFg2WC1uc3ZaNTdsMkFRdXpDSzNfMDJ5bVZnakM4Z3I4UkZSRUkwLXVSd1JEcm4xcmpndWlEa3RWWVVRaGNSUW5hM1pWUGJrd2s5N29lTkdabU8yV0d1emplUDRWLXVGTHJOU0FEbnhNUlE1MUtOT0Q2eVdpTWRFdy1QYmE4MVptUHJ4czNtSmRYOFpfRGctSHRacGZ0UFdWMEt5V1hrREU2ajk3N2FrYWNNeXJLMTRHdGFwZw?oc=5",
+      "title": "Cooper Companies director Rosebrough buys $541,640 in stock",
+      "snippet": "Investing.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1FoSmJ0UlNqSlRGZUFPRW9aVWI3SGp2VEpwam5MQ3RNUURXMXhUVjBMTXhsQ1JTblN2a2FmNFhLQnhTdjNUNlp0SUtPdzNHVXNxVWpOZWpaZUREWWU4cGJOS3NJSnFDV0p3bFRzVzZDX3gzbEZ0MTMtbVFRSlNSenlZSEZhNklIT3lsTS1JTzI5X193ZG41cVlvTDhjUWdDdnNrVjI0NW15VWF3NExZSk9WNS1wTE9keHhN?oc=5",
+      "title": "Cooper Companies director Kurzius buys $539,150 in stock",
+      "snippet": "Investing.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMzQxaUYtYTVKU1QyaE5URzJJMy1HMUpfVXhIeTNwSWd6UC1FRnlmMlFjd1hUQ05wTWd1WjI1MHkwaE01VjVxMGEwRGQ0NTNGSlhCYTFqbXNraVFNRlhOcS1Ba0R1c2p6MUNIWDNTYklYSWVzYkRDY2JmdlI3WmdUdzhtNUxuTTNRU0FldHQ2c2xmdnlOczYtN3dYTEdaRE92ZmFLZWRvZUJBS3lvTDA3S3h2aENtZGh3UEVORU9CaE9jZGMwdFVselJya05Ma1hf0gHWAUFVX3lxTE54UmVlWk9YM1pIRFcyM052cXFKelZobV85U3FleUFsVnU5UkN1aUhORFFCaHliY1FqTFFMMHdwODNZMC1OVVFGTlBRdGxSRlZjTDFVbGgzQV9kTTNXY2EwelBpTjdJU1pBbkVMVXRNWEZQRXlvaG9mdHp5dTUwQ3N4Znh6VlRhaS1RaDdUSDREOU1qM0RNVC1yRkhLUGNnbWV0MDhHRWJEZW5sOTRWY3h0RGllamtJMmZpMTNPMTBkQ1ZXRXNDN3c3RnBzbm5IX0pKaGNnWnc?oc=5",
+      "title": "Cooper Companies (COO) Cuts CooperVision Outlook, Is The Stock Still Undervalued?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMGtYRG10WlRLZklZS1VGYmJWVll3OFo1c29LTUZVWkw2SEQwczVnSWp0MXZEX0pwcGh6WkcySzBGQXJobW9KcFJtQUtzM3EwcWI4WGw2QjFHazgyaHVTdlVNRlJOQV9SMXZOcjR0eXpWdnlWQXp4QVRrSG5CUzZKak9DRkI2WTFKdmVMRUk2Tlo2MF8weVJsT2NZWGZGR3FPVFBTd2FrSFJzVlZjYnhjTUlGOEQzVWVfdU1FcmNQb1NWdw?oc=5",
+      "title": "Why Is Everyone Ignoring Cooper Companies Stock\u2019s High Cash Yield?",
+      "snippet": "Trefis, 2026-11-13T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COO/history",
+      "title": "COO daily price history (Yahoo Finance)",
+      "snippet": "close 61.88 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "STE",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steris\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZWVrZW4yQ3dBVktlbzZPbmtDUlVubFpzeVFmcGpxNE5Ibjlhc3VyWm1jTXZhMHBMTGV6eHpsWkZkUDZOOVJZMmJJM2lxSTdXemxBWDF6eWhwcFB1QTRKaTZQelNScE9TZGRBcC1WU3ZLajJfTGtTTjgyc2xYVlZWREx1ZTJSb2xfUk1uOWFETzJSQktyTXpJM2VYU2d1MUdHLVFmalc2UDM?oc=5",
+      "title": "STERIS (NYSE:STE) Upgraded at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-14T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ3pocmdWTFpXcmU2NHJjd2Nfd3ZmS0QyZERyaFVDY2MxR1VxVjlvbnZaeFZVYnBSYWwzb2Z1WWRYWUE5ajRnR1N6V0RvQ0VOYUp0bmF0UW9zZE9HcXZnc0dGTm0tdmhqa1ZXT2xOWkFhcldoRkRfQ2VrZ0NqQ2xLRk5RX3lmQU5Ebk9iR2hZbkVQeEhUdjZ2Nktpb294dW9vNVFvVVNyVFhBN21NS25GSGR0UDQ0MlZnTTBIZG43Yw?oc=5",
+      "title": "Steris PLC stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRnZVN01RTVVoOVl0d1NYbUpUVmdNOHAtYlBFNllsZ25kcEk5WWM0emdoNTlNSWx6ajl2SHhkU1B0MHZuemY2eEM5aWFuWkhUeUo1ZWNiNXg0WXFkTFBWcm4tenNJd0tlZlh2MXNndTFBa1NuZU9iRmNlYU0wSWFSeE16cXo4emdiUlYyZzFDMlJKeWhpVl9vb0FIYkoxQzY2T2gxMTFmbGk?oc=5",
+      "title": "Steris PLC (STE) Shares Surge 4.3% -- What GF Score of 92 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-13T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOHo4MkhTWHJXRGRFVUdFdUtpajhndjJKVjEwRmJEaEJLVk1BZlVYSndTa2w4N0R0d0w2elByUmdxV2JUX1NVeEpxTll5bDktanh4RXlENS1qNWk4QUlVTmY1ZURtMmtJWFhwdXdpcFc4UzlkWDZWTzJyTVdtMmFKUUtMQlEzekJHc2pvZDNiSlBCQnRjSS1faFNjVjh1RU1FUkgxbnM5WlhCeUh5QzNNUlpYU1VueHNXZ2FnM0pOVkdOUdIBxwFBVV95cUxQd0d2SHBoQzZ4aTRTNkN2SHdkVEFkZENFSUFVUTNncjhORVZPVEVsS1pHeGsxUzYzZlZodHBxQjQxUjM2NU51bXRaRVRGb1FXZ3lYYlZ6dG5yN1J4RFNMNUdVczREWE9mSmNPeTYtQThKN3VrZVB0NUl5dTFsdVNrUWFfQW5vTHNiTkkwYW9oMThMMWJ5N21rQnBiNURDS1lKeFFzSzB2Nmh6MUpNUDE1UEJITGg4MWFSZ0dWOFppVFJDTUExejRJ?oc=5",
+      "title": "STERIS (STE) Files Fresh Funding Shelf, Is The Stock Already Pricey?",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE50MEJUWUI5dU9kNDF2UTFWdzNXTFlMR2xxaGhEcGdMd1JJdWtqSVBIOWJ5VmdUU0V2Rk5oNTRkMU1tNFFFV3p1SVl5UHFvUVNDTXFLNHhtS3RpVTV2TkI4RmRFOV83d3VrTnVZUGVVLVowNnc?oc=5",
+      "title": "STERIS (NYSE:STE) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYjBGcFBtaDhNV2F4Zi1rMERCczBOMEJhNzZfWUwtUG1qTXYteGJKY0RVcXhiVlVrM0ZZNVUtdkExYWRvbzVrTE11VkZOMDBiRkp6Mzh2dVR1YVhBTGZsWFhUZ0ZoVFgyX0N4YjNRQ3lBSzlDNmJyQkxKVGpkQnV2NUhmdkRMTVRXOHljVFozVTVfOHAzRWc2RzhPV3Flem44NmRXWGdxZHdfNm0wdk5SNlNHcGtEREV1djNES2NpcVE0d3lVbW1B?oc=5",
+      "title": "Jefferies upgrades Steris stock rating on valuation, easing headwinds",
+      "snippet": "Investing.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STE/history",
+      "title": "STE daily price history (Yahoo Finance)",
+      "snippet": "close 261.91 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

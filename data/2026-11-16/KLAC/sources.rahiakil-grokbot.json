@@ -1,0 +1,133 @@
+{
+  "ticker": "KLAC",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KLA\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 36,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 14,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbENxVjBiQjJvNmc4NndVd1JwRGZzaEZuQzlHUk51MVV4aXhGUVVWWVBxVnBKN3FweUJ6UXg1aWNtcHk3WTNIOUVHd1ZnLU5wYmJWa3YxR0JDM2tPR1RtRWpTU3dmVUlNV1Q3UGtMZEtqaFoyNzE2UDZGTTVCR2N4eXRha1dFaGlCWWVjMW5Vc1hDcWZmdEt5am9tTkFvcGZvTnd2b1FFbC02cVpWWkdhcDNjWU5oc0RGYWVvMnBLdmE?oc=5",
+      "title": "KLA Corp (NASDAQ:KLAC): A Dividend Quality Candidate for Dividend Investors",
+      "snippet": "ChartMill, 2026-11-16T09:50:56+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-16T09:50:56+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcXowRUc3ZzJkYVRoc01LMUxuclREMFJCMFlTVmxkeFBJVFNXWmpYeGwtS2VxU0MzT3h1ZEN2ZVE0dUI1M0FsWFFwemk3M2xrQ2pkSWxxblVTbGRIZ0sycWRIMEotZXVPUkhscXgtNUJfUE1UNFZfNDR1bzVYQ1NyUmxHQk9tRWs4RzBYdFhobDNjNmgtbGhtaWpMeVc1OVcwZUh6MlBDX2VxYXVhLXRnSHZXMzVWY3NWVXRB?oc=5",
+      "title": "KLA (NASDAQ:KLAC) Rating Lowered to Hold at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbk1Pc1dMM0dGVExGLWc4RHlHUGF1VnNtOTg1NG1XS1NoRHNyeEM0REZVblF2bnVEMk1udkFTMnJKeUlOUWE0M09qNE05anNESmpEUHVCd3hrVFFqMmlDUHVVcHNmTDJzZkQ2R2pKYVNDY25nZVd5cGJ2WlJLMlBWeUI0QUxZUi1USFhTcUhRRmVlS0FmN3dkLUlwNA?oc=5",
+      "title": "KLA (KLAC) Stock Looks About Right Following Its 278% Five Year Run",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUDlPNExCVENNOXhlYlo0QkJfMXBVX2kyT001d291LXpBdUdtWGVBcDkxOEJtSWdIbG4wbnN2MW40S2xrZi1nNV9oNnVBRG5TVW9TX201ZkJldzJUNzIwdXlaVmRpdU5MVVVYNkRXS1ZYN3J1VUxyckZXVHZ6d0RmMkN5TDNmalo3bmVUZmNaQ20yZFlleUxXTUJEUHlRR19rOEZJQ2JMbm1rc3lRLV8tY2FUYkY3YnY2aUdFYUFYRDlISHJRdmfSAcsBQVVfeXFMT2UxSHNXWU9RNjBLZ0xPRW5FVnhFMXl0MkpkWWprV0pYdHJQMlhoUk50bHJtN2RtdzhCQUl4WEVXcXAxY1FINjVhd3N5RG0wUGZwVG1wMnhJVVQ4Zi1xVjljdXNLUUVaOTgwa19hSXNrNDVvSzhpeDdMc0FzYl8zTHpEUzlPWGMtVGh3NGxmUWU4bWJpWUU1SUhiTmpuYk03NHVZTUJ1Nm9aUExRWFVzc29IMVBOWnVfYUtjNEdUOVRKMzJnOVhnYjhLVFE?oc=5",
+      "title": "Free Cash Flow Strength Might Change The Case For Investing In KLA Stock (KLAC)",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd0NUWTJ1UTl3SFpYcUFpdGctUUZZVkZrY05VUjdnTTdwMHdRSHNSS1VhUHBPaVlnODRnUm9VUWZCUlFMa3VOelFGazhlR2lTbW1mZlRhRzQ3R3JqdDU2anJiemE5OGJOMm5pRWU4aXVEU29nQUFOT2Q1aVREUlBDSUw3R01COUY4c3BTbWhydDFVdw?oc=5",
+      "title": "KLA (KLAC) Generates $1.34 Billion in Cash, What\u2019s Next?",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORnpEV3Q4WWN6SGg0Vm5ZSC1rNTFMVV9vNVQ0N2xyNERza3JERk5xU3dqbEM3X2FpWlF3WU1FbFoxYTNVUXZqTVRyUDFHWjRYY3E3VjBVQUxTV2lVTU5qZ1cteUVKTnBJQ2FsYm5WZVNuTHpMdktCMTlvTUdNOVpsT3lSdl9lMmQwanNmQS15SW80U1BWdlFpWlZoYTAtYlZyTWhyS2pEcVQ?oc=5",
+      "title": "What Is The True Hidden Price Of KLA Stock?",
+      "snippet": "Trefis, 2026-11-13T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ1doY0NSRkV4RFpWWUg3WFppZ3lETUxBY2xsT2lkSnRfenNDUy1qYXJqLUlnOWd4enNvYmNvUXVYZGR4Q0RFcXJBQ3BkMndfTFo0aHhGckFCb1E1VWJQMmxLTmFpN2p3Yy1Kek81TDJsT2wzX2U5bG5Jdi0xOERSOExrdXp0dl9IWjM4bnc2OFlSdFJqYVAxeUh4V3ZCT0F3NUJzS0JhUjNMclEzZUtVYXdqU1VGb2U5WHNF?oc=5",
+      "title": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNM1BlSldEdVdpdmZMbWI5RGMzNGdqWVFiZHV3SnZraXcxRjBGT0preEExMWh5ZU8wY1pWTVlNSXR6ME5xT09VQTJQcUYtNGRYN1lqYWM4ZFdYblphcnd0MHgzLTRaaEZsVkVDTHdUSDJpRWp2bUUwc1VDT2dheW1NMXk3eUptVHpNVzZnVHlsNkhwZ0k1M0lsWUNiUTNFN3dORFNtM25KSFlwc0xyT1pZWnVQRTBDZXBuVklxODM5V0ZoVDRTdHo1SlpzNXNmbERRMTJsbTJRSVZFVGJhWDlFUEROOTNWeWs3TGdfX2xPR3I3NllESjNIT2dKVGFQX2M5clg1RF94a05PYVk0TkNtaUdn?oc=5",
+      "title": "Applied Materials Drops 6% Despite Beat-and-Raise Quarter as JPMorgan and Goldman Sachs Cut Price Targets; KLA Falls 6%, Lam Research Retreats 5%",
+      "snippet": "24/7 Wall St., 2026-11-13T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.727,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KLAC/history",
+      "title": "KLAC daily price history (Yahoo Finance)",
+      "snippet": "close 143.96 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ILMN",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illumina\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVDcyWkNmSXREQkJXRE5mRFFwVkU3YUJjSVZnVnpQM2N2Nnd0U2hEdzk0VVZRLTJZeHNmNmhTaWFRRGtyb3QyeUdzaGVLaDhTUFZIcHFjWVZpTUlrdnMxbXVpTkx1U1ZBZXhaMHMzQXZHNmgtRzJ1YXlBYWVZb0NTb1VYYl9VUW1XbmNJOUZIMThKTEpKWUdMRDV5QjlFNVVYMTAzOHN3NG1GTTRwRkRqNtIBtgFBVV95cUxPSVdaUUZ6ZzlEVGhkVHpTYlhwWXVnbzFqenI1R3J3NEJEeWJLeVhkR3BaOHAyQ3ljTnlTOXRndm1mN1ktdUhMMVltR3p3aUJmaDNobEk3ZVcxTV9yZlhkbF9jRUJvbzRWZjB1NkxUT3hKOEVMOFAwWDMzUS1ZMlI0WHJTWlM2R3VsQ1FRN3F3ci14RkZlUmd1N2VGQVZKTmljNmZUN2RfMmVIS29ZaDM2V25vbzdEZw?oc=5",
+      "title": "What Illumina Doubters Missed",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUXcyamdFUEM1Mk0yVTBtbm9od1BjdGRpN25xaUZGbmo1TlMtdk1sNjNVX2gtbXBRX29HNUQxWm5IaW9IZm83ZVNIV0JZOGRydUxZdEVvV1cyR01rTHJhMW5mTXg0Q2N4VUQ4clltTVRMcFEzc3o2ZDBiMmswOEVtNXdKd1pwZnVXdmU3WGhZbk04cWtSdTlHVl90dUFVbFozZXphTU5KdzF6RGtfMEYwZ1lobVhEeTJGdGFpZU45aWdjc3VMQUc5dnFrVklrYmhnb1dySDdsZExWa2VNU0RZ?oc=5",
+      "title": "Illumina Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ILMN/history",
+      "title": "ILMN daily price history (Yahoo Finance)",
+      "snippet": "close 198.0 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

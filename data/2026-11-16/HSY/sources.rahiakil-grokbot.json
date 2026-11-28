@@ -1,0 +1,61 @@
+{
+  "ticker": "HSY",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hershey\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUVJRdGwtbXkydFczaTdlVjNCdlhhN21qM05FV2tCQ1MxSDRQZ0dPTVR5MWJCZkV4dWhuM3ZtNWthRU5IZm03Mm1lSFdrdDBWYnN6ZEsyRmZhRGlNZS1aU2J2NFZ0SXY3b3VET2gyTTRIR0haR0VDaUYyWEpSRk9mSzBaWmtJZGVFZlQwX0Nic1VFVUNUNVJ3aXZhWnh0YnlmYVhwREd2QQ?oc=5",
+      "title": "Hershey Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUhEaTA1V2ZpWHZuV0pIM2JsYWZxTjJ4aVplenF3dFFpMTVIaEI1cVlsaHNTQk5LVEoyZTB2TGhPOVhUR0wycjRBclpqbEdyZEVHZHU3OElDY1JIa0xDcVZOY2Frc2k3djFZVWc4TWt5eWdEX2xMaURZc2JwcDFXN3AxRkZPUHhBb1lmVFZUWmFoY0ZpWTNrZFhUWlh3S1QtMmJQNVdvUVAwZw?oc=5",
+      "title": "Income Investors Should Know That The Hershey Company (NYSE:HSY) Goes Ex-Dividend Soon",
+      "snippet": "Moomoo, 2026-11-13T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSY/history",
+      "title": "HSY daily price history (Yahoo Finance)",
+      "snippet": "close 174.87 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

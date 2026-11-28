@@ -1,0 +1,85 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cigna\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 9,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVlSMjBlcVp4MS1SQmstTTF0S3ljZ29QaDR5SnpPakM3MmVfTzBldi1rTEdWa2pEaWtLUzlCdVZxY25Rb2VnWXJWalgzY3RlT2Ribm00Tmxzb1lzczdBN3FxTkV1M2FpT2diOFZsS21sZ2hFMW9zTWN1NEpsLW1saXN4bEgtb29fR3YxZldLT0JnR2t6aE1BalNhN3pXVDdtY0thOG01bzl4UTQxMm9FQzM2TThDVGVUTkJwSUg5UWRZbHhubjZN0gHMAUFVX3lxTFBOb0EyRmlrWVVHOXdkbXBDYWNTQi1jVHFKdXNyUnV4NFhvLTZRLWd5ckZQNUhZQ0dPazVFOEVTZ3YxRHVxWWFuUUdVM2ZPNVVDSG9ZN1RuWDg3ZjJKOVQ2VVJ6VnV6cWpoTXlNMGUwWjdCQVhDSzR2eUZyTnRxTU1GUmQ2elRXajRqcnFEWFA1U19VNzNub2xpc2N5Qm52YVZFeHlYQ0psNEZvdG1TS0F1dGNmTkhEMnI4c2Z3STFjNV9QTXVZOE1qNGFtUA?oc=5",
+      "title": "Is Cigna Group (CI) Below Fair Value On Mixed Q3 2026 Earnings?",
+      "snippet": "Simply Wall St, 2026-11-16T01:19:39+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T01:19:39+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZi1VUEt3U1RZd3E5SkhUcmJWQmhid2pSVHBoZEJuU3VmVzhVazFDSmFhbmtQZXFYdW5uaDExUk1IeHNabm5vZmlKMmJtVXoxeHBrSFBSdkJETm9BeUxGd25UdGdIeFQ0WklSa2o1WHM0em8zSUxNNWFDdGFuRElTdWVxNU5QN013VXl6RVRjSU1xZ09oUXFrc01tOXBJU0ZSd2VrRFljTG9QSmdiSGFuMUVxVWJGNkgxNUcwZm01aXY?oc=5",
+      "title": "Wells Fargo raises Cigna stock price target to $325 on valuation",
+      "snippet": "Investing.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWkpGUjZHNUVUUHg5SWJacUJMc0s5WFdYemIycDhaOFFPeDczb2d2YWRvYTA4bDl4aDk2TWZWVi1ZT1pJbU15WmItNjBaZzI1aW1mRnYySnRuYTFHeFA0ZTBkSmx2S295MDlGd1hfeGprZV9ILVg0aXF5MWpHZTl2eVFwbGZhazVXVlJ0bVdja0FCRjRpVWJobjVB?oc=5",
+      "title": "UnitedHealth vs. Cigna: Which Dividend Stock Pays You More in 10 Years?",
+      "snippet": "TIKR.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNejZVLXpmRjJkY2dqdUV3b2ZmT05kUDVTRTNiS0MzNDJxSlVaQTFfeDJiWXFwLTNQazZpLU9fcnQwYjJxbkhlMkNUOExkYUdJTjg4WWpIbEZKaFJkdVJyLWphLWQzVFotZkQxbExiUGxydEFfRVlKNjdPaXJCVmF6ZFNjQmlWN2gwNjM4NGxHTHhHbUtoWDR1ZURHZFlaa3M?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Cigna Group Stock?",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 300.16 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

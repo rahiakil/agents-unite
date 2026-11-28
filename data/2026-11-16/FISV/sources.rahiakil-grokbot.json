@@ -1,0 +1,97 @@
+{
+  "ticker": "FISV",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 7,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWxtQ1MzajJvOElZQmZxbWFTekxVVlNEVUtVSWVZNWV5emFONW9DM01xR0RPNmRQTG1FMXlZUEJScXRGOS1lSkJlclFXM0Jpc3QtLU1Ka044b2cwOGEwRUcxdF9QLVFvT2J2ZmdjX0h0ZHZyeUZ1NUtNTF9CLUJtaW5FYU85MnB5czJTMnlYbDl5MVRFRzR1M0tjb0dXaXVQODEwMVRRbw?oc=5",
+      "title": "Fiserv on Track for Longest Winning Streak Since August 2024 -- Data Talk",
+      "snippet": "Moomoo, 2026-11-16T00:08:56+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-16T00:08:56+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZmhZTUF0RHlTVkk5VW5JX2ozd3dQQ19wVktGLTdramdWcmRhNXlzUko4amxWN1NSZXRzb00wbk1NSTZNSVFIdE9yaDV3R1pQdXBfMDFWRTNfVDRMRmlIX21vQU1vdlkwRkoxSno5RTVjYzl6NG16blI2TUpfdnMwc0dYdW1lLVZwcXFXc01UVVpUMUZtUFV6YjZyQzB2VWs2UV8wNnFxSW1KRkFyaGpiRkJ6NzE4S2NGZmg4OGx4Q2Zmd1VEbVVqaVcyNTVDV1ltbW5OcjBBU0d1LWvSAeABQVVfeXFMTktSOVJKRHozTnMxYks3dDlHMlNTQnJCRWxuSDEzb3pCZ09FNnNNZ1plQTcwM2pxbVpsUmd2dkYwMkwzRXpTUEJwX1FqTFUtNGs4M3o2QnVzckd5OFBwTW9RODlRN1VNcmxjRUxQbUZBcWMzNnJmTUVPMS1TdGZobV9QYm8yb1BoaVpDc1BwQXlTSFJ2RDhtODk4a3FNUGhCTjN6WUp5ZXF0MkZPbENIMmdfcEFBZ0VLQlhtVVhudzVJQTNQU0Q4dmh6amEtekJtM2dCSmpTLW9EajZjVG5KMm4?oc=5",
+      "title": "Noon Business Lunch 11/13/26: Microsoft outage, Nvidia sliding, Fiserv small business index, year-end tax tips",
+      "snippet": "WGN Radio 720, 2026-11-13T08:00:00+00:00",
+      "publisher": "WGN Radio 720",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkkyejFjc0YtUXVOajlEVXcycC1xYTdGY3ZTUzBRU3dMN1JUVjJVam9lU2c0NXNsUndXcGhOV3VjYVIzSU5IOF9xeV9iR3Q0clZieHFrTXc0X2ptWlNEYi11WEF3YkVKLVFmQlgtTUR6aEQzcXF3bndKWG1zTzNPMWlmU0VEMmN1MEhPQTJ1R3pTQUdFMDgtNW96ZWFpUU1wNzNCMjFfeHhxZTMzTU1WTVVCdFFHTFIzbFhsMU1KSjR1LWFQekFuZw?oc=5",
+      "title": "Jana Partners Raises Share Stake In Fiserv & Cooper Companies",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa3JURHF2ak1tTzE2UFVPUHg3dk9lc0c4a044U09vX0pDSVFkaVl6TjFfVjJQeGE0OGNsdk14S2V2aWxSZjhPLWxYRmpuS1dsU211ZFFkNXJZMjRsd3NhaE0xeXVBc0pZUEVkRVItdlpJMUhNa25lcEswaEZ3V0ItV2JNdjJ4ODhPak1FeF9WWlE?oc=5",
+      "title": "Fiserv gains as investors extend post-earnings rebound",
+      "snippet": "Quiver Quantitative, 2026-11-13T08:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcU03ZEZBLVJOZVRCekFkSkVYN0V1Z2w3NW1SSjFZMnFUU3ItaEdRaW5IRHRQb1VuN1ptMnd5RWg0MlF3c1F4cHJZSzl4YzhsQ0VKdHE2emNlQmxQcGZ5QWVMUkdVWFpXSzNyc3lsRzJiY1hEYVZ4cW9VMHdncU1nTWp4S0tRcTQ2SEptdXBWRzdfQi0yUWhwSHpHYVFSWFBkVUVuOHdUZE1ySVNkWG56MGI5bzR4NXhPeHNaTW1FNl9WSTB3Z1hELWtLc2YzVW51X3JObFVB0gHbAUFVX3lxTE9nekFYM251cWlDalM3ZVR2SnAtdnh6OXRxclk5dUxRWjZYeU1qckNJNWZOT1Q4WTB4OHYwVFNWNnk2T09qaXRrOS0yWFZaWVdYZ0FERG9RVC1VeFlTSzh2a05NN2k0UjQzOFJ1aW85U1B0bGpvOXFVdzRZUXdXT0RLLUVVSFV1S3dnNVU0b2tueTZtdDJhTmdpdDRSQ0pIcDNnbWZZUWp3ajlIODNKMkVxOEZiMDNJUkxDNVlzb1MyVzlFeExhTWpLRnlfSFUwWnJXcld5ZHQtUE84OA?oc=5",
+      "title": "Fiserv (FISV) Could Be 49% Below Fair Value On Cost Cuts And Asset Review",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 63.32 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

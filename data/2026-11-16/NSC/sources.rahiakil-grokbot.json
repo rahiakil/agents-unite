@@ -1,0 +1,85 @@
+{
+  "ticker": "NSC",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norfolk Southern\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 9,
+    "irrelevant_or_spam": 16,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMVlReUZuMW93LVJNcWExM0tUdlJuNjZCdTVYYVYtUllTalBuMDJNeWlfR0ZKbEdQNDNZbGRPNk12cHRiT1hjLXp3dnAtRWRsQjMyaFNhWUthQkVSRTd0cV91SzBoNGpNTm1Zb0p4OWVqOVZlZkhpMnR2dUxtYmJjYzZmdF9LYkxUazFyUlJMbnBqeWUzS0JiNFFRcmRwNldsVUNJ?oc=5",
+      "title": "Billionaire Investor Dan Loeb Bought Back Into Union Pacific and Norfolk Southern In Q2 - Here's Where the $85 Billion Rail Merger Stands",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdlJDaXd6cEFaM21lVmU2R3VhUWp0Z0dPMEduZDJnLTQyZ293dHlsOThLRmhSVmN0a21TNDUwUG5Mc3JYVEdSVFBPTTFUZzRtT2twUE4weG5xN0x6T2htdGZQZFFEOC1EQXJPenlOUVAxeW5NRVpqX1JjZXk2aHdDd01BOHNkUUhiNjAyWFhMdV9VbnNDNHQwZzJWREFKRmJmVUZCY0hfTU52ejdHRVBRelB3aDZ6cHUzb0ZsLTRUV2xFUG9TS1Z5aDdlbmxmRmFkTGt30gHYAUFVX3lxTE1MSUlwT2hTVTctZ245Q2N0WkVLSE5nTWx6VkxTTE9Hdk9kWkVIRnF2RXhNN0toT2l5NFYwanFvcUM4bkJwcEJDZFdHRUtTYVhBelZmN19uVWtzTlJIX0VGWmdFWTBYWXgwOE5jSWdraThDSDh0Q3hKU2xKV1ZVSEl0SWZNdjJhUWV3WlMxUmNoZmlKTkljRTN2QVMxLUU5S3F6SWxzQ19uWmNDSHFFWlJJcjFXSGpsc1g4eUhyV2VTRGduMi1lR0VIdXpJcV9QYVJOVXdITWR6SA?oc=5",
+      "title": "Norfolk Southern (NSC) Stock Looks Stretched After Its 65% Run",
+      "snippet": "Simply Wall St, 2026-11-14T07:20:27+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T07:20:27+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYWJNeXNEQnlyWGl0NWk5dEdfdmdHeWdmX3BERjZmUmpYcGtyMjFyRGFGRVpaaGhZc29zYzdoMFhoeTRPLW9xWUxDOThLanRMbDlwOWdiZHV6UV95LWtrNXpwaDM1MVk5TzYxV3M5ODFnZlI5NGhZRWxMUXVhQUtyWnFscTF2Mks3ZUN3dVBUSVB3S2ppZXZwc2tHWkZyd0M3OWRaS2xmQ2E4NmRLajNZOFEzWG9XQklLSDhzZG8xVWZvaVRNeXc?oc=5",
+      "title": "Union Pacific's $72B Norfolk Southern Deal Spread Widens Amid CE",
+      "snippet": "GuruFocus, 2026-11-13T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUGVSMGRHQ0g2WEJseXdHNmZMeGpvVVpUUC14WnM4cENFVU4yZzR5Ri1BNTFRMDl4UERLVVJnTElSSlptZmxRQ01IbTQ2dkhCZ1VndjkwTGJSVGJPclZtb045Q1dTaE5oTW9BU3Q2V296dmRaRW5zUkhINWhQQUJ5VnMtbklXZmJ0NWVLdDZHaE53b0poMmdEcGRCZmZqRmhBcVAtcnlISGZjSHBFc2NQcWp6QXpaRmNTcW5oSDdNZWRuSUhYU2ZYUGRrVEJudUdMeFZlQjJyQ3JacGdZdkE?oc=5",
+      "title": "Norfolk Southern/Union Pacific deal spread widens amid report on UNP CEO's remarks",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NSC/history",
+      "title": "NSC daily price history (Yahoo Finance)",
+      "snippet": "close 329.27 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

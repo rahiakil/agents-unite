@@ -1,0 +1,73 @@
+{
+  "ticker": "SKYD",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Skydance\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX2VtMGViNGxIUnNQOTJVYUE2NTNtRjhmOFFtcWhwRExhbkQ2clQwbGlWVWtWaGdnSDF0cjdma1p2dE5wZ3ZEVUtvQVRqTFhYMGhMVGNCQ3loaVdOTElxVTJzc25GX250Y19Iem1aa0ZVcU9US1dRYklwR0VZd3lxSDlQTm95TGdNVEFRdjBqY3ZkbkZYY3A0cm5BVWN3aGdKZVVrbjVST202ZmNSOVljWS16VTZEb2k1dzRsdUFoSWVQVWUxYi1FeGp2cXVmd0hBekVBWkRyaEhZWlRzblhVZmgyUnRFdkk0Nmc?oc=5",
+      "title": "SKYD - Skydance Corporation | News",
+      "snippet": "OTC Markets, 2026-11-16T20:56:35+00:00",
+      "publisher": "OTC Markets",
+      "published": "2026-11-16T20:56:35+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQkNjZmJXd2I3cjF0ZndyR3p4ajR6b1FXNjJhbXBKUWMxR01GSHJ2MktMXzhCTHdMdWJyRk5Tak9Ua05fa1hRR3lBdC1EMmV4Vm04b09TNDVmSjB1ZFFva3J2dm9tYVVHX0FnaDJQck9FUHlVcWY4ZkRSRVJHdU9kY00wU2RCOHZGSmZBbXNRNVNKZERPQjhEMVgzVHFGMTcwNnJnaDdwMGk2bklZRVdJYzFGMmpxazExelE0Mm53?oc=5",
+      "title": "Skydance (SKYD) Faces Renewed Antitrust Lawsuit Over $110B Warne",
+      "snippet": "GuruFocus, 2026-11-16T19:09:51+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T19:09:51+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YeWZ1V2x0YVBVZGphbVV1aWc5TDR5MEpCbjVtNWlSUkppUEdxT2FWa3hLalpnOEJBNnZiR3hDYWpnSl9lZDdTc19tS1BVY2lYZlFfZmM4b292WXY0TGFmUV9OVFk?oc=5",
+      "title": "Skydance Officially Loses $5.6 Billion in Market Value Amid James Gunn Exit",
+      "snippet": "IMDb, 2026-11-14T06:43:27+00:00",
+      "publisher": "IMDb",
+      "published": "2026-11-14T06:43:27+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SKYD/history",
+      "title": "SKYD daily price history (Yahoo Finance)",
+      "snippet": "close 7.04 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

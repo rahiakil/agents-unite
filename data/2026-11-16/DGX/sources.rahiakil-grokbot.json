@@ -1,0 +1,61 @@
+{
+  "ticker": "DGX",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quest Diagnostics\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSngycUpaZ2hpOVdqa1k2MnEyZXdzTlpRWWtuMWVvdWpQdFExU01kTDU4QkpEZVhoUkdtUXpBRnlFMFU0T0pKWTdhM0ZXRVZld0xnbHloWFFtNzI1bzM2VTZKT0YzWUhjNkUxZnZDLXgtX3c2LUtjdHpheTN0TV9KeEFPMWVaWmk3cFhEb2tJLWFnRm1iVm5OS1FqM1FXc3VNSGlqMXE4Ym1WaHhfRXJ0Ty1sa0ExTnJqV1pTQ2hR?oc=5",
+      "title": "Should Labcorp Stock Holders Look At Quest Diagnostics Instead?",
+      "snippet": "Trefis, 2026-11-13T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNck1oTkNmeENtbDVweF9UQTdQc1J0dE1HVlY0OEJydTFGSnJTa090bHRxSExSRU5rTXF4aXFCY1BTN2F5ZWMxN2JEVzFYNVhBb3U5a2RNWDVkMzR4U2tvQnE0Uk9OX04yMjZsdE52QjItR2lPRXQteDFUVmNuMHpiQ2hCOXctQVFQM3BrNVlJN2U4VF9tUzdwMzh3?oc=5",
+      "title": "Quest Diagnostics (DGX) Stock Could Be 31% Undervalued Following RESULTS Act Push",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DGX/history",
+      "title": "DGX daily price history (Yahoo Finance)",
+      "snippet": "close 262.21 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

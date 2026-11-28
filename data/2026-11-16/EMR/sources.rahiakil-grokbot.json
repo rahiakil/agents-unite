@@ -1,0 +1,70 @@
+{
+  "ticker": "EMR",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emerson Electric\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRURoU0ZLY0hVTW1XbUhtZm5lYlY3LTc0Y3dWenNuRlRHYVVMXzhGMU8yX3pzT2FiLW9GNDFfX0Y3WkVSTmJmWHlCNktsRDFKYmNDeUx4SzdzVkJ6aVBMVDlqdHRndDc5TDB2RUxlaEJCVXFmYlFEMksyTkVOV3hpMklLeEV1ajRraDlaWTFmc3Q5OFJIb2N4ZkhxQXJCcDhKN2t6WDl2Y0JuUURPN2NhbGJkZUZZR1NwMjYzdmtpU0w?oc=5",
+      "title": "Emerson Electric completes \u20ac750 million notes offering due 2032 By Investing.com",
+      "snippet": "Investing.com India, 2026-11-14T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMV9pMkZqRWJlVnVjWFluSUxHM0xwMV9JMHNzdXc3WlN2SDlFOTYyYndGTkxUb0ZmZGJURXhEYm1tS2x1TWMzendpcS1jZ2ZpYU5wanBwbC1kQkdfNzBjbkp2TzFTMzdaVUcxbWVTUGZUbU10TTlyU1Q1WF8wdFZ2azkzdnpoT3J1TDRDR3FwRU84MDVsZHV6c2ZGb2Z6dFVVSFBtWUkzX2ZnN0s1SGc?oc=5",
+      "title": "EMR: Emerson Electric Company filed SEC Form 8-K: Other Events, Financial Statements and Exhibits",
+      "snippet": "Quantisnow, 2026-11-13T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/32604/000114036126043782/ef20085543_8k.htm",
+      "title": "SEC 8-K filed 2026-11-13",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EMR/history",
+      "title": "EMR daily price history (Yahoo Finance)",
+      "snippet": "close 160.65 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

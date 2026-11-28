@@ -1,0 +1,73 @@
+{
+  "ticker": "LVS",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Las Vegas Sands\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeXkyM01IdWVSaVhXY1hqWTFsa3lITjdJVnItczk1WmhOb1ZsQ0M0Rmxjc21xaFJxQjYySDdwSG1Nd0xuYkM5a2VfbTdfY2tXQldRZ3p3WDBkQjRHamZFWnhxTTBDSFRZZ0NkM1ZPZWJiRkdpUUJ6NkZwX3FzUHpRSnZXaTlsanFGcjJLOGpDcUtrUQ?oc=5",
+      "title": "Sands China raises LVS shared services caps by 47pct to US$115mln",
+      "snippet": "GGRAsia, 2026-11-16T03:28:43+00:00",
+      "publisher": "GGRAsia",
+      "published": "2026-11-16T03:28:43+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6VGZpTUxFTFNBZGdFa2REb0dGQXF4eDhjOVNsb3hjUWJwYkFMR2NmTDhLN0o2cG1ZVlAwTkFwT2RVdC1fa1otMWRHYjNYYjBLTVE?oc=5",
+      "title": "Las Vegas Sands Corp. - Convention-led integrated resorts",
+      "snippet": "yespress.io, 2026-11-14T08:00:00+00:00",
+      "publisher": "yespress.io",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZmkxVzlMMHRIcFl5NUlNTzlpdmlMY21BSy0zZ3BESmlDSV9veWxmUHMyMXVmZy1URmIzLUtJb2ZaLXVFNmQxaGt0QnQxbVZYYl9xQkYyNXBxQnJpZ2Q5MnR6amRhdk55MllOM0tnZVBFQ05BMlcyblhmc0dnbWdLcVJqUW9EbGJvRHpqT2NxVjd4b3Y3UGJPZGNkdVNVbEJEWXcwcjNHUjVBUQ?oc=5",
+      "title": "The most profitable casino in the world is not in Macau or Las Vegas (LVS:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-13T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LVS/history",
+      "title": "LVS daily price history (Yahoo Finance)",
+      "snippet": "close 39.82 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

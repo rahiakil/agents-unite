@@ -1,0 +1,109 @@
+{
+  "ticker": "FSLR",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"First Solar\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 7,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWEZfejE2SWVjaE5pS1djaWt6UmlEU09CQ1lzbXNILThLMGMtcFpreDNCTHZkQjlVaklneFM2RGJjenhtODhSV1BjQ2xwRU5ZTmNRZ3N2bjUwTnpQRkR1c0VGYWZkY2N3ZW9zUHIySlRDT1Fkel9rSHh5NTFURl8tOUNycnlKNEVFSXdrSU1xQWF1STZGNGoyWF8wSkNHT0RNRWVLRHV5aDFxcGxpSy1VdnJBUmxabU5sR3laRUNBc1U2QQ?oc=5",
+      "title": "First Solar (NASDAQ:FSLR) Reaches New 12-Month Low - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-16T16:07:24+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T16:07:24+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTzc1dVhMVU85VFRQRFpLTFhrczlFLWF2VGYycW9mY1poZDAtN3dLMmZPSVdHUEtCaGRxNDdlTUFZcVFmUzZuLXpFd3NlMXFaMWxjcllhQU4wZUtuelVPSW51RWZnYW02VlN6UkRCY25Yd2hPcXEyLTN4Umc5c1ZlVlFEZkhCc3RmQ1RCLU1vVXk0eGs3RnVVM3NIZExQMzVWanpuQ3hHVVVCUQ?oc=5",
+      "title": "First Solar Stock: 5 Straight Red Days, Down 15%",
+      "snippet": "Trefis, 2026-11-14T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQzdGRlV3ajhWM2xreUpYRE9HQndOQ3g3R2JIdm96N0JsSjByblVEOWt4ajkzUzBqVzRnTHBOVWRaWUYwa3JKVFVzVGpLQmt3Y19TSEMxZmhyakdRc3dFbTBRZUVJNTltM2tjMUt6MVJxWHc5dGhtY2tVZ2ZycVI4dDFsaWJHVXdjWG1zSzZoU0tWMmVxNUJhWXJiX0g2ZW1vWG1HaHBNV0pvcmFKVHQ5alJFRmFTSWRwUXdVb3ZTRklVQjVWZGt5UU1LVdIB0AFBVV95cUxOdm9hNHNYTTdQNjA5TFE4eWNHS1JJQldEQ0V0MjBEYmtaZjhVRkxlRF9CSzJvb1dCMHhrTlRENS0weS1ndFpfajZ1UDdISmZHb2MxaDN0ZVVqTFozUlZPSXNxV1Fmek1nLWY2TE5SNmxUOVJBMDBaeFR3aE1QampEWEJkeFlocHlLSXdoRGhpeTBVWDdXNktGT08tanZnVTNSSWpSWlBHeTBMX2d4NWhuel8zem1LZERxUTZmS0d6Ui1TQnNwUmVBckljOEFjZU5B?oc=5",
+      "title": "First Solar (FSLR) Stock Looks Cheap Even After A 58% Gain",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM28yUE9Yci1majBfNWlHNTRRMG1nTFZ6VlhMcmlVMXhmVWFkUjBqOXVOaTZHdWxMdkRld2J4Qlpoamx3YklCdHBIbkNDN2x1NHNKT3RudjVfMElkS1FQNnZpT0xPalA2Unl0ckRxblpOQmh2X3JDWlJxdC1aTUFkR2JScDFmeC1hWE5SWHZnQXdTWHZwb0pySkVxRQ?oc=5",
+      "title": "What Changed In First Solar\u2019s Story?",
+      "snippet": "Trefis, 2026-11-13T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeWsyOVRMbWVlNWhnN3hralZIQmxtR2x6aEh0Rlg3TC1XTjR4aEJDbmVOUVg4Wl9VcEstNE9PT1FiQUVsNXpxa0N2VDBSY0RmdDB0aFRVNE1fSDAzY3J5Q2ZXRDVqOFBvNGVEb0FRVDJFemlES3lCNmw5RWtHaV9ON2N5ZlpVVWtyQVVLcnV2QTFodzQtNFZydg?oc=5",
+      "title": "How Low Can First Solar Stock Go?",
+      "snippet": "Trefis, 2026-11-13T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSl9GNjFTVUlVamVkRDdtUGZNQ2Zjck5TSlBrYTdLOTZydnBWOGlFSnNrUU5oelMxUGtnVE5fNEVzMXEtTlhMT1hhSktvbzY3bzlBOW5XSjFGQV9UT2FjQ3NjckN3Z1pDNXNuWjVEaE5pZTZET2U5SHhwVDhRM1dMaXk4ZW5JMzh0c1ZiZ1RCcTZNN3JqaEVTcjdaaFJHYzY1U29La0lZaUs?oc=5",
+      "title": "First Solar: Section 232 Is Not Yet In The Price, And That Is Fair",
+      "snippet": "Seeking Alpha, 2026-11-13T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FSLR/history",
+      "title": "FSLR daily price history (Yahoo Finance)",
+      "snippet": "close 162.45 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

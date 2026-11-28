@@ -1,0 +1,85 @@
+{
+  "ticker": "ROST",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ross Stores\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTGVsZE9Ic0Q0bG94Q09MQjRwNFNLWmxhQ2JLVG1TcFVWZzRPQm0yQnV2X2tBaUR2V2xfNTBfUExPdmhNeThRZXEwSXl0ckdaOTA1OEZlUVQzcXVIYS1RaG54YTdLU2hXb25STWg2U0JEWVpvR3FhS3ZibUlHajB2NXJFREJfNzRnVFYxUlpJTGxJUHpkOTRONzZWSlFfRVJib3l0ZmlzdzlNMFdlc0Yza3RuQVktSFFGZ0lyRE5iaXN3bWxHQ0Y5dU5pMjRWOFVxWk1GcXpidUUxY1A2S1YwcVhzcw?oc=5",
+      "title": "Ross Stores Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSS0wc05BZ3kwcmxZMEJINFdza0hsaFJlb1hkcnU5MjUzUjI3aVJrX3R0dnJQbG1leUZtSUlqQnhpcEFHWktIZy1Sd0cwVWg4SjFMRFd0RWhmeldSR1NzQjAzV3htcG1RWlI4MXVOOVJrWDFhY1Zzb1VETWllWnJlT1FEWkpVOUNuNjhRRU1OOXJYNHBmTnk1Q3c3WjFjMnNvZFNmelFCcnNGdlhiNWlCcUZ2V0w3elBKUWVCb1g3b1RXbk1GWjhZ?oc=5",
+      "title": "Deutsche Bank favours Ross Stores and TJX for earnings upside into 2027",
+      "snippet": "Investing.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUgyalg4ZGlpY0ZjbllwcDFmLWZuUDdYOEZUZEhjM1dWWFVrNEY5VFN5ZTF6RGtCRWdydDQ3MVoycklOaC1jVzNNZGVKUW1vRWV5ajRfQnJ3Q0VFZ0lod0F6MllsWVN0TG02OHVfa3dKdGNkcEU3OG9zVDNhTjYyRm9JX05hLU1TeF9RZTNNamxUc1p3aXlZVnc2MGR3ZVR4RHJZdA?oc=5",
+      "title": "Brokers Suggest Investing in Ross Stores (ROST): Read This Before Placing a Bet",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQa0VzcG5oMHlmOXNyRUlXMVZSSFNBN1ZnSnBHOHZGN2RJZHdpMUp3NERna21McFNnejdqbjFvTXpreVlCQTZadFZ0V0ZqUFZ0X05RbWxIMWs5d1B6N3VoZGM4Rjh6WDF2aXdrYThnY2xlUUdzNmVGZ0diTXB2OVJpbzhCMUZsMEY4Y0xxLUh0ZVBZTlBlWFNhYzZyMDRadm5kSy1SWEdUQ0hEem5CSC10SEJHVUxFVzFDaWVEUnFmQlVValFGclZpLWtGTmhYUDNfQjZvNV85eWlWM1lPNW84TFk4dWpEbDUxT0ZsOS0zb25mNGlFUXhoOElqYkFESmkzYUo4REptRXhRaFZISHR1RFo5MVRZOXliTElqZ2N4N0I3WnVjWXFTWENfaWdXcGlhcEpnb1VpRE1pckhzQ0lR?oc=5",
+      "title": "Analysts Have Conflicting Sentiments on These Consumer Cyclical Companies: Royal Caribbean (RCL), Ross Stores (ROST) and Capri Holdings (CPRI)",
+      "snippet": "The Globe and Mail, 2026-11-13T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROST/history",
+      "title": "ROST daily price history (Yahoo Finance)",
+      "snippet": "close 222.99 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

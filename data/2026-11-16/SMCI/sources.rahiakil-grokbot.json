@@ -1,0 +1,61 @@
+{
+  "ticker": "SMCI",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Supermicro\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IYWdpaEVVcVI5ajgyU2MyUDJhQThrNHFVd0tZYUZON1JQVVEzdjVLTEhZaHlIdnpIMm9lRGFBQVRMSmlfOUtwc1l4RVpUVUNSM1FQZVgtLXk4cGpwTGNabE1oNUp3TVhCNkF5SEpR?oc=5",
+      "title": "Supermicro Denies Megaspeed Involvement in Alleged Link to Alice Huang, Saying \"Not a Customer\"",
+      "snippet": "news.sbs.co.kr, 2026-11-14T08:00:00+00:00",
+      "publisher": "news.sbs.co.kr",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUVNHcFRGbVZyNTYtYXgxWmpwdmpsZjZjZG9HX1AySWU1Y0tIaXRuVnhycmZWQ2dKcWxhZ0E3QUNZaHN0QjZTQUFXc0ZCQkhYY2JwNDdGTlNCR1JKb3pwVUxveE1YNVBXX1FOY1hUZmRjaXg4SUNMZnpvTGJaSVhoX05OTDRqYUxnZHZadw?oc=5",
+      "title": "Supermicro shares drop about 2.5% after probe into alleged Chinese smuggling and server rental scrutiny",
+      "snippet": "Traders Union, 2026-11-13T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.71,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SMCI/history",
+      "title": "SMCI daily price history (Yahoo Finance)",
+      "snippet": "close 25.03 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

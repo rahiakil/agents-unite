@@ -1,0 +1,73 @@
+{
+  "ticker": "CFG",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Citizens Financial\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdnhoeXhMUTl4b2VER0hzNG5WQTM3NmRoSGdYNWZoZ21HMjRGdldOTFh2RWFqdGl1VHFpc2lMcS1XdTdabGw1THJ0R0xsb1g0azRsN2ZlUGJ5T2d2a2RWaEhZX2hCdDE2QjFsdmhwUzNTU3ZFcjc1enpIZG03QXZsRmdmX0h0RFYyMkRTTElKbTluRDBXWnVlbzhvcldiUDZVMDZqb2p3Nnl4dUhwYTM0Y09ZUEQwaVJCNFpfZ0ZsaW9VcVVjUFVjSnV4S3E0UlREcmhNbm5WMXJrMHc?oc=5",
+      "title": "Form 4 Citizens Financial Services Inc: Roger C. Graham Jr (Director) For: 15 September",
+      "snippet": "Investing.com Canada, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNzI5Y0JHaEpQVnk4OGtKY2Q4bV9WNV9aQUotTE40V1pRYkRqY20tWHN6NlJwT25hY29mMHBPZXBfeVpkemhBMVhYX1JtMWJ0a3h3UF9FakFDVmY4QUtzaC1FUjcwb0o1eVpEQ1NzX3VqOVVXeTh3RUtxb2ZRcnVUbnNGcC1BekZLQnB1UU9na1RkLTBwWk5Sc0JFZXVLazBFUFkzY1lEOHRoRUttM1dtSmdXaTZ5U0pWRDJybjBFRHU0VXRMNjdIN3dEMzk1cGpyOFHSAdcBQVVfeXFMTm12WEtPOHl0V19VTXZCalpfLUZkbEw2OHJ6Zm5DdEI3Ujk2Z1J2S2lPR1pVeTZ0TWVGWVhvcmZZX090Y2w4YTRKM3VUckJITW9HNlRSdW9rR0kwUHVONDhLNU4yS2RkN2dIT2VHUkVGYUZ2bkJIUFdFdDJTeUlQRTF2c2VoM1M2NjBtZWEzelB3WFB0NWNzRDBIX2ZUcDdvZGpXQ1djS2hWSkhTTk1jZG1HQ2xDd19WcUNCY3VYQXVXRkpoTFNmVWpGQVl3VFRqdTNKT2drcjA?oc=5",
+      "title": "Citizens Financial Group (CFG) Launches Treasury Intelligence, Is It Still Below Fair Value?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.823,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQzVGb3hucFN3Ylp3LWxrR2tVMVd1emtvcDNhUGtFZVVfQWFOXzlZYVBiT3JmbVpJa0Q0OU1WV0tuYnNuVFJQOF9CbFJGRzI2SU0zaEFFTFBjR1A3QjRwMXB6TU1CLXBGbXBCb0U3N0k3WjUxOUVPaDdkeEZnX21vRl9LSVIxSzVKTTVwM0RRUnNvc2pTOXhTY3plb1ZLM3lCS1JHYTFTQ0M5a1ZrQmNNZVlIeFVTYUNranRvRHlyQWs2YndRcFdEYVAwNHo2cTgwMkhv0gHYAUFVX3lxTE54QU5yd18xU3h1cTEweWtycDhjQTY4Yjg0Nk93YWJLbWk3aUJueVhEQXFOSW9zU05FZEpNVmNmd2VBblBSUjN2YnB3TGdDZ1p0MmdzbEFBQlBKUG42c2ZhZ1l6UWpEbmRvNkdneDdMMThWUVdlSFVha0VwU1BwUDR5TUJNclNwTGhVaXFjbzNUeFVQOW9Xc1ppbE11eEhuU010TGVHZ3hQaXpjcTZWM0pZQ1JHaVMzenRjd0EwNGYzbVVfUU1PYlVCTHltaDJFQTExYlJLWDJiTQ?oc=5",
+      "title": "Will Treasury Platform Launch Change Citizens Financial Group's (CFG) Narrative",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CFG/history",
+      "title": "CFG daily price history (Yahoo Finance)",
+      "snippet": "close 64.44 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

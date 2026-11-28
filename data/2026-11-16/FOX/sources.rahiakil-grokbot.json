@@ -1,0 +1,58 @@
+{
+  "ticker": "FOX",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNFQtdVQzV1pwZXdNZEZMRG9WdVdpNGlGRDltSUZwN1h4ZkdlcFpaUGY2MzVKMkJBSDhISWRjM2tjRnN3ZE9JM2NQcm5EaGlBbjdvVG5TbE9NWGJZbEFYNDhzZUdqMzZkU3hvbDM4XzRCSm5QRTFkVWhwOVMzZi1BZzR3SW81M2U1R2VlU3p4OUtUSnpxb2hqNE5RdkpUTXhuaWJDMWR2cjRvXy1KdnpwZUFwdDVHdGJCa1ZVbk5qeUcyc0U?oc=5",
+      "title": "Fox Corp. Cl B stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526460649/d270676d8k.htm",
+      "title": "SEC 8-K filed 2026-11-13",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOX/history",
+      "title": "FOX daily price history (Yahoo Finance)",
+      "snippet": "close 60.75 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

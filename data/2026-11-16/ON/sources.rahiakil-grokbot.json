@@ -1,0 +1,61 @@
+{
+  "ticker": "ON",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ON Semiconductor\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFRVTEpJNjBhVmdXNy04allnaHpuWUhXUnZzUWFJMDlzRVl0Y0NIeU56N2VTQXc4SE9jeUt6Y3NTVlR3ZGtIbW9vSi1TSjRhamp3aXdKM29FWWtSZHRrSDRheVA1MVJBR1kwVG1rcWJzcE0zazJ0NEZEbDZ5Sjh6VktLNnZqOG9nTkZFRG9wVVMyTGIwbGtLQ1VMZkVidTZNX2gyRnNSVzFRTlZ0dF80eFdEZGozdW5tMXc?oc=5",
+      "title": "[Anthropic IPO: Impact on Semiconductor Stocks] Will the SpaceX pattern of \"pre-IPO drop, post-listing rebound\" repeat? NVIDIA also in focus!",
+      "snippet": "Moomoo, 2026-11-15T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaUlPMk41RUFmOUYwSHhHRGc5djNidmxLWUtHSW5lOHZVNUxldzRNdGlWV2JHdDg5aDMzOUZ2UkJWMm5ldERUVlZHTzNxRVRPamxjMXRFRXpOMENISC10SnI1cURfZ1N0MnNTbVN0dnByTTVqLW9Cejc5NGMxUlZQbjNzV1Z4S1BzX3V1aDhmUkdoQnBCaGUxeXd5RDdrWUVjTmVRU09hZE03TlZ2MEl2VW8wZWRnWktpNEUxX1h5SkpYV2NYdDRCWW1JUEJvcm1sdm9YTmlXeTNldXoycjJkcV9sczIzQTBi?oc=5",
+      "title": "China stocks edge higher on semiconductor gains as Alibaba and CK Hutchison weigh on Hong Kong market",
+      "snippet": "Prop News Time, 2026-11-13T08:00:00+00:00",
+      "publisher": "Prop News Time",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ON/history",
+      "title": "ON daily price history (Yahoo Finance)",
+      "snippet": "close 67.69 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

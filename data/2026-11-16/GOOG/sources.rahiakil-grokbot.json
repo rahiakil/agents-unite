@@ -1,0 +1,97 @@
+{
+  "ticker": "GOOG",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alphabet\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 48,
+    "no_date": 0,
+    "after_cutoff": 24,
+    "before_window": 17,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZXB3dkJjNXNwQmZLNXZWcUdnZ0pMRFV2cTVsWWlzYVlhOUgyWndoT21acFVUX084TGFNNnAxeEsxdDhNd01aMjFtSGNvWHZXcUVIOXprdDZkV1ZSblV5RGd5bm1zNXdoWktHb3pHaXAzMWdaSHNTVklXSjZlOXRLZlAtWlZrOUxYUnhvVXN5cHV5Tmh1ZWI4MEVGTjZUSjgybm5pWk9UUGQ1T2swV1JVeEEyNTNhUQ?oc=5",
+      "title": "Billionaire Larry Page to Sell $148 Million of Alphabet Stock: What the Filing Shows",
+      "snippet": "CEOWORLD magazine, 2026-11-14T08:00:00+00:00",
+      "publisher": "CEOWORLD magazine",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTGJEOWg1VGdPU25oczJYSl9YZmdINHRzSFdFSVlZdEJpRDZiRjdobUpfcXNSeEhHNHhiYzJzOEFtVTFBcm1zTW9YZF9haURBSG1iUDJ3Z3BhN19vY3p6YjUzcTBlTi1hd3VRZldGcVI4VlBENHJrOUpGM3hwMnNWUFlxUHJES0s0bmxZeDBIUWYxdw?oc=5",
+      "title": "Interesting News for Alphabet Stock Investors",
+      "snippet": "The Motley Fool, 2026-11-13T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeEs0VHBWRU1Ib2lpY1ViVTVmNTJocFZtdEh2dWIyeWxnSlY0MzE1U3J6LW43dTVRT1RJeFh0Zl9IS19tS19ic3UzR2drcWprN2U0b3labzFFYWtDanB3dzk0T0R0OFlnVkNxWnZBOGxIN29XMDNaVmJibEYxdTY1dzJn?oc=5",
+      "title": "Google Stock (GOOGL) Rises 1.8% as Nvidia CEO Resigns (Nov 12)",
+      "snippet": "Gotrade, 2026-11-13T08:00:00+00:00",
+      "publisher": "Gotrade",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRkZzR0dDVV85V2JqUEtrOHB0dFA3QVVLWFJBbXNGZHFueEp0Mjdidy1nRDA3WE5QTUhJa2RVYXVKZ09qVEd2NUYxallGaFlLNWd0RFdONUJXRlhvX2pnaTNHZkdiRy1EQ1dMLWtDWk5LODUzM0tMdGxqOEFDQVYyeUdrUzl4TlAtYUg5R2JvYUxTclY4?oc=5",
+      "title": "Alphabet stock price prediction: Upward move targets $307.95 resistance amid bullish momentum",
+      "snippet": "Traders Union, 2026-11-13T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVTh2bVNCT0xOVGQwaDBMbm80bHdBd2cxRWhmT3d1SXdXS0ExZG0zUEJiTlg3TEVqSUNPYV9yanhqZjEzeVJYNTh6M3VMVjVZVUgyZUhqMlBIOXQ3QWtMWVZsNHAxV3BDY29DTmh4UkhmcDRtWUlQR1h4T05GZ0NIM29FNjUxa3YyenlrOWhCeFBzSC1pYVhQTTJEcTNqdGpLeGo5NklB?oc=5",
+      "title": "Alphabet Inc. (GOOGL) is Attracting Investor Attention: Here is What You Should Know",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GOOG/history",
+      "title": "GOOG daily price history (Yahoo Finance)",
+      "snippet": "close 281.26 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

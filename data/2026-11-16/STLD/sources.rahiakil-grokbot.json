@@ -1,0 +1,61 @@
+{
+  "ticker": "STLD",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steel Dynamics\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWFFhbkk0bWpoWWZfdEdpam5ubWJ5QllfWW1XVnc5NDV5dzF0MktNaWgxOTNSU0p3NUNUUVJ6cjBsOVctUkIxX0VBVmJIaGZabmcwVGJvellJU1pBRVNsM2tTTzRzNGZBZ0VhMzl2bHVfVEhkQUVTV0Vzakx5RXdRYnhFNW5yMzRpNzYzMHM0TQ?oc=5",
+      "title": "Steel Dynamics stock price prediction: Downward move continues as oversold conditions limit further selling",
+      "snippet": "Traders Union, 2026-11-13T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd0xSR2JJb294QUdoNW9OaTJMOTY0TW9ycG5kOEdpM0dLX3FqbUlaZ0ZhaUxJU2dHYm42UWxRWFpmQ2syV3RzZ0ZfN3hEWjYyVWRIN2ZvMEVFYTZEcEFPZ2lPUE5wWmVqdllxcS0zVjBZNVljWWpHTWhnY2tzd0dzd1NNYjdPTG1TcXBheXpDd2pTLTZHNVNCM0VHRmdSdHF2ZEhaLVdNM053NFdGN0JlNDNVN0cyS09uOVRZbzRXcXdDTmQ5U1E?oc=5",
+      "title": "Steel Dynamics (NASDAQ:STLD): Strong Growth With a Constructive Technical Setup",
+      "snippet": "ChartMill, 2026-11-13T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STLD/history",
+      "title": "STLD daily price history (Yahoo Finance)",
+      "snippet": "close 225.65 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "GWW",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"W. W. Grainger\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQXVsMWdDTUNfUGU4NC1aaDU4T0RwTjhyYkhNcS1hQmN3dDlvOXNiNnMwb3NMWDU3Y0EyTjU4YlhjOFpGeVdHZW5uamE1czQ1SGZGNzdfQW0tZDRSUGRWbnFMRzIwckhCQVhJS3ZRSnh0STVrYnNaR3l0WHFTOGNCZ2F0T2xLbzRIYUZGbzBLLXJvLVRIOXY3dmQxR2U4X0lLQnhiRlVkaGR2cEt1dFBkMTRJOFh6Y0NveDdKQnFJc9IBxAFBVV95cUxNQVhPNFVFZ2NMd0YycDZsSlJoVC15a283M1lybm9wcnFTZFNwa2JUVnJHZUxFcGxQWWRiN2tOV29rNzRXN2ZtTlRSWWJ2ek5sWVozbzA4Y0RvekNFdi0yckRKaVk4M0xPc3Vfd1dDeWFGbXF1THJtVmNxSnhfT0JiQ2J5Y3Y2ZGtEWkxIaUowZWZDSzB6bzIxX1BuYWs2T29haXktT3pwRFFlVDZiQWhSendmZXZ4QklDbEpSdEZ5MEc4aW9M?oc=5",
+      "title": "What Is Drawing Fresh Attention To W.W. Grainger (GWW)?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/277135/000110465926128251/tm2629900d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GWW/history",
+      "title": "GWW daily price history (Yahoo Finance)",
+      "snippet": "close 1495.78 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

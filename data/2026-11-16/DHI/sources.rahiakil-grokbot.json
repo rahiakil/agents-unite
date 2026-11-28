@@ -1,0 +1,49 @@
+{
+  "ticker": "DHI",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"D. R. Horton\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOW4wXzhDN1dDNG1MTEZHYWs3clpzUTFMczNSNFo1VVpSaHBzTlk0S2RlWHhpMjZEeVFJVjNiaV9mN01Tb2JJWTJjWVU1MGk3RnNsWE1qeUktRC16TEtsMUF3cFJaaFpiSmhnRW1kU1RlNlVvLWFxT0Q5QWozckh1cGZ0bFg2OVNpa0Zvc0V3WnM3UENfcFZYbVMwSTJ0LUpkYTlMZTRrY2MydUdpNEhIZXRIckFZT0tDN1lqMnkwZw?oc=5",
+      "title": "Trading Systems Reacting to (DHI) Volatility",
+      "snippet": "Stock Traders Daily, 2026-11-16T11:20:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-16T11:20:01+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DHI/history",
+      "title": "DHI daily price history (Yahoo Finance)",
+      "snippet": "close 144.75 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

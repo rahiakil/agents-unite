@@ -1,0 +1,85 @@
+{
+  "ticker": "GEHC",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GE HealthCare\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHdQU1ptTFhRelBvT0N3MDJtbkpwcVc1dU16b2gwYnh2Yms2UzEzSWpXbzBmX2piZHpmamszcDByRFhyRUJqTm9KLTV2bVlkdEo2QTFZc2taV1hRRFc3dnpBUnZPN3VFbFA5dGlheUtfeEZpcExac1B2REt4RnlqZFZsQlNHOFFyZEN0R3poNFRwRGFSMTNWdVA3Yl9VUFRqcFRXdjF0d2lLSW9xcm9mOGNrVFpKVWVJRnc?oc=5",
+      "title": "Seven institutions on three continents are evaluating GE HealthCare's new medical scanner.",
+      "snippet": "Stock Titan, 2026-11-16T13:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-16T13:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT0J5Z2p4TTFXS21tQ29iN0g5QnpNeFZjc1MtV3NldzVtUEsxWk1tc1hPT1BXcGp0TEs1TmluQXRvRmxaS0x1YTNidVpXLTFWNkxHTmhWdm41cURZejZXZF9TRFQ5Z0xrSC1FeVJMUzFHQkNvelo0amZ3WjNsSVNIdS14bnVEQmxDeldvNmRROHE1U056?oc=5",
+      "title": "GE HealthCare: A Stronger Business At A Full Price (NASDAQ:GEHC)",
+      "snippet": "Seeking Alpha, 2026-11-15T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSkhmekZfRWdiWnFpM3VZa0xGNE85Sjh5Z2pkTGZ3M2Y5a2Vkd19YUHk5bVcxM3VJbnF1YmpMdUpaOUlMLVZkYkVCUndFbFZMS1ZWclVfZHBtM3hnZ1BjQXp2ZzdWOHBlRG1CX0xZY1JJRS1ScV9ud3VMOEgyZ1VCMW1fS1U0c1B5TmxjXzZYeTJKOFVOUFBRempxRkRPMnZVNVdpc05hcFlQWnRYNHNFekY4NHBGWXg2elBQSHJ6a1NFSFc0TGJFOE9qUFJOWnNPRW00V1RnYzlmNU1ZdTYwMtIB5gFBVV95cUxOOTJTXy1LLWtXOXZET01WemcyRV80d1FnbkRtaTN3UG1WX1lqWUdsSjRCMTBwSXdZUmpKN2hlWUVldEdEak1OTExtcllWUXp1bVRnQkliY1J4aFJGQUp3TkY1TVUyS2o2aENOcGRwZnZ4RENuYTF4bWVpWlczUjNrYjR5eXdfZjg4a0NtbEdlemdSejlqVTJyY1ZMeTFiYzlWVnZXOTdqa1NLbTczM2RieVo5cDZyWVZhcUljRFFmRXY3bGFQMFpZUk1oV0w0TTZQekJuV2pjOW9tem9wSUprOGVDYkJtUQ?oc=5",
+      "title": "GE HealthCare Technologies (GEHC) Tests Its Brain Imaging Narrative As Undervalued View Holds",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZXMwVkZyV3ZwUXQ0V3ZvNDFwYW4wRTFaeVlLMHBWaHVXend0clcyYzFUa1ZTaWN4R1hWQ3dmMU1hcWs3STNxM2JqcnY2SVBXejhOa1k2S1VsNm5GNUR6ZWdqNUUtWXk0OUV1SHhjSHJmXzNZZ0hSNTJiWGJpOUM2X3NFU0R3UThrcXNYZmxFX2lKVjFLbVVadw?oc=5",
+      "title": "GE HealthCare Forms MAGNUS Neuro Alliance to Advance MRI Research",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GEHC/history",
+      "title": "GEHC daily price history (Yahoo Finance)",
+      "snippet": "close 82.96 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

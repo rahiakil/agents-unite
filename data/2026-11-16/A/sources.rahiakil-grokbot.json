@@ -1,0 +1,97 @@
+{
+  "ticker": "A",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Agilent\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT19CaFp6U2ZLMTE2azUzSEMyQzQ0ZElrcXphVExJRW1id05UdUJGUlVTcWhsc1BDdjRNelpGNDdYU2VscXNMNDAySXJ0WHBQTDZ4RldKajNqc2FKOUVCaW1vZ0lHSFZ6N1o2VmFvWUE1V0ZkVXNra1JmelhOdXZuTzI3aXdoN1UyYUIwOW5lUi1MZ1RK?oc=5",
+      "title": "Agilent Technologies: A Recovery Already Priced In (NYSE:A)",
+      "snippet": "Seeking Alpha, 2026-11-16T17:50:13+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-16T17:50:13+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLWk4ZGN1eDk4NEstYlAyeUQwRnQxVEk1RDlPREcyRi1aUWJHTlN6Vm9pSEVPS1E1MElrREs0SldzMGlOYmF5QU5SZC1iRkQybG5ELVhhT0tlaXBQUmRfbzdpZnY5ZmRXeUlSclBrSTNLcmVGVXpUbVJMZjlvS2loNjl1X2tBRzlFbllpVWJyTzBzUnI0STI0YldOajFBeVlKT1J6VXRR?oc=5",
+      "title": "Agilent Technologies (A) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-11-16T14:00:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T14:00:02+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWmV6TlJRT0pyQldyRDlSMUdGVTFnTmZXR3ZTejZmU245NHktZ1k2YmM1YmRUeGFwbnJHcmY3UTlPWENpX1AxS3JCVzl3WlVlVm9RdVVEcUVqQW5zNjVhbUtXRmE0S2RBSFlzWV9JNmhOZUtIYXJoTmE3STFqbzIyTUhndjdMWW16c0p3UVFRYnJZN1lKbFdTTjlMRTdEUjQ1RGg2S3ltdGJVeldZTW5JelBFY0tWbjJUYmgtRFFaRG1GdS04TVV3aXdXZk5Mbk5KSFgwd3kwcWl4R0RwaXh2UXdvb9IB6AFBVV95cUxONEFLdjFNcVNCbEFoSXFHMjBTc2JfVUw4NHN5cGZub3hObzlwaFpvMXJ5eWlvMm1qVkdiRkVULUY0aGxBaGNCVThBV0c4SWNaWlJUZnhyLXBHeWVPVUxtSWk5SjBRNTZidUhrYUNZTTdGdXdJdk9sQ3NhMVhiSWhkU0tjN1pBQU9OaGtZZTdmR3hOSVFQanRfelpINVJ6a3ZVSGRNOV9LT1FGdEpmb05kY2FNc1RzWFJCVktpdHZJSVlfQjJmdHIzSnYtOUxfV1N0enZTcjRpZTh2bXRLYXo5SEtoRDE2ZUZD?oc=5",
+      "title": "Is Agilent Technologies (A) Fairly Valued Following Its New Product Launches?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzk0OVFsa2hBWmMyeXlobFZJZ3h1WnV1eE9UM0ctUHhqYlp5aWNQTHZhTUttUkktZlJyVjFKMmpJRUQ4aXBvdGx5ZF9oY3F5ZmZITnYxWjUxTktkNXloNXlEOFdjM3lUblM5d0daRXRHTF9xZWFfSXpTVE9PcXpjNzdIZWNPYkRxODFlOUlIbnd3YWVPc09mYW9uZi1TVkFndE81a0hROUhsQTh6akpOZzdnWUtsZVJxNHNCRXdELTJwNFhic2JtZWVwNUJjSTdWRGRRWG4xbHlXT2J6dnE0RGVxVdIB6AFBVV95cUxQNGhpU3JfLXh2TTdhallvWFlUZ2FPTUQ0Mzc1NU52RFhkSGU3YnY4UDFzQ3FKMXpoaTR2b2UxMzVNcHktSkh1VWItZUliUzZFR3ZfX2pWSXA4WFBEZHlyU2lRMElzYnFuSFdOaGE4MVVVcHFEc0ZkaUlILWZpM3NaRFFNcWFEdlVDcUpHNUc2eHZfNWN5VkZMSFkyaUdSdVJQU2hMQ0dvQV9aT292aldUVllRQWtrb051S1NRejVkV25nS0tyQ1Noa3FhUE1CRC1GV1NOXzFpYzEydWpYRW0tNkdNdDdwd3Zl?oc=5",
+      "title": "How Investors Are Reacting To Agilent Technologies (A) New Blood Cancer Test Panel",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.66,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1YtUlR2R2paa2ZVRlJSOV81U0tVNTZBeHdKUEhlVmdUQzRJUnI4TGdtME5hWFI1Yjh6R05IUGZaN195WnZpdXp4SWhEbjVIVGxkYVk0ZUE2R045RFVRMEN3b1dqZWpKTzcxTWstWWtWcHdXTTRENkNucEZ0OGlraC1TQlU1eFBSM3cxTHM3SDVEWDRpcnk1R09odmhzU1BGSmJrMVpXOFR3UQ?oc=5",
+      "title": "Form 8K Agilent Technologies For: 13 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/A/history",
+      "title": "A daily price history (Yahoo Finance)",
+      "snippet": "close 172.92 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

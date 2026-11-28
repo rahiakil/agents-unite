@@ -1,0 +1,109 @@
+{
+  "ticker": "MMM",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"3M\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 60,
+    "no_date": 0,
+    "after_cutoff": 24,
+    "before_window": 16,
+    "irrelevant_or_spam": 14,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZVcyN0o3T3RTYzZmdDR2ZUp2cGM0R214UzBGWWpNczdaYkljUDZYRms2QjBXMlFOeGV3ek9wSXl4UGt3M1ZGUVNJdDJMT0ZmMm9iQmpNUzJUSWE0T3FZbF81RXRyRFd3Vjcwd1hyWk5sN25tcHN6bk9GNmtwc1RMTnZXQ2pKOVNYQXYwLWQzd0prb1VOc3luSmprdE9lbmpqQXdOYUJ1MkRBOTNLVHJ0TGZQMzJ0XzZSTGx6alhvTEI5dFl4?oc=5",
+      "title": "Eloxx Pharmaceuticals Posts $5.54M Q3 Net Loss, Reports $56.3M Cash",
+      "snippet": "TradingView, 2026-11-16T14:03:03+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T14:03:03+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONmxoS2NsVTNWNEJnMHNseEg1TE44ZVJzRFpuOFJNSVM4dFgwQTdBSnRSWTc0T1hSenRlLTBYTmFlUG5LdUJxU3M0eUlQdFRkTlo1M2lBcU5sYnNveXM4UE5lZVIzQk1pN3ZZZ1QzRC1nOXgtOHZhQmZrby1OX3piOEFYRF9TUVNWdE5OSW9QZWxNWkNtRkNiVkFiVWtJaktwSm1Gd0UtODNzM3dVV0h5Sg?oc=5",
+      "title": "PSE nine-month profit climbs 15.6% to P854.3M on stronger revenues",
+      "snippet": "Malaya Business Insight, 2026-11-16T13:32:00+00:00",
+      "publisher": "Malaya Business Insight",
+      "published": "2026-11-16T13:32:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.791,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYUZETkRGN2N3SU92M21tYnZaMkhvUVh2QnIyR1JDTFVnUUpHQzUyRGM0M2dKRUpiT1BpWXBGU0U3M21jMjI1Ym1yWjFMRnVCY1BrRTU1T1dTVzE2djRBeTA1YS1GS01tVWlPZjZMX29KSFFhS1g4ZzYyM2VieUVwNnpDd1VYN3FrY0NfWjFiMDZqSjBvZkh5aThqQ2R4b2V1UGFDcFhYc3l2cEtZUUlPMHZpMGJyUG9FcDFIUzlMRVZIbjRLN1NfWk9SM3dEM0c1Q0tQTGVJa2hQUzJX?oc=5",
+      "title": "Singtel group CEO sells $6.3M in shares of Southeast Asia\u2019s largest telecom operator",
+      "snippet": "VnExpress International, 2026-11-15T08:00:00+00:00",
+      "publisher": "VnExpress International",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGpoR0JsRVh6TXQ2Nlgyb1JhSWtUX1BFZk15LThZSGh6Tl8wY3dTbFY2WUxESDdTZHljbWZ3SWg1QlZMNG5jQUFabmlqWElTS2xzYjdzYW9uUnc3SGlVaENpeXFDdGRkZUZIN0ZlRXVBNXdfQV91cktPQ014bXlnQ0tCWE5GZWxRMDVBVDJiX0t2OWhBd1BmTHBmSDdIOEVFZmI4NTBDYTNqMnIxODRuTVVaVzhJb1liSjRTc0Q4SkZpcDhyVGxGdVMxNHVDejQ1Y2JWMw?oc=5",
+      "title": "Biocure Technology Inc. (CURE.X) Cuts Acquisition Consideration to 11.3M Shares",
+      "snippet": "TradingView, 2026-11-14T02:40:05+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-14T02:40:05+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaHR0QmJOdG83QmsycFVEQWI2dm5RbnpjZy0xcmV6YmVjWkNIVmhUWDlub2ExcXRya2UzeV8yTktUVVQ4QmNzUm94U0FaQTctdTQ2Q3c3UFdTaVU5QzY1Ym9ZTlE2a2pUY0VLM3pIcFlyM3o2eXc1YzA1TWVxdWFaN213ZWFtTlpGUGxlVnF3VGpjQkUweXk4QThOX2JrREU2N0ZCQ01ySGxrX0NhZTZubU84SEdzMUpqTWFuaHFtR3plbFMxbkFXbnYzVWFHR19NekpDazJUQV9rZ1JiSVZDbWJ3?oc=5",
+      "title": "Ocean Power Technologies prices US$3M public offering with five-year warrants",
+      "snippet": "Proactive financial news, 2026-11-13T08:00:00+00:00",
+      "publisher": "Proactive financial news",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaW42alRKb3pSYmVPRFNnUTNCX095R3lnSWstOUE1RThkaTAyNEVwTkk1R1RoaTJxRTZVV05peG1oMEpNaEl0WjVvd253Wk5OMl80ZzEwM3dsb3JZdjI2UTVhajNqczNXbGVEYWE0bW5wQ1c2ZVR4b2RNcVl4ZFpTeGw2U1luNERyVzBWNTc1eENHeG10QVhmejlNNUxmSmFXWjdCUmRrQ0oxdXl4azY4SkJCZFJobUNEMDZBNWE3NW5fUQ?oc=5",
+      "title": "Ocean Power Technologies plunges 42% after pricing $3M offering",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MMM/history",
+      "title": "MMM daily price history (Yahoo Finance)",
+      "snippet": "close 181.68 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

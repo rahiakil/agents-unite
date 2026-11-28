@@ -1,0 +1,97 @@
+{
+  "ticker": "FDS",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FactSet\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 11,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMWdnSkdLdzBwNFdwcjNEV1BHNERac0Q3U3ROdWlEZ3VjY2N1cXhsYS1zMmN4cnBIZUxWVWhxUVNoRjJJX2hDMktTN3Zhc0Q0cWZBR0JqM3gycVJHQi1ONHBVT2VLR0RTX2Uxc0lzckNQRlJEWXNLRHF4T2tZRmFOS0p0N0NxbWo0YTM1aVRnLWxTakN0YWFqTDIxSkNWamFfMGhWSGI2QmRIcWxLVEpBZWYwZWRFck96Y2RKMFZybzN3MW1tZnFTcXo5MDE5UEQwUmRRY0kwNU45OHNaMUpQSWFlXzhFUQ?oc=5",
+      "title": "FactSet Research : S&P 500 Companies Are Reporting Lowest Earnings Surprise Percentage Since Q4 2022",
+      "snippet": "www.marketscreener.com, 2026-11-16T17:17:26+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T17:17:26+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN0J2NlYtZE9jNzkxajJEbkJvWk5FOU44bkVudTFDSnRQeUdxWTBycVlyZnp5OVNWMDVPUVZ1SXRqVmRrUkN1T3M4eTVJRUJVLVMtZUQtTmZQZDRlVVQxSk16R2M3bGhSdXZvRUNBbjI2MFlGRURZbFlSZ3pKR3cwa3hPZU9TekFRTFJnbWdXQ3NMWVpIUjVnd1RwWlFZU1hxZ21mMGQtUGlHdm5fUmphdXpOWHdlaGdlSW1fY2lUa0RrV2E5SEY1RzhWcUhNcDlJS0gySmFXRXQ4aFZQQ0E?oc=5",
+      "title": "Earnings Flash (POET) POET Technologies Posts Q3 Loss $0.04 a Share, vs. FactSet Est of $0.07 Loss",
+      "snippet": "marketscreener.com, 2026-11-16T12:24:41+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-16T12:24:41+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZTd5Rjc3aTROaDNmcjlMOTVOSkNGaXVRYlFWeDM1WHhGNzdxZDRoS0dXNHg3VHFVOVVKUl8yNjkwbFVrTEEzbDF6LUJ0VHRjUlZodUdtQ3dlT3R6TUlVdl9zMkprb0dZdVVVQVBRMXREczZ0LXJDblMza1JiZjd6N0NNNkdoVWpYeXJIbllEWDlfa1ZNM3hYTG1lVDh2SEl4bUNoRWVEU3d1c2phTHk3ZDA3bzlReXJYNmtxN0FvWQ?oc=5",
+      "title": "FactSet Research stock: Investor Day sets 2029 margin target",
+      "snippet": "ad-hoc-news.de, 2026-11-13T08:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRU5nU2xyeWJkTkJ1cGVwMkRQYkRmM2JPQVFPMEEwMmJqM3VzUk1ET0VoNzFGUFZISURsRVhPYVFKQ3FPVnRybEhzclE4eVdaMmVsb2IwMVhzMVRXdHE5Qm85eXg2NktZdERBQ3VEOUNUMDhHYmZ6Y084eHh4amFOek1JSDJJckF2WTFIOVBYSWI0RVNsbVMwekhoaUtQZ2RpMldNQnNRZmRXZjFDSG9rSGdwNkJLUUZCSUx1M3QzZDhNRTZGWklyZmxzS2FsanlEQnN6Tll3bnBuUnVkZ1ZnUjV1ZVVSeGFidHfSAe8BQVVfeXFMTnBWWlRDd2JDeEJYRUIwdXBvYUVYRlBSSGVremt0eEtmUTltOGh5eFg1MmM3Yzd5azNFbWJiTHZuc1h5RDlULTRuakJDb01sSERwX0R4THc1NU1GWk1yRHdtakNlUWpuekFiM1E0d3lGSktYZUtpcEJPbGNadW96ZmlwWmNmX2NoSkFmX0M4aDlmMi10aUVmX0ZWR3c0S2dVM2x5MkVyZmI3a2oxWUNPS2RFc3UwR2xxY0FIRUtYT0ROOHpzN08yWEFKR2E4VFVOd0ZvX0x2eEdXYTd0Mml0MW9UekY4VTlXZ1l6UWZUdFE?oc=5",
+      "title": "FactSet Research Systems (FDS) Could Be 28% Overvalued On Its AI And Data Push",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeUlpSTYtTFpaek9hYmMxWlVlZkJuZmNHeWNqR2MzMFctdFFiem8zdUNuRHJBeU5DUTVPdzFHY3JlbHVIbVF0YlEtR08tblR6dG5fbUR2cmR0WllQVGZEczNtUHhtOGVPcjFBSEhmTG1VWUZnS2l1NUZOM2JHS0VrLUtueVFwRXRJWFB3Vm45clNQZ2J2RlhtdHdOTlpaTVlzbXJuNks4QklLaGk2dGc0ci1qTE94b09OcFk3dHUwX2lERGIyWnIxc05zY3hrUGozSVJXMzY3SU1YV1Ew?oc=5",
+      "title": "Earnings Flash (JBIO) Jade Biosciences Posts Q3 Loss $0.42 a Share, vs. FactSet Est of $0.76 Loss",
+      "snippet": "marketscreener.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDS/history",
+      "title": "FDS daily price history (Yahoo Finance)",
+      "snippet": "close 332.17 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

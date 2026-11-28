@@ -1,0 +1,61 @@
+{
+  "ticker": "WDAY",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Workday\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVk9mQk5EWUViTk5sZzNFZGhfbHpCelBFb19VdUs0RWQzUXR6a1hteEJuS3VMVTExWGEyN1JHaUFRbS1tSlZuX3I2V1RGMTV3VmtQTzFkYWt6ZDlDVm1Ka250SWZhclZSbjVZNUpzTUcxNi1kVHdyNjgtWkYwem85cktuRkhscnB5bktkUlFoWmRJdmlJNXFGNDhyY3ExbDBzQkh3aHFEUmE1Z1ZveDJQT1BVb2ZCeExDYTlwVUhLejBxaUtVc0dQMHhNdHZKZUU?oc=5",
+      "title": "\u2018Strangely calming and unnerving\u2019: How Microsoft\u2019s massive outage upended the corporate workday",
+      "snippet": "MarketWatch, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUk9MbkRRQmN3Q2F6R2k3VmNVTXhDNUh3MkdDMjVvSDBDSWQtdDlqNzc4NzYzRGYxSlF3eHY1OVRoN0pzRlJoTFNmdzZ3YmxORDZuWlc3UmQ1YVRQOF8tejVObEk3OEJjeFhGcE1GNTB5X1JOTVc2eXNyN3lRLTlUSjNCTHQ1bG1zZ1JXeGdSbWlwS3gxZ0UxVFlXdjRMZHN0YXpyWG5kc0wyTUJZOVF3NHB5bGdFWGtmLVpZWHlyZ18zSnpO0gHKAUFVX3lxTE5VXzB0NC1IQTdnREhXNk5VZjIyUXF5TEx1aVlUa2oydWhRLXNFeVZNaU5GWGU3OFFEY2hSZnZ4Qjk2OTB2TlRKVHlDbm8zZzM1Y3M3cGJlRzZXV20yUmZManBaOS0tSmR6VDcyUDUtcXBMMUpnb2wxTDgxVVlRNXpmTDY3SDE2OXJmVzIwUjdDTlBHd1RhWjRVdVltT2R4WUVYaml3UWNyWFBYemZzZ0tpUzkwOUV0am9vU2hheHRIN21XMW83dmV1Y3c?oc=5",
+      "title": "Workday (WDAY) Adds New Partnerships, Is The Stock Cheap Or Fully Valued?",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WDAY/history",
+      "title": "WDAY daily price history (Yahoo Finance)",
+      "snippet": "close 194.06 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

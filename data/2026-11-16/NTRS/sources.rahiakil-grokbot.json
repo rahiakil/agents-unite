@@ -1,0 +1,49 @@
+{
+  "ticker": "NTRS",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northern Trust\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSXY5cU9qTnc5S1g0Ym5ud2J6MUdRaGVVUUZmYlRqUmItYWJVcVduaXp4bTYxcG9manN2bWZ5TUc0aENiWVhCSFQ2RVhjOXZTOFNmeDhiWmo1QkU0akFjU2ZmZWpnY0xFVS05Nk5Ba1JYNmtDaTd1cEJRVFhkZTN0cWlsY0o4TXVCR25oTkFrRDRvMzZic2dhdExMYW9yOGJzMU51bkV3NlQzLVV3cmRtZzlhZ3N6c09VTDVveWVDbjhuWWdiWmlhZWFOSDBwM0ZsUHRCUXoybGw4d09uMnI4cVQ1U0pySHc?oc=5",
+      "title": "Northern Trust Employees Set Volunteer Service Record With More Than 72,000 Hours During \u2018Achieving Greater Together\u2019 Month",
+      "snippet": "www.marketscreener.com, 2026-11-16T19:00:11+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T19:00:11+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.791,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTRS/history",
+      "title": "NTRS daily price history (Yahoo Finance)",
+      "snippet": "close 175.45 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

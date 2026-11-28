@@ -1,0 +1,61 @@
+{
+  "ticker": "CSX",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTFA1eEF1dVlSYUZQWkJlZFA2WFllNlJlbHZWR3hjel9CMnloLXdEbmVycmpYZWxQNjNFLXZROFczR0gyNHJwMU5jdzZWVmxFRzBaQk54YXNKbjJ2SUlaWm1CdW93SnlWY0FQVjZ1eU01Q1RTaWwySVpxTlhOdDljRGlLVnRtNWlmdURJSnNvMnpTMFI4V1BuRDgtekktSG15elg1bUVfQ0I?oc=5",
+      "title": "CSX Corp. stock at EUR 47.16, down 0.40% premarket",
+      "snippet": "ad-hoc-news.de, 2026-11-16T07:30:49+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-16T07:30:49+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfel9uUng0ZWt4b1BGallGRGNQOUc5WGtSZV9ZTUlMc3F2SFRaQzREUWpEVEhWUXBhYTExd0tkazZQRVcwU01pYnNqblIwLVowUUp1OXFyZFpCaUVN?oc=5",
+      "title": "CSX Corporation | Formation, Mergers, Conrail, & Pan Am Railways",
+      "snippet": "Britannica, 2026-11-14T08:00:00+00:00",
+      "publisher": "Britannica",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 52.03 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "JBHT",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.B. Hunt\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU1JPLWNwdUJQS0liUzI4bTdhYjQ1RjBadFdlZ09PT3FJYlZEd2k5OTNBX3k4dHpWWl9nUUJSZDU4UGtTWDRUay14YUo1bVNiRjNYakx3c291TlEzeEdvNjhlSklNTzg5YWY1RXR0LTdHUVJVa3NVTzdJOHhRa3VmMG9YZ2hlTTlybG9CM29ObTRZeFBlS3pKc3JSb3RqaDJRRUV0c3duTnhTVHdybFJNa1MzR2hrQ0puWVFFcnhYU1NpYXBNNGVUWVQtci0yRE12aFE?oc=5",
+      "title": "Groundtruth Launches With J.B. Hunt to Address Industry-Wide Billing Challenges",
+      "snippet": "Business Wire, 2026-11-16T14:20:47+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-11-16T14:20:47+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JBHT/history",
+      "title": "JBHT daily price history (Yahoo Finance)",
+      "snippet": "close 232.2 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

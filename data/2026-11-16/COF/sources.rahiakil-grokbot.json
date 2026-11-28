@@ -1,0 +1,94 @@
+{
+  "ticker": "COF",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYk1FSGhrbkNTYV9oNFRvVGxmcUwtRmlacXJ5MDl5c1QtSldfMUREQTZaUF94MDJnRTVBamFXNmxWbXkwWnBQT2FMVlVxYTFLNnk0RGt0Tkh0VlQ5dGZZcEhYS3ZzUGtYb2lqX01pdWJWMTA3MWx0XzU1SnJPa21yQ3lZUkkwaW1iWkN6UA?oc=5",
+      "title": "Capital One Financial Corp's Dividend Analysis",
+      "snippet": "GuruFocus, 2026-11-16T11:03:33+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T11:03:33+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVlZfU2dkZG1zTnZvRVByV2laSWp2ZW9FM0JnQUcwMS1ENFlKQkw2bklnQS1zX2Rnekd2MGpHSVFtYlJQamdma3NramhGUTV0ZTFTRW9KU1JTcks3NjhEbjdVNFhyLVpUZWFIaDZXc3BGQmRDN0kwSnY2ZXg4T21ld3NsaElHbktNRVBhSVE3dWcxdkpvY3lkZFh3M0lUbGFMMEw1VXlUeDlNcnhxSFJYaF9zOUc5VmRIT0p6U2FTcXBEMnRSVFV1TWhkdkM?oc=5",
+      "title": "Capital One retail bank president Celia Karam sells $415,643 in stock",
+      "snippet": "Investing.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZEU2YV9NS0RhcjF6dktlaW5lSFFlamo4VWN5SXFqaUFwTXZnNDg1X0h4RlpBbmd6NlIxYmZqeVZtZlR2bHpHMFJ4ZGJtMGJOVjczbzQwV3YxSFN0TGNKWlFnMHFZU3VXUjdFTGF1NHFBQWlRU3lBRFg1cjM2SGJOOFpYaFJxVzVlSlA3RGFzcXBiN3FyeXpLOUJhTHQ4RWRwb2VTUElrSE1fZnowMllhS1J1VGhDV1Jmb2M1ZkdDdDdQM045T05xNXpCQ1BFelZVREFWY0F5NEh4Nm9fTjFwdzJEUUpQd9IB6wFBVV95cUxPWjR1TVNVYXRyMkpEZjFVWWN1aFJRc0xwYmFYN3NNLVpzdjhmVnd6OTRMT0pXUUxhNUphS09lTHZBbkdtdnZ5S2ZuU3M3NUhWQ2lGZ005NWUxc1JjQ3BwX1luOVFzTHBMWkRGcTUxZm9OTE9CNXZ0TnkxN3dDczAzVTVmX2V1ZDRDY00zU2hVZDQtQVRpY29wTUFZTWdQS3gzS0ZCeE1mR3NfeXM1MF9abExZRHQ2ck93SGNTNmo5bVdiVXpqcmhXQzIxSDIzRGJ6VUJGUExPU01ELU5GN2FEZ2ZnRUJ3SnMtS2pr?oc=5",
+      "title": "What Capital One Financial (COF)'s Data Security Leadership Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVHVoWGFHbHlhUXljU05fNF9UMGtKVnlIVG9SOFNoNU5wZjU5Vk9uQllScXZhZzhXVE55cUpDVm14YWMxemJTWjIyb1hzOVk2UHItWHY0UE1sc2wyMnVwS1pxVkJnX1JFcndfMUZNTG83LWJhYnFyRmd4MlhzbS13eWlxQURpSE01dHVYQ3VTcUl2Z1pORzVnRDNzMlR5RWdtd2FON2FlUU1SbnBfd0E?oc=5",
+      "title": "COF: Capital One Financial Corporation filed SEC Form 8-K...",
+      "snippet": "Quantisnow, 2026-11-13T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000160/cof-20261113.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 193.22 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

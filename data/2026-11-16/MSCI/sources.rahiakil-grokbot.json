@@ -1,0 +1,121 @@
+{
+  "ticker": "MSCI",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MSCI\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 23,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeG5YODNPT0hRNW5INmM3MXVUc3B6SU5Uakg0V3RXVG9HTnUwZWFjaVY0MkpxWllhMFo1dVFiMWl6SVl2TURHcm9tX1l6SVNpYmJ4cENxcHpTLU5wRndwN21Ha3pZNXJfTWpBa2t5VUtLeTFZV0Vrc3NUTkJoYTVnMjRfMEdKOHM0ZXBINVRhWGVwaWNxQlBxSGlNd1dmaFV0S3VSc2R2SGhuZ1EycnRJVGVKTmFsRWJTRUlGWEt4T0ZfUnFjQ2tYa0dKTmxqbXZmSnJBeg?oc=5",
+      "title": "Michael Saylor's Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
+      "snippet": "24/7 Wall St., 2026-11-15T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.727,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGY2x4WlBLMml3YzNEbHpqajNrMUZ6Z0FNY1JtZGZSbUU4bWNLZkJLcWZEcDFYbmFGR3NtSHBzbERCakc1TUxPODA3UHk3TnVFd1pVeHpMZUpFcWU0cFpHWHgzZTN1RW9XVjRnSDRGR1N1V0Y2eG5HdEcxTlljdw?oc=5",
+      "title": "Strategy (NASDAQ:MSTR) Stock Falls as Bitcoin Drops Below $70,000 and MSCI Confirms Index Removal",
+      "snippet": "Stocks Down Under, 2026-11-14T08:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMVllTWFZR1JObXdNZWtQYjdmVFI1ZW9PUXlkU2pYQkx4T0ZIVlpBcmE3M25yUzFzVWhBUTItU3lOcVdsYmZyX2NjTWRCWUtIY1dhWWswemhkMENjV1pSNVNjcFhCalpQUVBzX3FZa3VGOFYyMHB4elI2RmdWaWNXRWZNSFlkdFB6cG93X285aVFLQlhLN09CSnBQZ3NBeDFybWNaMFFPTmE3Wm1pV19Ub0xseVl1aWNFdnBsOUhqM2dTS2hndHfSAcsBQVVfeXFMTnFFbGVOQUh4SmJWWU5aaFgxcDJ0ZVdwM1FHSk93MlBvUlgtUTZBWDV4aTNmYU9DZDR5dTVwY3JqM3BLLVNZUmFHOFQ5T18tLTNreExKM3VkalIyMXRKdmZMRGNZX1dVQkNnZGhNSEVvV1RfdGZsQm5WeHdYbTJ1TFNJYWVQQnhwNVVoX3ZFeU5vbmIzbVB2MzRVNEMzYkdZNHB6SzVrdkJuSTJtZE1yaHo1SHlhMEQ0RDBHbmtVQXJNcjI3cDFDRmFoSzA?oc=5",
+      "title": "What MSCI Stock Earnings Beat Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV2V4UW9qZ2FJZUpnZ0drLWlUN0R6V24wZTJxQzBYQ1VxdV9JLWZHQUduRlZzbVpTV2V6NnhkMHF2VThPdW5KVUxubktHZTFNUkp4XzlZQi00U1BxbHZPS3k3QlZmcEQ4OVZDZ0RYeUVyd28zN2NrVFdLRFBqYklONFRqNWxYUnVQb3pGZEE0cUNlNkk5?oc=5",
+      "title": "Strategy Stocks Fall 3.64% as Bitcoin Breaks $70,000 Ahead of MSCI Exit",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcE1kMlI0WUYwMktNbUtSTXlnYVJRcVVVU09lc2NDT21ka3lSQUJZV1ZnZ1dUcklrVng3VWdhR2JNc0c0cF9waC0wWVdxQTdUOVp5bjRWMElMc2VtRGprenhKajFFeEhVUGNkMXVqR0JFdHNVNWJKWXMxRDJReFlMRDBiYnRSUVpSNzBvVXBHdGM2SDZKSVpyaUhIb01MbHd6Y3NKSnN0dGdmMm9YQ1FJdXRSVUtwc1ktV0wyeDZVV2NBbldEc1ZONlNYc05vWVd6cmR2XzFuYzZxVGYwMFh4dGJsSQ?oc=5",
+      "title": "MSCI rejig: Which stocks may see the biggest inflows & outflows?",
+      "snippet": "The Economic Times, 2026-11-13T08:00:00+00:00",
+      "publisher": "The Economic Times",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTURZM3VXTUdzSlJnOE93Z241OTFXNFdwQXVvMUFhSWsyRFltMTJ5Qk9RelBOOF9oVlRVMHRMTU5EQndIc3pMZGxOUHM2cjVmTExNaEZQM0I2aUZtUmhIdmxsV3FWRV95X1lUZGhwZ19ONW8wVWRPYUJ0NDR6NTNkMmVReElmcXM3TDVqMllwVC1PWUdncHExdWlMTEFvWFAtekJiX2xLd2VLMWhkV3VHb3F0b3Q2WGw4US1ONnltcWHSAcYBQVVfeXFMTjBpa3RJTkdDdkIzOU9mSVgzbHZMRm1sYWcwcFY2OGgxcENxWFpHdmFleUFBNWtKQldkOU9OS25XRjBMODRfbjRMU2lhaXJoYVg0eUVKZE9sV01YOW4xb09kZDk4cFFuZUdtMG13dUJwcG1rWUg2cVN4dlp1TU4xVG12dTJxUGZvMGlGbmpzVVJTRWVVa2VoTksxQ1lZYzRJMHRvay1aTms3NEQxdUh2SVpmZWtDSXI3V0pVMTQ3VzhUUDNJTVFn?oc=5",
+      "title": "MSCI adds LIC, Coforge, Adani Green and Meesho to Emerging Markets Index",
+      "snippet": "The Economic Times, 2026-11-13T08:00:00+00:00",
+      "publisher": "The Economic Times",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTBfQnNYVUU0QjFZdXFUWjNudmNWdV9iX1JTalNiVEs3UVBLMUVwSEtreENxa1JLVXgzMTFhcU1mWXEzNGdfd2RwTmRkVnp4RXdmeGJ5d2M0N2hIMFE0dldBZzJCOFY2SzZFdzBKckk0NHhjNWJoYVoxNmN3OEE1RWdHeTJzY2JKMGtsYm9FcEhBS3poQXdGdmdnTlBZM2VaMHNwdElpN1RhTlRXaUJER2N6R2NWd0VNMHhlODdhdHRqcnRiellwcFhR?oc=5",
+      "title": "MSCI Removes 8 Indonesian Stocks from Its Index, with BRPT and BRMS Removed from the Global Standard",
+      "snippet": "Veritask AI, 2026-11-13T08:00:00+00:00",
+      "publisher": "Veritask AI",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSCI/history",
+      "title": "MSCI daily price history (Yahoo Finance)",
+      "snippet": "close 664.49 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

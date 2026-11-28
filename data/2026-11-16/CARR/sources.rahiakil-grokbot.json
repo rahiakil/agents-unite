@@ -1,0 +1,49 @@
+{
+  "ticker": "CARR",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carrier Global\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZ0xkT0xST055aTRQVnNZajJPNDRmVzVMMFA5ZVJlNFM4RDRwekpkQkNNQTAtczFzbFRfeDdpTndnRnVDUmdjSnBuM2doVDU2NFF6Qk5wMWFvVWdLNVpsajdtLUtFOVFGYzk2VkNLc3N3WkdHYTRiYWYzQmxMMVlKb0xCMkxEajlVcHRPZzROUzBNNEV3eUhPSFdNS0ZRMmNIMXpKRkFhZ24wS0lqeC1WXzNXaEs0OXU5X2dTaFQ0cHVUVFhrMFJrbDZvWE5vUFFmQ202YQ?oc=5",
+      "title": "Carrier Global Sees $3 Billion in Data Center Sales as Cooling Orders Surge 350%",
+      "snippet": "MarketBeat, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CARR/history",
+      "title": "CARR daily price history (Yahoo Finance)",
+      "snippet": "close 51.67 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

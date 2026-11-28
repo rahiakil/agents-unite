@@ -1,0 +1,61 @@
+{
+  "ticker": "CHD",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Church & Dwight\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNmMwZHVOc2R1aGw1LTY5Y0ZHV3ZKYXQ5RGpzTWFYSlZiTXBncHRCSF9hcUczYnliZXlqaW1ER3RwNEFrUDdBYkNmeHA1Y2czc1VESlpVMEYyVm1xVkVwS0NzWTIzMWJTT0J6M1MyZTd5dWNPUzhKTkFSMFU5LTdnT21Wb3JyM1cwb2p0UkxTdi02RmJwQWJreW9OOE1WaGdISTJCd0U1eUd2WU14ZzNONjRTNzY?oc=5",
+      "title": "Church & Dwight (NYSE:CHD) Hits New 52-Week High - Here's Why",
+      "snippet": "MarketBeat, 2026-11-16T16:07:24+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T16:07:24+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd1R1WWZGMnZzR0lYalNOYTc5TmZlYklGek9OVWpfZ1doY1dnRnVfWHhEa2gzV2RGbzBZLUpGWUI2WEdSQjFqbU5PQ1dhdHlwekNKRDJEY01NYXV2LXMzS3FVamlfbWtZelhwemNWU25ENVhGMFRsb1hHVkdEdnhObEpoaE5kaGxMaFNTOVZtNFA1MnJvZ0h2MjVuSTlWaGlBUmZtVWd1NWZFeHFrS3p4M2VITVkwMmJMTkVKcDhSajMtb3F4TDJOdHJOYkpUeWwzbW1hN0o1UXc0RmZTQVA4?oc=5",
+      "title": "Church & Dwight Co., Inc. signed a definitive agreement to acquire 45% stake in Bali Treatment Gmbh for approximately $230 million.",
+      "snippet": "www.marketscreener.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHD/history",
+      "title": "CHD daily price history (Yahoo Finance)",
+      "snippet": "close 114.74 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "TPL",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Pacific Land\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZEJWd0lZTVZyRlJldkNQbkJaRTFvWjUzX1ZQTGZ5d1pMcVNEcldNeDluaTFEQmNyZjBGdTREeXVOLUE3OHNYRlFadEpaeE02bUliY1loNmJTMDJ5cjVOaGdDeXZCRnk0MGl1eHJfV1cwY0hwQWktNlhLYnhtRzdHTjl2cmJVME5wZ0tJSWdHeEpseVdBSk5YQWJZbERqRVFfamJERWJWNWZlXy14RU5GMDJlemxCejRXX1k1ZF9Sb3FiQQ?oc=5",
+      "title": "Texas Pacific Land: 10% owner Horizon Kinetics buys $370 stock",
+      "snippet": "Investing.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX1pVR0tiU3ZZSHZ4NlZHaHZLS3I0djlHSGtDa0d4NnZTZlRGQ3FIVHlLMldncEhxeGw3VnpMNkJLSndscEVHZVN6VGdiYjJDT21EeXpGd3M5TGs0N0NsQ0tDSWdOU1U1M1pBMzJfLWpUb2QxaTZfMUZERmpLTlc2SVdwMUw2VFNra0g5ZQ?oc=5",
+      "title": "Should You Sell Texas Pacific Land (TPL) Now That the Blue Wave is Here?",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONE1GSGdFLU83anZmOE9ZSHQyVURnN2dVXzFfeVA0Zk4ySFh4OU9sNkN1ZVZnX1VPenI0VkhtRjNHQmlmLUxnWmZOa3RMVEJYemZWQVI3UmZJYXc2c3BiU1NJQmVOSVd6MlV6QWZ3S0JmNUx6bEFFTkRMU2JGeVFDWjJaVU1DMF9sN3BHMXozVnhnTmdJUVBGUmZJZ041MFFYa3hlVWRmMTJWRTUwcXkwaGFYNl9PVkJF?oc=5",
+      "title": "What Is Driving Texas Pacific Land (NYSE:TPL) Up 5.02% Following Its Record Revenue Quarter?",
+      "snippet": "kalkine.ca, 2026-11-13T08:00:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3h2dXNkeTVodE5qUU5WVGdRemU0YjA3RTI1Z3VWbHdrZ05LQ0ZDRnpvZ0t4UnVsNUJqX1NJVlhLNjRTa2E0TVhUZFZjbFVPQ1I2M3RmaHF0MlIycC0xQ0xiU3BsNXU0eTRNeFd5NkkxSTVYV05yeHoxaC1ERGMxWmhFdThSYmdJUy01WVhPLXFjM0o1UnYwcFBhMDBlRzB2VlN4TkNDZExTN2FINkgwajlCY2RwRklpbXdndURMTVZNdGZnN3FlV2twbFjSAdIBQVVfeXFMTmFva2FMUEpoNHVPdC1NNGpJT3EyNHAya3dBX2N0QmxCbmJIQWJaNk5ZenBoQzNSM2Z2Z01LWkJpTGxQa3p5Yk1KRVR6X3liZXVrSjU5ckxoZkgzWDl1WnFQV2F1RDFUdUlGZmpUWlROaDFHOF9odVZyaGJaQk41eDcxUjg4WEVDRDdXN1FiQ2JJWDBKTGl1TmVONmpCT1NXVTdibVlWV2ZSazhlR3BHbzZsOWY2aVF5dFBXT2c3RV84SEV2YmpTazFoT3ZyWkFuclVB?oc=5",
+      "title": "Texas Pacific Land (TPL) Stock May Be Fully Valued As 5 Year Gain Hits 110%",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.69,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcnhWRExJN1ByMG9fdk9wb2JlUmJZcWZ0SWRDTDlfbkFJSENicEFqc24xazF4NVZpaUtEMXM2NWdkcmtaNHd1NThnWUtCY2hTdWZyOTZmYmM3ZnBXVTMwYV9YMG8yMWdaUzhfZWxhUFVmS240Skg2ODJnMWxtdTVRYXN6OWVXczRDXzZqNFU1NnJtSXk1V1Y4NmdhQmJZM3pveDhJTHA3a2l3a1luVlU0MjdueXVMZw?oc=5",
+      "title": "Texas Pacific Land (NYSE:TPL) Shares Climb 4.1% - Time to Buy?",
+      "snippet": "MarketBeat, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYk5CT3ZzQTB6NTlqTkRqaXFQdGVISktoSjhqZEZsNFdFaTJyNm8yYlNxenpRZFFGYUZjN2M4cm1rZ01TM1lYRm9RVXZyMWtjVUVzT0tkUXZWY0ZJaWQxT0pkMjZWRVBqWktRVXNqYkh1V0J2WEZaWWZlMUkxaFlaakRDQmF5S3NCeWVSYnhB?oc=5",
+      "title": "Jim Cramer rejects Texas Pacific Land in latest stock call segment",
+      "snippet": "Traders Union, 2026-11-13T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPL/history",
+      "title": "TPL daily price history (Yahoo Finance)",
+      "snippet": "close 292.16 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "PH",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSDMzNllBX1VfdHVrUXBycWpZRmpFQU82c0VJUTU3SnBUUlR6TzNtUjkyR0x6b0hMS0U1aE51dlpWaHJWczVpVDJXVFVCY2pHaWJjX0RSLXFiR25ObUstNDkxNUYwN01zZTJmWjJPQ2FYX0dwazNCOGdDbnhIVzYtV3FTZ1dvUnlfYmdrbUtKNll6N2FrZ2FWakNtQjg4YVZQRm9SdUFBcXBKQm90TzU2VVpwRTNteG9oUE14UnpHSdIBxAFBVV95cUxNYWVyX2RrSmdmLUZUeE9tczNJUzVKa211amVaQ2lqX19LQTF3VEI4YzI2RVRXYUdQbUJLcmVjN21MREhrbDhFZVdWS2t0aUdnUml6X2hvMmZhTHdiZ2lPMUJBNXZyWjdLdkpSeHo4bl9UNFZDb1BicVMzNGxIVXJGYTdrVVRybTljR01oMVFLWUxFZ3RwUTFWcWJfbWJCa1RScmpKZ25qemp3dmpwSUtxT3JYRmRoZzdmMVoxNFhsMEdVcXZm?oc=5",
+      "title": "Why Parker Hannifin (PH) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 934.8 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

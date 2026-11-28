@@ -1,0 +1,61 @@
+{
+  "ticker": "PTC",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PTC\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWWFJeWpnWENCeF9VWnlSY1BMV2M4VEh3OGdDWklnOXdwNVFHVmlsV3VoUVo1UTlNWlN5SWxpdzE5MGNZek9vUUJDYUxCcjVIZWJmWXlHbUx6ek13ZU9JTGp6VkswR3NnVFVIQVF6UWk4S2hrYl9EQ1Z6bzFYRTRQYzM2M0h2UkpCSlhwLWpZM3ozRVNGN2swdlJlaFROdnl2X29XSVpfZTlxMHgtbkVpcUpJeFdqbzN5?oc=5",
+      "title": "Seven-Day Slide Pushes PTC India Ltd to 52-Week Low of Rs 134.3",
+      "snippet": "MarketsMojo, 2026-11-15T22:48:12+00:00",
+      "publisher": "MarketsMojo",
+      "published": "2026-11-15T22:48:12+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOGk5RmNScF8zX3dBZzB3cUl6eFNSdEp1VnN6MWhTYVlnX1F1V3RnSjkxSUtZR1dtdDBpYXpZbkRWOU85a1RndXVBZlAxQ3hpTC1FVF9YTWJWa0drY0w1aHo3OU5jVXlhRkoyQnRzVGFWUmtNb001U2tZdUx3S0JrS0hneVlTR056R2luT3I4OVUyTTV4OExaRQ?oc=5",
+      "title": "PTC Industries Q2 FY27 Results: Consolidated Revenue Jumps 80% To \u20b9224.32 Crore And Net Profit Rises 83.5%",
+      "snippet": "Kotak Neo, 2026-11-15T08:00:00+00:00",
+      "publisher": "Kotak Neo",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PTC/history",
+      "title": "PTC daily price history (Yahoo Finance)",
+      "snippet": "close 196.38 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "TRV",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Travelers\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 11,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNT1VIWTU3WEY4NmhwRHduVmtCTjFNLXNSMHBTQ0VBd0RvamFaM21iQURSTlBlSUw0bXg0a3ZGdzJGRmI3anZIR0lJSkNPOHpocmdaRDBHOWpwNVdaSmhWQk1fV2pGNXpsSFdTTlNDcGJ0WEVVaHNRM1AwXzNyeDBnUzJQS1hmSVV4Ym4yZlJQbE5aRTRYTVVTOVFfcTU3X3l3eEpLdkMyVzZ2WF9VVUI2QWg4ckZsaHJXbmxSdEJibXRsc2hSNVp4OEJDNHdBNjZ3QVJXaENUYw?oc=5",
+      "title": "Truist Securities maintains Buy rating on Travelers Companies, $435 price target",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUVXQ29tbmd6UWVmeUxPT3N2dXZ4blI1S2ZwbE02WTZxMmRUdkEtVTVTTzJ0WWdoTTNpSkpaU2UxMXF1dEZXRjBRR1FkY3Zxckxpd1pPRTVxaVJpOGdrNkpKcDR1Tk5lVlc3VkowajEwRlo1REtQQWEtTTNYNTBUeVROck5qNGc2UjZHT1R0TnlkejhOYmZIWjBFeDB5YkdnaGliag?oc=5",
+      "title": "Travelers to share more cyber insurance risk with other insurers",
+      "snippet": "Hartford Business Journal, 2026-10-19T07:00:00+00:00",
+      "publisher": "Hartford Business Journal",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.042,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUC1Yamlad2RGWGdKRDEwYzBQZzA5dTlPU1BpY0RXOHNiRXctYlBMazlTZnJsdmJIa3lMRWdZVWozWkkxSFdrNW5VdUszbC1FWW45UERsQXNKV2xfY2lXVUVwd2Z6V0hnMnE1ck04a0tIajJOMnJ0Q2pIaUJnd0J2TThyb1g4cmpBZjRmMmJEald4SEljQ3B5T0k0M2gtdjItUGtOVVFJbnVwV3VEaWJ5czZ6azYwdDhsdm1HWkpzWTNVeHNkZlpWUTVpX3F1cXZWNUHSAdcBQVVfeXFMTnVnaWhoVnlhNE1ZMnFEaUFlVlBTbnJDVm5va05hZ0h2ckY3T1hRMVFrVTIyQm53NkMyMGFyeEtDUTBodWRKN1JDWmp0cWZkNDIzczRDTF9ISW0zdmljeWVSTWx6OExQSHdhMzZKTDBGYmtSVDl5ZmRhZXdBb0ZYTUtzeG1WUWd0SGUzdkVEN1BuSlZSVFBkVDA1RXd4YnJOeXlyTmdnWVFfQ3lmMHBFaHBfcE1GM1hHWDF3SkhEMGcwQWlhOFJfN05qZmtUQnBnMUlwTFM3STQ?oc=5",
+      "title": "Travelers (TRV) Q3 Earnings Spotlight Strong Returns And Softer Outlook",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUmJQRFdkTWxEV3BfbkplZDE0T0I3ekJNbWs1TGIzTHdfQXZJOUowXzJvOTJyZHYzQ1NsX2RBcXpkWmJPNm96eVp1SnlQTVNQOWdKTEZPckt4cHVvQ0cwaEJjeHlHdmlSTVNud1hTNnJVbE1MVHJoc2lxQkhwWXc3djZ4NU1GSWhoc0tpTEFFbjJMVDFvaS1OTFhsS0hYMnB6Z3ROdGtsd1ZWTXNGNzNWYUVtWktVSmdH?oc=5",
+      "title": "Travelers\u2019s Q3 Earnings Call: Our Top 5 Analyst Questions",
+      "snippet": "TradingView, 2026-10-17T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzJZMTFRc00tYzhuQ3lyMm1ab0dMT3NSdm5WRTJpN2RzSkVZV1BBcXFsMHRrX1pYbVpsUDRhUmY4UVd1eU1LMTE1RzF0ekxtdVRGSXZRbElORHFxSkg5dVFISUlHeFJzS183X21RMFI0TGhObGVmcWp0X3ZYajBNbmFmU3JWcTVHUlBmOWVXaDg1RHVDU3pxczB5b2hrWU5BVkdfd0xnY2hfSWlDbXA5LTMxTDM?oc=5",
+      "title": "Travelers: Strong Q3 Results, But Rising Interest Rates Pressure The Bond Portfolio",
+      "snippet": "Seeking Alpha, 2026-10-17T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.45,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcVZZMWhSNE1CbHRROEVvbGF1Y0dKOC1BOUNLTjdyd3ljU3gtdjBKTVdycEh1c2FxRkpFeG42Vmd6d0tVOFJjTXJybTlPMHJRdnRGRjJnV092RDYwVURHNGlWMHRJWVJBS2kyOVotRVRQTWg1UEIzTFBfWHMzSVR6SHUtNXdfR3ZzS3g4c3Etb0kxMUp5MTJJdEJGaw?oc=5",
+      "title": "Travelers: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQanhna00ycm9FQmZlNmtuNE5kNjZZQlI1X0Q4TG5xUWRiMXQxSXFmY0Jac3o5TmVrUThjS0dIT0hmdm8weXlEY3YwNFI2RVl5MVF0NkU0S3RFYk8yUHhtbm1hOWZ6RjNTTVlHNEJCNm9ESUwwZnc3YWJyb29iblNiLVIzcXJnLTFFcFVqRW5GQzlwaVdlR1lGeHIzcw?oc=5",
+      "title": "Earnings Beat Could Be A Big Moment For Travelers Stock (TRV)",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRV/history",
+      "title": "TRV daily price history (Yahoo Finance)",
+      "snippet": "close 395.73 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

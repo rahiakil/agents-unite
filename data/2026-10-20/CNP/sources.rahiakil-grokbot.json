@@ -1,0 +1,70 @@
+{
+  "ticker": "CNP",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CenterPoint Energy\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSjF1RXpmYzFVNjRuamg1c1EzV3VsY3hWdmtDOVd3WlBNRWpRVVdRWmR4MlVhVmNUZmJ1Q2V5VU5qTVRoSi1RR2RobXpsX3EtRnNTVlhhaXZiekh6U2toLWphcE9BQjM5bEw4Nl9RSEJ5T3JpN1ZUbTR0RXRoRkpka29CdWNlYUxYSFpYLW4xeEh2Q3pHSDRkTE92eGtpYjBRanZ5ZC02VjNpcGctMk5raGpxSlRMOU15S0xZUThLeE1HU2NNYkY0?oc=5",
+      "title": "Weekly Recap: ZENS note payout and Jefferies trims CNP price target",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSEhFMXNqcWFRd1VpYm5zaktNNXZyMzdSOUJwVnRnaXZmU2tmazYzOGpvemZoTm5iR0NZUDl1MXA2amF5Z3E5SkxBZE9wWWFFOHZmQlJib3ExUW0xT2J3cWxSM19IY2FCQkxCbWRIaV9TcnVITFFwbUdHZGhDS2VpcE5jbUxZSkVJN2trZGxsODNUREVOQXlWRlFQdk9jSG1ZT291NTFORUVBOTJZRHpvZ1FFZ3o0MmNCc2hHVnRsRQ?oc=5",
+      "title": "Liquidity Mapping Around (CNP) Price Events",
+      "snippet": "Stock Traders Daily, 2026-10-19T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1130310/000110465926117423/tm2627902d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CNP/history",
+      "title": "CNP daily price history (Yahoo Finance)",
+      "snippet": "close 40.24 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

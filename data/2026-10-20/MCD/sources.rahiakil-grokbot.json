@@ -1,0 +1,85 @@
+{
+  "ticker": "MCD",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McDonald's\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 24,
+    "before_window": 5,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObTNYWkotVk9tbWdRX3F5RjBHREJ0MDd5ODZmZEY5RkNnQURkWmdEUDZtM1hhYU0zX3JBalE3VmhUamVvcGhHSlFydDdrSlN3MTgxaVJFbWw2dWlEd1RtRXRNOUI5T0VWRmZWR2w3YlVIelJIelZLZGRUZ0ZvM2xHTFJ6bWN1Z3hLeEVQSnFmdw?oc=5",
+      "title": "Why I Wouldn't Touch McDonald's With A 10 Ft Pole (NYSE:MCD)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHVoZEpyTm9vTUZ4aTh4bGRSWFhTZ3Z0NFMwYmhsdTJCakNpRGFybHBpaVI1UE5tNzdBaTBhRkJjdUNSSy16eUtuSURRaGtiY1U4SGs5S3ZTYXVwYUQ5ckg3SXUzRG5Pbll5WTVmWXRBQWxWclc3dmh6bjU5ZkVnWDc3WEdIVFhxbmRUVmo3azJ2Zzkx?oc=5",
+      "title": "Tune Out The Noise, This Is What Matters For McDonald's (NYSE:MCD)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TcEtHODBHVHdGNkhOT04xdFZ2ZEZqS0lDbTdjQlgtSEhFRHVsRmJHZ25yZVRPUExLd3E3M2RNY3hENF9lNVZkMm0zZVIwUmZ3c21zZ2JYaFJobzJzSHlEZXFSRGRLSUxGaURlQWNsX0NwZw?oc=5",
+      "title": "McDonald's shares drop sharply but may offer go...",
+      "snippet": "Pluang, 2026-10-19T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.039,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnp3MjhyOUtCVUdUVXZLN3VfV3FISnNFYjVXSEc4a2Y5LWZrNVJQcDdpOTNuR0JfSVl4aFI1M1Y2eXB1MkgtNVdSdTNOaF9tcXR6TmJqZ29MeElubTA4c0ROOTJfR09KOUdldDREcTN0aUQ5S2U2TVV2WkpEc0tsNmhwLXZESUZOcUJSM2tIZFBRWlNYTjNUM21QSnVMT2c?oc=5",
+      "title": "McDonald's: An Underrated Opportunity Hiding In Plain Sight (NYSE:MCD)",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCD/history",
+      "title": "MCD daily price history (Yahoo Finance)",
+      "snippet": "close 246.52 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

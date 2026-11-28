@@ -1,0 +1,61 @@
+{
+  "ticker": "PTC",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PTC\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 5,
+    "irrelevant_or_spam": 6,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaGhQWWthZ2xyY3FrSkFMTGx1al8xd0Nfc2syRHp4RHJTS1lTVURyTlBDWUszTlFfeDZwZnh0RWp1SHFmZE81QTlDdXlLc3FxeVpNRWhrRnk5bUZ3eUpuV1dDVlhVTVdscDJlb3cxRG5tVlN1YlFmdzhEZzFyUHNVeTRCb2ZnNXhJU2EzUkw0cklpYno0bnpxVjYwWldwelowYW9VLWcyX2VldU1CLWtKT3N6YnF1WWduSEVjRnpBck5LSzJneDl2cV80dnQxUUFM?oc=5",
+      "title": "Schneider Electric Launches About EUR 6 Billion Share Offering to Help Fund PTC Acquisition",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-10-19T07:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT19rVm9tMHYyZ3ZNdlJBV0dZNmc3WXVXcVN2c19yX1c5OE9jelpSaDNMS2tTLTREcGdtSVlnLURxT29Nd2pEZjMzZEFGeFoyRlNRZFdoZ0lCRzQ2Z1ZvVmx0VUwyRk5VNjF0LUpPU2pqU1ZUMVJDbUN0Tjh3WGNSdnREZmQzeFA3UjVJeWt2NGlMUVgxc0Y4cktCVkJtQU5pNDM2OXdxd1FqNGhEX0d3Z3dtanhaeG9PakVQUg?oc=5",
+      "title": "PTC to Announce Fourth Fiscal Quarter and Full Year 2026 Results on Wednesday, November 4, 2026",
+      "snippet": "Investing News Network, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investing News Network",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PTC/history",
+      "title": "PTC daily price history (Yahoo Finance)",
+      "snippet": "close 193.35 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

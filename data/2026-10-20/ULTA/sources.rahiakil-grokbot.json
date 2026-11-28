@@ -1,0 +1,49 @@
+{
+  "ticker": "ULTA",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ulta Beauty\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYy1sTUJmUG9XRUw0VXBkZ2RYZEg3SW01UWI3NkM3XzVwdzhQUl9yTTBGREJZS1lDc09TZnpVdlNPZzNwWjJHc0djajdWX0VINUFRcGpBM1RrRGlacEJnTzhfeV9yN0xKbW9ySXE1RXAwZFVQbXNUbHd0azVnck03em5fZHdmWWc3UVdIMU94SURZbGxpbjFQNUNB?oc=5",
+      "title": "\"From K-Beauty to K-Patch\": MARSHIQUE Expands into North America with Launch at Ulta Beauty",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ULTA/history",
+      "title": "ULTA daily price history (Yahoo Finance)",
+      "snippet": "close 602.9 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

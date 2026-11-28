@@ -1,0 +1,97 @@
+{
+  "ticker": "BMY",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bristol Myers\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2ZnWEw5RVFiazZSOWgxc3NpaHNUTUw4UXdmSnhvZ3hHVVU2X29obTh2ak1uTWc4TjJHSVJBVmprRExSaXh2QkxlZHljNFZ1RGlpUHpjMk9ReHR6WEUxdG41eTFtN2ZhSTFqNnIwWVFrQmRuVFphSzdDcVdkbzB0XzlkU3l5eVhBb1c4N2NXR0REc0VEa2Yyb1pDOFp0Zw?oc=5",
+      "title": "Bristol-Myers Squibb: The Market May Be Too Pessimistic About This 4-Star Dividend Stock",
+      "snippet": "Morningstar, 2026-10-19T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdDVaNjRuSUloRHlUZTR4TWNmandKankwZjduX2VEMnRmN0xOLUtabjZ3YmJRT0c0dTNQcjdOdEJlNTVUcG9ob3c1N1lVSF9ZbFo4aFh1ZnJ0OWdHZFNFR2sycG9qMVFxX213dHVTYkc3azFwRjZpV1hxTW4xQTBCRlVabHpody1hT2RBNmxRbXVKMkVnSXlN?oc=5",
+      "title": "Bristol Myers is Cheaper Than Pfizer, but Its 40% Earnings Jump Has a Catch",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcjQzVnlaRG03emdCdG1iUE92cVpGcU54azY5aVh3MExKM09rV0VBazJYRjltbXkzNmFPcjNZSWVlXzR0bkZ6MXpCRFlmRzNlR3N5QkRaQlpRa3VfODNPODZoZVZDTTZpa280eU53M1hSME1uT1FJQmhoX3dQeUliQlFtS3ROT0FiRWpwdDB2ZlJPTzlMZEJYTEl3RkZfX1BGanFwTmQwbWstUERBZUR1NW1VYzdKUGFpV0tJUy0wYjluOF9aOXdPbk5ZSjRLekRWLUtaeEF3?oc=5",
+      "title": "Bristol Myers Squibb Co. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORVZjak14ZVRGSGF0dDNWRm5mTEcyeldOVVpMazhabG4tb1RkUllUX29uZ2M2X3Y2Z1dlckdOWVhjWWF2VVlFM05hOU5VSDFxM2dUMGZQWVF6UDV5TmNYLUZxTEYwbl9UYkZtbTFTcEFta2dObWlXRlFPaVBwdG9Hb2NERWVHaG5fYmpuWVBvMFlTWHIwbnc?oc=5",
+      "title": "Bristol Myers Squibb (BMY) Heads To ESMO 2026 With New Oncology Data",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONDN0M0ExWm9tQm1GQnpaVl84eUVJZnBZU3NrYU1VdVRfdng0TE1rUVZxRWlUMUJiOG9FN1pyeUlyVjdLQThKTnFKOEN6U2k3aGl4SF9ENkowbFBtNUdzSDV0dVEtOHFVcUcxb2lvLUdaaVBZbjlaQ3ZwYUpPbzQ3ejEyeWRqUF9nV25WbVc4dHFKczAyMnc?oc=5",
+      "title": "AbbVie vs. Bristol Myers: Is AbbVie\u2019s Valuation Premium Worth Paying?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BMY/history",
+      "title": "BMY daily price history (Yahoo Finance)",
+      "snippet": "close 61.68 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

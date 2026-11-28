@@ -1,0 +1,61 @@
+{
+  "ticker": "RCL",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Royal Caribbean\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNTE4OWowRXIwNkd4TTYtOWNIRUVRQzhDdXY5ajloRzdnczJqTDk0LUtsU3lNMFJESGpaOHZqcklCNFhlV1dJc2pEM0oyam9NOVdidFEwamhhaG9uelNZRTdUSVhreTZQTlFkSjktQWMyYkI3WVpybHd1blhkbW1pX2UxUVBGYUZDS0NHUWxIZzJuWVczVWo5eXJBWThFMEhma2pWWHhsX0RWaGNLeXJ1REJWczczdnU5VEI0QnR1SnhraUpyalU3Y1NVVV9pQQ?oc=5",
+      "title": "Royal Caribbean Group stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb3dkZDZfRDd4Z1NjOG5jOWhuMlhfbzVqMHRscFQ0VzZyVDk5R192ei04WkRMV3hCZnZzUklzbnZNcE04RlAxWnlzeHFNT1dXTWhxNW9KR1g0cEZBMWZVRkhGSlFKby05N09oRk9SZWZ4bWZIdjBYLU5Bak5UdnJ1ek0ySF9EUVlUZ0tJajBKM0tkWWtocllTU1I5TnBVZXBqXy04LTgtcWZVUjB6RTJnMDlETkF2aWtCSGdTbm4tZG1fWXU1YlhsOVR3cVpSSmJF?oc=5",
+      "title": "Cruise-and-stay packages, advisor perks and more: Royal Caribbean, Sandals share what\u2019s next",
+      "snippet": "Travelweek, 2026-10-19T07:00:00+00:00",
+      "publisher": "Travelweek",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RCL/history",
+      "title": "RCL daily price history (Yahoo Finance)",
+      "snippet": "close 287.81 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

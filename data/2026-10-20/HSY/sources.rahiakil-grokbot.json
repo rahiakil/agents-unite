@@ -1,0 +1,85 @@
+{
+  "ticker": "HSY",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hershey\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOG9XcWNwRGJILWJhdUhLZ0tCalJHSWtDeXVXNmV1N3ByRnd3bnY5djVYTkdLR2VoMWdhbEtMSTZBaWpvRHcyOG5iYXB6TzNxTFUwODR2eGlVaVFpbWUydTctaEFiSW9XbVdiM0R6RFBZOFplTDFEa3VqZU5FS1o0ZGNpbGgwQ2NmaVNTZ3JqbVJmUjZSeFVIbQ?oc=5",
+      "title": "Hershey (HSY) Stock Dips While Market Gains: Key Facts",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0ZXdXByVkN2ejFDZ2UydGpmeFlVX1R4UjBnLVRHbTF4Q29kOVdQM21kRnZibU9BaUJSTW9GTlpLM25CNy1QYjdGanJ5blhQXzFscGItRUJJcTBYSl91RDlkS0hvNUJZTXBhdGxLQUpFUzhVTUMtdWRoNS1YdEFGVEpuMFF3NDd4NVNyX18zRDZnRC1PcjFjcg?oc=5",
+      "title": "Will Hershey's Halloween Week Earnings Trick or Treat Investors?",
+      "snippet": "The Motley Fool, 2026-10-18T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pR0RHOFlBUjhlTHVoRjFOOS1saGsyLVRINm1qU0piaXFITFZTOGlMeDVHeUl1X1Z4dy0yZERRYnR2a3YzcEpadTBPTWVNMEhZNkdn?oc=5",
+      "title": "Who Owns Hershey\u2019s? (2026)",
+      "snippet": "FourWeekMBA, 2026-10-18T07:00:00+00:00",
+      "publisher": "FourWeekMBA",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPWHNvZlZLQXNrZjZkYXYtNy1CdS1NR2hBeGpFeVRINm9IblpIX0FPR2d2UHk2Skc4YWs3cVFjbEpBTmI0OExsTjRicDV5VzNwU19QUEcwYjNPd2JvdXFuNWpNS3pqVkw0UFYzdjFmek1iRzJYMWpsYWtLOEpHanE2emYyekduRnF1NmRIeGg0TVVNM3h6aS15Q3FDUFZENWhkVHhULW9lQ1B6akJZZVdMTWhkaWpaV1NvMWtQaUwxQ3M5MXVlemxTYUpha2dOQktfOFp6U09wbndIUWMwdmRnRU40NzByMmhVdEhLVTJvbGpodWxTc2dRWDB3NmV6SnFEcTRMQU5DX2pEdG80NEp5aWZoMzBZNXZ1aldHYm5YaWYyZ1VJYW9oaUVfc3J3Y2xsakdMaG1MdXVBcWJGZFlLM3doUDlISGlQalBzZjdhc3FoZEJCYlJlTTJn?oc=5",
+      "title": "In 1918, Milton Hershey Quietly Put About $60 Million In Stock Into A Trust. Over 100 Years Later, That Trust Still Exists And Holds About $23.6 Billion In Assets. Wealthy Donors Still Use A Similar S",
+      "snippet": "24/7 Wall St., 2026-10-17T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.883,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSY/history",
+      "title": "HSY daily price history (Yahoo Finance)",
+      "snippet": "close 169.58 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

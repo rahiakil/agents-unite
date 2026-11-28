@@ -1,0 +1,61 @@
+{
+  "ticker": "SJM",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.M. Smucker\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMFVwbk40c1BpOHhhWGdDSVM3M2M5TzBaSTNnc3hrRWdJVG9DMG5YZm5wMUZsSlJkVnV0OFlQbTBNa3NoNmZRaTFaQUtOVV9KeldhdGxQNE1IM3d2MXVYaTdIejVYOXRxQzNkRktQRnZvUjJma2NaU2pBVGgtekJnTFN6S09jY3h3WW94aWJIbV82ODFMWWNKWVN3?oc=5",
+      "title": "Can J.M. Smucker's Hostess Donettes Drive a Broader Recovery?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdEdXejBfcm1RckJkQjhtNjcxTzlYNUt2TGF4QVRzNEtJdkdYQXZrdDVZX3BhaEZsSk14c1E2RUdvU1dmVjZtdTEtdHFrSEZxMFhtZHhtQThMSGNZcWRnYS04a0VNdGlOaTVUcW1rSmlURW1PTmpKa1NXTmpSUVlSOTZzX1MwRGdqV0pERGUwMA?oc=5",
+      "title": "J. M. Smucker (SJM) Draws Fresh Valuation Focus, Is The Rally Still Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SJM/history",
+      "title": "SJM daily price history (Yahoo Finance)",
+      "snippet": "close 129.67 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

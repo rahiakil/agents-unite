@@ -1,0 +1,61 @@
+{
+  "ticker": "CAT",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Caterpillar\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMTViZ0JDRXpJbkNPYXpDVHk5Rk0wam56R1loVE9UREtmNUdMN041b1pFdzJzTTU0QmdWam54UUZla1JQTWlWT09QSFVyUEZlZ3BiSTB5M2RmcWN6R2Q4Z2JmRm5SU3RKUnU0c2h3UjNNODl2RWVyRksyWnFhR1cxbjR2RWdkQ2JuT2xBS2hqb1hvQkdaX1pqTXdvbHVWMC13MTlnMm9rS3Y1TVhyMUVxdFRFSEFBdm9BYW5hOFlFSncwaGhLV2FnYTdGR21SY0l0YnNV?oc=5",
+      "title": "Caterpillar, Inc. Stock 12\u2011Month Price Target Cut to $964.84, Implies 32% Upside",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQVFsYlY5MXlNNGRqWnZlSkRaM0RHNW5wUUI0WGJRMEFJYTJxRUxxY0U5enJkck5GUEFDSHJua2pCd3VMM0hVSHI4MExMZzZLYklDSWhmZWlNaGxDTFduVFlOUEdoQ3c3YklJclNLeS02cWc1U0V5Y1h6Vk8wRHZIOGsyckotRTkwRkpHQ2gxUHF2bUd3N0lj?oc=5",
+      "title": "GE Vernova vs. Caterpillar: Which Has More Exposure to the AI Power Build-Out?",
+      "snippet": "The Motley Fool, 2026-10-18T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAT/history",
+      "title": "CAT daily price history (Yahoo Finance)",
+      "snippet": "close 725.24 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

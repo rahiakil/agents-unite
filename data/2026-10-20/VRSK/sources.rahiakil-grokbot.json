@@ -1,0 +1,61 @@
+{
+  "ticker": "VRSK",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisk\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGtNcnhZQTRFYk5HcXFBdEdYVmhXdUYtV0Q3WWw4N0VZcXNfRVhiamMwMmhSX0xxRzU5eE50elpuVmoyMkg1WkJITzVWZ29mZTBRb3h4djN5ZFVHQjJVdlVkeC1YaVJJaUFuUTJoNmVoNEVEMC1xblRyOENRb3NoMDFhMWZuYlpia2pOendqTHpsNHhEZ2F3TzdzWmtGWHBKbGtZdA?oc=5",
+      "title": "Here\u2019s Why The Strategy is Bullish on Verisk Analytics (VRSK)?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQWN6U1k1RzZ6UEY5MXMwVzQyMHpnVXBNV0F2Q3Ffd3FmMmkzUTZMaGpmWG9Ldlk2MnZwejNBREZZd0RRM25sVUNLSzY4WnlZODhYNlUzYkpZQnZqWFAyS0VyLVJYdVZtV2Z1Z0lhb243bVBic21WajJpdThMUW1uTmxMMFJDNV8ydjNQSDhLWDhkZnhvd05oajAzYzRBdExKMXNlNTc1eWdjQVBoejY0bkkxZmswYS1ON3g1LTNfWQ?oc=5",
+      "title": "Form 4 Verisk Analytics Inc: Elizabeth Mann (CFO) For: 15 October",
+      "snippet": "Investing.com Canada, 2026-10-17T07:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSK/history",
+      "title": "VRSK daily price history (Yahoo Finance)",
+      "snippet": "close 190.87 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

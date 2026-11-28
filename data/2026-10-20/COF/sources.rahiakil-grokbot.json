@@ -1,0 +1,79 @@
+{
+  "ticker": "COF",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 32,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUk5CN1J6WFlhTmtIbkV2Y0JIRG0tMk9UVlhMNDYtcy0ya2FYcFZ1Y2hjSXRWcV8tVDAyVkVJSVprdnhMdlBwZ1hZT0EweWRlRUdZdzRCT1oxVGdxSlh4NnV5c2pXV1c4d2E5SXFSZjVtQzBoeThZcFBISDFxTUs1WlctYWdYLVlpbklWNUh6WTNlWVJzR2FHWHB6ZGpHOTFVdFNma2FMZ2Nna0FuSUhCNncxdjNScU1GODJKeExRQTk?oc=5",
+      "title": "Capital One stock pre-market at EUR 180.65: consumer finance group",
+      "snippet": "ad-hoc-news.de, 2026-10-19T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQV1ZHcS1YWk5ZLS03UU42S3NESmItOTV6Q1JqYVQ3UHJqMVl6LVdReVRWMWVZczFEM2xqZk1sbi1RZEY5Rk8wWUJBdW1lWE5XbkUwbVJfM2lHdUNSd29yc3c4WmlBMFdNaUhoYVVnQVp5MnkzSjlCTGlYWHlTTk1KczNvNUZySWdMWWZIQmpfTjlrMUw1cWhN?oc=5",
+      "title": "Capital One (COF) Q3 Earnings: What To Expect",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000143/cof-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/cof-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 201.56 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

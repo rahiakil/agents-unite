@@ -1,0 +1,61 @@
+{
+  "ticker": "BX",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Blackstone\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRkt6WGF0SlBnTmx5cmQ3YlBFeW4tdDduZk9RbndkdDd0bEZnNzVoWFhaYTNuUWhDZ1piRGItQVBzZkpuTXllS0FoaktQOERmTGVwODRqTHBzamRNZ09jZ2xxdUtHQVdkdlMyNVkzYkR5MFRwR3h4UHdhOXRSaXE2ZDVUX2RNU0d2b3puQ053aFZLNWxycWN5VQ?oc=5",
+      "title": "Curious about Blackstone Inc. (BX) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWkJkbGdfUnQwTWFKMXlnZ1dsc3Z0QVRZamxxR0lWbXp2bHdpbmx1V1gxNU9GZVFQNm9JTkdSMDJNc0NQalRWVTRCT0FDSEx0NGZPeFhhWUUtekMwUFJKRFV5UDZya1JCNFFTd3hkOGdXY0R6dkRVQ1RaUGkzWkVoelcyc2lKZG5CMHk0ejdCZ2MwVFJRQWJZOHNyd2hDZw?oc=5",
+      "title": "PRC examiners let TXNM-Blackstone merger move forward",
+      "snippet": "Albuquerque Journal, 2026-10-17T07:00:00+00:00",
+      "publisher": "Albuquerque Journal",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BX/history",
+      "title": "BX daily price history (Yahoo Finance)",
+      "snippet": "close 110.34 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

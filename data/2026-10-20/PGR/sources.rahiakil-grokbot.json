@@ -1,0 +1,61 @@
+{
+  "ticker": "PGR",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Progressive\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 8,
+    "irrelevant_or_spam": 17,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWWxReFNoS3NFMGxmZW1XaFNqOXF6YVRxb245N3RjY1htWlBVUWZFOGc3ZWpKdDRNamFYQWNPUUdWRTgyYnZ3UjhtZzktb3VYeDF5Qms4Vld3VjlLY0U3LXdxS083aDhMNzhWZHFqMUh1TkZ4RDkwaHMyV29zemU5YWRVWU1STEtiU0Y5eXV5a05idUJCZGVPa1RweU5KdFI5STlv?oc=5",
+      "title": "CT UK Capital and Income trust to change name to CT Progressive Income",
+      "snippet": "Investment Week, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investment Week",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRlBrNlZqVXJLZ0NBTnRJaDhhQUp2MHRFMjlHbFAtYVRYck1PcDdUSm00ajJCT1V3VlI5dE90enZmcjhkeV9kZUZkWmZCbmwxMnI2NlFaOG85aFh3MGEzNjloRXV5UXo1WUVlOC1IZ1BFVDUxajV2NVFEZTVxWkhOWi1OYnh0SXduV2pGZC1WT0lfckZURzZwU0VxZDdSZ19XbWEwaWlBd2xUT3J0MzZGZU5LLWZCaWZmVzhVSFBxTkVfVHRzbHdV0gHMAUFVX3lxTE5ZdzBnTldib0hlcG9tRTJ4eEpzeUI1TkJiUVBQdmQ3RDIyeHFnSXZWVy01VWUtbmV5eUpIN0M4dzREY082cURmU1FDRHlrRHFsaUw1azZZUHNlNlktYXFlaWxrM1A2cjlrR3htUG4yYUNqaVM3c3FRZTdGNUhwc29EOElZS01yMjFzRjZnQ2xkNFJFWjAxaEJfNExmYUZtVkl4UWpCUm9Qa0lmWUxHeXdjTjRHQThCbE4tNWtlTmtwN3lEU2ZUUEI0eTE3Tg?oc=5",
+      "title": "Progressive Stock And Commercial Auto Insurers After The $604 Million Texas Verdict",
+      "snippet": "Simply Wall St, 2026-10-17T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PGR/history",
+      "title": "PGR daily price history (Yahoo Finance)",
+      "snippet": "close 221.93 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

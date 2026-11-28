@@ -1,0 +1,49 @@
+{
+  "ticker": "HSIC",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Henry Schein\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDV0UlBsQzFkOWJmLTJvbWZrUldpM0hNVEZPMlJpQ0pXYmViLVNDT2dGemI3UGVGTnVkZlZ5N0UweVVadFRmTS1YeFNvaXg1c3dQZUVib2lYMHl1bFBwb1ZFbzZRVHpVWDY5X1VBNmU4RVdDdWZBUDNFYVQyU2cyMjlNT1ota1UyWDk2SGJTamRnZC16T2kxeFkwbw?oc=5",
+      "title": "Unpacking Q2 Earnings: Henry Schein (NASDAQ:HSIC) In The Context Of Other Dental Equipment & Technology Stocks",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSIC/history",
+      "title": "HSIC daily price history (Yahoo Finance)",
+      "snippet": "close 84.68 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

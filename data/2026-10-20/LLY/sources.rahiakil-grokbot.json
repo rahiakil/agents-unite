@@ -1,0 +1,109 @@
+{
+  "ticker": "LLY",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Eli Lilly\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUhzaFNudmtLMjhpdU1JcUdUdjZsN3pud3FMY0hVSFQzYmljazJ6bEV4dWVTV215MW9qcWNBazNFVUd1dXlHUzJTd3g3X2J6ek02WWNmSXFnYkxIa1RacHZxaDg2bWJETTZOVXVKZDFoZlBER2dScE1HWUxtaVdYUXFaQVA2cWJMZ0tDb2JDbHpWS1dqOFNRZ1Y0QVZ1RVJObk5tQmx3Z2d4MUU4YXp4eERn?oc=5",
+      "title": "Prediction: Eli Lilly Stock Could Be a Long-Term Winner for Investors",
+      "snippet": "24/7 Wall St., 2026-10-19T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUFVFSHlRUTJKVmFTaWR5eHhudGRiaHJuYng2R1hJSDY5UnNUU0NsX0NCemRLYXhubWNWOWVQMngzMXpmcU5xNGNCSGZfNFpNd2tuLWNlR3dpeWFRTEpMb295OTZDRk1pclBsMXNXVE5wZXJnWnI1NDgzcnVqNlV5QVJUUQ?oc=5",
+      "title": "Is Eli Lilly Stock a Buy Right Now?",
+      "snippet": "The Motley Fool, 2026-10-19T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMG0yY0hxdHhrRUxRdVFYMU5KNklKVW82Y1ZzcDFYWndydFZoNmpyTm9DWWxZTDZNRG41dVVvb2JHUV9tclctLVB6d3ZGbUJFbG0yNGszM1JaU2ExdTJxbkE3YVBtbE8wbEs2endKc1dYU0NaTURhLWw3N25lZTVwM2Jsc01CV2RJckdaMUU5cUs3b0pkYmdldlQzbHlfZ3pHRl80Skk5Q25pakU?oc=5",
+      "title": "Eli Lilly, IBD Stock Of The Day, Rides Foundayo, Medicare Bridge To Buy Point",
+      "snippet": "Investor's Business Daily, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS2tLMDNoMGtTakgzNVdaSHE3VmwwMTV2bnRZdTZ1OHl1Mm9xMktxUEVNWTBnMTd5TFJpNndIWEJUbjdUdm9uTUQxYUh4VmNBS3cxaU80MURmNlU0VmxwWGt1UExyZ2w5WDJTckhvTnZLZ0xOeGlzdGlrQ3N2bHdpOGQ2R0EzTk0?oc=5",
+      "title": "Eli Lilly Signs Up to $1.1 Billion Metis Deal: Here\u2019s What It\u2019s Really Worth",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.294,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjVzTzNuNHJtRTZ4dHdpQjJSR3dTMmhxSnFqMHZxQWY4ZEdZWGR2QUtEeU42N0VINTc5Ym43d085UWM0b1BwckxOOV9FVTMxbVl1X2tmLWdfRFRhNEhRNDNhMGxPZ1JzcW9jeW41Y1A2RUg4X1o5clVZeGpqVlJIcG5HbE96MmFvUUN2el9JdlhndGs?oc=5",
+      "title": "Eli Lilly (LLY) Stock Dips While Market Gains: Key Facts",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWFNzMWlJcTFrdTFmRVF1NmdhbUhiNWRzWG5YemNoeGRpZ2xadDZibXNGU0xNOFZkUE5FakJLckQzWmdKamQwRzVxdmJmWERGazUtWHdGX2N1M2R2Y0QzcHVrejIyeWl2MHpoSEhXRFhHcnVOWjVaZGxuNGpjX1BTdFk4U2JabHVqUmRRM25PNEhOdWdLNjJSbnlyamFjTGlWcVNPTTZ5RFdMNlR2OGR0VlQ0SlI4Vkp3Rk1sNU44VQ?oc=5",
+      "title": "Crushed tech stocks bounce - plus, new doctor survey keeps us positive on Lilly",
+      "snippet": "CNBC, 2026-10-19T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LLY/history",
+      "title": "LLY daily price history (Yahoo Finance)",
+      "snippet": "close 1283.66 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

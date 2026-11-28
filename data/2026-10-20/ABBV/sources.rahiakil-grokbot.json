@@ -1,0 +1,109 @@
+{
+  "ticker": "ABBV",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AbbVie\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 7,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSTlmbkFUOExIQkc5MVR0OURqY3JJSFVfX3NGekJrVTBMbTIzQy00RDZhQ3EydEkxcWFlSUliWW04MEotdmh2aHMxeDRtbUFuLVhsQ285dWV5NEt1bHlOQUJGRGxScGxvR3NSdGhkWEtnTHFnNkVCOU9BbjI5T0RkVjQ3YnctVFNEUFd5czhMZXlla29oYzYxNGkzSUhtTXd2eUdRS21rbw?oc=5",
+      "title": "AbbVie's Neuroscience Franchise: What to Expect Ahead of Q3 Results",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONDN0M0ExWm9tQm1GQnpaVl84eUVJZnBZU3NrYU1VdVRfdng0TE1rUVZxRWlUMUJiOG9FN1pyeUlyVjdLQThKTnFKOEN6U2k3aGl4SF9ENkowbFBtNUdzSDV0dVEtOHFVcUcxb2lvLUdaaVBZbjlaQ3ZwYUpPbzQ3ejEyeWRqUF9nV25WbVc4dHFKczAyMnc?oc=5",
+      "title": "AbbVie vs. Bristol Myers: Is AbbVie\u2019s Valuation Premium Worth Paying?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNalpTWHB0Y1g0MXA0VUtwZWlyQU9nZkNFQTJXRXgwTlJzQkhpUzgya3dCZGxKMVMxSVBYcklFaHNaUDhXWnE4aGJyc2lvTEZDVFlXN29wSnFYTXBSMG5BeEtuQ3VCMXZLd0E0bWZfM2RRZVBQQ0M1RUdQSTktX1FXNGwybVh5bFQ2ZzB3SjFqaUtKZG43eUVRUg?oc=5",
+      "title": "Forget High-Yield Traps: AbbVie Is the Dividend King to Buy and Hold Through Any Rate Cycle",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSk5MdWpMWExURlh2Z2pKX3doTXE4TWN0VldDa1VPdWF6SWswZG9ja2lPZlltWDZTX285LWdCZGdxc3lIc25PaUdhRWZlUkY0Zm1PWU96Q0VDcHppS2Jrb3VueGIwcjZQOVVlZ1JrSzlhM3J6N2VMeVgtelhqMklDQ3dOeFk2b21KY0p2aVdycWMzY2pTcUxpYXdvS2ZwVGE4S1A4NWNyMEhpVUdNYllJcEpqbC0?oc=5",
+      "title": "AbbVie\u2019s Dividend Keeps Climbing. Is It Still a Buy for Income Investors?",
+      "snippet": "24/7 Wall St., 2026-10-17T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbVQwSWRHa3htRGc0RVkyc0g1WU1kdU1YT1JkMGM3YzFpRFc4anEzbmVRNXFHSVk3d1lySDJ2RmdaZGlBdVFXMEFKeWdWSS1RSnFhVXp5TW1kOXFQNEotcHBacF81bWpGS2ZlR0NHN2xBdWVUdE9nQ05tTHNlbWRIUDJ3TF8tVVJMbzNLS2U3NzZnWC1adGcwU3JWWEtrb2ZuaDZQUktiMS1MOWgxZGFZ?oc=5",
+      "title": "AbbVie presents new long-term data on IBD treat...",
+      "snippet": "Pluang, 2026-10-17T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaWwzQ3pSdDk1cEhHaDl4LUpPenhvcjV6dVBqZndXczhTS3RzLXN6LXJ1MngwblJzd0k0N1g0U2xJRmY1REFuRlZuTnNuemViTmRtN19BOFdKclNlYkNBVUtUemZwaUpGdHE2M1IyNkhxVDlqUTVCZnRyTnNaOEdUTk51LXktRk5LUjBSZHg0S1hUT1BRcEozY1RfTlQ5eS1qUlE5RVJ5WXBnR3dZcHVVeC1IeTdoektiN2NXS2RxLWNrQ1F3T1Zkag?oc=5",
+      "title": "AbbVie Stock\u2019s Rally Pushes Dividend Yield Lower, but Long-Term Dividend Growth Remains Attractive",
+      "snippet": "NAI500, 2026-10-17T07:00:00+00:00",
+      "publisher": "NAI500",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.834,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ABBV/history",
+      "title": "ABBV daily price history (Yahoo Finance)",
+      "snippet": "close 289.08 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

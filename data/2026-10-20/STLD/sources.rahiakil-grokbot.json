@@ -1,0 +1,115 @@
+{
+  "ticker": "STLD",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steel Dynamics\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbHVWZjZqV0s1SWhOSEdxal9lM1BkRjllWHA5R2J4aW1UcHlwcl9nY3NPaHhpWDgwZDROSENRWVoxanFlemoyLTM4RkNNZ09uZUVCeFVLVGZyOGZZVWJvcDVFTWs3LU9Yb2lVYVpZd0o0UWN2aGtfbzVURW5WUk1xOXg0bm0xZzZCOVZWWEMzZUxRWlNlMjBZbmRrUHVKUzVtd2M0?oc=5",
+      "title": "Steel Dynamics Reports Third Quarter 2026 Results",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYzdHZ1V6WWZpS1BpNjlvOEgwTkgySnVyWjQ3b29la2xSdnZtYkx4bzNub1hkdmVCVTdFR2VmNXh4Q3dqUEtYMi03MUVKT3VscHFsQ085V2VabkRGeGtvR0o3N3dyRW5Mak5KbXFJOXhvZzVoSjVxWlM1eWhjZTFVT25pTi04NXFNQXpyS1RaRFVleTZpaFBYek1JWQ?oc=5",
+      "title": "Steel Dynamics (STLD) Reports Q3 Earnings: What Key Metrics Have to Say",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNal9JTXYwYkF2WjU2RWgyUmpHd0w0YXV5SUNaTWlrS19ZR1Q5aVhOd3lXb05UZDRoUWhjTmxNWkFKVmJQWXNjSHJxTUxVVHVKUFNrTkhqbWd6YW5zQXB4MDVSUGJNam80MV91eHMzVExrV3oxbE5CS2lMMXZUM19QUDVaRUxaSkRFaERWTmNaeV9fd3JHemdFSEc3enY?oc=5",
+      "title": "Steel Dynamics (STLD) Q3 Earnings Miss Estimates",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV04zNEVGb3B1Y29PZFJDckp5eDU3ZDJUNFhsQmxsN2loZ3JTcFVsVDYzWFRhY3d6MXp1OEVIS1dlaTFfOFdBUktMakVVeDVQS2UtQWhmWnhDMU0wUDdZc2xhVHZBVnMyUUFlR2RSckNZTy1ES0t2UGxuaFhabDMyZjdQQ2hOeFliX0lPTjRqdDA?oc=5",
+      "title": "STEEL DYNAMICS ($STLD) Releases Q3 2026 Earnings",
+      "snippet": "Quiver Quantitative, 2026-10-19T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.428,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVUFVeVl6Z3RGOHpZWGhUN0VOVkZGU09QbXIyZWM1TkI0czVpMEFvZTUtRmZ2UWdQQzFKcGFNQXFLd0s3OFQxaDZTQ2ZCQmQzMC05ZDhFU2FYbXNYdnh5M3ppWnlPd082TXBkaXBUZ2gycmRkbmtRTUU2cVZJZUJkSlNzT1VkQjNMbUJmMkxmM3dlVUJCMFJSaW13LU5QVnVjS0FOZEg1Z3pLTVc0RmdGZklCNWRVMjY2NEpQaVBtREp5bTJZU0QtYVM0SXN1NDNXMi1VSmJHY2l3UQ?oc=5",
+      "title": "Cleveland-Cliffs Jumps 10% on Strongest Quarter in Three Years; Nucor and Steel Dynamics Edge Higher",
+      "snippet": "24/7 Wall St., 2026-10-19T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.823,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926117217/tm2627861d2_8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926116898/tm2627861d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STLD/history",
+      "title": "STLD daily price history (Yahoo Finance)",
+      "snippet": "close 244.37 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

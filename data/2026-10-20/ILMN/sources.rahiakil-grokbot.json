@@ -1,0 +1,49 @@
+{
+  "ticker": "ILMN",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illumina\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWHdaenZCREVSOVdwdmFFN0FIb25wN3I0U3BzMjY1ZG9GY0c2ZWJsY1NFLUs2dkxCTzhCSTF3WVdNekE2M3pYU01uNDE5Y1JZelZ1UnJVT3BzNFdSaTBtOTdoSTNKQWdjNlh5cE0walJZMjVoaWYxaFRiWGpNVVY4ajA4RVdKbGVyaVE3QkRlYUxMeUEzcFloTlV0WFBQa0Y3RVdJQ2VOVEx0WFNzbUV4RmNXaGI2amxKU0ptZm1FNkw2bnh0YTR0U0NmVjh6bGRwVmfSAdcBQVVfeXFMTVhOVW42WEZ3UzMxNnlyMVhBSk5LNE9vamRRTlhCbmlOT2VuUXAwclU3Tm94VExDMW9FVFl6eV9FN3lLc1ROdU4xZE1QZ0NHeGI1bDBFeW92WllSRVNxRkFyWTdrVkhZQ1JIME9tNnZjWDRKbGJwc0dhOWE5VXBjYURTUE9yUWhTSnVocEw1S2F2aXh3YWxBRFJHcW1MbTZ4alFIalh6TnJkeUtzZEE5Y0o5bnVaRmFWZDhUaXpJTXhKZTJtcEx1VjY5RzhRWS1wOHZESmhLT1U?oc=5",
+      "title": "What Has Actually Changed At Illumina After A 175% Jump",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ILMN/history",
+      "title": "ILMN daily price history (Yahoo Finance)",
+      "snippet": "close 267.93 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "KR",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kroger\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdmpFcHZSZkFpQThsamF2bElUcnk5cnEwenNqVnhtdUg3WXlWNFkxSlJ4YUtJSkRMMjVDX1g2eFBlVVRVTEVOdUlfX2tTX0dHanVqSTJXdHQyT0JBZGFYcXVOTFhLd3dCTmZ3NEtzdnoyYVhXYTlnVXBKNWlxYmxyenIyQzRsU2c1ZFozczY4Wjk4c1VJalJQZm5jeHBzZFBHRW96RVdlQjc3a0hCVkRPTw?oc=5",
+      "title": "Kroger Stock (KR) Inches Lower as Albertsons Starts $9B Trial over $25B Failed Merger",
+      "snippet": "TipRanks, 2026-10-19T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbFFpVkNBbDBjMnZVNWRkUmI5emJWT0hybWVQT2hETTQ2Q1JHbWh6ZkFWU0JWUjBCeGxtMmc5dzRvZXVGN0pyRjFEU1k2Q2xoYmNzS0NadkxpQ2xITmwwYTZ6aXV1Z1RYNl84eTV0bk9lSXQ3OEdjTFBpS090WldyN3Npcmg1LWVMMXo5TElvZ2F2eU5kYlR2UmUxMFdId2hIZ3VlR3ZoT2VtTnV4WGRfbUQ3ejlYM2VDY2VhVkFzN0RNUQ?oc=5",
+      "title": "Albertsons begins its $8 billion trial against Kroger over failed merger",
+      "snippet": "Reuters, 2026-10-19T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcFNTU1F3QUVrVVJMM3l2UjhYYXFTdTJDMEhHa3FmOU9MSXJ1OGVXSUxGc1RSQ205ZU1EamRhQjh3VVBtVEY1dXFsYXlLV0VjQ2tVbURkSTFFanRzZmpoNjk5M0hsb0tabW1KRVIycGZVVXpqVWtOd3BGQktCSGdsbEw4T01FcGZ2UmZWcHZpMWVIWDhwZlhrT0lEYmY?oc=5",
+      "title": "Albertsons Seeks More Than $8 Billion From Kroger as Trial Over Failed Merger Begins",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdXZPcUFuVklWcVVOUmtlNXBSQVlKeWJ6dlJMOEJZU3prU3owdG10YVljN0U3VEU4czZmV0U4akFvZldmLTFuNHgyMkYxTERzeEpBVy1KcFJ1ZGV0TGhOLUVRZXRlWDlIaGV6S3NFQWdvUFQwcmVXajRRYkljY2FyVlBkd1k4TmJWdGcwMFJyZk5tcXhqTTdj?oc=5",
+      "title": "Kroger plans 3,000 corporate cuts as new CEO pushes AI to 'reduce duplicative work'",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926117103/tm2627753d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KR/history",
+      "title": "KR daily price history (Yahoo Finance)",
+      "snippet": "close 62.98 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

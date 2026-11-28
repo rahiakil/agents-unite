@@ -1,0 +1,61 @@
+{
+  "ticker": "TPR",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tapestry\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWhZUFJiSnVVWk5wdmNCVHZ6VWI3Q3JtMkNaSjhQWno5Tm9ZWXRYS3NfVTRiaTFRdGVtY05aeEtpQkc1TXE3UWdhZFdEX0MwOE5JeElUMHVjcE1DZWRxWHBBbUR6UUkxZmhYRGpQT013aHBqTi1VQm8xaUZpS3l4MWc3eDhTYXhUdTZ1S0cwdVRaUWdBbEtSTERQb3FjY2ZIbTRUdFBtMnJRZXEzWHgwcmhUUkxIS0I3MDQ0Z0dR?oc=5",
+      "title": "Wall Street Analysts Believe Tapestry (TPR) Could Rally 37.21%: Here's is How to Trade",
+      "snippet": "Zacks Investment Research, 2026-10-19T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbDJ0RFFKTWw4aktTMkdNTGc4aFcxdWYxbzdONUtSdGJLV2x4YzZ0ZVBGd21YcUxVTXVZRDVBd3ZRSjhFSS1VZ09wd0lMMzkzOWY0QjJ5U25GMnJsbGdqSlVQbVdnVUU1VHJzdHViR1hnUjNmU3F0OEgzTjE4WVdQajQwUEVGcFltT0I4VkIxMmVzandkdElVd0RiMWVSRXBROGRwMDUxUWtCZEVFTHJaVlpFNElzS00?oc=5",
+      "title": "Tapestry Inc. stock falls Monday, still outperforms market",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPR/history",
+      "title": "TPR daily price history (Yahoo Finance)",
+      "snippet": "close 117.55 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

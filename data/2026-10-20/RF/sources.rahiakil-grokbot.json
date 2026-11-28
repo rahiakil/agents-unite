@@ -1,0 +1,61 @@
+{
+  "ticker": "RF",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regions Financial\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVk4di1JT0pRSkRjN0c3YTRLY1VyQ0x2eTUxT0tDV3RyQzliMllNQ1NZaElCLTNadFVKeXhmTzdLcHlxZGFoSUwyVDZMa1d5SklhMFVpSG4wLThhcGcyN1EzdFI0bFM5OUV5SVZSSWhRMUtXWUR0UFk2eEVaZ216M3IwN3l4bjJqaERBY2kyZWlPNEk0MUNMM2pTdW5xUFdZUlJrYWdVVmtfNG81cWQ1amF6UWdFSm93cGJsXzZhclBzanBvQUNmb9IBzgFBVV95cUxOSFdVV3YyQzEtRVI3aUZ6SHZUOElhaXgzRVM3MUJjYzMySlVKR2F1U2tMSHJIU3FJZURXUUJBUHRnYnlrM1RxZ2ZnOXktLU5Gc1U1c3loamNDdHpfZExlTzA1ODZPSThqY0U3S3FYTEY2by1NQk54cmxGdjZaQTdDMzNadll5TjhhZ3h2ODZxUld5R0o0dlpBV3REWlhmUUF1SDh1NkltNHFVRTdEOUtjbTNqbHROTUZHamM1dWNxNHVoRDRXSUhpRDZrVFc3dw?oc=5",
+      "title": "Regions Financial (RF) Q3 Earnings Beat Meets A Quiet Stock Price",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSWdhcFRydXJFOGU2RmNJcGUtNUJMOEdmM1NvdFpKT1M4Yms1dncxaHBuX0dDRzhJX1VHem0tVEViUGQteXp5eVFpZ2NXazREdUl6TWRPZE5RREY1QXRwWWZBX2kydG1mOWF6NjZBaDkzeGUzb290RU51d1pUZ0x2OUdWd0dBb0hRMUYtcUVQWnNOcF92X3NJTkpxdw?oc=5",
+      "title": "Earnings Beat Could Be A Big Moment For Regions Financial Stock (RF)",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RF/history",
+      "title": "RF daily price history (Yahoo Finance)",
+      "snippet": "close 27.85 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

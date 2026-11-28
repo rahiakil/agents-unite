@@ -1,0 +1,97 @@
+{
+  "ticker": "COIN",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Coinbase\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlV0V2FNdUJ3Y0lUbW11S2YxMHlhc00zZnc1STVCaUljUGM1Qm5fcDNIbUpOcTNhTVFpZWp0cnhfSFlHSC1NdWRIS0FHYWFhaVdtcnhxRFFJVThnY0RDU0ZYNDUweEdCcGpnRFJuVDFTdXpwSFhsaFo2djRRemFGdjJoQmVEZFVKbkZwX0FZNDM1YkZvTUw5alEyQ3BpTFE3TlBRRHp5eHdwdW9xNW1kRmItNWZWNmlKRGo1bw?oc=5",
+      "title": "StoneX reiterates Buy on Coinbase stock ahead of Q3 earnings",
+      "snippet": "Investing.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRDUzT1FZMkJpYUVUNGZsbk1lX1RjQmJxaGszT2sxSzhIVXpKWW56OUdvVDN3R2t2bm1aNjc5bmRaWG1aWHpsejJLLUk4OVcwc25KaFJfRG5HYldwa09qNldab2VoV3h2endtdlBScHkxTnZtTkwyRVZMejBucWZpQ2Z4cU5HQnJjUzBmMVlBekxiVE1LVWlCdE1nckV3a1hhTzlwMlZqNkNLQQ?oc=5",
+      "title": "Coinbase (COIN) Is Leaning on Institutions as Retail Revenue Fell 31%",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVNHVlNka05EcW1zaVpQNEMySnpnUXh5UHpEUzhHMjVzSHdjdnFpTFFyeE9Yb2h6SFFKcDBoeTJuWWpHaVptZ3BQWHNaeDdONHhzQzJteTljUnBSRGxDczd4d1hrei10YUtmbG9McjFOdnVzb2RkQW84VWF4OFFyRkE3QjlaOWItNnhoMDloSmY4NTJfZFJleU5ON3hlVFNmTDVRdWdNb08xXzA2Z1VwVDFiNGtiUFUzWGJ6RFFB?oc=5",
+      "title": "CME vs. Coinbase Global: Which Financial Stock Is a Better Buy in 2026?",
+      "snippet": "The Motley Fool, 2026-10-19T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUTlzV1dJYWczckxnUUxEVVcwUTFfcGxIbnJCRTFLaEZINEJSUGdZa1JFajZuQzJIRGs3eVVQYWNtdy1aMTVJR3dIY3JkenY3ZzRzOVA0V3Jxc2owd1VjM0NwVlRkUmFaT3diLTZ2V1NMV0w0aGNtQ0NpbmdVUmM5YlhzLVhnMDNFUk91UUZUYV9MZnZKUDFXdklpSlBBbGlqUUZN?oc=5",
+      "title": "Coinbase Stock In Focus As Stablecoin Card Partnership Expands Payments Reach",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdkdadml1RExVNl80anM3al9NZkM0ZzBQQW80Sng5V05qRmJXUlRXT0xiQ083UEVhOVh2NWhlNjQzZ3Jja1ZZUWNuZnpxcTRvZW5NRWlIc1ZPbGR4TUhWc1AwSDdvVW5rMDhsSm80OGU2M3phbnpFUi1vZHhQREhGR25TblY?oc=5",
+      "title": "Hut 8 Corp. (Coinbase Tokenized Stock) (HUTC) Price Prediction for 2026 to 2031",
+      "snippet": "Bybit, 2026-10-17T20:18:46+00:00",
+      "publisher": "Bybit",
+      "published": "2026-10-17T20:18:46+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COIN/history",
+      "title": "COIN daily price history (Yahoo Finance)",
+      "snippet": "close 170.85 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

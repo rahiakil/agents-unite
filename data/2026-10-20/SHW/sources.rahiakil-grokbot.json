@@ -1,0 +1,61 @@
+{
+  "ticker": "SHW",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaTFpR0puNUt6VnZER1RxcUNHcGlhTm4zMFpkeHltYjhoMjAtcVZWUXl0eDg2NVNXSHdkZkJSVEgzbnQwTi1pSjdqcTNKell6YUtzRWkxVUMxWTluS3pVQ1g1T0JGaFlndkxsT01WWnpVeWlaNzlBVjJnSFN0RnJjbXVqLWpwYzdnelNXZlFsSkFXdlVoSDJKWWFac1hDOVpoOFFET2E3QnFvMklIMWlqWW1NSUNpU1ltcDFQUExENV9QdEY5eUtpMFU1Yzhjdlh5?oc=5",
+      "title": "Sherwin-Williams Co. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMXFmS2NNZkZUTzBxWV9NVlRJR0kwcTF6blNKV0V4QmhteXFadmk5YkZfRVdHQXFYa1RHaXg3eC1BM0NTSFJzMUdiQlhWaHR6X3pXNVJVdGNlNzJSTmFTWlhyQUI1NWxtRklrYU1GZDZadmJ2Q194S0pFQklHZWFPRVpYMm1JN2ljckVONG1BWV9PaDdPeGZxMXhuUGpPTWtzNHBVcVJySHA1LXE4VENkWU5Zd3FMVnRaakJ0X0hB?oc=5",
+      "title": "Katie Stockton says the charts show signs of a turnaround for Sherwin-Williams",
+      "snippet": "CNBC, 2026-10-19T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 336.01 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

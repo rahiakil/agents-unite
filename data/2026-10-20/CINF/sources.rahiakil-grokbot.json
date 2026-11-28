@@ -1,0 +1,49 @@
+{
+  "ticker": "CINF",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cincinnati Financial\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSXpsSUNRYlktcHA4LUJBRk8zZDBjMnZQU2FJbk5iaS1NanItbnV3bG5EbERWamJSNzBzdWp6T0wxMlZ6T0FMc2lBR0pyVmE2SjhCVmRYcElVSUt5RWlhNVVNVFBnbDN0Z0NaakZON0V5aXpLQXBnTlRJZUlyaGJoN01YX2pvVW5aSy1EQnFIMFdLOFpoOXRvT0d2YWxGMGR0YnlIcjF5Yw?oc=5",
+      "title": "Cincinnati Financial (CINF) Expected to Beat Earnings Estimates: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CINF/history",
+      "title": "CINF daily price history (Yahoo Finance)",
+      "snippet": "close 172.07 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

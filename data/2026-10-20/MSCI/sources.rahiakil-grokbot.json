@@ -1,0 +1,151 @@
+{
+  "ticker": "MSCI",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MSCI\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 35,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 11,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORmx1VEpnTnVkRHdCQkY3WGpHUlhXVmVtTGVIaDREYXY1eTdwQ2FNUzVENk1jenZLOHRVWGRBS3NscUdScDQyN081MEd0bDF4aUVPUmFLSjBOTFJ1dWJaMC1jRWE3Q3NqcVc4MDU0UnFMdTZYTEduYzQ1dEY0TVRNaWNB?oc=5",
+      "title": "MSCI warning: Indonesia selloff deepens as stock exchange seeks clarification",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS0ZFTlNVLXFxZ0pYcTBYaUJoU2NKVGZHSUZGVDQ1M0lFN1dVY2tyekZQdHNmeUtXQm9NRlMyMGM3Z3Q3azloVzV5WjI0MFE3YzBnTGtzVkdGZDI3Q3A4VENCd1VOTmIzTFZBN1BKSkRNYldwTF9ibi1BWlR2ejdmRGtodHByVUpVYy03WlJtVzQzQnhjU0NSZ05LUE5xbGVsRFE?oc=5",
+      "title": "Indonesian Stock Exchange Plunges After Fresh MSCI Downgrade Threat",
+      "snippet": "The Diplomat \u2013 Asia-Pacific Current Affairs Magazine, 2026-10-19T07:00:00+00:00",
+      "publisher": "The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.844,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTE5LaGtJejUxOFd5bFNMUnVTSTdEWXZDMFV0RTIxbjF1ckpOQ0F3VU9JZzV4TWxPWUNacWFNTHo0UDZONUloQnUwSS1uNklteUJnbGd6M19QNGtnMjVodkRfbXBjeXEyLS1vbUFaX0phR1h1V2RzR2ljbWtZWEpkaDJndWY2c1JJMFV0Y1pXc2l4V1AwdGdueXBSUWdDdjFQT1RLV3AxVzh6UFp1RjlBb3pJOWFNUjhnWWZLN1JuUTdTVHRnT3dZ?oc=5",
+      "title": "Indonesia stock exchange to meet MSCI on Monday, seeking clarification on downgrade warning",
+      "snippet": "Reuters, 2026-10-19T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkxOZndQWUdjYndXZ0VxRUhNUFlScXdXMjVHMGtnWFlIS0swZG5reGJEeGRfMmNHUnhRU1ozTy0tNC11M2R3QUNlelU5OGMtUm5sa1k3QkNPdlR1Y2U5ODJqQ3djU3htSE8wM09FQ1lpZkplQVNEOWlQYUNLa1Y1V1VGcW9BbGt5V0pTZ1BfUVQ?oc=5",
+      "title": "Indonesia Stocks Tank on Fresh MSCI EM Downgrade Threat",
+      "snippet": "ETF Database, 2026-10-19T07:00:00+00:00",
+      "publisher": "ETF Database",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0hicmI2MG4yeTRybTVNaHJFSWhnS2VxY0FUUVl0YUtCVmE5NHRjdEZ1cmhYTU9iNFlScnlFb2pKT1Fra2lnLWdHTzFyUW9aZy1tM0xoVkRjckI2Nk1jUFlwbjQ0SVlMdURDUmluQmNaQTdEVDlrbDlvSUN1WVlhd1lsZ2FVVXhzTjB6Q05VYXlzZGpPajFwWjlCYjdBREtCS2VoZUQ5M0pVb2p5cDVN?oc=5",
+      "title": "Explainer: MSCI's case against Indonesian stocks and the $65 billion fallout",
+      "snippet": "Reuters, 2026-10-19T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNjlUZTJQUTdCdkFKVi1zdTM5NTdieklJc2lWelFJalB5MHl4azhnUE9OR0JqUVlzcXhLa1BBLXNxclF4Q0tQNDhwMEpRR1BxbVJYSXMxaUZPY0NXUzIxa2JodEQzalVrbDdEN3hVTEFhZVVxd2VLRmtPUFJ2cXVlaTdkY0ZiZ1pJOGc?oc=5",
+      "title": "MSCI: Growth Near A 5-Year Low Multiple (NYSE:MSCI)",
+      "snippet": "Seeking Alpha, 2026-10-18T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUGRNYzFac0U4QWVBazdNRlczbS1uOHNqcVpQUkkzV1RGUnhrNmlkX3J2SkNaWUpTRmU4MjdDTF9Jd0owRnk2Q3ZHa1h0c3BLRGh5ZTN2UFlMd2N1LWhsdjhlSzRIZkRQRmJKbkRfb2xpdExEMFJ1RGMzNl9LUHdlZkRwSzB0dkZi0gGOAUFVX3lxTE1xTG4tdFlySzNwQ2pwNzlEeWgzVkVqT3VuOFBLbW5yU2hsb0V2UC0zQVVseXo5bHFvR05QblhWTVRuaUotSWduVmZkX1pTTWowNTVfM0pyTWV1ZDhLampmcFNCYTRBdVhGcmo3Uy1fNkdFQ25qNGxYajlXZ2kycV8xelNDVXVmS3NXTkpQTFE?oc=5",
+      "title": "Indonesian stocks plunge to six-year low as MSCI downgrade fears mount",
+      "snippet": "CNBC, 2026-10-18T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.891,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONlg4UjV3N2U0ZUVvYWhOTF9YNEI5c1VCaVd3ZTdCcUl2dFBGUklnZngtVlNhaS1BSFJWUkVqcGluT05jLVNqNll0RWRJQWZOdVRZWnM4TUR2UHJTVGNYbnNOVmgtVWVqcjJWOHdDWTVVME9BVHBiLXBiclQyN3ljTDlfaTdnWDdzcmZTZk1wX2p6b3NXVjJNVE04QU82aGVTQW5xdWEzcm5tNU9OT2JMVVlINA?oc=5",
+      "title": "Indonesia gets 'wake-up call' as MSCI prepares to expel it from global indexes",
+      "snippet": "Reuters, 2026-10-18T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000054/msci-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000056/msci-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-20",
+      "snippet": "10-Q",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSCI/history",
+      "title": "MSCI daily price history (Yahoo Finance)",
+      "snippet": "close 591.69 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

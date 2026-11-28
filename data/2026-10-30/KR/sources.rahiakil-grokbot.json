@@ -1,0 +1,109 @@
+{
+  "ticker": "KR",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kroger\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYnJ4eElTdVhVelFWLWpNYkNGa0J1a2REUFg5bGd3c1RmT21SLWhwUXlqRW9RU2YwZHlncjFaVjR6aGc3YUdoeDhlTHI0Q2dSV1c0WFhHNEZDVmpBNFFEUEhFa09YeWRucVltcUpFLUR1LVJKbjZBd2x6UHI3STE1bzc4LXoxNENoUDdmWHIxSWtHZjNsTnhyaTk5Yw?oc=5",
+      "title": "Kroger Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZGx4eHo0TmFKQ3NmMGt2SHZ6NmxpRW9heTlwZndWbHczNG43QnBWMXBRVUVHY28zT1pxN1Z1c3dSMGpmSUhFNlVRWWRiRUpDQ0RaVDRVazJVcnp3UXRIMFFHM29CclNWR0RIaTc1LUw2WDdaVTQxYTNHMEZvVjdYUWVielhBTHgwY1FqVXhOdGZCVnlYQXFCOGhGOVRsckVC?oc=5",
+      "title": "Kroger receives more bad news with market share",
+      "snippet": "Supermarket News, 2026-10-28T07:00:00+00:00",
+      "publisher": "Supermarket News",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.38,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVNaVURHUG5IM1NTQWFYX016ZEMyLW5FT1ZvTHcwdi16X2hMV1ItRXJkbU9zZEcyV3NNNFdfbF82aFpjdm5tY3FLeERCeUNlYkNCeHZ3NGF6R25teEp6ZWJFcE9CSXMxdTRUS1pJcGJyUnM4U1Y5cnI3SDhvcnlWYk8yaUpON2w2UjlVc2hIczF2VGhzVVhycWdScVRpbFdDM0RXQTEyYVljUGJMalc2U1dxUkpnNW4xbnQ3UHcyekxPLTBoN3hB?oc=5",
+      "title": "Kroger Co. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVUhiUTQwY3Zkdk15bWRaQ1daNTkxSm14X3BzUzljWmhhbllFYlNsSlRuaUN1R08wcWRTOGJrMWJmNGFIWlNZR2lnNy04RGVwX2h0NDdtWG04Xzl4TFA5THJDb0tXSWV6cFN0WFB1NzhCMjI5UWFhM2NIcVlvc2NNdmxyT1IzXzh5emtSZkl3cXFSc0xoSXZBREk3X0MwVVg2dzhiTmNn?oc=5",
+      "title": "Costco Overtakes Kroger as America\u2019s No. 2 Grocery Retailer",
+      "snippet": "Perishable News, 2026-10-28T07:00:00+00:00",
+      "publisher": "Perishable News",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPelNHencxb3pCTldReWNWQ3FuQ3hBUDFYSXV0eHRLZ1FsWHVqdDMzQk5NVFJJZmRvLXhHTUxIa0ZWWk5VT3JCcTBHdS1fNTRFc0Z4LVlHdnF6OFkyOXE3bnlvQUIxXzRzY1RGYm5MZTdvb05XUDVGTHFLM3ItOEh4X3hyRjJpRXplTEdoMG1UZWJySWRma0hTV0tMMXZVeGVsZVRjYW9JTVVvZ00yQlMzZ2Jn?oc=5",
+      "title": "Kroger taps RFID, computer vision data to boost inventory management",
+      "snippet": "Supply Chain Dive, 2026-10-27T07:00:00+00:00",
+      "publisher": "Supply Chain Dive",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU1NfOV90R1dGU0tJQjBIZXZXRlZnV0dHV2UxNUVGZWVST0lsZ19zc1g4dl9oUlEwMEF2NnVVU2ZESVBwU1prZ3ljdl9md1BqX2RYQ3pUS2pvZUo1MERXS2dzS2g3bi04MEhPOUY1cWYxcWlzd1k1VXZhZGVKMTNLY2VyQVN1Y1pZRWZZV05UYWdWWmRLNFNQTA?oc=5",
+      "title": "Kroger (KR) Stock Sinks As Market Gains: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KR/history",
+      "title": "KR daily price history (Yahoo Finance)",
+      "snippet": "close 66.76 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

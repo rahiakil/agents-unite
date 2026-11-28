@@ -1,0 +1,85 @@
+{
+  "ticker": "AZO",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AutoZone\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 11,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYWFWTTNzck9ka1lLazE2aEQ3WXJKbG1QdzVCMDhnUFlHYjU3Sncta1ZlNm5RdFFSREVHOE1tWlpCTWY1M0d3YUhfRHlQNkNrZGtjTWhRZDZXY19qRkQyZFZHUjNBeHdOUHJDYWdfOTMwUjUyaHlVWnJuUGluSUZEYnlNbDh1dkdHZ2pNR2N6c08?oc=5",
+      "title": "Can AutoZone Stock Jump 30%?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVWlOUUNodFNqdlNWcVp5YTEyZmdMMVY1M0hZMGI4UEVETThVNEs5RzVRR0o2eVlrcDI3Y1pXTWV6c2F6azl2Q1pCWTFFYmtuYlNrcHlPT1doeHV6S1llZHBPTE9EYWZQYUtGbEVld3RVWW5KdFdnVWtfRHJzSGotZVk5QnBPc1pZUlAyRVZQUmp2OGo2dk55dUxkSlJBR3M?oc=5",
+      "title": "AutoZone's Q1 2027 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR254ZlhOUF9WWW8zYUh0Ni1mYlJsZ0dIWWFiVGdwMjU1QzFKQ0Jac1ZuM1JKV1JKZjFWdDVtUzZ2VGFxUU9PSzEzMGVDRTRyT1JHamhHejRxVi04R0V4T0plVUtEM3dUYnB0U1BmSVFITEpKZms3cU93c0YyUDl2bzNhQml0Uy1ycVR6czlHS05FYjF0V19OMGxNdUVLNWN1RXFpNVJMallxVVJfTzN2QUNCb0xRdkNuVVZ0LWZCemtLcW4zUjlrcQ?oc=5",
+      "title": "AutoZone Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-27T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM1J1dG52NTlQWkViWGdTeGZaeVBIUmdmWTZnR01oejVQd1drTGFVTVFGdkZtd3JhLWt6SmtvVS1oV19GWEdkLVBlU2t3OVdTeHNmcl9WS3NuVVdFNHJ0My1sTEsyVy1rYW1tV2dIVmZQLWdVRDJGcWdYbEs2VkVvZjdaZURtOHBKMmZRUzZyR2UwaGczMGpvVnZMY2g?oc=5",
+      "title": "AutoZone (AZO) Q4 Earnings Expose Cost Creep And Debt Strain",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AZO/history",
+      "title": "AZO daily price history (Yahoo Finance)",
+      "snippet": "close 3169.8201 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

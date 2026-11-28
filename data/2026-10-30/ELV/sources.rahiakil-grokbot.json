@@ -1,0 +1,49 @@
+{
+  "ticker": "ELV",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Elevance Health\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcG5FTjNQTEZ2MVN3MkpZa0NuNHg0MjV5YmJ0UjNJcktiVm80c2Q0VXJmcS1wUWlaYXJmLTRkUU5NNzY3dW5GOXBOLUxDdC1lZU4tbDBhZ0dybmprczRaTDhnX2lUTFhaM00ya0RBcVBMZlc5QWUtZnktU2JLUzJ1aE5WR2ZHbGJLSldTWG1fRjhlZWM?oc=5",
+      "title": "Molina Healthcare (MOH) vs. ELV and UNH: Can Margin Recovery and Acquisitions Unlock Long-Term Upside?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ELV/history",
+      "title": "ELV daily price history (Yahoo Finance)",
+      "snippet": "close 420.07 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

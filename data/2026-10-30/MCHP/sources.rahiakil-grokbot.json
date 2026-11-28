@@ -1,0 +1,109 @@
+{
+  "ticker": "MCHP",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Microchip Technology\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSTZ4UXlnNk45V1J0eVdyUmtjQUhoTkRiQWFzamd5QlA3RVlnMDFxVmlrelFKVlFXZXI3OU5yeVI4VE1TR013VUFOb0VWeElGRGVOVTZnX3pDa1U2VTBaMXBkQUtMaUNGMVlLRUlvcHhDS1V3VFlzMTl3eWNuTEZWb3ljTzRBZExETFlUdlBTVzltdnZZYTNudzNlZGUyNk0zaFRjT0JUWTIzaF8t?oc=5",
+      "title": "Microchip Technology (MCHP) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbzFJOUlpOWNQSFlhYTNGRW1EWlZhWndSRFNjYm1DTEhnVlRmOVdtTXM4cFptc2hSWi0wcDBXVTh6YVhoclM5dzFnTERlbjhidV9xY0ZmdnRISklLanQwRUUxVy1vYm9xYmIxS1ZtSHVvNV90TWJjN3ZibXlmaHk0RHQtdkE3Tmh0LVU1X0Y3S0xIMndOdGl5VTJyeFl2TExja2RMNQ?oc=5",
+      "title": "Microchip Technology (MCHP) Stock Looks Stretched Despite Its 29% 1 Year Run",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYnFQZm1tbXFFZXd2T0JpV0VxMDFDSk15RzB2R0VPM0x1S1FGMFVDVUM5cFZfV2xEdlpHbV9qZXVzQ3U5OGVjcnNGa0FyZDRaRWxhbk9qb1Rjb2VOYThCNm5fZEdqQ1NFMkVfVFU5cEpHdjhSNlRtY25lNVM2VDl6SzlBYkNBVXFDbm1kOGZlb0JjQUFVUElxX2Zaci05QXppcjdF?oc=5",
+      "title": "Microchip Technology (MCHP) Stock Fair Value Edges Lower As Analysts Trim Sector Multiples",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbE16UEM4dEY0c0t0UG5fSjVMRnlOUmhIWEZ3U3JkRlFDS252V0RMc214aGNpY0dxTDZvTklXXzVrSFltSFZNLVIzNHhVdWFDMzR2aHNHRHlsMmRQMmFfQnlmeG1UdWJ1QW1OREZuWmhWeFdpWVhhMDB5ME5pbGFyYTNOV3RUUE9ScmlVdzNxTHJEUnBFeHZOWUhXZWdlWjI0aGRWZWpzUS1TMEtuR3Fvc3czd1FOTlBKUDgyc00yZThrSmx4Q3NzUnk3X19OMDR2d1hvLTM4c0w3eU5LN1HSAeMBQVVfeXFMT21GWUx5NXFLYVNZdjA4dkExbUFoVnhkVU0zc1NYNTluclYwbDZveC1Sd0J4M3NKaXk5NG5IVGt6OWRCNEk4eEUwZG5VY3dxcnZXc1VoMmRKQkFOTGZwb01BUVZMaUJmUFE4ZXJXaXpjdHBSOHljTnlxZzNoejd1Uk1WeXVROFQ4ZDd5Qkx0dGhsQjhzZFltTlJCOUlRVzVjUXVxV3Rxb1ZZSWJJbHByQ2xocjRnZ3owclhnV1JObzl4SEZGQ3JLdnpzOVFIUnVlZms2SkJUYjJPZGpKRnBhSUo5b0k?oc=5",
+      "title": "Microchip (MCHP) Stock Could Be 11% Overvalued As Spaceflight Progress Builds",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMmZRU2JXMHM0RTYzeGwzQlRIRmVPMkphZXJjMW9sVnNmUXRKMTVydi1ZMzJxUWFTdkVWWjE4aFJmWV9hR29uS2NVTTdNM1RkajlnbXU2QmFpZjBqTWN4a0drY3pNOHFPZ0d1c2NyVndGOWhKc0JZV3JPc3R0Y3RGWC1MVk55UVdJdWRTeEdhME9aYkU0SnQ4eWxHUkpKUDlieEx1Uloya1QwVmlBcjM1OWc2bU1DUTJvenNnLUlLbE96YkxQQUpIbUpRTWxTcEHSAdQBQVVfeXFMUEFhYmM1aWNTUElhTlRLblc2WUpLdDRkeWZkMFdQbVdZRTFVbnRxTlVCX1NjXzJGdk04eXZyNG92WFBwZGZsX1lSeXhVVlgzcWNJalRtcTlQVDh0UlNNR0EtdjhfbUVvakUxaVFvRElaT3p5VDhCU3N6RGlHX2lxTENueTM0cDlQdFNtbXFlUy1zaHFCRTVZZDVFcTZhbU5jQUZPQXZrMGdGQi1vTUlXMHhwTjJpMUMwVndBQnFmN1E2UElNNkpvZTBKRmJZeFlOZmlmQmI?oc=5",
+      "title": "Missed Microchip Technology's Run? What Holders Saw",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPLWc2cXo1Q3FGbmVmcjhkdFEzT0JacTBRYndpY0F0aTFUTUpfU2FIQ055ekV6VUd1WEtBRHB2aERfallzOS1CRnpPcHpvNWdjbUJlWlNfYXBtUG8tYU45TmtMRmtyczdrek44WEpobVNzYWJQNUxpZWVibC0yMWt4NzFyZjdaLVFveFJmSmRyMEMzUktNVF9mR1FqRVN0QlVWSk1zOWJnc1A5dENmX0J5RXlZc08xX1QyT0otSGp6ZUhwRndFTW5udy1DLXlMUVI1UmVhc2Q4TDc0U3VmUXZTUTg1YjhEOFF2MVBvRkRKZHZUMlRYRlREMzRRblVYZ1dDaFYyVkVMVHlESXhHalNYQUdYdw?oc=5",
+      "title": "Intel, Microchip Technology, Marvell Technology, onsemi, and Seagate stocks trade up, what you need to know",
+      "snippet": "The Globe and Mail, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCHP/history",
+      "title": "MCHP daily price history (Yahoo Finance)",
+      "snippet": "close 77.34 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

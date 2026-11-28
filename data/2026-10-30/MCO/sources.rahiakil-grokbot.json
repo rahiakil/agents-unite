@@ -1,0 +1,49 @@
+{
+  "ticker": "MCO",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moody's\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTzRHSGw4cXVnaDQxVHByZFlMeGFNUld3RG96ejl5NVA3RGlKMnB4Y2h4WWNwWWFMMlBfbDd2OXcxd3I2VE1oMkJxOVV3am9rSk9ZTGJVYWZuZHp1Nnd1MzdGRXhQQUdIWnJTMmRLdUc0Vl9EVnplTlVaMUMxS2JFdlpnVjR1aWJpOVZYMGlKeWVIVEFYX2pxcklBUkxqRE1MaWdodU9MREl1aXJURFA3ZmNkOHUyVkFRX0FqRFhBUjM2QWh0VjhoYU1FelN3ZGlJ0gHWAUFVX3lxTFBUWE45Z3RqRWs0OVVIWFVGbGdTd3dyUFU4QzBtMWR3bXZpRU9QakxmMi1yZllNZlQ4NXIyUXFVNDI4SWdRU0tjYk1JYmJ2MlltVHItd01XLXcyQkNuZDRxWElHT1hBdWN5QnBTeERCTWdsTGJraTk2bVRabHdfNEFTcGRLZkVZbWliN0ozMW9UWWZJaDhfWXN0VDY5R2JfQVRkOXl0OHNRajQzWmpFa3F1dDNMZXBHWmhROEVhbzhOcXBrM2tkOElwYTE2MGN6VV9MVnI5R0E?oc=5",
+      "title": "Moody's (MCO) Stock Looks Fully Valued As Its 56% Run Continues",
+      "snippet": "Simply Wall St, 2026-10-29T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCO/history",
+      "title": "MCO daily price history (Yahoo Finance)",
+      "snippet": "close 493.91 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

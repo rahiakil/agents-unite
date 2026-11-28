@@ -1,0 +1,58 @@
+{
+  "ticker": "FIX",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comfort Systems USA\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHpkcVJhbTJkNGF4a3J4T2FNTlh0OU81c1B2eWVUbjl6ZThjT1Q1QWVGQng2VnJpWXkwN09lblotQ3pQWFRXT1pvaUk0VFBTWGhMQjhrUUFBWjBfUkVZa0I4RjFfa2pGamF4OWtLUDNCNHBkSU9UMWI4Q1F1Mjl3azJCOXlsLXlkWWd5S1E5UVpRd01SWFJCTVJXczNpemYwTEwzbUpTMVBtM0szcEpqVDJQcTZSaVVXcE02bUlUS3hKT3Vq?oc=5",
+      "title": "Comfort Systems USA (FIX) Slips 1.45% to $1,326.23 as Shares Consolidate Below Resistance - Hot Stock Picks",
+      "snippet": "SIAM India, 2026-10-29T07:00:00+00:00",
+      "publisher": "SIAM India",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926119613/tm2628385d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIX/history",
+      "title": "FIX daily price history (Yahoo Finance)",
+      "snippet": "close 1232.66 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

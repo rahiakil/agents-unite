@@ -1,0 +1,61 @@
+{
+  "ticker": "BF.B",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown-Forman\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNGFIU2U0ak8wV3dZeEhWYklQaV9sMTIxeE1OeWEzc2E4RGpuVmZ4VGl3REtacGFzOGdxLVVPM0NsRWVtM1pKSU9jTWxKZnhaWWY2REgwSE85NTAwNHI4OEtxenByTjJickE4OXZmbE9qVVR5dnRFRkFRQ3hDOGhiX2NiM0FvRnFySERKRXlEUjNxMTk5?oc=5",
+      "title": "Brown-Forman's Q2 2027 Earnings: What to Expect",
+      "snippet": "Barchart.com, 2026-10-29T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPM0haOU5VU1dSRzZjT2pHazJZamlhcFJHZUFHVkZPYTN2dzByUDNPY2lWRWFGVDUwM19DOURxdV8zYWdNM2hwbEFNQnkxZXRHbVU0SFptTDVRajlzOHBhUkhYZ3haZ1d0Snl5eTE0UV9DQUhkd1RqR2tJd1VCWFVLZjBMWGFSRzBkel9IWS1vOWlJTzB4dmptY1l3bzhjcVVZZUhjdFREbnl0S2JsSEdCaVhURmExelNaeHpHQnBtQXJBR1liQlpfNDd1bEY1MUxJOGZQMVpEN3A?oc=5",
+      "title": "Brown-Forman Corp. Cl B stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BF-B/history",
+      "title": "BF.B daily price history (Yahoo Finance)",
+      "snippet": "close 28.71 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

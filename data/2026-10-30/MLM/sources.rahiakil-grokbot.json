@@ -1,0 +1,61 @@
+{
+  "ticker": "MLM",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Martin Marietta Materials\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVXFCZFpmZnhwM24zQksxWXNrUUJ5TEN6V3dWaEF5VEtpejVJM21xSjlweEtocjN2d0NRS3I4NUxXSG5ld2FCMU1MTXlnRlNCbXdlNUR2blV0TEFaNWpGR3dMaEMta08xZ3Ryck5LM2N6QUhJZ2JFZUFSTEplMklvYWRqY2tsREhVaWg0RUhYYnZqRWFCQ2s5SzRCYmNiajBsWXc?oc=5",
+      "title": "Is Martin Marietta Materials (MLM) Stock Reasonable At Current Levels?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.482,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcWpTOW9nXzk2dktXTDlmMVcwNlRVU1BSZXBJWm1XaWQzdm9uYmVOQXBXbG1BU29PNjM4dEZEcHZfQVl4NkFVeWMtRU5MalRmNW1tNGVHMUVxcnFHR183a2U5VVdiMnZNdnhOVHllRnlNaXBCaFFDWThSM0hmdlc5TkJuOElHNUZJRDJzQlBxUmJHUi04Umk0R0F0WWp0VWRIcGdtMw?oc=5",
+      "title": "Analysts Estimate Martin Marietta (MLM) to Report a Decline in Earnings: What to Look Out for",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.684,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MLM/history",
+      "title": "MLM daily price history (Yahoo Finance)",
+      "snippet": "close 540.41 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

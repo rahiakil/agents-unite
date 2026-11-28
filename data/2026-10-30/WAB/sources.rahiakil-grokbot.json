@@ -1,0 +1,73 @@
+{
+  "ticker": "WAB",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wabtec\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMEZYWkFHTEx5OVJTY0c1c2J3MVQwdlNzU0hwOGVPODBXUVBQM3ZmMGpRbzk5RTR2RmVvQm10N0l6eklmbEhUNThTX1JveWp1YjkyUmdOdWtta3RJX0cwVjZFNE5RdFdpS2ZuZzl0S1dQLW0xQTdrVDkzd3NmQU9HbHlldTZ0WVZVVThmR0wxZHVSYm5Kc0thUWpiQ2xmQm5hWThDeVh5YWNkc0s2Yy1CTjRUajNycy10Q29kM0VUYUR2QjdyX3R3LUt5WkxfbURURXIyNW5FbGFGUdIB3wFBVV95cUxOX3VXSmxPdGhtVko0aWVrc19RVU9VcC1yWjltbXpYUmM5bTlZaFd3eUthUG5lSW9HaEJ4RlZMQmU3S2d1RTNPVy14ZWRGaFRCWml0ZHVfd3ZTVlhJZVJyLTJ5QW9UNW92aFQ4aktsdHN5VFJjcl9RN3FTRmhsb002eW80RVJqd1R4T21VdWdoR0t2NGpWLXV1VWxxWTlzSV9Td2pYZUR0VzFFVjlWMDNTX3BWTzh5ZzhGaVlVNDJHR0gycTVXZVBiNHptZkRnWnExRTF0b3VRVW4yVFNDTDU4?oc=5",
+      "title": "Wabtec eyes \u20b95,000 crore India revenue by FY30 as exports gain ground",
+      "snippet": "ET Manufacturing, 2026-10-28T07:00:00+00:00",
+      "publisher": "ET Manufacturing",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbkFJRmlCOHZDaWZsUExhWkF3dEE5dzd1YWs1SzE3Znd2cWFNRVhydjZSUEZjVmVzTUtqQnVpNUwtdHV0dHgwbjVsd3UxSnBReHREVkN1VWhtMm5XY0NaNTVGV1owNXdGWGpSdk9INzhqbWJUT25CbnRmMDB3b1pMMFhLZERVT09kS3hNenpDV3ppemlwcTFldElIbXdJTGJLWC04aXp4MjNJZTVpclBwQk4yaFhhRFU1WEtSOWdDa0pacF90WXdNMWg1WjI0alpRZ2xV0gHaAUFVX3lxTFBYYW81MXFWWTBqTkFCeklQRlcwS0swc2ZkZEFwUDNYWTZKT0p1am5NR05waTJPZUJVa3BiYXRmVVZGN05ONXQzUU8wY2tvUGJmRUM3TVBJU1RUaklrVzNDQ1NtNEdxVGtXN25UMDcwekllYkRMTExsR08wMlY5WGxQQWRnSTZzUTk0QTBwb3NVWGU4UXRVd0hFMDRkN3BaMHhkMkk0Q2lGanlvenhoaXhGMWhxV0Z2a0F5TTBZSEI2RHFDR194OWwzVmVyaGNNWUVjOGxra1pLTkRB?oc=5",
+      "title": "Wabtec secures \u20b9839-crore Vande Bharat Sleeper train order, targets \u20b95,000 crore revenue",
+      "snippet": "BusinessLine, 2026-10-27T07:00:00+00:00",
+      "publisher": "BusinessLine",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0FGcTRPMG10aUtwbVhiMl9ZX0pocmJwa3Y4UHpta3g3alVyNDJJTV95QmVDbk00NzBBS2xwakh3WkdYd3BhbU5POW5xU3dLTzhmdUtHVjRXd3NlSWZRMTNuMTVVd0Q3RDc3cjFJTnJlYnpLMTNlZkdSdXVpdEFHZnp6bHI5d3cwTXVVY2FRRGVxWVNRcl9XV1hPS2lfdmJyb1R3VDBKZDBKNjBqSEtyLVZBT0JDS19sdm1FeC1UVkhtbDQ2V3c?oc=5",
+      "title": "Wabtec Aims To Double India\u2019s Share Of Global Transit Business By 2030: MD Ajay Mani",
+      "snippet": "BW Businessworld, 2026-10-27T07:00:00+00:00",
+      "publisher": "BW Businessworld",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WAB/history",
+      "title": "WAB daily price history (Yahoo Finance)",
+      "snippet": "close 279.6 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

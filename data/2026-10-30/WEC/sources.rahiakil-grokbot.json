@@ -1,0 +1,115 @@
+{
+  "ticker": "WEC",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"WEC Energy\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNXpfcUNEd0Z3UWVBX0t0dFVyUzYwQnc0cGZRWGgzMWFwQnpHSE9hTnFmbW9ZVThRZ3FEd0dTZnVlNEkxYldTdXNHMlpEaFY3dmx4WHVWVVotYXUwTUtsbm9TUkctMi1QNi05YnMtd1lxdVhMenJYeEo3YWZObHhETWlQVDNMUTNBVFEyOHlwd241MHJTRTgweUE1UDZHS1FmLVFfR2Z3MXdDNmpmRTZHSUpON3c4akJXazA0ZU9FSktRbzdsd1YtQmh3V3VqQTd5czZHcTY3bXlCVVozRkRfVQ?oc=5",
+      "title": "WEC Q3 Earnings Beat Estimates on Strong Demand, Revenues Rise Y/Y",
+      "snippet": "Eastern Progress, 2026-10-29T07:00:00+00:00",
+      "publisher": "Eastern Progress",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM1lud2lmVXIwU1A5Ql9EY2xYSW51WGRwY0ZpNVhXcmF4c3RrMm9BcEtFbWtkLXh6VVdraGkwbWxPWUhMUzBrVkxubU9kbWZrS2xxVWZWREszSXowR0l6XzRRdU4xRUwtU2VCcFp0NTlZZmZ6cFVfRXRYaHFCNS1nTGdYSEZTd3o4WXJCOWx2U0Q5WHBYc2w5RS1fVENCVC1iakxpZ3BB?oc=5",
+      "title": "WEC Energy earnings beat by $0.23, revenue topped estimates",
+      "snippet": "Investing.com South Africa, 2026-10-29T07:00:00+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVng0NjBaRTJ5MUZKdHl3TDhqR21NOEw1S0s3WktwNm1NMFZxYzdIQWRVd0J4a3lMX2VKRkdQOExrVmFzckp0a3ZjSFdPSHJvanBaT2tzQ1p2Qk5sek9yOXhaenFJbzU4SmNkRmUwZlpFX1QzSm1CQ1ZqRnh4QnBxSmR1aU5jSFp6bm9jVnp6UXc?oc=5",
+      "title": "WEC Energy Group reports third-quarter results",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaERscG1UN3diTGRQZWplZ1ZiQTVPd01BM250bGpkejNHZG9JdS16R0NTZ2pIcmlLeUdNTnQ2Yl9IYmp0Sm5Kand4M2d0MnhnVEYybWRxLVdmS0ttUHlDam8wVE0yc3ZxQUtsR0NSUUE3OHc0elZCakxZRE1CUUp0SktpR2h5M2hjUDRERHVqYk01RC1ibHJqaGplMA?oc=5",
+      "title": "WEC Energy Group (WEC) Surpasses Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPckw2cmhuLVZYcWlZSmtBbzlBV3dIU2VWTmdOcTRLRDg3eTJrYkNrVk5LVzdZcWRxQzdLU3JRZlQ0R0ZBdk5wTlZTSXFoRVJ2TlRRN0NqcnF6QnRxYXhuS0haV3pEMEM2NzhyM0pocFN3VGQ4dkZ6WHZkZmJiYjF1NmZfNHE1bW5aVnVMRGc2bDBna3RRd3lPM3Q4bnNYNEJXZEVldk5sZw?oc=5",
+      "title": "Form 8K WEC Energy Group Inc For: 29 October By Investing.com",
+      "snippet": "Investing.com Canada, 2026-10-29T07:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000107/wec-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000104/wec-20261029.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WEC/history",
+      "title": "WEC daily price history (Yahoo Finance)",
+      "snippet": "close 116.07 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

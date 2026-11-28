@@ -1,0 +1,61 @@
+{
+  "ticker": "PNC",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PNC Financial Services\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnalB5eGdIemloZXVEcW9RM3NGNmR6dFhvMG9VZ19nU2RkSmVScTZGdEliOGd6bG1hM0dSMmJFTFFxcGkxVTdIUDNRT2FKSUsxNWY1QWpnanpsbnVRWGJ2Yw?oc=5",
+      "title": "The PNC Financial Services Group, Inc. (PNC) Seasonal Returns Chart - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-10-29T22:14:12+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-29T22:14:12+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeWp1S2llRGNDZjktOGZrZm1YQXlBV0liSVFmU0puYnlTeGZ5aWhaY3lZVWVacW9jUUtabkpRZ2JQb1NydW5hVGoyaXgwN09vSzZCaWEzMHI1cFdHUXpLRUM3dy15LUtnZmZMSlJ3OHFocEMyZWU4a1lxUG83QkQ5WHZqRHhwRXVGbm9ZLWtXVjZvYjlpY21idnB1T1dGcW1mN1E?oc=5",
+      "title": "Chris Hill is providing clients with a warmer welcome at PNC Bank branches",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNC/history",
+      "title": "PNC daily price history (Yahoo Finance)",
+      "snippet": "close 227.86 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

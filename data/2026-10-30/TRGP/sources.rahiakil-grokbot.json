@@ -1,0 +1,61 @@
+{
+  "ticker": "TRGP",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Targa Resources\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR2doUzJQUHVlYXREYkhCZU1DT0VmcjFJN2xDTUlYREhSc2NzZjVvN2dXSDVkZmhwN3JhbWVpbGdhc2plcTFxOWVYbFVBZWs1Unc2eDF1ejNlZlRzUUxTalotUHNUN05EVFo2b25YMUxBTU1RYXdQQXdrZnVJQ2doTm1Zcm1RSnNmeXN6VHB4bERhWWs4WVh3?oc=5",
+      "title": "Targa Resources: Needs Balance Sheet Repairing First (NYSE:TRGP)",
+      "snippet": "Seeking Alpha, 2026-10-29T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQejJMMUc3WEgxUGhQU013c0s2V01vbTJrZFFpelZjMjFKcEJFMnJDZEVDQ0QtSDdCWUpld3NZRmJ6YXAxR3Jvb2RkRnNaSnlqOFktcE5EUWFlQUdORy1hMG05UHJoczBPV24xTWFCTlNwdHI4SUtwM0dsbVotdVltWDhsUHh1OVVRTExTbDVhV3h1ZGc2VmFkcWxNa2VnOHM?oc=5",
+      "title": "Targa Resources, Inc. (TRGP) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRGP/history",
+      "title": "TRGP daily price history (Yahoo Finance)",
+      "snippet": "close 314.99 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

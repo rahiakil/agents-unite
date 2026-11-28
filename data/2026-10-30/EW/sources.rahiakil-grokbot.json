@@ -1,0 +1,61 @@
+{
+  "ticker": "EW",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edwards Lifesciences\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeGNQODFnODBXNHpLc1BVWWI5SndlUnkxdzZBX2dIX1V2MkJrb09OSXB6cGdNZ2k3NF9JSkJOSERwTmtaZ0M2NkhEOUVOWVJOWVdPUVZwRGNtNWs1ZVpGczdTa01leDFiTXVVWDBNUlFiNnk2Y3VuZzE0bmZ5TDRCOXFyZEZVZEtFTXBMdVIwRXkzemJEbUZqMWt4aWpWNklTMkdWYlFFSXJHSjJJQ1BadW9qSGNZdUx4NHpPRXRRVUJwak5HTlE?oc=5",
+      "title": "Edwards Lifesciences Continually Innovating Ahead Of Q3 Results, Cardio Portfolio Thrives",
+      "snippet": "Seeking Alpha, 2026-10-29T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWG1WRExYWEtuWVpsdjVSNEU4TjZBTV9kSnhrZGFpbzRaU3B2U21kT0ZZaE1tWWNSdy0waTdWNmNKc0QxRjdYZDVvQjBiSUZTVUxfYWc0MVR1OVdXcTFHaTlSQmRibEcwZlpTVldEdUliUFc0cUZubm5vbkxXRlRyZHhFbWxRaWc1SURRdGVZZzJaa0xmLVhoLU5mczFSOUxOSzBjV0s2MUZuOFlyY19ycVExYUxCSnczTUtR?oc=5",
+      "title": "Edwards Lifesciences shares may move 7.6% on earnings report By Investing.com",
+      "snippet": "Investing.com India, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EW/history",
+      "title": "EW daily price history (Yahoo Finance)",
+      "snippet": "close 92.01 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

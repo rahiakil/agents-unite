@@ -1,0 +1,106 @@
+{
+  "ticker": "APO",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apollo Global Management\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPemw5ODVDOW5fSG9oRG9zYVdnV3VrT2JXanMzRnF4YUlGV0UtelJ1QWQ3VERRQ0toUVRVamFCdHNVWnZDdDZOU3Z1ZS1MWFY5Y256ZGdsTm1tRVlNNmNRUHBlVm40eFVoZDZkUGN0R3A1Nmw0S3RjWVNlTlJVZU1jNGFGTXROUDRlVmlB?oc=5",
+      "title": "Apollo Global Management (Stove Tokenized Stock) Price, APOS Price, Live Charts, and Marketcap",
+      "snippet": "Coinbase, 2026-10-30T13:56:02+00:00",
+      "publisher": "Coinbase",
+      "published": "2026-10-30T13:56:02+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZUpPZWdnMHh0NE1TZjdjRjdaM0JKUWtNLS1zRHI3TFh2Q1ZxeDA3THlGOEtaOHUtaFdWTTg1STc3NHlBbFBkMjFtVXg1MGVNbXpNejd1dzF4VUx2QUQ4V2pIcVJrNGxjcmNtVXQtS0FiUkNXYllyalpiSC1mR2NXRXpTVnI4VFZjd0xlaW1TUXhhMHlHVmJQUkg3UnhzM3M?oc=5",
+      "title": "Wall Street's Insights Into Key Metrics Ahead of Apollo Global Management (APO) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1TdVlrYXpKa0dBS1phYW51Znc2d2N6TmZMcGw2MTlKN1p4RnhncmszRTlCVER2ZTI3eGJKRmRzYw?oc=5",
+      "title": "Apollo Global Management backs Mubadala Capital expansion with new strategic investment",
+      "snippet": "jawlah.co, 2026-10-28T07:00:00+00:00",
+      "publisher": "jawlah.co",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb3hUektaeVduVGZRUi1PV0NDdGJNUy1xQmR4SXZ3eDNFdTVMVFU0cms1UHNmc3ZOYldoZHFPZVRzMmF0TENtNU03ZjlpRTBrOTlWNnczT0JhNWZfZWhiSXFfVkxzMkZ0d2VaTjZWQ2YxY010a2NNZEprcGJFclFkZ2JuOVR6X2VMdUlwcjUxSXZEV0hhdW8tU1RVbWNiNUNrZmhOU2dPVGM2N3p6NmFfN1dzZHhsZzhnaE5HbmgtR1FXcjdHbzFIcmUwcDNtX285WkJMOHA5OA?oc=5",
+      "title": "Autonomous Research cuts target for Apollo Global Management stock to USD 158",
+      "snippet": "ad-hoc-news.de, 2026-10-27T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMXNFdkJobzM2emhzVlNYLXVUckxXS21WdzFNSEJRdXRlX1hWQUEyaC1wamZMaUZ4RWtIMWRQNGZUcG9mbHNkYVpWallRMXR6b1Y4bjdrWTZLX19LYXJabjdCQVd0X1NPVG8yYkdSLTdKUDZVRi1nU0N2eC1UTGYxb2tNaTRXazJPa2lLeTU4dVh1Y05GYmY1YUZZcFBxUQ?oc=5",
+      "title": "Apollo Global Management Inc. (APO) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000059/apo-20261030.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APO/history",
+      "title": "APO daily price history (Yahoo Finance)",
+      "snippet": "close 115.84 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

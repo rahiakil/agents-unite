@@ -1,0 +1,151 @@
+{
+  "ticker": "MAS",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Masco\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVDNwMXJVY3VQR3JWOU1pSkZFVzlNMkhJVEcweXcyRlhlMy1fZzhjTU1WTzM4QzNzcXY5TlRLTkJJOUxBYzBwRWR5VXZLemVTcHJIczRVWFlkejJYRlVQeERqVDNaQjZrdVk5dVRLcG05LUpsT0Rpd0FqcHpRRTdFbUlqRktSLVlSNUdZdDVRMkM?oc=5",
+      "title": "Masco (MAS) Stock May Be 18% Undervalued On Third Quarter Results",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYnBpb3JnTXlWTk5SSTZ5OTA0VEdUaTVwazF0SUNJUThveVB5QjZtcVdPY0Z1MW04Umc1ck13bFh0bkxySTR4al9CUmR1Rm5NMm5XUXlQb1AwMUlLbXdLOUN2cFB4RlFFSldfNWJ4Nm5jLXpVa3YwLWdoZWVEelNza2g4T1JjNWU5SVRRMlVQcXc?oc=5",
+      "title": "Masco\u2019s (NYSE:MAS) Q3 2026 sales top estimates, stock soars",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQmFRR1lBRW9TYmR4aVhRVDBHQkxLY0o1a1JSTi0taG1ieEZzanYtWEhDTUJzdXZMdU5LNjYtbnRfcmMxZDlCSTdWUHI3ZU1NSDNKX0Qwd0JqdGVrLWZZeERmVTFqT3RjVkZDM2ZxcnlpXzhWTndTTWN0anpsYnNvUzFfeV9oTmtUTVdPMm1qQTZOcXNLcUVCX2VBYzA?oc=5",
+      "title": "Masco's Q3 Earnings Beat on Pricing and Cost Savings, Stock Rises",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLWNISWlEb0xJUkV3cUUyb2lrTzNDVVp6bjRKZHczQ2xpQjFKS3ZIRHZ6bl8zbUZ0QjY1QUN5b05zRklBblVqMHROdWNYdHBPZFBkcEVOX3FIa2dUOUlUOWxGLVJ5c3h1NHhLX2d5UUFtVUNnYi00cGdMcjI3ZWxHemlKaTUxRWg2YWxualR4NUdsN1J1dlN6Z1QtWHVNSkk?oc=5",
+      "title": "Masco earnings beat by $0.17, revenue topped estimates",
+      "snippet": "Investing.com Nigeria, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYV93WXZxOUVud2JZSElqalp1UkN2OEhZb1c5T3lOLTJpSWlhSzZkSjQxVWN4NG9EY3dqRkxkYXR0ZWZVR3FQWnFVOGp1bU05T1BJMWdWdlQ0anpsUHpiLWc4dlpKejJlUjdGdzY3Q0taYTBDaDd2Vk9ueHJpZEZNNE0zNjJVUFY4VXpIdFpQTUVnV0s2Z0NzYWFTTWkwS3NrMGUyUkJBdmk2Zm1QMkE?oc=5",
+      "title": "Masco Corporation Reports Third Quarter 2026 Results",
+      "snippet": "Business Wire, 2026-10-28T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRTRlbDhDYUJpTXZZaG9JZE5QN2VDTmZvVlh6TnBnRjVLamdXc3RjalF2QmwzNnRiQWkzSWoxMXB5QUdvd2dXalMwZE5HaENlZG1QQlpaTGRKNk9hWlQ0WGlyTzQxMjRCX1F5LU1qQ3dlTjNRci1QWXMyMWZSWkpDbFhmRkdYSmQxUWdvN1R0ODJqYk1aU1hDOGRoaWttcG92?oc=5",
+      "title": "Masco Corporation Q3 2026 Earnings Call Summary",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDFpNEFJLUtHUnNnamN0cmt6MjNYWnVWc0pvRHM1eVJQaVEweGkybUc3WndUMVZUSXlsakZrRVFvZGd3LU4wbmdVQ1lyT2hUUTdSTzZzOGZZV2xkcFQyM3BBT25GRTRheEpkT3pXX2ZpSnNCQldybzhKNThneGJsSkFxYnNNWEZrQVhGUC1aZkt0TF8zV2l3ag?oc=5",
+      "title": "Masco (MAS) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVDJKTE9jN2J4ZDBnREduc09tS0plOWc1Q2dCeExudUlqX2JxS0wyY0pRUmw4cnRQYmp3TFV2MEh2ZHVrVTgxNElYdXJJQS1sYUJoT25WVW9RSE0xcnViWVdobDQ3bkM1QWdURi1LNzJvamFMYTBoU2FYQ1VWRDZkREFTSHd5dFNaOFpoQWtZOUx1M2p4WkFFNWwxbw?oc=5",
+      "title": "Masco (MAS) Q3 Earnings and Revenues Surpass Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000032/mas-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/62996/000006299626000033/mas-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAS/history",
+      "title": "MAS daily price history (Yahoo Finance)",
+      "snippet": "close 80.64 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

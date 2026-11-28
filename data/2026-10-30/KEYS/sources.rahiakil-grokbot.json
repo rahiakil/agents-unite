@@ -1,0 +1,97 @@
+{
+  "ticker": "KEYS",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keysight\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWU5keWh0UHUxVHdyNlRabkxBMVdUOUthZ01QNTFjVDJIWXc0Z3dKNDRZaFZHV09nYW82cUFpX0h0WlRjX1VIa1hGa283cUdOa0I5Sjh0bGlISmhmOFk1TjZaVnJMWUpQQ2tPcXA0WTRlZkxtTkUwSWdONWJva2czdV9UR25ETU5sWENMYVByTjg2MklTN2N0MWlxMmU?oc=5",
+      "title": "Keysight Technologies: A Great Franchise At A Fair Price (NYSE:KEYS)",
+      "snippet": "Seeking Alpha, 2026-10-29T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWHFJcFJlTDVvVWxNMnE1U1BjWUhIYVBrc2Zmb1dSZ0xTMThkbTJTcDhLQ3hsWXBRdkwyZ1J3Nl9Xb0pSLU5kVEhJOTk2Vm9DMUNQUk96ZmhxSV93cjk2UkhxM3dTY0o2aDZEdEJZZWR5ZFZpZ1czUDJyd1BIeGtaUUJJeTk3cGVpN19ocmN2d2F1aU5rcFlhRERrVS1mMTNkLUMwc21vSjZYVVdU?oc=5",
+      "title": "Keysight Technologies to Report Fourth Quarter and Fiscal Year 2026 Results on November 19, 2026",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVWFabHZoWGZVXzN6bFVPZlNHeVAwVTUxcWN2d3ZncmNPdEUzSGpwMnFRZ0xhUTFUZXRJVnZOeHhNZUVlRGRncnJZTVNrbU8wLUZNYnZNTWs3cnZvamw4a0pObGUySThfZmVBYjlQcVV0NEFTTmZBam9POVZBWGhXS1I2VGJCUzY5YkhweDRwTUJfaFR0UFJuMFNDUFRWcjEtTnYxRTdSNXdrZkk2TlNvc2M3dm9qa1U?oc=5",
+      "title": "What to Expect From Keysight Technologies\u2019 Next Quarterly Earnings Report",
+      "snippet": "Barchart.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNV0YtN1Z3NkdweEJCUkEtR2Ewd0taSHNkWEFQcDdCaWR5RmRPWWg4Wko0ejFNQUk1Y0dJc0RnMXJGQkdNbWQ5OUd1WWZVRU1waHB1SkUxNlhFSVFkOWo1ckFEZlhDTDRwRnFxNlY3MUgya1lvc212MGcyR2I5WEVjWUp0emVXQ21ITm40LVFfajZmU2ZaVzQ5LTBMRDRaNEltY3dTNDQ1aHk0RmdXUFVyNzFVbFV5Q3BIY2pBNFIwVkVIcUtSY3pDZmQwMUhaQdIB0wFBVV95cUxNazVCWHpqU3NCMUE0YVVjUFp5SzlxSTdDOHBLbmtJZDdMSklJMUlUYzBDbVBCek1EWHNBVVFVX2xGMmRVZ1Y1Wmt4LVRhT2dIOURtay1ma1NwQ1h3dmZVY3NGY0xmTFUxQjBEY0Z2UmZFdnFJbnZyLUNZMUszbjFHcy1obGc3bkduWEpIcVlxUWpicGZyYXdvaHlramRvYTBTV2V2SXBUNHY2MEdYQUxQQkk4MTJfMGpmTE9QeElXV2JWZVZIS2k5WG50c2xXNEY3NVBj?oc=5",
+      "title": "What Keysight Technologies (KEYS) New Test Platforms Mean For Shareholders",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkpyRzg4RGdTT1pha1RicW9qSEVjYjI3X1NTTFhDX1FWYXQ3Y05oZ0R5TXg3LWxPYWoxa05lTWhzOVhHcTJHVlBQV0lxRVQ0YVpwMGJQajNrSTh0TGY5bXlCZUlibGw0SlNKNXhNYVhSUUZlN0pFX0hMVDlmYnp1UnVoMEZjaVFZbE4yTXJyTDd5bTJNeGEydmRDVWJMNmIxdGpnLW9iQXlUR05SWlp4dFNQcktVTTNKREZBSGx3?oc=5",
+      "title": "Keysight Technologies Inc (KEYS) Shares Surge 3.1% -- What GF Sc",
+      "snippet": "GuruFocus, 2026-10-27T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEYS/history",
+      "title": "KEYS daily price history (Yahoo Finance)",
+      "snippet": "close 307.2 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

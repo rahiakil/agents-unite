@@ -1,0 +1,109 @@
+{
+  "ticker": "IBKR",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Interactive Brokers\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 46,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 13,
+    "irrelevant_or_spam": 18,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82TkZJNm9YUzRVQm56WEtrVWlqSWFveWpUUTJ1cUs1dENLc0w5NjY3LTlRVUFoN3Bkc2pJZXdUeW1DQ1pUaHJma2VPMnlrTFlhYjNZOThjRU5tZnlwZTFhZkNn?oc=5",
+      "title": "Interactive Brokers Group, Inc. (IBKR) Seasonal Returns Chart - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-10-29T22:08:35+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-29T22:08:35+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeVNjTEx2NEZvejNVOGFsdFVSRW1RYTI3TC02V1F1QTRzM25KUzJGdGFUaFg5OHpBc3N0V0tFSFdqLW9Sb0w5b19LS0ZocG5LX3E4RG4tRndLVHA3MUk3VGx0XzMtS05VTFJLc0RHa0dBdVpueFVsRjU0V2hVdVR0Q211TXJGb2prWXFlcTVwTy1WTkFjcTlCZTNuZlRralNRQ2hv?oc=5",
+      "title": "Will AI Trading Launch Change Interactive Brokers' (IBKR) Narrative",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOZ1p5LXhnNnRnX3YxazhpU1FjWGZXb3pxbFhCZVFmeGRkY2FHdjFKWlZSc0gzUGNXMTgwcTR3eXVEQlFOaVoyNGxLN1RTQVdRWmtxNEwtSEFteTJCLW1LbGRrVTYzdlNWRVdZcGtOYzIxUHUyVU40R1hQQ0kzMjlYaWpOa3VLRDVOMUEzcDNzTllqNkRxTDY1cU1WajFEM2pWZXljZm9EWGNrdEtid2pPQ08yeFN0NzJxaEJJQjJCaUNpdm1KMXhYdzlGZEdVaTNudFowdWlVTU1hTHBZekZRMHExTG5uTkdMdHJfVDNGalZNd1lOWV9XcDZrVld4XzI3QXZkTDdoNGkxQTVKUEJ2M3NUSGYzcHI1a0NCNnV2bTlNdw?oc=5",
+      "title": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges",
+      "snippet": "24/7 Wall St., 2026-10-28T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZElkY2l3UTVkeE44R042Tjk1Y2k3R0hhc01YZUpKcWctNVVwR21vVWJSUEhKTktRVmVfTXl2OF9NZW91S2dIUE5qQW1SN3c3ak1KN3ZTZ3FvYWRoT1dGWG5hc1BSUEJZYWFlWVB5UzNkUFE4NjRHR0pobHJ5ZFdEZjhkTTBWVlFkNkM5Ykw0dElPYWF2MlpLeFQ5VGg0RUNhWTA3R2gwTkp3cGxNU0lhTFQ4U2dwZzZFVndIZHdmSmREbl85QklyejMwZHBDR01RRnlEQVA3SGhUV000bnhsU2M5MEZYeUtTN0YtZWF5VdIB9AFBVV95cUxPaE96WWMzNVlxaDUtMGkzMVAyemwyeER2RHd2a1dJYVh5TjN2aVJCWDVrZjB0QWJyc09weWh6aVpuTlhPcEpuZUg2RFo4ZkkwX0ZXT1pfRU44RFJXM3hGeU9xU1B6ZVhYSk1HQVBVUFVVdVlFNk8yV3k2LW1KcW41ZjNjOGFGUC1vYktBYS1UWHJINmhwZW1zempUeEw1U2hBRk5zcS0zOE9meFFFYWxJYXpFYVA2aTh6N192bTRMRGZfMG5jNm8yeEdDRDItcDlRZGZnRUJZSF9PUmQzZmV2RXF1b0FURlJDQnljbnFlVFVYcmgx?oc=5",
+      "title": "Is AI Trading Launch Altering The Investment Case For Interactive Brokers Stock (IBKR)?",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4yRElKNmcwaXplQXluQ2hiVGE2TmpaWGMtaTJaWno1eGdKRkZlV3lJb2FlcXhweGlWWmFaTzh4Z3BrUQ?oc=5",
+      "title": "Connect Interactive Brokers to arc, step by step (Flex Token + Flex Query) \u00b7 arc, explained 03b",
+      "snippet": "YouTube, 2026-10-28T07:00:00+00:00",
+      "publisher": "YouTube",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSFRoSXVYUDJUN1dMYndzNUszUTNySmpQWnpDRUxMREpJTmdtNTVNOEoyTEdVb1ItVG1HNFZDT0lKSDhYbEx3a2F3bVRRNkRrdV9nSmQ5UDVJcmo3THlJTXRXcWFEMTBlSWxJaEttVmtveG5vb2MzbnVKRF9lS0VEdWtGUWFBVWVwQnJQaHVNNnViTmtoVEpkTTdZVUhpVWRzMENUbGxLc2wtVV9GZ2RabEhKRGttR09fOWN2TU9lbHlCRWo0V0VHT2VLaXQ?oc=5",
+      "title": "Coinbase vs. Interactive Brokers: Which Financial Stock Has More Long-Term Upside?",
+      "snippet": "The Motley Fool, 2026-10-28T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.417,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IBKR/history",
+      "title": "IBKR daily price history (Yahoo Finance)",
+      "snippet": "close 76.9 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "ticker": "CBRE",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CBRE\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 6,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeDdFY3F5UWp2Wlh6LVlCdHVSaGJWRE5HcGZLaWxrUnVKd3BXWi1VcmtJaUlmX2pKTnVVTjRJc0EzakI5Umg3RzdHU3ZsaUwyVjY4UEVnYUlmSEkzOTJWV3hja2d6bjdSakdRT0xUbzdnd05VNXlsbEh2eHdWazZXemVGaWtiQ1NIeHN1YTcxdkFheUJGZDJMRFdZQ3VlVlVUWU5heExzdHNqTU91V0lTaHpmNXFPQS1qb21UNTQ1WGpsSGRVUVdQNmdJRkl2UHFmNXQ4QdIB2gFBVV95cUxPc0RZQ0d5aENRVVdoZXN1aVI5NGwzSGFELWlmeGJJb0tpZWc0S2diM3hyVVpobmJtb09ET1gybTB6MVVpS1VzdEhsT1VmaS0zQkJnV3ExVnRpUTZkOTY3LW9hMmpHblhIVXNjazlYY3F5UkxQXzBDS3l4ekQ4VzNpUWJHWDlKMlBHU2lUWVVOTTREdU9nVmpWMkR5WDFJajJUOWVyU2dXVWV1cjVFX291aS1DVEdCSnhHN1VIcllsZGlweUVJRWQyOU9vbWhTSlctS2s0eVdtVUtFQQ?oc=5",
+      "title": "Will $1b Notes Sale Change CBRE's Narrative",
+      "snippet": "Simply Wall St, 2026-10-29T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcFd0c1FocklmZ19VZUJPVUNQcjE2NUpQTk5qMUsyWnV6U0pRUFFSOTIzcEkwS3IxSVIyRnBJbEQtODhrNTBWaHBUM3VZbGxlQlRBeTNIbjBuOWd2T1FJRmljdUlRektPaktjZU5TNER1WU9idmlVR2FCU3NjVFFKa294YnpjazEzN3JWZU1EajA?oc=5",
+      "title": "CBRE: Cap Rates Could Rise 40-60 bps as 10-Year Tops 5%",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZklFM3NuNTh0VC1jSjN2RlZtM0VuR0Y1bVQteXJyQW1zdDdJV0NTYkxGbWVRWFhIR0xtV0t0dUZHbmdVdFdRU2tWc3JDWnlQTGh6U1prekIwTWNNZUZENWVWZGt1amlKckdvU0hqYTQ1T1lzNmN2eGdCRDFJZXljNkxyektleXJ1eFh4VUZKNjBrbUdTZUhBV0NjRUlROEtLNUJ6dWY1cWU0bHBrNXR0WndMS1V4WjVlSXc?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning CBRE Group Stock In The Last 10 Years",
+      "snippet": "Benzinga, 2026-10-27T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPME5vWDBMSDVSaWRhQ3FLdVJMM1ZJcXNsd0hQZWlsdFEtUzktVUZBSTJvLXdkTjdGTlYzek5mblBZMkw1ZmpwLXhNMVE1NkZpZnktZGZPREk4aXI1OFY5eHlqTU9Jb0lDWUFXcWJGWHZIdnhVTEpwc0U2U0V6TGNLd0dURTZOWi1OOVVtRk1IQmJLME4xWE8zS2JJMEpkajgteXI0T1JHYw?oc=5",
+      "title": "CBRE Group: Still Positive After Q3 Beat And Data Center M&A (NYSE:CBRE)",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFp1WXROTlhfN1VsUjluekpTNXZ1d2x3dDlsbWNhRDF6M29HaEw5WDN1ZmtXa2NnLUhaNDB3YVh4SWdMRzBBM2pubHY2Tk5KTXQ2bGdkTnNWWGd2bDAzRExhT3g5V3liU1ZHNktyeHBITUFZcDdLMjFPRnVMeWRNaTBKRjJXU0hUYTBjWjlsVlVaUHRpMnIyV0xFTDVvQQ?oc=5",
+      "title": "CBRE Group, Inc. Announces Pricing of $500 Million Senior Notes due 2032 and $500 Million Senior Notes due 2037",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1138118/000119312526436371/cbre-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 1.01,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBRE/history",
+      "title": "CBRE daily price history (Yahoo Finance)",
+      "snippet": "close 128.85 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

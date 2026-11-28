@@ -1,0 +1,61 @@
+{
+  "ticker": "TSCO",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tractor Supply\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWWloc0FEMFFadE5wdlloNVhzSU9IUXBYUW5Hck14SGtMMk9SY2tSTUpack93MVhCNTM4ZnNvNHc3eU5hSkFnNWx1SUJqSDQxSFRpV210VWFxVXJ6TGJ2eUtwS2ZfQ0ZYbl9Da01jLVNlV1VjbE52Uk5BNFNYc2JvdzJSQkQxUlkwSWxHejZURXZtTFR3ZjFyOFpn?oc=5",
+      "title": "Why Bell Global Equities Fund Sold Tractor Supply Company (TSCO) and Reallocated Capital to TJX",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUDNiM3RhMHdFcnE2LVNrZTVKemo5bkp6MExDQjU1Sk1rYUdYWVZaVkxkSXFoaUpheU43akUteWtJTUVybHZuUHV5ZUJWTTFLVk1RazNfby16LXRmOU0wOGZkcGxiendmeG11NHBZU0p0a0xscGwxVmNkYV9DYkctTVZjY3BTRjhTN0tWMHJQckdXbEo4SnFFVmJtWE5OZUtZRHE2blk1VmxEVUc1WG9xakNFOA?oc=5",
+      "title": "Tractor Supply: Pet Recovery, Delivery Growth And Cost Cuts Support Upside (NASDAQ:TSCO)",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSCO/history",
+      "title": "TSCO daily price history (Yahoo Finance)",
+      "snippet": "close 33.94 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

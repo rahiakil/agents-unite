@@ -1,0 +1,73 @@
+{
+  "ticker": "DOW",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dow Inc\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd2F6NWpIUXNGOHIyVll0YzUtQmJfTUNPcVI5X1Fia1FOX01pbUp1NHF3SVRKWUwzSjJNT1cyQTFocHVlWU5hak9FUUJOYVNmdlRwZU1FaHFBV3Fhd0RxWUpQZ2IwRDZta2dzTkJBOWZieFlrN2taaXB1YndZMTJxX0ZiT2h5M0hHWEQwOEVBRnRkRUxrTzFWa3JkSE1IX3N2?oc=5",
+      "title": "[U.S. Stocks] Dow turns lower, down $165; Nasdaq also declines (morning of the 29th)",
+      "snippet": "Moomoo, 2026-10-29T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1lCNm1OUkc0LVc0VmYtVC1WZ01WaE1FRThVNzBWZk9qd1JUTFg2cG5idmZhNlBsUkVxcThpbWhGWWVVNUhuY0FRUl9DaUJFR3IyOGFsZGtfV0pHanc2NDhJWmw1X3hrWVV4X1VNMlZ4WXdTZ1dNR1dHcHNOdkVpNlRxdHhBbEY3ajhscG9iTGJVMDkzSzhyUmFKV3VyYlZXYUd1dmhkRnV5RktwOVE?oc=5",
+      "title": "Form 4 Dow Inc: Jeffrey L. Tate (CFO) For: 26 October By Investing.com",
+      "snippet": "Investing.com India, 2026-10-29T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0pULXJ6UnR6V3cxYXFndmZEZW1wUjkwUHJzOE5sbW44QkNFZzJ0QnpoTFBnU1RONUdhcDZQVk9xbVdjeWpNZzh5M0xuV0t3RVpQTUZKRTVYeDNNU1U2dGUwTm8zZ2V5cDJ2NlJ4dGt3REtGaGJWY1AzdGQ5UnJUSWp5S3Ntbkx6VHpobTBqWnlhOEY0UkQyal8xTkxOTkJXLXY0bzA1bVk5R05YNUU0UVpRWQ?oc=5",
+      "title": "Dow Launches DOWSIL IE-5619 Emulsion for Textile Industry",
+      "snippet": "TradingView, 2026-10-29T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOW/history",
+      "title": "DOW daily price history (Yahoo Finance)",
+      "snippet": "close 34.7 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

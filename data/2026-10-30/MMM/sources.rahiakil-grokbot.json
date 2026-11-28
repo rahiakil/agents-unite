@@ -1,0 +1,73 @@
+{
+  "ticker": "MMM",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"3M\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOUgtZ0hOMXlpcTU2OHp2Y2pUclZFYjZSZEg1cW5vQ2s0NW5TVUhScXdkV0Q0akFSaHJCaEwxZnczVG5FOXBKZG5UVGYxS1dKdWtuRXZERkVDcHFEZEE0VDJoUWp0Tm0zTjRlcUdrTExWWXpwNU1lVk5hS2NRQzlNRUVQb2tlbTJTZW9qN0hpZDlseEtlVlk3ejNQRQ?oc=5",
+      "title": "3M vs. Illinois Tool: Which Industrial Conglomerate Stock is a Stronger Pick?",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazJyNXd5YW5vQlRIRUJyOHRQTGJ6dHVIUDhzbkNuUmRlT0pHdEpIckVUejFHT05RQXJKSDNSTjRPZHJra1gzMHhVbWVjYkQ3MjdidlExek5fVDQ1d0FBN0ZPZERzTWl1VXhCVXVQWDRFSlltc0JrazdrTmVQdzJONVpucFpNdGxldGtmczRFcy1OaEl3SlVVdWc0MF92VVU5Y1pwT0JDODBmUGtwM3R0OVlNTTV5Zw?oc=5",
+      "title": "3M stock rises 2.91% since prior report to EUR 158.30",
+      "snippet": "ad-hoc-news.de, 2026-10-29T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEhpMGRreU0zaGZqVm5WSVFyem5GVGVWY3ZWMlA3NW5MM1ZfU1k5ZUtfZ1JRY0dEX0FKNW5vNTVzbVJjMmVvcjIwcVUzUm5JeDVmWEZlOEpiamMwdG5MUlBHVDRtNXN1cEV0X2RpOHdTaXo2NzFUcWYzcENJR0ZUX1p4UjJCMnQtTXBwc0hqOWQ5aFFQalpWRWVZZXo3NjVUVFVUeU44MEFnMHVMM0tuXzc5aVJFVGVkeUdERVhlWjJQVkVvRHc?oc=5",
+      "title": "HSBC upgrades 3M stock to Strong Buy after third-quarter results",
+      "snippet": "ad-hoc-news.de, 2026-10-27T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MMM/history",
+      "title": "MMM daily price history (Yahoo Finance)",
+      "snippet": "close 174.34 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "LDOS",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Leidos\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNmFMd0dmd3FIRnhsemxEcUpoLVZaTWVNR2dlZXI3XzBodlY0VzkwS3hSUW81ckFjbnpWbzdmR3lYcWMyWU5wX2dWc0F1c09OaF82SVlqNF9kN2ZSdUYtZlV4SUgwbGlHVkluZFR1ZEtDb0U0Rjl5X1VoakxhSC1uTVAxN29qV3FvdmhldktmM2tvVWNzeGJMMklSdDN0aXRwODBwVlFZaEgyT0ZHNTZaQXQyMFNSTWpCemRpSWpVQ2VGN1dOR3ktX2JfYlRMc1VfeU5fMGRWTFdmYWVSWHpQc2dOSFdqd0YxeUNSQnBR?oc=5",
+      "title": "Leidos Holdings Inc. stock underperforms Thursday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-29T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX19oMlhTZ3FGa2hRS2dWMVB3M2RCLTNudTRSeHI1N3JuQ0t1eTBsNzRsWmZUQTNseG1Ua3FQTTFHSGZ6X0d5NUVCZXktV2cwdjRJdm5sR1E5MkRvVlQ3ZHFBZzBxSzI4T0FoZnd5MnhkUVJsVHBGd3BHY203VHpxVUVSRFpLSDltQ0NSM0FSOTZtNzRhdERxaWkxck5lWVhhakg0?oc=5",
+      "title": "Leidos Stock: 9 Straight Green Days, Up 17%",
+      "snippet": "Trefis, 2026-10-27T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0pFdjlkREhOTnFLMGs0eGRQY2JRTURJcm1sdHM3RFlsR3Y4UWk4MktldllGc2VNNnJVTDZqdFpFci11SVVOZ3YyNm1vNEI3QW05UWZKbFNSV3Vjdkl3SHpueF9xVDdrdUFnV0dLdTZzaFNXZ0U1ZWVSNHJrcGE4LU02ekV1dnNVNVdydW0yYlVTYnh6djFUR2VNaXJCTzR4ZTRnMzVubHY1eGVsYjQxeGZjNnU5dw?oc=5",
+      "title": "ExxonMobil, Leidos, eBay and More: CNBC\u2019s \u2018Final Trades\u2019",
+      "snippet": "Benzinga, 2026-10-27T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LDOS/history",
+      "title": "LDOS daily price history (Yahoo Finance)",
+      "snippet": "close 142.98 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "CASY",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbGtuUXNzSjlfRGNYcHBFLWRCVHp5UUozcDNWMTF5SGQ3d1NEYU9LaEY5QXAyUm1BWmt5bUE2UU5wQm1iQWR6dGkwRHM4QWFEZWFiWkdpUGFMQm14U2M3TDFMa3dIQ1ROZlJtWDluQXBvbE9YVFQwSC1PY3ZYY3RtTXJhS2VCTGY4V29GbVJ5RDRKeUszN09heDZ1Sk1hMk0?oc=5",
+      "title": "If Casey's Stock Looks Expensive, You Need To Read This",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLTlUdGtmdmp2a1FuNG5pT2NKM0VPOGZndEJSMXJxWFM4VUd5WVNCd09nSFhVZTFibjBYeHd1a2E0eVh0Wm0tcGRIUk5kYUd1eFEtdmlKT3Y1ZlkxTUtGcnRnQUs5TldwWFpCaDdWbHM2WXkwWnNIR2F4ZWJkUDhrdlFFeEhCRU1felQtbzBoUUx6UjYtZ2lvRHBn?oc=5",
+      "title": "Casey's General Stores' Q2 2027 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSTMwbVhvZGtlMUtXVVN6NVpJZjJFR1VLdXB1bmR4dEVfTks4X2lhOEJEampiYjFfY3VLc05mak9ybFNLVEU3cnFMOW0xOWZ4aXZ0Wlhsd1NRdzREZzlTbEVQWFp5bWo3Z2VtNEpZMmQtOXR4RzAzSk9NalNsZ0VZbEpRaXlpRWxYekp2SEh6N1h4Nk9mcHluNXRNZEZHalk?oc=5",
+      "title": "Here's How Much a $1000 Investment in Casey's General Stores Made 10 Years Ago Would Be Worth Today",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ3Axb3VxbUdGeFpzQm1uVUVNWEJoM0xLR1l0WkdhcXpnZWFkQkZFU01BM1pNdTY5SmVUQlNmeHJiempGdnJZUFJDREVtYkdQU2pPM1VIZWkwVnNxempxVzNWaEF5TWtYMllBTEVJSTF4Yy0yU0ktRlZaWXRqUWJHMV8xQVpVajA1cnRXSEE2WkVHM21Jb3pkaXVCdWduSGRoenVMblRaVHdvT1JidWJ1M0k1Y3JEMmRzX3pTM2lWektkZGN5RE55eTNNNU1KdEFHNG4wOWFIbHFtQ0lrYXBRdnpn0gHnAUFVX3lxTFAzcVd6T2g4bmVZNTlqUHA5UzhBdjVWZ3VlZVlEVUZjZ1lNdjJDektMdWZ2V1VwSGZJaHhYZ3ZmSTFtbDd6dVVGbTFOSi1ZRTNqXy1sWDNhYThaVDZld1hmU3JTWi1nOW9aQ04zZ3ZyNzd3dUdWNFVtc09YMjgxWlctQW1mek9RdW1FMFNsRVk1ZlItTVh0anVoNGtlMXZXZDhiYmpuS2VMeE5IS0pUSWlTSXl6RkxFYXhCTlNoUkhPVkt4VmRBMURBVGpROXM2VE5PSndhaU9yTU5GR0Fnb3hZMXg4Y1FuZw?oc=5",
+      "title": "Caseys General Stores (CASY) Stock May Be Priced About Right",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMzQ5amNIX1dnb0JiajkxcjM2ejJ1N1k3TmItR0pneGN5ODJtOGZ3c0ZnSm5vOUFDQThtcWxtdVlydTlLQjY3LUVzcTVhNVVpLXFmNlhlbDJQWTN2cUZxdkNLSTFaRVRtdnV4T2x6NU1vSlZFQlVGNGk2ak9BdnNFaTRjWVRPeEVuRjFpdFAydw?oc=5",
+      "title": "Casey's General Stores stock falls nearly 4% as post-earnings pressure and technical breakdown weigh",
+      "snippet": "Traders Union, 2026-10-28T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRlVYLUtQNVIxVHJNNm8yM1BSQTJSN1NVUmdOU0lELVQ5c2ttTHdNMEhFMEpVeVJCZWs5cmV5bFRYMlJsZTdmVll3MERUekJjUWlKMFhDbzJrWERBX2Q1SERNSWdlZ29hcXB5UDJDMUVmREJhdTNWV1VScl9LMGZtNzYwSUZicks3dmlJWGJzTi1XSjBjVkZhLWZqV3hlMGliUFFr?oc=5",
+      "title": "Casey's General Stores (CASY) Has Investors Asking Questions Again",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdFN1cDNrQ2s4TDB2ZjY4ZXJmWVl5ZWlwWXhsS1lnRVhUT1lvVGVXYUtndzdteF8zb1dscFI3R00zdWZLX1FPZlRLaW1TUmxIS1FxSWpLWHJJb1Y1OTRPQXhsWllxMUNtMUxjQWczS2thTVdZdFFRWUpJQmpsQjVSZnJpakF5RHpVREJmbDEzYjdWM1FINWFPb3lkSFF3RGc?oc=5",
+      "title": "Casey's General Stores (CASY) Brings First Ever Pan Pizza To Nearly 3,000 Stores",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 680.19 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

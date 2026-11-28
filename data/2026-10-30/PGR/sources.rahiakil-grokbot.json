@@ -1,0 +1,109 @@
+{
+  "ticker": "PGR",
+  "date": "2026-10-30",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-30",
+  "news_cutoff": "2026-10-30T20:00:00Z",
+  "generated_at": "2026-11-28T02:17:56Z",
+  "collected_at": "2026-11-28T02:17:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Progressive\" stock after:2026-10-26 before:2026-10-31",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ1RNR3IzeFVBaEdJdXpIMWtweWZ2bkFXd3pKVGpnUnZQLWlrRmMzVXNNeVV6dVZMMWk4Tk9zOXVxcVQ0SnZHblRUUGxGdVFZeGU3RVVJaWVwMUNTQjd2Z3lwQXdSVUw3RzlJMi14NEFZRWZORlprQ3hYaFFxT1NKeDJEV192N2pWV2NWNlN2VUNKdw?oc=5",
+      "title": "Ranking Member Maxine Waters and Congressional Progressive Caucus Chair Greg Casar Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech, Commit to Protecting American People Instead",
+      "snippet": "House Financial Services Committee Democrats (.gov), 2026-10-29T07:00:00+00:00",
+      "publisher": "House Financial Services Committee Democrats (.gov)",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRlA3bEhtVGtRdjVnLTlzckdWUWpLMEVBS0wxN0JabkJ3dTZaOWZfWkNzSmFWRHM3YXhuUUY3QTMyTlp0TVpJd0IzLW1sREVKZTR0MGVpNkVOa1hHZWpSakh4ano2LVFhTS1YaFJVZHRjVF9FZEs4NDE1aHh5QjBwNUwyOFFsVlZL?oc=5",
+      "title": "Immunic to host R&D Day on progressive multiple sclerosis",
+      "snippet": "Yahoo Finance, 2026-10-29T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1US3hiY2hVOUFVYlFvLUdkSDJwTVhpU1pBY3QwVk1WZUphamZiRXp2UldzMGVvQ1Jhbi1yczk5ZXp4c1VETmR1ZFpQUE1CYzllQVNlNW1lZUNwYU4yVjlrN1NTWQ?oc=5",
+      "title": "Daring to hope: Progressive women share goals as U.S. Senate race enters final days",
+      "snippet": "the mississippi independent, 2026-10-29T07:00:00+00:00",
+      "publisher": "the mississippi independent",
+      "published": "2026-10-29T07:00:00+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2ZsQnlrNENtcmlISE1BZDZxMkF0TWRxa2JVejVWeS02a0l4aGh5d1R4cGhIa2Jvd1NkY0tCa3BjTXRwa2hSdzRoLTBVcTdXRWxQU0tCcE91MThPeTZURXVWTzJxei1XRFQ3VEVBR0UwZERCQ001ZVJrUEVQUFVmdmxEWFA2YnEtRi1BTnYyc2J0emNxQ08yMjY2MA?oc=5",
+      "title": "3 Reasons PGR has explosive upside potential",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcGlna3QtczZIS1pJQXdlVTlnSmJEeEVfNVV2NEpad21MdXluamU2bEhUTXhpWkhpLXRmdEd6X3pkRjJ0ZFJPZkVzdzZsWXFvU3JBZFVvU1pscGNialJjVjBUWFhaRXA2dlp3RGxfXzZVQmlxTVlGTHFJek5NYjloamZiZC1TQmxsUlpZcG9YWnczaVl6NzMtaHJqWTdyOEttMVdyMl8waVltWUtPLXlNb1h4b1M5UnNtLXJHTkdlbExxTk9fUC0xTjZTMzFQVUROZVNabk9DSWJiOUJxTlE?oc=5",
+      "title": "Progressive Investment Management Corp trims Apple Inc stake",
+      "snippet": "The Globe and Mail, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQndvcGU1c3NENjhqbURlVUVvbG45ZTJienVVZ2pVVWtOdnMtM1EyWFVfRXFSTXdmeFVPS0twcE14ZEhfZndwVmE3bnlRZDlLZWlPcDdDQTcyLXFJT3YwT1Z3S3FvUTkyUnNWZzNZS0Y0Q0pkM2dUcmpNc0F4NEI0WnhQQ3VyUEJvSE80RTRKc2Z3NVFXU3UwWnpNZ291R3haeVhqZ3hwQzVJdk1oaHJ3?oc=5",
+      "title": "Progressive Announces Investor Relations Call",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PGR/history",
+      "title": "PGR daily price history (Yahoo Finance)",
+      "snippet": "close 231.28 on 2026-10-30",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

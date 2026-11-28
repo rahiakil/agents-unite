@@ -1,0 +1,49 @@
+{
+  "ticker": "BF.B",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown-Forman\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMk1uemp6em44YTJXN2JkQ3N3cmdJU1g5WmhyZDNtSDJDWDZEN0plcDdGNmhZNm5IT1JiamdydG9xM3EzaUNqUWdoSnBKZk5lNEpqN3EtU2V3d01ENVlMeFdDRm9qQ0JjWktZblR5cHpaRnhUdzFmbXFiQlZzMmF6U2RueWFvbkhhYmZPcjdfdldpeS1jUzg3bDhHMnVOYkhiLTdVVHRodzNnSXpfYTZ0MnRKRUJKWmhmMjgzYVd0bmtKeElFS0tTWVkzbl81NGVLV043NEVONjDSAd4BQVVfeXFMT0NmRzlhM0VBSlJVWHdRVWxubWItWFNDQ19vamF0ZzNEcDVXVXFJdjIzZHhneC1mbEVsclRXdGphZ1o3QktrMkpQbk9tX0F5ZEFMMkZjX1AyeTBZOW53elZKSUpZaWlNWXh6TFF4SnFKY1phd1RFRFBvYWREam55WllKTXk5c3BBajZxNFJKdHhfaTFHdENMSERXVjJsQW1QVUg4ZndvRVNkZlJsZWZGdXZSRmRwSFY3Y3gtTEtOYlFYbkVqRmNGRU8zSDZoM3VpR0hLeG1jZ3EwaXktSUZ3?oc=5",
+      "title": "Brown-Forman aims to make India a top 10 market for Scotch in five years",
+      "snippet": "Business Standard, 2026-10-25T07:00:00+00:00",
+      "publisher": "Business Standard",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BF-B/history",
+      "title": "BF.B daily price history (Yahoo Finance)",
+      "snippet": "close 28.95 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

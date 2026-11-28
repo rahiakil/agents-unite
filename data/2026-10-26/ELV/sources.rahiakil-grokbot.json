@@ -1,0 +1,61 @@
+{
+  "ticker": "ELV",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Elevance Health\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQWpPSGVFN2RvaWUzbXZMcVhlaDhCdkx6NEF3UHJvVTZocFJTTWtxTlgxX2VndVJpWWVGUnd6M0lBblZlV1pvZWw3REcySjdhQ0szeEF6ZFJkUS1BaEcwN2cyeFBpeGNmcXNtcXVCUkRwQTVwS1hkQW5UNGRINE5Jb3lOUWNIbUg5X3VqNFhUTU1xYjh5M1lrRVltUVRoX3pxcWpwR19pRUM5SVVXOVQ1cWROVDh3M2VFd2c?oc=5",
+      "title": "TD Cowen keeps USD 495 target for Elevance Health stock",
+      "snippet": "ad-hoc-news.de, 2026-10-26T15:33:02+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T15:33:02+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZC1GUTZIYXFKZkJ0RDIwUXlEUi1wa2FxWUJlWS1KMzFCS0pKUnlIaTVSODlOZE5YMkxDMlEtU3NEVzUxWWhWQlhIWkk4QnpMcjluMHQ2TTdrWmVaRnBOUDE2azFoLW5odlB3XzZXT0RReVNSWHhrUXFuN0YyaV9DcDA2UWRsNDd3TThUSWIwZEhmbnN2TlV3RUp3?oc=5",
+      "title": "Elevance Health (ELV) Stock Rallies As Q3 Results Tighten Margin Focus",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ELV/history",
+      "title": "ELV daily price history (Yahoo Finance)",
+      "snippet": "close 431.32 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

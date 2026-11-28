@@ -1,0 +1,109 @@
+{
+  "ticker": "EME",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLS1SN01TdG5paHZyVzdENnhSVzRhYTVZYkNWb0dOTDFjaHBxeUhUTmhBaG9PQ0dCWVdlVW50SmdIYTViNmJkd0hiSlNCVlRnaTlZTHlZNGRoZUZ4V2J5OW54Qk40TVpDTjhVMTJDX1IwMFdkSHU2TldsUm85dnAtVXZnYzJ3Y1l6MnhmRS1LRURXN0Q3RXBpOEtKcm1rUWtPdGRnd0xCVGtmSTBa?oc=5",
+      "title": "EMCOR Stock Slides 18% Over 10 Straight Down Days",
+      "snippet": "Trefis, 2026-10-24T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTkFCc3pUVzZYWGhTNVp1T2haa1JueEE3bG1Mb1RGT1hsTGMyN1B0Q1pNMTFpLUM5TTBUbGNEZDdCU2wtRy15M3JvU1hJd2pPalQxLXhGWktuSkg5V0lpblo5WS1xdmxNZU1kaUVNVEJIMmtlbmxfY0pfMzJ1UzJOc1lndVFrcTlxNl9Hck55T2FWSDg?oc=5",
+      "title": "Why EMCOR Group (EME) Is Back In The Spotlight",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR3oxekszS3kyWXdoaVp3dVdZaHkxaktUcE9SN2NOV21fcFM3WkVUZFpUMkdlZXVjT1RRT2FWdUpMMTRqRWF3dF9LZV9JTnNYMWVnRWdwcEc3YzFQNG5GbWIxdkY0NE5CWUhJa0RqU0hfTWVsaEM0cXFSYlFXRmtUbGpRbXY2YmUwbks1eTAtLXhzYmthczc0SlZmT2EwbmotOWFhMjJR?oc=5",
+      "title": "Sterling vs. EMCOR: Which Infrastructure Giant Has the Edge Now?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVzlVUGlSZmowamlDTmZhR0xhMTF2SzZuMUViX2RYcDhFQWZzUlk4RFBsN3lyV3JSb1VMZEJWbmFsZ25vRG9pUGViVFFqeVBaRVJjeDZEVENvS1Z4bGVfcXpFOUt6Ni1RUnMwSWtrNTlJYzZwamtHRDB6M1BYd3Bsc3dsOWxYS0ZSMHZUdHhIbFhyeTB2RXN5VW5ZLVkzMkdXSDNF?oc=5",
+      "title": "EMCOR vs. MasTec: Which Infrastructure Stock Offers More Growth?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.439,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOalY1ek0tYjVGSTBOeEk2NjcxeHVGTm9xNlFpVEFZOVlRdDY3dTNSSFBwcjVzamswZUFLMUlXVVBIcEJ4NEZmVzQxTk9xMjFVdXhEZkNIb0dfcnpHUGlxemtUcFo5NXZMVlZOVlgtTTNGUnJCTTNYV3ozNV9ac1Mza1NaQm5rSFl5eVpQX0hKZVBHSFBY?oc=5",
+      "title": "EMCOR Group (EME) Stock May Look Reasonable Given Its Earnings Power",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeDhGX1I5Z2FPQXlYREhkZkpyejc0azNwWmRLZVRTckxIY254RUE2YVpnNU1EWFhBZld4VGNYUkd0UEdSLWhQelFVTlRQX2dZQU9UTGZhX3FuWXJjVDJoYXR4YlIyb1BwVDV6QTk5b2pkM0pNd1ZreHlPNEFrTlpxS19BejNBNG5jS3RvVmhiNEhiZFVTZkU3emJySVJMSzBWOThDZmVKTkg?oc=5",
+      "title": "A 9-Day Losing Streak Has EMCOR Stock Down 16%",
+      "snippet": "Trefis, 2026-10-23T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 665.93 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "TRMB",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Trimble\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa0YteW0wSDRJYXhFaU92bnloMTdlVXdIUVlGNllDTkx4NHNObEQ5aGFJMlgwSkdHdk9BMUJFUDNaZWo3R1g5SnNEMlY2S3hJWHdMM0oyVVZ0bnI2ZUMtWDVaUGduaFlaYVhLOGhTWmc1dW9IZE1vOURmdzE3T0NwYlEtaXY2aXJoa1FyaE5nQmlqWmIwWmJfcjBJamxhcjFPVnp3OXBKWEhycjUxS3VNMUNMS0FfdDZrSV9J?oc=5",
+      "title": "Trimble (TRMB) Stock May Be 43% Undervalued On Cash Flow",
+      "snippet": "Simply Wall St, 2026-10-25T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY2VNZVY4N2djZkZKbXJOZ0Z3VE0yUHRrcDhvcXVrSHB4VlNTenVlQ2JrQ2txaXlaREtmZ0JuVHFLS3lGWXJwZ0k0ZkhWOHRlLTRnalJFbnBsbHhLYkJRcjJjX2o4WndROUJ1UlZsTlNJTjhiNnpxblpLZDNDRWFnd24yS1FUTlBoQmM4amFCeVpJMHRJZ0ZMcEl2TjhERXZp?oc=5",
+      "title": "Trimble (TRMB) Stock Trades At A Discount On Its 38% Run",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRMB/history",
+      "title": "TRMB daily price history (Yahoo Finance)",
+      "snippet": "close 63.37 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

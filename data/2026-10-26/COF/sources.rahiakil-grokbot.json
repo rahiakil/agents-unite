@@ -1,0 +1,61 @@
+{
+  "ticker": "COF",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNakxHRkxUZndkT1dLbmJETm5KME1HNW9oNHVOVnAwZ3VUeHZFMnVCZlZEdHFnTkl5NjNwMjhSYkRTLW1iN0g2YWI5WlNER3E0R3hZZ3ZxNWY5RnE5TVVuQXJvdDVrU2VMVlJnd1l0cGVUS24wUkMxcVdMTGlnelo4Uk4xR09Pb0tnN1pUaUZ0bTR4RFhleHZvejROVmtkNmR0UzY3SE9iRVZQVDFIMEt1Uw?oc=5",
+      "title": "Capital One: Discover Makes It Interesting But The Credit Cycle Decides (NYSE:COF)",
+      "snippet": "Seeking Alpha, 2026-10-23T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.643,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORzN4dmlEejcyYldsOFJ3dXpaeDNjdTNRbDRiaUczV3lpNF9tLU1XeU13SzJwRjU2VUJ3TmRZMzJvVlhVZEpaMTB3V3VGcHM0c0R1SGlod2lQSzdYSEROakVqWTBPZEZMV25TeG8xY21zV3NzSjNzSTNfUmlHREpIWHJYVHFicl9UUFY0eE1HbUNaOVUwM08zeDI4OG9ncEs3VFJLVDlWaU1rTjJKbXB6djl6WGFQV1JDMjU4cHlQTndnUlduZ3ZyclFLVklzTWhzbUVuN2lNamdtSU80MTdMVG92SGxpUdIB6wFBVV95cUxQYmhoMjBrYlJaVGx5LWs5a2prbTB0Q0gwbjBueXRlVXlXVFlBTGlMVFhrQ1BRelpvNEtKTVNQSTdQc011MllKbGpOSURBaUdMRVNMZjVPRWFadFctWi16STVGeDZXSUVmXy1nNTN0OUhXWE5EWVF2Q2RMT3hPaXFaVGxza1ZGN3NpOEl5V3hjNkNWbGFwWHA2YjhqWm9UNi1CTG40dE9rM2VHY2dtclRfc0lmYV9ZbU5KaVVXMEhIV1Q2eXlHTXRGLXV5RzZKSGRQY2p4SjlSVmhlbGZ2RUc0dHlHSFZsMjhyT2JR?oc=5",
+      "title": "Capital One (COF) Stock May Be 38% Undervalued Despite Strong Q3 Earnings",
+      "snippet": "Simply Wall St, 2026-10-23T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 202.35 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

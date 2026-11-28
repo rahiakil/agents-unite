@@ -1,0 +1,97 @@
+{
+  "ticker": "PCG",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PG&E\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSGh6a2F1aFdySEtGTTlwWFlaOXRxYmpULWk4OW9xN1FrLVRJQWFPRFJBYWh0cTRWMW1rZ1VrQklTMlNwNnBRWXdpckhXNGpIQ3ZKWHJwanFTRjVoV3Z5b24ydU1Bay1zclljWHNvdm5tYk14N3FYNzZUR2l5S2Q5bQ?oc=5",
+      "title": "What Is PG&E (PCG) Saying About A $22.5 Billion San Francisco Grid Takeover?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rbWhaSDY4bWRxSUc0QkJoanIzNlQwb3JqeE1qbzV4c25OTlYxcXdVTGJ2Ul9wNW1ULVNMLUd2YzY0RWY4VENTSkVXaDhTZGZFYVZnTHhOY01vMDVvTFZTUkFvYmN6eDhMczVjRlprS2RDWEdPZFh3UU5B?oc=5",
+      "title": "PG&E\u2019s CEO says AI is \u2018the best thing that could\u2019ve ever happened to the grid\u2019",
+      "snippet": "Fortune, 2026-10-23T07:00:00+00:00",
+      "publisher": "Fortune",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMU9EWjZMQjVQVkxFdlhSTDhKNTlTczQzcEdudldKcFkwUlpqdEphdFN0WjBrM3hvckJQczhNMzRDdW1PVm50TmRsYTJQQmhTTDZ3NXpaejM2eGEyb19OU0NuQk9sRlRhT1htcDNWcE9OTDJ5U09IektBQ2V0dXJ6clpFTFFwZVFEckRpTXd1UnBSRDg2cF9xdjdJXzhLTDV1cWpwNg?oc=5",
+      "title": "PG&E needs wildfire policy reform to manage tail risk, CEO says",
+      "snippet": "Utility Dive, 2026-10-23T07:00:00+00:00",
+      "publisher": "Utility Dive",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcUNrTWNISEs0NTRYRlVjZ3UwNkxSdElrOFNYVFJrc0YwOHFaZ1FscGNqZGtNQURFQmt1M1ZYeGw4UDVYVDhLOUUwR2dyUU5ZYlppdk53V1JkcUFUMWNsTTlSSi1uMzlzLWdIaVBkWEhyVm1RWlBfQnhnbTluZ3RPcGhMZFFaUXFudkU0TkF1TWVsV1A2RjZRS19kMHI1c1k0dUFUdkVjWm5fV212WlI4bEhvQ0hTZDgwWnQ1SXdxX2ZpSVk?oc=5",
+      "title": "PG&E Corp. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-23T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcV9wWEpSaWdHVlk3VmVBTDFpMXRsVG14cDNwWG1HRXNyVGlvalBUWGxhOHlRRERMOFJZN0lzZHM5N2JCa0JaZjZmNzVYTXFxa0laRDZRdXl1VDVPRHpCRDZHcGs3ZDlQZWg5aDhaN3BTRndQU3ZYLVpXc1pFOUh6T2NLY0kzOGR0S3dkdGhxTElWWTFVRkdOdU1pRGJoOC1WM3IzczRaVmdkNDg4Y3J0V0p3M09feVN4ajVF0gHAAUFVX3lxTE9BLWtDUU1mZjFYR3JNY0dPdmM2emkwQ3NsUV9KU2Q1dDR2cGh2MXdrbU9fSWNHVkFSdUNqMGhXeGt1WDh4VFM5bm0tM3VGQkdlay1GNjU2b3pKWjk0UnhDWkNuMUNVMTdEYS1IeW5WQlhRV1JLd0tVaHdnUF9Nb0Nyc1hIQXNDdThSVWJiOTl2M1BWcWpvVDRNZTFYWDRKYjhIZjEtamxSbDF0ZFg2c0Y0a3VVOGo0ZkRYU183UUpDTg?oc=5",
+      "title": "PG&E (PCG) Stock Sinks After Q3 Earnings Expose Funding Strain",
+      "snippet": "Simply Wall St, 2026-10-23T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCG/history",
+      "title": "PCG daily price history (Yahoo Finance)",
+      "snippet": "close 12.85 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

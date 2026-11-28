@@ -1,0 +1,73 @@
+{
+  "ticker": "GIS",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 10,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWd6MzJHZzVDOWQwcHhGc1RnY2RlMW1Pa0JlRDBTMGdQa3BIemZyalU1WUxmWndKOGc5cC1Jckt2MGYtVlEyMWJ0WFdLVWNXVktOalg1elVqUERrVEZfOGtBZzZLaFd2WVVOVU0zdENmMlBnT3MtSjF2TjdJZDUxdW1fTzNZWDJhaWlRb1ZrbTV2b09N?oc=5",
+      "title": "General Mills (GIS) Up 1% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSHV0OTVXbmVEVk56cFpiTFMxQkQ5cktwREVEbC04c2hwdGRRNi1qMTJlZzdpaFVDZzJyMnZjMHFuWkZLYzdXVVY0OF9MdkZ0S0dyc1I2NVRBQ2FFSFo3dHFYcnRwNEw0R1EtM3lXVzkyQ0VsRi02MlJKQnVvdWlmdzJOT19XajgtRjVfbUw3SzRHaTNKdWNRSEtR?oc=5",
+      "title": "General Mills (GIS) Stock Seems About Right On Its 38% Slide",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSmtHRlNfbmgyeXJBbmtTMS0tVkhvU0pLRS1HNHYtdW0wVWJsVlhjTl9mU3hQYzBidDREUno1b1lycGlFb1FFZjBXVmJMV2QyODBkZ0M1clJka3lldWtTNldpRVY1c0I5Nm5VYnNpOGVyVl9FZWhCc243di11RmQ0bk1yYXp1TXFsOFB3dS1FOXp6aGJpTHBZUg?oc=5",
+      "title": "Calley Means: Market misreads parental opposition to General Mills stock gains",
+      "snippet": "Traders Union, 2026-10-23T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 33.7 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

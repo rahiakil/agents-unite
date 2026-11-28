@@ -1,0 +1,73 @@
+{
+  "ticker": "CCL",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carnival\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 5,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa2tqR3Y1WWFudjJUZDY3ckotWFFPRHRnbWViR0F4dUJzTTRuWGVDTzR1TXZIVjRBTlBPMW1HS0JQclZHdGNxdnU1STZ5SWdqVW16aWYtZ1NlVXROY2ZUZjllWE9nQlYtZUpfa214WjZxUFFEZk5paVJxVE13b1JZVURqbmJ0cmlyOU9XbDJkQ0dYRUJTenBmdg?oc=5",
+      "title": "Carnival Cruise Director Kyndall \"Fire\" Magyar Becomes a Star at Sea",
+      "snippet": "SSBCrack, 2026-10-25T07:00:00+00:00",
+      "publisher": "SSBCrack",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdURqNHNQeGtZWF9MeUVpNHhjMjdwUlVrY1dhaXMyelBveXVITHFiaHdvWUJGam1MNGRwZkVyaHViRWkxQzlpZzlPOHpmZUFJci1MTFBFWGt6X3RBMU1KSkNRTkNvRzBXMDA4dzVHLUZ5a3ZyM3dfaGo2S2VEdU5lNWZXV3k2Xy1uWFNndVRCMENWT21iRjd3RDhNallHSmYzZHRzag?oc=5",
+      "title": "Should You Buy Carnival Stock For Its Cash?",
+      "snippet": "Trefis, 2026-10-23T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOS3Y3SEEzbmh6M1JkVm0zTTJrNFFzS09IWTBVVmNVUzJJTURPcjJpcGI0ZXV2b1pXaXpXeUFjVjNPMjJxczdjSW40c2NsR0h2SVVLc0xSRmxxSVJLaTFaTEdsRTBLTlhWbW8yV1JRcW9XRUM4M3NZZGVOczdZYjFUSE93aXpmM0JNSmIzZVVDbWxyWHBPLVViWXRydHItVWZyUldzRU13NEFlUkRfNkRZem45c29HMFlxNW9vcjYwNmJreG9tNXVkYjY1WlNVYnRWNGV6cmFnV3JvdGd6bElNSXFnYnA?oc=5",
+      "title": "Cruise Stocks Fall as Oil Price Hits Five-Month High: Norwegian Sinks 6%, Royal Caribbean and Carnival Drop 4%",
+      "snippet": "24/7 Wall St., 2026-10-23T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.791,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CCL/history",
+      "title": "CCL daily price history (Yahoo Finance)",
+      "snippet": "close 26.86 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

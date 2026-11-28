@@ -1,0 +1,61 @@
+{
+  "ticker": "WY",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Weyerhaeuser\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ZeTJrZm9OLWlvWFJtSGE2ZWJDUE1DRDRXM2pNR3ZIaW1ZRGY3VWM2X1drTjFKamhJZGtxd3FaSnFGczV3d056dzA0M2hSSEVvaXFRSjNqZE5GZ0hFZEZsZDlBaUg4QWwtQ0hMb01YcERIdFlOck9JdXJjT3lxdw?oc=5",
+      "title": "Weyerhaeuser: Profound Mispricing",
+      "snippet": "Seeking Alpha, 2026-10-24T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGhTcEJRTHdSQkM0VHktMHY3U2x3aHNvUjRlc3k2OXFkY3VGbkU5VXVvNURjUlFIQm1YM0dLMklLNGZNQ1ZodC1JcjIwelFtc2FHZm5RRVkydml5ekhuWVU1bXByOFd6X0JrOWJQVnRMU0ZpcXh6c2xyNDVHNHRseE5VdlZsajRlb0lhQkFKZGpSeDhaYkY4?oc=5",
+      "title": "WEYERHAEUSER EXPANDS LP SMARTSIDE, RDI RAILING DISTRIBUTION",
+      "snippet": "Building Products Digest, 2026-10-23T07:00:00+00:00",
+      "publisher": "Building Products Digest",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WY/history",
+      "title": "WY daily price history (Yahoo Finance)",
+      "snippet": "close 19.58 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

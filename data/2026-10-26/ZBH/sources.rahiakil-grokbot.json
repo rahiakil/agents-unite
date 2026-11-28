@@ -1,0 +1,61 @@
+{
+  "ticker": "ZBH",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zimmer Biomet\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc3gxcWtDYmVHNjE2YXNtVXNHaDUzT05PcUdWNGhMQ193bS1fSld3WVlFdFdzY1RMZHFzX1kzUDhBbWxQdi1nM2x5Y3hXRTNzY1l2X1pkbEVZQnBoTWVGaHZBcXViSTFaUVFBbGV4M2NyaEpoYmN3dzRRSk44ekdIRWQ2dTh5bU5oOEJmM0ppZlNKa3ZZZVoxRlJR?oc=5",
+      "title": "Zimmer Biomet India Launches ROSA\u00ae Knee with OptimiZe\u2122 in India to Advance Personalized Robotic-Assisted Knee Replacement",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTnZ5UHBodGtqblBVaVBmRTBMWXNFS3l4UGNwRGxIb1NpZkl1M2F6UFBDdjZxbWMxSGlvbVRfRTZ3YVl2SUE4NWRlQWVRV2pMcHhfYk1qMzhzVzRVZjBXWXBwNTF0RWlmYmxhRFl4RGtHN2FKN3Q0OFZmUzItMFZEemhqc01aQmRTTkpZckEwdHZiUHYyMWNKTmZsOTc?oc=5",
+      "title": "Zimmer Biomet, Think Surgical extend exclusive distribution agreement",
+      "snippet": "MassDevice, 2026-10-23T07:00:00+00:00",
+      "publisher": "MassDevice",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBH/history",
+      "title": "ZBH daily price history (Yahoo Finance)",
+      "snippet": "close 97.44 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

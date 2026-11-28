@@ -1,0 +1,49 @@
+{
+  "ticker": "ACGL",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Arch Capital\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPalR3MFpiVU1mOVUtQlh0YmE4V2VBZFp4b09DNlpvOWlvMHpvNTlqVXNlbnFyZ3NyWEVpSDBGUkFoZzAxSTRVU1N0QjRtcWpCZUZsMW9zSU1sUVprVXJSbkhxVG1CSEZRRmdSb0ZqYk12cGxZcElXOG5Pd3lyVlBDd0VqMHIwOFM3bTZSeGxsTUNUWDNZck1aNkJXVQ?oc=5",
+      "title": "Will Arch Capital Pull Off a Surprise This Earnings Season?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ACGL/history",
+      "title": "ACGL daily price history (Yahoo Finance)",
+      "snippet": "close 102.34 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

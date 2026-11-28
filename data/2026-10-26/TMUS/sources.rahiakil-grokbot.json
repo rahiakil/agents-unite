@@ -1,0 +1,109 @@
+{
+  "ticker": "TMUS",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"T-Mobile US\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 11,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdnhCQWFZWENtNW45QXF4RVlBSUZ3RXFhaWtGaTUzLS1MVmNhWElPVVNxUU42WmxudXVZdGRieGlkbzhJblVyWGdsYU8tMVJucTV5cFNtTjhnWlRQN2g1Qnp4MjNwdmd4cm52OWFvWXRWVHl6aUVPb3YxQUs3Q2cyTVFzRGVMNHlLdUcydTNDYjREaVV1Nm1UaC1DZkE0VmVaZzluWGhsQ09pWnFRSjFRRVhaLV94dGN3Z3BuYUpR?oc=5",
+      "title": "Why Did TMUS, LKQ, CMG Stocks Tumble To 52-Week Lows Last Week?",
+      "snippet": "TradingView, 2026-10-25T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeE81RXJobmdqVWhfRnBmeTI3ZWtncUplbUF2enEwSjlaMDRPU3JzYS1YRHB6SnliUm9xamVibVFlVlg1dDI4Y3dUcnJpaTN1bVdVQkJnNmxyTkxRVG00Qll6UGdWU2FJakFFNjQxM1FaWjdnZUNXZ3dra0FaSTk3d0hQSzk1ZzgzcWNIYnlYSQ?oc=5",
+      "title": "Why T-Mobile US Stock Dropped Today",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMDZuQWQ2eENQbDluYW5yVVZJSWJwekd6OGFZZ2lQTjUyLV8yTHJWVkxSeE1uT0ZEZ1dEUi1odlpQc3BoSGZGcF9QX2Y2RXV6eUJCRjJxa1BDRWFyYmw2WExMSnc1dUJyTWZqV3hzdlFYRENlSWRzM2FRc1pxU0Nub1AzUHJ5MEJQaEF2dDZNTQ?oc=5",
+      "title": "VZ, TMUS, T Stocks Face Valuation Pressure From SpaceX Wireless Push But Tower Operators Stand To Gain, Says Citi",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.392,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRlk3TVB5QTJOWFVsajM0RGlPanBxQVBUMURpQ2FBc2NrUFU4aldPYzNTdXNac0hhUDdLdDBkdnYtY3RydGtqQ2FNb2dadUQxb25DcC1NdlBnNWJac3lBcUI0Vi1vYmZMaG1vbWZ2dUotdTFGS3JmRHM3Rl9DdXIxUV9xWXR3WHN6dVNTWTVrVDZINGZkb3R1U1JxRWRrdDA?oc=5",
+      "title": "T-Mobile US falls 8% amid SpaceX competition concerns (TMUS:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-23T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVWpDQ2JyeWtObG80UF9NNGU2RE1DQkdIcnN3dk9sWC10UXozd0U4b05EamlxajMyeG1WeTBlZnF2MFVQWHlTbUdFakJyWnJqNW44d3N4Vlg5SjE3eXM1ZUtBcjR1WmdaczdOd3d2bzZLejVEcHVTSXFXdnh2a25QNTZOMzRsN3BrRFFR?oc=5",
+      "title": "T-Mobile US Inc Stock (TMUS) Opened Down by 3.56% on Oct 23: What Investors Need To Know",
+      "snippet": "TradingKey, 2026-10-23T07:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdFd6Z0xSMW9KeE1leGhwUmJqTGd6TWlrLVRxNlE3bGYyQjJCWnhHMGdiM0JmQ2dGV1EwcE5ncXp0cmVjWTB1YmRtUjd2VHdvVEE0QXZ5UGx3a3Riakg1S19OMGNQa1ItZ291d01VQkN6c0o3Mi12VzNpZHk4bWN3TE4yN094RDJFUUlpMHJ0M2xkRHZRVl9Xenc5MEtQTHBxeEduUWxMZnE3YjB1MldWUlRJdmRQVXZaSWpuX2pReEhKTzBnaHN1TdIBzgFBVV95cUxNZnNaeGdFUGhwd1pTUy1lRGEzZTZIV2VNWFNGXzJGaHlvbkd4SEV2VDhZNjQyZTJxWS1CdEZPUFA1M0dxTXJsVzR6emc4MUtOSnJ2WjU0VnBuaXBGWktNWHpSbHBMTG9KRU1JVG5TeVpXWFFfN2V5M2JIclJnVWd3MUE0UFJ0Zi1Gd2hNcS1BV2cxX1F0V0RnRUd4SDZjWVpvQ29NWkhZSmFUeWlMSi1XMGg4cXBkdVQ3YnJUQkFvVnp1LW1DVzFmblRqN3Q2QQ?oc=5",
+      "title": "T Mobile US (TMUS) Stock May Be Undervalued Despite Fresh Analyst Upgrade",
+      "snippet": "Simply Wall St, 2026-10-23T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.556,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TMUS/history",
+      "title": "TMUS daily price history (Yahoo Finance)",
+      "snippet": "close 146.93 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

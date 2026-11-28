@@ -1,0 +1,61 @@
+{
+  "ticker": "MGM",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MGM Resorts\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUkdyanYwRXZWaHlqNVlUUlNLa1V3czlJUmRDbXNPQ2c3NEhJcTdwYndkU1ZYaEZxdWJnbzRqZl9xeG9Qb3Z5dlY5UkN5R1l5S1ZieTZMRGtOa0pFbndfbTJlYkw0WHpickhwaW4tR0s0YXZZRG5MT2RwNHUtbGdUYmdNU1g3WUszNVhiRERtVm1PVjlLdlhia29n?oc=5",
+      "title": "MGM stock hits 52-week low at 27.93 USD",
+      "snippet": "Investing.com, 2026-10-23T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNU1maUcyOWVRRXZ2WGlBakdiRVNWTXl2R1hGODRibzVRWjF4X0p2S1BiUHhwcGNYd1hCdC1UeHpobVVtdE9NZjc2ZHVVYTlEbEdIZ0E1Qm8taVhuSTkxZnFjYlpJQTkyajJCekdnNEIzYm5RcjktT2lXZ3o0dF9TNlRpeHpIQWtVVmlOd1p6ZlVmdzRsSWZaV01RNEdCajlUbDRXUlMta2xEdkk1R3lhYWhwcXVqSnBvb0tFZEJGM1pjWEZOLXFwelZ0WnlweGJOT2VTbTlvOFI?oc=5",
+      "title": "MGM Resorts International stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-23T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MGM/history",
+      "title": "MGM daily price history (Yahoo Finance)",
+      "snippet": "close 28.54 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

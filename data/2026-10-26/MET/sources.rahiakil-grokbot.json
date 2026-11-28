@@ -1,0 +1,73 @@
+{
+  "ticker": "MET",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZU8xYXI2VFh3V3ZGOGNkYk5lLWFZY1RqeDdPVlFodE5SdU1Vcl8tc1l1eU5XRHNGUmZvd1BDOEZuRks2NGVVQ1I2dUhXbVdlRXlHZ2FkZ0pXWGVVWVgwTGdZcDNfbTFEeFBuSDdKR1VwMUVTa1dETnp3eF9FZE1qcEdBOXFBa0Riakh0S3VmeW9tQXJjQ0lYWXdUY1dJLVVHblE?oc=5",
+      "title": "What You Need to Know Ahead of MetLife\u2019s Earnings Release",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUzYzejVQU0hWZXZXcFM4RVBXWHd2R19XUndkdnVvZXlJVFMxTTQ4QTNsRlFoRWp4VW54QzRFenV3V0JyaTZvN1NOMnhmOUM1eXhpSGcxUGNaLUt1Wk01R1lqdmIyb2xWU3NYY3BEcjNhaDdtMjhIRjVjNGo2SnFtVzZpeWhnaFJmNEtCRE12Q2VId0lSMW9oSUZoQ1VWRmZVelc4Zg?oc=5",
+      "title": "PNB MetLife Launches Momentum Quality Index Fund for Long-Term Financial Goals",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVi1oRzBPRm84TzJfNEVrNE5xSGczcXdnazFCeWlHMEFISG41WVJnZVUwTzRYTWJncUZMSjJmU0JBVUxnYmhDOWRCSjlXc0MyNVh3S1BZdmFqSVpOT0JhWXVGdDl2bXpoUjV5N3BJbTJmRm5KQ05lRXlGVTZLMnp1cnkyTGo?oc=5",
+      "title": "MetLife Drops 4.2% and Loses the $100 Level in One Session",
+      "snippet": "24/7 Wall St., 2026-10-23T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 100.04 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

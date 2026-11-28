@@ -1,0 +1,61 @@
+{
+  "ticker": "KEY",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KeyCorp\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdVJGS0dMLW9uaW9DX3ZtdXVoRlRHa1VUTUVUcDRqdG5DSWViWTFNSE5NclFPTmJueTJfU2F1N2l4QUtHX1lBaWZDdV9lSWE5UHEtejM0UXFIWThwWlVvTFo5ekxISGV0Q25yNHpTV0JSS2xrMnZZclJCaTVkV3BhY3lnU1BXdkZyQVo0VFZQdzRkTzhWc2tLbHRDSi1QTlRkTGs5RHhqYmxJUmxnaTZraTJyZ0R2emtzOHFZRmQwZm1XTVJmbDJwUng2TTNPUzZNZk5SU2ZBNXNraGZyZWdpRUNn?oc=5",
+      "title": "Scotiabank reports KeyCorp contribution. Bank of Nova Scotia stock trades at EUR 82.91",
+      "snippet": "ad-hoc-news.de, 2026-10-25T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU0F0QmhubmJpU3duZ2dqd1NWbTlpQmdRUS0zM2xFUk5YbHZYYUhjdUlsLXVKaWRIYnlEbDR5cXlHYXhheFlYZDlsXy1CeENCd0RZSjM3TjVjdENMREhGQmlyX0k3T2lOY3JwZC1xUDdYNk1LVktZMnJrNnJJX1gyRDBuNWROTUlQVUM0TVdKQnV3UQ?oc=5",
+      "title": "KEY vs. NTRS: Which Stock Should Value Investors Buy Now?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 21.21 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

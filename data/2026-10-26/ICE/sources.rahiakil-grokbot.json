@@ -1,0 +1,61 @@
+{
+  "ticker": "ICE",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsdjAzQl9JWVpNUVREREtIOGh3VS1GaHRvTXZCaE14VFJNUHo1ZXlJa0xPRDRnaWhORjRHejA5Vk5IZUxWTXdGR2NDOXFWWllQT2JtXzVhQ0s3NWo4ckYwd1dRd0M3SnVZR2NBTnVRZmtsbDljTlE?oc=5",
+      "title": "Wells Fargo, Arm and Intuit Join Revolt Against OKX-ICE Tokenized Stock Plan as Objectors Reach 22",
+      "snippet": "BigGo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU2lCdlpnVU9qVHlweENnNWZndThLd185U3A1Y0wwaFR5VlhTak9Ia2pBVi1nZVpNZXRYM1RaMUhudy1ORnlvYnNUY1NaZmF6RHNLMHZOcElJeUZKVUtVaVJSQlc3ZS05WHFCbWVsYkppMHBWZUtVeFNySWVuRkhiZGVMY2pOUjFva2JRU2tjRWowc2JsNjE0?oc=5",
+      "title": "Issuers Object to OKX-ICE\u2019s Stock Tokenization Plans",
+      "snippet": "www.galaxy.com, 2026-10-23T07:00:00+00:00",
+      "publisher": "www.galaxy.com",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 160.05 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

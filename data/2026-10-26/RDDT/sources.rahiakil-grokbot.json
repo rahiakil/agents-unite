@@ -1,0 +1,73 @@
+{
+  "ticker": "RDDT",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Reddit\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMDAzZ3luQXYtLWExd2c4ZVJTaGlhNWFkRVZwX1UxaEU2TjNqRnVxUzRrUGpNYzZnaTA3d0NUaHlFVTNqT3hJWFdVUUp5YnJSWEJpOU5Mczl5aWJmaGtndDExN2tEeFc0WnZZTnM5VFpNWGxoQnlHTGtEbTBCbFhZcGFiZDZ2YnVlcS10c0ZBUTg2b1hYVVBtTnZ1NzRfMXBrWXlTSmhsVDA2aFlHX2p0cEdrVHlRRXo2eFBGMnh1SFRxbXhiY0NxcVh0SXNYeElvaFE0aXFocjlMdjg?oc=5",
+      "title": "Reddit Stock Drops to Crucial Support as Earnings Loom: Will It Rebound or Fall Further?",
+      "snippet": "Benzinga, 2026-10-25T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeVVWb1VHM1ZiVGVKeFlwNHV5V0F5OG52Q2hwZ3NCVVB6UlJ1SmdORzdJWldZZnd3Q1M2cnZjem04N3dYVjdDcUpUSF9hTk1MQ3RfWFo2c3BaSGIyMWhSY0xnQUFkMEZyYy1LLXZOaGdhRXlRUTZyTTFwZ0RoNDNkLVZoNmpwTDVaMVZIVl82MGp0ODBOajNRdm8zRFBzQTdrdDV6cGk3cXktZw?oc=5",
+      "title": "Can \u2018Reddit Max\u2019 Save RDDT From Slower Growth Guidance on Oct. 29?",
+      "snippet": "24/7 Wall St., 2026-10-25T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaFBiU3NwejMtSWNfU0ZHQ1FtNnMxUjdsc1B6SUN0dVRNQkRRTHZqOE5pR21JTUlKX2F4Uklsam9tMEU0bzR2X2RhWnl3MF9za25VSDJFVXBwQkQzUnQtTlFrU2I2Y0tJSklKaW0yRUFQRFIwOVV6a0ZjOVVYWVVHTVJTMlBqYlVleVl4Sk9B?oc=5",
+      "title": "Reddit CEO: Google AI Mode Traffic Gone? 3 Fixes [2026]",
+      "snippet": "shattered.io, 2026-10-24T07:00:00+00:00",
+      "publisher": "shattered.io",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RDDT/history",
+      "title": "RDDT daily price history (Yahoo Finance)",
+      "snippet": "close 138.45 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

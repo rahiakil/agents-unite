@@ -1,0 +1,49 @@
+{
+  "ticker": "TXT",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Textron\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSzhlTHJ5V0xUVF9uN1ZsY3l1UWZqZnpmX210UXJpS3hoN05DUG5ZZ08zNmVXT19HbnZOLXBhaWJQM0hUakJyT25CclUweDF0UUlDdDNiNUM5V3lfVExFeXBBN29YQnJMWVBfdXR0ODBpRlVLRGFBMlNxWUVMa3d1cUNXem02b0RzajYzM3hKbVYtUDQ?oc=5",
+      "title": "Textron (TXT) Stock May Be 48% Undervalued On Fresh Cessna Order",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TXT/history",
+      "title": "TXT daily price history (Yahoo Finance)",
+      "snippet": "close 78.11 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

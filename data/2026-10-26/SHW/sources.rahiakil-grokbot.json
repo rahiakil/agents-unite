@@ -1,0 +1,61 @@
+{
+  "ticker": "SHW",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVlFtUmdEV0Rjc2sybDFDWkJMSnFSV2xTRWtidHJ0Xy14WEhvOGcycVNmZ1puaC1PT3ZXS2RYbUxLQ0gzdE03ZU1PWjl2WTNobGlYZ2FYUGIyalQxWFRpQU1IMFZhZkRRdWo4N0YtNWl5bUJLMVdOWFlqYmR6RFlieTVQMjB3Ums0TlFWMUZuekRBYUJ0M0g4d09uSjk0UQ?oc=5",
+      "title": "Sherwin-Williams (SHW) Q3 earnings report preview: what to look for",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3JBXzhoN1NkamdCeTdMUW9ub2RBVW16VjluRDNkVXM3N24wRGVFSThXMUk5MDNQdTlhSTA5ell2Q0o4cG5SYkdfM0ZEWUdDREpMMXdKOThBQVVDU19pX1N3UlBIcWEtMjUwZVItTV92WHM0TDRnWjlZZXkydS1JNkVPU0F4c2FWQ29DY3lhLTJRMlpWcGhGa0hGQWR4aFAwWDM1cGUwNnF5QXRVZHUw?oc=5",
+      "title": "What Does Sherwin-Williams Offer That IFF Does Not?",
+      "snippet": "Trefis, 2026-10-23T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 335.16 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

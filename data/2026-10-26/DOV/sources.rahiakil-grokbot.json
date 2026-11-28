@@ -1,0 +1,49 @@
+{
+  "ticker": "DOV",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dover Corp\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWE5pTGFlb0tYR0dTcjhsQi1HMm1RUGxNSHhfWG1pRmtfWjR5OU1QNzFKUWtTbGRKWmdkYXphZWNNcXNHRWlMeDRIaVA1V1pOX05iSjFWeEdRdFp1X215S2VZWDU4OUpzYjQ2UnFXbGFXSW1zeWdycWl4S1M5cWhWYWt0d3RYNzU2TzE4c2ZnUUsxMmJvb2tmVlZYX1BnbWNLZU1iTWw1eE5YMlVRdzJuLUlZaVBpVFV0Zkl0amhyOW5QT3ZpczJSZlN1cFRBMUJkZU5tcWNybw?oc=5",
+      "title": "Dover Analysts Raise Their Forecasts Following Strong Q3 Earnings",
+      "snippet": "Benzinga, 2026-10-23T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOV/history",
+      "title": "DOV daily price history (Yahoo Finance)",
+      "snippet": "close 202.51 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

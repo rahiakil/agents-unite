@@ -1,0 +1,49 @@
+{
+  "ticker": "ODFL",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Old Dominion\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR25OTmFVSEVjdG1iMC1YS191MDRhdUVERkR3Sm4tSkVHY0sxamNJclB5d1ZaeGNCbzVaNGxkWEtnVGJNWXota0RsOWNvZm03d29BZG1zeElzOG9kTERsUW83QmhSRzBfZlJzakZPU2ZaZlVmN3U3V3BNZDNkRTEyaGQ5NzZRUndpcXRaSUdpZ0VUZWVuMUhTTWtKb082YW50Uy1mdlBaeXg5NERaYjUtYWVXUlpBR3RpWXZVR2xBT0d4VWYwNzFJUW03Vk9uUVBHUWlfWG5lX1A4cmxKdFhoT3RUZzDSAeoBQVVfeXFMTWdFQ2VfTVlQdTBQRjUyWTlDRUVxUDF2T05LREdSdEFSb3dBYlVBZm9rdy02MHh6ZTIyRkg1b0d3TGxMNFI5cjVpQmVnT2ZBMEZvZVR4UkQzQ0RoUlpvazhrbnpBQjB1eVdDUE00dU5fNHlrX1plOGVQWnFDTHlLekFEU3l6LWtPRm5Ha3ZmcWdJVHlHdTA4dFBrZGh5c1NrWmFnTElTc2FhQ0ZOcXZCeHdMRk95V09NaXE0eHhPRnZIMk1uV1loUjlCR3JFRDFJazJXN1JUQU1iOHJ1ODAyRzhieXUxWkxwUHdR?oc=5",
+      "title": "Old Dominion Freight Line (ODFL) Stock Looks Stretched Following Its 41% Run",
+      "snippet": "Simply Wall St, 2026-10-23T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ODFL/history",
+      "title": "ODFL daily price history (Yahoo Finance)",
+      "snippet": "close 182.47 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

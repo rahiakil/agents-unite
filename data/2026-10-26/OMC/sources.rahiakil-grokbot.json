@@ -1,0 +1,82 @@
+{
+  "ticker": "OMC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Omnicom\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdkdCZ1FpVmhPeDhrWDFick5VQ05tVGVtMzN3dFAxWS1UczhMVF9tekhrVkNLaXQ2MDJwSEVFNExuQ2M0UHZuUXViRFVSbV9NeG56Q2VacU9oWXZkM1dtSUlRZEZXRVprUzNiSmJRUUZPQ3lyWmdOc3lGLTJuSVM3Y0VWTmQyWUN5SWRaM3ZCYnE1ZGNSd1d5T24yRQ?oc=5",
+      "title": "Omnicom (OMC) Q3 Earnings Reveal Margin Strength And Debt Pressure",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeFZobV9RaFNtTV9NSUh2YU1NZzlCU01qajNSUy1WQ1huXzZJZ1lJTFd2MjVBMnhQMHdPZUx5UWdiSmlWOGhmSzd1UmNQTkRiLWFfWjNsUHdFek5RY1dEWGw1LVoxUWFybEUwOHZNLXRPYlJxUTBZbnQ0c0w5M0R2c0N5cXJUZ2laUFpBMnZaejJ1YlpKY1hZ?oc=5",
+      "title": "Omnicom posts 7.2 per cent organic growth in third quarter",
+      "snippet": "Indian Television Dot Com, 2026-10-23T07:00:00+00:00",
+      "publisher": "Indian Television Dot Com",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1hILUlnOGJ3emhCZlQwdTF2QW1sYmN0RHlIQXNPYnc0cFNVRlAxU0JYSEpWTGNqd2ZUbHdqT1lDOWI0Z2JDOEhybl8yNEsxZFlpT0VFUnh6SnlWVW9UbEpQWE9nb01RcnRFUWIyZTV0cHRCMXowcVhRM3NvakhYSW9fbHlGbFdkVGFlaE9IcTgwUVJvMlNIak1xRkxrTC1fZHZMVFB2VmVaTGM?oc=5",
+      "title": "Omnicom Stock Rises On Q3 Results, Coke Media Win 10/23/2026",
+      "snippet": "MediaPost, 2026-10-23T07:00:00+00:00",
+      "publisher": "MediaPost",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000026/omc-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-23",
+      "snippet": "10-Q",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OMC/history",
+      "title": "OMC daily price history (Yahoo Finance)",
+      "snippet": "close 79.83 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

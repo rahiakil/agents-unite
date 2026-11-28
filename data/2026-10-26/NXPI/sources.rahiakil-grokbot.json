@@ -1,0 +1,49 @@
+{
+  "ticker": "NXPI",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NXP Semiconductors\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxON3dUa2JRSUNDWFB5Sm9MQzB6NUZuZnVLa1F4bEFiWWM2cG85RUJOYXgzdnNMemtQLURlOUZmcFBNUGRNdWs3QlN2T05QU3huYjdIa2Z2bHhvaW80c2ZyejJuNzBZb21fTU1ySFZxN2ZXMExVWTc2dkZMSEJaNjRuNVBSYTJ5ckpEcy1UeGNIaWQzN1g4Qmt6X2xYYVJYRnFaR3ZHQ1ZlaElYejBieTJCbmRIWDJOaER6VU40Nk5EMTZIMVZoSWRNYndLSFlNMnk5LTlBTWkyeVF3UWRl?oc=5",
+      "title": "NXP announces October 27 results as NXP Semiconductors stock trades at EUR 209.68",
+      "snippet": "ad-hoc-news.de, 2026-10-25T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NXPI/history",
+      "title": "NXPI daily price history (Yahoo Finance)",
+      "snippet": "close 245.83 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

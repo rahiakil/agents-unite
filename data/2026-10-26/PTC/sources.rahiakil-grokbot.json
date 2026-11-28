@@ -1,0 +1,61 @@
+{
+  "ticker": "PTC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PTC\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 9,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSTliR3JLMGc1RnU5Slk5TzlBWmdWOGdycmhDSkNrWWRfU0tiUnZvUUEyQ1NNSjd5NG80QnhuTUhmTy01Qi1QSWZGZnhqazhBTmRMakl6VnNRNEpmM2VPU1RzblhoQ091RVhiNUpLOVhmNDFYYXpFbkdCUGZjNjlPd25leE5yRFU2Y3ItNmlpMVctVEU1eVhMUkdseDNWTS0yU3VQVnFJTmRncXlFNS1zRXRTY2RNVTMzckEtTEUycGl0NXFiQ09SaVExb1VMcjlWcDhMNQ?oc=5",
+      "title": "High dividend, low price: 4 stocks under \u20b9200 with high yield - IOCL, PTC India, Central Bank, PTL Enterprises",
+      "snippet": "IndiaIPO, 2026-10-24T07:00:00+00:00",
+      "publisher": "IndiaIPO",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.499,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUUxU1RsSllBQXpRaGlnZkZWN2w3ZmdLNHByRC0zSnp0RUJNVEpPQW1BOTVDZUZEV3VpZjNsWlFETzFKTkpIRUt3SzFtR3Z4Q1Ffbk5DMHZuZU0tMEpGUHRmdU1hN19kR1I5cTV0Q1Y0RHBPRHI0dXNjWlliZ0M4RXhPRkthTFVQRmpaVHE5eS1CZzJUVjFtNXVrcmpSX2g3?oc=5",
+      "title": "UK TV Ratings: PTC Punjabi leads on Thursday; Star Plus tops Hindi genre",
+      "snippet": "BizAsiaLive, 2026-10-23T07:00:00+00:00",
+      "publisher": "BizAsiaLive",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PTC/history",
+      "title": "PTC daily price history (Yahoo Finance)",
+      "snippet": "close 194.25 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

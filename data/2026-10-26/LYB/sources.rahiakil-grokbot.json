@@ -1,0 +1,49 @@
+{
+  "ticker": "LYB",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM3UzQnVpN2JlX0FZZDdjSmV1MDBTc0RNZ3JXbk1PT2ltamlnY0dsOFktWTl5ODFQOEd0akt2ZUxaYWZmdTRfRmxvNDU5SmdMTXJ6SFM5MmtiYmtRNW84WmE5Z3ptZVVIS2dKZTJ6Yl84OERhbGdZeHhtVzFPbXpkeDJDS2JPcVBqTTduRQ?oc=5",
+      "title": "LyondellBasell Industries NV (LYB) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.694,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 67.35 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

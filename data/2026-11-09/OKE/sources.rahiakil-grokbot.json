@@ -1,0 +1,49 @@
+{
+  "ticker": "OKE",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Oneok\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeGdlX0FxSW94c1ZZaG04c2pzZWpQSF9NbkUtVWsxaG84cllqcVVJWjk1MGhHNzlyU2lXMWp6bnZoSC1wUnE4T3pHQkpVV0hiVzAwNk9zaTcxSlgwbWVqSDI0V2RJczJwTjc2NHpEdFNYRWNIN01Gb2RNZXZkWFJUZnFVNU9HX1puS0tlLVU0LWV1cjBNTHJzOTdyXzR3SFE1RjMxbnNIZFlVeUw3NmdnMlVKX3FNSTVMVmExU3M3UDlGdWdDS3VfVDFXclRYdVhsSmI4UXJ2OGtabTg?oc=5",
+      "title": "ONEOK Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OKE/history",
+      "title": "OKE daily price history (Yahoo Finance)",
+      "snippet": "close 85.98 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

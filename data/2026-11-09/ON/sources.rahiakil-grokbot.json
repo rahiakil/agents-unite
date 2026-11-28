@@ -1,0 +1,85 @@
+{
+  "ticker": "ON",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ON Semiconductor\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 44,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 16,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLcE9Ib3RqSWRnVzZwM25XRmswZHZwUV9ickZHd3RBZ0VKYjYxR3JYa0phV0h4UzdkS0NLdF9TMHJrTWVaMGRoeXZ6eVBXRWIzQkVSejl4NWJ1RVlSLTV4Q3hFd0ZkZU1NWERuZldNbkFFTXJmQ1E?oc=5",
+      "title": "Japan's Nikkei Stock Average Rebounds From Sharp Drop, Briefly Up More Than 1,700 Points on Semiconductor Buying",
+      "snippet": "BigGo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hOVIybjVfN3k4MHBKNFVodEhVV3NobHNpZnZoZjA5SU10OXoySkxOcDhjbGZkV1ZueGpWaVpsWUcxWDAtZ0UzQkg3Qm1icFdOZGx6a3Z0V1J0SVF6aDhRZzdaWWozT1lObzc2bU12THp1TFUxVHc?oc=5",
+      "title": "Japan's Nikkei Stock Average Rebounds After 6 Sessions, Up 1,340 Points to 58,775 on Semiconductor Stock Buybacks",
+      "snippet": "BigGo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQlhCTVhIbVdDUHh4OFdSWGtYOERCT014Y09KY0tlbldTMHdQMTNsd3FVaFpmTXg4UktfMk55Qjl4ZGN5TjV2UUJ5N21SWFhHNXotNy1ZSFRnd28ybUlzTnk3Wkx2cGxSOEVpRGE5ei1Lek9EVVNScl9LNkhnU2RPMU9ZQ21HN2RJcXd3bEpVdXFETUhXYmhOd1l2WGc0Q3c?oc=5",
+      "title": "ON Semiconductor (ON) Is Jeff Brown\u2019s Chip Play on Tesla\u2019s Optimus Robot",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSUp3YXczT29IaF9uVkRtbHNqaXFPNUR6X2hkemVlT2JCVjJBTkVfSVpEeWl0bHNTUHo2c1ZQVnBhMFpGbjRXa0ZSTEVjejBZZ0xENXJFbXllRm11VG5VLWdOQmxLM3RMYjBPcGhQMXBDd3BlalNLZGtoWG80OTFhZWlrUUZwaHJUUElwNw?oc=5",
+      "title": "ON Semiconductor Halts $2B Czech Expansion",
+      "snippet": "Briefs Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Briefs Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ON/history",
+      "title": "ON daily price history (Yahoo Finance)",
+      "snippet": "close 69.11 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

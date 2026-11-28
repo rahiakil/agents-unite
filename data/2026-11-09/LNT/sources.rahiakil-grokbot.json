@@ -1,0 +1,49 @@
+{
+  "ticker": "LNT",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alliant Energy\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0dkdHBVbEF3bVM2OVZRTWJlTERFdGVoN19QODlUaVJCVDdsNE9wc3pLY0tyQnNiYjFleG5rVXVYMmJfbG5UVDhjUjJPS0ZXMW5YZG54NVc1d0dOVTJoT0VCRGx4LU5CWGRSb3pEUEUxdzByTFRWRWM2dnJwbXF6VFByTXRubjk3VjVwWlRLcXJXVk5jZFpXeGlXbUpkbFE4amhXQXBTenNBQQ?oc=5",
+      "title": "Form S-3ASR Alliant Energy Corp For: 6 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LNT/history",
+      "title": "LNT daily price history (Yahoo Finance)",
+      "snippet": "close 73.46 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

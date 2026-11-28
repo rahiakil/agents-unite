@@ -1,0 +1,73 @@
+{
+  "ticker": "MCO",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moody's\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 31,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 5,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVGtUaDZ1bk96QUV5QWZTZnNHdWFPNFB3ckFQQUVuQXljd2dfQjIwc3NjVmhkQkhDSllyczVoZXFxb3RFMFZmSGlyX2VhNE5wMGM1UHZ4Ym5QcmVFREpPUVhIRkdGa2M0SnFISUxqcUhLWFNXclRkaE5ydlgyeVNjUHF4bTE2ZEJ6NVJIMGpINVp0Zw?oc=5",
+      "title": "Moody's: Senegal debt swap likely a default",
+      "snippet": "Briefs Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Briefs Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWGFDaTRremk2bHlGMUFYdnVUWXZUajYwZnVyYnB1eVJIc1lCekhYc21QenVGYmNlc00tLTR3RUNxRlVxU3JaOENQMWVza185VDYzRFU1cmloRENtbDlhanVCSHFwT2w5eG5vMkJ4ZGRFT1Y4dXhBRG55NzhiN0k1U0duM0Y3Z1F0ODdTaDlqZjJWS1Itdk9mbWtydVpic3Y0ck1sQmxtWURlcVdEM2VVVW9RZ1RBUlFCbUZnZzlwRjdhaUxvS1hsT2dDSXdGeE1PR1FRaEFuTFRHMnM3eVhuTHljUXFiZ1BlUWI5dHZiZl9NQQ?oc=5",
+      "title": "Last 14 newspapers owned by Braxton Moody's company have been sold. Here's the list.",
+      "snippet": "The Advocate, 2026-11-06T08:00:00+00:00",
+      "publisher": "The Advocate",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOG5NUkJ1RThmTW9ubkhjU25BVTRVUWN1a29WaG5hei01VWZ1V2IxOW9vQnpNblpiMWxTOE5vRjRGbjh6aXozbm5mMS1FQVk2ckhCc3BHYmFUVmlQRGxFdkNYQkh4T2x4cXdEQmpseF9ydG9XWVZrSUlDc0g0bE9STW5wa2lNS3NzNERONVdzZzlhb1BWSjVtbmFwbG9PdGhRODVBUTNiaUFZWUsxbnJkVnZkTDljWGNwMmFZcVRLeWhFMVpxTGg0XzF0NkpRbDdnblh5VG1n?oc=5",
+      "title": "Inflations plus strong jobs number could give Fed 'latitude' to raise rates, says Moody's Mark Zandi",
+      "snippet": "CNBC, 2026-11-06T08:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCO/history",
+      "title": "MCO daily price history (Yahoo Finance)",
+      "snippet": "close 511.08 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

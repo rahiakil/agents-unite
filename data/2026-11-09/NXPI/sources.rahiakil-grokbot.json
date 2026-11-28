@@ -1,0 +1,61 @@
+{
+  "ticker": "NXPI",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NXP Semiconductors\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWVhRUVctYkxaU0NEb2dIYU5vd01laVF1ZDFfWXh4V0o3UzFvVlN2WmZwVXhXSF9SaFZ5cGRQbzRicVNySlB0NFhDakNtV1p6a3c5MDQxZC1LbnBDR3J5NHFOYm96NW5YajJLZndvU3Rycjh1ZGdfNFZRbmw2c3ZPaXBNeEktMXQ0VlQxcWtjSDdXb2dVUWFMSXpEZXZHdXl2NVRoeVFsSl9tTE9QWlJScU41SjRwMlBiSWpkOE9wT3cyNFd2U01VS3VUeGphamZPVWVSaEIxUGJhTC1NMUQwczN1MWtIVUhaQUViYl82UQ?oc=5",
+      "title": "NXP Semiconductors N.V. stock underperforms Friday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUM1bnVxVmIwY3N4ZGlhSnZSQTBpZmRUWGt1RzJsTXlMR1g4dTUtX1htSENjMkhwWjJycXM3aDAzd0VTYm9qbUJPbHZERHlQeFM1OG9wUmJFMkVIYUp5M3U3OGU4WGMxZ2pFMjRDM1gwMTRBbm0tLW1UcVBLSXFJSTZUZXVuZUFRMEcxemdTMlZsU0RLWUR5LVRtNzRFcHpRTlRfLW1Jd2RrREZyeG9hOGRYeXh1RHc2NlE?oc=5",
+      "title": "Anthony R Foxx Executes Sell Order: Offloads $105K In NXP Semiconductors Stock",
+      "snippet": "Benzinga, 2026-11-06T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NXPI/history",
+      "title": "NXPI daily price history (Yahoo Finance)",
+      "snippet": "close 256.42 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

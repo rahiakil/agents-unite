@@ -1,0 +1,73 @@
+{
+  "ticker": "SNA",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Snap-on\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNkZzVkFhekxWVlFFd2lLNzdlWm1uVV9HcjZxY25mc21JLV9QUk9JVFpRN0pERzhsamdpT0xhZHRTWjBPSUR4YjBvbXcxYWhoZzZfM2xZcEEzOFNWc1dCR1BEZUlSN2l3blBhUjVvdEhTVEVlUUFFM2wzRE1TajVITjdpR2ZWbjR1dXlXdnkwUVRaQmt4TDAwS2VDeURvY3ZqZGVRNlFLT2ZYdDhUT1RiakluTVk3ZU0?oc=5",
+      "title": "Snap-on Raises Quarterly Dividend 12.7% to USD 2.75 a Share",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-11-06T08:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZVlo3bXpLdW9scTBhbmc2QXJ4SHFGbVVycFl3Z3ZtRXVhX2M2aWp4QnhZcjdfMER5VnRkaTRoWGFaT25tTElneE15NWRjejQ3ZDNVZnplbk1UQThYdGR4NVpKNHNrbVc5TXJfNjVlSkpRXzNkUF8wLWFB?oc=5",
+      "title": "Snap-on Raises Dividend 12.7%",
+      "snippet": "Quantisnow, 2026-11-06T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSUJsSVp3REtWWXlnalB3TnRMZ2N6WjZnalF6WjE2UGtITkpQN3RTbUctcnBTbEVmS3NDMTBxU0twS040ekloNThtU0duVjhYTHBwdzRYUHNrTXRydV9sUFIybEl6bUhTOFQxMjYxbXpELWF2WFBrNUVLUkh2S2ktNnZjY0dvLTdLankxQl9ZVXIxRzUxbEg2ZXZ3?oc=5",
+      "title": "Snap-on Has Raised Its Dividend 17 Years Straight. The Latest Hike Was Its Biggest Statement Yet",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SNA/history",
+      "title": "SNA daily price history (Yahoo Finance)",
+      "snippet": "close 373.82 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

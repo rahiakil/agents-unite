@@ -1,0 +1,61 @@
+{
+  "ticker": "IBKR",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Interactive Brokers\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 35,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 9,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUF1NWlqaDE3OEg2R1Z4WFE2LVZWaFl3ZDQ3QTVsaGdLb0tyZTdidXQyY0hTMjV0cEM2aEpBSEN5NWJ4OThoMHFBWmpQZm5fZThWeURrUlgtMVhDa1NBZ1dxMVIwM2Z0QjNya0tOYjNiODlpcW9ScmpiQnpsSTZjVHFaaGNLSUNVRnFNQ1JCY0JGVWR3cjJ5cE9TbThIOGNO?oc=5",
+      "title": "IBKR's October DARTs Rebound: Can Client Growth Sustain Momentum?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXVTVVVCZ1V4aHBWM05tYzMtT013SnZsaHlIdkJxZXNxTlZYUkR6NEZTSkF5MFdha3NZNFIxVWEtOWRGZ0JzUl84OTZXZENkazlINnVSSzRSbGRiYmt5UUtwMXhaUkRLamY3OE1SNHk5aWFBWVFtMjhsZ1J0a2FtZTJTSVRKWmRPZ1k3N3hQMDFsNzVNZ3JmblFtMjdwWHJuR0hBZnlROGg?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Interactive Brokers Stock?",
+      "snippet": "Barchart.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IBKR/history",
+      "title": "IBKR daily price history (Yahoo Finance)",
+      "snippet": "close 77.57 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "ticker": "AEE",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ameren\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYkY2a2FTTUVrQzhBR3RlUWJIV0c5cy13dE9FQnJzS1Q2cEdVU1B2TDdLampwSnE1QzdQRWYtLWJwVnFJSGZDSWNpWmw0U1Jxb0NVV3BvTjhWVkhTZ3Z6dFh4OHFISmQ1SEdiMmZmcktjVWZ5QnhYV0lnTVJvU2s3MkFTanV5TDJ1cmxDQmw2LVpmUmhLcmVzN1NiYTJsZw?oc=5",
+      "title": "Compared to Estimates, Ameren (AEE) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzdrTFhDLUw4WHlEa2VsM3F4a08wd2l4TFVJSjRnTVJJZ1k0c0I2OVR3MmVlZGxaUUtMTWhqdlhqUDVxX0dhTUVDU0FGeGxiNk5WMVdyVmlZVU9RMTNDd3RTQ3haMFZ2blplMHVmbWFPb3YzQmFhQXVHUk5FbHNoQzBVaUVaOGxVakVZOGszLVdueWt6bVdsNm5MbTBOTXVq?oc=5",
+      "title": "Ameren earnings beat by $0.11, revenue topped estimates",
+      "snippet": "Investing.com Australia, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSFowaFR5dDRqVHlqbktzeXZIQnpoMGpSYTVpYlhmRW9xcUpDQUstUWxNOEQ1Z190bE1UMlZBT1hhY1g1R3E0ek1qbFBKUXJGUGdMNi1uUkh6OEdmdFE5d2FId3hKekptMzVTeERrc00wdHhOaXpLem9iMXhOdzQ4V0Zrc0ZPSVljNXBOSlZZNTlSOE8za2tFRjhXY1RudkJsX1BZ?oc=5",
+      "title": "Ameren Q3 Earnings Surpass Estimates, Revenues Increase Y/Y",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa0M3RnlaNk9jU0lvTHVreXRpTXRabDBWSGY1Yi1iSjlpQS1tRlJkbjNrbGJMRlJGanFjcDlMaERzMHl2bFpPTXAydnota2tiazRMeVUyQlJ6cWVJaExUT3ZvaElPS243eVhyVTRHcWlHWjUtLUN1UFZzOHViUlhMMm9ZZTFqT01iNkRtTXlCU2QzdEEtbmc?oc=5",
+      "title": "Ameren Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMUx6ZzdyZzg1ZDA2NGs5VFRXM1VhUC13U3RkaExXZFdodVZ4RmJNY0dsZlRCMHpMbWpPUzVnUDBFbVY1QXhteDlQVXpGYWpfMlpsQVNQN2Z4Z3FxaGVrNmF5ZXpyMzU3WkhrenBieXZuNk50blB5WWppQjIyY0pwa29rcXhSaWdjYWpSYThJT2VGWjdIRDJYZ1N4Y0dTU0FielJMaQ?oc=5",
+      "title": "Ameren (AEE) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-06T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000032/aee-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AEE/history",
+      "title": "AEE daily price history (Yahoo Finance)",
+      "snippet": "close 114.02 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

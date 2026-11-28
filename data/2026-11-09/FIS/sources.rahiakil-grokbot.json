@@ -1,0 +1,49 @@
+{
+  "ticker": "FIS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fidelity National Information Services\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 15,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTGpkSlFJMTg0dHprVnc2ZnVaZklybDNEZ0lTeVhEOS1sbVBIM2l5Q2JlUkNuMklRdUdNdEJuZTlBZkd4V1UzU0xzR1FqUG40Slh3dTZ0Nlo0QjRIS1g5eUpmS28wWUxER1lYdG9IV3JDYmo0WWU4RFVCekRwTkRFZUZyZ2ptWlNSVHg4WVRTOS03YkZIWEIwUGV2NDNnN0xPMXA5Vy0wR3lyUmJ4dGNYbHJQZWxYaDFOcHpKRzRDaDc4XzdkeUgtWEt3NmFTZVluNkNVTWF2N0Q1cXktOHc?oc=5",
+      "title": "Fidelity National Information Services (NYSE:FIS) Stock Price Target Cut by UBS Group",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIS/history",
+      "title": "FIS daily price history (Yahoo Finance)",
+      "snippet": "close 28.34 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

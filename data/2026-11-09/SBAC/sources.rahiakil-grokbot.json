@@ -1,0 +1,58 @@
+{
+  "ticker": "SBAC",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"SBA Communications\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWENObTN6QTFpaXNKbTk2Y0pyZ25hNE54RHcxdndVanQ4Z2xQU1lXVmszZVhYM1kzZUFyZ3Fib0JzNWo0Tk9OUl94d2wtcUw3OFBuWFVfeE5OemxRX3pFVGt2S1JzWFAxelFXeFZJVEpkNFZqbE92aDJsM2FsVUk0MHctZzI3Q0gyUGlNNDQ5WkJIZzdmYWRialhDVVlrQ2hFaUxlX0t5Y0tZcTNiRHN3blJHN3ZzM1V6N3Vqd2tPenZQaHpqYXBxNWNza1k1ZTA?oc=5",
+      "title": "Form 4 SBA Communications Corp: George R. Krouse Jr (Director) For: 4 November By Investing.com",
+      "snippet": "Investing.com India, 2026-11-07T00:12:21+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-07T00:12:21+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1034054/000119312526452559/d165122d8k.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SBAC/history",
+      "title": "SBAC daily price history (Yahoo Finance)",
+      "snippet": "close 190.35 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

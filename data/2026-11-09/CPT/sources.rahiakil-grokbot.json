@@ -1,0 +1,70 @@
+{
+  "ticker": "CPT",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Camden Property Trust\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONTVRclVBMDY4Vl9uZUk2Rk1WRnVVbl8zYy1JM2ItZDhoWUthNXFzOG1xVGQ3ODlaNzJfd2F3bWhrWXdncWtFSkhhR1BxRGlkUW1LUXYxQUFzbFh1LWV4QmFyYjM0emw1bU1TbGIwNHdRLXI5dXVQcE1kZjBTakpyNGhucEFRU2JyanhnZzQ3R0pkd0dmVmVsVWVTYw?oc=5",
+      "title": "Camden Property Trust Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNam5jaHhnUzk5R1daQmdMU0tqRE5nektDOWZ6Zi05czk3aTRuZm5KdERaLUgwOXZvNmU4MU5DQkZDUHdyQ3hiUzFjN0RLM0U2a3MyQzNtSnBpQmVCZW81OWNVQ3FjSFVfR0d3Q2VQTG1NdWdSVEJvRHdxdmNsVEx1TFhYQVJfRmx6cHVQTEpuWWNlaFpKS3o4LVdCemlmQUN6UmFnTmpJUDhMTVFXT1NuS3lOS1Rra05r?oc=5",
+      "title": "Camden Property Trust (CPT) Reports Q3 Earnings Beat, Maintains Full-Year Guidance",
+      "snippet": "GuruFocus, 2026-11-06T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.743,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/906345/000162828026071470/cpt-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPT/history",
+      "title": "CPT daily price history (Yahoo Finance)",
+      "snippet": "close 100.28 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

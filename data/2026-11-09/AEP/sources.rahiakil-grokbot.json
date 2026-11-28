@@ -1,0 +1,61 @@
+{
+  "ticker": "AEP",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"American Electric Power\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaVRHNm9tVGl6OGtnaVMzOW5TcDNacVNsRy1hR3hCY0pramgycWdlcGhITGF5Ql9CcWRET2xSUF9SUmJCWmxsWmktUmhOclBqVFFydF9tV2ZaSjE1X2ZzMko4NUNJc19HcVlUS2xuMlQ2LXZiS3duRGxEd0JzX0NYRmZNOHJsV2xteFpRYlNNaWFJdFZiRk5wMDQyS1pOQmZHWllJLTIyOWJVc2Q2QTVFTXBKdFpoZUtQWkRmaVY2SnRucUNFd3JmcXQtbw?oc=5",
+      "title": "(AEP) Price Dynamics and Execution-Aware Positioning",
+      "snippet": "Stock Traders Daily, 2026-11-08T21:34:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-08T21:34:01+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMU9LY19LSGNsb1FGMm1nbkwtMFAtVm1oWlhZMnlrOTFDbVBOYVlOUnFrSWg3MFdtTndNRHFOVGVXTkFSZVhuNkc4OVlMb29tdXowRWc4YU10aDd0RjA0ei1wRzRRT3dnRFFHN0FaOHVxWHZNOUlORF9tdDJjdVE4dHdwQVl0cWRaYjdwOGpqTURqQjc3VWhV?oc=5",
+      "title": "American Electric Power Company (AEP) Could Be 5% Undervalued On Infrastructure Expansion Plans",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AEP/history",
+      "title": "AEP daily price history (Yahoo Finance)",
+      "snippet": "close 128.33 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "DXCM",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dexcom\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGxPQVU5T3lPdk14dGwweU1qRjlxNnQ1ZlItNFVGOEhYdjRWRVJ0ekdzaXpTX2pYaXlrVy1LUHdLWlM3UE1DMUVQbWdIM2VPNlgzQW84eXUtejZyS1kxY0x4MzVndXJBM1VUUEFlT1luMktuaUtUUVRnRVZhSGlLeWxJYm0td0JBU29hU2Z4WjJfNUk?oc=5",
+      "title": "What Is Behind The Move In DexCom Stock?",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjJ6SElLckMyWnlHa1V0QUY0blI1QzdTVlFXYmxmVWtEVUZ5SF95WUozek5RU1poQkNXekRDVFhTVnNkdHEtQW1GVHdpTThXbFVXQXRtV0FaeXpDNGpVdTRCN3hCNFIwN2xHNldFMVFOZi14Uk1sQVY2WEEwWWsyQXoxQ0J6YTVJVTQyZk5mTjg1MHN2Y2N5a0oxdkw?oc=5",
+      "title": "Is It Time To Consider Buying DexCom, Inc. (NASDAQ:DXCM)?",
+      "snippet": "Moomoo, 2026-11-06T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DXCM/history",
+      "title": "DXCM daily price history (Yahoo Finance)",
+      "snippet": "close 81.07 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

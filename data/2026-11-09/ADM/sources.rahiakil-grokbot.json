@@ -1,0 +1,61 @@
+{
+  "ticker": "ADM",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Archer Daniels Midland\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDNuUlJSaFRQQV9jVnNXZ3I2WDZ3eGhxaEZuVF9QMU81cVJDZWRhVHVTV2JSYmVrSHpVeDFjWloxNndxWUE5YmRna2J5WGt3RHp1M3hxbVMzMHlBemh3REcwbktrYzZscFFZc1lubHpSc0NlaG9hSEpia216SmJ2SmpUMTJyY1gxS3hUcHV4cGgwNzFyS0lxb0k3LTE1ZzQ?oc=5",
+      "title": "Should You Buy ADM Stock At This Price?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOelo2QldwcTdaenl6YkNTZnI0YTZ1Z3NYY1A1Q1lJT2NxQ3R1cDVqaWVselRMS25LYzZydVFfLTBvNFMwbkd0V1ZOWXFaazU0OE1XVVl3d3I1SktBc2hEMkZRdW94ak41NlQtTlZLMnhwTFdjdWNyaTRUMF9VNTI5b2t4dGNUNkhvdk9IMjBOYkxweGZGblVvOERpeEFqN3FFVkxZWW44TjFTdm8tUmdLeVpHMGRCcnhyMXJRX29MTnVQNFVBbXA3Y1RGZFd2SGJ3aU1UejBjWnZiXzJPSkZVMUhwdFBySEhiX3NCRDRB?oc=5",
+      "title": "86,506 Shares in Archer Daniels Midland Company $ADM Acquired by Rakuten Investment Management Inc.",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADM/history",
+      "title": "ADM daily price history (Yahoo Finance)",
+      "snippet": "close 69.84 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

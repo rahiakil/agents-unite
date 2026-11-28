@@ -1,0 +1,97 @@
+{
+  "ticker": "IT",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Gartner\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 44,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 18,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMy1VLXFMaWdhdW1zNkdBT0g1WDVDS05COW4yMXZMYV91RFozUnZYWUg3bHNlcWp2N0pKbGtFZ0FvY2p5bzJRNkp1UzZ5b3RsdHdKSDdkMURxams1Y1V2MUdJdENQaTVOTmxHMnN2eUl3N2JyVDd6YVk1RG8zLUN4VEZaMHJObkthR1BSSjQ4OG1HQmJfNmptQk5KQzE4dw?oc=5",
+      "title": "Why Barclays Cut Gartner (IT) Despite a 27% Rally in Its Shares",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.336,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDNTa0c0RXk1VDlkN1NhUkViX3Fzd1lQQnRzcUQ1cXQ2NDZjVV8wdmhyMkgzdlp2cGE5dW83bUp1eFR0N1J0ekRnYU91MjIzYzNZRE8xTGQ1NlZiSTMtQTBhOEV2WkRkT1FpeUx4SWd6c1B1VXhlanV1MUxWRXJCUzk5Tm9Fb01uWmQzMklEYmRoWVdhVG4wcE04YmJIYTRNSWc?oc=5",
+      "title": "Tencent Cloud Named a Leader in the Inaugural Gartner\u00ae Magic Quadrant for Edge Distribution Platforms",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRDYzRFE3NkhqUHVSenpKUkxyaFVlQkwxY21Kel9aY1FQUjJfVGFfczhqcno0ZGVEX1ZhZnZCZVc2WVFuMlVabFNfT0JmVV9UZGZOVkd2ZEVQZVUyLVZCeVlwQklMdm5LV2NGNjlsa3NTTjJJWnpqaGZianNXendPQ2hsSkNTdWRSbmdFUU1zNUJyZGZzbEdRaVRWc1prdmd4LUxpVVNvTmZPVjBzZzRLMWhvWUh2cjlBa0VoVEZ1MNIBxAFBVV95cUxQYjNoZFFJMlEtdlZqWldZUEVleVRndGZscGEtZFNzZUZEY1F2bXFkeHAwdlhTR3BMMHl5anZKRUR3M0hlOFZpclh0cW5PY1JHQXBWQld2al9EanJFaDFzLTRtRkF0dTZqczJ4NU9MajRrTl94SmlTWGFRb20ybm1mbE5mM3FBQW1jNWpUNnI5ckRvRFRqNy1HN0NPZl9WSXcyZm9zWEk3cmM5c21WTDhRaUxBQVk0VGxJSW9DOUJpTnFRT1NF?oc=5",
+      "title": "How Investors Are Reacting To Gartner Stock After Earnings Upgrade",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTnVOWjRpUUF6eU1FaWxoWnJzOGEtN1RYNHJJVHRBTFh1eXdWM3NrVEhsQXVjbEtDN2NoclFpenFHRDJYeDEzYkszR0hIT3k2bEwxVjJ3RzJRMElkVXZOa1dTa19xQmU3OXNURG1XbU9IVmp4a3U5SGpUZWx6UGJUSGFnZlNVWDhnaHp2YnprMVlncUlwUDRUX1hmd3hPdw?oc=5",
+      "title": "Gartner Shares Fall After Barclays Downgrade",
+      "snippet": "marketscreener.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0pWZlV6VF9fOGF1TlFsdnI3bU9RTE5FM1VLSlh6M0NSLVY0cmpIbENQRnJaV1JWUTVtM3BDalBEMk5kTlBrandXQXRfbXF0UFFZVmZxczJFUXo0VFVfQ0RIMnJBVlJ5U20zTzJqcFZiY3dlQ25ucEZGS0VTeHJBUE9vOWdwX1RKX3JucWJacjExLW9NVjBwaG94Yy0tczNBdVhWME1hRTlrM2NoVW9PY1IzQTJUbFFNa01hMQ?oc=5",
+      "title": "Barclays downgrades Gartner stock rating on growth concerns By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IT/history",
+      "title": "IT daily price history (Yahoo Finance)",
+      "snippet": "close 191.02 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

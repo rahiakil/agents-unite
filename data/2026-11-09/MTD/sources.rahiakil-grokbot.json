@@ -1,0 +1,82 @@
+{
+  "ticker": "MTD",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mettler Toledo\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNThJY1F4UFZ1RjBPWXdacVhvaEI1ZHVac0dzYWFBWVpXS1FzaGFZOUNkM2RYdUctYjI0U0NDTXVJZnp2LU14Y1VtdVk3UXJ2MnBsUXAyWDlFb2dwdldqcEw0TGdKeHVyTUFBM0JzOHhIWHBfd1lZSjNsM0UzZXVENmhXVnpJZ3JzVFZrNUJQYnlXU3dqbkhSYjZyMVc3UGJQT2xRZA?oc=5",
+      "title": "What Mettler-Toledo International (MTD) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbHRNNWhzNzdQSkhfa3dmNl9tNGNpOGVGbWZnOXFzaF9UQnllMFp4QW1GenB3Z1ZZcXVobFRkcS1pN1JMeVhlbGVIdmFtV0EtZEo1RmZwckhOUWgtekZJZXZxdU51SFVTemJNMWRGTzdFUE9kcURlZFNXRnZCRU1LZVNYaHlTUl9zNUFlaw?oc=5",
+      "title": "Mettler-Toledo International, I (MTD) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWGcwNVJuT2JCX2ItWV9ycWJxb1NXY1R2aTFlQXJhZWFEZG1JYVpMczN6ckFwdlg4WVhWSXZvYjVHVXIwb0VtUjlqSDJGcEZXTEtfNXJfTFI2dmF3alMyQ1pUaXlBZUlBUVVCZnZvbUVLSzVEREthREppQmtlY21KQkxwQ2VVeS1hXy01WUMxMVFyQUFERUtYMDFsSQ?oc=5",
+      "title": "Mettler Toledo (MTD) Stock Could Be 21% Overvalued As Strong Q3 Results Land",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000074/mtd-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MTD/history",
+      "title": "MTD daily price history (Yahoo Finance)",
+      "snippet": "close 1762.28 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

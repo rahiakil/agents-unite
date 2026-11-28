@@ -1,0 +1,85 @@
+{
+  "ticker": "ALL",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Allstate\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTkdkWG9lOExNektQTU9tMjJxM2UxRWV4dDIxcUxpYnQ3ME9xV0JFTmxzYk52dFd3SDBSQVowUmVHU2VxWTJtZGpzOVRhWXBkdWx2R25EYWQ3NXRValByaE4yTFc4NGNfRGs5RzBsZUNuUWwxTGQxT3E5MW1HbXhlMFRHM3FzZkxsbWxWMTVhZC1MOVhsanJjUHFzQ3NfcGNWWHFoTWQ1aUhpUDFiWFZ3M2RRNl9UbEVBZ1VGRjRn0gHDAUFVX3lxTFBjd2QtWGVzVEhuQW5QdlJjaDVEcUFEV09kU0ZYWVgtRkdEelRtbWduSXl6QnNiX2NjcmRvdXg2eXFwMFptTGVvSkR2YjJhMXU3WnljNVRpcEVtbmoxM3E3Ry01cjF3Mlcxa1VzaHdMTjlnSU5ybE5YMm9rOHpWM2t4MF80S2RGUG1TOTZEbUd3R1VFbjl5dmNtR3NTbDFOYUZxT3JZWTlHbElPTkVwak1QS3hxRUhrdXJTNXR2aTJURGlMSQ?oc=5",
+      "title": "Earnings Beat Could Be A Key Test For Allstate Stock (ALL)",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRmdndEpYUXJBaTlidUxwLTlPZVFZUWhFeEcyOFZQMVBsTFpFMFd1dTl4M2J4S0ZCNzd5aV84U041RG1ra0JpOTN1WDlQb0dBLUZoelNNNUxZR3lSbWpzV3RtdEc5RUxCdHRoWkEtT0hVVmJKekg3Y09naWYtUHdrWDFncjk3dzlOcUNkaDRWUGdTRmJqUjdyM2loQUV4QnlDOHcwdTIwdlk5MFVTUnhn?oc=5",
+      "title": "Allstate: The Turnaround Worked, Now Valuation Depends On Normalization",
+      "snippet": "Seeking Alpha, 2026-11-06T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQWRGbVRfUUhYNlQxMktUaEpVQzRsLU1QSmYwWFJJVUJfZHo2SDdLYUNId05uX21pbWdnR0ZfR0FpdWV2cFVONXFJal9ETGNwVWxBVWdRbWtpZVJGZFc4cHlfSG4tTnp0SUlyeXdMNmxRX3lyWEY5OTNrYUZwVFRsUHZ6VExoeDI2YUFVZ2Rnb1VQM3E0cmVQcWZTaG9NS205QzIxQ0ZmcUk?oc=5",
+      "title": "Allstate downgraded by HSBC Securities with a new price target",
+      "snippet": "Quantisnow, 2026-11-06T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaGpyYnNaaWxRSTVucmFtbXRDOEpmQy1JbU1KeWUwV3h5UlFpM2VneTVZQ1VJVmRfOElEVUlGb2p4QUloWF9hQW4tMThWVTRSb3dHZU5LMXhYT09ISmx6c2tHRWhqZEVFU19lRnBhbjZOQTl5dEdLVHVKX1RkcjZQRk0xRVRTZlEwT1pVY2tzS2MwS2lvM3B5dVJCMTk1WURXUDFJ?oc=5",
+      "title": "Allstate Q3 Earnings Call Highlights AI Expansion and Margin Focus",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ALL/history",
+      "title": "ALL daily price history (Yahoo Finance)",
+      "snippet": "close 253.79 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

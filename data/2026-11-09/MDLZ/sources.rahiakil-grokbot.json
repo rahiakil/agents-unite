@@ -1,0 +1,61 @@
+{
+  "ticker": "MDLZ",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mondelez International\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3ptXzdSV2Fmb1FBb3hrUjJ4eHdUbURmX28zZW81VjN0ck9ZNnJPb0E2MFdqRF9RZFp1eFlVQS1Ib0t3S1BqY0dTWUE4R1BIUG03M2c0UGNZMzlGY3dYRHpXQ0JkWTR4ZXRYRkFPamVDeFRzLXhsLVlSNmY5R3FGM0tzbzkwUEZvQ0tvLXRjdU8xMmFsZTdUbE5hUjkzQTdWaWtyeXpFRjYzVGt6a0JTb3ZONzVSVk1N?oc=5",
+      "title": "Mondelez International stock faces two trademark tests",
+      "snippet": "ad-hoc-news.de, 2026-11-07T10:15:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-07T10:15:53+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb1JwMndObXNfSUtsTHg3UDUtMlgxVEZHT2Rqc2ZrUGlVa2xlYk1IX2tpNmNXX2F3Q2ZzVGZHaE5meWJTdnlIYTJzaV8tMklvZmNlQ08zSktqbDhiMm5ZMG9INERjVkppMVRXWUVDZlgxd3FhOHRLM3ExTGZVOGxWYmg1WTg4dVA2RkdHaVhWSjM0cnphYW9fcGg5ZTRYYkFwdTNRQlVveXdHUG11M1B3MzlmOThacmN1a0tYN1A4V09Nd3pnRXVmaVNzNFBQY0Z5V1M5akp6dzFYVTlGcVFCZA?oc=5",
+      "title": "Mondelez International Inc. Cl A stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MDLZ/history",
+      "title": "MDLZ daily price history (Yahoo Finance)",
+      "snippet": "close 66.44 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

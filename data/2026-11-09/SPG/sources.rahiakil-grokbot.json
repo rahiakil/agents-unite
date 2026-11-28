@@ -1,0 +1,70 @@
+{
+  "ticker": "SPG",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Simon Property\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjBsN3VZeW02bk9pYWdyZmFTeC14TmNWbENOOVdtX21JY1UycTdlWHNZUDJBMUlVUmF1Z0I4U2NtaXRMbDhjQ3Bacy1aYnZDX0g2WDZLRlVndnpNSERDVGhPeHpqZVFZd3FxWEtOclpEQzNpZGdaTnhSYW13MEhhRWRDSjVZbUxtX195TTd2dm9DaFQxYkE?oc=5",
+      "title": "What Simon Property Group (SPG) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX0EzdmJNdUo5dDlhVEtyV3dOTEcySzdlRUZPS1V0MU1zQ280WTZQOUNiUWlnYWttVTI0UnRPNGpPZmtzR19nWTZaLU1LQUFtQXctX2Y2Ukw0clFRMnRaN0JmOEZJSWxBbXhBMy1ZS1pfbXV4cExWeXRZSG1IeUI2YjFyTDdYZXpSWEhqME02eHh6N2pZSHdTbU5PajFka0Rzdm10QndMN2swZw?oc=5",
+      "title": "Simon Property Group: Strong Execution, But Wait For A Better Entry",
+      "snippet": "Seeking Alpha, 2026-11-07T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465926123591/spg-20260930x10q.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPG/history",
+      "title": "SPG daily price history (Yahoo Finance)",
+      "snippet": "close 233.01 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

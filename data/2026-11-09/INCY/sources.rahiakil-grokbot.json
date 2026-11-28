@@ -1,0 +1,61 @@
+{
+  "ticker": "INCY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Incyte\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVF9fN0pheE5TNGhFSXdqSEtscXNjTFFhYi1kUXctaVBvUjRqYW90Q0lZNTRiam1rYzFmR21Pak9xQkVGWkEzUjZFNzEtQjJyTFpzWDIzSEd6ZmZKOUhpdE5iemItbUVkQy1qZGNWQ3BvMDB0X0lqRGNaUTgzMVFNZmlVclZ1cTE3VmNfTTNJOWJfNTh6a2FSQm9LUmliekVwQVg3M0Y5MktzY1QzVFlaeUZxVGVDeHZkSURGcU9fMEl5NUJNazN6anJKNHZaY1ktVUtSU2tzWjBSMGJZQkU3QlpYWE1NVzVQMlQ3bXQ2cFVHZVE?oc=5",
+      "title": "Analysts Offer Insights on Healthcare Companies: Incyte (INCY) and Novavax (NVAX)",
+      "snippet": "The Globe and Mail, 2026-11-07T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX0hSUE56VkhiZGtHNjZxWTZaMVFpeU1IUVZjVUEyOUVuS1NGZ19HRGYyU1p1TVkyS3VYQ2oxb0ZiOTN5YlpXZDVmN0l0aTZYZnNZNHdKQ1JkZEN4ZlVuS0xxc2U3VldTazQ4aFVjT3d3dnlnYkRMV2xjWWxzNHNPTG5PLVpwNEk1blBrQ1p5VTJBODNoU1ZKV3Fqangta0htbm15NUdONnRlVnY4U2doWkpVdTY0TmQ4aGl5V2QxN2NTYjRo?oc=5",
+      "title": "Incyte Corp principal accounting officer sells $72,565 of stock",
+      "snippet": "Investing.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/INCY/history",
+      "title": "INCY daily price history (Yahoo Finance)",
+      "snippet": "close 121.89 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

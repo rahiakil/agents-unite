@@ -1,0 +1,85 @@
+{
+  "ticker": "VTRS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Viatris\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMEQtSTFsUHBpczFpb0tKTnFfeVlvNk5ldnBub203OC1jY1g4YXIzTUN4QzVYaV9YZC1nUmFRMk1nYWEwSFJVUlFJcjBSTThZUE4zN0FNMVJzTTJHU1hzRG5MN2lwTjAtUGo3YXJjMUEtakhYbE4tNjVDLUFOemdaZERwV1JkTnl2cDg4TV85Vl96cmlKb1Rzd3dwcUhwSW8waEhWZDNyRGZPVXpxcnhhNHNyTVNhTXNVVVhCR0E0OVdMWG1EVEZjOW94YkZOVVJua3fSAdcBQVVfeXFMT1BQMTRmM0NGQ1UzeTJsM21rSGZDck5aVlhnajViaDFLZHZxQmVVZ25aei10azhBaXRXR3JKU0lJZU1ETXljMktYcHUxZUpid015UmRuSlJvblFQTzdObURJZHB1Q2N4aF96YXZXamdLNlZzM3hXSVFEV01wenZJTVp6cThfQkl2ZVppekllTWRaN3ZGLVF3S21hRXZiV253a19yekJXT3hfQXBhbEI4OXp1QnNYeUM4RWJyVWE1STJOakdZdk9zbXVpTUUzUnUxTXloejVsTE0?oc=5",
+      "title": "Viatris (VTRS) Stock Still Looks Cheap On Its 145% Rebound",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdmd1RXN4SWdTVDdHUjI0RzN3bzU5azNWZmpkQ2NmbGlySW9ab3Q2RVVsYTNJeFFoRDhMMHFHakw0OUw1T3gyaUN5cnZLbnZvbGk2UWJQbjNXVGpjTF9Rbm5HUVBlLURnYjMtXy1jZzlWVkRiUFh5bnl2NEZKdVQxSmRyRXdIdXRnX0FKVFl5elhEOGV3WXoxbg?oc=5",
+      "title": "Viatris (VTRS) Stock May Be Below Fair Value Despite A $1.65B Deal",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDJ2eGd4WG1ieXEtU3ZHMW5hbnRGalRLaXpZNlRfNjl5SGVfSEQ3c1pnUUpvWmZGYU5VbldISVpDdWlrbW45d2JTWmdtSzNEcWlObDhDTUwxV1pYSG9XLTVRWGZ6YXh0VFZ2XzZnT3RSTjBTam9HZUxtNUhCTzUtUElDcWI5cFh2eW04WDBYUWExaXQwZ2JjMnZnWHl1Zkk?oc=5",
+      "title": "Viatris (VTRS) Earnings Beat And Higher Outlook Put Fair Value Back In Focus",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.818,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYlNnb01VQWU2RVBZSDNKMjFCRDRxV0xTbm04WFlyby1hb0EwU0p3aTdzRnRpcXdEcE1GZTNrRjE3RTlMNUZDZFZPZHg3RnhObkFOU2lJN0ctUjByQThwQ2xiMGZibEtWMm40ZXYzR2NxNzN4MTFPYmFqbThiYU5EMllPY1dNdzNJMnpxNllXdTR4dkt4SlYyU1NqMGJrQkFtSWtqZFRzYkdBNjVFTnJKZE9B?oc=5",
+      "title": "Are Wall Street Analysts Predicting Viatris Stock Will Climb or Sink?",
+      "snippet": "Barchart.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTRS/history",
+      "title": "VTRS daily price history (Yahoo Finance)",
+      "snippet": "close 20.49 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

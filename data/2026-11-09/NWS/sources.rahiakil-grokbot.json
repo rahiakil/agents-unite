@@ -1,0 +1,91 @@
+{
+  "ticker": "NWS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"News Corp\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUU2aGkwa085LXpxMERmSlpnSWpRd2NZX2plUW5iZHNyRVI2QnhSNzdLenZ0WkZ6Skx4NHBEcnlPM0pTcTh0N3lBSDdVMHdBeS1TTFBQQmI1ZkVlX1A0SFgyZ0VYM25yWDlWV1ZZYWVwemZuVVNOZWlUOGdHaE9IdHE5SDF4QnN6aE9NVy1yalhjcHhLbmVSMF9wdkFnOGExNnc?oc=5",
+      "title": "5 insightful analyst questions from News Corp\u2019s Q3 CY2026 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVVNqNHVMZHplU2JfOUJmT0dScXlNcVBMclBzY2UyZGhmbTh5dDdwSjZxZlhSRUctZHMxZWFlTmRSZlVQdGF2elFKTmFYc2pkNUNOTUtpSGI5TGtfM0RBVG1iSm1OUTV4Sm41Z01vYU1VMlltbWcwYzduQnVNQ3BBdzNaNEx4OUdNOGc?oc=5",
+      "title": "News Corp's News Media profit drops 40% to $18m in a record quarter",
+      "snippet": "PPC Land, 2026-11-06T21:27:38+00:00",
+      "publisher": "PPC Land",
+      "published": "2026-11-06T21:27:38+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUVlxQmtrTGw1M1pWM2o0a0NPREV1ZERLZGNZZ2QwcWdDTkcyUXF4MTVXendJLUR4SjNjdU9BaDRPWnpPRXdCVERmTTJpa3F2WG1Bb01BWEdkQUhUbWdYMVdkRmZXQm5VN0RlZkd3S2tMM19YLUoxZUF4OGZra24tWXgwQ1RKVjBSM20yTTUzbFJPb2lyUWtucm9qVjdSQ0YzUzJSSUtUOG12bEExZU82RU95dUxtaUdSWGZ4eERVbmlhUHUtUmhYMDlUbjRlR2ZDQ09wQVRNM25TUQ?oc=5",
+      "title": "What Do Latest Results Show at Macquarie Group (ASX:MQG), James Hardie (ASX:JHX) and News Corp (NASDAQ:NWS)?",
+      "snippet": "Kalkine, 2026-11-06T08:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000256/nws-20261106.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000255/nws-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NWS/history",
+      "title": "NWS daily price history (Yahoo Finance)",
+      "snippet": "close 29.33 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

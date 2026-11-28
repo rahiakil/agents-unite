@@ -1,0 +1,61 @@
+{
+  "ticker": "EBAY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"eBay\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSUFaVktRZDc1NDBoeUZnT3h2VWZSNUFMQVY4M1VqMUxLVTNoQkJBVzNfVnp3aFFodEQ5V1JJY2d3MHh5T0VsdHZ3a19uWGF6NTdHNGRkbHVtaWZqc01wdGUzMHM5TUlteXg0cEdGQ3FEVl8tRGxrLVJpb1lIZWV6eTNqTWM0ZG54VHNsVzJtRWt1LXpnRWR2Z3IyQUM1VHRPV1FuNDU2U1FpQlZkZkp5cXVYVdIBuAFBVV95cUxOaUl2dDIycWd1N1RJb2FMczl6N1d4M283V1Q2TnNUbEFmbU9taDhfT1JZejRPVzR5R3hyT0sxaHZzQkJHTHNCWTg4V1JTTHA2VUFKUDVkRGpyRjFSbmNiTlh4am5PTFZ3NHU1QVBMX3FuN3ozekg0NmlEX201SVV3Sm5EbmdLZFBKNml3a2hiVkMydm9LMWdzTmRKcUZ4NW4ydXNQQWFGN1haNXFrMkdRbUEyYkZwU21I?oc=5",
+      "title": "eBay (EBAY) Q3 Results Put Its Valuation Back In Focus",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa2RkVFlXV2hqMmR4Ujl3TGU4ZVlUMDBXZlBpMHYtSVBjTDlVelp0NWpKTHlPUm0xVHRPMmh4ZE1sbWZNb1NUY05sVjVnTHhFNzg1dTBHcV9hVHlXYjZfUVliYkg0TzRmYWI1bzRYeVQya0VrekMzUnlDTjhDUDl3b3hYUEtDZmlrdHNEZUVuTG5YQU5MeWlWbEF6bkVWLUwtdnNLQTk5UG9ZNDVPcDRjUm1iWl8xTmRaY1dOWXhOUjNRQQ?oc=5",
+      "title": "eBay Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EBAY/history",
+      "title": "EBAY daily price history (Yahoo Finance)",
+      "snippet": "close 120.97 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

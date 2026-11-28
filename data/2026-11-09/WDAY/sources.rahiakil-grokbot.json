@@ -1,0 +1,73 @@
+{
+  "ticker": "WDAY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Workday\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fRUZPUktWaGVRNGRyVXRxTUxGTXMtSnRabzZud044MVYtcjlITmNPN3hjLVI5ZmNNSVR2RHZmY18tVWJ1Zzd4eElSY2ZjdmhzdWRNWDFnWHprdE1oYnZJMlNR?oc=5",
+      "title": "Workday Shares Retreat Nearly 4% on Wall Street : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+      "snippet": "\uc7ac\uacbd\uc77c\ubcf4, 2026-11-07T08:00:00+00:00",
+      "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbUJ1VkVFUjVGdk4wOTBPbFk1S2hFelJjNXhIX0NIQWlwT1kzVHo0RzlIVVlFUXpqUFJ2SGVsSFBhRG5vV0dla2lNNm1rOUFJUFhxeHI4ZlhBUWFWenJadlpWUG1TQXdzV1BZSnRHQ0NlR2xfdTVRcWFhNDB2M1k3c2hQU2FyMnhZQzlWMERYWnRWV0RLZnhxYkVoYWdHeHJsaWhFUkUtWDNxT3pQRTY2SlFlMko0RkM1OFd5UHBORkU0UDV6YVBmVzNjVEJoYXg0blE?oc=5",
+      "title": "Workday (NASDAQ:WDAY) Stock Breaks Below 50 Day Moving Average - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQTZneHZzWm9NOU1pVWVjZkpZR3pqNWx3MHFLWnk4aEhfUENFZkxLdkw1bEd0c3E1bzlTdTZKdzlVNTlhejRtTS1iVTMwM1hjelBybUpZbEc0TFlvT2hxSTZBZjZuNFFEaHJ3NmF4OGxoaDdzaVM2NDZFYWZNVml0a285dWk0ekZRYmN5N1Z6WWFQLXYxSzVJSDJ2ZWI?oc=5",
+      "title": "Workday (WDAY) Stock Trades Below Fair Value As Cash Flow Grows",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WDAY/history",
+      "title": "WDAY daily price history (Yahoo Finance)",
+      "snippet": "close 190.21 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

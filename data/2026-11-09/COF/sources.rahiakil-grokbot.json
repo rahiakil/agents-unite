@@ -1,0 +1,49 @@
+{
+  "ticker": "COF",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeXk4bEt6TnJIU05UZ2pDblNzRlh2OVg2R1JDUmxiLUxxd01HV05sMXhtRHJ2elN5Z2tmZ1JsQ2dRSVR1MmFObm5HbXJld0lIeUsyTllYUExXV3I3NG9LWUtHdWVxb1NucmIxREo0VDN3elpncHpDUDl6bVJWNXNpc2ZzNVhPLW1sdW5MLWNaYVNFc01tN3BCR2lJWUx5dkNGUDlPRXd6Wkdvd1ExZjVhaDhZUGhuNjdJTlBHdDl6WXl1UF80ZUo2cm5B?oc=5",
+      "title": "Capital One chairman and CEO Fairbank sells $18.6 million in shares",
+      "snippet": "Investing.com, 2026-11-07T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 198.58 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

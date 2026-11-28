@@ -1,0 +1,49 @@
+{
+  "ticker": "HBAN",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Huntington Bancshares\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS183YlhXUWtIdnVEOFIxYjJzVnFwekEtNzlZVGJ4NkdkaVZaUmNORl91UU41MW8wVk5nY3BrMUYxNTZkZ1hoeVFnUHFpR3ZUbkE5c2ZMZ1N6dTF1ZmduTlhUTXNGTWl0Q3R6S0YtcFBlOERLRDhlM0lqcHh4YTlRWVhiVTFJYmgwc2xtYThoNE95bG1ZX2lXNTdUYkdqLXpPTi1mWDNlcDlLNUQwd3RIVHdFNm9ER0ZXNzgzcWU0d3lFSVU?oc=5",
+      "title": "Responsive Playbooks and the HBAN Inflection",
+      "snippet": "Stock Traders Daily, 2026-11-09T04:56:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-09T04:56:01+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HBAN/history",
+      "title": "HBAN daily price history (Yahoo Finance)",
+      "snippet": "close 15.92 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

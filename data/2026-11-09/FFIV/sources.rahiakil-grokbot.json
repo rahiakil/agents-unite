@@ -1,0 +1,61 @@
+{
+  "ticker": "FFIV",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"F5\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbTdRRF81MTFhanRoWFJZOTNaQWVMaV80MThyTGxpVHk4eWs0WkpSOFNPVzBJV0cxa0ZWWWhfaXBIZXdPQVdnTDNZeWlGT01nM21Mc0ZmbG9MMU5kanUzdHNqRVo2QkVIVXpFYjRnSDF2WF9OVTg5cUp1OEdpT1hFU2J4VlotMlVkcnlxRE4yNUU3ZGpzUk55aUptWEEteko3bzJaOENWdmtlTUJyUHNsRzVkOW1xcHBrUk5DdVJweUlibTl3WVVzaEo2XzY1WVE?oc=5",
+      "title": "10,150 Shares in F5, Inc. $FFIV Acquired by Rakuten Investment Management Inc.",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS3JmN3ZOUlpQd0hsMmNHYWZnTlY5M2tEdXlrNXROeEhJX1JOOVRuaHZ6akFNaF9UZFNCdzRxRTF1eGdFM3F0TS0xYnM4cXp4X0l3STFGX19FOUhtcnhqZGc2WmV4SnVDbGprUHpMMEFxUVUwMDd1UVVUbHRkUTIxb2VIU0tqZkt5Zll1LW9RNnctZS1fR3o2Z0xRUENVNmRR?oc=5",
+      "title": "Do Options Traders Know Something About F5 Stock We Don't?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FFIV/history",
+      "title": "FFIV daily price history (Yahoo Finance)",
+      "snippet": "close 317.75 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

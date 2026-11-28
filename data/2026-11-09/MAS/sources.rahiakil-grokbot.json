@@ -1,0 +1,49 @@
+{
+  "ticker": "MAS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Masco\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYURtaFJ6WXhOSlp5Y1pwUzA4M21Ebm9TQ1k5UElzRTJreXg4aEJDa1UzZEN2dVI5OGlubWl4MGN5RjBkTHh3NFp4QnBEanFFVHRhVGRTalQyVXFuTFoxUTVLQktraVRVdTlFTURLLXRsR05vR3l0bG5iVjJEVmU2UlBkRTdwNklydkZycUZXYlJGbHZh?oc=5",
+      "title": "Can Masco Build on 23% EPS Growth as Housing Demand Stays Soft?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAS/history",
+      "title": "MAS daily price history (Yahoo Finance)",
+      "snippet": "close 85.92 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

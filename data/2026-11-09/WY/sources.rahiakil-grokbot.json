@@ -1,0 +1,61 @@
+{
+  "ticker": "WY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Weyerhaeuser\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUoycTMzRm1zNEtWMXRySDlBOHN2ODNwM3VIYmlfOVdVdHR3VG5nRUlwMkJkcHVfZWg0RDVodFpBajRPc1BHZi1WczladGZ0Rmw3b3p4cGluaHQxcmgwZVVvVnFiekFEUHZGRHJreWNjUnp0TFNZcmFPQ3pCWkZrOURWUGJWamYxekxFanY2NERURW9MZktuX0RyeTZfS3BEajZsYkQtZUlpM1Z3TEE?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for Weyerhaeuser Stock?",
+      "snippet": "Barchart.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd0xuRkRaUExUMjV5UHVzeHBmYzZIWWhwcEQweGw1MkZONXpDU3BkcDNXXzI4ZGFxMkg2TGVUMjZpSGkwVDZINHR3dXp5Q0N1X2VGMkUzNnk1bmVrR2p1WlkzQlVjdU9UclBUUGNIbzZ1al9ONi13ei1LcTJ4LWZOcjdJRHpRZU5BbURtSDRUOHNGZks1cWdlbHRJU3c?oc=5",
+      "title": "Undercovered Dozen: NNN REIT, Weyerhaeuser, Vicor, And More",
+      "snippet": "Seeking Alpha, 2026-11-06T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WY/history",
+      "title": "WY daily price history (Yahoo Finance)",
+      "snippet": "close 21.13 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

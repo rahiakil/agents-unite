@@ -1,0 +1,133 @@
+{
+  "ticker": "APA",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"APA\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 8,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQ05EM2MwUm5kN1U0SEdRV1dQZXc1UEJINEVKb0dheTE2RFBPUkVpRkZIQmlGYlV5bld4TmY4SWtqWHJUSWRZdUNSVXBOSGF6T1Etc1BDSy1LMkxlRDRRaTBtaHlac2FLam5TRmlQZjR6YTBlZ05QMVFGaVd0U1BJTnN4OVZuakt3NVF6T1NWWjVGRkN0NmZxRThPdmx4alk5RUZBcE5MZkljdmhpTXM1VS0zelZBZWRLSVVPNDhiZFR3bTE3QmNyWUxHTWt6ZTh0RXZYdzB0NEhFenl4OEhkTDd1SG96emdTNENqSHhNWQ?oc=5",
+      "title": "APA Corp (APA) (Q3 2026) Earnings Call Highlights: $699 Million",
+      "snippet": "GuruFocus, 2026-11-09T09:22:49+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T09:22:49+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObVNZbmx5STdGTnRYVTlKSXVmLV9rX01NYVVHc0hRQlpvRk9pUERuR2lmVHdxakNVRUFHTXJxMjZvbUdLVkp5S2hCRFcxWnNVN2xpQldCbEpBanlOZU12LTdtc0Q5eWNqOXphbEhsbFdnT3lmekV4VGpMR1FlRHNhaVp4R3BZM2xjbGlHcXlUSnl3WmZsTHo2NWpYWEllZw?oc=5",
+      "title": "APA Corporation\u2019s Q3 2026 earnings call: our top 5 analyst questions",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR25OUl9yRVV2NDVCNXhidWM3S2hvU21XTzhQY2hGNnc3a0NkZnJROWRHcFItTnR1VFR4eUFxTG5udHJfdkxqbERiNUhDOEE0S2JEVU15RlZrbzdxek90TWl4TDVoUDdxQXRmSVhVTHQzUjlpTWxaclRuNzM0Z21EeWpGV3FmdUo4QWxrNjJLUm5McmVfWE4tU25sY1dpeVpCY2hzaC16Uy10WDdrVXlKUzEtSUFsQQ?oc=5",
+      "title": "Wall Street Zen Upgrades APA (NASDAQ:APA) to \"Strong-Buy\"",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQU5EMjVLNVpHSTl0V3BJRThQQW42ZlE1bUJNekp1YUFJenNyamNOTnlBUjhWTHQ2NkxIbDYzVUFHczBHSV9sMmUtcnB5ZV8tZ1cwTFJoOWp3aGszSng0NUNhYkF4ZkEyTnh4dmk3c0VuYzhOVmJqekFPWVBnYVBLN2ZhU1ptNmZ0eFQ3aFEyVi1GdGFKMGY2LTR5UVlHWHZwOFlwUDBPWHQ5d1FJZERMbGJFWHd4MTR6MDdz0gHAAUFVX3lxTE1mb3Fkc3EtSmRNOG9GMnl0SFhDQmNvT3Y1SE9YZ3JtVC1EZTZabFVXZ0tBZ0QxRlE4dXpYZU8tUjFvQ0ZTdHg3SXBidFVweXZ1ZURfWEZOWktGbXRPem1TUlhiVV9zLTd4QkZ0d1ZVWmlrU3d1NURTdWRpRXhWNlVqS1pMV1pLSkh0UGcxVEtKNE45NDB2ZUhoUHFqbkN2SDFzOGFkVFNiYzNRcjF5Y1RCOUstZmRjYjAtM1pnR0twYQ?oc=5",
+      "title": "Is APA (APA) Cheap Following Strong Earnings And Higher 2026 Guidance?",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaGlUeVFuWFlNeFBBR18zQTFKOXFqNlF0ZG1xSjMxSEFzSlViVlVBUFpHQllNd1l4OEJheDloOHNPeXBwR19peEo3ek1kTk9BNTFSaUlHVjZ3UGZ3TFQzUzhaNDF3dEZXVU9mZHBPbUQ5d0loZkZnWENHUHlnd0ViLThIbF9OZFVsdE43aUJHTWZKaHYwSFJPc1dVMEQ2UG9mTV9WNGNaUmotMmtKMWpRYWJYTW8wTVRqM3hhM3dVbm92YTNJbnAyTmhXSUNsWjQ3TVhjSzZXMjYxeUU3WVNyZw?oc=5",
+      "title": "How APA Group (ASX:APA) Is Funding Its Growth Pipeline While Extending a Run of Distribution Increases",
+      "snippet": "Kalkine, 2026-11-06T08:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS2FlSG5qakZjN1AtRkVMUHpaalRwX09IZnVNWUFJa0VfTWFhODI2bXp3TDQ5Sl84ZDFnYlhWcHJ2eW9FTlNXcEl0VG1SS0dzUFVBa0lNcjlzMFZwbkw4cXN3ZXlPb1FvSmE4Y3dDZURxNzR6UG1xNUUtVERwYTVLSWhjazVVVHY3OHVVZVpHdTdRQQ?oc=5",
+      "title": "APA Q3 Earnings Call Highlights Higher Cash Flow and 2027 Plans",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSjFtNHJLVnFCUmFTc212TVB0bkloamRiYWc0T2xPaVZYWVQ5MmdqVGRPbzd2czFEclRJVUdRNUhBaS13d3J2YnA3Z3BuSlpJbEtLN2lIRmE3Tk1MWEdFeUtwLXRCQlVxcUlYYWlMelVKVWVtUS0zMW5CMExfMTRpMHd2X1N1UTZyOVlWUA?oc=5",
+      "title": "APA Q3 Earnings Beat on Strong Oil Prices and U.S. Output",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbzgyNWhkYUlETTZsWVB6Q0pUSUVaY05jNlZKU253MmN0RmU3XzlsY3ozU0liRmNjQm42OGlJWHpJcmJrTHpjN1NVUUdJaVJlM05CVExWV2pNWG44bFlpbmpXME9UcGJYQ0tLdzNRWG1YTkhBQkF0bFMwZHVPdEE3VF9VQk9nbkxrLVRXTThRRGZpcm9RN0xielBvMGJiZ0NX?oc=5",
+      "title": "APA Corporation 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:APA) 2026-11-06",
+      "snippet": "Seeking Alpha, 2026-11-06T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APA/history",
+      "title": "APA daily price history (Yahoo Finance)",
+      "snippet": "close 44.55 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

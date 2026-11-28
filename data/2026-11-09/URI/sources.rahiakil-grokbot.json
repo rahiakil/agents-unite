@@ -1,0 +1,73 @@
+{
+  "ticker": "URI",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWdDa1J5MG03WnpFNUxtdjRWR0FqMFlfV1RGTHp3WTkwanRGOE9TdGlqM2ZfTjg1MlVpR0hoWDNwa3hGdHZrVGVBUXBpck85UFN2NGhrbFF2ZG5EV0dwdGlpMDEyN0xxS1BQcm00dGJaQ1NIem5QZWdaMGRva21GUEVnellvM2tpZThfaG14VDZ3TVltdlhUaXZrRTduUQ?oc=5",
+      "title": "Form 4 United Rentals For: 8 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-08T13:28:45+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-08T13:28:45+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRE1RaGtXQVVQNGdKQVZSYzM5cjdRMXl4aktZYWg5ZU1GNHdJNXREM2llOHZ6blVnQ2xSdnM3aWtGeGhUb2FDOWxreWdybXVveXBJeURaQW9DdENoNUkxNUdZcWI5M21iM2tDOEVDSjNodl9ZZnBsa0NSUGY3TkJ0dXphd25PNzJtd3VqbWlzRlJiSkN6djZrRThheUlNbThVWHIyQlQyZUp6Um93TzZnWmNQdzFUMUdYanc?oc=5",
+      "title": "United Rentals Stock Finding Support At Key Level Amid Market Losses",
+      "snippet": "Investor's Business Daily, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX2tsdk0ydHlhWEI3dklLNXBIMlhNdGNvSWNFeWdPbGs0bHd4ZzREVXh3TXJMU200UEJkcVJ2aDV2RWY4cmdWMk96SnRKY3Z5V2ZBZGQ4Ukw4bzA1aDhlMTJ3c1o2N2xCdWFFTHhyaVVKVWRUS1NsWWxFc3RteDhGalN1VkF0aUtYbDd4Q2gwWHAxSFZpVHFpTXBnNFM4VGhleFhDZkl0M0lDeXZZeVJQNzJWX2dncFFGTnc5ZUJnYk9XTXNHSk5oR0kzaW1ZeXYyZVZWdmUwV3pEVnRVeXhnY0ZsWGZqRVlUZFE?oc=5",
+      "title": "United Rentals Inc. stock underperforms Friday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.175,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 1128.17 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "ED",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbkkyMGZKZW43Rmk4czl5TWctaFdwcHkwbERoVUZEbGoyTXpJVzR4dEJuSHNKQTQ5c2l6cjZKakdUcldwVmc3ZVpzVThRYy1RcjhwVG9QaEh6eVB4eVByWmdlNzVNeC0zTldpWDF1dkY0R25vNnh5Q0htRkczV3J2RHBBVWIxR2daRklaLXNLTWxWS1pOdFpkMmp1b1pQY3VXWFZaQlBR?oc=5",
+      "title": "Consolidated Edison Q3 Earnings Lag Estimates, Revenues Rise Y/Y",
+      "snippet": "Zacks Investment Research, 2026-11-06T08:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 118.39 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

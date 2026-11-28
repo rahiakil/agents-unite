@@ -1,0 +1,109 @@
+{
+  "ticker": "KMB",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kimberly-Clark\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 15,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ240YWdrYXhzdW1GM21hSldtdzNtRkVVSUhKRkpUX0YwLTNlREpTWkpRNjZ1NW0xZTZoN05wS3cwQkpYdTNHVEJiNmZ3amEzWXhKbjNXdVhJWFJNUnJmbDRIU2RDRWJBRTRzb0F0RXA4ME4yRW52Sm9KaWlEdXp6eEVTal9QTm5RTUEzbFdaLWpGMVlKUF95eTZLc3hZb0Rua1JKNXRBNjg2UQ?oc=5",
+      "title": "Kimberly-Clark: Short-Term Worries Create A Buying Opportunity (Rating Upgrade)",
+      "snippet": "Seeking Alpha, 2026-11-08T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdkJFMllEVHpuVFEwcm9hcGNIZ01URTAzblRjNzRFbTY5QW84MWIzY3F2dkE3M3BrOFhqVUZIdGRyUElCSVIxaVg2cXlmNDZFVG5FRkFzMGxwQXFDLUNHUXZNR3ktcUVHQlpGM29vcU5pQTVUSktucGkwOWtuNGtVM3JramRKTXIzdy1aMmlwMTZrZVhaNHo5TWxBWnRTWW16cTFfWWdyQjFpbm82RDg3QlpmbHpqQy1NYkM1aWM4VGZwd1lNSnZ0YnJ3?oc=5",
+      "title": "Kimberly-Clark's Dividend Is Up 392% Since 1999. Can Its $49 Billion Deal Put That at Risk?",
+      "snippet": "24/7 Wall St., 2026-11-08T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TeVpwMTNDMlNGNGhobkl1RFdEUjBYYXRCX2Q1blFVNE9LSWVsa09LWktpN0Y1VGhac1kwcTM5R3k4T3J5U2FXQUVFM0k1SUR3czVRTzQ0cnRTM0FBY2NYaVlpVVM4dHBmQ0c5a0MyeGJUaGdXR1h2bW13?oc=5",
+      "title": "Nvidia Stock Selloff Pushes Valuation Below Kimberly-Clark",
+      "snippet": "eTeknix, 2026-11-07T08:00:00+00:00",
+      "publisher": "eTeknix",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUDNQVFhpdVhIbUpNOTVNLWVyTUVzaG1hREgySTJfQlQtNEtQVnZwQ0E2c09ELXltZ3hzRkFSaEZkMEJKMmRMM2pYQVUyeWx0S0pzS1JEZlpxMnhFUjRxOUt3endLSWxpdDl1V0NPRG9odWczRXQ3djRDdUhjQVJnUmVCYnRVcUJfTWtkNnpPUkxnRllwU0kzaV96QW1FWl9qWTBhSW5xOWktMTlj?oc=5",
+      "title": "Kimberly-Clark: Synergies May Improve Leverage Before Cash Flow Does",
+      "snippet": "Seeking Alpha, 2026-11-07T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQllnSjFjVlFqSmxKMXBveWdtakFuc2pJMXVIcGFEd1RXVkNWZC0tSHhra1NZR2dVbnRxcUxLUzUxLUh2ZG4zakFTSkxQVUluTC1JeWVxSXJBVnJtbmtxaGszdVR1cU5RTTVVU1VhaGxOZzNsSEFkUkg2VTlMUW9pS245QWVIVnVRZml3RmpwbWszM1hndnRYMXZXVHdTRTQzMU15bERWeGE3WGROZGRvZ2o2bnppTkRLaDJIWGEwbW9WbGdKdjU1WjFqSDBZRDNjY3RCVk5PQU1GUkUtcGlQZnFXbw?oc=5",
+      "title": "Kimberly Clark (KMB) Receives a Buy from Bank of America Securities",
+      "snippet": "The Globe and Mail, 2026-11-07T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2lQNFkwamZYa3JoYnFqNjNkTTNpbVpDdDllNFByRGxHX3V4MUFpdzZ1X0ZXTk1aUWRsLTNqZUVBOEx2VXRuOGl2NlZXOE1NRnkyWDQ5UFJSUUVZSE9wT0tFeVN5d2s3RWpQZWVUQXNtWFlfM3RYNVVzTGUyaWZuWkVnQW9EcldrMjZ0RXNOcw?oc=5",
+      "title": "Better Dividend Stock for Retirees: Verizon vs. Kimberly-Clark",
+      "snippet": "TIKR.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KMB/history",
+      "title": "KMB daily price history (Yahoo Finance)",
+      "snippet": "close 111.93 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

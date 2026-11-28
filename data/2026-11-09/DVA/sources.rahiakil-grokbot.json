@@ -1,0 +1,49 @@
+{
+  "ticker": "DVA",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUy03S2pWX2ZPekx5NVBvUjBFbzBIaTZLSHdTMHBCYVlEdVRfbGQzQTh6M3kxSHhuZ1hKN0lwb25oZXkzVGNqWXlRaGlSS3FRVGVNdktvY1NJUmNzYW5EclVQT3FOOTNHU2NvellYU0tWaXM2eEY0bjlXZVVfNDdJWkxjWWxHM0hjQTJCUndiUjU0aEkzQmhjVTVUMlNHMWp2eVZOLUFxM3JVMjAwVUNBRWhVV0sxN1dsWTBhWjc5TzhkUdIBxwFBVV95cUxQTjVjR2pVYVZxSzA5RlRTN1ZFSDhubEk3cThDZUNSbWlPUG5zZjFnRjBjRGI4ei1pRGxZUUJhdnpNODNlbGN3MldsQTU0TzN5MGRMUWw5VkdTR1hhSkdaNnFlcDJwQzROQnlkSTRwZHcwajdtLW9XX2VCejVJSnFqQVZnam9XcFQ5S1lWSEtIdlVWNkVXMzZKUmpVSTNJS3RUZkg3TE5tOU1lblpGdnNiMnV4UGJrLS1WLXN1OUtlNmpsSkFGTi1z?oc=5",
+      "title": "How Investors Are Reacting To DaVita (DVA) Strong Quarterly Earnings",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 185.54 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "PCG",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PG&E\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOS1iOVJkbHZiT3JYdkg0aHZQYl9Hb0xyMXNSaWlDdTVROUlFdWJ1Nm5Da0tRSlJIUXRXT3ZINTlWdnN3Rlk5V0ZmUVpvbms2ajlkU2FEd3h5OWdEaklBamJsRUluY0wtTlBYb3p3dGIzcHFMVjAteHF3cU05U0RDcWpOS2txZzRZeHc?oc=5",
+      "title": "Insiders At PG&E Sold US$4.2m In Stock, Alluding To Potential Weakness",
+      "snippet": "Moomoo, 2026-11-09T10:56:43+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T10:56:43+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSnhlX2dTOThyeFhpRzdLemdnXzZzeE5WdEdnN1lOVHRhdEdTWjBMaGUwZG9XcjV5SUZLZ0xvT2xoclFwdW8zTndxUF9ONnhPc1B0enBYUDJoNE5lckFyNnJvWTFZbFNrTndmVGJoRHZ2cE5TRmNMOGJCWUVlSEU5QmQydG5EVHJldmMzZmJ2Vi1JalZxaGhUUVlRd3hfLTVkVkpxZlJ1dkJSSS1ZZmJWMTdOMHlfY1E4SE1j0gHAAUFVX3lxTFBoaHc4VU9xekJ5d01LdW9KZ0ZYcDkwRE9yYmhsNmZXamkzUmpkbEgxMjZxS3JyUkhTdnVtN1dWNkZVRWxHbEptUzNVRDlYSl8yeUF1bjZnMG9ycm8zQlk1TzlVVWhaUmRMTEhpeEhmTWlVVml3NHJjQ2FWXy1LUnhITjM0VnU5X2lwdmJXTlhiS1M2eVVFWVl3ZjQ4UG1tclVRWGR6X1A0U0JsX0hUQ190YW84WG5ic2Y0dWhtd0Y2Yw?oc=5",
+      "title": "Is PG&E (PCG) Undervalued After Its Hydrogen Push And Wildfire Liability Debate?",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcXhkLWdveFQyYlF4Nl9VVGtpZ0dPTDAxc3kxcGl2SzN4dHBRcmFLNk41OW9GNDRNbUdwRWFnWkQ5czdGMVVmQ1E3Ynk4OHBxNFBFcXpOTzJKOXV5LVJCcWc4bU1PT1VuejBPcFpidEstQm0zQ3M5Y2IxNjc5VG0tRVhqM2RHaUgySFlpWU9HOUREbzJHZm82X2JJOA?oc=5",
+      "title": "PG&E Corporation Foundation Awards $327,500 in STEM College Scholarships",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlkzUTQ1akR6M1Nuc1V6RHZLNnV0MGdYTzdiT2RQNHhSLS1zRnRyaDNmZFJ1OEd4b3FrSmZMd0kyb3ZwLVl2UGRhS3dLdFZSYVlSYjkzM053bjF0ZW1iV0xPU0s4Qlp3ejBBYnduMVBxNFlCdGRmX0xsTG5zMkNCblYteTRqYkttbzJSTFBsRDhKRjNFNFZQNXAxMUxhT2FHektsbnpyS3A5QkFXcTdXem5iOEF4cFNSRjNhN1dLUkZ0QVk?oc=5",
+      "title": "PG&E Corp. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCG/history",
+      "title": "PCG daily price history (Yahoo Finance)",
+      "snippet": "close 13.14 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

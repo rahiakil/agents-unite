@@ -1,0 +1,109 @@
+{
+  "ticker": "AZO",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AutoZone\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnU0MGRGUlY2MnRyS3pHaHdlZ3loU1V1UHpzdGctNzA0QWtOVjVIeEZlV1JzSHZMSUl5YmtFUnNnQURCWEItNkVqNlJkd2toN0dLdmdZU3d5aTJ4REVtby1VY2tPRS1MMC1peWFpb3prdlZuMXlmemZIRTJ3MElQdlN1N3ZwN3F2MHowQkVKNXFnQW1KcDh3XzlOMVBTNVhsUlVVNlIxNnRKYTRwRUtiN2dWU0l0TGNOU192dQ?oc=5",
+      "title": "AutoZone CFO Jamere Jackson sells $22.9M of company stock",
+      "snippet": "Investing.com, 2026-11-07T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeUVfYlB5YWNXZW9kdkI4eWR0ZkJpVUlxS09vWkdRNk4xdTZwS2xwV3RjMlRGNngtZ0dDdFhzMlVxLXlrN21IMkZISHluXzNiTkt1MnhrRVZnaENEdmZSamFaQUVfWEJVb3hWbVZQaEJtQ191R295Zi1zVmJMMnk0Zi16MlZqc05KOVBtVUpFOU9KdG44dXRMb3pBbjdZMldq?oc=5",
+      "title": "AutoZone(AZO.US) Officer Sells US$22.91 Million in Common Stock",
+      "snippet": "Moomoo, 2026-11-06T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmlHemoxZWhnZXMwTlZFQzN2MERReV9TWmM0T0k4bldvblpPM25Sa0NncWt6NmhmWFhaWGl1OVN3SmpaRWtGUGNIUko0NUpzZmo3eU1qOWVsUTUwdWlrUGdfS2wxQVQ1NkRwaUF6TUlFSFE3cjE0dzBCZlpyUjJIMXlhZWhFRHM4eENvYnYwR0NQQlhhUjRSMUNhUUN6NXdBYW5RTG5aMVl4OEtLR0hMSjY4aVc1Rm52RWQ3aVJDbGd0VkxSMU0w?oc=5",
+      "title": "AutoZone Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS2kyY3oxVXFyRUNEWVp4Z1FEX1BXWHV1anIzOTBjUlBjNDVyTkFHVEU5Y083eVo1RjBMMlpPQXN5bVgweUdEc1VvLXQtbllSVE9yekZFRl8xaE14ZWRuSHp5VVMzdnRCaGozemRkanI4dmFnWEhfVXpxeENpUXpmdXl4Zm1uZVRTcmdFTHhCaXJiWGJDdXkyMzRKNGdSbF92X1ZB?oc=5",
+      "title": "AutoZone CFO Sold Shares Worth Over $22M",
+      "snippet": "TradingView, 2026-11-06T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNODhFSDFhVnROUW1pcm5RUjlUSEhwOFBScGY0c3B2OGxJUUd2SU5IYmxhS2Y5WEo3WUltWjZxSW5RNi16Ri04WE9DUFZuYlVxM3pCTXVvQzhTanJyNFV1UDNDSzVGUjd0dUQxaEduSWE1ZXp4THNwZG5zd0NzWVBKc1BFSVRQRUtvUHpzdlJxdG1DNlBVOHJhNDh4QXVQUQ?oc=5",
+      "title": "AutoZone (AZO) Stock Slides as Market Rises: Facts to Know Before You Trade",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOWZMYnk3eGgzTm01MFBtek51RHBnLVNJM29mWWd2alQ4NzlfSWlWb09UNWtpRDhJQldlYk5CZTJMTGFzd1hPTUlENGtzUFNuNGYxZzd2V0UtdmFVdXg5ZGtqSnJXcW4xT0taN2czYXUzcTdtTnF5cWlveDMxODNhd2xoVUpEN2lreVZ0S1RZZmNDWEw1VTc0Y2c0dlBHNmd0M3lyRE5iMWg5Um5TaW5rQ2hlZXg5MGJyNTMzbkFsUdIBxAFBVV95cUxOZTZWelBFRDBHb1FPVDVQc2Q2clRfRk4yZ21EMXJjcmZKQ3MxN00ya2tmZS1QZzVQWm1TS25CYWhxT2JJYU1ZY3h5cHJFemVFQ0pVVk1kQzNWYkJrdDk1TWRBT01vQkJ1Vk5HQ0d4QzRBQUxGZUFBRlBNQUpNdzRqWmF4aEhqZGVrT1lHWnIxY2Y0R2NSN1hjYUlhRUlmaFhqQ1c2aUxXNm8tM3BGd0h5RDRMbS1fMFRJUktqRTZSUnFzQVhP?oc=5",
+      "title": "AutoZone (AZO) Stock Looks Reasonable Given Its Cash Flow Story",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AZO/history",
+      "title": "AZO daily price history (Yahoo Finance)",
+      "snippet": "close 3251.27 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

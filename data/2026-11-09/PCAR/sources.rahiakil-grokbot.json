@@ -1,0 +1,73 @@
+{
+  "ticker": "PCAR",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paccar\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLTZJblVnSHdYYW5TSERfT3lsWm5xdTFoMzZyRVBIZW9DM2stMko1MHNDc0RHWjRTdEZvSnR3Z2ZuOG44TUwxTFktakV1VFNuOUhSRk9aU2FPY2hITFZNSDRMY1FZSGtLTkpTWkZkYUpKSTBPMHZoclBnQ19XMkhtem5TZnUxb29jMFNtdVBXYlBGM3lJNWNtRzZkYkM5NFI4bEJGaU02NUpoZ0N5SERmSV9iVG5ZQ3pmeFFINA?oc=5",
+      "title": "PACCAR stock: Parts revenue adds detail to Q3 profit surge",
+      "snippet": "ad-hoc-news.de, 2026-11-09T16:14:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-09T16:14:53+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSzB4YWFPZGtkMUlNLWQ3ZFVIQ29nZGoweWM0dTVtOEdwVld2dHZzWXpkTGJvZkFib2ZMZWFCZ3IzMGNrZUozanFxUE1qVlZoZFMyQXFYQ2d4T0Fqa1U4a0gyUmg2SGloQ3QxQm1qenZCSnNabHpQTnBkTEJ5U2FNU25EZF9MYTJMVFpRUEo1UTdNMjR1OUZjeVpPWHhQcHUwOUZ3MkpsVmxrSE9rSzhhVm9nZXNZRHRJYVV5Tzk2aXE1TUcySHc?oc=5",
+      "title": "Paccar executive chairman Mark Pigott sells $46 in common stock",
+      "snippet": "Investing.com, 2026-11-07T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ25mSVNkSkJTMjlhWk9ZMEtybW5uNkpKdjhvY0lWMUJfWU1CRU9tSHM5em1LOW9uLUptS2hQRmlxSDZmZHBoel93empSOFV6NHZUcm82dlFMOW5WdWJBNmlTNUpmWUJaTktjcjh5NTRJeC0yN1FOWElnV2t5VF94azNZMFpXN3JvOTBNU1FIRjl4NlprT3Z2MFlCUHBqUnV1OTRuMVZaSTNrelRSWTRrS3RpbUdscXc?oc=5",
+      "title": "PACCAR stock: Q3 profit jumps 44% as truck demand holds",
+      "snippet": "ad-hoc-news.de, 2026-11-06T08:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCAR/history",
+      "title": "PCAR daily price history (Yahoo Finance)",
+      "snippet": "close 105.73 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

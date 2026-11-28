@@ -1,0 +1,49 @@
+{
+  "ticker": "NTAP",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NetApp\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblZZV2F5QlZtaXVGX015UU9GRE1PLTl6VE5SZE9USDVmTklGX3hISndaY1VKT2FDQlhqNlVEWmtDVjJXdTBlZFNDcnVjMTRNSkt4VTdmVDdLSjc0V1pyQnBiTE10T0hZaWJZVjRnX2JQSHFucjZXSllkUEMwNk1UUzN2UEpFeFdKa3NXVG5xUWw5aTZZRExKY1k3bDhVWFd3TVFFSi1YZHpweTJjRWlUUExJTGRCajFyQTZJ0gHAAUFVX3lxTFBzM1JCSjFfdmY0Z1hxNFNPNHptYVJCQkJWdmFTQjA2WktWVE5yUTFxZWJRTF81ZEx5TmpKMjlPaWd5M0YxQzNUcV9JSmx1TjJ6TThSQlZqVWdTRDJJTGVkSzZSWkFKdTZ3dzFnVmU5TUt2R0ZCWHZEcm5OdXVZOFZvczVMYW5KYm1XQ2xXMUpUa1gtR29RdDR6dXdpemczZUpKVm5Fb1llck1FcVcxcGR3Sml5U1RfOTVlRDhLRzJEbA?oc=5",
+      "title": "NetApp (NTAP) Stock Dropped, So What Is Drawing Attention Now?",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTAP/history",
+      "title": "NTAP daily price history (Yahoo Finance)",
+      "snippet": "close 176.07 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

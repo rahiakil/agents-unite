@@ -1,0 +1,61 @@
+{
+  "ticker": "CAH",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cardinal Health\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWlWSWhIT1M5SDk3a3kxdm9DWU5YQnRJNWM3RkExWE1wek5BNFpnNDh6YUEzdVpGZTlTbTdHdjBkZGRldUhMWGZjb05keGNLT0hNS0hyS0wyOElYS291YmtYSGc3U2t1cC00c3YwVTBTX0t5ZDIyeDVELWVrbEJOWFN4RUxydVd2Y0VHOFh0OUJuTXg5Ql9zQTdHaER1TGVob1lJNy1TaUZncUszY213d2xnTlliUkRCTUVjRHZPRXN2cG51bWg0dUJBWXjSAdIBQVVfeXFMTlZyZzZtZTd3YVk5NFVwemhUM2hYWllvOVlYeGtQc04zWVhKYm9ZRmRZTEdycE5XNVJ2SmFENXk0b1VXVGQ4SVRESWJLV0RkZ0pJUmN1R05acmxkamticFA4dW93OXhpQW5xam1fVGlvRTkta1FUTV9DeU1IWDdfVklrT0JTVEtTcDFXQzQ5cmcxMlVtSjlZOTVBc0sxT2k3LVZQV2ZVenFhYmlRbnhhZFRqaWxzclV2aWptVUJIaTh3dXJyNk9EQm81NFFzUUxxYUhR?oc=5",
+      "title": "Is Cardinal Health (CAH) Stock Too Rich After Raised Guidance?",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYUJSZnoxenJNUHZYbi1LUHNmWDNwVzhjOV9ZNTFJX21HbW1SWDcyS18wWHA4bG5KSFZ2NEM2em1qUlhrYUh0dDBsRWphTEw3UkZrSlNfM2Y2Qjl5NW5COHFqYkROVzlWZGZVZEtvSnMwZmZxRmMtTU9xaVNpVlZwZHVBY1Yya1FWYXJTVGpiTEdfaExLSzBFMw?oc=5",
+      "title": "Cardinal Health Q1 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAH/history",
+      "title": "CAH daily price history (Yahoo Finance)",
+      "snippet": "close 274.29 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "D",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dominion Energy\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNDAwV3RiSXhnc0FvbUV6OUdBRlhJQjNfNzU2cWJFM2RWRk1GTWNqYUs3NmFSQ1VZdzFRQ3haaVhka01RWklZTkFTLUpmcjB1Skx3MThkUkEwWS0zMWJZSWRxMHJVZzBkWm5mTlJSSGxfSEJzUHNDNlZ3ZXdDeHNkU1MxdXcxMGY2eHU1Wkl3STZQay04eE5CdGttWklSTHItUWszSUp5aWRJTTBDWDl2Y0xFeFR1UGNMTHR2V1JGc0NYa3ZvNmtyZTVR0gHPAUFVX3lxTFB1WnJUUjUxSkw5cV8zMzhxRnIxcDlIZ1lySURVNE5vTlFpcDU0Z0E5TngtQkM2b01GVkt4WXQyNDhqRDRDNHlOVUZzb045REtGVm05V3plMm9HQzhIVzA2TmdyQ2xCQXF4WjJrUTJHWkJGVmZrRENrZUJoOVpSWU9xM1F5Rlh4RDJiWENZRG5xd2pMeHJYS05JMGRJemVKTDFtRGFxSnFFaHBIMHY3X1NOSnNaYU1VSG1JcTBsdUdXWUVrMmU4dFlwZjhnWUQ4SQ?oc=5",
+      "title": "Learn Why The Bull Case For Dominion Energy Stock Could Change Following Reaffirmed Guidance",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/D/history",
+      "title": "D daily price history (Yahoo Finance)",
+      "snippet": "close 68.24 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

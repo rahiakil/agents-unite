@@ -1,0 +1,85 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cigna\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 12,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTHBIb2doZmVRb1A5X3UxWGVxblNHbEcyVTJaV2g2emZyQmlzQ2ZjYkZrQTV0TGRUY2ZsWWowOHYyM0FkckpyZnNraUJjR3BJbEhZX0g5c25oV3hFcEJONEFjTVdHWUs1TXd2TEQ1cVNBLWtzdE1QT2ltUWREU25kUURiMWxldUZRMU1KSTdjeE5hVmNvbXYweWJGR08tT3FsOEpseC0yTEk5X0dWVTRhWTF2T1JrbXk1ajlBWW01VdIBxAFBVV95cUxOZU9OQXc4MmxLSVVqU3RkUXhOVGlJSEx3cklwYkNWRFZPVkh4eS1lU2dFZzhFX2tHUzFLWGN0OUtsSmxlV21yc3N0WER5VjVrTTFWSkh4UzVfNlFidVhYaldiTnlDOG5BVVA1UmVaVFVNNVgzZXkzVWlSSzlfRUpVR200OXdnUHhNN0lKWUhfUnRnTC1YSWRRWW9VaFpKRmxSQUhOUkZxOTB0OEhoMFdUQXVnMG0zTHhsZGF0alBmUzNlcGhM?oc=5",
+      "title": "How Investors May Respond To Cigna Stock Earnings Beat",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWV9qYk8xU1ZxajRjLVpZbGRUOGdwYzNUdGRYT1VnNjhnbU0waGE2bGFTY0tJMnkzVGlsTFlLeTRLNTR1ZHBUVDFQLXJ0M3c4Mm1FSzFMd1M2TG5iUk1uak9VY2pJTXlVNWF6Qnhkemx0Z3U4bmJwWGw3WUZSZW4wNURZV3hZbHl2ZGF1bEpnRVZmdUdvOFE?oc=5",
+      "title": "Cigna's Earnings Growth Deserves A Higher Valuation (NYSE:CI)",
+      "snippet": "Seeking Alpha, 2026-11-06T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa2NMMUh2M1V0bkdsREpVN1BFQ29rbEtmMS1wNW96V3ZOVENHU0ZGSXpUQWdpTS1iY2ZmVW5OVm9wSFAxMjZnbkgwR1VXYmNrMzF3LUNjZ05wQ29Rdkc5Q1pEX0Q5cmRtT1JOc0s5Qmk3djIxUjJUWFoyRENIdVRUdlpFdTQybklhbzdkcjhLUVZiUW5yTk9N?oc=5",
+      "title": "Cigna Group (CI), What Is Behind The Fresh Attention Now?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMFgwemNLdHVPZG93Nk9ZcXNJdlU5MTRDaFNXLWFXbXhXTmpoMnF3SnRHb0Y3bFFMVzJKbW1ORTZBSGcwOHR3UHQxUGFIVm5wd19zT0lZWkR6RFNnTFl5LTh2SDYyb2MtRjZqS3F1TElUTE45QUNqMEpfQ0JFRlVZOVM2YlZ3RlNSRnlyWjBuMFFhZlUxSENORUNpUzhWUWJ4U3cwcUV0U05ucGZNclo2Yll1M3IyZHF4eTdfb2dzR2h6NlF0ejNOLWZhSE1OY0lUb1ZBU0JiMGxWd2RHanVtX2dWcFZYeXM?oc=5",
+      "title": "Cigna Delivers Strong Q3, Accelerate To One Program Targets $3B Savings By 2030",
+      "snippet": "Benzinga, 2026-11-06T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 295.6 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

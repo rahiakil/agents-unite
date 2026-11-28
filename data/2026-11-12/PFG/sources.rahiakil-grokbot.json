@@ -1,0 +1,61 @@
+{
+  "ticker": "PFG",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Principal Financial\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSXhJaEFkSEVZOE5ucG1lU0ZBMkNzY01UOGNWMXktbVI1WTJHRkVZa2VKUGRVUV9PU2M2bUNqYi10NkNVbFQ4QzRSb0hwd2diSjR4X0Y1WmpaQTZTWFB2OWJ0eUlnM1k3SGtua1p2RHpEdUVlYTRuaGpIUkpfMDB2RUUzd2E3cmJYb3RHQ2RqRkZyNGZTWkZYSU8wcDFGeTNUZkE?oc=5",
+      "title": "U.S. Business Sentiment Falls as Economic Concerns Persist, Principal Financial Well-Being Index\u2120 Finds",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTDRxcGtrTXJ4c09EcGhyUk5jcmVKY0xyVGU1ZExBLWctWlRVWEZ1V1FrcktnQlB2Q1g3Z0dTTkdhR01oemtqd2JUbVdQMTZPc05XRjhvR2M0dVY2aEVXUG9BX2ltTVNFOXJCNk14U0JvWkdvTXB4NXJNVjFGenItNWlkNUExZUU3RXRLazVhaXRYVDROV2dLZ1BIeVJSNHBkcG5SVXJzZURicU5RYWNNaWVHZmZJSF95czRnMFlNMmhHQm8zX2FvVGFmeE85Tl93WGZ2ZDh6UUlRX1JNdmZwTVp3?oc=5",
+      "title": "Principal Financial Group Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PFG/history",
+      "title": "PFG daily price history (Yahoo Finance)",
+      "snippet": "close 112.97 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

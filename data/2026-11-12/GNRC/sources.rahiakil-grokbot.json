@@ -1,0 +1,85 @@
+{
+  "ticker": "GNRC",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Generac\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNTRsRFBaMEROWkU5Y1Z3M3NacFRfcXRiRG0tVlpocER5U0dGTnFvYjRNM29BdGJDV3ZiTzRldW9qVVcyVlpld2hXU2pmU2l3eGxkTEJyNlB0aVRCOFRjS0tiNzNpQklVTHFDd1JTNHAzSkVwbTdmTEoxMlBJYVBOSVZsdk5YOEk4Z3lsQlBMVnlsSkQxTVhrUUpNYUY1d1BNTWxNdFpMR2R6OElqNFRUZGFOanJLemxRUzhSZWhENTVrY1Z4d1l4cWtBS09fOS1ueEx3edIB2gFBVV95cUxPMFFPT1VjdW9IZU5sZEw4U1FFNkRUZ2lHLV91Z0pDNVJHdG1lcjR1RlBWczBqRDJZZm5ORV9UUWdKcm9zOHFNNV9ZbVlyQ2ZWTDEydEZNZDNyQnVBVXcwR3VRRDljRnlXZFQwcVRrQ05Qc1FtbU96cEVUblBCMk1heUUtTll3YVlTaEtWWm53eVZZNk9VUTBDZlA5UlVpQXl6TEh3XzRwRHQzSlB4d2FobVpyZ0pXUWU0czdwQnZrcHFsQWdOTGZoeV96WnBSdlBkLXpTaElGNEJBQQ?oc=5",
+      "title": "How Strong Earnings Guidance Will Impact Generac Stock Investors",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRFVIZk9qSkRZa0YyRGlvTjlBbVZNYW5GaVI3OUJDOWllcUhJR211YXd5Wno3RVI2Y1VUSVI3c1NyMFRTWlo2S1NmSDFPTWhVV21SRWZlZGtRblNzMVBqWmNVa1J3RGlLcHFWb3VwQnpGVHBZbFYxYVRKS3NSZUo1YTJJNjNGUktUd0xYRUpfTkMydm1PbTRjZQ?oc=5",
+      "title": "Generac: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQjZBNnZaV2NfYXNVbVNYWmF5U1FVMExZaXBOS3VWU3FHbENMVWdnUERVTHB5MzFsTXhkUEhlY0ljWU5XUEtNWkt6RU1tMkpjanNEM0wxMlR6czNtVHdxUDRQbGdiTTZsWDV5TDYteFVKSUFMeEREU2FfbG9TUkhGSjh5bGlIcDNtVHVPenVEaVVuRXpmUUdZd0xIbTg2bXhkZVdTWW1kU1hrX1I3VWVsWXBzYlN5VHEyX0V6MVkwbFBlRkp6V1V5UTNPSjM?oc=5",
+      "title": "Generac Holdings Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdlFlR1NqcmJxeDVZSmkxX0FoclJLUnJnRDVaTGtRdFJFbXltakFncHNlN0ZRd0FMZVBmemFXcjZXOXI3bzVkczFXaXZqYjlQbDBqbTNGbkxRM0REQ0I4RzY4cy1oRTd2RFcyRzczOU9KLUNzVGpXQ1ZsVENTb1MyRHh0X3ZkdmZzZ1F3WTJhREFYNjFxM2JpX1NfYWtfWF9WQWlfZ0RzNEZ1RGFR?oc=5",
+      "title": "Generac Encourages Homeowners to Prepare for an Unpredictable and Potentially Historic El Ni\u00f1o Winter",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GNRC/history",
+      "title": "GNRC daily price history (Yahoo Finance)",
+      "snippet": "close 192.88 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

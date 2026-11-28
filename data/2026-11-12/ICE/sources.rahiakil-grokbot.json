@@ -1,0 +1,109 @@
+{
+  "ticker": "ICE",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObkJTY0FfemtLWFNOSmVTOHN1aTRHU1B6cUo0R2E5MzhrRHBfZXlDSnI3amVMRFRxNF9BRXhMeEQ0aERmMmFvLXhxYXkwQjdpOF9jTGxQRXVadF9CeDV4SVVlelpJd2dvZ0pHY3R3UHRLT3JudTZFUWJ5VnBHRjlJV3BMbFc1cHNoZHNnUThqMDJObGVfMTVXSnB5X21YV2tPZEw4VUN2eDFadFR4M0lOai1ldGh2UVpRcTloVWluUEp0WF9VdlE?oc=5",
+      "title": "Intercontinental Exchange (NYSE:ICE) Sets New 52-Week High - What's Next?",
+      "snippet": "MarketBeat, 2026-11-11T18:17:26+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-11T18:17:26+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0lhZDNERTdkQVJmTTFrMnhoTVQ3ZnFEcEdMMWJQRnRsWHZSTFB6cGNjQnhNVUN3cjF3aXVVbWFnSV9VYkZzVVIwcFhkNzA2LUZTT1REbWV5UTlMYldJWUNtUVpzTmlEaldqbjMxNVZGY2dMbmZRODFHQW9mTDdjcDg4TEIzVzZsOUp3akp2bw?oc=5",
+      "title": "Polymarket Cuts Staff as $1.8B Revenue Fuels IPO Push - Intercontinental Exchange (NYSE:ICE)",
+      "snippet": "Benzinga, 2026-11-11T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUE9KcjhuZUNPUXhNRUhFMGpyTHhSWHVLQVRvelJ1YllUT0JPZVZ6QWRfRWVLT2x2WUFNb0RrMjhLckVsc1VWa0Ixdl9scGt6WFoyd1Q1RFhNMzVNRl9nLVJGWF9LS2w5TWJPUjZwekNJN2lTODIyVm13N0VZNUI5aDNlRS1URmdISjhtd1UyanpWUkszdXpF?oc=5",
+      "title": "OKXICE's tokenized stock trading platform pushing ahead despite opposition - report (ICE:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-11T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcEt1SllMckg4YzYyYzFJV0hRaWtYTlk5d1hYQ2tIcnhJYW0zb1ZtbVd0ZjYwTDlTR1Z4X3d3NGlYdldVY25vYTNZb2VIOWtrR1NCNndBOWRlam9iRWJyYTFpRWoxZUV1bE90NGsxNjJrOEFqc2NYQmtZOER3MmVqbnloYUVpQVNIdkVZVXhnb0lJNVVVRDZFZTdsMzAtYTFVSDZwZWE0Rng?oc=5",
+      "title": "Intercontinental Exchange: Still A Buy After The 18% Rally",
+      "snippet": "Seeking Alpha, 2026-11-11T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRm92X0FRRExHRzc3TE1LbzZWVGZGWDNweWdpYXRmbUhsM2ZRUVZfT01KTzF2MEd1cTNyeGxUSDJIenNZeWpHY2VNUGR5SFNTbktrSk84eFg3SDdhTWVZOWtpRmVqczEzMnpXenczNEdmcVNmcVhmMEItRVp5M2RqdDgySGtiVUs4QWtySnNyVnh1OVBsR1hheGNPN0ZtNkY0MnQ1dEdLRzdUakpM?oc=5",
+      "title": "Intercontinental Exchange (ICE), What Is Behind The Latest Attention?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMXFFem82eng2YVFHRVdhTGpab2lJQkVzRWQ0ZHRJRWZnVTlGbDlabDdNaTA2Yk5KUFlRaHZIaGdBd0lnNGZHcGt5WFUwSVdWcDNOVzk0X2NwbUNXdnA5a00wSHhfZVg3dXQ1UXB6MTlZd0JZN0FOZEdpMzdwOXM3YlRPZFBsRkZoSEJURkdZbVp5cHBZeTZFOW1pemtmLUFfOXNyZVhnTkJDenFzcHYzQ3FaVk4?oc=5",
+      "title": "Intercontinental Exchange Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 177.86 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

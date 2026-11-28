@@ -1,0 +1,73 @@
+{
+  "ticker": "RSG",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeVZhUzl1UkVfRTVOak40R3VuN1dTOVhvbEE5Qkk4RXI4Tk5OTmdUdkNXVTRxQW1kVVFmZ3BsNWpTLXlNUnR5UUNSU3BzaGFBc1psWE9qcnZ1S2VxdHJuY3FjX19wQkVrMnYyclowc2NqczRlbnlMYW03M20wZWx2MXdDOUN6a002R2VBcXVHcVBoUV9DTXlsZ29ZaEpZZm02UGY2czdCWkh3c25zZW1WNm5LbVdvQjVSNmxZUWFqZVpvVUxWTjdLYlJxdEIxS3E0ZnEyTmsweTJYb1JlM0E?oc=5",
+      "title": "Republic Services Shares Three Simple Steps for Recycling Right This America Recycles Day",
+      "snippet": "PR Newswire, 2026-11-12T11:04:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-11-12T11:04:00+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeG00V3UxVEs0TG1Tci1qN3NRTUU5UTlrT2NaaEl0R1V5aTFjVEdDbFBCaGdVUllPRy1oeWxaU1oxTHJWS3BseHpMSmNnNFdiM095cTV6eFZhQUxTWFMyYnVKWmFDMEdhM2dhSDM3ejB6N2hSakVHU1VLLWhCajROTW1xMVF0T0tPUzlFVUxGUlAybzFnNm5FdHozc2daZDZGekdEODRQS1FlUDg1dDdr?oc=5",
+      "title": "Does Bill Gates own landfills? Yes, through a big stake in Republic Services, ProPublica reports",
+      "snippet": "Nacionale, 2026-11-10T08:00:00+00:00",
+      "publisher": "Nacionale",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlfdzVMMHNkbngtZllXTUJrQ3JSeFo4VEg3UlplRVVvWG5xcFdIdUMzLXprSlItT0k3UW91U1l1OFBOeDVHZXVWSUhSOVVibWI3bzNqeHR4S1dNQTUyVTZoQlpPc194WjJtcmhTY1Ywa2NpSWI2UmtGNDRVazhIWHBsaDNBMTZETUtUSnhtVlBTRDBaWG9aanRMM2JpODJ3YS16QVBpT0VpWjlmYjZ1ZFhJRkNLeW5RWlAyMXZUV0pzWWExVlhGaGFqeEl0X1hDTkVrT1FaSQ?oc=5",
+      "title": "14,436 Shares in Republic Services, Inc. $RSG Acquired by M Holdings Securities Inc.",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 253.0 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

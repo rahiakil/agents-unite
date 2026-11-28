@@ -1,0 +1,94 @@
+{
+  "ticker": "ELV",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Elevance Health\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTEpfUGJNNUpVVTdxU2tiNUlldktyN2hvWVJvY21sR2VpN3JjbF9ad2xUR1djZk9XMHhxcE5nWHN5b2U1bHJYU2ZpQV9INFdxTXZPNVN2S1RwRzladllNaUQ1RnUtN3ZSVVdiZHZVcmVQX2pMX2FYRmVrdzBUMTlvOUoxcVZZd2daQ0RSNHl5V2JjVjRrbUs0eGlCb19Yc29fZElSYUNROFl5b0dPVlg3UHk2a1o0THpKS2ZMUUpGZW85YzBY?oc=5",
+      "title": "Elevance Health stock faces 2027 test after raised 2026 outlook",
+      "snippet": "ad-hoc-news.de, 2026-11-11T12:49:25+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T12:49:25+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeXd4bjk0R1BzNmlxYkctdDRYcFRDTGxSeEk0OU5KVjAwTk1xb0hBTlhLUm4tUlBKYnVwalljSDUxTXp1ZG5DYXRPRlA2VndUY25Lb0Y2dXJWZE5pZUZ4Z0NDb0FsWjdFRzVud1ltS3dGbG9jWUw3M0k0bE5uWVh4c0oxbjBwbzI0U0Z5RmVRbC1vR1prWlFR?oc=5",
+      "title": "ELV or RVTY: Which Is the Better Value Stock Right Now?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03QjBMWmNTbkVKcVFma296c0NmeUlYSEsyMEVrbFdXeHVDaklHVmQ5ZUNZQlVOOURhTWF1VUIyY1JNNENTVWdrQTJLMWpwQjlHTTIzZ2h6Z2dyZ3JjcTlOOHc2alpHRm1idUhxSktHY3lJeUpULUs2RzB4N3g?oc=5",
+      "title": "An $11 Billion Fund Is Betting Big on Elevance Health",
+      "snippet": "TIKR.com, 2026-11-10T18:46:02+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-10T18:46:02+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOczFFMnpGZDRiZGpQa0t2ekd4OGstYXI4U2JON0pobDNManFMeVVMR0ZvX3AtR0NSS3RLS2UwRHVaWngxcjMyaXBPN3ZlS09tREViUGN1SWx1V1ZJaEJlWk94UFJkaExXdlNwZ0JYT0tKLTU2YndGeEYyb2FOQ2VlSFl2TEE0MVdKNTdoUG9VSkJaSUE5YkVKSWwxVQ?oc=5",
+      "title": "Elevance Health sues over $516M Medicare star ratings loss",
+      "snippet": "Modern Healthcare, 2026-11-09T08:00:00+00:00",
+      "publisher": "Modern Healthcare",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000074/elv-20261110.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 7.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ELV/history",
+      "title": "ELV daily price history (Yahoo Finance)",
+      "snippet": "close 429.9 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

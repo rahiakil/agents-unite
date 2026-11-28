@@ -1,0 +1,85 @@
+{
+  "ticker": "DVA",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNanRzSjUxa3pSODBEenh6cDV6UUZCRW10Q01zWDNwQ0x0VVZQN2ZQZEFfS2pVUms0c3Q1U3hidmdXSU1iYU1CdG1adWE0ZHZxZlJ4TU1henlRN29VTlRLcTRhLTBSR1VOU2tYWEtuYnRrMGlabnE5YklRNGlfeUFpQTctLTMwclVmb3YwSmJYeVRmMERqQl9NZFZ0OUpHbUpQZklaOC1TT01HUDJtWjNwQkpNTmV3ZWRKbHlJYnA2SUhhSWNBUWc?oc=5",
+      "title": "DaVita Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZHVJMEZoV2NmcnF1RWxkYmxUMzZDMThYd1ZXNDltWldVR09GbXdBSEJCN0NXcWkzYXlERVFORURIZ29aRWF4TjV4WFU4M1F1VEJtZ1JTWFdjLVh2MTFoSzMtN21ldXFIVm1wQ2xrTG1LcHdLX1VFUkpYZGU4SFhOa3Nsb2IzZ04xUFNILUV5SWROcTJiSmEtYkZNTDB3NUZNSUg0?oc=5",
+      "title": "Should You Buy DaVita Stock At This Price?",
+      "snippet": "Trefis, 2026-11-09T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX2lZUVdIcWZuLWhtOGdYTm1waEdzZ2RfMXE1YmRBWWJCTjJnUkVXRFd1NnhnendyZHp3eXZkREdvVDZGUUpyRnJKbTluN2plS3JKWDdKSmlRcVY1V3k4NEdZbXQyb2VEX0p6bjgtUVZMMFdfMnhvVGhIdFd5VFQydHp4YU1waTlPSzlxYmxKRzFXZmNWaFI3SDJSNE9vTlI5TDFsVDNUamJWRDZENk00OG1kcWs4MFBsaEZCejhVLTdyRXN0V0hXUnFIejBVWDU5Nmc?oc=5",
+      "title": "DaVita at UBS Global Healthcare Conference: sees 2027 pressure, long-term lift",
+      "snippet": "Investing.com UK, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ050RmpJRFVVTkt6ZHpROHN6UnA2NWotaHV3dG5uV2dPTzc2VmRfaFhVOWV3OUFyck9MMmcwbTJPcVZjUmhHOS1PMzUydEU0eFd3SEctcnlUREtBWUZBRzZvNVQzV2ZRTWJBRkJoVmpsR2NkM2NaUDJKX0tiZVFTU2tvTE5lR0drLTh0YmFvSzJLQlJONE5aN3g1NkUtVlVfYTJiSTJFaWs0X29BNTdHSTF2YUt2Yl9hZ09qdDlfZHRRd9IBxwFBVV95cUxOSjVuQk84MTd5R25ZSXR4aDlaYWJOcGowWWlKbG5BUHQ5Q09SOVV6ZU1WVWdYVkF5d1pKV3BRUFlPWVBVUlp1YWdLNjI5aW5zTlhyQ2FuVWdMSlBoTWxuNnlGM041ZlhpcjRNZ1Q5d19sbXhjNnlxSWtSN0RDLUZGdmQ0LXp1N3hFSW9qVlZQLTlmeENBNDZGVlZUdEFHYWFoeE8xM2FkUzZTTFJONGhIM2xYWm8wWTA0VDVhRS1lQXE2Yi1Hb0Vr?oc=5",
+      "title": "DaVita (DVA) Could Be 13% Undervalued As Strong Q3 Earnings Lift Sentiment",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 174.07 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

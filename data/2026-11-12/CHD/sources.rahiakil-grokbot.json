@@ -1,0 +1,61 @@
+{
+  "ticker": "CHD",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Church & Dwight\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVAzVDFMLVNpOXdvT1hXWWJjSnhXMlNiNE53OUdCUC1NNHl5ZGtpMUVSQlpIMWFFOTF1ektPRFpzbnk2emxaNUJYdXdVVDF2bjVVZ0tEZVNuT2JiWmhCQVc3Sk5PQ2k0c004OUF5VEYwcTdPQW1JejhJVTdaS1UxRmR6VG9EcThPeW12dEdWcDZWTmxhc0p5azZ3Y29rX0g0MGdFb2llSklNWFY1TzI5c1prb0wyMTDSAbwBQVVfeXFMT2hxcGNHQmNSWFlKcUNYYTVzRGVtYXlENThaMHVPMDFKMVdWMjdoSExpYlJ0Z2l6RkZsanRtT1hTSHdtbTRmOGphMWMyOEhmaHlZc2hVNTNoTXhrLVQ1OWZiY2c1Ump2NXp6LTB4dk5RUWtuc0s3amNOdlJwZTdBT1ZzSXFNa3NVc1EtR2l1bENjZ0lXVWRXdHk2a0YxUWx1VDVRSnlpdF8yLURISnBEZ3pRSjZ2a0t4cDJmdlM?oc=5",
+      "title": "Why Church & Dwight (CHD) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY2txWkoxYkdIMUFNWkJKWF84SURNYUZQdEVibW45eWZjWXFmVU5NWC1aRmhnWFM4dTNPV21Zczdudl81eGpCVFFuWnBhbk83UzVNSl9qRTJuZ0lLSE43N240Q0dwdlZESURHV3FJTFdQUklneDRhT1k1NGVTM0k3Ny1lOVZYcm8zblAtUzlLYVNhcm1RdW56Rmc5T0FHVll1b09UTUEyOFR3d3l6Um9xNFlkTFNsTEI5UWNTbEVianJKd0I2Nnh1MDhDUEJjTVdQMHVISUJB?oc=5",
+      "title": "Form 4 Church & Dwight: Brian D. Buchert (EVP of Strategy, M&A, and BP) For: 30 October",
+      "snippet": "Investing.com Nigeria, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHD/history",
+      "title": "CHD daily price history (Yahoo Finance)",
+      "snippet": "close 111.73 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

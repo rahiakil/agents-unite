@@ -1,0 +1,97 @@
+{
+  "ticker": "SPG",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Simon Property\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2h6VlJaSDYxMDFSTnNiYjRsOVlMamg4WDNYWV9xRHp2VUIxUkZwUnNiU0tHbkdGRk1Xc1F5WEVaczhIaDhTeGw1SC1MQWlZLW05Q0daS1BKckNaYTVKeEVjZnd2MnBLV3BZeDlGMlBoVGhlVWJrRlFUM0g2alQwR21wMEMzSngxMnNSc0JIa25xaERfZ0xhbkpLWUhFdw?oc=5",
+      "title": "Simon Property Group: A Great REIT, But No Longer A Great Deal (NYSE:SPG)",
+      "snippet": "Seeking Alpha, 2026-11-11T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTGhtd2haTWJYNmQtZ2pyWUt5aGl6di02Z0FMQm1qRUxfbldiM2RzbThmcnJueUxxeVhHUlF1emtoT0x6Z0pIRUZEVjFMVGxZdmtFYXBvYWpoOXZRVlV0Y3hiWGNtMTdBcE9SbkFQZnU0QnBOeHl2bUZ6RzNQcDBzLTcybUFTcjZkaGd1bDdCZ28tOTJVVHpPQnBwYw?oc=5",
+      "title": "Simon Property: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeEJySXFQY1pDQkpYQTZCaGtUdEV1ZG1kVXhMeFJhYmp0aVlOVWFjV05hZndUbWh3OXk3Q2xMaEw2TVpXM2FTZ3hhUDhuNHlDb0FfRFpsQUxNZ21xbUsxUzFEczNGM0hEYVE1c0ticzZyaC1kaXB4c1BwQ2ZydVBXeTVjcG40NEVnRlBBLUtBelpzZFkxblRUeG9jeENoampUUXdsTFVFcXhranlhVjZ2d3h0Y1ZSNzFQZ3h1THh2NXN2NlkxUGo1c0lB?oc=5",
+      "title": "Simon Property Group Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM2J3LUZjLXlMZ1lYTWlqbXdpMExLT0ExZUs1eUFjLVQ3WF9IRDZUV0ZueGVjRFhYRkJBSnhhZzlnUkMwQ1gwVWJBWTFUVWNJSXdNV3M5bHExdm9aTmNLNFpYcE5pb0VrRDRzR3BzekVyNDVjaVUzeUlyUDZMNUVVRTlWNW45MXRNMlZpWDBUU1hvY2x2cWpQLUJJWQ?oc=5",
+      "title": "Simon Property Group (SPG) Looks Fully Valued As It Raises 2026 FFO Outlook And Dividend",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.659,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMXhHOTRNOXJoRUZJYm9jUjZCV05uYktyTzVVOGlWbTdlS1g1d2lkbGI2NEJFdHFvXzNpbllIeDRtSHY0REpLRjNtU3FUeFk3TkUtdHZyMEpyRG9wVEJWN1FNUVdsMlhoUl9SeGQ5Y1Y2V2RPdWJoM1M5ZHBqNWFZT2w5c1ZpNHZna2tlV1d3NkRZSU9YZTJSWDZnR1QxY1RxRjNV?oc=5",
+      "title": "How Investors May Respond To Simon Property Group (SPG) Dividend Hike",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPG/history",
+      "title": "SPG daily price history (Yahoo Finance)",
+      "snippet": "close 233.61 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

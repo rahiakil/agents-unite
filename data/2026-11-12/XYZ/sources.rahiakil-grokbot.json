@@ -1,0 +1,97 @@
+{
+  "ticker": "XYZ",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Block Inc\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTGtnMTlTQ0x5RDN2ZVN1ZmNMZXBOZ1ZHLWxUWWhLdFVRX0d6OU1oOGVOWm1yUzlkTm9oTnVxMW1PMElBTC1DREVITWNFbnVseTBwNk1GcTlFbXNMYVdUS19QeVMxRDV5ek1LZVNIOENFLTNSVUlXYjVhOWw2U3pmZHNqQkJpYXJVTEprdXBEWjA5R0NLRWNYaE9UVFdHLVpvRDBUVXh3VW9xRU5ucjVaWlZ3WW0?oc=5",
+      "title": "Jack Dorsey's Block Cutting 10% of Staff in Third Layoff Since 2024",
+      "snippet": "CoinMarketCap, 2026-11-11T02:55:28+00:00",
+      "publisher": "CoinMarketCap",
+      "published": "2026-11-11T02:55:28+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMkNLRF9HNVJOVzZWalhOd295eVVyTmF1aXdwSHB2M09nVnR6aGpGcmFwNlFBNVk2bTJTaEhyWlBBaTdIYWRQajlQRVJFVF9QS1hIajlKbGZKcGtJWWZGVG4zNmRnelpMekFaTTJybXE0VkVUNWhEdHpsNnE2VW9Gb0gyc0FKNDc1SWMzMTJwY0RGLVc3aDFZUFlRVWk3eEVVQWdNWEY5ZXA5eGk4YjlobU1LczZJRURl?oc=5",
+      "title": "H&R Block Q1 Earnings Meet Estimates, Revenues Increase 10% Y/Y",
+      "snippet": "TradingView, 2026-11-10T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX2dMb2Y3REJDTFA5Z3AyQkoyNmhyY0xoZFBxaEJPZzJtQVNFV19hQzFLWjBIc2NTQXltMk9hYVZrNWlkc09GNHFfeUtxdWQtY1NQLU9LLUlJWUxKcEg5WDNxWWpQUkticlBPYUxIZWtZU3pxZFFUaWVnZC1BOTRUcWYyOEpidWc1U2RIQ3ZXYWMzSXpvdXU3dzNyM21GdDU5SzBKWjgzR0RaUQ?oc=5",
+      "title": "Is Block Inc (XYZ) Overvalued After 3.6% Rally? GF Value Says Ov",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTTRZLU5hUFlrZ0MwSld0ckh5NHM2TzMyWF9laE40cFA0QnM2bEotTlRpZlRwaGUtUW1pWDZibGtOUGFEeTlWYk1sR29mMmRKdlNVdnc3Q0NiNUl4MXhJcmUxWnNNTTNqNzRURWNOWlZYS3VUVTlrbDNDNkJJN2paQzZmN08xQ2d1R1lpRzFrblJldVVxUUhJU3c1X1J4UzdRUVFjNmRIOWxlUWxDUVJsSGo0UkxlVURYT3NtZFY4ZjJqdngxQ3Jn?oc=5",
+      "title": "How To Earn $500 A Month From H&R Block Stock Ahead Of Q1 Earnings",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLXp4TnVycjk3UG1zRDVkbVZmMHlvc3hTWGlUV0ZSZ2xja0JYb3BhTHpMTjEybWpYaWlMT1RyMUVSTF9kQnQwNU9DODhsbWlDeEc0Sm45Tzh0MTBHMkEtNnN6cFdyd2U5b2ZBcU9oei1QTXVEaTZLUWpURE5WT1N0RDYtbzU2WUtGcDRpMVhVYU5kRUFQZjJuaFMzTDlNd1pZaUtvX2dnZWlNc181V1VwWi04ckQyRG5tTVVKV3FJRQ?oc=5",
+      "title": "Block Inc (NYSE:XYZ) Reaches 52-Week High: How Did Its Latest Quarter Compare?",
+      "snippet": "Kalkine, 2026-11-09T08:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYZ/history",
+      "title": "XYZ daily price history (Yahoo Finance)",
+      "snippet": "close 82.26 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

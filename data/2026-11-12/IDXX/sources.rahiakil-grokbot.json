@@ -1,0 +1,49 @@
+{
+  "ticker": "IDXX",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Idexx Laboratories\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYVpiRWxMWDF5RVNaV1VqckpfLVdzMTNKQTFuRU84VXBVMVgtMjh4UjloLU9wSDlHMDVqZ0JiSkZlYVhVUl9qN0Z5ZEpVS3hLRi1kUnlLMkVzbTQwMDZPa3NEektKckVlcmhrR1FCakxlQ3JDNUcyM21NU1lwQmE5bmVOSndqUzBibDBXQjZxT0ZyZjlFeFFhUWllOHQ1ek9VQy1sOVZDYzhYd28wbUxkek1UY285dG5IaVUxcElqUmtRTF9HSHFob2lVSG9pNDl2b2R2ctIB2gFBVV95cUxOQnNRajVLRVBxMk9DV2RSemwtWkY1S0hNUW9OdGFVTzhDYV9PM2ZGYmx6QmljOUdwdW1GNFhteEhwOHBpRTE5SmE1VDFRT2w4aGR1bTZxTWU3UHRlTmRYTk9aTnlKeFlwdk9FaFJPWHdfSFJnbjk5Y1QzYnhzR3B0RHQ4UmZqR0ExZkQ2aUpPWlBkRUN4U28xN2NnQjJNMzNNWUh1ZnRtR290X05ZNXdxeGpfWHRYWjJrSjN3OEdEMTZBMzdRSnFockZtRkFpVlBNVHg0X3c3LTQzUQ?oc=5",
+      "title": "How Investors May Respond To IDEXX Laboratories (IDXX) Raised Full Year Guidance",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IDXX/history",
+      "title": "IDXX daily price history (Yahoo Finance)",
+      "snippet": "close 698.02 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

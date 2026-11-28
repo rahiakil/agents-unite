@@ -1,0 +1,121 @@
+{
+  "ticker": "AMGN",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amgen\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXU4aXM1eUdnWWE4eEl2OTBVNFhucUczWWxGN1FTelhHdVBUNUJ3Z0pXeFZqVld2M2otNnN6SGlGZDU2aUVBTTBJWkVfS2E2VExLYWVYNjFrVHBsR1dQR2FwOHF2dnJFbHk5TG1NSExPN3kwVklnaktlem9UQnJSa2Fod2hNaS1tUUxhWjM5eGNoVFU5Sm5xOXZ0dV9UYXZ4TGZvaEQ2Q2I1SGp5YkxtV0xjZFdlbko5N2Rrc3BSRDlxMDZPZ2ZlVmZn0gHPAUFVX3lxTE5fUnJORF94M29YUXhvaW5Hb3JENl84VzhqeUpMUDUzU2tQTXdmNzMyYllmUUJLX1RWbHBPTlRpYXlWRjdSRndnVXVRcGJXVWktV2xuMHdmUHZDU001d2JlbGFTdURXU0NITG5FbDl1QVZRU2hCQkhTYTR1ZUxWRGN3NTIxXy1JZUY5cjltR182M0pUQ3Z0UHAxZHpFZnZPeWdmeFB5QlZHNXhhTVhzaVdxSVdMSUdBWkFGWHhiYkFOOFdyUjRmY2NndGpmTTQtdw?oc=5",
+      "title": "What Does Amgen (AMGN) FDA Warning Mean For Investors?",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWRiUXVqOVJTYU4tb0hDTWxBYUdCWUdBTWpUZ195QXRWanh5N0htcG1mcHV2eGRhT2VtMVQzdlh4SEJObmpDcXpwaEtVYm5XZllTMHk0YlVzSGRnMmFHdG8zM2dTN045Wm5yQXItODBPMGEzcl9xVWw5cFp1b2I5cHAwNXNoOW9yX2tCdG9DZGZwcDZ4U0lBU0UyOVdDOG5UQ09pTnNYWmltYnExZVFzRw?oc=5",
+      "title": "Is Amgen Stock Too Dependent On Six Growth Drivers?",
+      "snippet": "Trefis, 2026-11-11T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeDRKUk5rbDVOMzJuZkhsQ3lCaXBuRWZxY0wyYUM3SjZDcDk3WG85eTRtTVZxMENVX3FaY25nTDRrNjRsWmtCbXpkak5lUkhOOGRDaWtBSVlwT1lGMVA1M2FPWVpFU2YydjFhRlpBWE1DM1NBVmRxR3N2UTdLOWplUGFKYW1rUHhL?oc=5",
+      "title": "How Amgen, In A Buy Zone, Is Taking On Novartis With A First-Ever",
+      "snippet": "Investor's Business Daily, 2026-11-11T08:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSFMtZ1VMajdmc2hreXdTMnZOYUZXVEJSNDZpSFFON2NvUzBzRXJ2UDlzWnJ4Z0o0aFRFLWNWMVY4N21fcV9EQjA3UFV3dzZTNjI1YVdhSlZ5eVV6T21lXzkta1g2Qkw4aHZra2FHVzNsRDNaR3Y4eWlVaGJpMjZ0VTJjY1NtTzcyeU1EM292QzhpVHN6RVhhSmRNNWQ4cVh5N3Nfa1AxZm8zQWVYWFNHNlFSbkZ1NUJiT1p4R2p0OU5IWDNQdTg3QUJCWGl4Zw?oc=5",
+      "title": "Amgen's Sjogren's drug cuts disease activity in trial",
+      "snippet": "Reuters, 2026-11-11T08:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHRpWkhoaEZWS0NuQWItN0lxWmw1SlBUcXk0U2RaUklTalVnbDRQSzRsYWhYZ1hDSlpublB6d2hCYl9nXzJGSlhpb1lOSWNhWkF4aGhLNFJBdEFoOERNWEVHNnRJSWJYdTFrMW9CUTdCQ1loLVNFZWc0cFNGSVZON081MlZDc2dlR3ZJQWlpeVA2WmNETVBjYg?oc=5",
+      "title": "Amgen (AMGN) Stock Looks Cheap Based On Future Cash Flow",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNFZfZzZqT3VDNmVPQWtQNjUzcFNld0ZEUGdEODZIaU5ITkhmNldJbVcwOHF5ek1BMEFDT21IZmxobmw2M0ZOWGVjSkluUkxnVlJMVlp6Qjk4OUltRlZrTzEzbVdYbHJ0NXdGNnI3MmMyWG5nZkI3czU5WVNnc0o3WGdoMnFjYndTMjU4dUdoeENlM3Zqai01bTVCUEdhYWlZQ05kXzBPdUhJZw?oc=5",
+      "title": "Amgen vs. Regeneron: Higher Dividends Now or Bigger Growth Later?",
+      "snippet": "24/7 Wall St., 2026-11-10T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ0hsaXFHdXVHTFJUUXZjdFc4OFJPTTJPU0xoYzZRcWY1TTBNaXFlRVNwRjhqZHhQVGNuVEw0MFY5Q09GcFRMRFVCMm1fNi1yVU9TQk1STVJ3dlhDak1pNmxYbG04OUtsWTJwVVVCQ3JUM0dma0lnQ0VDY2tMUkl1UXFZU1RvSHZWV0hvY0dKNmljUTdpYzVCS0RIUWV4clZtVllFQ2xWOUs0bWdJamE1M3FuaHcwdw?oc=5",
+      "title": "Amgen Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMGN/history",
+      "title": "AMGN daily price history (Yahoo Finance)",
+      "snippet": "close 467.06 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

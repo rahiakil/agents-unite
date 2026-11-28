@@ -1,0 +1,97 @@
+{
+  "ticker": "LULU",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lululemon Athletica\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTW54SmRfRXpXbzF5UVpGNDB5YmoydzBrNFptNWFGVE4tWlBPVDBxZ0RwOEl1U3Rhc3dYQkl5a2V4Y2wyRjFIRzBGTnZ3ZW8weEVONUt0bzhYd19zMlFqOHllN1Vtc0R2SXJ0T01CcERoSFF0M3RMaXlKTElpRzZuNm4wYjZhOGo3MzFMWG5OU0lzY1paWmNGa0lqclFodHJwOUNBWTNFZkFMbzdLelZMNWNR?oc=5",
+      "title": "Market Chatter: Lululemon Athletica Draws Michael Burry Back as Stock Buyer",
+      "snippet": "Moomoo, 2026-11-11T19:17:55+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-11T19:17:55+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOVDBUT1FFMmRwcExKLVVReUZ6NV9GVEVoa2ZQUlRveE5jbDV2OEc2TDdfa29saTA5WllwSkh1dWd1b1dkSzBNT1k1YTlDRHBoUXRhcHY0Q1pzS3h1aTFlQ2gxaTVBNHJGMTB4VjJOcnBVT0FBWHA5c0tubF9kczhvc2NUT3hoTE4xRUpuRDdLUy00NnliWC00UlV5SV9kNjE1ZWZhdDhSa3luLV91UHdwUHpURnlVYjhLRVA4c2xZR2Y2cXlCMm13Z01kY2NvTFJycThSdXNlQS05WDFJX2V1VkVSZ3lEeXltODFoZVlCWGlHYVpDSnRkelVGSlJKaXk2MkFtb1RudkltQTZaamtIOEVaQ1dUanFlTXdvX3pJSTNHZm5MbUxTTTBsWEstSTZMYjU3QzZ4ZzlPUUVqTDNGZTRwTUdTRkVhOV8zRVNhdkxKaFpNQXZJ?oc=5",
+      "title": "Did You Lose Money Investing in Lululemon Athletica Inc.? Robbins LLP Urges Investors with Significant Losses to Contact the Firm for information About Their Rights Against LULU",
+      "snippet": "Morningstar, 2026-11-11T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa2NKb2R4dEozdV9FWUdQZ1BDR21tREp4dGUwclpsdEJmOEZxRnZ6dWxmZTdyRXBqQW1QaC00Zmw1S0Izcl90VlVBejVLVDg5YVRPblhwRDczNFppUE8xaWJfZTdFdnowQWFFMDlEQ0RuVXRBeXRYRTgxZHo3V0o4X3lLM3kwMk1DUl80Rkl3TEE3cldIdl9BckVtTkxGLU9Q?oc=5",
+      "title": "Lululemon Athletica (LULU) Names Ben Hallam And Emily Sunderland To Top Roles",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQR2IyTmpVTm5EMVNPeUZyVE5YZzRRNHZ5a2ZBSGRnVzM5dnRjZ0gwaVAzXzRMR1NzbmluUURjNDRBYkt0LTBCWGJWRFZZXzE4WmFkMEMtcThKTTZCSUJRVldmbjQ5SEpucjNCSFFyU1ZEa3p1VjlQRDd3YkxoQ1R4UDh6dnVnNWwycGRMSnZjNlJRUE92UzlBUXA0UGdKd0lRdm9sUE14MGF0Zk1CWk1fRmRTbmlGbW55eXdwcDRiWTltUXlLTS1yVWxyVkZHUDZrRXQyQU9PUTJhSWdvbEh0WFN3M0NCWm54VS1YaHQ2TlFUMzdyampvYTdUWXY?oc=5",
+      "title": "Lululemon Athletica (NASDAQ: LULU) Trades At Lowest Valuation Since 2018, But Structural Headwinds Cloud Recovery Prospects",
+      "snippet": "Foreign Policy Journal, 2026-11-09T21:19:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-11-09T21:19:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUUlHcUdrZ2lndFByZWl3OGZCaGJWSDBjVlk4aVMxR3UxbUJOeFVZTzBqcDNoNFNTSXJFXzVFMVhnUGdYR0x0QW1wYWFDZmdjQTUzeUlYUWo1RlBnUWxuZnJmYmtuR3lBNy03aFpKQlBFdVY1QlBQZ044OGFFa2hxa1JrTFh4ZmNNMEUyNmxtbHh6cVBRdDB6aHVySFVkQndXaXJobXhNUFNWVmw3MlpjSg?oc=5",
+      "title": "Lululemon Athletica (NASDAQ:LULU) Merits a GARP Investing Look",
+      "snippet": "ChartMill, 2026-11-09T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LULU/history",
+      "title": "LULU daily price history (Yahoo Finance)",
+      "snippet": "close 104.46 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

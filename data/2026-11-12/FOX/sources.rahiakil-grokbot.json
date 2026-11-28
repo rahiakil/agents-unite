@@ -1,0 +1,70 @@
+{
+  "ticker": "FOX",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVGNpblBRcWRicWZRTWJzZXZOZzNWcTVkUEtEcGVhWWlRUVVQODc5b3NOUlhTWVByazBPRTlweTYxTE1PUVY2NzVpVG51d0x2OFJfRnlJUnNzYzl1ZXFTNE5FakhkR0NGb29sSmJ1NVJ6R2lHWGozTEZXcUlLeDlGRXRYYzlwcUZOeE1xZG9nQUM1dF96c3cwOUlpTWZFSzllRlk5VnpxY3ZJZXN0R2VoQUxCcUJIMXJiQXR5VVY1ZzRoZ1k?oc=5",
+      "title": "FOX CORP - CLASS B (NASDAQ:FOX): A Value Stock With a Clear Valuation Discount",
+      "snippet": "ChartMill, 2026-11-10T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNkhvcGVzTHFSTHZRQnF1V1FkdU42Nm5pVmMxMzJubnh2WGl5a2RXUXQxUVFuR2Ztb3Y1S0U5RWdyUzZpUGhpeEIzYy1BNUlnS3k0RXd3OFMwbzhsYzRQWlVfU3luc2wzanBhdjB1NlJEMTdycm1pa21iQnIzRlNpajZZb3lSdngzN3R0QlZlNUVIMEtDNlA0RkpQR2c1RGxOdktUVnN5cw?oc=5",
+      "title": "Integration is underway at Fox (FOX), but Roku deal benefits may not be fully realized.",
+      "snippet": "Stock Titan, 2026-11-09T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312526452778/d85827d8ka.htm",
+      "title": "SEC 8-K/A filed 2026-11-09",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOX/history",
+      "title": "FOX daily price history (Yahoo Finance)",
+      "snippet": "close 58.71 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

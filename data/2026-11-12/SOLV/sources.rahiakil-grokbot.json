@@ -1,0 +1,97 @@
+{
+  "ticker": "SOLV",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Solventum\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMUY2VjE3Yl9ab2FFTWZrdmhiMV9nZGJlb2lySFN5MndTRmNRN0gtUHNweVJwdmxHUWV5R0IxTXRlYlJEZTFYb1Z1cFJJQ0FzWjFvblZPbjRwWFd3N3h5b3JDYVF1MFctdndTZDZvWXd4WTNqYTh1ZkVwUUJ1Zy1jRXNxZGdiNklENW5J?oc=5",
+      "title": "SOLV Q3 2026 deep dive: ERP transition, separation milestones, and margin focus define quarter",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSlA2bkpuTktjRFlleUwtZFlQenVSZGNaTmJvQW5ENGNGdWdfQkNXWkxwUmNTcVdTMG5vZnBKd3dTbjJtSFFvOTNabG00OW04UTJnSVJrbzlDaXNYNnBna0JGclJiYXlnS1NteHdPOS1vQXVYOUFKTHZWQXpKUUlSYUhsYkJZTXZXZno3MFNHTFBOeFpycDVnTnpTLVFpZFRhRkd5dThFaUkyUkZf?oc=5",
+      "title": "Solventum Is Strongly Focused on Remodeling Its Business",
+      "snippet": "Morningstar, 2026-11-09T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVWpmalA0b1dWNy1fZUdjZ3ozbUtWek1pdkJvcGpqZWE2OVBHYUh4NVh6RWRpc20wMXlYVHVtM0ZZRFBScDBrZ1VZeF9RclpwNUNCRl9TR0szWmt2VzV5NXFrQ3RzRjE3TDdheEZDaFJLWm15UTZSV3dFQU1BXzRTVUVrUUNyQ24yTzBSMElRSDZ4R1JzU1BfZThiY2xYZFZSazF3ZGpJdndHa1hHX1NHQU81M1g0RlhsUTJEenZR?oc=5",
+      "title": "Solventum Earnings: Despite One-Time Factors, Solventum Stays on Course",
+      "snippet": "Morningstar, 2026-11-09T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRm9LeEFXMlFoSWg5cWlwMEEtMXNQUnR1QXF2Y3dPTVYwWEhJT2JsUHpWTWNKQ01uWVgydU5CWVRteTlxZXoxRGlBVkJpZEJvS1VtQWhfd05ma285ZERPMFJOTFEtSTlZVDJPVkdydGxxLUVUaF9kc0VOUGVhc1pNTXZHNnJaamlsUGZKMGw5ZTJHa1JUOS1maWJTcm0?oc=5",
+      "title": "Solventum (SOLV) stock trades up, here is why",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xMlR0VU10MU1CNmVSRmRTeWhkN0xPbXg2eV81MjBZWXZGZGpUR1RVdGFlRy05Tms3MU5OTmZpRDZUdk9jYnItSExRNEw3T2RGSEtiZldqbE9IWDJsNC1TTWREZHZBQU1tVjZkLXJGNU9MTDlVYW5F?oc=5",
+      "title": "Ahlstrom and Solventum develop controlled-bioburden release paper",
+      "snippet": "Papnews, 2026-11-09T08:00:00+00:00",
+      "publisher": "Papnews",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SOLV/history",
+      "title": "SOLV daily price history (Yahoo Finance)",
+      "snippet": "close 88.81 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

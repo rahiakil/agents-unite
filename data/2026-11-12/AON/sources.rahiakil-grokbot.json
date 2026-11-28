@@ -1,0 +1,61 @@
+{
+  "ticker": "AON",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aon\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbUhXbXBpNndfeGoyRnNGQXlxVjFldU5vMERiRjZLU2pzZ2FtakhjMEhGU0E2c04tTnRLN2pEOVlZcEpkdVFFTWVYNllrelY5bWk5Y2xiQ2Fzb0NDdXpWT09OR2tJa0ZCVWlROFhyeVktT0pMWTF4R2lWQVg3eTA4RUZsSDZURFhpRDU2UFZkUjlKbEVhZmtRNw?oc=5",
+      "title": "Aon (AON) Following Its Lloyds Tie Up Looks Back In The Value Debate",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc3IxTnc3WEJQM1NaWkEwMEhEN2ZVWUxLbE1Mc0NRX0pieWtCa0Z3MXRwMzFUaE5PcUYzb2VscHJvTzUwTndSWVZIbFphNGZRU2YzNHp5eGdGb1drTmk4ZFUtVXUwMWtRQkZFZmp6YVkycXZ5aGlDMHJJU3BKdFRoNFRXT0F3SHlMN0RGQ1VEaFpObGFLNzBMRVpVdzRFakwwcVhUMUc4M0J5UHRpaUtMNHpOTERRVGUwZm11Rkx5eko5eXh1?oc=5",
+      "title": "(AON) Movement as an Input in Quant Signal Sets",
+      "snippet": "Stock Traders Daily, 2026-11-09T21:44:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-09T21:44:02+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AON/history",
+      "title": "AON daily price history (Yahoo Finance)",
+      "snippet": "close 333.42 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

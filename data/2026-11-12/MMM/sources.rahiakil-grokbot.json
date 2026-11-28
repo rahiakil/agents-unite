@@ -1,0 +1,121 @@
+{
+  "ticker": "MMM",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"3M\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0T180TFBDeWtVSmlrQVBHVlBURVAzMGlvZmdNQXFtc0tocWVjUGZzWEdtUFJMZUR3NG5BcHJrZ2JUNm94QTFTRVQtS2l2Y0N6VDFaVU5yWWp2RHhyRFRjR3pGX240SVdVQzFYRWpfbVlSQ0UxbFdyZjdpZTNJN3M?oc=5",
+      "title": "3M downgraded by Wolfe Research",
+      "snippet": "Quantisnow, 2026-11-12T12:36:52+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-12T12:36:52+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYmJUeTBtSDZIYkJvWWFuNXlMOXpyXy14enJEbDl0bGpYemc5dUxtUlQwZU5ubGtZaF9hb3R6U3JJN3dUVmNtcl9yRXUtekc3SV9kb2V6cWxnZWI2SFFiVmk5aW50TmxBZFBlSXJhS01WQlZwdENLdVFmRTFpLVRkdG4yY3pUUDhodnVsbTZ1ZmZlWVZQa3kwX2EtdDVUVTNXMUk1d0FHN0dEamhMYWVVMEp1M0NNeldGYmFzX3B30gHDAUFVX3lxTE9FMDdyMjcxREFld3lGYVJtN2hUM3AtY2JqZWx0SG1SZm5yNy1PWUNQVmZwbnpIeHVjWlpHZ3g3MlpjR2NfQ0UyU0dnWVpOVlR0NWR6Q3lYa0MwLVpHSDl5N2lENXZrRlZ6dmZCejBDcldkdGJaZ0VuWUZMV0E0a1ZnblFLMWlFazJkZFpZU0pCZGg0SWhjUE0xdkhKdnozb1BjaXdteWZHQ0U2enpBUmRfcXU2azVwaFBDNkdNb1JrNHFBaw?oc=5",
+      "title": "Is 3M (MMM) Reasonable After The PFAS Settlement And Buyback?",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd0llYzh6aG41RlQtUnJKcHVTUFZEZ0o3bFdZSDdVSE5nVlhiZm1JTGlmb0pScjZLMlJ0aWxaX2ZQWXg4VGJYQWhIb1RLcm5PUnlZaFV5QThXZ3hqT2pIOFM2TzFwYjlJazRybjBWWS1EQXhBOHEzZDJRM2I1V1dsQVk2dDkzNDlOT2t4aFgzSUl0TW1SLU1xZXdEZUg0M2NjTFhJ?oc=5",
+      "title": "Can 3M Sustain Operating Margin Momentum Amid Sales Growth?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdEFiRnJYMWR4eUhPOVltbnZ2SmpIOFBUdnM1WHE4bklKV2dGQmZacGNWUXByZ3hPX29hUVB0TENILXpFQVlUeFpNS0o4WTJPWEs0U0x1Wm1yVjJNMVZ1amtTMU9wUTNnR1dTelA2MTdiUG4tUlJ6MWpFLW1KTVM5V0d6OGxHRWdrVWZkcERNSXZRR2xEYmNUZndmd0xhVkxzMHN4RUxqUUVYa3B6VllQX0p1anNBYXhUVDVqbVlxZjFqUTc4R1FrVnlob2pWTlZ1bFpfLUxVV0dMUklPbXYzOU55VUxkemJva21uX3M4SFhFcVM2WGtaU0dmbGI?oc=5",
+      "title": "Analysts Offer Insights on Industrial Goods Companies: 3M (MMM) and Rocket Lab USA (RKLB)",
+      "snippet": "The Globe and Mail, 2026-11-11T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEJnb1BvWjlsTjRzanNhbENBcGk2THdSU2RTcm9tSHowUDJiYVItTnJmOXJrZzE1RW1fV1dhTFhsMVllYlJPNmg4dnJKQmJQX1dIeXp3NGZRQi1jenhCQ3ltWmZrejRGSGkzdU5lZ0RWWUdvbkg2V2FlOXRzcHBNeHgwWks0UEZLTjdVU1NCSlRSSE5ObGdHUk5iRkdhcU5MNnc?oc=5",
+      "title": "As Organic Sales Growth Accelerates, 3M Seems Attractive",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSzBEanJCNEprS204clB2MURWVEZaSlBkc3NlaUFqVl9TbHlkeDQ0QU5BUlZyd3dVOXJLVktSUUJ0VE5Wd21NMTFvaHNfbEpjM1FFaGJMSE9nZGxhcTlpQm5mQU1hQWNmRzZBb3dYd1JpYmR1c2UwV1ljRWxHelhqdzJVOGFJTXIwLWE0OHU1eF9CMnA1SUVBSjdkemFHN0Z1VmVSbmtiSDc1MHRYeEF1WmFqWDRJNVdBc1dNMXktdjhqMEc4dG5kN2V1SWRzM25tMGM4V0RHaVgtTy1kUHZHcXJuZ290c2lTVzZqVnpIaU4?oc=5",
+      "title": "A look back at general industrial machinery stocks\u2019 Q3 earnings: 3M (NYSE:MMM) vs the rest of the pack",
+      "snippet": "TradingView, 2026-11-09T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdEFPNWxPTWhOd0VsMlJyWlFxcDNfLUpYenFfcmZhc0lUNnU4RUp1MFNlQnlYYXZLU0tJNDFZVVFRRURPYUJBYWcyZk5XQzJIaktrSldvZkVNTUlKRWVnc2pWYmF2SmU3amRMYzJGbUlUTlNyTzZENFdTNHlQeTlwdEVndXJKZ1ZlUnhYbGJiMUVhRlFCX2EzU1ZOMHpkYzJPdnRXbExVNmpzQUdzOWtVZzBDRUd6Q1phVkRZUUFRbXlMR0kxTW1aaHdzenB2VEdJby1GZ0pvVjh5WU1ZdUxZTjFIeFgzNXBt?oc=5",
+      "title": "3M agrees to pay billions over toxic chemical claims",
+      "snippet": "St. Cloud Times, 2026-11-09T08:00:00+00:00",
+      "publisher": "St. Cloud Times",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MMM/history",
+      "title": "MMM daily price history (Yahoo Finance)",
+      "snippet": "close 186.24 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

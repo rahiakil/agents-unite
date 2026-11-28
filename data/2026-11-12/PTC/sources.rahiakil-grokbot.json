@@ -1,0 +1,61 @@
+{
+  "ticker": "PTC",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PTC\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzlscHJkdDNHSkp4bldXMVBBZ3c1ckdDa0V0V1pkYVFZaTJmX0U4WW52OGRYdS1jVE5sMlVQdno1R1BiYllQWHY2ZkRuQU1jSFhKQ1ljUDBrVl8xelhSUXA4X1Vvb3F2eU9QOWZ0OFZsa1o5YmJFbG1LdlRPUmd3OA?oc=5",
+      "title": "PTC downgraded by Wolfe Research",
+      "snippet": "Quantisnow, 2026-11-12T12:46:52+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-12T12:46:52+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXlsaTJCREgtbkRaRGt2aE1mN3dyellTXzZROW55V241bDQ5eWItMHVibnhMU3RDNzZSdDBLVDFJZENJVmpEU2dMejgyZnI4UTN0SnZqZVdsSkNBZHF0X3ZWX3NyLW9fOUhRWkJ0WTlYVkUwc2IzSWdsREtQSl8xOExXT181NGRYbEhwSkNpbmduU09UV1Rr?oc=5",
+      "title": "PTC stock hits 52-week high at $196.06",
+      "snippet": "Investing.com, 2026-11-10T16:02:47+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T16:02:47+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PTC/history",
+      "title": "PTC daily price history (Yahoo Finance)",
+      "snippet": "close 196.25 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

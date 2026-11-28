@@ -1,0 +1,61 @@
+{
+  "ticker": "NCLH",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norwegian Cruise Line\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONU1NWHluTWx1MFFEeDl1OWF6NnBTejRUejBpYldzaHJDdkpkemhnaVpIbXo5d1BYai1wT2JsdUVSRWM3ZzNUaG9xTENxbkQtUTZjQmhtTGdjTG96d1F1ZU1yR1VERTY1OF8tbHZUUVdURDBJOFloT1hoaWxrRDJhQWlpVlBiR1RyZ0xneDA4X1F5Nko2RFlHUi03M2stMVR4a005UERGeFlwRGRldU5vT0RudnNYdllxWHV4al9aekFidlVfZzlVY21NaUtWZ1R3ZlRMQk5jN3F6aHFjeFBv?oc=5",
+      "title": "Norwegian Cruise Line Holdings Ltd. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRUxWbzJhWFd3SzQtRmRBYkJySndJUG5Jcm0tZlNLMWNLVXlKaGgtYWtNMEI0dnRHdHRnMHdtQ1JqeXpMMDFqSEhLV0dFQm9WdWFTWDkxLUViVlVoZzR6bDJoZUdaX201VkV3VUZjNFhac1FwQzhnT09ZdXFLVnFSN0UtOWZCU1pZRXV3UHhLVHJQRVZ4a3B2OHByNFY1aGtSVGMzcUhqaDk1ZzhfdHBYN2dVT0xzZG9NUF9jaUgtRzkyMU4zSEcxV3hTYmpPUVI2eGJSYnlrbUhnVGdVeTdaN3FWd1ZHQUhjZkpqS9IB8gFBVV95cUxObW9lQTdWYmVHZGtwWVNRSktQcjVndkhOZldrRmRPNGkxampSYWx2aWhjX3dvajk4VWpwa0xMMTFfUS1LdTZsSFFOTlFQamFsZmpRTjVsMWFmMzJ1NV83b3RjZW1neFdXWEI5WVZGSHBXRXBXRnAzemV5Qk9NbGZ0alNydUlvQVRfTTZVOVlzbnNMTlV3VS1jcXNPZFVQanZYRDhHak1PLThxWFo4YWp5a2lHWGxyb3piTVhHcTI2VHF3VDdGSUR4V2UzVUhHZWdSUXpCMlNOa3ZxZGR0V3dUMUNFVjN6eDZGS1RSTzJadFNpQQ?oc=5",
+      "title": "Norwegian Cruise Line Holdings (NCLH) Lifted Guidance, Is It Fully Priced?",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NCLH/history",
+      "title": "NCLH daily price history (Yahoo Finance)",
+      "snippet": "close 18.06 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

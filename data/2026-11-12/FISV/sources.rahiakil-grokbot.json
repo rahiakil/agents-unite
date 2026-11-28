@@ -1,0 +1,121 @@
+{
+  "ticker": "FISV",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXJhQzdiV1RDM192azZVdUd1R2JRR0RKZmlNZTJJaWpVNUNZOFh5MVhOUGt0UnhGRGxybk5EWGtyQ01oYmxsd280SHhjS1g0QVc4akk1aWhiR3ZwNkRiblVhamV2Y1dRSWdIaFRKZnE5M3l6NnpLaGhpYm1TRnZwaWNMcWhla1ROakotMUlENDVIb3dxSFdDWkx5ZE1NSUVB?oc=5",
+      "title": "What Is Fiserv (FISV) Planning With Its Debit Networks And Clover AI?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHFKeG5XdVc5ay11MjhUdHA2UFFDSkFmSXBGN2RCaEVteURjVVgySmh4RHZuNFFXNmJqUUtERzJtd0ZjQmFnSy1mOWxkN0t5cWdaTE5waWFhZ3BxcWpSMF9BLUlMOXhFWUxXbUJVZHJSaDNyVjFvRzVXYjMzeVJBWGU2VTBmWmJ2LUpwWTFRSll4enRRa3M0aWpLcElSS0hza1E?oc=5",
+      "title": "Fiserv (FISV) Stock Looks Undervalued With Strong Excess Returns",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSjVRaVlBUm9TWXFTd1RMc3V3MG8xRDBTVzFwb0xHSUtNU2NnN053SmhpcDgxT3FnRC1qMkMxVEFTamgtU2ZvNVV0VXM5a2NDY3ZUaG91Smd2X2d0RVVFTWU1LVFsVVJzZ21oZnZpVmIwVHNBcEFkR3dWYjhMUTVNMjRqNGJXcEJLdlFhWl8wNEh2N0NCalE5Q1ZjOUcwQ0tXaU8xcTBBQmM4MDNVLUZrb2tkMjdfTHNMWmZsNU1KQ3M?oc=5",
+      "title": "Truist raises Fiserv stock price target to $65 on margin outlook",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPREczWTQwR2NIUHFnY01oM2JxLWZIRGNBUVFwWjR5VlRyVGI5bnNzd1htS0dRbUtyc1dlRUNmQzVwWi0yX3ROUTZSR0FobExOLUhibjNfQnh6ZVI5X0FBcENCZHhyN3gtU1hQZlZRMnpVWmd0LUZLSk0xcHdFLWlJRjlZN2RMUUc0TWdYY19PaW1vUWl5UjZzWXpjMjlzb2c0RG1vNGVabFJvejdTTWc?oc=5",
+      "title": "Fiserv Stock Climbs 34% On A 9-Day Winning Streak",
+      "snippet": "Trefis, 2026-11-10T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUdFeUFpVl9Vd1NORHJpX29CWHNPeDlOOEtJakQzQlYxMlJhU09ncjVjODFFSi1fbjJqMlRsb3RnT3dTY01Gd0xhR3VuVWd6TWRfY1E4TGdzSUF4QkNqNHZfbWZ2bXh1UXNhNXlfMEFlek1kQ1EycVo4QllqWS1meWJjOWdHZjlxVTdRcVhfSXFFSVAwSGRCR0hYVnI?oc=5",
+      "title": "Fiserv CEO Sees Clearer Results Ahead as Company Targets $1 Billion in Savings",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3E3ZmdVSk5Ybm5OanhfTGtWZVpJWU5fU210NXh2bnU0YWZ6d01velYxQU5xR3pxOFI5YVVROE8wTlhHMnRnQUh4RjFaS0RLc2RaM0wwbURNbktHZlZqQXdvcW11UjNmamJrUzliTk84Z09rRVpZMklJVHF3WExOYXNIUElBNTloSVd4TzBkLTN2YkhBNDVxNTV1a3NIU3Y0Smt1bDNiTmJ3N2t0VDN3bjVwRi1GZFFQaUpaMg?oc=5",
+      "title": "Fiserv Soars 26% in a Week on a $1 Billion Savings Plan: Buybacks Return \u201cEarlier Than Anticipated\u201d",
+      "snippet": "TIKR.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNURYYzFpaXBqMTlhNzM5WDlLejdkTS1vZVdwczBGNTR4NWY5SnItSktaSTQ5eUZoWncwNHFkcEEtS0tmV3RoLWVYOXdtMkx2UFltZjNyU1FOSFlzU01LLTZCNFpvdkVuQl9EeWZiUTFmNHFTLVN4dkw3UGRfbkw1TnhxcEpxdXFRX041SzNrdk1MQ0NKVkVEVkVYY1I2TlRKdDhMNno5c0tUaVkySUx5VXZRZ3hEM0RYeTA1ZVFTNlJwdmpybkhiemRYTWU4NnNDM2FWa9IB2gFBVV95cUxQU0NOdUhwd0stVU9waGJHeWxiN0xhUFBnNkFOTi1RX3RGZTlWb18wSkNuanZpUkstWW1MRXdYZTlrQVRmSWthUFIyTGFZYmRhQnc4M0Rvdk9yYVU1am1icnBRbm5RSFRQNkxIcVFSMXZkOHQ0aF9yU0sxdTR5MVcwM1FZRnc0YXJRR3k3RXBYRkxDbmc5MnljVFFTVHFDblNVMXRyT2NNT3RwVzM2bmdRSEhJRVRuQmVKQW5yUVRoM21KeUFGUDkzWG5ZSHFJMHpSMU9MR3JzcVp1QQ?oc=5",
+      "title": "Fiserv (FISV) Stock May Offer A 49% Discount Despite Cost Cuts",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.188,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 61.5 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

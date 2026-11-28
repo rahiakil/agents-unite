@@ -1,0 +1,97 @@
+{
+  "ticker": "CFG",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Citizens Financial\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeVI1VkZZb3UwMTh5YWEtVlc2YVlDMUhhZG1FSlUxWk52UDZRb0xKNTloRm1BXzZ2UGgzbFl1MzhaMWF2aktPanBpUWlMLUZlYmRlQkUxa2dhdzFFY1JWNUlrWFQtaTVCOXZwQ3FqakdWS2lfSFNyRzFlV0NULWVrQnFUUEpJWWx5Y3BkSXJzRmxWOElYR1pQcFJBanF2SGRZRzJpRWFTMnM?oc=5",
+      "title": "How Investors May Respond To Citizens Financial Group Stock Launching Treasury Platform",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHVZS0RCd1F3WEw2T3prb1lORm1lRGdqRjFUZWpTU3hGWEdMTkQwcUZlR0dRVVd0NVVsZXNXbGNwdENFZjVnUUJiWlFuZ0tjVGNoUzlCQnY4NUlfcWRXc1RqeFBJUFFyWUczWjlaaUR1eGFhRzVoblRvbXBzNHR3M2FNQWV6Y2RvMllobVBPYjBsM05WUkRqdmpFdVVoeXFy?oc=5",
+      "title": "Citizens Financial Group (CFG) Stock Could Be 43% Undervalued On Private Wealth Expansion",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdkFOcXNVYVFRSEplako1andGZkJLaGhSRWlCX1Rpem96THpGWFAzVkVoM3FMUm5qRmRxNHhDLURpVjM3ZEVGWkZPSkRYMnlVVTZnOWxjZWJvTzREeVgwVE40SlA4UTBWZlQ2a2RXWmdvNmRlTFNJNTRlei1GU0NIUEVfRVBjSjg3UnFHSmFfX0xjaXg5YWdjRG5yUk5BUDhVZGlVMjFseV9ZYTg?oc=5",
+      "title": "Citizens Financial Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZzFLay11WDVyZzhjMmZtNXVmdkhaSkNSUkhMM0ktMm8zNXlYc242UHVJN2FuSV9ZM2tUN3FvNGdDZFd5TFowM0x2VVlEaUYzNDVvWTV3cVN6ZkpFWFZvWmh2X05LTmhpd3RTeF9hNDFzVWsybUg3VjdsdzFMRlUzVmZJdnowcHVtN0RwZEQ0NEx2REZmWERSdnFta1dFendKNGZIdEJB?oc=5",
+      "title": "Citizens Financial Group to Participate at the J.P. Morgan European Financials Conference",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUkJDRWRoS2ZRZVBhRUhmbzNzRC1zMFpXZlhST0FiSlh2Qk5fYmEyQTYzY3ZBT2JIWlhRSE5wQTV2dlpkSEhMUEZtbDdoR0NZQkhxYXd1eXgyQ1ZPTHRFNkY0UGlFT0dPclhYQzB2TWxTYnRVcHU1SzZuM09oNHd3eXgzUkVESGNJUHZ3LUxhQ25nWjF5dlV1ZmJpOHFVQXA0?oc=5",
+      "title": "Citizens Financial Group (CFG) Could Be 16% Undervalued After Record Q3 Revenue",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CFG/history",
+      "title": "CFG daily price history (Yahoo Finance)",
+      "snippet": "close 64.86 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

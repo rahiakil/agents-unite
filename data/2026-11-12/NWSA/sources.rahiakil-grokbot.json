@@ -1,0 +1,109 @@
+{
+  "ticker": "NWSA",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"News Corp\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMEVJbTM1Sldpb1FMNElkb2hQU0tKM0JlN1pfMXZ1ODdYdHlVMUE5M3pMRmN3bVpHVlExN01MVEZaM3AyTmJUbzg2c29EVWZVLUlIb2xJTllCTmtMZWU0YkprWVNleENIYnRRUk9nMFdiZHJBSkx6R3M2eWVwank4MURFN3Q0cXdMaGhIdWVPVk1KUW82QWFhSQ?oc=5",
+      "title": "News Corp building new tool in fight against keyword blocking",
+      "snippet": "Mumbrella, 2026-11-12T02:08:04+00:00",
+      "publisher": "Mumbrella",
+      "published": "2026-11-12T02:08:04+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.637,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTmFIdWNFS2VmWURIVFljLUZnUVNnalJTa29zeFM4cmx1OUk3c1JoaFMyc01kd1pjbGJUV1dWamVYLWg2XzYzaTYyRTdRSzNXVHhhR25rWUx5Ymt4ZTFDZ0FxUDRMdVlHRGdlWWJzZ2hBcTl0N0dHa0Y5dkhZTWltTTE3VHZpeVlrMWJKU240NVZCN3NiX2NRSGJoUG9OUGVsVnF5SktqQU1RNHhLMDN1c1E2ZWFaX0xhQ1VpR3BMWWI0TGJC?oc=5",
+      "title": "News Corp (NWSA) Gets a Buy from Guggenheim",
+      "snippet": "The Globe and Mail, 2026-11-11T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNzNYM2dOaUtPaDd6aU1pWmxBWFQwdEFUcFhpZndEN0FGWTZhRjhTMmxYVUZoVmRzY2F2RlE1TmVuOWRydFBNTEVJNTF2N1hvV3YxZjdkdTNVNURwODJPNy16TVhGeGpGM2pUZWRBeEZUY195Ni1mdjJHTGpnTjk4NV9rR1NrdWpBNnVEVWNkX1B2RnMyUGxyS1lmRXNfNjhZZ195enJMS1R1V05lbXVJYk5hVnRYRHNUZmJR?oc=5",
+      "title": "News Corp Reports $1.12 Million in Nov. 6 Share Repurchases",
+      "snippet": "TradingView, 2026-11-09T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000260/nws-20261111.htm",
+      "title": "SEC 8-K filed 2026-11-12",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000259/nws-20261110.htm",
+      "title": "SEC 8-K filed 2026-11-12",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000257/nws-20261109.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000256/nws-20261106.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NWSA/history",
+      "title": "NWSA daily price history (Yahoo Finance)",
+      "snippet": "close 26.27 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

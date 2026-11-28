@@ -1,0 +1,82 @@
+{
+  "ticker": "BEN",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Franklin Resources\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0NvcnlqMzRDeEtFejBMbE5qbU5iX3pLVjBEWDdFTUY1bGVYWlFRVHF2R2V2TGotOTA0TGJWVzcyT21GSzE4RHowTWRzRmVON0g0UnVTMVBmaWhMMVVmN2RMbkliY25aMlpNYlBfbVFiWVlzRjc2a2FWbloxMV9QM2FSbnpkVFFRZk1WLVd6UzhoaVNUaXA1aWN1dG41Vk1lYVE?oc=5",
+      "title": "Franklin Templeton (BEN) Upgraded to Buy: Here's Why",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNc0FhM1RMQkpUQ2NxYXM5XzRYa25nZTNlS1NmeTZLYUQ2ZUZNYXVWd0RFVUpGY0pEbjVHRWdBSC1TSVhJbDAxdjNCN0FsN01wcmlpaGI4Vk1nTXlyVmFJWHNsWFRUUUFZZkFkYXlGTEltbFBKZkN2NzBFcGY3S05DZzRJSWFXZnJSRDAzQzZwd1I1SXpPOU1hRm5BRHY3eTdrY2hSOTFJc1BvZDAwcXA3S3pKYTFEVEZMd0J3VDRwc1ZoLTZvOVNSUVFnYw?oc=5",
+      "title": "Franklin Resources (BEN) Gets a Buy from BMO Capital",
+      "snippet": "The Globe and Mail, 2026-11-10T13:48:18+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-10T13:48:18+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ3lvVmZmWHRhMUYtZGFEdDJ2MTdxY0dMeEd4Y2NaVmFVZmhMQ3JOd2lncDFpUUNCUlQxdXU4bHY2ZVc2c1JKOW5rNExNaHhIa21hbml2aXEzbFFmSGRYU1cyWG93bWZVREZiT3VoRzdFdlZJeTc1bEQ3OHNZS1J0bHR3MUdHU2Q4VU1YeHRFSTB0VVNZeDlCQmdQUURyazEyQkdmdnNxWGpoaGRwTlVOcEs4RTRmUHJkblVNVjA0LWh3Y2xSM1hyMWlUMnN5anlzMjJz?oc=5",
+      "title": "213,385 Shares in Franklin Resources, Inc. $BEN Acquired by Calamos Advisors LLC",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000289/ben-20260930.htm",
+      "title": "SEC 10-K filed 2026-11-09",
+      "snippet": "10-K",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BEN/history",
+      "title": "BEN daily price history (Yahoo Finance)",
+      "snippet": "close 35.86 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

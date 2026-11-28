@@ -1,0 +1,49 @@
+{
+  "ticker": "BNY",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVXZQODhZNG5DWG1iM3VwbVFXLWJ1ZVFqWnRjS1JkdFp4X1VmNW52TlNPRmZESGFkY1I5d0VremxzTTc2MmJ3XzY1OUlfUzFwV0FLdnlZbEstUU9vVVFQRWE2enJkbzZuQzgyQ1o0LWI5UUZodkdMUTNzc3d5U0N3ek1oWXZHNW1lbE5RYzV4dUtZcFBNZVRoZkNfLUdzVUR1QWc?oc=5",
+      "title": "BNY Mellon acquires 115.23 Million TLKM, rising stake to 6.9%",
+      "snippet": "IDNFinancials, 2026-11-11T08:00:00+00:00",
+      "publisher": "IDNFinancials",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 152.79 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

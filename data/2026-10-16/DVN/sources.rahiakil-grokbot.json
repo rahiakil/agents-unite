@@ -1,0 +1,97 @@
+{
+  "ticker": "DVN",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Devon Energy\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQRlhiV2VvWmE2R01od2pJWlBRUHFuejBOaGlDcXBDSldZZTBMeEFIa3I3QnEtWUEwSnVqdmRLYmwxTTVYTEI3X0xPZXhsaVI5RXBteHNYMzJYLVk5ekdCWG5GaDFhdnZyWjRkWmZUamVsQTBoQVFkSDJMa1psSEVtdnl5aUo0dGJzZC1NZGoyQVpkZElFSUZlMm5KbWNxQXZOMEVXb3p4V1BVS1BFN2VKVlJPMExTNnVjakhyQjZTVFNrOHcwNWRSWm83S0hQSzJwQTVpYmViUFladzVTaTctbjdZME1DSWRRdFhDRm8tUTUta0tLSnZZUTJDSHVBZFowZnVTVVNMcC01TW8xVDNNUWNwUUxKZnpWZjc2SDk2d0xlalgydU1nbV8yUHUzUjVrMGw1WWpibWZrUGhaN0RnR0JlbVhnUQ?oc=5",
+      "title": "Here Are Thursday\u2019s Top Wall Street Analyst Research Calls: AngloGold Ashanti, Bank of America, Cirrus Logic, Crocs, Diamondback Energy, Devon Energy, Netflix, PayPal, Spotify Technolgy , and More",
+      "snippet": "24/7 Wall St., 2026-10-15T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZkV5UGdxcDhPQncxU2E5MEEtalE1djE0VkQ0dExTbGxHVzVPVFlKRWpTXzU2eUI1dGVjdkJvVW42bWNKRUxCNk5QU0o3WU9LclVEWjNqZE5tUnp5dllGWDhvbDd3STdIZXZ0UFFqX05IVGFYUU5wNUxhbXJGR05QMG1tM0JxYVhmUkl4ZzI3SF82X184NjNyWm45Z3JFSGU2Vk9MOUpZWU9tT0YwNVNwRXZvZk1XRkZ0eGVDc3lLbVFYZ3JRMHNtZWZXc2FmcWNFUDV4aWNRX3ZNZXJBTFRn?oc=5",
+      "title": "Devon Energy (NYSE:DVN) Meets Minervini Trend Template and High Growth Momentum for Breakout Setup",
+      "snippet": "ChartMill, 2026-10-15T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUlCMWFWeXNBekF3aGgwM0N2cy1jU2d3UWJ0ZHIyNWgwbm1KUzhTN3dFeXpqRDhuSXllWTg3X0pGMXZNTlFGUjB3QWtEV0x5WU82dHFNMTNZZVNlRVVCbUsxZ2NWeUVCcnV5ek95MXNHcERwOXVsV1Y2clRfS0RFTTlqbVJWTWtJMzJ1Z1lVMFE1ZXVrcmZ6cQ?oc=5",
+      "title": "Devon Energy (DVN) Stock Drops Despite Market Gains: Important Facts to Note",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.477,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObWxQdG4wOEJld1FPYTF5MjAtMkxud1cwODlydjNkX2FlbTRLZ1hHbUpKRU4zcUJ3dk1yUXZzZGJ0S2s4OVdaZXZSbXI1dE9XUmZGU2VpX1ROZ3ZjLXE1Wm5fbGNrdFBpQ2JGMVFiZlZTOUxMUzNkd0RZcV8zNUpuNTdBSmNDRUpmMUotS0ZQYVJTdEdtWjNrX0RVMA?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Crescent Energy, Devon Energy, Energy Transfer, Cenovus Energy and Drilling Tools International",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTlo4dndjaE11V1FtVGFLdnpLbW82OEFWbHZzMFVpcFhDWWk2aDZoWUtNOWw4dEE1WkJscDVDZEhmOWZMdnZpeEtxR093VkpRSVBNYWV0cDlrdU9ZSzBtZTFGYTRxRnFObG9WZGJncUhjN2dNR1d5R0d6ckhMbTJyMmI4bnI2d3VraHp0bDdvNm42cngxUTBKQkp5TGhuSm5WVzhEeU9tM3dFVk5xN3NsdmVyb0FPaVNnQkY3NmtqazgxZUZTa1ZqbGFaMEdKaVh6U3c?oc=5",
+      "title": "Kevin Hern Makes Significant Stock Trades in Chevron, Chubb, and Devon Energy",
+      "snippet": "Investing.com Nigeria, 2026-10-14T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVN/history",
+      "title": "DVN daily price history (Yahoo Finance)",
+      "snippet": "close 50.73 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

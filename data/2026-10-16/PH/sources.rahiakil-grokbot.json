@@ -1,0 +1,61 @@
+{
+  "ticker": "PH",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVVpPYUpjbXRlUGhvdlJOX1NKT3FDdnc0el8xNTZ2c3BmRGpEcE1OV2dUZDlkZVZEVGVJUFBFVzJrQzRHWmd0N25HaHZkWkdkaDhYcUc2VmdLcXNVZmdrcUtYdUNzc2Vqc19MUFk0QzdIM2FQeU45SjhzdzJVUDl0bDdtbzdUTWl1OHZIdnptV0pYdmxQSjVJdzI1LU0?oc=5",
+      "title": "Parker-Hannifin: The Aerospace Momentum Comes At A Price (NYSE:PH)",
+      "snippet": "Seeking Alpha, 2026-10-15T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR3BGOG9UaDYzLWhabzZiYndtUFJOd0FFNlJlZk52MTZCT3pqYThqZHFCWTI2aHpBMVFGTS1HVnducjhmcm1zVkVyN0VkNlh2MU5YSnFYdlJ1V1ZRU2dOaEt5a2ZhZENMQU1nWDB1V0lpY2Q4YWpxRzcwc1RJUE84QzBzZXFxdl9VVFY2b0JBZXJaVV9wa0tkcWR5R0FabXI1VFE3eGx3?oc=5",
+      "title": "Parker-Hannifin (NYSE:PH): A Quality Investing Case Study",
+      "snippet": "ChartMill, 2026-10-14T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 963.34 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

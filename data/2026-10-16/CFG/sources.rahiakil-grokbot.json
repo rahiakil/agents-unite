@@ -1,0 +1,70 @@
+{
+  "ticker": "CFG",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Citizens Financial\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaVFKTmNtYkhfOElTOEJnWkw3Vm5FRWp2N2gyOFJDdlpvUGMza04wOERIRUtGNW9NWTBhOElYYjVlNlRYdkpiekZHUjVTNlZWZTROTjhKSlRvNlByeW9ZWGZvSmhBYTdtc2MtYjB6T1pNSzZ0UFl1M0NuVWN0S1YyN1ZpR0hsdXcyQmY0ZjVYdFNGclZYWnV5bEp3RmhEanJUb08xRTdyM0piQjRhQS1Pa2xPd0FXSGEtc0Voc01qbjc5NDd4NU1HOVgzRHhOTVVQWVJZ?oc=5",
+      "title": "Citizens Financial Group (CFG) To Report Earnings Tomorrow: Here Is What To Expect",
+      "snippet": "StockStory, 2026-10-15T09:27:19+00:00",
+      "publisher": "StockStory",
+      "published": "2026-10-15T09:27:19+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQWhsRksycUNKMy1iYzByM3BCRkFaVGpZRmdwOWZmWmFPN1luTGZuN01aZjZ2X1czQkVWWkhzalhjWGtHSVR4N3poWXdLelFXTkNGTzZSeThMbXNBVHFTd3dVUThsZXcyaU9jQlpnM1lLdkc4UzJYRHR0a2dGdm5VVlN0UEd0UDdNeUVsQVBvU05PU3hmQmNUdmZVMjF0Z0lKM2RB?oc=5",
+      "title": "Citizens Financial Is Scheduled to Post Q3 Earnings: What's in Store?",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/cfg-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CFG/history",
+      "title": "CFG daily price history (Yahoo Finance)",
+      "snippet": "close 63.36 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

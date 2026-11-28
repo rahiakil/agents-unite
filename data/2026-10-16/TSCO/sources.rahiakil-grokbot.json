@@ -1,0 +1,61 @@
+{
+  "ticker": "TSCO",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tractor Supply\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPalBMT1lBRkE2cjl1TndEaXE0QkxnbGM4RXVGSXpnUVJRc19PU0ZXYkZoNFprWEtWYk5sZXVvWTF2VVQzYzNCVlB6SDdpRnhnOWI1c2FXMWRxbUpsN2RtcjJ3WHZLMV9fekZIbFdab0wxMjhqYXJBTnhHMHFyT1dUT3IzVmpTMmN5RTNvdmdBZzNmczRNN3lhazNjbWxWbDZSeXVHQlRR?oc=5",
+      "title": "Is Tractor Supply (TSCO) Undervalued On Higher Inflation And Rising Yields?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXYxalpvRzZPYmUyVG5RRWtVc2N2bXZyTzJfVjR0YllBZjBPZFlTYlhsUnlhRElGYVcwVm1lRDNfajhhSWFudE9zLWhMSnRoVGg4VGl0UkNxQzdNQVpqVlZIcEtrVVBMTEZkRDdKZXFQQnhiWWxhbTNCWTlPa19RTzVlYW1MbHBfUnhJbEdKdmpyQ3FSY20tWHdpRGtnOE1VMXVzRm5n?oc=5",
+      "title": "Tractor Supply, Warby Parker, and Sportsman's Warehouse Stocks Trade Down, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSCO/history",
+      "title": "TSCO daily price history (Yahoo Finance)",
+      "snippet": "close 33.16 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

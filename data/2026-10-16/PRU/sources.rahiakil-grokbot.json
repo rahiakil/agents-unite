@@ -1,0 +1,70 @@
+{
+  "ticker": "PRU",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Prudential Financial\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVh3RkpMRUpmekV2MGVmcXNUWU5RQU5oOHVCT0NwRkdQejh5UFdTUkwtdDRmekZ2LUJYTFRTc0lqWlJEcWdfdkRlWTlIUEtHSGwxcnhEdldaZEpMcVVOQlcxZnZ2VE5vUXNwbGxubGR2bWx5TURQeVd2aC0xSWZoTXJHclVEaHVYUXNiMWVfTDR1TERrcFFnTmt2QndDN28xc1dPNVZ0MmE0aGVxbjBkRVNvM0tHSnM5dTg5aQ?oc=5",
+      "title": "Prudential Financial (PRU) Climbs 2.52% to $116.35, Pressing Toward Upper Resistance - ETH Profile",
+      "snippet": "SIAM India, 2026-10-15T07:00:00+00:00",
+      "publisher": "SIAM India",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUlJCS3NORDZTOUp3a3hLY0tfT0VFMVNaQkhzY2JFVDJ4cnIzZ3k4ZmlZLUxna0dvQWNhLXpWZ2NoOWxQV29ONjVEUFlaMUVlWEhrRDd3MGlxbHdWSXVhUWJXbk5SZzYxNWplbWh5bzVQZWJPbV9VWnItNWdvZVVKbXFFV1VXQ3hrS2UyRHVhMmJtVWVzem15eQ?oc=5",
+      "title": "PRU Maintains by JP Morgan -- Price Target Lowered to $127",
+      "snippet": "GuruFocus, 2026-10-15T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.258,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000210/pru-20261015.htm",
+      "title": "SEC 8-K filed 2026-10-15",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PRU/history",
+      "title": "PRU daily price history (Yahoo Finance)",
+      "snippet": "close 115.91 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "BSX",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX2xYbjMzRXNZMHBzQkE4SWVpbU9zLXVpXzhwbkhuUzhMU2tJSzhZaDc3U19fbGJ2RmFldENMdW9TcXZtQXppeG1GZTM5UnhJZlVCZHVoODgyb0lrUEZlLWgzNFI4cmpBNFpaeFhxNGduVlBZVWtLS1BWYzBHWlVnRjNDbm03QWYwaUIwQ1ZseGhZaF9fRnVCM3VfR3FGNm52U0E?oc=5",
+      "title": "Is Boston Scientific Stock Riskier Than It Was A Year Ago?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWWFXNGcwU0FhemRZNmU5M1pwdlVPM0dLaWVmbkV5cFpQYmRTRkZwR1NLOTlTbVFCZWZMaGtwTDZyUDd5OTU5dE1QSm9XcFNTU2R6X01BdUIwR1QwdXY0dkJTREdfal9NTlI0UnNiZEVIMDdEc0M2cXRod0JHOGFrS1c4QTdYZEEycTFYZ3FNYmJiZE84OU1FUkFFX2Q5WHh2bjB0NnhuSQ?oc=5",
+      "title": "What Could BSX Stock Be Worth In Three Years?",
+      "snippet": "Trefis, 2026-10-14T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON0VEVGx1a2o3Q09vSjY1YjJoNEcyR3pkUzROVUtvUmM0M3JEaWpEXzVzNWVoU3VDZGdNSnlFdGU5Q21BT3dFYmxMTGZoZ0tULVJ1dUdGWF9nd281QlYwaG8wLVh0RnF6cUdPY2ZSVVB0ZGxXQzh5T0I0NnRDQ2E2dlg4bGlVZVBtTERTcGpOeENuRlo3ZU1BSWFlWktwcEpjcFdybQ?oc=5",
+      "title": "Earnings Preview: What to Expect From Boston Scientific\u2019s Report",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOelQtNXJLeUxPUEFmS21vNE5YU1l5cWZDWDhaSUZzSU9MN2FIU0FOOHVlcXg5U0p1Q0VSc3pyQ0xSZnBKVV9CTVZJcURiS3hFeWw0c1BVRnF3QUFlRDF1aEhfWG9oSWtjZnN3eXNNekpSdUFaa0Q5Q3BlODJMcENiU2p6MTlla2ZUWTg3WHBMUDlGTUVqTG1tWkhn?oc=5",
+      "title": "Boston Scientific (BSX) Recalls 262,686 Catheters Over Life Threatening Tip Failure Risk",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.832,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUJRYWtGU3RMNFJXWFZRNVNhc1BDalA1VzctM1VYdHNVazl2eWVIVm1NaWw0Tlk2V1I4dDJhdWhHYXI4UFRsY01yTGxrUHh6T01YWEpzOGZXWDdmYnNhRDdCaloxeUE0aWJoak1iVnhnT2RWWEZEb1c1eHhYdGpCUWZ5aEc3WWM2VDVyZDA5RUc0NnZQTHh1R3Q0WUVBcEZOTHJyREk4T25OX3lKUEVJQzBBUm1Ld25mUllheXRGM280a21IR21DNWdwcmVsNmxEU3YwNG9DdTg?oc=5",
+      "title": "BTIG Sticks to Their Buy Rating for Boston Scientific (BSX)",
+      "snippet": "The Globe and Mail, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 44.39 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

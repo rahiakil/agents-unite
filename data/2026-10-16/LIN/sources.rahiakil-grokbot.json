@@ -1,0 +1,61 @@
+{
+  "ticker": "LIN",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Linde\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZWtDVVZ0bUR5S0djNEJ5allKS2hpb2lrODZJTGpTSmFpSzFiYk91VlZZYWptTXI3R2YyY01vcVptS29ob3FmWXpWeC1ObE1xMkZja09BUGpSS28xT2pjWWNKR1dFa1ptdVhlZlZDMDJ5X1pCd2NXUVhRNWVGU1R4MjRVaEpWaWs0bEVMTnRPN3kyVkQ3YW5oUzllX3VjQ0puUXgxeg?oc=5",
+      "title": "Linde\u2019s Quarterly Earnings Preview: What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQU2pXLVV0dnVPTDNNaDBHZ012anhIYVM4RVJuREZmcXBMTzVoMnpJOEh1a0NnSHFIb2NMcnRZNVR6djhOdHRQcEI0X3I2THpobUlFZzFVdnVGVmF2Y01KVXlsLVE2enVtRGM3TURFekxtenBIaGtkUkR3Yw?oc=5",
+      "title": "Linde Is Powering the AI Revolution: Chart of the Day",
+      "snippet": "Barron's, 2026-10-13T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LIN/history",
+      "title": "LIN daily price history (Yahoo Finance)",
+      "snippet": "close 498.43 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

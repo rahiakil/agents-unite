@@ -1,0 +1,121 @@
+{
+  "ticker": "JBL",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Jabil\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbkdmemRnano2SjZ1dHJ0MkJjWE9hbVpLOGtBWkwwVWcyTkd5ZUhRTG1TZGNabXEycWxDc0tKSzhQX183ZW5ibV9YcE9QSTZiU1hSS0FjN1l5ajJkMjh0UTFJNldDSzZ6VzU3LTRCNWNaRlAtUlNVaUpJeVVwT09zU3BHQTh0NUp3WWlVeHBuaU1mcW11emhzVGFROWN3MHNMZENBNTJCWnA3MjNScl9PcFFPaU8taDdvVU5KVjZ4MFFUeEhYMWpn?oc=5",
+      "title": "Jabil Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-14T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNG1fR2JEb0Nzd1NkdkZoZ2V2ZGJaMndEeURZOFlpem51cjc2VlVnbGtCUFRrMVdPa2pRVFlOSTBMeXhwNDY3Ui1YY05JUXYyUEhSSUJhSnpEaDJKSlA4amVHRS04LW1KRWxpbHZMR3NyWVB2TjVHdks0YUZyemJ4UF9zV21pcHgzZGZCSzhzZGtVbmo3cHNvMVdrUUlUU0NDS0x6RnVjY18yckhOWkJUNGlacnhfUnAyZEY2YTdyY0liX01ncEpKOGlwd29SMDNsYjRz?oc=5",
+      "title": "Jabil (JBL) Falls as Investors Appear to Keep Repricing the Stock After Its Recent Earnings Reaction",
+      "snippet": "Quiver Quantitative, 2026-10-14T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRGhZVzQ3MVNzaWx3ODFoZUFtTmhwX0FBcmNTRlRtbDRDR3BES2F4akVuS1VVT1pSV0RYU1hyTlhIOXVLYVNZbUxQSF82VlZQdmNESTl4YUswT0RSYVh4OFB4YlctM2xlejhYaDVJZkNRcHpMN1lnNmxHcl9EcUdtWmNudEE5ME5FRGZOOG5zSzJ6VmI2UU1rclZFQQ?oc=5",
+      "title": "GEO Group, Xerox, Jabil, Coherent, and TTM Technologies Stocks Trade Down, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOczhYcmtQTzIzZ0N6c2NHRmxDd29leFBpbGJSNl9JZ3VsdEJZZXp3dkNCTUpuTmxuSzdxcWNGN2l6OTBQLV8tM3Y4aFNRZENyeGFpUDE3bDg4MXFsaTNFOEozZmdUYlJYSDhzU09NZmVRcHR0cGh2R3RPdGIxV1E2cTBmdnJXc1Z0WDlfSjF6RURXbUd2T09VQm1yTXdWcmhnY0tUcmprc2Z3ZW4yZ0dfTlc5dVZHT3R4dUZ5TjNjdnZrSzBWOE9jUV85Sll4NFNoMnVWR0NDWnlrUHdzbzNHaHNJZWVqd9IB6wFBVV95cUxQOXlGX21vaHhsSEphR25LS1VhZmJPOE1LMWg3V3M2THBHYzhmckcxN0J6ZlEyWlBwak9tQkNZTTJCSV8zMHc3RGlkSi1HY2V0SUpVUHZWQzEyNnJXeEhyUzZPOTBVSDlPSW9Mb3ctbjBiZlZYdVRYX0xJY05oWEh2MlZnOHJQd1g0S2txdGJOLUdlTjV0UkU2d3E0YVVNclVNODV6TVZ0Nk1sbmh6N21Rb0lRNzVWdHJqSl94TDZqOEdFalBBbFRoa1ZmYnM2SUFBMjNrTFR2U044b25OQTYwT3NvMldrOUtubVI0?oc=5",
+      "title": "AI and data centre equipment: Adani Enterprises shares in focus on JV with Jabil Inc",
+      "snippet": "Business Today, 2026-10-14T07:00:00+00:00",
+      "publisher": "Business Today",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmJ6VXdqcjE3MFFjVTZQTzdoWVlnSy1QOVlsbko4QVQ2Qy1GMkRSclU3MHR6b3p4MVUzb08ycHF1UElCcGNkR05tMGF0R1BVX2YzY0twdUo5WVRmYW1ZZUJyUW5xbkJJZ3RPODNpbzZERE9RSDRQRnJaY05ZcTM2b005bVpRS2l1aWl5Sy1aY2NIRXBuc0p4WHcwVHU?oc=5",
+      "title": "Should Jabil\u2019s AI-Driven Expansion and Strong 2026 Results Prompt Action From JBL Investors?",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdnJkbk9UXzlwSndvWW03RGJCTDdYYjkzSkc3QmdEMUNwTmlENEVwU0MwSjc3M1VTWUpJZWQzV0dqaE5NeHdqR3kwZmJSRHVGRkNnRmZ6bS1rNVVER1BJZzRobTZPSjlYVTRha2JCZTVudDc1SWtGd1B1QlA2V2FmdDFkS3lrN09ZOFNIaERyRkRnel9OYVI2cjFwak5KSjBBeEtDTlFaaFJxTEtuSWZFYUY0LTRpRlRVN0lfYkJ3akZLb1V4VnRhUGROaDZBWGlEMkY3VFJ6bGlwQjVtNXgyV29Qb2pLcjhSY29hbDVJSnc?oc=5",
+      "title": "Adani Enterprises signs MoU with US-based Jabil for data centre hardware JV; shares trade flat",
+      "snippet": "Upstox, 2026-10-13T07:00:00+00:00",
+      "publisher": "Upstox",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRHZTMkJXU3Q3M0VEQXBwRDg4WnltTE1KYlBNTlljSzZKcFJYamdDWENYSzVEZlI0OWNFTUJrc2NOa2VfQ0lGRGVZc3RQbHdEeEVFcUxZQ1FPdG1zQ2R4ekw4eEFSMElkTHcwN3NfanhPbXN6bk9uaVdPVjlGSlRpS3dQU3lMQTJPTnZVVWR0UUFLRGVUX2VlTEc5RQ?oc=5",
+      "title": "3 Best AI Stocks to Buy on This Pullback (SNDK, LITE, JBL)",
+      "snippet": "Zacks Investment Research, 2026-10-13T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JBL/history",
+      "title": "JBL daily price history (Yahoo Finance)",
+      "snippet": "close 278.25 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

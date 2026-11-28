@@ -1,0 +1,49 @@
+{
+  "ticker": "ECHO",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EchoStar\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVFJNaGtTY1Z4XzN5TENxbjY0cHg1STEyNDBHczBLNEIwZzdPV1V4Vm9sRXBJNVZPV2pBR1FyZWtCQnhaelBTc09JSV8tM2t6djFHbW9ha2R5NldldkpNdUpqZVlRN3NTTU9FRUhBeDNRREs3WUxMdk9kYmFDaGM1V2J3aThQWDZXdDlxcmF4R2VRZ1VJb01rbzJKanVTYkZuazBRcTZpZm1WNHR5SXltRkNlZ01qdEwwSElpRjlRS1dCbC1KZEE3cjlmV1V5NXg4WGJXVnNmYjNiRlR6?oc=5",
+      "title": "Why Is EchoStar (NASDAQ:ECHO) Down 11.11% in a Week Including a 4.04% Drop on October 14, and Is More Selling Ahead?",
+      "snippet": "kalkine.ca, 2026-10-15T07:00:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECHO/history",
+      "title": "ECHO daily price history (Yahoo Finance)",
+      "snippet": "close 85.37 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

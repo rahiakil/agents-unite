@@ -1,0 +1,49 @@
+{
+  "ticker": "COO",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cooper Companies\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRGpXNGJjTEF5Unl5SWtnT3Zpc1dhMkhWTV85X21SMnhrYjQ5T19iTDhxbHc3YzdZVTVQN2ZBTUIwOHVrQWRXdGh6MVlGems0eHNhWll0a2RvdFNsTVJtakhvMmJRbUdRUEJlVmJrQXMxZ2xweW1uUXJpZmJPOUNLMm5vcWFqX2c0UF9sYWF6NFkxbnNDSmFkR0JsT05ZaFdXS1I3WkQ1Vk4tamdLaEROZg?oc=5",
+      "title": "Piper Sandler Downgrades Cooper Companies(COO.US) to Hold Rating, Cuts Target Price to $59",
+      "snippet": "Moomoo, 2026-10-15T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.637,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COO/history",
+      "title": "COO daily price history (Yahoo Finance)",
+      "snippet": "close 57.94 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

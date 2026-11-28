@@ -1,0 +1,97 @@
+{
+  "ticker": "ON",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ON Semiconductor\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkJ3MHV1VkpKcWctX2FwWDdxWFdCeTY0VmgyMVlhbkduWHlyTm5ZY1dFNkM0Tkc5NGo0WHBad01TaFRtV2NGX05YSUZmRFNURkZVaFUtczFNV0ZWNjRzVUllV2s3dmZPdHhpbDNfTnJnOUpHZU9mVzNZcV9WU3g4RF8xUWVoUjgxRGFzN01R?oc=5",
+      "title": "Samsung Electronics, SK Hynix Weigh on Semiconductor ETFs",
+      "snippet": "\uc870\uc120\uc77c\ubcf4, 2026-10-15T07:00:00+00:00",
+      "publisher": "\uc870\uc120\uc77c\ubcf4",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM1V6YzQwLTcyZ0NHV1I0aVRBSjJwN3VCdExNSFZMMGVyR2lmUjhaUmZ0d2xTb3dQTWZ2Szk3WGdqV2ZHQlJwN19HVXVyY0hxTG81TjJHdFR6b0FYYXpOejA4MU4tUzhXZHNYV2NPdHRwaHVJWTN5aTkyNmNLZmI1MWJ5ckdUa29obVRBYlNJYXZRWHZubTZVTEl3REp4LXJaWG91ZWZVRjU0ZU1sYjBIQkk4bkZwT0FSdzVydE5NelR0YTN1Q2fSAcoBQVVfeXFMUGpOUlJaY0d3UDltRXc4a1c0b2F1VThJeFFzSW5JTTlfdFZ4TTlDM1pFU3IwbmYtcmRjNEZJSzZodnpEd2k4Z0lIUjBoMW1vLTdDNlVjb0llSjAyTEp3d2Z4NzczSXRRNm1qRzlIeXN2YnBqNXN3VzlIRmljNzdOdmxQcmdtU0YxTTFoRVRRdnFuR3lZMFdZWmxnRnM3dWttaWU1cjRSbUlkN0Rmb1JqazdUZl8zS3NQOS1kUVdUQlhmV29pVC1LN29BQQ?oc=5",
+      "title": "South Koreas Kospi index sinks more than 7% on semiconductor share sell-off over AI boom worries",
+      "snippet": "Daily Excelsior, 2026-10-13T07:00:00+00:00",
+      "publisher": "Daily Excelsior",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.778,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV0dJWk4ydFBpT0RhZ2VReFBXYm1ndkFMLTBaVGN4dGhHaDh4RUNQVDJiNnZ0YXlITnlKejRCMjdCLWR0Tm4wMDQxdzlNVWhSQ2wzV2Y0Y0I2c1NnNnhRcU82dWdybldSUU1kUzByaEw0UHR5TnBWV3A1S2RnOFNFRHlkdWJPUG1WS2lKTjdkSFlKdWRNZkZXRXJkMTNsdGtleEE?oc=5",
+      "title": "ON Semiconductor: Strong Cash Flow And AI Growth Potential (NASDAQ:ON)",
+      "snippet": "Seeking Alpha, 2026-10-13T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUjVQaDlKV3pzemcta29makN6NExmVjdFWkx4Mm9faTktMHJOZXNXZzBtbHF0V3Jid3NLOHBEWXdTZV83NEdXX3FMbnZfQnpfOHZqYUI1Wk9yUVNXOUNJZTF2RG9VRGlIcjdsMTBDLXZMdzVZdE1PTVdPSVpsaHhzNm9na9IBiAFBVV95cUxNRzhhS3BiRVJtUEVSVXlhQ2ZjRF9EQThfWEpnbEdLY2RDRTRhNWxGZVNzNzJXZ3FxbDdoVW5iZFNHVXYtLXg2SzIwQUFEaUxGeFZLckRmSTQwMlJsaklJUDBXR2lNUllMd2tLNFczRWJCX2NDY1FGQUU0aTNFSWc1MFhsRldVTFFo?oc=5",
+      "title": "Jim Cramer isn't giving up on semiconductor stocks despite the sell off. Here's why",
+      "snippet": "CNBC, 2026-10-13T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.258,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1dPMHZyS0t6TTVIYjdFSWFtWWRlUTF0UHMzM2wySzNUQXVmUVdJQjdtSUN5Vnk2dTZoM3JzMHpQVmJJbWoyd1pweWJmNUJpRU8zTjNxY3Q5Tldsakt1T3I0a0JxZXEzb1dOVFZJYTNyZjdWV2RYMW5nczM0UERob1JpbVdzUXFMZHQ3cGloMUluWEpLNl9hcGpQY1dPSnU4blZlTXJ3?oc=5",
+      "title": "Don't Sweat ON Semiconductor Stock's Recent Pullback",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ON/history",
+      "title": "ON daily price history (Yahoo Finance)",
+      "snippet": "close 72.02 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

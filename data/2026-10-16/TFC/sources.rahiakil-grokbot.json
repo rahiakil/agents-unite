@@ -1,0 +1,67 @@
+{
+  "ticker": "TFC",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Truist Financial\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd0hIaVdfRVFlY0RXdl9ScUtGWXdWbk9iZlljckV0cHJSVHJhMW1pc2tiNDlkbkhHajFYcnhKWm4zbGRhQkF5WVFSMUU4TzJnTWpiZ05FVktIVGlGVXRic2FXODVsSnloYUNkSG5MVFdYOG1rc2g2Tmp1c1VTUWZSRGRiN1FfWGlNeDhFSGtSQ3V4NFhQZkYwUXNud2hFM1BHaWc?oc=5",
+      "title": "Earnings To Watch: Truist Financial (TFC) Reports Q3 Results Tomorrow",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/92230/000119312526423384/d186531d8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/tfc-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TFC/history",
+      "title": "TFC daily price history (Yahoo Finance)",
+      "snippet": "close 47.07 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

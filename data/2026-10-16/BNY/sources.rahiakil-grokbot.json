@@ -1,0 +1,127 @@
+{
+  "ticker": "BNY",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONlNtZnd0U3lyN201OHJiMlgtb2pwMFA4S3NkT05RRDgwY1p3VElGRkR3S1UybTItc0R2ckJ5VEFFdUw0amRCUUFQNVBfLTBwU1Z3RG9zTGQ3eTg0SWFVMklaYjVKc1daeC1FR3AtOXBHYnZqOXpTS1dWWC16by1LMEtMR195S09rNjhwLVh0aHBHQUV4?oc=5",
+      "title": "What Bank of New York Mellon (BNY) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOczlTdlhhZlQwN0EtSDlFdGFIbW5UcFlNemFnV0dkTTRBSmk1S2xseXdIVVUxajFKWmVRN3hpb2t1dFpWTWJueE4wRFJrTW1yUmJuaHdKRnN5bXNHR1NkdkJpVm9zSkc4eWMzVnhoSENVdW0wRHhEM0RvbmtaOFRVaE9lbGdPODBpZ2h6ckUyMFZNdXdMdmJvMFRxekkyNUpvTlE?oc=5",
+      "title": "Bank of New York Mellon: AI-Driven Sell-Off Is Overdone (Upgrade) (NYSE:BNY)",
+      "snippet": "Seeking Alpha, 2026-10-15T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyZEY0dnpkMEkwRmkwd3BlakR3RHZuc3BoVzBGOFFkZlZiV0VNd2NPQlJONGZLSVdfRlBINDF1YWtlT3Rtd2pHS2lXR1RXazdZNEZ2RDR5dEljekQycl9famZtUnYzN01JcjZERXJVMkhpSEFpWFE?oc=5",
+      "title": "BNY Mellon Q3 Net Income Rises 20%; EPS of $2.34 Beats Estimates",
+      "snippet": "BigGo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2R5eFBfRm9RZUs1a21GNlB5RUlWbmtJWFVHa1NhM0hVd3Y0VHNPblczUldrbWx1UU5SQzlSMDVlX0g0YXNPQTBoMXhsdmRJUE1nVUNSXzNaaW1aRFU3Q0U4QndjQ2RNT0dKWlZrLTVVM2ZNNGp0TnJCX0gtZS13cmFOcE9zV0J0ME9UdHJSOWxfT3lCYWFXMkdzOXNRbmRmVmtXeHNCX29BY0lUY0RSWUI4UWIzYi1h?oc=5",
+      "title": "BNY Mellon Q3 2026 slides: 24% EPS growth, margins expand to 39%",
+      "snippet": "Investing.com, 2026-10-15T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVlUWDg5NHlvOVFIWUVnQURxZGpiMDdUdDdUelF4UnRZVXZGUTZ2Q1dqbmFQOTNMVDM5TGNNV3RhdGIxSG1ab2NNeTE4cXYyN2MtTzh0TmU1cHhrX3c2SkJZdXdub3lVbkg5RUpHYlRuRldMME16YV85ZldEaFdMNUMwQlFzVjY3cEFtMWVVdDdBZXkwaTlrdFVLWQ?oc=5",
+      "title": "BNY MELLON DRN (BONY34.SA) Q3 FY2026 earnings call transcript",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSG56RktRWEhpQjFEWmpvVldnUWZVZEJXNkpJdjlpR3Q2QXV1Zm13TVFQbGVObjlsTGZqZjJsR3NjQW5veXpVTkpiR1lkcEtYSE80Nkt4TmlnRWVuem96RGF3YmJrMHJRMG1BaG1tOTcxWmxIeC1GSFEtN05YV2hWdmJtTlpfWFVoSVJEVG9XM2xJQUNoMURXWUVKZw?oc=5",
+      "title": "Analysis of the BNY Mellon Global Infrastructure Income Fund",
+      "snippet": "RankiaPro, 2026-10-15T07:00:00+00:00",
+      "publisher": "RankiaPro",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000106/bk-20260811.htm",
+      "title": "SEC 8-K/A filed 2026-10-16",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/bk-20261015.htm",
+      "title": "SEC 8-K filed 2026-10-15",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 143.3 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

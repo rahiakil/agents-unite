@@ -1,0 +1,61 @@
+{
+  "ticker": "AWK",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"American Water Works\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVTI0cEhsSjBYOUMtcUtZTXpNZUZtU0pxZ3VZSjNjXzlock83d29HdFNyNGNGZkx6MzJpckphUC12Q2tZTWRBdmM5UkJ3WnFkVVBZdDdocU1wX2pHTEdhZFNtU1hxU2ZVdTRld2hxS1p3eVJRYmpoRU16ZUhhMThPdWw4dFhaS3dEQzZHeF9hdE1rSmZkaVk3dlM5YkRPUQ?oc=5",
+      "title": "Is American Water Works Company (AWK) Undervalued On Its Infrastructure Upgrade Plan?",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcU4zNkh4UUpUaU16TEpDM3hiSVVoU0VDX0EzYUJPWDEtdUkza3lkYk9hNm5Obk4wNFpuejl0SVYzVnZIVGh4ZS15NDd4X0E4dklrZEpqVHA4UGt0RUZleldwekdpd2ZhSzdDaUlBZGMtQ000VXdoMTRTbXZmazYyd3BQbVVUTngyNGZnaW15V1dxUHVSZWFRbG5Mdw?oc=5",
+      "title": "American Water Works (AWK) Stock May Be 16% Overvalued As Black Mountain Deal Closes",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AWK/history",
+      "title": "AWK daily price history (Yahoo Finance)",
+      "snippet": "close 134.94 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

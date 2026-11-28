@@ -1,0 +1,61 @@
+{
+  "ticker": "CLX",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnNFTk5yRjFYakZzTDhfQmdwX1hCVE1YZDhiV1U3d1lPdlE5OUMzX2VjanJ1SjAzbWE4dlNhOWg1ZGk0OE9MNmlmZDcycTJLeHZGTU1GM2VMTlo5bmR3Vi1xTmcwbERHeXVPRE5mdnZBS0ZqZ01PTm81LXZQNFhRVXl6dDRfUXpPZThWYVZNWDNBWWRrc1RyVXpiSQ?oc=5",
+      "title": "What to Expect From Clorox\u2019s Q1 2027 Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYXNTRVZfYUJFUDNXallyM1dZa3FZVlhOdElDZ2h3S1JKWl85UTlJMTJ2TDRvV09ZaVZFN3l6ZFppOGQ2a0RHX2lkd01GRFhReHQwT1BISF9qX2tuVWNNVktvYUxlRWhxV2Nla1lZamdDNUxQcTlkRXdBV2szMVBZMnZTa0s0ZThkaFdSTmRLbW5iUnI1R1dBeEFLWk9fOTJ1TlZMM0NxTFR4eDNEd1RSdDNlVnNhVkFBZ3VkenRn?oc=5",
+      "title": "Clorox Co. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-15T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 87.09 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

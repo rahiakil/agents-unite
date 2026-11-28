@@ -1,0 +1,97 @@
+{
+  "ticker": "CTSH",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cognizant\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 13,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd2VZZ3FhelMzOTZHSmtMajRscEFfV3BPY3J0UUdlZHBhU1QteDZsQzhiY1FnbjZhZDRaVy1jQnltR1BMZ2I2M292cjhaa1VQdmRoRFJwRmo3eS1jblhLVERhWW1tMkJZcmtxajNYaEVDODFLamx6eElQRk5PSWVMOFcyYU1hM0tvRDVSbnhZNzZVSzB5cGNCTXNxeDE5T1lEa1NGNy1xNmhJR2NDZnJWX3lKSWlWbzllaDJteW5Lb0pmall0V3ZoYmNUWkhueXdHaS1j0gHYAUFVX3lxTE5LVmZHMVY5TmNZeUQxWGFzMHNXRFpOSG5xblE3YlBZYWJVWEd3MEZCOHYyQTFvMkk1Z243R2gzNGZQM1gtSEkwSG9LUkViRmU2YUhnNC1Xb3B6UnE3cmRxY2ROalZreHRwUk5tRUxVU0V6aXh4ZDdFUy1GRk1YSE1Yd3ZRd2xrV0ZlZEZyUkpRMWJPWmg5V2dfY1Z5cE5Rb0hYcXJ4ZFg3NmhIbmlidEFhWVdrb2lKSzdfRFFWN2thZjU0ZVNSUl9mYmNkTWZqSEJFdVdKSktsVw?oc=5",
+      "title": "Cognizant leases 645,000 sq ft in Chennai at \u20b94.77 crore monthly rent",
+      "snippet": "Business Standard, 2026-10-15T07:00:00+00:00",
+      "publisher": "Business Standard",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNU0hLLWhWZVJtdjZDUHFzRFlhc2pIbVRmMUhmLWxxaGRXWjZPanBabHp2N0g5UGVUaDRlNm83M0RGZlNEdXlwRDg4b2FvMjB3R2hmdGtyQ3pVYlZuRmFqNl95SWY0VE5LTmxBUG5Fc21KQjRmRzBuVlR0dDhOZHdZZ0dObUZzNEEyMXhScW9DOGx4OV9MWWJmbEN5ZWhsSDMwTUk3U3ZDVHJfaHJLc1VlaEZRd1RaRmpXcTA0aUctTXhoWnYwdWhiOXFTakR0ZkZ6aTlsVlRDdC1FQXhpTXNQeGFka9IB6gFBVV95cUxPQVdLMV8takZnNjlKdWphN2VaQ1l1cmZMQmdEa0J4OWZGVFpmdjJTOGN0aGhGQkQwa1l6d1A5NFlGNEtBenNTb082NlJHdVFhc0U3U0pTdVZOTW9KMTFxTDg2M3hCQzlyQVZwbGJQTlNmSDdfUmFPYXFMNFktaF9ZUWUxb0c5Q2l6VG1CWkNCWW5KNnBLZWp6WWpOZ2YtallnNS0tdC1ET1ptOWcxTVhjbER4SE1xUmhMSWk5SVhZYzY3YjdIMTJ1R2tHR0swV1NSOUVoQlAwY3lwZkJHbTNNZUlCRlF3MUJTZXc?oc=5",
+      "title": "Cognizant launches new business unit for AI transformation of emerging enterprises",
+      "snippet": "BusinessLine, 2026-10-15T07:00:00+00:00",
+      "publisher": "BusinessLine",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdEZPczRuZGtoMU1EdGlfcUx2QzJrLWlDTkM4NGpzamg2SVhqSU1uaU1YVGNzblc0WjNuOTYwdW5YVnlFVmtXN1EzRzRKZ3B4THY1cUpLTEVMOVpzS3N5bEZieXQ2cGVURlVSU0pHWVpjZDQtajB5T2VMNGsxTy1QLTlXejJudXc1UDQxZDRBM0Faem5SMFEzbk5RbW4waEd1S1hBb3UyME01M3ZoWThpQnNONTdDMkZHbTNHdVFjUFNrMFR1R25qcDZ4WXR3OWNFQUd2cTBLVU1FS0JBY1FZaw?oc=5",
+      "title": "Cognizant Technology Solutions Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-14T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmEtYjd2Qml1ZGZveTRlanJ4S25rWUZtdFowelJ2VDFscHAzNnQ0TDJjOC1BcjR1YWZ4dnJ0RktaR09lOEN3Z25henV1N1BRRHo2dmZoNjNiLWVBVE0xUVVOS29MdlhPMmJlUEhxOThTeUU0T21TUjdrTU5YSU1YVFVHZjd1SkVjZVlSZlBQTVlUb0VTeHFWeXF6QmpWaTV0cTJqaHJKQ2pvZWJwWHowVjU4akhxbW4xQmVDcWd2NWhNY0R3dVp3?oc=5",
+      "title": "Bear Trap Cognizant Classic ticket prices reduced by more than 50% compared to 2026",
+      "snippet": "WPTV, 2026-10-14T07:00:00+00:00",
+      "publisher": "WPTV",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmwzLVZoVFg3N0IxTHpVbGxtSXZaR3NJNGx2TUlHbXAzZThwUDhWdEN4NHZtalo0SjJyWm5VRkVxa3hjdkRTUGp2djFpcDBwTWhVRl9FWEZkSjRobFVUVnVsa3E4cEt2XzlVVFdCdWRNM0xiRTRocEZfTzJUQ3kyUDRycF9NVGdNVFAxZ1ZXVkd5NUJFREw0SVZ1UnVXc1B1NzFGQkxJNTVzSUZwQlM2QVh2cmh0dXhTaFBkVUtZS3pPMXhSaVdF?oc=5",
+      "title": "Cognizant rises as investors weigh stronger outlook, fresh financing, and upcoming earnings | CTSH Stock News",
+      "snippet": "Quiver Quantitative, 2026-10-13T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTSH/history",
+      "title": "CTSH daily price history (Yahoo Finance)",
+      "snippet": "close 66.03 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

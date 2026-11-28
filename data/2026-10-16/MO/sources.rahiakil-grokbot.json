@@ -1,0 +1,133 @@
+{
+  "ticker": "MO",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Altria\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY3AxcmpFSlI2QjFRZjUtSmRpMjFkdks1eWdvd3BIVUlnY0xaNjRvVnJKZF9GVEQzM25nZ1lJaHphRUVTRzlzSF9NUE4wWkdWVk5ZTlRaZ1FBYU45ZnNBNnpSMVljZ2d6d0ljekphc0VYUXRtel95REFPTU94bjBoQnVlT09vMUJMS2Y1Qm51dzI4WW4wb1RkY3BzamN0S2o2QUFpZ3ZoMFMzS1U?oc=5",
+      "title": "Do Altria\u2019s Dividends Make Up For A Lagging Stock?",
+      "snippet": "Trefis, 2026-10-15T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeTNtLUV5QnhZZXA3enkxTWh5emx6LUVCM3hzM2wwcWRBX0V6WjJBd2dzWXFxYnZPWXJZeDNqRUNZSXlURXZ5ZEplZXJIamk2ZEwzb0hkU3pxcFoteF9wX1pVcUw1VHMxUkYyY3hPUkJpMGQxc1lVMy1Cb1JBRVBfejZISU9GOTNhLVZVVzJR?oc=5",
+      "title": "Altria's stock outperforms with 6.2% yield desp...",
+      "snippet": "Pluang, 2026-10-15T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSDl4bGlISGVEMklRdW5XamNVOVRqVHI3NDdvSUl6QVVRUl96NmRTdWNMRDhIbi1OZ2FyV1ZLZUkwV195cmJwVmh0MHFzeDZESlBUdzJOYXpzY19aUG45MmVNNmRuR0o4dVlPdDBDM3E1U3NLY0VyTC1EeGRjQnFPaFJ5aHFVQWszSEkzMGFJRTlNZkxGb3lfWGhWU2FEUWdVTWk5RXVtUGI3aC1ZbVlZeVJiNFA4QjViaWlONjBucWRwVzY1eVpzRElCcEp0b1ZGY1VLUEM1Y0ZFQUM5SEJDa3ZJaw?oc=5",
+      "title": "Altria Group (NYSE:MO): A High-Yield Dividend Stock With Strong Quality but Payout Sustainability Risks",
+      "snippet": "ChartMill, 2026-10-15T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObGZfckIzUF9vWklwdy1HcGVhZ2s2UERwSlY1Z2pmX0pLZFNnd2wyZTNUR0FsRnAxRFhyay0wY213eE5LeTNBN2hXejE1dmJLTEo1ZjYwZDR4Z3k4OEEyNnFGX2RkRkpNNWNrbEp4bVZVT3V3Q1F6Z1Vsamx0SjVQTEhoWEYwVVRSLUJmNWJHcndUSF83T0Z2Ni10OWhwem8?oc=5",
+      "title": "What You Need To Know Ahead of Altria Group's Earnings Release",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSVBUM0ExOC13bmNtYVNTbjcxc0g2VVN6Qk96ZThyZGtpZkEzRl9EeXJ2Y1AxMFlMRm5Dc1U0UGtTMjdfT0Q1OTRLNDVDdnVVTVV1Z1dfT0RnaVVMRDNYNTVwcU9GdklXUkFzSnRzUGd4SVBRbVR1ZWtMM2ZUSU5kaUpZbTRGVF81eXNLb0hQZVNYckVE?oc=5",
+      "title": "Altria Group\u2019s 6.2% Dividend Yield: Is the Stock Worth Buying Now?",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZVVka2tzWjBuazFfREFncDZpcjFSSVl0YjdNNE5PdWVLQTQ5OTZ6MU1laFBIcmNoRkdjU195Qk9xUlhWS3NfMUxCMXE2LXZuWGQ5V216eUxxV0plNGtXUk5COUpDbmg4eHpOYVlIbjZfb25samhFRUV4TTg4Y0NaM3RvblZtQzZWMUdESmRFSkdvNXpRVkZsMExJYw?oc=5",
+      "title": "Altria (MO) Ascends While Market Falls: Some Facts to Note",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXdib0xaczdKREZxV1pySXZ5Z0xiQi1jSkJMdndvcmhDU0E2c1RYRWIwTjF2TGR5VExnT0pWYkg5TjdCcU4tMTRRd28xTmExMTBKLUpLbnlmWVRBTXU5bGlta1JTNTRaU3d2Rno1bUFySWVCWlduM1RZbXBfcmJDcExwWmVFeU9aRXpNZ2tKNjdxU1lQRmMyelAyX0ZJRGs?oc=5",
+      "title": "Altria: The Rally Looks Ahead Of Underlying Earnings Growth",
+      "snippet": "Seeking Alpha, 2026-10-13T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV29sb01XR21Cb09HbkR6WERZZzdUY0JpX3BRMEpKQ1pBbVMweko2bm9nS3A3Ty1saURnUXpCdExyaFpqVzMxSFRJQXlPN3BfM1BmRHQzTWRzODl1WDFDUTkzc2czUTJ5REtORUg0ZW9KeWxMVmw1WnRFaDJSTHQwQi1rNHVfbTJoWXRYSFdlREhyeENPSU90Vzhn?oc=5",
+      "title": "Altria: Still In Danger Of Getting Stubbed - Strong Sell (NYSE:MO)",
+      "snippet": "Seeking Alpha, 2026-10-13T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MO/history",
+      "title": "MO daily price history (Yahoo Finance)",
+      "snippet": "close 75.11 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "CDW",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CDW\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMzYyS2RXcmY5eTh2R0ZMWmFOV0ZqV3JpLUQ2ckVzLVRKRjdDUjljdGYxRzVJVUNvNVRxazB2endEVHZBNWtWRWFVcHQ1aWJ3N1YxenZHS3BmT2l0eXQtUUM0U3kwajJaeXZGWUFBUUNRZ0c3QVUtQ0Q0VWZiWEswRXdRTjBGS0RPMW9PQTR2QW15OHNlSVZoS3FhNlo?oc=5",
+      "title": "CDW Canada Awarded Canadian Partner Excellence Award by Dell Technologies for the Fifth Consecutive Year",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.883,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb3gyTnBpZnBKQTBPdjUtb1p2ek5MQS14MlVfVmF6cklnR1BNSi1KRlA5U3NpcFB1VkIzVVRxSWhUbTI5U0QyV2Z3WkhyNVdMS2FGdVJwVWxLVndUT05nWkJrcVJ1ZU5uRHZ2RF9YUHE0VU1OeXhkMmRsQWpFaUJqeDZtbzFkTVNkcFhJY19qb20yT2Jx?oc=5",
+      "title": "CDW Stock is Up 7 Days in a Row, Will the Run Continue?",
+      "snippet": "AskTraders.com, 2026-10-13T07:00:00+00:00",
+      "publisher": "AskTraders.com",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CDW/history",
+      "title": "CDW daily price history (Yahoo Finance)",
+      "snippet": "close 150.48 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

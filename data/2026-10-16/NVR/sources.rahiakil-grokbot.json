@@ -1,0 +1,61 @@
+{
+  "ticker": "NVR",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NVR\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaHQ4MWR6eXdKU1lHOVdZRGYxQ2FJblk1cWpJV21MVEZrdlpQaGNxOTBMUzBhcThvWXIwN0RxUEwzVk54eFMzd2EzeUFvanljcWQ2TWtDbmFIM3lLVzk0ME5DVy1FNmQ2Y3FFdjZDTV9lNWhmT0NqMFdmN0dwZ3ZYeV9jNUVyWk80eE8tZ3gyQ1hZcWZLWmsyRkZmU3FVSjktWEpEUFVhYVZqX25JUHVnZGNyNl8zX2Y3cGduMVE4WTNCVlZvVGhyWkJ4Q2VVVUZiYjQ0dVExZjQ1aDNCenc?oc=5",
+      "title": "NVR Inc. stock underperforms Thursday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-15T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNVhZV0J4aExuMGduRTNfMmxZT0pmdm4ya3F0VldfMmRVZHN2TnlFejBrYm43d1FMV1R5ck9yQWUxRDhjT1Itd0ozNmJnVXFPaVVQa21xTllaUF9POTQzdF9VSkd4Z1l1OFhTTXp3aVdlSFpVT3NVazVoWlhnVXAyTmpIc2xHeENfOEdCNlY4QzE4N2ZFQTBtdW9ONkJGZXdyYk9sVXA1R054dXd4SVhDTVZNQXJCU0lvVUFxaHpqNW4?oc=5",
+      "title": "NVR Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-14T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NVR/history",
+      "title": "NVR daily price history (Yahoo Finance)",
+      "snippet": "close 5919.8198 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

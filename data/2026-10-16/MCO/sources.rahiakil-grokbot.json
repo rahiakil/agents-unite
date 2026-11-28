@@ -1,0 +1,94 @@
+{
+  "ticker": "MCO",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moody's\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMnB5dnU4ZjB5WVJFX1dmdjUwME94SU1Pa2htLVMxSDhUWFRaZGdnWWtxQUp2TnF2MU1Ua3VWZEVYdXlMOERiUjdYN04wYmRDQ01LQXlvZS1Lc3hNdXl2R0FDMTRaZG9OX09wTEhMX2F4bXpnXzloZUNFWm13d1JWYmNLamU?oc=5",
+      "title": "Moody's Surges 4% After Hours, Adding Roughly $3 Billion in Market Cap",
+      "snippet": "24/7 Wall St., 2026-10-15T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMmozaGxZY3N0N0VJMk1HR0FvVS1YdVRWNUtjVGpvZVh1SmlpSWJSZHNyQmdUZUM0YmlfNzlIUms0bjVuT0lKV2E3c01oRE1oeUZ4djNGdGJxWDhkRmlGNUpQRWt3Z3ZMTFVMbGNFUEZ3Z3paaFk0WXFNSFJ4UnAwU3VWMHc2bWtCM2drUmlEMjkwR1o4ZkFiQmZLajJNS2c?oc=5",
+      "title": "Aurangzeb meets Moody's, seeks stronger sovereign rating",
+      "snippet": "Investify, 2026-10-15T07:00:00+00:00",
+      "publisher": "Investify",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHJXUzg4MlctXzhkSDBsVlFFTXY3NmVTWTJXaURCWnJPVkt1R2N3LXRTdjRxTk81TmtrYVJMbTI4X2l4LTE4Q0daRkJhZnRNX0htU2xQNFl6b1BWY2x0Z0VURGJPTmNBNnZ6cjFBTEdKOWM5ak82LUxoZG5VNWR6N1F3TjlHNzRhQUwwblRCRlRtb2Y4N2l3RFdEekVEajgyNkoyczh3YUtjc05Jc2w4UUpmaUhjUGFQcnIzQnp3?oc=5",
+      "title": "Moody's Raises Ghana's Credit Rating to B3",
+      "snippet": "Dabafinance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Dabafinance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVG9Jb1Y5SE1EbWR1ZFNYQjFWNzdneU55RHcyOVp2YVRxRnR2d1Y0RjI0Q3V4TFpQSC1EOXQ2dGk0R1FIbFowN2RPT3lrNlNRSTMyZGNXRzh2VlNBUHpjdGppTUdDM0JLN0hpSHJ6VHN6b0V1LW1fV0JPUVh3a1ZwcVBNRU11LXY1amFaS0w1Z3lwTUJCbUlN?oc=5",
+      "title": "Moody's Local M\u00e9xico Assigns Investment-Grade National-Scale Ratings to Grupo Trafalgar's Broker-Dealer and SOFIPO Subsidiaries",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1059556/000105955626000041/mco-20260811.htm",
+      "title": "SEC 8-K/A filed 2026-10-15",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCO/history",
+      "title": "MCO daily price history (Yahoo Finance)",
+      "snippet": "close 485.07 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

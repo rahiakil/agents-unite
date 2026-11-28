@@ -1,0 +1,97 @@
+{
+  "ticker": "EME",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMFBEWXNYMTNDTFFxek9wU0J6Sng0QzVCbEdBcG1XR2Y1QnVLNWhIR0lKWUNfU0xFSWlNVF9qZEJSZlpFeDRIZXZqdWQtUFpRSWVlaW5LVEVPQ1gyWUVRdTNJbUJ6NUxySnRCQ3dOMVg0RFRkRk9oZ1ZaVDdwYkRMNGFrcVdSQ21VeXBDZk82MEFCemcxVFN1T3ExQQ?oc=5",
+      "title": "Emcor Group (EME) Stock Declines While Market Improves: Some Information for Investors",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmVQYTRwbkpuZHZGZ2ZsYi1MV3NoeVdiblItQlRlWW55aG1nSVdmUGtFSVBvVUhJeUFRVDFMcHc2T3BzNFJVYUJ3Ym0xZ240TUZfYWJjb3dvYThHZjliVmNGYXhFWVpjUUU5NmpKTGNfTmprQnloZEJvMnpRWjlwb0dBbUM5QTlXUTMzU1Z3YXgxU3Vmd0JpdzJURWRpU0NmSF9hZTR4bDdUTGxTVWlJ?oc=5",
+      "title": "EMCOR: Hold While The Multiple Exceeds Every Year-End Level Since 2021 (NYSE:EME)",
+      "snippet": "Seeking Alpha, 2026-10-15T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2lTbDhoRE42eW1KdS04a2lZMFJnMFVWS0Z6RlUwaFNGdW9FWWpLYTd2ZldzTElCMmgxVE9zQXRxUkhEendDYVpNVWpyRmh3eWxKY2lOeHUtYzhNdTBUY3B1WjNOM2diX1YzNmhMUmhjVUJGS3c0d3J1UFI3RFpIZk45UndZQnJ4M0JaSmJGQWs5MzRHdnc?oc=5",
+      "title": "EMCOR Group, Inc. Sets Third Quarter 2026 Earnings Release Date and Webcast",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWgzMS1PN2xNSGNZWllRb1paVjBsel9zN09NYWtfSEZVaHFCTElHbTFMQjVSa0JUT3hXTGRLUmExUUNzenJ2a3VEbG9OcWxwZFhYQ3ZfUFljeEVnTUZrZFFDWk9hQmRMUElZSHVlb3d3ckh3Y0NyQ2JaWTF3QXhiTm9hNy1HbHZVTGhYeTBKNU1wQU9IeGc?oc=5",
+      "title": "EMCOR Group (EME): Why Claude Put 14.5% of Its AI Portfolio in a Data Center Contractor",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWXFMRHIydU04QkZHbTFFNXJuUXBKbEdfN2QxSDlJTHE4Y2ZEbVcxZXE1eHFac0hXZEVEd0g5YWh3SzRpLWllOUxJd1IxNzVKQmI1RlhXTUJFZVY5d1JpQXJXVEtWNmg4Z1lrVUI3b3FEYlUyR3hkTkdDWktKQVNMWVQyU29kc0xrQnViMzNubzBHUzJv?oc=5",
+      "title": "Emcor Group (EME) Dips More Than Broader Market: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 721.66 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

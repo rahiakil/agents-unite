@@ -1,0 +1,49 @@
+{
+  "ticker": "TEL",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TE Connectivity\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 5,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN2IxM1ViOWlLWlFCNFR4TGpSY1htLUFtQkxwOWJpWV80TWQydUtyemVEOUpkNHY0TVBkRDZvaU15TFNQT0FOTWhpWWg1ckw3Y1ltMFQ2bnh3V2dHLTlSbkdpdllKd0FieTNvRVpuSVdCY1JkRG5XSU1wNzVQdDNDVHE4dG1KdURKQ3RqLWlINVAyTk1OZHFOMFp2T2xSUGVldXNueF9XUmlqRl9hcm9aenVPdGtQc3dtZXk1OWN4MnU1VW8?oc=5",
+      "title": "TE Connectivity: Solid Q3 Beat, But Low AI Mix And CPO Threat Keep Me On The Sidelines",
+      "snippet": "Seeking Alpha, 2026-10-14T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.714,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TEL/history",
+      "title": "TEL daily price history (Yahoo Finance)",
+      "snippet": "close 212.64 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

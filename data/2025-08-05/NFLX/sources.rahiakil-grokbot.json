@@ -1,0 +1,61 @@
+{
+  "ticker": "NFLX",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Netflix\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaEp4SlIwX0FnX05sdldhb2g1d0dDV2xScXBVcDZ1cjk0Umw4VFpWX2JmYU1JX055X1ZWcm9vbHpDLXVOU3hGbTV2MnZIWUNIeUQyVUdFR3ZpckJzNXhBUGY4MnBmci1rYWx5Q2FFZVpmb19GNlhWNktzTHZ6el96X3l4dHJnelRkZnNRenIyTWh5RFZwa2syN2pn?oc=5",
+      "title": "Netflix fans share verdict on number 1 romcom My Oxford Year: 'It's worth the pain'",
+      "snippet": "HELLO!, 2025-08-04T07:00:00+00:00",
+      "publisher": "HELLO!",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSW5ITHdRbThvMmJKMVowMThCMXdxcTk5VWNUWUVGcmV1aV9rbC1yaE9oX0oxNURNRGtNOXZhalYxQklwak5HOEJ2Vk9MRHg2Yml5SlNodmtoOGtoRlAweUpiVWhkMUdvWXIxVUZocWlCVzNuMDlRU2xqWjQyVHREUm9tZ3ExTHRwYTlpTFdPdmNGUEdTUnFpOHRwOA?oc=5",
+      "title": "Mae Martin\u2019s New Netflix Thriller \u2018Wayward\u2019 Looks Creepy AF - And We\u2019re In",
+      "snippet": "GO Magazine, 2025-08-04T07:00:00+00:00",
+      "publisher": "GO Magazine",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NFLX/history",
+      "title": "NFLX daily price history (Yahoo Finance)",
+      "snippet": "close 114.787 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

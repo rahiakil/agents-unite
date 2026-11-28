@@ -1,0 +1,49 @@
+{
+  "ticker": "RDDT",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Reddit\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQT2pNRlh0LW44YXJlSDh5aFJvMjV6WEpnc1N3X1FwZmxHckZHa3ZLWkdnZGlxQnJ6X2dMUXlPY1Q0RGgxSDBpUzY0dG9JbUY2UVBZMUJVTWxJSjNFaEdPbXZsZ3VVdlBGdVNEVUF3M2VQaV80bW82MHdhYU5Vd2MzV2JqUkY4cjNULUExM0kzam14YzhrdE9CaUdfWDYtZHRpUlAxZkszQzV1UC1nZ0MzRnplbTRMNzh5ZUJRdTJPd0xPMFc5aXlBTFE0RVduNno5XzYyOEM4aVVJczg4V2RkampuX1F3S0c2aGd1MTdBT2dHZU84VWd2dHRadXF0eVlGQ2FrbmVILTVVZDBIUG9pSG42NXBqRkwwd1JSeDU0UUg2WFJGd3VFWHJ30gGvAkFVX3lxTE1LTVNTblpMa0RkVGN6TGVPY0xPLUx5R3FxaE41UlZ6UXdzNnA1RUY5M2p3S2hSLXV4b1JoTUxVbkI1UmltM1Y5YnQ4RFo0Q044ZnVtY1NkdXhIZkRBdW8yNW9JeUREcWt6Qmd1QWp3UmZPam83ZVYwNXFiRFNwNVVKeGhjazJ4ZDNxS2FpTVlsSExpakJKMEpaVV91Ukd5cWdQRVB5NE9MSzdZWklmQzdvaDE5Mk5MWERwdkd2YTNkTWRjOFdOZ0M5RjJUYTVOMkc4ZV9uLWQxQTVRelNFVXF1TGItcllzLU5mRzEtVXZaSWw3MUMtdkpnczdCeEFBMDh0T1NYZmFMdFNnSWhfTGhzMi05VlloZFNZdldWaEZPZ0Rmb1AyS1dUcmpMaURuOA?oc=5",
+      "title": "Reddit CEO Steven Hu\ufb00man sends 'search engine' warning to Google: \u2018Just about anybody using Google at thi",
+      "snippet": "The Times of India, 2025-08-04T07:00:00+00:00",
+      "publisher": "The Times of India",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RDDT/history",
+      "title": "RDDT daily price history (Yahoo Finance)",
+      "snippet": "close 199.09 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

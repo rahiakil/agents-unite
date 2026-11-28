@@ -1,0 +1,49 @@
+{
+  "ticker": "LYB",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2RaM1A4ZkxvWFRCTlFDVzRYUFE3UVhzX0xMMGt1NmcteFpwY1ptRjJzekIxNmNlUEs0cjRLMGVnWDl6V1UxRk5fRWszOWU3RTd0cVd4dmt3YlcyMmhPaEVBWFhFblRIMms0YkVDNkM5Q0I5dnhqbFZVQVNhOXBvYXJZY09tby1DTmdsaHhqcHc3R3NFMlUwVk54RnM4QQ?oc=5",
+      "title": "LyondellBasell Declares $1.37 Per Share Dividend to Shareholders | LYB Stock News",
+      "snippet": "Quiver Quantitative, 2025-08-04T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.786,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 51.98 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

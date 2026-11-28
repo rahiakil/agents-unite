@@ -1,0 +1,49 @@
+{
+  "ticker": "KKR",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KKR\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUp5ZW84VUF3VHBYZWpwMWp2MUtxWW5qOVl6LTE0d3R5elR1ZXZlNVd3d2YxTVBXa3JlNHd0UDhLYjFOM0czcWdwMVdwbXBtejlIN2RkTkxkYVJ5eFdhclI1cnM4ZlQxTk4wVEE2bE5Da3g3VVNXTlBWLW5jbGxrUkhNNkJBaWJ3WjMtNmZwVFNGLUNycDZrcmRoNXJnUGhSYzJORnRzb1FjNXJGN3U2ZkRPOG90RUs5WlE?oc=5",
+      "title": "Clifford Chance is advising KKR on its strategic partnership with Harley-Davidson",
+      "snippet": "Clifford Chance, 2025-08-04T07:00:00+00:00",
+      "publisher": "Clifford Chance",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KKR/history",
+      "title": "KKR daily price history (Yahoo Finance)",
+      "snippet": "close 142.66 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

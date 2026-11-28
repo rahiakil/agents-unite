@@ -1,0 +1,70 @@
+{
+  "ticker": "COIN",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Coinbase\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT1lnb1BRRXdnN3FORkw5R2dDaF9MOE1JRXZuWTBQUWtUa3AyOVBWeVlOUl84ajZ6d1ZpN0s4d2MxVFhsdkVBRUtIWXJ0QlJHSUxfbEV6OHZDNXRPZ0NISzl6MnRpR05MaEp4aGlCTWMzdWd4TXZMTVlPRHZad0U2VmlOT3BieUM2SjIxb1R5MmVLRzBLY3F2dng4NlnSAaIBQVVfeXFMTkJkTnZWUm8weWV3LWhWaW5uNk0yVVhZU2ZBSDd5a0pTXzJtRXRrTjlHRWwzY2pHTVhBOFhPNkI5S0o1a0FhWlVUNUgzS2MwZkFMRU1reUllYUtQcVNzaFE1SjZYVkcwcGRSZFE0ZG5pWW9DZUZfNGhfVTlhUDNFeF8yR1JLaDVPUzJOcldzZzhPUlpXaTUzaG9WaUh6cnVRX3ZR?oc=5",
+      "title": "Coinbase\u2019s UK musical ad hits a nerve - sparking debate from crypto fans to founders",
+      "snippet": "CNBC, 2025-08-04T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOEo5WVJvV0tzLS1KOU8tTDRGdW53UEJfamtqXzZ0YmNqNE8zT3BkZThVT2pEX2F1OWdVRzlWQUJuYWZKVUpMdGNaSWtLVHczZU9jb1dMZUF5OEJuLWdCQ0FhRFlvbC1UcEIxYXB0enFuLXhtRHFVU0wxZ21tbFFhZjQxWQ?oc=5",
+      "title": "Coinbase Will Pay You to Learn About Crypto - Here's How to Claim Up to $400 for Free",
+      "snippet": "Yahoo Finance, 2025-08-04T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000163/coin-20250805.htm",
+      "title": "SEC 8-K filed 2025-08-05",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COIN/history",
+      "title": "COIN daily price history (Yahoo Finance)",
+      "snippet": "close 297.99 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

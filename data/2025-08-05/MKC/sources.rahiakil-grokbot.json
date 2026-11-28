@@ -1,0 +1,61 @@
+{
+  "ticker": "MKC",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McCormick\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMRURMa1hHSGdCSjZFS2JISXFoeEJBZ0RLQlF4Y0xFLUt0T25FQjRJWmZnMXN2YlNtcGlxQXlaQ2YyeHZkOXFfR2I0Y0Exb3VpUlVhWlU0SjROYlpGRmZRYUw4MjE2QkdBcFRoLXZn?oc=5",
+      "title": "Obituary for Elizabeth Katherine (McPartland) McCormick",
+      "snippet": "Robert A. Evans Jr. Funeral Home, 2025-08-03T07:00:00+00:00",
+      "publisher": "Robert A. Evans Jr. Funeral Home",
+      "published": "2025-08-03T07:00:00+00:00",
+      "published_date": "2025-08-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWkJfYndDbHpwamRTWHY1cnNvejZaaDM4eUdtVTQwWXY2UHg2eUpoVEtJeE1CZXdQbEpOWWNUd0pIczQxRGdjLXUySDJHT08yQmZCcklrbU1fdnRJM0FvRUFqbmJudVhGd3B3QVpLa1FJWkZtNmVSbWtrV0FpOTRiQWtGYVpNUWRwSWNDWHdlYkhiRWxnUDNvWXJSaWtOc1NES19MZHd2QW10Z1dpbkdnWHZfTjdIdzdQdjRNME9mTQ?oc=5",
+      "title": "How Josh Shapiro and Dave McCormick are forging \u2018Pennsylvania\u2019s destiny\u2019 with bipartisan approach",
+      "snippet": "Pittsburgh Post-Gazette, 2025-08-03T07:00:00+00:00",
+      "publisher": "Pittsburgh Post-Gazette",
+      "published": "2025-08-03T07:00:00+00:00",
+      "published_date": "2025-08-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MKC/history",
+      "title": "MKC daily price history (Yahoo Finance)",
+      "snippet": "close 69.75 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

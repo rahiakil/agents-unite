@@ -1,0 +1,61 @@
+{
+  "ticker": "SBUX",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Starbucks\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFBDcFhyUzRlTHhxSnpKdU9pQmRJQW5XU1ZwSS1mdFVjemZSRk4yRVlzYnVSY3JsNXhra0s5YVVoby1RWmxMWmRrQ2NkVkVmbktTeE9kTERVVU1sczR1SFVIVUxHQ0FUMGRXcVA4a1JaRFJkVnE0WHNTZHVpbDUyQ1ZTNXRUSkZqVmkzY2htSmZjOWZqUDZzai1WbU5vWV9pZVZzdNIBqgFBVV95cUxPS21xMklXejRaSXh1U3pjTDRHNHpwaVpqSWFqMXJ3bVNrdEZiemthZmQ3UXU0QzJvN2dOYVo3RUtxU3FBWXJrZzhCTmpPZklWanJXQ3lzMEt3UHdVaEJiU0tqQzNJcGptY3JsV2xiek1FMFBXY0Z6QnFVVkh4SEJialhDbDdPN01FaG5YUi1wVTJsTEdfUkhkTk9ZS0NlVEVNWlluUDlTSlNIUQ?oc=5",
+      "title": "Starbucks fans say 'something is missing' as autumn menu unveiled",
+      "snippet": "Liverpool Echo, 2025-08-04T07:00:00+00:00",
+      "publisher": "Liverpool Echo",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObV90VlNwT1ZKaGhVSnZJMm43U1FVdjN5eXZYRy1uVHVMQVgxejU3ZTQ5RVAzYjd1dXFUWmVEUWNwNUtoZ21jV0wxemVYZ3YyLXR6cGV4WDV4cHBISlc3U3BhMlF4Sk9Gek9XWC1haHI3ZUZPcWh4YWo3Mzg0Q2xyczFod3dBM0lIeE9SdGdJQnhSTGR0Nk5V0gGcAUFVX3lxTE1Dc2MtMXBfSE9EaktCWWR2WlpiOXhjZHNtNWpZaDFyU1NVS0pUYkgzakJWOVp6UHIzaEJvVjRkbTF6Qjd1V2NjYzIwSFB0SWVleVhqbnVXX083WEt2eFFPOFhjY2R1bU5YbVVfVmRCZ290d1lCTEVtbTNTb0RBVnpETlRIaVVWT1lJU0xxWFN1WG9sQmVNUFhoUGRseQ?oc=5",
+      "title": "Starbucks fans 'heartbroken' as they notice one thing 'missing' from autumn menu",
+      "snippet": "The Mirror, 2025-08-04T07:00:00+00:00",
+      "publisher": "The Mirror",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.758,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SBUX/history",
+      "title": "SBUX daily price history (Yahoo Finance)",
+      "snippet": "close 90.2 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

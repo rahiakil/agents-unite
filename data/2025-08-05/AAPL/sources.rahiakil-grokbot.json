@@ -1,0 +1,61 @@
+{
+  "ticker": "AAPL",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apple\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVHdwWnc1WWFQbUt5aDY5cVJkODk5WU5COTlGRTR5RjFZUzgzZlMtVHRrdGpQMkFLVnI5d2xHTmJmMXhvbmhyMlViWC0xWFRST1FuNDBhNGJlRUpjU1YxYmltZ1I4S1BBc09KN2FuNFNPSmZYeWtYRzlqOGhWT1FGN25fLUpRVmhKZWlSWA?oc=5",
+      "title": "Apple (AAPL) International Revenue in Focus: Trends and Expectations",
+      "snippet": "Yahoo Finance, 2025-08-04T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMnJBU0JrLWZXUmpUZjlwYWxUWER4WlRoQTBFMkhycGJ4SUItY2ktYzFxRkRKczlleklRcDVjTExwcmp6bVBIT2l5R0ZkbXJTVUZoN0FTOHZOc0dvb242X0ptNmhfZFpGc0p0b1NaWWFyMHBqREJwOXBYSkRqcFBiRQ?oc=5",
+      "title": "Here's How You Can Earn $100 In Passive Income By Investing In Apple Hospitality REIT Stock",
+      "snippet": "Yahoo Finance, 2025-08-02T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "title": "AAPL daily price history (Yahoo Finance)",
+      "snippet": "close 202.92 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

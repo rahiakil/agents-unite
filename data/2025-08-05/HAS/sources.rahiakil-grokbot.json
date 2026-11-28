@@ -1,0 +1,61 @@
+{
+  "ticker": "HAS",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hasbro\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zQjFqM1hmaWNmVHVwWUVqdENfVnh6cC1STWFIT2d6RF93Q040cGNjMmdIUUl3eThSTy01LWxuVmtHRVZSelBSVkxkNThUS2c5cHFST0txQzl4NHhLc3c?oc=5",
+      "title": "Liam Neeson's 'Battleship': The $220 Million Flop That Sank Universal's Hasbro Cinematic Universe",
+      "snippet": "Collider, 2025-08-02T07:00:00+00:00",
+      "publisher": "Collider",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU2plbkFSRjc1eUpQX3BhRmQ5ZTJQQWNfYlV4d203OTZlaHpQQldCQ2xGb3hUMVV4dUZNRTRhazEwLVlNMW1namxDVXdLOTRYOXE5Uzk5QjNpelBvbjlqbFBIVGVqMUNaSE8zTjZmSnVmQWlzRXJZakVCYnY1a05sR0M1TkJCQ1VpMmI0MVZHdGtPczcwRzRObk90N3VpYUVv?oc=5",
+      "title": "Hasbro is entering the romantasy universe with a \u2018Fourth Wing\u2019 board game",
+      "snippet": "Fast Company, 2025-08-02T07:00:00+00:00",
+      "publisher": "Fast Company",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAS/history",
+      "title": "HAS daily price history (Yahoo Finance)",
+      "snippet": "close 76.97 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

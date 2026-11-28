@@ -1,0 +1,73 @@
+{
+  "ticker": "COST",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Costco\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU285cDRVblJ3LU5ycEQyNGp4aE9XX0hWTG5PUzh2X1VIOWxxRXZwUTdsU0I2Smt0ckNQOE1KVUhLTHRWSGZEVVpPY2NuYS1tajJSNXkzUW9udmdjWl9xQ3A3d2diZTBMWjg3emNHUXlEWldpNmIwR2lab2lwd0FXTk0zcEZUQ3p6?oc=5",
+      "title": "Costco surprises fans with return of member favorite",
+      "snippet": "TheStreet, 2025-08-04T07:00:00+00:00",
+      "publisher": "TheStreet",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUHpQZ1I1eUQyUkJrdVg0NjBGT2lWdFBZYVM5STctQjZLQ2tSU2M2RVpjVzdScFc2a3ZLd0R3ZDBMUlFjZTBGanZuRkswbkxsT085UFQ1SnBvb1FrbEpDOEEyM2NzSkFPZ25fbV9vLVh2WjRrN2NIOW5iZlhIbEFWQm5BTHNGUDFYcVFndkJVekdoWG9Z?oc=5",
+      "title": "Big-Box Battle: Should You Stock Up on Costco or BJ's?",
+      "snippet": "The Motley Fool, 2025-08-04T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTjFWcGQwMjdUQVdodk9TQzBMZ1BxMGZZTVplZTFHTm1LWEFSZ3NJZVFhY2M4eUluNmFsaU1CWlFuazJRcHNYQXhiVVNMeWhQVUpsRTNCQ0I3TkxlTzdZaVdxdUJxNmF3MFR1S3pJZVhOa1lqeDJIeHFfN05MQmF4RnNjc2Jkb1BWQUh1bGVDVzE?oc=5",
+      "title": "Best Stock to Buy Right Now: Target vs. Costco",
+      "snippet": "The Motley Fool, 2025-08-02T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COST/history",
+      "title": "COST daily price history (Yahoo Finance)",
+      "snippet": "close 943.63 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

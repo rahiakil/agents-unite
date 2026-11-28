@@ -1,0 +1,73 @@
+{
+  "ticker": "NSC",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norfolk Southern\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNckcyR3lXVHNzT29wV3o3Y0Vfdnp4VlhxT2Z0N3ZDbGdTX0dsU0VlTVJDa3hGQXJTWEhoZDRSUUx5VWhuOGVURGNacFNuV1RZZ0VMRlNvQVNBNk5uTE5WTjVmNGJpZGtFRFRLYUJHUlBGdHdvQ0IxUVZ4Rm9nZU9YcXk4Q21odjVublQzTEx2YVQ1cFpMLTMxQWNrWF9UdGVFQjM0alU0eEFYVFFGaXZNc2p3bmgtRE5nVzc0SDNKT3M5TFJ0SFVVaHJ3?oc=5",
+      "title": "Union Pacific and Norfolk Southern to Create America\u2019s First Transcontinental Railroad",
+      "snippet": "Grain Journal, 2025-08-04T07:00:00+00:00",
+      "publisher": "Grain Journal",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNem9BeGpSUFVBUWhMaWkzcmFZSm5rNm5JQkN2MFZSTFRHSVJRWmdQSHJSa2F5bXlycXdpZ2NDbVlxcFd3aDQ3WWo5Y2hScHFZNDlDdDVtVG5pWjRWM2gwVUg4SDNraUF3UlZPYno4aXZKczNlakpldWEycW0tRWlMSF9jUmNhUkZwYndlZ21mOHhMcTJuTDd6bldFTTN2dmllY09vQkY2cw?oc=5",
+      "title": "Union Pacific and Norfolk Southern Seek to Create US Transcontinental Railroad",
+      "snippet": "Railway-News, 2025-08-04T07:00:00+00:00",
+      "publisher": "Railway-News",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORXF5VW15RE54YTlYeGlmclpCV3NhbFp2RDdmUGpSNkNGUmh3N3BPa04xU2cycW5wUWNWQmJSNmNsODlaS2JHYUdsY2FUeHpWS29TWGJlSThEQUNCbjF6UWZTVVBXbzBxalhhZF9sdnRvWUVJaTZzZWxrWlE1RVZnM2M4TkZXc0F0T2lVTTdrV3ZMc0FxZVY0RmlVaWkzYkpfNG0xaGMyajdoOW5CVHZGemFHVVZuWmNsRHNrOEdKXzZlNlc4WHpzWnFJVjU1Wk5vcmdUY3d1VjhZcmd4cmlJU1pvNWRNQQ?oc=5",
+      "title": "Rail customers urge regulators to block Union Pacific-Norfolk Southern deal, FT reports",
+      "snippet": "Reuters, 2025-08-03T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2025-08-03T07:00:00+00:00",
+      "published_date": "2025-08-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NSC/history",
+      "title": "NSC daily price history (Yahoo Finance)",
+      "snippet": "close 279.87 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

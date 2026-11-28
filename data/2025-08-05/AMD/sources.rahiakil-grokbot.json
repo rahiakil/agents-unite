@@ -1,0 +1,70 @@
+{
+  "ticker": "AMD",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AMD\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc2VTUndQNDA1dVczdEhuaURJUVdKZnpON3VTRmdWRUlob25WM3cwcjc1bW1mTDdhN09nSkJnejdOb1NKWDdBQnBaemRPVmV0SzFZMjF6WWdOelpBR3NZMEpUdzNOSVBGdWF0VHE1bGllSHBoOTh6bE9XR1R1NDJLRDllY2VBYUI3MkhuMmVZbFJreFMxNWhtZDlLa2hUZWxBeTZudHBzblg?oc=5",
+      "title": "What Analysts Think of AMD Stock Ahead of Earnings",
+      "snippet": "Investopedia, 2025-08-04T07:00:00+00:00",
+      "publisher": "Investopedia",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PdEs4ejdhZC1jYjNxQlRSNm00Q1NLOHVMdmJGZm1nbDRBcHVYUjlNS1JBcmZhZnU5ajFzNWFwTGtJTl9yVGJMRDdIal9ydFhoYTRoRmR5c0V1dTc1Y2lwNEt4ejhRQzNsc0Qw?oc=5",
+      "title": "AMD's gaming CPU market share surges past 40% on Steam as Intel stumbles",
+      "snippet": "XDA, 2025-08-03T07:00:00+00:00",
+      "publisher": "XDA",
+      "published": "2025-08-03T07:00:00+00:00",
+      "published_date": "2025-08-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000106/amd-20250805.htm",
+      "title": "SEC 8-K filed 2025-08-05",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMD/history",
+      "title": "AMD daily price history (Yahoo Finance)",
+      "snippet": "close 174.31 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "CSGP",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CoStar\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOazJXM1VYcTk5SzBSZXBsVUxCVGYyY1Y4bkxPN05GVkE1NkhMaElHSjdHWlMxOGdrM0RPZjFWZExYNm1VOThiSXZ1MEpRelRFRWlha1hnVERLX3RBcTJEVkdLdVJfT0hYRTJubkxuS1plZ01BaHRiNVhBVjFsQVVSRzMxa0Z6bldhRXpPMGkxclJmMzhRTFZvM2ln?oc=5",
+      "title": "Victoria Principal Shares Mysterious Throwback Photo With \u2018Dallas\u2019 Costar Larry Hagman",
+      "snippet": "Remind Magazine, 2025-08-04T07:00:00+00:00",
+      "publisher": "Remind Magazine",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSGP/history",
+      "title": "CSGP daily price history (Yahoo Finance)",
+      "snippet": "close 96.56 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

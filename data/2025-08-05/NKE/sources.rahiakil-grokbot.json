@@ -1,0 +1,73 @@
+{
+  "ticker": "NKE",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nike\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 7,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX2FZQ09PRHhEbG5ZU0cxMXZyR2g0TXV5d2I3UldSWlhHQmdXbF8yZnpPazhBR2s4OWNUYzBoa0dSYXhMOG1yU2hBRERiQnRJcjc0RTNQZGFBcGNwOFNkU016WV9kLV9wM01maFUzaWlRQllzX0pTSUFWajQyaEM1MG9CRlRCRWNEaTJkX2wyMVBIbzZybGhVYU9nczJoN2txNkJCc2xBTDhWaWxYWEZlaVo0ZWRkQVVFOF85dHI5TklaN2c5WkIyWWZzUWRtcXFhRVQ4MkFMYTBhemZrenB3?oc=5",
+      "title": "Puma's new boss takes helm trailing Adidas and a recovering Nike",
+      "snippet": "ET BrandEquity, 2025-08-04T07:00:00+00:00",
+      "publisher": "ET BrandEquity",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUmtDVmwxYTRIcFNybUJhYnphNnVPaFNwYXRueThRanI0YlRrOGhreHVOeXRyZWl4TWJMUzFUR3oxSGdTbDZ0OW10dHJrdVg1Q3NpZkdtSzQtZ0NJNnU2OUM3LWNKM2RwVWJJUGx3bkhxZUxLMzFLeXNMVW9XNGRYZ291dFRkekNuUHVVUkNWOA?oc=5",
+      "title": "Nike's Free Metcon 6 Workout Shoes Are 39% Off Right Now",
+      "snippet": "Men's Journal, 2025-08-04T07:00:00+00:00",
+      "publisher": "Men's Journal",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN0p6SXpLejhMUVB2U1poMVRJVVZkdmpXUFBrYVl4RDA0OGhUS2Q1QWpyNGNaYjNDLUV2clIyY3BGZDI5eGR3bE5sNU1lcmY0WkJtT3VnOTMwRDZlQ29QRVVNd0NEcUdZbHZweE9mY0JZdGt3UXItcHRZNWVkeEpiNVBncV8zNThwOHFteDFWYzZSRE42UXVuTWliNDVvQXJkRDNXSFlObGw3UkZMRUV5eHBSbmFEVXFUUkFWT2Y1Yzg4c2FFYXZCREpfckVpajBFVzlIUW5wV3U?oc=5",
+      "title": "I\u2019m one of the first people to train in the Nike Metcon 10 - here\u2019s why Nike\u2019s (finally) back in the game",
+      "snippet": "Tom's Guide, 2025-08-04T07:00:00+00:00",
+      "publisher": "Tom's Guide",
+      "published": "2025-08-04T07:00:00+00:00",
+      "published_date": "2025-08-04",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NKE/history",
+      "title": "NKE daily price history (Yahoo Finance)",
+      "snippet": "close 74.38 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

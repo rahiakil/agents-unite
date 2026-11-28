@@ -1,0 +1,49 @@
+{
+  "ticker": "ABNB",
+  "date": "2025-08-05",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2025-08-05",
+  "news_cutoff": "2025-08-05T20:00:00Z",
+  "generated_at": "2026-11-28T01:10:18Z",
+  "collected_at": "2026-11-28T01:10:18Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Airbnb\" stock after:2025-08-01 before:2025-08-06",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZlptY21LOHRLbU9YLTZXUDlYdWlOWTA3UU0zWm5PMXppY2pHMFZWdXRxWEFJYjJXOHV6aFVxNnFLbHFrMFZXZlNpanZFVmlEZTNLbFZrdlBwRGN5NUFTanpZWExjQnZmMk56Mjl6Q3F4czRGNVYwNDNEU0FTSVpWVVBUUzBsVVMySHBWVUdoWVU0dDUyTFhFbi1kaHpiZ28yaHFfYTdJVzBMNURKX1RHaG01WnZ0WGZqbTdOWmNrLXZQYWZoczM0MEtiRFdmMmk1Y1d5TFE0ck1maG93cV9N?oc=5",
+      "title": "Prison for NSW forklift driver in Perth Airbnb cocaine bust",
+      "snippet": "The West Australian, 2025-08-02T07:00:00+00:00",
+      "publisher": "The West Australian",
+      "published": "2025-08-02T07:00:00+00:00",
+      "published_date": "2025-08-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ABNB/history",
+      "title": "ABNB daily price history (Yahoo Finance)",
+      "snippet": "close 129.96 on 2025-08-05",
+      "published_date": "2025-08-05",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

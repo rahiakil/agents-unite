@@ -1,0 +1,70 @@
+{
+  "ticker": "AES",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AES\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 3,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wd3B0VWpOYnpnc1ZjcEF3VUhtNzhTR285M3FKZ3dadExEblZ0bEpMVUxJMUxvaUVIVVhLOU9IN21VUnhWSUFlTm85amR2UzRRX295Y284eVJGS3czOFVLYXR5cjN5b1lsRjJkeXBHdmctTnhtQzFTRkNvUQ?oc=5",
+      "title": "ECOWAS, AES talks raise prospects of renewed ties",
+      "snippet": "3News, 2026-10-21T07:00:00+00:00",
+      "publisher": "3News",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSlFaSVZQNzVoTnhRSkh6d2pDUzg0SmpObXVmZEV4d19HbENPZkJ1ZEcyY0tvS2FVUXl4Tl9zMmV2STVaU01ESjdLd2NSMlFrQ1FiNG5xamx2elZ4cW8xVVBuTTJwSF8yelVhcWF3dXVfaXoxb25CT1NmVWFuRjNNUEFyQ25PQlA4VEpfXzVUaU5DNk1MVmRHNHBYWVhMY00xMk5QLVE1d2h2TW9aaS1ZRFAxUXNBaUQwMEU1RndvU3p6NnpqQ2IwTDVEalZqQnhVSHRSdFRiRVloS3ZuUzhLaThTNW55WVR5SWc?oc=5",
+      "title": "AES secures EU and New York approvals for Horizon merger, closing still subject to conditions",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/874761/000114036126040117/ef20083812_8k.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 8.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AES/history",
+      "title": "AES daily price history (Yahoo Finance)",
+      "snippet": "close 14.97 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "HONA",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Honeywell Aerospace\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEJaWnJrMGNwU3BpdFQ5blZ3cElYTlJiLWh6T25ya1RQUVFmOVA2MlhZdjN4R2hCRXJteFZmX0NEeUMzRTBDNWt1RUZ5aVBURmtELUFXTktLaExRZTRUUjY1YzRQM3dwdW5BaEttMEpTaVA4VnVhSTN6WndPdnA3Q2h5S29ZaERLTEN4WGtxQ0twMzZYX3BGQ050SUI1aEVScmFjQ05PaVN2UGVZTmtiOGxKeUZseV8wWlFWdUhNaWxja3ZuYjJGV1c3djdjVFU?oc=5",
+      "title": "RBC cuts target for Honeywell Aerospace stock from USD 250.00 to USD 210.00",
+      "snippet": "ad-hoc-news.de, 2026-10-20T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaXBHb2NBU2hUWnNsLVJKYTUzbTFIX25aRlJVVllLb1NPTDdxZlhzSDhocDZBMHYzdzRyRjh5V2l4VjRBWW02dGFYWDVFOW52Wno5MXBIOGc0NlR0ZktoV0N1WUxDNXo3a0J2WlprdEtPMnBNVFQ5ZFFPVFI1YWowcDI3alB6RHgyVEZxOWotb2RydE9jZkpwYXVTMTRtSGhvV2w2STR6RzQ3R3lHUHptV0VB?oc=5",
+      "title": "Honeywell Aerospace: Supply Constraints Are Keeping Me At Bay (Q3 Preview) (NASDAQ:HONA)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdWFKcU9iZVotd1BrNUpaSmg1SlJHRWx5LVE0a2pfUVQxMEU2d1pXNGF2aDNqTkhZcE1KMjlZbWh1UFJLU01LYXZVODVDT19hWF83VGVZemdtNkVOUmI0RmxOX3JfaUhKNGFmLUxmdmo1YXdXaGdLMEpvVXk0VnNCUEtiVURZTG14cTVfMDVBcGk0R0J1ZUctMzM4QTFGakxabU1tbzItZF9vWktLQnFsZGstVlFDbnNMU2U0ell6ZnNXT2NkcnNXVA?oc=5",
+      "title": "Honeywell Aerospace sees business aviation growth on rising aircraft use By Reuters",
+      "snippet": "Investing.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HONA/history",
+      "title": "HONA daily price history (Yahoo Finance)",
+      "snippet": "close 163.02 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

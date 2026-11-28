@@ -1,0 +1,49 @@
+{
+  "ticker": "DD",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DuPont\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeW91dGg0c0htbXZ0c0hua1JQX3RHWDV3NWJGUkVBMGI0UWxDTE83NFhWUThFOFUtMUIzSVBtdGRjMUpGRFdTcjVwcG1KRXBxbWtOam40Q3dTWjRKbDlJbU9aeUZXU1pGcXVld3N4XzUxbnMyU1ZEQWNJMGJJYjA5dVI5UEI1U3dyWFpmbU9nSWRPVnBXWTk1ZVZ1QXRqdWtwcnAyd29WZkpxMDRLT293MUhuZ1kzUQ?oc=5",
+      "title": "BofA Securities Maintains DuPont(DD.US) With Hold Rating, Maintains Target Price $159",
+      "snippet": "Moomoo, 2026-10-19T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DD/history",
+      "title": "DD daily price history (Yahoo Finance)",
+      "snippet": "close 135.1 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

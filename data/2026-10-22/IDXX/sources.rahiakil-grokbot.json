@@ -1,0 +1,61 @@
+{
+  "ticker": "IDXX",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Idexx Laboratories\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMld1UWxxeHI1ZjhaakcwY2VtQVZraVNBbU9mRmFYVVVuUTJPMzRtc3ZzZGg0eG9FZXI2dHhnNkpXdGZsOTA5UldHc243a3BISGN3WHNMSFg4aEZNTW5wWUlOdlZpc0V0Z3FtZW13S3hEbTY4LVR4NnBDNEhpRU5nbWh2S3F3RFFFY3ZINVZaMA?oc=5",
+      "title": "IDEXX Laboratories, Inc. (IDXX) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVVBzQVVqUXcxanFYb2Zpa3ZtYTVpd1ptUl80RGhoUXR4ZWdKenRtblAzOHBRUFdVWjFVUUZQNXUwZWxFMktWWXIxT3VpY0dsdzF6dk1QY1FVZEdkVENITjBaQ2JraVNFb1lfTXQ5UnN2WW1BeDlad0cxNHpkLWFsZllxUVNpa0RQWnp5YklSSWZ0Y2xTem43R05VcUhDdEx6NjRtbkZXd2FpUEk?oc=5",
+      "title": "IDEXX Laboratories (IDXX) Rebounds On Jefferies Support, Is It Still 20% Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IDXX/history",
+      "title": "IDXX daily price history (Yahoo Finance)",
+      "snippet": "close 566.76 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

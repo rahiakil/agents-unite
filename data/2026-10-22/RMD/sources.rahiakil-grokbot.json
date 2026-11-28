@@ -1,0 +1,61 @@
+{
+  "ticker": "RMD",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ResMed\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2Ztb1haQXBSVUlVVXNMTlpKT040N1pzczBTRzROTGJGRHZLWWJxY2MySmtKeHJwYl9abGFKNV9Vd0VMUlp4d1F4dkY4Yjc4dGZ4VE45R0VIMkRVNlNvWUF0VE0xNFVWdVllS1NabVBTS25NSmc4S19FX0FPdzB0WU5tQzJHQVdvUzc3OGF2WDB5VGs2RThsR2d2RjlZOUpMalBwcWJsM3E?oc=5",
+      "title": "ResMed Inc. (ASX:RMD): Operations, Earnings and Business Priorities",
+      "snippet": "Kalkine, 2026-10-21T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNzN4ZDNHVHFXUG9WQVZqZkY1cE01d0NmOUM0TVFJSkluUkhWZVNQcWM5WjhjODZzb0MwU1otaGh1akZNOVdrM0FNX0pDWFY5LWRJSUI2aGd6c2tEaTJ2Z3Nla19DSVozRlJ5RjI1eTRkbG1zbTZLOE1uWk1nMjBLUUxmRkJUQW5XZF9OWDhCTThwTGkwUVlyd3FsZ0Q?oc=5",
+      "title": "Buy, hold, sell: Bank of Queensland, Champion Iron, Resmed shares",
+      "snippet": "The Motley Fool Australia, 2026-10-21T07:00:00+00:00",
+      "publisher": "The Motley Fool Australia",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RMD/history",
+      "title": "RMD daily price history (Yahoo Finance)",
+      "snippet": "close 253.06 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

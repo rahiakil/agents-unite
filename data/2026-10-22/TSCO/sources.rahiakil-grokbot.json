@@ -1,0 +1,70 @@
+{
+  "ticker": "TSCO",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tractor Supply\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU29yYThwUkRCUldSWXMwTlZsc3NVanQwdVNibF9UN2czQmRnNFhkcXpCOWJWd3hhRVg2UHJJV2lBaWdMX0MzYmctMzhsaUM2OEU0LWVBR3BtYzVLdWtpMVNmVUZmOHBVTXctVXpEdlVaWVNLWlY1UVJCZVVWWC1SNnpkemo4N0h5N3g2ZWI4R2FNNkhmUXNYX3VWQW1LWjJwWmJfQ2FRRzNBSWM?oc=5",
+      "title": "Tractor Supply (TSCO) Q3 Earnings: What To Expect",
+      "snippet": "TradingView, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWHVNOFpkWHFDaEN5V24zTlpWNTdOdVFNdVlsZjlzYUlVODc2NXZkNjM5T3paY2FZWXB3OXVjVjhOa283aFRGYll2OVBSbmpoUER6UGtZdzVGQUZKMHFZVUlvNTZMOEZoRmlpRU9xZ0VCa3dtLXQ0U3JMQV90Mks2Y0F3V2xIVGxaR3BEckRDN0lfWkNWa01mUkFwTQ?oc=5",
+      "title": "Curious about Tractor Supply (TSCO) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/916365/000091636526000069/tsco-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSCO/history",
+      "title": "TSCO daily price history (Yahoo Finance)",
+      "snippet": "close 34.73 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

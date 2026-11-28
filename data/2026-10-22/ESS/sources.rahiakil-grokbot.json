@@ -1,0 +1,49 @@
+{
+  "ticker": "ESS",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Essex Property Trust\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWnlKWEtHMDNTWG5fWGhOaVpyMlpDaU0tZm1NMXdtbkZ2MElGZk0yT1V6NlJGNms4bGlSTGVMM0tVdEdpd3Q3MHU3ZXplVl9ockZJclBlXzg3WnVVdTVpdUNSeXFHNjFHdGNjTjB6a1o2SFkzc0p5NnFOMG5abVp2Wm1EVzdueEhvSFlmMGEtYkV4ckw2Rzlhc3NXd1FZZGJIM3BVSlNSc3gxUFdSNGFmNkpLQWtIR1Q0YTlj?oc=5",
+      "title": "(ESS) Volatility Zones as Tactical Triggers",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ESS/history",
+      "title": "ESS daily price history (Yahoo Finance)",
+      "snippet": "close 282.45 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

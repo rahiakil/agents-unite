@@ -1,0 +1,139 @@
+{
+  "ticker": "NSC",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norfolk Southern\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 36,
+    "no_date": 0,
+    "after_cutoff": 26,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS01pc2NKNjlYWjBCTzZuaGlFcW55TWFzWVotVXpuTjZGN0UxeUdBRVJoUHVpQ2xJRDhNeTNzSzV6Yi1sZUxCRmZscTRXLTlwVGVFdXBUcmZtc0sxdlAzWkUxRXhTd1hRX2pXVUNKbjlnWGdBazhzaE11bXdlWndVUE9LbU11X0FRTnNxLVJOMDB4X0l0R29odlBaSFNabE5j?oc=5",
+      "title": "Norfolk Southern Gears Up for Q3 Earnings: What's in Store?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUWw4LXNSMUdIeExiX21WWGpSb0pMMURMdWxyZXoyZ0F6dk5BeW9pZFBULURna1YxaE1EZVp6eU05NUVvN2U1ZGlFQkVwaTFreWEtVHJtVnpLRjFoZVllbU5keUdEZmp3Uk04dTRiZjFIb2szU3YzNDR4YnNMZlB3dmt6RGkyR0x2NkU3eVMxZ0RiNmxFSWNjNWN2OXZzNjY3YWc?oc=5",
+      "title": "Norfolk Southern Declares Quarterly Dividend",
+      "snippet": "PR Newswire, 2026-10-21T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaUVRU1gwemF5N2hGT2I1bnFQVWJqRy1ma3NQdnRNcHNHRkdiRW01SHhIYnR0WEZWblRjVFpBdjZTaTZhanNkbS13MHpzOEtrcGl4WTdNWHkyWEFMUlRYMFYweUxzaC1zcWtvWEk2ajl5NmE5ckNhYzZQUHNOYW5WWV9jYWdZUzQzTzdsR1RzRFk0a0lRdnhqR252cHVLSlBVSVRCdVNNaVBCUlNyTFMxMmVDY0VrX3R1WHgyU0FYNA?oc=5",
+      "title": "How Will Norfolk Southern Stock React To Its Upcoming Earnings?",
+      "snippet": "Trefis, 2026-10-21T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT3d4ZUtLMWs3ZEozMnAwRVFPY0tLdkJ1b2lISFI4TTNxTXFLMXM2SFlYRnV4ckhFeVU4S25vMTVlb1hkUmRjSDliX01ScTJxMU05WTU4Nm1mdFZ3MXFTcjNnazVNZHhGUGY1SDZ6aTJGYVNVY3hOUFRVWTZFbFN5a2VDT3hqRjM3VkE?oc=5",
+      "title": "Ag Groups Push Back on Union Pacific-Norfolk Southern Merger",
+      "snippet": "RFD-TV, 2026-10-21T07:00:00+00:00",
+      "publisher": "RFD-TV",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRkUwWUhBXzJ5cXBaOXhwOFJrZThWVFhxb2V5c2ZpUThGaTJzd0RVOUlqLWxqc2R5aTNpNk1nNkxYTkZFeFFSZmxfZWlyWUR5Yi1QcE9ZdnQ2bkhPY0RQRzEtb1RSQlBlRXltOVRQYWZCSTB4VW9FZGxaZE9ISTlMdURjRDluWWJUYWQxWmRQUHdfb0d2MnZnRklxV1J2dkxHRjVndmhVYTh4YXJZLUZZWXBOWVJLWG9rbS1oSExiTWxtdmkzcjhKcldMNEx5UERuSUNaSmM4U1FBb0JYeFhvdVpSajU?oc=5",
+      "title": "Norfolk Southern Corp expected to post earnings of $3.47 a share - Earnings Preview",
+      "snippet": "TradingView, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc2VRaV85dVZyY2dmcFpsWkpnSVFkU1ktVFpya0VGeURHT2RQUWFWV2x1ZlpBSmdXZUdWNEZSOXFTY2ZmZUlvUlJ5eWN0eGFqYlVJSVg4TWVlNzJVRXpvcjJHdlhTbHhyUFh6NHg0eXFjOHJmTWJuQWZBRUxpQW1rWDN3ZGtrTWJDbHRldnN2VjNMcmV0cUFJNUxzQ3dmNmhBLTRTa0txc1FvRHR3eHJiWHIteExvc1FFQWFWWFZicGVOZw?oc=5",
+      "title": "Understanding the Setup: (NSC) and Scalable Risk",
+      "snippet": "Stock Traders Daily, 2026-10-19T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXJHOFZmelNFejVfRDhkWXczbjcwWUYtOUg1THVaSm9vbDlaQkV0UjBiNDdKWWFBU2FoZnVuYV9uQzZoMkRTVUhlV0lrSC1iMHlmazc4NnZMN1FfdjlON09pM3IxckVfekxLeHU2TW5UdHRxV0RvbWJVNmdYM1N3Rk9mdExLM3hrMkhib0ZhSmxmVkpOZjVsYXpEaThONGlIenk4Z0FkSUtwZHlVUFE?oc=5",
+      "title": "Exploring Analyst Estimates for Norfolk Southern (NSC) Q3 Earnings, Beyond Revenue and EPS",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NSC/history",
+      "title": "NSC daily price history (Yahoo Finance)",
+      "snippet": "close 338.23 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

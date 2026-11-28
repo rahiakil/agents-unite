@@ -1,0 +1,61 @@
+{
+  "ticker": "ECL",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRV9pR3VGTFNnMHJnRmpGUndqNjFsXzRtT1o5emE5WjZLLXA1bFNMXzJMcGF3eG04eUFXTnpVSkNOdGhqLW1Pd3hiRkVXb3oxQ3E0S090VjJGaVRQVXVQTGNLSXBNdkJ0Vkx6eFZwanRua05GUk5XazNtY25XVTIwV1ZJUHBpc0xOVG1TZlY4UDlWd2EwZ0t4R2dwRXVCUUU?oc=5",
+      "title": "Ecolab (ECL) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPenktSHo5aER5TS14cFhEb2ZOTDZXdFh0RHVLeThZLVhVLW1rYnVXa0JFNmRFNHdrTXR5OGtVRFFocXl0RWEzdnF0OEtiZ05sZ0s3LVhCa1RXVTU5Q3RLZW5GQXlpejZyclQ2N2Jpclo5U3dvTGIzMXotRUJFZWQ4WW9aVDQyTE9TVnVFdnVRVTk3NlVzcGp1djczZ01KOFA4Q2RwWWNQekdPd0UyMXVocmx2ZHI1TTZYTDRKT1dmcVgwSjMz?oc=5",
+      "title": "Ecolab Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 292.3 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

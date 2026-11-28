@@ -1,0 +1,61 @@
+{
+  "ticker": "HCA",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HCA Healthcare\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmI5cDNIdzQtUUUwWllRS002VjNGcXprNThiZGdEUk1kQ2tILTktTDJNaXlIOXVhVUR1eDI0THRSdGZXWHFEQU9ZdllXcEpBa2tLTkFSSVhfMnJENWczZ0NVYmk1S1NfYnpwUl9iOTYxRWxmUTNubGtXVGVWS0d5VEh3UUVDUWZNTVEzTVlQOEUtYnVCTmc?oc=5",
+      "title": "Here's How Much a $1000 Investment in HCA Healthcare Made 10 Years Ago Would Be Worth Today",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQzZsWTRaLVRKdHJmcFIwcmdJQnVReE11Zk96aEJSeUplbDktZDVxM2QyZEJrZlhhb0l1Y3FhQVE5UlJkMldYZVZnQUVEZkp0aG5qSGF6V0ZLNHRTX19VcFFMRmR1dVc1UWdVVnlxQ2VPSWxLMllXTWY0d2oyN2xnZ1RJdWRVVDE3ZV9QZkw1SHM2OUU0Z05tb1hlLXkyc3pURDZZ?oc=5",
+      "title": "Analysts Estimate HCA Healthcare (HCA) to Report a Decline in Earnings: What to Look Out for",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HCA/history",
+      "title": "HCA daily price history (Yahoo Finance)",
+      "snippet": "close 467.31 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

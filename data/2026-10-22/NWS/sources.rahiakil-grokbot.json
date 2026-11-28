@@ -1,0 +1,85 @@
+{
+  "ticker": "NWS",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"News Corp\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlREbkRoMXpLaVZQTkhzSVBJSmdpbUdJVzZwdGlzY1VUeVBkc3FsTWlTZU0tWkVobUE2WkNDbE1GZlNSYWpNdUJrZnphUW4yRU8tOXpDNzJCVWRyQk9HNFkzb3VibndXS0psbWlRbUlVU0xSNUdENEhHTTJxOV9kY1F0ZDZ0T3FrQlJWalNZUXBSTmpPekxwZDcxM2hpeHI0NTB5T0xLV2VhQmw3QmlrRmd5cjFnYk16Y25RSnZUbWVPRGs?oc=5",
+      "title": "REA Group, Telstra and News Corp FY26 Results: Earnings, Dividends and Buybacks",
+      "snippet": "Kalkine, 2026-10-21T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000234/nws-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000233/nws-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000232/nws-20261019.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000231/nws-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NWS/history",
+      "title": "NWS daily price history (Yahoo Finance)",
+      "snippet": "close 33.95 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

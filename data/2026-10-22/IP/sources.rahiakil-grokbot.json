@@ -1,0 +1,97 @@
+{
+  "ticker": "IP",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"International Paper\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PcUZ4eVBCUTRELThQR3JBVHF3YjIxWWxzaS1OMGtKUFJrRFA3QmIzTUV4THMtTmttTFZlakpoX01oT0l0MWx4enpDYUg1UQ?oc=5",
+      "title": "Andrew Silvernail - Chairman and CEO, International Paper",
+      "snippet": "yespress.io, 2026-10-21T07:00:00+00:00",
+      "publisher": "yespress.io",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMFJCUGd5WXRYUWg4X1NqakRDd3BFLWtmMFZpLS1lc1NMcDNEdElOVnRVV0NrbHZ0azRNNDZGNGtWMGhTV0RPVnFoYU9OSEJQaWxIamdoWGhKYnVPdHlHYzJtMlZuSVBvYlFtbWxpVEpBSG9Tcm5oNzlQTW1RTHNHdFlQN0pPSVFoeF8tNGdmSGFXZnZpNFJoSVg0VGVDREUxVHdDUk9XellWY2xuOVRLOE0zQWp3SFpGU1lpczl4cTFTOUt6?oc=5",
+      "title": "International Paper: A Potential DS Smith Sale Is Not Enough To Change Our Sell Rating",
+      "snippet": "Seeking Alpha, 2026-10-20T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRE40eWpGWlcyNnQwWFpmcEtBZGdWRTZJTG9qTHMtX194WFJ0ZzdNYkk2c1djLTZGUFNXdHlhS3BRcURpYWhQRDdKQUlVVGFLREEzanJzTHEwdUNGc0pfdWZrb3pobjNXc2ttSGRIcXVZZHdwSjJCQy15RGJaWFFiME1BVEtuVnNjX1k2NHBfMHJvZw?oc=5",
+      "title": "International Paper weighs potential sale of EMEA packaging business",
+      "snippet": "Packaging Gateway, 2026-10-19T07:00:00+00:00",
+      "publisher": "Packaging Gateway",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTXdYd0U0YW5QdnJLNzhyQzdTbEU1anBleDRiVzlRekpsNXA2bTRDcVQ4YkZudWpwUnZ4a0U2aGhvVXVkeWg2bG5hWXlUYlpaSzJrZjVMZGJ3Z0htb3c0akJGbzczWjFrajF0M0locWdjS2ZuOHZ0RkR2TU5RMml6MHlzTDRaeDl2UHUzRENub2ZGY2NUYTB3MFVyeVJtRVNUcmlBTkZ6RU4xUFQ4?oc=5",
+      "title": "International Paper Discusses Possible Sale of EMEA Business",
+      "snippet": "Ink World Magazine, 2026-10-19T07:00:00+00:00",
+      "publisher": "Ink World Magazine",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS0QwWWhUbUhGRmF6N1FNNlpiU29sa05fT0JnUzJGaXFKOW9ZRk44RGNlS1JMRVZJd1RzRUlHYTZ3WjljaTRBNUtTZExFUUREd19hUURsWEVnc2VrVGR1Zy1ySzFtOVpZT0pzQXZYblRkdGYzZFBNNG1QZ3F0YXM0NUNwemtRZkI1NlA2NW1qOHZvM3RlazhtUE52TUo4QjJCMVlMeg?oc=5",
+      "title": "Bullish International Paper Insiders Loaded Up On US$4.34m Of Stock",
+      "snippet": "Moomoo, 2026-10-19T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IP/history",
+      "title": "IP daily price history (Yahoo Finance)",
+      "snippet": "close 33.68 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

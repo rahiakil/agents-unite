@@ -1,0 +1,49 @@
+{
+  "ticker": "VICI",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vici Properties\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUzVlcXE5b0U1T2ZwN195dVh5T2gxeE5KWXRZZmx6djkwYWpiLTZYSkVrS2lIeFBjd3pHMUVkeEhLb2ZLbGE4MVNMck1BMTR2Rzk5TUprMHk5RHpVelZCa2NGdHVURHV4VHpDSEhNZG5sT0R3OEVoRXNzZTJWbURwVmNsUEhOTExXQ2lUQUlBalZxTzBoQ3h2WEhMU19VZS1zNzJKUjhn?oc=5",
+      "title": "MGM and VICI Properties: Finding Deep Value in Beaten-Down Stocks",
+      "snippet": "The Acquirer's Multiple, 2026-10-20T07:00:00+00:00",
+      "publisher": "The Acquirer's Multiple",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VICI/history",
+      "title": "VICI daily price history (Yahoo Finance)",
+      "snippet": "close 24.02 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

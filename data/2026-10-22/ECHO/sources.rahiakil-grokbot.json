@@ -1,0 +1,73 @@
+{
+  "ticker": "ECHO",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EchoStar\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 6,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVEwcUk4V3lrRGJkVW1yQXlOejBaWFZzMHNPSGEyeVRsM2FRUVMzb1NJTkM5S2hybGp0alIzOE9aX2EwMXQxRUV3NVJOdEV2NnJGOFptbDhZQTlMOE5ra3V3ZjQ2V2N2VGt2X2pSYllCMWhYSnFfc1VlMEZXaW5LZE1nT25qbmZJSnFVTm5yYUhxSmZDOE1VeHVn?oc=5",
+      "title": "Why Is EchoStar Stock Rising in Pre-Market Trading?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOEdRdjVlbEZha1JKSTd0NExBWlctTUJ4OUhURDUzLVBVT080VVRoeUExVWh2RzhTSlVQSUdybnhkOEFPWmZpWGpodnNJR3NuandaVkc0a1FIbjkxTHljNk1fNUx5VWo2dE5BMFY1TENXYkRraXVqX1QwTjZiRGREcjljSTdJZ2FmUVgzYkp4MmFSaFBreUlwMnVuMDh5Z1ZIU2JnX2xn?oc=5",
+      "title": "EchoStar gains as fresh analyst support adds to restructuring optimism",
+      "snippet": "Quiver Quantitative, 2026-10-21T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.875,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kRTY1TTBDdXhEQUdSck1PXzV5c0hPWnZ1QzNQQ1RIaVVGVHpkbFNWOFF4SmFjbzJ1aXJrU0s0cmNXQ1QzNW5pRHBkRHpLU2xHaWZselFNMDVzN0o1THRKLQ?oc=5",
+      "title": "ECHO 261023 109.00P (ECHO261023P109000) Stock Options Chain | Quotes & News",
+      "snippet": "Moomoo, 2026-10-20T16:33:11+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-20T16:33:11+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECHO/history",
+      "title": "ECHO daily price history (Yahoo Finance)",
+      "snippet": "close 85.79 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

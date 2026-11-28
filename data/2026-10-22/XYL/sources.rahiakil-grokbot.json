@@ -1,0 +1,61 @@
+{
+  "ticker": "XYL",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xylem\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZHpNSFZrZWNPU3JhVXRaV0RnZkhEMDVoRUxNZ2ZGa3Z1a01fU2ctVkhuV1k4cTJBU3ZRTjJlbXlPN1Ftb3REZG9UVHdKRGFPN1dSRjBqQl9faE4xMWNteE53T1c0V3d3RklSTGVFMWZxbE9TTUpDdDcyMFA5bVF1djZHZEZOWjFBTGhzX3RTSENudXMwVEpsbGFxTmxmSUQ4ZkQzWA?oc=5",
+      "title": "At $106.35 each, 837 Xylem (XYL) shares are withheld for Meredith Emmerich's taxes.",
+      "snippet": "Stock Titan, 2026-10-21T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSFpqZmFkZlZSTEVNc0hkUjM3QU1yZnNQODdiY0tSUTktTk5MM2NlMmlKQWxER09EQnJlLUFONUhnLWhreG9qTFdUZ3VTTGdJZ3Q0cEpTSlBBbU5Id2w4UGkwUFlueWo3aEEzTDdWOWh2emZMa3g2dUkwM2ViVWl6Wkg5U1pGNm83aWtzb2hDMEF6OTN6cGNj?oc=5",
+      "title": "Xylem (XYL) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYL/history",
+      "title": "XYL daily price history (Yahoo Finance)",
+      "snippet": "close 109.26 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

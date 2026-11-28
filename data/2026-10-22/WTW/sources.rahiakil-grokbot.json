@@ -1,0 +1,61 @@
+{
+  "ticker": "WTW",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Willis Towers Watson\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcUtLUDhIT0V0am1JcjRHUjFzUEd6anotTEF5VnplU3F3bUJaczlVZ29OWXVJdHBCeThtVUtnVExHc2F6RkVSc3dreTk4VXUza1NCRVJIZlphZ09SbGRqbmhLa1FNLWxoZVRQdUg2cENVWUhhUU5MYjQycnFTQ0JUdFh0SVZTM2dHQVJZcGRwSEQxbWx1ekJHUEN0a2ZqZw?oc=5",
+      "title": "Willis Towers Watson (WTW): Will Another Cost-Cutting Program Deliver More Cash?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFZhZ0Zwd3lJN1Y5WFpsbFJSdzJJY2FLWnh0ZkNxS1BwOXpWZnRQUUxqVzFqTUZZR0xnOHh3RDZSQk4teFZXYi1sMTlVaVJzZ0hNM1hFMGRRclZFNGN3bDU2SzlFMDFSSTg0VHBUMG16NHVxNi1RMU1lSkRYSFpLZ0R3VkJPNjd2bmY4SEdCWlA4U1l1ZFl6UzZVbjN0bkhQUWhnbTZRNG92VkFoSVl5bGlsSFJRSlhG?oc=5",
+      "title": "Grants covering 76 and 17 shares go to executive Gebauer at Willis Towers Watson (WTW).",
+      "snippet": "Stock Titan, 2026-10-19T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WTW/history",
+      "title": "WTW daily price history (Yahoo Finance)",
+      "snippet": "close 332.18 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

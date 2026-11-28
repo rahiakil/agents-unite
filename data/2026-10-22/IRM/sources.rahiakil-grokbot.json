@@ -1,0 +1,49 @@
+{
+  "ticker": "IRM",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU3V4Mm1lOTdWT3RYZU1FWS1IbVJHTXF5T0FzOWlIcmZFODdSOGtyLTBPOVMwdVdrTVI3WUl3RVplQ3F3NFdzcWllNXlaTXptME9hVzNaRUlKQ2dLeVZRZThLcW80R0Y3NlJyR2VmTGxvUUxqR3licml3QmZRTnRmVGlTNVc1V2RsVExySEcxSGk5X3JIYmVfQw?oc=5",
+      "title": "IRM- Scoop Up this Specialty REIT After its Recent Pullback",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 110.66 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "UDR",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"UDR\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcWpPRkxfd2Y1dXAycXNEREFFdnpOa3V6djZXdzZsNWZoUFFYTGJvVVhSRTNtMW1JUjlGOVJJMGIxS18ybTBWc2hteEdTYy1JNGdsVnRYUWJLaXRnWVpDdlM2QW5YS0tiS3hnV2ZjUXpISmI2SDBQVUh3dF9ENXMtcWpDekR1ZXNGZ2pN?oc=5",
+      "title": "UDR, Inc. and Apollo Form $2.0 Billion Strategic Partnership",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdzVPNGhPQXdFcGZ5R1lqYVZOSzR3WmQwRzdJandHWFZOSy1nTlBTU0FLUzdlRUVyNGZiZmtjLVlPd19JRHBIbDRud3lacVZJaUJqeHkyNTU3ZDRFT0Q0Rm9MMExMTUJhRzR2MDFrbUY5dk9XZEpiczlsdThPZVQtMDU0NXJPb3pZWHFNb2F2cGp2QUJ2WGpoMDJkaE50dDBrMWZ4RHRMdXltcFM5OHBodFZjYkV5M0p1RHhRNzRSbmRvNExIMm9mVS00aUpGNDk1dGl5dWVqRUthYjlaSjhzdkVpNS00d1M0QTVv?oc=5",
+      "title": "UDR, Inc. Raises Full-Year 2026 Guidance Ranges and Provides Preliminary Third Quarter 2026 Results",
+      "snippet": "Business Wire, 2026-10-21T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR1dLSXhrZE4zNEh3c3VSUmJlZU0zRjV1d3NTcEhWeU5nQ083dDJtMUhKdVh6Q3I3bGhVemVWeVVHZ0V0dUljYTIyQW5XQlBKU094ZEtDUjBMOVduWXk5X3NDTFQ1a0JqdHJ1MUNxYXMzcVducVBudlp3bDBuVzJJTnQ3a21acG43eXZka1hRTUpjM1MzeXZJUWNwcm1wNGMwdDlmSkhsaw?oc=5",
+      "title": "UDR earnings beat by $0.52, revenue fell short of estimates",
+      "snippet": "Investing.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEFCTDA5aTVwdUxtMGNNOWNPcnp1RHJGb1VVcjRJUkVWOGt1N3U1ZXpRYlBRTW92Nm9mZWItRTVnS0x0Qnl0R3FmWU9WR3U5cnBTaTRzZHUwVmJ4dW41UTRyT3ZKbWdqbzc1MTNyZ05tUkR3S1RObU1nc1h5NE9VUU5pdUVuVkpmeEhld2xybmU?oc=5",
+      "title": "UDR and Apollo create $2.0B apartment joint venture (UDR:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-21T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/74208/000007420826000081/udr-20261021x8k.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UDR/history",
+      "title": "UDR daily price history (Yahoo Finance)",
+      "snippet": "close 36.18 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "CMS",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CMS Energy\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYi0ySkltRzk3eEdDLXV0VFotRUFlNHppS1Q1MXRqb3F2b3Q2Xy1hcXJFaVJ0MTB1UVJnQ1VHUFlxTGFrQWZmQVVvSk0wOXM0WExaSks5Q29LcTRBSWNhWUUzNk9IVnFYWi1SZDhNd1UtVUxSVlp0Z2xfZ2dRMElPWmUza0JtT0hSTnd0OEpibGRzbnZpVjVLblV1RGtid000LXAza1pCb3JMTmVGN2d5c0ZhUDB1NXFpQzMyangteEhXQU91a0VVZ2pn?oc=5",
+      "title": "CMS Energy's Board of Directors Declares Quarterly Dividend on Common Stock",
+      "snippet": "PR Newswire, 2026-10-19T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMS/history",
+      "title": "CMS daily price history (Yahoo Finance)",
+      "snippet": "close 70.3 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

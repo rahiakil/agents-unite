@@ -1,0 +1,49 @@
+{
+  "ticker": "ED",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQS1YMjZ6RXFJZWxtT3dneUdqbTNHbTVoNUlhNUh2RG9uQnNKRXhvak45MzVuN3FuMi1qbnliV1JRSlFLYncwOEZBTjV5eTI3dWE1dmxTbUNKd2dTQ1hoTW1Oclc0a05BX3N5elEzQkN1dng1dDQzUmpaMkZyb094a3E4eXhSanotdnRoVWRfZ1BfSXgyd1ZEVDVzTzVxMzhOR0hjX2t0WU1OLUFUX1IwUXNOVjdvTFM2TllJ?oc=5",
+      "title": "Consolidated Edison: Hold For Dividends, Wait For A Lower Price (Rating Downgrade)",
+      "snippet": "Seeking Alpha, 2026-10-21T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 116.26 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

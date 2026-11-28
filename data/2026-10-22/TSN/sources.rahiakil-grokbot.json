@@ -1,0 +1,97 @@
+{
+  "ticker": "TSN",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tyson Foods\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmdvblRHbGN6Z1J5d3piSzVtUXVvTVRrRHozNXhlajBEbWFRcGNVZnEwSTVSRXFnQkh5ei1ZR0NVbnNsakFKRGdWZFpKeEF2QnFvMXpxd0dueEFhZWs1V2liSjlXYU1ySm9qd1N1djI5WlRLVllGSGh3TGhsN01kUHV1UVlkd0J5RndvdFRnclRUMnl5TDlfWGtIa2JVZzVJcC1yWGlnczE0b1JjUDlaZ203cElZWlVpYUdPeVJoWTd4bWVxMzdJ?oc=5",
+      "title": "(TSN) Price Dynamics and Execution-Aware Positioning",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQlY2SjFHZVpWQ2FxakJaUDVvZWZwZUo3MWlLSGc3MDhVSVhMMUdwSXBIdGdPQWRUbWoxQU1Jb0xfeDBFVDJFREYzSVl1NXdMQlBQZnhiRHdLRVhQWVpzQmtxYVhhWEg1Q1Nia1p3UWs2OXNXSElpc2VtNTBlbjl4NjZ1TnhkVXY3Vi1ER0NaaEw2MWlHWldYTmc4bVNmMUtIWE82N0h6VFBDS2Jpb05CTE1TVU5lNXQxVlM4TjZSd0xMUQ?oc=5",
+      "title": "Tyson Foods (TSN) Shares Dip Amid Newcastle Disease Outbreak in Brazil Poultry Facility",
+      "snippet": "GuruFocus, 2026-10-19T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMXVDVUEzUmE3RnlpR05SWHNfcmVqQ0Q4RmlXUkZac0xveHhZWGtnRWlWdUV3eHZJWlgwend1TlBwM19rQlFBal9CeG9DVnpUOHl4RDVmeGhtek14M2hXcE80QUpLdE0wRmplZkRTMXdGVWowcEJYdEtPcXczUG8tUGZOYVRBWEhOcVZTVWZXSGZ2STRSRDM5alY1bVNCZktuaFE?oc=5",
+      "title": "Poultry stocks rattled as Newcastle disease detected in Brazil (TSN:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZklmM1hrZ0ZqZm9zRU9FaFNtbHhIbVQwOXVnZXJiOW04dVB6UGhEdE9QZ3VNMDNlUGM0THJmNHBsVGc2RjBuWXN3QkM3V3lpNkV1dzlfWkpWSld4WWFfWnhFZVVybGI3dV8wTjluMTZ3SFVLU1Y1THVCcWlVNVRwbWlWa2VTekhLMG9qUUUzeVFDRUlyM3p6cUMyYU9pVUJKZlpPQ2RpSEd6VWRqZGFkYzhWUWtOb3U4QUdtOU5tZkFYcnQ0SUNkcGxELXhPLVpycWpFMXZDYi1qZ9IB3wFBVV95cUxPQTFXMmRWcHB1OXVaRXpaOW96dElMUzVMNFJ2REJaV19sZklxdWFsTjUzdld6WlJ5Ri1TcjN6ZGdLRVlSMC1uY0dlNWRieUVCN2pOVjVXcnFkODlEamhvYWotUFRmOEFGMGM1S1lQVmJFRjdEaklSODFGSFFFT1NlYklfM01aOGMxRnFlWUFNMmlYamlRaTFBVHR0QVVfbTRVdFI0ZTczeE5oUEt2MlBXZnpUZ3VHTGZDVU56WU92b3FHem9wQktHM1NCbWRfWjhLMGZNdXA3TnlJYm1ucUhF?oc=5",
+      "title": "Learn Why The Bull Case For Tyson Foods Stock Could Change Following Beef Profit Cut",
+      "snippet": "Simply Wall St, 2026-10-19T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZHhyWkNZOHpwQUpXUVFnc1B4UjAyZWZKUTF2Z3Jlak04ek5aM3JZUG0tZzRDSUc5MTRjcy0xUjM4dzJXWWFBLUJHd0p1TTB0S2dKUVlKMHRvRUxCRnl0dmtqQ0U3bElSakJYSGhIQzUyVkN4Qm1oMWpwMEtvWkgzX1hfSloxbEhwZWJVaV9uYk1vZFYyMTFkSk1CSWZadzJMRjl3?oc=5",
+      "title": "Is Tyson Foods' Chicken Business Driving Long-Term Profit Growth?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSN/history",
+      "title": "TSN daily price history (Yahoo Finance)",
+      "snippet": "close 57.07 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

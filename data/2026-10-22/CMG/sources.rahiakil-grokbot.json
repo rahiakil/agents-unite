@@ -1,0 +1,49 @@
+{
+  "ticker": "CMG",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmI3dFpTOU5sLS1kckRaNjllWEVJNlpYb2p3T1F0U3NCU25EaTE5cEd2cnA2eFpTZlFQemEwQUdYTkJacV9mc2dJaFhTYnJlN3V1SkE4N1JLVlBSNUhvZTdXMmZxMnVBWWZyLXVtRzh4eHl3d2RFeG92UHF0NktOM3F5ajlwX3NHa2dwcGhtT0MzNU9aTDUwQTZVb0IzcFpKdEtXMVNDLXNvVHV0WjRhNU8tMFJfUi1H?oc=5",
+      "title": "Why Did NFLX, CMG, AVEX Stocks Crash To 52-Week Lows Today?",
+      "snippet": "TradingView, 2026-10-21T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 28.14 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "LNT",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alliant Energy\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUFNqYk5LaGdHWEY1QXNOd08ya2RsRDlPM2JiUG9OQzRxaEEwRXA4VnNlN2Y3TFQ0SktwSFNVWlpkQXBBSWNKZHZ5YVBydmtRLXFMMFNfeFBtZy1ZTlNKcVJWNDNnSWVwbUFXSFR3dTJjQUI3cUI1RTVTX08yWF9yMlc0Z21CLTNSdmU0T292WVlVMDBnNkI1WDVXY1A?oc=5",
+      "title": "Alliant Energy Corporation Just Beat EPS By 16%: Here's What Analysts Think Will Happen Next",
+      "snippet": "\u5bcc\u9014\u725b\u725b, 2026-11-04T10:36:27+00:00",
+      "publisher": "\u5bcc\u9014\u725b\u725b",
+      "published": "2026-11-04T10:36:27+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSldFc3VnZ282YUdXVDRUUkpVZDZmX1RTT0NlSkFLR0hqQW5DNFBmc0FYeHl5NGF3WHZkQjFZdW56Y2NlYzZIaWpQREJ5d1ZYRE9TU1JVZnJzajBFQ3pLNGFHZTZwU3RXaHQycmhZZ0Q0NGtXVGpqVFVNVFBqZ1ZTSXlTQTR4NHJ2Z1RKZzRDV0xXVXdjLWM1WnJKSjMwdTVZaHc0OFk3Nk11dWFNdTB1RndINHRWYlBwbVJnTlVtMEluU0xFMkZ4MEd1U3VJUdIB0wFBVV95cUxPTEhDVHpkNW8zNW1lanctRDhFQU1UQS1JYjV4VTlWRW15bjBjWG9Cbjh1eE10VEFKb3EzZXgxei13R1NhdUdVNnpweDJfTFFfX1dhN0dhOVJqS3RyYjhndjNJVVBwY01uMlhoRHBhMUM5UlJFU2IwUVc5bGVMWHVNb3dfWi1Nd1ktTFVrZkdJLUtxRzdadWtWMW1QMmstY243UjNxcmEyUXhuN1k1aXE5SEMyVFhZekU5NGc1N0ppWDNhWW00WXNQUDRWcmlZMk81elJZ?oc=5",
+      "title": "Does Federal Energy Financing Change The Bull Case For Alliant Energy (LNT)?",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2UtNXJYckhiTVAwQ3NOVTd6cXAwVEhzbDMzWTR4eThYSk9BaE4tZDlhMFZhSDdEVWVRVTg0UjlqLW1NVlY5V1U1WDRfMXQ4elhPdUxBa0g4cmpSZDFSYWYxc25wVjY2V0tMeWZPMldubVB1UkRUVGl3a0dxNE52LW5Gc3U3UUFTMWZGd1VkV2s0NEduMlFUVmdFRG9tb3dhN2t4aTJjZFNyZk1NejlCQ09B?oc=5",
+      "title": "BMO Capital Initiates Alliant Energy(LNT.US) With Buy Rating, Announces Target Price $79",
+      "snippet": "Moomoo, 2026-11-02T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmVUeVo1RmtqbkNzck9KdUtPUWZWWENTZHlGWUJjdnFJZGctREFuU2VEVm91aVhGeGpxVFlqejAybVEwc1BVZGNrMFh6TS1XSVkwQWE2RmNidlNweTZqV3NoUUoyQzJGNFRrQ3k4dW9naTczcGIxVFFGYkZmQnRHMTNadGdsb0dVaEV1QmVXZE5tSW80Wm9wNWZOZUhBQm01NEVmaXNwdzhMZ3ZjelctQlBsZlY2b0ZWcEozb2JR?oc=5",
+      "title": "Earnings call transcript: Alliant Energy tops Q3 2026 EPS forecast",
+      "snippet": "Investing.com, 2026-11-01T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVU3UXNDbDFuWU1wcFpNSjNva1BsX2tWWW93a1hkT0JBYkFDdlNQWk05QWlIcTIyUmlENlhjMUV2TnBvY3NBZ0k3NmZtbEtjQ2xESVpZTUJYb1d5ODZRUVVWYlpJUzdWZldjd2w4T3BGSi1ZOVBZd3JPeTBJQmVqbWxpaFlrajVOdlFaenRlME5OOVJVc0hjSTk1NEhyYkp5aWFrdUFRQk1QY1QtVGVTZ2ZZMmRIOXJfQjFfSVZDQW9yZHhn?oc=5",
+      "title": "Alliant Energy Q3 2026 slides: data centers drive 8%+ growth outlook",
+      "snippet": "Investing.com Canada, 2026-11-01T07:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUZMNkc2eWswNWpjejBtZ3hCTkJ1dFMwR19LRUFOTVV6aU5CNllKcEZqbU1kMHlXck1rU0s3VDFvemN0NG5JbG85cHZKMm5hOFBTRnJWemV3U2ZUM0xlSVc4RVNUUWVMalZRd0hvTEZWa3pKUGhXVUhENFI3dlZ6QnBnYUFnaEs3SExEWUM2cWVMOGptNXROekJMU0pqVnBTOFFNNG1OSEo2Y0ZwbFBrMGpQSXhMeWNQYUhOTWlUTlRYU3hCUUxMSllranXSAdIBQVVfeXFMTzd6RVVnMS1JYnNzTDBLWWVlUkc0LXhtakVVSUt6RTJxSHg1UTZrMjBQYWdfdVBQRGlmYVFzTm51ZV94LXQ4UzdEVWNLX3JzdkhtYjV2YldvQm83NEJPakRVc095bVg3ZjlDZTNZTmw1dmFrY0pZbTdEMTh0aGthbUxHeV9JbjFPRUR6ZllSSnFNMm1weEpqUUZvZERHRjZRRjhCZXgzU3FMcUZUOVR0cDNjUURjczVJdlVsUVM1RHpUcVdnZl9mc1o4cnh2MmZ5MU53?oc=5",
+      "title": "Alliant Energy (LNT) Rallies On Earnings And DOE Loan As Fair Value Debate Builds",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.832,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LNT/history",
+      "title": "LNT daily price history (Yahoo Finance)",
+      "snippet": "close 73.77 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

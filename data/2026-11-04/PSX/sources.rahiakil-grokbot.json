@@ -1,0 +1,133 @@
+{
+  "ticker": "PSX",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Phillips 66\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yRlVVRU1Oa1lHLUxSNExFODF0d21JWTFjckxnR3VReXh4SnRYY25ZM2YteHVMTV9uaUVzdGZGU1FSb1J1ZGc2QTg1eXRBeXhHQ21nZzhNNURkd1lIcTNrUy1B?oc=5",
+      "title": "Phillips 66 Slides Over 3% Amid Broad Energy Sector Selling Pressure : \uae30\uc5c5\uc8fc\uc2dd\uc815\ubcf4 : JKN",
+      "snippet": "\uc7ac\uacbd\uc77c\ubcf4, 2026-11-04T17:33:00+00:00",
+      "publisher": "\uc7ac\uacbd\uc77c\ubcf4",
+      "published": "2026-11-04T17:33:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR0x1dTRZdEE0VUhiVnZSUWdiMTN4ZkNGdkZETzdXOXY0VFB0SnN5OFpVNHd0OERFdVN4ZWxXTHZMTzVUNWNVRGFCb3l6RGlINzFYZWVPWWd6RFZuT2NsSVNScmdnMGFYcno3dndCdHBTSzlnZGlMRTYzY0pBOWZ1VExiS0RrcjdzdUx6NGNCT2JoZVNQYTVvWGd6UQ?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Phillips 66, Valero Energy and HF Sinclair",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOejRSSl9WLXl6MDZDNkRjNmZMR013MnFubFBOV1BmUmVqWlZjbjBFTTB6QXpyLS1pR0MwY2R2MXhHMWpwSk5RVHo2STlwM21ZUFRPNHNGSWVGSi1RMUNiU0F4MlZHdkUyWUs2YTdwTExxNmNPVFJFQ1pvZU9yeC0yZ0tjSHZ2WEFjQm5DUk1IN1lwVDZQQXctQnlVUXUwR1NLYThLSk9GR3ZINndSenBWWkl1cVozZ2Z5cUxrOXdkRVZOYlZ1WEx3?oc=5",
+      "title": "Phillips 66 stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX1gzZGRBaUlCWlZkQmJQa21obENsSjM5WWo3bWhFMFpmMHRtb2tqWnZDTkRrMklEWnMyMXVDWElOQko5dkJjSnlTR3JZX0dtQldiTUdLYnhIYzdLWERETnJfcHpjUU56MXFCLTdjSlNYTzFJZENUMlhzRmgyZDBPMDZoVFBXNHZubVNGeWpZNlB0QjNMb1FzOGhKNkpNZUE2empqbDIyUmtaUkJ4RDZsR2w2QkpMaG5ZdnJLUGJOMFAwLWvSAcgBQVVfeXFMTWNITDBqQndjeWZ5VVJwNmVpa2lhTndSVExrRWNUYXNydVhJQnpINHdfRE9pNzNNV3NUSnQtdlhNdTJ1ckJrbV9zU1JQTF9JTnIwZVpGTnYwdE94S3o2bXRHTm1ZMVBSbEY1ak9yWnNWTUpaUHloc1ZPV2RDV0RqTHJqaUozd3lhWUZOM3U5VHV3Y1ljMEw0S3NwZ0VFVk05Q3JsSkk4ZXhrR3BabVNlbG5OakIwbF84OTdwcFhPbi1LNWNaTFVjRXI?oc=5",
+      "title": "Earnings And Renewable Fuel Deal Might Change The Case For Investing In Phillips 66 (PSX)",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZElFVEVOckZJWHlzMUd2TEoteWxsTnhjS2VsY3g1QWxMX3liaFVUdHhqLTBMemlWSlpMS2cyQTY1WUpVTkRCay0zdEhKdGRYdE9GTEp0OFFvTkVUb09NZlJ2YV9NSUdSSTFSUU1sWnhVbWk5bGVjSjlPT1VLeHFPVlM4ZEZxVlV1anBrc3d2djhUOVpicEhpWVlueDgxU3o5UlVnS3R1X1dueG9q?oc=5",
+      "title": "$1000 Invested In Phillips 66 5 Years Ago Would Be Worth This Much Today - Phillips 66 (NYSE:PSX)",
+      "snippet": "Benzinga, 2026-11-03T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUFlfRUVOUmxMNEdZblo3NFUxZG0wS0dLTGZQMmZOQTNZN3pLeV9NMmwtS1VxektuZFpXV0M0TFhPakw0clFGdm45eU9rdVR1YlpvX0FDSXgwZW9YSXh0N3ZwSU5ac09iWXBKRnZlOTU5eGtFc0ZTTktRLXRNTndBQVhzS2NGa2hFclhaRHNmVXhxTklsLWE0bERvMTV2SjVkd2VndFlKYk5fZDFtQnhMQThhbXlsYkhORGJCMjZRUUJkaEZHdHZRcEpycUI?oc=5",
+      "title": "Phillips 66 stock faces Freeport outage after record refining quarter",
+      "snippet": "ad-hoc-news.de, 2026-11-02T16:02:36+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-02T16:02:36+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORzlCVkU2RUF5UHk0ZE5MdlZPSzJPRU5lWEl4LWlyMFRuaEQ2V2gzZlYyZG81bWVkcjZ6YV9oV001YkEtci1EYzltU1RRVzZ6RjAtVGZaSVdGWklxc2d4dUg5ZGowYk14ZHNnV1ZmU2ktR0VUcFFMRWQwMEdYemhtR1ZyVEtsUW5ibGxUeVdiN2g1d1N4UUhFSQ?oc=5",
+      "title": "Phillips 66 (PSX) Just Flashed Golden Cross Signal: Do You Buy?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaGE2dGVNUWxxU0R5cjE2MzFvVkxZLXVyQnlGdHB2R3JwR0t6YkZyNk9GdWVnR25ENzRhc2hHMkF3aEQtN3BRMUdMV09RYlhRZGhyR2xzbndOWmtRaWhjR2ZZREZoX1RhdW8za1I1SjdjNVVCQlhDdGR4bm1jZTZSZXBqbmVxbno0N2VlVDh3b3RiMXpBWGpmcVZZVlg5TUVyaEwxangwS09UZlgtV1d2Y2U4T0NNWlZVZWJla1NKS2RwblHSAcgBQVVfeXFMT3JvTDJ2ekNBTmFOQkx5UEhvVUNISVJTSFFBOE5CVFlQSlpDdGZCY29hVk5TLXd3cWdpeDdqWDQ2N0J4VWNKNWktSS1LRFBzVVJzSUZHQWF4cGljamI2MUczdTZtR3RKdURJS3BsTmJnWUMwUUFCZ3gtbi1hZTVNeGttWFNUZHRVSURRVHJuSGs0Wmk0R3c3azFOMEQzNUhFTG9WNEttaElPbko0cEtFRl9xSGEtdlpEME9zT1RmZVRHd1NvaHhJNzE?oc=5",
+      "title": "Phillips 66 (PSX) Declares Force Majeure On Freeport Butane Exports After Outage",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSX/history",
+      "title": "PSX daily price history (Yahoo Finance)",
+      "snippet": "close 259.63 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

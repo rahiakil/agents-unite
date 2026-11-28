@@ -1,0 +1,85 @@
+{
+  "ticker": "NDAQ",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nasdaq\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 100,
+    "no_date": 0,
+    "after_cutoff": 95,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNWNuYWpseTlxM1hSb0N5V3BETnFzck5heFZsM3BTdThXYzZVX3BPVkxZYlZaVVAwUGh6Q3R5azNVM2VYR3RrMG9qMWNwbFk3N3JSR0JGOXc2eExOQ0pZSGRJcUlTS2cwa0p6NTJGMnJ6cEtZR2ttYzZZcG0tTUI2anMxMTk2NTZvYllzUEFpYVhRUHM?oc=5",
+      "title": "Manhattan Associates Rings the Nasdaq Stock Market Closing Bell",
+      "snippet": "Nasdaq, 2026-11-03T08:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2c0SFlYeWJNTUwweEd4WUFBbEJINE9COUxYSXRhLVJCUndxY24yWjBmZTJpSTQ2Rk9sV0pHY18xZExoRWJBVkZBOW04ekJ5YmdDVnFGeWp4TWpqbFQ3WExHc01wajBDSmtWNFJOYzNPVV95WExUSG5xMlA1eS0ybjNETFQ0V2c3VHN3RGVpeTd6ZFpiSFE?oc=5",
+      "title": "Limbach\u2019s (NASDAQ:LMB) Q3 2026 sales top estimates, stock jumps 18.5%",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNmlVUnpVMW5DUFBsWEhfdUpLZUJCQ2hQNFFYa1NoN2tXVEJ2UHl4OGVaRld4ZEpGVWxSaVRDMVpYR0IzSTFtRno5SGptVVZoWjZkSHlSTWFBeTJnMndyVFZIYWhILTJDdHJwLWJESW9WS01mOE1jWUExdXpmZDRWam5lUVY1TUtHQVNwem9TUWRYZEZlYk9ENWdqQ2F3QQ?oc=5",
+      "title": "Columbus McKinnon\u2019s (NASDAQ:CMCO) Q3 CY2026: strong sales, stock jumps 11.6%",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONUF2S3V5OTRHdjBEeERmRTdsSlZLcENIRUtER3c2LVZUZHE4ejYtNDl1c0hTdDZmdnlMaWRvc25NNnBKVE5WNlZEb1hTdDFRdGsxQll0RjJPN3dhR3JQMnJNOHdrUmp5N3pNZ29zek9Nelp6VUluRThPMURBVTE5WHBtMTIwTUVBQ1hfblRtUnpKdTh3SUJJ?oc=5",
+      "title": "AMD (NASDAQ:AMD) surprises with Q3 sales, stock soars",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NDAQ/history",
+      "title": "NDAQ daily price history (Yahoo Finance)",
+      "snippet": "close 109.7 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

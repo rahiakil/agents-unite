@@ -1,0 +1,70 @@
+{
+  "ticker": "CHRW",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"C.H. Robinson\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUGstVkRmUnJlVG5OY2plUlB1YmhfU0d1UXlQNzFiYlMwWTlhamYycnFpSFBIb3hSNEZ3cTdRM0FqY3RzY0hDRE5TQUVRa0pldDdtOWpDYVhXcEs5NEdtOFJjMUZIbVMwTlE1cmNxV1JEdVJsNzVtNmlLMkxSdzlValMyUEtLV2lvOEg4d0tqYUJYM2xEb2pld0RRby05THdRYWhuYm1JY3lZdG9ja2Jld1E1Uks5X2lxbjFhZW9LQzBGa0YxU2otZg?oc=5",
+      "title": "RXO stock holds at StoneX as freight rates improve ahead of CHRW deal",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNelZJOXU2XzE3ck9kaGhSUVVDV1BnTVdaQkVRa2wwaHZxYkZUOHJ2aWJ4Mi1wRzgzc3FHTzl4Ny04azdxSjNhXzBOSEc1bHVIcEJUemRuci1rR2VLOXJuVzcwWUJKZWpTUDVlNGJaNWRnY1Z6VlEtdmV1bkpGVjFJTC1oWjFGNUFMOVJtM1R3SEFHaWhtdkdBdXVvaGxxeWM?oc=5",
+      "title": "C.H. Robinson to Participate in Upcoming Investor Conferences",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1043277/000104327726000047/chrw-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-04",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHRW/history",
+      "title": "CHRW daily price history (Yahoo Finance)",
+      "snippet": "close 133.84 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

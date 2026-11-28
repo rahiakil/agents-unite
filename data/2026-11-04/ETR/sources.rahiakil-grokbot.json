@@ -1,0 +1,115 @@
+{
+  "ticker": "ETR",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Entergy\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOEJJNUtQSnd2VXNUaVlpYk9SN1dObV9nMFM5NXh1dGY1LVBaRUVvQzFCTnY3NTBjUE5QTHc1UTJFME02NjhTMmJhMkNLNjByUEFLMTJBUGcwSnFmYkJxdE93azBtQnlMaXUxc05hTnJXaURfTUlSLUdrejhmU2RLQ2lZeVF3WEU2OGNDWFd3Z3E5aHFEeTIxdjJ4WnBMLXlybHd0TnVLMlM2WjJqT096TV9aZkc4dEtqdUFzdUVmVmFENFE?oc=5",
+      "title": "BTIG raises Entergy stock price target on increased capex outlook",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZFhDTUJxWW9wbmxFZmhndWJkLVpOdjJhVm5rWm55SGd6MklaUmVDVEttVmZnbzVnRGZqNjZKc2xiOWJYelVkR0NZaEF1aDU1eGdqRDQ2Vnc3dGp5cno5TnoyYTUybzRMdmsyaXBVb2E5ZlZ6cG1KQWtTQXNtZHRxX0lMOHdDSERQ?oc=5",
+      "title": "Entergy reports third quarter 2026 financial results",
+      "snippet": "Entergy, 2026-11-02T08:00:00+00:00",
+      "publisher": "Entergy",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQblRMb1VVbDFocllyMU5QeFF6Vy1fZjZfQ0ctVjNNR1BIQ0lycThFOF9KZ3FXWE40WUZRMHJ5bkc4dXl1b0ZPRG8tT0NLLV9vU3JDRVdVSHNJcW9DZnBUVlBGV1VzbEROckhGRmpUVllMNV9HYU42eWprZXdHM0FlWThMVXpNY1lLc2xJT1FqRmRpaDlWTXFtbmd5dDVBX1k?oc=5",
+      "title": "Entergy Q3 Earnings Top Estimates, Revenues Increase Year Over Year",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSXkwdE00SkRyc3I2RlhnNFVfNmdETGpWVUZPdklIMkszVGpOcHpDeXhnM2dINHR2SUsyY09DNHNoNGFwc256RDhDYS1sbkc0NktYMkd3MnRUVC1Uak1ydFRIekl6ay00bnhSOGplbHZhQW56a0JDZUhjdFdmTk1zXzdzSzIxb05zWU04MDhGRzUwX0RuSHFhVmhUaXlrenlMQWtKcTV3?oc=5",
+      "title": "Entergy (ETR) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPanpwczU2RjllM3lsNjhXaHNnYzh0YlVDcXNBSnZ0U1ozNUlBMGtVT2Izc24yVjZ6YVVYdzhiYkNMZG9Nd3FSVnVWYVc4aTFjVTJhX09vWEsyQXhGS0tOM0Vra09FMVZSLVlKWDJSUGlTX205Yk1tblZPMUxucW94NFV4cm03OWdGWHRXQjlqVEo5Nnp3Z29sTHdn?oc=5",
+      "title": "Entergy (ETR) Beats Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000322/etr-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000325/etr-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ETR/history",
+      "title": "ETR daily price history (Yahoo Finance)",
+      "snippet": "close 111.9 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "URI",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLWptQVlzSXBBd2xpeXh0OWxxdGF1ZTU0dmkxamtCSlJ6c0pNaUM1MGJwUFkwdzdyVVV5dXBXcGJnakNuUnk4ZmMwX18zZWZfdWlDTVVrVjF0Zk9qblVlMGZKaTZEOGFDZUpLNldpdjZ4Q2FXWHhMalhrVTRXTnpYNTMwVWhSN2RDYk1heG5SeDA2MXFaMjFFVFVITkRJcEtxSDVLQ3VZLUpuWG9MZkpHeTJQSzZpSWdrOVJMT3Z1TXdERmZfU3VfcTNFV2hwX1E?oc=5",
+      "title": "Raymond James raises United Rentals stock price target on growth potential",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 1123.79 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

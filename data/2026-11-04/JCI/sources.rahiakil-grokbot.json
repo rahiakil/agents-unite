@@ -1,0 +1,61 @@
+{
+  "ticker": "JCI",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Johnson Controls\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1Znd0lGYjNuRm5YV1I1R01NT0ZEbXROLVI2UzBVUkgzQ2UtZmE1ZkZlTXRKTmc1eWtwUXU5b1oxZ0Q5SUlpaDBiOS1FNEVCODZfeGhLTTNmODVzSjhOZ21aWVpRVkJUZE5oYzM2cno4dy1lRnhkbENhOHZycDR1d0ZCUmlPN2UwQ0R0STk4cFFmQ3NPQXdMQ3F3UFNVMmoyY20zUXBNZUloRlVPVDRnNQ?oc=5",
+      "title": "Johnson Controls names new legal and IT executives By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbXVUdmZTRFhhdHQ4YVRfQzlhazYwMGNmc25MNWlMTkdzX3VteTcyeWI0TFBZVXZjend3UWQtcGFYTklLVkZ4aE1ac1BJUDdZZWVMeUNRNUI3UEZEQUY3NWR4aDZoN19iQ2VvTUFhRU40RlU1bG5vaV9BWlBueWpaclR1OGUzbmF2OHNPUC15MURoM1JuTEVyU2dUODFLRXg5QXI5VzdqNm9xN2NqbTVySWJQQkVKcTlRMGpIYVdsTmRFOFl3cDI1d0taSTd2aUQ4RmlXYjFBTlc?oc=5",
+      "title": "Johnson Controls Strengthens Executive Leadership Team with Two Key Appointments",
+      "snippet": "Morningstar, 2026-11-02T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JCI/history",
+      "title": "JCI daily price history (Yahoo Finance)",
+      "snippet": "close 140.53 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

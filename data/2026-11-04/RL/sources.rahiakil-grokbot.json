@@ -1,0 +1,97 @@
+{
+  "ticker": "RL",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ralph Lauren\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 25,
+    "before_window": 1,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMTZjSlMwX3RYaUR3Q25GU0VzZC1FcGJLMHlEc0dqTDlaSFA3Vkt6UEZJLUFYTjZWVV9yY1NsQ0o2MnhKOE1MNWJUc1FoSWx4ckg0M2RiSDV1NVZtNGpYZl85aTAzTGlvRG9KZHBNeHNxN29kMEhKdkpxVzR1M2c1azNpQVNwdnBMbzZ3bmVTRVNIZkxzZnlZVHNFLWJCZw?oc=5",
+      "title": "Ralph Lauren Q2 Earnings Preview: Can Brand Momentum Fuel a Beat?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLU40UjRxTHFQd0U1LTZnYmV1dEI3aUFCSG91N3BSTFFVOTZIU0ZfaFVBTVM0S0pXZXJHN3gxVUR3NmVoOUFvT01jaVBYOXVCRU5BQU1HU2RpTFZkSUpYdGZyd2R3dkh6c2tnRm8yQmx6TEluQ25DaTVyV2hIVVFsU2hvU3JsbU9Sb25CRFRkM2h0NFlJTzViOUtDcXRFYkJVQi1RSFlidm5vMmQzRVY3TmRtd0I1OHdLZDRmMHFsUGlqdWZDWndIcW9FNXA?oc=5",
+      "title": "Ralph Lauren (RL) Q3 earnings report preview: what to look for",
+      "snippet": "FinancialContent, 2026-11-03T08:00:00+00:00",
+      "publisher": "FinancialContent",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zaExKX04ybHJybE1WNmZZQ1hIVmdBMndjbUYzaW4yN0Vod1Fvc1lNWnRMb2VLVFJRcl9PR0hhY29kaDlYTW5mRDB4dEZseW1pRjVMMlRpU1JxZjd2YWhoUzdvUWRoS3lrd1RoTExwWQ?oc=5",
+      "title": "Jim Cramer Calls Ralph Lauren Stock Top Apparel Pick Before Thursday Earnings",
+      "snippet": "BeInCrypto, 2026-11-03T08:00:00+00:00",
+      "publisher": "BeInCrypto",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSENWUVdoeDhXak5KeG05dDZlaWxucTJMQmNJai1Na2N3VUt3WUV4b3lQcHBvZjItZVRxU3FLbW84M0xVc1JIUUNOVnM1bzE5SzdXR0ZUWTJ6WmF6LUVJcHA0UUpkY0luVFB0U3pEOTFKVnZxMzJUQlFzQkdVQ1RHSE82VWtlTnVIdFdIRzEtdmI3eUJnYVRQSw?oc=5",
+      "title": "Countdown to Ralph Lauren (RL) Q2 Earnings: Wall Street Forecasts for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVUFwUUVPTVhZTFFkSjR4S0pjdFY0MkJiaEVablVSaUhLNlVtTDFaWWdJcnNrWXROTXdNQVJTVi1nUmtxbTRsMjZ5M0xSeTdiUGROYmVFbm1oQUNIcUZBdllHTks3NmN0c0JOajBVUGlaYWVBWGJzWEhwUE1WNEY0b0dkMmNvMUtFNzRjczc4MGhGYllCazJHOFZnUTZ1amFhenhIQnYzQXNwb09lYmZiRGVFUm1IeVlLZjlHUlZvTVdIUzBDOEJWY1VtYw?oc=5",
+      "title": "Ralph Lauren has been my favorite stock in the apparel sector for awhile, says Jim Cramer",
+      "snippet": "CNBC, 2026-11-02T08:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RL/history",
+      "title": "RL daily price history (Yahoo Finance)",
+      "snippet": "close 412.06 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

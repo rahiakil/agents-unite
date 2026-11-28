@@ -1,0 +1,61 @@
+{
+  "ticker": "CAH",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cardinal Health\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJT09TaXJUSUVIamVXRENpQkE2RHA0ZW9Pa2w0MmZQaGZ5WmhfWThna0VoQW9senVSSm1yRGZXNjRqQXlmczhMN1pJTFVVSHVBa1AycWZMMA?oc=5",
+      "title": "Cardinal Health (CAH): Company Profile, Stock Price, News, Rankings",
+      "snippet": "Fortune, 2026-11-03T08:00:00+00:00",
+      "publisher": "Fortune",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ1E3czF3dFpmVTFCZGx5d0FMNWJPWG83d2JRX29URFdMX05DQWhSaTV2bUp6NVpKMGNiQTlxb2twNFY4RF9mOFlldEl0MWN6TzBaeFUyMmNCT1Y3ZS14WTRTZFRXWl81Y3BSX0s0SEdwNThGRExRYmREYWdvalcyMklVQzhGY2tFUERMeXhyZ0N2c25EX0hBQ3VOeDlIT25KSkx2NXlfR0wwS21HU1dwTEttSmtMazMzQmQ1RWdpNzhmdjY5NUhjYk9kdlVJTEJDY3F5aXp5VlgwSXBMZG1aY3ZMaTdGY1pUYncwQQ?oc=5",
+      "title": "Can CAH's Specialty Strength Offset Medical Distribution Challenges in Q1?",
+      "snippet": "The Globe and Mail, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAH/history",
+      "title": "CAH daily price history (Yahoo Finance)",
+      "snippet": "close 261.93 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

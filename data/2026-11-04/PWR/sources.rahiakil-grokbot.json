@@ -1,0 +1,97 @@
+{
+  "ticker": "PWR",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quanta Services\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdXIteGxHeWdfdF9SUG83SDh0RFVLaVpOWUs3OHg2X1ljMlcxUTFOd1pycUFJZk9oN0VmQVR1cFZFcUk1YVFNbUhTelJuZkhILWhUak5nMHZ6N0owY2VtV3RYeXAtTS1VVzZIczRMd20wRFJ5elpNc1J5T0hsVXJDYzJSRHR2bWhaazF4THNOcUdLZDFWdkRlbUtHSzFKZnFqQkdHSHlMd1BpcDFyOFhnWTB4MEU1VHpQVUE?oc=5",
+      "title": "Quanta Services Inc (PWR) Stock Up 5.8% but GF Value Says Overva",
+      "snippet": "GuruFocus, 2026-11-03T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVE8zUkg1Z3NPVVNxTkNEa0RfSTZ2RXpKbjhmcEo3Y2ttdkNPOVhGQzZjaEFBZEtsZG9pblBsS3JfOUs1UGEwOEdOR3pIaXQwcGZfeTFBUDhYbWZjdS1lXzV0czh6Mzd4VVZjdU9xUHJDcEtaUTRSSkxnV2MxUjhrcTA3NFBkZWdtQWVmVk91YVFPVDB1MlA2OG1keHB4RUI3STdLNXN1ZGI2Y0MxZHBBOFJCQXIyVEJUT3IwZmZ5S2plRmNscTJoRVlrMHFwQQ?oc=5",
+      "title": "Quanta Services (PWR) Receives a Buy from Bernstein",
+      "snippet": "The Globe and Mail, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQQUVJV3NTRWpTS0xpdjNRVktlX2ZQZEhWMTRFNTF5UzBSSW5mc3VoSC1wdE0tZ2Q5Rkp3dVVMUjVOZXk3VHJ3cElucUxWQjB5WnZ0dkF3bDRmZFNKZXhFT19JR1RNcFExTVF1dnRINW91V2FNcmxRUFJTajI5QUtqbXlJeTBOZzI4SFo4MmVkVzJTVXBjY3lwcm1icW14bDhReG52SEtoQUxEaG9OUlJvazRNTnhGNU82ZFI1S1pPX0o2R2ZxRXhNcTZaclRuWmJ5WTBZTGxMUm0zdlBZQmNOQ29NWkRvT2J4TUhMaTJtdXdxdHhycTlGRGl0eUJ0dWhHdGluUXRFT1NqcVNhTGJjRWtZcjZubTY4S0lZa3I2SVY0Y3cxNVk4M29UcVZfVF9FVEFOeENn?oc=5",
+      "title": "Analysts Conflicted on These Industrial Goods Names: Quanta Services (PWR), Standex International (SXI) and L3Harris Technologies (LHX)",
+      "snippet": "The Globe and Mail, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQXZVcTN6N0t6ZHFiaUVqUGM1YVlNZnpFYUcxbUxKRTlSYWJUbDQtbE81SU44dW0zeHJRSFY2eEJLVTN1T1p3MTRfTzBjdzFxWVh5UzI1NzZpNWltNnExVnhENnJ4S25iajlMQlRoNHd4R3FvbVlnaVk0dmtTT3dyT1R5QTk2X2otcXZqbnc2M3hLZndLYjV0Qkloaks0aEZSNk1vaDk5UUhkeUNtbXFnekNwcUd4aEhHd2lORWRPeUsxQkU?oc=5",
+      "title": "Jefferies lowers Quanta Services stock price target on valuation By Investing.com",
+      "snippet": "Investing.com India, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSjhiU0Jwa3dWN1N6WnRJZjI0R2lXRlhOMGtOZHhsV1JDZlNJbGltWWRWeE0yM3I2ZkJGUWtUSWE3ZDN6OTRMTE1tN2ttdW5CZngxOHlhXzZUR2h1SzR6akNNc29KdmdzV1FZaTJ5XzkweUJncVBuYzBzUTFpOWxlWnpFMTVyb05kM09FbWRHQmpMcmpFOUtpSHVFRFgtZE1GZWp1bkhhWTBNRkg0Wm5NY0lZSnAwSmhCbElvTVgzdTJjUF9QeWdvemtZVjl6X05VSnfSAdcBQVVfeXFMTkhWNnhvSEJRN0VyTEZkb3RBUzJXYVlyUUd3YUY4MjZ3c1g1TWd1enlmUFBadzVQcGFSSjdOS1VPbEs3YnVMVldScHlmTHZNeTBlLVF5WUx4Y05OX2dBaDZtZkFnSHdmYkhsMmZfNWpjY0V3M0NwQUYtX0h4Ul9FbENNd3U2Ylg0bGFkNmJ2b1RpaHJTck1kYmRyWjU5Nmx3VXNvWmVnUVdqSHR4SDVVWkJEbkFrYjU1aFFFLWhyMkQ3NlFEN3M4V2h2YlJGMFVtNU1NaWx4Vk0?oc=5",
+      "title": "How Raised Revenue Guidance Will Impact Quanta Services Stock Investors",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PWR/history",
+      "title": "PWR daily price history (Yahoo Finance)",
+      "snippet": "close 580.44 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

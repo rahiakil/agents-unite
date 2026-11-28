@@ -1,0 +1,73 @@
+{
+  "ticker": "EQT",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EQT\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 5,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORVVYeENBbmxVTXhTVDU3SzQ0UVB1M3dBbTRDakNCWG9CeUVSNTBjY0FZTjZod1hqa1BtYVdPaWRudGhPMzZsMms5SjJSM2FqU3dZSnZvR1BQRWtCSWFxRG1jZWxjWTFIZjVYeWxuT25uZDlmTmNsc0daWVRBbGtuNQ?oc=5",
+      "title": "EQT Acquires Range Resources",
+      "snippet": "Gas Compression Magazine, 2026-11-03T08:00:00+00:00",
+      "publisher": "Gas Compression Magazine",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdEtOZFQzMnZjLWVqMnBSeERWRkZzeHl5X3ZWTFNsdUQ2TEwzaV9Ca1VsdnlXS3NQQ3JIVDlLVUxJUXVWT0RLbTRjbFk2SFVmVElQSWNldTNfWmx0MXRPT3k4cXp3RFZFR01VY3NmREJ0SWxqZDNJWkhWQUF0MUpvcjln?oc=5",
+      "title": "Platinum/EQT deal receives ACCC decision",
+      "snippet": "Money Management, 2026-11-02T08:00:00+00:00",
+      "publisher": "Money Management",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQzc3dHRVLXIzS1VEQ0tZTU9uQVYyaThPQlRPWWMyYjNRQ2ZPcVB4Y3g3RFVKRUtTN2dxdEFUVTIyX0MySHM5SlAwTGpvS2pkU2J4QnQwbHNvTVA3MVFlMmVUWW5Uby1HNjA0d01BR1ozRXgxTGV0LXBtUWtLZDdrTG44Tm83QUd1d1l4bjd2Z0VsTXFHYi1mOWlDa2x4SlVBTmVLdThkQUg3Q0QyWERDN1VQQ0F5TnBjOXlCNw?oc=5",
+      "title": "EQT (NYSE:EQT) Stock Price Target Raised at Truist Financial",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EQT/history",
+      "title": "EQT daily price history (Yahoo Finance)",
+      "snippet": "close 52.52 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "BIIB",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Biogen\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeW5JeWZ5QWVwZ2FKSzM5c3BVR1Jzcm14ZEpicnl4QzB1NnR5aEFNWG1iZkhpVFhRZVotQXlJMnVBVzZuWW02ODVkZncxVnE0VmhLUUlMV3VCV0N3NGFkbWRoVzg3bklqZm96UUpnX2trUGlfS1BWb1Awdm5JNFRGUGRjbG5hSWQtMWg2RFR6Q0RORHVIeU4ya3o1aTNPNTlNVTNkY216XzFTMGZQamN0Uk03bmM3ZG1MVWlaQjBDRXEtVHJITjJYVFk5WHBjYk5Dbk1JNUVB?oc=5",
+      "title": "Guggenheim raises Biogen stock price target to $300 on growth portfolio strength",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.791,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcVZQNk9EdmxSLXNNZW9BWXdSdlg4NG5nSXlQTGxyU2tUVE96SVkwdFdkM3lZbHFLbzFPa1dLUHg0Qmd5TUVCb08zZUZtcW1nWHRPNzVpZFZUZms4X1UxWTFwS0VzNWd3MkNabGJ2QVNyc1E4QVRUdXAzd3p0RGxnMnVyeVVIS2h5UW9ZTkhsQmhieUdGMU90N1U5TFQ3ZVhxbVN6dWhUNnlQME8wMFpiNlFZVVI4SkE1Sy1j0gHAAUFVX3lxTE03WTNxdFpnaU94aC1DOHkzdTU2c3RPb3ZXNzVFMDU4eG56SmNFcWlQTVhURWc0aFJweDE2Q2dLaHRxV1UtOFM5eTFtMzFvRmJDQnBjMHZhcFc4Uk9BbXBDSXhNZ1RJY21zQm1LcHhPTk55WDk1OXB4LS1pSXl6Yy14QURBRmVEclhIRG9qUG1zc2VRcHhlazhZZ3VkTVRqWFN2N1J6LU1LcTI3Ym9pMXFTbENWZnY5a2JIS0NYeVpOdA?oc=5",
+      "title": "Biogen Climbed While It Swung To A Loss",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BIIB/history",
+      "title": "BIIB daily price history (Yahoo Finance)",
+      "snippet": "close 254.46 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

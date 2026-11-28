@@ -1,0 +1,73 @@
+{
+  "ticker": "CINF",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cincinnati Financial\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFhBc0ZZQUxLdm5NaTdKOWJVUFJmdFBKRXdDeXZwVE5XYUx0bmRNSmZFczNWNE1zZjVfMy1Td2tYbkl3T19Hc1JabkRaZVpIckdvdnVlQnFpeFBKbDdkN3k0eDdVV09EZFFMN3B0cnlTTnA0RmY3NVZOenY0djQtVkJyckdjRlVnTUxLUjhWbUJXRm9jcjNSaFpQQk5pRERqT0NRaVZxcUtqbUt6WmNVYUc5OW40OVVHQkZRQldZNF9kenc?oc=5",
+      "title": "Fund Update: 166,000 XYLEM (XYL) shares added to CINCINNATI FINANCIAL CORP portfolio",
+      "snippet": "Quiver Quantitative, 2026-11-03T17:33:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-03T17:33:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHVROGtXS2lJSWQ1QUUtR1BIZUhDYW9UYnkxdHJkYzlaSUxuLVBwck1kaGJhdVNaMC1NT01OUmVPRjl3b2VpNE1EQVExaHZZc3Rqb0V3NWxRNGllekxBOURKbVNTSzZPaXA1ZWtXRzNRc3cybnFlWUNWUHAwNERmejgwUEJlcVJ2NWNJeW5wWE5CVE55Unl5UzM1dDJReVQzanc?oc=5",
+      "title": "CINF: Cincinnati Financial reports $5.32 billion in 13F holdings for Q3 2026",
+      "snippet": "Quantisnow, 2026-11-03T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUS04c2FrazVnUVh6R3FKRTAzTGVJZ2JoYk12T2JJS3lubnZvZjg4bkNnbksya3EzR281UFEtb1V6WTVGWm8tdDU3amF0N2tXLWhPc0ZVTHdzdXdXMjl1NVozczMySENqVWFENzh6d2VZTFo5N3FQVlNVZGpQQVpmUFVpMExhNV9sMU15dFpncE1pLWtXVE1aRmV3?oc=5",
+      "title": "Are You Looking for a Top Momentum Pick? Why Cincinnati Financial (CINF) is a Great Choice",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CINF/history",
+      "title": "CINF daily price history (Yahoo Finance)",
+      "snippet": "close 190.48 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

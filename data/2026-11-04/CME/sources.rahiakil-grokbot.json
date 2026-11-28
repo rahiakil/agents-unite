@@ -1,0 +1,97 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CME Group\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSWc0YVlMRlY0TDlMLVNCbG9feDItYXZ3MVNCMDVSRE9GZ2Q4amY0eFpwdnBNR19hZTFxdUFTZk9TSHkwMXhmMzFmVjNPNkJ3cDdMTmtIcnd6MnA0NWN5aWlOV3NaVkk3ekRmWDhKQ09iNW4zaXBKNHZ5NUhiS1h3djlUOVc1TXpBejF2YlE5Rmw?oc=5",
+      "title": "Nasdaq CME Crypto Index Futures Contract Specs",
+      "snippet": "CME Group, 2026-11-04T08:41:27+00:00",
+      "publisher": "CME Group",
+      "published": "2026-11-04T08:41:27+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONkhCcGc4dDFmQk95eHo0VUNZcVNrdU95UmhyR2YzdHBTR3JoMjduQUJZVmwxcHNzXzF3RE1Yd1VjQnJlb0N2cnEtTk1ITjM3elg2X29uSmdZR2V4NTdHZ25UQVowTHBBUlVDX3BJZDQ4Nk1QeHgxVUs1TXlXYjRtVGFCeDNCblJUQ3ZaWF9kd3RrWXdJQTdqQnE5amlMSThyOVg1YmJROUN6ZzFyN095eHd2dlAyUUNmV1pUdklSWnpUamlNMkJncWhhanI?oc=5",
+      "title": "CME vs. Interactive Brokers Group: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT2hlVkw2d1F2WGNGWEV6V0J6aGZpNlo1LVpNdGJCWDh2RW1xNGtVcDNOOXdPdU9MUjRTYTBFSHNiRXVMSXRTZDVQZkdYNWYxbVJnaXhYdjNsaXpOSEg4NHJlYTE2OXVENEZ5VV9IOXR0YktLMV80R0NjUUpKYWp5UG11VWc5SHdiSTdLRFhR?oc=5",
+      "title": "CME Group's Market Data Revenue Hit a Record $243 Million Last Quarter. Can It Carry the Stock When Trading Slows?",
+      "snippet": "The Motley Fool, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT2h6YWh3WG5vSm1meW94TnllVXphbEpqSzFaNzd1TmdoQmxZZ2JxYTZXQjlUNUN6Y3FyaktieF9kb2lQU0poVTdtR1ZhRVpKNkk5NWM0R3NiX3NIdXRVSjNiVi1SaVpxSDI3akdlSnZRNTVsXzhDLVNzajN2NTRQOWQ0cnJEMHc2Y0MxVlBsaHJCSEcwU1h2bU9XQllzTkk?oc=5",
+      "title": "CME Group Reports Record October ADV of 30 Million Contracts, up 15% Year Over Year",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0RxVjczdklVUUUxT1VtU01mTm5JYkR0UWY0Mjh3ZnEtZDFqTTA5VUpGT2lzY2NLWWZvcTJGeTlCWnJySlpVS3IxSjVYYkJEVDkxNVo4Zl9Sc1hHdVVrQkhtLXJJSWZQTUIwUVdlUHl0M0dqNzNSSWM2M0l4bFVDQ1czZEk0SGJ5NW1BMnhXZmRtR1pIT09BTGJQMG5TSS1YMjBlWllvRjZobVdoYXJNUURzUE96VVVEWm9yblo5QmJvZw?oc=5",
+      "title": "CME vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 308.27 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

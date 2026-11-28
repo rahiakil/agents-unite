@@ -1,0 +1,49 @@
+{
+  "ticker": "CFG",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Citizens Financial\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVEZsRkpXNWdMUHNUbE9SLVNrejFBRl9kemlyN2EzOHdxalh5cmp1amhPamZ0dmJTR0psckE4Y0tZcjA0andNVF9GRV84Ym9VeHpiUmExcWp6M3lyajYwM01TU21STk92UkxKODdJd20yd0VVSV9QS3dTZjBiWVh2ZzJrdnAyajB3RUpCMHZNNXVGY0VVQ29haDBaTExTYVRBb3UzQk5YOUNoa0Y2UnljYWw4R0lvRjlXQ0d3?oc=5",
+      "title": "Citizens Financial Group (CFG) to Replace Deloitte with PwC as I",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CFG/history",
+      "title": "CFG daily price history (Yahoo Finance)",
+      "snippet": "close 65.9 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

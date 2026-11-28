@@ -1,0 +1,85 @@
+{
+  "ticker": "HII",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Huntington Ingalls Industries\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVVdTeGhJY3c2dzVkd3FKQ09tSGpSUVppb3hEcWUzQTQweEVpaGpQM3RvWUVfTmU3dTliWW9kbThNUm9DcXAyZmJhX0M0enlqTmdCS2JhamNFVmlQZ3k3MllNN3hhN01XNnJwNTZ6LW5HOThNRGoxTm5DY2FuMjZEMUhqbjduZFF0M29IS3d5cHBoOXBibXZfMFUyZkphZE16WlVIQ1loODZlSlVvd3Jj?oc=5",
+      "title": "Huntington Ingalls: Anchor Of American Naval Might At A Deep Value Buy (NYSE:HII)",
+      "snippet": "Seeking Alpha, 2026-11-03T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPclBJUFFvbV82NmdPTWdHSVUyRVFzd1NHSnBvanhydkFJa2FMNlUzUEZsTGl5c19QYjhPU2ZOcnhQcmtTNlh1Ql9qTExwSUZmV0J4NXE3N3JLQXFnREdJU3JjMmNpX2hvNUNyaURmVW1USjFEc1J1czlVWnF5WkFQMUdvTlFfX2dETGRJUm0tUjNRbUN1MUUzQS03Rmlqb0wwX1pqVUlaRHRGNWQ0cEFZUlZSTEp3SHdlZ2hodktpNF94OHZySFJqZEhIYmVTLW1zUVM0SVJvWXRtcFRTWEE?oc=5",
+      "title": "Huntington Ingalls Industries Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa1R2Skx5S3BuQUJsUW5leDdWMnh2Qk1RR1pNNTl4OGF6LTREYzhxOHlyc2MzV3pzT21IaTlBQk9BU0lXYXVrR20tdUpLUkx1dFpnNk9mek9aTVpHS1Z2WmozSzh3SFZSelpQbzhXcjBZSTM4YVBJUHVsWkJEVW1INHprcE4xRlRJcVVMMFYzSFd5aWVFdTJZeGhPcFVPUFNEYmVEZ1BQR1RqQQ?oc=5",
+      "title": "HII Successfully Completes Builder\u2019s Trials on Harrisburg (LPD 30)",
+      "snippet": "Quantisnow, 2026-11-03T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdFRZYXZNNmFNbldFV3AzTnZEZVpfWTlralZISlh5Sk05YjdZV0JGRk1CTWZvR2w5Y0ZOQl9LWkM1eTQ5UmJicmF5YUtHelVKYURacVRqblI0LXE4ZE1IbzJuRXVRSWdzME5SMDdTRDNOMlpGMnhjMnliT2dUeWJkaVBqcy1EU3g0VFNqdDRFNFFWSmpOUXZuQy1FMW1McGxZSzltaEpkdUx0aENGUlRkSGt0cGZkdVBxbVZBY1l4aXBLRWN0QVUxRXBXZG5WMEd0Ni0yVVlrbTFzbjdGbjY0THVXbHnSAeoBQVVfeXFMUHNiNGNnSjhyY2JxZDJpckVNNXJ5bG5lbXo1Z3lHRXJ4YTRnU2VRYmFmbDMzdXZNMkExLVU0RWRaVTFsWnhSLWV1dWQ0N19KclRrcm14OVJueTh0NzVuSk8zbUxpTlRFRU56RGNJVm5YVGZHNGU1Y3BZZUlDSnJwX1BLUlVraHh1ZU1HVk53bElCVVpycVpmVFdKNzBlb1E1M1hrVG9Fb1FHRFBheFNjNm02cGYxTC1BWVBpYnFTaGgtZmlwOG1JTFk1RWdibEl2cDZybUtWa3dmNFlreTdicndhYXoyNlh4Z0x3?oc=5",
+      "title": "How Investors May Respond To Huntington Ingalls Industries Stock Record Q3 Results",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HII/history",
+      "title": "HII daily price history (Yahoo Finance)",
+      "snippet": "close 303.99 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "DVA",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNUmNCYlF5aFEzY0JCLU10UjI0ZDQ3Si1DTWxvZGx6WWwtTjVNclJEdml4ODRYOVhqaUZEYXQzZXVSdHU3bHFzMzBocFQ5WDR1MDM0M3lpQkczMnFfN3FuZk5aeUsxdzdUSnkyeU1kR3B2YVY2ZlVLUnM3RVdoVm1JQ2pxdWhhbkZ4ZHNfMzFmb3hqamFTOFdpdWI1dHV2VVdkdm56aEEweUgyTERhZGhuMWN6czZxRldIR1lQdjVuOEppeGJFS0ZmaXByamJaVHFQSXlNeG9WU0hLQmIxR1QwSWlwaWhaMVRkalBNS05qNGNHR2dRRzBnMmFLcW5RbnRkd0U5UzRxUmZjNnhLeC1iVjlGSFdpQQ?oc=5",
+      "title": "Lost Money on DaVita Inc. Shares? The Law Offices of Frank R. Cruz Investigates Potential Securities Fraud After 6.23% Stock Decline",
+      "snippet": "Business Wire, 2026-11-03T08:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.637,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVdPY3hyMzVhMzAyaHRreWxCSHpETzRzaHE4ME1keUZTVnltZ2FKWldTUXNpaVFIQ2h3ZFdHWmJ3MU1yd3I2aXg1QldwVFFxRWxkRVlYXzVoSzJpc3JvSkpXUXh3bmtIRFdPOUpvYnhRZ0d3UUpRS3JtQmxrX1ZzaVowTXV3TmxrRkhVZ19JN3E?oc=5",
+      "title": "What Does DaVita (DVA) Stock Risk From The HHS Reform Probe?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcnVBSlZPWktnTTRMdUtZdFdKQU9uY1N0M3lfNXdSQ1FNdFF0UDZsMmZEQzE5SF9Tc2VZMHFXUnY2VnRxRWJHcG56Ml9Ca1BwcFFMdVhDX3BLYlhCSDdDeko1SWlQcm5TaW55NW9JYXNxUUZZeHFPNVg5YVphSkZHNnpyY054eEtHNzI4ZEFVdFlMU2ZkNDRvbzRpY25xbVRadWgxOTlrWWRMR05GUWF3QUhGbm5pQQ?oc=5",
+      "title": "DaVita Inc. (DVA) Slips 3.01% to $187.50 as Shares Pull Back From Recent Highs - Delta Hedging",
+      "snippet": "SIAM India, 2026-11-01T07:00:00+00:00",
+      "publisher": "SIAM India",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 192.66 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

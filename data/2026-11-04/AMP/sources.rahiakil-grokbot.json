@@ -1,0 +1,61 @@
+{
+  "ticker": "AMP",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ameriprise Financial\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS0xrVjF0V2t6c0xCa0ZNVXh2S0RHSEZzS1NFV3NEb2hqMk13TmlJeGJKbF9CZ1Z5Qkc4SUh0MDR6QndjZnBMR3pwek80LS1taENNdWI4UVZOWVRQbW1wRTFaeE9BV0tZNUtjUXhrRGdLaDhPV2ZxYktWak5zS3A1a2FFQ2RNelVMT1JPaUhQal9lOWdXZGhKeWhMTmR6SmVPejhGeTRCVnl3R0NReXc?oc=5",
+      "title": "Ameriprise Financial Chief Financial Officer to Present at the 2026 BMO Financials Conference",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNakZtWmxQOXAxUG80clp6TERkWVVxLXg4WDVDS1FhcWZUYVpVeTNqSWpfdW1qc1FQaThmV2FzMUhHeW1OQVJ1N0c4ZVBOWGRVOWdpUDhEcHByX2JoNUZfVFBTXzZDLVVSNFNZOTMzU1NfMVNZMkhOLWN4cE4ya2I2MzdiV2JWN0xZSThGbE83dExUNE1fSXN3SXN2V25zNWVUT1Fz?oc=5",
+      "title": "The 5 most interesting analyst questions from Ameriprise Financial\u2019s Q3 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.458,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMP/history",
+      "title": "AMP daily price history (Yahoo Finance)",
+      "snippet": "close 527.41 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

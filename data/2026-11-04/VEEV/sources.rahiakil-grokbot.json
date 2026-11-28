@@ -1,0 +1,97 @@
+{
+  "ticker": "VEEV",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Veeva Systems\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUtfaVY4UVVqa18xNFh1LTcwWUhUcTd2a1ROMkQ3LXo4dGhmWHd5aWpTSzlPbmx3SktwQ01BVndBQVpxT2lBdHJHcUNOc3lKU1pWcVMtSFhmY3QxcUoySW5jOEJYMlRiTjRCdVNhZWVpRkdYbHp4UTQ1b1FQLW5aQzNIR3V3VHJmdGI1alo4bWxKVGxVSzNz?oc=5",
+      "title": "Veeva: A Premium Business With More Room To Compound. (NYSE:VEEV)",
+      "snippet": "Seeking Alpha, 2026-11-03T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTy12anJwNVQ2M1ItVGc5aE9FYUNLemticmJndE83VVZiSTJ2RjVQVjdhTTJ4MHZnTmZka0x3b2h4YV9vMDE5NXdsY0NsVHVaNTRVeTNEVHVIOFJHeDdHd1VRcUc3eFdMa1RXSTVwU1Y5Nk1NX3FjejNnX25oYS1keDdaakRJNUV1cF9WcEZZVkNPRF9EZFRyX0lUdC1YQVVveHVoN0tlQ01TSlVUQ0JDM0Q4YVZTLXdCNklnYkYwaFg?oc=5",
+      "title": "Veeva Systems: AI Is The Icing, Not The Cake",
+      "snippet": "Seeking Alpha, 2026-11-03T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUlCUVNmb2FEQV9nLWRydEhWNzk4VmhSWFdiX2xiMWQyNTZFYXBkd0tPenBrWWxqeGlzdEliME1DM3Jnek5IRDNRX2J4NVFYbUl6bGNXLW1ETVNfdjlTUjVkSjlXNFFPVmU3d0JJU2RNNFVTUWFISzd0djhUaTE1QWs0Q2tYSWlvdGRvTm9ONW9uODBhTmxxUUxfMmdobFhpeEE?oc=5",
+      "title": "Veeva Systems (VEEV): Turning Industry Expertise into Growth",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMzR2NkVrRGwwaVRwYjJ4UlZjVkhZOHlQS0x0SjNDNzM0UE5RLVAtNTF6RHFDUW84RU0wWUFrUEFlMU91eGxrSDI4MmUtbDhRbDdwYUhETG9vZXpwZ0VicVZrS1V3Z0g0c19PWnFyemowUXdMTHdOd2xVRE40cE1xNlpmWURtSW1vSFlXZk1iLXpYbjlLTkR6YjNR?oc=5",
+      "title": "Why Veeva Systems (VEEV) Dipped More Than Broader Market Today",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbENWTEtZUC1aZ244U1JTTEVuTXp0UWRKN0FYMk5CT1lkejNCb3VDWVhDeGJHYkhHV21PdGJIQ09DQ2hvVl9QajBwel9Qek5aVmtOeUNlUGI0aTZ6WnlQUFctSWNFM21LcW16UDFxTHBYRnZiNDJNRG5MQ3U1UTBRU0VvbENiN1hMMHJ5eDJwTGt2OFdHc1U5b3JwX3k0X3Jq?oc=5",
+      "title": "Veeva Systems: Bouncing Back With A Vengeance, Still A 'Buy' Over $300 (NYSE:VEEV)",
+      "snippet": "Seeking Alpha, 2026-11-02T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VEEV/history",
+      "title": "VEEV daily price history (Yahoo Finance)",
+      "snippet": "close 310.63 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

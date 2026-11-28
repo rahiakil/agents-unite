@@ -1,0 +1,49 @@
+{
+  "ticker": "TROW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"T. Rowe Price\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 7,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNm1SRThObUtSQnRPNi11dHFnRGh0ZXV3WTEwZV84STNKbXB2cmhyYmIyUzM2THNJeHNoWG1kM1I1andzdmo4ei1uWjd3Nk9MNWRJYzhwSUNuZGFDSExabDFLLTQzTGI1a3lFeWQ0MmZJbXpuMWFJSzJEem5lTzRaUllqOGgwMjBGOEZ4NWs2RzJxZw?oc=5",
+      "title": "T. Rowe Price (TROW) Stock Rises As Q3 Results Face Outflow Strain",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TROW/history",
+      "title": "TROW daily price history (Yahoo Finance)",
+      "snippet": "close 105.85 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

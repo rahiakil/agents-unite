@@ -1,0 +1,49 @@
+{
+  "ticker": "GWW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"W. W. Grainger\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZURzcXVjU1BHY3VWekswb0F2RDh2emZodXR3RzR5cTZhYlBBczdZWlZJUGJZYVM4TFRLV1EzVGxqdzk0anhVSnNvMm9CaFN3VlEzUHU5ZV9vYS1DWFZ6dGJYQVdOY25Ea1cwdHA5ZWRKNGd3WFFKNGNvOGJHbUtoeklVVXpXRFNBa2V4VXpKN2NaNjNVSHc?oc=5",
+      "title": "Seeking Clues to W.W. Grainger (GWW) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GWW/history",
+      "title": "GWW daily price history (Yahoo Finance)",
+      "snippet": "close 1377.66 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

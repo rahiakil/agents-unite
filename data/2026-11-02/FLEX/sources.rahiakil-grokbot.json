@@ -1,0 +1,58 @@
+{
+  "ticker": "FLEX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Flex Ltd\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFMDlXM21pbmVhYUZxWmVnVVhwZDJ3Q05GSXZpZDJQcUNsT21MQ1RjV2NsZzVVNWxoWW9OTXFwQVI3YXZ3Sm9jNlkwS013bnVicWpia01fTUJOVElZdEJR?oc=5",
+      "title": "FLEX 261120 70.00C (FLEX261120C70000) Stock Options Chain | Quotes & News",
+      "snippet": "Moomoo, 2026-10-31T05:26:36+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-31T05:26:36+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000042/flex-20260925.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FLEX/history",
+      "title": "FLEX daily price history (Yahoo Finance)",
+      "snippet": "close 84.2 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

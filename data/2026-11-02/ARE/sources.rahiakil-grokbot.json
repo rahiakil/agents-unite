@@ -1,0 +1,61 @@
+{
+  "ticker": "ARE",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alexandria Real Estate Equities\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNT2hLcGl0Q1I5aEc0Q0JtdWpWTlFvWWZnbTZxYkQxNEdVZ3hWT0VTUWx1cXdGTTlYSERLZUVxVVJWQTBjSUdaNVRTcnhVM3ZzXzljbm9LRUIzUzZlc3FXcXhRUWlncG1yWTc1bEtrNHVkdV9EYVV6alY5Ym81MWxnUnloZWt3aFBNdVFzUE5MNmRHM3o3bUJlTzVYM1Z5ay13WGFkTEh5RFdCVVJUdGlQQnZjaFFyRU91TkhTZHhrcXNxZ2tyM3J3a1ZKM19VUEoyM1U4NWVrU2hjcmdtRlJMQmtoNnpCTVk5cjZtSTVfaGxmQUlNRDlQNmxISkJ0OHVZ?oc=5",
+      "title": "Alexandria Real Estate Equities, Inc. (NYSE:ARE) Stock Has Average Price Target of $49.36 According to Brokerages",
+      "snippet": "MarketBeat, 2026-10-31T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPaDBQU0ZORTBRQkkwdFRPeXRQcnJkRDMzblUyNkl0M09mMUczd0NmZ0RMSDgyclFnNG1jd20yNEYtQnpqVjV5MmVQYlJRVktHY0RSSTMyOUlmenRnOVpjRnVXNHVfT0hfdzl2azZzUERhRlFWNm54d0VoMDFTMzN1dEp0WXh4V0xzTHd6ZWZkb0E4c3JDTllWZTM1NWJmVFVYYldDaUhWX2NKRk9ndzk2MWdiU0tLSjFUWFZjV29MMjdpRE93MkZna2hFMHhycXFXVXFPZDBYS0ZMWHpEZ0ZwVFk5cUlYdHktd2FTUQ?oc=5",
+      "title": "Citigroup Issues Pessimistic Forecast for Alexandria Real Estate Equities (NYSE:ARE) Stock Price",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ARE/history",
+      "title": "ARE daily price history (Yahoo Finance)",
+      "snippet": "close 42.57 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

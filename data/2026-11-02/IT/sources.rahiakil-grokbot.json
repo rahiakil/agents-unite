@@ -1,0 +1,61 @@
+{
+  "ticker": "IT",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Gartner\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOTBQZVlQZ2NpYmwyeXIyYUsxMGh3LWdNdWdWZkxTUUVKcW1yQXNYcjZIcWFBcjhxMWhic2ZwN1MtR2JsVDF3UzUxMGRRN193MHZOTDdVaEg3NkRZalZ3dExENldKTXBESHdjNjZXMWtpV0tzaU5SUHpkRUZzYUw1TVc0TVp0S2RteDFEb0MxRW9lMkNBSEdVMHZiQTU0OTVLWXlkeG44S05ubkFUdnBCVWR4TnNFTXRiTXRMS1FLMGQ1T2JMeGxRbXNjamRLQQ?oc=5",
+      "title": "Gartner reports executive Gregory Arlington holds 7,437 restricted stock units",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-10-30T07:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbE8zcGM5b1ZnTm5sOGM4V3luRWV0TzNxMVRyTXk4NlAzb3FISVNEd0tYVWMwSDNaUTlNWDJxNGV6Rml0NkNlSTU1YjJsNHp3bnRFZGpOTDNtZDIxNExMazVudW15Vjh3QWd0QXNXOGhNRXA1cXZ1UUVoOXpuRkJfR0lsUzlwWXJ3YVhaLWsxeGw1ckpoZzI4NWVQb1c?oc=5",
+      "title": "Gartner (IT) Could Be 24% Undervalued After New AI Spending Research",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IT/history",
+      "title": "IT daily price history (Yahoo Finance)",
+      "snippet": "close 235.26 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

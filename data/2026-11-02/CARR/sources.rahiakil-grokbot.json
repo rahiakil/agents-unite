@@ -1,0 +1,73 @@
+{
+  "ticker": "CARR",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carrier Global\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 10,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ0ZXZ2w5eHBGTm1JU2c0M3l5TUJ4N2NYWGNZU2YtZTJUUW1LbGJacllhTVNBR2hybGNmQTVmclVZRzgza3NGWW9ScVJsbDdlWUJUV1dVc0x1LTc5WmRFaXN1MENKamFMLS1ESjhScVZUMFA5Mnl3S0U3YkpYRjBCaWRFRGE3RkR2SnFSYVlFUUNaeXVnbVgzRmtMMUc4VlpBYWcwRU1nVXY3ajR1MlcxSll6WV8xRENWd3JWMUJUc25FRk4zUVE?oc=5",
+      "title": "Carrier Global (NYSE:CARR) Given New $71.00 Price Target at Citigroup",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcXdnUGNJbFJwNjVKU3lKd2ZiNmJETTRncVU5VG4xTnFjRmVfZUFkNUNua0V3ZlJSR3REc0E4SVd0RDd0UTc0T0E4VW02cXRWbHNoSVMxVHhCT3ZMaFVOY21QbTJDMWNISWpYdHA1RTFXc2JQc0hRbWdiYlB3RmlGSWpZamFvR2dVQjRxVDRZeWh0Uzc4RkxWRmxIWEdPcGRyU1hGUmdtVjNyRi00YnhRRWwyRi1VN25rejdERVhSb0J0NnNzRncyblhiR3N0WnVkel93?oc=5",
+      "title": "Carrier Global (NYSE:CARR) Given New $65.00 Price Target at Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdmFQQVV6WUk3ZWNXbGItNzJYQWRLdW1nYjNmbTRVTFgxOWtjMjVyeEVRazZKakRZMjkybXNmZEt6aXYtTWZOM2ZyMnlMc0dhOEFvYnZibE80NlA1aVdGaTBqelZOaVZjeDJkbE9LNlowcjN0b2hQMUVmSlRiVnlPNEh2ejlCUjIwNUVPdHkydGRpeTJXa3liSV9CNS1uWmtadnY2ZVJVMXBDbzZkc2EzN09YYW5Ba3BrcGdWQlFwei1kSjdKZlRid1dKVXJ4d1h5ckHSAdcBQVVfeXFMTk9BMDQzQk12cHhwNWRZeS1jM3VsUm80NlBPTTNtN1ZjWEdCZVk3WlhDYllSYnBxQmVXUDVzd2VkRXZoanhPN0dwYVJCV3R2a0lQcHRDWlZjd3NQbDR3a0J3bURqZWVudkstTW11TGRlNkxWcW1HaU53YUJ0aGxjWE5GMFNoM2VnYUM5cFFuNklMN2RWVTJnU1B3T3JwZHFnekVKTWVoWDJYenBGSnRzZnRSVnNRSzVqZHZXMFp6Y3BqNnhlNGdBeW5mMHhVZEFDRERDVGg0TEE?oc=5",
+      "title": "Carrier Global (CARR) Takes $3.1 Billion Goodwill Hit In Climate Solutions Europe",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CARR/history",
+      "title": "CARR daily price history (Yahoo Finance)",
+      "snippet": "close 55.17 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

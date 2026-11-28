@@ -1,0 +1,49 @@
+{
+  "ticker": "PH",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQzgtQUJVSV9HcVotUURZTWtsaFBZd2JvSGZTcEMwMW1qS1UwdHBiOERwRzIzcC16UDRtNll4VW80TDNmMEppZzNFNmRwWllSeEhUS1V5bXkwMVhydHBPMEZqYlcwWEFPaXZfZjUwakpoZjF0c2Z6N2FnOXhJNndURGhmRFNaa3o4cjZrZk8xd09ENFZxcWVjbU9qY05EcDZNaDJXNlZDTXpURnV6WlVwTXB5MF9HVG40VHhkaWJBSThWVXNmb3ZuOWRxWQ?oc=5",
+      "title": "Form 4 Parker Hannifin Corporation: Jean Savage (Director) For: 28 October",
+      "snippet": "Investing.com Australia, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 928.29 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

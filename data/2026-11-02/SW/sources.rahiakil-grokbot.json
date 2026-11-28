@@ -1,0 +1,61 @@
+{
+  "ticker": "SW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Smurfit Westrock\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTXJHaFRBcHM4UXpNdFMybjk3ekszd3lnQTF1bURCQUFpU1J1c09QYmNFSms3OWxCQWI0ejFjR3dtUTRJN1h6VFZkZ1dJWklFVjIzWXRBUWFIOTZFVGJ5NHFDTUNmRjE0Wk9mSUNwQ2xaN3ZxQW5ZX0xvbkNhdFBCQWZoYTNBRTFrRURCZEVGckU5Uk1CZ3k1dFRzdUFVbWJFRks2TEh3?oc=5",
+      "title": "What Just Happened To Smurfit WestRock Stock?",
+      "snippet": "Trefis, 2026-10-31T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaGlRLVhzOXZueURmZXNTdVhvZDduLXQ3VXF3Y1RVdjdlZEJDa3BaZEIySlVUUGFleGEwNW9ucHo2VGFzOWhfdTk0SGVJaWZGcWhHeWkwYmEtYjlKTm1rWVk5cnRrNGlabWhNWFlKdjh1N0ZSU1ZBOXJkQVB6TWYxalRiZElyUVJDMDI5WXBpek1WTTRIV05ZY0FKSDFKUnNzelRHaFFSeHExQVdQZG1IMWpTalB2bGM?oc=5",
+      "title": "Morgan Stanley Maintains Smurfit WestRock(SW.US) With Buy Rating, Maintains Target Price $57",
+      "snippet": "Moomoo, 2026-10-31T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SW/history",
+      "title": "SW daily price history (Yahoo Finance)",
+      "snippet": "close 43.4 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

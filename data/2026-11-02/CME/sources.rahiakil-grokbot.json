@@ -1,0 +1,49 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CME Group\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaGx2TkdNSXNudFZZQ2dVN3EzcWtUOU81bXFFOFI5cDFZVy1qYmpVTTRZa251RnlTb0Y5M0JWbHB2cVgzakdQajZGLUNsTWV3MHZITFZmanMyNy10Zy1GcG9xMXNreGNIS1B5VkhNNHdQSG1YbGlZa1hmUTkzX3VlaVllcDdXWjdPZU9uTXlhZFRDdVFMU0lR?oc=5",
+      "title": "CME vs. Morningstar: Scale vs. Consistent Trajectories in Revenue",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 306.24 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "AIZ",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Assurant\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOWxYRTRfYy1wc0JDS25GS2J0NUttTVdnQzVUQ1pLUTF4Z2dYV1dyeEM1OXBXNmJfSVJscVpmcF9QQXdmaFJEcThvdHhwUk5GSkxxVjY5YlEweTJzSEJwbjBibzl0aFMtcFBDVkhfY1I1UC0yLUJFX1RuNGVfSXBnVUFqVk8yTHVmSWtpc1VtdmtuUTdnQWNoenA1Vkg?oc=5",
+      "title": "Will Assurant Pull Off an Earnings Beat in the Third Quarter?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AIZ/history",
+      "title": "AIZ daily price history (Yahoo Finance)",
+      "snippet": "close 297.23 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

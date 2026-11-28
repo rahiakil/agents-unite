@@ -1,0 +1,61 @@
+{
+  "ticker": "AZO",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AutoZone\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObUhrVUhPaF9LakZIYWx3OFdQV1hYZEFKMFhUTVBNTzM2UENLa0Q0UjZ1eTdKd0lSb1RSaFlfZlFQT1BkdG54THd2LTRjUmZMYllYVFpDVDFsMmpQZThMaU1HcEJtZzVBSXV6ejdweTkwOTM0d2JRYjJxbkh6RGNRRW8zVzItRXc1SzBGdE9PRlVHQl9uV1hfT3NWODNRSVY4TU1yckV3eV9HQ3VKajIyRWZHOUl5U0JJaDhST1cxQdIBxAFBVV95cUxQUndvQ0ktcV9VaHlLcld2S08wYUNQRng0R1l4dHk3SjQ0WjY1RzB1NEQxMlBmbDZKNTdfamdmYXp4YkJMZWZQUDVuMWhFa0o4YzlGSXBsRXNiczlMU0N5aFRzWTBYYzYyQzhBUEJYWlJCbENzT0NtX0xCZ3AtM1BOQ3ZsdEUyNnhBQmQ2bkJlSWVoU0ZLS2swMG52OEZLNEtPdTd6MVlQeVVOaHVmV3N2SFM5RUg5cWU5QXhRTjlLQ3dlZUhi?oc=5",
+      "title": "What AutoZone (AZO)'s Commercial Sales Growth Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcVBrZ2FWYUhtNTZLOUdibWRUNUdaRmZ5dWFqWmFNSHFGVlctMmU5WXo3ZWt3RGdqc3JYTTZ2eTl2UUxLckN1M0UxYVpuREdYUnVobVlOUi1YeTFBMWdsNWZrMkFxamxCR2xsejlYeHlsUVhrSkhvaXRVRHdNMlFtMHR5cU5uYWpkRHBYbDJQbDNzeFpUYlFr?oc=5",
+      "title": "Is AutoZone Stock A Real Bargain?",
+      "snippet": "Trefis, 2026-10-30T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AZO/history",
+      "title": "AZO daily price history (Yahoo Finance)",
+      "snippet": "close 3253.01 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

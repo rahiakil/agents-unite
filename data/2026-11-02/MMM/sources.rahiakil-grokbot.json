@@ -1,0 +1,61 @@
+{
+  "ticker": "MMM",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"3M\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 42,
+    "no_date": 0,
+    "after_cutoff": 29,
+    "before_window": 7,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYXlWbjF3cFJ0QzFJcm9JRGpEOC1WQnQxUmxJV0dvai05aElqWmZ3c3dDdkJpV0p3aW9kMXJqMlVCQ01EZDM3Tnl6RVQwWHZ4QkVnZENJZkFvdm9ySTB4anAzNkFIZkRaVGd0SnRVbE9OZTRQb3Rnenl5TGE2YW80bHg1bHhiSmxIUU5LNEVsOFUxeWxmMVI2S1BGal94VkNJVEFpMUZER3REOTZkXzlxV0M1UW8teUJ4bHhKM1lmM3dDN2NSRmc?oc=5",
+      "title": "Sharvi Mahajan among top three winners of 2026 3M Young Scientist Challenge",
+      "snippet": "The American Bazaar, 2026-10-31T07:00:00+00:00",
+      "publisher": "The American Bazaar",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWlDUWVtMEUyNVdxUWZZdkV4aGdOVU5VNHg5aGpTMTdwSkQ0S1pkdGk4NmNIcEp5enpwYTQxM19CUm5QOGZsdEZHazRnQy12YkFmMS1wQ0NiQkxUMGhuWGNpOHJxZ1pZelBvdl9xWUp0WV9lbnVKT2ZnMXF3S2VKejRqcWVjbVFDTXhaT1IzNHl6UHNwY1lBNG80RGdmRjlsaUUxam1lbUJNVDVX?oc=5",
+      "title": "3M's Transportation and Electronics Growth Picks Up: More Upside to Come?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.659,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MMM/history",
+      "title": "MMM daily price history (Yahoo Finance)",
+      "snippet": "close 178.36 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

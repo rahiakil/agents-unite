@@ -1,0 +1,133 @@
+{
+  "ticker": "IVZ",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Invesco\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 42,
+    "no_date": 0,
+    "after_cutoff": 21,
+    "before_window": 7,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZE9LbGNvNnAySWJEcWhDQWsxZEs5OE1XaGt4UFBGMGNEQzM3UVBMc2V1M0ZNUkhMU0VIN3F4YW40dUc0MzZZQmp2b3JQS1FfRmhlN25IdWQ5N1JORjdzNEN5T3E2RWNxVGVreXV0Y2F5ZE95YVpjZEVNMW9LbmRfZmZFSE9EdFBPVmx6eXdOODNTVnJnN09EWjBkeVJnTDRnblRqcUNtcVgza1dFaGF3em9PT3JJYXJCSW1HZHlJNlVPb1IzZWRKaWlTS2ZyZ29NSjJEb1pvcUI5WVU?oc=5",
+      "title": "Invesco (NYSE:IVZ) Stock Price Crosses Below Two Hundred Day Moving Average - Here's Why",
+      "snippet": "MarketBeat, 2026-10-31T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSnlEWUN0NHI5VDZkcW5EcXNVREhwaTZlaTljajFtUFVIOEUyaDhTVXJXdmhsZ0piMV83TFRmWUF4cWJ5OTQzb0o3bnhmVWxEVjRiWjcwRTRMcEVxM3dYeHZjRVlBZ0pNamhmc2UzYmNfN3BzRERuelM1THptc2dRb1ZMSERrS3YtbDBXcGVwTWg3OXlSak83QWZHcmVBazg?oc=5",
+      "title": "Why is Invesco QQQ ETF sliding today?",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zclNGMVJVdjBzN0J2OGV6T3puaGlRemF1OWdfVWRoVVNKbXFYVlhndGJtWDRmWVY2QVJLcElwSktMeEI4QlRaajZlZzZJdW54b0FUNnBjWlVJQnluRlV1eml1VXZHZw?oc=5",
+      "title": "Q3 2026 Invesco Mortgage Capital Inc Earnings Call Transcript",
+      "snippet": "GuruFocus, 2026-10-30T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQWJybEU1dVlSNWRLUXYzREs0TmkzelZ0cVJXWWp4UnpTSXZHcVBLS3RWamJ1cnhUU1VJN1NUMW5FdGdWV3VHUjFqc1dmcUI0U182emo5MDU5WnZSV18zdUVzYXVQMTVnTVAzakIzQTIyV0pXSW1Ld1FhQkFWQWJoa0lNbDBLanAyVl8zSF9vdld4akQ1dmc?oc=5",
+      "title": "Is Invesco S&P 500 Equal Weight Utilities ETF (RSPU) a Strong ETF Right Now?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnRTTGkwbXZEZDQ0T3oyVFNCbjROR01LSUpHX0tGaHBCQjBhZ0NtMEJQeGdhMi1EN3ZhdXlYWXJrN2RZWUJGT01NZ3VQSTBRUFVNTUZQNnJfTHpTcEF3bGJYM1haLTJRT1Q3aFpwM2dFdDZoZmRQY2cybzc3WTVPTUlGNFRfUW9hWHBHRThib0lDeFY5R1E?oc=5",
+      "title": "Invesco QQQ Trust ETF Is Down over 2.5% Today, Oct. 30. Here\u2019s Why",
+      "snippet": "TipRanks, 2026-10-30T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV0NpeUVuV0NPUVlBbzlPQ1dGNWVmd0dnQUFPaDZyUk9SUmdic004c2V2Mk90djNhSTBuQ2RpdnVvX09TREQxY2trbElYLWNTRmljWW42dUJwN3NvWW9Yd2NDSjh0X19Oa21QRDdpNlE3N1lYand5ek1laXF0dUYyQUZxQ2dYeXdZa3pGRXdlSDZ2Vnc4WnBfZUhMRHd1WUlRMEZMRTVmel9HZTVXbjNPM2dR?oc=5",
+      "title": "Invesco Mortgage Capital Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:IVR) 2026-10-30",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHZWUkJtdEt0SkJmQXFPRHVXZ29SNVl6cG9sTWNPSEhVR0tiaS1FWE5GQXpiS1A4b2JCRlFtRU44RF9wRkdieDJrZzZKNWloTjVET3doQ09GU2VrbEJTV2ZDTGtPR0NGcjVIQm1uY21MRHlUQ1g5RG5zcXdrM0FBblp1dDJjdDRlUF9XbW9wUDZzdEJlZXJxM29xMjRxTy1KcmtRQUZHNjE4cmFoQmljODhqNnhScWRHSnlndg?oc=5",
+      "title": "Invesco Mortgage Capital (IVR) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-30T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNckhwWUttdzlVSkFFWm9UeGcxUVUweWVtNTdzQmljNzlyV0hmZHpZb1JTamVydldRT2E5bW9kQWhFQjZrLUQ4U09pTVpHaU5DNlpkajA5U1BuSmlvQXFCX1d1anN4VHNpRUJDNTY2al9vdnpfa1h0dm8xbThUazk2eGNwNFZoV3RHTkkxWlowblNBa18wbno1UU5HRGdBSHpvN0oyc3RwWE9uUThuZzUtbjc3LVc2NVJYYUJpQWVJdW9FaVlid25tNkdzeW8wNnZZakc5cHNHbFpPSXZ2ZXdB?oc=5",
+      "title": "Alphabet's $482B Wipeout Highlights QQQ's Glaring Risk? - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ)",
+      "snippet": "Benzinga, 2026-10-30T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IVZ/history",
+      "title": "IVZ daily price history (Yahoo Finance)",
+      "snippet": "close 27.77 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

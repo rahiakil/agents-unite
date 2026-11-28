@@ -1,0 +1,61 @@
+{
+  "ticker": "OTIS",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Otis Worldwide\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQmlvWDM4eXljS096MDUwN01HX3RhV3Z2RkM5WHFwWWl4WF81YTJwVWlFUmJWZnJHWncxLWM0eEZMTld2ZnFvV0pXRVNPdkd5Z2o0dkp0NWUzWU4ySHdpVmstbmFvOEQtX3JMeFRnNkw4bnE0TTVDaWNrQmJSdDFtY0U1ckVBR0F1ZEk0cGRjOE5BaWU4OV9NbmFBX1dTOWpHaUJESU9Ld2xCSlQzYjliZHMwXy1hMU9aTXNwVV9QaW5lUTFX0gHKAUFVX3lxTE52ZjhpNDdKaDAyNlpqXzlFV2xPNkVHQ3EzMnh5aHVQdUVtNGl2TXNzWWVCcmN2UGVDYUNRSE1aaDNSUVlScjBYaGVhQWdfdzBUcHMzS3F2ejFOa0hsU3ZVd1N6aEZYTTB0cTFyQVhYTldNRVFTeHhhVFZPbnBIWGRFMDJCR1Vya29iQV9BVllnelJCcTVDV05pcG5CVFRpcHNLX0dtOGpZUVhOWW1yRmg5amVMdC1CME9RY09ONFV5VVRzaEJQbHVsUUE?oc=5",
+      "title": "Why Otis Worldwide (OTIS) Is Getting Attention Today",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZk5sOVZzOWo3UmxfRU1FWjlDdXFaMVdVb1NoSWNqTGlraEVGRU5BZXJzNGdYamlUQTNVb1RXYzdqc2dEOXVGcUFPUFlScU52LW4tY19xVVMtaktZbjFHT2oxVGswREFrdExnX1VwWkNMUnBVbGlHR1Q5bDc3RlZfT3M3OHk5TE4tNkxtZ1NtbnN6V29rbnZzdg?oc=5",
+      "title": "Otis: Service Growth Is Strong, But Profitability Lags (NYSE:OTIS)",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.238,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OTIS/history",
+      "title": "OTIS daily price history (Yahoo Finance)",
+      "snippet": "close 78.37 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

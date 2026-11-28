@@ -1,0 +1,58 @@
+{
+  "ticker": "SHW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdktLTE9rQloxbGFLdGV4VmpFUWpINnJ4ZmVCQjNPOE5tY2JxTjliMy1YUm1RVlFqckpNSV8xSnY2Nzh1M0kzU2VZaHpGN2RGeEJGYjFjd2NjSHJma0xKTmhQVEEtNGNzdlpqRDNQbjIzczYwbmVKT3ppYXV4TjN6OVZOV2FuS1ViZF9IakdOY1R1c1NzWTFoUzFDNG83WlY4NTdTazBiTGZITldtUm8zdmJBWUk2czNSSWJLSGpNUkE2YUs3S0JCeXkzdlTSAdIBQVVfeXFMTXhUNzNfWG5adDRtNmZ3cUxpMlNMM3labmoydjB4MjFoaVRYcjZWNjZHS05wY29lMVJ0WUxRbnB6SzAxdVI0Z0xkZ3pPWEZKU0p5OFRNU1dxaEVONHh3eUF4S0xjQ2Zzc2lNazJ6eGNYR29DYkNHalFQcHZpcHQ1Q0k5S0tTQVMwSThFYjR6VHJLM09oNDdOeHh5YWVjdTdxX2ppeXFZenFlYWlWN0dubjRtcW9CWHljanBoYWlqc21JYl9IWG9aa2hWMlpybkNuOGZR?oc=5",
+      "title": "What Is Drawing Attention To Sherwin Williams (SHW) After Its Latest Update?",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/89800/000119312526443395/d125231d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 352.37 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

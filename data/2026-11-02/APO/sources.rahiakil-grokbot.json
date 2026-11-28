@@ -1,0 +1,70 @@
+{
+  "ticker": "APO",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apollo Global Management\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONk05Y3M1ZDRMQ0ZEUjF0SE5uMldsVFROT1piTm15NXM1WlZsZDlrWkZNcHdxNXFJMGNsekNFX1Bha3JuRmFqTXZCcmJxSjVfOE93a0pqM3NjclluNGU5V2c2bE1JVFB6a3ZLMjdCdl84bGFzMmp0VVlFQ0pQRGV2bE1DdjN5SThWRmdvWlVueE1rN0kzanJZQVk0MEY0MmthdTJZY2pXZ2ZMTFNtZmZUenlBVndTSnN1eEs1alZyZGtvUXBsY0s5Xw?oc=5",
+      "title": "Apollo Global Management stock tied to $40 billion SpaceX GPU lease",
+      "snippet": "ad-hoc-news.de, 2026-10-30T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVEhxVm81b1BRaXNNQWZrWHdPemplSUJQcjJGZEg2Vk5ZNUdiaG42Vl9Cb2dsdXZYMGJXN181dmhSRGxMX19LUHdQNkVMQXhyV0h3OWZoRy1NUy1XRXczMVhfQlZ0WU5WcTl5WXVwS2hxWUtiUzVoTlBkaFZKMmhTRzluRERZQk5zWERWUlZHMTdsZWpUdVBnWHNsX2dNbzk4bXpqVUVYQkVLTWNjTzZQZld6UElZdw?oc=5",
+      "title": "Apollo Global Management stock hits 52-week low at 24.99 USD",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000185868126000059/apo-20261030.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APO/history",
+      "title": "APO daily price history (Yahoo Finance)",
+      "snippet": "close 119.46 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

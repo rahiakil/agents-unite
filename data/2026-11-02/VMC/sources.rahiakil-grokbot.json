@@ -1,0 +1,58 @@
+{
+  "ticker": "VMC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vulcan Materials\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 8,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWC1peHBzSTM4Y1JJbE1MeEllZHpFLVFMYnlqOGlyZ0xmRzJna3JzTEpCTXI0c083YkRUUUQwRUlPV2FEMEF2Z1Nfa3pGNmhGajQtWDBaZnQ3Y2dOcEdnQ0V3NmJGLW9nN0tjclVOSGl2dlhfZGtuSUMzUWZGS2VyZ1AtUVJXNUM2STU0MTFHSVgtU21DWVJKY3g5WE0?oc=5",
+      "title": "Vulcan Materials (VMC) Q3 Results Defy Energy Cost Pressure",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126041313/ef20084612_8k.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 1.04",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VMC/history",
+      "title": "VMC daily price history (Yahoo Finance)",
+      "snippet": "close 289.14 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

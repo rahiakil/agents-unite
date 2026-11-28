@@ -1,0 +1,49 @@
+{
+  "ticker": "SYF",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synchrony Financial\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTXFFMmNmVU8wMHVfclBwX0liUjVOUk9XUEdlYlVFaG9LNDJRaGV5SGhHaWkzamIwSVpQTjhzRGRjbU5VcFdWb0EtUlFPa09mTElLQnVzbzJwVkhJUEpBQWt6QjMtaDRsTTJtcDloN1VKSnNvWGRTODd4akNYeVpPYW9ULXA5dTF2OG4xZExHWldpVU5SWEdLU1ZtLTRiNUNxcEtzYU1DSDl6aFBFRjNHdGtodXJNZ2NJUHVnTWV5T0xPS21qWWI2Skxjb1pWTjFmc3RTckF4WXMydTVtLXdfaDBNc9IB6AFBVV95cUxPSy1uZ2p6eWdGUElNR1hkdVNUYU56cUFSSmdDd2FyamNfU1VlNVdCWElPZm1oOVN4b1RvUjJGU1lZWUFZUDRIaVRSRHU3cUhackt3Wm9kMC0xbkVXRFROdlFTZnExNWM5blNHVVAzUnhpcGpSUDlrNW1YdF9kbHVFWGFFODlBUUI4bTkxbGE1Rk15ZUU3Q2N6aS1xWkxmSzczUEZoX0U3cGhnYzVpZmNVelNtQjJRV05DejRGNmQ3M1M4LVcwMnRnUU5QU0lsUlZ1ZTU3a0FWV3FPc3VRZlV5S2hyWkdzUTJv?oc=5",
+      "title": "Synchrony Financial (SYF) Stock Dropped, What Is Behind The Latest Attention?",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYF/history",
+      "title": "SYF daily price history (Yahoo Finance)",
+      "snippet": "close 76.82 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

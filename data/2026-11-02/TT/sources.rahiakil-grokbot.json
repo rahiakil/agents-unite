@@ -1,0 +1,121 @@
+{
+  "ticker": "TT",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Trane Technologies\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 11,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTZ2aUctVUFzUFltVzdHV0R3M1Rha21oRWRuYVRPNlMzLXBBbHFjNUM2UFBqYW5SR1hMNmNRVUZWYUR1cVVyYmlYMVFIaUtBWGl4Zk83eXdISzdyTzRSQ283aExGR2J4dWdlRllzeUhQcDktakxOOXcxTTc5MkcwYlpDZDFQT04yNVJfWHZJN3E4bElkTzFGUFVmUEVzdk1CWVRTbE9SRV84Nmx5WEhpR0lpQ2xQajJxVEJCbGNDRDNJZ2JpVW0yTFJ1MA?oc=5",
+      "title": "Trane Technologies stock raises 2026 revenue outlook after strong Q3",
+      "snippet": "ad-hoc-news.de, 2026-11-02T09:53:37+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-02T09:53:37+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM05nbzRmSVFqZXNoeGFKM3NvQkI4QTgzamZRRUt2R0JxRWwxUTk3Mmt0MlBSLTFzY3VpdjZKdGRLYldRWWhBQThxX2lJSEJDUWNncUN4RGdpWWEtTlVIVm5VSE42RFVoQUNOLUZCa0pJTzVCLUFfbTJXYnNqTElrNzh5QjhaUzNpRHJ6Q2twQnJzdmlGZ2Z6X1ZIVWw?oc=5",
+      "title": "Trane Technologies (TT) Stock May Be 20% Undervalued Despite Raised Guidance",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.188,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYzVUS2RmenBxMm1JR2dSYTVkTnRBNUpMeVo2dTZPUEdhbWZrTGl4LU5KR1dvdWhjUnFjbnhIT3lVSlExX25PTnZwS2k3ZEx0RXNPTE5kd2ZzdDdPZm5HM1ZCX1ltWmhMWUkyV3otcjlxNkI5WDZQVWJvUEtKZDNDbDFISm0xcWowZzVHQWkxN1dfVU94TDdBMmk3dGFHanJGS1h4a09oTUpfdw?oc=5",
+      "title": "Trane Technologies plc 2026 Q3 - Results - Earnings Call Presentation (NYSE:TT) 2026-10-30",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMUM3QlRWVjFacVpTWkZOV3R1T0VDTFVMMWFQeFBZUUMwWmtrdHVqcDN6dGFGUTBOd29VSzRTSFpqLVlhUmtnSUV3MlFxQlhwdW50VTlpY2pTcUN2UHE0enM2dEI5ZVY0LUk3ZFM4cUVFNkVWdzVwSmw3T0Y2NXlxR3k1TFRxMGFvQjFn?oc=5",
+      "title": "Trane Technologies plc (TT) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU3hLR25DSWcwQTE2Z0RnWXluaWxhYTVkMV9xT2hPQUJkYkt4QTVOWWdXS3ZoRmw1N2lmbmFZQUFTQ3QzNkpmVlZfQlV2Vzc3YkZzRXlsUlBhenVkMDNyYnFWR1FJMXRfWHJfQndRQWRHU0hGSEtrN20tNWltOGFReHFSZjB5U1NxVEZuTmFpVGtXc2U2amk1eEFPcDhMbUVSSnVRQnR0NA?oc=5",
+      "title": "Trane Technologies Reports Strong Third-Quarter Results; Raises Full-Year Revenue Guidance, Reaffirms Full-Year EPS Guidance",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1JBdW02cEQzVWtTaGVOVlh0Z3FaRmdJd0ZmS2Y0Z3RLMVQ0eC0zUkYyS29EUGU4QjBKbEhxQWNnMnFsN0hiR2RmeXdQNS1TbVhrcDUtajhMbXRoNGhZRVI1TGhmUkFuZE9qSTlxcTl2OE5lZWFiYnhQclFPVmRoNFhqdXZzZzBDWmlwLVZCNWJ3T0lrdmZkb0wxLU04SXYwQXBmWnVzR01GQUxfRHU4R3hVaDFBTTJpdUlVeEEyWDVMWGlwRVhOUjZsaDM5dEVNOVdB0gHYAUFVX3lxTE55YTJCcXFYRGNjSFFyNkIwUENhWFhVOEEzdTNZOXppTUI2TnJCVzg5b19wVHEzc0lMTEhpMDl1alhuTVJmMDV0T1RNM3Utb3NtOVd2c2p0Rzg4ZkR4aHBCVXQtcFNhRjFoelBGTFpUcXp4NTN5LW9WeGRSNzdfUzZoV3I1SmZnVk4tMEtYcFJsbkxGVUlQMUNwN2ozQzB5ai00LV9rZUlBd3hzRXJBZTN3SGxxUU80UEE4bktuRFRuZnhSTm9USGNLNjJsaDdlLUZWc3FVWklOdA?oc=5",
+      "title": "Trane Technologies (TT) Stock Stumbles After Q3 Earnings Fail To Calm Valuation Fears",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOblNUbUE5QjA4T2xBUy1PSnNhSEhBT3g1Q1BrcU1JNUlGaVk5S196a1I1YkIxRkw0TEQ3M3hSZUhxSkpDMnMtdkdpazdZZno1SWlIdjNsOG9LaEQtT0tCR21vQVZkejhaemFQX2dKaWJZeXUxaDlwTHdWb1hlUkMwVThpUjg2OGZWLWVDV3doZlhUdlRvVmNKZ05WZWpjZHVnQW9hckJnVnBLMmxBQlBCajRiSGlRSXRkdHA0dFhHcUtLU1doX1E?oc=5",
+      "title": "Argus cuts Trane Technologies stock price target on recent weakness",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TT/history",
+      "title": "TT daily price history (Yahoo Finance)",
+      "snippet": "close 413.33 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

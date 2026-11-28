@@ -1,0 +1,49 @@
+{
+  "ticker": "ROST",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ross Stores\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTlROWjVnb0N3ZHhKVWJ5bnNpODlZZnJWY1FFRHg2Nm9oWHFvVElWanhrWW9XVzBGaXU3VXlER19mNmJnWTlIZ2FHNTN1cU5IOWlyaFlyV0pJeHp5VXVsVVI5ejR1VWp3ZGVBSW9qUHFYbzVkTFJYNnltX21ZUEpILS1fV2hFcG5rZVBSbUlPS2xjUnRTalAyc0JNTUw3ZEUzajk0TkpuaVp3VnBDMkY3Y2VkUkxlWjVEWUE?oc=5",
+      "title": "Ross Stores stock gets bullish UBS call with $315 target",
+      "snippet": "ad-hoc-news.de, 2026-10-30T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROST/history",
+      "title": "ROST daily price history (Yahoo Finance)",
+      "snippet": "close 230.59 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

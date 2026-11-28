@@ -1,0 +1,133 @@
+{
+  "ticker": "FDX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 13,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORWd6bnE4T2JrQkxLYjFBX0VUWUZuaWZldzlhQ29xNVhOUGQzSDI0aXRzZEdPcUJjeTAyaW9ENXIxN1JjZlNrOS1LbUFZcFVja05jSHoyZE1ZRTZKWlgwbE5LSjZFdWxSWFFuZ0dhbDdoeEJBbF96X0kxaXdPT2NSckR6NWhmX01HN0F4dlEwcmpyVHdCMGc?oc=5",
+      "title": "FedEx: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXNTZy1oR2VTcnAzRERDa1psTjNjZDNXdUVLTmFfZk94LUp5M3VMd3FfdlFiNk1pVGpKV0ZQS2k5LXZOdS16eElDazQxSk5zV2hVazJjZThQNGpEbnRQZVB2dHhDUGtfOHFEM2xzWXBTcHZuamR4LXZvZzJnZVY2akxVNmdHeVd0Y09mYTBRcHdWY3M0MVZHcEdyZWg2eHda?oc=5",
+      "title": "FedEx Freight Holding Company (FDXF) Jumps On Earnings Reset As Valuation Questions Linger",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMHJDNDNJMXJvRGFNMTBfSEpwTzFueV84QzN3cVV6VzZBZjNYUU9vQll2dlduNUp3cXpnbEhQNDdpU3ZqN093cUZYaDVZcHFJV3NRX25jazFTRzhFVXc1VnNPbFdCU1VqRk5DQkRrUVNHN2pfbDJXZ3l4RTM5X1N0a08tOUhYNFFWZXJ0WV8zazNoaXFrWThNZGhPYzdGT1RReFdB?oc=5",
+      "title": "Why FedEx Freight Stock Popped After Earnings",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnQTFDRktCRzRFa3NLUVR2clNvUi14b2xWUzVTMnhqOUV1bk9IVW41X3NGVlQ2ZFFrMEQ4bnA3aGlURlhzT2NzUjQ0TXpRaFdYbTF0bk1INlBTVURQaDRvWU8zbE4?oc=5",
+      "title": "Intel, Amazon, Nvidia, ExxonMobil, Sandisk, FedEx Freight, and More Stocks That Explain Today\u2019s Market",
+      "snippet": "Barron's, 2026-10-30T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeW5GQ3d2bTBOZzNiRUpFa1lTaXRxUFoyMG9KVzh0SVdaQTNYTXJuZE5wdlFhX0cwQVJ5Y2lKbldfdUxvX3h5dXVXTXEzWlZPZ184aHh3eEVlbEtWWjRGbmEyLXBBQkJPbnpSYXd4NDZsR05hT1JUSlYxYzRaVVJRbXhLOW9EVUZfSVBlMGJRVEI2TUllVEdwX1RZZjJsZDBXdVJ1emVxd190UVFyWGJ5SDdFWHhPdnlaOGV0Sm93QzBvQzgxTTIwbw?oc=5",
+      "title": "FedEx evp Tracy Brightman sells over $8.4 million in company stock",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONlNGYnNkZ19CeDl0Sk83bmU5U1g3X3dJUC02U2RZY29Nb3F0NWFES2tPRE5LTTRselJZRDMtUFp0Z3NGd0RLYXFhM3ZveFJpYm9vY3dFYUJzanZ6dGxESWNPLV9Qdlh1Z0ZNaGRONW1CLUhSZjhNTDhQTXlyejNHM2Q5bjB2SEZCTXlCUlJFZHg3eXg3OEhFRFB3UGJPaVdRWjNsTG5RTjJWTE9xRkp2WUt2RlF5dWdLYXM3UFdn?oc=5",
+      "title": "FedEx Freight shares surge as analysts back growth targets after quarterly beat",
+      "snippet": "Reuters, 2026-10-30T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.883,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjJTMkszWVlHendHWS1WTDdpNXBDd3dPQTVlUUV3TE4zSzZQY0JJWjUwR3RaSkdMLUQzclkzTW56VUpBaHF4ajQ2b1hkN2tRWW5oUXQ3d3dCU3h1a09wWWhheF9mTEFUZlM0bzlJU1Nxd1hLa0hFNTAyZHdXNkZYLU9sM1Fkb1JPb3h4T3pybFBkdG55VDd5Vzd6MmlUMFJGZWlsWnY5S2dSaXR1WEhGdnB1Sk0?oc=5",
+      "title": "FedEx Freight Soars 14% on Raised Outlook as CEO Touts \u201cStrongest Renewal Pricing\u201d in Years",
+      "snippet": "TIKR.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb29CWTktY3dBRDdvOHZTZXpQRXpHUXdjV2lqaVpDb3V0aVFVVlRreVB1eXA4aXI4VGtDTnRKQ3BfTk9tTWtlUlpDdnhLRm54cV9zcFdYRHpGWHdpSjFMS0RkNFQwc2R3V0REU3YxVk4za1gwS3RBVW00YTRUSzd1c2xuaEp0X1NlYV9vQ2xKd0RMWXFVS1p3RGtycXMwM29iV3F6dEJtVkJES3I5N216aTMxRWxkM2NjdVdIQ3JYN253OTTSAcgBQVVfeXFMT1p6MmxCUDkzWHZUX1NIczFTdEdFem1PR1ZkS2JOUUJBNm1KcjFLblZFLXljVXRwUVd6MmtTVTJsQXVXUUFwVWp3UE1DWERGeGd2STFQWTNwbDlIMTh5bWVDQU9Rb3ZLem03WXVoTlFOdnNTLXBDeGI2SnNHQUtvYlZnc05CYmNPTng1dHVxWThwcE53bXVBWUxiaVRLZEpzQzVSS2xnNXdfSmFjUGtVS0VRTXJYeXBOakx1b1k5b2RQSjNJajFYYjQ?oc=5",
+      "title": "FedEx (FDX), Why Is Its Latest Update Drawing Fresh Attention?",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 318.25 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

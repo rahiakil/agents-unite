@@ -1,0 +1,67 @@
+{
+  "ticker": "MRVL",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Marvell Technology\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 8,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUp5WDZiX01hdUJQQ2VuNGpHdjRZaUhFenBYeWY5UmNLNmZ3VnZwcjMwY21MMmdEdWhlazRZcXJpaEZ3NWhydUljc3E5SDkyV2tWenBCR0w3NUluX3ljd3gyaTJiVXM1YkItNkp1RG1pUlQ5TXVmcENucGRLQVA5Q19VWkdaaEpQSUVyLUtzZ2JVY202NWc5RVZuU0F5eXN2cXlaRVY1SXVydw?oc=5",
+      "title": "Why is Marvell Technology stock sliding today? By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 1.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/d81187d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRVL/history",
+      "title": "MRVL daily price history (Yahoo Finance)",
+      "snippet": "close 171.41 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

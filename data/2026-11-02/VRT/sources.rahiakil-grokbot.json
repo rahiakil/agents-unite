@@ -1,0 +1,73 @@
+{
+  "ticker": "VRT",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vertiv\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFdoLWZUMU5zbElVeHduSGFwZksxVnRaelp0RGJTaFBhRkVyY3hwN1hiTGdxd2Q3cWt4b0Rpb0d4eVc2dGZON2d4UWRqLVpvdTIzQWJLVzdzVUhnS0FlMkZWQ2RhWFJ2ODctSXJrX214cktrU1psTjlSU2FhbXFkSVFnRTRnZXhIcjMtcVMwWjNWcVQzSDBsSWlxMA?oc=5",
+      "title": "Is Vertiv Stock Safer Or Riskier Than A Year Ago?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTDQwbnVaLXZ3RDNhWFBCOW5MNFRxUmQ4eVN5NzFkRno2Qmk4ZDBBUEMwSjdxQ0tEeUFKalF4cUZ4bVFpcTZqVXpfeHRCMmFRbEh1X3Nia2pRekZwUWc1YzVmajk5cEx3djk0aGFodWg4LVItYTJ5WE1palZxY1R5My1rU3llb1NWQlNWSjRzTGotNk1wTkFTVkhHRFIzdDRPZUc3ajY2SUZKb1Bh?oc=5",
+      "title": "Vertiv Looks Like Its Comeback is Finally Materializing",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQlYzNVB6SGZ6dnZEbkNrcWRRUi1jcGF1X01WNTVoRDNQbFZlN0didFBENDVUeWExalc5a1ZqNk13cEwwbUxnTC02dmYxMjNuaTc3MHdZQWZhcTBpVi00Z1lZOVNuMHM5VnpfVS1TRkx6R1ltYzktY0tPa3ZxQXRsNTVnRnU2dUhKS0g1aTg0TTNuM1o1RjluX09sS2ZhRThQRUZDRHNVLTJXOWkyS0lkRQ?oc=5",
+      "title": "Vertiv (NYSE:VRT) Stock Price Down 5.6% - Should You Sell?",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRT/history",
+      "title": "VRT daily price history (Yahoo Finance)",
+      "snippet": "close 224.24 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

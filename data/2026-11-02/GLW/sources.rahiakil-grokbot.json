@@ -1,0 +1,49 @@
+{
+  "ticker": "GLW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Corning\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZHVncmVGQ0s0MERrLXdQTU54dEx2cmRfOWZrX3FxbzJmNTR5ODBsbzF4VzI1VFE3S3JHSDVOamZzVl8wRktfRnBrMHU5US01QUVjU1VISHFYR1UxM0g1QVppSzlQY2FKRVQxSzRYTElaWFBwdng1cTVWbWJBUVBqMmZiS3lOVWVHTmJMd2VxaGUtLWx1RmYta1ZkU3M4elh3S2x3?oc=5",
+      "title": "Prediction: Here's Where Corning Stock Will Trade in 2030",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GLW/history",
+      "title": "GLW daily price history (Yahoo Finance)",
+      "snippet": "close 123.2 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

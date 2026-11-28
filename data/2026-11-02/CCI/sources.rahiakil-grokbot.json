@@ -1,0 +1,61 @@
+{
+  "ticker": "CCI",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Crown Castle\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWlJaNld1TzNKWHVqc3UtTVFzcVNidUZ3RFBNQWkwa0RfdHpudHdiRkJJdlI1d0NUdG95ZndNM0FUYWd4U1VMcTlaVDM4eE1kOTh3ZHdGNVNRNElfWjhIMDFXU1BjQm5RR0hHaWhzdkhQSWxfSW1ieUxDZUJ3alU2ODFwa01KTktRT3lEY0ZQaVhuc1psQjR5WFF5bTBDNjIzUjJRY0pyMjI3RGFXU3FMVk1md2dqODlWR01ad29COUtTbDNxRnRCTnN2QdIB0AFBVV95cUxQZzhJaEEtT1cxWTNic0d4Ym9rbG5XLVNMTV9ET2xDWGE4elh2dTBxQ0I1RjlsY0lhUXdqRHhJWVNCam9UTnBEME1kZncwZkw5cU5SWnB4NzBFaFlmX3llbWRCUjJlZTE3Y3JmZkg3QmRTSjYwNnhFOG9KRnVFVk1PbTBUN3lHY2VkN2dGQWRIYnRTREFzVWItLXphRzRmVENDVU9PbGRyTFBqeEZ3M2VTTXNtUUN6SWZiTDRKSnpCR0dMamVLQ3czalA4eS1vNWV2?oc=5",
+      "title": "How Investors Are Reacting To Crown Castle (CCI) Raised 2026 Guidance",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczdNeEFDWXBoVFlLdnc3M3VORWV3RXNhYmZEaGlqZm01V1loZEc2T2tLYk5MajZneHdtYmtwbkUxcWRWcHhYNE84Z0d2LUFqV1R5QkhKT2tWN25YWlZBN0pReldYbWdUNlRZRkVwaFpOX0t1Q280VUl5eXBKWnhjVVMwQ25QblZUVHh1RldPR0ZiaGpJQ1E?oc=5",
+      "title": "Crown Castle (CCI) Stock May Trade At A Discount On Tower Lease Talks",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CCI/history",
+      "title": "CCI daily price history (Yahoo Finance)",
+      "snippet": "close 87.03 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

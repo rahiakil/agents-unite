@@ -1,0 +1,61 @@
+{
+  "ticker": "MSI",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Motorola Solutions\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUTBoX01lR1JyS3p4OU5LcERYZ1NiMklRMVBuYi1xV3BELWhpeGxrbkgzVFh1QVVNRWxLYlBiUGJDNWsyVEFxRUZxQWFGSXZFODBzQmdCaXo5Z2I3VkJWWWZlOV95Vy1hQjFiUXBxRTRCRi1SdEFFNWxjaFJJZ19ndDZybW9odk9IaEtBRlZqajZJbEp3ZmhZeE1Ob3hfNGxlZ3FkVjA0VmxfeFR2aGVrOA?oc=5",
+      "title": "Rheinmetall and Silvus Technologies, a Motorola Solutions Company, Strengthen Airspace Security",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdlk3ck5fLVpvRGRXbzhqb2pNNG5oS0dIQkZMdnB4MXZfY3plS0l5Vkxhd0FKMFJRQTM4U0JnSTl6ZjZZd29wVGx3QnhvOEV6ZUZFOFhhbTRkNVVUTTZ2ZlVXQ2dJbHJtTll5UUtFZ1Z3dDk5VWpJRTJ4VVNKNWtfeWZURDlIY1dQcjRNVWZTLTdJLUtKa1BiUk9sQTVCUS1pd1d0Qjg4U015X0dFYkk3cDhQVndJRkVaQmpMc1FzdERQdw?oc=5",
+      "title": "Motorola Solutions' Silvus Technologies to supply RF sensors for Rheinmetall air defense systems",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-10-30T07:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSI/history",
+      "title": "MSI daily price history (Yahoo Finance)",
+      "snippet": "close 487.31 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "HWM",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Howmet Aerospace\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 17,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXVpQzFjeV80LXZRUHNHMEdxZHdKcHozN29GUFY1Z0R4NThsY1BCNXM0clJqNWJicE4tYm1SY0FDQ281MGlXMjZNeXJLck5fblpWNHU4Wk5DMlZnTEFQdTFEck1DMFRIcVlyTkxKallxanlUcUd1SVRkNVVDMmFRUmx5QUNTTTduTlJGalZzbjRXRUx1MTIybENNQi1JZw?oc=5",
+      "title": "Did Earnings Guidance Raise Just Shift Howmet Aerospace (HWM) Investment Narrative?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGJDU1dNUGxGNDhMQ1BpVVQxMThKTzA3dUlSelFBTGpIeXNSU0l2bXdES0htZHM5ZlB1Qk40eVVZZS12SHVRQ29Na3lkSXVob1FfcXdLZDdyVG1xOU9pUl90ZEhyTEVUVl9zSWxacWZpVDI3a3lUZ0lIamZlOGJEX09VSjVZNnZ2VG1jbzVBRThmck5nODBWUHdFTTFJRnNVZ0d6Ukx3UGpURm04ZFJqRjlldGtqRWlzdTRTSVRwVm1OVnJveEluQWxWRTg1SHdiZzM40gHYAUFVX3lxTE1PUnpvWEUwaHRsbVVHcE5NTUgtYTR5YldzTFZSYm1DenhheEEzaExtMzdUUkdmQVAxMkVEY2UxbWZhdUNqa2RTTEhKVEJzNXVUc2d1OHVvMFBBa2pTb1NoUVlIVmM4bDlXMEZETFVuR2thRDBPZXlMLUlxbTE1TlJlSWhiZWtpRjRpNUtVZ1N1Q2tYbVpjbGh1QS15ZXhiVnBjNXZxYWE4c0lEOEZPNHhwQnZEeUo2Q2tmR0ZOZDduUDVfa29mV2Y1VmNyY0pmck1IeWRWOE5WYQ?oc=5",
+      "title": "Howmet Aerospace Stock Gets A Lift From Raised Revenue Outlook",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3hjQkxfZE52ZndCa2FoTWVobU43bm1UNTVfY0RwN3ZDVUROZTN3RUdVTHhuM01LNGJOaVNwU1VaMTBOLUZnT090T0VEaXRFUUlYc0hyd3RkMjloTFU4eXZXRTNtdTBJSnpzWDI2bHo2ZUd3ZHJlZ290TFF2QXdWYkY5b1BBRmthS0VSaUJUdEhNbndfZmRRdmNOQjVqczJJb2J0bHF5bFc?oc=5",
+      "title": "Howmet Aerospace Q3 Earnings Call Highlights",
+      "snippet": "TradingView, 2026-10-30T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVnFfRVd6ekVPQVh5aWlLUWV1Y09sdEhhcnVDUUs0OFlnS25lUFo1OE1nODBNU0NiRFhtYk1uX194UU5fckJJbm1CSzFJMDhTNUxkbGhRd0FERnZIUUxKMmpwZVRhaVc4dzdjbzhOV0ZseW9pVG83UUtpNmVaY1hnZ3JoSXNkMW1NUmRPTVduMm5GLWZBdXNVeFBnWHdMcnJZZW1Z?oc=5",
+      "title": "Howmet Aerospace (HWM) Dropped, What Is Driving Attention Now?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HWM/history",
+      "title": "HWM daily price history (Yahoo Finance)",
+      "snippet": "close 212.99 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

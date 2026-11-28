@@ -1,0 +1,94 @@
+{
+  "ticker": "BSX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVXQxbTJyTTM2OVkzSmhtYTZuaTdtdEk4RzVLdEY4Wm9EejlDWl8tVUcxR3JiTVZSUXpmcERoS2l0MEc0SWNxci1XRFJKRk9ubjRjWk5GcUR5LW5FN2h2aHBBMFM1VXl6bGZkZ3NDcDlZMXNldDIxX2Vsdk1zZXRNaU9FNWZwT0VYd3RDTnVqTmFNdEVKUnlXYjRmYy1lbFdUT01GSEtwS3Zkc1kwTmk0ekh2MHpyTjlTS1dwZQ?oc=5",
+      "title": "TD Cowen cuts Boston Scientific stock rating on 2027 outlook",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPblVFcVlKR1YwczJPYndxTzVUWXlwMWc2aXU4YTd6ZU80czlWR3RUcVFCMVc1dHYtODhOa19uRXlTSXJNbFh5czVTUHNubG56S0V5QTZJdWlHb0s4cmQ1WGZwbjZWVHduOF95ODdTdDAzOGx6dlhqV1h1eUdIOUtha2VaZ3B1U3dhWUIyOS1vWDFybnF1VklCNTQwRXQ3UGlSUXBvcldmQW5Tby1CRWR5NWhfcTZqQjMxMXVSdmpvSlZwa0VFcTB3bG11WXU?oc=5",
+      "title": "Oppenheimer downgrades Boston Scientific stock rating on growth concerns",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdUNsZ0o1b0NiUl9qcUtMQzF3eXBmbS1pV3dxT0dXQnVOU1BQdFJDOWtiSUFhZG5tYVcyMERta3ZrN2ZGeGtIR180TjZfQ1pYVHFNaWd0Q2dqb3lnRFh6d3A1MmNfT3ViM0l0QnpiZlEzbDBSYXNhV1NuaGlYaG1FX2N2YmNabzlmampVLWxqNFUxbkZrT3ZXQmRGdmtHbXJtMnRYRTBWSQ?oc=5",
+      "title": "Intuitive Surgical vs. Boston Scientific: Which Stock Is a Better Buy Now?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY2ZGaXBhQnlFQVVZQ3k5b3U3YVhJcHctZ0lKWURlZERGUENzU19OSjVldkFveWw4aHpPNVhYMF9malhEdWtpSEIwWXdIcjVHRnl0Q3RqMUYtQUVpUTZ3N2M1VXBwMndMNGFDWGptdDVvbkkzbzdEX25neEo5RVBEZ1pPMFZiZHNWd3dtZUdfMHh2VTM3d3NOYXRFRFNSVDJRVG1ra3RBdXFTalFmY2RXd2RaWWFTUzFWQ1ZkWUR3OHNmRDFJVzBSQWZoZ1JUNWM50gHWAUFVX3lxTE13eGdLQ0Rkb0RySDYzWm54NEw5YXNGaTJKdVVBTGNzU3I0akxjamg3RGk2bmZkam9sWXBJZmVsYVZSWjJKalNpRGJGN21QRnh6M1JrOWVQR0NDX3hJanloVUhKaThmUU5LaU40TF9oS3ZHYkhPTEVtakJJcjZqWGgzTlhhRUNzWldsclpMMG1lRVN3ams2LUpaWjEzM0dKS1Y4S0F2OEkxU3FRUkx2MG10QThSZ1FXZmZoTFd0MEF6OHNEZk95WGphQk1HUmVmanZ3SFJQdEE?oc=5",
+      "title": "Cyberattack Disruption Might Change The Case For Investing In Boston Scientific (BSX)",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000070/bsx-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 44.32 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

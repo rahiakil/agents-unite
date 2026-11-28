@@ -1,0 +1,61 @@
+{
+  "ticker": "HPE",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hewlett Packard Enterprise\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 31,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 5,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOU09jd01JM0I0TjJFcndpOWQyOGlEdGpaMlN6UmJzcTE3Tk9BMTlWNWszTlB0cTBrQWo5LTZ3Rzhzb3JzRkRtaEpXQlFtY1hrUWxHS2E4V3FmbWpnVklLWXZReVdPdHMzZFdrRXdFa0tjMnlnbTJydk50aEVWeThiTm9RelV4OHlwZDhrcXBFLU5taThYUUtLdW0zVk55TUdobHo0SWp2cG9MeVhhVTEwM1hPSXRjUUU3X1FINUVhQWJqRlVnTWthbnRGODFYZThWLThoY19zMTB6N0pNeXc?oc=5",
+      "title": "Hewlett Packard Enterprise Co. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOcS1XS0Nfa0Nub0NDaEwzQkEtQmRpQUR5Mi1PQkVwZUJGWXlfTkFvUFFob0NGX0dXOExoUHVKTWNGbDBqaXVUc05lTk9KTFFpb3ZZOVhzc0tIMjhFNzBjWDNWRXVqdjNqdDRCa0o3eWhVaWlZRThvWjFvczRqOWhVZ25SdlF0bGhFTmZyNEhhczM5R1lBUnUwTDg2UUVvUnZtMlpNVUFFOFZ5OU9kVTNycGF4MlVHWGtsRWRGUjYxVlZNT1ZJZXBfdUFnYVBiN0s1cFhhYXU4YzJnZkRwYktYWVF0ZUFsdmZ1Snk0bUViX2dWNV81cWRxaXJUY09qaGZtOUtjLVJHdXFrUGZBSUZpWm5UWTI3cnVaT2Rv?oc=5",
+      "title": "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%, Hewlett Packard Enterprise and Super Micro Fall 7%",
+      "snippet": "24/7 Wall St., 2026-10-30T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.896,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPE/history",
+      "title": "HPE daily price history (Yahoo Finance)",
+      "snippet": "close 51.19 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

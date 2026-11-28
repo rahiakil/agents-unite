@@ -1,0 +1,61 @@
+{
+  "ticker": "TRGP",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Targa Resources\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONjdzMmc0ZHFWNUV6UE9JRXI3N3lNb3FfdVJlU20wMmdXYkFHdG5OR0Z4ZWgzUThVX0RDUU5mZzdEdy1xWC1CaUNyVkZoZTI0dER1UWs3Zk8tOTBleGNqME82RzNqOU8ybDg5R2ZERmdLWThGaml3SW5KYi1zdnlJYnktV3VpbzV2WWZGUGw0eGd1amJjcm5WalJTZ2Z1QQ?oc=5",
+      "title": "Targa Resources (TRGP) Stock Could Be 42% Undervalued On Cash Flow",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeGY5N0tfdTRDZGE1eXdnQzJDUHJVOTdSNV94VkhHUTJadnpocGpodGg4bm5YTUhTQV9GU3UxSWUwV3VfeUZJSTlHaTY1WVRtdndMcnBrY0RCR3pJbUlneTl0VGNwZlZMSjdyYUdBZVkzR2h1YVF5LVdyUUQ3bzlGbkFmWnY5NXY5VW9GLXNhZ3ZMN1NxelpSWmxGR0xhMi1r?oc=5",
+      "title": "Targa Resources (TRGP) Builds Out Export Capacity, Is The Stock Fully Valued?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRGP/history",
+      "title": "TRGP daily price history (Yahoo Finance)",
+      "snippet": "close 294.73 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

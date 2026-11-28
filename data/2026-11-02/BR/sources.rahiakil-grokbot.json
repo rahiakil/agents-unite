@@ -1,0 +1,61 @@
+{
+  "ticker": "BR",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Broadridge Financial Solutions\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONktGT21tNzJkSVdmbWR3bERsR1JVQ3duRHBESzJBYUFhd2NOcDZzeEJUQlp2V3NDeWE2LU05dmhNcHlFc0V6QkZpbVM4Yks2b0ItX0VSbk9zeFNqUnZWeVNGSEw2SVk4a0tza1FLNXpMbFZwVVhiOXkzMFd3NXptR2Q2RkJneTF5cVdFcTZISUN5Tl9NTHo1clVadk9WQQ?oc=5",
+      "title": "Broadridge (BR) Q3 earnings report preview: what to look for",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRndZa2RkNV9SZzgtUl9Vdy1SaExmNktmZ2NwdkpkZ1dsVmFnNmZIY1VpSUJhREZiSXhROTBVamxKRlhuVlU4U1RocFRYb0JzcktXbS1YaU9kc0lKaDhWaUJucXJTRUtfSy12SU5UZTNnbExUbFc3bmpVTW96X2RxelBZTjlPc2JycjRZUE5DMV85bG5LRjJiSlhUdjhRd1JZTFhlTmY5UVhYVjlVRnlpdEF6eV9EM0Uzcnpad2c0aGZqZjlEdURxSS13?oc=5",
+      "title": "In a new age of automation, Broadridge Financial Solutions is poised to expand its reach",
+      "snippet": "CNBC, 2026-10-30T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BR/history",
+      "title": "BR daily price history (Yahoo Finance)",
+      "snippet": "close 184.22 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "SWKS",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Skyworks Solutions\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc01HMkp6NFk3endXMmc2c00wOFd2S3dydXpXS0wzdmdqMnZwUjVXRnZwSV9UWkNTTUVoOEFaYThPWF96b3dESENoVzI3eDEtcVhINFFsRVNaVzdfb3NMOUU2MUFCc2xEWXBmQ1dmSUhJYlhJZTMwbVc0R0lxdVZQWmpwa3VIS2dpMlQ2M0tYZ2hkcm9pM0lFMkxnYmhrbjdVd093bFVLLVYyVlBkRHNkQ2N4OVVvaEFDZkg1N01SZWlONjRIQjJCcFV6SGlXdGY5Z3B3bm5MZU9ic3PSAeABQVVfeXFMTm9KWWI2MFdCZEJWYmF0VGpwcEp5SG5DLUJCajQ2c0hoWjZBT1EwT2kxb2YtWk1XT1RJdF9TSHhSRnRKcnV5Z2lZMy0tZ1ZiYzQ1blg1UDA3NFZBc0FNM0liWmZKQ05jR0ZMd0YwWWJ4NzJmYi1VSE8tanlRaDB1dS1QYWV6LXJLekVtVjBBWmlUTTRmaDlzakRKOFpVRWRNdERxTmRYMW5HaTByeWZtaU85bXJET09LcVNqeWFOSkZhZlBHZjBMbmJMZ2R1SlR5SEJjQTF0ODduRHI0XzVKLVc?oc=5",
+      "title": "How Chip Sector Weakness Will Impact Skyworks Solutions Stock Investors",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SWKS/history",
+      "title": "SWKS daily price history (Yahoo Finance)",
+      "snippet": "close 85.17 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

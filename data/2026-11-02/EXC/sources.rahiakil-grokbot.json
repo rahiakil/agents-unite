@@ -1,0 +1,163 @@
+{
+  "ticker": "EXC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Exelon\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYU00LUpvOVFTdUVUcU1aeFpmOGJTbTJ2NGQ5eklZTGZ6Y1djU2FFTFJiYVpTUDdjWXE3Snd5dGhMV2Q5Qms1NmNCcWdkMjJWZWtCLXZ4MGVFb0hQRmFYTW5IcEwwcWFpOHVlYjZtbF9sdmdXMEg5LVFBakNNN3pLSU5DUEkwOXdfNTA1NUJQREMyZ0l6TFpzcDNZM2pwNjA3?oc=5",
+      "title": "Exelon (EXC) Stock Looks Undervalued On Its 43% Five Year Run",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRTcxaEtHdklrOFp5Yk0tMnNHcVZGeXZEZGNrd0diNVFHODBxa01XaVhtT3cwOGZTTU1HTlVNQnZCNEpINDZfbXNleHBRVmhNREMzcjBxemxlODZTOW1qc2RsTFFNLWh6LVFOdF9QTkwwMUFsVkN2OE9YV0NEbHhNamdOaE92ZUd0QW1WUzVZTmVQdnhTUDVzVnF1OA?oc=5",
+      "title": "Exelon (EXC) Just Gave Investors Something To Think About",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmRETnFWNkxaRGtIUGZZOEdwdjJqNFNpSXVJdVNqWVlzLS1iV244NnE0cmk1TG50V2dRQVFFWjBYbjNFdTc2YUZ6cGh5SkhsUjJCMklOOEZiNUl6dE55djVoUmo4U0dQc1BDUGNLQVVraEV0Nm1ZRjJhQU1NXzc0ZUsxTExxTXFQaTc5MXFWcWtYNjFyaHVr?oc=5",
+      "title": "Exelon declares $0.42 dividend",
+      "snippet": "TradingView, 2026-10-30T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSGNpdXF4YTJwaVJYRkZ6ZHo3RGptR043QlI5QUlLRkpXOGhQV05wYkczLURjaTZUdzFqTnd5eGEtZVd6VDBqVkw0Yld1NmtiZC16RkxiZ09raU9TcGg1R0JSaU9LNlhfMnlPZ3lUNnB0dGZDQ0l1WnVLZjVtRDNMU0R6WDVheHZkTllTYUZuUGpEUQ?oc=5",
+      "title": "Exelon Shares Gain 2% as Q3 Earnings and Revenue Beat Expectations",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSDZKSzBTdmtWYnZDODNOLWtucEJrXzFNalZlejdNZWQ1Z2xTRTdScXR5STdsYXVTb1VhRDNvY2VOM2FaSnpkaUYxVjhQUUJVVUdpYTZhemFyVzFMWTBydmJKM1dvWjhINGxVUm1hUy1SSEdKSU5aUHhScDN2Mlc5WkFLNzJhQUcyUXlWLQ?oc=5",
+      "title": "Exelon Q3 2026 Earnings Call Transcript - Exelon (NASDAQ:EXC)",
+      "snippet": "Benzinga, 2026-10-30T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEJhcHB6QmFJeXVubW9DeE1xRDNxTU85LXozSjd5TDQ3cHBubFhWOG5JbjdpY3g4cnJHX3lQOEZGendiN0tHOGMxUWxTcjZkekcwSzhCdXdQZ3ZUV2NMdEY0ZFVaODhYZ1RNUktjbTVkaWxIOWJ4NWRfRjNRX2NxamJ1RGE3T2FXZUFJUnBvV05UdlczSWNOeW8yRGx4YnRiN0NYdmJEd1NUZGdMY2doQU4tenJ5T0JiUzVxenYzSHZSS3Y1T2E0?oc=5",
+      "title": "Exelon (NASDAQ:EXC) Q3 Earnings Beat and In-Line Guidance Support Growth Outlook",
+      "snippet": "ChartMill, 2026-10-30T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.807,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVlJMb1lyY3kwVzlERHFuNklvRlFkTW9qMXl2d0pmMWwyZlFWSklVU3BpakdrcjNWeDFRZTVJQ09yUmJtVk9QOWhfbVI0SWZ0bEpScENiZHh2UnpNMXZhZTl4NVp3QmNLb1JsNm1ZMnFLSzVSZ1FRemJlaFFEV0U4LURFWGpwTXRMVy1XbkFMamJsUEFNUDRCS3NKYmVtUQ?oc=5",
+      "title": "Exelon (EXC) Surpasses Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb1N4eVM3eTRkdmxwX3ZSN0x0dEJxZE1fT1ZMb2hGdTNLSHRWTEZ3SkpBcjBBWXQ3WlU5YURVSENJbkhLamcwMlZBRUVNTHI5eWxqME80bWNoQ3RRRzhuS3FPeTAwNHh1M25rNlgyVTI3eGsyWVh1YmNzM2w5T2IwaHlVN3RjRGNEaEFwX1VSdTdoWmNLVkE?oc=5",
+      "title": "Exelon (EXC) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSFV5UXB3alFzR3pwSi1SUG1BX1BzQi1rT1dTTlFQc1psVkFzSXRvWXk3TzlkVEdSaWZoRFByVms3UlRNY01zZ2x5dWtCblpuVzd1NDNfOWwxcUFzODZXcTJXSjVTUEFZNkhjZzgteHpUbjlGaEtCa2FYVGJXQ0xKZlB3Y19CTnpEaVRXLWcyOHZaNTNib3FXUjhGNA?oc=5",
+      "title": "EXC Q3 Earnings Beat Estimates on Higher Utility Rates, Sales Up Y/Y",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000092/exc-20261030.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935726000095/exc-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EXC/history",
+      "title": "EXC daily price history (Yahoo Finance)",
+      "snippet": "close 46.45 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

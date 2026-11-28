@@ -1,0 +1,61 @@
+{
+  "ticker": "ULTA",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ulta Beauty\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 7,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQODM3S0pIOFEzNkxvZEtMbmtzNnduZHRHT2NXd29FZXYtN2NSTWhZaW9URzhRZFpIeHlmMmhQb2lnMldYUDBycVY3X05ZQk5WWEt2b19pbWltWEg0WExfZHJlWExhR25Nbl9WWVI0WXNfMy1mdjA4Y3QyWUV0bEwwN2M3X0IyeTdYOFFOa0RmZmo4S1JBNDNJTWtFZ2lPQ0NoblpRZTQ2YjEyaV9BQlEwMnR0VUE3Y0Z0UE5mX2JkTFVTN1E0elVJblUxNTh1S2c?oc=5",
+      "title": "United Asset Strategies Inc. Acquires New Holdings in Ulta Beauty Inc. $ULTA",
+      "snippet": "MarketBeat, 2026-10-31T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.844,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNmlHejJSaXlUblF3UmZWZ3h0LXVJbnB6R2NfaV9OMFFkczdpZHlqajNseG9zTjhTTmZNSHM1NVNndXFmbUx6MDdsUGN6b3JmalFndkFiSy1xWmpDSXVNVGZRb00ySkQ5QlZXdnA3dlpXTDlVTWkzdmQybU9lV0hER3RrS3hDUTFESlhPdnZOS2J2QU1tZWpIN2pNV0tJZw?oc=5",
+      "title": "Store Expansion Could Be A Key Driver For Ulta Beauty Stock (ULTA)",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ULTA/history",
+      "title": "ULTA daily price history (Yahoo Finance)",
+      "snippet": "close 637.57 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

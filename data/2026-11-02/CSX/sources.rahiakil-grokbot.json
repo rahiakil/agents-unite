@@ -1,0 +1,133 @@
+{
+  "ticker": "CSX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 7,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR3NSVzdQTjlENjV0M0Z4cWJteE9aVlpiQlpPYk83TDMwZjZ3OTFBRkxJN2dHVGFyaHZSYU5BOUN4cjJrdXozN3dFRWIxNnRZV016M0I3aG9sRlpLUTJQQXJkQmt3TFNzNkxoeTJPcDBtZ2JoZl9ESEtXU1RabWNmRHdLNjVYcmJKaVFILXREaktSdy11N1d4cG1kMUpyUQ?oc=5",
+      "title": "Is CSX Stock Ready For Cheaper Diesel?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY2VVNjlrTVVSZVNoNHY1UFpjV1lqZ3JXa0NacTRfd0NJUlJtc3BlcURObzdhZXJWMnEwZVc0Wk45bnExa0VHMUpjdU9ocm8xZWx6UU0wV0g1YWRweU1wcnNGTC1LVHd0bE80X2ppS2lWMENQTzRMbXdYc1VyUnY0VTdZYmZTWlE3S25N?oc=5",
+      "title": "CSX (CSX) vs. UNP and NSC: Can New Leadership Turn Efficiency Gains Into Lasting Growth?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQVRRZ2tNYWdqZEppTGJHNkVGTFNVNnlDOEFVTW0tUzNkTG42Q01LNkxNbzFYdnpDaEhjS0kyTVo4bkxiOHFsMU82aG1VTnlxaDRVX09XbkxxR2NuNy1hZkxvcC05MTZHSkpEem1XbzdaRTdzMDB5MmpYUWV1VWpSb19MT3RzVTVKcTc1NXNJa20wZ0NiLWNpeFY5ZW0wS0laTzhxaEhPN1FvejZoUXNz?oc=5",
+      "title": "Schneider begins eastern intermodal shift from CSX to Norfolk Southern in November",
+      "snippet": "Railway Supply, 2026-10-31T07:00:00+00:00",
+      "publisher": "Railway Supply",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZkREcDcxUm13Z0ZqN1V5OTZCa09lZjZ4QktrYnFZZFNsRnVBaTd3bVhST2VJVUlhSVNSUUh0YnpPb2dWQS1BU0FPRHBabWRNeXk4cll1Yi1HbjJMT2ZyOVI5eXp1TjRxX0Zic1dzWmRjRk5EWEF1M1dWR2Vyd1FuT3czVzRKOTQ0TE1kNlgzd2tJMHlxMFRTNUdGYjVsb2NoSkVRYk9FOWpaQjVZWk5OV3k1ckc4b0U?oc=5",
+      "title": "CSX (CSX) Gets a Buy from Wells Fargo",
+      "snippet": "The Globe and Mail, 2026-10-31T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFhsWE9MMTMtajhhWm42MWFlVTRnblNab2s3V3kxSUJrR1A3ZDJFSEJJckRicnJvQjNJcGVpNTNYUGc2bjJEMDZTcGdzaVh3aFNGWlM4VTRCT1AxNE50UkgwQkgxWGlnU250dXNJb2ZGWFZwVUlSRGFPM0NtZzNiY1dBcHdhRV9adUJ6R3dvZkZVSnhZLWZzQjlHLUpuUWlOcjR4VDd5SlUwTzgtTmtETXpQXzBSd1dtVS0tZUR5aC02QmplZnfSAcsBQVVfeXFMTVBRX2pLamJyWWJrdUw0UWktVnRtaHJsX2l6dnZEYml0RFFKb2tlUjQxTlV5UGNBaUVmUDVjWnljQ3FCUUdLQUgxa1REUG53MWxId2Yyb1V5aThZVEhxWWo0Y0VFNVoyd2hkbkpyX3NDVlQ5NG9Nci1ldEwxTXh5Wkt6YWtSWmZWdDNVRk5fTDlFX09UOTZKalBzQk1zdUhzSVdZSzE2ZmJUNEJJb3pMZWMyMURuWi1uWE5WLS1tU1ZQWklZNVo0ZGlUOGs?oc=5",
+      "title": "CSX (CSX) Following Rail Outage Recovery Looks Near Fair Value",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUU15bGEybDRiXzlRUmJjUFEzQWIzUTRPcFphSW9RQ0FwQ2N3dGhIRG9EX0RjLWJXOGdEQjFONlkycl95ZFFMbHBrSHFJQVlQZXFlcjZOSTg0WElGRlh3T0Uza2ptdGM0djJVRkp4ZnhSdGxraWowaG9YQXdEVXpKTWRJb3BqMTRYR3BCMEEwM3VZdnpkeWJyWWNHbnc2Y1ZXTl9TUTRR?oc=5",
+      "title": "Schneider to shift eastern rail business to Norfolk Southern from CSX",
+      "snippet": "FreightWaves, 2026-10-30T07:00:00+00:00",
+      "publisher": "FreightWaves",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTmpxOVJnTmxHV2NFMzZvTjlEWHc3MGdxZXFqdnkyMXVyQkVVU2R5TkJxa05sWGhsUmF1SjVaZDlwNXlWQnhuUEY1cXZVd25RTnRZWGlBOXlNRUR3d0RNZ0phemdicXpqZzR1bzF3aE4waXdvZ2FUakllckdLYzdFemhadllYcmlHWU16d3ZFZy1lQlY2MnpzNlRvTEI?oc=5",
+      "title": "Rail Rivalry: Schneider\u2019s Bold Move to Norfolk Southern from CSX",
+      "snippet": "FreightWaves, 2026-10-30T07:00:00+00:00",
+      "publisher": "FreightWaves",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORDFxc1d3a042MnNSMkhOZW9WQ3d4SUlQc3J6dC1yUTgteWdOVk9jdjJxYXJjRk13TTAxdVdXOGVHWnAwLXJTX2pDY214VFFYZHNMdzNsZFJPRDdsT2FMdGlUVzVkOFZESzl0UVh3eFFTUlNicnMtcEVuYktLdDd5dUZFUXhjNzMyQ3diSG0xYnZSOUhOVXl4bWt6Z0hkNUoxWk93?oc=5",
+      "title": "CSX outage halts interchange with other Class I railroads as PTC stays up",
+      "snippet": "Railway Supply, 2026-10-30T07:00:00+00:00",
+      "publisher": "Railway Supply",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 51.62 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

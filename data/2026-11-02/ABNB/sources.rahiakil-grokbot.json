@@ -1,0 +1,109 @@
+{
+  "ticker": "ABNB",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Airbnb\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 47,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 11,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbXJKWTBVRkt6NFNwMmYyQ3hXVGJINi1yXzZQSTBzUkhWV2Fxd3VXdk5TZEVSbnU5Zk9MejlSS05pTkNxMGtjUDlKQVQwaE0tZjNJaGwxXzNMT1BTVzRfT3NmQzMxbzYza3lGeG1EWWk0MkNKTlVDLXFORGFXNGhiMzNmcGxaWkUySm45WDVrakV2a0JJQUMzb2VkWjJOWEliU05wektKTjQzaWI3?oc=5",
+      "title": "Is Airbnb Stock Worth More Than Its Competitors?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10eU1DcmNhdy1jRERnSEVRT0EwV1dqZG1IVk5XWU10WHVXdk5hWGRPckNQRGpWR2NMamtTVk15dmtIOTZtSS1TQ05fWUQ3UHowMnd6YkRGZEJ1LUk?oc=5",
+      "title": "Airbnb's Business Outgrew Its Peak and the Stock Still Hasn't: Shawn O'Malley on the 15.5% Fee, the $1 Billion AI Bet and the One Metric That Would Break the Thesis",
+      "snippet": "BigGo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNzV0T19UTHIzWmZUUk1iY2RlOHR5NFJxOXRIUS0zdHlOaUVpT2QxUzVqNnFTbEc0Q1o1WndyOXdwQW1NY295UmtxX1NXRThBRGpGZG9xVjV2RWpmS2doakpucjF2LTFtMUs4SjZSaTR3VGJmZUFCcUZ1WGViUXBjdzhaX2xBbjZyUV9KQjg0elBWMV9sM2YtNHR3?oc=5",
+      "title": "Airbnb (ABNB) Commits To 1 Million Free Emergency Housing Nights Each Year",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWVYNC1feEI3dFZ0OG5EZFpZLXE2Vl9lVUZCYW9LNEt5aFF3UGhsLVFPMURrRTZ1ZEI5VGF2QXVEQVVJSjBBU1FETzZtRU10S216NER3OEZpLTF0eUVwdnNjWGtWQkNtd0h0UkVSZEkyaDhzU0M3bFpyV3lXTmp5UzVQWktYVGg4cFNobFB3NVk1NzYyX3lfT3lhUDd6eHZoV2NHMXhKR3JnY0FkelJQakpPLVB6c1hFamdB?oc=5",
+      "title": "Airbnb Inc. Cl A stock falls Friday, still outperforms market",
+      "snippet": "MarketWatch, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQemF4ZGlEVHBDSjZiYm1mbGNXOHo3UTRqcnZnd21uQ2hhb2huVFBVQm5VX2JaejJwSkRBdTdJSUg4MHdHLTNHREVfZnVJLU9maDVDWnZjYXExMkQ1a2NCY2Y4SXRhbWNZYTJ6OHkwMWZJZFk4a0pMb0FDX2N2ajNTZEhuYmdLNElSUW1ZSHJFUmhDMVdLX0VKSGMxX3NqM0sxanc?oc=5",
+      "title": "Airbnb (ABNB) Stock: $166.45, Up 0.24% Oct 29",
+      "snippet": "JournalArta, 2026-10-30T07:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZnRsd0lXOEhadzJKNU11QnkxdGxHREI2SE9HMzhmZnBKQlNjT0s0REg1alBhemduNHhLTDFXUUpueXNkcUxGMTdUSXRZdmF4R1hXbFM0b1AxcGFqUERmbGlvQkRYdzVBaXhFbFJRQ0o4STY4WFJoVC1XR2xvd1NUOHNUNnp5NE1DTUExSzdfYU4wOW1kdWJ1OHVqSVVQOWV4eFpUUHdIdmYyVEtqdFVUNXFB?oc=5",
+      "title": "'Frightened': Airbnb\u2019s anti-party measures for Halloween questioned",
+      "snippet": "BradfordToday.ca, 2026-10-30T07:00:00+00:00",
+      "publisher": "BradfordToday.ca",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ABNB/history",
+      "title": "ABNB daily price history (Yahoo Finance)",
+      "snippet": "close 171.11 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

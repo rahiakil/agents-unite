@@ -1,0 +1,85 @@
+{
+  "ticker": "ED",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOGRyQ1l2NVdrNmJaMHhrQk5YQ3A4MTdvSm1JQ040N3FKZjhJSE9kaXlTVVBqT1UzVHFPamFkeEtER0pvRU5mU3ZCcUtMbFdIb0lldkllT0xIMWZRNUlJTldWRHNxdi12VmhvYVRfSi12ZG5zOUVRb0JXQW5xeW04VW9yU3c2VWhoQ0FCMmRBWi1TTElrUXZsTmI5M3FkUWV5bmszeVFXbDRnVHIyV0FPTk9mNjJZZmV0OHNfNnYzS2w3WEhNOUZIVEdOVmdQeWgw0gHWAUFVX3lxTE14azZCLWtaLTAxdUtPaWdzMFl6Z3lvaE1HUEJyMUF2bVIzR241bnFqb3NWTGFvUDZrdHR0aGlEaXlQR3hxY29aYmJVN2RQR2VZZ1d1Zk1fSk45cVctTWtJWUUyWmpPRTFoc240clJEZ0NVWVA5dURMY3RWNC1td2RIT2RuemdmaVhjeVZpMFM5cUd2MTUwSXN3blB4SWxGTkpVYVBGdTZqbmFZRzc1NlFKdmxaYk9JUlpDY0Z4Y3dGcHVnYlFldDJkaG5oYkF6UEpQRG4xeFE?oc=5",
+      "title": "Quarterly Earnings Outlook Could Be A Game Changer For Con Edison Stock (ED)",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVVGbU44Q0U2X3VEeFJNaHM3QUMzTHVfamxxYzFTTzR0VmtJVENLc1lkbVpPY1FEdWozang0Vk82RGk2aUlSNGpKaHRieE85YXc2UjNPNWVHUjczekRjcWN5QlQwRGdveDI1bnA0RHdXOWZNUzR5N0NfR181LWtSRWoxaHluQ3hqdEJmR21vRGxVUEExdWVpODdrOA?oc=5",
+      "title": "Consolidated Edison (ED) Could Be 9% Overvalued As Billing And Inspection Cases Raise Questions",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZW05azMtYS1memdLcWpmU3F6NTdIRW1fdjVzVU01QVVnbm5UWWtSODNfakx1SlB2Z3RTS1FZc3hqYlYyOENwMHpsUU1VYUxoZVlfRG9kV1M3dGhaOXV5Z3JzZkVzQUpkRkpEbEpNYzc5dGRSalEtZVNQVGFpcVczU0xGV040akwtWnRjdkF3b0NjU3pFWVY1REpmdTJNd0lFNXBQUFo0bDFQcmF2ZlZOcU5Ldw?oc=5",
+      "title": "Consolidated Edison stock hits all-time high at 117.31 USD",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlhXR1BPVE51UU9TZTBaLS1EbE9ram5oUzRYNDhCUjE4Sk53bU1mSnBGdFIwTjROaXg0TjdmVHZxMlVVekhZUDVDT0k4YUJkQkxpQXRDUFZxZ0wwUU1NMi1ETmo1RUZTQzFkTFEybkwwd1Z1eS1tb212aUVnOWY1T2REb2JOMzN2X2tieXZ6XzVoU0J3?oc=5",
+      "title": "Con Edison (ED) Stock Looks In Line As Its 77% Run Draws Focus",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 118.48 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ORLY",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"O'Reilly Automotive\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWUw3ZEdheExQa2VkRG1HQVVnUTVTWDVlY2ZsRDloQVJMMVA1NGlVR0J0Qmk4cHgta0pNT3BzRGdfUjFDc0VxbEdwOTd3aWZyc3pYYm5uT0lRVFJDQ3ZtZlQ5T2xMR0JBcEFia0ZzR3VaQVJPVjRnUmFrM2RCbjI1dUpSSWRGZmdPMmtaZlIwUWZVSGZRc2ZPSlA4VURwZG91Q2ljalczMk9nMWhYdUlWN0pTb2poUQ?oc=5",
+      "title": "O'Reilly Automotive Has A Long Growth Runway, But The Price Keeps Me At Hold (NASDAQ:ORLY)",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaUdVZ0xkZzc0ek1Bd0FzRjRyUk1mWHJWUEV6eHdpNjR6VXp1TUQwWEJMYnB6dDJNQ0poOGYtM0lYcE8zeTdMVnhPMjhaM0RqbXRaaV9WWGNqTGxrdzYzeGlPdFBrdFZQRHJtZE8yeEtib3NNa3NwMDVvNWhhUFpwZFFJZldHMHpXYmwzelYxbGxCRGZJZVU4dTE2YVUtLVkxVThTLWt1ZWtrb1VaVGt2cmZGX0hVRmU5VW9WSE5TeEQ1Y3JHa3VudlM4aS1GUmtm0gHWAUFVX3lxTE8zZXJpVWQ2OHdTbmI0UFE1TFkxMW9aVG1PN3lURkstVVgzRTZqTFFENURWTFJjVC1PNTMtZnFkWlE4c3lSdGVmd3d0eHJMT0ZjdG85NnlvUTJ1OTdCell2TkV4dnNYRml4N0dfZDNHZ3pLZFBVWVhRRzdwbUxaTHJRSENjMElCd0pSZDVJTVpSSVdOWExKSERmc0ZEbXdMTkpYMkFFNVFJdnlnRGREQXdiV3R5Z0pLMnJhbDBnNFFFV2hEM19LaHZlZXFpcERhWnFDdHE1R2c?oc=5",
+      "title": "O'Reilly Automotive (ORLY) Stock Price Slips As Q3 Results Meet Valuation Doubts",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ORLY/history",
+      "title": "ORLY daily price history (Yahoo Finance)",
+      "snippet": "close 90.7 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

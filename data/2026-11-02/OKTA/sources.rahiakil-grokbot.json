@@ -1,0 +1,133 @@
+{
+  "ticker": "OKTA",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Okta\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcmRXT2t6T0U0UGRkS3A5LVZyQkE1emYxUDhvcnBKZVFpWU5NSkMtVExTRll4SGdxaGVtd2FhVTFYTzhqUXozWnhPM1c2VktGM05RaktJTHF1Q1Vsc2taejZiZnhwc252XzBneTlMYkxZVmxZbFlRQTl0a3NNV1lPektpZmdyMThMX2ZDOHAzYzE4cjg?oc=5",
+      "title": "Okta (OKTA) Could Be 38% Above Fair Value After Data Leak Headlines",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM1RFT1JrVTNQN1VuV0xUWHUtRWpCMzJUd2diUzFHMDFlVW1pNjltTzIzLXM5OXFJZ0tLVGZxbmdodmpxaGpveEN1bjRpQmJKejhmNVlIOGF5bWF0WERpT1NDV0RGbUd5ZzhUTVJDdkhfR1ViNjBBTVYzWWhpOUoySXJ6bndkc0IzWEI3bkc3bDFKeFA4LWpvOQ?oc=5",
+      "title": "CRWD, PANW, OKTA Stocks Have Doubled This Year - Here\u2019s What\u2019s Driving The Cybersecurity Rally",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPd2pEeXMtXzMxdkRRbmlVXzVMNVdYWXNYbV91ZjJnNDlmS0xKSS1GUnJOb2ZLSWU3YllGRENneDFkX01lV0RGSkhfUnpBcHFzaWtzSnlTZjd3SnFxM2VFQld3enVRTUk0X0VRZ1Bkcjg5RkJucUxJOXJ1WGFxN2VQYQ?oc=5",
+      "title": "Okta to replace Kenvue in S&P 500 (OKTA:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-31T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM0oydnJOU2dLQ2lwWk0tdjVVbWtETjRoM0VsSi1JQUhvS1ZHTUJwQ1oxZ1Joek5LVzdvcU1DUEFVamdacXZaZzR0T3I5LWFHZTRsd1RRQUZWQU9zaHdxd242cFFpcnQ3RWwxNzhkUDlpTF9Cc0Mzd18wMnNLUHZjMjRKSHhzWGs5SlpKOHRobDBSUGowZ2dSZmlMTENXWnZfaHc?oc=5",
+      "title": "Cloudflare, Fastly, Oracle, JFrog, and Okta shares plummet, what you need to know",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPamhUWHYyVE1GR1EwWFZRTTVEMHRFZ1FEZDRTLVBqaE1PRWxmSl81MmZDR3VES3F1NlhtOXBJekctUlVxOENQbGJfcEJMZE95cjBrUFNDNm0wQk91YTVvWU5YMUJfR2Y1NkdDZkZPYWJfemlsenk3alJhU0FsMmFtMW56dkk5VmIxT003QVVfSnBWcHpFQmdVeg?oc=5",
+      "title": "Okta, Inc. (OKTA) Is a Trending Stock: Facts to Know Before Betting on It",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONXFZUm5pb2ZMeV9ldDRodFJWRmN3eVJpMHpUN1FsYTZOTl9WakZUakswT3doRlhET080VnRNajVaeEtaOThIRjFwTmVQeEVIeVgyNmJ4X0JKWHc3OFhoaEI5T2NuQzV5cHEySlNvdERqXzZFYlZIazVtU2ZHT1JzYWdVSU5WOXZ3U244RFhsbEotaEpPNElWTndoU1ZRZGZhUlNZZWpLUG1CZlpLVG5hU0RQSldldnNHYUc4?oc=5",
+      "title": "Okta jumps after-hours following tapped inclusion in the S&P 500",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmVVZVhwWnVyeHVMUmJtYnpqMGxOOUltV0xDTG9rOWM5YzFLZU1XSkUwTEJZbzJaNTRmbHpTZXoyeFJKek9sci1kSGNTUlZtMFE2SnJERFQtaTZnU0dEV21YUEllbDYzWXFIUWJVczExZHVmZW0wRnRvMEs5RHl3SUFjQzFHdm02UkdOWA?oc=5",
+      "title": "Okta Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVmx0OXVvU0FEcFgzU2VIdHh0NUVIZ2tvRXJXci1HbEhYekpkVW1Iem5kbE9lWjE1WHlGOXU3TnpCbmQ0WHVabGRGd09fYkthN3dUZ0lUd1lRRk5rbG1VbXVZR0FkUEdBZC1MQ1dtZ0YzVG8tR1RQNDBaM2hIaVJRb0pLbTcxWDNVamxCdTkwcG5iVVRXaTFQeWJ1WmFkdmpENzBKNm5n?oc=5",
+      "title": "OKTA vs. S: Which Enterprise Cybersecurity Stock Has an Edge Now?",
+      "snippet": "Zacks Investment Research, 2026-10-30T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.428,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OKTA/history",
+      "title": "OKTA daily price history (Yahoo Finance)",
+      "snippet": "close 184.87 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

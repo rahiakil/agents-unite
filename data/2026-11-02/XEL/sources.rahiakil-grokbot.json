@@ -1,0 +1,67 @@
+{
+  "ticker": "XEL",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xcel Energy\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONEYteHNlM1U0NkVCVjE1RmZkbnpHay0wZl84UlVuYy1RTG1vbzVqM3ZnOUhINGxmRkxndXVhTnNIQWR4Q2tBNlpHdUVtUEN4SlQxa2lxX25haE5leXYzd2xtbGFTaTg0dm10bG8tVXZ3LVR4UXh4SGw1amo4V2I0dmdHQ3ZQa3VTU2JmSjhRZUk0Q3p1M0ZSemh4NXdMUktHcWVrWnBNZFJOVXQ4NDR3NmltOXZRc19udmRFQnViajdBbUZTdUF6eXhwZDhFd3M?oc=5",
+      "title": "Xcel Energy - May Offer Up To $6 Billion Of Common Stock - SEC Filing",
+      "snippet": "TradingView, 2026-10-30T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526442653/d132424d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/72903/000119312526441768/d183277d8k.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XEL/history",
+      "title": "XEL daily price history (Yahoo Finance)",
+      "snippet": "close 79.33 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

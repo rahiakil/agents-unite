@@ -1,0 +1,67 @@
+{
+  "ticker": "PEG",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PSEG\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdzRYdEk1SENYNnpLcVFPcjk1d25sckZNUGhJaTgyazJHanVWaUgyeDZzeHl6VWVDT01zSXhUTUNMUVRHdGZZSElPUzFTYzhvZHRGd2VqeGJoZ2x0VjVqM0NyNDEwN2hsS0tpMlAyUEpaSTY3NEU3LS1rNFE0MFhySUJOQ0JhLV9mcWdmS0h0ZENHc1dudmctdTZ6OEFqRVB6UmRtd0JkRUlPYk5hYndDVjhaM3FFZE93My1DWDdfUjY2WGctd3RabzBpbkhRVVBpemhSeU80cVM4VGs3RUNj?oc=5",
+      "title": "PSEG earnings hold outlook as debt and grid investment test valuation",
+      "snippet": "finchannel, 2026-11-02T15:36:38+00:00",
+      "publisher": "finchannel",
+      "published": "2026-11-02T15:36:38+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526442778/d175962d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/788784/000119312526443789/peg-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PEG/history",
+      "title": "PEG daily price history (Yahoo Finance)",
+      "snippet": "close 74.38 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

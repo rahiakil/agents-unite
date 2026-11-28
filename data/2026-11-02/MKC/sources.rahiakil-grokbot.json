@@ -1,0 +1,37 @@
+{
+  "ticker": "MKC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": true,
+  "news_query": "\"McCormick\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 4,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MKC/history",
+      "title": "MKC daily price history (Yahoo Finance)",
+      "snippet": "close 48.82 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

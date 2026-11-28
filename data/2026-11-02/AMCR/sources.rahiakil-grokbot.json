@@ -1,0 +1,49 @@
+{
+  "ticker": "AMCR",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amcor\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaWJ2aGNSRVZQSExYcmlxVldON0pGU3BLS29iYnRreV9GcExnRUhIWmxjUUx1di03bzQ5U3ZvUTNzdkV5aFR5b0pCVGFnbmY4OEtnNm55bFlNQzZBbzVRaFljOWZiRzlXa3N2eW56aTd3SlRqRW1sUm8yNURQUE84SkdzQ2R1b1U0NEVsMFZiQ2FjUkhxTEtOMjNMN01NbUpNRndxaVJtTWV5QQ?oc=5",
+      "title": "How Has Amcor (ASX:AMC) Performed After a Nearly 25% Six-Month Share Rise?",
+      "snippet": "Kalkine, 2026-11-01T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMCR/history",
+      "title": "AMCR daily price history (Yahoo Finance)",
+      "snippet": "close 49.02 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

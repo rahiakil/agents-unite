@@ -1,0 +1,49 @@
+{
+  "ticker": "UHS",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Universal Health Services\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQakIxekxnbDRsdjFOSm1DWk5iMzZxNnBveGpka0V3Q1kxdjBfX0xUeDVRM2xFV3pPUGROdHB1bEp6MXJURWlUMjJhQ3kxcVVianRCYzhtZy0xdjhBZUpKVGRuZDk4Y0NNdXJLbmtHT3A2WG5VeWExWE9zNWI0eUJOR0lpNGZydWl5VW1FY0dCZ3AzX0t2a0locXpKR2drRzR4THFGUTVXVU1xSnFWSFhMU0Y5Z0hTQ29QeFdjRGxBdUgwSWpiWURyWU1BQ094VS1VdGpzTE41WGpoM2vSAeABQVVfeXFMTmxuc2pidUdfeGxFQ3RUS0VtSHV4Z2JlcGRhNTBqRnVKenZlSlB4VHV0WkxsYWZpTUF1WmFkaGZvMkY0WnJ1RmVBNXdZa1V0dXN0NlhwMG9HZzhDb0lZY2JVQ1I1Yi1ySERnYk03blNrZ0xEakxQa0RtYVo0YUQyNkpPSEppaHNjSDc1ejdCbTR4ZmRVRUx5TVRLSHQzbnR4eVRkY3dLNHQ4c1BNLTR6UjR2YmhuX00wV2VmOHZBeXZ2ODZwek9jekZITEdCbEFyV2lsQ1I0em1aRDFxWHQyNm0?oc=5",
+      "title": "The Universal Health Services, Inc. (NYSE:UHS) Third-Quarter Results Are Out And Analysts Have Published New Forecasts",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UHS/history",
+      "title": "UHS daily price history (Yahoo Finance)",
+      "snippet": "close 180.65 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

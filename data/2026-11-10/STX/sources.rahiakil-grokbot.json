@@ -1,0 +1,61 @@
+{
+  "ticker": "STX",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Seagate Technology\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 45,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 10,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjZMUjE4R1lWREpWQm8yZkVXUEN3THRXTG81bGZqb1NkTGVMenhKQTR2djRUQUZFQ1lvY0pURXdnTGphZ2VZcmExNmVQTHJyd1ZlS0pyTVNBSlpnb1RkX2lpMlJVblRzZ2pxWXVBT0tWNjRxaTU5Q3FIczJILUsxeHlLcHNwMXJnbU5sOUdBbnUySGZQUjd0aWVodHZ4TGF5VEFSckg4MUswUlBTOFRmYTNXQQ?oc=5",
+      "title": "We Think That There Are Issues Underlying Seagate Technology Holdings' (NASDAQ:STX) Earnings",
+      "snippet": "Moomoo, 2026-11-10T19:22:39+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-10T19:22:39+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcE9XQTNUNTk1UXItZGNjY2gxZXQ2Q2V5U3NTLWJabjFITDF2NllCZzdOcmFNdHFhSDF0ajZuNmd5am45blM4ekpkYURweHdzQzB6NzM2bWtoaEpjR3dpM3BSbGxieU9Bei16N2ZLNHJRUElZVnlBSXdXTUt4TGNPNmY2UkxJOUVmV3hCQVNxSlk4bGlTVDRV?oc=5",
+      "title": "Seagate Technology advances 10% amid broad-market rally (STX:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-09T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STX/history",
+      "title": "STX daily price history (Yahoo Finance)",
+      "snippet": "close 501.62 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

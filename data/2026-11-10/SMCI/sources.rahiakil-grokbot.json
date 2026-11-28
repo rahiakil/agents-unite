@@ -1,0 +1,49 @@
+{
+  "ticker": "SMCI",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Supermicro\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVTVnRUthMV9Ha3F1QjZZQU9BeXpvR1hOcnZfMzdBM3JwbEpGTkRPbUN0MHR4eXhRUHM3TmJKQzV4YUUyQXBVTS1sM0NuNUFNc0dDdV93ZlEzaXFlcW1XZlpEWHp0alRJMlk0bE4yVjJkZTFxbUY3ZGJ1T1l6cnBCS2FpOThIOWVVQzk0SV9mbnFxRmpmNDhTdWliVXJPUDJpWTFIeUNTb1h6QQ?oc=5",
+      "title": "Supermicro Stock Rises 10% on Doubled Margins and Record AI Order Backlog",
+      "snippet": "KuCoin, 2026-11-08T08:00:00+00:00",
+      "publisher": "KuCoin",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SMCI/history",
+      "title": "SMCI daily price history (Yahoo Finance)",
+      "snippet": "close 27.79 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

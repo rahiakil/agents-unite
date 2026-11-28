@@ -1,0 +1,49 @@
+{
+  "ticker": "MAA",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mid-America Apartment Communities\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRFZwMXRDdGxlSnZzWENNenpRNGc1emVYM0lFVGZldVpsOFpFRy05Y1FBVkJuMGVhSnBIald5Ty1fQnl3UDdvazJIMEpETWJhMW15VGRaVERleWJRSVllRDZ1TnpCMnkyU1FwaXM0cTRfeE5hX2dhdVdKT0VjemNYcC1IU0prU0hSQS1DS3dJOGtGR0hTb0NldDEwbG1GMnZZaFVhdFRTeWFlcExIaW15VlVfRGcteVlnYVpQb1dCQVFDS1d2TXpkazNPZzk2QnZXdEhPbzhzNkZ6cHhSQUdJdm9Wd0xPZ9IB6wFBVV95cUxQOXJSdjVjTlMzbUgwc0txRlJ0dVpGTkhnZzFob2hYNlVnSVNqR19pT0ZBVVI1WG9xM1VsemJLQWZ5eE04YlJyODVUaENxeHhQYTktUGkwYm1NQXRMeVBhUnV4bG9NV0hXcEtUVTJkR2lzSnlTRHFWZjZUTGNwei1uMUJhcWZXSmlWLU9naW1faE9nRExHNkUwaUVrMFBtMU9WOGpQSGZHWnlBdmVJbkpXcU9WeTBwQ1VzUUJSYW5UREUtMGNFLW9NdkpnYWllMFhVY3g1VFdpX0hJSWtvd0dGallHLURKMm9HQlpJ?oc=5",
+      "title": "Is Mid-America Apartment Communities (MAA) A Bargain As Lower Guidance Hits Earnings?",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAA/history",
+      "title": "MAA daily price history (Yahoo Finance)",
+      "snippet": "close 118.86 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

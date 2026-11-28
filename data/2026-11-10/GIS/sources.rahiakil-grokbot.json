@@ -1,0 +1,85 @@
+{
+  "ticker": "GIS",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fdGsxaWJnLWpkVlNFYWZoVWlpWEFMN0QzYnpUUHdiQURjQTQwdlQzaW9MLUZuWFIxM2VxdkRKVnRRaTJwOURBQ1VDWUVmNFBScnpkYWJiclJUcEoxbVdDcnhBeld4STVuajNtT01fUFBfbDNCalE?oc=5",
+      "title": "General Mills' 127-Year Dividend Streak Delivers About $334 a Year on a $5,000 Stake",
+      "snippet": "BigGo Finance, 2026-11-09T16:55:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-09T16:55:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd0ltU2pzN0JUR0ZITmZiekFTUW02bFo2MlRUUHBLS21xMXVmcHlKWktaUkpEaGdHUnVlQm9RZXVVSmIxYVp4bV9qZllEVVhuSTYzbUF4bV9DVEJUWUozaXV5M1lTMVllaXdoVEtwZ0I4aGgwaVphVWRWN05YZDJhZzY0N0JRNHlEc2U1YXBfaXAwN3ZGTmNmUUxNNVpkc25rQndVdDI4Vm9TLTlpWXhjMmNQTXNmbkVBdHUwUUpkRmpXVms1ZER1eGhVMmFZdw?oc=5",
+      "title": "General Mills Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUjd6MW5mZk1jZDh2el9pQXdobkVEVnpRcHdfMmxrajlZaENXWHQwSnVQNWRiYnExb1o3ZTRlZnRVdnRXQTJwNjJ1UUM1X3loQlI5TnBvLTEwUjVMYjc5ZU1Ma2hieWtrS2pNc3R6alQ0dTBnNkwzeXB4NENDdnd6OWUzNHUtRlNLQURzRmI1QVZkU1lvSi12Rw?oc=5",
+      "title": "General Mills Has Paid Uninterrupted Dividends for 127 Years. Here's the Yearly Payout on $5,000.",
+      "snippet": "The Motley Fool, 2026-11-09T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ2k0b2pZQVFsZ3NhcUF1UGkxTENLaEF5VXZmRHRVMFBZZXBTb0Fucjd3dXNRSFVEb0VRRTB5Yl9jYm1sTE9kZzJGbVpaZHFKVDR5SGZORTNtekdXVnRlaTlobUZSV2ZVM2NtbjkydzV0Z1dHS0Y2aVRCWWxjUVZoVG9PUDczWWJOU3dWR0hRLWNwS3RaZk5yMWFCQm14MVRsUmxXYUM0Z2F0NW5TRXBWN0NCa0s0R3QwYlU2ZURYd1JaRTljSll0eHJIMlU2REpmd293Zld3bVZSd9IB3wFBVV95cUxNQTRHV29HdjMxNVlMZU85Q2dtQlV2M1BjdWE5WFA2RkZOQkFVZ0Jxd1otcHNWR0pVWENJcS10YkEyVHM2WVEzV2x1QzQwbUktNDU5Mko4VXNIZ0FBWTRTOExsdm9OOVY4c0QtYjZyYmh3anZDWGozMDR3VjltZTVQMzFudzRnSm9CNTZKdHduV0NfcVR6Qno3U295RUZYRzVFWnRtN01zb0hFbXd5cUJPeFlzMUdObllBYlFPNXllXzhMRVlZYk5mZ01MdTVzLWJHYUQ0Nm1STGh0eVZrNm1j?oc=5",
+      "title": "Cereal And Coffee Tie Up Might Change The Case For Investing In General Mills (GIS)",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 34.6 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

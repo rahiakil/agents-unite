@@ -1,0 +1,94 @@
+{
+  "ticker": "EMR",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emerson Electric\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSXBQN3MtOEZCVDFOT2lDbE02ampoS01ENGNTR1BxcmkxY0tVb2NDUnBIb2ZEX3hUQ0ctRm15czJYRWIxcE5xdnh0Uk85a2tVbU5hcnQ4akswNG9LNVNQOEgzdHJtZlMxQ0g0cXhRdEFMUHFMX3Fkc2FzcUdaLTRqUmdYLUs2RzU5eElYeE9ocVhpSTMzY2FTRjdiUy0zWFVubU5iYkR1Zm5pLWJ0MjhWcnNYOEZ0MlJFTmc?oc=5",
+      "title": "Emerson Electric Co (EMR) Stock Up 4.4% but GF Value Says Overva",
+      "snippet": "GuruFocus, 2026-11-09T23:36:10+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T23:36:10+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR1p6bDRtZTVZRE51ZXdFTFFoeTZfVDl2Q0VrdzJGdWdGQThuUFIzUlh0dnBDLXQ4TldDeGZWODUtbU80eF85M1pXdFFPLXFwTkRNeW9QQkFBYm5sNFlQdnluOERtdktOMXFMS01PQVNUOE5WT0JWS3JfXzVvSXBBcTNWU1Uycmxjb28xbDJDdlVlT0hPdTFaUEF2NWF5U1E?oc=5",
+      "title": "Debt, stock and warrants are among Emerson Electric (EMR)'s uncapped offering options.",
+      "snippet": "Stock Titan, 2026-11-09T22:12:27+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-09T22:12:27+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnU0ZV9UdmVPekdYTk9SMFYzNjZsNk1sbHM3YV9IcHNiTHZobTB2czV6VEU5WkNTVDRka3ZFTGJMeEFuT3AtVzNwUFJlU2xwczN5MmFQbDNhWVdKOXNMSU1ZV0RWQ0YtTXF2QWQ1R055Q181XzBOcHljVGZseHpGOHYzRmQzbHpQZnRYV0FkNUgzcGh3OTYwNlNJdm1Cdw?oc=5",
+      "title": "Emerson Electric Co. (EMR) Is a Trending Stock: Facts to Know Before Betting on It",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORTZtUkI3Z1lTOF9ZQW1kandjeG1vRC0zQ3pZakMwNE9mbUxwX0U1cjVSMk9yWVk4MnZ3NDRLRzFuV3RNc184RkM4OUh2Um9fUU9aQTA4OFo4QU81ZkNJLWsyeHlUZ2t4Zm5jWEstNGVLY1ZCOXhKSkJ0bktNa2Z1TkUxZ0xCRHYwUzRHajlVUnhmLTBWbXJndDJUMGh3RkpENEF6a0YzNjVPcER1TFRxdlRlUTR6ckQzVVlwcnBOYlVQNWRqY1BtNmJYRi1oeTRGU2hn0gHYAUFVX3lxTE1LbmlSWTZjZUVfSDJSVGMzTDZkaGJZaWNQLWxoZFdMVTdwazdLVkVaV3lxcmhDR1lvY0dYdWQtcFpuZV80QWotNXJvVHlYemlselJmRjB1cEZiR0JfSjhjMzZNaEdoSXNXa0FWbFZOVkZmYk90SmNvWVpfclMtdzllV2dfS0s4aEowVEFyeDJuN25IeV8xbVhrNzFZNXduaUV1cW00LWE1bkIzWUtpUlNqSXFzb0V3M2ZkNU1ZbnNkSW5NdlJGc093TWJOaUlvZmRfMmNlYkJfUg?oc=5",
+      "title": "Emerson Electric (EMR) Has Investors Watching, What Is Behind The Latest Attention?",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000054/emr-20260930.htm",
+      "title": "SEC 10-K filed 2026-11-09",
+      "snippet": "10-K",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EMR/history",
+      "title": "EMR daily price history (Yahoo Finance)",
+      "snippet": "close 167.54 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

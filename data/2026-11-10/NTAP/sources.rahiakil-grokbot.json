@@ -1,0 +1,49 @@
+{
+  "ticker": "NTAP",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NetApp\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS3lEai1sbzlTeVlGSE1DVlpEdjZIWS11WVdxb014TFp0SnZjQTkzZXZwdnIySzdNVkdZd3U1ejFDN0pLeWN2M0FQZEpUTG5xWHdhLWpTLTVOZnB2eDIxa3NUaXVUdjlxQzhUTjJMenFHY2wwYzd5em5XWld2TlNjYWRnMGJQbVF4YV9VbVZER2RlZ1RPMFhJUWpsSnNMZnhuUTQ5MjJqQm1xVDhE?oc=5",
+      "title": "Is NetApp Inc (NTAP) Overvalued After 4.1% Rally? GF Value Says",
+      "snippet": "GuruFocus, 2026-11-10T01:32:45+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T01:32:45+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTAP/history",
+      "title": "NTAP daily price history (Yahoo Finance)",
+      "snippet": "close 175.99 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

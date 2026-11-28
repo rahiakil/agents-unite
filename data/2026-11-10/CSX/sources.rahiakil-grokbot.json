@@ -1,0 +1,109 @@
+{
+  "ticker": "CSX",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNMzBMT3phb3dJVEZ0N2FwZFZiRXNxMXV6ZnhVUHhjUVFpUWN4Q0NmVDdLQzM2T25nd2RiOVp4VUIwNl9Fc05rdVdtdXpQT3hnbUlMWHEzMnNjSUh1aHA1TjhQT24tRExFMlpRdnZyUDBXcDFPR1NQNWFpNE8wRE16bFlITXV2MTRrbUF1c0VETjZjRHdnWFUwdENoei0xMnR2eC02NjlsbndjekZBU0RnWDBsMnVYaW1aWFQxbU0xcUxobGlVZ0xUYXpReWFJUENscEc2Z0NCdUU0bWtFNk4yOUJUMmxPaTlqM1JwZUR4Q0dYbnA3dUhhNlBFZW9tSGRhSnVFZw?oc=5",
+      "title": "CSX Santa Train to feature patriotic locomotives celebrating America\u2019s 250th anniversary",
+      "snippet": "Appalachian News-Express, 2026-11-10T17:18:00+00:00",
+      "publisher": "Appalachian News-Express",
+      "published": "2026-11-10T17:18:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZW9DZ2dSN3RRSzhfYmdRZ1BpVm96SHAtRWRnRXFFZk1wUDVIazRIcWVjcDlSUmZoS1NHMlUtZHFDSi1CTGdJcDVJYkRJRTQyVXpNcTRjNGdTTkhpcVp5c1RDeUlBYXZoZU8tVGJJVEdULTBrOThkR2M0cmp0X3hBS1pPeWhPZnR1cmI1bDQtUW50bW1xSk5XNjlEdUVNbGRQLTlFc2tHOXRZLXZjWUVKZGpUd2VHMWhKcDNySXBsLVczTGhJU29fZy1TOWNPMXZIOWc?oc=5",
+      "title": "CSX Corporation (NASDAQ: CSX) Stock Analysis: A P/E of 25.48 and Ratings That Lean to the Downside",
+      "snippet": "Kalkine India, 2026-11-09T11:10:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-09T11:10:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3lGU0I2LUNsTVE5dHRMRkVQa05yaGdTU2dlRHVKQXVZSkhoSXpvaWxWRnZ5eVN0ZFI5OTFjdzB2ZVN2c21fdzdVUnlvNlphZTFaLWk3ajlKYklPUEF4UDI2bUVnMlRobk5LVUk4LV9Pcm5PclFLNUItUFpIVDR3eFZzeDVtTEhNZTFhOUprVUN2a19FbzlvaE4zajBZWEVEYWhwZg?oc=5",
+      "title": "Possible Bearish Signals With CSX Insiders Disposing Stock",
+      "snippet": "Moomoo, 2026-11-09T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaEQwelNrMGJsSk0weXhsZFRPaHhUYWM0WGJfR1BYaWJPVG1mdWZOTTAwdVJZeDZiMXhPVVNyR05hSXpHU194RnJVd1RPeElHWFRrdnZEUVNrYVYyZHhISDdiWWstU250Q3RjVF8wa0gyZGZpSWVKbzBOOFdybU1SQ0hhTVNrdFpLOFlPYVVKLVY5UUJjSHRuemNlNkxHVW1INkZYQlZKaUFhcURnb01kTklpb3dxTXV6YjhUejN2Q1Badw?oc=5",
+      "title": "Responsive Playbooks and the CSX Inflection",
+      "snippet": "Stock Traders Daily, 2026-11-09T01:06:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-09T01:06:01+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMTE4RHVzTERCR1RRa0laaHNCckhmb0FITkdqMk9zU3VxdER1eHhMSkFMUEJFQlAyZHlndGpmdnZtYzdqTHZDOWVFR05KNURBWFVtZzhxLVd3djl6bVdtOTJ3TEtoVnlVNk4tbm1pdXNLaXZyQlBNVEwyTUowTkNHTjJPbkV4dHVWelA3T0RPT3VHS0VVRHBv?oc=5",
+      "title": "CSX Stock And Rail Peers Facing A New Intermodal Volume Test",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUUlnYnF5Y1FiR2lyUTBGT3B2SDN2b0lyYmhRNTMtYXpPemNwLTBUSDdUSkczTV83akNudHlOdTQwZm5NY3g1VlZkb3Y3VGJPTTFHUTk5STNZUkYyQXBoYUhIUS1FNFFVWHRQMEVKODRlWFJqbzFyenZrV2NNNFpkelhndnQ5cHlwRXNDcnJobndiWTdaOEZUdEdVS0NIV0JDMkQwMXFXZ1FLN0owTl9ZY19GVQ?oc=5",
+      "title": "Union Pacific vs. CSX: Which Railroad Dividend Is Better for Retirement?",
+      "snippet": "24/7 Wall St., 2026-11-07T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 51.08 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

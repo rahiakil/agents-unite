@@ -1,0 +1,61 @@
+{
+  "ticker": "CAH",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cardinal Health\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV0FpazM2dlNRd2htdGlyUVZCTVRMaVlpSUJJRG5waElCRnY3ZVl0anV2UHNXanZGaDhXTW5HdGRVbHNWMWxsa3VXSGR1dnFqa0lDRzRfYjU3ZlZOcUdPMFJtbmJIc2wxdmV5WnFFZTAwTnJtbEwzT1VuWTlkYUVPRXVKX0tpZ3lnWkJ2N2dSZ3pqbi1GR3VUbnJSUHd6LWQ2c3c?oc=5",
+      "title": "Should Value Investors Buy Cardinal Health (CAH) Stock?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT3pES1hRXzJtVDJhMFlQUmFWanYybUVuX250YktWdDBEcGIySERxYXJ3ZWxCNWhwV3lsYUI5SmEwWFBtOU9RVDFlWlItaW5JeE9ITWpPZGhrc3VNVGtqVFZmRVh2d243LS1LUGxRVnNNM1JlOXhBbTNkYUZMUVQzOE9namxGZEpVLU1WdW9SM0pGRWdyMnVrS1R3SDg3aHEtMnMtQUZ3?oc=5",
+      "title": "Are Medical Stocks Lagging Cardinal Health (CAH) This Year?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAH/history",
+      "title": "CAH daily price history (Yahoo Finance)",
+      "snippet": "close 276.79 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

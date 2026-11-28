@@ -1,0 +1,61 @@
+{
+  "ticker": "RSG",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDlfdzVMMHNkbngtZllXTUJrQ3JSeFo4VEg3UlplRVVvWG5xcFdIdUMzLXprSlItT0k3UW91U1l1OFBOeDVHZXVWSUhSOVVibWI3bzNqeHR4S1dNQTUyVTZoQlpPc194WjJtcmhTY1Ywa2NpSWI2UmtGNDRVazhIWHBsaDNBMTZETUtUSnhtVlBTRDBaWG9aanRMM2JpODJ3YS16QVBpT0VpWjlmYjZ1ZFhJRkNLeW5RWlAyMXZUV0pzWWExVlhGaGFqeEl0X1hDTkVrT1FaSQ?oc=5",
+      "title": "14,436 Shares in Republic Services, Inc. $RSG Acquired by M Holdings Securities Inc.",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTHJuQ2JMVjU2ekN3a3NqTnEwOUNnaTJjZWNmSG1HM0FCd3JrbDU1MzctT2J2REdIbTdXcDQtZFF0R19ia1hFeVE3ek5QbGdNT0lxNTV3RWhySmVNOVk5RWYwOEdCaVpUelRWZVB6SXFBUVF6Zi1HalpJUF9Hc2tIdlpVcEpuenJGM3RrU3RURUVXeE9hRThKQ2R2a1I1UktIQkhtVVFfbThURTRSTnNCeUxYa2c2ZlN6U1ZfOFF3M3dwTG52dW9Vb2tadnFEOENxbEJuZjhmbFA3ek3SAeABQVVfeXFMTjRZQWx4NVc5MkxvZjJUMkVwNG5EMV9KRWtZakJiX0RpUGtwaVJfXzhXTGJCN0NYeW1LbmpfWFl0VU90ZUtkRTh1Qkx0dnJDU2d4VnQ5RzMzOWpTVTVlUS0tZEV3M3NtTWc2cGdxeVNLQTMxSFJSS1d0YnF1TDRGTmZIVlBjLTZTbjhaeWR0NmFhZTJ6ZEhZZDRld0FUU0FmN3ppMHBzbFo3WGRQdlRxb196RG9MdmZMVFdhN0txMnBYVXkxYjVuWS1MNVB1ZzBoTWtWS2pPZ1h5M2tGWnp5MmY?oc=5",
+      "title": "How Investors Are Reacting To Republic Services (RSG) Buyback Expansion",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 247.62 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

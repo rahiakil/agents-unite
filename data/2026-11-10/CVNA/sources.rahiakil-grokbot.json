@@ -1,0 +1,61 @@
+{
+  "ticker": "CVNA",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carvana\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOG5peVhSUERHWHplNGxnam0waktEc2hTcWlUV1RwOFhBQmdQLW9NRGh0SW5MeVlfSHRoM09SRHZidElLOVRaOEJNRzBuemR6Q0FNclZuRHVKX1p1VVJNeEVma1p0OTE0bTdmTDUzbXFBck03Wl95bFctaEZ3QjFGeVc5VktKZldrcEE?oc=5",
+      "title": "Carvana Co. (CVNA) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMVFhWUEyNkVqeE0yLUt3emxsQkE0LVV6SGJZQkgwMm1aY3BkcTI3YjdZSUlTR3FnZHJ6aTZMZ3JrQkJFamNYbkxVbi1HZzRvWEhHYzNMa3BFOThmOWU3SUZaNUQ4bHpPRTNNWlc2aDk1czI5ZnZVQURvNjdHUjMxbDJ0MGRqQ3FTbV9QbEQwRnZiQm9UeGVRR0RNT1VqRW5JT19zTU8tQQ?oc=5",
+      "title": "Carvana Sold a Record 217,385 Cars. Its Director Just Sold $2.25 Million of Stock",
+      "snippet": "TIKR.com, 2026-11-07T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CVNA/history",
+      "title": "CVNA daily price history (Yahoo Finance)",
+      "snippet": "close 73.02 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

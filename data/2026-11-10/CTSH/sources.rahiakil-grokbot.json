@@ -1,0 +1,61 @@
+{
+  "ticker": "CTSH",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cognizant\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVXNzbWx2aDNJTzVUY3JCZmU3N0RWTWpKZnhzZ0FrOXY4NTR0SUNrN0huczJ0VEpfazRmZldlM2k4MGxmYVZYWEp2eXp0U3RFTnZFZW9OOVV5V0stZ0o1ZWlXYTB0OVJLNmNuTDZNdl9qQWZWaFl6ZFdtX3dIVldiQVJLOGRzZjVWTlNqS3htbEl6QU9TZ0E4UTJSYW9OS3Zia3NQaHVyTm9PWlBnZ0Z5cGtEVC0?oc=5",
+      "title": "Cognizant leads declines, Infosys grows health care share this year",
+      "snippet": "NewsBytes, 2026-11-09T13:14:25+00:00",
+      "publisher": "NewsBytes",
+      "published": "2026-11-09T13:14:25+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRERvLVdTbi1JbnEzeHphOUhfZUNfZ09zeUFMTjE1dEZQdXY3SzV0OTBBcVJNX3dyTlpoWm1jNkZ5aVJfdlU4anZLS2hhd1lwQzFXQ3pwUDFKUnU1bS1RRzhuMWhjQUdIcjZyMVpwbFFhUi1LODI0d0tua3A0d3BKUEI5MmgwN3k2RksxcWVZUlZhQTk3aXktNlczc1pTTDNabjdxU3NiVy1XWjlyS0U5anJnOHR6blAwQVJtNmFoMlkxbUpiX0VRMXFhanJzcGlaMUtsMTVQMUdIcTY1UC1yYnc5UzdXdw?oc=5",
+      "title": "Cognizant Technology Solutions Corp. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTSH/history",
+      "title": "CTSH daily price history (Yahoo Finance)",
+      "snippet": "close 65.0 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

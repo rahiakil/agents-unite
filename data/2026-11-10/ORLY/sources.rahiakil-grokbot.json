@@ -1,0 +1,61 @@
+{
+  "ticker": "ORLY",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"O'Reilly Automotive\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbVlSb0F4YzNtM0YzdHpIVUdtTVhuZ3llRDhvUS13UVJwN0wxN0Uzd2Zmcl94SElyT1BTbVFycG9oRXRzd0ZkN1NNQVFveWZmeXZHamsyam9waGxPZmhOME9oOW1rMUFROWpDTENrVDFTaTB6RGVLYU5VYlRkYlV6VnZ3MmdOMlRyWmwzSEtmVlhXbGtPTUhpVmNUREkwV1FXODdJdFc2NkFXLTRfVzBOR2IwNDNvR09HWFRSVnlUX3BCVk9WMHcyRV9EMlpHcnN4?oc=5",
+      "title": "O'Reilly Automotive, Inc. (ORLY) - What Are Brokerages Saying About This Stock?",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjQyVEQ2YnFyc1hQOHNHUXVvSTZ0ZnY4TnBSSkU0TWJKRERvbVIwOXZXcmhtcjFzWTdHS3FOMHowcE9hdnp5dU12QldOT0lJNFpkX19PWXJsUlVlYkJpYWtPMW52NzhOdlFkbjVVQWxrYUhSSGpGd0lxem42cFF5N29hOFY1VlBJQVptWmg3Slhtd3BZZU15aFFZR0xnNW5tV3dVZVQ0clB5bmpNYXdBMTdzTVc4THFxblpUUF9DYXpNQkZSX19JaFlB?oc=5",
+      "title": "Firing on all cylinders: O'Reilly (NASDAQ:ORLY) Q3 earnings lead the way",
+      "snippet": "TradingView, 2026-11-08T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ORLY/history",
+      "title": "ORLY daily price history (Yahoo Finance)",
+      "snippet": "close 89.39 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

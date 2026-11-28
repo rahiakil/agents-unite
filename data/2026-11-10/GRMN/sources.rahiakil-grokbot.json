@@ -1,0 +1,49 @@
+{
+  "ticker": "GRMN",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Garmin\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORm5QX3pTWHlHZVZ1UXVFcnN1cUJkM19rUUZhRW1YTWRQQUhTRWJRbEdhZXBhZjJiZE1yMGJVLWlubDRud2hjWC0yTHEydG01cW9hcWw3anZTcFJCeFlvLTFTOE8za2lmaEpYcUZLWXJmZTdiLWpCMlVmVlVxV2FZTnZLbFNKY2hLenBWcHVSV0FMWV84ay1aVHdJNmJSVjFrcWJNaG5XY3dLYmdmTC1qcEpIQU9TVHlDZ2lyRUdHb3dvMXFQN05KOC1nZWh1SG8?oc=5",
+      "title": "Garmin Ltd. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GRMN/history",
+      "title": "GRMN daily price history (Yahoo Finance)",
+      "snippet": "close 288.66 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

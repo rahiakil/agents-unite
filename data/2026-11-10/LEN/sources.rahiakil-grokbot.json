@@ -1,0 +1,49 @@
+{
+  "ticker": "LEN",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lennar\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX0V4OWVBajhncTdGTG1nLVZjdVlvSlJPeVVlUjVmZkN4bkV5dkRGZWZQaDZGOFQ5aU5ENGxzVl85U2NwLUJESmVQcVljMXFQM1c2U3ZMUnBQTHVMZGR1Xzc1dnNRdnVqcm5McTh0dWI5VXBjazRJLWRSUlYxTGhwWnZ0SmtSUnZ5TTUwTTU3bFIyVmN1N0lDRWlma0RrYU52TTZ5enpvQ1hfazUtZU1QMWhnWlRBVV9B?oc=5",
+      "title": "Is It Too Late to Buy Lennar Corp (LEN) After 3.2% Rally? GF Val",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LEN/history",
+      "title": "LEN daily price history (Yahoo Finance)",
+      "snippet": "close 86.66 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

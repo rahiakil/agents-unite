@@ -1,0 +1,61 @@
+{
+  "ticker": "PWR",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quanta Services\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3JSWWVOMEd3a3dmdGxqdFJpaXV5amVsQlhHVWxWUU9oc3BGaFJnS1FLTlJEMS1VNm5DR2xaTXZQSFAzX1BZUHVETTZoZlhza1hVbGhQNnc4TldfUWM1bjV4Mjl5VHdydnRaVVN5Rk1GWUhhMThzcmQ1RUJBRFVzTmJtTmo2djlvc21nYWtYSDVUZHYtUmlZRldqQVUtdEs5QW9Vb3dXS0NwZw?oc=5",
+      "title": "Zacks Investment Ideas feature highlights: Bloom Energy, Skyworks Solutions and Quanta Services",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYm1xdzlVQzQtaGhIY0RnZ0ctSmV2UVlJd1ZUdHZPWi1fSGdGQXhlb2xQR3czZnBMT3pVYjlQek5yc0ZaenVJeS1xcExjNzhoYjRIUjdSYlkxVjdPeHcxd2YtQWJNMmNiRHZVdHFTbEJCbXozUWZwUmEwNGs3NmEtT3NMSDM5NmNadmMtWmVYbkFtWGpzOGI3bkRRMkxTMXg3ZnZGamI1Y1dITGRnT3RzRUxsd1FoSElUbkcxcjV4WWU2V1hHZ1QwYUtPRQ?oc=5",
+      "title": "Quanta Services Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PWR/history",
+      "title": "PWR daily price history (Yahoo Finance)",
+      "snippet": "close 583.14 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

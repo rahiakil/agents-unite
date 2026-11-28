@@ -1,0 +1,121 @@
+{
+  "ticker": "EBAY",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"eBay\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 43,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 5,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGVjRXd6Rnl1dlVEZVY0aWZGWG9mWUlaQzNiU2w1bl9kdTREUFIxSS1zU3d3TXVZR3pBdUNHS2hQWnBzYnVRUzRqSVhZeUd6WlpZMDF0YWpOWWNsUDlQVVItWTJVakZLQS1UbEs4a1hkZDVrRUxLa0U1T290TlV4NXVYcGxQTkd3SE9wTEE1ZlBwV2I4VF9fSUZLVEFiUWhONDRLQUNXaER2QWJkTndvOFNUb3VuVTV0U2kySGxKNG1Benc?oc=5",
+      "title": "eBay appears to block third-party AI shopping agents as Uber, DoorDash and Airbnb report little agent use",
+      "snippet": "MLQ.ai, 2026-11-10T16:54:22+00:00",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-10T16:54:22+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xWnZhZFFuUmFKVnZqdFVtdkN1MjdmN3hMSUpiWExaV3Eyck12dkkwamlBeEpYbDdJMmZURUUxeFFTY3N0WjdhZ0lZTWl3STBsY2NZ?oc=5",
+      "title": "Sooner Sports 247 - Juaquin Iglesias Signed Oklahoma Sooners 8x10 Photo Inscribed Boomer Sooner PSA eBay",
+      "snippet": "Pallacanestro Aurora Desio, 2026-11-10T05:25:10+00:00",
+      "publisher": "Pallacanestro Aurora Desio",
+      "published": "2026-11-10T05:25:10+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZGlfTkd3aGR4THBDVHE2N3I4RkZwaTBmNGVUakE2MTdPd3lVa183ZHlGZVZ3MGpPQ2Qyei1ZTVRQeTB6YUVVd0FiRlJHZG5BdEFHLUp3SENPTGJzeXY5RzJSWk9iZURGYVl2T3N6ekVyVFh2b1lNaTNiZHUzLVluT0hsX3paNGhESUVYb2VONC1iMS1VemQ2WWxrcFBWSFRjd2pwb2xROTVyZXFFdVFkOHJtS2JmWVYwVkZRWUxn?oc=5",
+      "title": "eBay CEO Jamie Iannone sells $2.7 million in company stock",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc1pIR2tXdWdtTFlsclZFanZ6eC1ydFhxd2ZhSkptZlg1TTJFbDBxRm9Tb2tGRlJ5WHphTnhqNnBLTkFuQWRyUmF5MHlNS1k3MG5UdWRNblN5SHJqN3MycS1uUU1PNk5kUENUaWpPSlowRWV6ektNUk43azdOSHVhUDNwTEI5dHROU1lGNWdzVUpTYzg?oc=5",
+      "title": "NeeDoh Lava Lamps Resell for Over $250 on eBay",
+      "snippet": "Resell Calendar, 2026-11-09T08:00:00+00:00",
+      "publisher": "Resell Calendar",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWUpGV0xxYUlBSjgtYjRfTmJha0M2SmRydDJ0RHQzaE9SbXh4U0h6b3V6a3NpSWFQNHRuX0hDWmpkakhOWm5DUVFKdVFFcUw0YThBY3lfUEF5R1hoWHhuUU14VVdlSS1CRm1OTXdKUXNMbHlabnBPN3FRMk5CVkhGN3g5Z2w2ZlI0cVBZWVhFMnpkUWJEeHpXZ0ZJcmJuR1VIZUJobGVoQ3Mxa1ZXQlNqeWdBemhlZnV5?oc=5",
+      "title": "Form 4 eBay Inc: Perry M. Traquina (Director) For: 1 November",
+      "snippet": "Investing.com Australia, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSUFaVktRZDc1NDBoeUZnT3h2VWZSNUFMQVY4M1VqMUxLVTNoQkJBVzNfVnp3aFFodEQ5V1JJY2d3MHh5T0VsdHZ3a19uWGF6NTdHNGRkbHVtaWZqc01wdGUzMHM5TUlteXg0cEdGQ3FEVl8tRGxrLVJpb1lIZWV6eTNqTWM0ZG54VHNsVzJtRWt1LXpnRWR2Z3IyQUM1VHRPV1FuNDU2U1FpQlZkZkp5cXVYVdIBuAFBVV95cUxOaUl2dDIycWd1N1RJb2FMczl6N1d4M283V1Q2TnNUbEFmbU9taDhfT1JZejRPVzR5R3hyT0sxaHZzQkJHTHNCWTg4V1JTTHA2VUFKUDVkRGpyRjFSbmNiTlh4am5PTFZ3NHU1QVBMX3FuN3ozekg0NmlEX201SVV3Sm5EbmdLZFBKNml3a2hiVkMydm9LMWdzTmRKcUZ4NW4ydXNQQWFGN1haNXFrMkdRbUEyYkZwU21I?oc=5",
+      "title": "eBay (EBAY) Q3 Results Put Its Valuation Back In Focus",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVjVsT2tHQkxoOUN0aFU4c201M0E1UUZTbFJhZkVGc0NnSXRFbV83eWV5N3Z2SWZPUHFheTZaZXZqRkFsYkhjYnIxUEN6QWRqeVV6ZjdGMG0wTWh5ZDBMUk1sSkExYUNJWmZoem1UaURXU0EyOGFQYldxdnhkNm81Y0lOdk80VVRuTkdGdDMxZ2I2Tm1lZnNqbnhwVEJobFQ3WHFqb1lObw?oc=5",
+      "title": "UK eyes under-16 ban on eBay, Vinted and Depop over messaging",
+      "snippet": "T\u00fcrkiye Today, 2026-11-08T08:00:00+00:00",
+      "publisher": "T\u00fcrkiye Today",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EBAY/history",
+      "title": "EBAY daily price history (Yahoo Finance)",
+      "snippet": "close 123.52 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

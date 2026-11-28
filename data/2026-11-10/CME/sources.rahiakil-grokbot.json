@@ -1,0 +1,73 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CME Group\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 46,
+    "no_date": 0,
+    "after_cutoff": 24,
+    "before_window": 10,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY3FqNFhtc29yS2k0cWFFUU9HcHBPdWpVQV8xRHpOUHBuRTNZQWtMQW9lWGtqVmtHUmxqekR0VEdKVmhSRENZQTAzYnhtZ3FITHBrLTFVVTBRVnk3MHlaeVNzRVRfQlNXSVZRNGphUkVvbzVtMGFIMGdhLU5XVm9qN3JRS1BVN1VJOGQ2bWdhcFZ3Nk9vWV9XNFRiWXdSWW44VUN0TGZUTkxFNENjdjhxMHJxei1McllrU2VpYndR?oc=5",
+      "title": "CME's Terry Duffy on listing Bitcoin, tokenization efficiencies and prediction-market risks",
+      "snippet": "CoinDesk, 2026-11-09T08:00:00+00:00",
+      "publisher": "CoinDesk",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSnBsTjNYM3lGTXJjZUc2b1pLekpaUDVZSGw1LVVpQnZFR29QVVY2Rm9aRVJkVGY4Vnd2dy1QVlVUYU02ckFreFRlM3BjdVlhT1hpdFk4eVQzVF94N2loRmNzTzl4V1FBelphc0xOekNRNDRiLS1ieGRCajd6QmlwNFotS3p3aWZ2NmpZb3AxbFlsZzF2ejVObVR2ZGhWQzhmZ29qQmt3SW8zMlN5OHR1X2ZCVVg1ekhTRkt2czFtWjRCSEU?oc=5",
+      "title": "CME : WTI Crude Oil futures hit 2-month lows as geopolitical tensions ease.",
+      "snippet": "www.marketscreener.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDIyOHo5QzdUT0ZXMXFnQTZpM0xRdDdvTmM3SGIyMlo5NVNKWFZGdmJLNjJ4QjhiSlVrZlE3eGw3N3VhMmlLRGQxUU10X2xMcExtcXFCbzFwVW9wUC1lR0hWeW5JRWZGUVFHaEtrd0tHY3dDeWZneTgzS1BpNzRiYkxDWDBFN1hqWFJtdVNFcUNEY0E?oc=5",
+      "title": "A proposed $163,324 share sale at CME Group (CME) comes from director Daniel G. Kaye.",
+      "snippet": "Stock Titan, 2026-11-09T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 309.09 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

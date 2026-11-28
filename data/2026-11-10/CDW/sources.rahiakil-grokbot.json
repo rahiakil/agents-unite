@@ -1,0 +1,61 @@
+{
+  "ticker": "CDW",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CDW\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLURQSG9OVHVzNDZqNzJ5dDVpUHVJUnk3amNUUF9TblhOanN1NHFjY1N6YlY4Q3pSWWIyVU92ME1tSzRyRDhwRkxCTjM2V2JNR21Pc2E0MFpZUXVXOW4tU0NzYk9HZEliSnowaUtWLWY4TDlkbUZrakdvaml2dTY2UzlZdnJiSndwVVNlU3JvVWU2MEpiVkJuSVhoNjM4TTNFRkVCUk5pWnl5RFNna1ZDd28tZG1tT3hYU3djQg?oc=5",
+      "title": "CDW Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ3VpdVdZajRmcHNNR2d3VFI2SENPcjFleGh4a0J6VDFjdVVaZGtkanA5Smk3enRUanNzR0J2RjJxdmVTeFBhOWYzeWFvWng2STF0WXVOaGhUV3BOVlg1N29mM2hWMVp6bThiVHlQRGpjdUF2TnNjLVlFTi1tdTV4dkF5SFdydFVjUW9JRHQzenYtcFdxMlRnWEgzOXZBdEpIOGlEU3pZdVVzak80QVd5VjR1WUZkbTZY0gG-AUFVX3lxTE41NTZJbVhnRlZUcnNTb2x5eTYwSjlQczBtWlFYNWJWNTBPNWFza1dtS2JaMGRfQlpNeHE3aFRXQUZNUU40YWtvNnhGd2M4S29EYi1hOENFZGxrSXg0V09sb2xzbE52SGZMR0R0Q2x6cUswdnFsaTQ0MlI2YmtMeHhmZFBjeG1hZHBTbEhLeTNEcUxDUDZ6eFRlX21IdzV3UENMZzB1UGM3aUJmLUc3UkFPNVl0aXVNbWtYUnhOWmc?oc=5",
+      "title": "Earnings And Dividend Hike Could Be A Game Changer For CDW Stock (CDW)",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CDW/history",
+      "title": "CDW daily price history (Yahoo Finance)",
+      "snippet": "close 169.36 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

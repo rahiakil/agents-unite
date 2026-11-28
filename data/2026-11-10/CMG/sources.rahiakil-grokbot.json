@@ -1,0 +1,73 @@
+{
+  "ticker": "CMG",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdXFJUC1NQ3VUR3l3b01wbHp0RVFsMWJLTGhDbFNiWWZsa2ZxU2ZpTi1xckpUc1lSdW9Ya3BUVEhZcmVuc1VDQy1kbG9JY1dNTk5pTk1sVUdLb2s2dzNQVGJyNEdwbHFfd0wzOF8xQkI3YjhYWU5tdlh0ckxTNHF1NmN6cVRMaDI1MDZfQVlDZTlBMmVvQ1BlVHVDLVNRZWV1TmJtaXpRWWpSdzlNYzZwb0dYNDd1VjZOeE45RHJPcHlpYmM4NWVPUHdEcERtUklCd3ZSaA?oc=5",
+      "title": "Chipotle Mexican Grill Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNDFYTTVIaDAyaWx3UnMzNl9HT1VBTDRvVVMtbHZtM2pDaEc5SzQtdzZCeXdWYTIxRWZEQXdKWFhWTDV5UDh4aWJxaTM0NGFtRkJIT203ZXNpZHFYLWhPVmFSa3AtcEM3UHpDZWVhRkFUam5lUlptVTFZdnRIempOUmotTW5Yb19LX29tRy1WeHlZbVVtX2x3b1lZR3d2SVI0MFRobjhDOTJBQmlqZ2padA?oc=5",
+      "title": "Cava vs. Chipotle Mexican Grill: Which Stock Is a Better Buy?",
+      "snippet": "The Motley Fool, 2026-11-09T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdkpRaHVYNGVwdVFITTh4RXJZc1B3TlRtZ0VBM2ZSeFFpeG9mWUlXdFcxaUtYOFJwZUJGTWx5MVhTcnVkeU1qdzBkaGNIR2VVMFJVUlJWLTdGNjRJWWhxTzN6dmROaXk1c2RrLUF4QnVNcUU4azVfclU1ZXl0XzhvZmtHUE04VjFJV1pQcnU0dElFbTBjRU90R3MxYlAzM0dldzFaNUVRanp4clQybGpjTXpyWEhJeURwLTVRS2FOcjRya0xYdk9tejhVZ095c0R4YXhGQ3ltZU0xYXFKX2lOQdIB5gFBVV95cUxNRTNwV2Q1U1R0ZUVoQ29hTXFTRGl0LWdlMEJVOWRkSjBrWGhObDktNTVsNWE5aGRjR0hOclhIWjNDMWhnYk9pZVFhNzlVQXY3blFRMzJTT0lJbHExVGJnVmM4LS13T21OaWxBRFB4MG1QUWZjQ0dWNFZuYVY3b25CbVg0Zm5seEc4V0dCeldCc3N5WUdLZzFOeDJpbzBCZ0RvU3JRZF9ibEFJTWxqY3JhT1NGRUp4WUpWZUhHa0R3T002bWlCTEtuXzR5THdUYy1ZRFhBX1hROGtzWGhDdmlkUXdGR3BqQQ?oc=5",
+      "title": "Why Did Chipotle Mexican Grill (CMG) Stock Drop After Its Latest Update?",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 35.92 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

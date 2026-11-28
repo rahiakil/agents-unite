@@ -1,0 +1,49 @@
+{
+  "ticker": "EIX",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edison International\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbjJrdUFabkFieGJybHItSTJHQmVsRHRpUHB1dmhmVVpHd1JCT0QwV1R1a0NuNEI3dnVjTS1ONVZOSDVJZ2RWX3VtTlZpNGtMVDB6ZDU2aHpMUHZodlVxcWVfZEl6UGozNHFYRkpHRFF1UFlHWjRNa2Rodm81TV9oNFg0REcwazgzWk8wNU5GVDdhREFreTIyaXpmZF9MRzVpVWhsRGI1WmZlTHZsOV9JVEhtc1hLekVSeEVRQXhLaVFLbGRYTEZJNG1vQ1lHVXRxM29N0gHYAUFVX3lxTE51Wi1vZnhOME04YjBRaW9UcTVUV2lVYXZ4TWVpdENqTUplc1JWWXVqNm5qOXRKRnIyLVNiRnBqSDhheGFjcm9Yam81NVpyeFpNM1JiaDVKMmFNTGRwcEJoWUtnd0l4VzVRQWc5SU10UmQzNEpfdHc2M1lDMEVaRmlBWDFYTGJzTFdZbXhqdkM3V2FFQkhGbVh2Wm1jNnNPZFg1cy05NVRsdE1mNmI1R0xRM1AzRGl4dmVycFJ2OWdxMTU1Wm1vVDZMMWtyWEdtclRXZXoxT0tpeg?oc=5",
+      "title": "Will Earnings Miss Change Edison International (EIX) Stock Narrative",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EIX/history",
+      "title": "EIX daily price history (Yahoo Finance)",
+      "snippet": "close 60.2 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

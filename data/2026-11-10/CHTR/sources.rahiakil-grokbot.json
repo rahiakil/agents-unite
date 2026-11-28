@@ -1,0 +1,121 @@
+{
+  "ticker": "CHTR",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charter Communications\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 16,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOakQ2clo1MDE4NWVPNFE4WTBPRlBRXzFlcFlpRlFLNk9mdGV1cVJSVXhrdThVQnZpbkpndnRFOU5tM0t3emZmS2lQUXM1LS1KTDhlaVNjUS0wVnhxTDhpb25zMEZLQnlmNE41b3p3YlZpVG9YNmYzOVNoQmRnM3NaaUtkLW1jZG9BOTZMMEdHcW9RNGtmaThFUmVSZkF1UHgtWWd2SmZyM3RKWXlydGNIbVB6WVYzMGk1MWRjU3l2RHNOckVNTkdPaDNNZnZ0enhvYlZRcGQxaUN1bmJJcWswLWFfTDZNS2dpQjRWMi1KTkw?oc=5",
+      "title": "These Analysts Revise Their Forecasts On Charter Communications Following Q3 Results",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZElVak8zd0cwdXNZV0Nyc3pfaDhuRHg3WFBudVJMeTVLUTZRR2tQNFhNblN0dFo5dUFleF9pSm1Pa2Q2SE5Jc1M2Y0o3VUc5US1WSXBWVlBOWnFvZjRlMDZoeTdWZ0lxYXd1OHVUV3lOUFFiY21GMTlsMGdqd2F5bk82NDdFWU8yMjRIaUJDSG9taDBPbmhCaGZVVVppajlpNlhVTnNoUmF5OTFNSHVsSTFnVnpRMlFLT2tQeEw0RjZjV2ZvLUFDT3FUNzBIZ1dOUENnbmVB?oc=5",
+      "title": "TD Cowen cuts Charter Communications stock price target on new operating model",
+      "snippet": "Investing.com UK, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObzFwVlFVeWxwZXd0X0xpSHFBMmdvQW5yZEcyVFROcHo2UjkyWWRRb2lhUURfUUdIWmNuem41QThvNUpudTh0RktlZllmcE10WXROalNySnBXWXhVWkNNMzhBTmJqT05OYTBGVGZJbTN0MXdmcjRrZTlfZTJJS2p3c0Q0TEZkcG5LVnFCNUM3WW5mR3lQY281TXRvV3QwdWRRV1BTM1dDdHZWWkFEMnc?oc=5",
+      "title": "Charter Communications stock hits 52-week low at $20.83",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWVB1OW9mWUhpekZDYUgtNGpWR19pWGZDOUpYc0FGUTYzMmVVX3pBdThGTlA3a0RkZ014STV2MTRUcEpDOFMzdkN2M3dtQ3RPM3ptSHppcjQ1Vk1nODNkeFFES2xDOVZBYVBmS2E4eGJHZ0ozR0hXUGotbWdjc2ZHNW5Qb3UzNi01WnJ6dWZhVWp5T1FBNHN5RWY1c3oyRW5OODJYUEFkMHphX1N3cUhTa21VZ2taX096ckZmLURzai1Edm85Z1FIdl9hNWRub2M3N3JEOHE4RzJIRktYTnc?oc=5",
+      "title": "Charter Communications (NASDAQ:CHTR) Stock Price Target Raised at Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3daT2M1dTRVTEpzWHMxWmRqVlFsUGJEczZ6d0dRTTh1ejd4MndRRHBkUTRHREhBRktmTng1RlRrS1hZWThWVkF6elFxaWhUTlBNdDFoWnZJT2F2TmVJSFNGcmI5RUtGZHBNcUZsODlfcnRqNHo0eFh5aFozdXZJc0k1MEdzR1ozbGttZUc0N3Vwb0RCckZpZlcxbDRPcUJicXc?oc=5",
+      "title": "Charter Communications (CHTR) Takes $6.3 Billion Impairment Charge",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1cEZiWGpTc21uZzJCekE4SXVibmFGREs2OVhuWGtfYUdyM1dvYmdLR21XcloxU2lFZVFXRjNMc3hWdGVPeXAxVTZ0ZzZPdw?oc=5",
+      "title": "Charter Communications (CHTR) Stock Price, News & Analysis",
+      "snippet": "24/7 Wall St., 2026-11-07T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNREVxZVRKVDB3MDNiQlVZaVBfTWMtSGNtRm5ZcENKWTJfOHAwSVlFQi1sUkxBaGFUN1RFU3RLV0Y1em1RSVBib0xIVC1rZFFtNDBsRDAxQU5OdU9nLW5UbzJXY1d0eEltcGJzamtlRHdta0tXTDhnM3pNQkF4c0N1ZmtRXzFUQ3RaTjZLN2N4eExVeXVyM29Wdlo3YU9FZnhvRjZiazJ1UWUzQTFfM0h5TTZFR3QxdWlvdzd0Q003VmxiV1FZbGNwS09nTHlPMGxNVW9LadIB2gFBVV95cUxOSVdPb1ZSXzluUEwzRTZFOXdSREFLUmF1Z1dmRTJZNldGNGI5SUJrYkNGZmUzenpJMU5nRnF6RHFXUTNydkxab1hYMF9tLXIxaXN2U0NERmRMLTNZanpkRHNPTkpwaFVHSXlyTkxibEI0dzJpcW5IVVVmd1JMemdRLW0tdFBMQzFwMEZiVkd1anl2T19tbU5xSG5JRGo2OUN5ZTg0QVZqYktMX1hKQnMyVzFPSURnRW1MaTBmS19YdC0xRlphdDJUSFpqdzVyX1lkUnJVMXpNb0d0UQ?oc=5",
+      "title": "Charter Communications (CHTR) Stock May Be Below Fair Value After Cox Deal",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHTR/history",
+      "title": "CHTR daily price history (Yahoo Finance)",
+      "snippet": "close 134.06 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

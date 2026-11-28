@@ -1,0 +1,49 @@
+{
+  "ticker": "KR",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kroger\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSW54djIwNmhDS19PWEc5UXpLMFpUWW9nZDktZGh3czFrbjVScWg4Z3NKY05GR2V5d2RVajl5TDcwN3QzVG1yN2JxcU1ILVFaSFE1bElxdGk4cmxUTDlta1dIY0ViMC1GUm1McHkyQWdoRTRJZm5rZ3VHSksyUlNyQW04b2hhTUUxZVR5SjhGWFpCM215cndF?oc=5",
+      "title": "Costco just passed Kroger in a grocery ranking that matters",
+      "snippet": "TheStreet, 2026-11-09T08:00:00+00:00",
+      "publisher": "TheStreet",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KR/history",
+      "title": "KR daily price history (Yahoo Finance)",
+      "snippet": "close 68.6 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

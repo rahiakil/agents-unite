@@ -1,0 +1,49 @@
+{
+  "ticker": "MCHP",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Microchip Technology\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT2RONzQtTlNkRnpiWWo4UzU5cDNMUzNWcEZDbTV6Zm4xZ2ZsRWVhSm8taGhhNC1CVWFERnlZUmNZMGpLNWRIMHo3emNBTjlOamRpVVhQM2FaaDlobThxTnVZdTlSeWs5T1ZqWmd5aDAxRUNUTFQxYUs3Zk5sTnFhUGJKMjJzRGtsY0Nid3FvUUo1VWZ1UTJNZ1RxTUdVbHkw?oc=5",
+      "title": "Entegris, Intel, KLA Corporation, Lam Research, and Microchip Technology Shares Are Falling, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCHP/history",
+      "title": "MCHP daily price history (Yahoo Finance)",
+      "snippet": "close 74.16 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

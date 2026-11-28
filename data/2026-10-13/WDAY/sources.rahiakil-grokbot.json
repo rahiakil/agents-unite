@@ -1,0 +1,70 @@
+{
+  "ticker": "WDAY",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Workday\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 33,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY21zelRCQWZmZ29LaTlVdzV5WTI2Z3NhaE9sS3JFWE1pR2NMVEJ3RmNQWFJSLWJKYW9RVFNYdXFvSVVvVVVSZVJFRWg0dFIwVGZwZ19XMlNYOFBINXc4dnNBRzZvY0FLbkgycGt4cVpXaHFmUEZpUWVMT2lNSHFvcVFvVDlNVlFTVDFZcmJNbDVlYnEyWnMtdEI0NVpQWmZkc0xqRlR3?oc=5",
+      "title": "Does Everforth (EFOR) Embedding Screening in Workday Deepen Its Consulting-Led Platform Strategy?",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeTRJQ0htNFhJVk1ZSFQyeUNGY0tJX0lDQ25faDVfR3RQejBFZXVpVUpqMHRvZE5DNlloWWRRalJ0MFdEajVPRzhoalVoSkdTd0FuUDFMRE12dk44blV6bFdjVmp4bkNfTk9hN3NqRkJlX0wySmNvckY4Q0NMVzFEc0plM3AyUEpXRVoxZGJBZHhJU2VPaE1qVXlnbjRUcF9ld051ZFZTUW9WbmIweHBiaHVHUm11clE?oc=5",
+      "title": "American billionaire David Duffield sells $18.6 million of Workday shares",
+      "snippet": "Billionaires.Africa, 2026-10-11T07:00:00+00:00",
+      "publisher": "Billionaires.Africa",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000051/wday-20261012.htm",
+      "title": "SEC 8-K filed 2026-10-13",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WDAY/history",
+      "title": "WDAY daily price history (Yahoo Finance)",
+      "snippet": "close 186.02 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

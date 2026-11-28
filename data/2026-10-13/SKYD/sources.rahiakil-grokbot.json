@@ -1,0 +1,118 @@
+{
+  "ticker": "SKYD",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Skydance\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS1FRNkMtaTNaUXZzTVRnWFRnWHc3MmVHZl9oU09ZZ2dLaVZNYTU2eThxcXlmYUlWNFpFUWlRbGVTSGMyYm0wTE02OWI1SzFTX3QxcGUwbHk4Z0R2YjF1NGl3THVNUHFKRlRIZkFxQnZQdDk3WGgxdXhBUWRCWjNIam9KNA?oc=5",
+      "title": "Skydance Shareholders Get Free Warrants Tuesday. Index Selling Could Hurt the Price.",
+      "snippet": "Barron's, 2026-10-12T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc2F2UGkwMDZyZU96ZmNoMTM1bFN5dlB1N2hqeXBrcTlvQjA2ZEJDMXhsVVJNdmx2Zzh3Z3B3Mkg0RGFnUXJVM1JRdEtKeVhnczQ5VUt3cUdGQWI2ZkNNQVl1WkdjSUdDdk9YYkNpa2tGdnZJeENmNUZadXBVcklTZVNB?oc=5",
+      "title": "Disney: Skydance Is A Bullish Catalyst (NYSE:DIS)",
+      "snippet": "Seeking Alpha, 2026-10-12T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcVBpUi1ZMDE0R2JPX1FQMTZ4WklsRUhURHYtVUhLcHN5VmRfdHZRZk5OOURsRlhMaEhrVnI2V2hoakt3VUdqb0pidkh6dFhXaUJvNE5XQVNEaWh6cWNmemllbEEzd1RieFBjSXV0a19XVE5UdTNzY3k4dS1CS2JhTDBxdFpqZ3lKM2FIU2lJRDY2cEg3MVE?oc=5",
+      "title": "Skydance stock slides 7% despite Q3 earnings beat",
+      "snippet": "FXStreet, 2026-10-11T07:00:00+00:00",
+      "publisher": "FXStreet",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.61,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaW41NHVHak1ERU5yaVR2UGJpZF92X2lsUUdVZTJqaDY1cnN1aEhObndjdEt6X21pcFBna2ZxTnF3cUVaTWZvdERieDloU2c3LU1kZVdLRm5sQm05NFJrZTRxLURmLWt1MFBPQW1YekJDUkdvQ0tXOXotNFNsMHFSRjdUbHN1QTdlbEZrODFqbmpuQXJqQ09oYg?oc=5",
+      "title": "Paramount and Warner Bros. Discovery Are Now Skydance. Here's Why I'd Rather Own Netflix.",
+      "snippet": "The Motley Fool, 2026-10-11T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSUF1RFl4UzJhUENKOFNiZHhBem1rSVc1dEdHY0YyQW1qMnpDY0tWSERPcUJMdDhscXBidktSQmQ4SVVyTWFSX3BwZjRjSGJOemJEQVl4TV9ib1M0WGY2aGpUdzJEY3o3LUUwMGUwYld6cTUtNGFpZUtmSVBvSUFTRF9ZVDNsckN5cnFCZl9rWHFoeU5Lc0dZWnFTMnJJNGNoX3hYMnl1MHBKMEdLbndvUFVYWmMwRld5VVdZSWZGOXVacmVpN2w3bEg5b3BYYnM?oc=5",
+      "title": "Skydance Will Focus on \u2018Embracing Technology\u2019 as SKYD Stock Debuts After Merger. Is It Enough?",
+      "snippet": "Barchart.com, 2026-10-10T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zS05zVnZCSzNmUldxaFlQOWZqcllzR2tfVC1zS1B5emhvMk40TXBCNk1MSTU4TjlmbGdNdENRZENWVjNNUHhRRWVhYXVjaUhQa0paQUdLSEFPaXdKOE5nR1psc1JIT0dNejVwMkZoUXI4WWZYVDZkdUxFOWI?oc=5",
+      "title": "Skydance Stock: Should You Buy or Look Elsewhere?",
+      "snippet": "Barron's, 2026-10-10T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926115294/tm2626659d12_8k.htm",
+      "title": "SEC 8-K filed 2026-10-13",
+      "snippet": "items 1.01,2.03,7.01,8.01,9.01",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SKYD/history",
+      "title": "SKYD daily price history (Yahoo Finance)",
+      "snippet": "close 9.27 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

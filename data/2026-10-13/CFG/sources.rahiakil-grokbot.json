@@ -1,0 +1,49 @@
+{
+  "ticker": "CFG",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Citizens Financial\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY3lfamhrR1lZdGZFX09XSHduTkN5bHVUTEZ5OTZNOTd3Y2dfdlpWVURJcWY1a1hmUlhObGkxRFlaS0xyckw1bng3Z0VoZlFKZkxtcnFEcmlURGxCYnJncXhLUGVDLVJhTTM3LTU3aGFvWldfNHl1QV9OazNfVExKa2YyRDM3YmV5TzZfU2tPSmg1dWJKZDBiSks3b2I0SWJuWU02ZHBwdkdneXBtek04Skg5LVZVQjlpNGpqWktCV3RyVG5uazI4RA?oc=5",
+      "title": "Weekly Recap: Q3 2026 results, Oct. 27 call and Citizens Financial $500",
+      "snippet": "TradingView, 2026-10-12T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CFG/history",
+      "title": "CFG daily price history (Yahoo Finance)",
+      "snippet": "close 63.3 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

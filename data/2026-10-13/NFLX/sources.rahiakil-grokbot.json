@@ -1,0 +1,121 @@
+{
+  "ticker": "NFLX",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Netflix\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOTRldHg3NE44c0tYZGF1ZndKTHk5U3ROWnNPNWRhek1EU0hMaEZacmpfbGZ4a1NkakdPdllZWWxYY0U4YmlEc3lYMnlETVVsQjJvV0lubFpFdVZXM1ZJekV6SzJoTmtpZHl6SjdhN1FpOHVXbGVZMnE0MTgtY1dtMTlEMWxMVHNoaEZzWC1FdWFnSDRpd011ODRHUXFoaElzS1ppR3FjNkZIalp5NEE?oc=5",
+      "title": "What Could Netflix Stock Be Worth In Three Years?",
+      "snippet": "Trefis, 2026-10-12T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1F5TmJLSGppWXNoX19hXzhpM25PNXBJeWg3bjlZbXNRcjR2cWJsZkFjTGlRSmhzNjEzQkZ2RUZLNl9kbms0RHpPVU13ajI1ODRFZ0xWZFdpOUlQTEZOQmdGaGw4YUFQNXF1RnBiSzlaOW5NWjA4SjlETGRMdi12NTRPMXJob3pmdl95TVN2MDhDem9HS1dyRU9XbXc?oc=5",
+      "title": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ0t3R0FBM2dxQVF1T2ZxMkZNY0VBbmxMU3lHbmQ4Z3RMVHpRdkVnSnFYQ0Yyd0RYc0ViTld6UzE3RXdYOTBfNWJTazN0RlY1UDl2RzdGeDhicWx3bERxbFhneTRqM0ExYW10LVYwc090VG9EQnpMTGNRVXlldUhwMzBPVWhFV1dEQ2U5NW9sMndyYXpLWFpCR3l6V0J5Yjg2Y2c?oc=5",
+      "title": "Prediction: Netflix Stock Is Going to Soar After Oct. 20",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLUNjSHdBeG0xaVlTdGZrY0d1bzNaNFhzeUxMVy1IZk9pakk5aGRqQlc4cm9tbmphSlliVFlUcWdteDNiVFAxT21COXp5QkpEUDBfV0pGQzFVUHNXTGZJREhKTXB4NEY0M21IeHpNSUs2Y3Y3a0JTWTZrc1pyTlA3Z1lrTQ?oc=5",
+      "title": "Netflix Plans 5% Workforce Reduction Starting Next Week",
+      "snippet": "TIKR.com, 2026-10-11T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON0g2aVc1ZFRSR0t3X0NoaGxfTnk4dXNjVVVUbjJlZ1pqbTlOcFhwWnhaSU1rZVd4NVhhTEs2c00yY2F6ZGNCWTVQN2Y4LW1sTUdwYzVPVllra3lfSGRlYlA2LWowZFk4THUwLU5rSFRIZVNvR19FNl9zMVlrcUtqRnM4NHZBbXAzR2J2V0FsdWpIU19VVUtseQ?oc=5",
+      "title": "Dear Netflix Stock Fans, Mark Your Calendars for October 20",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeFJnSnNoNEw3VldOSy1Ub2NfbDVPU2NqT1RyOXVnOFVwZGYyS3RPdGFTaXdRczQ1MF9MUXNwamszWHUtU1hpTWN6dVlocVBJd3ZHelNBTXlPTm9ubDRqYlFmYzhSSll3SXZKZS1YRnFnbV90a2tJcHZuRkhJZURmT2xrS0kzeEl3cWxwWVJjd2Y?oc=5",
+      "title": "Netflix Is Treading Water Around a 2-Year Low. Is It the Most Obvious Growth Stock to Buy in October?",
+      "snippet": "The Motley Fool, 2026-10-10T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.197,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYXBLSkR4ZlgwTGNZM001b1g2R0xGUGhfNkNrOFUyaXpjZ0Fnc2lya3YxT09OWllyQnpWcW1aeTVUTW5oS2ljWndMR3dpQVVxbURSN0pJTDlyaklKNS1aLTQ4N3M1X00tbXpPdllzeDY2eFVoc1VBd1RvY3dhMjF2YnpuTlNsYmU1VmZPV0V2eFc2ekVYN1RrYmk2VEtaYWZBTjctNnZWT3g?oc=5",
+      "title": "Is Netflix (NFLX) Undervalued After a Lackluster 2026?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NFLX/history",
+      "title": "NFLX daily price history (Yahoo Finance)",
+      "snippet": "close 70.46 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

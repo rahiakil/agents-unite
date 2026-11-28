@@ -1,0 +1,58 @@
+{
+  "ticker": "ILMN",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illumina\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUEs0OUtfLUh2ZGJidG05VWhSVUdjbk9ocXNBVHZoX2FEd0ZqWXRLZ3FXZ0U4V3R4TFVmMW1rSEJtblo5QVQtaElQR2V4NWRuSjE5czNnOTI1aTh1Ymhmenkyc2lrVE00M1pJczQyMUdsckh3eDJ0V24wY21uOWlLeWxpVzlxVV9NNEZVTko0S3F4WlUzZEZkMDJYdEp0RVM4VjkxdW9JdXBLbmxoVkE?oc=5",
+      "title": "Illumina\u2019s (ILMN) Sequencing Business Is Recovering, But Is the Stock Getting Ahead of Itself?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000195/ilmn-20261013.htm",
+      "title": "SEC 8-K filed 2026-10-13",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ILMN/history",
+      "title": "ILMN daily price history (Yahoo Finance)",
+      "snippet": "close 271.18 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "KHC",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kraft Heinz\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdktWeHY5aEhxbjhyNzJzVlBuTkM2am10bUdaTC10Ul9GS2p5U0tIZkhHbEFtSFhkekxOQ00yd0ZHQXVuRERPZUlwOXBWT2FVeDRESjBkZVBCdTJmNkw4QW5GcmUzV2VGMHlqbkpndGxpQmo1ZFROS29KTEROUTNwY0l1dWpMX3l2ZVNweEozZnFfWW9L?oc=5",
+      "title": "Kraft Heinz Costs Less Than $22 a Share. Here's Why I'd Still Not Buy One.",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb2lUOExybEJpUjY1QW1sQ2g0c3ZhNlJrQklCWFlaT0UxQU5PNHNkTWJ6R0NubHVfRVFkbU5aRGRXTXBHcGNQU2lXSnZNekNLOGNSTjVhZXZxYi1rbTVSRG9OYXl3Q0R6TEFLUXIzN2VTRkhTLWdSZkRwWFN3VVFXQm9hWWJZaEh4ZDNNUWdjUFNvVjRGakdr?oc=5",
+      "title": "Kraft Heinz (KHC) Faces A Legal Chief Exit, Is The Stock Still 36% Below Fair Value?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KHC/history",
+      "title": "KHC daily price history (Yahoo Finance)",
+      "snippet": "close 22.43 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

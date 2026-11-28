@@ -1,0 +1,85 @@
+{
+  "ticker": "GNRC",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Generac\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR3VQVk9BaVM1V1VXSGFDY3NQOXV2QmR6X3R5eTVndmVQbVEyZWRoRXl5RzlZMDBVNmhQak12Rjc5LWRYYWxtMHA1eUVCaXM2YU5NckhPSFloV01OYXI1cTdpRGhqb2VlUG1mQVdiVXdlcHB4dW9VT0RPYTYtOUZJWEpwWWNMdXVaMU9BQ3pjczQyMGRTZE9PYzNsa1NZbTI3UVB6RFB2bExHRU1tcmVqM1lPYThROG1HU3NLQzRR?oc=5",
+      "title": "One device manages two solar panels. Generac was one of only five residential Best in Show winners.",
+      "snippet": "Stock Titan, 2026-11-17T18:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-17T18:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.807,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWjEwMUxJd2VtOFAtTlVuYkw1Z0xkM2NEQVJyeWh0SjdKaE5NUUlkdVJVZnhVcWV1cVJsNGt6aUF6c1NZM2hUNjhlWkU5Q2c2Q0VPSjI3OWhtR0xSa3Ruc1B5U1JtU052R01qWjY4QXhPOWZDejRoNzMwUDUxd3hVcWpYX3dzX2RuVlh0N2poMjhCTHZnOF9XZ1JQbC1Tc1FuV3BfMHNSbG1tUGI1YWQtT1NmRXoySndRanlxdHhWVkpDdmdLX0huWmVrakJKT3J6eDJtRG5Cb29mZw?oc=5",
+      "title": "Generac PWRmicro Named Best in Show in 2026 Solar Power World Top Products Awards",
+      "snippet": "Morningstar, 2026-11-17T18:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-17T18:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.84,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPeG05U05OazRKTzdGZ21fSzRLOE5ZY1g3eVhzUUZ1ZEpVZGg4dGFrbzIxYWlsSXZDbnhLVHdGd1VXcTNiZ1d4Ymxua1pDYVZnMk5jdkpnZnFmaEtDVVAySUxfUzdydVdXTDkwd3FrQUs4bjk0S1FoTElkbE9vZFhxdlNlTnRRMXdqNU40bGRqT1ZDdDdrM0lNVkVZVFk4T1lzMEE5Q2Y0SWNWd3o0UGtuOHpvR0JuV0pnVnBLci1XTWcwczc3WjlBYm8yVEtzVXRRMTVOeS1QUU14Z3BjSGJ4UE01dzY0LUo1bUE?oc=5",
+      "title": "Generac Holdings Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTnZkQ1NuT2RNYUNYc2F3QWhfVjEwamcxd3NlQm4zT05GeTI2ZWpoZW5ibHd0ZmN4cXVMOTQxUDFidnVDWm1YVWRoOGNwWHFiNDBFRnpfM2dCTWVtRVoxVmE4aE8yaHJjRUZmcmNrLXJWbmxDZ1I2X0VlejZxWlNBT19WcXl6NUtkMm44MlFJclBOSzNrejZET2FxUXBnclhUYS1SZ205TXlkd2Y2Q3p2azdON1dEVE83QzZ3aXJHVDlLZjZmS2RnSWJnUHdOaXFMU0p6d2lYUXNBN1dneTByQl9BVGIxZFdRZTRsbg?oc=5",
+      "title": "Generac Holdings Inc. (NYSE:GNRC) Stock Has Average Price Target of $289.82 According to Analysts",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GNRC/history",
+      "title": "GNRC daily price history (Yahoo Finance)",
+      "snippet": "close 187.0 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

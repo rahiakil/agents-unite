@@ -1,0 +1,118 @@
+{
+  "ticker": "IP",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"International Paper\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTWloTHJIaGFHQnJoWE82Mmh2NEttTzAybUlpU09WbnJGeE9NdEVEdnFWVHFlRmQzSGZCcHRyM3NReUxrM3BiRXBLRzJaNGplT256ck1lSkJudEhTOFpaZHROdnVPQ1ZaeVQ3bTlFT1hWZUlsZlByUjFMX2gzS0IwTDNqVGNVdVpjS0lCN3JvcVYxU0N3U0FFRkRtVDFTTXdOZHVNelN5MnlFeV9DNEt2by1PZVZwSWlm?oc=5",
+      "title": "Is International Paper Co (IP) a Bargain After 3.5% Drop? GF Val",
+      "snippet": "GuruFocus, 2026-11-16T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQX2cyZS1zRkI5ak9tRVZLSjFiT3B1ZjMtWkZiZTc3U21LWDUtRUJYQmVUN1dGOV9UTV95cVdKYlJqYUh4QmstejhYLWtLLUJxalppa1ZJRl9VVDVFQTVjQUMwb183eTczNUlISzV0YXpPYlJDLTRkcnI5Z2thYmUzdU5rZ1o4WThSRm5Zc1hLcnQwWGdsajA1Tk5kVFI5UEwteXZuUHphQkpzRjQ2TkNJZTloX1pGZDVaeE11UWtfMmxhaDUzZnBJanpZUldNZmZ6SnR1eHh6TEwtYmlPUHJUejF6dEhjSjlEZTRfZGgzMA?oc=5",
+      "title": "International Paper Arranges \u20ac1.35 Billion Senior Facilities and \u20ac1.55 Billion Bridge for DS Smith",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFpUcGJKcHlNbnlJbEJQZ1RpU0FkQkNGTzVoMXNtX1MzMDMtV21vczZESWRLZVlrUmoxbzN6bFUteWROekRlQ3hxSF9RUUJ5N1NmTUlmZ05vSEdMM240aG9nTFN5c2V0YzM3R3F1N0h6dmJqTEJUQmdiVldNS212UEthdXVjTm1sd24tcnBxbVR6VklBeGFaS0RuZUE4ZWdQdWd0eA?oc=5",
+      "title": "International Paper (IP): DS Smith, IP's UK unit, signed a \u20ac350M...",
+      "snippet": "Quantisnow, 2026-11-16T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOWRrNkE1R3FPNkRZUGs3RlR3dC1WaFlITnR0ME1GTDNBODFlSUZteU9TM0lrcWNhZklsa3laN1dDbTBDMC1BLTlzQVRWanNQUDd4eEk1WG90X29weV84V19mbmp1S0VxcGFxdVZHREk2Vl80RklrYzBJYlNaOVhqSU1SWnNpSlgxZk9wUUVPRWlnS1o0Qnk4WVlqMmp4a0xwN3dCUzhrVVF3X1FzVWlhZVlmLWNZcWlJbFpQZTRiZEdKWXNfcV9Yek1LT19BeHpY0gHWAUFVX3lxTFBmVmpzZEtSSkplWEwybmFqb2dyUjRBTHJqRXJsTlNhRC0xenNIcmRSc2NuMm9sSEJ3THdET0xjeVJRNS1yWjBVcXN3WDNEVWEzcWI4aG9CUW1ObkNhdnJnSjE0Z085Z0NHNDBFZFlVMWRac1JCamVNR1J6LXlkbl9kMGh3a0NvQlVlUGVEQThXUEJqOXhIZmQwdTgxZ3FudEVPRGVRWENzV2JOeGxhb0drVjhxNHBZcHlVZzh6cXQ1SHhnRkx3SHZOSlVIdEFRbVNiZHFtNnc?oc=5",
+      "title": "Should Dividend Reset Require Action From International Paper (IP) Investors?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbFNMcFBCRWQ2Z3A0LVJIcC1jN194UUVlQ0ROR0NrSC1jbUlDam5JRTBjY3RQWW90QnlTNS1ybFJwdVVUM2lzZUZGVjRIU2ExV1lPZW9uMERVYWZrNmQ1TjA5b3pGWFdBX2x4RE1JMkJBNkV0WEhCN3BOdXlZWnk1dXloSGtoYUdOdjRoY1R0N3RtUHhwaVRqV1JNV2tqT3F5d3lNb2loc1QwMWxSWkR3QTBmTlZmRFJ5Qlp6Rl9MVmlvV2lDTkI1VVk1X002MlAtb0xsQ3FnemNHbm92?oc=5",
+      "title": "REG - International Paper - Announcement of Intended Implementation Date",
+      "snippet": "TradingView, 2026-11-15T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbTFnOU1pTWhHOHhXSG9ZNGV6THU0TXRhTjVVaXkzdTJXYmpxSXQwZWZKT2o5WTJ1b2lPbnlWVDBaNWpVNjdhUU5qODZzSDhWVnpJMm5hRnotWEhWVG9KaTloOVc1S3o2dlQ3cHZNNzlYT1JPZWhWZ0pWS24xWFVPZzIyNDlXeHhVSDFia05odDZUQ0N2REZCRFc1WG15RGJoTXdNZ0w1VDR1T0U1ZWgwdDdwdUNfMEVXSWU3dEE2ZUZ3QlZRUG96dXpqQUR0WW9X0gHWAUFVX3lxTE10eGFKNGhyMzQ3dnJveW84Q2xwOEVUdHl2RHdqQ0MtZndvUnoycURFQ1FVS0NHd2dpbUpHcHpvT3RiR2NNVDM2YkxxVnl4MnlSSV9pemJvVTZVWXF6UkhCUlFkOThzN1ZsODFqMS11dTI3ME5FY3lHS2hjVnlLMVhKamdRcXVBTWxsU0ZYc3NSWEt0VExoN0twemg1NVRzV0RiakFZN1p4TzlXSE5tTUtYMEwyeWVBX3pDcjRqS2JnbHZiVFJyRUx4RC02SktudXYzcTZiLVE?oc=5",
+      "title": "International Paper (IP) Just Gave Investors Something To Think About",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/51434/000162828026074264/ip-20261113.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IP/history",
+      "title": "IP daily price history (Yahoo Finance)",
+      "snippet": "close 32.17 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

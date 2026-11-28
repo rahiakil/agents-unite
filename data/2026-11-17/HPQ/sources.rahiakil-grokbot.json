@@ -1,0 +1,121 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 68,
+    "no_date": 0,
+    "after_cutoff": 27,
+    "before_window": 16,
+    "irrelevant_or_spam": 18,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS1JYZ1VSbjN3VHRONmV4aDJiSGVLNkpUWUpvT3VFODBralpEMDM1RHk0SGVaQndvY0VBU0dNSlZEeXZtRlotcUFpamt6UmYwYmRva0ZxSnNZVGh0TWFtUFd5VkpQSEdZU1d6UmQyZHlnc2Zoem95QzVqc3RpdE5ITG1ISnJBZENiajRCdjcyUWJ6OGRvVXluVFA1VzhZTTV3RmpjMkZraXZELWtxWXJLS2hzV2c5VzBKYzNNSw?oc=5",
+      "title": "Xometry and HP Partner to Integrate Build-Planning Software and Optimize MJF Production",
+      "snippet": "Quiver Quantitative, 2026-11-17T14:14:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-17T14:14:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUU14NnVMUVpER1FubXVGcThOMWJXVk82YTBydDRiQXF6TVJzR093a05tYk9QWUZFV0tjaXBKalpjLWJpSHh5aU5JeWRkYklBZUg0TFhEWlY1aWRvOFUxZzNWckhyWlpUaTF0V1ZhUURWM1U0YU1EaGRLOWZKNllneXlkdWZLV0s4NjA5ZVN6LVVZU2U1WHNkem5Pdw?oc=5",
+      "title": "Insights Into Helmerich & Payne (HP) Q4: Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWlxRS02QjVleVdMNHJLUkgtNDg5aldLYUg4QVNZSC1JWlJIMlVuWmk0TkplWG0wWjd3RnpZNmJ4emczbGo0TTF3Q1NScEFHempvYW1QbnVvYk5xSE41Y1VzT1FpSXRhaV92N0tIOWVXUXVScVp2cmRNREo4bEE2UEFfNTNXLWV5SmhnT3NRVnh0dGI3UnRDNUotZDZLTUpz?oc=5",
+      "title": "HP's Memory-Cost Trough Meets A Whisper Number Above Its Own Guidance",
+      "snippet": "Finviz, 2026-11-16T08:00:00+00:00",
+      "publisher": "Finviz",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLTRKSnlRMVlBN0VhRnAwYVZQcjFnTDllaVlSby1fT0pyOWljWXVISGZ2cFJsZFRBcDcyeHU4TGY1WWtxaDAtUUFJVzQ3eE0wLW5icEpMNmEwYWVoRHBPUHg5MzNQOXdjN0RzZDVSaU1udm15NDZaTElsOVdqYTl2UGFyRWVvZTBLS2F1Tl8tLU9QSldCRDZaMGxZR1JYVlRlVEpFTkdydE1XU3RTdFVtbHg3UDg0eHVicHFub0hZV29HZw?oc=5",
+      "title": "Dell, HPE stocks fall: why Wall Street is seeing a buying opportunity",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOEVNUXc1eTNwMVFSZEY5Sm1CcHNDYlRBTTRuYmJnc1o4Ujh2X3lWWFVQSDBJbVlXdmQ4a3Z1UjJveGNSNkFjSWNRN1JSNkxFMFdtcTN2bmNCaW13OHp0aWxHcjlraFlBb3B6UW8tTUVzM2Z0VzN3cUZpa3RZc0VSbmRsLS1RRmNzOVFYcXQ2U1lCWmlmN1JtUFV5NmNQU1V4ek0yWlItR2pRNllVaXBCSUI4aUwtY3EtOVRV?oc=5",
+      "title": "HP (NYSE:HPQ) Stock Rating Raised to Buy at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-16T06:21:43+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T06:21:43+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMThrSGcwRFcxaU5RNnZBOFNaOWlzdjZHYkhhMkNBZTNQeTc2Rkl5RkpPOGM1N3FHXzh5LURHc2ZIZFREN1FvdkVtSmYwRDBiMHZTeUVScFNydi03WjNCWkgxYzlCY1BJTTh1VzNlVmNwem0xczJ2SDZlNFRoRGNRWTd0MVl1M3lNbUZVUFc2cVFHbmlfd05zbVFveEx2Q01YV1dnNWR5cHJtdm1Ebnhrel84QWo3d283djVOcjJaZkNmSEtqdS1PLTF2NC1CVVRySE1Yb3Bod2tYU2drcGJ0ZnVTWHBtWHM?oc=5",
+      "title": "The Tech CEO Affair Scandals That Came Before The Jensen Huang Scandal - From Intel to HP",
+      "snippet": "Forbes, 2026-11-14T08:00:00+00:00",
+      "publisher": "Forbes",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQy0zTi1KbWNGU3lrQzdMTkdIOXZzSWhLYXNDOVhOM3lkZUhCSjdPYXJSWkRsN0RXSlR0T2xhalg1TV95czJiMEhDRFRtZml6M085TGpYLXVFZU40T0NPUG95TEVpZFZCcjQ3OTBackxXQVZueDVOUmlkdHJEd1Fqc2p4ZHpQbkRraGhObEg3d0JCVW1jMGFsU2NHZGFEUGJIVDkyUHBpOG5wVE5nRDJfd1NzRU3SAboBQVVfeXFMTXFXbXhjalE1YVNYaC1DcVMxWHpPNEVFMUJaVDhXN2p6dHBRTS1kWHJJaWp1T0dQVTRuT0VPMk8wWEZzY19KRnAwTDROYlczZ0hlb3FlRVBqaVoxd1Jib0s2YnRmcDZ1N3VGRlFheEpKcmg5bVc5Z0VkM2ZEeENhdFdLY3EyblJPcDU3UUNMS3ppQlp0MVRvWlZTVVdOUUVmb1Awdzg5Z18tVzVzUURwSEYxUnhSb1RZWXNR?oc=5",
+      "title": "How CEO Appointment At HP (HPQ) Has Changed Its Investment Story",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 28.71 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

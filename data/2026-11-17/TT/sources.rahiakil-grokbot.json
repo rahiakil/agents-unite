@@ -1,0 +1,85 @@
+{
+  "ticker": "TT",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Trane Technologies\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTF9ObERVRW56TG9CZWlUOTNPbGlJd2VhcUxPSnpKRU1ibTJzYWkyN2ppd2VUd2pLNTVvTGtKYUpGT1ZFUnVkVWl4MVQtaUVjRDlhTFFLbHFGNXRPbW54bGhQakRwSklIblJpOElnWmYzZWhtVWh0dFU3YlcwTnJEblF0a0NNUER5SFp6b2ZLVk9qU1J0STJOZDFn?oc=5",
+      "title": "What's behind Trane Technologies's latest stock pullback?",
+      "snippet": "Traders Union, 2026-11-16T18:50:31+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-16T18:50:31+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTGxRcF84SGhjYjAzU1RtUE1CZlV0ZU04UnlEMFlucUo1bkdBVzFxUGpZVFFZUjNLSkxfYVd6ellCTWtOczQ1WVdYcGtkSVBHVllSTHV6Y21yOXV5RGRIYVh6U1dCVzNsdUEzTmc1RVpjQnNWRGFNS0c2cUpoRmVneEVTVTRVQ1pVNHA4b0o3ZHlDejBzLWtuRklwMmI4b0U?oc=5",
+      "title": "Trane Technologies to Present at the UBS Global Industrials & Transportation Conference",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSkZlT3RDWGIyTTV0bWwtSXVDaXYwUmNCZWR4M08ydnB3MWw4SzlTLWpSUHhZMmxNM1FHZEUwVUEzN2FzTjRkUnNTVmtkNE1LdHdmZjZiYUxSS0RBRXZJRlVycTFzcHRVZERXMFNlLW9xN2pYWHZXV0RIa3c3MHo0ZTQ0anRuT0V4ZDJ4dFhDXzVPaGhYTWxJTEdjaHRHRzBsSnVnOW5pNkFpQVJtVmsxbVd2aWpMMURsX3FSalA1VnlidWZ3VjN2UkxLeDk?oc=5",
+      "title": "Trane Technologies is the top machinery stock for risk-adjusted returns",
+      "snippet": "Investing.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMWtNOFpWMU5yUFNJQ2gtVUd1cHZqaXFneHhqZGRyWHIySVlLRElYOUsxSDRDbmx4LXFxR2ZqTEctV0RKMXFkaEV3ellTclQxSHI4eVVoQ2NCWFVRemd3WjZONFhKcXN4dVY3SnJ4dV9GZG9ORjZ4ZGdlYzQ1QS1GbnBqRmV1eS1yR0FLQWtnNFdhVVFnWUNHb1doMVdxbWE5aFBWQ1pRQjRHeVB4SVdyY19GMU5adUcwaGRSV1JoWTVsWkJhSlVOSWRyZndtdlJXOEZDR9IB2gFBVV95cUxORW5vSEZBRGFGaGpJcG1STWhrcXlreGZNX09IMU5OZGFVZHNua1ZncUNaanN1d1dvTnE1VklWT2lGbW9jOVE5dHh6YWpCOTZZN2xRUGpDOW0tVWdQbmJWRDZsNEIzUFV6M3IyQ1VMclQ4TG5jLXAxY1BVVzNaZVFOZnVoNENGU0QyQVBsVlYwbUF4Z2xhdWRXV0dLdkREajJnNzFHMW9zdDNuN29udmFTRzRWYWxIbVRnd3BsdV90c1FsZ3lGWXVYUVFIeVlMYTdBa0FZZV9UNGw1QQ?oc=5",
+      "title": "Is Trane Technologies (TT) Undervalued Following Its $1 Million Clean Tech Workforce Grant?",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TT/history",
+      "title": "TT daily price history (Yahoo Finance)",
+      "snippet": "close 405.81 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

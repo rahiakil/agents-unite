@@ -1,0 +1,61 @@
+{
+  "ticker": "SYF",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synchrony Financial\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWQlFxSjQwM3IyV2VYUlQ5UTU4by1Xei1pd2hqdjRVQmdUWElxMkFlQldVSlVpWHIxZXBTMEhISGx3aGswVmZNSUVFSnJqUlNfMjFxVkFULUwwRVVqR191RDlkNnJEWUxjY2lTNjh0dw?oc=5",
+      "title": "Synchrony Financial at TD Cowen Financials & Fintech Conference Transcript",
+      "snippet": "GuruFocus, 2026-11-17T13:45:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T13:45:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcVgzZ3o1SjU0UWZzUmdEVDhNQVNhbDBUb3ZtMC0tYk5lLWNMaWczNU42ZlFxZTZVVEI5UGoxODgxdXJMLS1SUkM2ekZQMjJMQ3lwT1JKSm1JVG9UUVE4c2FmSThCaDNhRlVSVHNLOENkdWM4YWJqaWpXbFA0bkoxMjAwWkJ5YnlIaG0tOGZSMVJmaFhFczRSWElLellFMTFKNTByZnE5MW83SmZZT3lfZUdNMHEwcGNDUzhVbE5mczh4Y1lmRk5ySDRtNW9xcnpQZkkxVU1kUnY?oc=5",
+      "title": "Synchrony Financial (NYSE:SYF) Stock Rated \"Moderate Buy\" by Wall Street Analysts",
+      "snippet": "MarketBeat, 2026-11-14T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYF/history",
+      "title": "SYF daily price history (Yahoo Finance)",
+      "snippet": "close 70.5 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

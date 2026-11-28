@@ -1,0 +1,121 @@
+{
+  "ticker": "FDS",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FactSet\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 8,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORE9FaDg0aUJCQmxCbHpTWEZhem9hbVVzUlpxYWFkdS1sNjJZcHd3UjkyeEZ5X25xOTdFdEZzdjNoZEhJQUxPNTNWS0REcmNXNVZjbVhrR3RBOXE3bVRTN0Y5Q09saDViM09WZWloWHFQcTRqZlZ5WDQtNlVxUU1oY3I5OTloVC0tNFFCVTVmUUxweXpDMnI2X0VyTG5HOERmNzBBQ2xCNFU4YkpsRnpUSmU3T0pxQ3RHeER6cDNKZGhZVklaMzRGY3dSTENCc2M?oc=5",
+      "title": "Earnings Flash (KLAR) Klarna Posts Q3 Loss $0.19 a Share, vs. FactSet Est of $0.13 Loss",
+      "snippet": "marketscreener.com, 2026-11-17T12:56:31+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-17T12:56:31+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbzkyZmRSX1VSelU5eUNTc29Da0hSY2JQcUJsdTc4VVFWSUFGaEpVNVVvSUd3Ql8xd1RmUnloWTFTU1B6VHJhbm8yS1BXM2Z3X2NLcjVBVjZiOHdPUnZLVGRheEVUaFVDSU01eHo4RjdzalVHMlBsRUFXdDdIUG9uUzRsRzBPeUlVbDMzeURCZC1QbF92TVg3Ukt1QlNLb01NNFFIaDEtZklqOFN6VHpBUmVyUkNxT25qdmIyYVh0UldIU1RkWWFuSW1PM2xadw?oc=5",
+      "title": "Earnings Flash (FUBO) FuboTV Posts Fiscal Q4 Revenue $1.50B, vs. FactSet Est of $1.50B",
+      "snippet": "marketscreener.com, 2026-11-17T12:23:21+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-17T12:23:21+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOXpCdVVnanBOaHFlWWlVanl5eHcxb2FGMVJYOWpkUTJablQ3WElWaHhBUDNtXzRDYkJCa1MzRHlLajVSdW9GbXpKZmtWT1JaelZYUUpXYy1Sc0NvdUFzRFRrY1VxcUIxQkdYVWZfeEwzNlRISHRtZUlXSE1xWXVYb2dDbUpoWm41N0xmejBVemJRUXRWX1VBc1k4MDJOMFQ1MDlna3hPaTkxUXppYktYeXlKN200WEstd3gxZUc0d0tFSWhlb29pTkNPQ0J0Qi0tbXZFamluc1ZKRXduanZlQzFR?oc=5",
+      "title": "Earnings Flash (LUXE) LuxExperience Posts Fiscal Q1 Loss 0.24 Euro a Share, vs. FactSet Est of 0.13 Euros Loss",
+      "snippet": "marketscreener.com, 2026-11-17T11:18:42+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-17T11:18:42+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOThHdU1DXzRiU0dOZF9WdFhyM0dVRTVaSlV3T0lwWGpIR2NIaTFaR1NUcWpPMjNTQnkzbHlqMlp4dVFxdVVJaVl4LThEMUR2Ty1iWmV5YkxVaVBoZFJrdzBpT1dHRnpuR1UzdDgyWUxQY0xsZEpmNkFsN2dxOGh5X2J5MTlCNVZzcVF1NWZLckRZdXZmSnJrR2ZLVVRmRmRURHV1N0JXMjg3V2xnbGlQMDdoVTJ5Qm9VMmR0dXZGbVdTUFdtd2R6a0lrOEs3eHJnQlJN?oc=5",
+      "title": "Earnings Flash (ACM) AECOM Posts Q4 Adjusted EPS $1.63 per Share, vs. FactSet Est of $1.59",
+      "snippet": "www.marketscreener.com, 2026-11-16T21:11:17+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T21:11:17+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMWdnSkdLdzBwNFdwcjNEV1BHNERac0Q3U3ROdWlEZ3VjY2N1cXhsYS1zMmN4cnBIZUxWVWhxUVNoRjJJX2hDMktTN3Zhc0Q0cWZBR0JqM3gycVJHQi1ONHBVT2VLR0RTX2Uxc0lzckNQRlJEWXNLRHF4T2tZRmFOS0p0N0NxbWo0YTM1aVRnLWxTakN0YWFqTDIxSkNWamFfMGhWSGI2QmRIcWxLVEpBZWYwZWRFck96Y2RKMFZybzN3MW1tZnFTcXo5MDE5UEQwUmRRY0kwNU45OHNaMUpQSWFlXzhFUQ?oc=5",
+      "title": "FactSet Research : S&P 500 Companies Are Reporting Lowest Earnings Surprise Percentage Since Q4 2022",
+      "snippet": "www.marketscreener.com, 2026-11-16T17:17:26+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T17:17:26+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN0J2NlYtZE9jNzkxajJEbkJvWk5FOU44bkVudTFDSnRQeUdxWTBycVlyZnp5OVNWMDVPUVZ1SXRqVmRrUkN1T3M4eTVJRUJVLVMtZUQtTmZQZDRlVVQxSk16R2M3bGhSdXZvRUNBbjI2MFlGRURZbFlSZ3pKR3cwa3hPZU9TekFRTFJnbWdXQ3NMWVpIUjVnd1RwWlFZU1hxZ21mMGQtUGlHdm5fUmphdXpOWHdlaGdlSW1fY2lUa0RrV2E5SEY1RzhWcUhNcDlJS0gySmFXRXQ4aFZQQ0E?oc=5",
+      "title": "Earnings Flash (POET) POET Technologies Posts Q3 Loss $0.04 a Share, vs. FactSet Est of $0.07 Loss",
+      "snippet": "marketscreener.com, 2026-11-16T12:24:41+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-16T12:24:41+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUs2Q0hjZDM3RWtrMTlRbGJLOEdXeUtaWjZhN09pcHVWSjN1SUJsNHEyQkJOZjUtbXRBWHZkMXZIT29MUXA1ejRmWXd1SzNOWkFwcVpISGpYWWQxZmQ0aG1razYyMXJaX0pMVGZhSnZSbTIzY2JnWkpVVWRyNDNUQWsxcWZXLWM2ZGlKNXJ6RkpNWlFoa1E4bUMzOWxEcmpJ?oc=5",
+      "title": "FactSet Research Systems (FDS) Gains Ground as Broader AI Disruption Concerns Moderate",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDS/history",
+      "title": "FDS daily price history (Yahoo Finance)",
+      "snippet": "close 316.1 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

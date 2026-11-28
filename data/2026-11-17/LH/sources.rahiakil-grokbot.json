@@ -1,0 +1,61 @@
+{
+  "ticker": "LH",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Labcorp\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMDU5STV6cWFiZXdJTkVoVGk4cnBXeE1qaXU3WWV4NVFfdXhCU1lKSVR2Z05TUWN4aXM5RVQwSjc5NmNLaF96VmhWcEItSXNyUXk4V0VFUkZzeVBrQ0Q0U1MwOUZ4YWU1Rk4zRE15N3FndG1jSGFMQmRLcXNveDdGVmdyQTJRLXh5RkdESEhJV2Y2dHd4eUFIeXl3?oc=5",
+      "title": "Labcorp (LH) Stock Looks About Right After Its Recent Run",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdC1JWUwwcTdEd01VMjIxUW9FeEE3a25SRVp4cGNKaHNVMHRxSEpXcE5yNE9Dd0RQQ2ZxaHlldTA3U3B5bzdLZ3dkTVdYUjJubzZGaDFORzhUc3R0T2hnQUpUbUw3WVh4V1k3cFJFMGs4Zjk3eU1QeUlMa1RFQXpMeTBIRVE5TFJEZzFGd3Etb29JOU9KX0Y0bkNXS2pGa2liTnZySDc5cnk2MG9iMHloRzdQcGJiS19ZYWdQWnFPM3JpMDlxRm9sbzRTZUZnQdIB0wFBVV95cUxOZE1mUGE1LUl6al9QcmhpaU9kNTRFTzBEREhSaFRhVG15SmFkSWgzRENHOWVFUF90NXBIbUdvRDNsMEFrZE9RSi1mREs3d0RscGd3OXJfYUNjdlpseUlIZ2hJWkVsZ2o1NXViM2VSUWlETGVBblFVZ0xpSFFrcGtyTzF2WGFFc08wVWdhWklELWpZQXZlaUUxRnc0LU9YQXZTTjRDeC1LYzl0Zzk5aGR5ZFNWSllRVF9zeTZyY00xMHUwTkhmaVlyMUlyY2NvcldvSVNN?oc=5",
+      "title": "Can Labcorp Holdings (LH) Hold Its Value After The $375 Million Deal?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LH/history",
+      "title": "LH daily price history (Yahoo Finance)",
+      "snippet": "close 368.24 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

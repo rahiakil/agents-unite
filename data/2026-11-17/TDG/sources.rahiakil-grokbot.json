@@ -1,0 +1,73 @@
+{
+  "ticker": "TDG",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TransDigm\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOHFNV0RZQm00dEwwLTByanlfUlRqWG96T0hTaGdycVlHM1ZLVkJ5ZTJDd3U1Zm50NzhfTjR4SVJiM05JS0RnVGxzYUR4c1FZVUQxdzFNaG5pUmNnRUgwVDB6ZjU3MDExZWJNVWZpdHZhcnBxc0FQcVh3SVBXVXVJYTMwQTNydXloQnBNSko0Tk5Cam9VQlBFLS1POWNTdy0zaXRGNWVWbFhXMi1URUUwaWMtTzVjSnpBTWlHenJ3ZnNvZnZwSWkyMGhCc2xLeHhTRDYwZE1QX2luQVlWVDVodjFR?oc=5",
+      "title": "TransDigm Shares: Volume, Earnings and Technical Readings",
+      "snippet": "Kalkine India, 2026-11-17T12:07:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T12:07:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0k2MUdaeTRSdzA5LXllRTNCZWFsa3B2Z0Fzb29sOGQwZXRaeHRPSnBBdnhRcm4wX0tOejUyOUNwYlNjNzdjb2t2ZVI2Y0lzOVhublQtVGR1YmkyQjFTRkNxMExpQVY4RGxXS1l4NTFraUNicGtHZ1FYejItejZWRDNpMWUyWDEyVWE5U0RiR3pVM3FOelFOZi15N1NzQUNSbDduSXh2UGE1SHZQY3V4VjFaaWM?oc=5",
+      "title": "Form 144 TransDigm Group Incorporated For: 15 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-15T19:32:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-15T19:32:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdnRMYjIwSjNNcERteHpyTXVvUFNqNlJKTlZIVm1ZdXU4WF9jS1lRSU1hTVZWQ1dWWVdFbXUzZWJfS3kxNUQtRVhRWHBPdE1HOVlWcGlCbndqbFRwaXB3bFphNVY2eXQ1Zmlndi15cFdyYkVld3dnNk05eDczejNybmhzVE1uM2xhV3p3UHI5VVg0UEJKR3VvZGNzck9ZRzNIOWNhVkZkd2l3emhGcVZMOWZqNHhCRVhRaXJmUmdKWGpJdDlS?oc=5",
+      "title": "TransDigm co-COO Joel Reiss sells $4.27 million in company stock",
+      "snippet": "Investing.com, 2026-11-15T08:30:06+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-15T08:30:06+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TDG/history",
+      "title": "TDG daily price history (Yahoo Finance)",
+      "snippet": "close 1186.2 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

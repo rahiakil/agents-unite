@@ -1,0 +1,61 @@
+{
+  "ticker": "MAS",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Masco\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek45UmMyYzUwalJjclBoTzRNQ09lX1RVR2I4WEFFRzBjV0ZpRS1YajVQZ1FMQ3VTd0NUbW9teUMzdDBucUR1emNpVmlmMnl2M3VZckx1X3BmWjdjUk10cUlzNXRjV3RMLXk5QU52N201cDctWDI0cndrb1lGbFZ4Yi1yVkpISkliSDN1RnhRUVNYX0M2NE5xSEdIZDJIRWRIVGQ4bV8yOEJTLUFKaFpxbkJFRU9IWFRQeVlzWVlEcw?oc=5",
+      "title": "Trading Systems Reacting to (MAS) Volatility",
+      "snippet": "Stock Traders Daily, 2026-11-16T13:38:03+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-16T13:38:03+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdGVTYXByOW5zOUU4UDNXUDFZMW0tYVJldGJDT2tUbEZnWFM2b1B2Z2xtRk9KR1lrakF1UlR5NTdUZkFuS0YxMDBWSTFlYlJwUzVyTC15bnBjd1BWcXJwTy10WUhmaktwY2tucW13c2c1akVnbDljbk56MlAySTkwVXZwS3RpSDZ4c0pOV2ZLVC02bWc?oc=5",
+      "title": "Masco Sees Growth in 2026 but Isn't Banking on a 2027 Market Rebound",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.619,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAS/history",
+      "title": "MAS daily price history (Yahoo Finance)",
+      "snippet": "close 83.22 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

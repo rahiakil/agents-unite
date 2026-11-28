@@ -1,0 +1,49 @@
+{
+  "ticker": "ELV",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Elevance Health\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbC1ncVZ5NVpQRDFiQ2RfcUM1YlJDbzlVUkJZN0RqcU41T1NOX2E2NTN2Q2xlZm80dmNHTnN5VGJnajRodkxfeVNfV05aem9GM2VnX0N5VW02S0EyWldqdXRTUl83N2k5bmtTMTJrOWpKQTdlZ1VzN1M2TExjeFdhTzBidWNQTjlDNVhIbkNSX3EwQW5tb2RGQTdqT3lDaFRBY3hCWkRn?oc=5",
+      "title": "Elevance Health (NYSE:ELV) Stock: Managed Care Draws a Flight to Safety",
+      "snippet": "kalkine.com, 2026-11-17T09:50:00+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-17T09:50:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ELV/history",
+      "title": "ELV daily price history (Yahoo Finance)",
+      "snippet": "close 433.93 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

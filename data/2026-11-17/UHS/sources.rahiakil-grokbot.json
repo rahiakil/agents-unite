@@ -1,0 +1,61 @@
+{
+  "ticker": "UHS",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Universal Health Services\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUlg4VFFGR1BnOTVITURCcW9TaDlfaHlJRUhUN1FlMlZFYi1LSEhTV1FCQU5oR29HZ1BkZTJRYWRSWUloRFp4X3UyV2wtMU16U01JZmYtWkFnQVV5WVhIS0xpTHhDc3pUaTlIc05ENEpKUVpYSnR1ZWh0WVpVWUdHZGhvRm42blJNMmxMQlQ3SndXSVNaLXRwVmY0LTR5V1gzLXc?oc=5",
+      "title": "Universal Health Services Bets on Hospital Recovery as Medicaid Payments Fall in 2027",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZXFSaDk2M3Y1Qy12UU1oX3F0cHV3TTRXOXhiYUhmaWd0VmZiSE96Vnc0NzNxdVFhYVBZQ1NwZGNxVlBFRFBzRnJhemR4NU10RU9hNDhhVjc2Z1VwUHhlbnZiR2xfWVdLN3RUVmNkaUNWYWVCU0tBV2FDQkVmTklSalhYcDFKekhVcUY4VVhxV0c5T1JXcHlUVGQtSFBkWVVSUllTMlByeW9uaW9BOGkwek94X0VBUF93MHBEb1RfV0dhRXBtVlBCSnYwZHlOdFFNdHJR0gHYAUFVX3lxTE5aQmZhalNkd0hxMFIzNFZxZFlEZ0g4R1J6blF2UVdYXzA2ZWV4U0M3X1V0ZExFNXZPTnNHSUZRTXE4aHdVR1pfRTdocWNzSDFNUmFfdi13aU14NS1jQzZOQVBTTU41bzlHV3hyalRnSTVMZXc5VXU0SXk1a2RkWE1sV0ZYMXA5RGUzZXM0UmZJaWVabk5Zd00xOS1XYk0tVm1LS3BDaGN3WDVHbzV2c2czTkpMbHFMWEJfSVFXdUFTd2FHaTFKQWoyV3U0YUFrdVlvLTBuNmJkUw?oc=5",
+      "title": "Does Talkspace Deal Change The Bull Case For UHS Stock?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UHS/history",
+      "title": "UHS daily price history (Yahoo Finance)",
+      "snippet": "close 191.98 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

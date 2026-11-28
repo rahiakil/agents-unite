@@ -1,0 +1,73 @@
+{
+  "ticker": "HOOD",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Robinhood Markets\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 7,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOE5ZTHNRMFJIelpMQjJHOWlvUk1PLV93XzEwakhiOVFpRjJQNWl5UHZCWGItMFNFN1g4ZkFQNlZ1UGlQdVlLRWJyNlAtWk9wNkY2alpWQlNfdFMxZDBIa2R3VDVYc2M5UWJrTjBmazc1OWY0dE8yMnZTc2tseU1nc19LVU9RSnBRRi1GdTFnTkhQOTNnX2tGZWpSUzU3NEVucVBFOHdTVW1JQQ?oc=5",
+      "title": "Why is Robinhood Markets stock sliding today?",
+      "snippet": "Investing.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYmZhOHYxenB3WUVMdExGdDlPcTBkcVhpU2J4dlIxMjc3VmtjeHZDa3FtdUNwdVZYOFFXcEM4Rkg5eWhQT2VnTHZRLXctZEQ1NGk0SFhTRlV6ZmZMbGcwYVYyLWxyM3FuWGZyYjBNX0pkb1hYenRXLXNuUkRmbXVwMHlxeWE1bnp4Y0HSAYoBQVVfeXFMUGJmYTh2MXpwd1lFTHRMRnQ5T3EwZHFYaVNieHZSMTI3N1ZrY3h2Q2txbXVDcHVWWDhRV3BDOEZIOXloUE9lZ0x2US13LWRENTRpNEhYU0ZVemZmTGxnMGFWMi1scjNxblhmcmIwTV9KZG9YWHp0Vy1zblJEZm11cDB5cXlhNW56eGNB?oc=5",
+      "title": "Robinhood Markets Drops 7.7% Amid Sector-Wide Selling",
+      "snippet": "AlphaStreet, 2026-11-16T08:00:00+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2RqWnZ1NGp3eVNWRjBJZ1ZaTTBqMWNPQ3hnWmFwRzZkY1dRdG04VHg1VXNWOUUtUnJxRHhnUXhPcTJnV25aMkdsNkxoa0liNVB4eXpBVHJGMXZyNnFhM0pHREc5LUhYS0VQV0l6Tlk5TXdjRl9jYmw2TFM3NTQ3eHk4eUZLYXFqQ01rQ2NpNzZqMjh2SEFQaWpHTFFIYTUwMDkyR1JhVDRpYzQ?oc=5",
+      "title": "Investors Heavily Search Robinhood Markets, Inc. (HOOD): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HOOD/history",
+      "title": "HOOD daily price history (Yahoo Finance)",
+      "snippet": "close 69.19 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

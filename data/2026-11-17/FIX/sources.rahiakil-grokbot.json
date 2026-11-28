@@ -1,0 +1,82 @@
+{
+  "ticker": "FIX",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comfort Systems USA\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNjhJTGVENDdQUG9RQWxCUGRwc2VYWXg3LTRIYnE0R2ZpZjlKejdoMTkzUlJuNTNBX216MnY5ZWhVZDhSQWpyLWpidTdXaUVmUXBncnl3amt1Q0tRSmo1UGJQampaTDd2UGY3dW5IVGxFUm9FRjhPSWxweWF3cnZiQm9BcGtCNGxDWnAxYmV1T1c1Y3diMXVmTWxtMGJEWkZXTlloV3I3VFVRSjRRMlNGTkNNMTdoVTRhWGJOcU81d2l1YTBkX0N3ZktEYUpza1BBYjRhWnZfVml2QmMwOTJz?oc=5",
+      "title": "Comfort Systems USA, Inc. Stock 12\u2011Month Price Target Cut to $1,844.5, Implies 74% Upside",
+      "snippet": "TradingView, 2026-11-17T16:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-17T16:20:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSU5CTmVsX21vOF8yc2NOdjFpQnV3MGlfUlNQd2taTkNtUmJ1bUNuNUtuTlZHMy1Vcnp6M215WXEtUVJoNXhjZ2FWNUpBdFdRSjhPczM2RFBYWnBPWWNTeTlpRFM1dGRHTW1OUVhDeUdmRmNERjV6WmY1Q2VkTUU4MTdyZWFEanlFUFIydS1ObFhLMnhNbzAxaHhBSUFRUDg2OWk4aEh4YjJCbzVJR2l6d2dnRUhHN2Vi?oc=5",
+      "title": "Comfort Systems USA Inc (FIX) Shares Fall 4.9% -- What GF Score of 96 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-16T23:55:52+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T23:55:52+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcXo4YlYycVpEYU9OY2NfbkVBOExMWWlOUmthME50X3psZTNoQ1Fmd185V2xvWnI5bG9ZZjRtUlpfS0VKYUU2TU05WVJPbWE2YWZDVjZrM3gzYS1RSWV4azJKd2Rtb3BOMlVuWjVWcHp4cW9fcHFUbjRuVVlMMV9qY0JibHZhTkpWcVZuVGxtRnpYeFVreHBGb25JeVNUbHVfQVotM2ZqZmdoQW5lUVlxVEFOemU?oc=5",
+      "title": "Comfort Systems USA (NYSE:FIX) Stock Falls 5.3% - What's Next?",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926129104/tm2630100d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-17",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIX/history",
+      "title": "FIX daily price history (Yahoo Finance)",
+      "snippet": "close 1099.02 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

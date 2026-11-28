@@ -1,0 +1,97 @@
+{
+  "ticker": "PFG",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Principal Financial\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPc1VjSnoxM3NIdkZpWlZTcldxcGtsWUV2UW53V2VsZmRYRHFRZ0RrMnZFbm5iZlpKSlB4cFFlM18zVy0tNmhCbEZJTGNDWmdjaHhIWnlrQjVMSzRuT2dSY29pMkRBS3VFdU1HeGNUZ3VrVklxWXlyVk1aanpUS3AxTDNNS3hSLTAxS25ORnBHaERyTk0ydDhQd2RPbFNRVnQ0ckxEWGNZakI5Y3hVOVdmUGE1a203aTZPNll6RFgzM3ZMNUVqTWxCbFUtVHU0YnhoN05CQS1aVkRDclZvX01fXzRia3F0N2lF?oc=5",
+      "title": "Legacy Housing Corporation Appoints Darren Mccallon as Principal Financial Officer and Principal Accounting Officer, Effective November 9, 2026",
+      "snippet": "www.marketscreener.com, 2026-11-17T20:05:52+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-17T20:05:52+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWZwMjI4WGhiUVhrb1lJdE80Y19pSDhIVmkwVk1IMWJuR1ZiWmhqSkwzZGNRMWhmcXpnMmJ0WVhzdzYzYnVScHVqV25WTllZYkZta3ZDMlpUb0pfNFRqX3JuckY2S1kwLTFsUy1YdHRMQkE0cExMSEJMYmFlN1cwcjRLRDB4MzFPMGcyM01BLW95bTdGdnpOa2dPbWpWNGdsaDdXNw?oc=5",
+      "title": "PFG Initiates Coverage On Principal Financial Group -- Rating Se",
+      "snippet": "GuruFocus, 2026-11-16T14:40:48+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T14:40:48+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcXpPS2wxTC1Xa1pIWTlZTkdKOGRIZUxTeXZfNlpyN1ZLSkZHWU81Y0xSa2VVWGJaQjBFejEwZXJVVlJPNUVmb3k4QmxnNDBCQnhLcWE0cnZUNF9PT3hacVd2TUxhZ0h4Q2c3SDl5WEpiVGNST0k0enQ0MHBOeHlyWUtDTElSYzlObFlvQXJFbm4xM29wb3JpVVJoY1hvWXk4Q3VDOUZXYzZSV3lNSXdmSDVvaWM4MUxWZlhIdjZZTlFiQmtLRUlFTEttZmpkOVVl?oc=5",
+      "title": "Principal Financial Group (NASDAQ:PFG) Now Covered by Analysts at UBS Group",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOVBBRldGU1U3aXVnUnlJVllUUERrQWxEbTB3NUttY3V6ckxTTUd5anJHUktGdjJHclYxRjNPaVZ2Z2VoZzdaem9Fb1AxME1rVG1wYkc0UFlfZzNsOXJGdU5RM05qUDB2RjgtSlFieUN2bWpsZXh0ZUNVUXNwTXFVUV9sdUZ1LVJXN09ZbEZaNUw0R3lCZzRuNUZ3WE9mMm05U1hhRzFDTVhVdlZCeExMekxoWG5GODJtZmxlSU01WDRTQzhRVUZGOVprWk5HTGUyU2kxUVVXZE51dUXSAeABQVVfeXFMTlhUVmpvSVdackZNYk5IendCZXJ1WWtzSGtFMnlSSHY3TEdaY3IzdDN3MEhUTEZxVmtYVWFrT3BXeUlaUHRzei1KcWNZQzNnNE96QWRCeEZuYUNGTWpfSG5aOEE1cW44a1BxdmdjVmZjTnRsV3ZFeE9semJabzYzSmpsZFdBZDhYMEZSek1WQ3I3aWFPSEtvVW9sVkZ6N25aTjlzdU93YmRsSUhlNF9qbzlmbjNUUzFiNHZvYWVhU2JfQlpSQTZoQ0NicUVCM1BzZkVUWmVWc3c1OVg5M0R2Vm8?oc=5",
+      "title": "Is Principal Financial Group (PFG) Fully Valued Following Its Recent Rally?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeWlrYUFTM1lYcXpFSmkzZ0xuYmw0OW8tcm5SSFQ5alZLRFc2ZEVlTXBfeGRLMVdjN2dIMlBvSm8zSUo1VHRaQzgzS0FQckpZRXl3R0p5RjZTMEZOMENINUwtRUljSUY2RHg5aHVxNG9yc0FGSFdwb2hhV2Jrb0xYSm5ONC1OTkNLZmRaMmNFeG5FeGRfeEM3dDdXWWsxLW5KdjI1TjNTNVR2WVNZaDZrVjVLeU4yOWJoSXVObmV0UlFpbHMyVXhvWHZR?oc=5",
+      "title": "Principal Financial: Still Bullish After Stellar Q3 Results, With Retirement Niche In Focus",
+      "snippet": "Seeking Alpha, 2026-11-14T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PFG/history",
+      "title": "PFG daily price history (Yahoo Finance)",
+      "snippet": "close 111.35 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

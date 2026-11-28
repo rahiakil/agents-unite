@@ -1,0 +1,61 @@
+{
+  "ticker": "CTSH",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cognizant\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 18,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMm5vT0tiemtrbzJ0bW9SZUcwanlCdEp3YklCT25pTDNkbzNaQ1E1R01SY3VLWF8zQzV3ZTZlRUh3TWlfeFNPcm80eG5QbVVrNmZ5Z1RvZHIyTWpBQWgyU185OVBwTVZqbUVsU1RFR2pxUmlHQkYzcWFxOEJJVEhOdGV0SEluczR0Rm1mTENXQ2U4Um5yUmE2UWFYNzVZc3lzTDQ1M2xobTlXaUcyenU4TmxwOU5pQkhDdGp6UU90Yw?oc=5",
+      "title": "Why Is Cognizant (NASDAQ:CTSH) Gaining Attention After Its Dividend Declaration?",
+      "snippet": "Kalkine Media, 2026-11-17T13:55:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-17T13:55:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNXdTSC1qUFBQUU5FempuYldtUU5SNm1JSHplOVZ1OHNncFlxcy1OYTkwc3FiRXlYU1VHZEE1TmhkN3pSOHBVazNOR0EyOE9FUl9sdXF1Z0lvTzY0TzhtalBpRTlTbkVPNVdyNVYwM3VnVC13LTJrd3R6czdnYlhTaXFHbzR4S3ZselI1SFZIcGk2RU95Z0tYQlotSE85aWR1S2x1eWxpaUxpdF90SUR30gGvAUFVX3lxTE01d1NILWpQUFBRTkV6am5iV21RTlI2bUlIemU5VnU4c2dwWXFzLU5hOTBzcWJFeVhTVUdkQTVOaGQ3elI4cFVrM05HQTI4T0VSX2x1cXVnSW9PNjRPOG1qUGlFOVNuRU81V3I1VjAzdWdULXctMmt3dHpzN2diWFNpcUdvNHhLdmx6UjVIVkhwaTZFT3lnS1hCWi1ITzlpZHVLbHV5bGlpTGl0X3RJRHc?oc=5",
+      "title": "Cognizant commits over 25,000 staff to Claude and will run it for clients",
+      "snippet": "DQ, 2026-11-14T08:00:00+00:00",
+      "publisher": "DQ",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTSH/history",
+      "title": "CTSH daily price history (Yahoo Finance)",
+      "snippet": "close 60.0 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

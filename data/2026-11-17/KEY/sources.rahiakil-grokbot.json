@@ -1,0 +1,73 @@
+{
+  "ticker": "KEY",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KeyCorp\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 9,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFd2VmVKZjFIWmVkeHUybnIwUloxSWRhLWlqOHRiQjV3cGNRZHU1RWMtZXVxZ25mM19rR00wMEkwcW51SmRPUXN6clRqT0lhSTVrdHlGLXFpT2gzQUdOWGRpRDBieXJFZG1FZ3g4dm1QeTRReVpjMkNuUG1KZ3NIYzZVVldnNzZYY0NBUUV6cmVBbERuamx6WWdKVQ?oc=5",
+      "title": "Is KeyCorp (NYSE:KEY) Declaring Its Quarterly Dividend?",
+      "snippet": "Kalkine Media, 2026-11-17T06:32:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-17T06:32:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnVGb0Y0cHpkUGlvUXZVSFFQUjRnbGxVMkxxU3R0VWN3RkI2THlUTlRGUk1NM2JwVFZPdm9ZUTFISjhYeG9wMUlMX05UWWdYSGR1NmhQRVoyWUNmQ01fWVhUS3FuREthTnN2WUpQRkY5djU0eTRZWWNzc29iV0J2V3BTZzRkaXNJbDZGTXBrMjlYNTZncWExekg1QTVXbkhtR3Q0NEt1akZrd0V5aVJBZTBoZFZZb1YyVHA1WFZ2UTd5QQ?oc=5",
+      "title": "CareTrust REIT (NYSE:CTRE) Stock Price Target Lowered at KeyCorp",
+      "snippet": "MarketBeat, 2026-11-16T13:52:13+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T13:52:13+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbmpZWExncldSVENENVprRENKdHZHTDc0T2JYc1c5VU0zc3hYSEtpT1pNcUZPYkk0N0pzT2c2QXRXZnA0QUZaSWZ4S1RRaHVGemloZWFKOVl3NmFRakU4bHZSdWR0OWFBWlhpY09EaExocDVkWEFOTThDMEk2NTNpZVpyUWpLTkRSZG00ZUpCdnlzY2ZIdXk2ODd0YmlqeEpSY0xTeHVLbW8zaWw0QjlwbkxJUDYtQQ?oc=5",
+      "title": "KeyCorp to acquire ownership interest in MMG Real Estate Advisors",
+      "snippet": "TipRanks, 2026-11-16T08:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 20.74 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

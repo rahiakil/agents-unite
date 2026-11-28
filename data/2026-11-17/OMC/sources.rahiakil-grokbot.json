@@ -1,0 +1,97 @@
+{
+  "ticker": "OMC",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Omnicom\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVJ2dFZNLWZkZjc3bWd3SXVtU3NyelBWVUoxMUkyYWNIanpUaEkyZXFNMlRiYkgxbDFuUkp6TFY3V3VVbkstXzc4R2pmTENMZlhtaURiMVJHQ05HdmdoRXFEeGhXRDlzWm91UFRpdDQ4RkRpT3JSMXZjang3aklTYkZtZFUzcnQzNzdTNzBfbk9zS1RkNWlsLUZ1WW1ZTkNJVFBNYkhIeGhnTkFXeUcwdEF2b2M?oc=5",
+      "title": "Bond Brand Loyalty Inc. acquired EP+Co from Omnicom Group Inc..",
+      "snippet": "www.marketscreener.com, 2026-11-16T23:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T23:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmtua19qUnhwdXVtdkd6R1dQUzFzUk5tWDFCRzVHeHNQTW9ueGxhOG1QOGd2a0pRWTI4TmdlTWZhaDB0cVlBd0NvZVlUZTRweG9pTjVId1d6Umw2ZllKT01tQ0I3VlZOR1BNaEN5ZGRXYkZXWWNhcXZLZlVld1hQRXZ6eFZQNUZvY1l1bFYwdHU2cElrZG5neXpDNW9SdWF4?oc=5",
+      "title": "Omnicom\u2019s Acxiom Names Gary Laben Chief Executive Officer",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM2doNERBNnpsNVcyZW9rUlp3SUdNY3R4V1NoLTNPeHVYVE9EakI5bTJxeDBONXM5SUdJTGZEMVZCZlB2bkxDb1o3cGRBdlNKSEt4MzF6SlZUdkhZLU5KbkgwYzVyX0h6SnBGV0xPakpIdGRQT0RQUUppVDlJSm1uaEZWdWxHS2ZBZjFPYWhyOA?oc=5",
+      "title": "As Omnicom centralizes, its creative networks face an identity crisis",
+      "snippet": "Ad Age, 2026-11-16T08:00:00+00:00",
+      "publisher": "Ad Age",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbVJyTC1RZERQVG5ERHBLa1BOZHFkTGpDQ1psX3I3Tm1KazFVZEpUY01BMjkzWko1WW1ibWRXb3RFVUlLUld1bzQ5bUhJYVZNV2dNSkpKdl9hUk01RTVsMHRYZkNTNlBEMUxsdlBMOU5oZ211a0tzQ3EtbXZWMzNvTktVeGZzNFZfNExsZEVaUVhXUQ?oc=5",
+      "title": "Omnicom: The Market Missed The Advertised Upside (NYSE:OMC)",
+      "snippet": "Seeking Alpha, 2026-11-15T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWGVmalI3OE1RcWMzREl0a2NFT2d6b2NNeEpPUGt0dXBrZFdreXl4aGhUX1lpOVdiQTJKMENQQnJkZUFtYlZLVXVDeUJ3UzMtWDZ1bWJlUy1ybVdLdGozeVBCX1dZUW9VN19QZlkyTWU4OXMwakZDTlBSTkNxMUlxeVhuYXV3STlELU5KR1BUNjNXeGk5d3hvU1Z1U2NPMXVDMFhHT09vYzlBek5qU0ZsRVRKMEd3VlVmQ0lvcHJEaTJabWpU0gHKAUFVX3lxTE14MHhxT2VQWmJPbVN2NXA5bEJaQ2lHaG42U2N6SVpuQWhOa3hQcWpCY2VHc1pvZ3B6QXhQNU9vemhUU285MzVnZGVtMHctMW5sUGhBQ0RITVFNeldhampYY3lvS1AyNmVXWlJHOU9pNzBJY09CalpOWTB6Q2pnX0dTT1lMdlJ2RFZnMGg0STA1am11Uk11azJrZHBtVjNoRVF4eFlGME1DWEN2YUpCUzVPbDEwcExRZzVLeTFtOWFYUC0zWlVJWkNJeXc?oc=5",
+      "title": "Is Omnicom Group (OMC) Undervalued After Its Omnicom Health CEO Appointment?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/OMC/history",
+      "title": "OMC daily price history (Yahoo Finance)",
+      "snippet": "close 87.6 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

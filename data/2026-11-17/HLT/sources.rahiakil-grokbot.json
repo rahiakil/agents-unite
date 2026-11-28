@@ -1,0 +1,49 @@
+{
+  "ticker": "HLT",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hilton Worldwide\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUFJPcDJEMWRCM0hjRk5XMThQaVBrSllCWmRmWkU4Q2RVcTF4dXZWU2prSGpvTGdRY3dRSnhNV1ZKZGN0aTBBMzhTYTBIUUxSdmJNUjlBekk1bzRvdklHeWl4cEFkVVFmXzhpVDFOdm9oQkVxMmtPTE1rWDNjTDlYaV9LM2lkYUM1c0lieEVZbXFHSmJHSW1XTVU5RU1objlXMkVWeXU1WmhtN0p5MDV6dmlxUzlWNTRvYVhXU1FZX2RoRV9fbnZsRHptQk1EaHRzM0E?oc=5",
+      "title": "Hilton Worldwide (NYSE:HLT) Stock Price Target Raised at Sanford C. Bernstein",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HLT/history",
+      "title": "HLT daily price history (Yahoo Finance)",
+      "snippet": "close 370.53 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

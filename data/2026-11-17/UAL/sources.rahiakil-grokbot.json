@@ -1,0 +1,133 @@
+{
+  "ticker": "UAL",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 9,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONm5kcmRZOGVxYlhHTERjMFVPWE4xeW52ZGtIbnRBWlhrOHJxZzFScEtHb1dIY0NhaGRkaWF3OGtWYlZLejEycVhsckNXY2RRcXpyNXUweWZoSkY0Z0lJTlBiQWl2MDRvNGhxa1FCRWNldWhhZFM1MjJBVkFSanpKZGlFWUZUZ1lQcGFENklKUXJlQTZ6M2JrZm1obkNlX01zaE9xSFRBMnZSUnBsb0RQeWVwODFvcXVfUHRmdVk2ZEo?oc=5",
+      "title": "United Airlines Stock Looks to Recoup Losses After FAA Grounding",
+      "snippet": "Schaeffer's Investment Research, 2026-11-16T16:29:12+00:00",
+      "publisher": "Schaeffer's Investment Research",
+      "published": "2026-11-16T16:29:12+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRnRSTFZ3MHRoR0VZbXVfMVpzNEloQUlFdzZGMmhLaF9XT3VpRFRpeW9NOUtHR1BwR2FaaFVSU19iQTliSlVLWHdTNFRGT1FSM2xLY0JJdHR1dHRoZXU1NjBsZW80bVNrUTdsczhHVmwyMW8zOE1HT1czblhQWVRUdXpKanhEZ2RXdjAzSlZMaDF6WjZELXVRN3dQV3hXTVdQVnhicllZTURNSjJ2WVJCMkJHRGswOFFkWWpmeFpWRTFvYjA?oc=5",
+      "title": "What Could Surprise United Airlines Stock Investors On The Upside?",
+      "snippet": "Trefis, 2026-11-16T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0JVRTluN1llSzlnQ3d2ZDRDSFYxYkU4OGhkRUwxWFEwWGNJWlIxaUxSNHVSU1Q2bXJjRkRCbnJZV3U4cHY4WXJvZWJGMG5wdTFkck5Pck9PRVl2TGpoQkZPTDVKS2g5T3kzQ0dCSmdrWm1LaWZaa3RKcFNtekRmdmhpNTBaUWVtMkxvdUhFQ2VET3p2Y2lKdFdRZloyS2p4ZnZQTnZJNVE1OTlpc2dn?oc=5",
+      "title": "United Airlines says technology outage that delayed departures has been resolved",
+      "snippet": "Reuters, 2026-11-16T08:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRzdEdG9RSXBXV1ZNbVQ2QlNzNWMwdFJMdm84VTJtSm1TWVhSQTctbzEtcTY3NkFrR1NKT1ZMaDAyWXJ6OC0ySUxWY2JTNjFtcFNFU3hJcjhuaFlXTmloSkg4ODh0V1dUMmpXZHFNVUhjR3BGQnVIaGNmSk1icHI5QmZ0emNUTThraUJYLVA1VWVHSFRFWHdzVDJJQ2xFWFE?oc=5",
+      "title": "United Airlines Says Tech Glitch \u2018Has Been Resolved\u2019 After Delaying Departures Days After FAA Outage Chao",
+      "snippet": "Benzinga, 2026-11-16T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjN6ODRMZ1JBT0NTdDRBNE84NFI3VVFkWnJnUFBESDdoWng3OTV6cGtvcElJR3NYclZUem9oV0tWY3JRUmYzSWtlR2FpMVNwQlo4X3JZT1FGR1ZFSDBhU2pKaG41UVZPNGtJMXBMMWh2U3RyQ1JqN1ZCZjk3NVFHbE9wTmFnYXBpX2xIRzFsWk1lWVd4TVQ2bw?oc=5",
+      "title": "United Airlines Resolves System Outage, Stock Drops (UAL)",
+      "snippet": "GuruFocus, 2026-11-16T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEVldWlpeXVFazB3cXI1aFJMLW5FUnFycnBKYVktWi1qd3pBQnlocDg0UEdNWEE2NVJNdXJadkREalJacHBKWjhRSG92dmNjLTNEUFNYMzE0YnY3SktqTHY3MEtvdGJpalZfUmZpSURJSmJtVmY2eGdHREpVOUFBbDA5dE4zdkFLS3pvdlo2MWVURFRvQjRRSlFNM082bFAwZkhlcm9zM1BRQUNEVHdhc0ZVVGxxTWo2YWxnSDVCZ0tvOUFjUGc?oc=5",
+      "title": "United Airlines (UAL) Faces Technical Disruption Impacting Depar",
+      "snippet": "GuruFocus, 2026-11-16T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOSmVaWF9ETUh0dUh3REkwV3dUeW9meVB5VDdubkd1WVJ1LUlMLURjdGJRLXNKZWxVeW9tRDNaY3pCckZOREZGTnB4STdsLUxFRnB4bkxKOE5fWFBFRlFzZ0hKdTJTeUF4WmpTN3Vxd2NrdjVMUV9KN3FrbGE1N2lpdVFlTm5NWDI3aDBJZTZFOWctc2RUVE9IVi1wYktRbnoxV21NQjRFTFpwUEkxZUhyUUxmNmpmZFN0cy0tNG1scU5lemNMZllDaXJXaU9MVXA2UWlCNjNiQ3Z4bmt5MmF2T0lvWjFGM294bVBvaTZLNnBndXZ4bkRuZloyWlBnS21rS0E?oc=5",
+      "title": "Google Warns \u2018Era of Autonomous Attacks Has Arrived\u2019 as United Airlines, JPMorgan Chase and Microsoft Gra",
+      "snippet": "Benzinga, 2026-11-16T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ2F0dU02Y1BKQXhOZkpoNDBHSDZmdGhtS3R5OFVjcFgtbWpwYjAyc2I0Z01MYTROc3NCVHlzMndiY25TbUxRcjg1SDRVUnNlMDBfcWtJUTNZcmNmWGZHVDhHQUlyWEF1cFg0a01vd2NQcWxwbkRaR2p1LVBBaEZuZGYyMFRDRks1LWFvX3lBUUdlODhPRXFuTnpNS241c2l4?oc=5",
+      "title": "United Airlines is grounding AI travel agents, and safety is just one of the concerns",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 106.35 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

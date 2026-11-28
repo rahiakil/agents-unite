@@ -1,0 +1,85 @@
+{
+  "ticker": "IRM",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEdGNm45SkFGT3BOd0todS1mY3RLaFlPeHZwY1d2VHZKMW5DWEJTX3Ftei1VUzlXVTgzYnFzWEp6OFFhSklNZXRTOGt5bGk1bXEtMWRqdG43Vi0zRUlET3dqRjRibjJmdUVsdXFKWmVuYnN5NDhKWjdCNzI4SDdmOHVvekFEWmhUMVFxVVpVaFhQTHRQVVBLcy1jUWFsV2JOWEJOVlhaRE9TM1RDNFVjdG53?oc=5",
+      "title": "Iron Mountain at J.P. Morgan conference: growth bets deepen",
+      "snippet": "Investing.com, 2026-11-17T16:58:51+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T16:58:51+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR2VVVGUxVVVaUmlIbURIcmV4aEJHWS1XUFVnZl93NFFMRW5yTlhRVkhVcDBFUVlQN2RnZ1RwSHVaRi1oS1ROanN1WEVQRHBVcnZlTW5reXFLNGtEQzV2UTJqZlpUdXpWaUYwZ1gxT2hPam5QTUVvLTd4SDVHamdpNUlNcjd3VDJ6OVNxVllGMXV5R1FadWRVeHdsWndnd05vRlFSSEtOaUcxSW05Z3VsckVWSDdKOWE5dHlNWkFKbF9mdFF2NjhBeU0xUnYzWHpISlB0WTg4OA?oc=5",
+      "title": "Iron Mountain (NYSE:IRM) Share Price Crosses Below 50 Day Moving Average - Here's Why",
+      "snippet": "MarketBeat, 2026-11-17T09:45:12+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T09:45:12+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVFFVeTZfVS1kTU9nVzJ4X2ctUElaengyRjdfblRLZUMwTE1id2g3eFNMLTFHd1JPcHB1RG51ZnJmYXgtTUFrSklXdlpYLTRsa09FazZoVmtKZXR3VlNjN2E1dVRyY3pBa0cyVGd2Z2JSeWlPd3Zxbk5RLUJGcDJ1Q0N3S2dpWERzakhCMHVn?oc=5",
+      "title": "Iron Mountain partners with Op\u00e9ra national de Paris to digitalize historical posters after muted trading session",
+      "snippet": "Traders Union, 2026-11-16T13:44:25+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-16T13:44:25+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONVlhOFBTNVZLOGFsN0hIQy01OHR6bWFCVjNCaVAxYnlSWmRYS3I2RF9RZThKY3NkSko2MGo1aE94TUpZam1iYnc0eXVRMk92SVhBQUZtd3Y0T3lOR0xYRGpyYTBfYU5QSDVCb0xGSGUxc21tM2tXU1g4d09zNHc4dGdzQ1ZHV0VrQ0ItRXdVZWxiRHBHT0ZGWmNjVmxQcDNu?oc=5",
+      "title": "AI Adoption Stalled by \"Information Tax\" in Financial Services: Iron Mountain Advances InSight DXP to Bridge the Data-to-AI Gap",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 111.79 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "CAH",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cardinal Health\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMUhYb2ExV055X1Z2RllfZTFmMTczS2xtQVhzNzZ5T2xaVy03TkdUT0IzNlJtdGpkNU1KZEhQRGVLeERKZ1NQNmJQZmw4eGQtRFVxdnBNWUwwbHpHeDlMOHFIT0xPVkNUVWV4cUYzMDE4NmpGckhpRGNKeGtNcm9qQVVKZVRqdWxBaDlPWVFocExfZnB3VkVrbXNLSklIcHRwU1ln?oc=5",
+      "title": "Zacks.com featured highlights include NVIDIA, J.M. Smucker, Taiwan Semiconductor, Corning, Lockheed and Cardinal Health",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNWZYenlwTktPMXR1WmZxTkZDeHJ1aC1weklHelZLYVJwZmZhUUZtak0tTHZWQXhvS2M3S19sX0F4RHB6TUQ2bnNYUndob2lkd3dzcmE2dDhpU2Rpelo2RURITy1XVHM3V1JkcXVLVzYzNXlkNEh0WkJiWmFjazFhbFMwV3dELTV2QTB2VFJUc0l5Z05XOXZmMU43YzhPZU9RZDFiUQ?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Cardinal Health Stock?",
+      "snippet": "Barchart.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM3p0R2RScGdmOWVPVWhZQU5ZdWladDRGR3A0d3BLdnJTMUYxLUhzdm1NUENkZnlseTB0bzNRWkRQM1R2QTRKUElQdU9wcm44S091SVBpS1dJRlUxYkNTR2kwZ25WQmJaTHp5Q3FWeFBHZGdXZU56Zi0yRFJUQURHNk1HVWhUT2cwSmVqdGFmNl9aeFV1a2wtc1FJZWFLblEyVkZYMW1ndU1xOERicWFkZllUaXJVeWQ5N3NmLVJpRTdHbmM2RzJKamJveEpDQdIB0wFBVV95cUxNTGdLejhxUnd1TXNFNFp2RmxHSm1WVW9vUHVTWE9PdjlTRVpxM19WMUdZQ05ockh0NjgtZU9sRzNSX21HdUF3VnJjSDI2WThKaTBXYjdNb1Y1aVduYWViNHZSTFhwVzMzZGpJQ1VMOEFjVWpoZ0NOOGtXVFF5MTdRT1lCbm16U2pVOXFud18wUjY2Sk9ENGw2WEFUa0h1RG04bU5VTTFCVHBSaUo2Vmd1VDhFdHdVMUNvZ0hxSjhUYmltdkZLRW1KVmhaSkxIOXpHbUI0?oc=5",
+      "title": "Cardinal Health (CAH) Gains Fresh Support After Strong Earnings While Fair Value Stays In View",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.914,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUU9tQ1NvbEFvQktzaTFGWFNEZDJkTnZuME5BTXFHdUlxRE1UdU55RHNTYnBIQm8xTFZaWFd6a1ZyMVBuWHhoZThYV2ZPWGJ6c1dJVUlQb3Q2Tmw3MXUwNTYzVzJHaEpPcGJuZ2tNQ3UxNlJ1XzMyX292YlpKek5ZTjZpOUlHVE1taVFqVktCYkxwbjc5SF9VTVo2WWhpSWkwNVozaUZOV3dWSVd1U0NNVUl6WXRjQQ?oc=5",
+      "title": "An 8-Day Winning Streak Has Cardinal Health Stock Up 11%",
+      "snippet": "Trefis, 2026-11-14T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000047/cah-20261112.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 5.07",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAH/history",
+      "title": "CAH daily price history (Yahoo Finance)",
+      "snippet": "close 279.25 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

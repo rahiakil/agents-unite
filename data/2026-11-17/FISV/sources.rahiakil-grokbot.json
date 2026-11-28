@@ -1,0 +1,61 @@
+{
+  "ticker": "FISV",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTdKOHdlZ1pEdk92LWhLM2NFd2lQMk5XRXFkY3FoUTZhN1pOblN1ZHNURlFJMEpkcUl4bXlleHJxNUluVGRvWHNJZXo5eGNicGdPdFFadEI1VkpvOS1yNHJmVzhyOUplSkNxS2gwbnBvcHJrTGExWUxkbW50UXlLWUdXQnZGNzdyRTB4aGNCTjJtc2FOVzh1ZlBEQQ?oc=5",
+      "title": "What\u2019s next for issuers after Fiserv cuts a debit network",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWxtQ1MzajJvOElZQmZxbWFTekxVVlNEVUtVSWVZNWV5emFONW9DM01xR0RPNmRQTG1FMXlZUEJScXRGOS1lSkJlclFXM0Jpc3QtLU1Ka044b2cwOGEwRUcxdF9QLVFvT2J2ZmdjX0h0ZHZyeUZ1NUtNTF9CLUJtaW5FYU85MnB5czJTMnlYbDl5MVRFRzR1M0tjb0dXaXVQODEwMVRRbw?oc=5",
+      "title": "Fiserv on Track for Longest Winning Streak Since August 2024 -- Data Talk",
+      "snippet": "Moomoo, 2026-11-16T00:08:56+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-16T00:08:56+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 62.31 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

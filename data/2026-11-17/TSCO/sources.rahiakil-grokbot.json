@@ -1,0 +1,133 @@
+{
+  "ticker": "TSCO",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tractor Supply\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 5,
+    "irrelevant_or_spam": 15,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkJiYUFPczJHcnpoVldRdElYNER0SUxMb0dZM09NSWVIMFJucmhZMFZISE1EekpraVo5RktxQjlmbUdYSms2dDBOdU5tYTM4eUd0ODZQTndMZVNXT3FkVExIOV9KOE5DS2M1UFhueGtJUUs4aVR2Q3FLTjlCOUVEdEh6dUcyY2xUTGpNOWh5NUlvelFIRkd3VlNFaXhDci15Z0tpSEdR?oc=5",
+      "title": "Stifel initiated coverage on Tractor Supply with a new price target",
+      "snippet": "Quantisnow, 2026-11-17T12:59:18+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-17T12:59:18+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQkZCUUdKUnFXbEJTRjluV2dPUmNORW96U0dQVVBTanNOTGd5ck81V0c0YmM0amhIZmROYVktWUFFazhfU3NONnBiUlpKdGpHcGkyNGtMOWhJbW9aMmRnd2lyN1BNaWRqTU5IQXA1LVpSUWZxLVVEUXBTRHN1YlBqU3MtM2pSLWd5NEdRdFMzMEFZcUFLQVNtV2VNQ1FlRGc5bzRSa3ZvWER1VGhHS2l1d2NRSWVHaVBjb1NwZ1hKUXRmZw?oc=5",
+      "title": "Is It Too Late to Buy Tractor Supply Co (TSCO) After 4.1% Rally? GF Value Says Undervalued",
+      "snippet": "GuruFocus, 2026-11-17T00:41:47+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T00:41:47+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWdCd2NxUWZHdEVSQjJjVi13b0pxWlZMa0dmVVlETWtCOGhib1NpdVU2WExZZmtRdklhZFNNY2JJUjF3X1JmTFBpdGhENWpyRUwzVm1XOW10VmJpa0dFLWlteWFWNlNYTHc4QzNUa291ODRUbDk0czlWTElTTFgybTNiRFREdkNqSkh1d05XNXJ3V29Odmc5c2lQbzQ0YVdvc3pfdTdvZ1ZyZw?oc=5",
+      "title": "Baird ups Tractor Supply target, names \u2018Bullish Fresh Pick\u2019",
+      "snippet": "TipRanks, 2026-11-16T19:15:25+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-16T19:15:25+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZmdhNlUtN242RkJJdWZQN3A5dzVxMHpOTHNlYXU3MjNFdkdsNW9qZm9SWDlkRkl6TnVncE8yeU5BN1ozSTIyT0M1VG40S3NQOTNqV01pMVJoOHJaNWVGTU92N01ZMmNUeFNJUkZtcG14ZmVCcGc2MTlONlo1cWJDcEROZXNzLUVETFlLY1BUclhhZw?oc=5",
+      "title": "Why Tractor Supply Company (TSCO) Stock Is Up Today",
+      "snippet": "Quiver Quantitative, 2026-11-16T15:36:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-16T15:36:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORkNpSnlTUFQtR3lQWU5FdUUzZGlJa0FtRTFNQ1N2RHUwU1lXN19jTmV6V0dSaWtTM0hsSHRZYS1lM2l3WHNqb0ZNSnBZNXpzaktVRzBaZ3RrcXpscEI4Yi1TSHBMSHJPMVA2V1QtWUtoR0hocncxZkpHNEU3TGZCQmhjWUZpZVNjWDJKSUFZQ1p3VVcxbWRONUZsVUNYM05VQmtnQWZwSFJNRmViQTBlQW1TQ2ZTMVZMZ09TY2tNb3RDTFVlVnctUnJYa0JENDhqR2V5SkhkY3BGSUZCZXM5UQ?oc=5",
+      "title": "Tractor Supply Co. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdUpsMnFaYkZ1VDE0cmx3a2hXMzBfZU44allfVmNnV2NUbU8zS0l5TFNrZDR2TEFxak40Ui1uZE53NE9hekpydzNMQi1HdTdHMWpDX2l4TGFZRXBuOUhUcTNHU0ZjQXZLQ0FlNTczVmk4dHpzbDM3bFY1ZVJvUHIzT01uZ3NqRWxLd0tPeTNxT2w4WGlnWEdYQVoxVjhDZ013eTdfWEd1dThEMVJNenNJTGR3?oc=5",
+      "title": "Tractor Supply (NASDAQ:TSCO) Stock Jumps 4.9% - What's Next?",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU2xDYlJXREhVb2xSZm5DelBHakRpd05iVTZiZzVlX3pBdURCOXM3bndmOGpZSndjWnYza1NpZWJFRF84WDBPN1Zqbllqb1B3NjVBWFlsYndqSkw2b29Xd29WUFd0a0VScEpvUHB2a3hpX0w1X0FIVFA4SnpWQmYwcjVCbGRXMENVVUFTU0lhYU42RUhGcy1Bcm1MajF5aElIU2FWd3l2b3h6VHdTMGRZdUtWZE9QcUVwTGlPZTFlcEp4U0liTTZ1VnkyZUlUT1UwcTBFaF91bk1HQnhXTkt0Q0RKRGQ?oc=5",
+      "title": "Tractor Supply (NASDAQ:TSCO) Stock Crosses Above 200-Day Moving Average on Analyst Downgrade",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSGI5d2tMZktobllxSUNVeG9Oemc5eWFYd01abHdzSHNEZlB0S1Fnd21ycW9fVkRBQlVPUFpXbFF6NUhqQmRwY3MtMThOYmpvaDhMYzVETjAwbUZWM0tFaUdZWXpZX3V0d016QjRLOTNuOTRyVTdpS05JcEZvTE43LU5BUXJVWTF4SmJEa1M4RlhGV3dTc3VUV3NpaFVzNnRFbFpxRkR2bXRCWXNxd0tKQ1FDU1BicmJ3UnM3V2doQnpfbHc1MXQyTDdmSVZDRHNKRnp4Wmpya2c?oc=5",
+      "title": "Tractor Supply Company (NASDAQ:TSCO) Stock Now Rated \"Hold\" by Sell-Side Analysts",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSCO/history",
+      "title": "TSCO daily price history (Yahoo Finance)",
+      "snippet": "close 38.49 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

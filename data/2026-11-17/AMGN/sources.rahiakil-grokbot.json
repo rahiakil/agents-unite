@@ -1,0 +1,133 @@
+{
+  "ticker": "AMGN",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amgen\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUkM0cG5QOHc4eE9JMTZ4YnZIMkNUcVF0SXJvR0tuMUQwcFFjYXViYmdaVFBhQl9JMW5QOGZwTDRhLTl6RzRyLWhjNml5Y0pFajVNYjhGMExfN29jZlRqZ3hUWVZ2ZEtPeWo1WGpFSXJSV3VxSktTWERibnVaaGMyVXBpcS1yZzVubkVLS1ExMHZBcUtCVjFVcXphNEhlVjM4b0Jtcmh6ZDN6TnJUTWZPR201dkR1TlZMUFRhSklVUFg2RlFnX3d0VA?oc=5",
+      "title": "Barclays Issues Positive Forecast for Amgen (NASDAQ:AMGN) Stock Price",
+      "snippet": "MarketBeat, 2026-11-16T15:20:58+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T15:20:58+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS1ptVDVlSVNWaU9KNGZjTWRSN0ctVXB3M2Q5eTduaEd3QWVsV2IweGhwM3VsVnA2UE5uMk03Z3FPNEFwVGhfLUl6bURDdzFhRUFYZ3g2dFFMYnFJdlY2eHZoSzZDdXRlaV9XVWF6bjNYMEhPU1FhZnVDYTR1THdpZFVIdzljSGk5bkg2Rw?oc=5",
+      "title": "Novo Nordisk vs. Amgen: 1 Has the Blockbuster Weight-Loss Drugs, the Other Has a Promising Rival",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2pNcEt6MXFiTjhWQUgxVkpHU2hvM01PUFhCaFlYUGt5UG1CRHlsa0o5X2ZyOE8tb1p6R2IyWklxQXhFWTNWV0FzMFVpYlZvcDdXcWI3ZmpwVFFYQzJ3U1Z2ckFrVGpTbmNGLXB0aGFIazdISjNyTDRGZTIxYnR6QUZselNhcFJFSEp1eXdoRGNoN3FRVjBkSFI5ejJmdkMza0E?oc=5",
+      "title": "Is Amgen Stock Still Telling Investors The Same Thing?",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMGJCRDJlQ0RjaXh4RGNDclc3OTF5SmhLVU9CUE1DMmFxY3Zsb1h1T0hMbEJNb0JUSGVrNGVPeVdxOVg1T29zMnRyTUNpUGM2QVZ5WURfdmtva0FoYlo5N2NDWXYwR0g2T1I3VjZtWjAxdFp6UFExa1hqTFpOX1JiZmV6eE01OVQtVXJrcA?oc=5",
+      "title": "Dow Jones Biotech Giant Amgen In Buy Zone Amid Ongoing Stock Market Weakness",
+      "snippet": "Investor's Business Daily, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeklER01FTHJuekI3R3p4RF83N203aWdWcTc0LTQzeUZBYjJ2Wk5ibjljRkdyNmlzemY2dEJyeERjdUZZeGx6MUlYVmhIT1dBVDdhb05GYVB0UTV4TmVPdzJDWmdXb25mck55WDR3cjR2dDNqSEl3ZDlQbkg2YzRUYTZaeVBFRHlNd0xyUGlmQW5hbnZVQTdWSEJYUQ?oc=5",
+      "title": "Amgen (AMGN) Just Gave Investors Something To Think About",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWkt0Y3ppR1FEQ0t6U2NmNFNrbnJsMXRTNVlyNVRjUXVQc2RTSEJnVnFaN2pJaG5jX01vdHlPcVlRZlh1d3NSVk1MVm5VRHBhMmtkLUt4T2VQaTNqY1hWeWhOQkFXdFVSRG1GT1FBcnJ3QmpQR3hQdVJzb0RYYVRXUEtZekx2WVNJc0MxelZBT2FHUy16R3lWa2JoTXJpdXBES2lpd2VvZVh2MkxFS3dxZGRuNnY4RlozOEpRZ2otOWdkNlZlbGpKYmVzbkRzUlptQjBpUXR30gHbAUFVX3lxTE80aTI0dy04NGQ1RF9LbzQ2VzNZUjhYdW9IN0xOdVZaSU13NWk5eWRlZTl4VW9fWnpXVjVFbWc2Y2FzTzRPcGFZbjZDY20yTktYdEw3R2J0RlFTRlNDZFpVdWpDNFRQY2stRmItMFBHNy1xcjRHQVlOTHJzTmZCWFE1WjJHZnBBay1BVGVWa0tHOFc0b0tCLTREakZuM3RGQ1AtcjdtWVZiWVNtU2FHYU02Y25oZ2wtWk5TbXlGeWZQWDE1b0lsVXRINUNzOGcySlhIT2RSdDFGN2U2aw?oc=5",
+      "title": "Amgen (AMGN) Could Be 42% Below Fair Value After Fresh Trial Results",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORHowNTRTekkzZzE5NDJSRWt5RUVTR1NETUpXN0U2WThKM3IzY01PZ3RtZDhLajJzN2N1SXFvOEhOLVJ4aDN0VF9nUlg4bUJLVzlPNVZKX0Jod3IybDkzTXF3aDFKVFVIYzFpWUxFTlFRWGU0UW5MeGNWZ3VVd0ZyRWJtMGd0R3Vtcy1xX1hrdHVIUXRMdjhJTGZ5Z2JhSkF2ZUV3Mmo4T1NWN0R3b3dVakpHb2JYSEdDNlQ0blAtc1gwdU5STThUNGdpelNhT0hvd0ZLQy1Ed2zSAd4BQVVfeXFMTTVpUjQ0X2c0Qk1QWWpzQnhuTGxCQnFEcE1nb3U1X01YUXpmRzZ4S3BiYlJhX2M2T3pqbjdqM2V2NjZ2UzZWSVBLTlpobVBycEI1QnhuNzl5dF9LLVFsMzJ2SF8wenZaWHRndHlDZlkxQlU5d2JzeVlEN0hrMzVrY0dacTNnS0pCSm1tc1BvNE9uMFVrT1dURWZGNGVGZUI0aUtrYTVhSlQ4N0E0bURUakNheWhkWllVSjNucEhVTzBOazc1SFNYdmprREVhTmlwS1oxUk52YjNQblQwcFRn?oc=5",
+      "title": "Read This Before Considering Amgen Inc. (NASDAQ:AMGN) For Its Upcoming US$2.52 Dividend",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd2loTU13eXg4RllPRFlhQTdwNUUySE9VUWpNdnhkdHNRMW5wTHFQV0NOeDhWdWI0b2FmYngwS21aa05aRXd3b1hrbFhvRXM5VVFhM05DamdVMHRwZHVRQ0duUTNSeE44dnVnRTR6MGZ4bmtNU2lZYXR2THBWczc2ZVdCeGFTcVVPQlJWaWZsWUN0TGg2SWhGdkRKWnI2LVJEYUktY1RIV3F3MjB2OVVnRm1hSjc3b2ppcTJZ0gHAAUFVX3lxTE03VTRfaTluSDlIWmhDek1xdEU5SUhjaWZjdVB2Wm5yQkZPTU9Qd3lpS01NMmFDb0R1N2paWC1Pc0hJYURvaTdDYWltVm1JNlZ0NFdFbUpxclgyd0g3R0cxNU5aYXQwanRNSVhmU0RyWENQOUxkOWFkMzNKZkpDZkVKNkFYazZVcUdSRXZaUjhTd2JmWWxaTklZTU1GNlozY19TVGI3a09aNmY5aDFWZXo3aHBOc21oUXlCMW9iSUZFdg?oc=5",
+      "title": "Amgen And 2 More Biotech Stocks To Watch",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMGN/history",
+      "title": "AMGN daily price history (Yahoo Finance)",
+      "snippet": "close 457.93 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

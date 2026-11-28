@@ -1,0 +1,97 @@
+{
+  "ticker": "ICE",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LSmJkaExKWnhZV0Y4cDl2UnVTRTF1NDAzZUVTcGpXN25Td2tVYVFUQ3hDcmhPTzAyalJGeVFPX0xkNjI2NXFnN1F5c1dGRGtXSFFmcGFoZGF6ZEQ1VWJEMlZkamdPRlFwMDhaeU1fSThwOGVLRjRJeFVSbVk2UQ?oc=5",
+      "title": "Bill Ackman Is Buying Intercontinental Exchange",
+      "snippet": "TIKR.com, 2026-11-17T19:49:46+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-17T19:49:46+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdTVYS2hwVjZhY1JkVUN5WHg2djF2NVBCYWtkLWRIel9GQXI2RU1sTUU4VG1sUjhGSTNUUEF3ZGd6QzkxTWc1NVJBRVhQTEpjZmtWOGo5OU5hMGpmaV9OcmhXS19EanpqUFBhNTByYnFhdEZpdldDU0h4U1hvckhIZERnUVp6UGNheFdqcm9ZRHpxVngzN0JLaTg0U2dWR2Mycm4yRDVCNHo0aS1GU0lnQ0IyWEdmLUF4T18xeFZXWVZtUFZQVnlaT2FxTGlfNFBwRC1UdnoxNXB3amQyeHI4YnlZUHk2aUNI?oc=5",
+      "title": "Intercontinental Exchange, Inc. (ICE) Partners With Abra on Institutional Digital Asset Custody",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQkRMYlNUcWd2Rnk5Rzg1M0ttLV9YYTJuN3pXMk00a3psbzlreVoyTkZ1MDRWTnFIeUVjc2FQNnZUaHV4WjZyTHNacU1vU2J0NTc5Qi1sSkFEZ1VGQ19aV1dNQk4yQnRUY0ZHQ0ZPdDlCMXNxVUU2aXNTUEhZVnZtN205X1pnODNTSTZmZDYyQUV0cWZZN1VRWVdXQl9ISWZDX1dkSG9tdFRKNzF4S1pKSmZ2VlFJZHpXdlhTbWVpaTh5ZUU?oc=5",
+      "title": "Intercontinental Exchange (NYSE:ICE) Price Target Raised to $198.00",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNN1MtNDgyYnExTkRfN25tLTlRNHBLZTRfMDg0TFF5Tl95R0lqMDZ6aVR1Y2Vwdi1mTTc0R2pnUzM4SThXdkN4cUFVeWRqN05reUhQd0VIb3U3V0lYWm5uUDBYMzV3c0NqOWRxQjhUU051WE52V0VjY2NVaWE5c1ZqazlSd240OGhzQUgxSmFqd1ZyOEg0ZFp3dmYtWjlzb2xhNVJzcm0wS1E4WV9peml6SE1Ma2x1bE9HMmZJdTZRTjlTajFCZ01FOEhYOXVjMUR6cmtYamhjNjhRUDN6dVJzQV8zeEtMNVdRQVU3ejdTbDNmSVI4SHZN?oc=5",
+      "title": "435,332 Shares of Intercontinental Exchange Inc. $ICE Purchased by Migdal Insurance & Financial Holdings Ltd.",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWEhRTWkzeGJGd1JTTEZOdlpGWGhSSk9fWG4wQUIzaVZMdjBMM0F4WVA0bEtpUENKakhhVWF4OUdMV2xFMVdXY3BvR2dUNE1DY1EtNlkzekJ6eFl0V3BYY3N1VFI4d2FzZlZUV0dlV1BpYTVsYWZXSGJST2VnLXVDNEg3YkticGhhWGhPSUlrVkNCVlFPY0ZlcGZaUEx6N01BWXI4dXNKSHpid1NoTVpqWlJGWFY3NFZ5UHBwblNCRXNLRk1yM1dJaF90VlpLMWhrZm5sUnRIbldwRDJfY19pQUphd2JrRXY1cnk00gHwAUFVX3lxTFBVbWcyNTNjSy1hWDEwdUZSRlFhUVhTRkV4Zmc5dXFEei1Qa0x5THo1VkVHcGhDMTZnT2dKaVhLZVJIN2MyNVdKNi1jM0o3dHh0aHp3VWNFSlIzZVEzQXhDSmVaU2g1bzdhQ2hoa18wTnlWYXVGS09IY0VvMU5aeWkzWkJEN0hmY1ZpRlRFTU9WdGFyNGNNSFUyZzFPWFVvZng4czY3WnBHZS11Q2IzY0hlVlg5cWZRZW0xWXZjekNMaG1FWlF1VWx2LW4wcDg4MXRDTndLWlJGamNrREt0U2VGUF9aeVlnNUExMENXN2dSdA?oc=5",
+      "title": "Intercontinental Exchange (ICE) Takes $1.6 Billion Stake Ahead Of A 2027 IPO",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 172.22 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

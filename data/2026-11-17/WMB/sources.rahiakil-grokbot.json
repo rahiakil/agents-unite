@@ -1,0 +1,49 @@
+{
+  "ticker": "WMB",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Williams Companies\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYWREbndjZ0k0TnFtUjFiZ2xLRHN6c0pzNHEyZjdWNldIMVprWmxuNGhxNXVGbTA0Vlh0OFBHa2p3LUdsOGsyZ3J1ZUU4SUtIQkVaZGk4QURGWlZqWmdNNEJ1dHk5LVNBcHhXdk5rdTNpYXNJTkJmNUpQb2pvUEpoNXQ4QkZBX0VnRXpXWThTc1k0MVRkYnlj?oc=5",
+      "title": "Armstrong Hires Williams Lawyer as Temporary Chief of Staff",
+      "snippet": "Wisevoter, 2026-11-17T00:32:20+00:00",
+      "publisher": "Wisevoter",
+      "published": "2026-11-17T00:32:20+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WMB/history",
+      "title": "WMB daily price history (Yahoo Finance)",
+      "snippet": "close 67.46 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

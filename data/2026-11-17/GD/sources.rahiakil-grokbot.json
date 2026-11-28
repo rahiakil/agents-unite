@@ -1,0 +1,61 @@
+{
+  "ticker": "GD",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Dynamics\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYzBkbGlKRjRmYjNTTjlodUVVR3dXY2N1T0w5NWlhTVRGMkluVzNtQV9pVEtDSlFCaGtwWnFDeXM0em80d2NWOGh6eUY3OUItTVBFR0J4THdrWU1ua3o3VGlVLTNpc0txay12WTliSEI2Y3B1bFhVaS10YjJCcDdoWnI5YllUbXdfb1VHUXlpVk9Ra1ZzRmlCeU1HZ0x0WkFuZUlCLVo3Ty1oS1J4c2hWT2YyMEtTM0w1QVpNTg?oc=5",
+      "title": "General Dynamics stock slips to EUR 326.60, down 0.97% premarket",
+      "snippet": "ad-hoc-news.de, 2026-11-17T07:00:46+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-17T07:00:46+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQVNUb2xGaHRTMEFIMkNtanYxUGlyNVRvbEkyUGdOUlFYQ05Sd2NONmhTdVo1VEIxWEpfbjB4QmVKS2lpTFM0RkhBd3ZNRy1zNkh6b3VlYVRERmh5YWVHNk9oSmZWOFV2dUV3UnYzTm9SYmg4WDdjSzBTaklFcV9ZUVFqOHB0d29QYUVpNEJjaGZRLWoySGFDcDJveTdsTU8zdU1fYTVRWjl1TjBaazd3Ym1XT3lnNTA?oc=5",
+      "title": "General Dynamics Corp (NYSE:GD): Dividend Quality for Income Investors",
+      "snippet": "ChartMill, 2026-11-16T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GD/history",
+      "title": "GD daily price history (Yahoo Finance)",
+      "snippet": "close 355.63 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

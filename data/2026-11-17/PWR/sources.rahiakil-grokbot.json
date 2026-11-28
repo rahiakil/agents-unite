@@ -1,0 +1,97 @@
+{
+  "ticker": "PWR",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quanta Services\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSGtQLUIzNGFua05QVHdwSUhpVnpQakdOcFNoZFFZTlJiMUFod3ZHY1F0d0ktb2d0QV80dmM0QXpQN1dTcFZSRlFiM0NjSVZ2MWpCNGszZW1sUk1pU0M5bTNkVDVGZjIxNkhwaS1XVW9Bc2ZFRTM1VXM4X3NVMzVreFVLcGgwdHltSHFlUFAzV2NSODJmVTR5YWdmOUdGM0ZBdnAxQ25vSTBjQ3V4a1lidFZyTnhib3N4N3RMM0UzbExUc0VxLVFmYw?oc=5",
+      "title": "Quanta Services Announces Quarterly Cash Dividend, Payable on January 13, 2027",
+      "snippet": "www.marketscreener.com, 2026-11-17T14:06:48+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-17T14:06:48+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObjg5QzRVeEhDNVZTQVE3VHhkT1Zid3cwdHQtTU8zYVdnTjB0V3h1NHp2eUpnS3dXaVBXTkRQWXhlVXBZeHA3WDFtb1BwNHZ0NHJtbGFGZWxHUE9MMGY2TnVBekJ5bWx1U1RpNjJIYWppZ1AtVVVwNHBXUl9IWmFBazVvZ3d5NVZQZ2MxTFpSTnpvMmRsb0ow?oc=5",
+      "title": "Quanta Services Announces Quarterly Cash Dividend",
+      "snippet": "Quantisnow, 2026-11-17T12:09:18+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-17T12:09:18+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbDdSa3kzVHlybzVJRnIzMEctcWFjLVdPR1pxLWFxZXY1bzhrZS1mbWd6cUk3TmVOTWVWaERiREMwOTBrUXhrUUlLZHlIMWVaTVVJSUtjRll2bUxjcS1aazZra0pibDdkOWNjMU5Xckt4OWFtUlhCVXoybkpvNjltM3U3aW5lU09ZVzAwU1NrZnhTM3hyWUpuQkVsbzRSSlJzZk5KMnhXekU4ZFR5N002Z0ZqVFRPdldY?oc=5",
+      "title": "Quanta Services: Data Center Demand And Acquisitions Propelling Future Growth (NYSE:PWR)",
+      "snippet": "Seeking Alpha, 2026-11-16T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNazF6clZpOEJ0WmxYaVJ5WjhDSmxZcEk1dzdvU2F6YXltckNHbTdkRjVhTWtIa0JTc3h2UzBrdjB1NkZWdS1yUXktQ0FzTktNNUcwbHNTSlVMVGxrYVNHaGxVYXF6dk5UdmFOTUt0NHVuem80cVpOQkVoLTg3b2Rmc0Jub2h6VGFXenJyblB4QTE1VnRpQlVidkJvLWRseTN5TWhVYUVsSlhIOEFuaDZtUHZiTE56YWZ5UUxEQk9WSlVXRkFtbkNIcVR3Qmx1d2NRMnfSAdcBQVVfeXFMUEo3VC1sZGRVMlJTYVp0aFRmYU9weUN6TnBWQ3RFTWdMZHV4V09vMFFHN2JfeGducnU5Um8zd0J5ZWJEQnA0d3REOHdTaUh4QTduMUlDWEpkNnlWeXZrSzhENTYzNFdVUXFONlVfN2I2aWdKWlpPbXZMRXl5VjN3UlRnRF9Ed3hNRm5oU3pzdDNnSEVqa3lmRTc0MnBILUcxN0tyNF9PM3hfR2o0QlhmU2lFVTJ2bFZGMTg0Z0lHY2JDTE9SU2x3R01wTnR6VGJpQy1jcUlGZDA?oc=5",
+      "title": "Earnings Beat Could Be A Big Moment For Quanta Services Stock (PWR)",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVExrSlpIUng0d1hfN0FUSkItY2pKS1ZlRlYtSjFINW1hQTBUendVVm9yNGFkeks4MTVtUzZTUklHYkE3RUk5RnZCb1BIT0M0QkFkb21NUDNacTFhUk1fLWFsTXhVMjBEc0ZjUEd2VHdGNjBGWklvWlRIT1MzenhSamlRM2RJcVdwOWtGYlpuOUYxQmc5S0kzSWp1Y0Q0VEVQajBQZGxHY3dWZWZTVWRDNXcxRG9fVWhoNG9pclctNDhpVEJkUThDRF9DWEtTT0UxZlHSAdcBQVVfeXFMTkJGNXhOOXAySXhETUllaHR3TjJtT0V6bFYxRjltSnlWZXFXR0w1Z3NsVzVJYkFBUnhhZnp6c19uTDBpQzlfdjlGMXdmb1BucURjNGVTeFVQQS1jZWFhS0diRkhTTXVITkFzalh5bE1LS21hdEt3QWNES2xUSS1ZM1Rnamowa3UwclZLUE1kTVhGcmNzRGVEYmg0THFtQUxKQUJ5UFlLakxHeEtoeW5BWUJUZFZkaDM2SjZrQURJLS16XzZVRHg1TzlSZnZDZkNVR0pSSkJGZ1k?oc=5",
+      "title": "Quanta Services (PWR) Stock Could Be 16% Above Fair Value On Cash Flow",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PWR/history",
+      "title": "PWR daily price history (Yahoo Finance)",
+      "snippet": "close 598.53 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

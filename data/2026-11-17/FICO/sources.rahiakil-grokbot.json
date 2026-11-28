@@ -1,0 +1,61 @@
+{
+  "ticker": "FICO",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fair Isaac\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS3daX3NaZllqTk5uVS1YTW1fVS1VZ2VvLTlLN0VIeHFRU0d6cTJIWnhldlBIZ2NHNjNLdk1qSVhXVlVmUlVFN2FiYWRvTTFJWnBzVk9EU1dBVTduNGtTYjNGbFRhSGlKUXZsbG5DMUozNXlHY2FPWE84NzY4emlDdG96aWNzWThwc3hJTWFnc1JsVzdjUFdRclJtR08xYUE2aVFpM0VVZ3FJaUcwMW9mbXlfd1Nqcl8yWTI3RV81cXhaNV9CTVFiSndpdklrQQ?oc=5",
+      "title": "Fair Isaac Insider Sold Shares Worth $14,802,463, According to a Recent SEC Filing",
+      "snippet": "www.marketscreener.com, 2026-11-16T09:11:34+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T09:11:34+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcVVWV2ZqeGVTWTh2NXNwOGNiX3ZkMkhDT0R0MkJaRHVQTk1IMnJrbkZaSVA5a0ZGeERId2lwZElfWGVLT00zbnlseFZSU2Q5UmM5R1RNOGV0MkJIZnlEX3BJbEpRZkNDYXNNSElienk5Zm4zbXBVc0NnOWRKa25nWFVvZjhhRXlEeGlXdGQyVlRtWWdY?oc=5",
+      "title": "Here is Why Fair Isaac (FICO) Could Appear Attractive During Further Monetary Tightening",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FICO/history",
+      "title": "FICO daily price history (Yahoo Finance)",
+      "snippet": "close 676.52 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

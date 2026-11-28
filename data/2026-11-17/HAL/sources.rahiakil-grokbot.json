@@ -1,0 +1,61 @@
+{
+  "ticker": "HAL",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Halliburton\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcjJKRm56dVBaM0tTMktuN1psTVB5dm1wSzU5bVJ0NlpvdkNfOXdxZEMyTUdhV1R5MVBPSXJKb0FuaHNscVk4WHFwMVU1ZENFb1lFd0p5MnZ1X2tkX29vYjRtZEtHbHlVeVJsdXJOUDdaazl0NklsUk9vOEowSk15eDdMQ3FFV3l3WlpDTklWdVhqU0lqdGVQU2RfMy1Mb1FsS2VUckpGQTNLSk5mOHdBcHlUMXNDa0NEVDJCWUtwU2x4aEFUWUs1cHRucnRveVltWUtWWGNpRC1DU3I4QXBHNjNR?oc=5",
+      "title": "Halliburton Co. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-16T22:01:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T22:01:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORkNrZmpUUmtpd0I3UEJLYUlTYmZma1FHVl9DMlNBdE5qd0pzRFRhOVNNUVlwNGxramEzQTB1VzB2YUdTVjdGdGRlaDNqcXhpejM2YmhzZk5uWjIxZmxRNG8wRnA5WC1VLW9lNHNnd05DR2d1eWdidkRxc0NEMGRWbTZhaUt5ZTVPQUplVHNmVVQ1TUs0UHFXN20xbFdWVUJWNHN1RGluMENBZG1CMTV4TXJNUHd6bDdJcHJMb2NTeFE1Tng2Y0xhWEx5T0VzYnhPcENpNWxhUlRMekk?oc=5",
+      "title": "Halliburton (NYSE:HAL) Share Price Breaks Above 50-Day Moving Average - Should You Sell?",
+      "snippet": "MarketBeat, 2026-11-15T15:44:22+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T15:44:22+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAL/history",
+      "title": "HAL daily price history (Yahoo Finance)",
+      "snippet": "close 31.97 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

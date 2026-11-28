@@ -1,0 +1,61 @@
+{
+  "ticker": "CVS",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CVS Health\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSENZNElzZ3Jxc2tTeGY3SjNfZlFFX2F1TmhOdmxPek5tMU85VGYxemRHRWFURC1Bd1J5Rmc5YVJBSklOZzBhV2dhOTdDeU4xN19qZDBCeEViNmVMeHY2Y0FQejh1UzBhRVdjY3Bqb2oyNEh5M3VpNkZDWGI5bE1FSmlRVUJkRXZaYWJ3aVVyTnhtclI0LXg5WmU3Um5iSzVGbG5ITUxmYkJtR09DY2M0QlpHSFhDVlNfdEE?oc=5",
+      "title": "RBC cuts CVS Health stock price target on separation costs",
+      "snippet": "Investing.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUExsZmhnRUR3MlZTZzZrV1V4N19VME9FTmVlQk1ZTUFQSk5BMjA2dkRrd3RGWHRhY0wwUWx3RE94YlFUMFVadEtCT2IxTHpLYlp0Q24yQ3pUT0JuWHF6bzNrdmttOXdiSW1hUThWZWtOMDFFVEFVMndBU1FmSHlrOUNyMmxNdWN3TUVEM3J6RmRkN1Yzd25OZkxkeTMzZmxrLUFld2g0OV9VRXNRNWQyUTZtNHdDVkFx?oc=5",
+      "title": "CVS Health study highlights GLP-1 benefits and the affordability challenge",
+      "snippet": "Quantisnow, 2026-11-15T21:07:11+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-15T21:07:11+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CVS/history",
+      "title": "CVS daily price history (Yahoo Finance)",
+      "snippet": "close 85.81 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

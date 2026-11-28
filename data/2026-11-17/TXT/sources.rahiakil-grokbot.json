@@ -1,0 +1,49 @@
+{
+  "ticker": "TXT",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Textron\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSXJPcVZnMlQ4N3RUVE9aNlVncExzMHRkemZWMExGeUFoazhpdDFuMFROSm8zTU83dHFXRUVnRzNVVF9Yc29ibEJRYmk0ZDUxT2w0djFSZzdMeEFrTXVjVmNVbGlOTUQ1b2VIYmVIMzNQVE1qbnRNVXJnMGZEelRXcnFXNG1BbUJFMEFfWm9LM3JBWXlXWnRNWkxHcnFQTFg1X1lzNEFmRERrNHBuTXhNeGNmbmRCa1hiTkpHVjNuLWFBTXJpUFpoWnhxQzAxTi1oMEs5a3RiLVdJWEs5X0E?oc=5",
+      "title": "Textron Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TXT/history",
+      "title": "TXT daily price history (Yahoo Finance)",
+      "snippet": "close 81.63 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

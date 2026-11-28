@@ -1,0 +1,49 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cigna\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOF9TZXZuMzZQNjVLN3h4MkJKUmJrRm9RSk1ZNEdIeHhncFRsS29yRWZ6ZHRQV3FMb2xfT05neEw3QjZXcDJSNUtRMFZrckQ0Vy1DNVNJN0pKcFU5elJTQXVvS0hsQ1FnSEdLOFdmalBTS2l6UjBmYkxhbWRrYlllS2l0djJlanRFRF9QWnJzTE94Wk9LMVdSeUtqZEs5Zkp6ZjJSWERDUEh6S1Vi?oc=5",
+      "title": "$100 Invested In Cigna Group 20 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-17T20:15:18+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-17T20:15:18+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 294.06 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

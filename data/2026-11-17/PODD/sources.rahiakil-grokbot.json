@@ -1,0 +1,61 @@
+{
+  "ticker": "PODD",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Insulet\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaEtfOGp2SEdWZ3BmR1hFQlpseXR2eFplZ25pT0F6bDlIVHlrZ19GcnVEMEczSS1xLWZSaDl3bmE4VnRDMkZ5X3QyaDFQN2xMTE1lQnc2cVQ3UUZVLUNzRWdSMEcyRWRpQjl6VzdYNlg5dFRFMzVqZ1YyRXZWaU42LWpiT1RjcjU4NnAyQXEtWFVweVMyTGlwU2J4QmRCTDJ1Q0p1T1RhSkYwQ0lxV1ktRXkxQUt2YnVIUUhZ?oc=5",
+      "title": "Two holders report the same 4.69 million-share stake in Insulet (PODD).",
+      "snippet": "Stock Titan, 2026-11-16T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaWM4dkptZmNKODd2RWQyRkxEOHF1SHZuMVBKME0waUtLblhsb29ZeGNWaDlrYTVrTUFWMWRnS2k3VVFjSG9lRS1tSHFETFl4TkwzSUVtdHhqODllb0VnY1cwdE9HejhzaFE0cFBFUnhwUGRmQVZkZ00wRmpDQmoxWmJaZnVWSUZhVE5qVDAyQQ?oc=5",
+      "title": "Can Insulet Stock Jump 50%?",
+      "snippet": "Trefis, 2026-11-16T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PODD/history",
+      "title": "PODD daily price history (Yahoo Finance)",
+      "snippet": "close 145.34 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

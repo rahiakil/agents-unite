@@ -1,0 +1,49 @@
+{
+  "ticker": "SHW",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOFBCZW9BSjI2Q3FtYmdfTmdCSkQyTXFYd2hFLTFTTjRlV3Vnc3JZSkw0S29XZDhjSDI2bzBSaDF1VS1RSjE0T2VXSThLQ3dwWThpTFY5NTN0LTFiR1hGVlR4SU43RE9RZ0JESEFIcTlXZ3EzWDB6ZGZkb2dhUG5oRjMxS1hPZ1V3OGFiaTFGQ3JreUNlVHo0UGRKTG5CNmVqY0tLczd4aVJRRDdDNWJxSzJldG9JS2VtelZmR1Mzc3VsZVpyb01yUkk0WTZnZ9IB0wFBVV95cUxOQjdfTmx5d0U1eUxYc3UzLXJlbkt2Njd3RjBWSzFTYTFVY2QzeVZHUFRtS3NhN3MwVi1lSFFabXNMOWZVb19NbURGLTBOTTdjd3VqSEotcXJFVmpHRTROcG9UZjNDRi1IcmxHUlNIMGExVGpMaTdObUVzTmNuazg3TUFYZWMzbkN5MFR0YUZwdnE1WFhmemhwc0VGRzVUY1ZzLU9SXzkyYkJBeEdjWUI5THdoTkU1UVJ3YXZtdWVUVXJtMWYtRzYycFVzaXdPY05MQ1dr?oc=5",
+      "title": "Sherwin Williams (SHW) Stock Looks Rich Given Its Earnings Base",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 344.15 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

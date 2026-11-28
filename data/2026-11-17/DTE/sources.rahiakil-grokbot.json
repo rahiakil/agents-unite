@@ -1,0 +1,61 @@
+{
+  "ticker": "DTE",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DTE Energy\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUNFVmoxQXFxODNqRWc1aWtFcllGU0RGTUJVVGFGSm1ORTNOd0ljQ3hvVGZqeGRGcEFtTEJxWlAtNU41YWYzUzZkZ3g5SU1xSm16bnFkaUVhZWQ2WVl4aEJWVmxUT0xvZkRQNmRSRHF3NjBkVENKUUJrRC1DRTlucmE4V3VXbUZoUG5QZXE1WFQ5ZW5HYzRaVzNCb1NQR3d2dWNQNE1mUThzSGxRbFdvMl85LS1ZNXo0aDlyejFxVERBTDg?oc=5",
+      "title": "DTE Energy Planned Sale and Utility Investment Review",
+      "snippet": "Kalkine India, 2026-11-16T13:55:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-16T13:55:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdEpEX1h1cWFobHZZM21ITm1LTHNzbzdBaUJMUm9jaDJGLVUycTdUb3kwRzNuQUllbnA2MS01bmhDRVVaSmJGNzl3cjV5dlF3U3BvaXZ3aFQtZXhHc0kzRnNRZE9QWFJORTI2U3BVVjNsb0JLNmFfMnZiUUNFNW1KaEtQWGZaZy0tRW9zY3lDbUhMWnh2aGNmZ2lnV1JzYmJKRUZTdk8zd0RaRDhmVm4ybjNzWmh4MG9sNmlOeFNjc0NfLTREQmdTczh5WnMyYlNXa0g0MGpaVHg?oc=5",
+      "title": "DTE Energy Company Stock 12\u2011Month Price Target Raised to $150.5, Implies 8% Upside",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DTE/history",
+      "title": "DTE daily price history (Yahoo Finance)",
+      "snippet": "close 136.41 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "ED",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZ1gyb0Q5azdPQjRxeEpYYWM2eFJ6WkFxbHo2U0RyTlZOSnlwLUpNRzBzTFVwTmdsTTlDcndIZ2FGRThMM2lyNDA4RmlxUlFoRVMwZmg1T3hod2tJQ21sSVJuTnkyRFFna3JOOUhNYk1SM1hnR1VxOVVnTERzc3B4SERSaFVOVmdxVmd1V0dIRVh6czhnQnFZZnp0ZkxhRjN2TTlTaElNNEt4anpmQnJiQWZzUHRaSWlGanozNkY0TUEwQ0FucE9lRXB1MFE0WUc5T1RiSjJjOUNnRURUYlpFdUpMOA?oc=5",
+      "title": "Consolidated Edison, Inc. Stock 12\u2011Month Price Target Raised to $112.67, Implies 7% Downside",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS2tSbzNib3pfV3dtOVpwMnl5MnRYQ2VYbGlzbVBMMVhNX3dySXFtWWt6NndXU2VhdmE4UHY4S0dDaUQzSmVwRmt1X29aYlZXRTh0NG5HbjZ6TWUyR25tYWxqcUFFMFNJbUFBRjlWSEhIRFJRNmt1OENCLXBidWZkZXhEVnlPTVlLMWZVTnpIT3hNTHZyNlRhZ19ObWdzdm8xY0t5SmlZOUR2N25XZDVmNFFxOEFUZ3BZU2M1SHdSUjRIX3hKUVE?oc=5",
+      "title": "BofA raises Consolidated Edison stock price target on earnings beat",
+      "snippet": "Investing.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRWZGTm51UE1mdUVjME5uamUweFFmY3VOVThWU2Mwb2RvNExVM0N4TEg0XzB2NzJ0V0N2bzBEcGNiUmRDTzRPdTJQR3ZxVkpHVV9nTzYwUV83STlITThXcFFmU1FhamxBSFo0R0hvUEdoQ3k5MXJtSm9vZDM5djJRNlBZS01seWd3VGRGelBfWHNkQjFJN3BJemZ2Ykp2eXA0d2Q0ZW9lbjdHYV9ZTURTeDh0T1lydU5YV1FBY2xRTlFPdlhfQTNSNVQzakVZajZP0gHWAUFVX3lxTE9mMjVwaUthRkZDV1ZaYjhmRXQ1VDdiTk5mSmZwODVmSVlYWW1Lamp4RHY1U1BYWG40b0NOZHJ3QTlWZkJlbm9VdFM2cnpyemNUWEpJR0tQb0lxMmkzR1RnRUxZamRiNjQ4OEJfQUJXTlVQcXZZRzRza1piRnlvQS1jblZjY2llZkh6UXFlSW5ZU2lMVEVmVkU1NzFJVDQwaDRRNUVEcUpydkhub2Qzd2xzVzJ6d05HSVB4UGo0SkFwcS14UGZtXy1wMnlIMUtSc213WVpKcnc?oc=5",
+      "title": "What Consolidated Edison (ED)'s Earnings Beat Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047862/000119312526462726/d196404d8k.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 119.23 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

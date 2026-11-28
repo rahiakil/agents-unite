@@ -1,0 +1,49 @@
+{
+  "ticker": "IDXX",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Idexx Laboratories\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWHZvaGRGQzlNN3ZobHVNbV95ei1IYm4zMTB6ZndjdFVrUGRGME9jcUEtYlJqUU9UU2ZQN0ZWRVNONTZzaDRJZTVuZDJKYUprVnBvNmxTdEhfTEU3dlN3VzBCVGcwZS1DSWRrZEc3TVNlSW41X2xXMlZPdDVCRXU3U0s0TWVqa3dSOEJGdWhiY2ZUX19lQTJaQmpKQldFMFNfdmZOU1FIZE1lN2YtNEYwd3hRS0pucGZrZHZpOXMyX0xPSElNZENqTjM2OFBpRGJEczRLTzM5Tm9WN1lJanpxVDVVVmI1WnM?oc=5",
+      "title": "IDEXX Laboratories Shares: Volume, Earnings and Technical Readings",
+      "snippet": "Kalkine India, 2026-11-17T11:04:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T11:04:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IDXX/history",
+      "title": "IDXX daily price history (Yahoo Finance)",
+      "snippet": "close 690.24 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

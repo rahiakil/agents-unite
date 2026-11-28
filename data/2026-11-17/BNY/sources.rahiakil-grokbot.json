@@ -1,0 +1,73 @@
+{
+  "ticker": "BNY",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 4,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTGk2b1lpQXF6RGJyR1JFZlg1b28zRXMxTnZHN1huaUR2YVBsQUxsek43VW9TT1A1ckVRa25LRklsZXpIOVZNcWNhQ1NUVHBpeTAzQVlhZDNpY3Q2eENFUVVCMDFocEFEQ2lYd3ZQV2ZWTFRxQ3Q4THA3ekVrUG9TX3ZIOEszTTdMNVlMZjJZS1FoZ0lGZkVoZG1RWQ?oc=5",
+      "title": "BNY Mellon Small/Mid Cap Growth Fund Q3 2026 Commentary (DBMAX)",
+      "snippet": "Seeking Alpha, 2026-11-17T05:35:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T05:35:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdDZIQ0tlaWdhcTRQT3pOQ1JWWHVVNGRSdVlBYjdlWGpsVnJSZ1MtZ094QWFEU0NIRjR1cWZQNS0xNEhMelpRUFZQS1BWeUpMQzlnVDhlM3ByUU1sSEJyaW0yUy1wNkIxZjhJZlp3bGJQMzNaNGVMZGJ5dm8wVzdWUl9Xa3I2UnFUaGk2U2doVTNxNUk2TFpOcjV3RU5WNDUtR2RTLWdEeTZYZWVLUlBndHJsMVVUSUJGSW13SGhnazJidWV2S2ZYRk1JSG5pdw?oc=5",
+      "title": "Saba Capital Management buys $795K in BNY Mellon Strategic Municipals",
+      "snippet": "Investing.com, 2026-11-17T02:05:49+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T02:05:49+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNQ19WeW9GQlh6c1R4SEZmbUkwODdGRGtEYXlHdXFGZEoyZGtKY1lVeHJVRTVnS1lrM1lrNVdDNnMwR1NiNjdyT1JPaDBGLWdadmJKdXFULXRKa1g3ZmY4endzazFNVE9HU1puMy03X3JsTmNxek54MGx1UlZOT1FfSUJ3TDl3OUFYRm1wTUVCZ08wZlpzRmI4OFBhM3JBbGJkdmtCSHdfSDg4MUpDa29SWmZ0dXpiQ2NOaEFnQVpsZk5YR0JvYWRLTklIS0xkdHE1bWdKTXdRZUJvZFpRcTlNNUhQa3oxeVJuclpV?oc=5",
+      "title": "Form 4 BNY Mellon Strategic Municipals Inc: Saba Capital Management, L.P. (10% Owner) For: 12 November",
+      "snippet": "Investing.com UK, 2026-11-17T01:52:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-17T01:52:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 149.79 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

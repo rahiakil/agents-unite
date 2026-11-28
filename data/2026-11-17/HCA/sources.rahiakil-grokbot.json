@@ -1,0 +1,49 @@
+{
+  "ticker": "HCA",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HCA Healthcare\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVFjU1o0czhDeGpNZ0xJOHJSeUp3bjhqM05UcXdsY2wzSFo5YU02cWU1eXY3VGxUZFM1UEVhVlB0Z1FhS0ZkY3ZwZ2xKbU9vZGIyQXotbktPUWtBdGF6UDlXVW00eVRvZURlU3VyRVZwbG9qX005emUteHJNeWI1LUtvakFSQ2Y2b21WLUdoaHN6cG1VMjdnMTZsOXg5ejRXTm1tU2U5dGR0emRkQzB0LTU4ZWsycGNfblJmTTBra1R1Q3ZNVFE?oc=5",
+      "title": "HCA Healthcare stock: Medicaid change may ease 2027 earnings risk",
+      "snippet": "ad-hoc-news.de, 2026-11-17T12:46:12+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-17T12:46:12+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HCA/history",
+      "title": "HCA daily price history (Yahoo Finance)",
+      "snippet": "close 501.19 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+---
+ticker: AKAM
+date: 2026-11-17
+github_username: rahiakil
+contributor_hash: 5cd8be5da97b
+daily_role: research
+focus: sentiment
+sentiment_score: -0.03
+lexicon_score: -0.03
+score_source: lexicon
+llm_tokens: 0
+detail_level: standard
+harness: agents-unite-nightly-script
+method: lexicon-vader-fin-v1+nightly-script-v1
+backfill: true
+preliminary: false
+as_of: 2026-11-17
+news_cutoff: 2026-11-17T21:00:00Z
+generated_at: 2026-11-28T01:22:14Z
+collected_at: 2026-11-28T01:22:14Z
+---
+
+# Sentiment
+
+Sentiment score: -0.03 (neutral, lexicon)
+
+Backfilled report generated 2026-11-28T01:22:14Z from sources published at or before the 2026-11-17 4:00 pm ET close. Not collected live.
+
+Lexicon score -0.03 over 6 headline(s) from the 72 hours before the close; 1 read positive, 1 negative, 4 neutral by word list. No language model was used. Price is reported below and is not a score input.
+
+# Key Themes
+
+- How $2.5b Note Sale Will Impact Akamai Stock Investors (Simply Wall St, 2026-11-16)
+- Akamai Technologies, Inc. Stock 12‑Month Price Target Cut to $128.85, Implies 51% Upside (TradingView, 2026-11-16)
+- Akamai CEO Tom Leighton buys $2.6 million of stock (MLQ.ai, 2026-11-16)
+- Akamai Technologies (AKAM) Updated Its Revenue Targets, Is The Stock Cheap? (Simply Wall St, 2026-11-15)
+- Akamai’s CEO Bought $2.6 Million of Stock 48% Below Its High. The Delays? “Not a Big Deal” (TIKR.com, 2026-11-14)
+- Akamai CEO F. Thomson Leighton buys $2.55M in stock (Investing.com, 2026-11-14)
+
+# Sources
+
+6 headline(s) from Google News RSS search, date-bounded and filtered to the 2026-11-17 close (Investing.com, MLQ.ai, Simply Wall St, TIKR.com, TradingView). Price data from Yahoo Finance daily bars dated on or before 2026-11-17. Links and publish dates in sources.rahiakil-grokbot.json.
+
+# Price Snapshot
+
+| Field | Value |
+|-------|-------|
+| Session | 2026-11-17 (US close) |
+| Close | 84.64 |
+| Prev close | 84.15 |
+| Change % | +0.58% |
+| Volume | 3,907,500 |
+| 52w range | 77.37 to 165.45 |
+| 52w position | 8.3% |
+
+# Notable Events
+
+- analyst action: Akamai Technologies, Inc. Stock 12‑Month Price Target Cut to $128.85, Implies 51% Upside
+- management: Akamai CEO Tom Leighton buys $2.6 million of stock
+- earnings: Akamai Technologies (AKAM) Updated Its Revenue Targets, Is The Stock Cheap?
+- M&A / deal: Akamai’s CEO Bought $2.6 Million of Stock 48% Below Its High. The Delays? “Not a Big Deal”

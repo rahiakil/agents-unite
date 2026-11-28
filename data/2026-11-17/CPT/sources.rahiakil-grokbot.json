@@ -1,0 +1,49 @@
+{
+  "ticker": "CPT",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Camden Property Trust\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaXlSX3lRS21WUHlyNThnd2FpZHZqV3luOFMyT1VYc0RMMkhxSE9nclhRTzJkTXozR3FFOVZIRTkybFowSGhDMVVJMkxJck5KemtuNzFQZkZReFBGV1VBcjh4ZFppWXhZVWNCVVVINm1sRVdKd2FqVFJpcVFDN1hZS0FDM0NLNDhINU5OeWxwc1NpbEYyOE9tSWthMld4WTJYeFZjLTJqdlcyN3Qwc1o5MVZEWDFQaFJtSmZ3UGZlY25CXzdYUjJoWUc3UEpJclpJTlNMaVBXRdIB3AFBVV95cUxPOGFxY0dQX3NCUGpZdHRFSUdKaXZaRXQtdWJkWkhWNTR0OWNkYTRhc2p4Z1NHZFEtMC1weUdIZ1ljNkZLZkJ3R0NiVDhZWExFMVFPNGZ4emxzYnM4YWw2MUN4VnVxQVhqVndOTzliaTJSTDJmbGNaQzBxazRGNzFIVjhZUDdwTzdRc1BYRzlKQmZwU2RMT1lqTGl6b09DRU1aV0h0Mm5uWlVjQXVGNzR3cDNsLW1xNkRSQklablppVnpmMldwUnBiZGI3ZDFLTE1JclMzMUlJU19uLWls?oc=5",
+      "title": "Camden Property Trust (CPT) Cuts Full Year Outlook Following Q3 Beat As Valuation Stays In Focus",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPT/history",
+      "title": "CPT daily price history (Yahoo Finance)",
+      "snippet": "close 98.01 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

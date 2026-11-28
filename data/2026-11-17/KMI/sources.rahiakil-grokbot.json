@@ -1,0 +1,61 @@
+{
+  "ticker": "KMI",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kinder Morgan\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNW1JNEtUYnVmWmNDYVFSY0xUbnd3Z3BObDdXODdrMWtHU2RyZnFNY0Y2dVppN3lSOFlJWl9OT1NmaHNyWWRuQ0hDNUNxc2dyOTRJUm5CS1RhLUhoOWVlT1VKTTI1eWtzbmdOdjRzeXFKUkVmLU5BM1RYYVJSM2pQZjcxU0JiZVhMUjF4dVRIQmRjX3NGTEd1clZIcGRfOGhwNUNSZUM3bW9BLWRlLUNUbGJjeDRHV3pDb3VMNmFaYXhBQmhfSHpkYkhQUDk4ZnRWNk5pazhKZHA?oc=5",
+      "title": "Kinder Morgan Stock: Trading, Earnings and Momentum",
+      "snippet": "Kalkine India, 2026-11-17T12:00:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T12:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnp3RWxaRU12Z0g1bTBDNXlTWFFRLW0wU2VleGFwRS0ybV96cUhpaVBOb3hDT3ZpRTlhZDZZay1VZEF2TUk1bXQyNndERlF4U3dDTV8zVE43MzFJZlZZX1Itdkp4OVZGUGZEczF1NTBfSmpXeFZwNlRqbTZkSGt0ZUpwSERxWnpHSVM2dmh0QU5wUmVfRnQ5Ymk1TENfSUJuM2Jra1pqT1ZUUTliQkhsWUc0S0ZORUtTN3YwNklYQUdId0E?oc=5",
+      "title": "Kinder Morgan Stock And Other US Midstream Picks For Steady Income",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KMI/history",
+      "title": "KMI daily price history (Yahoo Finance)",
+      "snippet": "close 31.7 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

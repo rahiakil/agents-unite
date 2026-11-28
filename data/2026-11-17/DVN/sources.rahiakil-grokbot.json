@@ -1,0 +1,97 @@
+{
+  "ticker": "DVN",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Devon Energy\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbnZUSnZCaW1IWjA5Zkw1MlJMUWx6R0hHTEdTYkFuRnNPZUJhSzk0VjY3aDBzdEpUbk91NGZ2bllWSDdZb082ZWlaSVlNS3BHamhXZkI1QnNNZHM2akhFMnpwejBfVDdOSFhYSHpQcnZwQ3NManhQeW9tU1JnM0pJcHBlMktOVXk1c3Z0YWY5R0tqRU15MTVvTEFlNS0zNGFNdllwVWlVaHF3NmV4LS1IZkY0ZnMwUU9TcDF5RXBJcmVidTlIbmQ3NGJ3?oc=5",
+      "title": "Raymond James cuts Devon Energy stock price target on weaker oil strip",
+      "snippet": "Investing.com, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYmpJbG5aNWpBXzcyYlpCM085SlNHRUV4SG9icGJXd1VhWjJVNGtqZWVadDRHQ3c3QzJ4ZzBxa1drd0ZZQlZ6UTlBSEoxNXN2Sm0zOF9zZ1d2S0d1ZWMtY2lnYjNtanlBLXRtaVBZQUh6N3F3STd1X0d6YXZFb2czMDY3d2VkbTZSclhTVDJtNnB1NjgwTWE0T1pfZUtzRG5WMW1NbkY4a1FBNmpJVWo2Tms2OWk0aG95MXBRMNIBwgFBVV95cUxPTFdMc3pTTU03UU5GbV85VGdaSDg4RVh4NVplUXM1ak5mSzRtTTFweW40V1ZBa0NvczdhNlBTZnhWbHkySXk0d0FmX2huQ0d0ZGoyS3VINFQtWnVjV0xwM21zM2lKYmVPZmx6cWxDaE1EZERUSDhhdW9QQ1Y5Z2lkaFZjeFJIRWp2V0hsSXZseG5Xd3pvbjFudXpPRzNOSVd3STZtbVlaN1RLYklXM0dQTGExaHVCWFM5TE5jaWRTUUtQZw?oc=5",
+      "title": "Concerns Surrounding Devon Energy's (NYSE:DVN) Performance",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmduMml2RnJ0RzVMdUxvMkE1UGtqcV9zVTk3M0djNHVIa2JKOVlFd3dORDNkcWNPeXdybXhONUtsWDFIVUFXVWl5c09mano2ZmRxeWtyNFl5S19yZHNMRzViaXJ4NGctd1h4Q1J3QWtIY2VUSHpsd0hNbmFoRE1IUlpsemJHUWlZaDRfSV9KN2VOWWp4a3JBQ05n?oc=5",
+      "title": "What Do Rate Hikes Imply for Devon Energy (DVN)?",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN0ZMQUdtaFBoc0p3MWZoeThxbS1PNHRfTUd2OGt5QUNQNzdnRmJ6Yy1STU96ZU9Fb0E2b0p6Ukx1ODdZU2F0V3BFS3RUdG9ka1R6Y0EzamNmbjJoZ2tQelBVTFdTYWo0SXRtMmlrZWNtUXpRaHcydXlUSThzMUkxb2txdkhaYjk2b3ZoRFRidWQxMmI0NUZZWjNqNzFyd005Tnpxc0w2a05lVkdYOUx4bFpzMGZkVDlwS2xELXpFY182ZGkz0gHKAUFVX3lxTE5EMW9LUEhodWVPNTVjb01UQ1VCRXUwUXR6cVlfT21CM3prd2lqUGtLM1RtNU5FRFV6UFYtbHk2RXZkNElHWjRVYUJ3VmtVSy0wVmJZSTlSUFJCbEUyZ2RBOG5Jc2huZ3ZoUlNRV3lTLVl6Z1hlYXhfakdnMWFxVXFydU16bHI4OUJPZE9JbFpZSUo4UVBoZ29OODJEWlNXWUo3cFJ6T2MxYzNFQzBCVWVOY1FNWXd6M2lfSWJueExya3NncEhSZVE4Z1E?oc=5",
+      "title": "Is Devon Energy (DVN) Still Undervalued On Bernstein's Downgrade?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODQ5MGpjWVJwcVlyZDNvanhkajhSZk5SNjBWMHpkQi1EZnBqMk1mTU9fUmRKMVVhMzhVdGlsUTZTLTZxZEx2aWp5REhiVTIzeEJPZkN0bjBScnQ5YkdJNWV0WmdhZXZfeE9vQnhlQ2N1dDVLdkpwaXlUdW01OFZ6UnliM0x3YnZsQlZ6cmdwTGotcXFGNkl3Tjh2eFdoZXp4YVpxT1hfYy0yM2cwcVR5S2VFb0NXUUdkdHQtMDRkazNHaE0?oc=5",
+      "title": "Devon Energy (NYSE:DVN) Rating Lowered to Hold at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-14T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVN/history",
+      "title": "DVN daily price history (Yahoo Finance)",
+      "snippet": "close 43.46 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "BR",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Broadridge Financial Solutions\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR0YwWkhoa3hSZkctQmZDZzFrUjRZaGdJdi1KQmNMQjVLcUc4OF84ck5ENlpRZ3JlUzdHaExreVVfdU5WRDI5U0lhek9TbURwWnBqckMtdktoMnBvdUt0NFExR3V5N1dzMFVpWkh0QWxhaDZVMW9TbXBiZVJndWR6OTdlVnpRQ3A1cm8zcFBlYmRrYW8?oc=5",
+      "title": "What's behind Broadridge Financial Solutions's latest 3.4% stock pullback?",
+      "snippet": "Traders Union, 2026-11-17T20:59:26+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-17T20:59:26+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fT1pqU3FhQ3VicjRhMHVQVEpONVlncnh5VHoxc1J3TTNXOHJCeWstVUhXX3dXLVdCcUJ1dkNuWWNIOWRHaW1FQzY2a3FxZTZZMll6SXNSZThDR1V4M1hpakRDVWN4dmpfMmNlRW83STNuaURORnUwZUxn?oc=5",
+      "title": "Broadridge Financial Solutions (BR): The Leader Of Corporate Governance Services",
+      "snippet": "Securities.io, 2026-11-16T11:56:59+00:00",
+      "publisher": "Securities.io",
+      "published": "2026-11-16T11:56:59+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeGR0bVEwdXRRUl9sSklZYS1RLWRMOEo5OEFiQXBZZXhjQXB5RVY1dS1aRFZIdkpQS3dVMnk1SWs2T0x0MThIX0pYQVFBS1hPbTl4cmY1R1B5bzVXcVA2V2JXdGxualdlRzNHYTFNZk1kMzNNdkI4OXh1N1NDMmY2MURlbmhrcFdDZ2p1bFJOUFJQWXN0ZFVmdnA1RGZTQnViRlJjWE9UbkRVUzZlemJXVjV2aTBQR2RGa3F2TU90V1dQMDFRWm9HejRENkpVYW53UnVwcWNuX0hHdFVBVVE?oc=5",
+      "title": "Form 4 Broadridge Financial Solutions: Srinivas Tallapragada (Director) For: 10 November",
+      "snippet": "Investing.com Australia, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbHpicjVtVG5IcWZ5dUJTNkx5aHB6ZC0yT3VoX0cwR2NMSDZkbG8tdE5QWWRvM3ZoNXBCNDdZRkEwVmZzSG1EMzltaExmcDJPTS0wTEVFM191NWtGNC1OWEdDMjM1R2ljTnpVZXNHWVpBcEpIWlBqQlBmV0FpX045cHBEcl9xZ3phWVhtVjNCdzhBTmg2ZXZNMEFVZk1mZ2xTRE5IN0llRDlKa19Pb2JoenpOelhQb2hVT3FFWFpYSHJrdkxQNkppVWU1SEpMUXlacjVLcU1sY2pHRUJ3ZGRQV0t0QWY1NkR3alZJ0gHwAUFVX3lxTE1SX2lYMjlEaU9WTmppOFJnNm9CNzcyTjVMTVRQSHo3ZmNVUFNwd1J2cDhfTUZuanhDY1BpTWdIQlU1T1VUamdvQmpXNHFJSlpBUnQ0MVpncXF4cEpBVXpNYXkydzZrR2V0REtnWkhjRkwzVkhhNUEwTFZnay00dHpQZUgya0RVWWdoRE5ZWjZValViZEJTWkx6WmRTZThUWHdKekdyc1Fjb0cwd0N4blhKcWhsNkZScEpiZThycTN4bU9GdWRtUFlicVZ5SlFTZzZzLUFQUzJRT3ZnSUdncDdseEgwX1NZQWIzOWNxMkJzdA?oc=5",
+      "title": "Broadridge Financial Solutions (BR) Could Be 54% Overvalued As Tokenized Voting Push Draws Focus",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BR/history",
+      "title": "BR daily price history (Yahoo Finance)",
+      "snippet": "close 188.58 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

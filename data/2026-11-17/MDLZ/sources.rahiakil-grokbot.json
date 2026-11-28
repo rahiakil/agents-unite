@@ -1,0 +1,61 @@
+{
+  "ticker": "MDLZ",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mondelez International\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ1U1TXRiTHpIOUF2QzFkR3RnT0JIclVqSWRCajNEYTFpdWNGSmRJWlQ5U3FSY3N3YndWUDNKQmkxZXdTNW5ueE9yQnNNdGdEa3ZjMVBJM2V5b2s0YjBVMTBHZXRORDl2UEZKeWNUSVhJaHpfMExwUGpZVV96d2Y1VE5WMW0tNnd0ZmV3UUhyVnF3OFpNVHhvZ0VZeTRYejA1TnhXeHBNZnNma3g4UTBSUHRiazJZVEJGdzI4SkMxZllMNEFpbTNZbWNqTkpSN1NKRWJhUDFn?oc=5",
+      "title": "Mondelez International (NASDAQ:MDLZ) Reaches New 52-Week High - Here's What Happened",
+      "snippet": "MarketBeat, 2026-11-16T16:03:11+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T16:03:11+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbVhoQS1hdjJ4c2xKbnp2SkJEX2JWcC1mbEhWQ0hoOGlpRGtfLVV3SkR0V25MXzZidGZSb3pvbkxEdzNvMEctdlM5VGg4Tmlpc0RINlp1Q3NPdkFkWm9yeXIybWlCNVBzMnNGMzIyenlzdEhid2dGa3lTdTl3b2tJbml4dWFWZllyUW9qaUwzS0NWWmpSd3pnNy1PN21vZjRIczFMUk54RDZrX0F5SlNjc0h3TWRTV2xneHllSndOR2M0VG5lRmxtXzRZMFgxNkpSdzVkM0pCZ0FXTGc4VmJTcjUtLXV3VzNvZlYzYU5B?oc=5",
+      "title": "Mondelez International, Inc. (NASDAQ:MDLZ) Stock Now Rated \"Moderate Buy\" by Wall Street Brokerages",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MDLZ/history",
+      "title": "MDLZ daily price history (Yahoo Finance)",
+      "snippet": "close 66.75 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

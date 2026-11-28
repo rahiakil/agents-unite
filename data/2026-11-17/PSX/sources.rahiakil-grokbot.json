@@ -1,0 +1,121 @@
+{
+  "ticker": "PSX",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Phillips 66\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 5,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN1pFOEplMDlaVFBMbVJoWUlQMWtfZG1YckJRWTJpNUp5bnQ1MGpacXRsU2Ewd1c4M290RGswQ01LV1hqNGNxUkEwVXI3TDRDYmc3UjhrbERqVVNkeTdZS0toN2ZIbDZZcnI2VnltUm02QjR4Mm4zVDl5WnRTbjNudFBEa3BkMnh3VDlMMXJnNEZiaWhWLWJJS3h2eE00dEkzVy1ONGV3?oc=5",
+      "title": "Phillips 66: Priced For A War Premium The Futures Say Won't Last (NYSE:PSX)",
+      "snippet": "Seeking Alpha, 2026-11-17T15:06:35+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T15:06:35+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.599,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbDdxSklnVi0wYUpEMEx1S3BXRmhUcjBDbTdvSVZsQXlzdkFvSFp1aDN3dnBWMXdsN3A1QVNUblJWUm5Kc0ppWHVZRklGMXBhazFBaVhDN29Qai1IZDlkVUhNRHdBdHVMUnpXdVhIZFZ4Q1FMTzc2anE5ZGpISHl0Z0NJbmd1cjBkVWRxYTdSQllXanpV?oc=5",
+      "title": "Phillips 66 and Valero Are Turning Strong Refining Margins Into Bigger Dividends",
+      "snippet": "Yahoo Finance, 2026-11-17T14:17:46+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T14:17:46+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUWWFseFBITTEtSXhYZ18wU3VBUkh2MlZnVGhVZjMtRmE3ZVVhVWgwcFQwOWVucVVCdVY2MmR1RWFna2JtazBVVm1JU2lfaWhvSEgyNVc3c0otVTNUVFRwR0kwYTl3UHp4b2o5c2s4R2t0WnMzRXZyVA?oc=5",
+      "title": "Phillips 66's Dividend Analysis",
+      "snippet": "GuruFocus, 2026-11-17T11:02:27+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T11:02:27+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdDItQUo4Y0NDQzRCa0ZzVVZ5V0gzYm1CY3RtV0JZWFB0b1h2dnpDTHhEbDdkQzVGNXZZd05BNm1jdXVkSkg2N0NvSzV1c2ZsZ1pIMHVRVDBfay1vcE50eHNOeDZrQWxOQklnMWUzcEdEeVFfVUUtUXEzbzB0N1hBaVcxX01uVnhqc3VMYWQ2Z2RUZXdqejJ1aktDeklBd2VLYU5kUnZta2ptdnlmTzcyNEV6NnJwUERfdUFTWFpqcnRodlN0UlpOZjVBZkZkTWxoTWc5TXE5ZnRJbXhTQ3Zr?oc=5",
+      "title": "Phillips 66 Earnings Call Highlights Strong Growth and Returns",
+      "snippet": "The Globe and Mail, 2026-11-16T03:56:01+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-16T03:56:01+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTWRfV1VMeHU4aDJLblRkMjJnb19vQmROMnEzbWJRS216NEI1UUJQajZQZkpMZ3F3TURqQkhCY29ZWFYzYVVjM0dGdkNINUxHOXZGYjVfVnhlZ1hfUGRsRE91aF8wMTRVSVJEaVlBX2pfMUI1RVZ4Y01uMWZ2RF90QlhqemIySHR4SFBqQXhSQm9NOF96cUxBMXNrQQ?oc=5",
+      "title": "Phillips 66 To Go Ex-Dividend On November 17th, 2026 With 1.33 USD Dividend Per Share",
+      "snippet": "Moomoo, 2026-11-16T02:56:16+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-16T02:56:16+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcEhhRkk3c0VsN2lqV2E5MjVuVjRVblc0cXJfMS1SUWltVHR1M3BSMlQ0bl94VmkxYktVcEczcW1QN0xCaTlfNldUc25SajhKYTl3dHVoXzd3VENwX21OekhJTEhsMUZrVTYzTUYwb0N6Z3c5SGhUVnQ1N21IZGtRR0dKM0ZzZlZobi1EeU94QXdndXhqZEJoU0Z2dklTdW5fc1NCM1RHckFMcV9pMURoejJPeW84X2k5LVBmS21oTXdJb1Y2?oc=5",
+      "title": "Phillips 66 (NYSE:PSX) Stock Has Consensus Price Target of $270.12",
+      "snippet": "MarketBeat, 2026-11-15T19:23:25+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T19:23:25+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUFdWTWJOdG5FYmhkemFpRW1jMGFFVFpQUG9lS3ROQzd0cFlLM0piLVpOSDNuekxsdHNSR0ZsZFlqZmFyQmszS0Yzd2lldTZ4TFhlZ2pSOU1EZkFqclRNclJ2cm9XeGhVa29XVnNXaVNVd19nZmtialZxaGNvSlVfTFdLcWU4ZU1FazNfQkRQWW5QYTI3Q3R1UXBMWlFudFV3YzlyZzVhV3JhTmdxeU5VYXo5QTNIRnEtY09B?oc=5",
+      "title": "Phillips 66 (NYSE:PSX) Announces Quarterly Dividend of $1.33",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSX/history",
+      "title": "PSX daily price history (Yahoo Finance)",
+      "snippet": "close 256.93 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

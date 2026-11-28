@@ -1,0 +1,109 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CME Group\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 45,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 9,
+    "irrelevant_or_spam": 11,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMnJ5bGU0amkyUUFrcVZCUEZQX3RSV1ZxRm5sZ2lEa1duVFZ5cHExMmJVaVE0Q1pYay0wanYzVXFJVG5yb3NtckIteVBLbFptR2NSeDZ4OHZPMF83T2NnbnNWNms1UWtVMWllZWltekRhZmI1NXZtQjVlUjR0blRqRGRSVVBEMkZ5Mk1qc0Z0TEI0NmVwSFdxT19jUHJEX0RVMzUyT3BJUmVSTTZZ?oc=5",
+      "title": "CME : Retail sales beat expectations as FOMC minutes loom.",
+      "snippet": "www.marketscreener.com, 2026-11-17T18:04:04+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-17T18:04:04+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOHpmaElXS3d5VTlPcy16ZlhqT29hWWJFeXdKa29WWjViQzVsQUlveXhPZTFoQWJ1WW9WaHQ4WEYzYmZlMjEtblhQRXd0X3pkOWNUcUhOcGVpNm4yTnkzTkhYWTAtUWc3YVZpZV9rUGR5VzdZS0VYRkJTcksydkpJZmxTbFFMRERVY3JnQ205R2U4Zk05R2ZpcGhrVElfWG1mdk9KalhPYk5uaEQ3dXREdS1LMzlJX1FkNHdkc01JYWtOWGpuMnpkcjQwZEU4UXJVVkpFalkzRXZJb1ZkSmlGWGx3dmg?oc=5",
+      "title": "CME vs. Morningstar: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Globe and Mail, 2026-11-16T22:00:10+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-16T22:00:10+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbmVsbVBYMzJqTnFWdElBQVN2Xy12c19BaFMzd2JDUlZESXJSeWtROFdvUGtydlJDYWJKcGRwS3diWUdYTzRPQmJ2SEJhMTNjZ0VBaDVKcGwwZkp6U2lkNm11R2cwT3pQX0xlX3ZmR1p3SE14YXNuX0xfakgtcUY4V1hSXy1aelBDWXgxTEhMelY3S2dsZXBqbFgwZHg0XzJUaFVXeVNWRmFPd1JndVcwRTZnSmd1QQ?oc=5",
+      "title": "CME : Tech stocks drag equity futures lower ahead of Fed remarks.",
+      "snippet": "www.marketscreener.com, 2026-11-16T17:07:30+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-16T17:07:30+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORWxYVHJuUnZ3YU5xN1Y0Y1NvV1QweXhHOU9jZDJqaUNYNEpaT091WlQxNGtCRDVwZTNwMHVBV3JIV3NXQlFVT1V1NU9nMnZCeUlzR0ZtWjNXamRUMnFNZUpheFotb3FyV1l3M1JsYXRVMy1icHk5V1NxRHpMUVIxTGhJd1BMbl9FNWZWXzIycFR4OGFnT2ZFcHhUN0RqOHB6X25ZTUZpNU0zMWtsYTVuVGdwNURjeUhQYnlCc0E5b3ZLTkIyeU9tYWU3ZXRKWWxaUTAtZ3pPUTJYWUxxU3ltQUs3QQ?oc=5",
+      "title": "Seth Klarman's Baupost cuts stake in Alphabet, Union Pacific; adds to CME among Q3 moves",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQclVVS0ZNdFdXbGZqMm5ab3A0NGx4VmJfaHplMWVORTNFUUIzUjNwOHdhUGsxTmpDMnpVZms0VllMTG9DalBVMmJwTU55Wl9rVE5wZndCYmdJc2oxWW9haHZIMTM5bmNoekdhSlJ3N29MSHhQR3JabzJVcndNYVJNa1dZT0ZkNEFjVkFhSllIN0Jxd212enBqdXNkVndjU3czOHZhdXlR?oc=5",
+      "title": "CME Group: Dividend Growth Investors Shouldn't Ignore This Stock (NASDAQ:CME)",
+      "snippet": "Seeking Alpha, 2026-11-14T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.573,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY200cWNUamw1aTNMS09XaHZkWHJWVk53UjVKVmVrNGt3T21VdHBrNk5LQXZiRnZMUC05ZE55Qk5vMU5MWFV6VlNSRWtIS3h1Rl9rWC12THZXYUJzUGhjbWJvWVZ2M1NjX2tSaGowQ1NILW1oRkcwZHQtM2tCYXVvZWYzUjJBbU8xVzhjdHVFQmMzeWJWZG94VF9nMHlFaEFiQmVKQVJTRUVVQ2M?oc=5",
+      "title": "CME Group: A Great Business With Too Much Success Already Priced In (NASDAQ:CME)",
+      "snippet": "Seeking Alpha, 2026-11-14T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.832,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 311.56 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

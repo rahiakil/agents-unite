@@ -1,0 +1,61 @@
+{
+  "ticker": "ITW",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illinois Tool Works\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUmRTODRKN3RBU2ZOclFJaGtGd2xUSnlhWnllb205a1BzYVd0S2YwRXFuX1hwOXhFOEFhTFRvZlVEWEcwVVQ5aHB5SjZvV2xrMkZCQnBtWDNNWU85SEkxVGt2SDZRaWpWRExkWEtJakhpWWZLNkpEVzRCakNIaWR2UU44OXYybG04RV83UkJVTUdyMFY1V3ZsRDRSTWN3MjEzNWhMMnZ4NA?oc=5",
+      "title": "Can Illinois Tool Works (NYSE:ITW) Build On Its Latest Update?",
+      "snippet": "Kalkine Media, 2026-11-17T17:59:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-17T17:59:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZDhtQjltQlFFNjloMkstOGxtSlZuYlFLWFZ4alFldi1MdTdENHhJc0pickRiNV9UMkM1bC1sZGZDMHlEaThRakVlNDd6cjdCVmFFc2UzZXNFalNEanpwY1h0c1BPUzdjSzJmRnBycHlMcnFkdVFsZnJPN1R4cFlLRW5MS2RjeW5RMVExNVlqTExvbVVaYUVuRERfZ0RfRVU4cG95Wm4wNlMwd1VteFNSU25pX2xUVkE4VGNHcnNpd1hFeHBPZWFHTnJiVlJ1MXRmVHMyU0duLURkUE9KTkQzeVpB?oc=5",
+      "title": "Illinois Tool Works Earnings Call Signals Broad Industrial Momentum",
+      "snippet": "The Globe and Mail, 2026-11-16T03:35:58+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-16T03:35:58+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ITW/history",
+      "title": "ITW daily price history (Yahoo Finance)",
+      "snippet": "close 281.67 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

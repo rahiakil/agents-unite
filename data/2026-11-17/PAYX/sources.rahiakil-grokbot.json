@@ -1,0 +1,49 @@
+{
+  "ticker": "PAYX",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paychex\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFlMbHZwdGRpRUlZeDVpTFd2S3JCd0xjYlkyZ3gzSE93VEpObENuRWtiSmVHQ2h3Szc1LXNtMUlIZkEyMW85eEM0N3JSZV8xNTdUQ3E2UHRBajFuSWJyUFNjcWtST0p4UnV5Ui1LRlpfQzFjYUdGNDQ2NV9fX3Q2bXo4RzZSMUJhTXBURUt5aVB1US1sMHZtcF92MDByOVRYVGR6bzVrMC0xV2dwWnNqcWJVYTJUamNnUWRCMA?oc=5",
+      "title": "Paychex at J.P. Morgan conference: shift to pEO gains momentum By Investing.com",
+      "snippet": "Investing.com South Africa, 2026-11-17T18:30:52+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-11-17T18:30:52+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PAYX/history",
+      "title": "PAYX daily price history (Yahoo Finance)",
+      "snippet": "close 114.1 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

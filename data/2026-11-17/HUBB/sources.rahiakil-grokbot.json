@@ -1,0 +1,61 @@
+{
+  "ticker": "HUBB",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hubbell\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE10WVZvVF9lTWFWeHcyWWQwN1RCSk9FMS1MbkdHWWNVOGMteVpnOHo2MTQ0NmJFYVRWdDJobzZoSHE4YkQwd1FWbVE4dVJlMEhCZE0yckhjd0JLTVM2VWV3dXFOZw?oc=5",
+      "title": "HUBB - Hubbell Inc Latest SEC Filings",
+      "snippet": "Finviz, 2026-11-17T10:13:00+00:00",
+      "publisher": "Finviz",
+      "published": "2026-11-17T10:13:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNb3RMdkJQR0I5TmpBN3lJV054Z21VMElWY09CRXlvZzV2RXE5N1Q3V2RRQlhUMWtkVnlxWkRvYlJCMGF4Tk8yVG1mcV9LRGxPSDR5WVBjSUh4N242UERpZVoydUtzaFlDWWN6NWIzdnJRa2RULWw0RkRzcUhkU2lGSkJOLVZvWnkxV2R4Y0oxUjQ3Yzhjb043WTB0RkxnZmdsN2NjbGk2WWhyeTlqWUtqdVVwdm5kZjdmV05BRWY5c2xDM0RzVkE?oc=5",
+      "title": "Hubbell Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUBB/history",
+      "title": "HUBB daily price history (Yahoo Finance)",
+      "snippet": "close 424.82 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

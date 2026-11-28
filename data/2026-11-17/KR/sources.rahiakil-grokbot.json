@@ -1,0 +1,97 @@
+{
+  "ticker": "KR",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kroger\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY2J6R3hjampZTzV2N1MwMlZzc0gybnB1U1plZFlFa0MyVDRRMDJLZk80RWpjQlBqNkZlMHFTMTJhUFZnQ05zRnpCQUE4alA2ZmRZQVdsV0xlZ3NjalFjcDNiTUZqNFB1cEc3bGpreWE0cTZkeDJjOFFFWHMxLTdfYlpaUkx6OUVpVzVuc0hYbXZ6T09IUmEzTU1Hb2JVTjVIdFF3?oc=5",
+      "title": "Why Is Kroger (NYSE:KR) Gaining Attention Across Retail Stocks?",
+      "snippet": "Kalkine Media, 2026-11-17T19:04:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-17T19:04:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQclJjNDB2NlB0bW1wRXQxWHdHd3JOUEcwSXpFeFBLVzM2cmVucFM0dkV5QVhzZkQ0MmhBaVpBUXY1elhJTHA0bTZubXpGSnBnZUNRbzdZOVozZWFCVDNWekhJZjI2aUhCOXpRNER5MjkxSzhScm5ySTBjQmZ4T2xtVUNZbTE4bDQyalFMMmJSenplZ1psemtoWGN4SFoxNDhi?oc=5",
+      "title": "Berkshire Hathaway has sold 30% of its Kroger s...",
+      "snippet": "Pluang, 2026-11-17T17:40:49+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-17T17:40:49+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVG8zVnBxbWxzbjhFUnRMYUZYb0xUMU14S0ZndElJQkdyV3pvcnZVUFFBTkpVRHJuSHVISlpvXzhaQ2VTTV9jVXhDOHJmRzQwWXQtWjF6em1MSFdWZDFiOUJPRFNSb21LbEVJMU1xZ3ZLQWY2UUUxVGx3aXM2cTdTN1FlQnlUMGNwSHozdEtnOG9Na1pEY1hxOHMxOUNJeEY0M2dtMQ?oc=5",
+      "title": "Stifel initiated coverage on Kroger with a new price target",
+      "snippet": "Quantisnow, 2026-11-17T12:54:18+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-17T12:54:18+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWldaZG1mdWdnN2NreDlpbE9pNmQzdlJiamMtU2JseFR4S09JSmM4QUxqT0pqOXVtdlVId0UtdlpJUHFLYnh1bDhmSElzZ0JWUHZpUnJUWUhFZEJ1amRtMUZ5V19VT0ZBakxndTNhQVJrQ0NScHhDb1hRQzNrRmg2bzZPQUVNNmltWXZXNlgyazh5SkRWckZxVkJrUWxhRUZIbmJkWWJFRU9tb1E?oc=5",
+      "title": "Kroger (NYSE:KR) Cut to \"Hold\" at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-17T06:09:58+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T06:09:58+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUU1DWXJUZkZjNmtuZVFkVU94bnZvTllNdy1Od05hRENGU0hhcWRydldtXzFQYU5UWE5ObmVYSXlZVVd1ODBIRlJ2Y1pLZVBzMWN6dzVuWE01d0RlSWFBQ3BJRk5DQnNJd3BCZldrXzFjV3ZuMFFHZ3FaTGU0SVNnOUMwN2l4S2hIMDFRWURQa1Q2bjFlVGp3emlDNmtHYTltSUJCemZvN1FQMWJBa3pwY3pEMzNTN3E4X0pEUTZLRQ?oc=5",
+      "title": "Warren Buffett and Berkshire Hathaway report shared voting power over Kroger (KR) shares.",
+      "snippet": "Stock Titan, 2026-11-16T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KR/history",
+      "title": "KR daily price history (Yahoo Finance)",
+      "snippet": "close 70.88 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

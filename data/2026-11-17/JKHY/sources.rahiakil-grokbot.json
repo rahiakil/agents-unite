@@ -1,0 +1,49 @@
+{
+  "ticker": "JKHY",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Jack Henry & Associates\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSmZMcjdTWEhtRnpPUi1kU1E2YnpjdHVqU1FiVUZYTjhqSVRHQ3pWZGhWeHJobFd1WjJJTFBWYWNlSTBWSHdKOUpuelA5MmNaa2NSbmFBbzR5dWJwVWI2WlBaaENNZ3hJd01zMDFkQ3JuaFhZYUI4NmlLa2xWM0lMZnJRY1RTN2xPbDhoMFZpMTZJZ2JNc25rNUFabjZ3b1dJZU9nRUZnWjE0MHR3RVEwak92dDFkUEJzdWN6MFBkNzF4VjBUdE9MRW9HaE1LWkVqMXRMSlBMYVJOdFp2Z0RVTkEyWExwYzJkRmfSAe8BQVVfeXFMTm9EU0M5OV9pZ3VJOVlYUTd3QjFzWk9xamM1bzNlcmowbGhlUGI1UXl4Q1E1SER4cmZwUHZtVkQ3VDlZVmNjT3Mxb0ZHMDVWX0pCWnF4Z1VKalpKTllUT0hQU3BpLWhPbTF6ZHNOcThHTFZzd09SYlBSTDdaaWFoMGxkVmF4RGhLNkV6c3c3V0diRHhhNEt2SEF3LXQyckQ4dUZ5QVVRcHFBM01EeHVPcGluQUc4N0JJMEhmMzNicGRFbURZWFBNbHlfTVo4NVNHT0xjSHZodWRTNmF4V3dlbEtzcDhVODlrX3JNWlBWWDA?oc=5",
+      "title": "Earnings Guidance Could Be A Game Changer For Jack Henry Stock (JKHY)",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JKHY/history",
+      "title": "JKHY daily price history (Yahoo Finance)",
+      "snippet": "close 175.69 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQelhfM3UtS1U4WFpadTMtNXJINmFSaTVraXg4OGU2eXJjelo0RmxGTlBaZ21wOHlYV3BQZEI4Y1JBRHpzYjVTTnNLdnNnMFpDUW9sWEltUDVRSU05Qlo4cmlic2RDRFFXbW5WN1ZGeWxrZ0F4ZjhoWEpud3U3aGpJM242dHFhWWRMYUUwVzE0a05SSzBiRXB0VjhtSElQWUhUY2Z1MEc2VHh5bTlxNEJoTTJqUlZlOE1VQVM5cE5EMEF0TXZReU1sLWc2N3Z4R3pJTnZIenNkNllWaEItUks1Vm1wTC1DZw?oc=5",
+      "title": "IQVIA Stock: Trading, Earnings and Momentum",
+      "snippet": "Kalkine India, 2026-11-17T12:36:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T12:36:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVnBsb3F5Y2JRS3ZhdmxhbjVNcElZTTRSd0F0dDVNMGlhbTROZmFpWnhXT2wyQWVYc041UE1NSm5SaUpUMHJBNm0tOVlwWlM2Xy05bDFyUkFDN3NuTGZRRjJINHNIenp6TnlXYU1YMl94XzdDbUIxektNZG5qQ0k2TDdUa2VsajFZcDgxOE5hb1JiQ215YXIxQ1B2MUdxMU9aMkRteWhLQjBUUVM2MGNQcGdjSHA2d3VrTmNxdzIzTWo2bTVkSkNub0VWS01IbXJkeURZSTBOZWtLaUJFOVHSAeMBQVVfeXFMUExVX1hDazBlQktUVFpaSWQySk01dXQ1allFU3FoUmVNcGxleVZ3QUVTdlA2RU5pd3VKUzJfdVc4d19aazNua0xROC15blh6WlhQUHpicDI3NEVTSVVPNlAzRzgyRFZfbVdvUWE3SlVreGx5aC1uS01lQ3hoZnowSGNsa1VKVEFaT1otaUVQeDRWRWlZUGVsa1pKZDhDZFM5bnhOZjZKNTRzTUhVcjExQUpoVFFjREFTeWE4bmV6WjE3TnROUXZ6UHJjSGJOdm9xZWVNMjhEV1RwTDJvVjBKYWpSSlE?oc=5",
+      "title": "Is IQVIA Holdings (IQV) Still A Bargain Following Its 59% Six Month Rally?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 257.6 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

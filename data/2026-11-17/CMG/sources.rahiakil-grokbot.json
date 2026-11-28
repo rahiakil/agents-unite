@@ -1,0 +1,49 @@
+{
+  "ticker": "CMG",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkhXS1NBNDRDTUNLUVBEUmwtZ2JoYUFoTWx6R3ZiN1YtdURVV2pMN1FGNTZrVm9qci16R09Lbl9XeUI2TC1xZmc3SndEcWVFMFFBRmRpZTQxd1FBSkRUa2J5Q3QzR0s5RTVsaEJ3eGtkVml4YVU3U0JBR3F1UlBoVEpUaGtJcXlWZDlEWTBuQ1FEX1FPb0x0SkRXWm1vOWVOUC1DbXpyUVZQUWVlWFhvbmNJQkpvaGlFTVVfaUluVjBXdjJWSC0wXzNUNlNJcERXMmx0eA?oc=5",
+      "title": "Chipotle Mexican Grill Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 35.83 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

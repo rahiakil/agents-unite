@@ -1,0 +1,61 @@
+{
+  "ticker": "DGX",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quest Diagnostics\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdHNEa3h1Ukx2UTZKVWMyM001OHVqX0xJLVZ5TV9TZFJkdmJMem1uS1FScndObERFc2Q0YjYwNE0zRV80YXVaanNzd21Xa3BGLTBGUkFlVEhaTjZYUUx0dGdpVlh6VUFoNzVKZlREN1kyRTNaOEpKUmtDbm5uVXBPay05dTlENGltaDJkcjJEQmRFR3BFVVpwSjFZOFBfTVBSeHlPNjFmWUhnUld5UVBVNUxJYw?oc=5",
+      "title": "In Brief This Week: Quest Diagnostics, T2 Biosystems, Oncocyte, Myriad Genetics, More",
+      "snippet": "GenomeWeb, 2026-11-17T20:17:37+00:00",
+      "publisher": "GenomeWeb",
+      "published": "2026-11-17T20:17:37+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQc1g0cHpObkM1a1pxemRJYUVjTzJBWVlqNlhPR084ZnQ0cFRoYncxa3Q2cTNEdWNQR1NtQ0kwZjhCUVVhT2swV29RdldqRTItSmNuLUpiNGxaNllGREwwcmVTZjZqSWRDcWU5aDhFSE4wQkxNZzJxM3ZLZTBvUFg1a2ZWN0x4b1V0QTVYZGdEb2FnZktZZHRyU1d5TWs1SEZXTmUyT0xrVWhzNU5oUW94RllBZzV4YjY0VUpFNlQ0dkVZMFM2cU85TmxJaGpUNF9GQlQ0SnhfR1BHMU13MXo1QUZhTVZiNVhTWk41YThn?oc=5",
+      "title": "Quest Diagnostics Inc. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DGX/history",
+      "title": "DGX daily price history (Yahoo Finance)",
+      "snippet": "close 256.35 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "XYL",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xylem\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 8,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMnVBZTItb2hNN2ZjczRTX3pVX3A2ZTJjTkdfUmhDeFZ5eTFLT1QxRHlXLW9wR2w3a05mNi1uZWtFU0lDZE5TU3pHSXJscW0zdGZkNzQ1SWVzMUdlcU01SmdEcWs3dXlqMXgxdjBES0pzRU1xZTlZaFhhTEJYdTFnYnZWWkU4RTN1VWxpcV9WRVUwZ0F0b2ltUzFZNDVQc2MyQ2JObmpLNHZ0WnJmR0hQbTYzNVRQWUIycGRaS2tn?oc=5",
+      "title": "Xylem Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHBpNER4SkdfampmUHUzeFVRa3lMVmhUQ1ZnM3RXc3R1T0pKUzBRcE9RT2MyRGRFVHRsQTVtRlpPMU5qcm5lTzRyZGZhVHVRM0ttYW1SNl8zdUtickw1aVRjM1RHZWMwVzJuLXpZVVFDRVd1VXJiZ0ZPeGxWOEhaSW9nTkJfV0prbkZILXA3T19iVVVtcDB0NUFuM1B1S3VZR2tDektnZkhrOUJOV0c5dHVvRGpoX3d5?oc=5",
+      "title": "Xylem stock: company authorizes USD 1.5 billion buyback",
+      "snippet": "ad-hoc-news.de, 2026-11-15T08:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObEpDZEo3dDd4V1YyUkFsZ09ubGtzd240Yl9IU2tLc0hCVi1JT0ZRQmlteEcxc2g3aWo3UnRua1FNbU1DQ3VLLTF4RW9mUG9EQW5BRDBNLUFHMm9rd0Y1eEliUEo4QUxKNFExaWdXaWJMVGROZEk5clNsdGdFcGlMazQ2aWRZXzU2eUJzeWxQRGhxcW9BSXk3WU5GZ2hYbXp4dndjLUd5SXgtaknSAbABQVVfeXFMUC1qM2dmTUFZck5vNWFNYVlzakZnM0VBRDc5OXVRTnI4Z1V6TEJFNDRFNU5UNS1wTDF4QkdvbWFwMGJjc0FuZl9WOEs4dnRlbXhIM3BvYVlEWmRYWUZENEVIZjVRYURsV1M5ZWgzWHI5dmhNOXVTV3lwTElESVBzdkphb3hIMXR3eF9TeDhkVE1vWVlYd2NKNlI1UGlveUxwSWpXTElVV2R3NlJMSUlqWUw?oc=5",
+      "title": "What Xylem Bears Spotted Before The Slide",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaUh4VnlRUVZQRWkzclIycmNJNlJJdEREdmg1UHNGTDFUODBYYW1odkV5Rmg4bVdIZjdsTzFxNDVlTjJyUkFacldMM1ZkaVhOV3pGeEFHVFdpZ3BwV2RlS0YtalRSZXNILUVSVlpfT2R2V2hldTBwTWV2SC1XZ3FKS3pUXzZFcllrM051S01NYXgxVEdCb3NoeEptTWV2T2hSQWpLWWF3Z2ZveHhoaU9kdV9TUDlsZnZMbUxXNkhEamtianM?oc=5",
+      "title": "Key facts: Xylem $1.5B buyback; 2027 growth; data center orders +200%",
+      "snippet": "TradingView, 2026-11-14T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYL/history",
+      "title": "XYL daily price history (Yahoo Finance)",
+      "snippet": "close 94.65 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "BF.B",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown-Forman\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOHIzejhQVXBJZHV5NmFudW9ZbWZXdXpMdWZQY2VMdFZrRy1WM2dFM2U4QWVpQXVmejFXQlpuV3JBUHp6TVd0YUlZRXFSRnhlckEwZHBiVlRNRTVCZXM3bU5aRjV2TXB6YzJIQ1haQVN2ZDNJXzNCdERaeFA0Rkp6V2VkM3Z0TG1uSWNMTE44SURJSm5JU012eDBMcWt4b1pBV2NHUUFMdDRPaVdPZnZOUklRX3J2cVVSbkVxazk3aXlwcml1b3VJMWEza1VLUQ?oc=5",
+      "title": "Price-Driven Insight from (BF.B) for Rule-Based Strategy",
+      "snippet": "Stock Traders Daily, 2026-11-15T01:24:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-15T01:24:02+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BF-B/history",
+      "title": "BF.B daily price history (Yahoo Finance)",
+      "snippet": "close 30.24 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

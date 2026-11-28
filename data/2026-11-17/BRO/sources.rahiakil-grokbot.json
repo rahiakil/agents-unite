@@ -1,0 +1,61 @@
+{
+  "ticker": "BRO",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown & Brown\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTWdFLTl5V1M0SVdDN1pHY2dzTzE0aWpDREhHTjd2VHMxek55azhTdjdkLTY4R01WS3p2dDBUMHZ0eHg2ek0tUWNaSVFnRUoyV2dObXo4RnVqS2NBY0dRYkVmT213WlFtYkNkeXE2NmMweVlfWGJRNE5GOHBEc0prTWtuclRsMXFzYkNNVE92eDVnejkybXlKZGV3bklKb0FRbDhmeUE2U0FrNUE4emttUXBZMGd4RlBva2Q4Uk52M0xyaks1eXMwNThXUFUtN0hQUzU2ZlVPS2VUdUk?oc=5",
+      "title": "Morgan Stanley Forecasts Strong Price Appreciation for Brown & Brown (NYSE:BRO) Stock",
+      "snippet": "MarketBeat, 2026-11-16T15:20:59+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T15:20:59+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWFjd0ZWTVhNc2dJVnFYTUpwbElmODhXS1ZVdGUwWEhmOVhqNmdFZ29WRHIzUjVaWHJwV0ZMbUZBNEdRU2dVU1lBeGFVYWZIYm1OWW9wa2UwYnNIa3F4bmNWMlEyLTIzSlI4NDYzOUluTlBaQ0lHYWFvYTNWNUNSN2lyYnZSYWkxTWs5VkdtMjdsSzB1R0xPOGF1UnJ3V1NnSlVpTVE5WW5tcExod3JvSTF3bWowelo3MFdGampYRVlkTDZwU1E?oc=5",
+      "title": "Brown & Brown, Inc. (NYSE:BRO) Stock Has Average Price Target of $75.82",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BRO/history",
+      "title": "BRO daily price history (Yahoo Finance)",
+      "snippet": "close 72.25 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

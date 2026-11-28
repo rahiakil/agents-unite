@@ -1,0 +1,61 @@
+{
+  "ticker": "SW",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Smurfit Westrock\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWmJ0TUdUREhwa2pBRU5aYzdLX1dPMndLSUVOd2VtaFVmTHUtUktpZDhxV0pOZ29VeU1uOGQ4clk1bnpTb3dfLWhDVXJybUwzdjJMMm8xN3BIcnBGU1FualFIZ0ozTVRRUElvXzdSdndydlEzb1lXWWNxQ3ZOeHI0cWxjc2hMUXR4UmZabXBuVHhSVFJwNFBlTXBtbDAweUFVcFgwRzB0SEdqc2NTNFJ6c1REMWUwekl5VF9GUWRzWC04LTlOdFIxNlJpellLYUpNemVCUE9HRUtkNmw3S2VWSjJlODE1dw?oc=5",
+      "title": "Form 4 Smurfit Westrock plc: Anthony P. J. Smurfit (Director, President and CEO) For: 13 November",
+      "snippet": "Investing.com Canada, 2026-11-17T17:56:21+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-17T17:56:21+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ0Jwdkh0WWoweVpMczljNHFZTjFIanVXQjVfWkRQUHVMR3NRQW14TVlldm1IMGRPWVFjLTFjZDlfdXJpY0VTemJXMHBOLW9wX0JOakU1b29pZl80cXZ6R1h6TU9JellYWThUSy04cExKMHdPaTJOOGxIRXFXVGdrcUlZX0R2TlFQSHRnNkVGS1FaWWh1eFlpcW9ZVFNYdXY3RWFrc1hfNHYtTVBJVFBZ?oc=5",
+      "title": "Saverio Mayer Receives 229 RSU Dividend Equivalents at Smurfit Westrock",
+      "snippet": "kalkine.com, 2026-11-17T16:51:06+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-17T16:51:06+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SW/history",
+      "title": "SW daily price history (Yahoo Finance)",
+      "snippet": "close 40.13 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

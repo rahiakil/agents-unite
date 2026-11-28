@@ -1,0 +1,70 @@
+{
+  "ticker": "BSX",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlRkU2RkYzVlQy1EOEhscUctUzJnT1I1dnEtc1RuSHBEMGtMTktWX2ZTOEhVUlZjV095TUk5blhFQ1lqYTRxaDl1VDZvbTZ0ck9QckJqbkxNaUY4eWpQdi1hZ2liMTNhOHY3dm9fMUFlNlJfRVNLLXBQSnNLTmNPQ1lmZkFDV0tKd0tSblJSVjU2QkthVUE4?oc=5",
+      "title": "Should You Book Profits or Hold BSX Stock Post-Q3 Earnings?",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN1phb1BINjdrOW1JYzhQalRjdVJaQXF2c1FrQzd3WU82SlZTTEZ0Qm1ad0hWdXI5Vkhxc2RRZnF3QlRjZlhMYTkxUkMzNWtpaFozOWRld0RYU0lKaGZWT2djNkRuM09KdEVjTEpVMzlpaDl2Q2FXOVNSaEJ2YWdwR011S2UxTllvVTJJRTlpSHZDWGo0S1NsQ0ptY2pHRkFvS28yZm1fWQ?oc=5",
+      "title": "Is Boston Scientific Still The Business You Bought?",
+      "snippet": "Yahoo Finance, 2026-11-16T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000073/bsx-20261117.htm",
+      "title": "SEC 8-K filed 2026-11-17",
+      "snippet": "items 5.02,8.01,9.01",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 43.03 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

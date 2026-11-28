@@ -1,0 +1,61 @@
+{
+  "ticker": "GDDY",
+  "date": "2026-11-17",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-17",
+  "news_cutoff": "2026-11-17T21:00:00Z",
+  "generated_at": "2026-11-28T01:22:14Z",
+  "collected_at": "2026-11-28T01:22:14Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GoDaddy\" stock after:2026-11-13 before:2026-11-18",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOHB0QVNuc29jMkJnbXp3YXVrZWNhakVSOGtRbmJReENnT3JXU1ZEME5DanowX0tZTHdxNmlGZkpWZkVKWjhZMlh1UUo2Y1lTRllfRGVreDZPd19PSUhUVlpGMHM2NDJZRkdGQjVqQ25fZG9pOHpLNTZaaDJDQm12TW1hbS1YUHBCZDk3SlA3WjBHN1JUOWtrOElUekc0eW1kbno5NjZR?oc=5",
+      "title": "New GoDaddy Airo AI Builder Lets Small Businesses Turn Ideas into Websites and Apps",
+      "snippet": "Quantisnow, 2026-11-16T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONWhUNzBGTmZlZTlaaDhQTmhZalQwdFh5OTRaSDE3ZUZvYVk5YUNDZUVMSm93UDBpekVVOTY4c2t2Mm5adXJDazBtMWNSNF9mb3JZRW81dWFENWtFQ1hZUTRxQUdsaThwQTNGbnRJT0V2SUhzd0Ita3lKR2ZLMURPcUVWZXI2RzFuQWtpUDBYUUxfMFZW?oc=5",
+      "title": "GoDaddy introduces Airo AI Builder after stock ends session up 1.5%",
+      "snippet": "Traders Union, 2026-11-16T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GDDY/history",
+      "title": "GDDY daily price history (Yahoo Finance)",
+      "snippet": "close 106.71 on 2026-11-17",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

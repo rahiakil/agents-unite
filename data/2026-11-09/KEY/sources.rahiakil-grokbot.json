@@ -1,0 +1,121 @@
+{
+  "ticker": "KEY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KeyCorp\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZGwzNVBNcXRjNmNKOVVfRVhwSERsMDE2b3Q4LXE5OWpTS1ROUlQ1QkEzVU1vOW5fZVQxZnE4VWh2MERrd0JMU3MxdGRyVDRLV054bUEtY3ZoeFVZMzU1aXVYYThscmEteV9oNWRkVkNGUkI2d0swaUpwVVpFSmxiNmNYQzJLVEpEN2J5aHN0cHo3aHA2T1BxcEFyQXFaSFdPd1JjVnFEMEhIZU5GNzJaX2ZwaWxNTE9wb1FOMTlHVmwwbEtuMTlzM3lzSG5wczR5OXc?oc=5",
+      "title": "Planet Fitness (NYSE:PLNT) Stock Price Expected to Rise, KeyCorp Analyst Says",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcXVPdFpxanptakpyM0R6ZzdBbUR6NUtBMmp4YkllaWZUUmM4NWRWcExlQ1FIWFdTaTNhRXQyTjhuWGxnVlN6SVllVjBRN180djNFZHJSUGp4aldFNmtJZjU3amx3RmxvMmpyZTBQaTFTQmJHalhMSWdwNWV0UTUyeTRCYTRsR0tybEU3NWt5bG1pNFJoSTRaNUpEZXpLTUo4Vzg4T2NDX21GSE9rUkw2N2syTHdYWXExODAzMXN6OGRTelNIWVdoYnZybWVfQ1U?oc=5",
+      "title": "Microchip Technology (NASDAQ:MCHP) Given New $120.00 Price Target at KeyCorp",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUDRGQ2JlNklMRk5PSEFobGdBZ2QyVmVHR1U0N2w5dHEyeXBRTDBLaFliaDNQTnNFNUJJMi1nRmgwS1NGbld1cG8wRnhXLWJuaTNzSkpoc3NHc0RhdUllVS01T0QxV19YNkgxdjZSZmdzclI3UThKTFVNdDRYeUc3UU56MXNpVDdma0Y2SDF2dmNzczlZOVc2eVIwOWs?oc=5",
+      "title": "KeyCorp (KEY) Plans A Conference Update, Is A 17% Discount Too Cautious?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOUIwWlU3Q3RmeEVKdzV5MElWcWo1WjZGVFZFV2tMc1VlNHZycUV6TDNLZmdHVmdkeVhMQ2hULVVLOW1ZWUZYSkFxYVJwSjVabjlYLTBmUXlzWjJtRHNXdXpMN1YtdUJ0aERoTUdvM0ZoaUQ2WkFUdmNTWE50eUpuWDhVX3p0VnJQQkRsMDA5Z0NqYThyeThXZU5vLXpEcElabHo0eW9QM2N5c2U2aWJuOUZfUElCeEtSdXhuRNIBwgFBVV95cUxQcjVwWlpGbHVHMzFlU2RtSjcxYnVCXzNBT1NIMFMxbHh3TllDNnV2NF9VdFVoZzQ5QUVqYktsWXRCTkxrelNaSEhaalhmRERseUhVN2Vha0ZZaDdGSmczalF4a3NpTlNnSG1tQkhrTVJ4OVE1dkpxZDF6RlhCMnNKdDdtbGJnMklPUWhkZ2pwZEJYMGszcU5LbWVpRURPdmx4M1U3QzFJN3hyZmlNbG15NWwtdEtGYUxYU3VTbXNuNUlvZw?oc=5",
+      "title": "KeyCorp (KEY) Just Made An Acquisition To Deepen Its Private Capital Reach",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFU4UW1jdklFN0JqZEx1MF9BRTZjdDlONUREblhldENSYjUtbXdoWFFnYVRGRklsemVkVW9iUnVSM0swbUFoMW5kWXJVNjNuY25mZy16NEVLSFFHYXNBcVhsZXM4QmpobWFpaHYwTU05WEhaR3FuZnRXeWoxQmh4dmlpVC1ROEpLRFJOS0haWkJsRVBxTnM3czdJRlVoRzBIN0xUNWFGVDRzZw?oc=5",
+      "title": "KEYCORP ANNOUNCES 2028 QUARTERLY EARNINGS CONFERENCE CALL DATES",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM2hFZ0VJU1BETWl0U2NnVGxpNDlSUmc3UGdod0pnTXZ0TFJKSG8td3VaQkgwcGgtcHRLOU9ycmFXU0wwNG9UOVV4M0FnUnY0NklyM0t0Z2REUjRQbWRTVmNrRnJuenFUYXhoRWRScDFqZDJNS3hDVTU4cENJb1F5LWpwN05tcVl0SGdOdy1zVlVOTk5TX1dSRDFmM2ZwNDZnRVVHRVJJN3BnLU1CU3lPbFdmYksxY00?oc=5",
+      "title": "Five9 (NASDAQ:FIVN) Stock Price Target Raised at KeyCorp",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdjI4MWV6V0N0QlB6TExRQUFZTzJ4dTl2cXc5UGtWR3VVaW1jcW5ncmVYTUdJVDI1aFNtZVp3cmRPR0p4Zkl3WkZ6Vk9Ma1h0dVV1OFIyRjYzY2tQWUFXVXpvRHpNM1REcUkyS3I3dXpOSVlwYUh5UVE3TEQxbVJyeFVjdVZsU3M4T1Axb2w0SVZhY2JJa09GbVlRVXU2VkZOVk5ILXEzN1FodGEtMmhlM1hoeEQ4Zw?oc=5",
+      "title": "FIGS (NYSE:FIGS) Given New $27.00 Price Target at KeyCorp",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 21.41 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

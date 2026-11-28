@@ -1,0 +1,109 @@
+{
+  "ticker": "MSI",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Motorola Solutions\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ09lSTdIdmVkQWxzTGJkejlFUHVyeWVDS2szYTRxZWxrdVhoaUZMWndpRjFqeXhqYlAwR2w0aHBHUG85eHZRRF8wRVpBd3RTaW1RTTFQNmUya0dXYXU3SFl1RVh2SHBvMlhrMlRzc2FoLVZGa19NeUMtZ1pKWDhySlVGWnZLbFpNLTFMaXZRUEx2a2FoLUtOdENnYkhwbnpUUWc?oc=5",
+      "title": "Motorola Solutions\u2019s Q3 2026 earnings call: our top 5 analyst questions",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xQUZpTC1CZlJpVDlYbEFrcXJ5X3JCZkxXMmpVYVRNWFh4VHdSVVlGODViV3B6MHpiUl92aHk0aHdXdWM2WjByLWM0TjBEdzVUZDJGX0l2Z25wRVAyb21oZm9MOA?oc=5",
+      "title": "Motorola Solutions xStock: Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-07T16:50:17+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-07T16:50:17+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZWFGY19iZG05cFh1eFBEbF85SUZHQzFIN1E1SmgxdWxqU3BvVHFzSkVIWHR4dXhFcVNsdE1ab3RnZnFEbDZ5S09Ea2xEZ1hoNmhzb2RrWkVMRlVJclhZNTZDTmNSdVQ1UUdfeldoODJxYzFNbTRucldBY3JNUWNMa1hpeThYTXlVcmRRd2R0T0FmdzFHeEJzOUJnZnh5bUhfU0tmVXRKVS1GWjhUeUM0MDV4ei11RG9nQ2pJRUQ3WC0xOENNN1NEbldB0gHPAUFVX3lxTE9oNGRBdjJubkZGak5KUjFUeWRQeEl1SW1rV2ZYMUlFaDNHaTR5bUhyU0VabUJOOUpab0dLYXA4clBSV1BUZTRrYzl6WHdKcnBnRTJUSmttNm5xck4tazVhT3lsVkxpUURfZmVvLUxKZHJuWml6eF9KakRkMDAxQnBFeEVPNlB6aUZ4OEZweEVpdm9ja0ZGeEJ3WEdYZUZCT3BncERHOTVOSUhObkt2SmdlQVJCSnZxdlJZbzJxZm5NVS03d21Sc253bGp2UVdFSQ?oc=5",
+      "title": "Motorola Solutions (MSI) Lifts Guidance On Strong Q3 As Valuation Questions Linger",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZE1LWVB5TTVjWUhCTXFzbzBKUi1CeGV3Qlh0LS1INWdrQUVHS2p6dWd5WmJCMHViWW5fZ1ZWODhwMVNGZTZjZXhpdlZyRDBzcWlkc2oxQWd2OS1ieWE5aFpIWVdVT3REWldncUlXZURnTmNPWGRJcVpxTDc0bEJVM0d3MGpsME9JUDdZcm1Vd1NZeUcwZ3dQMmZtZkZ2dnR1clJqVlpfTWxRN1VLNElVV0VOS1JHSU9IdGptd2lURkNmWVB0N0ZpWWhn0gHPAUFVX3lxTE9uTG5tM2NCb2FsQ3Z0ckZOVmowQkxkTWR4dmoxcWEzTU56ZDhNZHVoWDZVeUJUaENuelZ3Ykpiek43S3U0b0lrTkMzcEFsREd2eXM2U0pXb21xbVlyOFlmRW13dXR2VFNOeXVLNXhaWEFQTGFoeUhsbkF4VFpqR0VJNi1fRlVua3NJTmlzSlJzX2ZnbTI1Z01EamJzOTdvMDZlZGl3UnZycGp4WU95X0FwU0l4c2VONWFBd3VMbko2ODBwU0k5NFprdVFoV2JNVQ?oc=5",
+      "title": "Motorola Solutions (MSI) Stock Looks Stretched Despite Its 121% Five Year Run",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMEM3eFNBZjl5c3MtNzFuYUZKZTE5OVp6NUVmUUliWEV2MU9vOGc5bW5xZUh0NWE5WnNhbnRPZFEwZk9FbHRldG15NmhyNU5LcjdBZWxucXJybXhoaEl1RUk4X3RXYW1EWklwMFBOajZhdXZHMnZ0RG96SzVRNl9keU1nUHFVcmV6czQ4bm1wY2lqNUdqTU1pc2xlME1YVkhKdXQtWmN1SUlHZUJrMzcyWFFaUEF6ZkhkcUFkT3BFeTNBWjE5cFE?oc=5",
+      "title": "If You Invested $100 In Motorola Solutions Stock 5 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-11-06T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMXRKN3MtaUE5dG1PRVFMVVdhcnJkMV96eWdaVF8xYnVKelEwOFdzZUQ3RHl1MU5HLTh6eXpzNGdvQ0t5cVRac052NE1xVFhWVnZhRldBblA0NDNMZnBKVzFscFM0MHRuM04xTmVPYmZIRTV1bVpFTXlmMVl0Z3hTR2FuR0tLRGVCYjY4MXVEWG16ZDhIOE11M2Y1a2FCQjFETzBvM0hXWjFPVy04WXAwR0NsT281UWJhdUl5VlN3?oc=5",
+      "title": "Guidance Raise And Momentum - Motorola Solutions Stock Has Both",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSI/history",
+      "title": "MSI daily price history (Yahoo Finance)",
+      "snippet": "close 527.97 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

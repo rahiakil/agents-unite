@@ -1,0 +1,58 @@
+{
+  "ticker": "VMRK",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vivmark Residential\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOal8yMjdxS3c1M0I2MHUwRGstTEJieW02UmJOWmE2LWdTVERSeWZXczRrRjY0ZUNGZW5Rc3BDRW84YktXeG51SXVITTRQX2NqMUZCWDF3eHhlOXNoOFQySGUta1ZhbGFVVTdPbjBnMEl5RzBSd0t2cmYtYS1aMy1VZVhESkhkeXZ4UzNiUWhXWnFuaU9zLWY0dXowZjloQ2RmWkh3RTE5bXdKQVB4QThTeTlPdG16azg?oc=5",
+      "title": "Vivmark Residential (VMRK) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-06T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/906107/000119312526453735/vmrk-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-09",
+      "snippet": "10-Q",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VMRK/history",
+      "title": "VMRK daily price history (Yahoo Finance)",
+      "snippet": "close 66.14 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

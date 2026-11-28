@@ -1,0 +1,85 @@
+{
+  "ticker": "AMCR",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amcor\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObUZnVE1XdzY3ZE82ZmVoRVk3elNDZ2ExNndxRm9IQTVrTUJGRzRncDVuSERQYjJLUnlGcGNnOVJsa3BrOHBHZndoTU9aMHJ1Ulk0Z3k3bldBWThMTTM5bWhmQllCVnFQSDdabTU5NzlfTjlsZWtmZWkwdHd3SVJWVi1CZWZTMWdFQTQ0eTEzSzU3RXNMWHotdGJHYkVMbjZsUlBJOElubVFZSUgxWEdfRnUwdkR3d1N0b3d0T3RzeXBTTERHcFZySVlQbFY0QkVha0w1Yw?oc=5",
+      "title": "Packaging and Gold Stocks on ASX Today: Amcor Rises While Perseus and Genesis Minerals Shares Fall",
+      "snippet": "Kalkine, 2026-11-06T08:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVXkwTTVBa2hqTHQwbTFQaHdyc3FxRDNpY2d6WmlGRG40M2l5WExUNjFfV1BoY19BeW1HTzF3S2hpd3NFMkFORmMxOGtKWlhzVWNTYVZlWGVxLUhaSV8yT3p6bEtERUZaV2pQa3Nmd052SHRXVmdnWWMwa0J3dThzQ055dUgtU1kxTDhuLUJoa2JGX0o1Vm5BVHd5NTdoc3VPT21LbVBmQllvcEFZVlVtMjFB?oc=5",
+      "title": "Amcor: Near-Term Headwinds Are Hiding A High-Yield Long-Term Opportunity (NYSE:AMCR)",
+      "snippet": "Seeking Alpha, 2026-11-06T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUzMzbGRxTkF6SHQ1M0FMaG5OTkg0YWY0RWxrS1ZoYnpRWkJNUzRTNWtZclkzMElvQWszWDhiMl9xZ0xqWWZINDRfWVRGZ21XbndXOTlkZ1d4Wl9fLV9UaWJBU3hpVGNlcFozblhEU0dPXzhEWC1XWXF6QUdTQ0Rrb2E5MW9lbV9DcHVYS1VQNE1QQmFDZmFFWGRrVEc4V3FYOEZGUGdLYjNuVlZ0dW1NZEJSZllXdw?oc=5",
+      "title": "Amcor (ASX:AMC) Shares Climb Today: What Is Drawing Investor Attention and Why?",
+      "snippet": "Kalkine, 2026-11-06T08:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRkYxRWM4OWx0THVJOFhTR0d4NE1iSERVVGxhN2JvdXN5MTU4Z1BVRDdnZzZrZGFrR1ZtcDVLTElpaE14dUVjTnExRmVpbXBxT1RZSFFrUVJSWGU5UDdFM1pFLUlza2dld3JRbkxXcWRkcjhybFppY29MUHgxem1rX0k2eEJoSHJUcHpCTzlKdjMtQ25VX1YxXzBpSDJ1b2lzNmc4MlFrTGVLLUJ0YWgzNHVXbm5Mai1BU1I5M0hHbjPSAcYBQVVfeXFMTUlaZ1ZORDd1eFgxbWlibUJaOVhOdXdUVmVfbS1zVU9nUU1PczZCZ01NQldQVHU2YWoxYkJnUkNoQkthb2loM2Z6MEo3QkFlUFV1d0llcGZMbGNhQ0lyZmVuOGNjRmc0RTdNeG12N29WX1IxQWhpVFVnclVjdnpzcXBXQmJWQWd1SzEza3dZTkJrbjdBQ3JnWFR4VDBseU80cWFIT1J5UGVvXzMyQWcxNHphbGZZaVlneTlUU19DZWhIdjREMFhR?oc=5",
+      "title": "Amcor (AMCR) Stock May Be 48% Undervalued Following Dividend Raise",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMCR/history",
+      "title": "AMCR daily price history (Yahoo Finance)",
+      "snippet": "close 45.14 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

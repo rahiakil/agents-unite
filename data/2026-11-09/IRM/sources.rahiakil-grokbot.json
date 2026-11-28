@@ -1,0 +1,49 @@
+{
+  "ticker": "IRM",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ0E3X29obnpFaTlKVWpnM04zNVdVUVRGaVdQSFVkSnhSeTJ6eXJ2WFczZW5zMmRwVkRSX3BoQUt6SmxLLXlpRVEtT0pxeFExbmI1Tjc3eFdDMGFxNXhWNnZHekw0VkdEdElBWG1lUXZuajJFU1JvYjE3LTdPT2Y2SGZMYXZlRkdydkNYVC03cXZ3U09LZzVZ?oc=5",
+      "title": "Why Did Iron Mountain Stock Fall?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 110.85 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "COO",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cooper Companies\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdS1PTHdfdHR3NUF5Y2drVVdPZ3VWQ0hVRThWejc0enZjVXpHLWk0S3ZLcXVKb0syakNWWW5NREpVUV92eHJuUFQxRkU1QjdOUTlCM1VuNTFYWGdzbjZVa0ZBbFpydkJ3WDI2QnNsTVpJSXdfVXRNa181dWVIV3pQTWNPZk5SZG9INDM0ZTdIM3NBLVBwTUJERzREVWthVDAySm5hRjE0M2VDVk4wOUI2QXlOWEZSZEFMXzBpQnpURFU0ZUVGWDNvOXZ3clBkT2JXOEHSAdcBQVVfeXFMUEh4T3BGUl9fRGRZNlIxSGdmWkRzVG9LM3VZZXBuWmF1S3FiSVRxY1JYUENoNWIxQ3FNRS04UGNuMFVjclFTbjNybXNoeTV6dVpvd3JReDkwc1FFd2RmYjJuZWw1aEN0WGItUEI1dHJxalNvSWZDRXRSQjhxYVAtcDVGc1dzMlNzS015N1kwa21Od3RiX0R0VElHQ0Q0ZXpsM3lSNjlad1h4dTI2UFRjVEFZTXR2eFAyR1hjZ1NsMjZaWHhwUDFwWUxnWW5vX3BXR0lFSU9SNms?oc=5",
+      "title": "How Investors May Respond To Cooper (COO) CEO Exit And Board Reshuffle",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COO/history",
+      "title": "COO daily price history (Yahoo Finance)",
+      "snippet": "close 63.93 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

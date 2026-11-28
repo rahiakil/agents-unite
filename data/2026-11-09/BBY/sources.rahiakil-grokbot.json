@@ -1,0 +1,73 @@
+{
+  "ticker": "BBY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Best Buy\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQnhwbFRobjdoSkk3MnU2blZ4anZPTXdZYlQ1MTlpZ0RMNFM2ank3TTlUN1NZRFBaUHdkN0tnQzEzZU1aTGczWXhhMDBKTGIwcXZsVkN4UlNMVDV0M0ZHXy1XRzRORURndU5VLWg1bGJ3ZkJLQTlqN21xeEkyWndLZmkyT0c5V3FWblFiYXVHNWk4bmhoQ0dHOEpOMmRJQVp2UzNaTWJ2X0pqaHU2THMzTGw5LWRTSFQ0TnF4c1lwMmphMzdwTGItTVRrWUFPQUlEU1ItcjZSb2RDRG1sVGc?oc=5",
+      "title": "Wells Fargo & Company Forecasts Strong Price Appreciation for Best Buy (NYSE:BBY) Stock",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.9,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNblRLdVJhTmw1cmxTdU1YbWNNamN4T1JBWE1RS3VxYmE5U3dRdV9Cb25SUGpMRmpVMDJfandzZl8zRVZtc2RfdkpDeU9uVUc1U0lFWnRGX2tRUmtwMDRBcTdtMEZJT1ZWREloU1k0WHU2OGphZFVRQlpXay1NNlppaDF1M0xzdUVPbVBpb3hGOVpySFk1b2tHNHAzR0Z5Zw?oc=5",
+      "title": "Best Buy\u2019s Dividend Is Barely Growing. Should Income Investors Be Worried?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.528,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95SkFjSmtRR290Q0s4X3lmNDQwbERzUTdndHl3WUc0SldNR0ZHZDBDcVFIc09IYWJVMUg0WkExLWZOV0VqVWRpSlJwczRvOEU5UGE0N0UzMjQtbnp2VWtDTg?oc=5",
+      "title": "Best Buy Annual Revenue, Employees & Financials (2026)",
+      "snippet": "FourWeekMBA, 2026-11-06T08:00:00+00:00",
+      "publisher": "FourWeekMBA",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BBY/history",
+      "title": "BBY daily price history (Yahoo Finance)",
+      "snippet": "close 106.28 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

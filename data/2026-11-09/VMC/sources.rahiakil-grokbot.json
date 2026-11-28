@@ -1,0 +1,61 @@
+{
+  "ticker": "VMC",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vulcan Materials\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HMFJoQklzQm9jU1hmUnBmNHJVLXAtUy1ONk9iZHhDam5XNTU4TnNRQjBzSXlkcjl2cE9NT2llamgzRktaU21HTktfM2hSeE1MTnNneUh1NlcwTGhMeUkzdEcyb3Y4OFdZWW9EX1Z5WktCbGRNUWJaYU5DQ25pRHM?oc=5",
+      "title": "Vulcan Materials (NYSE:VMC) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOamVXT0J6T2trUlN6c3FaMGQ1Y0hOdTlwZUViallWQWd0WXFvek5hUVlueGpqZzgxTFJPSThWRDlNMjRmTW01M0dNdzlBLVU5UGV1b0tsb3NsWnU0aEppenpZTXoyMEpSTmlEZVJ3TGNHd0llT19ZN2M0REw0TjJUNjFlMWdHem9LYmFnX0JxRWZBeXp6MEZ2d3RFcEFGU282SzBGOTJ0cl93Nm5w?oc=5",
+      "title": "Senior Vice President of Operations Support David Clement Sold A Bunch Of Shares In Vulcan Materials",
+      "snippet": "Moomoo, 2026-11-06T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VMC/history",
+      "title": "VMC daily price history (Yahoo Finance)",
+      "snippet": "close 289.44 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

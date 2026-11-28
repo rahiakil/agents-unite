@@ -1,0 +1,61 @@
+{
+  "ticker": "JBHT",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.B. Hunt\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONHNGSGxpWC0tUDA3UTZ1LXhDd1VtZnJFN1ZGSW50ZS1kYmJOaUpndDkwR0xwNGtqcUpURXYwMGRFRVR1Q3UzamdFMUNXaC1EWG5vZFdZMWd6bzRQSjlGeEdVVlZkbklwLW1RNUU3NFFRd2cxbUZlcWk5eGlwMk42R1JrSzMxRVlaVGdMWWxib2xJdTE1dE9mUEN0WVFkZkVleWcxVS1JWF9ZVnFybTl6aXNkTllwdllrdlJYQ0w0Tzk0RHRYWU1ZNjVNV1BoQlp3UXE3TzBqb3dkY0N5Mnk2YWt4T1lEQWo3b19LRG1PNDN1OVJRMmVBR1FQY0VybDI1VF9CcURHaDJKbC1LdThiVTBQRjQxZw?oc=5",
+      "title": "Rosen Law Firm Encourages J.B. Hunt Transport Services, Inc. Investors to Inquire About Securities Class Action Investigation - JBHT",
+      "snippet": "Morningstar, 2026-11-08T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPenBRZjljM3hqYklXRmJQYTZtMnBkNm45T092b0RPYjRocmJZeGlDMk5RTzREeThsUjBFMTRsZnN4bVlndEZ3NGh0SzRaTG54aVJOZ1ZMOFZQRGZ1SzVZdnNqRHdYdDlrUnJBOTVsR19MNzIyWTJXVk9PNHNkUHVYbkUwem1lUENtX241NDh3?oc=5",
+      "title": "Why Old Dominion and J.B. Hunt Stock Could Gain From Trucking Rule Changes",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JBHT/history",
+      "title": "JBHT daily price history (Yahoo Finance)",
+      "snippet": "close 224.32 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

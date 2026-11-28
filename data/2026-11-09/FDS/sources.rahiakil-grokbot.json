@@ -1,0 +1,85 @@
+{
+  "ticker": "FDS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FactSet\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc3UjBuOFJ6b1RNN3Q4VFJ5WlpsR3RfY3JrbjQtSU16M05tcnpjSGNpQlRlbFZUcWJ4NEM2dk40V0FSY194NlV2YUQwaVJ4WHV3TFIzbG00bHk5V1RsZkppcldSWEYyZFFFUWdnckcyMnk4RXhQRGwyaWRhTVdZLU1GNUc5UmhxMTAzVG1YdTdEaWFpYVQw?oc=5",
+      "title": "FactSet (FDS) Stock May Trade At A Discount Following Its 27% Gain",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVmw0S01SZ2kzaXR2cDhTWm1DTkM1cFNsWDFzU1Bod3dNM1pMRFhOMlpod3MwWmlCTElIazFibXBaLTFfb2RxbGJGOXItdTdxMUpSbmYtMkZ3SXpWMHhJbGFJbnkxdVlVWS1LUGZKYWJldkRlLXNJM1c2QnJJS29UT0lZMmdCbjdSM01zdVRyRERCdzI1SWVnaEdEVGxmeEJ0cTNqTC1TakRlUQ?oc=5",
+      "title": "FactSet declares $1.16 quarterly dividend per share",
+      "snippet": "Investing.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSi0wLWVRemZZTm1GZmZxTnNJUmVfU2E3WXNtbnBPSnZYeGFsTUZNMkhqNXgzbC01RTBhblBnM0dDNmRsa3BPZjZjaF9vQ29ndnptdHJiSW9yV0xlUzQxbTdMV1lITnhYRlFrT29uUm9xbWttUzZoRkd4UDRTS21OYWtUV3BNZ1RVVjBnNU9Vd2JaQ0Jz?oc=5",
+      "title": "FactSet Declares Dividend",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRDVnYXB0TWtwMGY2ZE1ZcUtvRGswVmp4Zm9pTGRKVEt1Mngxd29NT0YxLWZYbXdMenJ6VkM4TVozUkl1Q1NIVmJCT2tEM0I4Q2lZX2RQZGtoYkFlWVJCbjNJN291bjJYZ3hQQ1Z2UUtjSll3b2o0UTVHekRjLVAzeG5rNFFJcU82dHp0Y2l6YlNlNFJ4VEQtN0o2aEhua0o3aWx1eS1wS294MUNTUC0zVHctc29sQ1JjS1VMRTkyS0pPNTNVNGh1QU12a2o1VHRCV2c?oc=5",
+      "title": "Earnings Flash (WULF) TeraWulf Posts Q3 Loss $0.03 a Share, vs. FactSet Est. of $0.10 Loss",
+      "snippet": "marketscreener.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDS/history",
+      "title": "FDS daily price history (Yahoo Finance)",
+      "snippet": "close 326.72 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

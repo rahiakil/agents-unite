@@ -1,0 +1,97 @@
+{
+  "ticker": "VRT",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vertiv\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSW9xRnVOeUJQLUl4dUV1ZWdWeGxYMWR1NDJTdkdyRDFlSGJsYmhDa19lbGlndElERTk1bHFwSG91bFl0UzljT01lMktzR09TeFEzVFVzbTlNZmtIOFd1aVpSUFpCSXo5TzE3VHlJRTNjakRpV3gzWUhKZFZfQzBFX1FUMDhRZWZJb2NLYVY5dEZtQUJ3OVJBQWNKZU9RTVhwWG8wMkZEMlVDRElFQmE4QXk4MWxqbVBSTWVGVHFodHBrY0VZN1RaaHk1ZlZfZw?oc=5",
+      "title": "Vertiv: The Election Selloff Is Pricing In A Data Center Bust That The Order Book Doesn't Show",
+      "snippet": "Seeking Alpha, 2026-11-07T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYlF2eVcyM25xdXd4Yll3TGN5VzFUOVZsa21yVzFLbEJkZkt5SFRFZzZwaTZENmkzVHJoTDVmU0VIQjk5MHJxc2FfS0wxdFpzelQ3TGFoOUFlUl9uR2xKNDhyN0FwNUpjdjdTSW5iVWNSZ3JNRjlYdl9VN3FPZWQ3NmVTaW1BSWpqNUxaQk5PYkc2a1E5aS02VQ?oc=5",
+      "title": "Vertiv (VRT) Stock Looks Below Fair Value After Recent Deals",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObjNRTUpXS1J0UndNZ3NXVF84dXJEY3pHQ2VUYmhrRmR4OUFtODFrN0FWa3BOOVk3dFBoWHBSQ0R5dnh5LW4wZlBoOHJFWHpGRVdYcTBPcUpwRjBCTTctRG12RkRwUEVwazJzSU1rQmgwTXpPT0RHZHl6T0ZxWEZSbk0yS0N4czYzckRTYVJIZEZsRmhjU0NuWHlOVlNKSVB4?oc=5",
+      "title": "What Is Behind The Drop In Vertiv Stock?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeGwwVHVWSWZCbU1Zc0ZlRUNEZ0tTaHJmX3huMkRqRG5qbS00bzhXQXlkNi13M203UEVSUzMtaWl4ZHJ6ak9iZVg5dmZGdUZReWlLRlhJR29TNGNaVDA3SnB4OFFPbXptLXhhVktrbnY3SkhWa0oyZkJRXzRHNWt6WUVPU2Y1N2ZOekQ1aQ?oc=5",
+      "title": "Vertiv Holdings, LLC (VRT) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ3dhMGJiNl9qbk8xNTFKRm5BWXU5aUJJTEdablhUUEN6bDltZDBZRXJEclpWemlNUnRBbkxaMnJoTWU0eXM0X2xwZXhWQ25VOU1lYkh3aGViTFFDVVQ1dUZoSU1hY3NKenpoQjVPQUpjNXFUdE5iLWJCTk9Wd2w3aEMxYjRob2RXaTlySXduWkpWbk4wRHhOcUlkNnFlemhVM2hpbDQ2V1J6Zw?oc=5",
+      "title": "Are You Sure You Understand Vertiv Stock\u2019s Risk?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRT/history",
+      "title": "VRT daily price history (Yahoo Finance)",
+      "snippet": "close 200.47 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

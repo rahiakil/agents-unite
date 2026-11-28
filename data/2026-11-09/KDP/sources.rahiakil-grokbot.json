@@ -1,0 +1,82 @@
+{
+  "ticker": "KDP",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keurig Dr Pepper\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNUY2RFp4NWViZE51eFpMSjNva2xMN09RTzl4REk1VHdod19EMUJBWlIzUEtEVW5PaGd3TGxUbUhEUHA4WnJiSllhQ0UzOTRTUUlEa3hwRlJXdGpoM1JSakxMWEtPUnAyWFNiTGFwSUlNb1dyNUVCdVRSTjBhcGUwSVJPc0QyZ0R2VmZxSlhtU015VG92T1E?oc=5",
+      "title": "Keurig Dr Pepper (KDP) Stock Sees Modest Fair Value Lift As Analysts Weigh Split Plans",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOFp1cDVRSXBvMThMWVh4UVB5SG1zOHdiTzA3dk9WSjNIUFJUWTJIMmMtUS0yaW80YmNITWotM0ZORThGRlNhak5VQ3Q0bld3b0FKSXljTzR3Mm43MkhXeTJvYnRTQlIyZVFjWWJ3b2t0bHUwcHNsQmhzQ21PUDdSNV9BS0ZDVkhjczh3TS1EdlpacFZKdVAyQUJNN1g0Vm01Y1M4X05Mem54TUZELU9UT0ZWV2t1cnRvazhTSDBjLVI1bHNGd1l5ZzJCUUlfbE90Rmd6VXl30gHbAUFVX3lxTE9QWVhHTXJtM0tjdmdGTWJYZmwwemdlczB5d1N1QXVtMTlKTEtNR1VMRG9aaGJITF9xUmlsWGJaSWlMbHd5NUFyN2EtaE1sQjhZa0VLdlVhMk9zYmJwVGg1LTZGVFpSQ3pwYndiUEVYVmZaRGUweFBDTlVxcHBVZjVWTTZHbmVvWXhrUHVZVlE5Rm54bU9rUThUQjgwbHNQNTRVeWNMZU1CaTNkVDgySG1Xd2xLTG9KNXBuLTJneGoyb01janJuV3NZOWtVQ3hXeFRlS1lLVFNhXzltaw?oc=5",
+      "title": "Keurig Dr Pepper (KDP) Stock Looks Rich After A 47% Run",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZFdpRnhyX1lNNUNYZkJkWFc3RW9hdm55OWdoUHYwMkZfNXBGUGdVYU5rMV96TFFKLXFFMUhVX0FKM21UZWJnT2drS3ZVMGVsY2pvczhsRXlaYWM1bklUZ0FOb2k0U0NJamVTdi1EemRFbjZ1UldYa19JVXZoUVFPWHJja1FzRS1xakpvLXZQZXJoNFpYd0J5T1hKM3N3QnB0OEFmUzVTTlRGS0xZZlNMejlZbm9Gam5SazdVTjJvUGdJcm5yUHRPNQ?oc=5",
+      "title": "If You Invested $300,000 in Coca-Cola, PepsiCo and Keurig Dr Pepper, Here's What They'd Pay",
+      "snippet": "24/7 Wall St., 2026-11-06T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418135/000141813526000066/kdp-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-09",
+      "snippet": "10-Q",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KDP/history",
+      "title": "KDP daily price history (Yahoo Finance)",
+      "snippet": "close 36.94 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

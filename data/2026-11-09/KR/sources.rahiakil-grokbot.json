@@ -1,0 +1,73 @@
+{
+  "ticker": "KR",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kroger\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbVFlRnMtRGs1QmVOZzBvS0dmWWhjRmxzaVNRdWRPSU9aU2hiSzBsd055T3BUcU9mVVVyLVJwMHRjVlN5eGZWeEZ3U0gyU0tlUjlvRk1oNU0yNmFudUozT1lBa21Nb0hPclhjamxReXJxMlFDTFpkV29hRVJ5aUxuc2ZCZGRvS2hKTzhNNkduWUg1c3Fr?oc=5",
+      "title": "Kroger Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Barchart.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmpmWFEwcWU0T3VmN1lHSkVJNmk5eHY1NDBibldSRzhWVWMwQl9nNGNMQ1VsREJYLThVUk1tdVFrQnhRLVBleVRXUURDd1dSTXB4bGE3M193bi1LYml2Y3dFcHZlY3pGX2ZReWoyb3BFeWlTSkoxdnBQbC11R1dFZmQtdXRnWkRscUZwcGZhS3UzOHpDcFFheTNXa2ZzcUlsUktHcGdtZWZzdjEzdWdYSTFhWDhhUVNlYTZmQTh1MklkVk0zOHB4eUdhekphaXVvZks4a0s4ZmZENzQ?oc=5",
+      "title": "Kroger Co. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb2FsSm4zendRa2hteUppOHZrUFpwZ3hTZ2UtaEMxY0prcnBsdUtObnYzaVNpanAxMkZheHRFTWloZG0ydDN4TVZZa2Y5ZVRHZGdFd2tGeEpnT1cxR1lTNjFQLWdQTExVYlVmQVY3ZEE2T0I4Ty16c1JLMHZiY1U0VFM2eVAtMko2OWsta1o5Zkc?oc=5",
+      "title": "Kroger (KR) Stock May Be 34% Below Fair Value Following Data Privacy Questions",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KR/history",
+      "title": "KR daily price history (Yahoo Finance)",
+      "snippet": "close 68.01 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "GLW",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Corning\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 9,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVFKbThOU0I4NENRT2Fqa24tc2FWZnVYQm91RkUyWTI5cUdwRUxGNnJtaWRBLUM1cG1rZEVlU2FIdlduNWUwcXRuenprQkdLbW1Oa1k4TV9kU0lIMGtCb0lab1RhbnVJRGpLVHB6Q0dNZ2NDajRxVUNnZVpPVUFvNnU0bXhnZkV3WnlvQ0tPblRYVTk2MG9FQ1NBMlgzT1RXdTB4bm1ta3ItUzVvTTB1YS1rVmxUNTY2WmV1cTF3SVluRk94eDRlNjRBZHZrU3pKMWV5anFoejNBelFOLUJlVGNkYWhnNWJ1SHZ0Ng?oc=5",
+      "title": "Corning Shares Jump 7.8% as Fox Advisors Upgrade Outweighs Bernstein's Trimmed Target",
+      "snippet": "ad-hoc-news.de, 2026-11-09T18:11:33+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-09T18:11:33+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.802,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDR2Tm1QT1JRbDhBZHJ0OVNhX1VEV0k4MGtZb0dKYzU3cEw2N0I4Qk9SOEtCQ0lvUE9BbWxZYk04MzJmZnVtV1l6RGJ4TW55SWhWMTM5M3ZHWXVFMy1tS1RXMnJFZTdqMjgxZ1Vmck4yQVFCb2RwOFhDZTd0ZGloMHFocVJzSFFDdG0xZl9oelpET2lpdUNUbmc2MA?oc=5",
+      "title": "Owens Corning Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVnJkdEFjQ2Q2VEF6TXlhY1dLNllIN3pWaW0wcUszeHlOMk1PVGxma0R3aDBlaDJuRTdheUc0R2d3TEJIbmN1MHJOODY3QzVWS1F6NzhHYnpvWm0yT2hQczJHckUwMV9rZFZranJOd3JfVkNqYVNBRkQxXzVXMVExeU00Ty1OZ0c2WWxscDYyc1lfWE1HdE9zR3gwa3RHbkxB?oc=5",
+      "title": "Do Wall Street Analysts Like Corning Stock?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GLW/history",
+      "title": "GLW daily price history (Yahoo Finance)",
+      "snippet": "close 115.95 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

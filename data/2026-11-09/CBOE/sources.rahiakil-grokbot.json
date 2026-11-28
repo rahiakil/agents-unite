@@ -1,0 +1,61 @@
+{
+  "ticker": "CBOE",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cboe Global Markets\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZUpUSkJGempGMTJGOGFLQnFsekhublF5TlBDZG5HaVp6VkEyMDdyRXhrd1RnUGFEZ2V1QngwWWZuQzIzbzBIUkZuZ0R5M24yemFsTU5MMjgzb1dmcjNSSzFkaWlQSEJOQkt4TnpIRTBrR3dCZUJmNG9fT3puSVdnV3YxaTh4MXd3dUl0UHpfUlY5WmYtRTB3TGt3OUwzZjVudjUyV0xjNWZMTmczdm9aelFubVF5NnFS?oc=5",
+      "title": "Cboe Global Markets: Why The Epicenter Of Volatility Trading Is Fairly Priced (BATS:CBOE)",
+      "snippet": "Seeking Alpha, 2026-11-06T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWjMwX2lySGZBVnBGSkwxUzU5amhEaEtPVDRZWTN1eklPbGU5MFIzeDhTdG9tMDlPZzBvZ05UTGRSODhqdV81R0tIQUoydUd5ZHJpNG40ZXd6QWtNWUFBNkphYldSRjhUaU56VVVjNnQzT2FDaUNsQTZhYXNYeDV4aUczYUcyTVdSYlpWOGMtUnl3bHVycDBxT3NQLW5vcjl4Uy02MkdQYmpoWUNNdVRQRlJEaGFMNWJhVU9EcU94MjVZVEc5TEkwcEpmbnZaZ2VzMUZtLWlfX2h4RnY1S3kxWWlMcEPSAeoBQVVfeXFMT3YydTJiVElEM0RNZVRvSzg2a1V3ZUdjbThfS2w3UXVGT0VhVjIxOXpyVnBLT25VQjZ6aHNfRVVZa2RCZEI3WlpiSENfd0thMXF0MjJyeGNQMGhScnZpcTc2QWxIaWdvMlk3S1pFWl85bzJfUnAyX1NuUkR2ckpBUnY2dWNVOTlHU0NEMGtnNGdDVVJ6SkIzMGNRVHZJcHl4QVQyM01na3E2X0pQTlpHTEUza19NS3JQRk51RURuSVIzS3Z3NlNCU2ZFcVJENVZ0QTVwS0NkMkRWN2VfQlNyN2hzS2lWV2NNa0VB?oc=5",
+      "title": "Cboe Global Markets (CBOE) Joins Lawsuit Over Single Stock Perpetuals Approval",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBOE/history",
+      "title": "CBOE daily price history (Yahoo Finance)",
+      "snippet": "close 352.78 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

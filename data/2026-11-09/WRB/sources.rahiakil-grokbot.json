@@ -1,0 +1,49 @@
+{
+  "ticker": "WRB",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"W. R. Berkley\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlJYZFdGX0JpS1gxckw3U3JUZ2x5aVZuRG5OZlJieC1wSFY1R2g0a1o5eS02YjhNQ2h4UmVKV3g0WTNzYkdMdzBOVHdQYzdtOGRuZmNOZkFnZTQyejd3WUp0VXFKM001T3lFb1VlcjZTSVV5RFJRbEo5aEM3VVNldGhtZDRxNFFLQTNLQXUyamEwQQ?oc=5",
+      "title": "RNR vs. WRB: Which Stock Is the Better Value Option?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WRB/history",
+      "title": "WRB daily price history (Yahoo Finance)",
+      "snippet": "close 75.92 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

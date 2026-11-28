@@ -1,0 +1,49 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcU1YZFltdi1LMm4wTEVJRDUzdnZSYlpmQ2lubHFQQk83MFpQbVZfQW9MM3dSMEg1dnVxY25jR3VWMnc3VTNVUmU2VnJpX1BramZQSHBQc21qaGVRNHhjaW5zb3JFQzNCMFY3XzJNRDBPRndvd2M3WDAwckVoQ1lPczB3QURGbVZHUUFkbTNPdFNMaUdLQUQ3V0JqWXpDdU9BMEpNU0xDYmk4RHNXSTR1bnNpVzhROUZCdUhROU1peFVudlpuT1h4d1pTRXNmRGtfY25MNFdoMzJFNnQ1eHfSAeMBQVVfeXFMTmdRQXRZaHNSUnRBc0JFVlo5MnhOM2xRckgyWTJkUmotUmtTYkhfSVhmdmoxc0dWRXVFV3FLUDdUQVZoTkZxWkxVcHE1czBDcmZqT1ZDS0tsRU5Jd2x4Q0xVbUVBa0lFODZlNWdlcnR1VlZiVk5jRHRaWkFxN3pDc3JjaW1ZdUVzejYtb3N6dWRpcEMwX2MwTkd2cHRqSXBpd3dOTEJZa0d4R2pPTGszaE53a3R0Q28yQ0hEUlpXektQYW9YLVZuVmVmYWxzaTNOdUJLQk5laE56cks0SUxNNXFXX2M?oc=5",
+      "title": "IQVIA Holdings (IQV) Is Getting Fresh Attention, What Is Behind It?",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 278.84 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "MCK",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McKesson\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 11,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbWIwY25HM3VsWlpadkxxOTdkX3RzaFd4bF9Ec3lreDlpLVg2UzA4TU9qekU1OVVPczRaMlNaME1JMHZDRmltb3VIRDhVWlowQWR0LXpRSUNQLUIyTWlhZk9ZaEFmWXhSTUFZVGpwTUZsaS1uVUl3dE5oYmtRcDdyYW9lYmE0SGk4dldCVFBKdVBCd2R3a19rRVp2OVFzVXNKNnhkaTg2MWVhbDhTbEZpbkRaWGtNV243dF96X2pPRDUxOVE?oc=5",
+      "title": "McKesson EVP CIO and CTO Fraga sells $716,924 in company stock",
+      "snippet": "Investing.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNU9kQWJUVElrMXMwNVpnQzZUVE5DYVFWVkUwbDh6cWx1QlVfQlQtb3hPMTV5V3lTbWc1a0tEQzl5UmdiU25NX0xONEVIWHpCaW10Ry1JTVNBcER6MmVRU2JabUVLdGV5RGdfTDRyMkJMa1hrdGd4OUgyQ09nY1RDd3VyZzYwUjNjWC1LaTlUSmFibXFxbFNBN2Vsbzg?oc=5",
+      "title": "McKesson Corporation (MCK) Hit a 52 Week High, Can the Run Continue?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMjJiZm1TQzFkNjBDSlBfTXowMTZOREI3blhmTk1ESzNZZl9QcG5oTDVPMHQtSW5MOUVOSG9CQjFETTVHMC0tMGZ1aUt4UHpxeld5NVBoa0pYdU1JbkxpWUllVGRIcVNiZ1dQQk1SaHBJTVIwOXItTGhrWUhGSTFqWFV3MEx4RW9lbzhMUGtJaVAxWEFIT2QtTlRiRW9lWDhVcjJTSTdBSFc4RUhPMXI5ekxKYWUtQ3FKTUtMV2pCNF8ybDlN0gHKAUFVX3lxTE9GWlY4ZURyWG5tVm15RV8tdGxjemp3YUgxaFp5N2s0V1ZvT184ckdvUy04MktKSnJsZ1BjbVRqZnBpd1hjcDBWUFdPcl81S2oxOUNvQVNxUjdaWmFQMEx1ck1sWHBPVzZiYVlqcmhRNjFldnhxdm5oNHl1TXhzUVNuUDRfWkdtUmNnOW1tbGhnWkxNNU9qZ2xjQUdGNmlyOU8zakpmUmpDb3N2Ni0zeVBHRTJkNlpUdS1obmhXLXFsOHY3U1lvUUZBQnc?oc=5",
+      "title": "McKesson (MCK) Stock May Be 37% Undervalued On Raised Full Year Guidance",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYUxsSl9ZbHA3RVRiaDBYbGJ6TG5GMy0yQzJxNVROanBFX2ZKMFNjTFBfcmItT1RNSWxqc3hhNE8tb2RwZUZxR2tSTGFhRzhuNXlPSGFBWlhKa1Y5Vm1qOFJUV2g0NXdtX091cklZaVhwc0s0V1hsZlVoX1Z5RVlIT3RWX1g5bi05Zml2ajVyQWJiNWRVWmRabmRJcEFTWkNKcnFCdUZrQ1Z2UV8yWnRwTEtIa0hlS21oOXItX3RtQV9jdk0?oc=5",
+      "title": "McKesson (MCK) Gets a Hold from RBC Capital",
+      "snippet": "The Globe and Mail, 2026-11-06T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQVpTYzNPcmZRVFlvclIzdWJiQW4xVGRMSmFZMENfalFBOGxnSWZ4Q29yUWl5clNCcHk0eUhCaXcya0NuWkFGVHFnZGYycWdMSmZFcUktYWtaRGp4VHpwUHY5TlFmczh0dVNVRS1CYkV1SF9DaTN1Z3VsQWFmQVA4QTV1Tlhzd0wxMHpHSnBXTXNpUV9Lc2J0eEx4R29ha2R4UFlHWFhNNlo?oc=5",
+      "title": "Is McKesson Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCK/history",
+      "title": "MCK daily price history (Yahoo Finance)",
+      "snippet": "close 1059.37 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

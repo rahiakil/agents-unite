@@ -1,0 +1,73 @@
+{
+  "ticker": "IR",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ingersoll Rand\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObnNSYzFtQjVIZERPcWYyM2duQVotbjRBMXRjYzhBVmNhTUpoOVFadWJxVWp1eWU0SWlfQnl0dk9LNDRCaVZqUnlYcFphOWNocExael9YUEVKUUphX2kwOG5FQS1OUFdmeHBZcDhVUGpWWVJCTGFmTEpIaGxVNU9RSVlPNlpDb0tlY01FMWR1WjlSU2o5aEZlZjBFYzEzYmlkVmJVU19lRkw?oc=5",
+      "title": "Ingersoll Rand's (NYSE:IR) Earnings Are Of Questionable Quality",
+      "snippet": "Moomoo, 2026-11-07T12:45:47+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-07T12:45:47+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREJrZUYxTXdrOHBRUnQybC1DLVp6YmVFUnlURnZhNWM1TElzcjJneWxEVEhxaV9hYkp3QU5XeWt1NXNFZEZOUnMtendqU3dLeVhlWUs1TWxrYmtZb09BLS1TRXdPM2RiTGR6MDIzNjU0LTlWTVdMeFhzU0NTYVFpeTkxRTJsQ3dEOVpuZzFJSFRHRXItUFlseXBNd3pwbEhUSUh0NmdERFRqNnIwYzhLaXVERVkwWkxoSlUwWQ?oc=5",
+      "title": "Ingersoll Rand senior VP Schiesl sells $831,470 in shares",
+      "snippet": "Investing.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXZ1QTZNa2ZqSHZiNkI1TkRDMnU2bG53QjgzTVF0UVBIRVQ0MTdReUl2VnBXaU5hTkt6NVJSOVBaTnhvVFFsZWppNzltaG03VkxWbDhyX1plUktmeW01NDVpVzVvSl9wc0NJY3RoSm9od0ZsdVN4MWZaSzdyaXdnOEpMZ0h2MFBNcmd1QnVXWFNuSllSV2s2U2Z6SzhoZkw5eDRwODFFQmRhQXZQcklIUExzUFY?oc=5",
+      "title": "Ingersoll Rand (India) declares \u20b920 interim dividend for FY27",
+      "snippet": "scanx.trade, 2026-11-06T08:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IR/history",
+      "title": "IR daily price history (Yahoo Finance)",
+      "snippet": "close 86.88 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

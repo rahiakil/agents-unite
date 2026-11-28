@@ -1,0 +1,61 @@
+{
+  "ticker": "FIX",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comfort Systems USA\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 10,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zTmQyMjlYMmczbHlKVGFERG5FRFhXYnkwU05Zd2xiME1COFpLMDJrMXM0Rnc3NE1DYWFjZ1UxZVZ3YUFrT0J5R19QdmN5T0JiTnRV?oc=5",
+      "title": "Comfort Systems USA (FIX) Stock Price, Chart & Analysis",
+      "snippet": "www.debelegger.nl, 2026-11-08T17:19:16+00:00",
+      "publisher": "www.debelegger.nl",
+      "published": "2026-11-08T17:19:16+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS1JXdzgzeklId3N2TG9EZHk1TXo2a1VjUll5SFBMdEktRlkxUnZFZ3M1T3VOai00SUp6R044ZVZCY3ZHZmJ6Z1VVWlRIaUZOZUMzSEhoWFl5bjd0MnE1eXY2c1E5Rk01NlBYU1ZTelVuTGphUDR5M0I2aTg2VFlVMmdzU09HQzhqWERyOVZfQTl1OThFRlphdA?oc=5",
+      "title": "Comfort Systems USA (FIX) Ranks Eighth Among the Cheapest AI Data Center Stocks",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIX/history",
+      "title": "FIX daily price history (Yahoo Finance)",
+      "snippet": "close 1113.23 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "BAX",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOajNKTFB6clZnMlJ4bGRBMjdWM0R5Z3dwdWU0bEJwaWR4TnJZUi1XcUhIdVRMTmtrY0lNZkI5cW1WeHk3SzR3Mzl5Tmp2TmxqTU1fUXNScVd6cDMyR1k5aWpJQVkzM0xnbTFEODVjN180T0N3SWI5XzQ5YWRRcjZxSXQwUl83Z19tZFI5RnpiODJsNWZYS1dKajdrcElhVDg1Wm9LUFBtbw?oc=5",
+      "title": "Baxter International Price Target Raised to $23.00/Share From $20.00 by Barclays",
+      "snippet": "Moomoo, 2026-11-09T15:32:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T15:32:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd3lOYU5vNUJzbU9EcWdMdng5NjlwbHkxNGFqMFd0OEFvLXZydjhzSHFtbFhJUDJEVHlzclExbU51c2x2VkY5bnB1NmNyV09RQjRpOVlvYVU0LUNCWlBsVVRJaFBOdEhoQjBiUE8xNGw3U0RlSGxPaS10WXVMbE5ZZk5UbVVXU1lvSEpzNWZNWTRabUJXNUd0YkxaS1VtRHNOR0gyTW9iTEg4WXp0N3pQM3R2dy11TDlrekhHcA?oc=5",
+      "title": "Barclays Maintains Baxter International Inc(BAX.US) With Sell Rating, Maintains Target Price $23",
+      "snippet": "Moomoo, 2026-11-09T10:22:07+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T10:22:07+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 26.41 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

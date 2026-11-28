@@ -1,0 +1,61 @@
+{
+  "ticker": "CLX",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY0J0ZV9vOUlfZkFueFR1a1NQZTE3QkNUaHprVlB4MjlPOVNjVURwNWQwc1BMM1RQUV9GTWZwMGxUUldBbUNpc0staEZ0czZOSW44cVRTNWF5Y2cxQ0tkTVhqeEk1LTRtblZHZUZvR0s5d3M4YVpWMl8wY1JVS1BaZXFjYVBiVHVFWF9NdDctMFBpZkx3XzBBa19VRTh4YXdNalEyaTRsbUhhME1HSGMzMGtHRWxwbkFveHNpaEE3NHpiU2RQaFFvXzFB?oc=5",
+      "title": "The Clorox Company (NYSE:CLX) Stock Has Average Target Price of $93.79",
+      "snippet": "MarketBeat, 2026-11-08T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUERBQW5xU2Zmbk9hUFZ3YzJBMnBVSEg1dkNndkZvMWQ2OTk1SGQ5UmxyTU9tUXVfQVdaWlJRamFQOHdiak1aYXdpMTFfMWNNRHFMTWZ6UURSREhOTjN4czZmNjAxU21FbmVSbGN3azhySjZqM2l2eFdiWi1UUC1EZEE2SHlJNkJJaGFYUUJwMHlSNlk1R3JHeXdrdUtMdTYwVW9JRlVyTTZGeWZ1V0phVllHXzFfX0xYQ2UxdA?oc=5",
+      "title": "Clorox (NYSE:CLX) Stock Bumped Up to \"Hold\" by Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 105.53 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

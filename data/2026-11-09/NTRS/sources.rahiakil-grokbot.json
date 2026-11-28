@@ -1,0 +1,85 @@
+{
+  "ticker": "NTRS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northern Trust\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMzZfdEZPM0d0cFByTXNuR0hfR1c3NjZwSm5NeTVGbG52TlZ5dnluT2RPTlJnYWlMcEd0VjlqeUxVbVE5VkV3X2pYeHZ4NHlnLW5jaERwZklkQjQwMENUUmcwWEZSd2ppTUNwWEJhODcwc3BDamVMMi1RMVhHT2xKZHlwY08zTHdPbS1rRWZPTDdqWUkyT2dycEYycEhjVTh5bWQ0TkVQOGNHRUJGckZDN3ZXcjdfQ194NHZOUF9lYw?oc=5",
+      "title": "Northern Trust to support Invesco\u2019s new index-tracking fund range",
+      "snippet": "scanx.trade, 2026-11-06T22:22:19+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-06T22:22:19+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeURmSTJIaHdhc0hLZVl5WlFnbHp6MWN2U2JTc3NvbUMzVXJVVW1kSjl1dlp5cElsc3Q3TjhQcTUtRGU4b1RlT2tDenpfTm4tMUpnSXJJRE5iWkNCVFBJZXh1ZWhoVV9mSXJyVnB5Q3VpakowcEg0MXFwYVNueVJxOXUxNUY4SHgzU1UwbGt5MG11MjZacXFYSnNuMWY3OXFEb2RJ?oc=5",
+      "title": "Northern Trust Pension Universe Data: Canadian Pension Plans Navigate Challenging Markets in Q3",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSGF1MHlMY2VDWDQ0b1FraFE2dmJoYlBsNE9PVjVjVlFJbzBwYzdPUkd0N25vVnNCRl9VRElHRjZkR0VtQXQ4cmlFdzhBMDF3ZXJrTzd4YW82MnFkM055U1k3dVBfQTJzM3lBMHdxNmZKalptN0V2eDE4WUtUUUVIb3J4aFotNnpiUHI4SU90eXk4OGZlWkQxa29CVE5iUUk?oc=5",
+      "title": "Northern Trust Named Best Private Bank in the United States for 15th Time",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.883,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSHgyZWhWbHE4Y3Z5OWFzVzcteTJKYlJyYXhTWFZaWjItYjBPWFg3SmF3V3BBTmltdVJOVlhWMDRCdTAyVngwd3ZnYTN6bDR0aktMS3dVakdOY1dVQ2F2d05KLXFUWTFyY1RRd2F4ejExNGZQMndnZGxXSHVoNlFnVWpYNE00NXdTVXI5d0d6bzl0U0I3d29sZkdMWl9rWDRYSER1RHhQSHlWRERWWmU1YjREMEl2ejZLbU45RS1Ic0g3Zw?oc=5",
+      "title": "Northern Trust Becomes Substantial Holder in Steadfast Group with 5.08% Voting Power",
+      "snippet": "Kalkine, 2026-11-06T08:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTRS/history",
+      "title": "NTRS daily price history (Yahoo Finance)",
+      "snippet": "close 177.65 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

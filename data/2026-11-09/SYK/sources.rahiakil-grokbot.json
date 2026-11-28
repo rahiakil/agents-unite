@@ -1,0 +1,70 @@
+{
+  "ticker": "SYK",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Stryker\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU2g3SHNmWGktUXFaTDNreC1Td056WG1Ja2pyQmlMX3AxVWprand1dDNFempjU0dFRVN4SFhjQURWVmxGYU9mVVBJQVlCRXc4UEFEcWtfb19sbUxvVGxnYkhLYjBlcVVzcEJxeWZESW9IcUU4WEdjd0o1NXM5ZEZ5cXJ1TjVkaHZmVWpxdExaSk9HVXltYk5ZN21McXdEU3BYUkc4d1NlQnVpcXIzeTNfNmNsdzE5MWhBSEgzSVExYzdSYXfSAcgBQVVfeXFMT0ktTDlnXzJfUE5BeUhxc1NFRGJMd2txOFhCZHNXWkp4NmVZeldwV2xNZi13QS14bkhNbm42LXBfRjJ6MUlNeGNPRUpJWnZOVTZJX2NLMmFhdzZwbF9SZ3MtcV8wWjNHR2pSWlRRbXd5T0JpcTZoTTRlcTE5Ujh0US1qVTl2OE5McHdPeGp4WmtCM0FfYld1d3o4WFI1ZVkwcWZ5RHNoV3JBdVp6d3drTGhpZnRBeER6SHkteFo3dEczb0dUVXdEVkI?oc=5",
+      "title": "Is Stryker (SYK) Cheap On Earnings Weakness And A Goodwill Impairment?",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa2ZHZ1NZUU5oRWpEY2NxV0Rybk1mdTA1WEJWMDJYU2Z6TkpkWXM4a3Fybi1YNkg5cmM3SVg0eWR2YjRRRnhLTGhsYjBFQTB6ZjVXZWRNNnM5VHJsVzF2T1BFdGc4MkxnOXVGTUhvRmU3VS15anhrY1JVd1VrSVJqdGo1dHk0WHY5Umc?oc=5",
+      "title": "Stryker Corp Stock (SYK) Moved Down by 3.23% on Nov 6: What Investors Need To Know",
+      "snippet": "TradingKey, 2026-11-06T08:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312526453635/d101928d8k.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYK/history",
+      "title": "SYK daily price history (Yahoo Finance)",
+      "snippet": "close 325.73 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTUdGaGxYZnNNbDFjU1ZRX0hDS3FkMTc1RGxBWVd5cU5nRmlpajVwNFRlWmpTUkFQRTdEelJycXA3eWZuWE9IVk5haTRrcXMtemlRYmwtOWFPRHlidHdVVE1XV1NQUW1zX1NKRjJrU2YyQmEzOUo1eGp1OVhoTHNSekZlUW1xVkExV0dJT2hQZ1VzZ0x6ZDIyNXp6azN2cUxwSHc2U00zQWEteWlGTXUyUm9YeDVRTUdsUGlKN2ZhWkpTNTgwcl9iSWdEYk5Gbkc0MFp3d184a3FwRXdvOVE?oc=5",
+      "title": "8,999 Shares of Domino's Pizza Inc $DPZ Bought by Mirae Asset Global Investments Co. Ltd.",
+      "snippet": "MarketBeat, 2026-11-08T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSVJaa2FYd0Jrclk2WVFXWUFvRGtPdHJLMEZzeUxNUklIR2JQOVk4bG9tVHNNS09Qa0FoMWttU3p2VUFpbHdIMU9QMHlVV1JyNm5ENW1iakNHdGZTbE9DSW9rcmtxTDEzVFlpTDFkVVBkUlFEejNlRXdLSUZJLWdoTm00RFhoN3R1VDB0dk4zbld0UGZPbkZoMDc1ZHZIeHZjTlFmOVpEdlBpVW9ZY1lUZ0pxdEZiUlZ3SWtjMkNsc0o3S1VnWTA4Q2RiMWloeUkzbVdrZXc1a9IB3AFBVV95cUxPelM2U1RLSlFhbEVWVkJMT1RYS2tLa3MyeFotZWV4TG8zSHZQMjJQOWVfcVk3TlJXWkVFMXpmZm40UUt4SXlEV1V3OERpS3NyNV9nSFh3aUQtWVhrT0pFM0ZHdC1aaHRBOTR0U2NxSUIyMDFPaVpvM0tXVm5QMEhxaVNFa0FJOFJZU1dnNkFaODNwbUQxSjRSdk5TOHM5WkNIem42eHQ0dldJQk5GRnd5SnNkQTJWdjFfWTZvZ3pLanRoNDJnVW1kTWJUNVBPdF9vR2FDZVpDZnJxSlF4?oc=5",
+      "title": "Is Domino's Pizza (DPZ) Undervalued On Its Delivery Expansion Narrative?",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPby1oRnhpWEdhTTJ5YzVNSF9aa2FTd0RZd3ZpeXBybldwVmJPNXBQdXZIeWNmVEpCaFMycGxNMlNnclNrTmNQUUtaenFxNTdRMVJDeURiMGQtbTJIS0xRN0R1a3RudEFVUUpmSXVPRGo1ME5zbTBQek00dzgza1ZZeTNFQlg3RUFVRlYzWlk3ZV9LaXkzSTRzZkttNk83QXlZeWNBVm56TVJ2YmpjYkR2dFhLajVQSkxVeUZfYWJ1V1kya1JMZTRSWlUxSG1rQlJVSXZIeXdhQ1lnZ9IB3wFBVV95cUxOMUVSR0dxNWdYR0NodTEzSHItbkFkNWtUUHQ1bTktWkpLYzBCbnJPQVVyUnJjZkxiTnNmTWVrak9pNi1QUkVYYVBjNWZIYllra0NraWxKV2hpOXVQTUlfbF9IdmI3UURxaURpeVAzWmJEV1U1VklIVVRKeDg2OHFNMzI5Q2hiOFJTMTN1SWRKblZ6aDktMVdBUi1ESUhUWWw5RDFhbWhuc0dkYXc2NUtULVJ0WjZnTjdvTTA1VC1Cc1doLUJHb0FCTkpjRjFFVUoyMUtOQUZ6ZkgyNTN2SjEw?oc=5",
+      "title": "What Domino's Pizza Enterprises Doubters Missed",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 334.18 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

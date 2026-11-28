@@ -1,0 +1,70 @@
+{
+  "ticker": "VEEV",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Veeva Systems\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZjhNSmNRRVUzTkJxUVZOc0ZwZ2J3cU16UFpJc21wZW81cVl4UDcxdU42UkdqQUZzNkk4UVItUUlxUEotMXNRZlJ4TFVLdzRxOU0xM01yeUxGYjJodGExTDU1b0lzbVgwU043N3ZMNWNZMzhRNnFkakh3X19GQS1wS19aUnEyWjUtQjE0Tw?oc=5",
+      "title": "Veeva Systems Inc. (VEEV) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM2JwQXdOQVUzTi1hS0MxdDdENGNLeUxvZGM2VGpDLXVzZGlCVllpUFBLNkdrLUxIOF9GampNVlhVbE5SN09zYjdfZ1h5eU11VzlySlVLbG51NmIzcm1YVEV0V1k2dkphRmZQdVNTeHB1MDFQQlplSmZUVlZzS29nenAwVlhGSTJrMkNXdnhiTzkyRnFUX3ZSWnVSZ2VHbWF6QVJWcWtFeU1zZWo4Y0cyOEhab3ZWMkJBVUlOSHdaeHZqZl9LWlJ3QkUwMjPSAdIBQVVfeXFMTmFpR0REQTNlMUJtNnl3YzIwYTk0dUFqcjdiS1BIME94NlZWQUFxNmVwc3lNYnp5VzVqV3NTeTNpVGtsbTdXdnpMMi02eTJFQ0lQWE5JdnpHWTVVZWtMUmNzTzlzclE2T2I4aXhzdHlLS2NkYjJkNHlkMnUyZDBEY0J5UXVQS1YwYWlyc2xiMjBYbTFlZVpLYlhOc3pQbEw4R0FfNzVYVHRHQkxGX2gyaXV5aDM0VGxYRkxWbTdTUXNwSzBnM2MzblBvbmNLMjUyY1Jn?oc=5",
+      "title": "Can Veeva Systems (VEEV) Justify Its Price On Future Cash Flow?",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393052/000139305226000039/veev-20261105.htm",
+      "title": "SEC 8-K filed 2026-11-06",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VEEV/history",
+      "title": "VEEV daily price history (Yahoo Finance)",
+      "snippet": "close 306.4 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

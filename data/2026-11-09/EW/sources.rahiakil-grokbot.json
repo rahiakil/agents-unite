@@ -1,0 +1,97 @@
+{
+  "ticker": "EW",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edwards Lifesciences\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTjVBZzdtOFJCSFFmdHAyWjFZSWFJcWlFQzI0X0d5QjZLb0w2Vzk3aWdnWkdabXJuUF9YSDYxcDg2cUJpZFV0Q25JTkZtMUlpRjJCWEtZcmdCM2VrUXBJalp5aFhCSW5wSHVPaTM2U2pJd3VSa1N3TTRYX3RVLTE2YUw0TUdkU09fSUd3MmVjR0IwZ0ZmUjh6bmhFMUNrSXN3OFNrN0FrUU5yWnV3R1NEblc2N0pDd0xnb3JNSGh0TElweHowU3ZzYlRWWEFiM0N4Wnhv0gHYAUFVX3lxTE03ODlmY25icldSdlMzbHNpWF90M0xvdW9DOV96RGtDV1RwZVpYV3h2U2lNb0lsNEY1Y2ZCbC01eG5MT2dZQm1VeVBOTVRDYnZtNjdCeld2QXVLMHM1WVctaTJTejA5dGlLdUFfcVdoY1ptbDRoTTF2TmMxQjl0TTB0WHFaTURVUDE3bU15dnV6UnNvQ1pyRVBiQ2s2TnJnYzJZOEM1N241UF9lUGxmQmZ3X0dpcXhnOHRFNGRlTGpWSkhveUNrMlJCQkJBNG9IdU5HY1NvRlBVTw?oc=5",
+      "title": "What Edwards Lifesciences Stock Beat And Raised Outlook Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXdrdC1rODh0Q05aajZZVjJELTRSaFd1RTBQOVNTSmFfR3RLQy1kcTVlWDVjdFd4X1FpR29SWXEyMUxVSFBNclRWZ05mcDRaTU1ZUXBBYlJiVW9XM1FRVXVMdlFYYWwza0Jub19weGpfTFRpU0MxbW5IdzFWZ1ktckQ2UzZLRmxoN3RiN1NwcEZBTmZKQTV0NFhlOFdCdnJnc2FwTnkxdjh6UmJJTGtaNU9EUjI4NUliQUljR25LdEhWenRZWUZkV00wNA?oc=5",
+      "title": "Edwards Lifesciences (NYSE:EW) Stock Rating Upgraded by Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-08T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd01uQ3pvRkI0c0dwcXBlSldsQzBDZTdRSU9xcTB3c1lFOUM3TlpiZWRNa2pQQjZnZ3FzcHVIdnRobW4wNkJVT1o2dXVZdUlHcy1VRk1wNFA2a2dJLXVfSHAzSExQY0dudjVEVThnNzNCOF9WSFVDMnc1MXAyLVpTWkpodHVNWDBQeG5Rd1BOcnV1SGpZTWJiQjNCOW14OEU?oc=5",
+      "title": "Edwards Lifesciences Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSnUzX0VLWDNmYmtuanRhOEo5ZkFUcTNkZ2tSMlJsakx3N1pOVmc2RGlFRnlmSTBKeGVQcWhiT1A5djNZMF9kZFFmTFJnSWNoemZGY3czbS1jM0FRbnNvbENkbkFsN1V4NVdzLWM3QzJTbkM0QkNiWkFlZmtSQ2lhU0lVbXNLVU91aVloYUlHZHhLSkUyaHZwUUxVR2FmUHdpcmI2ZE9fdzA?oc=5",
+      "title": "Is Edwards Lifesciences Stock Really Expensive?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNnZOMFFuSHlpbkRqa3BBejUtcHBjcUhFdTJ3XzY1Mm54WUNNWmNWUnRkMGlnbVJFRXAxdEFxemN2QS1qcTYwNDBISzFuRms0RWs3ZXI5MkRZZzc4dXN2eGtaWVVxMHRlaUswUFpncXQ3eE4zZWtHOURxcVhJR0ZkS2hZMmdLYmZNYmJBUDFUUDc0R2hmajBWZjhPWjBkMGY5VTNtZTkwUnN0ZmtYbWZNY0h2ell1YTFVMmJENy1xOEpSMXZ2d2s3V2ZCbWxXRWczZ2FN0gHYAUFVX3lxTE5XYzVjQkZlLUJ1MDRiZFBCUVlWREY3Ny0zalQ2TU91Z0xicHJPb2F3cW0xdWpiNkdmS1Q2LVZvRlpnWXdMR0JTQUlvSk5YVjBrUHNYakhCUV92WGdRaTBDWkRqUDRoTTVNWHlpWFJ3eF9LMkNlWkEwUkR0aXRGS2dpMXpJYklVTWxmWHYzbVlWVXExd3g0NUo5Nk5HYWZjYldMcWVfLTg1blZqUDlYX054OEJBdW90bHdDZ1ZhVE9vaDJtNlRoMXNEblQ0Q1ZZRzc5bGo1dWl5RA?oc=5",
+      "title": "Edwards Lifesciences (EW) Could Be 21% Undervalued After Earnings Guidance And Trial Data",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EW/history",
+      "title": "EW daily price history (Yahoo Finance)",
+      "snippet": "close 104.71 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "UAL",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 47,
+    "no_date": 0,
+    "after_cutoff": 36,
+    "before_window": 4,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mZFZBQ1R6MktQNlU2eWhBZVAxRG90Q3V3bmMtSFRVV0dNWE9SODM0OXR3QmstMDFPODVfTVZzOEIxRV9pT2hPM3RESlF3NUhYV3laTXE2TlNWLWhmamVNaTd1eHIyd2t0dkhfYVZ5aUR1LXNFdWFWLUtUWW4?oc=5",
+      "title": "United Airlines delays return to CWA",
+      "snippet": "WSAW, 2026-11-06T08:00:00+00:00",
+      "publisher": "WSAW",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOFpNSktOdFdHRjJNOWxrYVFyM0FFbFVGajg1bk56ZDc3LTZsb0lZdzVUU043b2hOajduWjBhdkxKQUFoc3d1VnU3R2FNeVdZejhSMk9fdnROdE5NamVySnFnX2J5TXpuV0xRaHllS2g2anZaSzB2bFZwaUxSRVFwd1BhZW9pM2g0RXRBZkpKX3BFRDFZZ3RycGg0NA?oc=5",
+      "title": "Can UAL's Q4 Revenue Surge Overcome Rising Fuel and Margin Pressure?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 120.38 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

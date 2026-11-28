@@ -1,0 +1,109 @@
+{
+  "ticker": "SOLV",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Solventum\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 10,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYWVsWFdKenM5WnpMdmxRbEx5aHA2dGxtbEQyS1VNTElVbUhjYzRVNVhuSjVQRXhlN0xDMFN0QWRYZmlkNGN3b1J0cXQtdTczMXN1T256eVk5UlFuZFdXQlMzNUtmTDRZZGhiQkZZeGdXNUFqS0JfZmticTJxSG9JcjRzOGNhcjBaaGwxQVRYLUlkMVdLb2lIcl9pS3huQUE?oc=5",
+      "title": "Solventum Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVTVFbG5GMGxsZ2w5bG9ZWnh5XzJjYkU0OFlxNXp0VkhDVlM0U1ZPdDZDS3FmdzlaQmdtY2pEREhYVFRQVlJkQkt3cm5hbnp6UWMxWV83NTMySUxhUHlzUzlkWktzNm1XQzRRWGRWZ0tQbXZSTWFrM2pmQlBVVjg3a0NvNHRkMmpHQU5LdGdMZUpzN1FvTGFfQnk1UTNRcXhzWjkwVTgyY1VUTUpENEtCMXREVnRPR0NlX3ZlaEV3TEtUUkI4MS1n0gHMAUFVX3lxTFAzYzFuZTdnMEJ2UjIyMmh2ZEk1NWlrcl81d0Y2VjNLZnNKWHIyVnFwNkVzX1YtMlc1TmJiTXhEQUNPb08zUEx2Tm9DRzgtVm1PNkIteEk4ek8tdUlCdWU3R1cwbFVSUFRnNHduaWhKMWc0ZnB2NnhtTlhzNlBKN0gtNG5xNkRVcTFPSnZZZXJTRHFIWE91djI3OGtsRnoyMUo5VS1qb2xnUGpLRHB1Y2xsMTROOHNLWEItZUs1OTc4aWJLQ3RJVFhmRjdqWA?oc=5",
+      "title": "Did ERP Separation Just Shift Solventum's (SOLV) Investment Narrative?",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbUh2Q2JQMjE5aDdocE9HV29QdzlCUFZKbkhxWUNINFBhR2J1enpaam93MmJRUnVDQk82bDRBOW01Y2g5UmRtLUg0LVZOZG12Y2JlUnI0VzA2NVpnSVI4RExwZ045ZDE3RnlSTDI0WXZpZk1nc2NHZkpLSnZBbEp2THFKaVdUVmo0WHowQW9wS1Y2anJ0YkpTanJXWW9RTk51cW5pejN6cFRmN3k4QzNsX0pjN250UG9IUGhfdnJNd3g2NEhsczRscDZkeDZOUm8?oc=5",
+      "title": "Solventum Earnings Call Signals Stronger Growth Ahead",
+      "snippet": "The Globe and Mail, 2026-11-07T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQm1wOFVjZDUxMEJxWWQyWVZHbFd2NHdsZTFCOXhnOWhoeEctSmVwc08wak1hcVRHQlFZbHczeHdULTBrWXkzYXMzeGQwVGtGZ1VKZElLb3dGMjdpcU1sdG0tOW8xblhLNGk3MjhoRUUxeXlfNFprWXZWYWppR0R0Y2ZRY1g3QUhBVk9BVlpHeUF2bEwtTFR2VWkzbDFqcmVMRmswd2l1eWgzdFBaZ2g0REFKb1pFWjlQdm4wOQ?oc=5",
+      "title": "Solventum Publishes Q3 2026 Earnings Call Transcript",
+      "snippet": "VZ Verm\u00f6gensZentrum, 2026-11-06T08:00:00+00:00",
+      "publisher": "VZ Verm\u00f6gensZentrum",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRnV0Y25kZFktOWRLRTRQbVhjdmhjRVd2T2Qtc05JTWpNRVBLWHVPVk90eC10Y3pQYVBiWXdlakZhdFNZZklHVGFOWE4zc3lkYmxYZV9YT184UVJ5UWprYTIxMkVxS2lyUkVNN1RBdEZKd3R0QUxLMF9vUVZtM0lvRU5jRDlVVTNtTkc3WnRmanB2N2g0SHVoSTZnbjQ0bm8?oc=5",
+      "title": "Solventum (SOLV) Raises Guidance After Q3 Beat, Is The Stock Still Undervalued?",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSnpKcXFVZmJqa0hmX012YWxwSDhOeWFnWmlVWDdfTHRwakJhNmhuUzRiU1R2R1hua0ZvcTFTNFVXbGJha2JOaXYtX0dZNXlQbWY5dnUzWXFiSjBzUmJ4Zk1zSzI2TDFfQXBlckFja1RRaVJtbUsxeGRKRXNNSC1KYTNUNlAydDVrREg0bVBDUmJqSS1TNTNIYU1QSDhkWGVNTWI0SGNzRXpDdTUzbXFvaVlvRTZ4YWUxR2VxenV1Y0NWY2c?oc=5",
+      "title": "BTIG raises Solventum stock price target to $100 on strong results",
+      "snippet": "Investing.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SOLV/history",
+      "title": "SOLV daily price history (Yahoo Finance)",
+      "snippet": "close 90.43 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

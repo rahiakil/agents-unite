@@ -1,0 +1,49 @@
+{
+  "ticker": "VTR",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ventas\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeGlpVFdzZVlVaXV6ZlE2MGN0QXFXdWtTV3l4blFWcWdlMDByMHJkOHJQVGpQSllSMkRKT2x5TG1tR3Fpb0VVZzR3OFJGRmpXNEkzNlBycEJIMElRQlBYLVpJakNGaGdiN0FMN0NvMXJMbXREQmwxelRmbVA2Sk55bENxWk5GYjREYVFiczdXRDlTY2oza1VWSTFHNHpKQXJOSVpJX08xWnp2eURMSUVESGpnVXR3TjlXZVpyOXpwMm5qZ9IBxwFBVV95cUxNNHFnR29fcHVlVjNrRVRYR2V6Ujl6UEdVWTl1aUl3bm5BaVAyazlDVEJFVzZtc1lvNzhKM2Vxd1RzRUJpTjBtRzlfaXExd3BIUHhrMXpBbWZSOVQ2SlE3T2tHcGVGZGx3UlQxdDNyT3dMVWZCSm9HQU52ZzJLNFhobmRjY3NWd0hPNHU0Q0JEaDdkaU81dzIxSFI3eUJaVnBVR0VCSkFvUzlxMnBFN2FfamdJSVFwRXI2SktjU2ZQbjlnX0RCZnow?oc=5",
+      "title": "Ventas (VTR) Lifts 2026 Outlook As Senior Housing Growth Puts Valuation Back In Focus",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTR/history",
+      "title": "VTR daily price history (Yahoo Finance)",
+      "snippet": "close 89.49 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

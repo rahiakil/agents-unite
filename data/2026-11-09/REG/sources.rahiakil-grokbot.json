@@ -1,0 +1,106 @@
+{
+  "ticker": "REG",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regency Centers\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWNmQkVnajlqdzNsUWd6eC1rcmdZelhsR3QxOWFjcjZjS2ExODExZXpjTVk0ZEgzREhZZ1VFOUpIdG9jcFNGQjVDRVduTHVIVlE0bmwtQ0owNGVKWEswZjNIVU1QQ09YMkhPMk9aQjRCZlNsOGVKMzJfR01ac0p5LVVZZkJWUW0wYnpYSHRGcG1fS0VGemhaWXJ1WXA2SURj?oc=5",
+      "title": "Regency Centers (REG) Added To Its Acquisition Pipeline, Is The 12% Discount Warranted?",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFJ0U2d0OVRYVXptT2lGOUZGekp1SV9JbE5TdUQtR3BkSl9VOUdDamlsdFY0N3hNNElIVGVjZ012Vlc3RjVWZzRmRGRiaTdlanBIQm0zMEFVMTRpUDVXTHlSRlV6dVRXOXdXQldqUVIzWi1VSDh0aDdSZnpuYjVRNjVUNDlwVXpjYkttMUdnYm84dHczVXJZSlRCQQ?oc=5",
+      "title": "Record Leasing Could Be A Game Changer For Regency Centers Stock (REG)",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVWJReG9TYTdQLXdnUlRPbENGREh5X2tJNDVUaGJNNE5aM0tZWHBOLWZjalNWWU93dkRBa1FSb29IdVYyQTkwWWMtUnJqX1JOSTMxUnlPZUxKN3VXc3RIT20wc0VILUIwZ2FlbmdHTDJGWVVuV1dxUEIwanQ2QkNhSnhVOXN5bXVwVE9EOUdrN1NHZ3YyY2k2by1RZkxPZDh1Zk1WdWp2aw?oc=5",
+      "title": "Regency Centers Q3 Earnings Call Highlights",
+      "snippet": "TradingView, 2026-11-06T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR2lmd0lfQmlXMmZmMzBVblBtZkZnU1g5WWRBQ0huNDFwY2VuYk1vdXNHSy1QWmhLSU10dk9zN2lEQkE4bTFXbG1jV3RwWWFZNWlnWEZzbG9pR1BzeDVoc3Q2RFJNdEdIOHZnR3RRWFRCVEVCRF9mTUxSOFRidTFZSC1iVVV0ajJLWUpTeGpUM2lzVi1TMEVJcw?oc=5",
+      "title": "Regency Centers Q3 2026 Earnings Call Transcript",
+      "snippet": "Benzinga, 2026-11-06T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUTZTZkt5OTFWc01NVFVsdHd0UWhNd1pDTTRiQnFDdkZPekVvQV9ZNkwwdVkyYmNzaS1CYTVMVEQ3aVdtNklPbjNjQUhIYzB6SGdaREx4dEE0NXlsV3UxOE05Y19RNTFuVXJGaXJBMHBaam03MTUtUzE2aDBwc1hzUUlkOXJBd3pCOEhMa2EyMUswNzU4RG0xS0hWS0U1clQ2NUh0MjJka0gzZFEwNWk1ZDh1OXFwblN5QlhNX2RXcExmbWxmNURCS1dkWGhIeE1zZ3fSAdcBQVVfeXFMTnl3VEZCdndWT1Y0ak5DRmJKQXh4a1dzOGR3Sl81UEZaaUsxdFR3SXBHcEhHYWZRTUJDYUhnbU5MM3hNWklPc2YxeU9Zblg5Z1VNaHc3QW5GY0xsWVRXcVExQTFVaXgzMmN0R2JUXzRjMWJqVU9SNWVtV1gtd2F6OHM3M1JqeU91SlJQcDhZdkZrMmFhazlrQnZ3SFg4QjBsUFVsVFRCTWJlOUNyaEhjX0lXNmc0UHhORkJxRFNoTWFZc3lQR0lBa3ZCVzN3Sl9NQW5USVFoZk0?oc=5",
+      "title": "Is Regency Centers (REG) Undervalued After Raised Guidance And Dividend?",
+      "snippet": "Simply Wall St, 2026-11-06T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526451423/reg-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/REG/history",
+      "title": "REG daily price history (Yahoo Finance)",
+      "snippet": "close 76.11 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

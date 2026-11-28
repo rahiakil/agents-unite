@@ -1,0 +1,109 @@
+{
+  "ticker": "CTAS",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cintas\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTWl2RE43TkFNUFUzTkNBRTg2QThmQzF4SmYtUzlmTngyRDVuQ1o2WnRsVk1YUXpjT0VOczJIclI4UWYyYXloUlFCN21MdUlwWHZwU0NJQ1dJWlByZThxeHZnR0owcXduNUhGVFNRVW42MFhLc29wZXo5OWI5YlJDTW1WbTRaUHh2S3JQM3F5U0hHNW9lT0V5TGZ6VnBoVDhoR3FIRW5pZm9vUjRsV0V4QWphVlFOY2xBN1Q5ZHB2ZjdkMUE5UUdB?oc=5",
+      "title": "Cintas stock: 0.52 US dollar dividend sets November 13 record date",
+      "snippet": "ad-hoc-news.de, 2026-11-09T11:42:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-09T11:42:53+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN2pzTFdRM3gzOTgzZW02dWNwNWhDX1VRQm5fUUl4bDh2RHB4cER1RU5JTGk0U01ERC1IZ2hhcnJvVm9wamZSNkp1SXNpQjU4S2pZTTNBRHlkeVAtVjVLQmdzXzZHTEEyVXA4R29kVy1XZ3B0NDFDZ05kcENldHY2ZXhzb1pybTJtb3FHcE1tZl9xTnhLTExz?oc=5",
+      "title": "Cintas (CTAS): Among the 10 Stocks to Watch from Morgan Stanley\u2019s Ultra-Selective Tailwinds Strategy",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRnJsQy05MWVTSFpuUldUcjdHNUUwV2xZUjJBbkVxOXFzelE3RHc5c09zU1VvMGJKY2NNYkNrMHRCRjJZNE91Z0F6T1Bad3pIdjAxekw2WmR6SlVDOFF1b2dSM1VfaU5hYzdSbTRhTmI4MzUtNW5CRmxqOV9ZNVQwc3Z1bEtudWFVMnJpWnlldHJWWlQwd1Rlc1NqTl9ZZHBl?oc=5",
+      "title": "How Raised Outlook At Cintas (CTAS) Has Changed Its Investment Story",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTVkbmduZ3BMLUpnNGFLeEJ6YUhqV0tGU0VUMGhUT09yckdTVGFESHJ5YWstTHBOR1QzR2Q1RWpGdHlySnpBcjRUVWNmVWM4VTVqMmpGZUo0djF3OW9uNGdxU2hwVWtDMkpIVjVHWVJoeDAwNzZ3TDNLekFMOFpJSEdZeUc5SldRZ3VRR0ZWOEJzXzV1WjIzM1pR?oc=5",
+      "title": "Does Cintas (CTAS) Leave Enough Room For Its Cash Flow Story?",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ2xUUUdBb04tdWZqNnNpX0ZKVTBxamRDb3lGSTdrX0FCdFBtV0N6ZFFORnF4RGJGQ2FCNEdtOWxVNzE5RU9Wd2NBR3VGT3J2cHg3SW1fZUhxOGhqeXExbGRGdjBVVmdQclJxZjQ3QWVKZHktcklEc09VR1FZSi1sYUJwdFZESVQ0SnAwNDdNbW5TT1B0NTlqZnlKVmQ2eG1ZaVJfY0U1UzVwZw?oc=5",
+      "title": "Zacks Investment Ideas feature highlights: Republic Services and Cintas",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZVhONzFFbkQyV2I5ZzhkMjJhSUhvSzRpQnFXeHZkU3EwYVRELVZWMFQ1bl83R21zbW5RQzNkSXJpT3RwaVBsT2pEQW94ZWt0dUlkazJNUFJwTnoxS2pTZDZiQnZMTkdibmt1NWpaUnAwVkc2eEp5bmttdDRLR3hrNlVlODkyYzlSWmRIRHRZaS1KLUtNbS1ya3Y2ajQ?oc=5",
+      "title": "Where Did Copart Fall Behind Cintas?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTAS/history",
+      "title": "CTAS daily price history (Yahoo Finance)",
+      "snippet": "close 223.16 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "ticker": "NRG",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NRG Energy\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOek16b1EtNUJLZ2xQUXJ2TTdNWmlUTGFkRlNLM2pXT2VvZ1ZteDRyRm5wbXZWMERSNklGUmlOLTRENlRkMEJSQXBYUlpuaF8yWWM1MDB5UkE2RldCNDIwdkpoRnR1QTlTLXdXYWduWWNzb3ducE0yTUxabTcyR2FBTWpKdXJwLXctbUE?oc=5",
+      "title": "NRG ENERGY ($NRG) Releases Q3 2026 Earnings",
+      "snippet": "Quiver Quantitative, 2026-11-09T12:10:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-09T12:10:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.428,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnJULXRVOEkxVmZTQXVaUkFMNFpFaWJYZ1hBcTBYU2tTT1RzN0FxakJiT29GNVNyenRHOXBYT2xUNXVuNDN5WXBfeVpicUt3UFc5aC1KZlVTNFZtakhwczl4Tjh6TDBjMDhLd1UtTXFya2N6YS1ZVXozNDRQVHdUNmpxX2pNdWczeEQzM1dYVk5fcUVqZEZN?oc=5",
+      "title": "What NRG Energy (NRG)'s Revenue Beat Means For Shareholders",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUldzTEQ0NEFHR2ZaSTJPNlFWWFktQ25WTi1Jclc2ZHM1YzBKSUhSN2U3dFdBbm5sSEhUbUM2bElvcGhjNTZNSkJTODZBRmRBT0lUQk82SFluaUFHT0FvZ2QyMzFnUW5RUU1SWWwzdEV4YjVXY3haeWxVLU9iRmU1TjdCcHZXem5MUDQtUjNDcmRDZ2lia1V6UTRzUVM5R2lFS25YcjRaRFhBN2RVSHotUFhvNlVXOHgtaUM0YlFuMmt2ellB?oc=5",
+      "title": "NRG Energy Reports Soon: How Has The Stock Reacted To Past Earnings?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX2djUTRrUEdBTjZPVHJRRnlyd3pEOGdPRWJxMmw5MzludW1XMHNneFBwYWhvbWV5WW16U0JwZTRXN0tjRktKV2ZSRlNNRFVLWDVDWjg1cmdMZEVTR0pMaHkwQWMzdkJVSDlET1VPMEVKTGhwUmJGYTJ1QlFjNjA2YmVaVGpkcVJoN2dCbVFkNWdfSXNISmVEVkdhTURFVHJUQm5vZ2Vyc3JEQ0VuN21EUDQ3LXIwSjVrVUw3Sm9CQ3N4U3Jx?oc=5",
+      "title": "NRG Energy Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrg-20261109.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 2.02",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-09",
+      "snippet": "10-Q",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NRG/history",
+      "title": "NRG daily price history (Yahoo Finance)",
+      "snippet": "close 97.4 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

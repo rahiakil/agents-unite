@@ -1,0 +1,46 @@
+{
+  "ticker": "JKHY",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": true,
+  "news_query": "\"Jack Henry & Associates\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000098/jkhy-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-06",
+      "snippet": "10-Q - JKHY - 2026.09.30 - Q1 FY2027",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JKHY/history",
+      "title": "JKHY daily price history (Yahoo Finance)",
+      "snippet": "close 171.2 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

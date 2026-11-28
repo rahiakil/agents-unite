@@ -1,0 +1,61 @@
+{
+  "ticker": "HUBB",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hubbell\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcG1qNGtUV242aTlOekVUTUhiOXZhQmJpQUJzMkJUUGFfZS1aWW94RkFtR2gxU3FPdW5ENXdFWTB0d3JsZE1aMHVTZmlxSG5nVzZobGgwNTY0eVAzUFpMU2VqRGt4RWVBdHl3VVR1amo5YnQ4S19iMnpPYW5NUHBiMHZYaV9jelJFMzRiYnFxQVNIc1RIXzVkdA?oc=5",
+      "title": "Hubbell: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjM5U1l0VVNMdGlfRzdpc3BsM0pvbldOZWoyR05SWmpNNmREbndSUEp1MElfT2dJY0JFQ3YzOEFEQktoMm84MVd0aW9hQndUYUJadUFIZVJvZlUxMm45S1d4OXZMeERHV3VNMWFkUmRmcTIwZUc5UWd6S1JFTVcwWklxVEo1a0FZdklpX3Q3OWtsc2VvYzUta2diWktheS1KRXg1VVM4c1dPUQ?oc=5",
+      "title": "What Does Hubbell Offer That Grainger Does Not?",
+      "snippet": "Trefis, 2026-11-06T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUBB/history",
+      "title": "HUBB daily price history (Yahoo Finance)",
+      "snippet": "close 441.57 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

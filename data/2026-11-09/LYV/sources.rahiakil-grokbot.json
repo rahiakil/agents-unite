@@ -1,0 +1,85 @@
+{
+  "ticker": "LYV",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Live Nation Entertainment\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPUWlSNG9FTVo1WmFzUVg4YkdzQU9BSGJXVGFESk5XQ0pSQ0NIaWFESWZCYW5Mc1lOSzZmUDRydWdXTjBaRktFUzBUWUg5cFJ3ckxtSU9FUGlBejJjVE52eFdGcDV4NU54TVRnMkJpZm1iYmZEMHZHNXJCbUhXeWtxWV9iN21aMXlZcnBOTEZwTldPNEljd1BGdENVcGFDbWlfTjY1T1RrX3o0REY3ZGY4dng4bTlvSnBnanV5ZVB6S1JtUWpNWlpkdEkwb2tZSF9nclcyZzRGS0F4ZkNzU19qX2ZNRFBYOVpScHR2aGJqc1QyMlN5N3V6cHFOMHdrSkVsbTRoYnhRSV9JNWxsQk1hWUc0OTdrY1NwZHRWOWNibUdWN1Q5Q2d6UkdHdFlMUnI1bUNJb2dqWllhTWY5?oc=5",
+      "title": "Analysts\u2019 Opinions Are Mixed on These Communication Services Stocks: Zillow Group Class A (ZG), Live Nation Entertainment (LYV) and BCE (BCE)",
+      "snippet": "The Globe and Mail, 2026-11-07T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ052X1cwaFhEZ2l5YXpmaGdzdXp6QzBJTmIyUk96WFREMmFHN0piQmFqMkMwVHpYejh1RnBjcmM2VENqRzRRcEQyNjk2SEQzelpIR0lMR19pLTB0Vk90UHJOV2diQTF5TWpmYnM1OEV5NWVqVlU0dW9LSXN5VklnYldrUzR4Q05ndHNycHlYRVo5dXNLX2dZVGx6dWdHNVM4d0lmdA?oc=5",
+      "title": "What Live Nation Entertainment (LYV) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPam5Vc0tRZ2NhVWhnbVFvYXJVaExMNUFpamZXWlk2TEVpaGV2UHNxMmEyc2QyNW9MZ1dOWHNsWFZYZUZtWE5FbWlIbGxINlhFOVA2czRLZjY2R0c3TG1ybXVFeTNZdnQtMlNnVFhlWHFVRTg2Nmd1SHl3RUZHcExsNWpPZzVtekpiS1lULU1rQUFlSVZOajEydjNNa29rR1NiQ1JSanV5dmdVZVY2QTFXdVhBMTAwYXVzQ0JzUkVWOHBzLVNzTmR5LUpHa0NrNjd2RThkdzBVdE94eHhaQmlGcVVLeG5zaVdSZER0N2xn?oc=5",
+      "title": "Live Nation Entertainment (NYSE:LYV) Price Target Cut to $221.00 by Analysts at Wells Fargo & Company",
+      "snippet": "MarketBeat, 2026-11-06T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSFBlU3ZQbVp4SmJwam5xTW4wMGl0UU85aVY5U2IzbTZOSnhaOVRXREg5NzZkTW5Sc3Z3WGZaUm1GMGhDckRpUm8weTVrVl80Y1Rfa3AwanQzYXRKdEp5b1EyeW9nZFZ6aFdUS2NUZVBMY0E1MzB1VUduZmIxWDBkV3JQLXJHTktpTUowRVhBRnl6RFBiaThLaERaUmFkUk9aZ1Q5N0t1ams5VzQ?oc=5",
+      "title": "Live Nation (LYV) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-06T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYV/history",
+      "title": "LYV daily price history (Yahoo Finance)",
+      "snippet": "close 176.64 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

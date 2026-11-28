@@ -1,0 +1,61 @@
+{
+  "ticker": "LYB",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcmFoSW01aXFZNHBFYll3d0dMLVozUzVWZkpyNXM0TVFZWTIwWFl3NmNXbE1zSEdGZEhOb2p3dUdmcjVGdU5DTlNDalNSTzBNbTNOVjRXYVBucHM3aXlHcGVYdmNZaW1hYkUtZG0yMnpHd1JMUjFza2lYODlzX1daM3lVVnFqM0NPc0N0TFdPYWtWSVhNRWRKLTZDVDlxbU00RXc?oc=5",
+      "title": "Can LyondellBasell (NYSE:LYB) Turn Its New Deal Into Growth?",
+      "snippet": "Kalkine Media, 2026-11-08T15:59:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-08T15:59:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDNk9URGgxcW5HRzBXcWpKY2FnWHNPMmloR1h0UHY3c1RNU0lZM2tFZFJYQ0k1ZG5jbUlyaWgyLUxMR04ydVE4dlRCei0wckYtQTZDS0xmbXBiQy13NWNCcQ?oc=5",
+      "title": "LyondellBasell Industries N.V. (LYB) Seasonal Returns Chart - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-11-06T22:39:35+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-06T22:39:35+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.694,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 59.5 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

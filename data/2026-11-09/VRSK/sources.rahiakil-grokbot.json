@@ -1,0 +1,97 @@
+{
+  "ticker": "VRSK",
+  "date": "2026-11-09",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-09",
+  "news_cutoff": "2026-11-09T21:00:00Z",
+  "generated_at": "2026-11-28T01:52:02Z",
+  "collected_at": "2026-11-28T01:52:02Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisk\" stock after:2026-11-05 before:2026-11-10",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oVGtwZHJKNXlxSWJ3cXVsd251MjNuek52QjJhQmllRnIwMFgyb080NURITkxnSWxGZHdwMjlza3VncUx1WkF1TDQ4MEY4R21peTd4RA?oc=5",
+      "title": "Verisk Analytics (VRSK) Stock Price, Chart & Analysis",
+      "snippet": "www.debelegger.nl, 2026-11-07T21:19:16+00:00",
+      "publisher": "www.debelegger.nl",
+      "published": "2026-11-07T21:19:16+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMmxmRWFwRUFkMEltNkxaZlRIT0VQbXNUdjhkNXVOVmh6X3FYMTRQQTdWVlAwVFREQW44X2ZESVFGU0FoaExPdEljLXRVYW9EMkgxYzVBanpnQkczQ0t2RGk3am9Sc21Cb3FacW8ySkxWUDU1UHdkSXRPRWg2UVVyZ3dvUHZjeWtsbklUQ1ZLRmY0VnlmbFg4U1pPT2szTE5uN3BDSW5la1BBc0U?oc=5",
+      "title": "Why Verisk (VRSK) shares are trading lower today",
+      "snippet": "TradingView, 2026-11-06T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaFpnVUtRMkFkRldWbllGUDN4MmRKbzhTZUF3aG1fblhRRk9qYy1rR2J3SnZUTGNQVl9wa2RvYmpwU1ZnakhPSl9nWGVQcDc1LXBFbUxTcXFpVTlNQS11TnI2TjNlYTZKdE8xdGdSeGhseF9MS1RBUFczYmozSE16S3hCeHN6R1Z6aFBfUWdRcHJocFVzbVdKMERn?oc=5",
+      "title": "What Verisk Analytics (VRSK) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPemxtdnNHeW9YS0JEZ2ZUT2ZGekxBR1RGWHR3dTFlYlVpeERxenBTVUZDQjZiNXUyci1CSDBSU0VaWU1tMmFJLTMzdnZNcExtVkIzdDY4Qk9UeTdXQ3h3Um8wY2REOHJGMHV0Z282Sk1mMm4tby1DTHgyamp0TldvaC1jcHFISnFHUG1ERHo3ZktTZmlmaEp5TkIyWHhaREFvcGlFWnRpWmJCN1ZSbGRLNTVlYS1kdWNDaGNOTWZoMXU1MFJHdktpdg?oc=5",
+      "title": "Verisk Analytics stock price target raised to $244 by BMO on AI growth",
+      "snippet": "Investing.com, 2026-11-06T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVi1zRzlPNE52N0pxMFUyZy1IZ0YyWGtSc0I2aXI4OE9kLUlQUWpZSGxZcHJmRlJkUEpJaWJXOFUwNURVbzBxRnlpLWd3aVRCMWpEWFNYei1feGpCbXdEYU40bXZNbEt3NWY2YmNIQnpyWHB4UWdMTXdLTXpYdjhGS2ZJZnMzSmRtanU0bUI3RnZHbVRNRHRUVXFR?oc=5",
+      "title": "Verisk (VRSK) Stock Looks Below Fair Value Despite Its 28% Run",
+      "snippet": "Yahoo Finance, 2026-11-06T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-06T08:00:00+00:00",
+      "published_date": "2026-11-06",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSK/history",
+      "title": "VRSK daily price history (Yahoo Finance)",
+      "snippet": "close 200.6 on 2026-11-09",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "BRO",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown & Brown\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaGtzaXl1NW5pVF9SbHgxdTE5NUp1UzJGc3hublRnOV9wRzNydGdDMDBSWGxvaE90d2daZk1EUjFwaDQ2Njdtc1hENVRHXzAzUXBjb2hPU2hTT3BrbS1wMVdpQUdBMldNY0Q3ZFdCc2ZYOFItNndvcFVuV0Zlb000VTJlNDd2d0V5SnRITUlSUTRsMmRmV3FrS3E4Wjg1dGkwZFEwVFpkbVN3RU5OekpOZE4zektfeGtP?oc=5",
+      "title": "Brown & Brown scores new Buy rating at TD Cowen as stock set for re-rating upward (BRO:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-12T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd05uNXVJYk5LWjdJN1VDSEdPOTI5X2I1RjZBNjVMQzB3ajJwVURnM0ZDUjdCVU5yVzgwR0JqUm5mcFVXVnRnX1dVSlNwTHJBekNJQnM3bWdrci1aaGlfU2U1WWZBRnZ4clBGOUZZb0I3eG9vSGRPQ1JwT2ZfVGZpenljR1dwd2xPQVpuMUhJcWc0blVkZ1NEVjhsRFFDUQ?oc=5",
+      "title": "Brown & Brown (BRO): Are Insurer Payments Hiding Weakness in Its Core Business?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BRO/history",
+      "title": "BRO daily price history (Yahoo Finance)",
+      "snippet": "close 67.98 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

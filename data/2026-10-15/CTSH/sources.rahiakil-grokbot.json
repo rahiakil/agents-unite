@@ -1,0 +1,85 @@
+{
+  "ticker": "CTSH",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cognizant\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 7,
+    "irrelevant_or_spam": 15,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdEZPczRuZGtoMU1EdGlfcUx2QzJrLWlDTkM4NGpzamg2SVhqSU1uaU1YVGNzblc0WjNuOTYwdW5YVnlFVmtXN1EzRzRKZ3B4THY1cUpLTEVMOVpzS3N5bEZieXQ2cGVURlVSU0pHWVpjZDQtajB5T2VMNGsxTy1QLTlXejJudXc1UDQxZDRBM0Faem5SMFEzbk5RbW4waEd1S1hBb3UyME01M3ZoWThpQnNONTdDMkZHbTNHdVFjUFNrMFR1R25qcDZ4WXR3OWNFQUd2cTBLVU1FS0JBY1FZaw?oc=5",
+      "title": "Cognizant Technology Solutions Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-14T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmEtYjd2Qml1ZGZveTRlanJ4S25rWUZtdFowelJ2VDFscHAzNnQ0TDJjOC1BcjR1YWZ4dnJ0RktaR09lOEN3Z25henV1N1BRRHo2dmZoNjNiLWVBVE0xUVVOS29MdlhPMmJlUEhxOThTeUU0T21TUjdrTU5YSU1YVFVHZjd1SkVjZVlSZlBQTVlUb0VTeHFWeXF6QmpWaTV0cTJqaHJKQ2pvZWJwWHowVjU4akhxbW4xQmVDcWd2NWhNY0R3dVp3?oc=5",
+      "title": "Bear Trap Cognizant Classic ticket prices reduced by more than 50% compared to 2026",
+      "snippet": "WPTV, 2026-10-14T07:00:00+00:00",
+      "publisher": "WPTV",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmwzLVZoVFg3N0IxTHpVbGxtSXZaR3NJNGx2TUlHbXAzZThwUDhWdEN4NHZtalo0SjJyWm5VRkVxa3hjdkRTUGp2djFpcDBwTWhVRl9FWEZkSjRobFVUVnVsa3E4cEt2XzlVVFdCdWRNM0xiRTRocEZfTzJUQ3kyUDRycF9NVGdNVFAxZ1ZXVkd5NUJFREw0SVZ1UnVXc1B1NzFGQkxJNTVzSUZwQlM2QVh2cmh0dXhTaFBkVUtZS3pPMXhSaVdF?oc=5",
+      "title": "Cognizant rises as investors weigh stronger outlook, fresh financing, and upcoming earnings | CTSH Stock News",
+      "snippet": "Quiver Quantitative, 2026-10-13T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcUg4LUw4ZHl2RVZRR0RSVFNqU3E5dXJVaXlhZXpfNHcwa0g0ZmlvNkYxS1haTmdZZHBPTU9hazlvUmt6TFdIa1NEZ2Q2aDY5dGdPNWo2dDhzdk92d2lLS2VMck1jYTVyZGtZUTZtV3NSc203U0w0bGJXTDBqQy0yYmhLMnltVUJUbnZWbjh1MnoyZ2R2NDAwb1lMT3BLZ29aZE0wbFFXeVJTN1pXN3drQS0wenRLT3JiWHlVVHM3WlZjMjFxNWpMcTFlR1FldmN5ZkhOeEkwZkstZFhqMUVaYkJvN0FZd19wU19J0gHyAUFVX3lxTE1vMmlvRVVneVh1eEhyX3JvQWxXeHZ2M01nXzEzZ0NFbzBsWTFaeWhNRlVMZVNBUGdNcTU0SDBmMEgwLWg5Sld5RUJTZ01HVGlUQ2lRMzhJdW9xdTFNWC1OeU5uMDJVREFYZXl5SmJ0am9ub09DUEwyVXVILTVvcWxHOVFVMG1SaExvTDMyLXV2Y29aaER2MlMtMFdfcGFmck0yV1ozczVobm1SY01UMDFGd3cyb3J3NEoyazM2X2NNei1Db29JVzN1NW9HVUV6djZGWnJQbjJ5NlkxYzNWeTlHc052MjZkSE5JZVJ0TTJjdnRn?oc=5",
+      "title": "\u2018Rogue agents are a new security blindspot\u2019: Vishal Salvi, Global Head, Cybersecurity Services, Cognizant",
+      "snippet": "The Financial Express, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Financial Express",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTSH/history",
+      "title": "CTSH daily price history (Yahoo Finance)",
+      "snippet": "close 65.77 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

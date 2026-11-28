@@ -1,0 +1,73 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZ2N3WUJpX1JKaHExaFZHMlQ0SUk2c2lXWG1NOGVkZWtBQ3N0OEtVYnpBM0F5Tlp4OEszMTFPbTZyMzE2TWJjd3kwY05zYzhwb3lfbEN1MHZWYVFiNnFMOS1ab3A3aXJ4LUNTbkV5MVAyeDgxbW8zZjNSb21US2RmeG5CWUYyc0xSbzQwRWdWMnp6YTZTQWE2elR6U1JXTzlXTU5QQUxJNWdrby11V1E2a3plT2NrNE0zSkV1ZW5JY2wyN2JlQ0JHaURUN3U5bnU5ZkxqSw?oc=5",
+      "title": "Top transportation stocks: UPS, FedEx, and Delta compared by value and momentum",
+      "snippet": "Investing.com, 2026-10-14T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX2phbVZORFRBVjFfSGIzOFVOeGZTVnczY0wybHlHU05kS3V4b1dFNXI5cHRqMHM5S0YxX2ZGdFV6VlN2ZWkwcjNKcE1zMjZ2eVdEeFN1TXJTdjVSdHY4TmFxUGxFaTRIUmhtY1d2a3RtNmlxd0hLZU10TjBzdk45aXB4eVlRRjNPVGpjSjZFOFMyM1pQbFh3Ums5bF9PbW9VVldiS1doTm51ZWhv?oc=5",
+      "title": "FedEx Freight's Quarterly Earnings Preview: What You Need to Know",
+      "snippet": "Barchart.com, 2026-10-12T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY1M3RDBMN09iN3lhb1NtTkxoWVR4MmVkQlp1cFNJam9fSHBUQXk4WTZOdTdRZlRndW1kYVgtck9aUGNYR3pOa0Yya2ZaallPMU5UWFBXR3RsQkdaVVNTOC1HWUxwUXZIQi1lOWJFOWxSZkc4RjFBeTBVSExXS3RGRWozeng2OW8ySkRLMlVrek05NXEyNlg5Mm85Q1IzdU5pVXhkaQ?oc=5",
+      "title": "Earnings Preview: What To Expect From FedEx's Report",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 295.54 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

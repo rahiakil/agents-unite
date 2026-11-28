@@ -1,0 +1,85 @@
+{
+  "ticker": "TT",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Trane Technologies\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGhKVVdPcEZZWFgyVkVKX3B1WGhnNnpZeC1kUzFJRnhjYmE1LTRxcmJNMnJMT2ViUlBSaEVsbUxQYWpmVy04UlN4WUFQVWRoa1BETEtXeTBtZWlReEJaYUdPbUFOZlpoSTVKSjNHLVBpdnI2U2liMld0U2JRR3c3SDlFS0JnQ3lrR0dGam1nNldnYmxvb3pBNlczRnB2QWRodlBXdmg0Rkc4eFFWQjY0c1p3?oc=5",
+      "title": "Trane Technologies upgraded, Lennox and Carrier downgraded at Goldman Sachs (TT:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-14T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQWm0yZS1YNVZJdlFzQXpJeDZsZWpVOS0zeWVvb1VDeXJSaHczRElYeVpJaHVUNHViRGR4aERHRmctWldlTVRabnVWRGRHRXk4U3poRlBUNDN4X294NzBiMHBCVG0yMWxXQzM5TWpxdXhpM1NObHBjU0wtOV9kaWpEMGRXbFBRQ1Fid09mYmhrd0pJbXBjVWktbXBEM1pvU181LUMzWDczRlp4SUstaEZpVnZQXzdadTRoUHpHajNBVm5tdDd6eGdJZndjWm5SQXdEZUhycTc1ZjJXVU82RVMwZkRUOTRnZ3Z5MXhNcjNVeFpoa3lDdm5NSjdSQWg4Tm5JYVFKckc0enRwdWRld0ozLTJJTmQ2cnJMRGNjUHdHU1BhS1JndFZYbXhlcTlwX0RnV0czdWRydmJRSXFWM2t4QWZudDNHM0tyeWc?oc=5",
+      "title": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Albemarle, Alcoa, Brinker International, Dell Technologies, Garmin, Hewlett Packard Enterprise, Lockheed Martin, NetApp, Trane Technologies",
+      "snippet": "24/7 Wall St., 2026-10-14T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX1hOYlFzX29nVHV0azRNeHR3RHZaOTJSZkN1NFhNZGtKdHVqQ1BDWUxaUG5Pa1RoSW91amQ2UlVlN1FJSDZLWkloMnYwZnFVZzJpa0pZNS0zU0FuV09TQ2lkUmk5ZFVFRl9kbG12MTF6X09LOEY2Rnd5VFo0RG11RWV3TkNBQTNzSnhyZUJ3cWhvZ194dTdjUi1EdzhOajEtYzRLRFpkX0I0NmRpbWpjUTNoTld2el94YmoxMXJHT25HS0NBX2ppUXppUzU?oc=5",
+      "title": "Goldman Sachs upgrades Trane Technologies stock rating on growth outlook",
+      "snippet": "Investing.com, 2026-10-14T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjcwSlIwLW5vQkt0UXNUWFZjajRQWTEzOENIWVIxSW1EaE5KeEdGTlFhS0tVQzA3N0l5SXVLZ2FtVVhLdEVSMTVMWF8xUUdUUHhFVHVRQmN4RzlmeHJUNkkyejlhdWFqckpHeWUyRkVFVHNMbW9EQXdQYS0yN0NqbGpjdTZNaHlfZHl6enA0NWxkdllSMzdNQkVNaFYxcm14dE50T0cxR3ZMSXM?oc=5",
+      "title": "Earnings Preview: What To Expect From Trane Technologies' Report",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TT/history",
+      "title": "TT daily price history (Yahoo Finance)",
+      "snippet": "close 457.36 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

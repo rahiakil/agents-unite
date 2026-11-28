@@ -1,0 +1,73 @@
+{
+  "ticker": "CLX",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYjNhSDBreWFjMWJLX3lVNkVndTVUcFdTeTItTGNzNWpCNXRoeHlOb1Fua0diQkUzaHotUkFsbHh2aDRBNVo1V0F0SDd6cHlNQVRKRjhFYWRNUnBibkxKZ2ZTSlNmM0JodElINV9wdmJCeHZFV3BOd0w1bzV0YVBMSGNMT3BKZGEyMEdz?oc=5",
+      "title": "Own Clorox by Oct. 28 to Qualify for Its Next Dividend (Yielding 6%). Here's How Many Shares You'd Need for $5,000 in Yearly Dividends.",
+      "snippet": "The Motley Fool, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY0docnZVWjBvWnlzSVVCSkVUYlFfSE5VT3kzNmN6ekN3dS16UF9VeW1qOU91czAyT0haRnd2MFZGc3lOYTh5WTE3NjIyaXZhZDF1bWlkcVM3aDNzZTdlRXRnZlJfUm9nQ0ZXMG9Xd24wUy1Fa1p5aGxiVzV2ZHBnM2xyakZjdkNPVzdmM3RYdjVLWFFhOVVvSFVB?oc=5",
+      "title": "Clorox to release Q1 fiscal 2027 earnings on No...",
+      "snippet": "Pluang, 2026-10-12T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWHQ4OTU4MDZlUnd1NGp5M1RpZktXak5pM2I0dzkwbnVXajhhRlY1Nkx0S0s1bTlhaHVOaWs5NVVjS3E2YUxsQUZqeVlPNEE0ZVlkQlhsUGljRW5mS2ZkV1pVYTVlZmlqdzY0eE03TTFJRHFnZXYxREVLYkxMZkFnVEdlRWFJNnpzQ25xbGVMc0Zva1E?oc=5",
+      "title": "Clorox (CLX): Buy, Sell, or Hold Post Q2 Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 86.2 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "KIM",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kimco Realty\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZUFBWkNXMVd5UDZ4dkYzV1ZIQU42X2p2cHBxTEY5Qnlad25YUXJ1YlVkM1IzeUxRX2RGdjJVNHhxaDM5QVhuOHd0eXRZVHB6VjNIb1p4TWNBdjNXanVfUjdkS0R0d01NMktTOHVKM093WE9vU3VrVi1GMTJlcHJQSl9nQ2VnT3RNZ1pYYUQxTVNGZEZvZUtZMjBacGJ5ejY5?oc=5",
+      "title": "Earnings Preview: What To Expect From Kimco Realty's Report",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWJDOEZkaU5GdE9YellraXZncDN3OGhmTVZxV0NvSUxMUm9uNTBzN3JTemgtY1NyVDBocHBOcE5RbUJIakdaUmR6VjROT01VYmFlVzFhN25KR0RIVi1RN2pwVHlLS3RZNm9OQXo5RWRubTA1c2dBUUowTTRQWEdVNms3TUxrMVV2cFhuSVF2VEE5U2doQUtHQw?oc=5",
+      "title": "Kimco Realty (KIM) Stock Could Be Undervalued As Shares Rose 49%",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KIM/history",
+      "title": "KIM daily price history (Yahoo Finance)",
+      "snippet": "close 22.67 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

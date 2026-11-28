@@ -1,0 +1,61 @@
+{
+  "ticker": "CNP",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CenterPoint Energy\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSTdtYjZlZTBCSmQxME5ZcnA1NlhBQ0hNU3F3Zzd3enNKUk4zNjgwbDlrYnIyM1dLQkVPS2NBbVR4bHBtak14aFV3QTk4Y3FQS1BOQ3h1RXZvTG05cHFYQkRaS0pxY0k0Zmt0RmlUaXRCZWZZZWlfZzc1V0dLYzVZbG5NMXBlTHJvcmM0b3pCbnY2bjVpSjNGYmtRQjZhSGNNalFSSWl4RWRqOEloRU5zLVVTNVBua2tLVzlGUjhzaEg2OWFoRm5UYmhmeldLMVHSAdQBQVVfeXFMT1NKbl9jQU5Md0ZBbEM0aUQ0S2ZHdkZkYkV6U3VrYUpScmU0aWhxWWdWT0R6WGZNRHRlZVNKb0E1TkU3ZWU2SjlQNnJVQktQY3VUVmVXZ3JVV0FxeVBoUE41YmxjTmNSNTlIbzcwemIxZDJhRkZYZGxtV1lwVExnNmRLdm5pcFFNcHkxM2UzUHVMa2tZMlk2M2NFc2liUGxqZFBFWlo1Z2VpeXlvdXpkSnlEQUgyZkRwNE9URE1fNlRHQzZlOV83LTR2RWNrdmdJdGFGemw?oc=5",
+      "title": "Why CenterPoint Energy Stock Is In Focus As U.S. Power Prices Spike",
+      "snippet": "Simply Wall St, 2026-10-14T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUnNFUlZaTjdGSHFWd251cVNuTmNsa1FuaHpsVTQ5T1pmRVV4bVZmMllXMk9VdzZTV01oNXNGUW5SU2pWTlZDeHpwamVJaEZoNHZQYUlRVkpRalZjTXpVeXgwclItX1NUb29ONTVMbWN3cmU5UUR4b2F1YVRIaXBQOTRXbFJKTEtvdl85Z18zR3pZZWpocDVsQTgwdkdsVm5wWE4zRk5QMnRhczA?oc=5",
+      "title": "CenterPoint Energy to Pay Additional Interest on its 2.0% Zero-Premium Exchangeable Subordinated Notes due 2029",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CNP/history",
+      "title": "CNP daily price history (Yahoo Finance)",
+      "snippet": "close 39.8 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "AME",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ametek\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOREd5U1dBT2Rsa243dFVxTE5hOWtwdHpUc3BiYmxtcXVHVXhsOW9WZXRWTmptRXRQY2NObWQyQnpkTGd1blhtQS1GSTRKMzJrblI5X1BhY3otcVdKV1N3U3ZxMVoxSjFmazFTVldkRHBmdXQwSTZhVWlBN1RvLU03cFl1VzN6UWhYeEl2NlRIVWpHaGVsbU02RWdkTEFUeUlVMW1jZEFn?oc=5",
+      "title": "What to Expect From AMETEK's Next Quarterly Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGdUX0ZIQ3VXbDFDeW5nSGNLUDRhaGM2bFUxUGJIMDZ3ejZ4Ymg2VUR6STJXMzJCN0I3QVExYUNKQ09KeHo4VElyalRBOGVYLUxiSXF1UUZQald1UTVKUEdBdWlMNjUyalBoNHFZcEUxZVhVM19zbmhIbzFaWGR3WjdVdmhpRG85cWZJRW1oTFNMNDlidzBmai0xY2VfdFlablNrbg?oc=5",
+      "title": "Billionaire Mario Gabelli Has Held AMETEK (AME) for Over a Decade. Is the Stock Still a Buy?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AME/history",
+      "title": "AME daily price history (Yahoo Finance)",
+      "snippet": "close 248.52 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

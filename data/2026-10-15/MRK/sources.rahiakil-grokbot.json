@@ -1,0 +1,130 @@
+{
+  "ticker": "MRK",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Merck\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPS3lqUFN4c0pCRG9wZzdjRHUxYkFiWVI1RkRRYlVKcTZ6V0FJbkUwbXg1Q0xZRkNKQ1FEcHpOQzBFUl9KOEVaZHg4YmNRbEI2QVpkR3lhdHRxdjBib2dKY3ZmVHVVMC1CRllCSlJhLVJ2MnBRaWpWaTZwTG56a3ZtWFNtYUVIVFl2MlE?oc=5",
+      "title": "Merck & Co Inc Stock (MRK) Moved Up by 3.73% on Oct 14: A Full Analysis",
+      "snippet": "TradingKey, 2026-10-14T07:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQanl3UmdlVjVnVTd2dVk3T1VwXzVoMHlBMGVtQnlEejh4dVBfQ1ZJR3FkcWE3eVIzalZkNGwtTkxSOHM5TUI2dlBkaTF5aUR4ODhaOFFnamFRdkpfNnpIWGgteDdaRHNqdlhDM0VOaHlzdlg4SmhEdVc5LTZna2VsQkp3VDRHdFZaRWc?oc=5",
+      "title": "Lilly, Merck, AbbVie Stocks Surge. Why Healthcare Is Rallying Today.",
+      "snippet": "Barron's, 2026-10-14T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOHRiYzVsSXNIbUVxWjM0S25sZDdpN1RxNHNmUkl0VzFXMGIyNktkOXdKX1hjTlFDM242ZExCTXlhTUl5dFZOUW9fSzJCV3JmNkdpYWIwMThMZjViNmVaRUg3OFlQbkNrc3BxYkY1WWYxTk15UjB0eWNZdThnLWdzVzNUQUhuek9HSEJHdXRZcEVKeEo1bHZRa0ZGeWRwdw?oc=5",
+      "title": "Merck (MRK) Reports a Negative Operating Margin and Pays Out 266% of Earnings. What Explains Both?",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXhMMDdBWWh2VjkwRTVZa1VIVUx3VnFaU012bjZIYkZ0SFBSbFdkTjF2TkM5WWZRUU9JeDk5YTg3NThHX2xWanVpOEJBNHdydG9sbFpQbXdZX2ZUM3FLVW1lUm85YU9JR3JjU2dtb1hwSVBPejBSOXVVRFBiX085bm1YS0NwRU5vY292NlQ2Mmc?oc=5",
+      "title": "Here's What to Expect From Merck & Co.'s Next Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0dFbVBHYnhob3E5MDZaTjJNZTE1RnVORjkwb3hhRDQwVHd2bGlITWZ3U0ZjbGk3bVBMczZid0Y0NjdWRHR6NXNycGRoSmNzZzdnZldhbnZFSkg4eXJrdDc1Mll3OEdKbVFGZE9keWFYX2NBUVZUajJJNVVyOVBIeTNfdWs0ZVJhN05JdzBrbS02REJYYUh4V1QzcjA3QUZ3OUZmV1VIS0owTUZSMFhPMTIzdw?oc=5",
+      "title": "Analysts eye RevMed\u2019s pancreatic cancer launch, Merck\u2019s data blitz for Q3 earnings",
+      "snippet": "BioSpace, 2026-10-13T07:00:00+00:00",
+      "publisher": "BioSpace",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.66,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNVE1DTjNMSUh5eUZseWFDcEdKOXpsaVg1Z0hvY0NoYVJtOHUtNkJkZE9kYTdNOFFkOGhHbld6MDR3Vkd4dlU5RGdTOWw4OWtvak5iZHdSVnM3cWFTSERNTTBxOXYtZXUzZDVEWTJXYVRhSHFQUXd6RmVTVlFnVmpGUmt4ZUIxNW95U255SE5vM0k2X2plbFdQc3I1NkZYVXNtZjJkUDcxQ1BHanh5YUpVa3h6emx6QjB0OGNGcDVKQVVXck1nM3BicGU4eU05NmFDMXluQUJOQ0hIZWdSNXpfRkJYSjltb1JEY21VbWFFYURzOWhSY19QMU1VXzAtTzBycllmNk93Nlc?oc=5",
+      "title": "Analysts Are Bullish on These Healthcare Stocks: Merck & Company (MRK), Tarsus Pharmaceuticals (TARS)",
+      "snippet": "The Globe and Mail, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMXZyQW96d2Q1dEJpUzFFTFdqYm1PV1NTNTJKTVNjM0pJR2xsWWgxU25KR1JPeTVNLUVYUzY3bmYzZjFKZmpJNFBoMkJuWHE0bDA5bENrVEZHTUFTcWJYVU1QMVpSQTFNLS1YM0xDV01iQm80Z0lfSFZWa2tLV2psdkQ5VWNfNTFzbDNNeA?oc=5",
+      "title": "Merck (MRK) Could Be 7% Below Fair Value On Phase III Cancer Vaccine Results",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000237/mrk-20261009.htm",
+      "title": "SEC 8-K filed 2026-10-13",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRK/history",
+      "title": "MRK daily price history (Yahoo Finance)",
+      "snippet": "close 145.19 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "STLD",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steel Dynamics\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWnQ2bWlUWXN6X3BPNGI1WWdWeGdNcG9iR0ZlQTN3c1RJekhJRkhkWkdJc1RRaC10eG16NGhNOHJwQ0l0OEtQQ1llenNVMTBFVWI0N2FMd0U4UUl5ZnAyTl9kTGRXTEZaeTd3YnVoOTMzUVIxY2hlWEZzOS1VOXh2bmxmdGFXRlVVaEtFTmhHZGFkVEVxdWVpWkk0aXdXTFgzcDhRWTEzUDRjQzBEMkgwN1ZwUXQ3d29KUmh2R0Q2Vi1QTjBvbWhRVlFVMmg4SkXSAdQBQVVfeXFMT2R1b2VybF94cG1TdzAwdGJCbkhxckpabVh4LXlUaGFqOXMzdFpBUUxNWUZxREYtcW9Yak43MDhsYzFJUmlJcWZfdDJWNFpWWDZyYkJRMmQxeGRGcEdhNDZGOTRYUXBzYVhya1ZrMHplUHpiVl85VENOd0VPc28xSVRDbDhKQXdmLVBEalFLOFZVOFQ5QThTSFQ3eVZJV2ZoSWM4c1Q3Y2huQTlnZnpyU0M2blRkejloU0xuVDQ5bmNWSUNmMDBXempleVhzaWtRblpWd3k?oc=5",
+      "title": "Steel Dynamics (STLD) Stock Trades Below Fair Value On Cash Flow",
+      "snippet": "Simply Wall St, 2026-10-13T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc2s4S08yRlNsT202MV9xN0MxVW52NFB2YWxtNGMwREgtUjF3YkY1eDE3VjUyV0RRVDBnYjZGVVozRGtwbWRqQ3dITVdyM2VVOGJ0TXo5akhoZlhHcHRSZlFDNTdHM3NuTTJKaDhjWDRWV0RrNzczU1cwMDlhZUlVYmlfLUYzdnN5elFHXzhDUkExZHZtcm5MOENyU0NTS2to?oc=5",
+      "title": "/C O R R E C T I O N - Steel Dynamics, Inc./",
+      "snippet": "Morningstar, 2026-10-12T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STLD/history",
+      "title": "STLD daily price history (Yahoo Finance)",
+      "snippet": "close 240.76 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

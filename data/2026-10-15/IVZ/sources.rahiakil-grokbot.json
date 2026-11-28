@@ -1,0 +1,73 @@
+{
+  "ticker": "IVZ",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Invesco\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUg1b1ZxUThvVjJ4dmloS05sZWZRamF6WFF1aW8xVzhVQlhFSjFxY3pKMnBoY2t6bjllNGlrWXQyZlItTnU5QkU2eXB3QXJXTVF4bG5Tb2VubXFtVzBHNkFJcnJpVUFtRkRmcHdpZTZFM0x5QjU5YlZpQ1U3d21mRGdhN0pRT0tMTFhOdGh1cmp5al9OTlpHODkwUksteFo4T2dhdFlSTVphX1BJM0c4cVJpV2RXQWRDTUE?oc=5",
+      "title": "Invesco introduces the QQI for international stock exposure",
+      "snippet": "InvestmentNews, 2026-10-14T07:00:00+00:00",
+      "publisher": "InvestmentNews",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVlBzZGgxMkliSXdPU2pKM05FOVBvWHNWS3JqdXIwOV8wZ1pVQ0xaX1R2Q3NyX2hDcHNjaXhsS2hmbGVxcDFFd3ZTY2VZaHZNdG5ZV3QwblN0eTY1U0xORVlOOXdpTzRBWU1ZU2dTMFZ3OUF6cXpuOUNHbkxsVzdSX3Nwb2JjcXNSTVUyVFdYX0xUQ2dTaDNIVEZYSUYwbkJVZlpHLTBQOHNVR240UEt0SjR4eExScDFQZjJNbkVyYnpLeUNRUlRva1NITy16b2hvWXc?oc=5",
+      "title": "Invesco QQQ Doesn't Own a Single Bank, and That's Not the Only Thing the Nasdaq-100 Leaves Out",
+      "snippet": "The Motley Fool, 2026-10-14T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSGJGclNQX2RDUXRadFNCVHpDQ0hqcS0yd0NyazNISUtLQ2FnWkEwd3loUDFVYjdlN3RWQ0NGc2hoVmlXaFU5WDA2d21nb2RzazljdVJHRVR6Z3NlYUhfS05tdm1wQVJOeTEteFo4YU14aGlDNkFSVFlsTjBPRVdsU2Zadmt2X3RRMVI0cWI1aU9mX3E5bDdabGktUG8wQ0ph?oc=5",
+      "title": "Financials vs. Banks: Which ETF Is the Smarter Buy - Fidelity or Invesco?",
+      "snippet": "The Motley Fool, 2026-10-14T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IVZ/history",
+      "title": "IVZ daily price history (Yahoo Finance)",
+      "snippet": "close 28.8 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

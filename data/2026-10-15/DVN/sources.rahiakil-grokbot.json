@@ -1,0 +1,61 @@
+{
+  "ticker": "DVN",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Devon Energy\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObWxQdG4wOEJld1FPYTF5MjAtMkxud1cwODlydjNkX2FlbTRLZ1hHbUpKRU4zcUJ3dk1yUXZzZGJ0S2s4OVdaZXZSbXI1dE9XUmZGU2VpX1ROZ3ZjLXE1Wm5fbGNrdFBpQ2JGMVFiZlZTOUxMUzNkd0RZcV8zNUpuNTdBSmNDRUpmMUotS0ZQYVJTdEdtWjNrX0RVMA?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Crescent Energy, Devon Energy, Energy Transfer, Cenovus Energy and Drilling Tools International",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTlo4dndjaE11V1FtVGFLdnpLbW82OEFWbHZzMFVpcFhDWWk2aDZoWUtNOWw4dEE1WkJscDVDZEhmOWZMdnZpeEtxR093VkpRSVBNYWV0cDlrdU9ZSzBtZTFGYTRxRnFObG9WZGJncUhjN2dNR1d5R0d6ckhMbTJyMmI4bnI2d3VraHp0bDdvNm42cngxUTBKQkp5TGhuSm5WVzhEeU9tM3dFVk5xN3NsdmVyb0FPaVNnQkY3NmtqazgxZUZTa1ZqbGFaMEdKaVh6U3c?oc=5",
+      "title": "Kevin Hern Makes Significant Stock Trades in Chevron, Chubb, and Devon Energy",
+      "snippet": "Investing.com Nigeria, 2026-10-14T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVN/history",
+      "title": "DVN daily price history (Yahoo Finance)",
+      "snippet": "close 49.24 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

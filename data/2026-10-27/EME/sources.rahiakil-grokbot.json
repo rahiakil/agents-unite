@@ -1,0 +1,61 @@
+{
+  "ticker": "EME",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUFREMnJDRUNNdk1EYjJra2hfdWo1YzhCdzB5VDZBNmVUb25lS0ZweHFVNW14VjVpOEZlS2lkQ25tNjg4TkxMRnlYa1dHVjFRS001OXMzRjJodGlrLU82MDRCdVQ3MnVuTllRWTZUUV9MbFdMQS1jdXFybGF4UVVrQTdEMnRLbjh1RjdvbkRjcE93UHlIVlVXb2FBdTdDdHdk?oc=5",
+      "title": "Unlocking Q3 Potential of Emcor Group (EME): Exploring Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLS1SN01TdG5paHZyVzdENnhSVzRhYTVZYkNWb0dOTDFjaHBxeUhUTmhBaG9PQ0dCWVdlVW50SmdIYTViNmJkd0hiSlNCVlRnaTlZTHlZNGRoZUZ4V2J5OW54Qk40TVpDTjhVMTJDX1IwMFdkSHU2TldsUm85dnAtVXZnYzJ3Y1l6MnhmRS1LRURXN0Q3RXBpOEtKcm1rUWtPdGRnd0xCVGtmSTBa?oc=5",
+      "title": "EMCOR Stock Slides 18% Over 10 Straight Down Days",
+      "snippet": "Trefis, 2026-10-24T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 666.36 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

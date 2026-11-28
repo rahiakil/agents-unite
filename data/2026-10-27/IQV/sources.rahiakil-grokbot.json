@@ -1,0 +1,67 @@
+{
+  "ticker": "IQV",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRUZWT2xCVnByVWM0UXdzaVBFeEtxQTVvVjhZbFJRZ2FRQVNDdW5fSG1RTk41TDI2RnU2LUNpS3NCM2ZPOU91WWpQN25PUTFpcHIwdC1rS3RtUmZYUFdscmxaT0F5X1U3N1BBVXp2SXZUSXZfejV6UDM0UVZPc0YydU1Lb3JvbzVOZ2kwNHE1dlhBcHBuYzZ0N2tUNGNFdnlsZmxYdlpwS0Zpa2N5SEdaRHhLOTdqRGo2UnhwZWhDVHNBbjhiZlRMd2hkbUtDV1RzTzJsaUhmZURuZ9IB3wFBVV95cUxPNDA5UlhVRFpsc05tXzdzZHVkeEN1akJYWDFZVGpwVC1UVlp6WGlEZHdxSkRxejdTRUdiOGNIWEhTd0hwaG9RMWdZN011cDFMSUJ5S1R6SUVxTEdwcXNqanRrejVqbzlyOW1ub3VmWlNaRXo4UjFMc1pYSWhzbFo3Zm52RFM4SHloazFEdkV6M0hvY08xel9jT1d5WGJwM25MN0I5QmZkaVB2QndIMUR4OWxBX3p0RGRrNG93T2hDY2FBRDY5SGc1OVBtX00tUkpFV2dvTjk4aXl3N0laVHk4?oc=5",
+      "title": "IQVIA (IQV) Stock Could Be Undervalued Following Its 55% Run",
+      "snippet": "Simply Wall St, 2026-10-25T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026067406/iqv-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026067646/iqv-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-27",
+      "snippet": "10-Q",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 271.55 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "MNST",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Monster Beverage\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORm1vdERYOThMSU4yQjdwcTk3dnV3c3NjMk5JcWhFTzJ6a3kyaUZSMF9YaU5VRlRFR0Yxa3lQNjNLSmRJRWhpVFNmMGdwMnRmY2UyTGRYQ0MyRXVKdG1NYUZqWEEyRGtrS1dHN05jbE9kX0JUbVVDel9kUnFOb3I0M2xIanFmeU9rM1ZpcmpjSUVkQkRLWWhVVjRZUnFUd2M?oc=5",
+      "title": "Monster Beverage\u2019s Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxON3ZaMkthVzF4eUkzYVZmZ3Npb0ZpQ3dJZW0tbmwtRnJON2M3YXZHSG1xdGxHTlRJNnNzSkNldWZBeUdmeGVsWWNleEJOQlBUNTVicF9YcGNOcjBjOXAtS1haaVNKYV9SSEhlTXFadTVYeGVCOGVITWhRZ0FLYmpPVFhXYnI2Y1BXMHdJd3htVzBaZlQ4ckQ5OXhSUmM4TTRFQldMNnljWlZMcDN0c04yaG5lUER5ckFJLXIxNU8zNWVlZ1h6NEV1b1NBdGxtYkR6bWNrLW02WmVJOFdGZEdnMDQ1WdIB6AFBVV95cUxOYmhvU1BpTWlmVkZkZUJPYW10aWlXYTYxQ3E2Q1pQcll1V2RseWlkTjdEU1lRQ0JSQ29fMzVwUk95ejZpb2FrcDQzTFlzcWV5MU5LN1hjS2p2U3Q2cFJLbmpCVGlhT05UZGotaDRNSTdtbFdkTW13cFdkSkhQaWN3THUwcHc4YlRET3lDR2N5Um95MG5zOWhHQWdJbDdiY19MdjVPelBXaER3N09EMnFpQzhibE9wMnhYRUhnSFpVUXpjNHpmUURQQzQ1b0VJTW9ScHBUaFk4eE1RWE00a1JFU05odHlpSEpZ?oc=5",
+      "title": "Coca Cola Shake Up Puts Monster Beverage Stock And Celsius Shares In Focus",
+      "snippet": "Simply Wall St, 2026-10-25T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MNST/history",
+      "title": "MNST daily price history (Yahoo Finance)",
+      "snippet": "close 45.44 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

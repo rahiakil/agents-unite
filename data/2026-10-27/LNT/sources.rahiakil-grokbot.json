@@ -1,0 +1,49 @@
+{
+  "ticker": "LNT",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alliant Energy\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX3pDelc3WHVCdkZvUnFfZVJ6aHpkcHpsNk96M09CTWNlOU5HQ0o3MDV0cTJ4aC0zMjFyVTJ2UlVIRDZBWXA1MjBncm9qNkNtT01NU3JKeXZrWGNiMGJBUXk3RElINFh5SW5ZVjhzd2VaQ2dyeHQ2a3FDWFhwbUdkdDJEakU5U2ppUmZXVXJLckJYbUFoNFg3MXV1aHdHbjllUVE?oc=5",
+      "title": "What You Need To Know Ahead of Alliant Energy's Earnings Release",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LNT/history",
+      "title": "LNT daily price history (Yahoo Finance)",
+      "snippet": "close 70.04 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

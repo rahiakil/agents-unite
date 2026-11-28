@@ -1,0 +1,61 @@
+{
+  "ticker": "FAST",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fastenal\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPamhLTTZmUTZCbjBrS1Q1TE1jUWVabHZWbFZhS3lmZ0xaV1RDOGJWTEE2TzczcXdDbWdYS3RDTE9fYmpoWHpBZm1FYkV0RTN4X20yZy1qN01HXy1LZWttNW9MeGJYclB6cTY4WDBiUlRIaUFQV3l0ZWFCcWNnekp6Q0tlbmtTLUxGMzhta0plaDVjUUtMemtCNm9iZ053UGlQTDdYNGxiN20yZVlYdkVoU2FwelU3U3BfMm4zdW45bXIwZGVWbk1ZNw?oc=5",
+      "title": "Argus raises target for Fastenal stock from USD 55.00 to USD 59.00",
+      "snippet": "ad-hoc-news.de, 2026-10-26T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV2hRSjJveG1sTEJvQkdpMk1nS3RSMTR0WjNRN3BhbTNXMHA2YWdOV1g0anRXSkVZN0dLZHRsdl9DZUVaRk0tUUp3MUE5VWRSVGR3ckE4QlFWbFlSZXdqRE5oM0dUV09zWFI4ODJMMWhpSGRzX1hHbWJzYkthS3pjT2t4c3VHUHBQX1h6cWo1MGZhcXJiVElBMUxLanZDWjVmREI4?oc=5",
+      "title": "Fastenal (FAST) Earnings Put Its Valuation Back In Focus",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FAST/history",
+      "title": "FAST daily price history (Yahoo Finance)",
+      "snippet": "close 51.55 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

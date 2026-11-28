@@ -1,0 +1,61 @@
+{
+  "ticker": "HSY",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hershey\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTWN5bU1DTlN2TmJXR1cyX1l4dU9kMlpabTFrb1dfQlF1cFNhMXo0eDVNdjFBV29fbTV5emtBOTQ1elMzZVZsYkZlT3hPVWhEYWpXZ0RvYzZEUjA4OWNCSmYxQ1RSSXNzVENaSUZzWEs0Zl9Qbi1yeU03ZGMyZks0Z3k1SDNKeUtuVEszVDRncWdxNms5VXNCUmdiRTNSYVU?oc=5",
+      "title": "Why Hershey\u2019s Sneaky Volume Problem Could Spoil Its Q3 on Oct. 29?",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUk9wQ0tsWjNaeG5ZVGJKTHlyVkdWRmo0UjBwdy14QlhMejNUWElfZlk5VERqQWRadTNMY3M5ajFRazR4Q01aTWJVMWtfNnR6YlBEYktOWVhNOVFwbmNieHU3cnJlc2p4Y0w2RGh4SmxOU0VoNEFlMnFBbk9MMHlWakRtWHZTejNUWTRLRU51ZkZoclpsNzAwT3RmN2kzSTgtQ1lZMlBmTHdxeTloUmk1V2NHNVFCQWM?oc=5",
+      "title": "Dutch Bros vs. Hershey: Which Stock Is the Better Buy Before 2027?",
+      "snippet": "The Motley Fool, 2026-10-25T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSY/history",
+      "title": "HSY daily price history (Yahoo Finance)",
+      "snippet": "close 164.51 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

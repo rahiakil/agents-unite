@@ -1,0 +1,49 @@
+{
+  "ticker": "DOC",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Healthpeak Properties\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObWJldVNaeF9TNWZzbUVtZ0lON3ZJZTEtR01fbUljekZIVkpsS2Q3andFR0VpNGI1MFF0MWIxVHpWWjVLVGpaWTVPY3ZVbVZfLUoyUEt0UGtPM0ZXY0IxdVRicUt5Q0Q0TDc2enRQOVplTjV3akxCc0pkQmJrWHlKUW5WY1lIb25MckFERXluOUhpcVppdTFQaUFxNTNKQ3dBQ1duTVpzdmtCeVJ3VGpjanZDSUlqTDZvT2xmSHhwQQ?oc=5",
+      "title": "Healthpeak (NYSE:DOC) Slips After A Strong Year: Value Ahead?",
+      "snippet": "Kalkine Media, 2026-10-26T16:08:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-26T16:08:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOC/history",
+      "title": "DOC daily price history (Yahoo Finance)",
+      "snippet": "close 19.02 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

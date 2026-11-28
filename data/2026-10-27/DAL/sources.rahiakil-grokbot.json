@@ -1,0 +1,49 @@
+{
+  "ticker": "DAL",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Delta Air Lines\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ05yTGkyY0dNbkd2Q2Q2MkRYSHVnRmdMcGpVLWVWdkFzZGZNWm52anZxcHhHTlVOTktsTmlzeU41Q0RXOG1hSXNIOGlrYnVMM3VrVGRmMFRDOWx5REV2MTA4R2FFMWpyYVRuX0RhNXVmNUoyOEpMZGtsZ1hmdFlWWTY2N0V5cXhTRnZEaC1rMDdHZ3BOSkJ1c0gtOHAzenhMeF8yaU5UQi1zTERDaTRYX3VjZjhMUGNxcE9mbnA0S2hDZE5ZeFFSU2RMcw?oc=5",
+      "title": "Delta cuts 2026 outlook as fuel costs pressure Delta Air Lines stock",
+      "snippet": "ad-hoc-news.de, 2026-10-26T10:17:56+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T10:17:56+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DAL/history",
+      "title": "DAL daily price history (Yahoo Finance)",
+      "snippet": "close 81.45 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ROK",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Rockwell Automation\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUd4Uk9GOTJNckFJa1pvT010cjZxWlBJRko4OXIzTWs2dUp5NzFNVV9fZnowSzBwQWZrNUo4NFRsQzNCOEZyTDRhNjUzUkpVYW9YZnZRNG10bEphWWRHT08ycFBtS0Z4dFFFRHBfeUNHeXlnZno4TGdGSDJlNWxpUzFVc2MwOExtQzVPX1BEcU5pYnh5WXJMX084V190TTh2N2RtNVJNaFNaTlZVWjFr?oc=5",
+      "title": "Rockwell Automation (NYSE:ROK) Faces A Valuation Test As AI Expands",
+      "snippet": "Kalkine Media, 2026-10-26T16:12:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-26T16:12:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTjZOdGotNkNPek5lRkVka1N3ZGZtc1EwemU0VVhwM1hJcWlJRUd1bXIzV196SUc5T0xJb0VlSmxuOG5GQ0ZCVWItMTZtcFhhS1pCNHlzQ0kzeERBTU9VZWExR0RibHpRVUhDQlBucGxzUHRpS05Rbnk0SzdXeEFPdFgxTzlaNFhIdjRtWnJsUm05Y1ZyU3BxUkphVVlFQkxuM2R4d3BHMWt0TlVH?oc=5",
+      "title": "Rockwell Automation Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROK/history",
+      "title": "ROK daily price history (Yahoo Finance)",
+      "snippet": "close 439.2 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

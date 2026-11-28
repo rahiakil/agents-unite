@@ -1,0 +1,61 @@
+{
+  "ticker": "GRMN",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Garmin\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUFcyNWx6eUx3LW5WeC1JbDJ2dUdxaDJIMEhYOE8zQWRjMVBYVW5xY25WUThjQkNrREhIdmttYWQ4M3BNc3N1SGpPNlVjZ0JDeWM4MDZlVnBHbFhMcjI1LW9ZVF9DVmhiV2lDa2NlNTZvUVZtS1NvdkU5WjM5cmNrUUcxcVlCTHpBNGlXbDR0TzNRLVJfYU9uTDJGeTJXVDJnTldpaDNwbmtZTFhqUlVBMFVpWlU?oc=5",
+      "title": "Here's How Much $1000 Invested In Garmin 5 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-10-26T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWlBJMXZIVVRaa0ctTS1leFFlRVpHd2d4NUswajlsZmFPRFhxZzB1MHhJNjhHTU4wWERuRTQ3SlptTEdKWFdzSHZZODVKbHBkNTg4UVJ0RS1zWnA2bXU4TjdhcC1TcmxpVWFJNGFvSFVQNGFSd0twaExQbEhRRjJxS3ZfT2JfOFRQelE0WDVFRTdGWDhtNHR4dmtLMWpWV0NsVFE?oc=5",
+      "title": "Garmin Gears Up to Report Q3 Earnings: How to Play the Stock",
+      "snippet": "Zacks Investment Research, 2026-10-26T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GRMN/history",
+      "title": "GRMN daily price history (Yahoo Finance)",
+      "snippet": "close 289.34 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "WSM",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Williams-Sonoma\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYkpnTi1LYUJUUXhNbjhTcVlrRHVTUkRXOHVsWkZ0cEVielkwU2hSLTY2azU2NFBRWTVGTlRhNWtXVTEzaVBRaHRrUXBGZUZ1ZDVBakJyNVlSb0YwOVEwcDNFSzdPMUk5di1wdTRFMW5VWHo3X2ROaTJYTzJyRDhvbG5WSU5SdkhyOGlmOGE4T19TMnZ0STVpUDQxS0FVSFNLUnI3Y0UxazRQck5lYlRaMlZLcFI?oc=5",
+      "title": "Williams-Sonoma Finds Reasons To Celebrate In Rattled Market",
+      "snippet": "Investor's Business Daily, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOExnTC1rX1dVQkpTQ3hzaVo5eHhiLWl3OFZ3SzhVT3lfVGhZS3NkNG1hMURHYnBXYVc1d0dVRVJuT3d0MVBCTnViWkd3TldMdDVrQXdLbFdMbEp1WksxS3BENHRvS2gyUmw0LW9xZFdxOENtbkRFMGtxVlZONXZ4ZGJxcUZpWlVIb18yVHpMcWVpaE8wekFtWk5n?oc=5",
+      "title": "What Does Williams Sonoma (WSM) Gain From Adding Lynn Martin To Its Board?",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WSM/history",
+      "title": "WSM daily price history (Yahoo Finance)",
+      "snippet": "close 250.45 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

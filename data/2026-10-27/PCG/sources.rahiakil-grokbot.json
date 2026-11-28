@@ -1,0 +1,49 @@
+{
+  "ticker": "PCG",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PG&E\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYm02X28xSXNuU1JTeW1wTjFZZ0FfUzNlTnA4d1hPaWVyUkdoR0Zhdk8wQmZyWmpJSUlvc2ZodDNmOUxFUkxlRnM4bmowVlJFS3A2Z2ZtREl1Z29sYkplb2hsbDJXNVZ4QWhmQWdodVpUMm5WUXBfYXBoNVBVUkc5eWRDTDFhNHA1akFHSG93dHRwUEo2aGlzNHJHM0Vnby02WWdBY2xjNmpuWE0td0plS1Vxc3cwd2tIRWl5Sw?oc=5",
+      "title": "PG&E: A Summer Firesale Leaves The California Utility Attractive On Earnings (NYSE:PCG)",
+      "snippet": "Seeking Alpha, 2026-10-26T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCG/history",
+      "title": "PCG daily price history (Yahoo Finance)",
+      "snippet": "close 12.96 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

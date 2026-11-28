@@ -1,0 +1,70 @@
+{
+  "ticker": "ECL",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNHQ2WGdZRkJqQTA5SEVLSlptSHVGV1ZDQXYyQy1fazBWSmRUdjNieW9nb0F0UmhqTlA1NWxqMm1ldmRsYjA0ZGJPOTlKRXdWZE1VUnVjZkJZVTAzbzJ5dVJuQTNMamc4QnRoejh5VUhLRTBsX3dmU0lCSF96ZmhYR3hrZFJHaG1kM19WLVFreFdHcTRRZGlqSFRKLVJFYXk3NkhUNUFJYnZYdHZacHVNYmxNandRSG9yN3FVaUprMDdmNjlmM2c?oc=5",
+      "title": "Ecolab: Q3 Earnings Snapshot",
+      "snippet": "kare11.com, 2026-10-27T12:06:00+00:00",
+      "publisher": "kare11.com",
+      "published": "2026-10-27T12:06:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTNMbTU5cENGcEpRMVh5Sm1oZHFoOFJhREk1akpZZ044U2hXMlJkbml0SzI3RG43VTZjYnEwWDhRUm1iWkEtMGJwYm5ZdTYtcy1rVnl0QXRkU1FKVDVDWEQxZmFRbnNpU1R5V0ZIMGhCaXFicXNONTNTRG1SbVYxdE1yNk85R2JnQjByQ09LbEpQMTNWMi1nNFMxTGk0S3ZKLXVUUGIxRmlqV1BtSlpOaHk0TFR6NFNPS0VTS05GaVY?oc=5",
+      "title": "UBS reiterates Ecolab stock rating on datacenter growth outlook",
+      "snippet": "Investing.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/31462/000162828026067418/ecl-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 291.27 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

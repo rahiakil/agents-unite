@@ -1,0 +1,115 @@
+{
+  "ticker": "RCL",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Royal Caribbean\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaFBNd3lKcERvSjVtWFRoVUdoR0xIV18xcnB1N0k4dTUwM2xvckN2QnI0eUwtcnliUzZnRGR0RjJvWkx0aFQxb2ZVdjZlbG91bmZEdnBxbUR4QjJ6eXpKNnRMMENmeHYtMGRRWGd2UUp6VzRKUnNNY0ViY1dRbTdDZGZXdUE4bnNvbG1kSmEyOV9hLVJmbGlwd0NORnBjOHo1d0ZVRWdQWktfNExWb29FZjVNY0FoVXZib0lXanF5MnhHZUdCaGhPNldWVEI3QQ?oc=5",
+      "title": "Royal Caribbean Group stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-26T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX2l1ZmZadUVmRGpwRzhWRnE3V3prOU40M01NV3RrMVVTR1FrQ2xuZlp4UmVOaHYwYzFNeUxlSEJlVzNRUURGZ3hJV3c5VV9zekRqWVEwVllWRGRCWUt0YWpmMWcwTUVUMUhvV3dYUXIxbHBwQnJncG5VUmthVXVSc3pmOFFvZXhqb25PZXFGV0d5SmkxaHpoSmZobWd5NTRaWThnTUlzVXBvdTBRSGpmcll1VThkNEhFRlppZWNuRWZobnhDZFJLWGhuSQ?oc=5",
+      "title": "If You Invested $100 In Royal Caribbean Group Stock 15 Years Ago, You Would Have This Much Today",
+      "snippet": "Benzinga, 2026-10-26T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQekdjY2w0MHp5UmJlWG5LLW5ZeXFpSjdPZFlLN2Y0VVlXbWU2b0JCVU9BMW04OWM0bG5Qd2lwSlYwb3d2NW0xM1FyRGZyc081SmJyaURYWnNCQ1cwemlmN0ZyM3ZRMDVJdkFtbVVYU2VXR295S2dfNmpKUVdjRnpxYXdwZk9fUUhaZHBEZDVOU1VLU2o5ak1VQ3FsNzV2Qk5K?oc=5",
+      "title": "Carnival vs. Royal Caribbean: Which Cruise Line Stock Has an Edge Now?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY1Y5NmlpeDYwa0wwaDhBdXpWTDB0VTFlNzA1M2FJMTBxVXhlMmUtQWlvdDducW16dFJ4anF4Zml3NmpqbXZZR2JaT1BBNjh5WFlORmRZSTdPeW44UmJXRndXSTlpdEpfQ3pna29fcGdaLWRUd0dtcVJoYjZmRElJb0xVTFdaZXFDOFhabDVsZ0RIa1ZyR3BmWFNoN0dsQi10QlBSYzhaUWJtVXJINExqSVFlcWw3Skd1WFZTNkhpb2Z6S3U4dnVWaHJBS0plNkY0U2Q4R0V5WURUS0lCTVNkLdIB5gFBVV95cUxNSUFWRXRxOE9jR2ZaeFl2a1pqSWVfVHhYeUdJSTJGdEtrS1VpVTdTMkstOWtKb1JTSXpJNE5pWk5GWThwMVVoVl9ubUJjR1d0Y0otUmFXMU9FMFpOWDJCVHRLdWFUb0VTZkJablZibWlpUlpLeHEwZktOXzV4N1c1WENmZmE0R18yTmMyRXRIb3VwQ25CTDhHXzNGd2xRSkVvaExyTlBLQ3NEU29jVFhzVDc2bDgzMGFqb3lIMkEyNUZYMkhQSzNLYjEwaU9zbmJzNTlfLTZGUF9qQzU2clRnSGZuVmFQQQ?oc=5",
+      "title": "Royal Caribbean (RCL) Stock Could Be A Bargain After New Deal Activity",
+      "snippet": "Simply Wall St, 2026-10-25T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnVEcDFXQTFhNmxOei12TDlSaEt1YkVkRU9peTRJbHYzOGtiR1Q3emcxZ1FZaGtnSHZFaHpLODUxZVZXMGtOUnJQQ0ZPRkJ3QmsyZFlyN1c1Q09IRk5jR0tpQlJMVlBxVjMwOTJPTXAtcUdmNFlwTWtqS09qbWk4bmlzS3R4eHlhbFJHemV2clBFTEZZZmd3ag?oc=5",
+      "title": "Debt Anchor vs. Cruise Demand: Can Royal Caribbean\u2019s Q3 Print Oct. 27 Match Its Premium Valuation",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000042/rcl-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000044/rcl-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-27",
+      "snippet": "10-Q",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RCL/history",
+      "title": "RCL daily price history (Yahoo Finance)",
+      "snippet": "close 295.92 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

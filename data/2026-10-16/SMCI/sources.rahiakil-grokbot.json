@@ -1,0 +1,94 @@
+{
+  "ticker": "SMCI",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Supermicro\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZXM4OG01V1pDLUhUYWlVWmpQTzY2QU9GS0U2VU9vLXR3UXJISllQbjAzMHhhRlp2OXlXaWxhS2ZnaVhTZ1RnSmo3ZjVmejZDY0M2aHE3bGVleEQzNjI1R0xPOXFYVnpFejl3QXUxWWtIMEFUTTBaUjNxT3Z2Q3dzWm1zUjRjTHpXQTNZYjE3bGZINXExd3V4RA?oc=5",
+      "title": "Supermicro hires a new CFO after $2.5 billion Nvidia smuggling case and a 2-year search",
+      "snippet": "Fortune, 2026-10-15T07:00:00+00:00",
+      "publisher": "Fortune",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.477,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSGF4OEY1X0UzYU9DUUZsQlcxOXNpLWFQMFBTZWR0MmdRUGZaWG5jbHRCUFROWFNTZXJIR2p4aHNxendjck0zcDRqYU1LOFJKZldxdGtKNXhfMHZ2TUxPeVNScG1Gank1U2hkUDVvMWd5OU9EZGVuYjlGcGlfRkg4NnBlS0xkVnlCV2tBMDc3S2M3WmhaY1ZKa1hZTUxnMEdNa0E?oc=5",
+      "title": "Supermicro Appoints Mark Long as Chief Financial Officer",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iTFNveEw2ZW1SNms2WWdEZmRDUWFxQ1ozb3ZESHRITUNBdnNnRmJTeWZoOXNpS2dhaVBlMWpTZTlGQ3B4V2NmcXFGNUpRUzZxS04yOXRPTEx1U2hBVmNFQXdHMEw?oc=5",
+      "title": "Supermicro (SMCI) Stock Price Prediction for 2026, 2030-2040",
+      "snippet": "Traders Union, 2026-10-14T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXZGWlFhTFNtUHFFdE15MmlsSjJ3N3BaVE1TVWVCeGVnQTRtUjliTlY3RFBpU3FlaU1EWmVlNlhpWXZzRTN6czVxa3FjLTh2Q3E4TWFBM3M0Z3FnMWdrOHItLXpRWWVBQUd4dWI4eUtoMFBuMFJ0VWhEb21kUFhhcDRsZ0hLdkFudHhkMENwZ05Ld1lDY2MxeEtZQWNwNFVTT3FjVnJuQXphdw?oc=5",
+      "title": "Supermicro Expands Integrated Open Compute Project Portfolio to Accelerate Rack-Scale AI Data Center Deployments",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000024/smci-20261014.htm",
+      "title": "SEC 8-K filed 2026-10-15",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SMCI/history",
+      "title": "SMCI daily price history (Yahoo Finance)",
+      "snippet": "close 31.63 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

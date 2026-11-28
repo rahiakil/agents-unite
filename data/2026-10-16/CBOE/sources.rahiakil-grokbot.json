@@ -1,0 +1,61 @@
+{
+  "ticker": "CBOE",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cboe Global Markets\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT3ZZOUdvR2t3NUxjVHZFTTc2R2pNMFJ1ODJqaEZFaWs2VmwzTmEyRUlCSUpDbnlfeGVySzRiUksyNzRmei10X2V5OVBST2JGb2ItNlZvbjlCQTRzSjA1LVN2dHctZDIxX09Pc0JhWVMzeWxtVm5SUFJ5RzQ2YUFueWNCdFlqMjgtM1ZRRzJWR2xyUnV6M0JaYmp1VQ?oc=5",
+      "title": "What You Need To Know Ahead of Cboe Global Markets' Earnings Release",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdmRqSGdXMVhkMmw3cVVkREpHTWxIanBJN2Y4REhST3ZqckJBRzh0OEoyMkdGZ28tWGRVRUNYNVliWU1aVWJJTTlIZWVnZXQ0ZzBnZ1hudzhtaUllVXR0SzZ5Ym1JQ2IxTmV2UVJDckFkeTJPczgyWVYxbXNkZk5IblJvZVZZcWVxaE5BdHRfNGNKNTNxQ2xmWUJya3RJV1ZaSHF6bTl5Y3VBWFJ1UFlmbmZad1piY3Rwd2xsV0t6ZmtsbnN2TW9TN2VhVjFnQ3VMajl4eHp6VWE5dWxpU29yeW83WlAzUVpFS2NN?oc=5",
+      "title": "Goldman Sachs Sticks to Their Hold Rating for Cboe Global Markets (CBOE)",
+      "snippet": "The Globe and Mail, 2026-10-15T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBOE/history",
+      "title": "CBOE daily price history (Yahoo Finance)",
+      "snippet": "close 314.98 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

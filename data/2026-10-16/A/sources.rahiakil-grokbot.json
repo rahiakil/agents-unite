@@ -1,0 +1,109 @@
+{
+  "ticker": "A",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Agilent\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRlNveTFTQ1RDZnRXWFlDVkt5OVZWeEp0b1NHV1ZEcmotbFd0LXRNOHdaMkJ0MVJUX2F1NTNxeDdwblZlY3Q5b0o5OW5QVlBwaTA3dnZ4aGVIekc5N2lRSU5RZGJ1STVLOG1aMmRaeUlLMWZKc09UUEdzZVc2S1VFQ1AxeWFRblRt?oc=5",
+      "title": "Agilent acquires Proscia in deal worth up to $270m",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzBpLVQ0NFk3c2VOSVhqa01QaXh3MWtJTlNGSDhpa1lLa0RMdTQ0SzBzQlRQQWM3T1FqRGpHRXo4cldUcEFldTJQSTVNRDRHTmcwek5sOGZsS1VySDBEV09JTUdFckZvSVlRUG1hREdUd2YtVTNRTmh5V3hjWjR5ck45Y1Y5d3U4bGVuZ25jeDI?oc=5",
+      "title": "Aiforia's partner Proscia acquired by Agilent",
+      "snippet": "Inderes, 2026-10-13T07:00:00+00:00",
+      "publisher": "Inderes",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVEdpa3EzSGg1SG8xYmFPM0g2S2FHTjVDVjNLdERYWG05OW9fUHFWWm9pcDhGWEUxSnN6NzFjWHI0MUxjX0NrYmI1SGx5OTMxZDNRRTJIazRVTmVISGlzVENGM0VJMGhDUlBwdVctNkpaRmotLUpMY19DTkl6N1psQnFUMWJEQVZNS2E1YTNyVTlsZTBzazJVSmhKZEQtRnhCU3MyWGVlalRoUDRjQURlV1dR?oc=5",
+      "title": "Agilent to buy pathology software maker Proscia for $240 million",
+      "snippet": "Reuters, 2026-10-13T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMUU5TmNBalpnQVFyeks5LWVMRVM2TThfSkJvVFY1bEpRM1UxOHdwOFU0S1QzMHJRWFU4aG1fSVE2am5sNlhlV2IyTkRMMFczdWNDa0kyX1ZieHhTbGtCY0RLbkxCR1VWOGxfVXBwbWZ5ZEJWUGxXb00tc09ubVRsaUxRR0FXTThpeHZaUkln?oc=5",
+      "title": "Agilent to buy Proscia for $240M",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVXVGRzlPTzNDNXpBMmZvSVd1Z3dZaEU2VTdBaGZzV0EyaXFkc1NRWHIyMy1hUnFzLVNhUl8yTHY4SXNuMkJCUzFWWnl0ZjIzNDlUcUlXekpwU1lTU29WMXd1OUJwS182ZTBVaUpuZHhfSWVmYWw4eUZYNUdVMGc0Ty0zVTdyQ0xTR0xIUzNYZlhjeE9hOEZEMldISHJvYWhKN09MWHZJM1VLVlQyNkhPbW9BMEprOFhxWmZrbXBVOXBvSGFMLXZFbVo5U3pQUTRhOXQ1ejQ1ZWRkZTI4VGZaNGV2WHc?oc=5",
+      "title": "Agilent to Acquire Proscia, Advancing AI-Enabled Digital Pathology and Scientific Intelligence",
+      "snippet": "Business Wire, 2026-10-13T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdFotX0hnNWltZDhjTTExUlZ2SWp5aktlTUM4VlljMjFyd01NVmYwRDBaODdYa1RyYTBKNDF2ZElCV2RFaTY4ODFRZS1aTXZCel9ISlV3b0FsUFlDOXU5bE85bjAwdjhSNjY4OTlpb1JtTHk3NmRjMzFwb3hDb0p6YkExcEdqNFRjWU8ycWtsQmVPbWxKV3NNeTZvdDFXMzVCdjlmdDNJWFF5T2M?oc=5",
+      "title": "Agilent to Acquire Digital Pathology Firm Proscia for up to $270M",
+      "snippet": "GenomeWeb, 2026-10-13T07:00:00+00:00",
+      "publisher": "GenomeWeb",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/A/history",
+      "title": "A daily price history (Yahoo Finance)",
+      "snippet": "close 172.97 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

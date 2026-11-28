@@ -1,0 +1,61 @@
+{
+  "ticker": "EL",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Estee Lauder\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX3dkclVtMFJiWnIxWXpYaXpoYXNhNUJib1I1R2FNdHBoc2NyWDkzQnI4aTNGSWtGTzRFQlctREdxWWFYb0IzWGFSUmlRX21zaHhWd0xKMm5Demt6akVOVTFhTktZMmhCVXA4WEhudV95MGw1em9Iekt2N1JYaWNHMGFra3Q2SXQ5MzRNZ0x1bUpSb0pqM1R5N25qSnJvTWk3UG9sZGRUXzJ0SXRPUU0telhNV3E1MkpuM0pQSWtrd200aWlSRVJjRWJjal9YZw?oc=5",
+      "title": "Estee Lauder Cos. Cl A stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-15T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdGl4czhJbW9zMUhySkJONmo4UE85YmhZaEZwcWZVWFNKSV84Q1FVNnJnRkxROFB4VGt1MGxfRUlDQTJrclY4S19LWW9wUzlTdUpvQVhrRlI1SWNGdEdKdDlYcldaNkxfQkduMUdjSm5UcGVad3doOXd3eHR2V0laZk1wS2dvdENWazFTRHVLVU1MQTduM2R1cWJmay0?oc=5",
+      "title": "The Est\u00e9e Lauder Companies Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EL/history",
+      "title": "EL daily price history (Yahoo Finance)",
+      "snippet": "close 104.54 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

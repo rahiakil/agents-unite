@@ -1,0 +1,85 @@
+{
+  "ticker": "STLD",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steel Dynamics\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ2swNTZkS3hiSXdrbV80RmpCQ1lOY0V2WVgxekZ2U3Z3ODNXeHNXSjlRTUtZd2hxZjdaV2YzdzBBbnFwTXVYQVJMT1RpUTlNZTVyZ2c3RkNKN29GaXVlQU0tV3E1ZDBwUk9sYVpOR0FHcmlSM1MzQlZfRlBHQ2tnb0xYOThzdzRLRnV4alVwenVQZ2ZPTFRCVDlBMUFZbFlHZ2lZ?oc=5",
+      "title": "Steel Dynamics (STLD) Has Investors Paying Closer Attention Today",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPM3BKY1N0N01nQUliQ3Jha1BiaEh4bVdidVNlNG5LWDhoVFpNeW9HZngwOHoxVXdNZTFuek1UMFVWRkZ4VEMxZGRkTE9YdjFYV2tXVklCYnI4VkY5bVpvaW9vSFJ2TVRnSW80TDVBa3RabWV4Q3NOTWsxQUowYldLYU9Xb1V3SlB0ZjV3bFBWeGpNRzRKWjVuakxLakJUX3U4eGpfRmsweVM3TFFhZjR1RndOUmRPZlBnRTA0VGpybE5RbWI3VDZ3?oc=5",
+      "title": "Steel Dynamics (NASDAQ:STLD) Sets Up for Breakout With Strong Technical Ratings",
+      "snippet": "ChartMill, 2026-10-15T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTU0xZkdWTlF4ZWJqbjVXMm5SblIySnd1M1JOZTFuVHdocUhwVEZhcHN0aDBTcmF3bG9ER0RNRUlWN3FlY01nWkk4aFRSaDlldnI5Q1JrOXAzRXliOXRIa1NMV3JfVHJuWjFVVUVTSDJUV08zSTFwNjVJZ3ZWZE1LYTBSWlpHT1QwcnZuZ1dwR3YwdXNvVDdsVWJNT09tVEZiamx6eGNIZThpcnRKMEtabGplaVd3UmhycktVdTc2TQ?oc=5",
+      "title": "Cleveland-Cliffs Drops 4% as Tariff Doubt Returns; Nucor and Steel Dynamics Slip",
+      "snippet": "24/7 Wall St., 2026-10-15T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWnQ2bWlUWXN6X3BPNGI1WWdWeGdNcG9iR0ZlQTN3c1RJekhJRkhkWkdJc1RRaC10eG16NGhNOHJwQ0l0OEtQQ1llenNVMTBFVWI0N2FMd0U4UUl5ZnAyTl9kTGRXTEZaeTd3YnVoOTMzUVIxY2hlWEZzOS1VOXh2bmxmdGFXRlVVaEtFTmhHZGFkVEVxdWVpWkk0aXdXTFgzcDhRWTEzUDRjQzBEMkgwN1ZwUXQ3d29KUmh2R0Q2Vi1QTjBvbWhRVlFVMmg4SkXSAdQBQVVfeXFMT2R1b2VybF94cG1TdzAwdGJCbkhxckpabVh4LXlUaGFqOXMzdFpBUUxNWUZxREYtcW9Yak43MDhsYzFJUmlJcWZfdDJWNFpWWDZyYkJRMmQxeGRGcEdhNDZGOTRYUXBzYVhya1ZrMHplUHpiVl85VENOd0VPc28xSVRDbDhKQXdmLVBEalFLOFZVOFQ5QThTSFQ3eVZJV2ZoSWM4c1Q3Y2huQTlnZnpyU0M2blRkejloU0xuVDQ5bmNWSUNmMDBXempleVhzaWtRblpWd3k?oc=5",
+      "title": "Steel Dynamics (STLD) Stock Trades Below Fair Value On Cash Flow",
+      "snippet": "Simply Wall St, 2026-10-13T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STLD/history",
+      "title": "STLD daily price history (Yahoo Finance)",
+      "snippet": "close 240.54 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

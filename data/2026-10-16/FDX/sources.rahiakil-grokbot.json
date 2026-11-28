@@ -1,0 +1,97 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 14,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaVo5R3VMWVZJQ2c5aXFoX0JXOXk3ZW55NWFDQ01JS0I5QzBseE44VktkY2JRSzEtOE5oUkZnNG4tVU4tZFo1TnpJOWZxcXJjRXV6cXpyNDdtOVhobEE1N2lUT241U0NOaFVWVDZaLTZGdWtWdmF6bHRNeXZsQ3JicEpjOVpHV0xQTEp1ekRFYW42NGw4SEhHVDJTbnYxYXFZTGZv?oc=5",
+      "title": "FedEx digitizes booking process for European cold-chain pharma shipments",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QUhQbHpNcVlCR3B1cHFUVVB6b2ZQbW9kbXJmRmNjdnEtWll0a1lsZGFvUzRmS0dkNTZ4NERjYXBHZTVGS0VzdlpYUzk3c3FvYkFKcGJRZkxZMTVZLWJQWUt0eldSX1YwMVE?oc=5",
+      "title": "FedEx One Rate Explained: 2026 Box Sizes and Pricing",
+      "snippet": "ClickPost, 2026-10-15T07:00:00+00:00",
+      "publisher": "ClickPost",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2xpbURTUnhhVl9naDFSMWh6TVV1cTZxTFhVbU1zS1o4cGdoUWVnYS1WMElJMndLdlR3UThNRThObEZUWUxNMm9wRUwwajFaX2ktRllkNkJhQm1FR080UDFXVmFYN1BnLTVjRnZON1VITHp4c05uRmc0UlFhSFkxekVkeE4yQWRUR3ZqUExfZldObGFMZnRLbl9XQTB3YllUdWctWHhGNzRMa2FEazhzM3ZzMA?oc=5",
+      "title": "FDX Q1 2026 Earnings: EPS Beats Estimates by 5.52% as Shares Edge Higher - Earnings Call Transcript",
+      "snippet": "DARS Website, 2026-10-15T07:00:00+00:00",
+      "publisher": "DARS Website",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZ2N3WUJpX1JKaHExaFZHMlQ0SUk2c2lXWG1NOGVkZWtBQ3N0OEtVYnpBM0F5Tlp4OEszMTFPbTZyMzE2TWJjd3kwY05zYzhwb3lfbEN1MHZWYVFiNnFMOS1ab3A3aXJ4LUNTbkV5MVAyeDgxbW8zZjNSb21US2RmeG5CWUYyc0xSbzQwRWdWMnp6YTZTQWE2elR6U1JXTzlXTU5QQUxJNWdrby11V1E2a3plT2NrNE0zSkV1ZW5JY2wyN2JlQ0JHaURUN3U5bnU5ZkxqSw?oc=5",
+      "title": "Top transportation stocks: UPS, FedEx, and Delta compared by value and momentum",
+      "snippet": "Investing.com, 2026-10-14T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV19GWlFndGZWQ2tSVWh6a0VwcGxyTGIzQy1aMzdqTnJ4M0FEUEVkNGI3eGVqNXhNMFFuUDl4WUlkNjJ5dTA3eS1YVFk2UHJ2T2VDcjRSTVktSVZINjhlXzh3M2ZQakF4cEdhRG5hMmhGT18tMEJ4OE5OOGw0MFEtSm5xbVlFSUFkZXFUb3Q2UWdzN3VZc05rTVlNaWtMMHZJcUo0?oc=5",
+      "title": "FedEx makes record-setting electric vehicle investment",
+      "snippet": "Environment America, 2026-10-13T07:00:00+00:00",
+      "publisher": "Environment America",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 293.55 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

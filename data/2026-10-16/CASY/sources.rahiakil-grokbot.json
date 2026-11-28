@@ -1,0 +1,97 @@
+{
+  "ticker": "CASY",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcWZVYUROcEladEFOMTZxTUxNT0F2UlJIaU9pVlRxa3JwRllwVG0tNUtCUk1QRkxHWXFrNDdoOUxrOThPZ1VGb2ZDTnFRQVBEdUZZWWxidVlnTGg2elFxR0tBTkxoSFhFT0p5OHVVWEFDTGU4Q3F3TFhiaUI2MjAtemptQVRsOEVMVXpOT1kyWnBaR1M5SFNxZm00cGM?oc=5",
+      "title": "Casey's General Stores Shares Rise After RBC Upgrade",
+      "snippet": "Moomoo, 2026-10-16T02:31:31+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-16T02:31:31+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUhoVkF0RUxTTWszcXoxTkxTbmJJUXNEWUpfeUtxTkJRR3BkN214SHlrdUR3S2E0NkdoSlJZRXhqMTNWLUxhMVBJZHV1dGkydWhPalNhZm5mVHFmd2JxNnpGdWNZc2tEanRIa2o0ZURzRlhBMkdRcFQwVHBpcWdOcVoxTXVpd010bVZZbFRWMG1Gbm40YXlISjdCT3NTM3pHdGkza05wbw?oc=5",
+      "title": "Casey\u2019s General Stores Stock (CASY) Jumps on Upgrade from RBC Capital Markets",
+      "snippet": "TipRanks, 2026-10-15T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2RFRFJJeXg1WmZtWERpLUl5c195WXR5RFc4STgwSU1sbjZiazRKR0IzRkZPcmo3WmNDdWwwRHowejlKek1oS3ZvcU1HZUNKRHhSZmNIdlZLdFE5ZXIxMlI5YnN4VlZhQ3l4RFZBU19CRTNpTlRWamdWNVFmRDYxUXphTGRod0lmMDhlSTlmTldwaGgtbEdhNTBQUnpXR0RQ?oc=5",
+      "title": "Casey's General Stores trades higher after RBC Capital upgrade (CASY:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-15T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUlRVTFZ4UUxTMVN5NGpWOEdYQmIzalFtejAzNlE0cDduSnExd2w0VU5VcjdQc2ZKbXpQcUVvdlJ4Y2Q0Uko3RjhZNDdxNjNmS1loLVVleTFlNi1lNVdBZlRHdUdKSEtVNmo3ekZFQVdldmFETHFVTmc1dlNHNFk4SFJ6OGphb01uSXBuRnlvcVFiRFZDY3g5RGZoeVpwZUxib1g0S3BvTW9iNERWcnhhZWtYdXkwRHdmalJzY2pHZUUtVTQ?oc=5",
+      "title": "Casey's General Stores trades higher after RBC Capital upgrade",
+      "snippet": "TradingView, 2026-10-15T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPM2czWW9GaUdZNEYySWtRaUdVVldDVVFTR0dNYk9jb3ZUZlhmcW5hRXN6Wl9sakh0RGRtd3cyNUxJZS1fQWhDR29XWTh3UkpsaHFPTnFOZFFRaWhYN2pXVlVsdnBGSDdmbmx3QThjN2NiMDFXWjNxTmVXV0pBNy16OE9jNUo1dl9ETWNHZGYzMmV4bVNCSzBWNExOeWVrb1N1ZG9V?oc=5",
+      "title": "Zacks.com featured highlights include Micron Technology, Casey's General Stores, Ganesco, Plains Group and Vince",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 689.22 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

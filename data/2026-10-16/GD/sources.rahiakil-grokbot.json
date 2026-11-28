@@ -1,0 +1,49 @@
+{
+  "ticker": "GD",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Dynamics\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmtoeGNVWWtWcF91UmJFMndqVm9pNTA3b1o5UlI3eXIxMGpuZF84eFhFbmRYd080dTlfN0F6Z3lDU2ZEV1FUMXRQT1d5NWp5MVp6dVUyTXNaT1VEaVR2dWhaX0ZBdzd2YkFaQzhLdzNMNmpWbG8xTC1JQl9RanZIeWxyeE0wMmp6ZDZrVEFDaGVKcVh5Qml0VW8zVEdfaHo1dkcwdzlTNzFoUDRhYzJfZjdGQ0tpVTg?oc=5",
+      "title": "General Dynamics Land Systems shares new details on Wolf XM30 infantry fighting vehicle",
+      "snippet": "Defence Industry Europe, 2026-10-13T07:00:00+00:00",
+      "publisher": "Defence Industry Europe",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GD/history",
+      "title": "GD daily price history (Yahoo Finance)",
+      "snippet": "close 344.23 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

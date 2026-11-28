@@ -1,0 +1,49 @@
+{
+  "ticker": "DVA",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWnVMZXNFeEs2VENGdFNsdjVGRlNjR0NkWkkzZG5NWnNhSnc1TmZudVRJWlREd1dZbHdMN1QxSVgycEUxbF9HMzZrTUl3alYtTFVRWHBZYkU2d3JaZVFjVXJuVXZpZlQ3ZnVmTDZ0clFWcTVkeDBScWFSTDBUZEtuNE14U2VvS0VTRTNzUFJfOFQ?oc=5",
+      "title": "DaVita Inc. (DVA) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-14T23:53:56+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T23:53:56+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 187.31 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

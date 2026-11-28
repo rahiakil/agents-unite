@@ -1,0 +1,85 @@
+{
+  "ticker": "SYY",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQk1peU9tRkZfYksyNzRSV0hiRU54Uy0xSUR2VEpPTGpKY2FPRGNPakMwWTJSaFVDSzFEaGx1SUIzOHcwdGZxZU1UTl9VekxWSzRQMEJjMUpMU2ZuTDhmY3ZxYWh6RmlGWi1LYmZEOFB5VGtoRUV6N1I4bHJZa2RrQVN3a2RLd3lCeHpQTUtkWjNqMkRIVHVSRVQ2aENxQ3hWZjEtYUhoSnd5N05yVWc1cjJPT3VHYm91ZFE?oc=5",
+      "title": "A food distributor reached a deal to end its Los Angeles strike. Sysco says wages weren't at issue.",
+      "snippet": "Stock Titan, 2026-10-15T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNkJ5b3JFS2pxdVFkTmxEbk1SS2JmbldJbEM3Tl9FcTRyckhUTElQVU5iSmlVR080QV9Dc2lRa2U0TlpWYTdNMk1JMGtxQnllSFByaTBhXzNxdXNkb1RpSVMzNlhIel9hTXFVYTlfRl9oRloza3ZUbi1YaVFQb2pNUEZsYWFxcUtaQUpSSU9wNWhKdkxXNDRlSF8xMkpYSXVRbFE4U05Wak9HUU1Cc0llMTY0dkc0elRuMEhwRUhGcVEtMHZpaUZ1NmVSQmdWQ3pLR3JXVzE2cmhRQnREczhJVzdUaWNOdWRhM1JJ?oc=5",
+      "title": "Sysco To Announce First Quarter Fiscal Year 2027 Financial Results on November 3",
+      "snippet": "GlobeNewswire, 2026-10-13T07:00:00+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMnhsMFhPWmxxelcxU2lpdmp4ZllWbXctWG9mSlhPUl9nZDJkaWVESlpQd0lMa1dHRWhlMUZ2S3Nhd1pEcE95UlhWYjNFem11dnpSTDBFTkpBdXkxQW16aWNMMldGZ241cmhPeC1TamxwTWVEZjdpTDRsNlZjUGVFc2hkVzlBOWo4d1pTdUM2T1Y2TkNnbTlwTUJXSE5WSFp3ZEZkMERHZXJTdTQ4eDQyVmtIc01HcjFXMzRFRTEtbWhfU2JvOHpHcVlGa9IB0AFBVV95cUxQcWptbENzTFJWWGZaci1FbFBmQWpnZ1NBWW9lODVGeUdOMUtrc2xNQS04SGZCeFhRTVRObVFXLS0tZWkzTVEtQmh3TUx3alpmOS1yd2lxeXV5anRLYWlwZmRyYXFpZVNyWVRNN1lrbWpoR2tCeUZ0NTRvTVhjUEpWY1pndHd4a0g3VVlCeUl3M19XX21pREhVb25TWEJGWV9VSXZoMkNvVHlfM0daWThJNl9LYmtFOUZvcHR0RXFSMTk3VkdqYUlCV01RQlhVZW1j?oc=5",
+      "title": "Sysco (SYY) Los Angeles Strike Drags On With Food Deliveries At Risk",
+      "snippet": "Simply Wall St, 2026-10-13T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObk9KQzJIZmFKMnBVLVJwc2pkdHJQbU9TMlo0ZkNKQVlkWW9lOXdXU0hUMlhGYzJ3RVdNN1ZaSEJzdllXa2xwN0h1cE5kbk5aN2VKaWw0T3hMZzRncWJsQVJ3dHJDTWJqQVpkUlJVNjk4RnB5TWViVkM5WlRSUXcwY19hZ2xpaXRhbnhsZmlvREsxY0RZYmtyYWxGQQ?oc=5",
+      "title": "3 Reasons Why Growth Investors Shouldn't Overlook Sysco (SYY)",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 82.22 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

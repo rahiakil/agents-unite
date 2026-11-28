@@ -1,0 +1,115 @@
+{
+  "ticker": "CPRT",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Copart\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPblFlZVhYcmg0OG9OS203WldhWkszdC1uRjBlQnBkTEJ0eXRGWjkwS1dVSnBXaktoc2RnU00wR3RXQ3k0OFYzMGxtV3F4SGxEa1VWcFRUTDR5SzNYcEdRNDRBYm9OTHJScUhPd1VoTk1LNGRhZ1JVQzZFSTNQdmEwMGItUmlyS3JJUkpnNUtodER4YzFPb3FrM21WTXozZGVKb0hfVGNvamFuQ3Jzc0huYkJqbEY5dWg5dHhQS0lvbw?oc=5",
+      "title": "Copart Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-15T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSDdiRGNPbVk4azNtOVZrNlBBa0lnVGY2QUZ0THZOdzdoQXhxQXc2WFhZNjF6NklyZnJNSl8xTTV3R3dJZjdidzlXMHVuV18zMW5DZ2g0SU5jQlJLVVA0eG04TGF4NXA4b3BqekVoU214LWlWa2dyc0xOVG1oNk5WekphUUlnSWxBVnBpOTl1b19ZVGtlMS12MUh5YnJ4YjBQSkJaOG5GSi05dGlLUzRqZkJLUlNHWUxvMFRUdGt0N1VLbGxCOTdsQmlreTQ2MjQ0eWfSAdcBQVVfeXFMTTlBTHY1anZDamUyNjMyS0U5QWx0WmpFakloNjIzNmVGbnJyaGtLanJEajFMbmdTdlR2RkdPVzU3NzVPdlpqOUpDaklMa1ZoMXY5eFBpRkNyamI1cjhJR3JNa0NoU0VydDlnanNxODE0aXo0VXM1b0xZUHV5dVowUGJtWkUzWnFuMjNKd2hTdnJ2V09LelNyMjktRzQwdThxdURDSTBVTWptWXdCZF9xS05uaV9mS3NDOXBRRUlmUU5FY0Q3QVdaSEZaN1JzUnkwWDdUSjhXUUk?oc=5",
+      "title": "Copart (CPRT) Stock May Be 43% Undervalued Despite Tender Offer Extension",
+      "snippet": "Simply Wall St, 2026-10-15T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVlJjYldybGZEMGVPSkFaMlI5MWxPWlFwbXVMYVRoNWhjaTNlal8wcnh1MUQ4dEhRelJrZUFaVGowX2Y0Rm44eXVJb0ZtQ2lzMndOS05GWmtXT09VLWNzZENGcDFneEVlSUdsTldEY2kzZ3N2Mk9Sc2hrZnZoeS1SckJwY1prUVR4Sm9UMWN1bHZaZWFGNUYzMjBR?oc=5",
+      "title": "Copart (CPRT) Stock Could Trade At A 43% Discount Following Tender Offer Extension",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS1NRTE1HeW04QmJoY1c0NFJ4dEJobTJtUFUxTVN2a2xOU3o0TDVJdjlONmFNVGh1ZTFGVGZzaUJfX0t6ajRlT2pQZHpaTHNjdlBUeUhQSlVmRlFEbWtEcE5ySVZuYVFGekYyb2d2RG00ZjhnT3JxUU5uMnZkR0ZtSW04LVFSSjhVSWtwSXViLUEtZW9YbHRN?oc=5",
+      "title": "Copart (CPRT) Clears A Key Deal Hurdle, Is It Still A Bargain?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcktzbXFhVzFNQ0VMNFVLRTJWV0h5WU1KRGd0amFidnZMS0p3d2hILVB2SlllbDhZQXp6UXpnWHBWQlZCSmR3anVDUk5OSFE0N0RkbnlYdnBPbGVQM2tLdXBKWnZCZldwYTJ3NDNwS2JYQzBMQUFXTUQ4QTUtNWFRR1pTOVgzRnZVUkM4SnNCVEpvcWVUVHVGTVUxQ3QzWVI0TDkzZzZ2MUkyV2lrMDRXU3o1N2lDM3FURzZGV2VXclpCTkN3bHFuLQ?oc=5",
+      "title": "Copart Clears U.S. Antitrust Waiting Period for $10.50-Per-Share Acquisition of ACV Auctions",
+      "snippet": "citybiz, 2026-10-14T07:00:00+00:00",
+      "publisher": "citybiz",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526424052/d177727d8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/900075/000119312526423478/d129535d8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 2.01,7.01,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPRT/history",
+      "title": "CPRT daily price history (Yahoo Finance)",
+      "snippet": "close 27.87 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "PHM",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PulteGroup\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSEJNR0FNRmlrRUJ6NWVrSkxSd2I1RHdINlNITUllSTlvVU8tdUVZdThCN2ktRUFGbGFCODhpai0zVXJRakplWEhHOWlCcW94RDhvZUhKcnRXdnBheHZUY0VCcDJXRVJxVUNUN09WZDNPV1RONkFCb2Z5X2Q1SEQ1bzEyUnV2Mk9VaGVNVUFZaGxoLW1PV1g0ZA?oc=5",
+      "title": "PulteGroup (PHM): Buy, Sell, or Hold Post Q2 Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZGVTZEpPLWVSQ3RhQ096eUdKanJTbWwyM0JVLUotS2RFM0JhYjItX3dTbEtfMVdtcUNPcUROOUxBZkhOb1U5Z2dEUjR2WGljZTNmdHl3NU1neVkyRG05b1hCSVl5ajh4Yk10cGNQX29ieGx2dnViWmNJWkVLNldmTnRkX1dIeFA4ZHlLa3RtazhXTVdmMWI3bXdwcC1GSlJU?oc=5",
+      "title": "Earnings Preview: PulteGroup (PHM) Q3 Earnings Expected to Decline",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZnBzaDM5alZ2YWtFcHZ2dl94S3F1MzZ6MEVZRGZvQnNVNVFnM3AxcGxfeVc3dHZidHBCYXBvc1ZnVDdqMWJ5dW1LdlZWTmM1MHlVeUtQTTR6Yy1EMUpzeVdnZHlYaVpWS3QtcFRLZ3hRbWNiY2Q5VTdXeTFaRzJETnJiVnhtTDR5LU96V01Rd09hSlFwNVVydTFWSFdtd2ppUzVv?oc=5",
+      "title": "PulteGroup (PHM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.272,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PHM/history",
+      "title": "PHM daily price history (Yahoo Finance)",
+      "snippet": "close 113.55 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

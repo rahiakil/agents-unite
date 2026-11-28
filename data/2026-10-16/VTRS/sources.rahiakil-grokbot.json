@@ -1,0 +1,49 @@
+{
+  "ticker": "VTRS",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Viatris\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNF9GZWZGTm9lc3NUU2lIYVZiNXkyT0FwNDFQUDNRR05yMEpNSWRkSUxSVG5CclNscmY0UVJybmdQQXdURnBpMXdRR1JDeVJHSlBBeUppd2NTQW83M2pBX0kzdzRmdHhneHBORmRPZHQ3ck9DYUVJZ3RtbW1hZ0pNTDdHNWFVTjNZWGNmUVM0VHc?oc=5",
+      "title": "SA analyst upgrades/downgrades: META, VTRS, MRVL, COKE (META:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-13T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTRS/history",
+      "title": "VTRS daily price history (Yahoo Finance)",
+      "snippet": "close 18.66 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "ticker": "XOM",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Exxon\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjlGQ3hjdDlwbGFHLTJCLWFFYTV2MnlxbU9IZWoxVG9xQTdkSGlDZHNLWEk3SHhUR2tvdDNoMktvS2hETWZ6Um5lenVSR01oZmlITlZqX1NWY3l2dXVpcmNvc1ZWQjFGU1VmS0o2ZFExZzVVVmpCRm5mQXpwdHZ4QkkwR0sxWVduQ3pQVHZxUkZDTUhNeWRkZjBMLUhDQWk4REE?oc=5",
+      "title": "What to Expect From Exxon Mobil\u2019s Q3 2026 Earnings Report",
+      "snippet": "Barchart.com, 2026-10-15T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSnMtNTRwY2g3WE9wMFdVbVBRQmFUMkp5MlhfOWtsamVzRHhlaFc4RUlqR2ZBYVlVckd6cnZmblE1Vmd3RXBtdTVSUVNFMDNIUGNzblVQNnhCZnNmZEw2NXRhclJ1bFFCcVZ0Q0ptWTJPbU1rOVpZckxoelR6VFBydS1zQ2cyY1pOcGZiUTNkZlN1ZVhZMjdEbVJYVGhlLXd6bTNxeE9lMm8?oc=5",
+      "title": "Exxon\u2019s Dividend Stays Safe Even if Oil Crashes to $79 a Barrel",
+      "snippet": "24/7 Wall St., 2026-10-15T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQjZRRXNWMTdKQjlxUkM4NkZPVl9uZ0FXTk5PLUFhRE1ZeVY2ZE9KcHAwUHZZSldvMElHWmpabXdiaXlEblFXMlYtRWVCM1VaYU5QbFBuNHA4cVpUV1hwemcyMGxQV2NkaGFGS0sxbGNmNy1jZFhFZHdQVE54Wl9WWWFfNklIa3RLVHpwcUdvWQ?oc=5",
+      "title": "Exxon's Q3 Preview: New All-Time Highs Incoming (NYSE:XOM)",
+      "snippet": "Seeking Alpha, 2026-10-15T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQanE4NTlMMHBYWHBEc0pwblVyLUkxalF6WE5wbWcyVlBTMUNDRjlfR3pKRW9peXhJYzB3OTIwOUh3MDN1aHRrVzJ5Z2IyVVllZVkxQkdKY08wVVNSZERsczVRT3g4dWsyWldCbmU0QWF5Q09qYTQxZk9pSnYzS2pwb2taU25oc1NOUmxPNXJnRUw3dHpqMklF?oc=5",
+      "title": "Exxon Mobil Stock Hits 52-Week High: Is XOM Still a Buy?",
+      "snippet": "CryptoRank, 2026-10-15T07:00:00+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeEVaWmxhcnFJZFdDX0UtSE5SX3pQLXZhaGVLXzNpYXJMLVJxUmY4NWtqYmFkb0ZEb1FmRWtINTc4VW1aLTcwekdMMkRMNm9NNm9JUjdLWmNoV01EdFFmN0RqQlVfb2k2ckRqcWZlM2xTMVp5RVpFdl91TEFDR3g4ZXZmZC15aHZxZGtYc3J6dkZMcTFlNHlZTw?oc=5",
+      "title": "Exxon Wants to Repeat Its Guyana Success in Trinidad. Should You Buy the Stock Now or Wait for the First Well?",
+      "snippet": "The Motley Fool, 2026-10-14T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYy02XzBDdEhvbDNpZGdsQ3o1cTRzU3c4bkhmMml2TFlhaEJySzA5RllwQ0hka0pCRFhROGhad3p1QklSWlgxSFZEQUNTdVYyS0c1dkFWOW1LVlBmVE9rWEpOMTFHRTVrY0tocE1xajcwQndFX2FwMkltOVBIbzZudFBaazV1eDM0SG9MSG1hWm9tWGU4TENlbDh3?oc=5",
+      "title": "All You Need to Know About Exxon (XOM) Rating Upgrade to Buy",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOemdzdnlES0RndjVScUVuSEhjdWs2WnhBUHh3WVZrdzZ5anAwMFYwY041bVlWZnVBdGpscTFoRjFYV3lsdjhBOUVGY0ppTDF5bVdMN2hLOWtfQkF3aEdVTFJibjFOWHdMRFU0WDctNDVLNTZmVG9sekdzN05kTFNXOGdCMTIxano1amE1anZsOURGSVJK?oc=5",
+      "title": "ExxonMobil (XOM) Trades at a Premium Yet Earnings Are Expected to Shrink",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWotbjVaVEc0Ul80d0pkR1NKWk1PczlqZTdpaWdwaU00RkFhM2dvc0Z0SFp2dEZCMGN5VGNmblIwZUVBanJOTnF4TVRzYXFBWjZfSUl1aVBncXhKUnNVc1dCb0JBdmlfbDFHRnFBX2tkQm9Cb3B6UjhCR0NkZGNlR05oazF5NUl6elBsMDRn?oc=5",
+      "title": "Exxon Mobil stock weekly forecast: Support at $172.50 holds amid high volatility",
+      "snippet": "Traders Union, 2026-10-13T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/xom-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XOM/history",
+      "title": "XOM daily price history (Yahoo Finance)",
+      "snippet": "close 178.98 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

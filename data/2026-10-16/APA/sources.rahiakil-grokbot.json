@@ -1,0 +1,61 @@
+{
+  "ticker": "APA",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"APA\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmk1MXV4QlpVamZDWXp1LU9sMGxPS0pES2VHTUxlbjlidTY3R1VDNFhHU29yWkdkSFBqM05PVFhSS1NKUnVoV0ZQS1pteUsyM2NESzRFRk1XVkFmMWRaSTU0VFhBbTJtM2VVNWZGOVA0NEliQ0xQOU85ZnR2YkRqbHk1Z2M1a3FTSFY3bHBxZmRtTUNjaS1PaFVuSDA1U0hJa1lhQ1B0d3hmQzNOYlluM2JOZ3JsNlpkbTFGb9IBwgFBVV95cUxOMmE0Q1VSNzFPLXZyYTF5Q29lMERvRHlyY0VhR1M3a1dWaFFyal9sT000SEQxRzJKWC1nS2FTNXlDSjR6ZXlrU2xSTTRWT3NsZ0xzVWxWb0tqVHE3UzlvekxFckRzcFZtZGZ4dkNVVk8yLWNvMkpvUWpGWHQ2ZjJmbEZzQmRGVTNEQkYxcnd0Nm1KX29hZmJwcWZLRHJlSUtCRlBNRkc2Y05nU0xrVml5VWNmbkx3N2wyMnQ5WVFyYUstQQ?oc=5",
+      "title": "APA Group (ASX:APA), Why Is It Back In The Spotlight?",
+      "snippet": "Simply Wall St, 2026-10-15T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaDA3aHFfMFk3U1lDWWwwUWotcG93SWgteWx1YzlTMzlQUzhabUk5TENmb2QzM0F3ZldNTm9jcldKdm5MRXIwV1BodkRxQ3VFTl9IWlNxZUNzdW4wM0dPUXhCMy1lUlF1SVd4eFlScmpObEtZWVV5ZmZid1hsUWtzYUR5RU01VkdjNnpJcGNGSFpMc21Zb0xwNk00ZDc4azlLaHhIRm8wanlybHc5NjRDOEEzZ2hwTFJPY1pSbEJLcjU?oc=5",
+      "title": "APA Corp (NASDAQ:APA): An Undervalued Value Stock Backed by Strong Cash Flow",
+      "snippet": "ChartMill, 2026-10-14T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APA/history",
+      "title": "APA daily price history (Yahoo Finance)",
+      "snippet": "close 49.15 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "HII",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Huntington Ingalls Industries\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVHBCOFV4SFNKbW9kdDhJMWlRQTNmSER5d3ZSaXEwZThUSmJfbUdNNWtQZzJWXzNXVlRBTlRtU29helZxNkNLM0JPMzQ0dVRUcVRwRmpiZWlXZEZ6Q0VWeWxoU08wMFgwc2RFcEZGSVV1X2dxQ2hsanhXVnhlejhDNmg2N3o0bXN2TFhwcDExYWkzWkJUdGdjUWNxUVd4NmlPcVZ0Sml3OHZvbTl6TFFubF9YVlhZcWk2d1pMM0s3dGZmTnpQTUNRZ2tTVFBuR1dUMVp2VTRIUl81X0ZfZ0l6NnhrYmY?oc=5",
+      "title": "Huntington Ingalls Industries (HII) Wins $56 Million Navy Contract For AUKUS Support",
+      "snippet": "Simply Wall St, 2026-10-15T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HII/history",
+      "title": "HII daily price history (Yahoo Finance)",
+      "snippet": "close 272.0 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

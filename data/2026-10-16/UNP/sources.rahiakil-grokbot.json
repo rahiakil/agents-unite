@@ -1,0 +1,82 @@
+{
+  "ticker": "UNP",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Union Pacific\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeG5rSUVGRk0wUTJFcDFhd3NUTUNPb2R2Sl9jQkstUTNReW0yMkYtbHE2RWFVVENGVUpJcTFNcHNIU0xiR1huOS15dEp0MDhXRldvNEk0eTN2MXRfLTB6TlpXQ2NiZXE4Vk5jWWdwUUhDWGRKWFJNaUhwWkJLdTNaRkV6NEJNUEdFaXJ3aklIdjg1QWpkTnc?oc=5",
+      "title": "Union Pacific brush cutter sparked deadly Adams Fire, Utah finds",
+      "snippet": "Railway Supply, 2026-10-15T07:00:00+00:00",
+      "publisher": "Railway Supply",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORUZTT19QVm1YbXdUOEx5TWJoS3d2cTZlZ1JFSW9qX1FrNVdrMHNJRjNDeDQ4Yk9ZYmV6Q3ZCMDR5WHFScVRsOTljZzJxWHBOUDV6SGNPSG81ZkVCUE8tQnFBb1FaLXA1TG81c3ZEUjJwdXdVSHp4T0ZlQV9oY3RIZGJwQ0JoVkQzU0xNWjZuQmxkRHNPT3lncDJWeHh0TTRLQjlLc3BvX0JqLVZQSWhoZHc1TEVPLUVpWnhIak9paVZjaDVqbDY3ZHYyQzZ0UQ?oc=5",
+      "title": "Union Pacific Corporation Announces Third Quarter 2026 Earnings Release Date",
+      "snippet": "Business Wire, 2026-10-15T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObjdyR01nT29kRVJvODBPaVBpaWZWdTJ6ajJpZS1iWG92UDdha2s0SVRyblNSb2pLck5VakVvSGI1UDB4YzJZRWpmcXp5X1NaS1F4Y0NKcTFRUWZnRmJ3aEItVFdvZkVlN0Z5VWF2SzQySGZmSjhUQkNBUHZHY3ZOUHJPMjc0NV9sQ2JGcUVkV01RT0VIR1pKUVd5d042YUVjRkE?oc=5",
+      "title": "Is Union Pacific (UNP) Undervalued Ahead Of Earnings And The Norfolk Southern Deal?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000305/unp-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UNP/history",
+      "title": "UNP daily price history (Yahoo Finance)",
+      "snippet": "close 289.04 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

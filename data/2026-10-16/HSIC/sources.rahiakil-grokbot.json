@@ -1,0 +1,49 @@
+{
+  "ticker": "HSIC",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Henry Schein\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVGw4YkJDcXM4bC0wdE1jVHdnUEYtTEhGbHJHdDFNUHB1Y1RBckdid3JfZWNJRFBHcDF4REZnZ1ZTNXRGWE12aC04VG0yMm5yeThvSV9uVzh6cU03UWhNRDl2U3JhbXZiNy1CUlZ6TEVDYTBkeVJVdGx5LVdFM3M2RGNIUVJRcFM5T0VtUnNDVnpQMXQ3ZjZXRzJ1d2JmUU5uLTZYdmtyQ2ZvVlBWeFBPT296a3ZHaURiWno2WTQwN3hqb0xkbVNOdlVENkpOM1NsWnNJaGdId2V0RFo5QjVVQjNHVzNiVmo3MHc?oc=5",
+      "title": "Henry Schein Inc. stock underperforms Thursday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-15T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSIC/history",
+      "title": "HSIC daily price history (Yahoo Finance)",
+      "snippet": "close 86.38 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

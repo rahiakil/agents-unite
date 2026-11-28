@@ -1,0 +1,49 @@
+{
+  "ticker": "AJG",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Arthur J. Gallagher\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDlDeVA0NnFuM3FnYVZCSHVtMmg3QUtKZU5XLU43bEZnYWI4UGpzR0tlLXdLWWcwckJ1TkRpMUg3eHJFTXd4WHR6c0VSWTNQb24wa3hPWVlYSF9sZEh0ZGRBSWdXVXFleDB3SnM4M1k1T0pSMGtKOE91YlBDWEZkeDFRYVNURnFQNld6WFBLUUFCdWRXQ0pJ?oc=5",
+      "title": "Arthur J. Gallagher's Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AJG/history",
+      "title": "AJG daily price history (Yahoo Finance)",
+      "snippet": "close 254.88 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "LVS",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Las Vegas Sands\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMmdjb1hxR1UtTzFrTDBfZFRiSFNXQ280bGdQbFdxaGVsYlp2MzVfYWlLRHM1dnAydGIzaXU3VGlZelpxN3ROeDlmZ0E3YzhCUXFGc1dRTnE3SHZxX0RTSlZSUUw1NXpGRVlzX3Y5dzRaczU2S1VQTmJXbG0zZ0FDbVlJVE03ZEtIUFFJYU1uR1B0d0VqUVZUOGo1c1BMSEtZc1lfYjNZcGJYUTBR?oc=5",
+      "title": "National Hispanic Institute Celebrates 2026 Las Vegas Leadership Development Program Participants With Support From Sands Cares",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.856,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOc2hGZ29rNGVzX2w5UnFKSlFwTUdIYldWalZiQTBaNGtkZ2l4Z0RKNVJscmRaZjdtQVhqa2hXRlNxc1FLaDJTYmFRaXpienIzcl9PUjJ0QWJudzNFNTlIbi01NVpadFdPTHU3SDI1Q2hnc2ZRcERFbUlPaDFoY204TDB3OFhmaVhrMVpNMlhNb2lhdVJ5LTBsclpJdk5SZUpMQWVMVlViYnNwSzZiMENwcWNEbm5oMDJTT1FfM3BJemlsOHh0anlBaGdiX08yRFBUSGV1bDBFQ3hrTzA?oc=5",
+      "title": "'NBA Cares x Sands Cares Community Impact Week 2026' Attracts Over 2,900 Participants Across Five Days",
+      "snippet": "The Malaysian Reserve, 2026-10-15T07:00:00+00:00",
+      "publisher": "The Malaysian Reserve",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.827,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LVS/history",
+      "title": "LVS daily price history (Yahoo Finance)",
+      "snippet": "close 38.01 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

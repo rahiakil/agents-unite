@@ -1,0 +1,49 @@
+{
+  "ticker": "WSM",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Williams-Sonoma\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWkZKdlFJTTQ2S01mMG5pdzNNOGVCRTJwRUpOXzRFRVp4RTRxZWJxMTZEVHVmU0ZaMnF2eXJkMDVFNGI3c1JKUG5aTVdqeUQ2cDhRVExHZEpRYnc4QkdUekxJSEhJOTIyWFhwVFFxRVZjSmF5c1llQmRTRjVWd1pGZkRTajk2a3JaRGNBSmJSRjQteUdLOXI5UC1ER2c2eU5kZDM0?oc=5",
+      "title": "Is Williams-Sonoma\u2019s (WSM) Popsmith Rollout Quietly Redefining Its Margin and Digital Scale Story?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WSM/history",
+      "title": "WSM daily price history (Yahoo Finance)",
+      "snippet": "close 250.16 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

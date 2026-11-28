@@ -1,0 +1,85 @@
+{
+  "ticker": "HSY",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hershey\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUGpDd3hzbWVTRUJTYlFMWmZ5RERaamxzTFhvdWxRbVd1SnRFdUgyLVpTUWJSVUtZUDNlb002cFVRdy1uY3A1S3JPVGQ5c09uZFJpWWlVS0lhQkJTRjI1TW54TmVQRUdpSzJvNUpIQWE5TVl0elc4VjdweHF6bElmNnRVM0M4YU5EQWx3NU03d3FlSUgtWEEwLS1TZDR5S19QWDF0cllDUXVFSDkwdzV0QlAteThCeFRVci1SaV9jRlVUWlFNdmpoWVRiVW81dHRL0gHQAUFVX3lxTFBQakN3eHNtZVNFQlNiUUxaZnlERFpqbHNMWG91bFFtV3VKdEV1SDItWlNRYlJVS1lQM2VvTTZwVVF3LW5jcDVLck9UZDlzT25kUmlZaVVLSWFCQlNGMjVNbnhOZVBFR2lLMm81SkhBYTlNWXR6VzhWN3B4cXpsSWY2dFUzQzhhTkRBbHc1TTd3cWVJSC1YQTAtLVNkNHlLX1BYMXRyWUNRdUVIOTB3NXRCUC15OEJ4VFVyLVJpX2NGVVRaUU12amhZVGJVbzV0dEs?oc=5",
+      "title": "Hershey (HSY) Climbed, But What Is Drawing Fresh Attention?",
+      "snippet": "Simply Wall Street, 2026-10-16T10:35:50+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-16T10:35:50+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.45,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa1FuVkpVeVRHdDJHTzVWM0l3eVlPaHJ4aFo5cW5pQ09zbEE4MFpTRldLcFpQRHRGeTVQeXFvQjczTTRHVHFaY0xSbWg0YmtialNzbGMtQ2pGY3k3Z0tKa0Q3ZEgxRjdIYThZb1hHeklVZ2E0NVhhMG1VMm5aY2ZIdXdLOXBQdTNyS0pINDZYUmc5cjI4VzBwMUhSdw?oc=5",
+      "title": "Hershey (HSY) Beats Stock Market Upswing: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc0lwMHo4SEY0NFd6VXFpQlZjNy12YldiSkZCdlZOTm4ySWp4MWItSG5YdG9YRGQwRlM4WGRiT0ZQbkVxRkwydms3Rjg5VUhkRkQzR3lDSlR6bFlHekc3U19RM05aRWRrN21iYnJaMm9QYmhDMGhCU0dicm1qdVZ0RENFUEtYRUxlMldlSnAxRHcwUkoyQnRyR1c1RDF3Q2NQN0l5bDBVN2xaUHhRTWJBbUs1dFJlN1JQSVl0a1NvYkp0WTg1NzJn?oc=5",
+      "title": "Hershey's Dip Buying Opportunity Is Here - Demand/Margin Risks Entering H2'26 (Rating Upgrade)",
+      "snippet": "Seeking Alpha, 2026-10-14T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQME10X0JQWlFwRUt5QU1hT00taG9JZWt0SkRHb1hfT2U4YVBWMFFwWnhPOVdXZUdWd2xUenA0RGZSY3l5ZjdmeElmRWo4LWRIdkxmNEowQVJyLXhZVHhQV0trUHFxNnhJcG4xVU5XNk9aUWs2b1JwUWRXZWFBTDREWFBYWTNYN05uMTZfRFItcTRJSDhGeENTMDI1QnQ?oc=5",
+      "title": "Hershey\u2019s Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSY/history",
+      "title": "HSY daily price history (Yahoo Finance)",
+      "snippet": "close 170.83 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

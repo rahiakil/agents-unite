@@ -1,0 +1,97 @@
+{
+  "ticker": "CBRE",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CBRE\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXBxRGdaVk1nYU5IWU5ac3drYUpMQ3JWRjFHNWdWQjRIZDNSYUp4QTl2VF9oczBUZU5qMVk1Rnc1VmFLYkQ2cVBwaWw2aVItRUZwMzd5cFhYanR2MmRFZWpEeF92ZlpfTzVyaE1CVlRWYnZnSllhV0dqY1lPYUlCUDBwM2N4cHhrQW5MeGZDVFIyaFVBNWM1b0xVTWxvX3hubExNMWxR?oc=5",
+      "title": "Toronto\u2019s Big Office Blocks Dwindle As CBRE Details Wealthsimple Deal",
+      "snippet": "Connect CRE Canada, 2026-10-15T07:00:00+00:00",
+      "publisher": "Connect CRE Canada",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaU1UUXlYTU12WHFoT3JTeHRycDN3ZktBdGxXVjdEa1dMd3NlcWZYdkJySjVPZ3RNOU5iMmgxX0Q3M2ZVNmpTUGlRR1JJRF84a3hZUEJ6OVp2WWFpT2V4aXUwdFpsOExUMjdXYzViRldtdHFsNDhLdmtRU2otWUozRmZUdDB4TF9RS3RKS3VOQlhrWTlQWlc0T3V3ZUE?oc=5",
+      "title": "Cushman raids CBRE for suburban office brokers on heels of JLL defection",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNTVLb0xRV1lNbmZWRzR6M2hkdEJSV1VuZVRoWmFGWnRxSi00bkVLUlhfTlpPU1Q5b0xSYzdTMWFXNlBoTDBnSGN0QXlrcmxzRF85NUEzWmtWUmhZNUktWVJTVmtiMTMydVBfVWV1RHVsYTB2MzlEOGIzTEstamc4a21wcE5zczBCaDFDMTV6WQ?oc=5",
+      "title": "CBRE Group Inc (CBRE) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdzdNV0NHeHJmM2xYXzlJczVKRFhXSVBvUHpIcjJaM2RPUXFCVnJpWW84QkFQc1R5aE1jcjFaY2d5NkF3TUVNSVJoblg4ZlFpcU4zcThkN25iRktWZzdSS1RpMk8zUFBuSXoteFRBaURBV0dfQ0MtUG5abkhUeVl1Q28tRWZZUnZISVJvNU9ZdmhBbWVV?oc=5",
+      "title": "JLL Nabs Brokerage Team With Over 75 Years Combined At Rival CBRE",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONUlMdU5xbzc2R3Jyek56eENYMmZHNktyeDNzZDFMa19WOTkxUzdSRi1lLW4xakk1RGdhMUtnMVpCOUlGbGEyMXFIZUtqU0dHRy1FN1J2R3M3TUFNOWs2dktseFNUTHBBZ0lHZWNwUVBDUjBmREZLRVk2WUIzaE9LdzRYVV8?oc=5",
+      "title": "CBRE releases its Market View on the industrial sector",
+      "snippet": "MEXICONOW, 2026-10-13T07:00:00+00:00",
+      "publisher": "MEXICONOW",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBRE/history",
+      "title": "CBRE daily price history (Yahoo Finance)",
+      "snippet": "close 133.08 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

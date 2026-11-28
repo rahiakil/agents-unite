@@ -1,0 +1,133 @@
+{
+  "ticker": "HD",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Home Depot\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 5,
+    "irrelevant_or_spam": 17,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbG1HMkZoSmN6MVR0M3JYSEpkVTUxemxMREk5VlliU2RXeGk0UF9IaTlsc3pUaktUNFRjS09XNnhhV0JBWUh6YW5RLWR1Rkh0STk0YVpucm9pTVpoSmhiUVRpWWlOdDVFUjJjbHE5VFpqelk0YmE1bnN5enVndmpPeFZCWGVPY3FXZi0wZGx6WjFjZ3FOS19n?oc=5",
+      "title": "What Would Flat Store Sales Do To Home Depot Stock?",
+      "snippet": "Yahoo Finance, 2026-10-15T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYTZJMUtxdUNLN01yTWNOU0tXSVFXdWItbF9reFF1VVY2T0syY194ZGpSRHJ5akRFVzMzajlmcU5yNUtTcHE0VERJS3VncGlFRlZfRVVIODNETzg2UldHTGZrRDMwZk9neHZQRTFub0xLUFZPY29xTEVUeFQ0dkUtS1Awa0xqZmliMDBEV1RWaDNfN296UDQ1TzNfYw?oc=5",
+      "title": "Home Depot's Viral Ugly Sweater Bundle Flew Off the Shelves, and It's Now Back In Stock for a (Very) Limited Time",
+      "snippet": "Popular Mechanics, 2026-10-15T07:00:00+00:00",
+      "publisher": "Popular Mechanics",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdW1Wcmt0SDBCWmt3Q2VubnFrVG94c2xmOTYxeFJ2c0JrMzZkcVY5bkI5UFBNVkZkNGhyYkk3emxUQzdQZDIwSlFBaVVOWmVGRWFQQll4MmJKcEZubktHNmVHa0ZMNzA1ck5mOXNGWHBfNEpRWkpaVksyc0Y0VEdodE14Q3Q2TjRSYTBWaDctaDQyRUlXVVZzblJmTmF1elJBd1I0TA?oc=5",
+      "title": "Home Depot Stock: One Big Catalyst Could Change Its Outlook",
+      "snippet": "24/7 Wall St., 2026-10-15T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-15T07:00:00+00:00",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVpackJORE9kZ1hKSXVkRFVIOElFUkJjbGF3ejI1UjN1QTZWTDh5M1d6RnE0cldrOFA5VDJGbzlYTlNsSEF0UzVTWmRScTF4WUZUREJnaExJejJOY1VkQ1hrVHBtZUR5S0dPOHc2VUtBV0RFeC0xWnNiMmRJcHJOTzNPOURBZnFzUVdxSTVTOGh2c1RKb1ZpQ2U3UEhiVi0yV3c?oc=5",
+      "title": "Home Depot\u2019s Dividend Is Doing Something Most Retail Stocks Cannot",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTWQ5Y1BZZlZMZ3Zrem1MeUlRM05jSU5LS3RFRm85OURKbWlnRHhHbHAxYTV2Q1NsNkdDbWt1UWFWMlU5QXR1NUVsbi0wQ1REdWw4RXJiWWppR1dFSkJJckppcnhVYVhBd0RZQ21HeVZCcTlIcFlicFJVZkg5M1FNTVlTWldKSXVjUERhMFRNcnc5ejNPOGhr?oc=5",
+      "title": "Home Depot sustains dividend through low housin...",
+      "snippet": "Pluang, 2026-10-14T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRl9za3ZCU0RPVF93MUVrM0Yyb3o1UHh0cXAybTVsbzAwdEs3UVVlbDd4Skt6dUVTR21wZEtxRElpYXFBeHRDUGVoeHB4MGdPS01aQjBaQTF4YkF2a2J6WHc5TXdtLWdzTTdwUDdNTy1FV0Fyc2xBTHAxQmhlajFmMWQzYjZGUmtLc1VQdXFwWkpSbzh3NXc?oc=5",
+      "title": "Goodwill officially replaces Home Depot rival & change will come after Christmas",
+      "snippet": "The Sun, 2026-10-14T07:00:00+00:00",
+      "publisher": "The Sun",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYjZFYTUyUHU0Zkc2MkJ1aTQyV0tXcXZQaXRnSkVEUEo3NUNVc19BelEzT0hQRjYxRmVSNFFydUhYSGpRMjlua0tHcWxiS19NZTdoZkdrWXNxOHZoQW84TmVSOVdoUE04OTVFM2JZUTBKb2hDczhiNHdzelNTVlF6eTBsUDdERlY5QWRpTEMyVlFrY2VMZTczREJ4TGdJZC1ETXc5aXRFblJmNkFheGN3?oc=5",
+      "title": "Home Depot vs. Walmart: Comparing Scale and Revenue Seasonality",
+      "snippet": "The Motley Fool, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1RreTFReXZwWnJGVmo1Rk93V00yVHVTVUNuMC1JLTc2RnNISHJBbHh5cExPYTlwazA0OVIwYXBQM0ppRC1ib1d2MW43Nks3Z3ZNeGI1VmhKdFRlMXpUQzh6aUhFa2lUdmxrQ1NQc2h1NWVTVUphOExCY1ROc0drdFdYSUwxVTZoZG9JdUVLOWRKMXI1NGgyeE9iaUg?oc=5",
+      "title": "Home Depot (HD) Increases Despite Market Slip: Here's What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HD/history",
+      "title": "HD daily price history (Yahoo Finance)",
+      "snippet": "close 309.63 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

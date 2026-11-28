@@ -1,0 +1,49 @@
+{
+  "ticker": "ECL",
+  "date": "2026-10-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-16",
+  "news_cutoff": "2026-10-16T20:00:00Z",
+  "generated_at": "2026-11-28T09:23:58Z",
+  "collected_at": "2026-11-28T09:23:58Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-10-12 before:2026-10-17",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNEVyMDdPTXVTS21DN044MDM0SUEwaXd0S1FHLUU5YjNfTTg2U0VWcXVHcUdISTlCQzNlTGFfRWNfQndIN3VVY3M2eVg3bXhHbUo3aUtpQzBvTUVSNmJSVm5tcHNXT3hkcGxwSW13WS14WEtWNlZJczgyQVBtdnFzeS1GMXo3b3FlaWg1clBRelQ0djJiV3FWbVVoS2MyclYtNG9ZaE1xazM0dVBTNkRVb050bXl2czMxYmFwcXhCY0h2ZEdiTUHSAcYBQVVfeXFMUDRFcjA3T011U0ttQzdOODAzNElBMGl3dEtRRy1FOWIzX004NlNFVnF1R3FHSEk5QkMzZUxhX0VjX0J3SDd1VWNzNnlYN214R21KN2lLaUMwb01FUjZiUlZubXBzV094ZHBscEltd1kteFhLVjZWSXM4MkFQbXZxc3ktRjF6N29xZWloNXJQUXpUNHYyYldxVm1VaEtjMnJWLTRvWWhNcWszNHVQUzZEVW9OdG15dnMzMWJhcHF4QmNIdmRHYk1B?oc=5",
+      "title": "Should Strong Q3 Revenue Require Action From Ecolab (ECL) Investors?",
+      "snippet": "Simply Wall Street, 2026-10-16T13:09:18+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-16T13:09:18+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 288.89 on 2026-10-16",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

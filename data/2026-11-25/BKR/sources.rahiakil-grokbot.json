@@ -1,0 +1,121 @@
+{
+  "ticker": "BKR",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baker Hughes\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tQXI0LWt0OFNrRk9CZW9POFV1bEkwWXB3UWxEVVp1Z3dEUDRFVmY4TkJuLVhoWlRHSHhxN0dMYmVpOFpzaXdxc3NPblhVc3VkRXRMMXBFaGI4RHBlVlh0WUpxVGctWVNyMlJEVG1n?oc=5",
+      "title": "Baker Hughes Company: 12-Monats-Kursziel auf $69,3 gesenkt, Aufw\u00e4rtspotenzial von 51%",
+      "snippet": "TradingView, 2026-11-25T16:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T16:20:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQThLUTRTcEVYNFpvdEk0dThLdWVqcllQRlc4Z2JWS29mQks1bHFkMUI0ZENaeFRWYmlOcmxVUUJrelR0SWdlM0daMHdldUZVTGxwbHB6OEJEa3puTzUwRG4wMjg0ZmpWanJlaElfdnhnR2NNRHU5VWRTX3gtdkNjWjNyRG9sd2FSR2Q1eE1jdHV4VWtZRXN5OUpzTzFuNmpSUUZONnV1dDMtYTVyaGFNeTUtMG5tSUlxU0RISnlKcjhxQ1pOcWh2YS1EcTh3RzlLd015aWpmdw?oc=5",
+      "title": "Baker Hughes Company Stock 12\u2011Month Price Target Cut to $69.3, Implies 51% Upside",
+      "snippet": "TradingView, 2026-11-25T16:20:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T16:20:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQlRicURlZFZUaE8xcFByc0lwWWZxM1ExYllOb1VUTmhyVl9lZE1zV3NEWTVoLXVPbldjVmdzdVhGUkxjUTEtWWExUU1CeVlRSnJ5R0plU1hFN3JEMXBSVktyTDFqOEVZZDhHOEtEUHFkcGE2djl4VTlpYjlGUEo3djZXNnd2RXpTdVdtbzJ6S3JtTFBUaG1VbG4yb1JJQmZtX1pRMWVSbHpwTF9nbXdYa3JnX2FEdEhzVWtPYU9XT2NobVQ0U3ZxcE9ZcVhaZVZXRGR3VU9MTQ?oc=5",
+      "title": "BofA Securities Adjusts Price Target on Baker Hughes to $63 From $73, Maintains Buy Rating",
+      "snippet": "www.marketscreener.com, 2026-11-25T13:54:39+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-25T13:54:39+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdEs3cmJsY3FkOWlJVjNwWUlRYVBPM1FPRFJsSlUzdVZuekI4cTlab0gzdklmQURCSnpNRTF3dUlpSjJGdW03Y3hZb0Y2b3BpOFZyQXU5Qm9vQkVCdzFPekZGWnczWXFYa0R1VWtjY1laaVBKRTVYNVNYQlZBS2F1RmxkSzJ2ZFhfM2pzbXlDUFRuVGl1bnFEdkNiT2hrWE5Ic1BrNmhMQTFGWldIcnVTekJVUG1jOXlFYjNGX19hdnYyd1lXaTc00gHMAUFVX3lxTFBUNHk3UkcwampEdDZ5YmpRV0xoWXdKLWVxeDJGMTQ2NVdMejhQcWdHX3JEY3FmZkthM0ZIYTRkWlNVQ2tHbVdzRGRHd25uYjQtZnhrOHFZeEFEUlFHd1VTVS1JSVF0eU1URDJrRUJRMEYyVDktSWRrdXBiTmRxUC1JUDJBRk10aVdXa1hQWW9LT0VtaTFkZnR0U24xOGZtaVdFb2RtZ3dpd3o0SlAtdm1yd1ZfTjhrYUVQZTdKWko0V2lSdVJoUGUwNmc3VA?oc=5",
+      "title": "Ichthys LNG Contract Could Be A Game Changer For Baker Hughes (BKR)",
+      "snippet": "Simply Wall St, 2026-11-25T03:11:06+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-25T03:11:06+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcDZOSjVLWUpWR0tEbmxQWHVfbDZrLVNzOXJTVV9aSmY4QnhhMzZQNTljby12dTFGRThjMTVRdEVOYXFhZ2R0ckJmU1FnNVNJd0ozemJuT2trMkpweFNkZmFRVWY1akltSEN2amhiNjE5Vk5mekQ5NTBlUkd3QlVWVFNqQmx2R24wVW10anBfNl9oTmxvemxHQkxIMWZvV3J4SkJEWWhldmc?oc=5",
+      "title": "Can Baker Hughes (NASDAQ:BKR) Turn Gas Demand Into Lasting Growth?",
+      "snippet": "Kalkine Media, 2026-11-24T18:59:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-24T18:59:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSTF0bUZXNWkyNUpTSGNQNjBxSWRBVFQ2SWc2RmNvMGJVQVF1V0MyMGR6NnQySEZXdW5XVjJLLWVOUy1BRDRwVkZtNGttdHBRNkdPNkRJcGdnZWwxWHBOYTRWS3hFS0lMckkydU5PWEhpQ3Z6Uk1vbUdlR2RWSjJkZ0ZLeW5mb2I0M19mXzJWVDVYMXFTSXhCcHNYM0FLVFN2YWZnR29XRTdGUWdsS01wX25ramtDODNybEhzUmNB?oc=5",
+      "title": "Baker Hughes Co. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T21:51:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:51:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWw2dUxhTEhWdXRvUk5JTzlOS3IwQTVsYTRjb1pHY0NpNVNUdDNlbGxCd0J3WXJqelFuUlRVQ21pbzFVVDFYYnJoYWhyclJrckFfdnZ5N3hucTU5Q0NnZ2NzVXVyRWhxRm96WWtXWWFlWVFfbTZJSHJGanYzOXJ5WWRDQzNFSFhfLXA1Q3pScjJ3NE4wS25kelVB?oc=5",
+      "title": "Baker Hughes (BKR) Stock: $44.81, Down 3.99% Nov 20",
+      "snippet": "JournalArta, 2026-11-23T07:21:03+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-23T07:21:03+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BKR/history",
+      "title": "BKR daily price history (Yahoo Finance)",
+      "snippet": "close 46.36 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

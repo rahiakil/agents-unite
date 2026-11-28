@@ -1,0 +1,73 @@
+{
+  "ticker": "PHM",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PulteGroup\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa0tiQ0NzY1lrMmhjUG1QeklQOWFKbUpMOVVUUld2bXlxYk82blpwOGFRUV9tUEl6OWE5bTA4MndaQ2tzY0xvRjd0Q1dwR1JsMDNwNTM4cXVwREVUWW4yYU5RY0xpZG5DSURFeUE2VTNNckp4dUpGeWlXdWFSOTdlNTdFVmYxaUYxb2xGZDJxVGM1VUp6RV81OFV3X29uOERPNVVyWGo0cXlxOWJRb1BaYw?oc=5",
+      "title": "A Look at PulteGroup Inc (PHM) After 3.0% Gain -- GF Value $119.",
+      "snippet": "GuruFocus, 2026-11-24T23:22:39+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-24T23:22:39+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE55cXpGQWZmSzJhdWVJY3dMMzA1QmxSWVQxWUhMVTFMdmtDVHVkVEtLV2E3bTRLenkwMlVQR01qYVlZSVRWRFNF?oc=5",
+      "title": "Pultegroup Stock Price Forecast. Should You Buy PHM?",
+      "snippet": "StockInvest.us, 2026-11-24T08:00:00+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNGpHNzJoQUlDTG9PS2hJX1EwUU5KMlY3andyREt2TnJKZzlsMGkycVgtVGhlMzVFaEhWUDhLTk9ZNmEyNGJsNklrMkd2R2dJMW96dzVJYmVJVDg4Vl80NTYxWGVxS1Y1aVdjTGtsMHplM3c2VXZnTlUyanM4RDROUGR1empsZlpjM0NHR25CV0lXZnZreEdzRXZFdXMyVV82NlphdmNISnBNcU16VzRsMzZxSHNTQjJOZ2R3QlY0REVTQ1V4YXI5RGVyS2JMSHBpMWhkMw?oc=5",
+      "title": "PulteGroup Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T22:03:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:03:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PHM/history",
+      "title": "PHM daily price history (Yahoo Finance)",
+      "snippet": "close 134.84 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

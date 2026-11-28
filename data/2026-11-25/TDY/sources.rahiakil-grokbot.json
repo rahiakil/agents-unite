@@ -1,0 +1,133 @@
+{
+  "ticker": "TDY",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Teledyne\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMlRJYkNlQnNYUmpOcnd6OGdESGNZV3pnS3lIdU5tOFBvVEd5YWdfQ0h0LVZrb2RfOEo4akhRXzhUZHBULWlGblV4SjFLUzdreDVILTJ3TGw1Y2RqNmV5bnNINXp0Q3pjanVpMXZkTnJlT0FycWVpZ0FoVjlnY3lPRnFBeFJxZDI3SVFFdW1DLURjbU5jVW1sWlY5N05SakVvTWdJN2RpMV9UWEVWdWlvdS14QU9MV3NXRkJtaTFsSGI4LVRKc19vMTVJd1hzUW5pM3ZuSkZjQ1JFekFXWTRFQXNwTXdnbXBGMnBrNXA0cWs?oc=5",
+      "title": "Varex Imaging (NASDAQ:VREX) Stock in the Volume Spotlight: A Look at Fiscal 2026 Results, Teledyne Merger and Canon Order Delays",
+      "snippet": "kalkine.com, 2026-11-25T20:40:00+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-25T20:40:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ09KX2lmOERtRkF1VTI2cHlRdkxiVGc1dldRQ25McWhrVDAtV3gzZ3hzaUVCV1BKZHowaXZGQ21SNlFCLVdZakhJMjIwYzhxbk5VVS11aXVIV052aU1XcEljc2NKbE1YZHJJMGo1bTJkdkZJQmpfa3Yya0JsdVIwb29qb1ZtRU5PblpEdm1SNnNYTU1CbHNWSmVWb3BxeGZtRG5TVk0zZVM0RXA5R0h0MHU5Mm5iTDdkUzdpTnM4OW1aSXJlOWFDbHgyVHItR04tS1llejVsSWdNX0trRHhDNlF0d2dNSXA3?oc=5",
+      "title": "Allient, Teledyne, Limbach, JELD-WEN, and Columbus McKinnon shares plummet, what you need to know",
+      "snippet": "TradingView, 2026-11-25T16:05:51+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T16:05:51+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcllmb19MRV84d3FzX243ck1yMlZCU2ktV3V3eTlfdm52d1NsNkJhLThYeVNyNE1nUVZlZnhvNUk3NEl5d3ZVdWpFVi1yQWR2eXB5YXpSYkFhSDZ5YlBZLUNkdEpKSHZRNS0wclNKTHd0d0ZWZjZfV2cxWUFWZ09ZcUt3WVRUcVQ2bXR4NU5WVzRIZkhpaDFNMnc1ci1aeUNwbzNzcGY3X2JjckxGRHZPNnEyYzVDLWd0Vm56d1NxOUU3QjBjUUhHY0pUSG1mZklJazF4bzAyRmJLLVJo?oc=5",
+      "title": "Teledyne Technologies (NYSE:TDY) Stock Breaks Below 50-Day Moving Average - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-25T10:26:38+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T10:26:38+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZG5YamhUOU5ZSVp4UW1tZXNDX3JCZjBzWGs4TTNoUk5ZT1FTYTNWb0s3dUZxZWE1M1YyTGM3QzNwMzhqX25nLUtkc182enJDZEZVNlJCMGpzX3RmVEJvM29kYnVKSFAxSXZQRGcwWFNyUVh1Nzg0Undlbnk5dkxxZ3BEbk4zajNYVFlLRHZXYkFpakdWMThUaVctOURhTW9uRVJ2STJrbGpsOEp2WmdRa24wakZDLWs0a0NUZ2UwdnpVR2JCd294VGhHb0VLQXlLY0huNnF4MHNjdw?oc=5",
+      "title": "Teledyne Technologies Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T21:58:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:58:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcm83Ynltc1RVczduN0JncWdHcGFwT2x1NThwWWtVV2xKSl9FRlB4ZjB5U0ZmU2M3T0NCVXlqUGhETjVrbU9jOV9zNzZSMUM2aldXS1FmY3lEYlhRUlFFTjBlSjVnRjZ6LXFzZXpXUktyVUdtWUMtOUh4bTdRSHhiakc3MVVLcjVhdHBsVVpWUnBPQXR6cGVWcXBfMlFFNGZidjZuVUd6QmVmcHJxZGc?oc=5",
+      "title": "Varex Imaging to Be Acquired by Teledyne for $18.90 Per Share in Cash",
+      "snippet": "Minichart, 2026-11-24T15:19:00+00:00",
+      "publisher": "Minichart",
+      "published": "2026-11-24T15:19:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWmN2Z1NhcTRjZUItTjREY05pSm5MWHp6ZVdiQ1dwRERkd2lVbTNhOU1CMmRpQ0ZleHN0YjVlenU5M2NhTnZibkIzek1HTDJtcGxGbjZELXFDaWlCeEp2ejkzS0hMenpyQWdIcWo2cEtObVZlVVdRWjBsdHVVbjhaOXU5T1lmcllxd2NKUWYxOEtCYVJ1ZmJnUXNQck1UWUJpX0RjOHpVVGI1ZDdJb0FpRGx6X3M?oc=5",
+      "title": "Teledyne Technologies (NYSE:TDY) Now Covered by Mizuho",
+      "snippet": "MarketBeat, 2026-11-24T13:13:22+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-24T13:13:22+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV1RVMjlCbkpZaHY0c1hyWkYzMC1kNXF5YktRb2FBWnVaV0ZnRVl0TkNPeFBJYVIzXzZjNE9DX0ZRMFd6U0JTajd6OHZqUG1tS2xKbFIxOUJEX2hES05DWm9WWndNdXVTSzc0WFk4NEFyUFRCY01GUTBUTFg3UXFWODhveWpTU0MwY0M0dk5FUHBweTZFN1M4YzhFNm52UlBpQTlnMVJ6RVU1Vk9QNnBSMzkxNFhtUUt6WTNOVUFkU3dqSnBCdkN1Rm94MUh6TWRHdXA0?oc=5",
+      "title": "Teledyne Technologies Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-23T21:59:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T21:59:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaHlLdVp1R0FGVUtGQWNBTC0xbThFcENfUjJQTU1zc0Rsekc3aDlta1lhZUpaS3FjRTRSaFpsbmdVSEJ1WlNacTdUakdQSFlNbnhoenhZYk5ET0RhUEU1RXRlV3MyaG00SENiazR1NG50NWViWXRMRmpGNWJIam1uUGJTTWt6cUpodjF6V0F3MUs4RmdET0p1cHNUWHdUcFhpek5SUmM0MFY?oc=5",
+      "title": "Varex Imaging holders back $18.90-a-share Teledyne merger",
+      "snippet": "Stock Titan, 2026-11-23T21:41:13+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-23T21:41:13+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TDY/history",
+      "title": "TDY daily price history (Yahoo Finance)",
+      "snippet": "close 629.12 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

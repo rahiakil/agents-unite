@@ -1,0 +1,49 @@
+{
+  "ticker": "FRT",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Federal Realty Investment Trust\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNDBURERCUjc1YTVmdmtMblJralhUY3JvdDEyOWthVWNibnpvU3Nzc3FJWlNIcmlkX3NINkZaVGFBYkpLX1NoOE5hNXBDOHpROTVJcFJaeXcxckMtTFE4MHc3dnpsOVFDWVlyckZqd3FjSk9LeGtrRVd0NTc0SWZhUVo1ejRIYjF2NHhWc2QyUkpRQ0RVblJIQVQ5SGVlU29EbXE5cEdyTzFSVGN1U1BBeWxEUkx2SGw3ZXZjUmdvWmpJdWlyX0RXNkotcw?oc=5",
+      "title": "Stifel Adjusts Price Target on Federal Realty Investment Trust to $118 From $120",
+      "snippet": "marketscreener.com, 2026-11-25T14:59:29+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-25T14:59:29+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FRT/history",
+      "title": "FRT daily price history (Yahoo Finance)",
+      "snippet": "close 114.25 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

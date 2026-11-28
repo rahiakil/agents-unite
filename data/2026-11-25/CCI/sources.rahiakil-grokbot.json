@@ -1,0 +1,85 @@
+{
+  "ticker": "CCI",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Crown Castle\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYkF5dnBPRElmQlc5R0RnRXFQY1NrNzJRRjVDR2k3QWJKMmItWFZUaGtVdlBuQ05pYkRpaTg1UzdMVFZTZDVWcUlMMmpYN0g2RW0xUDBqUHpaSE9tbXREY1MwZlI2YVdIOHBrbm5Na2pPSEhDRzQ1dUFEeElteVJwR2NidFJMWnFoTDhzckdBVjdkWUt1UG9Z?oc=5",
+      "title": "Has Crown Castle (CCI) Fallen Too Far, Or Is Cash Flow Priced In?",
+      "snippet": "Yahoo Finance, 2026-11-24T22:14:53+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T22:14:53+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUWNSQ2xmSzhGYWFTMUg0Wmc4MzBpSTgwS3loUFVta3BnVGt5VUd1UkJKWTJoTzkxdEJEN2J4WUpnNk5HUGREUV84cDhXYW4wZjZwOWFsRXp3VWVLaWswR1g3bnlNZjlRUUQ1NnZfUGVtWWkxMW5Icm85RjNOUUpZY2VhajJxeHlXQlQxQ0pGTmJQMFFlUFQxZTF4UVpwZ0pQZ3BJVw?oc=5",
+      "title": "Crown Castle (CCI) Efficiency Narrative Keeps Undervaluation In Focus Following Wells Fargo Summit Appearance",
+      "snippet": "Yahoo Finance, 2026-11-24T20:10:10+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T20:10:10+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMFQ3MEVrTzF4a1EtNmNqLWN0QVcwSW1NUEhmUTlqM0lRSmdyWG16SF92NEFtX2xrQWJIekJ0bkpLT0p0SnBDN3hjcXUtc2tOdGJydGRQWEhfY0w2Z093Yk9TTDNQc0hXY3ZWMTEzbXdXVFZrNWZPb2tFTEw0aXR6OC1VbUh1UmNDdm9idHM3bHV1azFZa2c0anJzTnFwNjZwV05lYXp6enk?oc=5",
+      "title": "Forget AT&T and Verizon: Crown Castle Has More to Lose From Starlink\u2019s 40x Upgrade",
+      "snippet": "TIKR.com, 2026-11-23T23:55:50+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-23T23:55:50+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.172,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbVBVZWtTeEZtWjVCRXBJWFNEbDJwVFFJX043RmIwWHdDMnU2bjI5cDJDZzl4bW1DeUpmbzM3X05kMldGM1RPNVc3cVk1VHlwMFZoVWZ0UTZ4VFdnaDA5dlNNYXhnZ3hsUVVaMlIyS3JwYy1JRS15b2pjYzBpMjVtdW9mZmh2OUlIQ2phcXJBdUowWmRoalVobGJTdEplLV9oV1Y0MFlBUXpxbFMtekM2NHdn?oc=5",
+      "title": "Crown Castle's CEO is scheduled to give a roughly 30-minute talk, streamed live",
+      "snippet": "Stock Titan, 2026-11-23T21:50:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-23T21:50:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CCI/history",
+      "title": "CCI daily price history (Yahoo Finance)",
+      "snippet": "close 83.63 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

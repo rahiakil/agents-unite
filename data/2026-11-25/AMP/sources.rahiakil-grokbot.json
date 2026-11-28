@@ -1,0 +1,49 @@
+{
+  "ticker": "AMP",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ameriprise Financial\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcHpVajR1cG1PdkpnT1dGckFNdjZlUDJOcTNVclplTmNGekpHdURaOUVzV1FReTdZaGs3MUNYLUdSeFZJcGZTWWV3alVPeUZ4bGVBOGQxay1BZkV2QnhfNWI4OHduTF9wbGc3SnFFenZJc0lwenVwMkF1Um9QUXFpRkNwMGJmVXBUZFhOc2tEdW5oal96akJGMUd5V1VjZFVwc2g4ZFI4WGpMeTZLVkdrSmJEY2VoRHV6QktNcVdZaWFiNnZRdlYybTFQdjJiUmJFRWJLNElSeUNHR3VYdk90ZENB?oc=5",
+      "title": "Ameriprise Financial : In Several Ways, The Bear Market Has Already Arrived. Charting The Potential Paths Ahead.",
+      "snippet": "www.marketscreener.com, 2026-11-23T21:24:23+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-23T21:24:23+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMP/history",
+      "title": "AMP daily price history (Yahoo Finance)",
+      "snippet": "close 504.98 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

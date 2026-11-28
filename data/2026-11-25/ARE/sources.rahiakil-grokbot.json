@@ -1,0 +1,121 @@
+{
+  "ticker": "ARE",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alexandria Real Estate Equities\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12emx0UThrS2wxckxoT2lpWUVJb2RWV2x4OWxYMVRkUDJKclRLRFBlWkF1WjlNcllpcFI2bUJKRDlEUnJTa0JVdFRpbW11ZTgxemc?oc=5",
+      "title": "Alexandria Real Estate Equities (NYSE:ARE) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-25T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-25T21:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcHVCTmcwWVJJRDZYVUU0dU02eVh2VUVRdHpqYmhwakNmMTFFZXFBZVFfQzhYR1VWc2wxQU9xR0M2VWxuaHVSTE9HcHlVRFFkSmtVUUdIMnQ0SDd2cjVJMzU1c08waW1kY2dOanVoczYyT1VRbFJicHZGWHRVN0lUMHh6Y3ljUG1HX05UNzVuanllb0M4VWUwTW9fWQ?oc=5",
+      "title": "Alexandria Real Estate Equities (ARE) Up 2.8% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-11-25T15:30:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T15:30:03+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMGFteFRoZm91Q0k0Zy1BSGMtdVRpdUdaaDVRRVFiSHlsMkc1OUV3dTNVdFplUlJhczhDMkNqOXBTa2pPeWJKaWNqVmo3MXNwUUFBeGcxbm13ZzZLdlhpREFjTnlwUnlTSlJWY0xtUnJGVktJSV9NTzBuSjBOZW5wSDd4VFhFeGNZaTdfNC10dDNCU09SVjgyUzh5TG96NEhQVElscVNiY295V1U?oc=5",
+      "title": "Are Wall Street Analysts Predicting Alexandria Real Estate Equities Stock Will Climb or Sink?",
+      "snippet": "Yahoo Finance, 2026-11-25T13:37:07+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T13:37:07+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb1h0VHhhanNwN0dBU3hWd2FRcXp5cF9ac09uRnU4QWdZZlQyMmVVSklEQ0RyUzhpQ1doUGt5NTJfYnFHdDdjNHF5eFkxeG1Gd3BuUXRibFNwbkRvM21wVHJCb1dfa1ZNbjM1WUlXbmlBX2NsM0tCTXJGYzQ1cTh3YjZwZDA5ZF80M0dTQWczZTFtLXdFNTFyNHZsS3R4ejVxSHVYVG1qY3NsalA4bS02UkYwY0hJcEdWZzdaZXFWRFVoSGV3OURr?oc=5",
+      "title": "JPMorgan Adjusts Alexandria Real Estate Equities Price Target to $45 From $56",
+      "snippet": "marketscreener.com, 2026-11-25T13:02:32+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-25T13:02:32+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX2xFcm5taUYyM3VyWXk4cnl3eFVCZHludmZ1MHdhRWpCNTJVN2lheF90ZW8yZXhrVmM1bWlqRjBTUUpmQWloVXhaMVlmczU1cWNXRUwwdE5kOFdVaGNmcm1JQUVkQ2l1ckJkTDdLcnkybUdxbFdlVGRrUHB2ZlUyQmhDS1FqSUdPZmZnLXFVV2lfcm00SFV3dEwxMTJlbU0takRpRFUzZ2U5SHBwQmJwd1FrdzhnVFExam5rck1RYUNMc0xEcEpHRVpRNzVYbFhaRUsxeUlqeGtCa1ltWVRjbzlsOA?oc=5",
+      "title": "Alexandria Real Estate Equities, Inc. (NYSE:ARE) Stock Rated \"Reduce\" by Sell-Side Analysts",
+      "snippet": "MarketBeat, 2026-11-25T09:32:13+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T09:32:13+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE01Tkdib0lNbUVaQ0FIbTJseHlRSzAzZVQ5TUFpLW5GRkI1UjVzWjNZWGRaMlNpTm9FM2Z3eHBNak9JT2dfY3RR?oc=5",
+      "title": "Alexandria Real Estate Equities Stock Price Forecast. Should You Buy ARE?",
+      "snippet": "StockInvest.us, 2026-11-24T08:00:00+00:00",
+      "publisher": "StockInvest.us",
+      "published": "2026-11-24T08:00:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT1U3T2l3Vl9TbVRoN2R0VF9mVFFDZnozTkpwVU5nRnlXYl91VUNzZGFHNEdILUl0S05PMjZTcHQ0YkhCRWpnczFJVTFJTmRDelZQSzFuVHZFbHpMbUJjcURRQWo2dTJVYlA1dlR5a3FUOU5wdk9uZ01KQVJuT3IwNGx0UzRZdy1oTllENGdoeFMzWExORmVwQnR5MHR3WVMyaUtrM3VmbTVlNlRRMnR3Z2lTOWEtQTNuZmNBUFR6bUFldzZ5aUFDREZQV2R5UlE3dk1tQkd2c3A?oc=5",
+      "title": "Alexandria Real Estate Equities Inc. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-23T22:16:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-23T22:16:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ARE/history",
+      "title": "ARE daily price history (Yahoo Finance)",
+      "snippet": "close 43.09 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

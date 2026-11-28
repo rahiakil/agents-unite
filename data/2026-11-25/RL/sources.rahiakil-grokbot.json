@@ -1,0 +1,133 @@
+{
+  "ticker": "RL",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ralph Lauren\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 50,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 3,
+    "irrelevant_or_spam": 23,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQejNjMmttODdUUGhIY3RJQmgwVWVjSUZnTlpnd3pNaThCbktWSFB3WU8tMklsMk5kZnQ1WHVVeWtHbnhRQzNiV0gxbkxVdExNMUxiUG9yR1ZnYzJXUEp2SE5jVENLWXd1QlRIbk9KaXlsV0hTVG50SV9JZkpmbXJsSTk4RUtFMTFybG1vTGs2U1JhNDJQRGJIUkhFclB5bTF0TFBrUA?oc=5",
+      "title": "Zacks.com featured highlights include Brinker International, Ralph Lauren, Stride and Cardinal Health",
+      "snippet": "Yahoo Finance, 2026-11-25T16:11:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T16:11:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUlNYRVNtS1FsZkJDWURtR0xzcUxlUXcwM3dkbXZ1SnFHZXZSSHU0eThQcXZGNmJIbE5IbnpVcFo2ZFFMWVF0TF9vVjJ4T0Q2T3JWanluSFZHWGZxRjdvNmtuNnJZRVRsLXQ0cDNQcFRPSjJSc0Y4WkVKdFdQZ3JacVZZdlBnVVNMTnBUTmNB?oc=5",
+      "title": "Ralph Lauren Corporation (RL) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-25T14:21:12+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T14:21:12+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ1lEZDRwRGxvdElBLVpUYnltckNuWmtxOHI2Ql9wZ0xISU5zdmN5WTIzZUM0T1pZbTd3TDlDdTI1X1hrMzdFRVU2OUxTaVpGMTBSdVRUZkxCNHMxRjVQb3NmWk1uZ1ZRamlLM29EaW53N1JKUXgzZ3gtNS1iS2E0M3R0VjR2b3JTb3ozNGlhaXpPZ3hVT3RzWjFiRERJbm9nM0ZNeWxLYw?oc=5",
+      "title": "Zacks Industry Outlook Highlights Ralph Lauren, V.F., Crocs and Columbia Sportswear",
+      "snippet": "Yahoo Finance, 2026-11-24T14:37:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-24T14:37:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN05kMEczNzlqRHRxRThCZ1FvUDJXeTVaUkViQnRsSWp0ck0tcHhWSFlGM1JFMXBtalJIYW9RYldwQ0xhQlRfOUdXNU0xRFRXVHlGVEU0UGFfS2NndTNGelg5aEpyN21tenViM0NqOHRyNWZNcHBDUXMySkVBZndYM05LeHl1WmdNRnMycjRmLUt3X3Z4T3k0?oc=5",
+      "title": "Jefferies thinks Ralph Lauren is poised for more gains (RL:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-23T18:30:07+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-23T18:30:07+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.585,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRkJFT01IMjRKTkNTeExrTXQwd0UtWVhxLVZORllJMlAtcDE4ZmlJRVc5bE9CWUdOcDJkZVlhWWxndjktLV9JcUVZQURkSWszSE1pZUNNVWkwTEVHT01JZDNUOVRLVmsxQk5HLUxXTHFCUlo0d1NNMEpEdExsOHRuZ2xjdTgtdzFfdUVXeDlZdDdoQ1dPNmY2QWt4YW04eTVKWnVCNVlpZzYzMFZRQmViR2NLYTZiNFJLMEN4NTZqT0M?oc=5",
+      "title": "Ralph Lauren Q2: Strong China, Europe Remains Weak, Soft Holiday Growth Outlook",
+      "snippet": "Seeking Alpha, 2026-11-23T12:54:43+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-23T12:54:43+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX0ZWY3ZGa2hHbXhjN0ZMdVJOeXY4REFfRnlPRy1uakt0ZWdhSnhLNTcxQV9SSWY0UHg4b2pWOWdHVEEzbENob1pfZEFVNUFjZDZQYS1lT2tuRHpNRE1HbVdRdjkyNFFsUXlxSzdBWFRpbE83OU8zU00zbTVaNWRvQkpveG5qWV9YaU40T0VXNjhOcDU2VTE2YTk0Y1dVSVdfdlE?oc=5",
+      "title": "Ralph Lauren: One Of The Best Retail Stocks To Own Long Term (NYSE:RL)",
+      "snippet": "Seeking Alpha, 2026-11-23T09:19:08+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-23T09:19:08+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQXl3amRNMGYyR21od1UwWkYtVXRZN1gtUWZTSXoydXZLLWRJVTdNNEx2NGVZQ2dPR1UwNFdmSks5Y1JBZUdYZi1kVEFBbWh5b19PMGdsUGIzV3gwbTZkdzFMMnlxeUFKN3RNeE1Lb0g1RzMwcWhuMzYwM081ek5mTzd4UkNZVXYzUXdsSXV3bG5rM0tMN3FocDZUVEpYaXh4QXo5WlMtSGhYREk0MDJoSE1JTHVQNk91SHJwei1LcEk?oc=5",
+      "title": "(RL) Risk Channels and Responsive Allocation",
+      "snippet": "Stock Traders Daily, 2026-11-23T06:30:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-23T06:30:01+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbWZSQ1pndndnRUp0ZXFLWTB4Yl91bm5SZ1FYdW01NjU2ckRTcml1eUs2bDdZU2M1NjJ3M0l1TG15a0xDUUk0aXp3WVFtZlc3RTY2TEhxSWdzdnR1dkpaWjNNMGpPNzk5NTlDOHhjSEpFcjdjUDdUUGd1eUt0amRMRU4zeVRxOUpxdlRWUk91TXdHTXUz?oc=5",
+      "title": "The wondrous Ralph Lauren Christmas market has arrived in Sydney",
+      "snippet": "Homes To Love, 2026-11-23T05:38:32+00:00",
+      "publisher": "Homes To Love",
+      "published": "2026-11-23T05:38:32+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RL/history",
+      "title": "RL daily price history (Yahoo Finance)",
+      "snippet": "close 400.71 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

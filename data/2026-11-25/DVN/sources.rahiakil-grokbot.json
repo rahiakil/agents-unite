@@ -1,0 +1,97 @@
+{
+  "ticker": "DVN",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Devon Energy\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVXZVUTJ0bHE1UnpfNy1xNWFYMi1VZk5EZW1ac1VOdWV5NXhZMUlQTWNvLTFkR3ItOThKNkNnLW11SmE3cnJKMXJ3UEFvUjhKQkU1OUhyVU54a0tPbmdPWC1ETUtjZTNrMktGMDhuVmprV0I5Y2VITzVkOThTZFVQWUxaX1dBQV94Zjh2MWhCdWpRdkpCUHp6VHNvbGtvV1BQbEkyOEt0RHZjU1hvaEp2bXZKMF95SEtlZ29zWTZZUVR0MFNn0gHKAUFVX3lxTFBpLVFjSmhzVlc3Sjg5UVpYT1dXZGI4VV9hOS12bi04eWlWaDR3a3ZIOVQtZ0c5VjAzM05hT2JUYTdRMEM2MmRXeHM1UERwT3VOcENob1hubDVmMEZkbkJCUU5SUFpNNl9McWhSalQ0YUxDMWV6dGllOTk1TXc4N0d1dVhNYUVkVFF6MEI5b09ScC1VMVJvUFNYSDJ5dE5YR2RjWDdIWXA5NGhBZGZmRnIzd3dJOXBzb1Rvd3RLbjN4RXptNHRmUkU1M0E?oc=5",
+      "title": "Devon Energy (DVN) After The Selloff, Does Its Synergy Story Still Support Undervaluation",
+      "snippet": "Simply Wall St, 2026-11-25T13:15:46+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-25T13:15:46+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnR2h0U3hLQVFIS2xIbG9FcGdOeVVneGZRMmo3aXRwWmFWaGZXRVJ3Q2hnTjBRNTIwU2ZZR1lPQ1d2UzNTUWRNSEV0c2tXOTJJSjNWdlNCSlZCNk5yWXFtZmN0QXM5NGZaUzZLOXBBYW5BMUh3?oc=5",
+      "title": "Devon Energy (DVN.STR) Q1 2025 Earnings Report - Results, Call & Slides",
+      "snippet": "TipRanks, 2026-11-24T06:46:14+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T06:46:14+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOUUtMHMtczloNDBfZXhaejBRRUlUMnVjR1NoWlB1SnllOVJoWFIxQURCZk1mNEd1M1dheXFHVm82Wk9FMzNZTmVwc2dOMVhFM1NMRURtdWlrZTh1NVh2V05tempuQTVsWExzS3FOWmp5WXBmYjVSZTduMWJHWmV3R1dPc0c1RmU2SmplNWwyc053Z3NqZ21qRWV3WGNRXzJhMklXTlNEeGdmRXVwRU5NckJNRk93U3BNOXU0?oc=5",
+      "title": "Devon Energy stock: Goldman reiterates Buy, targets USD 59",
+      "snippet": "ad-hoc-news.de, 2026-11-23T12:36:33+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-23T12:36:33+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcWstdGk5dm9YdHd2ZXJVTWVwZjhQdU9ya1FnOWNneHg5UVhwMG1GX09EcFJnS0ozYi1GbTJfSzRLVElHX0ZkTkJDV1V1MEhhOUtoZ1hpNUhqeHRXTTlRS2MzVHVmN2FVU1l1VlNRYnNkdllnOFVZU2g5TGQwZ1VBVGJIMUdoV2gtcDh6OHJLa2FXNDhhQ0hYRFNGcWlscWJGcHJ3UldsS2xUdXBXMElIRVpfaVFTRkl2Nm1FdzRtaUs?oc=5",
+      "title": "Devon Energy Stock Earnings Estimates Cut by Zacks Research",
+      "snippet": "MarketBeat, 2026-11-23T06:32:59+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T06:32:59+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84Y19WN0Y1a3J4LXA0WmdoLXZyNEZRWUp4bmxiZDZNUnBhcmZ5aEhzOV94VmFPV2ZSVV9sc2MxVFV0X0M2S2xlc0p5dEZ6YXlRWExrTG1TUVpZUUgzTUUyLV8yR2o3RF9OU0FCVFY3S1VfN1FIWmc?oc=5",
+      "title": "Devon Energy (NYSE:DVN) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-22T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-22T08:00:00+00:00",
+      "published_date": "2026-11-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVN/history",
+      "title": "DVN daily price history (Yahoo Finance)",
+      "snippet": "close 42.45 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

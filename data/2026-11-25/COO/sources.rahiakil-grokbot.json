@@ -1,0 +1,49 @@
+{
+  "ticker": "COO",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cooper Companies\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc2pibnhTb0xhWjdhUlFjVTJ6alo5WWFkV3YxbjB5TEt1T1RGNHBBZGh4a2owMHpGOTRveXlWaDVpeU9KaDVHbkllSFZVUzUwbmtxNHhMREswVzVDZE5QTnB3d2YzVmdtOFNpRDB6OWNpRnZIb0xUY0dnZ1dxSnJTcXpteTZRLTFfOFRvamFCNnZFa3I3UnhKYVRRdHctczFR?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Cooper Companies Stock?",
+      "snippet": "Yahoo Finance, 2026-11-25T17:18:50+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T17:18:50+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COO/history",
+      "title": "COO daily price history (Yahoo Finance)",
+      "snippet": "close 62.29 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

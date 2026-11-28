@@ -1,0 +1,61 @@
+{
+  "ticker": "LVS",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Las Vegas Sands\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FWjZSTXlibUpkN3ZINENqZUFlcEE5ck9oRW1pQVl1bTNudGxza2dMRTg5d0lqODQ3N0hUSVdPa0doeTlIRERaUXktb1BvVzhrVW9MRFppemlWZXpfTGxBMTdFVDk0WDBNb3c2ZnhLQQ?oc=5",
+      "title": "Las Vegas Sands (LCR) Q3 2026 Earnings Report - Results, Call & Slides",
+      "snippet": "TipRanks, 2026-11-24T16:44:23+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-24T16:44:23+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM1JmMDV4bDBwdmttWEJydldmMXQ1MjhLTnFrOGgtQ21hcHd3NjhnQnlwdllZckVyRjlUYngtT3d4ejFxRUxkN2ZRYVo1TDIyb2Exd3JTc2I0RmdZa05ZRDFlblJpVHh1ZmRQUTEyTVpHV0t3a1lWeExvTUdnQmcySHA1LS1BUEdQRXJjbFl4YTBVSGhIeVZHRGt6QU5taE9ORXpEcU1fY0FGWHZVaFF1ZHpoRnNNVm1mMnZwb19VdWpFemM?oc=5",
+      "title": "LVS (NYSE:LVS) Higher Dividend Plan and Macao Share Gains Keep Resort Growth in View",
+      "snippet": "Kalkine Media, 2026-11-23T06:16:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T06:16:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.796,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LVS/history",
+      "title": "LVS daily price history (Yahoo Finance)",
+      "snippet": "close 39.76 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

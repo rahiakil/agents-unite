@@ -1,0 +1,61 @@
+{
+  "ticker": "CINF",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cincinnati Financial\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSGtQdUNkemh5UDNBaEwwOWg4blBPUHhoYkxlY2dNellValhzbWVlSjhLV09heWw0MWNwcGJKMFo0clU3ZjNadW1aYkFvVWFmMDNHOU9MMmFVQmYyVXhaMFNOM1BiT2NxYXlZZU81LU9VdHJHaVlId1U4YmFPZ2hsdl9hWVFSSl9XV21aYTZqZUJQTnFrY1NDOFJRTWZjQjg?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for Cincinnati Financial Stock?",
+      "snippet": "Yahoo Finance, 2026-11-25T13:01:39+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T13:01:39+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSzBZWEsxOTIwQ2p0a1BkNFR6QkM4OUxvc2M1WEh3U25tdXRDNm9EVFR1Z1hSS2xSX1BNY3lmVWczVXplU25BajE3WUNERHlYWmxWWWF6R2tYdXNHRC13NHZ2RVp3TXdhamlyQkNHQWxaT3E3R3J5RlhlSndxNF9NLXdpVlowUWIxV1pwcTNBY09TcWVPZ0lvNml0bkNsQTQzMV9XRHdjNWNIanBCMmtaTzVFeVhRcTBNZUs0WXc0MDV5ajJSdUVrWDR2SGs1Uk5vR1E0UTVkRHpYV0hWUUlHM2FfOFIyTk9nUWxtdDFzd0RBbk1NNG1Oc3lQM1NZZ2hrWDlhNw?oc=5",
+      "title": "Cincinnati Financial Corporation (NASDAQ:CINF) Stock Has Consensus Target Price of $195.60 According to Brokerages",
+      "snippet": "MarketBeat, 2026-11-25T11:16:58+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-25T11:16:58+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CINF/history",
+      "title": "CINF daily price history (Yahoo Finance)",
+      "snippet": "close 192.32 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

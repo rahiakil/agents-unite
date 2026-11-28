@@ -1,0 +1,61 @@
+{
+  "ticker": "MTD",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mettler Toledo\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPc0EzS0VreDZZM3dkWGpvWWV6SVB3NEpFZTBadEFoTWlzeVUtV1J0ZXhXTHBEcHRYM20zckJzbEVOWFg1TnpOYm9fbFJ6UnNLcXphazBsbE9HMGxXNV8zVmNITVVKUjVvcHJpaEQzTDNpNHhVVzcyMzVZbm1ObEdPZGlncHB5YnJBWDhSeVRzdXREYTY3dWhKQ3JmeXJVdHg5QW5pbnZiR09EaFhtd3RxWUhmcnVXU2M3NERSWGYyMzBFTVUzQkFQY0locV83OWJnRldjLWRRNmVXbl84eFNlQko5M0czT181OF96Z2RLc0V2bDI5MWc?oc=5",
+      "title": "Mettler-Toledo (NYSE:MTD) Edges Lower Today as Fresh Tariff Proposals Weigh on Life Science Tools Makers: What Should Investors Know?",
+      "snippet": "kalkine.ca, 2026-11-25T20:36:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-25T20:36:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObDRqZ3NFa2hDc2NoaDEtZXpFcEROWnltUnh5dDhMNDJEWmdDZjd4dmRIYW1rSGVuQ3FJVnEtc0ZZZ1dQNFZyTHFZSF96QlNwV2JBOGtlRnh1a0tpc1BWblVDS3hEQUhCSGVGSGVxQTJERDVPMFlVSzNUV1pQVTRJb2N3a1Y1Y2NfS1VYb3U4SHZSVVpRVU5sZVFRcU93MFd6MHBVejFteFFIMjQ?oc=5",
+      "title": "Is Mettler Toledo (NYSE:MTD) Gaining Ground Despite The Pullback?",
+      "snippet": "Kalkine Media, 2026-11-25T19:07:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T19:07:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MTD/history",
+      "title": "MTD daily price history (Yahoo Finance)",
+      "snippet": "close 1664.55 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

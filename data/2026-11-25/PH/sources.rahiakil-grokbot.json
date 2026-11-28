@@ -1,0 +1,73 @@
+{
+  "ticker": "PH",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMl8zZUNfNnRZWkw1STd2YVQ4Qy16TVBCVGE0elBJVVFOcUZ0Y2JWMnJiRWUwOFNnNGFxR2pvTU12M0F0Z3J3WU9iNi10dzJlTmNSemptcjRTbHhkQUMyaUxiTHBudWc4N1c1WmxDWjVIbWQyenlSTmp5dTNYN2w5dGJSeHVkOEoySlpDVVhmU1E3WFpIMHpocjBRa0JDZFMzODc5cEg5bF9zSkdTajVkbXo5bnV1UmFQSWtUdFZ3OUt4czk5TVp3U1VVQk5lcGg2elVsaXlQV2FET2R3TFhGbFd2alNmVmVpQzB3?oc=5",
+      "title": "Parker Hannifin Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T21:38:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:38:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX0d4QXg1VkpLZExpanlkaVh0SVlzdTh6Q1RoTlN0NDVGaGc4ODhGTmJLblNObTFqRW03c0dXa3ljd3JuczE5VGZocTRUSnA5M1puSHFPRm1nUjl0aWVoeUFGMVFMcnBYZmp2UVhTZWpVNU5uSm5KLVo3QmpDUFdTN3B3Wm1nWXNSNmRlM09NM3lLVGdtbHQ4ZV9CVlFyUlA5ZXFmZmdMZzJzOFZOQmoxYi05Sk4?oc=5",
+      "title": "Parker Hannifin has raised its annual dividend for 70 consecutive fiscal years. It presents at UBS on Dec. 1.",
+      "snippet": "Stock Titan, 2026-11-23T22:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-23T22:00:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWZYcUZ3cDNRZk8wSUZva1pJcm9sTy1DbElEazhIQXpRSlBMcjJUMWstMVpqVXpqSFNMUjl0MXROSEJHd3E5QUJQSXRBeEI3S1JoNnRERXpxaWhoZ1UtM21JUG11TTJLSWJrdzg1ZlRaQkluRzdLbktva2YzU1lHU0pGR2lsWFBHM3pya1NfNnFMLVBnbngzMEI5amdNOFVGSEdWT1REck42c2s?oc=5",
+      "title": "Why Is Parker Hannifin (NYSE:PH) on the Radar as US Stocks Reset?",
+      "snippet": "Kalkine Media, 2026-11-23T12:53:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-23T12:53:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 897.9 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "LII",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lennox International\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnFKYkEyLTJRZWxaeTNSOFRfRzV4SXN3c21KbllvaVFRQl9LeGR6c005OXJHYmMxU28tbXdwWnJabDRnMG56akZGc1p2Tmp4Y1I0ZzN2bEpzcXJGTEpqbDJtUFhrdm8teERyM1dCQkJrbHNLRGlCdXlnNkhsR3o2X2dOWHJpY3o5ZjZnWThFTDItTlQ2XzZYVlBiNHFsM04yZ3pYRkZB?oc=5",
+      "title": "Will Lennox International (NYSE:LII) Keep Its Story On Track?",
+      "snippet": "Kalkine Media, 2026-11-25T20:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-25T20:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNZ19kSWVscHNUc0JLNldMQTRJbVlqR1VoY2dOVjQ3UDFPdklvUDQ3aG9TQW9mN3Bfc3lrS2JHb1NDYXBYTk9ZQ25SblhUVGd2c1g4eENsRmRUa0g0MUJYaFJsY0l2M25NNm4zX0RWLUk3b1JjVnFRcTJoNjg4TUpkb19tSUlET0xTMnJTSW5zeXZ0UHB2X1p4dXlQSEM2WEU0UnVac3JkQmNGQnFQbHNZckVWeENtdS1ndzYxMjBNanhfOC00b2FrYzM3ZV9UbWN1RVZNZGFKclNOYVRaSEg3LTZxZmhVcW9mcDBpMEpEVDhjNDFJTzFLTE9fdDBIS3RYeG9RNXNmNFh4U1liZXhORl9WNDBjSlNuX0ViQTZoaw?oc=5",
+      "title": "Analysts Offer Insights on Industrial Goods Companies: Lennox International (LII), Copa Holdings (CPA) and Terex (TEX)",
+      "snippet": "The Globe and Mail, 2026-11-25T16:04:45+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-25T16:04:45+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LII/history",
+      "title": "LII daily price history (Yahoo Finance)",
+      "snippet": "close 349.97 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

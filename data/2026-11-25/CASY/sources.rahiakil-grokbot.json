@@ -1,0 +1,97 @@
+{
+  "ticker": "CASY",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 4,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBOU2VXeHQ1cDdjU2JhNVpuQURYN09yV3BzUkFIZjJ2R0NWb0U2U2pRRXRSbHhQYXEyTkFwckVqbGtqNnNZUjVSTFpGOV9TX0NVLS1RX01VdkxZdXRxaVRXVnRlNkdXZ0dtY0RJ?oc=5",
+      "title": "Casey's General Stores (NASDAQ:CASY) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-25T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-25T21:00:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDFDWlU4NW5GZUZoZi1vQVRQQWFTUzcwYmNvVExKak5jODBVM0ZhMUx2ZUl4YXUydFVGMkRUNTVSZ1JYanpIQ21mUnU4R3NraFpMeHFzNXktV01wTFpNd1pieloxdmx0bWZnWVNZejRvSXA1R0RicXdMNVRxSHNsRzFYeWpWNXFQejhlY0ozam9meGU2eFp6Nk1yUQ?oc=5",
+      "title": "Casey's (CASY) Upgraded to Buy: Here's Why",
+      "snippet": "Yahoo Finance, 2026-11-25T16:00:04+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T16:00:04+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRjZpU0JzVXRUdWRWanRyeGU2a3dGcEpBN3NpN0VPYjU1dENOc05jdHFkV3pSZjhucmltZ0YwTWtzdnVRNEoteU1OenRwOHZBQm45ekNsWGtoR2k2dmVvRXg3TmVXRHJNZUtQVng4aFhsTFNaSmRIUTMxNGZZVGhCSWZsNVVWdC14WVBxRTUzd1dqRkJnTUhkX3Rn?oc=5",
+      "title": "CASY Maintained by JP Morgan -- Price Target Raised to $709",
+      "snippet": "GuruFocus, 2026-11-23T14:51:08+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-23T14:51:08+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.547,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZVhzQ1RfVjhCb0ZUQlc3b3B0bjBqOW5NeEF3czFZblZIangwQXpkMHRycEd6a1R3Q3BJWEp4YUc0ZThrWUc0dmhoa3FVdlBhVS14ZUE5OThVQ2Y5RndOemZfeXc5blU5a0hqOTVnOHBMQ0FUbE5hV3kzTE50YVdiMDd2N185OWEyM0U3RmpITDdKQW5TSDMyMmVLTzE3WlFNZlg1TVphMjY1UWgyVS0tLWFheXBsaHl1eGZnV1J1akhJRUdQbF9uRUxWN3QyUmQ4ZnliQ1c4anhiQThNSHc?oc=5",
+      "title": "Casey's General Stores (NASDAQ:CASY) Given New $709.00 Price Target at JPMorgan Chase & Co.",
+      "snippet": "MarketBeat, 2026-11-23T14:28:23+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-23T14:28:23+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVlNZWnBHZENFaVFOeVh3SkpkSmZMT2FFMmJrZkxWQURBb2o5Um1lRWZaVDl5NU5OS0FWUFYycW94bUt3cjZ0d1ZJdGU0aGxMNmJ5Ri1RcXhpeGNvUzVLM1lUcnBicGpTQmFaZ1o5aVJNejN3S0dxOVh1Nzk5WXVyNFRCTHZ1bWhVRlM0SFVEWjZOc2gwSU5kdUQzNmt3aEVqNFJVaGc0QmNmekZWanJSeE04NzBQTjFEV21JNFRXVzc5UQ?oc=5",
+      "title": "JPMorgan Adjusts Price Target on Casey's General Stores to $709 From $687",
+      "snippet": "marketscreener.com, 2026-11-23T11:17:26+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-23T11:17:26+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 698.26 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

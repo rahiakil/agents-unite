@@ -1,0 +1,61 @@
+{
+  "ticker": "WAB",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wabtec\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT3VxN1BVN3hFMnNiemo0RGIzNkx2ZkJrVUNrcUlDaUdRTUJsWmpGUWlPYWpVaDhFMkdIVVlKZUt6bFk3WW42NW9JRk1BVFlWSDFNSDduTHZVRVBGQ1gzVVpOWDBhNVp4TzJUZE1Ldzk2VEM2czNtb2NmS2lPTlRYYnVCQUdQMC10ZEtNMWhmaVVDWldONWI5OUJnc3FDMDRjSlhFbzZFeXQ?oc=5",
+      "title": "Zacks Industry Outlook Highlights AerCap, Ryder System and Wabtec",
+      "snippet": "Yahoo Finance, 2026-11-25T15:56:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-25T15:56:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT0dtekd2YmRyNEtuVXVHRXQtTER1U1h4bDRCY0NCTWpxRS1DNW9oMUZwZnV5MXVpaGx6NWNRV0Y1M2gzNUJvN0ZIQ0ZFcXNRNkNoRG9JYWU0VHAxNDZSTE9uZ3QzVEZZRGRrd1gtZjdHNlRUNjYtTmgxQWdUei1XSE1WM3owS0RTTmVxajBkMGFVY1dwMFc0NkZQY05EbTVzRFhqQUdMZDFSM1VIVGExUU1lWmFiTFI4bzgtWVJZZUY?oc=5",
+      "title": "Wabtec stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-24T21:50:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-24T21:50:00+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WAB/history",
+      "title": "WAB daily price history (Yahoo Finance)",
+      "snippet": "close 287.59 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

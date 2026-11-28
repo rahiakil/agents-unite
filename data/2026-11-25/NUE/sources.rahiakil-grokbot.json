@@ -1,0 +1,121 @@
+{
+  "ticker": "NUE",
+  "date": "2026-11-25",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-25",
+  "news_cutoff": "2026-11-25T21:00:00Z",
+  "generated_at": "2026-11-28T01:03:01Z",
+  "collected_at": "2026-11-28T01:03:01Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nucor\" stock after:2026-11-21 before:2026-11-26",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQS1TU3BLbktNV3pwY2VGNF9FTlA0Wkl2aTJmUHdieXlYQmlkdUdxNHBEdTRTbUZfaW9UYms5YklXczlhX0k4OVU5SEhMbmt6TC02S2lHMm1DOU93RkpLQlJKR3A3VGVfS3J6bEpybWlyRHNGamRqcFVCVkJQSXd1RDVUVDlZUFd3YTVQcXp2S1Btc1RlTWZyRTJGbkU5NTZScHlSUVVVOU9pRG9DUVh6UWwwb1poRnRtZ0RQazg2dGRJZnpQVXR0TF8tTzZaamJQMkd6S1c3emU1bTdJQlpIRFR0UQ?oc=5",
+      "title": "Nucor (NUE): New Buy Recommendation for This Basic Materials Giant",
+      "snippet": "The Globe and Mail, 2026-11-25T17:42:18+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-25T17:42:18+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ0xSemw0dEZ1TzMwajFkdkhwVFlaMmJjTkNsOU9YdDNFSVo1T1Awb1hlTEEwLWhSME5CS3ZPR2dGZjNMQlBqR1BUYmRQTjdNMjBPX3hQdnhXSnhwSEJHX0RadWlQR3dtRjRZc0Job3B0RlBxY0lRWW81bm5DM212SzFJOTJyODVSeWJxUHRWU21ZRXpUbFRkQldmejFxeHI0dURfZkRoUF85Y0phQl9TVUVWbUUtQWI3b0NXME5WVmM0djFwZVE?oc=5",
+      "title": "Nucor stock: Bank of America keeps Buy rating, sets USD 300 target",
+      "snippet": "ad-hoc-news.de, 2026-11-25T15:00:43+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-25T15:00:43+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbUVNeWUxeS04eVdjXzZialh1OTNzcUZfM1A3Q09QcnB6cUtwcnRNUlNXU21teDRsejllNDBHNGt5SVRRbXh2TXZuTW1qTmxlR2xZMVVyMUlINENyclJmZkdiYXBTMnJnZ3AtX1haX2Y0NjZTRVp4R0E3ZHdpWmtiV05UaUlWLXNWSmFsMk1wNU8zU0hONGFhVWpIU0xwenNXM18yY25yYXV1dkRDdkZZWDFKejJYbWNxeEUtNllIYw?oc=5",
+      "title": "NUE vs. STLD: Which US Steel Giant Deserves a Spot in Your Portfolio?",
+      "snippet": "TradingView, 2026-11-25T12:23:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-25T12:23:00+00:00",
+      "published_date": "2026-11-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSC1XY0RWcUF3dVV0MzBneDhsaERIVXloVkJBVjM3SVdRdk5SQ3RSZnlUTFRNTE1qWnV0SVFnT012WTV6X3ViazZ4YnNseVNpcXNmWl92UWc5dUIwOHJNendkOXBiTXBGamZjMC11aDJsRFJ0dHBtRHE0ZHA5cmE3VGV5UXBZd2d6QUdYajQ3NDRmTzU5RHBSMmNzWUdlbDdsaWxxNWE1YmtwM3ctcy10RUhVS1BPS1FDa3loUjZ30gHDAUFVX3lxTE5ESVNoYm1UU3ljMVlhT3RYUDVJUmVrSzkxQlhEQ2wzNHhzbFc1Y09iY21KTnQ5eVdUVG1Dd21kTDN0WHBFNnJmMGxIdHJqYjJlMm9hN1YtY0lYWWI1U1FBZ2FaVm1PY0swYm9rSTh2WVJSbTZXajY1ZW1ZckNfTDZrTWJqUUZaNmEyYnEtZ3NzOExDMWJlVGtESGpQVDFWVGNDTnFMZV9rNDl2M3MwcEtPUUYzU1IwQk9aeFY4VHRuWHhLQQ?oc=5",
+      "title": "Nucor (NUE) Could Be 17% Undervalued Following Its Q3 Earnings Beat",
+      "snippet": "Simply Wall St, 2026-11-24T15:09:05+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-24T15:09:05+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUTZHOXEyNFc0bV85STRsTWpmNXVUUjdqVlJJd21odUJhc2hQbWhYQ2dRclBNSXg0U0hzVVQ4aEgwanRMU29qck5qR3FyUHBaclllQzBvNkVpWFFoWUdFODhPM2lvc0xCMzY4RTRKTXNmOWpYU1AzLVhNSkYwWWhMVERPd1RYSTV1aXltR2ZhQkc5eU1hZHlnN0dIbndORFdVbVFGQW1nTVB1RW5zYmVrVHNFcw?oc=5",
+      "title": "NUCOR CORP (NYSE:NUE): Affordable Growth at a Reasonable Valuation",
+      "snippet": "ChartMill, 2026-11-24T09:41:20+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-24T09:41:20+00:00",
+      "published_date": "2026-11-24",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdWFsVHNWdHFzTG1DMVkxU1BZRTd3RzNIZW8wOG8zSE5ORmlaZmt6Z2pOMDdzWV9KUWtoM0pZREVmcWEyQUkzRGY5WnlUclJTc2UyWlp1SXdBZF9iZGp0M3g2LXQ4al9lYjMtSHdpZjlmQVZtRE04Wm44bWxHQVh6ZEVmbUZXak5NalVrWnVZV3FZS0JhdEZOV2ZBN0hSS0h4TUdESw?oc=5",
+      "title": "Zacks.com featured highlights include Progyny, Wolverine World Wide, Teradata, Nucor and ConocoPhillips",
+      "snippet": "Yahoo Finance, 2026-11-23T12:20:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T12:20:00+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRTVJNi04aV9NR0Q1NWlGZ2VsM2F1WnE0cWo5MC1XVTJqeHZ6SEoxTV9Ua3RNWFo5WUl3bVdkUHZXWVlValZJUGZ3WU1YNHY5eE50aUJldUl0M3RjQVZqZnBVZERLeE8wOF9GLVhDLUZCOWZ4OEQ0Rk4xMkhHWEJ4N000RmJKUUY0aXhXWGo2bnFwNldWU3ZpbVFBeHQ?oc=5",
+      "title": "Nucor Stock Outlook: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-23T08:35:08+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-23T08:35:08+00:00",
+      "published_date": "2026-11-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NUE/history",
+      "title": "NUE daily price history (Yahoo Finance)",
+      "snippet": "close 248.34 on 2026-11-25",
+      "published_date": "2026-11-25",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

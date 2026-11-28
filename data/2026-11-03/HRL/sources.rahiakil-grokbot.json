@@ -1,0 +1,49 @@
+{
+  "ticker": "HRL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hormel Foods\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUUxvVEFyVzJ2bnpzc0Q2eWpjSjFvVnFHYTlCX0QzMWl5WGhEbUF0Yk9iai1RWVJwVmtmQXp5d0tXRFJETHRkVkV2dWVHdnZCbFM5UGIxVTZIQVc4Q05NSzE4eUplX29FT2VQNnJOWWNiWWJGdWViRFpxVklNNzVOYmFNWUhBamVRbE00VHZadnZkakNPYWNMVm9WR2hQUlhnTm5kRW13aUw1MHNLdEx5S1NCa2FZanFBdFREN1pVTEhZLXBZMWxZZ1phQ0tjb1lDTC1QV0VlR3bSAd4BQVVfeXFMTk5hMFNNQnVDT2FmR3g1Slp1ZmVkaVFSaUJSc3VxdllWeUNVX28xNlVZZEwxVXVhaE9QVkRieW44dHUtSXBaM3J1Sl9SQUZFZlNTTVpxdFQtUktRNHlJQ2pUUGhGZEw0bnFpQW5SaFVtTGtXUWdkY19FWjlsRjZvTXAzdXhjZzc5amcwOTVmeVU1SWtpalVoNU1IV1pvUEdjNEJaRHMyaU9WSVpMS1R2SzVCbEZnV2gtV0swa0JTdkJXSVNvZTRJMVZoR1RrQ0lDcjRHTlZfY044akFKcVNB?oc=5",
+      "title": "Hormel (HRL) Stock Could Be Below Fair Value On Steady Earnings",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HRL/history",
+      "title": "HRL daily price history (Yahoo Finance)",
+      "snippet": "close 21.26 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

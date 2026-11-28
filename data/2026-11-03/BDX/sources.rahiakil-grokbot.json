@@ -1,0 +1,49 @@
+{
+  "ticker": "BDX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Becton Dickinson\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU281T1A5TDNRZ19vMXBRV1VWb3NRelpKa1p3Ujh1WGxweW01Wm05dWVNOXF3UkN0SWlsdlRGMzgxM010cmJsYmtoWGlwQ1FZM3NqUVdReFROSExJTXJZdHQ0TUhTU1JobnNDVVp2V1hqS2JYMEJNV29WVkFqRFppRVJRY2ZuaWJCdTk1Q1MxV3pBek5ya2dfSFcyYWp4RzNXUFZFTWEtVHByenhhakpJSWt2U1d5a3FRX09MQnBrdmJQSVljUUFxVEE4UXBmTGPSAdQBQVVfeXFMTlc4OHppR01zYUJfVmVoV3pqaExDWlEyTmpVV18tT05NOHE3bFFDWVk5Z2c1eTRaRTFqLXNhaWlmaU9TR0Z2ZlBDdXRaVEJackQ5NTRfRmNlcEoxSmNpVWE1cnQ3enFoa3YzbnZzQlVMQU4tWGsxOGlDNGFaZFdoT2NRMUx5UTFrdUppUVpZdmJXb0tjam5kUDVsYTVtdThudDNQVldLbEJMWjJaOEVQNjEzN2IwSUxpVFQzb3dza1IwaFVoVmo3M0xxdFZjbXlmRUdfZGo?oc=5",
+      "title": "Becton Dickinson (BDX) Stock Could Be 15% Undervalued Despite Stent Graft Launch",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BDX/history",
+      "title": "BDX daily price history (Yahoo Finance)",
+      "snippet": "close 198.17 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

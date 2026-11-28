@@ -1,0 +1,109 @@
+{
+  "ticker": "AKAM",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Akamai\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOUFURGJlRlphLTJiNG1FX3dzSnd6d1ljN3A3T1NfdXRWNF80ZV91ZFlYUXFQa3RyeTNPVVRkaW5tdzEyNnhGN2JFcE42cGJzWW9FQVdXTUVWblZHaE9CLW0wVGFiOWFyTURBUVYyMnQxcTlka2I4WUFjSmF3OTJwNnNBcVNVTmppdjZza1VR?oc=5",
+      "title": "Why is Akamai stock down 6.2% today?",
+      "snippet": "Traders Union, 2026-11-02T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLVhxcWVLNDJvNFZPVjlfcWZnY2NyMVh1S2lxeXNmdEZlVlFZZ1hyc21VZ0paajVTQ3RHRTdWdFZONEl4ZmpSNmNfd0d0TFZEVVFmbkhFMnZ6SFZpeC1DTHBiemtGQS0yd2FsZGlVZmNVR2FfbmFEd09XMkRBWl92NU5kR1duQzB1QldGd2ZJR0QzZnNHbzVuSk96MjlqaUtHcl9hQjBuRmw4UQ?oc=5",
+      "title": "MazeBolt Launches Native Akamai Deployment, Proving DDoS Resilience Against Known and AI-Driven Attacks",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZXhiSGJvSnR3eGwxT1FZcUZ0LVBXSzBHZGlqTlVNSnJqMWRDREM1WE5abG9uWEhNOVFIbnhSd1hZQ1R1WjNtOWtxNnFaR0h5LU9mY3hFNDZ1a0FFNWxBRzQyZGZGRDc1dGtEVlpEaUNTVUZvLU94UnNCVVhXWm04eEFaNENHRVVFYTNVWnM3ZWNqaVROMlljZXpTNzRKSGRtLUNlT3p5czBVX21LSk01RkRvaGg5WmxqbU1lTUUwcklWSTlWZGg1QXYzdFk3X1VYWGM5N3VR?oc=5",
+      "title": "Akamai Technologies Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd19aSDRtYzgyd29pZmZXM0N4UnRXWTJGTTlhU1Q3dkZJWTdHV1hjNkVpWDZDTGNIODhQcloxU2NrM29BOEhsV3NqNFRPMUZOUl9mRnpsblljR2lyZHBocjFqZk5XN3hZVGsyQ3BLbF9lMnhGRlY1cjc5WVc0MHZKQzRTcUZ5OEtXbXZ2b1hxdGlkMzV1dzQ4MDVCZjg4b0IyVDE4a0tIZ3VESW5jY2JJTGMtWDM4NmoxNDdEeWFYWlVHUHlOcTdF0gHMAUFVX3lxTE1VdTd0T29VVks4Y0RtV0VZSTNWUmtFWkNyaEpqMGs3bHBEeTNEZGwtdHdVc2xYUTlsQ0dCSUVHUlZBMUNlYWhmbnRaVXc4ay1SNDRHMmd4S0d2VDVlYVo0N3pUOXhtQnF5eDN4cTJrb0pUN1kyajB4dmpaRVZqcGNsSUtQNk1JSmEtS05TN0wwZzJFSzJiTHNHUHFxcTBzeEUyUDZDMndFVHAxQjNZZUZYbTU4dWRiWHNFQVlsdi1ZcGlZSDQ5NUZPYUxaQw?oc=5",
+      "title": "Akamai Stock In Focus After New AI Services Launch",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYlhlNVo0S2ptU2NSV2pjMUpYeUZsUEdmdU5uQ1o4X1c0eWJ4TVBycUtXYUIybDRtcVg0MldmRHJ5WUR4RlVac2xtYmg2eGR0RVJIcUFVcnZGdERuQUx3Q3MtcXFYaThSWlJmbm5WVDFxS2tJeF9IcVo1NDBWVzNQckJ2MjVyWWxNcmdwdFFfSWloemx0alAxbWkyR0tNa0VrdXlOa25vV1haNDFpdGNiVnAzYmZJRE9lZUVibTZB0gHLAUFVX3lxTE5ESTJ3clhkYWNPaGpadUxYa2x4a2F0RmFweVAtQlItYlJsb2tkRGZFOFJKOTdvbUlHWE5RbjBPSFJNZWtKWjYzbU9wQWY5aUM5bURZcUNsOFQ2c1VuV214SkN0ZVlEdC0yT19zRXVrRkpUTE85SndyQ2QzbHhZR0xzdjkyNHBHZkY4SnkxeTgzb255M3JzLVNrSnNqeF9Obmhid3NESUMxcnNMQ0ZLcU55RWY1Qm5QNk9YWm1jWHFucm1aOEpUOUNmQnRn?oc=5",
+      "title": "APAC Records Second-Highest Share of High-Risk Login Attempts Globally, Akamai Reports",
+      "snippet": "digital terminal, 2026-11-02T08:00:00+00:00",
+      "publisher": "digital terminal",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSEFUbjBpamVGb3AzdHdESjFiTUJIUGhVcjIxTzJ2eEFWMDNjVEhiSWt5cHVuNXFBd1FHc0t6NmEtUkZUVWdnTDFEdFYxNGdJWHNNMjFQVTdtbTBpM0tpN2RzTWFUQk53czlJaG1HLUhaVWZ5OUxNZGJIdFQ3QkpDQXgxVHdUMlNBeGhpdUhBMWZJa0gzX0V5SHdJYm0xUjNCeUZDRnFFaUxPVGlKMnpNUXVLSnppLTRYQUVBWE9NaEk5MHZ0MFg1ZHNKYWxXQWIwME51QtIB2gFBVV95cUxQY1VhU1FMQWd0OE5YR3hyUEgxclRsWnp0aVEwS2EwbnBtVFgwaVMyUzRERGNhYXJROF9oTDZGRkVwRG9FQTJyaWpIY1dGSXVwaVh4WW5pRkRleVRZQkJsQktQcGY1MllQcUZvNmcxSDBSaGlUcHlNWnVJR0FDS0Z6LXZEa2ZJVTNCeWFZeUJmVjF3ZWJlc29YZmRRNWRNdHdEVnFzLWNmTDIxUEZNNkp4Vjdpc0wwa3FZc3ZMOWQ4VHpNdThtWGlpeTc2b0tNNVZJZ1JIYXREcDFjZw?oc=5",
+      "title": "Akamai Technologies (AKAM) Rolls Out New AI Stack, Is The Valuation Still Cheap?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AKAM/history",
+      "title": "AKAM daily price history (Yahoo Finance)",
+      "snippet": "close 86.53 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

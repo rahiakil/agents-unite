@@ -1,0 +1,94 @@
+{
+  "ticker": "AMGN",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amgen\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGlUX3BvNkU2WjE2ckRTdTZTWkZ5d1VqcS1hc1RJOW43X2N1T2JtRldGZDYxeWxnZ2RQTklxMzVJejZiOFhoUV9rcmJZQTNFSzhTVXNQbER3eFZDdk1oZDlEbE92RXhseHZvVEowT2Y1bFAwRmduSEJqcllSTjNxQXBFQTBCZHF6MW9MWFNITQ?oc=5",
+      "title": "Amgen Just Gave Its Shareholders Great News",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZlZxY1lDd3VCbG1wV010SWduWlZnZXZwZmhJdTBPSlhPRV9Bc2hldUUyQklmYUlMYUpQUUpYRExtYkduN3ZCRGpsWG5kZW14LWdxUFNKYVlGRWxNRTVfNGRORWp1bXFybWh1amowX1B2VnFicUY4UFNIQmxRNnQ3RFpYT3Q1YXZIMHVXM2w3RmdsTkJSUzdlUmc1WVY3dVp5Rkg0OGVJYzRWdDN6Ti1ISUZLcGNXVXA3UFo4N0J0MTBJMHN1SHZuUFNNR2pyaU9rc3E3N0Vn0gHbAUFVX3lxTE1ZandGVWRFSVBIQ2RwSE9OOTFaZC1vYUw0WnFFdi1HY3lVV3hCZ2VZT2JQS3RIUFludXhWcUVYSTVrMndrVjloNks2V3JvZFF0aUl3M3Rua0F4YUVRTnBpZllGQ1hsU1BxZm9RUWJiOVZsNk5UN1ktb09WWUp3aXBhU1Axa2JSbTNEamxYQ1pRUUpEY2MwcTVRMkFDWEN6Nm5lLUdlMW9ZbjJYbkhSUnNaYUF2S3V2SlB3V3lzMEQtRTR2a2k3TnlRM2poUl9iNUYwVWlJUFVvOWNhSQ?oc=5",
+      "title": "Amgen (AMGN) Could Be 29% Overvalued Following Encouraging Phase 3 Trial Data",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdjdmbUl5c0NkdWNlaWY3dVRvTEJBdFFHUFJGVFRmaFZsZWFvelRMZGpJVUF4TVBobWY4SDBoN2Fsa0NWcWQ3YkRkUUQ0eWpGMnZSdFdPNUx1UmpHUmFIY2VIZERaU1B0YkRPSVhCOURfNXhWaUdmN0QzU3czN2wwMThPUWp2eWFkSkNucmVGSUtXQ0RTRVlOMEprTDRIclBTV1NjZjhoZDBucS1sWTVLYUtSWnp5YVo3MjlKNllGOU9DWnVId253?oc=5",
+      "title": "Amgen (AMGN) reports Q3: everything you need to know ahead of earnings",
+      "snippet": "TradingView, 2026-11-01T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcU9Sakh0MENvcDBEQVNZcktfVGE4c1BxY1Vpa2ZxY2VCVE9vUWtfOVhHU2hvY25scjdBMXJYR0FSenJYRGNPWEkwVUJlZDlGczB6N19aT2hMZ2VyTU9DT0xsZnM5bndKUzNEbW9zYXRDM3k5eDE4ZnUxaW5BTG5sekZEVnZqU3hIVy1XbmxyaHZzWkdkLUEzbkcxTW44SDcxUGl3S0tsdmhiaS1xVWtlWnc2Qmo4SkI3NmVDTlUwMWtFR3hXb3RKMVJSaG5rVEnSAdQBQVVfeXFMTVBDRHZzcXI1Ym0zVGpvZjFWdVJrX2lsakp3aDBXb0xUSDlyQ1ZKYjNrNnFOWkl1aXk3enlMV3FjakpGelJhNE5pMmUxWE0wQXNoSlFGVk1wNEUtUXdFUUhUMDRQYkJjTGRtMjhiQy1Bak55WEVaMDhhejRmR3RjMG5Ta28xOV9BUWJTN2wxa1g1dHdlS19KTi1lNEdEMG13SGZ6Y0VLamlnbXlQOVhRdVJNZXlTSlVDU2VNdWdFSzNzdlVKNC1IckZKSnBtdlpqQ3NKejU?oc=5",
+      "title": "Amgen (AMGN) Stock Could Trade At A Discount To Cash Flow",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000153/amgn-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMGN/history",
+      "title": "AMGN daily price history (Yahoo Finance)",
+      "snippet": "close 461.26 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

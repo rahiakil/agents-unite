@@ -1,0 +1,49 @@
+{
+  "ticker": "BEN",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Franklin Resources\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTWFORFdZZ01OTFBvQVlTNnNfbEVvSm1CMXhrM0NERFBWQ3k2TXEwaUFlSFF4bks3MHdjcW90SjYydDVwNllwc0xta3JRcEZMcWhSbTJFWUhrS2NVcjNCUkdxamZzWWh4MVZmY1JOUlNxZml2RWdBRHRFTUxzczAzRjhaWjB5NHBYcDd5ZFQ5MnpSY1JwM1VQcHVEWHVVeXJKM0hSYjd0dmxIUGhnOFJUeHJYUjQ4N3FBR2ZGeUF3Q2xOYzlyTEhRYlg2YjQ5d3lOMmlLWkdaZXFySzRoRGJBaEJkSEQwRXdVQlFrRV9Icw?oc=5",
+      "title": "Franklin Resources, Inc. (NYSE:BEN) Stock Has Consensus Target Price of $35.89 According to Analysts",
+      "snippet": "MarketBeat, 2026-11-01T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BEN/history",
+      "title": "BEN daily price history (Yahoo Finance)",
+      "snippet": "close 32.36 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

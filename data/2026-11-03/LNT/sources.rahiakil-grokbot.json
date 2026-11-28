@@ -1,0 +1,49 @@
+{
+  "ticker": "LNT",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alliant Energy\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTUZMNkc2eWswNWpjejBtZ3hCTkJ1dFMwR19LRUFOTVV6aU5CNllKcEZqbU1kMHlXck1rU0s3VDFvemN0NG5JbG85cHZKMm5hOFBTRnJWemV3U2ZUM0xlSVc4RVNUUWVMalZRd0hvTEZWa3pKUGhXVUhENFI3dlZ6QnBnYUFnaEs3SExEWUM2cWVMOGptNXROekJMU0pqVnBTOFFNNG1OSEo2Y0ZwbFBrMGpQSXhMeWNQYUhOTWlUTlRYU3hCUUxMSllranXSAdIBQVVfeXFMTzd6RVVnMS1JYnNzTDBLWWVlUkc0LXhtakVVSUt6RTJxSHg1UTZrMjBQYWdfdVBQRGlmYVFzTm51ZV94LXQ4UzdEVWNLX3JzdkhtYjV2YldvQm83NEJPakRVc095bVg3ZjlDZTNZTmw1dmFrY0pZbTdEMTh0aGthbUxHeV9JbjFPRUR6ZllSSnFNMm1weEpqUUZvZERHRjZRRjhCZXgzU3FMcUZUOVR0cDNjUURjczVJdlVsUVM1RHpUcVdnZl9mc1o4cnh2MmZ5MU53?oc=5",
+      "title": "Alliant Energy (LNT) Rallies On Earnings And DOE Loan As Fair Value Debate Builds",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.832,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LNT/history",
+      "title": "LNT daily price history (Yahoo Finance)",
+      "snippet": "close 72.12 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

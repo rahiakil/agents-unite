@@ -1,0 +1,61 @@
+{
+  "ticker": "EME",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcGFXNVJtQ1lmaXBxYmNrOHBVajZrVmZET254Zm1NNUJWTTZNWkNPRmhQaS1hVnlDbHBqS2JDa2V5V3B3YXpURmd6emFtVFBmTVlfRndnVGdhTlExWmhfWjRvTDNBRzEtVmdvMmxUYVMtenc5am9XLTVoWWJ3ei1qQ3F2NHRhOEhBNlJTdFMxVEQ2TDROYzhCNmkwZ005QnFWOUg0ZjBXYlMwbFVvYU5LMHRqbDZkNUFEQzZ2YTFaQ25IN0drV3c?oc=5",
+      "title": "Cantor Fitzgerald cuts EMCOR stock price target on execution focus By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNmU1aWVXMFNOUjdHb2k5eF81QXAtMlNVU09CZmxybWE5eDRKNTFSbF9lLW9URHBXWG1vRWxxQndMaXRNaXhmMjhBR2wtcWxLU0xCRl9XRi1RUzd3dU9SY2lkcU1penJOZmhUM1VQb1VGU1hHLWNuWm1DNUFJMEZIVlFhYnJlNzBXUHRTWFVoMDlQeW9pRXg4djJVeGIxMVcwa2Y2Z2JKMk5hMHFWTDAtei10cVRCcFRxRjVkQm96OWQwd3dHSk52YUNaU3DSAdIBQVVfeXFMTWtHb2xoZk5iYXNQdXNWVnZQazUtWXBocHpXX2VRQ3pIZWFMclA5bGhHVi1KTktVMUZodld6OTNuUG1jQTlDUHNmNDU2R3ZyWnJMdFRPQm5rNEJZeUtYZ2VINnFwMDhTbmNreXFRRy04eDBKbFgweWdKcTRJR19oOXlRTnpIdVdmYy1EWWt4UDRSNUdJV2tfdjNyTkhnSnJ4cmxMdUYyZzdocnltdXpiNFJVUVFnRXR0ejVXNXhRQ2pGeDB4ZjVfajB2M1VIT2VyaVJR?oc=5",
+      "title": "EMCOR Group (EME) Raises 2026 Outlook, Is The Pullback A Chance Or Is It Pricey?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 707.43 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

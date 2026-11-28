@@ -1,0 +1,61 @@
+{
+  "ticker": "CMG",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chipotle Mexican Grill\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTk9EbnlWdXE1a2l1OHZwOEFXN2t1eFdDLXlxV2I5eDdFWkR3N2E5RGJiTVljdFgxMGhJUjZSWXJJOVR2aVctUk1jeGkzR3VxNlRVbG5Rc1hMTk9QaXNlSjVaVE9qdzJrQXY3NEdYZXFoT05meld1STAwWi11SnAzTzlYaHBFeGtWMm94V3ZiSXpKb0VWeEE?oc=5",
+      "title": "Chipotle Mexican Grill Is Down 15% and Growing. Here's Why It Has the Makings of a Monster Stock for the Next Decade.",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd1NGbFJuZ0VMZnBkNjJydjYyWnE4QnZaMnZSdlNBazcxUFhBUlFpbnY3MERrNWFNTk5XZmcyYk9CaFhScEFOdmxQNkhhQXRFUTBpd2FjVXN4bjM1ZXduT0wwXzY2ZTZEM0hNRHJHLS1FVkhDX3BiXy1SUG9wRUdsMm9uNDkwMlJfTjhkM3B5MnQ5VXJNTlJzUFc4RDR1QWx1VUhQYVdHa0VHX1p2WkxLbU1KTEltTW1YN2hrLVZLUnZlUlA2M3hvejloVGNZLUVEWTBzNA?oc=5",
+      "title": "Chipotle Mexican Grill Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMG/history",
+      "title": "CMG daily price history (Yahoo Finance)",
+      "snippet": "close 33.26 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

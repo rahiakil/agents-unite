@@ -1,0 +1,49 @@
+{
+  "ticker": "GPC",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Genuine Parts\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTFZRNlR0RnE4d0VabkFmbEdqZXZEOEJJdEZCSnl4NzRtSmNXZVF4TXdjc1BQMUtxN201SWZESmRDaktJS1BPYjc1NEc2SkR5NFJ5eGhHN1dxMDFPS0pUV0VKWnRBckhaMnhBQUp3clRKeXZmYk44VXJjUkYxc0dfMXNwX2JLZUVqdTBIQXlHOUFucGNiNExuaXF6WTZWbXVPamVLRnVJYmdSR3hsaWotc05RT01tTmlGRzdIY0FFMGlYdW14THfSAcsBQVVfeXFMTkh1bEp2SkFhWjFlYVdzREt1STNnZW9JM1czQUJ0bWY4Um1aeWRkSmtUb1dpaXNsc3ZqVzVsLW1qbXBhSENFbXhwelFUT1EwYWIwc19SWXpkV2c5OWxnRUEyQ2dNLU52TnhGMDlrcEJlYm56c0FDblBIb3FvbzJxZTNRbDVFc2hzVUFUc3Ytd3hLbDQ5Q3cxc3hXOWszWmNhdXROc245N3dzWS1ZVFRCd1dnQzhhcUM5TURlMk4tdl9YUmE2ZkFfbVg0VmM?oc=5",
+      "title": "Genuine Parts (GPC) Just Gave Investors Something To Think About",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GPC/history",
+      "title": "GPC daily price history (Yahoo Finance)",
+      "snippet": "close 124.27 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

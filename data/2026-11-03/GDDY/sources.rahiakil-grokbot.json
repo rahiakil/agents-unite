@@ -1,0 +1,109 @@
+{
+  "ticker": "GDDY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GoDaddy\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN1hxdjNJSEZrWk95ZG9FQldpdGxTQmFEREFrYUZ0S0Yzal9FamZFTnNzVTgta2NtLTA2eGhuRlRXUHAwdm8xekk5dUd4N011cDNkeU9IZ283aFI5WjUwZDNIMUZ2MkpZaGVxV0gzSktmYlk1YzAyZDBsVTJtWURLUzVLSENocGdsNGgzVU9oWXBvY3NFZjJkejA5dW1jWENVdnhWSlRZOE1qOFUyeWtGNE5SMUFCSWl1OTVkakFzMVNMb1lTeWE3djlMUW5pZWdt?oc=5",
+      "title": "Citigroup Forecasts Strong Price Appreciation for GoDaddy (NYSE:GDDY) Stock",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObEktaDMwcUNiLVFFbE9WcjREZWdSTEh0cW4zemhhSG1pU29ZOWpXME8tLTNrSm56TTVJN0FYd3Y5TlFVV2hPX3BwZGlSSlMwQnAyV0wzTzFqNzdCVkFPdkYyVWNueVJGYzJlYkZtWUtuYWNYVUtXNFdDZGRPaldGa1djTXZkckhzdnh3U21uZnlmTzZWQWo1cTlELUhoaUJKZ0lTVUhuOGt5cGU1QnZGRzhmaHc2Qy1qb0xfUFVYeTPSAcYBQVVfeXFMTmNCUWRyTEhDNlF4bnhRQlZNeVpWOFNRM1NjYzlsaUNUNkJyUnV6Wmhvd0Q3YW1uRTFMWDVfcVNsY05QTjFyRXl4S0xhd1RscXNlWTg4ei1vSlNKLXNnT1BWbkxndDZBaFRPVEZSQURDWjBZZkFqWl80ck5sOFRPOENUTzZZem9aMUdsRjhMTmhPUkZ1cHRZdFpuaVRjYzN5Wm1NYXlMMkhSLTBacmhtOW1EbTAwdVc2SHVjNnFVRXBBTFEyamlR?oc=5",
+      "title": "GoDaddy Stock What Changed After Its Earnings Beat and Airo Growth",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS0J3NDd0U3dqY1pXTll2TDJEM3l4VmdXOC1IdlcwWVY3WkdwVnNUaGVuSDdZVWZPZG5FY1lTUkNjOVBaMHdPQ2tmbXA3LVNnOTRUSDY2VGMzUXVvc3dVMzFhSWEwUUlXNEk4Q0V4dEZLb2hEMGFfMmpMRmdFMkxnWWxYMkJUVzJST1JOaQ?oc=5",
+      "title": "GoDaddy: Sell The Recent Rebound As Growth Slows (Rating Downgrade)",
+      "snippet": "Seeking Alpha, 2026-10-31T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tcDlNbmxIVkRULUxkVFNldFc4V1pBYXRpd25CdERXaFhVNTlNRVY4S3ZCX1NmX0w2NzJuLV85bExLYlA1d1djY0I5WGJsZ1lNX0pFMEJZaWU2aDlQM25FVEw2XzE0X2NERHB1OEF3Wk1uVGlxR2c?oc=5",
+      "title": "GoDaddy: AI Is An ARPU Tool",
+      "snippet": "Seeking Alpha, 2026-10-31T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcXFIeHlNeGRfdExQTW03Xy1Ed3FDdXFNNHdRYloxZnNtbF8zdTVpZnlCUE1vWHR5MVBuNnFvNEUtMExSSFpuTjFRdTRnX1JneXpoa2xvWmZBc2Utd2lzd0ZjZGx5S0sxZFFIWGhORk5IV29BSnJyMTZBdUxja0ZBWTVsZlRQLWZWdC03X1dFS0ljWGR2NVBuVQ?oc=5",
+      "title": "GoDaddy: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM1ktOTFoQmNnQUtwcnZtZHpSSWtfNHAzWjNmS0xKNjlqQUJDMFM5R1BLcVNiUzFDYVd1ZC1KeTJFZWtxZC16Yk9fQ1c0VDBsbkFZZGNOLUVFTHV1Q1oyd01zdU5pWjdoS25OYTRSY3VjOEt0ZXNKcXNvNkVKUUx4YkZIQ3FiV3RoallIRWRYUzFVY0RwQUh6NW1TTWYyM1I0LVp3aXhRb2NLNWlmWEdCcllHcDl3X2oxbDl6Zm5qV1NDUdIBxwFBVV95cUxOZ1hhaFd6SFp6WDY5VzQ3Y2VFbUR2WnhxdjYtd1VKUEJ6aWZVbm0ta1FTc3YxYTJDcXlWTWhwWFFjdllSS0Y5emVNVjA4MXJyMWhDVEVTSE1xUnJQZHZ1RlQ0NUJTeUVIbGxEdE9oX29sYWhvOVRoOW1ZSXFTZ1J3U3NrWHhRX2tySjNrOXE3YmNTTzBFVFByLXV6VkdVeHZ2TWVTTFpTeUlORGJvMXJFOUx5NU1CRVM4NnRzLTkzLUNTT1hWd1Fn?oc=5",
+      "title": "GoDaddy (GDDY) Stock Jumps After Q3 Earnings Despite Balance Sheet Risks",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.559,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GDDY/history",
+      "title": "GDDY daily price history (Yahoo Finance)",
+      "snippet": "close 113.45 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

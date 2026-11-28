@@ -1,0 +1,49 @@
+{
+  "ticker": "EFX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Equifax\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVUhkNEp5QlJfakNNWExsZDJnUG83NWR6MmNDeVV6bnYzNUJ2N0wwT205SXM4aTBoWkpuVnlNNXdzWW1tNXJsTURaUktxRGE3dEh5TDJISENkclJqaHE1c0VlSFR1b1llYXhZanNKZDc5aHFJdFI0LTdVR19XTHFnNHRPQ1NfbHNqVE1BMjBaOTBQTmhtZU1SRk53Z1V0dGdRcGI4cjFoVUptVkdwTS1ITHdkTmp2TjJhSl9LLUg5RDRLUkVXRmxkX3lXS0k2Y2fSAdQBQVVfeXFMUHBHYlFZRnowZlNqNGtxSVhhd0UtYWFnTk9lSDNoVkZwTnNyT29kUThzUnFfZFVuNWpSVzRBVW5MRHhwY3N1clM2dUVQak5qay1ZZkxBby1Sc2JOT3JXY1Axb1VYNjFESEdjeE12d3Q4UmZtZGQ2TDlwRzBzSVBianZwU3Z6eUc5dVFKSE04VU1RSDhQYWVtNGp0RVA4Tkx2MGpFd25xSV82aHduUUpfQ0RZQktMU2FwY0owaURQT2h6SjN2dW5lendPNEZZYmxLcW05dUs?oc=5",
+      "title": "Equifax (EFX) Beats In Q3 But Cuts Revenue Outlook, Does It Look Fully Valued?",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.584,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EFX/history",
+      "title": "EFX daily price history (Yahoo Finance)",
+      "snippet": "close 187.72 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

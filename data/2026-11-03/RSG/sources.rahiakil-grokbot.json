@@ -1,0 +1,97 @@
+{
+  "ticker": "RSG",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOXpGcGNqU3BZSElpSzExeV9EMWNwUENzSmd2VUZzcXlRR2pfcDZLTV9sZVVaSFJ5bXRBM0xiWk1ZU01rYklrSnlQOXpnQ0JQSFh6d2xqWVY0Q0xvY1JsYkRYLVhjSEI2YnhLdGx1UE5Yc3hWWDhOaHc0UmJ5cXBvYmVaa293ZlZoNXRIZ0FSQndGVzVXbWQzSHROV3FUUFk4SndEYWFZOWNwdjQ5NWxkX01wWUhCdkVVc2NCQ2tWVnJDZw?oc=5",
+      "title": "Republic Services stock: Higher 2026 outlook, 5 billion buyback",
+      "snippet": "ad-hoc-news.de, 2026-11-03T13:14:54+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-03T13:14:54+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMTVIZzFYcTlZMk1TSk9aZWNXb1lKbGM1SFFjR25oZFViZ19PbmlUTUo0eGdVZnlNdGp6ZHMwN1R6SUlFZ3pvc2J6QzhfZVdUNVBSVEl1X3NrSzQzRHp2eW0yS1JLVzFxXzNhc21JYmRsNlpfZTBzazdIX2p3bHJZamNoM2VDYzhGNUphZXRyVUEzRnFudTdYUFpkOVYtWThWY3RpVWNsRlJwWG4wMGpaREsyZXRvZXU1T0xHZW1DSGxUaG1yQnJWenFDOGpVQQ?oc=5",
+      "title": "Wells Fargo cuts Republic Services stock price target on margin pressures",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ0dSQWJnTmU1cGJIZnZ0STIxbWFwVlotOXFxYlUxS25RdHF0ZzRnSkV1U3VZZ29mQ3RzR1hRdi1tc3BhZXBrWVBDVVJoczE2RlZvRmFrMzZhVFZMQ1ltWEY0el9mR1U2cndZMEJZem1BSlBpVGtpR0c3RUtSUV9PUElRLWwwaWNxWTFWOUljczgtTnRnRDM0emJfcHktaEFXUVZDMk1MVGJyQzFWMGxiQ3BTcDZaTG0xT1pSU0p4a2ZfSHVhRndZM1JCTEs5YlZRM0NNa1ZB?oc=5",
+      "title": "Republic Services (NYSE:RSG) Stock Price Expected to Rise, Barclays Analyst Says",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9OVGdlWkExRW9KYW04OXNYZVZFaGhzbEFIRGE2N0p4Rnp1ZmQyMF8yZTYzblNwenVzdC1nY2RpdlIwblhTWGRrWjVSUjE?oc=5",
+      "title": "Republic Services (NYSE:RSG) Stock Price",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1RCemRYWlFjU29ObGU0b2VtVVd1ZWtzMl9fQ201SkJzYWwtVFFCLVZsakliTzJENWl0T18yemhJMlZkZTZIV2pUZUlpR0xsWVNmNDhJTHNfRVdBd0Y0V2xHZmN2aWNrVGd4cUhRenlFV3NWaGp5Z0UtUHotbFY5TzhzanlBVnpuZk5SWFBJQ0ZCWDJ4YTFWWnFTajZEN3JYUHc?oc=5",
+      "title": "Republic Services (RSG) Stock Extends Q3 Earnings Momentum On Cash Flow Strength",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 242.87 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

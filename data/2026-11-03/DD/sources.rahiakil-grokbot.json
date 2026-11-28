@@ -1,0 +1,67 @@
+{
+  "ticker": "DD",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DuPont\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQXg2X1M5R2FiQ1BVcWJjbkZtaDU4dHlzcnExRHB4RnhheHZiVGJLLU9KaGdXOVpmZzdLX0IwbXotd0E2SEI0UGtwc2g3YTRCYWo4WGxOVDdpeXpxNHVBNUZ2TVBuTVlGc0tvLXl0UUNJczVSUF9ndklybmh6eW8tbzZQWHo2RjE5algtZTBpUndia0FHeXJzQnpjR05CUQ?oc=5",
+      "title": "Bet on Winning DuPont Analysis & Pick 5 Top Stocks",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000058/dd-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1666700/000166670026000060/dd-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DD/history",
+      "title": "DD daily price history (Yahoo Finance)",
+      "snippet": "close 153.46 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

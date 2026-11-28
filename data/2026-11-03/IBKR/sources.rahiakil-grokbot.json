@@ -1,0 +1,85 @@
+{
+  "ticker": "IBKR",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Interactive Brokers\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 7,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN0ZkZzYxQTNsSEkxVnhrTjhSQkN6MFB4bWRCaGNWbGdJc00tNVNxMURoak9vMklWenQ5R092N2ZueWxKWk8yYk9neXJ3ekpHM2luXzk5UnA5cGxrMWp3MzV6R0g0REg2bDVmWXlxNVZnSmlRcEhiQl93TmVKM2EtMFE3NmpVZmt6VzhHMXdSV3BnWVpodzZNOXF3UjhMcWVEVm9Dc0FnbWY5Ulo2cWU2Vy1hQmFBWm9QU0tMeWpXX3VSU0N3RE15VGRjOElQM3h6R3VkS1RuSQ?oc=5",
+      "title": "Robinhood Markets vs. Interactive Brokers: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZlVaNkdvUjNIOXlOSnBqN09Xejh6dEZSeFA5RXEzUUk0b2lWbUV5dHdGM2Z0Q2tNd1h2OEhJWmx4djlmLTlrTVgyN0VRMm12VXJqUmdNTFV2Q3JTMy1xSGhBR2I0dTA3aXY2a3BXR0dnRmFHLWIxMUlxaFluZVUycnFGMVF5aGxnS3p6LVpseUxSY252cTk4OHQ4QUk1RFNYQURYQzRyZjhJd1NiVTZhUnRnOWJTSGVSNXpn?oc=5",
+      "title": "Interactive Brokers' October revenue trades decline 4% Y/Y",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQXZ2M1VZQkc4bXRpV1RQU2xoaEFYV2prYzVxTEVfcG5uYnRVdE9YNjJ4ZGVvWUpkc19nWEdYenRaLV9sZ0VtemplVWxxSkdlUnZiejFpSlJjZUt1TDV2Ulp2NlBWXzlhbzNOLWhmSHB3N3dROXNsY1oyZGhIUl9MbVl6NFFySXFvMzdhaTNfWk9KUkx3ZTJMNlppTXdGVDE0TDNOVnhuQ0VYZms2?oc=5",
+      "title": "Interactive Brokers Group Reports Brokerage Metrics and Other Financial Information for October 2026, includes Reg.-NMS Execution Statistics",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMWtRbkhDX1Vldi0xaDZ5d1BETk9rNi1YTWxBRVVFUnpBZVc1NmQ5d1kzd2Nnak1mc1JtczZxY0k0NTdkWFM5a3pIRVE0UlNFM1RJNnYzbmdOS2VBQV9jT0c3NU4weG1rem5Zd01kX0RPem9Zd1hrOVd1ZWZJNkRJeGVzOUgzQWlBbnMwa2ZiaDZMMzB1M2VxTGd2clZhc1NUbE0wZlV0R0ZfbEFVT1ljWjhSNkhxRExOZDNsTFRNdk53TUFGc1BHMFJjZnRBWEpWUUJwQjRPc0pnc0RUeTZfSTRlOHRIWktfemg4LXhua9IB9AFBVV95cUxOWmcwWkdvSHFWMFV4elRhRnZ6RC1zSDR5Vm1LT2lLWHRqaVJlZThSeFI3Y0d3MmxvMXQyeFhWTjNwWTFnU1daZFlZSzNlaHFrV0ZseGFuRUFDbzdoU0VPeUZhVV9UYzl2V2h0TGpWV01qdmpvZjJjUTFtZ29ZWU1aZGdPWWFUZEJsUGl4MXR6eWlfcWJKX1FOQTh1d3lOTXAyVjRFa2pPV1NxSkh6M3kyZV9hdk92bHc4bUVwRXR4VEw4aC04N09MeXFYXzBnc0xpT2ZQLS01dnN2MFVvSEsxSEd1YVE5dTVZR2x6OGhSU3pVOE1x?oc=5",
+      "title": "Interactive Brokers Group (IBKR) Launches Autonomous Trading, Is The 6% Premium Already Too Rich?",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IBKR/history",
+      "title": "IBKR daily price history (Yahoo Finance)",
+      "snippet": "close 77.46 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

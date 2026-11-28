@@ -1,0 +1,85 @@
+{
+  "ticker": "LULU",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lululemon Athletica\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYUxsRUs1U3cteF84amk0ZVV2Y0E1TDZHS0FBZlV5WnY4X3NiY2dRYi1UMVFpbDZpakdfbWZ0enEyMDczTVk0OHAxTUNXMjBZbTdDMVJjaUYtVUpXOHNFRkdVWUl1Q04yY2ZKZGNiVlJtRGgzT1loSDk5alBQd0VNeTFiWEJCN21vX19kYWcxcF9qZ3poRVZNN3djYw?oc=5",
+      "title": "Michael Burry \u2018Docked LULU\u2019 For Near-Term \u2018Uncertainty\u2019 - Believes Lululemon \u2018Will Come Back\u2019",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdnFkXzBsOTRIR3dQNEhHQ0xTU2ZEamU0Q3lyY1AwaTZkcE9pNzUtZFp2YjNtNDF4dDFWQjNHaFg3TFg2OGNxanVSRXhjNUE2R3Y2TWtmRDZ2eS1Jb1NrWjlQY3dZZ0RJaGw0WTJpbnctOWdaTnAyTi1jVzUzcWx3dVhVOUxkRkV5eU0yY0xSRHVOUTZ5eHhwQUFEM2sySXFocWpsUGFoU29uVzdLX0NNY2ZmdFFqeENsRFJCQ182MHJMeGZ1dXRfS3E0b3B4UzlsLWx1b1R1SEZjSmtE?oc=5",
+      "title": "Colgate-Palmolive vs. Lululemon Athletica: Which Consumer Goods Stock Is a Better Buy in 2026?",
+      "snippet": "The Motley Fool, 2026-11-01T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVTlzck50TFZSRTJlc05xeDZsV2k3NVpFbWdpRi1uM1BqNi1ybXFLWk1qbTcwMU9pOXB0aENtb1JoUXUwUFdpOXJjVWVIYTQ4ZTdrTlkya212b0l5aklWVHcwTUVFWnVFaGpSWjdHUWxySXJ6RjRXdzRTTlA2ZERHQTVlVDdIbVQ0MXNVTGhJNDRPY2M3RktDWmlIeWhFZkpScVczWC1VdXlld0swaGdaUkJRbXpWWGZoTDhrZ2dQQWtfNkNpanhJVmFOS25oSkVKbnBfSg?oc=5",
+      "title": "Lululemon Athletica (NASDAQ:LULU): A Quality Investing Case With Strong ROIC and Zero Debt",
+      "snippet": "ChartMill, 2026-10-31T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRU5GSVN0N25ubzM4VTQwMUVoUGVDaG51OHhvNDFaRVc2b2VRejQ0dS1QNTZ1UUxhTkdqeGRqejhUMUtPSFZlMGtJejQyeVBvbEhLSnhEbks3WlI4dW1Nb09ybldBeGw2VlN6SElhN3NxR3E1eTR2NXVRWF9VbmtUUGZsdUNTN3c0TFZnbjVzZ0VNSHVYTDZnS2JrRDY2VW02YkllMG5rX2s2S3VnWjNoMERXNGVkdlpuVjgwTnpOeC1sb3ZIdGkxTUlCWDhtSkZIXzBjSnJQOThncHFPZlp4VtIB5gFBVV95cUxOYlREYVdHazI5UDNROVhweWp4VEd5LWtZTU92cHdPYjFOZEh4Vm03UElrWWV3V2FlYm9LQUdTNEdSSENxOUwxZFBoaGNTUXhKM2RuNG9kbW16QlpveEZuaGFGWU5adEZERDZyaU5aWklYSzkzckMyb0tRRktSUlQ1RkVlY0hoYnl2YmF1OFBlU2s5M3BJaXJMNEx2bmlaeDJlbkkwX1czV2FtTl9SU0hEWmZJVldCSmJuVWNKQlJKTFFPVThTLWVxRnZibDlKUnN0WFh0VVBoTHI4aHRCWVNFeTFNNHZPdw?oc=5",
+      "title": "Lululemon Athletica (LULU) Faces A Valuation Test Following Weak Earnings And Board Change",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LULU/history",
+      "title": "LULU daily price history (Yahoo Finance)",
+      "snippet": "close 106.95 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

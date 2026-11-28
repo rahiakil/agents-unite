@@ -1,0 +1,49 @@
+{
+  "ticker": "Q",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Qnity Electronics\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSXlKaXRPS1NBR0hETkVDTU54eDVobmpGdl9aU0lNMjFDSzVNOGJ6bWg0djNyTHNWcld3M1V5Rll3Q2VkQ0piT1Z0aXAzZGlvQUIzaDVHSW1Jc3hqdUhPdzN3VHk5bmtCN1ZHVk5WVlEzX3VIeDRnYXRNQ0taM3pOS1RTYjlmSTh4SmRBLUlUb1pkS2lHb2FQbUttamtrYU43?oc=5",
+      "title": "Qnity Electronics to Report Q3 Earnings: Is a Beat in Store?",
+      "snippet": "Zacks Investment Research, 2026-11-02T08:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/Q/history",
+      "title": "Q daily price history (Yahoo Finance)",
+      "snippet": "close 118.89 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

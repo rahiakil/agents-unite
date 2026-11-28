@@ -1,0 +1,139 @@
+{
+  "ticker": "L",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Loews\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqS01YXzY5YU1keE5kX0hRYzlwV3pqbmNsWDQtUkVZVzJ3cS1Rc1A2bE1JbHBYS3pPN3RKN0FaWFNOaTl5dENCSWNzOC16b2RpMVVEMHMzVC1tSTNyaDJkLW4xckFDTnB1SHU1WlN1dzU0Q2RkZ0w5cg?oc=5",
+      "title": "Loews Q3 2026 Earnings Results and Report",
+      "snippet": "MarketBeat, 2026-11-02T19:21:49+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T19:21:49+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMWdfSlZVaE9XOE1laEJSX3ZMdU41dDFLR1JmZEEtcEJVaGhOUlVlaFYyZTc0SzBXSmpHdG5GTlZ1YnlhTFdkMTJBZHI1cE5lYVU1VEtWX3VuajNlT1l6MDdVREtpU0xKa2VXMjVqYW9NM19xeWhVbDlmMDdlSHlLQWRYb1BQS0psX0xPdWw2TmVqTDd6UmdlRVFUNHZudDlwV25McDZ2QW0yc3lWMEw3cVJVcWhwcjhnQXdlUHd5OVE2WHA3alNN?oc=5",
+      "title": "Loews earnings fall 39% as CNA reserve charge weighs",
+      "snippet": "finchannel, 2026-11-02T18:46:19+00:00",
+      "publisher": "finchannel",
+      "published": "2026-11-02T18:46:19+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcUhneUpvQTZSSFVxWnZHNVphWU14Xzh1SGpYZHc5VHE5NEFYanpMNy1UNWt5MFkxS0ltVDlYQnFWVEtxdFFpS2lhMml1S2xDYk5GVHRRaDQtbVprWnU4blZFSjJ5bEh3eEh1Y3pGRE5GMnNaNkNfaGkzeTFMWDJVRWJhOE1NYXRpQUozZmtPNXZkN0N0MklRUjNtaHVHQ01qb09TYW9iNVZmS0RhdFE?oc=5",
+      "title": "Loews shares jump on third quarter earnings beat By Investing.com",
+      "snippet": "Investing.com Australia, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.791,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVGxqRTRWWGxGZUxSLWhYWkhydVBUODdYSUV2OElWY3FkX0FTQ3I0aEFHcGdxQTBDNDh2SzBFMUhhRGZpeWFFRklLMjF1NVNpQWNvSGtoRUZKTnNJWk1FM0FlWXE3TlhIVjQtZWNxWGpCX29lOEF1RWZDeTNmcllYNVRtLUhqeHRuUzFjZjBrbw?oc=5",
+      "title": "Loews Shares Rise 3.8% Following Third-Quarter Earnings Beat Despite Lower Net Income",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbWxzeUJpQWlBOEdOWTRWSUlnQktTQVNQZnpVcWo2NW0wcHNjdmxQSXUxaVNWdTVEZHhoalN5NlYzVWdCSFdwVmlRLTlSY1ZuRkdsV3pTSUcwb3c4akxPTlBEWWFtV1pFWXZxSlNWNHB6VU5jblM5Tm9rNlA0bnFCSHJMY1JUeDlLakltZUc4OUxKWVBoTWpwZnVFYnFielU5QlIzemYxM0lrckhVZUtheXphQXk5eHRKVnVzb3dmaXMxUQ?oc=5",
+      "title": "Loews Q3 Results: CNA Weakness, Hotel Growth and Pipeline Headwinds",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNWs0UWlBQ0NrMkFZcFBXVmFRX0htY3E2aDJYdmZaUTd4VHFtM1FMZGR4cFF2QmtUdUg4YUsya20tV0JVY2o1THUwX1d2Z1I2UW1jX3VHSXNXVnRNS25GUHVVby1tYkVnYkZHT2NNRkx6YjI2RjFPUlVncHpGdnBkMjUyWkNJRjBRY1NhV3NxUlU2aUlyNmZCTS1OblkybUxUbkJ2b2sxcXU2WXhUdXk2d01pckIzUTRfeUt3M2tEN0JMX2VPU2pEMUo5aTJ5RnBmLVRJamYyNy0wdw?oc=5",
+      "title": "LOEWS CORPORATION REPORTS NET INCOME OF $306 MILLION FOR THE THIRD QUARTER OF 2026",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaEE4ODU3QW01M0V6MlFvbUd1ZzgtaUZfQy02Ry1SNEJuOUk5VXBrampXQUk1b2ZOUlJkako4RnFTNEVySFpscFpsUVpwNHpEY3EyT2RuT0VGYlljZjJ0YlBkV0toc3FEVm9TNFFxVk90dEJJdkZQcGRWM3dCQWhIYmJpcGJCYnpwTlNfdDZEMVh5RXhkNVU5X0tn?oc=5",
+      "title": "Form 8K Loews Corp For: 2 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/60086/000006008626000054/l-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/60086/000006008626000056/l-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/L/history",
+      "title": "L daily price history (Yahoo Finance)",
+      "snippet": "close 109.97 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

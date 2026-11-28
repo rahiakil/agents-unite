@@ -1,0 +1,49 @@
+{
+  "ticker": "LH",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Labcorp\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPby1JVjYzQml3QXdMMVN4Y3MzeDlWZkNWcUJoRVFRaEM5UWhudGlNU1VaX3RTVG5lUHNVQkhvdUFncGdJTEJ1RXNwS3pCeGtFaV8zUzQ5QXhFeDZlalBFa200T0o1MWR5Q28tOFhMTTFqRXlaMHBfYkVRdjQ0d3R1QXpmMzdzVFhLMWNIbGZYS01xREU?oc=5",
+      "title": "Labcorp\u2019s Q3 earnings call: our top 5 analyst questions",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LH/history",
+      "title": "LH daily price history (Yahoo Finance)",
+      "snippet": "close 353.92 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

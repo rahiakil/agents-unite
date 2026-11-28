@@ -1,0 +1,58 @@
+{
+  "ticker": "RVTY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Revvity\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV1VyWGljMG9zTEU5YkIybjZkdDExVEdQMllZd2tRU0JtNkZQUXhlSk0wdFBFQjBveGFGSDlIOHRKblNwOG90Rm1HUEd4c0ZqOXpzNDNpekl3ZGtzOXJOR0hwLWIwWTZQWmg4ZTUzbHU5aDZ6SjhrcXBTVzNkYUtGR0d5eTZNLWNhQV9lNTlKMFhJY3NQZmQ4T1NZMmlQNzFSS1NmblFLbmNnMFlYNEZBQ2RKSG91c3VfQjVzOVlkSzRYNU84Z0NlSW9n?oc=5",
+      "title": "Why is Revvity (RVTY) stock rocketing higher today",
+      "snippet": "The Chronicle-Journal, 2026-11-03T15:40:00+00:00",
+      "publisher": "The Chronicle-Journal",
+      "published": "2026-11-03T15:40:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000031/pki-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,8.01,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RVTY/history",
+      "title": "RVTY daily price history (Yahoo Finance)",
+      "snippet": "close 163.48 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

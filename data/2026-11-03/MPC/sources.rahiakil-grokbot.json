@@ -1,0 +1,139 @@
+{
+  "ticker": "MPC",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Marathon Petroleum\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 24,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYklpa0pFS2RqN3NjbVZhMTBBSW5fNkUwVm1ya2U4XzJxMmVvd1FmS1RraU1zQXBzTkZpdkotVDQxNW9SVTdXUXB4cnVfbGpNQ2NWNl95TzlDRnBXMjNHVUZ0UlVYczhYUE4yYWJoZm9BLVlWdlZVZi1aMnFiRW1SNVR5WThkYjU1aWJzNFNpQ1VtZUZG?oc=5",
+      "title": "MARATHON PETROLEUM ($MPC) Releases Q3 2026 Earnings",
+      "snippet": "Quiver Quantitative, 2026-11-03T12:10:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-03T12:10:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdDRaTkJ5M1BzZE95T0hPSUZsSDh3SjFnTkVxdFJHNUw1M3l1Z2ZHR1NidFVhLWs1SENpRjJBTE8zWmlBQW5qVkxMRV84S2t1cDlzeXd2b2xKRzljaWFpaWx3bWZGWWVBNHNIS2NORkFOV0U4a3NrYm1sVnNneGkwNkZlVEJPTUkyQ0xKaHNEc09XbEdUQ1lIby05MkRFZmVJU244cHZR?oc=5",
+      "title": "Marathon Petroleum Earnings Ahead: What Past Reactions Say About The Stock",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSTRlVWd3bFhvb0lYT3lkUWt2M2dCaGJDeFE3MDV5RDRpSDhVc0lxeWtiaFZEdFNHeXdrVFcybU50XzNpVXV0UEt2RzNXWmJLZ2hNNjdFaHhBSjQ4Si10aW4tdk9yX1A3RU9DRXhGYzV0MG5FRmNOQ2dhNjdwOFZ0cjdjZVpFbG1qbzJUYnlRcVVrcFhmajdrS3oybnpYV2ZkeHZCOEFMbFR1VmhyRk9QUm5yZGdoVFRXYlNmdXpFa1Qzclo1QlRvSU1HTUxYUnFUNnBLWGxB?oc=5",
+      "title": "Marathon Petroleum Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTUhYSW5PN2ZJZUlzX0hjNXhpMExxZm5ndU1MTTNmVEpMUGp3WTRiRmdTU2dORTQ2ay0zcHZmWHdia1ZLSzQ0V3gxbmdpRWJXQ01oaUxHM1BOdWJMMzZqckNzTnF3Z0ZmSnQydU4wQ3ptQ3RLWlYwUlZEZ044SEVQellYTjdyMmtUWjZXVTBoalhFM0FOTW95eDI5aHZycENFejZHam9oeWZOeWJMWFE?oc=5",
+      "title": "David Taylor buys AT&T, sells Marathon Petroleum stock",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOHdNRndfSFEzZ3Q5a3NYWDlxOUdvSm5UWURwWWNXaUcyLTYxOXczOTEweHBBTEFqcWJjTlNseFV6Y0lhTm1HdW54V2lNcUotTkYxcEhUUTYyUzJTX2tZdVZOcFYwYTY2Sk9MYVZGZkU3a2RoNzhFaHRYY19jakhFR05tU1BMX0gxSU8zanpUYWRIdW52NjlOcVgyVWpqdTEzVXVz?oc=5",
+      "title": "Beat the Market Like Zacks: Marathon Petroleum, Amgen, Chevron in Focus",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON3hBSnFsdEx1YmNPREUtRlgxZmxYNTlpOEJoSndWZGJrcWN3azdPZHltSkFqek1DQi1OeVRiNXhESjl0RW9XSTM0TEZEN21UdkNzUGdhMVgyZVoybVhfV2ZueEFQbUZRYU12dS13cnhCUHl4Q2FoOEtLNDlzN0NNbGs3dVZjSWtUQTRFSHJpTVhKaFAyUnpFc1hOa1JVa2hXSzk1MUJZbE1zX2VuS291UTJ3Y0NGYWc?oc=5",
+      "title": "$1000 Invested In Marathon Petroleum 15 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-02T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdWlUWFgtc0ZuVDFmSUJhbFkxWjlTdmVLandDdGIyWlF5SFFnOGZGWUN0cjRIeTJIOVdNOGNOUkxkRmM4NXBlbjZBclFlWVVOaVJCUUpoSkxqNFV1WXpKS1FwVUQ5NFJqRVg4b0dIR2k1bHU5WXB3WUtFM1JXTl8yeWNETkxlZlpDbGNteVZ5cURCdmtJd1lOLVhabEN3VUgyaEF0WTYyd3dtTmx0eWZTR2pSd2ctd2pRRU9PRXh1OE9nZk9yN0RveWpwSnrSAdIBQVVfeXFMTWpsREZTME1RSlEwTFVvRXFpNmkxc09xbVNEeElzOU5DN1RSOVBPRk9NMlk5Y1hZdTlRNUdhTmRwd2l4VUVPQ2FpbHZocDlwOXVINk5ha3FjOG1QVTdoZlRObDhFRnNuTU1JSW1uTjAxYXZMLU8wUzM2MWxOd044cWhDbmZzNmZCNmZsUDJrWUROa1FIZ2xYTS1QWDVIeE54Q2xQWXpmZUdyYTdoYVRPVjhSaTNiLWRhZk1URkMzWEVhZ0NSVEF1Y1ZaaC1QSVdURnlR?oc=5",
+      "title": "Is Marathon Petroleum (MPC) Undervalued On Its Dividend Hike And Board Expansion?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpc-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MPC/history",
+      "title": "MPC daily price history (Yahoo Finance)",
+      "snippet": "close 427.34 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

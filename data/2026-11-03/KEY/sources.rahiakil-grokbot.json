@@ -1,0 +1,79 @@
+{
+  "ticker": "KEY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KeyCorp\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmwzNlNTbWZFS2oyVXdnSEROaUlMQVJNWXd5UnNtcG9NUEsxQjBXMGxTaEtqWU85Nm5oNlQzem1fdUNrcFBXZ0VmN0I0dl9jTmJJb3VXMnhpY1cxY0dmWmU2Q0J3cDR6U1phVEVkaVpndTVBYVVrdGNjZ2hIODRQdXNuVkJYQU5DVFF1TlZDdjhlSzhvbDhEMF9mMnhvekl2akIwYkhZMmVvVkJvMExrVEpTc2VGZDRV?oc=5",
+      "title": "Karman (NYSE:KRMN) Given New $65.00 Price Target at KeyCorp",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLUNvWU5lNGZZZUoyaExaNUhlX0FpQmg0WGxJam85ODFSZjJMS0hHQWZxbW9heXRfd3BKRXdiRlNsX09Od2xQS3VWZUZjREFQOWRBQXIybENHRWc0cXNCMXFBN3BQeExBX2ZzT2Z2ZlFfNTNaTWkySnJlZUxhTnFVMHhaLUFxNGRQemhhU3ZiRzN1MWtZbzhaR1YzWGx5YmtMSkdyZkt6Y0dxUWpzU09LUWdB0gG3AUFVX3lxTE05OWY3bTBCQ3B3dUQwOVhTNWhyWHpNMEx3LV9iNXlBSFhhWUhCS0tyd1BkTEo0SEV6dHBwV2hSNUxqeTZSdWFPMzVPMFVHUkNNVmZZU0FyMmZZMnRIeUxjRnUwLWNBTFAtZzU4dmhQcTFLTDVkMk5fNXhTT2FGTkplZXlmWmN2QmcwblFaanNKZ0pTMkNOWHdxazNyYjk3MHFDMXRKdXZVU1F3ZmhvV0F0b0lYUUpkQQ?oc=5",
+      "title": "How Strong Q3 Earnings Will Impact KeyCorp (KEY) Stock",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/91576/000119312526443714/d156521d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 21.23 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

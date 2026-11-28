@@ -1,0 +1,61 @@
+{
+  "ticker": "ECL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeFdaRjlLZ2lHU1NrS1RhSVlmZHVEdjFBQ0hrcnUtLXFFYTlMaEJYNVNJQ3hETjE3TnpRdU1HT0ZxYUNIdEp1Y2FUWTRsdWVPR0hKZktBcFdTY0twVXN1VGIzQUF3akdMQTNBcGVkWGRzb1Bxa01BQ3dYTmlNRlVYUEFPaTl3cHFacE5jenlHckhuS1FuYlhzcTRSTE5iejg0R2JveUZR?oc=5",
+      "title": "Ecolab stock reaches all-time high at 309.51 USD",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWNQQzlnRzRHN2VyaXA1Znlud2pWYUtZWEdoeWFpQy1obFBnX0RGWV8tMERiT0lhUGRMbGh4M0xFRm04SC1hdGZJUlFKczIzeGwtaEMwdklRUEtoOUN6ZlF1Y1ZKaDdNWVpWLU1KcEVZanFQTkotdzcxWGJtUHByVXJaTVYtbVJmajdpUFktRFpUMWZTRmhFbkdXdndmOEw4NER1R25QZlR2VloyS282NlJSeGl6b05nS1B5aWFmMA?oc=5",
+      "title": "Ecolab Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 304.68 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

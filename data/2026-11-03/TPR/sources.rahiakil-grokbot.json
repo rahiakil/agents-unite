@@ -1,0 +1,61 @@
+{
+  "ticker": "TPR",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tapestry\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYTZwRzFpRTY2MmRQaE9qcTAxcWZ3MGlaTkhxY1FMcUVHVDBOVjJHNGt5OEhsOHB0N3dNUzFHN0NRMzloc0EzWnVIZmhvRjl6R0hjUjJ5REJ5Nmw1MWdXR016ZjZYSG9SZzRSeEZCTzE3TmhnSXgxOGFHYUhCOTUxTlk1MjlBV012TlNFaGk0ZnhMbThBbEE?oc=5",
+      "title": "What's behind Tapestry's latest 3.1% stock surge?",
+      "snippet": "Traders Union, 2026-11-02T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZi1XRTYzVkpNVzlJYXpwQUVrV0FWbXI4ekwtZjdJd2lsZXVCZmpiZWN4d3JuLWVuTGRDamhZUmFKWkd2Y3VQOTJHMUgtMWdRNUhhTVd1MEZHd3B6ZVFXVlByMmc0UjVzNGd3YU1xd1JobFYxaDZwSm1ZcXRTVzk1R2hRZENSMkJPTE9GcVJ2NkxKeU1QUWE5Ukl3Y2RDam5SakRLaTZuSi15TFltRG9ETHlVZ21ZdlhmZDNuVUIzbkg2QWQ2Sm5jVjRkcW9oUdIB0wFBVV95cUxOUGRHUEtPTlRzRjY3T2Fyb2RycURoUEhnYUkwMUZZMXlmeGI5bW5WTlREdUxkZE5fV1A4WUhSazZ5UVhFRHBGc25MQlBPYW5CNEVpdnd6bVV0SjdWZnBwSXZERzg2MDNMSkFnbFpTZml5SjB5endoRERGNUpyQVVGR2hyNklUcEd3dk1qU2xkVk5PUkoxWjhQb0pBdFJIX1NUNTJPczVPdnVERjdpbDVQR25aRHVBejBsTzNZMzBlQXBSamhjM28talNTb0oyU2RWRE13?oc=5",
+      "title": "Tapestry (TPR) Stock May Be 39% Undervalued After Luxury Valuation Focus",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPR/history",
+      "title": "TPR daily price history (Yahoo Finance)",
+      "snippet": "close 121.02 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

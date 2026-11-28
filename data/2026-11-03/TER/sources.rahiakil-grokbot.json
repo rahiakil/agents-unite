@@ -1,0 +1,61 @@
+{
+  "ticker": "TER",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Teradyne\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMFhhNDVKWlluUGV4cnpjNk1jM0w4alVpb2c4V1NGVk1aZEtCSzBBRVdlN3lWaEthMXN4SEhpZXA3d2diaEMzZkJvZS1ZNWswZnN5ODV4XzVFakd5V3hTbmNnanc2SnRZOWRDTno4TTE5U3ZwcURyekdJcjdJM1AydC1jbFNSVjFaa3c?oc=5",
+      "title": "Down 38.9% in 4 Weeks, Here's Why You Should You Buy the Dip in Teradyne (TER)",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNkd3aTkxVi1jMURlT0xVVlJpWldEeGZWdE9sTzVfVFlYYW1hRGpHWGpHM2p5RnJDNjlRelpxWUV4R05pVVcxTGxYNmhVUXh0MEMwM1pBdHdZc0ZtdVdfcFZqMU8tR0RlQ3hJQ3lRY1FSdFNCRmp0UkRpLTZ0NVJMTFpmdFI1MDFCaFNocE5PUkY4LVhZZVNiVktOTUM3WDVHUWVzU040ODB2MjZ0SmNDdWtyM2lkVzBhb1B0SXZ5OEtPbHhBRkFVeDlyTEfSAdIBQVVfeXFMTmFCMElRcEx4aDMwQy1YVnZ2aUFvYlNsVVp0R3JvX0RIcGJiMDNKREhFdkdQQzlDYW0tbHNhLXVvTkxQUklwSjdjREtrTUIzYVZKekN2V2pnOHBOREpTWWxSMnJvR1VsSUVUVVE0ZzJ2Mnc5OTl4RFF5ckZkZTR3TFoyRWhvM0Z5QWN1cHBsSDFVVlRFMldjUVlWTkFQMFdESEVKbjMzbUFydnhDekVUX0N0cmxBYW5GX0JvOGc0aTlmUEZneXJMOEQtbEtuNEFEVGNR?oc=5",
+      "title": "Teradyne (TER) Stock Sinks As Q3 Earnings Clash With Margin Pressure",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.637,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TER/history",
+      "title": "TER daily price history (Yahoo Finance)",
+      "snippet": "close 269.35 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

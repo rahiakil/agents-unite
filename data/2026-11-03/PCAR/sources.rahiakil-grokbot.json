@@ -1,0 +1,49 @@
+{
+  "ticker": "PCAR",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paccar\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnAtVVZpdGRrSFRJNEMxa3lIZFlpaEdqTndwa1AyMURadktkMXRXZkZfdllnSnRKaTIxVWNEMXc0aVliTUpWYldkMV9SeWo0Z21MaUhlcjFZaVJqTXhzckRkZnVGQXdFVmZSSVNlcVZ5NUM2X0drYjlJMGlWRkhIWktfN0dreWotS2JDaVZHWlpFU2ZYQ2pNNDlaU1ltYmdhQzVReg?oc=5",
+      "title": "PACCAR Stock: 7 Straight Red Days, Down 7.5%",
+      "snippet": "Trefis, 2026-10-31T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCAR/history",
+      "title": "PCAR daily price history (Yahoo Finance)",
+      "snippet": "close 102.03 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

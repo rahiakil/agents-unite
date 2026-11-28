@@ -1,0 +1,121 @@
+{
+  "ticker": "MRNA",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moderna\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMDhiRUwxOEJIbHZYM1JfNHNKMnc3d0hLX29RcnVrNmxORVpwb2cxYjRxMWF0TEtxa0NpTlpfbk44S3BZZ3NXUjd0Wl96RmV2d00xMkZGSzRpTlIta3lBQTNOX3lPT2FFVjVsalVjQ1oxSjdwaVl6VVFtSzdHX2RidVZYemVpbS0tUXJhMmU4M2drWGtFVnBVakN1cw?oc=5",
+      "title": "What Is Moderna (MRNA) Answering As FDA Vaccine Betting Markets Grow?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZEYtZUxKYzNyQjgwZ1ZJNzJXYlJDRTJ0VFlrRG95ZlBKcWNpYktma3Q5TVJ2YXpsejRYY3o3QWJNd0lwVy13clhwOWs3R3RfUkdKUEcwcWJENHpJMjJwc0pPcWdFNXAyZWZ4eEw0NFJMdlZNYXZDeWNYcWx5a0EzRG5FWXNkTDE1RXMtQk11S0ctLUNMWWxLdE9HSQ?oc=5",
+      "title": "Stock Split Watch: Is Moderna Next?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81RW9RUkdBbkFRTzFsTTE3anBGendoQktMNkdUbUVoYmtlNFJKRHZsSVJRNjdiMU03QjRHRUE5Z0lQTThtZmZlM1RzUnZJeVlSSFVuc1kyRkRuMDdYcUFqcTlNQ1B2eTVWNXV5SnRoRVV2Nl82OHc?oc=5",
+      "title": "Moderna Stock Up 650% This Year as Personalized Cancer Vaccine Battle With Keytruda Patent Cliff Takes Shape",
+      "snippet": "BigGo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.791,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX3R5NXRZS3BwZFpZUXBmVVVBcjhkUlVRd1VLS3M0TXpZWUNrakRtbVB0azViV2VwRkRzSF9sTlVYOERyYXZsNXJ4RTJDOGI4dmxIQkN3cDdEbTJtTXMwQXlCSk9hRVlhSHk2OUZzRnFyVUJQZXVhdzF3czN1SDI4cWtkb0wtQ1ZLRmFTWHVacUFTd044Z3ljc1JQMTdaR0JRQVdWaDMtRDQxWmgxM25rbXVzNkxLZjg?oc=5",
+      "title": "If Moderna's CEO Is Right, the Stock's Rally Could Just Be Getting Started",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeVRBbms4X2h1ZjhEay1lUzFDUWhYOTVvY1R3cC1YRXI0UXRJRWZsc29jSkJ6WFE3NGdXdW10UkN1ZWo1MFZVSGNZaUVoaUF4Rlh1Q0lvSlRZdEFuYm9iYzBnTjhMX1hTSkYxSlJMNEV3Y0RPOVVma3p3S3A3c1E2WHFmbFVoVzBCTUh4cXBwOXJhWExwRVl5YUx3?oc=5",
+      "title": "Buy Moderna Stock Before Q3 Earnings? Here's What to Know",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc2pXYTIzN1EtZ2hCWmFHcUtXck1VZlRhdS1xMlMyWXdzUTk0dXZLZ090QjVJeEZhQzFzemZZRW5HQlNMLXd6MFN4R3VrZ2Zydy1Sb29tZEN3TzZsNkNRQnJFRnFIQ184VHZCYlVxRzg0Z1V1S1BqckttckdJOWdTSlQwdnJqRUtsbERURnBKeXY0bThPTVh6Y2hibk52N1h5QXIxR0JEY2pwaXVlN2l4aTBPSVNueks1cmJsdm5nSnJITVFtM3NXX1dTWURFNUR5VklMSUJqWGQ?oc=5",
+      "title": "Cancer Vaccine Win Could Be A Turning Point For Moderna Stock (MRNA)",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajBuQXNuUU4zX0djU0ZlVWFsTlpGWTFwMkIzenhCcFhTTkthUXBYMGJJQlFTdU9RbVdvdzctRXdSNkRtcjloUUs3TWZzeFpUR05KNC1Ud1NZQzhxT1otU3c5LU9IbXljVHk4ZkZOaVNaWUNWSGhSWFBKODFPQ2kwNTFydGZBOHRRaXFxaHBtVTlkVXR1MmZncEJWbGlrcmJi?oc=5",
+      "title": "How Investors Are Reacting To Moderna Stock Phase 3 Melanoma Vaccine Data",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRNA/history",
+      "title": "MRNA daily price history (Yahoo Finance)",
+      "snippet": "close 228.44 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

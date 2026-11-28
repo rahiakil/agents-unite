@@ -1,0 +1,97 @@
+{
+  "ticker": "SYK",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Stryker\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 25,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1PamxOUFp0R2p0VnRpMVVIM0I3TlQtS1BLak9PM2I5Yjl6a001aWtwelNHem05V0pROVVjOE90NllhczZaNVFNaGFkXzFlSS1vR3ZpZkZZSjdDa0R2eUFQdGFfaTZNRmlUTjBUbkpyVnNOZlpnYlhYbXdtQllGYkdsOXF4d2puMXd3RzJiS044NTNlRHdGbHB6U1h1RzlnR1BUSGNBZjJhQmgxdnZBT2tLNUHSAboBQVVfeXFMT2thZWNVMzdlNE5BNEpESnpweVVacGFPQXVzSDhvQmV6S0U5WmlwMUVJbnFIcGpRQm1zcFc2MlRfUnVPbVhRQU9YVFQ1T2xkWWRPVXoyX0ZySkpqdjlibFhxemE3SmtnaEc5X0NuWVViN2RmYk1kREpicGF6YmMtME96emdDb2N6RW9TZWdpb2lqMmhzcHRkWjJhUWFPdlRfc3hOR2VXMV9CakxwTGlnT1hNQjlEV3JXd2h3?oc=5",
+      "title": "Stryker Stock What Changed After Lowered Guidance",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkp2YjhyaWs0SXpJdjZmOHp0THpoakY0OWNBWGZtX1lSaXNycXQzQ1JxMnpzbFVrZzhPZ3k2cnQ0bGZDQUdOMzZMWEhpTXp2MzdRWE1aaXliNGlHdGhWdFpWNjhyZkVlb3ltRXlYTXMzM3E3eTZrbTNyM0ttRWE4dE1jY2RicTdhUHp2UE0zSlNDZ3lnRlZDSVNSbmNUTUZUZHU0WU8taUhMdGV0d3lkVlNnYk0wWjJNUXR0R0VSeS0?oc=5",
+      "title": "Stifel cuts Stryker stock price target on weak quarter, guidance",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU1VyMVBINmVvQUNaNC1CdmhUUkM2TFpsZHFBakFSUVBNT3ltU1RXcjdUNU9CTE1FWVM2TEZMS3JTWEhqQ3hBRVJHdWZDSDIxaW9wSUl3R1RYaTA4OVRXN25DbEpLYXRsS1d2dS1iazlHeGNkcVlHelVoQTJZeG80WDdNek9mam9IMzg3RUdTYV90dG9jU3BMWmFnU0NlOWtBRWxrUDFOcG80UXc1QlhHZHNYUThaU2pZV2c?oc=5",
+      "title": "Is It Too Late to Buy Stryker Corp (SYK) After 5.1% Rally? GF Va",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaEt2MjhGbGVVM0VaOWlaMmxOazNDMzc3cHg4ZFdYWHI1TjVXWHhuYlBCeUphNU1GN0RrZG1QSXhlaEhWU1N5TWVsQ25YelA1ZVVfaFZlSlp4S1lLVGdMdUNjS1kzMVo5NlRhNXE4OGItMk9fNU1DN1liMmJJRHJady10Vk5RTmlLenNvREZVWU9MM005OXBZZ1BB?oc=5",
+      "title": "Why Stryker (SYK) stock is trading lower today",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU1YxTjMzeWk4d3huTGpQdTY3MnRNV0ZlbVJyOVRRUkRjeXR0Zlp0UEc3R3ZSV0RDSENsNXBKbDJZRGJlYXdxLXZfaHZ0UWM4eGZleVJlTzE2VVZSRjE5OTlsRXA3NGQzUVVUelZvT0U3T05iSzNTODU0SUVKTDB5T0swVFljUS1GZEhCWkVOdzJ0MU0?oc=5",
+      "title": "SYK Q3 deep dive: Orthopedics softness, margin pressure, and product launches shape outlook",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYK/history",
+      "title": "SYK daily price history (Yahoo Finance)",
+      "snippet": "close 310.55 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

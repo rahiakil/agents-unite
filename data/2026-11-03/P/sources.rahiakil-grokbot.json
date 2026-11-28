@@ -1,0 +1,61 @@
+{
+  "ticker": "P",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Everpure\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMExkZ2NseDEyM29FNGhnUE9qY0ZxWDVZZUMtbVI1QXo1dDJYR085MWRrM3ZJY2pESndCSGliYkdNdVNDWks3Zl96QUcwYkZ1MWc2NXJGT0dDekJmcjJOMTlQT2hkaDg4OHBCR3VDb0tlQ0YwcW40d0czUWtrY3BqcnhQNTg1eVRMakphNGp1QVF0UQ?oc=5",
+      "title": "Everpure slumps 10% amid broad tech sector pressure (P:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-02T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.66,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV0ZvNjgyTl9lby1BQVJTeDJxU3ZKUWlLVTFuekNCOGY3eXd1U1dEZERGZENMNjQ3dlhsN253VUt6Rk1FS2hoYnpfRE9DQVNNaEFQdXJwSVNUNTBiX2J4QXZtdGtGVGZjWDE4YWZjdG14X1AycG5UVklUcWlLU2E1Wmo2bmt0c3k3TnQyRU9xYUhNODRCaFA4dHpqRm1BZGp6dWNha0JlOA?oc=5",
+      "title": "Everpure Inc (P) Stock Down 10.4% but Still Overvalued -- GF Sco",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/P/history",
+      "title": "P daily price history (Yahoo Finance)",
+      "snippet": "close 117.65 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

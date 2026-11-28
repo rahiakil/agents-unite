@@ -1,0 +1,73 @@
+{
+  "ticker": "CME",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CME Group\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd0RxVjczdklVUUUxT1VtU01mTm5JYkR0UWY0Mjh3ZnEtZDFqTTA5VUpGT2lzY2NLWWZvcTJGeTlCWnJySlpVS3IxSjVYYkJEVDkxNVo4Zl9Sc1hHdVVrQkhtLXJJSWZQTUIwUVdlUHl0M0dqNzNSSWM2M0l4bFVDQ1czZEk0SGJ5NW1BMnhXZmRtR1pIT09BTGJQMG5TSS1YMjBlWllvRjZobVdoYXJNUURzUE96VVVEWm9yblo5QmJvZw?oc=5",
+      "title": "CME vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+      "snippet": "The Motley Fool, 2026-11-02T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTjlKLXY2NG42REZNbDVyQ3o5ei1tcXA5LW4zNjJ4aVk1d2V6NmJXUkR2YW9rMmJmZHVWcXpQNU1yYjY0U0pTR2N5U18wYWktcVNwWHpXZF9GbVRjcVYtUEZDbmFhWGxEOFQ4ZjRSZ0ppSC1Ea1JDengydXh4R2xIUW5rR1lCTTZWZ1F2dTVIWWJZXzhUNUU2dGc0S2owSzdUVW5CN2RiMG0zenZCWjNXeVhjMFhldGJEb0hPZA?oc=5",
+      "title": "CME : WTI Crude Oil futures fall 8% as geopolitical risk premium fades.",
+      "snippet": "www.marketscreener.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.807,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MajJkY3BIMjVPcHkteGpISDVUS1BPSFFXUFlDd1JWOG1QcmFaenJlMzVLMHBLSFNYSnpzMXNYX1R2aHloazl4WEhnT0dwa0tGR0V6UVhnSXZuT1VsMURjR29QLVdrS05IeUVxa042YUJITFBFVkZISnBzc0ZtNlE?oc=5",
+      "title": "CME : Midterms in focus.",
+      "snippet": "www.marketscreener.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CME/history",
+      "title": "CME daily price history (Yahoo Finance)",
+      "snippet": "close 304.06 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

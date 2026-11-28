@@ -1,0 +1,49 @@
+{
+  "ticker": "RF",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regions Financial\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdlRvMzV4aENxb0tpaXVMNzV4amFzNWVJYXBTVmY2eXRtNzF3Y1RfSWF5Yk1tZjZtSDNLaUloU1ZQNm5yR0otazJ4bjAxZXhhTjlaMl94UU9aYXVxQmZBMW9RN1FHNDVfSnBMRnZqS05fdXVaVW5kY3gyRHVnTERPZGFvR2hWNWszc3J6TjA4dVNvcFM2TlJzY2lRb01YUQ?oc=5",
+      "title": "Regions Financial (RF) Could Be a Great Choice",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RF/history",
+      "title": "RF daily price history (Yahoo Finance)",
+      "snippet": "close 26.89 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

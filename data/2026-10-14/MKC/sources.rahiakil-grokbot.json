@@ -1,0 +1,49 @@
+{
+  "ticker": "MKC",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McCormick\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZk1nQ2w4UDA5SnRfREhQdFlhQ0h6eGZyU2pOa2E0X2p4TnZoc2RZaHg1aWgxNEN1cTJHT3dJODR1dm55TFBiemtxUFRyR0F5emlzSWFibjZzaUFTeU9BR1FsUHc0REx5U1lHeHhnNWp6SXZob3c1X2tlaHI0blVXMTRmUWxDSlpMWk05SjBvZHJ6NDM5YWkyS2FpZ1V0NE1ZaUxxNDFNR2dhd3R6eGVjNTFYSl96V1gzbDlsMTBCTVB0d1kybUU3dnVvNFo1WnBjdDBB0gHYAUFVX3lxTE84MDl1dTZXLUJQZzlMZlVzTmJYNTlQUXNQTTB5LUdaM1ZmSnV6eElEODZ4YzZSczVONThmNW9qUG5aTDRrT2x4VFNZWGgzeVhLckNFY3V1VE41cEdFaERUdVZqYi15eEpmY0tiU3YxMTB0NHZKQU5HNWttVEptN1FCdlEza3JMSWVYRTJ5TC1IZFNZNmw3a0oxbkQyeWVIMkVPWnlCLWFoSXVEbWpCSF9zSkZaZG54ZVNZYTZ5bFVtNUZOdEtBSWdaRFJtLTJBVFFYcV9DMkk5VQ?oc=5",
+      "title": "Did Earnings And Sales Guidance Just Shift McCormick Stock's Investment Narrative?",
+      "snippet": "Simply Wall St, 2026-10-11T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MKC/history",
+      "title": "MKC daily price history (Yahoo Finance)",
+      "snippet": "close 44.8 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

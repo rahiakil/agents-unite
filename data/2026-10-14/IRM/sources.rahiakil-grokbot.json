@@ -1,0 +1,61 @@
+{
+  "ticker": "IRM",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPekJIN1NvM2dwbFBMS0NCSGo3eC0wZEpOcGZQbzNGSXhBeWdLSHRrdmVmcjIwaUNMQk95UTh4VVNGb3hFTDRDa2F4aVI4MzJwVzdiOFJVUThXRlZIaFV2NWpnOWdmYXd1czVSWUFLMkRVQkdBZTk1dkZqVVV4MHVjNWZULVpZQTN6a0pZOGpsYkoySDhXbFhtUTZUZ1ZodmF2LWdQbUxaZ1NiTnd20gGyAUFVX3lxTFB5eWRyR0poZVgxX0RieWlSYXZJMDRZV191S1Nfd19ZTmkxb0VzZUlKd0I2dFFtNnJOT2tRRzh4bXp2Qno0eE1PZ3dsSnA2TmpRel9wSHdlYWJMaTdvRHRTU1R0YWZDeGY1MVZFWlJLODRVbmZ1MFZmb2FEQWJlbXRNZURZZHE0ZlVwQUg4TUIyZV94WkducWpJaU9lQlpodGZteXR0ZEI5b0owU3M2REY1LWc?oc=5",
+      "title": "What Iron Mountain Holders Saw Early",
+      "snippet": "Simply Wall St, 2026-10-13T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQUJuaUduT29mSUpnQjNDNjRyM0tpdXRMWjUtMHlvU2dfSk5EU3FBMVpNbUg0TnRkeGdscVNyN1NqT1FYdEZITnEtcVZMb1BtakpaYXhjTVhOaC0wUXBXVHRLaURoN3F3Ynp4OE8xM1ZNQkQzVmpLaDRrRy1MVDdXTEJNU1p4bjFwcVRfVURQQmNWR0Fub21YUVFMRjhWWmx2Q1dpMERvbWl3OFF0bXphQVF6MUh4dVk?oc=5",
+      "title": "Iron Mountain CEO William Meaney sells $4.2m in stock",
+      "snippet": "Investing.com, 2026-10-12T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 110.86 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

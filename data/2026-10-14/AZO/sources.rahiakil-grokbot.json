@@ -1,0 +1,73 @@
+{
+  "ticker": "AZO",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AutoZone\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjNyMXo2bE9DXy1IcmE3SVpPZVM3Sm5kbEppNWhvY3hMNHNhTzBoci02aldxR3NLUzEza2ZJS0NRZHVBMmkzaG5qZU90QzhaWm9FQmlscDBYOC0wN2JrUWstT3Q3c01tSEsxVVRuVGRVV0RHa1lJVnR2WVhnZzAxeUNwNUdMSEZwaW9DTVVXNnhJZ05GVTdrZ2pEdw?oc=5",
+      "title": "New role prompts AutoZone board member's exit",
+      "snippet": "The Business Journals, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Business Journals",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RTnRwcUVMMDJYNzNPUzU4cDRUZFl3eHEyRVY3VGZuNHo5Vmk0YXNRU2d2MS1BeE5PVGtiUTN3bXdza1RYbEVjOU4xaTA2X19MbkVnZlpKdTZSTklmaG9ka2llcTRfMzFVZ0k3NzNiUHpHZHNYWjF0MUVB?oc=5",
+      "title": "AutoZone Workers Won a Union. Then the Company Fired Them.",
+      "snippet": "Jacobin, 2026-10-12T07:00:00+00:00",
+      "publisher": "Jacobin",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQTlockRkbTZQMTM0VTl1VlcxcHdzU2xYNXZQaHdhNkxMRUNyLXhvNzlWYnZCanRZNTZZdktiSTAxckNfWno0RnVlQ1VVa2JJenFadS10Q0FVcDZqWDNSd05WVC02YU1KZFJkU2dJcGJ5aEZsRmdhbDIwbHZ2Ymx3WUlhMV9KcDE5VXNZWldVTnAwTFpm?oc=5",
+      "title": "Man shot and killed at Cleveland AutoZone",
+      "snippet": "News 5 Cleveland WEWS, 2026-10-11T07:00:00+00:00",
+      "publisher": "News 5 Cleveland WEWS",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AZO/history",
+      "title": "AZO daily price history (Yahoo Finance)",
+      "snippet": "close 2911.6201 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

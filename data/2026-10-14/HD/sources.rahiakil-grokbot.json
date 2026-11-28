@@ -1,0 +1,121 @@
+{
+  "ticker": "HD",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Home Depot\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 42,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 8,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYjZFYTUyUHU0Zkc2MkJ1aTQyV0tXcXZQaXRnSkVEUEo3NUNVc19BelEzT0hQRjYxRmVSNFFydUhYSGpRMjlua0tHcWxiS19NZTdoZkdrWXNxOHZoQW84TmVSOVdoUE04OTVFM2JZUTBKb2hDczhiNHdzelNTVlF6eTBsUDdERlY5QWRpTEMyVlFrY2VMZTczREJ4TGdJZC1ETXc5aXRFblJmNkFheGN3?oc=5",
+      "title": "Home Depot vs. Walmart: Comparing Scale and Revenue Seasonality",
+      "snippet": "The Motley Fool, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1RreTFReXZwWnJGVmo1Rk93V00yVHVTVUNuMC1JLTc2RnNISHJBbHh5cExPYTlwazA0OVIwYXBQM0ppRC1ib1d2MW43Nks3Z3ZNeGI1VmhKdFRlMXpUQzh6aUhFa2lUdmxrQ1NQc2h1NWVTVUphOExCY1ROc0drdFdYSUwxVTZoZG9JdUVLOWRKMXI1NGgyeE9iaUg?oc=5",
+      "title": "Home Depot (HD) Increases Despite Market Slip: Here's What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQmFCbXNfYjNiX2RRckN3bTNXUWMyU1pFZ0xNbGQxTG1pR2t2OFFVLUZQS2hidVBHVTlfbmJZRDRlME1GcmNhQ2pvNGVGRkFKSlFGNGdaS3AxdG1NeVJNckhsNGdpZFNlMF9DVEdETkMtLVNVTzdXWDN4STdsWmRqck5VY3I2cWJBWm0tcHp6aHltUFFPcktQbU1DUURiZlJOMUJqNTF5dXRMSGlOX0FfeHE1RTFZN0FO?oc=5",
+      "title": "What Is The One Risk Every Home Depot Investor Should Know?",
+      "snippet": "Trefis, 2026-10-12T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY2gxQU5qSmtLRjdfdV9wUm8yNElJeXpDN0hpMjRXWDdTejJ1bkRoYTk4U29HMUo0bUJZdEdYeUY2dmdWTGVNMjR6SVV6b1RESG56WHlsd19nVzhkNC1wSzZtX3lEeVJqUlBGY3UzOG9UclNaQVNwYnpYa1FRaEo3blhsbHFTUjZnMWppdW5oZF9KMHZpcFNWV3lORTdiUDFhV25UcUxrQ0xvZw?oc=5",
+      "title": "How Are Strategic Investments Shaping Home Depot's Future?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaWRQNlMwNk1zVGNHekY5M3NpZ0Y1dDNyR2dOeVItTU1YNnI4ZVY3RmxxWUJWZVZ4OHVOTlFoUGwxYmdfX0NvY2xTQTEwWFFHei1aSE1ya2pLQ18wVzUyeTBTMno0RVNGajVHUEJIT3dhT2pPV1YxYmgtNGNJRGhiVEhjaHVOZHBUOHJMQTFDV1hSSlM0RzdmSGlR?oc=5",
+      "title": "Form 4 Home Depot For: 12 October By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-12T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnJfOUJJbHdUUGlwdHFNS0oyVURtVmc4ZWZlMFd6ZnVGYnpxYW9DenIyUURpQ2IzSEoyOE5pWElDYUZzXy1nelphRFhqZ0VwanRJOUl6SDBsV0QtejY4ekZGLXI0akxsOUFDcTUtWVJyOG51OGpJamJrT3RBMzh4S2ZYWkFTaWU2a3BzN3daYkZZbzhSZnc?oc=5",
+      "title": "Jim Cramer Makes the Case for Home Depot (HD) Before the Mood Changes",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPck0xdjRxTlZ4eUV2dm5OTXhha2xPRmFXZ2FrWDIwLW5OeEk3cDBjYWtxdGRraE5NemRBb1g1YkNSVEV1LUFwN3pfWFBTNHk3c0dpb0ZxYjRTdkJDZEFuYjZscEFGQ2lkQ2t2TlFSdlNueGtxSFA2b2x2ZmZlQ0Q5RzR6eU1UWHJMZTd5dWNCUHBhbWYzbE9Kb0xqTEU2OERuZHRMTA?oc=5",
+      "title": "Home Depot and Lowe\u2019s Hit 52-Week Lows - But Analysts Aren\u2019t Giving Up",
+      "snippet": "MarketBeat, 2026-10-11T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HD/history",
+      "title": "HD daily price history (Yahoo Finance)",
+      "snippet": "close 295.51 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

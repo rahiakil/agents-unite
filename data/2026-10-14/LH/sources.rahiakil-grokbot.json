@@ -1,0 +1,49 @@
+{
+  "ticker": "LH",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Labcorp\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS19NWVdqaW94d01wLXRqeFRTcEdQUjQ4a19jZWgwVFVmbVQtaGduSS12NF95cmIyWlpaM2JyQ0xyWk5JaTRaLXFreWwwOGJYdDAxRzFjYXF2cVJYNHZEeDJkS3FsU3RvSVJHQ1pOS3NKRnMwdEU3MjI2cnMyUE0xR2dnNzZSVUp6dUNCRFY1N3dLUnllQlF2eFlEbw?oc=5",
+      "title": "Labcorp (LH): Is Its Earnings Discount Worth the Growing Investment Bill?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LH/history",
+      "title": "LH daily price history (Yahoo Finance)",
+      "snippet": "close 317.34 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

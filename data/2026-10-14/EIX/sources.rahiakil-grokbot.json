@@ -1,0 +1,73 @@
+{
+  "ticker": "EIX",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edison International\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYS12aUdBd2NuTGVIWVdLaFRSd0llRHl5c3pOcDVSOWxMcUhucGJIR3NJbjIzeVVaWGcxTnE4bFRUU1R1OExxZTlJRFRJdjA5VHA3bGVXdDhBS0FYekRkYjYyQ0ZVcDVaWWVSdG8tZDFpejBscmZpeEVuRlJWc2U2N292TWxMX0FXVjZyM29uY1NWYmRDYUJUNmFfSWc?oc=5",
+      "title": "Edison International Offers a 6.4% Yield, but Investors Must Weigh the Risks",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.392,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeTYtaXVRVC1YUjdQX0t6YXkzYnRWSE9tZFFHay1wRFlCZTRRV3BnRFc1T0JocVJtcDR4Q2RUaE1VMUJPWFRjaklySnpORF9KX1pPWGdTQ3NfOXowYmtXRXo4S0NNY3J0Z2lTNjVRcFItd3Y1NHoxYVlLWTVmTFVWcHJadHBYNXVOc2JGTHVxRklLdUdaUzhJekI3VnU0cFd3TWQw?oc=5",
+      "title": "Edison International (EIX) Stock Looks Cheap On Fresh Wildfire Claims News",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdzhJNTAzSFNaQm5TWUhVYXFJbThwSVIyWUVnSmRuTWVjejA1eWVDNTd2cUdnNVNGMVB0SkZNREI3dkZDVDFnNUx5RUQzR2VicVVTUkFqbENtUEVtU3p2S2hYOW14V2xneHdNY1N2WHdKM1dIMEprSldQb1A4bzFiWlhVMnRjUVFaVTJOWVJqZnl1b2c3c1M5MjBpRk5MV0E?oc=5",
+      "title": "Edison International (EIX) Could Be 16% Undervalued On Wildfire Liability Fears",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EIX/history",
+      "title": "EIX daily price history (Yahoo Finance)",
+      "snippet": "close 55.44 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

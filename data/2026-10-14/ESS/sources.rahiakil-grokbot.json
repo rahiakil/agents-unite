@@ -1,0 +1,49 @@
+{
+  "ticker": "ESS",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Essex Property Trust\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbWMxQTk1Ynd0Wm9IX0ZONzVMejlSbmRQVTZiSE5TVVlPZThtZTRvNW9CWDJhRGJPaFlWc2VsaGw1STRuaXhEYVphRTRUeHBDNGdNdUNyZEVXU3cwUGdJbjl4ZXdtTVZOWnRuQ0gxaDZFdHNoODVHeXlMYnhPT0dfTTZ4Ym05OTJjU3EyUDNadGVhbzllU3J0RGpBOUs1V1JERXJLanl4UFQ?oc=5",
+      "title": "UBS Maintains Essex Property Trust Inc(ESS.US) With Hold Rating, Cuts Target Price to $275",
+      "snippet": "Moomoo, 2026-10-14T12:34:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-14T12:34:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ESS/history",
+      "title": "ESS daily price history (Yahoo Finance)",
+      "snippet": "close 269.37 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

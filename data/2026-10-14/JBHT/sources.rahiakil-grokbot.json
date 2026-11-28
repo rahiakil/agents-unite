@@ -1,0 +1,61 @@
+{
+  "ticker": "JBHT",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.B. Hunt\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYU05RkdrSXJpM0Vud3BtcXNUcE5UenNnTThLZ2RVRXR6Vkdmai1lbl9hVVFHYnBLRTZrclR2MkNkZG91OW85YmlGbWxubDR5UUp3aUtBZzkzT3A1aGtVTHFmeWVscVpPQnVETTI2UlBMWGdlUnpROTFhSklpSHdtU3RGSlNabldER0JHMG15R3B3QVk?oc=5",
+      "title": "JB Hunt (JBHT) Q3 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUi1CNlRTOC1NRkxBTVBxN1Z2NXF0S3NXY1FaQVhhMnFodEhZWGJ4WGRxeE0zRGJqMHB4bzctV3pJekpsNDZCZ1NNM01Fc3ZjUHhjTzIwSUZIRWV1ZHI5aHBPZXFCMXVWUTEwLVJIRDJMcVRNWm1CNVo3N1YtbDNkcFA5TzJrbE5oMlIzNy1yOXRGbzA0SVRrNWstejJzdFdKVWF2RThFTWs5bmxYeXk3alB3?oc=5",
+      "title": "J.B. Hunt: Trucker Shortage Is A Near-Term Cost, Long-Term Pricing Tailwind (NASDAQ:JBHT)",
+      "snippet": "Seeking Alpha, 2026-10-12T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JBHT/history",
+      "title": "JBHT daily price history (Yahoo Finance)",
+      "snippet": "close 232.16 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

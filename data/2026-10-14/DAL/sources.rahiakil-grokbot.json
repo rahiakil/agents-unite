@@ -1,0 +1,109 @@
+{
+  "ticker": "DAL",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Delta Air Lines\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVU9NRnU3UU50MTY5VjV6SGpDM2M5VlRjTFY4X3ZlUUhXeU9UMExQRE5kOGM3WXRFVUNpNXpDdXFsbU5OSWNtWG96M2pIVTVENGQ0dnpQQUxob3FIZGhySzJDZlVON2FYZVVFN295a0lZVDFXek1qNF9NVllfNnF5bmlnNGVFSE96V3pwYlB0TUx1N2YxaFdnZ1lR?oc=5",
+      "title": "How Much Risk Is Hiding Behind Delta Air Lines\u2019 (DAL) Recent Rally?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMk1Tb2xmVUZqaUtLRE9HWEFCSWgyOVU1dWF2SzBsTnJFSU1xQzB6SmVDV3owQWo5WUZDTVhhelB3SEx2QzNtTW9lQjlWaVVSOHFBOTBTTTZlM0toWHZUNDZkZlNmOHJ4ZDZjenJQM3RIamMtWDhveDA1ZDVkNUJCTlphSHJnRFpjY1ktSlZwNHM5NU5DRkpNNzJQaExLSW9B?oc=5",
+      "title": "Delta Stock Has 18% Upside, but 3 Risks Remain - Delta Air Lines (NYSE:DAL)",
+      "snippet": "Benzinga, 2026-10-12T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVk9XSm5BaDJGeHUyWW5kWkF6OVVMdVUtd3RfLS1qeUpfU0VlRDd5ZWw0cktobU9TckEyLVZCMmZpN1p5SUtVRVpxRjZJRU01U3l0LVJWV1Vpb2l2MWN4d04wZlpxS0NTeVRNdGZWM0RkZEEtMzl3dGZ2UVg5WDV2czVaVWFTcWZyQXFnVTZwcTNRZFFhSWptdEhlbExGVmtjYU93dUdJQnhMVkZQbzFPNEEwRGI1c05PajEtcE9KYWp4S1JubkpzSzRvNjRtS184?oc=5",
+      "title": "Delta Air Lines Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-12T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTHN3bG10bnNsVGxmd0gweDRnWnlrQjEtQVNYbU53bVRlM0pFaWdKOWtXZEN6TzNxQWExREJpMVBHZXdIdkNxSnpMV0EzRWpSaHNNOXhkUXlleWdLdWk4dkM4cXRtcVBsbWFRbldtN3RXbDN4Vmc2djdxcTJEVi1yMXNUMmpjbkJoNmFjcUlka3l6eGlpNC04?oc=5",
+      "title": "Delta Air Lines (DAL) Reports Record Revenue but Cuts Earnings Guidance. Can Profits Recover?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.45,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWVMUnVhYVpweWxMQlBmMFRCbTE3SkpsRjdtSnBfUEdVanF0TnhDcnVhTjk1dUZKYkpDdFViaE1TclJaZkRXLXg0OGYxRFRKMkl4emNtQnhCdXRnR3BDQ1oyV0o5SnF3eVgxd05SdlpfdjV6Q1NveUdXUXNhNnVhaWFxckc2Z0xQc2JpZ2lZVGZLeWR2aUJPaGln?oc=5",
+      "title": "DAL Stock Edges Up Premarket: CEO Says 'We've Been Around Starlink For A Lot Of Years' Amid Elon Musk's Feud",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS1I4MnhaRVZHVVlJSHdrcHl4X203cExWYkJIMDRnUUtuVVV5aU9ZYThaTlM5WHN1ZkNFbzNsUXJvT2JOdzhMM2xYME1yMmpGRFpBVzh0ZktQZksxYXhGN3JOSDhxalA3ZjAwWmNmN3NrOElCS1F0RXNrNWhCSmZib2lsMGRfUm10SGNoMEJERVV3dm9h?oc=5",
+      "title": "Why Delta Air Lines Stock And Airline Peers Could Benefit From Lower Fuel Costs",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DAL/history",
+      "title": "DAL daily price history (Yahoo Finance)",
+      "snippet": "close 76.65 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

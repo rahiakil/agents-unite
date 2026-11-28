@@ -1,0 +1,73 @@
+{
+  "ticker": "TXN",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Instruments\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 1,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTW1Ja2dxSW1rSDN4bjlWXzFySUppRmp6cWw3eGl4NzFlbkpfTjc3V0dsc1hqVlRvV1JuZGplZzR0T2RtZk5pcUdrZmgtSmtOWW9fRWtFbkk2ektWMUw3eGhBR1gyWVp4VF81LU82NGxKRGxtUmFIZm93enB3cDc2UVY0ajltMjgtTklpMVFSNXNvLWhCM1lhcw?oc=5",
+      "title": "Massive Update for Texas Instruments Stock Investors",
+      "snippet": "The Motley Fool, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd1FxcTdfRGJZVW5VNHY5dVpBeEh5czZnbTZPdWJxLWpibkhaTGwxd2lZcDltRDZZeUFoUm95dTVmMW5fR29yM21xdncxMTNRZFpsblZ3Ym1rVWpFYmZsQWZaenhTcFlBc1k1ZmotNE1vVC1mdTZyWGdHQmplbzh2MnphekkyY0lsTDc0SVVKVzJkazRTSmFBN1RyWlk?oc=5",
+      "title": "A Silent Winner: Texas Instruments Anchors the AI Supercycle",
+      "snippet": "MarketBeat, 2026-10-13T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS2xTZG1vcEdMMjVCQm05dThiX0VrWEVUcGJPOGcwSzhWTWJPN3VZbjI5c1Q2d3BQc1V4c2lZUmxDWmRIYUpZUGQwa21sakFUWXdKV193elBHZkdxZjhUSE42VlR5aGEwdTk4T0FGOG9NOUR3b2tBd2M4SWEwYmE1dmZFWkFkZ3F1Z1Q4V3o2N0lkcE1s?oc=5",
+      "title": "Analog Devices (ADI) vs. TXN and ON: Can AI Infrastructure and Acquisitions Drive Its Next Growth Phase?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TXN/history",
+      "title": "TXN daily price history (Yahoo Finance)",
+      "snippet": "close 280.65 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

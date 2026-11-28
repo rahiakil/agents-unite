@@ -1,0 +1,133 @@
+{
+  "ticker": "LUV",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 43,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 2,
+    "irrelevant_or_spam": 9,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0VnaURSQlViaGcwYmZjQ2ZSVG1rNzV3cnZzUGdLNlNIWHd4UVVYTC1PYUtjRjZCNVdhNWVRME02Q2wzNURMV0J6NS03OEFkMk8tNEc3ZHZPT3p6X2RwTldDR3dmTzRRXy1ERkgzQlNmc2Vvc3ltWTdpY3RqLU9taTFBLUtSaG1ObURnTENkcFhPQTJTdVJmRWppQlU1VGNnRWVJc3A2TXNsU2xlZm8yZzFTNWZSUQ?oc=5",
+      "title": "Southwest Airlines to Report Q3 Earnings: What's in the Cards?",
+      "snippet": "TradingView, 2026-10-14T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU3hJYzFYaFJUMkVTRGRGOEg5dlFOQXBrU2Q4UlM2MHk3U3VWTUNBWG52NmtzQ2xHVDBkbHFaM2pNb21HRVEweTFhMlI5NDlSY2JYeXJkU2xIWXl0S2FxSWxMemtMay1KRFFLbG5WTVktY2xpbDBEY2FpcmxuNUlZWVMwcHU?oc=5",
+      "title": "Southwest Airlines and the Boeing 787: What a Long-Haul Bet Would Mean",
+      "snippet": "The Aviation Hub, 2026-10-14T07:00:00+00:00",
+      "publisher": "The Aviation Hub",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbDN2cDBpYUdJTi1aTmRmZ2Z4cWVHNmVJSHlDRmpSNUYyQnBEUEplX3o5WEVIV0N0clM1NzZ3YWFjVHJKQXRJUUZXSER5SVUzU2xjMmI2dm1WRklBOWtoRVlXd3BRZ0p2ZUhKQWlDSHB3MkJwSXpZUGxXbWkzVEV6WHdPc2xadHo2QTVEN2U2S1U2NkZqVFRuMDl6S3FhckFpc0lNR2gtWTlINVRQMHlRcUZmREVlQQ?oc=5",
+      "title": "Southwest Airlines Co (LUV) Shares Fall 3.2% -- What GF Score of 85 Tells Investors",
+      "snippet": "GuruFocus, 2026-10-14T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ0xfaXRQVEMwZ1dpR01RUE1LVTJLQjYxMkhjaVEwX2JmYVJBcUlxalYxNlJZSFZyQjlSaW5xUGxmeVhmeHZRUHJqcVNFYVUxdnFZeHg5UmNKeUZLcjFjTHBYSW9ySkdscFVEYlRQUFk4b1VQaHJvLXY0T0lMNFdEYVk4R0NuY05DQkZNenJuUXY1dW0tUVdqYkNhcWtORXg3dVVNTG1tNTc?oc=5",
+      "title": "Southwest Airlines (LUV) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejBlRGhEOGpwekk0R2paSXhkQUpRM2dKam1wZGlSd0U5R29ubW51c2ZlSm1xc20wVmFPelZTUUh1OWNUSmZnMlpVOWpGV29FZGhZYVoyZVNHLTdoV1lSc0Z3UWVrTnhMMUZDaHZnT3c5aWV3cVZJT1BGZms3bGZBRHUxbF8wcU5oX0NsbS0tNi15Zk56bVQ4SmVlNW5qS2d3c2c?oc=5",
+      "title": "The Factors That Led To Southwest Airlines' Unsurvivability At Chicago & Houston's Largest Airports",
+      "snippet": "Simple Flying, 2026-10-12T07:00:00+00:00",
+      "publisher": "Simple Flying",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXBUcmJFOVNmcE5nOFhCUWdMd2M3TFp2aHhfZjM5dy1YVHAzVTYzZDVOa1R5VXk3SzBNSEY4cTRDdlVpdDJOaElPbHh3d0dnUS1iZGotX3cxN2RvN0FWQUEtYzYtTlFwMWd2TWFIakhnTjJNVktDc1NDSElFYkt1MnNCbl9ndkJIMkVEb3hmaDJ5QdIBlwFBVV95cUxNNzhiaDFxZGtCTW94a2FOUGdNemw5OTRNbzdHZ1VOcENvQS1tN3IxazRCWTN4NU9oREFqbXNlRXZkZkdTNU5rRHFYdjFvVW5TN05LRnNVNkxjWWhjMGlHQXNzMUJTMS1CN05TbXdQcS1HMzVlbVloaF9DZm5WMGRjRGFBeGdtUnhkT2xwdnZFVzBSQ1BDbFBz?oc=5",
+      "title": "Southwest Airlines launches nonstop flights from Richmond to Dallas",
+      "snippet": "WRIC ABC 8News, 2026-10-12T07:00:00+00:00",
+      "publisher": "WRIC ABC 8News",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZW1BR1dhMjlObERycWZJYWJLbFJzRUZwSk9vcjlhejZ0ZW9GdDBycWdxcjRnMEp2WWJIaU9rc21JZzBtS2RtODVfR2RRTWx3RTVvN3dmRl9YRFNxeU42VDkzUEZpUU5wQVRMNElrWjN6cUR1VU5ub1AwQmhDRnR6Wlo1YnB6cVFFSFVSZ3cwUUVOenlEM0JIUDV2TTA?oc=5",
+      "title": "Is Southwest Airlines Considering Boeing 787s for Long-Haul Flights?",
+      "snippet": "Business Traveller, 2026-10-12T07:00:00+00:00",
+      "publisher": "Business Traveller",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU292MEZCWWpMYlQxLU5ZWUh4cEt0V0dKaUFmdkNUNldTc1hxR0RwRmxlVURpbUkwWVhCdVQ1TFM2cVhwM1BJbk9sTlFQOTZjMjhYd2pfRDdRNFVJRV9ZcU1DcTB4QjgxXzdBV3dxbGFZUnZScVdVek1ZZFd0T1NlMFp4Qkw0c05GZWdVZm9tYmtiVHVF?oc=5",
+      "title": "After Southwest Airlines, this aviation veteran is betting on cargo",
+      "snippet": "The Business Journals, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Business Journals",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 40.83 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

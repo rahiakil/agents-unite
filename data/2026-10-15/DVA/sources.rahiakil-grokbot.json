@@ -1,0 +1,73 @@
+{
+  "ticker": "DVA",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWnVMZXNFeEs2VENGdFNsdjVGRlNjR0NkWkkzZG5NWnNhSnc1TmZudVRJWlREd1dZbHdMN1QxSVgycEUxbF9HMzZrTUl3alYtTFVRWHBZYkU2d3JaZVFjVXJuVXZpZlQ3ZnVmTDZ0clFWcTVkeDBScWFSTDBUZEtuNE14U2VvS0VTRTNzUFJfOFQ?oc=5",
+      "title": "DaVita Inc. (DVA) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-14T23:53:56+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T23:53:56+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTlU5bFVobzlUNUwxMFNwVHBELXRhUDlYekh5dWlCOFRUUm1VMVBsZldJUVBMeURNMENRd3g5aXlnam81NEJQNExkQTVNVVQtbEpHLTc4Qm9fTkZtMUVqM2RYTDlLdHduZDZNWGhUVTRTZ2ZzZWpPOEJ1dnNpdy1qWElNRlhjeTN3dGZrSk1SNEs3Mnp3UjBGdjlBRFpLRTBf?oc=5",
+      "title": "\u201cHe\u2019s Very Shy\u201d: Zlatan Ibile\u2019s Fianc\u00e9e Davita Opens Up About How They Met",
+      "snippet": "Legit.ng, 2026-10-12T07:00:00+00:00",
+      "publisher": "Legit.ng",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOHVFcTVEaDk0SUpRWUxuXy1VNDhwRWFRSkhMeVRSSVA3TFFXWWdyOW1URVhEclBndWNUUTZtVGF2UTFCd3lLbXdFQXpVZFEwcS00ZWt5X0hyTWlqZDlpYUZBYnc5TGJfeFhJWFFOYzNqQUh1U0swY2VpY2VuUnpwck91bGlIdHliemNjM3BybVpTN0FLbGhweVpaXzZza2pBcGp1THYxMA?oc=5",
+      "title": "Davita Reveals How Zlatan Approached Her as Couple Shares Love Story in Wedding Teaser",
+      "snippet": "HipTV, 2026-10-12T07:00:00+00:00",
+      "publisher": "HipTV",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 189.16 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

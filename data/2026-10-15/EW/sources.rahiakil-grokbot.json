@@ -1,0 +1,49 @@
+{
+  "ticker": "EW",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edwards Lifesciences\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0FrRC0zVzd0ejBUNUZZNng1U3ljMEpnVjVnbXh1Nnk2UkNkRXFET1RPQ2lWcldHYjZYbGM2VnRHbGpiNjJ2Rk5HZk05VXR1bHJoMzdpUm5RNWJMSC04WjQ4MUF2dFd0VVlXTF9yeDBOcGRHQlNsdEZ5eU4zM3ZjamlydTBuRlVFRXJVVEVGRXVIbXl6Z2RiZE9LbHU?oc=5",
+      "title": "Edwards Lifesciences Earnings Preview: What to Expect",
+      "snippet": "Barchart.com, 2026-10-12T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EW/history",
+      "title": "EW daily price history (Yahoo Finance)",
+      "snippet": "close 88.1 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "ticker": "MRSH",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Marsh McLennan\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemZCMHNkc3hjY3lTYXBlRzVTMEZXVG9USHJIaXNDbm95MFhBR1JGR3Nya1d0SkxZTjFSMDFpbVZBNThaQ0JsVUNnckwtRlE5RlRfdl92S2toYnpQR2ZlLV9weVZ4UEpzRXRTWEhua3k2YmJ4ZEpBRTM4S0R2T3lpSFhiOF9RZnd6YWR1dDhWRjZwb1dYbHc?oc=5",
+      "title": "Marsh McLennan (MRSH) vs Aon (AON): Which Insurance Broker is a Better Buy?",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000256/mmc-20261015.htm",
+      "title": "SEC 8-K filed 2026-10-15",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000258/mrsh-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-15",
+      "snippet": "10-Q",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRSH/history",
+      "title": "MRSH daily price history (Yahoo Finance)",
+      "snippet": "close 186.54 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

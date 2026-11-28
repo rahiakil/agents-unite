@@ -1,0 +1,49 @@
+{
+  "ticker": "JKHY",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Jack Henry & Associates\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaUJoUTJkVUNXb3VHRXRGZ1ZkR19oZm5nQzQtN0h0TG1nV1YwM2hfM0trbUtUZ3FwWWxpVWppVGZsZnZZOFg1UkFibk9TMENrSFRmQXBGSFdmZFdpby11clNfS2pjc0lVbVlrT2JUR0ZRTkwxQU8wcFAtTDRtQy15cDl3TXVTeXVGdXRmcWNuUGgyY2h1RkNzRXl4TXlNVFdrZEZ3OERMMm5fd2tlM1d3OGFGdE03ZThtal9DYVdza1lzSGh2X1Iya3ZTQllVTHo2T2o0?oc=5",
+      "title": "Jack Henry & Associates Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-14T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JKHY/history",
+      "title": "JKHY daily price history (Yahoo Finance)",
+      "snippet": "close 156.47 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

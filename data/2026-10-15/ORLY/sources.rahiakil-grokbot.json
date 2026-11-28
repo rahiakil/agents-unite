@@ -1,0 +1,49 @@
+{
+  "ticker": "ORLY",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"O'Reilly Automotive\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2JBck8yMHZKQ1VoV0t0dEdHejFWMmdEbm4wU1VNUHcyUl9tRWVBOWpCb2JVTlVPUVRxVVhsSmc0a0dRSjQ1bF9HSkF2Qmo0Q0lwVDAtZVNXTk9YNFpHR2d3eEdLbU5zQkVfenNTZldpQ2pCaTlhNGFXclVnUGd5dmhqSzRYcFczc1I2WTl3Q0VIbnZPYWlnV3djLVhLSUlqQXhENHBZZEpGTXo5ZkE?oc=5",
+      "title": "O'Reilly Automotive: High-Quality Compounder At A Reasonable Valuation (NASDAQ:ORLY)",
+      "snippet": "Seeking Alpha, 2026-10-12T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ORLY/history",
+      "title": "ORLY daily price history (Yahoo Finance)",
+      "snippet": "close 88.5 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

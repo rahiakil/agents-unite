@@ -1,0 +1,73 @@
+{
+  "ticker": "CRH",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CRH\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRFdPcDM0d2o1RFVCdUlhckowNXdtejhVTXNNa3E0ZHFZVzI5V3VQU1NYUVpMVUN3cjBoY296Qm5UV3hpRlBGRkgzaEN0X3JyMjZfbVFteEFwbHBoNWNsTnZWTE9EN0sxeUxrNkhvbHpEQWV2OXNjVGV1WGJvSU44LVEtS2RoVGs3TnU1Z0ZhMVNVVF9faEpDSVJjTkJqbm92U1VWWWZhQV81NjM4eWExbndCeG4zU0dfM2JuNmFR?oc=5",
+      "title": "Fund Update: 73,419 CRH PLC (CRH) shares added to MATHER GROUP, LLC. portfolio",
+      "snippet": "Quiver Quantitative, 2026-10-14T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWGwwckdRdHRwV3lUYmkxazVsM1NzdS1kLXhwX0Z4allHZGNzYnYwMmVBcEdNQjh1ZjBjX1NCcHlhV25NNTI2LTVDUkpMNDJvYzFSU1BEMFVVYy1tWjEwcHJCcGJJdjRsX1pLcXFWTk50RkNaazRlTVBXRWNKNGtWNFNzclg3VE5acTJBYjA0c2dDbWJGMmVlQVUyUVVJeXp5NWNMdjlGQ1hjQnV4a1dkZzVHT2Z5OTdZQlJ1ZHp3?oc=5",
+      "title": "JPMorgan upgrades CRH stock rating, sees Cemex best positioned",
+      "snippet": "Investing.com, 2026-10-13T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.813,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWnZnclhmRkNTVGtFXzlONXRWMk0tRWlzRHd0Y3J1TEpCbXJRbUJDNzlsR25wb3BMLWZsVERvRjV6ZEpneDktMWtKTWNoZGlaU0NDVWlNdHBRNzlZTDhTdldxYWt1eExwRkpmMkNiMHc2YUFVdmlrTnVXX0h6cm1wcU8zYUphbkM3YUVIaG1XcWc?oc=5",
+      "title": "Here's Why CRH (CRH) Fell More Than Broader Market",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRH/history",
+      "title": "CRH daily price history (Yahoo Finance)",
+      "snippet": "close 82.32 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

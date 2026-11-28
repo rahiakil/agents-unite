@@ -1,0 +1,70 @@
+{
+  "ticker": "BNY",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWJaQVRlb1BoZ2lwcHlFQUV6dEVTTlJpaVFtZlJ0NmNSeXRVck5MeFoycmV5aDBwYTNyTHY4b1hMdms4ZVRQVmFTMmg4VTdoV1pKLWVtRzQ0LXNFSHE4cVRVSVFrcWoxNWtnU2xsZjMzRmszNUwtUnhGRHF0bjBqeTJXelhQT3cxSmZCQ05femdyZw?oc=5",
+      "title": "State Street (STT) vs BNY (BNY) and Northern Trust (NTRS): Which Custodian Bank is a Better Buy?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWdjTGtaNlJTLS1MeXdmVTl0UjRSbGpjQ0dxTVBTbTBJZmd6V3ktbExvNmhlLXY4VTh1NHJrVm1ILWhGOHVWZUh1TmJRT3R5MDVnbXprQ3pUdU9qMkFuWVRVSVV3cm1Wd2MxeHpBVnRjXzZMX2x5T1lpdERKZ3FLZmV5R1ZIeFRtNkJIZ1Nudw?oc=5",
+      "title": "Should BNY Mellon US Mid Cap Core Equity ETF (BKMC) Be on Your Investing Radar?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/bk-20261015.htm",
+      "title": "SEC 8-K filed 2026-10-15",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 142.09 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

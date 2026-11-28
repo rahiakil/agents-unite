@@ -1,0 +1,61 @@
+{
+  "ticker": "DOC",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Healthpeak Properties\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlpXc19QRkhPWm84STZVTjBCVURkaFFRUlFQMWs1STA5OU1ueThzUVIxQnROSnZCZHcyYWwtTVZ5Z0FGdmo0WjhvZnFGNnlLd2laZ05HaVRFUy1sUFYzaXlRSjVndjdJNUlOcnlUZGF4ajV4Mnhia2lESlpNZUN1Xy1ITG5NbmxNdDlkejlRdzktTUxCZ3g5aHBFeFFPd2RQaVFDSnN2dEt5anA1Njd4Y09NcGlhUQ?oc=5",
+      "title": "Healthpeak Properties: High Yield, Strong Balance Sheet, And Upside Potential",
+      "snippet": "Seeking Alpha, 2026-10-12T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaHBfOTdtMWhSRjB0V3BSNTRMbVZmNUVudm1MNkJIZzVZTmM5dUVvRjcyaDNLcW5qam1mUzdRQzVfdjQ0QWNMU1dDZUdIUEswc0lFLWRob0tpR2Zoc0h0Z3BrSnhrbHEtQlUyY1hUTEFybVpmRFpRdkpWNmxMR0l1NUJnOGJTWXoyQmgxVHVLaVU3UnJNRnB3S05tNHpkLTNu?oc=5",
+      "title": "Healthpeak Properties (DOC) Stock Still Looks Cheap Following Its 31% Run",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOC/history",
+      "title": "DOC daily price history (Yahoo Finance)",
+      "snippet": "close 18.96 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

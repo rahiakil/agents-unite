@@ -1,0 +1,97 @@
+{
+  "ticker": "GIS",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFgxSENDbzRJdXY2bjI3SmtIVWdUSW5lVVAxMWtIaEphUHI1OGl6MUNrTTdrdGpkbEVNb1pTei1KLUI5RXBIU1JDejQ4ZzN1ZExhYXA1SzJWZkdsRFpJaDhDdncyNDBnNWlTZHI5MzQwS256aEFvZ3F4RzhxTGpBMzd3emFWVXpLdGstS1B3dWhtQ0xOX05TaGVjWm56UVd6N2VJ?oc=5",
+      "title": "How Investors Are Reacting To General Mills (GIS) Debt Tender Offers And Deleveraging Pivot",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbWRmc2pMVTB3ZFZDamRKMVp6S0xsYk5yTlVfak1Zam11TE5RVHVhZURSWkxaVHN3X2ljNXUyYk5mTmRDU3VwQXFiOW1PbXVJTGdlTm5YTlFKU3h2TjF1SmpDcGx4RnRGQVN6MGJLTUpBWExqM2Q1d3p2Z212LU1TQ19CN3prV2dQT1RXRExSdl9HcWc3VnFYZzUzeU0xZ1JfbG9wZW9Rd1gtcHp4MW5nM0xsV0hQalJWVFpVTmMxOA?oc=5",
+      "title": "General Mills Q1 Beat Masks Earnings Pressure While Guidance Holds",
+      "snippet": "TradingView, 2026-10-14T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT0VCMWxNOXIxMk9SYmlMLVFjOVhnZ1pqR0NHMUxSNENhTmRxek45aTVOU0xSNWRqd0kyREszSmM0UVQ5aHFCQXVPdktQWnBoeHdlTE11QXhrbXc0eER0c2lWaHJNalp3bkFCOUlVYXpZVTFwQjk4b0RTQ1ZLX3FmMFl6VFZWNk5Fdl9ZRnVTc3U?oc=5",
+      "title": "GIS Stock Is Down 13% in the Past Month: Is the Sell-Off a Chance?",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2dwRnZfRXNFU3pxd2FPS2djYm4yT2FYSFhSSUU1R0xZX1E1Q1VybEViSU02ZXRBOGlscXVfaEJvMEZzS2dKZ3JsRXloWkF6SUdHcXZhUzZNWm1YQnhXdWNET0Zqa056dU5Rd3NVY3VTM080VzBpZThtcWthemR4bUFVSTZMbjFkS3paYmJEOWJvOUM2dnJQaFRidW51dDJHdHc?oc=5",
+      "title": "General Mills\u2019 next CEO Dana McNabb has long background of leadership",
+      "snippet": "The Business Journals, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Business Journals",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSVNXUVU3QmdJZjlFRWZDYUVFLUo4WWpoYjNmS1hEcTZ3OWNwS1JLTEQ3a3JxNjZ5SFozWXZBSXJYVXE1dkEwME4tMGMzRUNZcEVBVEN4cEpBQjk0bVVRTDhYRmdJMWl5ekJTQ0k5WWxhYnZoNVJBMk52SGtnR3dGTUZjdTluWlpFYmFwOEdUQjdXNlVZNFF0QUZlZnNWRUtBeVZWQWlleldSU2lHc3ZJVzN5RTBaUFhlVG9ENHVpcjhHcTI0ZEFnOWFCbHQ2bEphTkEwZ01ycWFiS2xFeU90WlNvanhoaGky?oc=5",
+      "title": "General Mills Inc. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-12T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 32.88 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

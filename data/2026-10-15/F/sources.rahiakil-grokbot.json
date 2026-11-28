@@ -1,0 +1,121 @@
+{
+  "ticker": "F",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ford Motor\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWlBEYU5jQkstV3ZqMDlQcURHN2NoRWxGVHF3MVAzTGpKdUhrZ0hQSnM4UUpmZVZoemtMdUlWUkNVc1ZCY2lUNUNQbFl0Wnp6U2gzcG9BWV9wV2djOTBlUHZKUmdUZkZaVHV0YkNRaTBUZlo3TmtJTElIS2hydW9QaTdudE9SVklxWFltSm5aamtpLWJvWE1vTUF3?oc=5",
+      "title": "Ford Motor Company (F) Is a Trending Stock: Facts to Know Before Betting on It",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcG5LZUUyWUVaMmtHdGZKSFZDMkZTZmpiMzNEU21JSTAyYS1BSjFKRTJUR1lSTHhzZUVLVzdMNnlLZEhpc1laQlNIQjhLWkxWYUN5UTN2cVkxSHozSHhrdEpORDZSaXNjN2FNNy1ST29DN2N6dEI1TmlKTnZnTnNLTEpmWFZxMkFQS0lnbnFIckVHYzI2Qmtj?oc=5",
+      "title": "Will Ford Motor (F) Beat Estimates Again in Its Next Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUXdFTWY3bzI0dHhfS1pFaHpUOWJPOEF5Z1VkSVFwaVlCTkducFlWSTNySVZxQXd4c0NGSHVVRjJaQjdlWWw1U1Q2M2dBNUZhal83UkhZZG1qVkJWeFl0dGdhdmhrbzZnWFZrWVBWZkkxN2thRFJSbXlVOVN0UHhIS2M1NzA3Z1pJSHlhQWhtcVZIX1FqQ2UwcVBKSlRwZw?oc=5",
+      "title": "How Investors May Respond To Ford Motor (F) CP4 Class-Action Lawsuit Moving Toward Trial",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkttLXZTUTRjMTh0cmVKRVFBSmpvVktHXzVGeFA5cFpkcGdiRC1CN2ZNZmJVYWhLRl9sZ3EtcG04a1NnT3VwdnBENmstRmRXZ0NvZTJQOXlkQ2FLU0JFN3RWM295SkY1ZUJkWDdyVGNGWTgyN0M1RzFWcFV5YVpSZjk3ZFpVVTFUa0Y3d1k5bjJRQQ?oc=5",
+      "title": "Ford (F) Stock Looks Hard To Call After A 21% 3 Year Gain",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWhHUFJ5dFlKMXFLejFFajc0bm5pNlBMWWFFa09ndGtHa3dwN2NSM3lvYXF2R2gwZXNkUWNreDlUSTIxNncxS0ZaQi16VkdpMzgzUVE0WFBlb0RpaElDMl9MeUhnaG1VdGdOaXltbFFoYmRqUG9pTjNtUnpqOS1UeTUyVTZwNzRZZXNhNU1oSDg5NnZB?oc=5",
+      "title": "Ford Motor Company (F) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.272,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lWHVpZkhRY0JDVVZnT0U3T2dyekotS2o0NjZPWVBFNVJWd29mbXV6eHZtb2hiREJFU0pHUnV2ZG1SQVVPM3lwaDBmSkNEbUlPT3VfcV9wSmxFNW5lVHp0STQ0N1hNdTZZaV9n?oc=5",
+      "title": "Ford Motor Company (F)",
+      "snippet": "GuruFocus, 2026-10-12T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTDlUbE50em5QUW8xUWJHNEpfM253dTM1M0pkWmVfWUZNeDRVNkdiSENYMHNNS2N2TlVvazdFa2hZRVpSaFRyZEpZTnc5Zmp3RmFlc3hlUE5ZOHluYUZleUpuTkI1dXVuTGQyVXEySjA5d3I2dkFNeHhBWWo0dWVZT2o1cWdWWi1NRlo0RXdjTG9QeGMxcGRDZHlrUHc5OXNqbWJQaVg4VmxNSmRXU2Q5TDJzeUhaWFBZc1FycmRrTldLMnNiaUF0RQ?oc=5",
+      "title": "Ford Motor Co. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-12T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/F/history",
+      "title": "F daily price history (Yahoo Finance)",
+      "snippet": "close 12.31 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "VTR",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ventas\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSFVybzVCdi1oUmhIQzBUM1dIbDVDdVdxVldlOTFIbHNrRVNrc1dtcFVqLXhjNTdDdXlkNWp2cjhvdVZwNWkyV3JRTm8tVDFnUmhqRVdzaGYtbTZ5bFAwamF4ejlxTmQ1UEtYa0hyc1Z3bkZQY0NHM01pQnd4WFpzczNVbW0zeE1RSXNVZVhXMmh3VzA?oc=5",
+      "title": "Ventas (VTR) Pays Out Over 370% of Its Earnings as Dividends, So What Actually Funds It?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTR/history",
+      "title": "VTR daily price history (Yahoo Finance)",
+      "snippet": "close 84.86 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

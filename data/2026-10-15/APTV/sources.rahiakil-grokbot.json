@@ -1,0 +1,49 @@
+{
+  "ticker": "APTV",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aptiv\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRTdmNXk2Vm9zZnRhdV9EdEZuUmNPMEhnaTZKVVNkR192TVBpY09ZWDg4T0pqcllWLWQwczdVRHI1T2ptWnM2c3RPQ1BDMmo0Wm9HYjVGX1ZyY2liU3dKV2NhQXpYb0tQNXNOTnFOdmkyVzN0SllRMmNqUGI3LU1KeWVVT1VUdVRseXktc2M5OFc4TnhKUVQ1bExRS2Zvcnc?oc=5",
+      "title": "Here's What to Expect From Aptiv's Next Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APTV/history",
+      "title": "APTV daily price history (Yahoo Finance)",
+      "snippet": "close 45.19 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

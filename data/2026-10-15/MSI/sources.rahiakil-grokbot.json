@@ -1,0 +1,61 @@
+{
+  "ticker": "MSI",
+  "date": "2026-10-15",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-15",
+  "news_cutoff": "2026-10-15T20:00:00Z",
+  "generated_at": "2026-11-28T09:29:30Z",
+  "collected_at": "2026-11-28T09:29:30Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Motorola Solutions\" stock after:2026-10-11 before:2026-10-16",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSng5NFJPamVTT0YyZFhuZk02R1dVcU1OdGtUV3VRNmtKY0dLRmJaeHY3NmlwZ3dJTE1WNnZBZmVqZ29VYTVWVHB0dENhbUZTRDZtQU54MlVqMHZFSFpQTkc3QjhlYzJQeGktYmpoaEdLTXVhS1F3NFlPeEVqc2hGZzdUV2FHbXNDQVlsNWJuYl9Pcm1Wb3MwcnpXZEpSQ3BoQjJpUTlIV3BraGh4THV3M090UmwwMDEwMnluZUZTM1B2OE52cmdpSg?oc=5",
+      "title": "Revisiting Former Stock Picks Casey\u2019s General Stores, Tradeweb Markets, Motorola Solutions",
+      "snippet": "Barron's, 2026-10-14T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdEJWOTZPVFlIVXFyX0NHbktiaFpkYzQyWG1KMEdQcVRnak9Sb0dNLXBiTEcwZUp0UG0zY0k4ZWk4MEUtUVJwUjFVbkp0X1ZsZ2tnS1kxTHoyakt4aTFUQ1k3YlBUV2dwVGVOLUhqVTNCVU10emNmcFlranYtS0tjdHMzMDZ6Y2Q4S205cU1KX2RfeGNXU1hWVkZjMHRMMlhlbHc?oc=5",
+      "title": "Motorola Solutions' Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-14T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-14T07:00:00+00:00",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSI/history",
+      "title": "MSI daily price history (Yahoo Finance)",
+      "snippet": "close 456.39 on 2026-10-15",
+      "published_date": "2026-10-15",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

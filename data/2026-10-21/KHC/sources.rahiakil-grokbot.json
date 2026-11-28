@@ -1,0 +1,49 @@
+{
+  "ticker": "KHC",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kraft Heinz\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV0FNSjZMTXVfeVRWWFFhVk5td1hOV3F5bFkxa2pyZEZUOHQxeGtkVUgzMlR6cHcyQV9zbFdOUjFvOEVJc19jVXBwaHhocmFWc3FRM1JOV3hzOHM5ZEdnZVhuR2YxYW9seXdTdVFfRmxLMGdYRmlubmJiNHZrcmc2em1XZmpFeDQwUXpkbFdRRUVxcFY5ekJiYWZtbVY?oc=5",
+      "title": "Kraft Heinz vs. Mondelez: Which Dividend Stock Pays You More in 10 Years?",
+      "snippet": "TIKR.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KHC/history",
+      "title": "KHC daily price history (Yahoo Finance)",
+      "snippet": "close 23.5 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

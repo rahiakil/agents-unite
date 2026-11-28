@@ -1,0 +1,61 @@
+{
+  "ticker": "ODFL",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Old Dominion\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNzhYdUpsaWU2UlRyYjZyamYyS041cHBGVVlnaUhkdmhUTXpvTDJBdG41QkZma0dwMlp0emY2R25ZRzB3Q3RuOVlmMmlONFdsV3o4ajR6Ni1oVGFHdnVvS00tRHJteFZlc1E2d1FDRDNHVDBpNkVWWENSdHlwYUxyQXhtMU84VTdkYkFjc2ZMaUU5Z3F2c2lnY25jOTlrcmZ1emE2TlZuaTk3c2pvb2drR056VGpuc3ByRXRn?oc=5",
+      "title": "ODFL Benefits From Disciplined Pricing Amid Weak Freight Demand",
+      "snippet": "TradingView, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkJFeWo3N2pWU0hVdDlkS0RBTHJEcGJaaGlVUVRuNDBweFdPMFVnc180NDFTX2JqUE83WlZLMmQ2ZjFkcW40cVAxWDdELUcyNWlIeFpWMXFPUUhSVEVFN283ZTBqajVWVmRGZEdIWU53dUFaYV9ZQWNOOXI0bVRLLVlCdFNfYUlYbDJ5WjRXY0NMTmZRWHdpSHBBUQ?oc=5",
+      "title": "Old Dominion Freight Line (ODFL) Detracted Despite Posting Robust Results",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.258,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ODFL/history",
+      "title": "ODFL daily price history (Yahoo Finance)",
+      "snippet": "close 188.9 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

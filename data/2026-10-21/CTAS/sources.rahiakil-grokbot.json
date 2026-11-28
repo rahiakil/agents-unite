@@ -1,0 +1,61 @@
+{
+  "ticker": "CTAS",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cintas\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWxEVjVycEZsdUJhV1pBRFBhTHZ1dW5VZ3o3UXJVY0U1MGtEY3o1ZjBYaVNJajdvaURZbW4xRm1DcFM5UGxldnhYTUM5bVhVTEowZVNmc0JPMV9OelBOaVVDWF9NbWk0amZyMnRHWnhPTWhFU3NsUW1ZRVhfV2xCV0ZsRWZzNWpEVnNobUlXdjNrQkU1Si1CS21PUFlMbnJ5ODRkdW5LWnItNEpRaHY4WmJpQ3E?oc=5",
+      "title": "Unifirst faces earnings test as Cintas merger awaits approval",
+      "snippet": "Investing.com, 2026-10-20T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLUZsQVg4NUFmQzBoUzRqcm51b25LNFFwNzFEUmIweGNBczRueWxGNVROWVpxb2ZlRkctZlI0YUU2QUlpRzN1ZHVJWWlXamZTeXR2NmhTcTVTNHZaQmZqSEJmMHpBSGdQZGRNT3BFdUpLT2UwSHhLNkpkTkVobU1YRExCNnhydUJwOVVLWlR5Zkd0dUo2b0pLMUFESmY5TU1Vb1lYMzM5UXJ6M2JVb1FNUUpocG5EWWh5OTA1cjYtTWRlQlpHZnVTNHVIVnIwenFVNlNWbWFtM2QwWEpjaUdB?oc=5",
+      "title": "Cintas (NASDAQ:CTAS): A Quality Investing Case Study With Strong Fundamentals and a Rich Valuation",
+      "snippet": "ChartMill, 2026-10-20T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTAS/history",
+      "title": "CTAS daily price history (Yahoo Finance)",
+      "snippet": "close 220.15 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

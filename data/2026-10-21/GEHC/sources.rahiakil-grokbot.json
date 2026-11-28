@@ -1,0 +1,61 @@
+{
+  "ticker": "GEHC",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GE HealthCare\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONG5CRTVESE5RNmFFb0JwVlFuUl9OV2dLVmRqZXR0aE9iM01tbTVleVJPZWNveHRCMWZLU1lhbmJJd1ZidWt5MnJqdllKZDVHcVQtMVFkLXVXbk1VdFVmbUNEX2NKTkhsNUlwVTRQci03anNEcURBU1RXTHhOamlzOXBVVHY4ODdYR1MyQ2RjdWpLQlNOenVXWEdkUkg?oc=5",
+      "title": "GE HealthCare announces five new global collaborations to advance the next generation of theranostics imaging",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMmcyNy15cFdmbFFyWWhYYUJhMklQSjNUNWJXVDB1VFNXeml6NzV1dGxwajAzU3piT2NtYWRreWFhOC14ZnYzMk5rSnlEUGFUUkRXSm5oMW1Mb3JYVXdLQmowSmlvQ1p6SjhrUzF2UHNJLVlEbThwOWZGX1o2WFotM2RIbTl4c2h0QVVFWHVqcXZ0QUpNb0NHQVhEaGpQUGc?oc=5",
+      "title": "GE HealthCare Wins Approval for MINItrace Magni Cyclotron in Europe",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GEHC/history",
+      "title": "GEHC daily price history (Yahoo Finance)",
+      "snippet": "close 69.01 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

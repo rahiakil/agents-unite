@@ -1,0 +1,61 @@
+{
+  "ticker": "YUM",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Yum! Brands\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMGdIMU1yamRUOExLZGFWZldRUEhGU3lGblVlaWxrQmxVLUJwTlpuOVJucEJlZjBMOFdaME9YemJOZng3ZEc1UDd1OTJwcWpNVXhWeTFnTF9XTE40dFNfdE8xX1JIWHpMWjU3Snk2TURlUHpXbUN6MEMwMGZmdGpkbHprd0JqNlU5YUprNl9UcjZITUYtSS1zWjY2SFphNWxWTjBwWWhNMmF1a1c1WEl1OU5XOHFRZ0p4OGxrMHhIMUdNTE5TQ0poOA?oc=5",
+      "title": "MCD vs YUM: McDonald\u2019s leads on value and income, Yum Brands on growth",
+      "snippet": "Investing.com, 2026-10-20T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVXoza2ZxM3B2UVktdHpTOVVHQTM2ZnA1ZDQ4N3lURGs3ZW11bnRBbThXMFgxOXJMOXd4bFlBcmJ2MHRYdkUwUDZyUFhnbVNOTHg1dUdqZTdab0pZUjF0cmplMjVRc1pNbUFTbEtoSVpKQldxSEJBWFdwV3lWSzNDcF9rWVMtLUJfOGlST2F4TThKeDZhRXhnWVRjSUczamhORk1fQjV5MzF6V2RUVGxqQnNFcVhqWmdVVzVucnhXeXJHdlZ2UndEdkhxcmZGYWU00gHWAUFVX3lxTE5qTHZwQmZSdER2RnFzZllSV0ZTN3h0bTFnNnZYQkN5RWVEbGtydl9fWGR6REdoTGt1Rk9ZeU1uWElIRUFHcWl2dmdWUHpaMl95MVA1YWlYOGZuemh3bDhORm1xbmNrN202emxQakxVU2txNkVFRldNVWF3SlZLYWxiWDRPU2hYVm5VVy12M1Fua1huQ0p2SzluZnZtQXpiWGk3Ynp2TmpIa3RZN0RxSzIxOUR3bFZqbmw4SFJFRWh2bzVpdEhlTV9GV2VzUVlUUlh3YVgwWlE?oc=5",
+      "title": "Yum! Brands (YUM) Sets KFC U.S. Beverage Partnership Start For 2027",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/YUM/history",
+      "title": "YUM daily price history (Yahoo Finance)",
+      "snippet": "close 151.24 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

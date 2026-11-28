@@ -1,0 +1,49 @@
+{
+  "ticker": "AIG",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AIG\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbk45NUtlU2VqclYyTGZMNHR1ZlBuak9sZGhyQ2hUbWxUeDJ2REVHYU8wN3ZKLVZtS09iNDQtdjFfSzFocFhIT2w4eFVycGt1TUVmUm1hVGFyRDJBWnp2RW1CbHhNOUZBVEVKb2FWNHFjYW5jUGN1eFZwWHBJN09oWE9zdzhIbGdIemhHY0N3ckhCRTk1VDM0VHYyczRQYlpVNXRoQWJwSjc0c0pxY2ttWi1ockFuNXUyaHRaOTJ4Yms1d1ZuMUwzeUJtdnhjeWV0Q2UwU2loLUswTWRVMWfSAeMBQVVfeXFMUDBsVnNPMlJPdTB1ZkJWUkNpR3JMeWk0cU80T1FNX2cwMDQ3aUg3bDU0ZEoxR09NaXphVVNMRDFDOXFSWGE0YTRYQzdlR0hfSXRKWUc4WFdBOEdNak9tYlU1Qnc5c05oS2pXWE5Wc1pCcDlMSHdfcy1fNjFGYlZJTjlDODIwM3JnaGtydWowVWlKb1JhMUotbGl6Tnc3czV0MWRTZUNZckJrMDJjRHhRdHd3ZWhHV2xfT0NsQ1Vjd29kelNTSlB1ZjUxZ0RjOVRlZkR5YTJ4cXcxNjNTSXZLN21TTms?oc=5",
+      "title": "AIG (AIG) Stock May Be 49% Below Fair Value Despite EU Insurance Rule Review",
+      "snippet": "Simply Wall St, 2026-10-20T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AIG/history",
+      "title": "AIG daily price history (Yahoo Finance)",
+      "snippet": "close 81.75 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

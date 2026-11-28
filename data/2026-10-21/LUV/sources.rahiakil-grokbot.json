@@ -1,0 +1,130 @@
+{
+  "ticker": "LUV",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 47,
+    "no_date": 0,
+    "after_cutoff": 34,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTFU3LVpTV1NtRjNselFfZHl0amw4eDZBVFhJSmFVVEt1SkFwRTZTTElscnJTYVlRcWEwU0VsSmtFc1FpRzRsLWo2TDI4LWtGSzQwbjUzTkE1SEVzUHh0OHNCZ2RWemxrc3ZFQllmLVdTdnFZTXdCTmdvbjV4NzlMN2pLcUFGZ2RQSW5iTzdudm51MU9pbWdvRlNFdjhCbnBDUkE?oc=5",
+      "title": "Southwest Airlines' CEO signals more changes for flyers",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY0d1azZvcHBKZFVUVkVpMFhocGxYYWFZN3puRXpWb3dkUFBJV3FzMndfd1NGeWpFNzN5VDdyR1pCdHVhNU1qRnRKX1pteE9XNEFyak9Gd240a3BpRTNRWWduZzJ4UW9QazVsYm50Wmw4RF9TNE5teEhKeFhiYUxlcFl4SWpFMDEtT04tSXB1Y243SFgtNkJVbjVlakE5Zw?oc=5",
+      "title": "Southwest Airlines revamps rewards loyalty program",
+      "snippet": "Retail Customer Experience, 2026-10-20T07:00:00+00:00",
+      "publisher": "Retail Customer Experience",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zanM5b0NHQXR3RkoyUGRLM2ZuZGxTVmdJVjIzNHg2WkRvMVFabDdPODNPWTFIZlF4VkF2dkRuNmF3SDVhV19fZmdWQVVaN1ZDR1daZUdqS1h4MlNTeUZQVWZ3d0huLW1lN2FTeFFoc3lDZ25sZFdvaGE4enh1OGM?oc=5",
+      "title": "Southwest Airlines adds 11 new international routes",
+      "snippet": "Ticker News, 2026-10-20T07:00:00+00:00",
+      "publisher": "Ticker News",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ3R3NzQ4WEJ5Tm0wdkdqZ2JiYmllbXNKOTB1WFN2R1cyZlRVMVdoMmV4LThZZW8wZ0FiYVJkaE5qZDM2clIzWmFVUHdfeWZseXV2RlYySzV0eXhUUWljTkpIYXAxX3RxaHc3di0tekJISHZJbUZjYUo4c3RUdV9iU3ZEdFR6eXRKaDZCU2RMWE9ENGZjeGFGemd2aFh1MlBySy11czMyX1JQb2ZSa0Vwd3NUcUVEams?oc=5",
+      "title": "Southwest Airlines Reveals Major 2027 Route Expansion: Here\u2019s Where It Will Fly",
+      "snippet": "CryptoRank, 2026-10-20T07:00:00+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdm05QjdOZ1cwRUQ0QUVuRmxNNTlFck9SMklraS1XenBxMFZ2ZWtaUktfRHRSaUl4MzNqbTF2VlFkNmE4cFVrMThPWElPa0ZqZ2l4QXgwMjNRMDMxLU02enFOY25ZSkh5eWp5UXE0b1F6NjZCLXlWVTF4Yng5aVVaUExRZF85Szct0gGOAUFVX3lxTE5yWkI3VzJnNVYxN0xGTHotRFV4OS1lVFpCX1ZNSVZ4UHJ0R2JpbGFDajk3emRUOVF4WXdOM2xYVGE4TzQwdkZWMXFIbjhUMGhwY3dVOWNweWFTZUx2dkV2d0EzZGpjR1A0TFRNSktjWnNpVDlOeHNrOEdQVTRsMF9ZRERZUFBTM3g1VnZJcHc?oc=5",
+      "title": "Southwest Airlines Jumps 5.8% Amid Sector-Wide Rally",
+      "snippet": "AlphaStreet, 2026-10-20T07:00:00+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPX2g5bzZJTlhUS1cwV3BxdUxRMFRkRTFMWTB6WER2Y3pmZE9aRko3aHg4WVJpcG5QUlZfRHlaYjR5UXpHaDkyT0pyVFMwdXNDT2MyLWx1M24xYkNkamw5Vm1pUUdmOVVxSDdBRS0yVlFreUVfU1dTTjlocFY4eFllNHJ1SUo1X2ZFdDg5WHdSbUZuX21Gc0xhdWJCTHJVNVk3OER0aEhvSko0dGJPSlVsSkpUZUZkLUhJSnMzNHN0QnpzVGpPdjY4Rk1ITXdkMzMxYmh1N1Uxd0VtRjZ4eU1qeElIVTR2ck9LTXc?oc=5",
+      "title": "Southwest Airlines Co expected to post earnings of 57 cents a share - Earnings Preview",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVFJocU9yWUVQS2hmblBOeFFmZzI3cW5LTlEyLW5MVTlYV0ppb05fd25USld5ZmYyU1RNc083MUYyXzlIQ0ozVWFBUzVQdGRodHQ5OU04Y2tHVVhONlZvR0dTOHNsN2VjbFRGN1g5b0V6aWR2b2dNQWxrWXRiNkFSZmx5UVZ0TGQ2a3NhdDFuNnAzU2xRMFpDbGpTdjBrbnZtNVHSAacBQVVfeXFMTi1FMnppdDZKdWJHdk5GYjJSakE5QkU0M3pFbTNIbFBPOEpvTUcwakk1cGU4ZDRNTGlhRHpMbUtfRHBweUp6aEZzdE1KUllac1BqckIyTWN2RDM0czZlNFpsbGtCd2ZVY1k3eTY2UndBNGRBdXVTUXZoeU1Ta1NvdC1adnd0Y2ZCR0lYS3hBWHNRUENNS2dfRHF6V3J3OUdmSXIzQ2VqRVU?oc=5",
+      "title": "Southwest Airlines (LUV) Q3 2026 Preview: EPS Est. $0.57, Reports October 22",
+      "snippet": "AlphaStreet, 2026-10-19T07:00:00+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000104/luv-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 39.88 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

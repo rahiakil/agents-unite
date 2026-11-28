@@ -1,0 +1,49 @@
+{
+  "ticker": "PCAR",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paccar\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UVFMwWVNJaXNFM1V5bl82NVlLbk8wSUNuLVJ4RTItWlRpUkhFQm14V3NpV1BpNlNURFlnbDd3TGt2Ym9NSW1hR3RkTE5GZVRrcnhSOUVmTjFPREh4cTJZc3JJandyaEJYWVRjQ1U0TWJjNGhOU0UzUDY1b19JekE?oc=5",
+      "title": "PACCAR builds a fleet app platform into Kenworth, Peterbilt",
+      "snippet": "FreightWaves, 2026-10-20T07:00:00+00:00",
+      "publisher": "FreightWaves",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCAR/history",
+      "title": "PCAR daily price history (Yahoo Finance)",
+      "snippet": "close 110.22 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

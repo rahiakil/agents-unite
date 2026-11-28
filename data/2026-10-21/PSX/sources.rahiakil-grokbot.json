@@ -1,0 +1,73 @@
+{
+  "ticker": "PSX",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Phillips 66\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU1Y1UVJTWkZtRXFkQmVHc2VzOTZaU0VxRVJsc3lpNi1XMG1Ja3pfb0s5YTd6b1VLZ2ZPYjhVNVBwZWVHMkRsNXVScXNVN2xpc01oRlljTE1nUW5uMGQwR0dTSkFoYi1iRUZmcVVHQXlvU1pBdExGenFQaVNwQmR1amRFYmpjYmVaNGYteHEwRzFkckJTMkJ2TzBIci10a1BhOFUyQVVLU2VZbVVCTkd2RVJUSjloUi1CTDBpTm9hZGI?oc=5",
+      "title": "Phillips 66 says locking out New Jersey refinery union workers after contract expired (PSX:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-20T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3UyVEV3dTd1VTdFNVNzVjZBMExlWnF4d2FaWmk0OW9iNVpYSktidFZQNDdkZGc4U3p6cUM1TFc5NkE0bnNOQkRwcGlPaVM0dWVQSnEtUzJzLWlCN05qY09Ba3NHa1VMcUdoSHBUeWpnX243MVRkdHFUd20xUEhySXhrdnVKV3YzVnZrN3VsYmVObGtfSFRBLTFpcnowMUluYnlRdmNyZWU?oc=5",
+      "title": "Phillips 66 stock hits all-time high at 297.55 USD",
+      "snippet": "Investing.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR0lIS2RhdTJDREh6M1JoZkRhSkRJWXd1OXRiWFZjVjE0ZDF2WkdfTzVtSjBJMHNtNEVZWGNUTWlIS0duc3lJWE5fSXFHZE5VdUZwOHVTRll3ZE9FVV82bHc5MzJHYkk0c0VOdjBQUFJuYzl6UlF1NWRVUEU1dmRBZDJpem8zS3BCTnRFT0JPRUhwNDIxT2JraXFsTWFNT0t6U1JF?oc=5",
+      "title": "Phillips 66 Stock Is Up 133%. Can Its Dividend Keep Growing?",
+      "snippet": "24/7 Wall St., 2026-10-19T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSX/history",
+      "title": "PSX daily price history (Yahoo Finance)",
+      "snippet": "close 290.07 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

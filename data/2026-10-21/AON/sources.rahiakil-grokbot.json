@@ -1,0 +1,85 @@
+{
+  "ticker": "AON",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aon\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTDFwbU5CYXJqd3pIdnYwelRSUDh6Z1lqMVRSa0kybVFHQWVzajVfRWpxUU1mb01hczZtUVg0ZFhmWW0xRE5lTVdIQzdrb2VoVW5GV3pxVnptRlBHeVVmVURVM2tpRWpVd1MtN0t4RUNoM2g5alNOdUkySGhqbkNWU0dQaGZVSTJBd1lCTmtubFc5MEpobE0tTkwwaUdBLTZwOTRVdVNrUlBOU2V3dEJiZUdaR3dRb1ZiRURZVF9OcmE?oc=5",
+      "title": "(AON) Risk Channels and Responsive Allocation",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUFhFVzNMTzRGbGVVYklDdTNVeXhZaThKZDFva1R0U1ZyNEhTdWE2eHNRdVRjLXlDekdFcU41RzRUNGF0TWRJSHVlYWhxS3FhR0VjTHIzZXBBQVdwMTdGUmJBMlBZa05SeTl1VDNGR2tWMXNwWWlzWUUxMTJMNXlGYTh5bGpoNWN0amVad0NGX3hZR1JrTkI2ejNyZkFYU3ExZlhyc1FXbm9JQWhoUlpwOENLMjRfNEZLekHSAboBQVVfeXFMTVBYRVczTE80RmxlVWJJQ3UzVXl4WWk4SmQxb2tUdFNWcjRIU3VhNnhzUXVUYy15Q3pHRXFONUc0VDRhdE1kSUh1ZWFocUtxYUdFY0xyM2VwQUFXcDE3RlJiQTJQWWtOUnk5dVQzRkdrVjFzcFlpc1lFMTEyTDV5RmE4eWxqaDVjdGplWndDRl94WUdSa05CNnozcmZBWFNxMWZYcnNRV25vSUFoaFJacDhDSzI0XzRGS3pB?oc=5",
+      "title": "How Salary Trends And AI Pay Will Impact Aon Stock (AON)",
+      "snippet": "Simply Wall Street, 2026-10-19T13:47:37+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-19T13:47:37+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS1pQU285a1FQUllhWlFOTnVNdWNZendQZ1NQTFBmRnQydm0ySllISy1BUGlWcEczWnk4cDIxekI2aE1lY2NjQmoyQzlxSVBPT3BzTi11Y28wVDdqYU1JQ1FYM3hCcFIwZ1p4QlJWM0xOZkFKYkFWSGRFLTZPMWZhUEVBajBQcjdmcmZBblFjTWdVdXpYdjR0RGtTQkJIcmh2ZndjWg?oc=5",
+      "title": "Strong Canadian Property and Casualty Market Creates More Favourable Conditions for Business Decision Makers Entering 2027, Aon Finds",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWl9FSkx2QjU1REtNMUZna1BPek5vQ2xfVFRUQTY5T2ZUV2wzckF6WVowQzJzTE1RaXZuME1NeDFhQjlGWnNQQ1JkamkzU29kR1V6TDF2azZXZzh6dmtLMGF5SUlRM1E1bWpiZUZRdWw3SlBaMzdUR3MtNEg4Si1DTjVsRkVIM3BrSTctbXZlcWNJNGx0NEo3RWN4RQ?oc=5",
+      "title": "Aon plc (AON) Underperforms Amid Scrutiny Over USI Deal Price Tag",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AON/history",
+      "title": "AON daily price history (Yahoo Finance)",
+      "snippet": "close 294.35 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

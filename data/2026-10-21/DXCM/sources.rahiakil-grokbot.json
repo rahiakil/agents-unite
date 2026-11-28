@@ -1,0 +1,61 @@
+{
+  "ticker": "DXCM",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dexcom\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzJvQ0NDVUJ1NlByVVhSWXJud3lHTnFWZVF4WUZlZWRrVFRQdmtzcWIxN2ZERW1HTXFqekQtLVROeUJKZEJJbzgwVjBkU2tKclFCOXhsNHRiTlBfNE9FZjQxNzdSZDZOdEh2V1hVdmZDZFFrdnVmd0phUVNwUGhPS3phVC1VdmRLTHJFNmFtQ0hnSW9NREhv?oc=5",
+      "title": "DexCom's G7 Shows Strong Results in Type 2 Diabetes CONNECT Study",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeTd4QzZGYWdNNHVQRVh2cHZScl9PcGFNMnhuRkxaLWNnZkRTQ2tEbWVkdGdXYXVjT0ZyQzgtVThvSExLbGIwWGM0MWJVRXBQdDZycW56Zno3djFWd2kwRXVoWFpfaHRwc1hMejQ3ZThYV3FnQ3FPazBNeDRWeS0xbEhEY2hnRGJtek1GNUpnY183MXRMSDF4NzhXVHBVWU4xZHVTWjVsN25ISTI2TXRGWjRjaXpDWDVPN0pTdk1hUG9vVEp0NGNNelYyU2p1amM?oc=5",
+      "title": "Weekly Recap: G7 trial glycemic gains and Dexcom CONNECT NEJM publication",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DXCM/history",
+      "title": "DXCM daily price history (Yahoo Finance)",
+      "snippet": "close 80.26 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

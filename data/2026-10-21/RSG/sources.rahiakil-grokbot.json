@@ -1,0 +1,49 @@
+{
+  "ticker": "RSG",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjM0YVEtZUF6NHVyeklTRnpqZjRXa3ZWUHFYVk5mMi15UWlPQkRtRFdBN2NkXzJnYnRhRGJmUTEyaEV1TGE1N0NZbXR4ZTN1cUdHYzZtV29hTnMxLWd4TUFUdkJwZEJBd1psOFBCVk83QWVkUEU3a2xHVU15UFZtYkxNbk4zRjVwUEFoTnBaMUh6YVNtQkY0QU9pYmIwUQ?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Abbott Laboratories, Johnson & Johnson, Stryker, Waste Management and Republic Services",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 230.32 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

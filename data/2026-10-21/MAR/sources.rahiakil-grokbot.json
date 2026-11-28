@@ -1,0 +1,85 @@
+{
+  "ticker": "MAR",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Marriott\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 2,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWlrWldkVGVuNEVrYzBmMTR6blAwa1dzd3VzM3FGd0VmMXBMSTB0SktkcngzU3cxWUNDMURXeHpFVll1TVJES0J3Y0kwX0F4RklvQUloeEJQazJaN250el9aaFlhNHYxMk5hamg4eXdiYS1SYlRKSDV1TTFHWlZ1WkRUQzRBVUZBZFlxb0IyOXNrTWJGbmZ4Q1JaTVlLY2pQS1NxZmt2ODU2Wkk?oc=5",
+      "title": "Marriott Vacations Worldwide Completes $460 Million Term Securitization",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVNzWUlhUjI3TnlKWTJucDZ3TDRBLU5JVVdnMDh0RE1IOG9tb1lMV2FONEJjXzh1YTVMb3pzODJscnhQa3ZLUHJhMWx1S0JSdTNJN2VHcDdqaDZsS2JwRjk4MzJHRzdXdnNfUkRUMUpnZzRweTVIWmRlZXo5Q0YzcFJWN21LN0VsNXEteVk1bEZ0aUQ0Yk42dzJWMWc5b3NjTUhr?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Costco, Walt Disney, Marriott, Park Aerospace and Flanigan's",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWWN1Z3ljS0l1Wl9Od0ZLWkpnd2d3YXkwZm00c2k2ZW1lbmZxQlpicWRoVExxVHIySE9pVEFEWUx2ZlVET21GOGhuU2gxUU5CZHlzVjctbGQxWGxXTWVyazIwZ0N5dEtlRzRybjBURndUMlFkLXA5ZG9nYm82OWlkTjUxTTJ1d2o2Q3hZQ2dSd2JnWFoxS2ZTRVRPX2RLSW4yVEF4WlVZRUFOMzBfUXhYaHpNbU9aUTdObkhxN3hjWFF6aWlYdjVEUE55YVhRX2xtSW4xcUFCVHZGMEtmaFBpag?oc=5",
+      "title": "Marriott Vacations Worldwide Appoints Heena Patel as Chief Revenue Management Officer",
+      "snippet": "Morningstar, 2026-10-19T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZkQ3czJmTXp1Zml4WjNDUHMxS1BGZTRtZ3JNRWVNbzh6YUtjNnB0REVrU3NjU0RBWFp1d2xOMERXNTRoMTd6T1dsbDlBLWdCdGdTblFDeTEtUXBXSy0zTHM2TTRfUlJBdEJ3NmRqTk42UDNZYmhocHZZRlluTDlaSk9jTGhBZlRWNXdGalNiR1dreC1FT1NVdjZUYXBzQk1tQWdYRnpEMmV4d1FPVW5uUGJmNUEycGw1UjU1cVlMeFpMeFhnWDNqSHJOanZDLU4xNk91dEk3NzRMWmdkQm9meGhidWhVelRxb0tQNVpzQQ?oc=5",
+      "title": "Form 4 Marriott Vacations Worldwide Corporation: Charles Elliott Andrews (Director) For: 30 September",
+      "snippet": "Investing.com Australia, 2026-10-19T03:14:28+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-10-19T03:14:28+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAR/history",
+      "title": "MAR daily price history (Yahoo Finance)",
+      "snippet": "close 404.0 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

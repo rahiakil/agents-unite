@@ -1,0 +1,70 @@
+{
+  "ticker": "FDS",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FactSet\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ2hvTmJmakpOVXpaVElDUmMyUjJFQ1B5NnBVdTBFRnlzWU1qZThwcDFCMktZVVdVVXdyU1AyamdUYkJqbk1WYkhHR3FUYkd5dFdYUFhsVG1TNTdvSG5McEJiYkpGd2k4UkVDUXN5MThnT3FtQm11S184cGZfem5uOV91ZUpGQkJ3dWZBVHltZFE5NDF6Y3ZsQU9pU01VbE9CbjlraA?oc=5",
+      "title": "FactSet and Nasdaq Private Market Partner to Bring Greater Transparency to Private Markets Data",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNzlEaWp0U2xaZXUxVUlXd01Mb29oNnAycEpPREV1S2ZqdDNHMkNKNGR1N3hnU3Q3VlhFNUdCcVZlRTljZUk1enNucEVpR0NKUEJRNUJobTZfNHhmREk3dWZYUXZRVTgtcnE4UUZWb0tjQk1tamdWWGs1NEVIV3F0Qnk5enZncjN5Rkt1aHZ2WElnNUU0c19La20zNENBaEZNdDhnX3FRSWRaM045WERxeEVIMkhlbWp3ZUFIYUtGSnBNQ0Z3d0RaSGRkaUdETnlHMWRpRTdJX2Q2U2dhcDJNN0Fn?oc=5",
+      "title": "FactSet Research : Are \u201cMagnificent 7\u201d Companies Still Top Contributors to S&P 500 Earnings Growth for Q3",
+      "snippet": "www.marketscreener.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026066391/fds-20260831.htm",
+      "title": "SEC 10-K filed 2026-10-20",
+      "snippet": "10-K",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDS/history",
+      "title": "FDS daily price history (Yahoo Finance)",
+      "snippet": "close 319.91 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

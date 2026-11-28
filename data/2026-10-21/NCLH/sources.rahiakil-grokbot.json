@@ -1,0 +1,61 @@
+{
+  "ticker": "NCLH",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norwegian Cruise Line\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQTEhJZ1pEdDRkRnNjLTdJZ2ZZeUc2YzMyV3FycHdnd3NmQ3NrdUh4dGVhYzVqSG1qaTRtT3N1SEFtTHlfMnhkRC1SV2ViZndORk5YME5CbURRWnVwb0tYUFpONVhwZzZzWXdsbTljVVpCOXh4aXVmbVo0Sk1iTVY5SE44cHU0RnZpbFVmcllMMkszakM3LU1YaDYzM2RYSC1NcHRKT21lR0FDM1BCZzk0MjhtZER1U2FaSy1WNDBmTHFnQlQyLV9LZVZRalcyVzdzNm1LZU40UWt4X2UxWnpBYVVxTjU3RFBCeXAybWhibXFqRUMwaFd3?oc=5",
+      "title": "NORWEGIAN CRUISE LINE\u00ae OPENS FOR SALE NORWEGIAN BELLA\u2122 - THE NEWEST SHIP TO SAIL FROM EUROPE BEGINNING MAY 2028",
+      "snippet": "PR Newswire, 2026-10-20T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONlBfME9kYzdxNzdZdWxROEdjOHF1MFVrLUNsMmFQdUdJTmFENWwtR0hLZGZwN2E5QjFnbW9ibzlPNElsMUJuSHRtRXNKOXUycG0zeG91c1JtS3RHYzluYTBIQ19wUE8yM3p1MmJhZGRYTTZtM0NILTRyalgtRVJ4Y2dGWnFZMTNWR3NCWWw0aUlGMjRSa0o4UWZrR2ZJWDJEbzhn?oc=5",
+      "title": "Norwegian Cruise Line (NCLH) Surpasses Market Returns: Some Facts Worth Knowing",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NCLH/history",
+      "title": "NCLH daily price history (Yahoo Finance)",
+      "snippet": "close 15.59 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

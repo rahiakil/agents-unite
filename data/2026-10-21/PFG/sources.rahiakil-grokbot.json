@@ -1,0 +1,82 @@
+{
+  "ticker": "PFG",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Principal Financial\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVUkwZkNUM2JDTFlhNkhhckxyTTJpeFAyZE5IcERIWWEyTWRtSXFXMzN0OTJMSURiVUgtQ25VbXFlczJhVE1CWlJSQ21zMWhvVG1XVk9qcTZ4dVZ3d1V2SEZza210Zy0wcUhFN25udlJuYWhBN0JRSVQycVZUZmx2X255SDlUUXRlbFpkWmh0QW52LXhyOUxsOEpSV0w3MEF5bjEyNlRmTlRlU2JUdHU0am1tNHN3ZmpMWGF1cXlyQWpvTi1kMng0WWExdTN2djkxYXZ3MktxYXpWQ2Jl0gHiAUFVX3lxTE9BUFFDNjZ5Nm9mMEpfdVpianVCTmw0LVNXQXlCVG80NDlyRTRLV2doSkxYc0k3Mkt6cHFsblhXSU9MbHppcWtYaF9fUTJIQ1ozSmtYV1BEVmFZWTJyTHVxNkloeW9kZHhQOVV4Um5lZnlNNExIeVJZdnA0d1lkcmJJb0UtM1Y4UG9iNXZRV3lMYmd0WUZyZy1KLUNSZzV5clB0R1g3U1ZHdk5Pa2xYSDk1RDB6eUxLeVhKYjhmU21ySFgzZ3JCd3pScU80TmZvWGFHS1RFUXh0VUZPUXlzajU1QVE?oc=5",
+      "title": "Principal Financial Group (PFG) Stock May Sit Above Fair Value On Earnings",
+      "snippet": "Simply Wall St, 2026-10-20T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN1pTN2t3SjEyMFA5V0lmUUxLUXJJZk84RXJDNHRqRkdsS2gwWHZxUnlsR2xYVVNpOGxPYzRndkEwOVM3ZDJNS1JBYUpVVTZ3dWRuSGN2ZHlrRGI1OFg5VnV2ODlNY1dSUEpOeGtZY1c3bmI2SEN6Z3JraGZ0VnhuMlJKeDZqMFZpNi13NVRHLVNWaDBEV3dUaVlKTkZXa0pxTUVGR2x1QUFZWmpOMjJuVEtlWXZzVlFvOEpwUXlZLTFMM3lSdFNQOUdwM1dEOE5qdmhOakNqZjZqRkNHNWdR?oc=5",
+      "title": "Principal Financial Group reports $785.0B AUM, $581.7B managed by Investment Management",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlcxbzYzOTRaSFJiM1o1U3Y4UFY4MWxBNTlWdGtIdGhkUG5CbmUzZ0dwamlvYjFyekdiZEowUXZsTjlhNmxYakdydndmeFVPMTFtdHZrbDZHTzNiODJiQmRfdmRoVjFkQ1F5RVFXS2o5S2ltR1I3eWtqNjJ3dW1vUHhWeTRabDhfWjFsdU83YjlXb0JLQ2l1ZXNPNUtHNlBYeGFtNW1iRlI2dw?oc=5",
+      "title": "Principal Financial (PFG) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926116869/tm2627739d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PFG/history",
+      "title": "PFG daily price history (Yahoo Finance)",
+      "snippet": "close 108.44 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

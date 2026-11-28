@@ -1,0 +1,121 @@
+{
+  "ticker": "AFL",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aflac\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOENXZC1ZWXA1UVZONEFPckpfVjJSb2Z6ajBhTGZnTFlkYjV5R3ZpSGZVeHFmd3MtZjJQbjZYWlJIU2pQdG1MYXdxWWladDZwc2RnZ1RSV0NyS0R6b3ZUVFZQa3h6MC1NVllPcnJiRjM4Nk1oUWE2ZHBpM05ERlBac0xCSFZCQnp3QXhtUDcxMk4xMDhqWk5zTzJMdEo3cldiTUp6a1BIT2pHdWZYeFZaV0Vndw?oc=5",
+      "title": "Here's How Much $1000 Invested In Aflac 5 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-19T20:00:23+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-19T20:00:23+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ29Va0JsZVlNZ0VmTnBYRFpqdkg1eFpZVWYxT1hVOUl2TjBhZFNPVkc1M2h5TDJVWkFSbHNIVjUyQ3pBeXJPNUVDampNWXBwenlHWmh0X3ljYUM0NDg0MXhKUXQzSHpEcVE4T1VVM01WX0p3dDdZWHZCZ3lNNGJ6akk0RlE1ZzVldWZDV08wVmRqeFFoZDhGSXZIR2h6YU5SNVJtRk53dTVRamdJTDN1azI2a3NENHJ0dFRNVDY0SQ?oc=5",
+      "title": "Japan Post Holdings, Aflac 10% owner, sells $2.49M in common stock By Investing.com",
+      "snippet": "Investing.com India, 2026-11-19T14:54:25+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-19T14:54:25+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVlMyWnZFcmVMYmpfMXRQQUk1NU9nQVNFTHhvU3RUTHo3MldwbUNYNGp3Y05nY2xJNXhKM1dackk2alBqdW04Wlp5eUJsQWp1eXVQNmJrSXVMbUpUVlI5NUV6dmpibEM1VENRSGhNTzBPYWxYaU5NVU0xV0hLdmdoTW5NTTZfbWdvbzh0dU1wM1dmRTRVSXZrSQ?oc=5",
+      "title": "Aflac: A Strong Franchise With Little Upside Left",
+      "snippet": "Seeking Alpha, 2026-11-19T09:34:14+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-19T09:34:14+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.573,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRS1KMkJkZlY3U1dUMlZLY1hDblhPdWFqM3JtSE9GOEhPME9lcUJPeUpkMnpGSExHbGlHdmF2eUMtdjJMbFRnZ3lUTFZwQXVmZHRXYkpzYzRPeVc3WnVrdG1PU3daQnozeWZhZlZyUk9FTDFROEhidURLdFpKSEs5OVZmTV85akZjTndQTmp6VQ?oc=5",
+      "title": "AFLAC Incorporated (AFL) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3NYT2UyREFsYmxCU1NJaERwWXdEUXR6UjNadlBXRU05cGk2T182U0lGVGI5c1dwZGFHOFA0SVNUMkptNTZuRXg2WXFseFh1enpKTmxGWktwR0c1UmVKSTBxdTdRaHJJMWRFbjZzeDJtZHV4ZVZPd2hzNllTWUxQR0ZnOVR2cTRMVlJHR0VGRTdGM241bXVuRm0zc0ttYUhqdGN3WjFIbldGa2pCSUpSVWI2Yk13YWNTcnNF?oc=5",
+      "title": "Japan Post Holdings, 10% owner, sells $2.16M of Aflac stock",
+      "snippet": "Investing.com, 2026-11-17T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQmRZZUZzOENaMXZ1UThLbHJMRGRWallpRjhsM1VUUlFXTHhORU1xNk9vdjRrZ0U4dVdKMjJuOVRTX2dfbnpLazRkYnJkMjdJMzd1Y2VfNjIzVXlpdEE3OU9ibmo5cFRlNFU5Y3M3X0FkT2tPZzItY01ibDQ0emo5TXBEZDVxM1dQdGlxcTU3VThBcC1tVkc4U2ZLeGZ0YXRUYlRkM3k4Q1FMOHJPMmh0RF9iVUJpbGVGeENkZUpsNA?oc=5",
+      "title": "FY2026 Earnings Forecast for Aflac Issued By DOWLING & PARTN",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVmRiazFpbXI3akwwc3hHNGEyTlUyTkFVeG9jY2d1VVZNSGJWSVpuM1BYcEhmUEJtZFlJeXBiVnRPckNmZWQ0Q0tfUkVqQVBraFpmMHoxR1hpdU9sZFpFR3ROS3VsYWZwb1J3RHR2eUJJVGlrajRpa3o3MlM0V0VraWxIWUMyNkM3UXRQSS14WDU0TUVrSzJUaUY3Z0w4LXBqOVJqYXdrMEdEWVdna0JEdw?oc=5",
+      "title": "Aflac or MetLife: Which Insurance Dividend Wins for Long-Term Income?",
+      "snippet": "24/7 Wall St., 2026-11-16T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AFL/history",
+      "title": "AFL daily price history (Yahoo Finance)",
+      "snippet": "close 124.76 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

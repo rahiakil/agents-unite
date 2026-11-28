@@ -1,0 +1,121 @@
+{
+  "ticker": "DECK",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Deckers\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOaUxYdFdKc2NsajEyVVlCUmM3WXYtTFhXcXQ2cmFxLTlTdGcxdWpBNzZrTWJpZzFxSDRVTDJNTWRmRHlTZjEwNWl4YWNCUll1azVUUllMQ2VqUzl1RFNXQnBDRHRHTTZjOXNGTzcxRWdKaW1xanNwOFpOaGJXUmVTcTI5OFVnYjNiaVhnQTk2LUoxUFNqQnBDUlYwbXhPa04zYWp4Z2FReTdVYko0V3pMMjFTQXVwdjdfVXIyc2hxSEdVUW9Wd0tIOWtINVJ5YWszMU9VamUxM21lNnFYSUJ0Y0dYRzRMV1NTdTNNdEFENHhveHpneHc1THZkR21tMWJsT292Rm9CcG1wVEpLTF84cEVxY2lXUFVX?oc=5",
+      "title": "Which Top 4 Consumer Stock Near a 52-Week Low Has the Best Rebound Odds: TJX Companies (NYSE:TJX), Deckers Outdoor (NYSE:DECK), Dutch Bros (NYSE:BROS) or Coupang (NYSE:CPNG)?",
+      "snippet": "kalkine.ca, 2026-11-18T14:45:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-18T14:45:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT3JUdVRpNWozamVTRkNsMG52MmpZNkJVMGo2VGpBOGpsdFc2bC04TXhwTE5qMVItQ2ljMmF1dDdtaVlIWWFxWkhBZndPckdzRkszdGJFRFRNUV9iSTJGSVktaXpLV0s0dDRSa3IzZkNlbmlMX0NaU3FUazVRek0wQ3NrVllBLWZ0WnFmS3A2LWppbkZLT2F6cGdRQkttUlFkMHRGZ29odkJqN2E3c1l5cTNqcnB3YTc5YWI1c3FiTGprbGprTm84VmRHZklDQ05YWWxGQ3pB?oc=5",
+      "title": "Deckers Outdoor (NYSE:DECK) Shares Cross Below Fifty Day Moving Average - Here's Why",
+      "snippet": "MarketBeat, 2026-11-18T11:12:24+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-18T11:12:24+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWWQ3SmFlYkUzN3NrOVJZQ1Yya2tOdERGMEJkWm00aUtNc01NN0dsanZFZDd0SFM4SEJZR1ROY2pOZmJnamNEZW1VMWs1aXBfVkZqeklxaTdYOHROalpFVS11Qmhaa2ZFY213XzdNVmpHYmxYd3NlbVpPWXp5RFZtZy1Wc01WUkp0a1lPNE9MXzkxbDlRZk9WeVV2OVFQZ2kzb0FBNVRwcFE5bXVhMGF3NkI0cVN1UWhZUmpYOUlkNGFXUTVtbmQxcXM0cl8?oc=5",
+      "title": "Deckers Outdoor Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-18T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3Y3bDh0M3B3UWtHdkR4b1QxVUthX1ZFU2pvYUpwZ0hvQ2lGSFV5Y3hSUFlWbTluRXB5Zm8zY0NPcGd6Tm81MGJaQmFLUWphU3owcGtHeUpmZ2xrR0gtVExOdlJGWkdfQi1SR0FLeVN3eDduNURiYnRvWFF2WHQxbmVxVU1zN0Y0T3hwZVVLbm5jZ1YwM0tNSEllbzJpbkhyVl8xWnVSTFJDbEh4RUp4Zmh3b3BYb1YyTDdDemlVUURpdUtaWTl0MF94dXpXOF9ab1ZaVtIB2gFBVV95cUxPUlJ0RWZ3elYzSWdrVjhZY2ZGZmVqSEFSeFdzN1NSLWlCeVZycXFQdWp4ZDJUQlh3VnBPMURua1R4Z2lEV0FqVXpNalJ3ZkhIdVJNRVBsNVlwTDQxQm5wZTZJeWgwWUtkZEUtVElVRVdOaVV2WkQyNXZkRWtMQ1RacDJnQWt6c1ZDajR1R2xKcDFLNldqc1VvREtmQlRQWk5yTjNWYlNWNUR0akRmNk1FR2RRUy02NWc5U2NCMU55N0N4WFZVdFREUTFVTVVBR3hTTzYwSVhsV1V6Zw?oc=5",
+      "title": "Caught Out By Deckers Outdoor's Slide? Here's What Bears Saw",
+      "snippet": "Simply Wall St, 2026-11-18T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZXMyRTVwRnZpZDZNejJsRTRLdDVSQ21adGs1ODlYQmNJQ2cwMkNqTEJQTGNaX1BSbXBLYTJOOGltNGhrNWFEemgtYVAzNG9RUWJoWmIwNVJTYkxEajZneUctdVNSeUduNzJ0blVuM1hZRHFZUmpQcjFaY2FCLXBmN0hja1cxV3c5ZUF1cm4yM1BLUnVrS1Mtbmo1by12LW4xYVhsZ21NOU1zVGIxMXFWaXRiajUtb0lwbFZwNHpMbjg0cGNVdFVfZmZhS2poY1VfZTE2Vy1odnFBTFNVU2xfVTFmU0RBQjVyOVBvSl9NeGl5bjZXTWc?oc=5",
+      "title": "Deckers Outdoor (NYSE:DECK) Stock Draws Trading Attention: A Look at Fiscal Second Quarter Results, Tariff Refunds and Updated Outlook",
+      "snippet": "kalkine.com, 2026-11-17T20:36:00+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-17T20:36:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4VThhY3o0UDBpdjNOUGlPQUZXLVlGc3cycHB1aUlpazBsM2NuUGVJQ2VaNW5QWjZybnRRWXUzRFJxYVl1MEx0cnBzdHRYWDdMTHpKQndFN1FPTmtZcVM1U1dXbEhrRC1jYnlrdTRrR3lNQ0hjakFMZ0xhYmVMQQ?oc=5",
+      "title": "Deckers: Time To Dip A Toe In",
+      "snippet": "Seeking Alpha, 2026-11-17T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNzByTkVVLXY4VEdzT1o5STBPZTdqZTZJeDZmQmdOWHhwZ084Q3FiRzFpazBFSWtLd2lSNjRlcEZ5aDZwRkpnN3M1eU9kbnc1UHZuaFlqeEduUlNvQ2I2bkp6dEpUdHNINkR0djdjS0FfZ0hQN2p2aDI1X1ZrcGIxdTV4V3ZSZ2NaU0pkMkdVZzl5clRqRlI3cm1TMURjbXlOdGtxV1o2RHZmTkRPUldJTS1KSTVBSlEzN1B6VWJaWjU?oc=5",
+      "title": "Zacks Research Predicts Weaker Earnings for Deckers Outdoor",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DECK/history",
+      "title": "DECK daily price history (Yahoo Finance)",
+      "snippet": "close 78.95 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

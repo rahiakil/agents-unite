@@ -1,0 +1,61 @@
+{
+  "ticker": "XEL",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xcel Energy\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcWJvYWNYcjNZMV9GV3lYeGFXNXdNdkt3Mm9kRW1fTEozQ0Z1SWdnREpDVS1fcXJneGwwYk5HV3MzaTdsYnFyZkFWS1NXT2ZsYUxmSlNxUUM3WHBpekRKUmt5VXlCc29RNWVINENzb1NHc2dyUFE0dDdlc3lQTjY0Z01ObmxudzdNNnhzZUVFaVlUczhtb0Z6R1Q5eVMwUGx6SmZvNHluejVDS3U3UmpOdHF3QmliU0dMNWZkZTJja2dMbjd5MnFDSTFVZnBIcXc?oc=5",
+      "title": "AEP and Xcel Energy Are Betting on Data Centers, but Their Dividends Tell Different Stories",
+      "snippet": "24/7 Wall St., 2026-11-19T18:47:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-19T18:47:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.141,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdlVsdVF0NG5uWU5nVDlGRjczdWpqUEF6dUZwV0ZrNkVjNUpYY2xfa25EdWZudlAxUGlDRnZFZlMwOTFPdnQyS05YMy1KNTJXbXo3b29qRVBvSUludk5pcW90THBmdGdtOVB2b2haS0hHNEd6VHN3dTNweFl1dWotcGZyY3A2MW9MdDhHTkhzN1ZvMkdpTDhVNkxSbTlkWnJkOG5OMVk4Y3VBdVRxTC15aS1SdUIycHpPY05vckE4cWFCVDdXYWNvUQ?oc=5",
+      "title": "Xcel Energy Inc. (NASDAQ:XEL) Stock Has Average Target Price of $90.71",
+      "snippet": "MarketBeat, 2026-11-18T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XEL/history",
+      "title": "XEL daily price history (Yahoo Finance)",
+      "snippet": "close 79.46 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

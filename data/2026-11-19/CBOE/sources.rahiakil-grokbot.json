@@ -1,0 +1,73 @@
+{
+  "ticker": "CBOE",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cboe Global Markets\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaGVRZjJaZHBPUFM0dE9vZXVxbldkSGd4cWhrcnFQUElzNmw1MFZMTU4za2RRbEpGblg2S3Mwa1hjUDNaZHlWV1o3ekhUblRNcThid1oza2xlVzNaTXdlVV9wVk5fX2k5a1diY3poNTYyUm1rRHhjd0Znb05uczZFLWtWaTRQUVRhazJpVVZpOU9hZzNxQ0Ewc1BLQlQ3ejY3WUlEdE9rMnlhV3dDdmFMbEpRMWRoM05PTHJubXptT0Y4TlVwYWxWQXlPWWxaRDJkSUJVU1N2MWswbnVubWRlUXRXbTV6eEE3cy1jbVNnQmNkUQ?oc=5",
+      "title": "Cboe Global Markets Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-18T21:54:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T21:54:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkluNmZva2RNbGp0VjhjTVMxREFQMWtIVTJrU21fUDREcmQtOXdvc2VralV6YUFmR0x3SmEzMVN5d2xyUHRFM09fZjF1S3hrWVRTQzk2OTZFS2tEQlFtbkdhdUlMRjA5NkJleGlIdU8zZkJ0UDlNc2JGQVNPbk00cXNEa2RueDdkQm1kTVVtTUpON2ktSUs5d2c1cUVFZTFKUXFXMURTcTQ?oc=5",
+      "title": "Form 144 Cboe Global Markets For: 18 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-18T16:02:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-18T16:02:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1SLWVGN0NqQTEyMm1VR0xOaGRRSmFyMW8ydk1wcDZpWWVKYUdsem5JODdFNDV3dUJJUFdMT2hnN0ktUmlXN0gtLWNIUGlmbGdvX2J4TS1BWQ?oc=5",
+      "title": "Understanding the CBOE Volatility Index (VIX) in Investing",
+      "snippet": "Investopedia, 2026-11-16T08:00:00+00:00",
+      "publisher": "Investopedia",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CBOE/history",
+      "title": "CBOE daily price history (Yahoo Finance)",
+      "snippet": "close 357.69 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

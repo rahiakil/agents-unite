@@ -1,0 +1,109 @@
+{
+  "ticker": "DOW",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dow Inc\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTVJVcFFrdHRISnRWRU9sSnI0WVVTbTV6UDhjR0FIZUVZazRobm00WmpseGI2bk9IVlJIRWdtMkt2R1IyYlJIQUlzb0djQndRT1VMN3NlVXNQZ0J4Z1Rsb3VXWktkUE5nNTFrRGtTaGVKLVlDU2J5MnNLbHhSUGJqaktKcXlKY1lXN0xIZ0lFcGpPTUtiQVdOUjRrN0J3Q3c?oc=5",
+      "title": "[US Stocks] Dow Inc trades sideways, down $5; Nasdaq higher (morning of the 19th)",
+      "snippet": "Moomoo, 2026-11-19T15:10:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-19T15:10:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczZJWmdoeUxuRWNSTXB1Nm9VVXhQYWVoa0xMYVpDQVIxT2tlbS1CNVJIT01xZ1JJQmRFbnREeHZ0UDJyeWszbkdXcDI2MmVmTXJWU1BaTlpGSjJnczczcG5OdUxXYjgyQVh2YWZROGNmaFBRZHNJMlgyRWxfZW5lMzFTaXQzNTMxZHc?oc=5",
+      "title": "What's behind Dow's latest 3.9% stock pullback?",
+      "snippet": "Traders Union, 2026-11-19T03:55:22+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-19T03:55:22+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMUtZel9MTm8tWDE2aHc5N3hLTG4tUDVzT2l2TEs5dDZyWlZrOHBsTFl4UzBUZEdEQnozSl8tSVBndUdsc0hmaDg0SmtLTWV0UVliM0RCaHRCbWI2Y1NPTWRKQm1Cazc5a2FwNjBIMVNXZERrbF9Ob3NoZWlSQlMxbm5DSUJtbGczWW82SzV0RUg1X0dfQjRURFR6NmpzUHpsdGU4bVpwa1FtajVBVjNLaG9JaUE4dXZRajJJOHFNbm1zM1R5?oc=5",
+      "title": "Dow Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-18T22:05:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T22:05:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcDhWYmpfaDJnc0VnS0JUenpLajM0MlV1U3FRSVM3cnc5S3VtOFhWb08zS01KVXpUeW5Hbzd0c1BrcHo4NTZCMmNCSEJwT2x0anZHaV8zamstSUhNNHFYOVBjUUNBTzBnWUZRaFVMS3pqZm1IcEpfeVd4algwWENlZm5ZSVBaU0U0YmpMZzd3?oc=5",
+      "title": "Dow stock falls as seller pressure weighs amid oversold technical conditions",
+      "snippet": "Traders Union, 2026-11-18T20:15:34+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-18T20:15:34+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSzdmZ3lZa1RacDJOT2Nrd1hzNXgxUUlsVWJjMVlFV2hmYjJOQmswZmQ2SGRiUHFXdzVGUHRaYzdoQlRTektTcGY1TnVtWWJsYU5fYzRmenU5SzVLWEVIVjRVN3Rad05ESDFFZGZ5REltQ3BjMTMtdWQ1MktPNlRfcGxDY0NkcFdZa3Jra2ZqT3JabXNhN0Z6SW03aw?oc=5",
+      "title": "Dow Inc (DOW) Stock Down 3.3% -- Now Undervalued? GF Score: 75/1",
+      "snippet": "GuruFocus, 2026-11-17T00:03:30+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T00:03:30+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTjZibUxlaGNkRWd3LW9vVkttV1IzajZyZ05oM2FBMG1PQXUwYlNqX0h1dURqMGplN3pBWjdLWlB0VTQ4RnVKZDJfdHhXUV96S0MzRHBZalh5LVRJcExvakpESTVMVWYxbnpESlhzbzZpOExTODdyMXAzNzVxd19yMDdpWDVMQXA1Y2ZKSmNYS01Ka3VpdUZqLWFNLXMzSGRvMUF4R1loMURaRHRlVGc?oc=5",
+      "title": "DOW's Shares Surge 41% YTD: What's Driving the Momentum?",
+      "snippet": "TradingView, 2026-11-16T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOW/history",
+      "title": "DOW daily price history (Yahoo Finance)",
+      "snippet": "close 30.25 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

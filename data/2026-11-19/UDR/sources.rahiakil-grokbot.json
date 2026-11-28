@@ -1,0 +1,58 @@
+{
+  "ticker": "UDR",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"UDR\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb0pEVUZ6N2xKQ0pQRFJGc2ZDTkUtWlBCd1JnRlhBd0tSTXZMY2owWmNKU1Fqem5fM01XRmkxem92ZHU1TTdzRE92VGRhTmp3LXA5ZGZHR3hncE5yZFZtcjBNaTl6V2xWOEoxUzlDWERkdlBtRjM0ZXJrMDZDdlF0YUlwLTRCZ1Rf?oc=5",
+      "title": "UDR, Inc.: Apollo Transaction Supports Hold (NYSE:UDR)",
+      "snippet": "Seeking Alpha, 2026-11-17T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/74208/000007420826000090/udr-20261116x8k.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UDR/history",
+      "title": "UDR daily price history (Yahoo Finance)",
+      "snippet": "close 35.33 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

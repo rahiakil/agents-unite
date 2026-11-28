@@ -1,0 +1,61 @@
+{
+  "ticker": "CPAY",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Corpay\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUk9saWFvcEU5SlctX20zd09CYktJbFpoYXUwSVc3S01STmRqXy1WTVVLMGxTbC1uVU1kUlFfbHFEajZZOXoxU2I1MHk2RUtLSU9RbWxsOHF0bzNPVVJqVzRPVmJPQ1N0bl9LaDByR3lZTGd4NHVHSjltT3VVV0Y3WFJ4YXd1S2lER21LMTZLd212Zw?oc=5",
+      "title": "Corpay Stock Rises 13.3% in 3 Months: Here's What You Should Know",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOVlOT1Vka05ta1diUkUzeDAyTk5RQW1HQWZlWmREYW82N1N2Q0RxajV1cU8yM0VMZGxSMU9CYlh6V2FQbVFnY09xeWZuQVdVbGhySEhkaWZ5ZXdQN183SFlBczRhYUFXaDQ1cElRLVlrR2ZnYUstU2p5ZHh5c2Q2OWdzSlFITkE1TW9wYkFQTXRBZ29zS2x6dEZnLU04ZUJhRFY4LVQ3aGozcDBUdkRjaS01eVNtUQ?oc=5",
+      "title": "Should Jack Henry Stock Holders Look At Corpay Instead?",
+      "snippet": "Trefis, 2026-11-16T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPAY/history",
+      "title": "CPAY daily price history (Yahoo Finance)",
+      "snippet": "close 434.29 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

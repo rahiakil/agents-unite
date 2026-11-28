@@ -1,0 +1,61 @@
+{
+  "ticker": "HWM",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Howmet Aerospace\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ1JzcmNrOGRmQVBOelo4SnFuczVOYWRLSF92R1JlSm9TbVJOMkpfWVN6RXBJbU01VEhyMVc3aU5MSmdJbGpUMnY3a1NkNVByRGY0ZFc0WmlIM0Q2Y3J2eFNOLV8tcmdheHprVC1UMWtMUDlKZjJQcmN1OHk2ekdYYnhqR3BPaWk4TmRKbTZCN21NSFRGcnpWUjVzQk1fM1B4b3pKdGZONTNaNGpLZUw1Qkhn?oc=5",
+      "title": "Howmet Aerospace stock at EUR 203.10, up 0.52% premarket",
+      "snippet": "ad-hoc-news.de, 2026-11-19T07:07:16+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-19T07:07:16+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNHNjVFlYUHZvMjdHZG13YW5McElzUHJQU2JFdXk0OHFpbTJ6eFctRUhLallFZjBLbnVHakdqdGw3b3hxNWJLa0ZJeFZpeC1tNEl4MDdLNUFKcDJ3dk9RVUk0bkY1TzlOVHYtUVBPSDFzWWNyYkZPeGpnczl6YkNGd3l0T0lXR0djWG1CdFBBQVEyaWNmd0QxaUVraEZsZEhhdlh1Z1VlVFZsZXFtdVFFdlRRM1Vyam9DcGY1OUFJbURDQ0V4RTJNZU9CdHZ0VUNIVVE?oc=5",
+      "title": "Howmet Aerospace Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-16T21:43:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-16T21:43:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HWM/history",
+      "title": "HWM daily price history (Yahoo Finance)",
+      "snippet": "close 218.17 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

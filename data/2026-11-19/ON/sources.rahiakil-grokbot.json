@@ -1,0 +1,109 @@
+{
+  "ticker": "ON",
+  "date": "2026-11-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-19",
+  "news_cutoff": "2026-11-19T21:00:00Z",
+  "generated_at": "2026-11-28T01:13:25Z",
+  "collected_at": "2026-11-28T01:13:25Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ON Semiconductor\" stock after:2026-11-15 before:2026-11-20",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYWhKV005bjNuSW9iMWwxOTRiMWVTUnd5UDVvSkdkMkpraUR2RWVfcHJ5ajhSZlZsRElVQ1lkN0FFTzZUTFk4WFA0NUlSVk80c1R0d3Q1WENlMW1wcms2RDNfd3pfdlRMM0NUcFYyOENRdzRpaFJ6V1hfeURreV9paEh2OW9xa0JMM0pVOGJFSHpnXzZRaFI1OWxCOVpLYUhtSHRBR0ZHNGJTSXJSdjJuTG1hZnp3UmFmU3ZWZEhROUEyYkJxakNVRjVNN1dyYldvWDVZdHZxNjlfempvci1KWXk0ZnNtS3B2?oc=5",
+      "title": "ON Semiconductor Stock: Price Action, Valuation and Momentum",
+      "snippet": "Kalkine India, 2026-11-19T12:11:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-19T12:11:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc3RhUi1UNDBtdkgtejdyVFl2Nm5hYlBCM2lfV3d6MloxVXd6TV9BTEFZbVVtRkRlVzd4d2dRbzJyXzRmTFVCNHMzSWswT2hWWGU0TnI2UnByQzloM0thWmdiYXJvQlZMejhHZENIdzdWTUplUThIdHpOdE1GdHU1VktZZEZKRWV6aWMzRXZWWQ?oc=5",
+      "title": "ON Semiconductor Corporation (ON) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-19T02:24:25+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T02:24:25+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tT210X3lSMXNRZkh1SUw3UGE1MGhHTkFONmRUTm01emZ2VVVhOXhtVVZaOGRxb19jSEwwY2RQLTA5dFVjczlyR0hqeGoyNExObUloYVlBVktia3gydGlHc3VaZFBRM0dlRkt2R0ttSmtYVkRM?oc=5",
+      "title": "[Opening Market] KOSPI Reclaims 5,000 on Semiconductor Rally",
+      "snippet": "Businesskorea, 2026-11-18T08:00:00+00:00",
+      "publisher": "Businesskorea",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTndwTEJHMkNGd0FUQm43eF9GazhZQjVPaWM1MWpnQnJRbGNta1Q1d1JoT2Y5TklnYzM5VjdoV2xHaDJsdG5HSHV1MmZQQTZpTFJ5enZoR3FCaEEzQl82T1ZhOEt4VE9JaVJQQXRtUDBzN3hRcXdaTi1GXzNCMlZJUjBWMUdRLVBFNWRtMm82REpIdTJ1emlqV0w5bGl6SVJ4bkZDUzE3WjJzSGJkaENaSHoySklpNDFSZGsxRUNleEZfZDZ0dTBYcE5YYkJhOEt5UExRQ3NTSQ?oc=5",
+      "title": "ON Semiconductor Stock Crashes 24% Following Massive All-Stock Acquisition of Synaptics",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yUEdZR1ZEWWVFYnNkckJLNDVFbGktajd5d3N4TThCejEweXJ3TWRCQ05vZHpsZ1h3NXlyQWN4YU9WNTBlSEtJaUU1S2xJYzRiX3ZFRC1HMEs0MzVfZHY0dEtZbS1RcUlPWnNjUnkwcVNsOTMwWXc?oc=5",
+      "title": "Dip-Buying Bets on Semiconductor and AI Stocks; Nvidia's Strong Earnings Fail to Lift Ceiling",
+      "snippet": "BigGo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOci02b244RFVOTHM0ZElZXzVIbTkxVUY1VWVqbVZCUGlmUmRCZlJGYlREY0RncmoyTHZ4cDhManVLUTAyUUJuSW9kQWFiUFBQaVN2SkhPTXV4UGV0aGkxNlhQR1dwWHBybXNGQ0M4SU1TRnF1QzJPeHVTcUk3TU5WRVN1R0VETmFZc1VON1kyUU9aYXlZN3dTcEtySGM2QW92NjBvQnZxZVFQVHhuWTZhT1p1d3VQdw?oc=5",
+      "title": "Synaptics shareholders approve merger with ON Semiconductor",
+      "snippet": "Investing.com, 2026-11-17T21:40:36+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T21:40:36+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ON/history",
+      "title": "ON daily price history (Yahoo Finance)",
+      "snippet": "close 65.72 on 2026-11-19",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

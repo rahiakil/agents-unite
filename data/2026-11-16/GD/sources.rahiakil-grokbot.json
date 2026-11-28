@@ -1,0 +1,49 @@
+{
+  "ticker": "GD",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Dynamics\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcml5ZkZmTUVvUHhhYnMtdTlXdlQ5RndJR3dGNmR4c29TcVgzNVhfOFg3UF9lVFBMbUpzSzBnMjBPcVh6bWYzZ0FJclA3Rlc0dzJlQ0NFeE9VWGtnYW85NDRqeHVEaERsMTZNSmJPamp1X1BsRl94eEZqbmEtR29QcUJEMG1BcjBZa3hjdGU1UF94dXV3RFp2bFA2MkZYUURSUko5V0pVUzFXWXAtYmtIZjZyeER3OFFObkEwRFAzQXBZdXhLekE?oc=5",
+      "title": "Government Contract Update: $23M payment to GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC",
+      "snippet": "Quiver Quantitative, 2026-11-16T09:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-16T09:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.428,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GD/history",
+      "title": "GD daily price history (Yahoo Finance)",
+      "snippet": "close 359.69 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

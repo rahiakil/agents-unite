@@ -1,0 +1,49 @@
+{
+  "ticker": "ARES",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ares Management\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTlVqelNEcHdsQlZBcFpGY0FUYW53MWJoMzNId20zTEZXZEtrcGwwQnJkSGdnTzh3dTN4Z1hFVHI3emFoanZxeGxIVl9YSmk3TnJwQWMxajU2bUlaSW4zNXY2YndwWElCSmN5YXFUV1h0bUlHcXR6WUI1RWJDc0ZGTl9sZ08wTGl0dlpUYU1EU2RMclFzRF94anBjVlBGM2Nlb3NmYXVwU1ZhYXhscUlGbFAzX3F0YmRLa1dQelYzYlhnUFdXekFUOXBaeWxuUlJiemtOOFAtX2JfcHktWjJzN0picUxTaUdkMHltYk10VDFpNWR0eEVjVnEtMVdTLXBTTUFHcTZuNzI?oc=5",
+      "title": "Analysts Offer Insights on Financial Companies: Ares Management (ARES) and American Express (AXP)",
+      "snippet": "The Globe and Mail, 2026-11-15T01:19:20+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-15T01:19:20+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ARES/history",
+      "title": "ARES daily price history (Yahoo Finance)",
+      "snippet": "close 130.19 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "LUV",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 11,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5UUE0WDF1T184U0tVR3d2dkE5LVRBUmtZX3djUzBWWWluQVdDUWU0a1N0cmRNb0FiQjdjWVl4NnRQbE9mZ1pGeHRrWkNoZjdTUERteXp4Ykpndw?oc=5",
+      "title": "LUV News | SOUTHWEST AIRLINES CO (NYSE:LUV)",
+      "snippet": "ChartMill, 2026-11-14T01:07:23+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-14T01:07:23+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQnZVaTZ4bG9BbE01a3VUdDNuWFhKSHJVS1hKN0ZPRXFxYk5PSDZzLWlPbHhobkhJT0EtMXBGWXNrU3NPeXRITlVrTnFrR1hsRTNySWJGY2lrWWQzMkRRZVZ1WDFwMEFlX3duU0ZlenNmR0F5TldfRlN1dmNzdXRaYmszRGgzSTEtUEdWQW1ILVdUak5kWUFpQ1E5TDN0RTVmYjBuOW1UcDgxOWM?oc=5",
+      "title": "Why is Southwest Airlines stock sliding today?",
+      "snippet": "Investing.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjNRakJaZEMzZVh5cW1HMktfUV9NVXZGbVNCVE50dVJtR1FNdjVrQTM1MGM2UTloMnFpSURaUXdXMlYwa2ZnR1FHdlY1WE1hS0htZ2RGN0tEZk0zT0dtcTFzZ2E5emQ0d0c5Wjc0Zy04Z0xVNTJKblpfcmMwcjJtQ2N0NVJ4UGNHR3BFRnVlRWlhdkN2ckJidHpaQXl3ZzRnWkEyTVZZVQ?oc=5",
+      "title": "What Makes Southwest Airlines (LUV) a Compelling Portfolio Holding?",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQTM1TWIxTW53VzZLSzdRcTN4WDdWZVBvNkdWbTE0WEZYYW9qUHJ1dFVjczA4LUtCTkJFNkFab2NhT3U3VmdQalJEakpmQWtLMkpCVHp0bUFMQXAzc2JPcWR4Q2xHb3BqTU1sbHBHVV9ReUx1NTRLcEJiN2hzOVdHTmJkOFk2MUg4cG1ZRnZYbVFWOXFfYjFWWm5mODd1cElFTENDZkVUc0s1NVE1VlV0ZC03ekVtYWhRbHc?oc=5",
+      "title": "Southwest Airlines Achieves New Milestone in Starlink Wi-Fi Rollout",
+      "snippet": "Travel Pulse, 2026-11-13T08:00:00+00:00",
+      "publisher": "Travel Pulse",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZVJEdENNMExQYXFIamRxQThtb3BhempTZkNvX2tHXzhVQlp0NWxDeFc4UXRIal9iM0hHbEZjRm00dVpoVDIwTTFjT3FPalAtT1dKLTEyN1VGN3J1N2J3ZmdZZWhENTZZOXJQZ2R0UkhsTWg0WjVpTFVMYUI3U0xiN1JtcjBfOHh0dmRFRkZTUldLWEJOU3AySWJlRXRmNTNDUjBQLVVNWUdPZw?oc=5",
+      "title": "Dividend Roundup: Southwest Airlines, Cisco, Microsoft, Chevron, and more",
+      "snippet": "Seeking Alpha, 2026-11-13T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 46.44 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

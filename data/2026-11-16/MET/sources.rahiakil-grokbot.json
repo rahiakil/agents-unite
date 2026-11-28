@@ -1,0 +1,106 @@
+{
+  "ticker": "MET",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQndBOHNpbE95bFh0WDBvTTBvV2VGNFVVZ0c5YWJCQUlHeUVGVUxCNmlHLU5JLVdfcEdzaV9wNFZjTXM1LUpRaHhfUElCcHh1UjZjVzRJM0Y2ZlVsN2xtVmdadnJ4SlBjNEM5YnEzUXl1Smw5LUFZTXNVRF9xc1BCTUpzem9aeTdHaFZOWU9nRlQwbU00bVprYTJCU1k3VUE?oc=5",
+      "title": "MetLife Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUXlyOFJ6MTd5dld4bHd2VV9IU3kyVHhaVVRrX0hfM0dtcjNOZHNoell1WkhSTzdMU1lwYWxfb1c1MjV3RTJETVAyUHBRYU1lM2tMRHcyanA1WGdrdmlJMFRMalZ3QklTZkswYUVTN2NMbTJqX05jLUVscUNJT01ZSnBCMC1hUFVSc215N2hDX09kZWRVX1NKdzc3OXZVb0RQUWdWRm91S3d3MUxhd2hvWHBYTdIBuAFBVV95cUxOLVhNbFNDX21FNlZwMXkwY1J3YUVZeF8zdDNXX3p0OERRNjVDLWRDeDdwMVN6LUo2amRDdVpaQkg0S2tNTTJ5d0hFYXhORURQYlc2NlVfS1ZDMEtZdTVXYkNNY1hJNGpQUWIwb3JuMGNJNTdYWTVrcFEzWmJrWGNFOVlxdzVMQVlhUVl6WGRtbGhtNnJyTllicmVZbFNvNlhyd1QwSTRkLUE5TDh1U00xWGVNZk9FYV9q?oc=5",
+      "title": "How Strong Earnings Will Impact MetLife Stock (MET)",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdWlGOTBBMi1HSzloRThBdlhzRDd5NkNpbVNLRHBfWHNXWU1sai10VmZxZkVwbWd1T2wtN2N1aWw2b2dYOFE4TUxTeTlxQ1ZSblpzaFJpcXFuNVRyQlhUNXl2UnVraVJ3N25iNzhrSjBoTE9KdFBDYkQxTFN3M3NCVW9obXRVOE84RXNTZFp2UlJaeF9QRmFweFluSEk2R0RqbVlaZTFSSDUyd3hpTkZRdmlja1hPeDhvUDFYa2d0eWg1bG9ERS1uSFJWbndFcjZPN195SFBsUEpycnBhTDZnUTkwNks3czlCVGRLMDdCU1BKd0Z4Zk50SWlZUERyTF9KZWZqVGoxUVlUbU4yTkU3T2NHbHIwdUU?oc=5",
+      "title": "Analysts\u2019 Opinions Are Mixed on These Financial Stocks: Moelis (MC), Metlife (MET) and UniCredit SpA (OtherUNCFF)",
+      "snippet": "The Globe and Mail, 2026-11-14T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFRFOHhSRmt0REpEdnZRNU13NWJzZUhvMHd0WWpmVl9LMl9NNy12alh3Y0k5amZQQXVQWS1MZV9qeG1uVXYxbGF1RWdwQkNqT3JEUUZqZmsyYzFZYndIZXRSN1c0MXdfd0xuUDN2aWtCVUJYdTRiLTJndnlaekxtOXdEak5XeE5aQmFJLXRnTWVfVVk5dmZsSDdlVWN0SzFtSlphbEFrcnlDbGxnMlhZ0gG0AUFVX3lxTE1KZnFVdHdXMDlNYnVOQzMyLVpIczdqT3dUY2x2QUU4SEx0ZEV1YVJySnhic1hiRnI1RXEtVlU5UnNnT2VZbVY1WHRrazNJbWtQamJvS0ZmTGlnb0w1R19YWTVXVlRTT1ZzZkhwNXU2WHgycnlwQVZlMXd0TWc0alY2QnNzQ0R0ZjBzZVpiRXVjTXhiSWRyRVVLWUpSUXpURFB1R0xvcFNSN1Q5Q1RZcC1tV2RYcQ?oc=5",
+      "title": "What Is Drawing Fresh Attention To MetLife (MET)?",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVEhndDZ3b2FCR2gzU1JBdTNYSzlLYmpOdzl3UXFSWkJpVmZRcTNCQjBxSExqWHhiWTFrTU5aYlNJZ2g4ajNUZUJId1dzXzJaS2xOdkNfVnBmZUhvOWJhVFBZZGl0VmxpQ1pjN1B4ZjlpSm5pbW8xamtfbk13VG1odDRtY0QxSFA0UVBldU8zQlNFaEh5N0ZZVmxnRkZBVE9tbXk2cnByVWM1eXpfb1EtQ1dQaEpkQ3F1bE13eHlmSWtXNnM?oc=5",
+      "title": "MetLife president & CEO Michel Khalaf sells $19.3 million in shares By Investing.com",
+      "snippet": "Investing.com India, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099219/000109921926000064/met-20261116.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 101.45 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

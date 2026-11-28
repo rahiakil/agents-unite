@@ -1,0 +1,61 @@
+{
+  "ticker": "EME",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWEt1UWdJcEVOWjM1aDdvWnJXd0szTHpvYlVuNUVJdEZIa2VFcW1fak03TGR4ZlljMllCWmtmVnI0TlByTXlqdFY1Vm5XOEEzNlpTYVRLMGwyQVlXMG5aWTRqVGFndm1SNFVsWlhGcFk3MTZwMmkxYmMyZkJCNjZLdjhCX25GMGtFUlgxalNTbUJJU1VtV3pYZkpCcF9qeXhpcGF4WGFLWDhxUWJ3Q2VoTTlaWHpuSVJfX3RfSkJya2p2bFUwdUdvNzNEWDbSAdIBQVVfeXFMUDhlOXVMNE1hMnlRamNsNW52eloxUmZBMnRNZHNrNmtYWldzWGJtbU5Dcm95ODlCdWNWUXBuV2MyRTBnLVRzSV9yQ0ZDRng4UDg4d2VqN19kTzg0R3hCYlc3MnRmQ2o5QTZxa1BpMzdSODd1THJkMVNhdU5hRUk0Vmc3QjEyUWVIZWZseUF0NnZsb2pKazhlZkxjZHdBZkN5ejB5dWVuSEZlZFpsd015WG1Oamt2ZGJ3OWlVaHVqUkI0SVRocHZHekdKSkNjeHc3MWNB?oc=5",
+      "title": "EMCOR Group (EME) Stock May Look Reasonable Despite Its P1 Construction Deal",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXkxRXBiOE1hallwOGNLS0Z4bUpDaUQ1dzFPNzVjQTV1UDZwOUVERTdSejRSRnVwcXZkYTctZXQ5ZktkTk84cmR0d3dfZlVuUUc1U2NubHRSN1JHc0dTQlBnTDkweFlLOTYwWjFaWWNabzRaRXctS3dBcE9xRlFCejdiYkpQRV9SUjNrbldwQktoMzh6aUk5cWdqVWRieGRXQjg4?oc=5",
+      "title": "Investors Heavily Search EMCOR Group, Inc. (EME): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 638.72 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

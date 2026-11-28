@@ -1,0 +1,49 @@
+{
+  "ticker": "ZBRA",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zebra Technologies\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWUhfUHNITW9neEY0akh5MURrODd6bER6MGxPb25tZFhvRnBxd29BTm9UTEtRSEUxeDYxQ19TXzdyOHVibWFHTXNsNkxuVTV2d3ROTmlUTDRCLVJ1aXg3QkdBZHVVaWt2eHNSTl9sQXFJcDdzRW5WU21uaEtMbm83NGZocWt0cVE4OTh2V0E3amJCMDNYZTZrRHFoYzNMN1VUa3JJZHVnellvc043dWFjTzN1UmYyU2EwNk1rakFDZEFGYlNEemc?oc=5",
+      "title": "(ZBRA) Movement as an Input in Quant Signal Sets",
+      "snippet": "Stock Traders Daily, 2026-11-14T12:08:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-14T12:08:01+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBRA/history",
+      "title": "ZBRA daily price history (Yahoo Finance)",
+      "snippet": "close 320.13 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

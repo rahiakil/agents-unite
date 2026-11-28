@@ -1,0 +1,58 @@
+{
+  "ticker": "CRH",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CRH\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTVB6UU14c29fXy1wNWs5TXptaU1IVTF6V2stYWFTN0ZCWGp3UzNtajZNeGxaNFBPVklDN2QtV2NDLXl0ZmJYSFNqUHllSXdvOXFnOUYwSFI3Z0ZPRkJ3cHZmbGRPN05ZYUZQdjRIR3RhRlE5bVpkYUloa1o3eEVvQmxHSmdwM3FaQ1M1Qm5sdXRTLTBMMHRUZmhDaE9hVUFkVGx0cEhDTEpMVE1xb0dzWlZjaXY1NnpHQUpiN19zSTh5clMzSVFJ?oc=5",
+      "title": "CRH stock: Oregon quarry deal broadens Pacific Northwest footprint",
+      "snippet": "ad-hoc-news.de, 2026-11-14T10:24:40+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-14T10:24:40+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/849395/000119312526462258/d165608d8k.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 8.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRH/history",
+      "title": "CRH daily price history (Yahoo Finance)",
+      "snippet": "close 92.37 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

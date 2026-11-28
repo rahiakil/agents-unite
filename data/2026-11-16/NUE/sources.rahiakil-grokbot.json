@@ -1,0 +1,97 @@
+{
+  "ticker": "NUE",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nucor\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORXh2ZHFXaER2bjVla1FjV01xZWZCZUt2Ukt1TTRYWWxWSEd1X0JHWnhMaHk5MmhvaXR1VVRPOS05b1RhS0JrSWFIQ29saVU4Y284djQ5c0wwdUFpbnNDZkFKeHFYMFN5U0pLYTg4WlhBT0ZWQllsZk1YTk5aUGl3WEtQTkNiUWQ3Ynl6U092dmdodjJZSlFEdXQ1dzU0X3psTUVzT0tHUHpscTlW?oc=5",
+      "title": "Nucor (NUE) Stock Rises After UBS Upgrade and Price Target Boost to $307",
+      "snippet": "GuruFocus, 2026-11-16T20:08:15+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-16T20:08:15+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM3hLai1PWkVWdFFnYW1ldTZqR1paQzF1YS11SkVWU1dVc1FyWF9oUWN1R3R4R04xeEluWDQ0WXN2UDl0WlBvbVFHTEdTNjJrcl9yWjBGLUtFQXNNQmxoMlN5S1RuN1VQMUl1RVdpUXZZM3dxWlJQVnJvSk9JalEtS3d0c2NhUEF0ck1WNDJETTNkNkpnVWgxbGc1NVA2Umxjbzk1NHhNWEpOZHdld05GQVREX0Ffb3RsQXdvVGZ4c9IBxAFBVV95cUxNallGOEEwaV9VTHZ5LTVqSFNyclVRUkFQQzVROEllaHkzNTZXUW9qVV9ocVp2M1k1MndEbHRlQ01za0tQSG13RDhlMlVKc2Z3VHYtZkx1b3k2QW9Mb3VoLW9XVXlaQWEyV2pRNURuXzZZU3VPWWRkZ3BoWmJsX1d1X2NEQlhvUFVrNVdhSUVWUEtFYWtYVjRjRlJaTFBkUXRPdWlGNl9iVzlRZHI2TTZPTmZpaFFQdXl5X0NSSEw1MlRqdW1L?oc=5",
+      "title": "Nucor (NUE) Rallies On Strong Outlook But Is The Capacity Story Already Priced In",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.412,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLUZ0Z09NbzE4NjczSlRTeXVvYlBfelpLbGl0a0VGMzBJSGdZRkJQRGNLZEFLUTRGNmU5clRkNHNRTHdnbDhjTE9VVVdUaEE2QXNCRk90ME5pYm5HRDJyQ2o3UmFTbEJ2THY5V2FEaHp6UG5ZZmZUZzlSX09lRHBGR0gwNFJ5bXU4RDlXdjJDNGFhTERSYW5vVW1tS3pzb0JiNEZ1VjhadURHSDF5S1dpZndjRDk?oc=5",
+      "title": "Nucor's Steel Mills Shipments Climb: Can Margins Hold in Q4?",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM2I1T2RKNG8zbzZ6LVdoMC1pVHNkQnhuUGo0MDc2RWp2WUg0VHFjWWlxTnJ1WUNfUTFYSlNjMzlUZm1JVzdBSzRwVzczeXdlWTdFSjdsRU9icGtKLTRhZ0RzLVZKek9tSEp4UmFjdTRST2FUSUxtUWEzaUVSZUNzd0M3bVBnbW1oRndtcmNGOUROSDRUSzJWSzJ3NVBfN1BEVEpjamQyeTMtcTMxNDI2RGZ6eUd4a0NNeXc5dkczRkY4clpiTnhoM2hKU1lzMW96UEhrUnNkeGxFYUNWdWwxVQ?oc=5",
+      "title": "Nucor (NUE): New Buy Recommendation for This Basic Materials Giant",
+      "snippet": "The Globe and Mail, 2026-11-13T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd3YwRnd2VFJqbFExRExMWmdZSWZtS09EUWhSM2NkU3BQZ28zejlKTGJBZHFFZE1aSVZBTGNMckNwQnNLRFNlZ19ob1VyVFpNUEpuU1c4TndtTjdPUWkya1NCM3U5cFRLc2RfNHJ6VnpjNHhaQk9sa1ozbGxEZ2VCVnk1dXdQUUpIYklrS2c1c3RzTHphWS12RFhXM0U3MFVOdHVlRW9Obw?oc=5",
+      "title": "Does Earnings And Capacity Expansion Change The Bull Case For Nucor (NUE)?",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NUE/history",
+      "title": "NUE daily price history (Yahoo Finance)",
+      "snippet": "close 252.67 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

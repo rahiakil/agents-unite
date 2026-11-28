@@ -1,0 +1,109 @@
+{
+  "ticker": "EXPE",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Expedia\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 6,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1ozNm5nVWxTMUthYVItaERFcXFZdjVnOFh1dl9xOVVVd3ZOcmF2SWlsYXhoTkYzRE1TVVRsNzlKYWo4TndhcmkwQW5rVG40WWIzOHpNNGhiTzVQZkdFYmNpN0prblRRR3lZQWlIQjBUVndfZWN3VkxGOEM3bDEwWkh0RGFkOWY1Tzd4eVlEWWp6U0NzRU03WjBWVThCeDd1a2c?oc=5",
+      "title": "Zacks.com featured highlights include Ralph Lauren, Expedia, NVIDIA and Lam Research",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNenJiTXpSNW9pQjJaZ0Nsc3hOY3hPcFZyRzdRMEYxdnd6WjVkbkp2TmxVZHRsSXZpbDRsTnBPVWJhMUVVSG1mZ1RMb1lYYnZ6T096VkIydy1xQnRxN19YTGlkZlc5Mk9mRmFKSTJ4OGF0WTVTcHJEXzJKaE1TbkoyNnd1cDFvX3FzbXR6aW1Jdk1MSXh5OVpiclJrVUhJci1p?oc=5",
+      "title": "Expedia: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "The Motley Fool, 2026-11-15T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT0dicDFVLXg3dGJHc2ExV0ozTWxxSmVVYXdXV25qVmdFLUgtOUE1RDMyTUZObk5JMDlualUtbUZoV0lDM2Vydzd2Tk1XRXRPaWViNWpqVlQ2T29KUjRPajcwZjc0N3VtOTNLMUExNlZxYVc2R1NCa2tLQmxhSWhxdktuWFRhc1hISkJEUERXMnc4QzNUWUVlZVVYaGk5V0tDNVlQb3loWFRXSW1HS21rNFpibzJVdjlXYUdZTWRGSFRVRFBYRXJobFdxWGc5Zw?oc=5",
+      "title": "Expedia Group (NASDAQ:EXPE) Stock Rating Raised to \"Buy\" at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-15T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS2R6dVp2NlpEUVlxUTVxZnJkRWxtbHZiVFJscFNGVi1ET05RSm9qaV9GblhOeEZnZXAwU0c1Z1FHeUxEVXlyNVg4UEdrRzUtOFppMV9LRlFVOWhVTjhGMnR4ai0xRHFtVkl3MmFmVnBZQnBUZG1zTmlDY0l5Y2FjQXYxMkZwSEhwUVJoUDg4THZlMGlRUUZ6bll4M2ViU2R4YTUweEg3QldVa1daSnRtY2tNNEJQVGxLS25KRlQzdkxUaEZ0MVRCOWN3WjAwZTR0TXc2Q2JSR0bSAd4BQVVfeXFMUGplS3ZaVmkycHYzaHgzRm5YWXBlRERZb25tcmkxRnpYTWVJS1BYV0RwM2xSOVctUHV0WDhrMGRMQ1RtWXl0akJBTmxicjNfTWF4WUt5QkJuem1BMDloc3RlaGFSaHc0VFVyb1ZqWG9XTno2eFpEc0ZkVmtlTHFmazlZVVVFa2RNVnBYZkRSSThHdHNtVTRqcExBNGdPR2M4NC00ZFY1OU5hVUc5a1VuUk9IMjJqUWZkSERkMUFLUmxVWl84OG1MX0F4NWpVWmJfb1B4OGg5ejdicTJpR0Z3?oc=5",
+      "title": "Expedia Group (EXPE) Beat Third Quarter Expectations, Is It Still 24% Undervalued?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pTzlsR3E2YzRxRWRGMmliYl9hWllGdGNKenM1cmI0Y1hHNFpKQ0V3MWVTZlh5UmRDVzlVQUg5cXgzWFo3cUdhTE9jdlBfM19UZmFKaA?oc=5",
+      "title": "Expedia Group Inc. (NASDAQ: EXPE) Share Price, EXPE Stock News, EXPE Share Price & Updates",
+      "snippet": "kalkine.co.uk, 2026-11-13T21:26:00+00:00",
+      "publisher": "kalkine.co.uk",
+      "published": "2026-11-13T21:26:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWJjNS1jeHQ4UFZ5eDdLV1lsazBRdlNvZ3EybmhETU01Tkh2cHNQV2ZmbzA5VU5IZ1lOZ1N2c3JzakVLbU9KZE1IQ1dVVWJjUGdCRDJjNEdQTXQ1SHhSMzJnYnhyaVk0M2tmUmQ5LUNHTzdkRTJRUGFlYXRrRzdTMWhZRWJWSTR0RDFjaVYycXZhMnpkcTB1bjctekkzRFFwQmtjbmNQOTZWT09sWUszUkxpdUthdmswUU5KaFlR?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning Expedia Group Stock In The Last 15 Years",
+      "snippet": "Benzinga, 2026-11-13T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EXPE/history",
+      "title": "EXPE daily price history (Yahoo Finance)",
+      "snippet": "close 252.69 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

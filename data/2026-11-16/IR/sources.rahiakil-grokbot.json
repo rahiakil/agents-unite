@@ -1,0 +1,49 @@
+{
+  "ticker": "IR",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ingersoll Rand\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaFlQTTNwRDE3UmU3dE9RRDIxZHQ0b2ZDZ1dCUEl1WklkVW5PUk5iajhDVUNLX3JwNHlDS19kejNzdFRZZzlSMjJrOXFwTHpBLWNhemltbWJ6MzRVTWFwY1k4c1Ffa1paUmdTWnc4RTMwUDBjNU1BRDVVZHp6dTEzVWVicXltc1V3cjVfRjZOcFRKTkw3eUV5TGhZU3NQMFl6cl9BeUd0bExKRFYwS2FybU5Xc0ZYSFJndzB0Z0xmUV8yajlONkpjam5R?oc=5",
+      "title": "Ingersoll Rand (NYSE:IR) Stock Rating Raised to Buy at Melius Research",
+      "snippet": "MarketBeat, 2026-11-16T13:17:15+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T13:17:15+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IR/history",
+      "title": "IR daily price history (Yahoo Finance)",
+      "snippet": "close 83.43 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

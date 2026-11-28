@@ -1,0 +1,109 @@
+{
+  "ticker": "NTAP",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NetApp\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb3VnVHlfZ1RSRFQ0WXREWmdlUks5OTRBaHN5Y3k3VENJcEFVamtXUFVrTm54V1VVaDBPbVdKeGVTX3R1Sk1fc0VhOVRpMmk0LWlKMXNjekE2aVhsaXJ0YkIwRThFZFBBUjk4UnIwWXl6U3RIU1RXTXNIQ2FqUmR2ZXRmeTV1NnozRHV1SjVZdmtCaDdwcEJuSFRPQ3Q5VjBIbXVYVWZ4UmJSZXI4aS16R21TZ1NidVE?oc=5",
+      "title": "NetApp director Deepak Ahuja sells $684,185 in shares",
+      "snippet": "Investing.com, 2026-11-15T08:13:36+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-15T08:13:36+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaVpJcWpPSTlRNGd5QVhkTEdjSDhSc1FPV1ZWWlpzRllRazl2NUkzUXZzZDZXVnZ1UHJ5WmticmpJMkV2c1dmSnJvTm4wcnJNNkFFOXl2VkRxclRJTmxvZG5OOC1wQlJrbk1sTU1RcXRwVnY4ckhFX1M2NjYtQ1dwSXNnWkpLcUs1ZXBHUlZNYk44Q2tzNUxtekM4a1JqOVNXbERqeDNMN2E5WVNKTzl1LTU2QQ?oc=5",
+      "title": "NetApp CEO George Kurian sells $7.6M in company shares By Investing.com",
+      "snippet": "Investing.com India, 2026-11-15T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaUFEZUhudkJYLUlHUUc3RkNndjN0LU9xVUpmUlVndFhMVG5zYldiejZkVXlzSGJ1b3VVc0Z2MUNPMlZyUGY4V0V2UDRkYmpGd1ZGTjZGM2VzYjZSQ0lmRmJoMzRkT3RIV1N5WmgydmFmdlM5a25IZWE0ejJFN3U5UGVfMTJJR3QwV3NiemR0azkzZzFkTTRoU0J1ZXFieEJyd1l2QnVpZ0hxMnBvWUFxSHBuR2hNdzNFUDU3eUt30gHDAUFVX3lxTFByMHdHNWh4TGgzQ1FWZzBnV19iS1BvcUNXMnlYaXNKc2xzUkF3eG92amFSRHNCOW1HOFBpSGlUNWs5LUdHcTZCd0piLUxUang2TVE5Q0ZuMnZzWUVPcXUwTm9BbTAwYWZuLUw4TkV4bkg2SUJYZ3FqNWJQM09VUmFHWE44VjRjMzNjVGlJdFZ5dndBaEl5UHcwTHRJX1dwSC0tUlhBS2s3LWhZWVAxMlA4djBCelBCX0hIM0xRekp5TDkwWQ?oc=5",
+      "title": "NetApp (NTAP) Stock Looks Reasonable Based On Its Cash Flow Outlook",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPajlNTmFiYUQ3a21RMFZ6WVdoeHA2Qzh5TTI1WXk4eWw1dE1NQWM2OVRLMzFpbmJPMWRKTk1rRi1DZ2J5eHBmU3RObUNROFBEMGtJdklfTVN6MVdFZ0lyNXNFWldsTXlEMGhiTUN1NFMyaWN4OGJnclh0dFhvQ09NbzN4ZEFmaUhPanRxbHdvb2Z5Qk9vdmRZR2V3RWRYY1dpOU5iM1V4eVVjcExQa0gzdnA2MWc?oc=5",
+      "title": "NetApp evp Elizabeth O\u2019Callahan sells $175,950 in shares By Investing.com",
+      "snippet": "Investing.com India, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT2ZuNEFwb3dZVk84MjZGdTg3aXRjbGg4YWtGX0IxU0Zya29QbENYNnVuczJCdFkxQW9NR0JTY29jTnhfNzdUQ1JMNEJVcXdTS0lRdldyeWRsYW1VZmdhMkc2M2l0Qmc2Y25mRWpER0NGT2RSbDJIQVRSWllxOS1EWXFUUjNYSnAzaFVYcm9valBjRWZ2YlRGa2FHN3FzUQ?oc=5",
+      "title": "NetApp Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ0hrbmtORXFSNzRqdFZjWGFYa3Fna29nOG1BOGhBQ19sS3FDRldMQnZXYzdsNlljVTJOdjk1WFQwcXdGTmRXeDE2OTdMNnVkRHZiTTdmWHNNYUo1Vm1lUS1hVkdJZ0Z4eVEwZlVwSGFRMk1OODRVTENyMEVBRjZtaklRQTZzRWpTNGFHTmFnUVpzTnBRbGc?oc=5",
+      "title": "Learn Why The Bull Case For NetApp (NTAP) Could Change Following Novus Adoption",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTAP/history",
+      "title": "NTAP daily price history (Yahoo Finance)",
+      "snippet": "close 177.85 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

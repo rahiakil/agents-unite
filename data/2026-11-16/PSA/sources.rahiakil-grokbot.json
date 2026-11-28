@@ -1,0 +1,70 @@
+{
+  "ticker": "PSA",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Public Storage\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcUhhb0Jzdkpjd1hqTUN1U19BWFIyVGJ1eVhGVWZYMTNzWFl4UWpFOHBaWGpsSTJYc3VBTDd1dV9ZS3FjOWtIWXU5X1dxQ3FVeUZGNDJXN1FtVXJmdGhqSGI4QjNibEg5YWxrMEdLeVVmRnN0ZlZ4NGc5MEhKRzFoSVJvU3F3WW1nbkxldTFqYzRYYmp1U0k5NEFZN0V3dmhIUjNvc3dqeHdPM0owVWtJU1Bob0M1c09INVlYMlhxLTNaYTRoSmpz?oc=5",
+      "title": "Public Storage (PSA) - What Are Brokerages Thinking About This Stock?",
+      "snippet": "MarketBeat, 2026-11-16T07:34:57+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T07:34:57+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZUowVUJYZkdfZEhUbjNmWGw2V3pCMllPMzJ6WjgwNW5aNUwtX1dvcFhWcWdMT1U4N3NrdHg4X3JJeFpUQ2tTQzJOOGtNVlNfcFM5R1RsNWhabFpVRUpKSTg3UjhTcGEyMkdTczlsV2RxZXZkNDJ3Qnc1M3pnaTRvN0gzWHEzR2FQQlI0UTRVUnVkQU5mTTY2djRYbE11NEFRSGZ2WV9SSjBEbURHd1FoUDNldjFxblg2?oc=5",
+      "title": "Public Storage: A 7% Yield From An Investment-Grade Preferred Security (NYSE:PSA)",
+      "snippet": "Seeking Alpha, 2026-11-14T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526463447/d192487d8k.htm",
+      "title": "SEC 8-K filed 2026-11-16",
+      "snippet": "items 7.01",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSA/history",
+      "title": "PSA daily price history (Yahoo Finance)",
+      "snippet": "close 333.71 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

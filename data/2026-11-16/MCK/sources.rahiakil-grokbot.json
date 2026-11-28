@@ -1,0 +1,73 @@
+{
+  "ticker": "MCK",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McKesson\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ0J1Uk0xSFdwcDN1eFNWRlpJUWMwc0Q2czdfTUNtblNCdXhsVGJfQkVDWGtYN0ZFdzhkVW9iWGpFY25CTDF5bFg0a2pqV3NPVjNfLXpnSnRad1hhdHROWEMzbXJKMmZxekNBajdCcFo2RXVITzJDQzNzdm5fWG5UZHM5YjRJbHJxVV9ZU1hqWTZpaEt3NjZaSWUwdW51RXhrWS1JaTNpcGRTMXRuS1FWZFFGdGdtdTJMZXkwSWZtMkFqZ0dX?oc=5",
+      "title": "McKesson's (NYSE:MCK) Solid Earnings Are Supported By Other Strong Factors",
+      "snippet": "Simply Wall St, 2026-11-16T18:52:30+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T18:52:30+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcm12VnNWQi0yNmpNV1c0VVQ3SENILXpBazhGaHoxR01NRDdCbUpzVDZ3Q2R4VEdsTVNfblNxdThmSk5vVGhfcXRrYzExMjRsR2NVdE1aTUdVVExCbTZ0REVjMzZ6aVdKbzI1NlFtSkh5S1Y5dWp6bFIyWUQ4SXlHUVZ2QjhXYkFpbDUwWEl2MWtkVjB0NEh0SHdiWEVXcVFlTGhwNTZJY0tDbHFxYVhlNFJKeUFkUQ?oc=5",
+      "title": "McKesson: Slower FY2028 Revenue Growth Makes Today's Premium Less Attractive (NYSE:MCK)",
+      "snippet": "Seeking Alpha, 2026-11-13T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.638,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT1puT3NJUjlkaXI0ZWFFSlNvb181ZW1WQUM3QVBLenZuTm8zUGIwLTNrZzB6RUQ5Z2pwdHFOdUlQTVp0TXAzSVY5MkhqVGZOd2hwQ0RpbXlYVDBnS3ZaZy1xYkZYMEQxNmdKdGQ5Q1hEY3pSaVYzUEZvLU1lRktudFRuZWdqU3o5N0IwcFFXQTRSam9kNFdTNGtuN1dfOU00MFBaWmt0X1psNjdnc040Y3RMWnEyQ251Nk5aTFFxbjRQTUU?oc=5",
+      "title": "McKesson Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCK/history",
+      "title": "MCK daily price history (Yahoo Finance)",
+      "snippet": "close 1105.04 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

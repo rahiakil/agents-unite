@@ -1,0 +1,85 @@
+{
+  "ticker": "DG",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar General\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWHNJTGpnTnRENVJqSGJfUjNGb2plSUxPd3FkSzRST0V5SUlsb255Y2xqb2Z0VWxWUmxmbVlRTHFFVUJPWThIV215aHFXdmJ4WUdub3FSaDBvSGphbjJyS1NTU0VHWkFOTWVKTzZYLXE5Zm1WVjBfcThvT0FzMUozQ1FERkNfQl9OV1czNE1JMW1TMVVDSGtveFJxeW02VHd1S0VmMw?oc=5",
+      "title": "Is Dollar General (DG) Undervalued As Traffic Gains Meet Legal Risk?",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZmQ1WXZ4UlJPV1pESkxZeFVLalpMVl9CeDhINUZHZEJQSXA3UTdWejc0QTV3aVNVeEpnd29pdkh1REJ4WmlaSVo2QXlIR0RkVzM1LV9SU05zRndFSnd6Xy1YUzhNQlhEanUtOWYxZkkyd0c3SDNLS29qLUZPU0NxUTJJaThTWExpbUlSTmI5N2dLamNralNpQUloWGJ5b2RfSUdzTEhKZ2p3WDhjb2xjX0RrRXBwVnA0OGZUakpHMHROLU1QdzFDbWRsQ0FucmdudjdTV1BR0gHbAUFVX3lxTE1tWTlFekJVQVFMTkZ1blhTYWIyTmRzM3M2MTVLNlFFc3lsNnBLYWFWNkNieUt0RmpoYUZLdE5RblVRTFEzSEN3OTJQMzZhYjlSNXg4NmNhbnJ1VjNiUzVORzRVdjFOeUhHUTQ2Wkp1Q0xLdWVpQXdoQk5WZkUxY3hzRkVNNHNvZ2ZaN0hmeTlpdkFXM1VVNEFGb0xHYzVJRndBYjNLVmtVVFRmc2dJSmM3WUExeEE3azhPODcyRENjSENZbEkzOHNydXhpaWRUaFllWUFjOHI0NExCSQ?oc=5",
+      "title": "Dollar General (DG) Stock Looks Undervalued Despite Its 35% Five Year Fall",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaWptS1pDeGtlVXpmX3dQaUlaUkZMM0E2ZDBpaVdnZnlFUkdfN3h4Z19ocng3S3pZRTJ6ZHpnT2Vyem5fOVJEX1VVcHRiWS0yT1NHUXM2cE54OXVKZUhPdXNEUzVpWnFTU01qcllPVkRIQlV1bV9USTh4QnVad3RjcXJEbVJRT0xHbDBqZG9EdU9wenRtZ2ZjQmFOdw?oc=5",
+      "title": "Dollar General (DG) On Board Member Exit And A Narrative That Still Sees Value",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZmk0aUJDcllaQ2FYcEJZeWtDZFVleVBtS3lNejlwS3BXZ1Z1YlAwVUZ4LS1laWhfazhmVXYtVEJBOUplSHRtcEdEQ2VNcTZZU2N1N2NRT1d1Q3c3X1Z5YzdUUnJZdU44cG5tYWJDb0RJbzVsUkFubFM4a3FlRkQyNFN5SWx3SEZNTzBHQjhWRzFleXcwZjFRcm9PZHdKWkhZS05DXzN0bmFIenV1M0dEVnRzR2xCdS1Dc1htZVB1TjZKVjEzUlAtVXg4TW80NVBGaXJxUldyZmNSRUZkNEtpY1Nia0M?oc=5",
+      "title": "Dollar General Corporation Stock 12\u2011Month Price Target Raised to $143.41, Implies 7% Upside",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DG/history",
+      "title": "DG daily price history (Yahoo Finance)",
+      "snippet": "close 136.18 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "PGR",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Progressive\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 31,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 11,
+    "irrelevant_or_spam": 5,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUlRjeDFic2lPZXhQVzlCV1dPbWZmMFNrc3VQU2JvMXVpRHRwdnkzYXRMUHRHZ1ljSF9XU255ZDI4bGFPLWItYlJ1cGRhUVZaRUdNZkZTUDVwUjV6YkNYZW0tcm9DZ0t3eVRtdWRrS0Qxb3NhTlczNUExbGZTTDdIS0Z2S1pqWjNiYmdESWxlRTFMclFwOWlMNld0LUxSXzVnQXZIWjdfNUVOTTltQ182QmdtUUl2di1IUVE4Uk53ZGd0LUdkQnlaZENLRERua1UwOWFqbWdMWm1sSmQwZ1JQZEZpb2tuT3ZuOHJka1lQOFY2ODdQVFdUeA?oc=5",
+      "title": "Progressive Paid a $13.50 Annual Dividend Last January. Will It Pay Another for 2026?",
+      "snippet": "The Globe and Mail, 2026-11-16T17:48:17+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-16T17:48:17+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHpqRWFMYWYxNnp2V1c1NEtwVnhnYWtMTEgySENrTm1RVDM3LWQwV3dGMlktSmt5akw0eTZNYXhMdFdxT2dnazFGblNHTHFhaUNiczlUQnlKMlM1empaTUg0ZmxRempUYm5lWmlnLXh5V1VUTksyajluU3dLVGlFamVVSkJiWk9rRE84VUU4VE9HNlBKSy1QR1lZa19UMGt0Q0dIVEVCaVZCb0tmUVFN?oc=5",
+      "title": "Progressive Earnings Call Highlights Growth and Discipline",
+      "snippet": "TipRanks, 2026-11-14T08:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAwTWZOcmF3YWxWa2F1LWw2NlB0RzdoZlkzT2NkNTlhbkw1enBZMXh4b3BJQllaTUFwbnNNQVhmWFFTb01sVTNWblhqaTZoNS10S1RDS1dSUzktZFRDMWdyUXQ4VHB0emtTWlJmcDN5d1JuVDdNQkVnVGQ3bDU3SGR6QXVIQnF1OTlFd0M3eWFyVVU?oc=5",
+      "title": "Why Is Progressive (PGR) Up 10.2% Since Last Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTFZvdE1KSGJkaDlpLVgyOUZHdWpETmJsZWxxMzMzRkp3Qm11LTI1OFVYNGNpRVB6VFkwR1N4ZE5pMTBEV3M2aVNBRHAxek40cFhxc2tpVDlxXzNjZ1VxYXdRYzIzbEhhdGJkVGF3RTljYjU5QUJyWk16N0tlNmpCLVBvUjFNWEJHSWNrQkJHRWFTbm41VDR5dTlaRU8xQ3FlLVJFMzB2UVptM1JfZ2pkNTJxbUJzaXZiWUo0VGRHV1RwRGlfbTJLWEw4ZDh6QQ?oc=5",
+      "title": "Progressive and Moderate Democrats Share Desire for a \u2018Super Agenda\u2019",
+      "snippet": "Bloomberg.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "Bloomberg.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUzRjZEtZckhYWmQxdk5LSkJ4VVRQdjBkazBDREx1OVpESVVfVHlMUlljTzRZWFJyMmF1eVVpS2RVUTZuQTdobUcwZG9nWkQtWXROZk5WV2dhMThqVjhCYl9NcUdPaGxvdDFGVGJZaV8xQ2JJQV8xOFR6OUVRd216XzhfVXplOGlIUWN3WDdsNXFfZzU3YkVDemRkcEhTR0F1c1lkVFhYalRzam1nWi1HYld3S2pBQzRfMzNIMFROZWtiT2J6TVByNFRfLS0wS1g2enh5dGJTb0h0M21aQ1M3Y0IxQmRKRjRlUVZsSE9sSWwwbDBudVBpcXBpamY5dkRhZGRPcUt3dw?oc=5",
+      "title": "Progressive Democrats, pundits push for Schumer to be ousted of leadership role",
+      "snippet": "KOKI FOX 23, 2026-11-13T08:00:00+00:00",
+      "publisher": "KOKI FOX 23",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MNFlfVUNqMlAxT3djaTQ3RDQ0cGJuVmpVN3AzbENZWF90VVl6ZmpsMENTd0dHT0NtaDg5WmFBVTRTRE9MN2RSVnhaY2NYalgxRi1GMXRvLTcxRXVWdWEyS1ZoQ1U?oc=5",
+      "title": "Debunked! Mehdi Dismantles the Myth of Progressive \u2018Underperformance\u2019 in the Midterms",
+      "snippet": "Zeteo, 2026-11-13T08:00:00+00:00",
+      "publisher": "Zeteo",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PGR/history",
+      "title": "PGR daily price history (Yahoo Finance)",
+      "snippet": "close 237.33 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

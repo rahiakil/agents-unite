@@ -1,0 +1,61 @@
+{
+  "ticker": "ACGL",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Arch Capital\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGxacm16bGtpbVZDSzY4ck9Pb3dnZ3pyM3lNWkpuZThXeFFNQ3FXOXNpaXlpX0sxaWdjN3dmWnJJZF9xWW9iWHJhbm5YRWVvU1FyejQxckVzNXZrakhMR2hZNV9VMFdWQWF2UWJjRmM5Ui1qZmk1Ync3TUZ5MHpqMF8zaW9TT25aMjRFb0puQjZuM0IzYkt1c3dTcVA?oc=5",
+      "title": "Arch Capital(ACGL.US) Officer Sells US$5.28 Million in Common Stock",
+      "snippet": "Moomoo, 2026-11-14T19:24:10+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-14T19:24:10+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGtZVlJOVGR0Mi0zU3FmX2oxeThNX2lJclZtcENWcFBTOHhxTDQwNDRKSmtzZ2ljbTVqU0tXdEtMejRrZ0tndGRtZTBjWm9tLVVablY3VU1ZWGxmdjlCWXg4Q0djVUhoXzcwYXA2TDdmYWI2MzBFWGhSVjA1bFhwQThrRkFhdUdLcHdLckZWUUt0UExOUDVxTTBHUjlTWEs0RVZ3dDVNQmpWZW1iZ0E3OWNJNkt3Y1A4WFlSbmR3aE1GLWs?oc=5",
+      "title": "Arch Capital Group (NASDAQ:ACGL) Insider Sells $5,281,664.94 in Stock",
+      "snippet": "MarketBeat, 2026-11-13T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ACGL/history",
+      "title": "ACGL daily price history (Yahoo Finance)",
+      "snippet": "close 110.89 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "APTV",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aptiv\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZjNtSXZUamhsVnZHVUNralZndTgyR1hPZDhUVnhNSHlVYnNhbDNDeUNBVWYxbm16WlpyTkJhQlNtNkdiNGVLeEJJa092SzlGZmtvQWRGX3JYMVhNeUFrYkw5MlFkRklQUDBrOHNhYlRLdTR6WW5HdzJYaHRPenFZVkhUdjZ6RkNkaUViNWxSMTVWUnlnUEVqemJYQWFKUWpXaThDbDB3ZGhuRE3SAbABQVVfeXFMTXpWTW9sS1pFRHdWNE9FLW56bElTN3VLY0I5ajFSVjFCbjVGX2ZCMG05T1prWWtHZjFmQVNwVlctSGpfd0JhOEIxLWpISUNLS2VoZXQzc3RyMWJUVWp3R3IwbGRqdFowZUVXeU5RLUpqaXROVkk3dU1nME1hUlNvMGRraHVTSENnWFdJVmNFYTZYZjdtM2RORDNDeEdudDhNM09ndmIzSUtLQk1mOXlndXc?oc=5",
+      "title": "Why Aptiv Bears Were Right Before The Drop",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APTV/history",
+      "title": "APTV daily price history (Yahoo Finance)",
+      "snippet": "close 37.81 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

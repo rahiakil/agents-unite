@@ -1,0 +1,97 @@
+{
+  "ticker": "APD",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Air Products\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclpGaFp1V2xJSjBXVDk0Mi1fUUtOZW5HeGtqU0hrd0RqRUZqRUE1allYY2VnNFA4emNCc21ldEZHLW9nb2NGSHJKdmRWTG80LVBLYXd5eDRlZEhYNUNuSzNQMl9ud1l0ZTBvWENFQ1A1emRTaVFvZ1FZNzRRREkwUHVsZFFYYnZHUUNmaGN5cW9LUjE2RTh4a0Z3?oc=5",
+      "title": "Better Dividend Stock for Retirees: AT&T vs. Air Products and Chemicals",
+      "snippet": "TIKR.com, 2026-11-16T14:28:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-16T14:28:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWFhsWmZQNmZoNmNWdDdQY2FEYnpnX2tFOTk2WUdCcXQ4aHRGU1RiRXE0MmxNN0NSUUtxMG14dUxxSUxYb0VBUmdSWkNkaWNQQ09KZlBaY056OVZFRnVNRk52TGltb2dGYW91T28yNnVSN0lrN0Q2c2pyNnFmdWhkdEI2WGJaZW12cndTaHcxTFREWDQ5c2c?oc=5",
+      "title": "Air Products (APD) Stock May Be 13% Undervalued Despite Raised 2027 Outlook",
+      "snippet": "Yahoo Finance, 2026-11-14T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": -0.188,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaGhYbHhvV2JKejgzbUdYRVRQTElmMXI4cWxDNDVCQW5fbk4tcDd1VklkOUpwX0hwWTlyMDdtWEFtYk45YWE0REpGaV9pbnFnNExMV1ZRVWhTZ245ZlNta2VTbFQzYWRJUlFQMjJ0cWpQbkFpcDhiYkItY2FoQVc2UmMzUktubmp6cjJBSVU0WFh0b3lxSWN6WjV6TmJrV3pydWNJVjNVN2xFM0JpQmlV?oc=5",
+      "title": "Shareholders Can Be Confident That Air Products and Chemicals' (NYSE:APD) Earnings Are High Quality",
+      "snippet": "Moomoo, 2026-11-13T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR2dUNHJfY2Y3b2ptXzM4SE5NUVFmeUJnTEFCUU1naHQ4Zk9CZS1yd1NlUGV3dzBvNzBxU19UVEtua3lWN3dCRktqcGw3ODNBc1VkWWpnNXg3RFdSZk5CcGN4eFdNOHFVeHhycmYySkxMU0dGdXJodmdaOHBrM2VSWGtCYXNxOC1LNy0xV0pPM1NvSlBTcXVkY0V4WHA?oc=5",
+      "title": "Profit Return Might Change The Case For Investing In Air Products And Chemicals Stock (APD)",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMHJBOUNhNnhLREpxNWQ1VmVhSzRMcGVfWHh6dDRqdGZCeW14NTgwTGI3Qmt2UlZUTVJuNVptV1E1VFNELXk5Z1V0OWRaVXFLSzh2VmltV0xVandhWjgtTFFwUlR6Mkl3U2c0aXpNOFpvNkt5eHlJUC1ySWc5b0JkTmp6WU1qNXpvQ1RaLXZCQmhMbmlqVll6S1RuWWFDcEpNYlByMkhnc0h6ZGhwbUZfZTczWVhEa1JGNU8xZTdvQWVzeXFjYVRpM2kyMVBXbkhlakMzcXFKRnpxX2_SAeABQVVfeXFMT3R0azJ0M0hOTWNBQUd4TGlDaG5ZVnNhb0xGR3hpa3FadktlTll1d0FGa3ZVSGxRUTVJNVE5VFNKd2hzaU5jal9XX3FJcUVLc01tenI4OS1uRlN4bl9fTU1FSXpZUXZXUkV6Vy1aZG9vVUxUVXFRNjJYbENYXzJlN2ZyS1dhWlNWN25DWER4M3kyal91a0FpUmRZYVVFR2ZtQVpxclFESGJpLW1rWGx5a3Vsdi1nNk44ZWxGVHZYR29WcDNDQWt0ZEZFWTFtOUlLOHhsZDJ3M0JzbnNzZ182U2I?oc=5",
+      "title": "Does Return To Profitability Change The Bull Case For Air Products (APD)?",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APD/history",
+      "title": "APD daily price history (Yahoo Finance)",
+      "snippet": "close 313.9 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

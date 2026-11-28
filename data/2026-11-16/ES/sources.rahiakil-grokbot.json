@@ -1,0 +1,73 @@
+{
+  "ticker": "ES",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Eversource Energy\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUlNxWmlwc3dmeXVSd3ZaZmJCTld3OWk2aFpBdS1UZ2FTNjJzU3VQX0E4Nmxqb19JZ1hlOEtlcjB6N3I2OUtYenMyQTF4Rk9xTzVHXzJmZ1VTVHIzXzJlLVotOFplU3hucUhxYVJTRzJDaVZFbnNleTl2ak5yQzhsUjg0akFRd3g3Q0ZmMUdLR0FodHRISGNSUWp0ZmdfM3lPUlBV?oc=5",
+      "title": "Form 4 Eversource Energy For: 16 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-16T14:28:36+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-16T14:28:36+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWkNUZElDeFpxTnNxQ2tvbko4VmRmazJLQWtXWEtEYV9wZVp0YUt6TlBlMkxnbmJXb2N2bENyM0NaQUs0SENicHpfN002QjFhYVk5Y2NhWHN0T2FUVXphaVpmRmFwWGV1SHBXU2tEblpCbld4VklubW1XX0s4c0R3T1A3aG50US1LVnJKcXJnVEFUbjgxZGdta1ppbHl4X3NULVFHWVFMOA?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Eversource Energy Stock?",
+      "snippet": "Yahoo Finance, 2026-11-15T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOTNDYjdSd0dBdWdYU3RtblhBLWp6T01SOTNzRjNtTTlKTU1YQy1IYzN6RDlZMXR1OEU3aUZ4dE9XUkpoWVZBZ0pQRXJPMW9reUI3ZWRPTnQ1Qk4ybXNUamV1bWpnNVViR05EOTFVRHk2RnlLdmE3elFvWGlZM2szaWdHZEZrQ2k3RU5mY0gwblIzWVdXM3JONUNhUDFlblJ3RC1sMUwyTUh6TGc4cUdSd3JvNm9YcDFibnRXTWFrQUNBcVNYZWY3TGh3QnfSAdIBQVVfeXFMT21xQjlncHpwaFNuS2tmZ2VPLW1SMTM5VldJOWtnZDcyVWI3Z3I0bjJSTTNtYnVKQ18yOXFLbDBlb1h6TWRLOHVfTzlSRVFRSHhocXhfNDdydkk0cW5COWhRQ3ctMkl3dy1rcDZuTkZsSWRFeHl5TmMtNzVjSll4SWNtVnVSRjROVDNHRElkcFoybU5qWHF0bzVHZERlMGI2Q2hSUm9QajFVLU1pYXBwc19aRHMyTGZhMWxMRW1mU3hzaGdaUnp0WTVJNXdTeVN1WDdn?oc=5",
+      "title": "How Softer Earnings At Eversource Energy (ES) Has Changed Its Investment Story",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ES/history",
+      "title": "ES daily price history (Yahoo Finance)",
+      "snippet": "close 72.79 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

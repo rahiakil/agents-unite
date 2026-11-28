@@ -1,0 +1,97 @@
+{
+  "ticker": "SYY",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWnhSWkE3TUJuWjR6cFBIUzhGdUdidXFwdkR5RWg5T0p3eUp0TGRXVjB1cHIzeENiLXBQd0RFbURZOWtwR3dhWTBsbmV4Zkp6NHRuRlNZV1NUUDJXSzd4V0lQdE5ndzMzSnpwY0ZrVVgycU4yTnd6VmlCdHo4NE1TQ1NmdjNTYTl5Vmx6SmdQZ1QzVTM1VER4ak10LXV4Z2xTa1Y2dWZoUWw?oc=5",
+      "title": "Form S-3ASR Sysco Corporation For: 16 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-16T11:57:21+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-16T11:57:21+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNTZydFdzYVBISDNmQldGY3lzckFTZFJTc3VsR3dDTkx0ZXlzdjlCOWt1d3p3UTJZNGtKempQSE04dWNOVjFBcnpIRGFISmtlZkJaTkRIWkpsVnhDNF9Uam1yUDJVY25Nd1RHTVl4T21FbjNsOFJuem9pejZ6NjhyTWo4eWhEREJFZzRFMklObXZaNjU3cENCMC1CQzBsNjNCY2lDWTdUNVctOHhZNkVFUUFiekZia1VZd2M4RzlwaDFsVjBkUXc?oc=5",
+      "title": "Sysco (SYY) Reaffirms Its Dividend, Is The Stock Cheap Here?",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdThMRVNhT2tpU0ZJdkdDVHZyTGtjN2VXXzQ0Z0RXbjFzOFdmdGZFX2tHZE91c3NWY1Ryd3k1bmJDUTRzRVZ1ZG5qSW4yQ2VFUTVVbXoySDVVcWNPVkxhcWJUZTZMdmcyLVFxelNNVFpidFJrVG5JeWhTLWlvOUJxRXVvYnoxQVV2c0trNTBCR09CMU9uOTc4VjVod1pMdmZrY0VaQTFvN3hiXy1UUTY3LTQ2R1lSc3VwXzlFMEkxMFloZ9IBxwFBVV95cUxQTXl1ejlxSGZJWkxDdmUzQVNBLVBXNDRVUjh0blFBOGJweDk0OU1TZC1sSFlEUXRZQ3RmTGZ0Um5YUDN0V3kxRTVhX1dLaGJLSEZ6OHBJcHVTTldWUTRpUzNMbU1JTjAyTlYtMVNjQTdJMGZiakFnWllhRzR0UDk5bHlnQ3NVWnRGUVRlcTNKd3N5VVM5am9FeDBOV3JwaEVjVFBFR1pXdXYzczF6cDk1d09kUi1iaG5RS3RwVEQ0cS1WX2RhN3VJ?oc=5",
+      "title": "Does Earnings Beat Change The Bull Case For Sysco (SYY)?",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaklvblliRXhXOXB6aHAxUlBOZEZpMlotbnp3U2Q1Sy1FbDdoeWQyVFF1eDJ5OHFZTmU4RkRzVFg5QTZmWEhFVkp1elFBczVmQjQxejJSbXhOU0pTbTNWNlhTaFpYUmFIdTRfUy1VcVRQWjdRaGlub1lmY2R0MTBsTmppNXFvbXM1bk9FVkNvSlhEX3RWSG43bkkyVGFsOG9BbjhCbk5uUWt3Y3pwUVdmTkF0ZEVULU9OYUNWNXJ1Zmk5OXIyam91LTE5OVpMV29mTUpfeFJMNW8?oc=5",
+      "title": "Sysco Keeps Quarterly Dividend at $0.55 a Share, Payable Jan. 29 to Holders of Record Jan. 8",
+      "snippet": "marketscreener.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN05rN1FxRy1KOVRQNGdFUmliU2h4ZC1fUklMQ1FlNWhqc1dHeVowdXYyMnRwVlotVVR6aDVEMklYZUxlX0djSHk1LUg0VncwaVdsWjJwWGNQcGdyTExkcXFsYkZENUx6QnI1QzZGOE5QY3EtQkVKWlByNmdEUUMwWno3TVZNT3FkaG1XZl9oR3FuT0E0T3d4c1hRZ0RDSExJejRJSnI2SXNxQQ?oc=5",
+      "title": "Sysco Declares Quarterly Dividend Payment",
+      "snippet": "Yahoo Finance, 2026-11-13T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 78.24 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

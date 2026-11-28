@@ -1,0 +1,85 @@
+{
+  "ticker": "CF",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CF Industries\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZFdEWlhkY3Q0akNvY2d6QjhBZVh6Qm9tV1NudFM5WkhfZXFLWEVrbW9TMmFZUU5xNG8yU2pDeEdRbzdjU2Y2MVhpSzJhSmVDRzBJRmdVU2x1NnRBLWN4YUZiMm9LV3dhQkJfQmRHcVJwbk81cHFLTmt1b1Z6cHlhbWtWYmdKNEdOWjFUVGl5SWRheTRjZlRMcXpaSWJZZWs2YXRPS1hiY1lMMjlZYVVyQ0RXUHBTUFJWVFh3OG43OVZqLUw5MjlOcjNlV0pYekllbDBJUNIB2gFBVV95cUxPdl83bVl0eENoX2ZVbnh2OTlobndFVldOWGlGWS03RnZZS3RxZ21SS2RZSEVRUVF6cjRjdE55NEMyMWR0XzE5ejNXOVN5eVJxNDNsOGpVS3pUd3JKT0xkVjN0RjhYbkhrUU9EMnk4VF9tV3BuRHZYTUNpWW1aWnBaWWpLc2lYMTZGcEJYYUJyaXptbFZJYW9qMFJGdWczelVCaDRJWmNIeWYyUHQ1QWp1SC14OHpJUzQzMG43TDhjZy01alMyQjZYeFRZOEtLcjgwdURfai1PNVlhZw?oc=5",
+      "title": "CF Industries Holdings (CF) Earnings Resilience Keeps Undervalued Case In Play",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTlZVLUllQk1STG5ocWNYZnVvMHc3Skx3emd2QkZmWm50VU1zX1paWnVJbFg3SlBhazk0YlNZLVg5dHVXVVZ1UXFURzJqZFF2anh3WDgwOURxcFp5U3JaTWxRYnNNQW9SMU1NcDM0cXNJLURSS1A3UXlPQ0FkdExxLVd4UWJoWnE5UUpqaVl0QTZ6YXM4MGdyaGNvZFh4RmRNZkJuRW1Oa3pDV3ZRTnloekNUTmpjeTF5eWpPUGdBTnRtTkRVZ19NWGJ1dHJDYTRTNnZpU9IB2gFBVV95cUxONEVnMWhIcVVuUVhwck1WMktUYnhOVE5tOUw1b1pVVkdjcFgyOUc1WF9jYjBsSFR2TmI0Zm1KUUh1UkNpTHN3eFdGRVI2VmZFeS1mWE1VTDFYSmtJMnVWWXpYdTV1Y0ZUOFJrZEpCa1NFbTRxR0ZsZlNqTWZ6ZGd1SGtzd3RCanhnQk1YckZjaHppVXNZMGR5aGpOeEM4aGR1eG1haU1QZEwyMDhvcGJWUHVJbnZxaHZrQldQWGFJRWxmZmZlVGhLSWxCUWNQWk5fekpIczcweUNwQQ?oc=5",
+      "title": "How Investors Are Reacting To CF Industries Holdings (CF) Strong Earnings Outlook",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2k0YW83M3dHenIzdExWSjFJVVpkT0FsUGFQX2dEY0J1NFEzbDJVLVlkUHhrR2ZRUkpqd1I5TDdlMG9Ec0NIOWJtN1VxNTBGYVFOVFVpOS1IZEZmVzZqRzRPYTVjaVhLOFV2YjZPYmlhRTFxam00UGQ1Y1NPcV9pT0pxbEZJaU5feDNKWFBucV9iandnbkY0T1pUeXhpUGxLbUJhX2h5Um9zZmI1T2d3eVFUb1R3MFhlaHZ2dkdxZTk?oc=5",
+      "title": "CF Industries: Capitalizing On Global Disruptions While Building Long-Term Value (NYSE:CF)",
+      "snippet": "Seeking Alpha, 2026-11-13T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcVBVUEtiMWVhb1B5djBhamY5UzRWQ2h1NzRldTlPTHBMNGxwVnY3eUVid3d1MmtuYU5zNzVvTzBXZVU4RDhxX1pONG5nTk56bF9GbXBSYWtnaWtfQmtKNnBJX0JpZmVhTmwxcW4yUXUtbnc4U0xRejJ5U20zRlhvUFJnaC1pNUZvYVJjV0VKcFFKTDFXWE04YzhfajJDOXJmMS00ZGxKMzZ1NC1XaGdBdlVUYnVQODV5b2pjdnVDSXJaV1Q1bkE?oc=5",
+      "title": "Bernstein reiterates CF Industries stock rating on nitrogen outlook",
+      "snippet": "Investing.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CF/history",
+      "title": "CF daily price history (Yahoo Finance)",
+      "snippet": "close 119.85 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

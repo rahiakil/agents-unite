@@ -1,0 +1,49 @@
+{
+  "ticker": "ADM",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Archer Daniels Midland\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOVdvZE9uSFlEMklVSmEyWHIwUkdIM09XWTFwN3FEVm9SWHRSYUdZd1VnaXVVN3JmVE9SWVI2NnNmQlB3Q2VLTXZOZlQyd1lRVkl5Q3dyR0tpazAzU0pXUy10WG15Rk1CS3c2ZVpjOGMxdEQtTEtETzhlNzhBYVdMNWhsNTdtM1VhbnBnQ24yYWdMUUYxQWJhMkZzQkNCMjJlcmZCMVU3dDliR2U4X3FnMHRob19UeHE4bVlJTTNLUzhGQmluQ3UtQUZXVURhbmtwQ05hRnM0anJtT2d1WXo3UUlUOA?oc=5",
+      "title": "Is ADM Stock Worth Buying as Earnings Improve but Key Risks Persist?",
+      "snippet": "Eastern Progress, 2026-11-16T16:39:00+00:00",
+      "publisher": "Eastern Progress",
+      "published": "2026-11-16T16:39:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.064,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADM/history",
+      "title": "ADM daily price history (Yahoo Finance)",
+      "snippet": "close 70.62 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "MCO",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moody's\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 6,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcFUxR3hkalVsSGtBS1BEallWVGwwMWlkSi03X1RaRGFLRkJFT2ltRi16T3VCeFRpZmJaSVA3UHg2b3g0OWlJMkFpZ09vU09uTjRRaGxSU3I5YXZOamVZMnVPTnZWTUI5NjE2WVFEb1FGUDlsYXZkOWw2WFVFN3ppSzNsMVdocWxkN2hIcmpCR2kxdFVkYm1kZW9mbW5vdVVMeHFBdHk5eF8zOV9aazE1UXYwNUoxeE54cWtwM3JqVko5aGc?oc=5",
+      "title": "Moody's Reiterates DHL Ratings on Strong Business Profile; Outlook Stable",
+      "snippet": "marketscreener.com, 2026-11-16T04:14:18+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-16T04:14:18+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOS1BtV2NhbVdmWnRURUxuUVRjQW9KZ1JxVG5nc3puNXlqMzRXaG55WTJLX2ZnLUdENFNPOVlaOS05NTVIaUxoZFRQcUlMZGM3c3BVMFdUVExHbkc4V19nQzM2NnUxa212MVN4XzhmYkc4VmZ0aXgzcms3aV9QMDlDQ1B4czNjWjJKTlFUN3BWdWdRNXFWaXV3UGVMY05zVW90NjIxcldTOGwyT1dBaExRcDZfcjMyQ29fY1pTaWdQLUhQX1ZRSE1ZS2hEVGlTRFV1Mmk4NTE3cEFxME5jUW1XTg?oc=5",
+      "title": "Moody's Keeps Willis Towers Watson Ratings on Client Diversification, Market Position, Expertise",
+      "snippet": "marketscreener.com, 2026-11-15T08:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZmlhVEJOWXk3R2J1ckhGZ0JDSS1MQmR3OXA3Y05NYWdua2g4Q1hpbVdqN0JsekdINFNfVnZZQ09qS0hwM29idW42VnBBU19BdWxnUWlrVUxZRmJPS1Q3c1JGdUpkc0FQWEtrem94b1dOaEpWdEJGcldaMTJHV1daTm9Cd3VFWUR5blJMQy0yTWhMRWNWM3dtbEtZdXpaTVNBb3ZvalE1cW53SVFabkhZZkNHUnY?oc=5",
+      "title": "Global banks set to enter 2027 on strong footing, Moody's report says",
+      "snippet": "Reuters, 2026-11-15T08:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmpQMGF6RURaU2JRZGcyVGthOGJURS16N3JwazNsbHRiT2JyZm9qWkx3TFNyNEhTbU16NVMtai10VmJ6TlczMFNaTnlqX1NKc2FjcHRTRE5GdTVXUThUWFBQQlUxWkNBSDNUVnZ4ZkV3cGdNd2VtQm5TSElFMXpBX2J6VGk0MDd6UVhscVUySG0xV2hWZ2psNHZ2NTZBVWJ2eDhpakhPeHBLZ2QzUHB1S2UtVlpWR1BLSGd2TdIBwgFBVV95cUxNNjI2a0llNlBfVXAta1RpZ0FaaWNPT1QyS2ZGTG1kZDhZaUdYQ2J0YWstc1A3MDR0ZmlyRnM4UmRJc1gyNzNJVGdZbTU4OTFhdUkzeE85SkpkYlRlZkI0MndRbDVDTW42Y3NfNXR1Umg3d1V6bkJfY2VKQ3J6UXN6Q21BUWM2X0VGMjhzSmRLWUFjYWhNNk1Eei12U3EtbTZJU1IycHV2VXhXZjdtd0s0ZUlqcHNncE9EaTF5R294NThEZw?oc=5",
+      "title": "AI boom, geopolitical tensions threaten global growth, says Moody's",
+      "snippet": "NST Online, 2026-11-15T08:00:00+00:00",
+      "publisher": "NST Online",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFRmS25XOUkzek5TWURQa1lPSHVSSHNnNVVNRFItWVkxQUdaOWNOS0E1NmlfU25lcGlHbFJwMzk0UTAxMWVuUmZFRnQwdTM1QU5xZ2c1RmhJWXdiLXdFanpMU0hkbndyNzNSeVM2akkwZFlaRkFtblNiWXpoQVdfYV9UMFpEd2hTcHQ1Z3Q4anp5emp5blItSUdJS2lTVVdKS3BfeFZIbFA2R2lRWWRSWUtBdS1Edw?oc=5",
+      "title": "Moody's Ratings affirms DHL AG's A2 ratings; stable outlook",
+      "snippet": "TradingView, 2026-11-13T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWWpFaFktTVo5UTZTWHhEOG10RWM4VVBObVE0ekdsS1gzVmcxVTFhRXQtQ2pRaVVZVDMyV1lEMDFleHJMUzdjRUdUYzdXcnlvLTlGcG9kUV9Vd3pYV3J2MFVEV0g4cmkzQld4eTFEMF9MTC1xWnNhX0g2VFhIdVZvRjNQNTZQZXdiZTFNNFNMdGVNOXVHQnEzU0RtQ2lOVFB4YW15a09kdHdmbUlncWhUaHU0SktLelRLWHdweS1lTy13Mmx2WU02bmU5c3o?oc=5",
+      "title": "India to drive non-GCC emerging market growth in 2027, debt-to-GDP set to stabilise: Moody's",
+      "snippet": "www.indiagazette.com, 2026-11-13T08:00:00+00:00",
+      "publisher": "www.indiagazette.com",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026073528/mco-20261109.htm",
+      "title": "SEC 8-K filed 2026-11-13",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCO/history",
+      "title": "MCO daily price history (Yahoo Finance)",
+      "snippet": "close 506.28 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

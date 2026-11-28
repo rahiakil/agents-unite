@@ -1,0 +1,97 @@
+{
+  "ticker": "ECL",
+  "date": "2026-11-16",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-16",
+  "news_cutoff": "2026-11-16T21:00:00Z",
+  "generated_at": "2026-11-28T01:26:20Z",
+  "collected_at": "2026-11-28T01:26:20Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-11-12 before:2026-11-17",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTTlQdV9nYzU0M3ZYZ09xOFBKekVkMDh0QTNRUzZPZ01kOFhHZW5Sb2ZMcDkybVRuTm5nLWpTS2hlbUdPSWxwZkpmUmlRWklSOHdqeU1sOU1RejVOa3FvLTJGZlNwWTlHMHB1UHlka3ZEYmMwYjY2VnNVQkZlTFdnR2RXM0gyRHliOU1xYl9pa1BhUXEzbWRzOWdqbjhDa3dNWTRPa1NNeU1ObW1aeEJfdWo5VGRMeWM5c1BQZy1aUdIBxAFBVV95cUxNeVpwZ3FvSmVURzJ0VDd0emFTQjh5NENKLXhPQTJibHZ4MmlGLTc3NDd0RjRacmxVaU5LWWdPNWJ5NFh5ZmEwRl9maVJ4UF8tcFhYWGg1bldOYVVrTlZQQmp1Q2RBWDV4ZThkSlJxOFFtMFpGNFUwdGtMMk1ETlVFSV94aGlvd0VqaXpvTVNRM0xZeGZibzdZRGpOREJaMlBsc3FrQTN5bzd1VUxVUy11eXRqcXVwUG5oa1BISXJxYjh2Wnhi?oc=5",
+      "title": "Water Recycling Push Might Change The Case For Investing In Ecolab Stock (ECL)",
+      "snippet": "Simply Wall St, 2026-11-14T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-14T08:00:00+00:00",
+      "published_date": "2026-11-14",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52WG04RUppbkVIZUx3bDY1NEw3b3o4aG1JdlVnMVJHVEp5SXF3bkozZDJjWGRDdFY2dGktbDBvTGJ6alBIRkx5OEZ6SFpvNlJiajNKYmVwd2JWUjVKLUpIaER3SkZZVzFVWXpIcUp3Q0xxOFUx?oc=5",
+      "title": "Ecolab upgraded by Wells Fargo, price target raised to $380",
+      "snippet": "Crypto Briefing, 2026-11-13T08:00:00+00:00",
+      "publisher": "Crypto Briefing",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObkVpZGxNa01JMnBlZDdGOHpuWlU3R2d6Z3UweTMzUzRKb2VhazRhY240VDNXdGNHOWV1V2V1QzJoU0VjdEd3SDV6SWJSYmYxOVV6dUdqLVZvbG5xa29pT0JUSkJtTF8wSUhfRmV2WGZvRW03TEQyMzBEM2pidHc2cEZ0YUZfQ3MyRk1aTjlGVUVIbnptUGNJU1NZM0NWNi1xa3NkRjB0a2VCajZTaTVJNFZQd1JRVzIzS0lWY0VB?oc=5",
+      "title": "Ecolab director David MacLennan buys $184,875 in company stock By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-13T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcGZhQXNWNERNWTZ5X2RfNk9RWVE1NDlVTlNMRlJ0Y21VQk5wSEh1dWVvLWFib2xrbnM2U3l5NmphNTlnYzNRYTcycFE0VG5UNGRDdFRTYmF4SGxVTlIwM2F3VGlMc21nSExOZXpiaVNCUDE1ejNxanRGN2J6RGxwZHgwcV8yR1ItbkFLYjFLZmsyMXNQNllPbF9tMkVTTEpnOVpoSDhIZ0tRQ3JFM3BDM0lfdEg4dDBNTGfSAb8BQVVfeXFMT05hZG1CbFNkOVg3OVFqMDFpa3hDbjNhMjdQNTgtYVl3dU5IUlFSVHgyY2NEQlFxSWNJOFpERVpfVkNnQWZfakZqSy1FOTliUmVTWkhMZnpmMDhfdmp3VWRnTThSbFp1MTFra2VrcTFPRk9ES1F3UTBnd0VVS1dZc3lmekZPdDJjTk5zaXlQVUduQVpjai1rRHozZUNBZFE3eDFZb2FHVkFkNEhUMXhEcG5sRG44WXBnX2IycG1oYWs?oc=5",
+      "title": "Ecolab (ECL), What Is Drawing Fresh Attention To The Stock?",
+      "snippet": "Simply Wall St, 2026-11-13T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYXdOY1ZjckY5aE1hUUZkeFZWTGZyVkVHRG5BS2VkSWpEQkRFSkx6YlJibFM5dFZYMHJVOGwxeXA5YmxCQUJqTjV0WjFNaDV0MW0yR2FCTWNkeWtUeDljcEhBTWIzZVJLM0ZRVzFOWllLVFNYS0hmV0w2QTlXX1ZNZjJCVU9ZT0VHZFNBWmxmRE0yRncybjJ6WldTWnZwdTJ1RVRDQ0JoSTRpSnF6TVIyMW0tR0RLTC1NZU1IUU5tSXg?oc=5",
+      "title": "Ecolab (ECL) Shares Rise After Wells Fargo Upgrade Highlighting Strategic Acquisitions",
+      "snippet": "GuruFocus, 2026-11-13T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-13T08:00:00+00:00",
+      "published_date": "2026-11-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 308.41 on 2026-11-16",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

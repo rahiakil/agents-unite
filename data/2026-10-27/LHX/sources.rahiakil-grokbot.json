@@ -1,0 +1,85 @@
+{
+  "ticker": "LHX",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"L3Harris\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGRHLUlYRGk0ZnBPY2pJekFyLVk4bGg4cE41QXI2ZFFQamhFb2dWb01CVmFUaUxtTUVmbGJoUzR1ZkJmaWlqcXgyaHNNblk1NU9rMDdhU3hvS0xuT0Y0QXZ1M0w4dzEweWt6YmNIdU5uYmh0dkNZYXlFSHBnZXhqZ2F4ME9HSlUtUnVjU21pcE5lRDVPUnNtVzh4Z0Y4WVVQSTZWNDVB?oc=5",
+      "title": "L3Harris Technologies to Post Q3 Earnings: Here's What's in the Cards?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbFNnd1dqV1R6ckVsVzY1c0RQYThQejA5XzNzeDVrUjdwVGxwUmdwRUtteTVIYmlWZ2JWR0dheWtWM3AwM280MGMzSlBlc1pBQzlhMjhPNWxyeWpoZWhQSmxSSjBzMDhjYkhlSjAtRGplaFYxZFVtUEVPaFRKcE1HWnJSeTFINE9BV285SzdRa2tid3RWQTduaV9hS0xaOTlyanJfU0RIMzVMSmMtTjJqcnRoQW00TWNXSTE2ZnA3WVZWSjRnaEZDcjFBQzh0ZGREVVhjQk41dVp4SV9xbG1JMllOTTV6cmFrNWpFazZVR0FnLVk?oc=5",
+      "title": "L3Harris Technologies Inc. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-26T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT0FKRDhGay1zNHJINklGNHduX1FwNjYzaTZpYnVaWHFkcVAydUN5N1MySnpqVXYySFVTM2lxQnZzSVptaHNjMVAxR1hRODFrUGhNRkpIRVY0QkNWVWV3V1g2cjRLMGlZUWIwV2JuTnBCOGlJbXNDZDBCcHlsR0gtT29IakJDMnVCb182UDBiMVd2Y212UmlNelVHQ0lVdmp1T0RPSmlLek8tNkxoX2pmckhha01IV0dCUUJ6NUJhSDRiUHdicmdWeTc3RjE?oc=5",
+      "title": "L3Harris Develops New Long-Range Ramjet Missile for U.S. Army to Intercept Drones",
+      "snippet": "Army Recognition, 2026-10-26T07:00:00+00:00",
+      "publisher": "Army Recognition",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNODZlMm1DZnZ3Y1liUEpLUGZNLTM2MFU5ZlZ4dC1ob05MR292SnY5MEdzLXVIWE9JVkFqSXhaQlNuTE95SWJjLW5QNGczcTN5OEdza0NMRjRnNU9nVTNaTENjNG1DemIwcFVrSk91NzJfakszbjA0QVhMTEVyT21nYnZQWGdXR1ZmeXM2Ymd6Um0waUhKcmc0NUZ3NkptQWVPOWJCVVZ5NUNleFFBV2p1WUJOVHFKS1FFdXA3WHJzLTlpZ01YOGl4X1RteHlURkcxQy1ldTd3MFBGa0xZVnJtYmVDZ1VWYXliTllsZzNfZzRCdEprQXJ2bmswendhUWVMSkp0WTZxMmF3WUtSMXVBYmdUSXpzb1J6?oc=5",
+      "title": "Lockheed Martin (NYSE: LMT), RTX (NYSE: RTX), L3Harris (NYSE: LHX), And HII (NYSE: HII) Win Fresh Pentagon Contracts As U.S.-Iran War Fuels Defense Spending",
+      "snippet": "Foreign Policy Journal, 2026-10-25T07:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 259.4 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

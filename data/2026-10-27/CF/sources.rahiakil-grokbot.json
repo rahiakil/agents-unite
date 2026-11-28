@@ -1,0 +1,61 @@
+{
+  "ticker": "CF",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CF Industries\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamhwazIyMUt1dklNSGU4N0t2QWNseTFsR0lXcGRzODZiWldKcktVaEZ6OHVJZEt0Y3MyU2VQMm11T01UWlhyMURRUWxRS3lKVnl5dTh2RjhYS1JONFNNMmNJd2FScDBad3pKZC1KcG9XdzYteEc2Wi1fNkpIdEUwT0FpSUg4aXZDb3VScnlnNXBBOHI4dWZqMXB1UlUzdzdFTHFxTmt1cDJYTk1KQ2c?oc=5",
+      "title": "UBS Maintains CF Industries Holdings(CF.US) With Hold Rating, Raises Target Price to $134",
+      "snippet": "Moomoo, 2026-10-27T09:37:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-27T09:37:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbm50WkloOHRJbVJ2cEpucEIyNXpDYTVya2RaOGNaUE94V0tTMDJoZmZsZERONGJVVHBkV0Voa0JwandUd1BDbXd3QVVyV2VsTXF2WnhxNW9FbGczMDM5eW0wVGp4d2oxYnpxNUR6bE1INWkwaEVRSl9qeWtiWTlFaEZ1bVc0UjFFUTNXZHdMS3lJMEJ6?oc=5",
+      "title": "What Is Going On With CF Industries Stock?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CF/history",
+      "title": "CF daily price history (Yahoo Finance)",
+      "snippet": "close 120.54 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "AVY",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Avery Dennison\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM28tUGgwbUZJT1R2V0xzTjl0RnBfcUtyZUgtalhKRHgwOTlzUEVHUnV2d0I3MWlrWjBlYjhUaDBERlJQS3BMTUM3ZUxqZy1LWVpWZ0JQN2xpTkhUNGhwMkI2aFdnVWFLTkFCaHVZWEtMZmFWZklNR3M3VWRVcEhUdlV2OWJoX1o1bjBMRjcxdnlFZTZ0eXVybl92Yw?oc=5",
+      "title": "Avery Dennison (AVY) Stock Still Looks Undervalued After A 13% Three Year Gain",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0tYcWd6cFdJTUthbExqb1lJYW5vVzlvcURucHZZTXNQaVFtLVdCbVNaS2VpRHE3d3JOdy00TjgwWk11T2JvdERiZjJqSHVCX2dLVHZwTVFXejNMX1FqbXh6Mzk1OFllR0Z6RHBabGYweV94dWFwdFEtektFekduVTMyZlAtUlBPRThucHR6RDBsOXh6MGVN?oc=5",
+      "title": "Avery Dennison (AVY) Could Be 10% Undervalued As New Dividend Tests Valuation",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AVY/history",
+      "title": "AVY daily price history (Yahoo Finance)",
+      "snippet": "close 181.71 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

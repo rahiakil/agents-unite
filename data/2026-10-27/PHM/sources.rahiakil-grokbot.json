@@ -1,0 +1,85 @@
+{
+  "ticker": "PHM",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PulteGroup\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNU5rT3RLbGpDWlNhYmZGdDZNMVREWE9ESk91bGpjSThRYkhoS0VZcmlwN3R0Tm1MaFJoNk83c0JneG45YU1qWW1PSW51U3ZfbVZsZ2I2ejFoMXZ0anprblVyNm13bUtiTXdYRlUwdFBoMTE4YWFNZ3U1TW4xdXpDUUhqeTVkeEdKRWp5WUxBMGI1ek1RV3ZsdWZCM3VRWklWTUlKcXBmN00?oc=5",
+      "title": "Pultegroup, Inc. : Citigroup Raises Target Pr",
+      "snippet": "Moomoo, 2026-10-26T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYUJNRDBlYlNkT3lvMEFJMkoxNVlaQXppNHYtWjFLM21qVm1PT0JqbkxTdHFoNWFBOVBSNmtySTg2QVZERWNSbU1LMi1HNlVrc1RFVUZkQUxZMHNpWlJlRGFNTEpidzh4enA5QnRKeFp3ak95TnYyVW4wR3lkaXAxX01vaDk5blFFZ1dRbmk0SndMQlFSU3c?oc=5",
+      "title": "Housing Affordability Crisis: Mortgage Payments Nearly Doubled - Lennar (NYSE:LEN), PulteGroup (NYSE:PHM)",
+      "snippet": "Benzinga, 2026-10-26T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUkJWV09ITVhrLXpMLURvb1FCTUMxeE00a2ZDMm5GMUxxdTk3cjRhMWg5NlhVaDZPRzZGcmVTSzRPbmdXczFGM3R6MVh0Y000MkdUX2tOSVNMd2Q3bVV0WVZuWHBTeThITTIzSC0tRDNmN0VGOUtycHQ2ck9wZFMyRmZtZW1BM25BNW5RTlNhLW05dlZQb2NYcVVXUUkzOEgzdThSdnJxcTQ3STdTSkVwNEdB?oc=5",
+      "title": "Citi Maintains PulteGroup(PHM.US) With Hold Rating, Raises Target Price to $127",
+      "snippet": "Moomoo, 2026-10-26T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdGROTi1ISEVrVndzT0ctb2NMcjh5TE8xWUMyaW1pSjVOcnhfYmlrTjljZlo5b1N6NzVFT1U4eHFjLUJZUGdqN3pQRm1JNTROZXhTNUptMEJ5a3dnM01fQmI3cFpmdjJVZ1E0cXctc3lvOVFTeE9xWFJiTDNac0s1R1NMV1RqOEdwVmFoaXA1LXJiQ3hPbXdXYUpSTGpNa3pBamc2LUU1YUFBX1NQQXgzSnRoS3ZpaXhLYkl5VnVETFdVM2NGUG9HZA?oc=5",
+      "title": "PulteGroup Q3 earnings fall as housing demand weakens",
+      "snippet": "finchannel, 2026-10-24T07:00:00+00:00",
+      "publisher": "finchannel",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PHM/history",
+      "title": "PHM daily price history (Yahoo Finance)",
+      "snippet": "close 121.63 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

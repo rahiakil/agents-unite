@@ -1,0 +1,61 @@
+{
+  "ticker": "SOLV",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Solventum\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOM0FhWnNQdUFoM281b2pLeXhTWE1uaXl4TTJFVDZzV3phbXRVNXFWMnpTemVKMDFjeEtTakNEOVJSNEZZeFpicURMd25NZWtpcThqUUZhUnZ3OWJ5RXFsTWFpNWtCUnhDZGo2REotTjUwa0Ffb3Rtd2dieDJPWHEyYy1MMFo4NTdraW94aVBGLTQtT3NrbEpVX1VjbzZVcjB4eEo3ZTdIWVd1N1VyaVlnYjM5VU4wXzd2OFoxVVVZYmlDRkpLYUlBczNJN0hsWHg1QXhkUHhKUEpMWFhKbThkR0dsTHJYSEM3VGpTR1JMZjhJTWlOU0UyZDlMMS04em1xR0NzdkJ2MWFHNlVTU2hGZjNpUUpjUQ?oc=5",
+      "title": "3M India Says Certain Products Removed From Distribution Agreement After Solventum Divests Portfolio To Thermo Fisher",
+      "snippet": "TradingView, 2026-10-26T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOejh2eE5CWGFlMldDZzY3OVZKYnNTSWFhYVRJNl9YYmU3R1JPOVpzTWRKZTRwMGhvMDRFS2RyMVhsU3A2azJXNkJnUjRnTVpaQTJFVGg1WDJGcEFySDdzaThjcG5SWUhPbTViSFR3S2tPUFBQUUhDSXRlLUJhYUJjSmQ5Q0ZoQVZpZmU2SFNFWUVUSG1kVV9NVEVjNG15ZWs?oc=5",
+      "title": "3M India Discontinues Select Products Following Solventum Portfolio Sale",
+      "snippet": "Sahi, 2026-10-26T07:00:00+00:00",
+      "publisher": "Sahi",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SOLV/history",
+      "title": "SOLV daily price history (Yahoo Finance)",
+      "snippet": "close 82.98 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

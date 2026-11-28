@@ -1,0 +1,73 @@
+{
+  "ticker": "URI",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUVVZc0RzMXh1dlViOEpXaDN6UkVJRkRQVWluTlg2SlJKbEJDN0J1emI1YW02VUZNVWxVeDhOd2ZmRTdkcUVVYThjaHc1T2hCZUI0QTlnNy14bXcxVldDVEY1dHUyTDhlcGcxN3daMmhJOG9KbThjLUdiNXh5cWZvS2NNbTJycURyRm92bjdPUQ?oc=5",
+      "title": "United Rentals, Inc. (URI) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUDUxYTFHODFXUENHLWwxTUxDX1NIRlNlTjdZYy1MbjJBM0NoZ0dLYzFaQ0daVjdwb1FqNWRnZ1dySUxvaFdMSEFLS0xMaU9NWThjMGFEdVNPcFVHLVlSTTBrZ2w4T1luYm5BVTVxbWkxa0oyOWRRdzNMc0pIdTVQX3djTHhKUWFEWXhtWEhoVDd0WWFISXMzUmh1WHBTQVgxeGYtcGhuYXd3WWxtLXJCaQ?oc=5",
+      "title": "Is United Rentals Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-10-26T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVjloaHlINGtqdnZaWXo2b1UzSDdNTWpEVEQ1cmtENko3OGZadjVZbGtSaXVpUDFhMlpjejZnREhBSGQzQXJaR3liejRqSjNidVh1RUhqZUN0YWNOd1ZXVEN2QWgyM0VPTUdFT1NVWGQ2SjVTdFpsMUJYY1RwSV9zMTJFS1BHSG1FZ3dIckJTN29QVkliV1pYNUNyYw?oc=5",
+      "title": "United Rentals (URI) Files Shelf Registration That Could Open New Funding Options",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 1162.0 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

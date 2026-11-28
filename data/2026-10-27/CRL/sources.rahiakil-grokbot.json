@@ -1,0 +1,49 @@
+{
+  "ticker": "CRL",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charles River Laboratories\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTzJNMHpHMXZtOUhvMXhQNTVGZGt4R2hTckNSZEU4NTJvdUEydGF4V1pFWFJUY29zT2p1T0ZfeFZBWjg3SmtiMjNIVkZ3bnp3c1pYV1RFaUp6Si1IY25EUVlTbmszU3RyN1k0OGpaLWdydHFHd1FLVmp1M0lmaTc2NDVkQnh4VzNPOW16Q2RHVk9kN0lvZkU3WG8tTQ?oc=5",
+      "title": "Charles River Laboratories\u2019 Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRL/history",
+      "title": "CRL daily price history (Yahoo Finance)",
+      "snippet": "close 358.84 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

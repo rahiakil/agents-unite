@@ -1,0 +1,49 @@
+{
+  "ticker": "F",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ford Motor\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbUFmOE5MbWR4OVB2RzZRSEhGQ1Rpa05IcXExczd2R1h5VzdwbkJDSmdDbGFNYTFuMHp4R0ZZU1JyVnYyWjVZcFFsTVV1Zzc5bUhwaGRPUjhGV2UwTUtGNkVodTd6QU4zY1VqQ0dMMXhUZTY0N0RUbUp2QWE0WE85b0ktTWpNa0VjMzV3WmhKbzRLMjRNeTFCclNtekdxT0N4VDFsUFJnSkdhVWNsUkdGY18xeGlLQ3Y5UXdzMS130gHDAUFVX3lxTE1LWjlmUG1rZmVJOFQ4ZUdvWUl0LTRnOG9uUUFPVGQ2NkpyZ2hSal9kdzZZTWtzdlBxTzEtWVpRVjRfeDdyUFlxZm9DbG13b1F1bTlzOUVqQWZuZV90QUwyLVZJXzdrczRRQlh1azRMLTNrYVFkcDNFOTBfMUdnMWZZMEVNbUNGRkU3MWxQZVduT3J3MVhTVFQ3Y2pleXdrQW5JZHpmRUYxN2VJNFNjbXJfTm1LV3FmYTdHaTc4R3djczdhRQ?oc=5",
+      "title": "Ford Motor (F) Gets CP4 Fuel Pump Class Action Certified",
+      "snippet": "Simply Wall St, 2026-10-25T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/F/history",
+      "title": "F daily price history (Yahoo Finance)",
+      "snippet": "close 11.71 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

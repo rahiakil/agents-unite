@@ -1,0 +1,49 @@
+{
+  "ticker": "APO",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apollo Global Management\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRVhHS3lSX3NSWWN0VnE1TThGNWJJU3UzOG52V252elo1NjBKZGM4bFJIT3dLaWx3MkNoTTZXS2RydWNvbWhzNVV2UFF3eHp4cVdkRHlvSWZjWWd6bGZ3M1Aya1hlRUJjanhlT0ZFMWUzTWpPcExiVzJEMzRZNzY5ajBQZGt5M3BHLU4zZ2w0Z2dmcTEtNGpSbmNVSXNVODltQW56U3g1dzRuSGtzRWxVZmtCUDlYOWw0NVVjN194Ni1TZTNodnJ1U1Z1aFBjNVlmM0Nuck9ybWMyXzY0RHlr?oc=5",
+      "title": "SpaceX, Apollo Global Management Sign Roughly $40 Billion GPU Equipment Finance Lease Agreement",
+      "snippet": "marketscreener.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APO/history",
+      "title": "APO daily price history (Yahoo Finance)",
+      "snippet": "close 114.26 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "FIX",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comfort Systems USA\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 14,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSk9URHVxa1A0TkdnVnNySFhXMEZLVEJzSTlSZ1hubEpzbnNmRDZ4ZzhUOTZoZ3YzbG5qR1RCcHFxWm5wYVU2WlhJYW9LX1pFMzUwdzgtMW9Iejc3SDFVRVQzYW0tVEpubzl4RXB6OFNraFJkd3A5RXpEeEVGb1RCem9iaWhSdy1mRUg1d056eUVPcXlHazZ1ZEFTUzdPa3EycUg0WmZaanAwbnJmLW1EOVNKdlljYUdhVTlxNzA1SzJ0V0FWcEE?oc=5",
+      "title": "KeyBanc cuts Comfort Systems USA stock price target on margin miss",
+      "snippet": "Investing.com Nigeria, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNDlpYTNQVXBKWENBYkpVdEF6SF81U0hDYzFpMnZ0cTlfVWNyNFNtaVhTaTY2RDdPdEE2ZmhVdXlCRHRQQUpaajRZMllZejZ4QUJhMGF0VTdncmlUUmJDc013cDZXS1d4TFctSDdhSHZMODVrcU4ydDFvTGZ4X1cxREhoT2ZKTGFRa041bkprclJBMFItbVdvcUhB?oc=5",
+      "title": "Comfort Systems USA (FIX) Stock Price Slides After Q3 Earnings Strength",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIX/history",
+      "title": "FIX daily price history (Yahoo Finance)",
+      "snippet": "close 1288.61 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

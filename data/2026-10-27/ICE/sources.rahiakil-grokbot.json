@@ -1,0 +1,61 @@
+{
+  "ticker": "ICE",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkVaOVB2bUc4UExQX0VDOUxtTlhiNGFwc1NCWlZjenFoRGVLTEY3Qmh3MlpVQS1ONENoVU5JNlZ4YWZ6M2NDVE1mY0QyMlN4SXMxZTM3VUpiNF92aE4yd3pSdmtXbDhGN2JHMkRJUi1mcjQwWFZJenRYdC1ZZUxIS2hjbUs5VTdNVWpwVzFMNTQ2QzAxTWM5UzlRSzUzNmxBRnFwMVpMU0NyVlZaS2FrOQ?oc=5",
+      "title": "What's in Store for Intercontinental Exchange This Earnings Season?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdXlLV3N5T2o5X2hjT1RGR3NKYzlRaDh0ZWZUSzVHU0pVYzBUaWdaV2d6dWN5NG9jdDNfTkk4S2tWU2pQb2tPMW1mSkl4a241dWJJUGEzWmFENVlPMG5XN2p2QU11bnd3ekZEb3dnd19Rb0ZiNGxXRGtzRzBLdWZCYjhrQ1Mtalo3RHlFc0hMWGJQc2tFRk9DUkh6MktOZ0VjUFR5eF9kTDZsQTg0SUNiQVJqUE1FTHZ6Si1Cel92ZFhsd3ZsY0paVko4eTVUMWRkMURZUEpEOHF5OVR2Y1E?oc=5",
+      "title": "Intercontinental Exchange Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-26T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 155.44 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

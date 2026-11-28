@@ -1,0 +1,49 @@
+{
+  "ticker": "EXC",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Exelon\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2s0ai1odEVwclI0cjcwQ2FtUFhEbDA4MjNwRF9SZ2xPVmpNQWFLTDlhbXVDSkhfYVJYZzgwMEI5ODcwRFhxcG9WSlAyVHB0TWpvNW92S0NOemN3Qk9ISkZEbDh3cldpcXZKU3lQU3I1M29LMVBEcEJhaGJpX3lCcjVIYm1qeU9PN0lvc1RtNzh3NE5LbXA2dFNPT1hYdXoxemhyX3dNd0doMEM0TkgtRDExMA?oc=5",
+      "title": "The Hidden Catalyst That Could Send Exelon Stock Back to $50 on Oct. 30",
+      "snippet": "24/7 Wall St., 2026-10-26T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EXC/history",
+      "title": "EXC daily price history (Yahoo Finance)",
+      "snippet": "close 44.7 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

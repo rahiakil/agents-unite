@@ -1,0 +1,61 @@
+{
+  "ticker": "CL",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Colgate-Palmolive\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 10,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQnd4YlRZRThrS05Ccm1VcnBtOTdWM2ZtMk44aGNPNUVPQ1JEaVVmY3BwX29nOWN4VHNfaFhRYjBkbkZUVHNlTlN1M0oya0JENWdXLWhSNGItQ2FtTXBCbF9IV0pQNVVQQTdULV82cDA5eFFxUlN6bGJuTXVzT1E1RHFBYzhzbUw0cjJDdVRPd0ZwSnlycEgyc1hPNHQzcEJtQ2VYdzRlb1c3ZHB1UGxsNnhMNUwyR0gwbVFiY1hDMHRNNnY2UktVbXZR?oc=5",
+      "title": "Is This Safe-Haven Stock Overvalued? The Hidden Risk Facing Colgate-Palmolive on Oct. 30",
+      "snippet": "24/7 Wall St., 2026-10-26T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdklrQzMxdjkwZ2JucE5UTG1qakpMbEJLbGtOT3FuS2w0czg1Uk1KX0xnZW5hOVpORDFKV3R4Tm1tVE9ocUhiUWtKcGI0bFhTeVZzaE03V2xwWnVKVkc1TlhYc251X3c3VjRzN1p6bE1GbjdDNWs5QnhzcE5CUkhNSkkyeDJnMS1Ma2pjbjFPbjR4cEF0d0V0cFBKVVUzQW9NSV9EdkZUSzFxVXlBSmhzaDlnM3NXN2FvRndLRVNfcFpEN0JxOFF1dXhGTnVZTnBxRmM4LdIB2gFBVV95cUxPV1prbG5meG5hcDNhc3ItcEdCVllZbWxic1lvRW93LXMwRFZBS3VsYVBGTzNpVFVBNUlvb3lLbFJ4NWhGQ2FySTI2Wm1EZlYwdU9TejZ4UjhJUFgzb21yMl9aTWR3LVRoQmNkeVVnODZ0MGhrck9iYjRwTzAtc0VmS2dhZ2d3VEVrb0twQ1RFQ0U4Z2hFNWM1RlFJUU9wcnI1OGdQODhGbjdZaVRRN0l5cWRjVkd1UHFwNjRFMTdoODd6bGg1U2UwMVVjd1FhamI2cVF5bmpsVDhZdw?oc=5",
+      "title": "Colgate-Palmolive India: Nomura maintains 'Buy', cuts target price to Rs 2,175",
+      "snippet": "Moneycontrol.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "Moneycontrol.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CL/history",
+      "title": "CL daily price history (Yahoo Finance)",
+      "snippet": "close 92.17 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

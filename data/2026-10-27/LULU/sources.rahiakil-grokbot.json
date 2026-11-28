@@ -1,0 +1,49 @@
+{
+  "ticker": "LULU",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lululemon Athletica\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTHRyTG4wdW5aZm90OU9hOTRsdjBKel9YVUFYTmwyVFVUcl9PX2doTGI0UDM0M0xObnF1VkZMdzlhQ1FFa25YYzJPUnNic1ZSR2pXNGEzeEd1ZHUycXJPVnlLY3I0MHFzSi1SZU5oVzNGNVhrbTV5LWo2dVk3TzFrZmZNdkxZU3JlTndfTWhQTEFLaHd5emQyWGM3NmttLWtSaU5OUElYTkdVV1M0Wnd6ZjVfTWlwWVhQTHZlMlZ3dE1aLVh4T0FWbnNlUW0zX0Q1dFI5QkJB?oc=5",
+      "title": "Lululemon (NASDAQ: LULU) Stock Slides Nearly 5%, Drastically Underperforming The Broader Market",
+      "snippet": "Foreign Policy Journal, 2026-10-24T07:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LULU/history",
+      "title": "LULU daily price history (Yahoo Finance)",
+      "snippet": "close 104.59 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "TMUS",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"T-Mobile US\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 18,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaE1GUGdsRGdEMVA5Sk96VV9tX0tvWjNkR2pkTWtuU1ZPdFFlcDYzeEJzbUJZeGw5eE9nZURKaFp4ZE5hZTVmU21hQ0Y2OXlLNmUzaGRQTjZsSlU5RzR5Ym5ySlEzRXVFaDhxRUJQeEJEVVY4QUpYSndNQ2pSTWNHeGxhaFRUaTlNeHJtdV9fb3RWN1FZbkduUnBEUjJpZWtMMFpEdUhWY0tZUlZ6Zkp0RWt6alM5X0p4c0psYTZOUlFtSVQ2TXVvcjBSUEVWRlNLc0pPUjktUFh5Nm43VmJZVG1jZUEybXpo?oc=5",
+      "title": "T-Mobile's SpaceX Selloff Overdone, Telecom Expert Says - T-Mobile US (NASDAQ:TMUS), Verizon Communicatio",
+      "snippet": "Benzinga, 2026-10-26T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSExiTjF2SUt3c2hrTVZzRHViS1oycGwwaFNZbkdIdk1IRTlJNWo4bm9tTFkzNnRrLXdlMEhiU3VDXzZpYnF0V3pTUEVWbVNLLUhIVGVqVlZoSzVVX085X3JsUkhEcVpHSG5ROE5JTjJNaVlfU0lOODQwRFVBb0w1VHZGbHREVzA2TmdrcGo0Y3AySnFKM1M2ZXBFVG9xYlZyWGttYy1tNzJjLWJQ?oc=5",
+      "title": "T-Mobile rolls out wireless plans with customizable subscription perks (TMUS:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-26T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdnhCQWFZWENtNW45QXF4RVlBSUZ3RXFhaWtGaTUzLS1MVmNhWElPVVNxUU42WmxudXVZdGRieGlkbzhJblVyWGdsYU8tMVJucTV5cFNtTjhnWlRQN2g1Qnp4MjNwdmd4cm52OWFvWXRWVHl6aUVPb3YxQUs3Q2cyTVFzRGVMNHlLdUcydTNDYjREaVV1Nm1UaC1DZkE0VmVaZzluWGhsQ09pWnFRSjFRRVhaLV94dGN3Z3BuYUpR?oc=5",
+      "title": "Why Did TMUS, LKQ, CMG Stocks Tumble To 52-Week Lows Last Week?",
+      "snippet": "TradingView, 2026-10-25T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTEM0MWZkd3RZQk9va21QakpOSzYyY2tra01VVDExaWJLTDIzazZWX1ZwSjRpZVNwRG9Rc0FmSnZQbzdrZjlDWEdPNjNXaW15SG9vWWo4b0JUT01Ja21IWFhscXNfeU1OaHZ6cnBCODlsQm1SMHNFQ2lvTWx3WkdQUzdBNHhNc3lDX0RlWWVwUE9uekVtQUFndkJtYmY5QkpmaFN2TDFhTm9qZW9sVlhtT3BIajRlQ09tcDVWNi04Q05jOEdwN09EQmU5RWRjR1ZTVWpGeWw4bm5mSEYzM0pYX05Ba3A?oc=5",
+      "title": "T-Mobile US pledges USD 125,000 for first responders. T-Mobile US stock costs EUR 131.10",
+      "snippet": "ad-hoc-news.de, 2026-10-25T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TMUS/history",
+      "title": "TMUS daily price history (Yahoo Finance)",
+      "snippet": "close 146.83 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

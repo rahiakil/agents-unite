@@ -1,0 +1,58 @@
+{
+  "ticker": "HOOD",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Robinhood Markets\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPejZhTFMwbUNDTDkta1N2SThzZUpPdTJFYTUtRGNQSmhuaEMtVU9vYUpQMDZnbDBpb1VBUzV2dWhtczlET0NGQ3pkRm92bkZyeUhTTVhFLVpGNk5Hc19WZkFyVGkzeksteC1ETzl4Z2lhQTRrbF80VkoyRVU1eVNPdm5sNXBmSXotZ1hZd3B1LVBKT044SXpDaG1uRkNYVFR6WTBB?oc=5",
+      "title": "Robinhood (HOOD) reports Q3: everything you need to know ahead of earnings",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000164/hood-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HOOD/history",
+      "title": "HOOD daily price history (Yahoo Finance)",
+      "snippet": "close 94.56 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

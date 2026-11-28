@@ -1,0 +1,73 @@
+{
+  "ticker": "TRV",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Travelers\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 5,
+    "irrelevant_or_spam": 16,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS0RhZzV0XzRCbkpxSF9UUGN5Z3VYV1JnVjRSU0hKc2NKWEhvN0xHUTBjM3QweWx0LVpqNHpiQ2xuX0M5WnhyRVdZcHZfMFc2bFVGRm9lY1pFb3Zpd0N4ZUNYcWhHVHFGdmgwM0RySXVJYllpRkZMZ0hXcFBWdmFjQy03c19lTGdQTHlGMUpWWWJhak5MWDZYZWZ3SHU4WUxSYnJj?oc=5",
+      "title": "Festive Travel Gets More Intentional: Indian Travelers Look Beyond the Traditional Holiday, Agoda Reports",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZnFnRHhOaHN0Vk5DV21sSmktOU1PbVVyRnV0U1VTdmR0VWxCRU5XMGo0YUx0Ym5JUmswUTQxdjdxWmZqbzhYZlU5TXBBOU9FYXVPQ0JZYnV2dkk5VWtmamRvZG5fUXVUd255VmNPa0hCTVpWVlRtMk01VnpXSi0zNHdCbDVIZTdmY2xGNFRzbnFLRnFmZkNHMFJJbHAyZw?oc=5",
+      "title": "American and Southwest chase travelers with deeper pockets",
+      "snippet": "Axios, 2026-10-26T07:00:00+00:00",
+      "publisher": "Axios",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd1lNTHltNEFDTVlLV0Z3Sl9ZcE1lYlRvenRwd2JCZFp4WUZzODQ3cEdVSXFSTlNENDZKcmFMNVRTRmhYczVEc1RTSUFWTVBILVJFVEgtWEg2dERUX0F1Qkp1Tm1uNnZ4UmR3WmM3cHpoQW84Nm1VN2lwUUpqZkZTSXVKQVVONTRLZVV1VWE1WVFCRU1maXRfVVBVdGlxdE1PZmxXQ0JUS1ZaaS0ybTRSQ0tSTS1BZ1RDbkV0YjBoQWpTSmpzcVE?oc=5",
+      "title": "Travelers chairman and CEO Alan Schnitzer sells $35.3M in shares",
+      "snippet": "Investing.com, 2026-10-24T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRV/history",
+      "title": "TRV daily price history (Yahoo Finance)",
+      "snippet": "close 397.03 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "IEX",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IDEX\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFRUa3N0X3JsNWIxU2lYVlg2ZFJaUlloUnBjdWY1N2gycUFmdjN4bFpfb3BNazNBQkFxRTZlSWo5VzZtOUp4QTJhM0tiZlpfZEo1MnJ1N0RmbEZ1enM4QzRzWGJWTjk3aFVqQV9SMUNFOVlYNkpWYnRjbVBvYXhNdlROYUZSU1VrQ08zUnc4Y1ZtV2l1bGRqb1NqeTFzT0NrN01fajkzVzdUNnVYU2FUNkpnZERaODg?oc=5",
+      "title": "IDEX Corporation Is Growing Nicely, But Not Enough To Justify A Bullish Rating",
+      "snippet": "Seeking Alpha, 2026-10-24T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.793,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IEX/history",
+      "title": "IEX daily price history (Yahoo Finance)",
+      "snippet": "close 233.21 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

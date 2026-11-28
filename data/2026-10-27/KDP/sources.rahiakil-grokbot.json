@@ -1,0 +1,61 @@
+{
+  "ticker": "KDP",
+  "date": "2026-10-27",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-27",
+  "news_cutoff": "2026-10-27T20:00:00Z",
+  "generated_at": "2026-11-28T02:30:28Z",
+  "collected_at": "2026-11-28T02:30:28Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keurig Dr Pepper\" stock after:2026-10-23 before:2026-10-28",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRDZhNFpGTjRKaFdNZWVHbmVMMjE4ZHFtZkNkYk84U1ZCQXhiTW1ubXFaZ3VMUUUwYVFHRWxjYm9rVkNMZ2FCcWFmZWRINng0VlZLMU0tUjFtZUxEYm9qbFQtZ3g1NTdyZDZsVTQ4eGZtX0Ztd0FxcHBfYm1zYm5hTkF3U1JDdm5SM2tIdVdONUxsSDdhdVE?oc=5",
+      "title": "Keurig Dr Pepper (KDP) Stock Looks Above Fair Value On Earnings",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb0J6NEd4OVpuakIwMGFFbnltU2pwci1oUVlFbXJsY0ZXYUJVMUt4T3lDb3F4cGNLZVF3RHYwUFhmQV84anpmLUxIM2E3eWVxRFJDM1ZvRWNiRVdqWHlaaFpTcEItbDdaRkVudjB5NGxlSEVxbnJBdk5ENlJMbGFVemd1SXJSWm5vOEs2d1BUSXh1NXVYNEE?oc=5",
+      "title": "Keurig Dr Pepper (KDP) Plans A Split, Is The Stock Too Pricey?",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KDP/history",
+      "title": "KDP daily price history (Yahoo Finance)",
+      "snippet": "close 34.86 on 2026-10-27",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

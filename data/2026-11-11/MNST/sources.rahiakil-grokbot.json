@@ -1,0 +1,109 @@
+{
+  "ticker": "MNST",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Monster Beverage\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUURDNU9kUXc0UE5neGVFbnJXZDRvd2xxRl9FUE1fZk5OclVPYVNVQjBFa3dEXzBMNDYyYVdXNUQ3RHNpSUQ2YmRlRHc3dGlXQzVlVTVlWlZ3VHA3Y1dzemRtbFo2ekNjTDludjZoXzdwdFNBSUVNSndtbl85LU1XemVfZXpoSERx?oc=5",
+      "title": "Monster Beverage Corporation (MNST) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaUd2WHIzZmpZMm53MTdBYXo3NkFNZ09rRUlScHBkNXVlOFlXTmxCbVYzSXcxdG1WUnZqbFhPZTYyOUlQdm84WjNsVVctLUlTdGlQRFpIdUxfM0UySUFrb1JheDZ4NmxraHl6UU1jUmsxVlRKRVB5NnZndlVlRUtLMXg3RzAxcHRaYU5leUVJNjJnOW8zNmkzY1ZIRW8?oc=5",
+      "title": "Why Monster (MNST) shares are trading lower today",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeFJ6NHF0ZkxYdzFkQlYyVngxUG1WTThRX3puaFlJMGx3NVNrUjA1Nl9DWkwtYVBXdGk2ckpWWWZSUlZrc1F5YjRzNEpUU1o3d0ZRQkw5ZUZMZXpTLTBCTktBV0tvWWlRSEVFOGpvcVBzdUFYVzZmUnRjQmEyYW9tZWppbmQ5VVVWRFRQSm4zZFZNWEU1NFJmTDJOR2NwVTFfTUZmT3J5MnN0MTNNU2FaeHJNcllKeFR5R2RSYVlrQWNGeURMUk5UTkVic2VWbzN5c1pkRmtiTHo?oc=5",
+      "title": "Monster Beverage (NASDAQ:MNST) Given New $51.00 Price Target at Sanford C. Bernstein",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUFN5S2g2VVBub2QwajhLRGJ3TXBTdWpCdllNZmRlQzZNTnVKQnpzX29zV2RLbkY2alJOSHVUZ01aRzJiNXZNVnNVTHVsVGpXWlpqbm9xNkQ2LTAyOFczdG1uVWc1bWhSaDZEd0V1a0kyMDVwVmRfLWhzY2JwcUZ3YThNdFdIUWJMaTdMREwxWDQ0VnRWWUkyR0dfeXItN3l5cTZ1SGpYcXpKbDI3TXc?oc=5",
+      "title": "Monster Beverage (MNST) Reliance on International Sales: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT0ItYk1VYnNqRFh4Mm9reXVmcWhyUG4yLUJKZFpXZW9yWi05TDZGcEd2MklBcmtsVDFpMmxWemNFT0RrX0E0R093b2pseDB4dDdEdWlBVGdzd1N4MFBoXzFFaXpxUWs1dURSeVJUN1pXUmJOS2FEbE5jN0l0WHlodWRzbV9sM2FGRVFlc09DTjhWbjFWZE9raHo4aHJxRXNGTnZPWDRfWFZpbVVwTTBLU3VxWmdDZ1RUdDRQbnlOeGlaX2VwV1NhTm5R?oc=5",
+      "title": "BMO Capital reiterates Monster Beverage stock rating at market perform",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObW8wNEE3c0M3WFlfZUowalZYYTF0dUdfQWZ1REpYYVNmOHZsQm1jSG0yNEZKWl81dTZ1R2hVS3U5RjZVRXIzVkdPSzJhRV9lUTBncGFnQ3FOTEE3TF9vbXk3QXN5WDhqQVFMdVhiY2ItVXFndmk1ZGRibDllZlN1dlBiWUp0S2hLMFBaNFZldlJPc3pEb3B2aFA2NGQ1UGYxcU5hb0JSUG5DdEpWNEV1M211TU9hQnNTYlpZM3F5Z0ctclpaUE5MVW1LbUV3aDJ1TjJmemNiTkRSN0pVQ215UA?oc=5",
+      "title": "39,203 Shares in Monster Beverage Corporation $MNST Acquired by Accuvest Global Advisors",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MNST/history",
+      "title": "MNST daily price history (Yahoo Finance)",
+      "snippet": "close 45.4 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

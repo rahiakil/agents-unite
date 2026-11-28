@@ -1,0 +1,97 @@
+{
+  "ticker": "ALL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Allstate\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVFMtclJzeEc0UWMwRGtQcW9fODkxd3VTSnVrQnlnbmtCWnY2Qnd2NTF5aEpsa0ZyWERHSkVnc0tYdG9FMnNGWWhWZDlrYmN0MkJQTklxY2JPQ1JoLTUtSHlZWkwtM19JNzF0UDFUV0VuSnFva0dHaHlxMXowUmtuT21kRENGSWxfSWg2MXRKVkhsVUdIdklsVjhNWVl2aHRQa2wydXA3ODFKZ0VYeGtwVjBEa3BHT0RtbkNtNnZsRUo3MnFV?oc=5",
+      "title": "Keefe Bruyette raises Allstate stock price target on faster growth",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeW9tdFd1OTFuQVNXVHVSc2xFV1ZGd1hDb3dUR3dfUjhCUFdQdDhhcmZ5RkxnN1B3aXpHZ0VNS0JaWFhoQjdfcXYzdlJ0eUNxYnRUcEFqWks1MWl2U3ZtMmNqc1lOX2gwTkZHSjlnWEVlSWxSOG13V0s1NTkyS3RqMkNOUEdQb1o3WmdrYzRSNzlqbEhwOER6SkNRa2NzV1NoX0tlSUhtZXFrUlpW?oc=5",
+      "title": "Allstate (NYSE:ALL) Price Target Raised to $260.00",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTS1YVzRkclpJV1NUVG9oZFhfVWhWMks2ekZrTnNNanFFdXMxQ0NNMFc3cXBJYS0zRm1STnFjZVBEZEp4VTVMYzVKSnVlMUd6WjJxVFoyZW15V3lBRVNsX1FXejVYamJaaUN4ajdkcDlTRlpqVENYTi1kdW80aHJza0FqR0JFeTZHcUtab2FwODR6UjdRM2JRekZrRFZJZlFJNmJEQjdDZEY1S3F6bE1jcHBDN0dmV1VEejlOZXhn?oc=5",
+      "title": "Allstate (NYSE:ALL) Given New $283.00 Price Target at UBS Group",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMXFoY2lPcXB5U1MwN3YzT1VGanVZYmNDMEg2RWRwWTM1OFQ0VHZGaE93Y3hEdzh4N0tlczY0TWE4WkpFTGFzbVkwSzgzRkhmd0NrTFVXYkU1SjJweEtaSUt3Q2JVMmZ6ZmNrcmw5cmduTUpfLVNKTTZjbHBuRzlNbk9tUlFfX2pab2hQXzQ5Mk1jYkhsYUdBYTBR?oc=5",
+      "title": "Allstate (ALL) Stock May Still Have Room As Q3 Earnings Beat",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ1RlTkcyUVFUdHc1V3UyajVOdmhWUGp5Z0FiMlV1N3JZc0xrbmcxa0ZGRXpaRHk1NVRUS0ZIT19nVlVacnR3WjA3Q1o4bzVBSzBNOWlxMkVCRzRZcDdUY2FVSGtfS2lkUmY0NVUyYllyMWg5NGdPN1FMeFFQQXhYUllYUW8tS19Rc2FWREFB?oc=5",
+      "title": "MetLife Upgraded, Allstate Downgraded: Updated Rankings on Top Blue-Chip Stocks",
+      "snippet": "InvestorPlace, 2026-11-09T08:00:00+00:00",
+      "publisher": "InvestorPlace",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ALL/history",
+      "title": "ALL daily price history (Yahoo Finance)",
+      "snippet": "close 262.18 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

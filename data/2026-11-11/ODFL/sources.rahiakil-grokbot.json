@@ -1,0 +1,61 @@
+{
+  "ticker": "ODFL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Old Dominion\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd3dmcHBmSFZzYkRqeGIzUi1SUEc3SVJ5eVMzS1N1YkhCWFlQR2xGd3A5V3pDaFNOSDBwekVRaEJCc2NITGltS2FsRDBfTTJXU3NhWnBVM1ZYZEVmb005NVFybnQ1b0JuVVFsNWtzWXNXWGtHN3dwMTdSWGtORVlFcWJzWGNFTDNrMVF4RU5XVm1yZnEzaEFWNkxSVjhzSHlrQlAyYmxqVWlwcGItZ0RJNU9HVVZXNHAtNjJfbWxzYnJsNkE?oc=5",
+      "title": "Old Dominion Freight Line Inc (ODFL) Shares Surge 3.6% -- What G",
+      "snippet": "GuruFocus, 2026-11-10T01:21:37+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T01:21:37+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZGMyTFlNdl9CMldtdjg1WUVfMXhfbHJ3a1F3U094RVo0YnZKV0hVNWMyVTBNWW0zYllmLWhMTlhqNGROM0ZNLUNWUFdEclowenF3UHFlbDloN0F5M0d0dWRZYkJrZVhvcFROYW56YlhfNTA5ZC1zSkNWcmZJZlRYLUpQQ2lBeC1CcTUyVEZBTVBtYmJvdTJyRDRFdEJGSXYzemYtRUpPeHN6U3pNTW1BdlNkOWJrZ1hFdENxS1lZbG9DWkEteHNOXw?oc=5",
+      "title": "Trading the Move, Not the Narrative: (ODFL) Edition",
+      "snippet": "Stock Traders Daily, 2026-11-09T08:40:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-09T08:40:02+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ODFL/history",
+      "title": "ODFL daily price history (Yahoo Finance)",
+      "snippet": "close 170.5 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

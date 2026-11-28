@@ -1,0 +1,49 @@
+{
+  "ticker": "MKC",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McCormick\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMTlQeXY0Tk1aekNyQVdiZWJzZ0otbUhZY214RGZETWdrb3AtTk1TTG55Y2pYLUhxNjh5bTlpVVdLbUJiWXRGd1BaN2paZmxNQzMzdS1uU18wNGR6YUpEc1p1VDQxZzVhbkMwcWw2RjQ1T21wUE1yQ3dDWUZlWVJXN3pzV2pjSmNYVDhQR0MzZFBRYWZiaUZ6MTFXaU9tc3FJOE9DQnVyaWdzZ2pvY181eDRjd2pGS2FmR3BOYUhZUjZuT2JHakRaVGtOSGVHM0oyUGYwMtIB2gFBVV95cUxPZnozRmRubzkzVDZsTk5MVGJ0VnBRaF9MSmxrdU9mVjZMTVgwRGNMRGdMQ3NialZLcUQ2T1BzTDJnMExkWDhqcm1nZFBhbVRpMlg1b2JrcFJ4LTlyaVp1b1VPTWZna0JwSFJ2NFJqYWJoNlowb3hTaGRrUE1tWnFmTWVjMDlVN1ZOQ3Y1YkExRTRiaVBQQ2tnc0JVWGNLOXJKeS1LYlZoUk9samJGWDEtbzlKbmZQN0lxd0c1SE5VeUFLMXFKRWFQbVJFRjlNTDEtbVhlSnlRb1lhZw?oc=5",
+      "title": "Is McCormick (MKC) Undervalued As Investors Reassess Its Reset Story?",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MKC/history",
+      "title": "MKC daily price history (Yahoo Finance)",
+      "snippet": "close 46.94 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

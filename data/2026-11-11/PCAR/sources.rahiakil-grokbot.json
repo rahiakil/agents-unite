@@ -1,0 +1,109 @@
+{
+  "ticker": "PCAR",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paccar\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdlpvV0hNMFFZWVNZdUdMTmhFYmJscktOOXlkdGxwdHhnbEFscG5TckFrMWI5d3JWY2M0Z29ZY2w5U09wWWlFN0pCWi1samFzOFN6d25nQ2Ytd3c0TTJMYTRfS3VLQkl5bVNnUlJtdVd1YWFBZFAyVWRZZHViLTg2YWhiNlY3a05KYzNZb2QtMTJxNHJJY1dFMHF3Z2xBNVVra0VZdTVZV2FJOF9DRnZrVVNiWGVWYTU0S2V2dzBla3U0Qjl0S3MzcNIBzgFBVV95cUxNWEJNcjhWa2loUGtyQWZkaVZiN3FVZEpzWkQzUllFVEZ1cHVTbkhnWGJZcE1BZ2FOZDZSZTV3MGFlWEd5T0JBNFUxTmI2aEplWTM3UUdjcGJJdDVrQXlyYkQtV1JKOWhwYWdlc1lJS3pIaDZ6Y3NvZWUzUE5ERWxtVVBFQ0JKbmJ3QzFrQlhyYmZkQXFCTk1wZDI1a09SRUE3eFg2Q2o0dzB1dHMtWTNSY1JnQy1saVdBOWJZNGhqU0pRTkpBTGs5anJnSFNCZw?oc=5",
+      "title": "PACCAR (PCAR) Stock May Be 30% Undervalued On Future Cash Flow",
+      "snippet": "Simply Wall St, 2026-11-11T07:22:30+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T07:22:30+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTUpITzF1S1dVZldGckRMMEZva0dJME5LRTJwZFc5RFpkYV9GRlN0emtkSFIzRVFpejZCcE9DcXNVTFJJZzFHZ3l2X2VRQzFHcmlnNVNhcVN1SXdIakNFdVlhOW9DVGdqM0xVM3ZOZUd4TnZBeWQxaEEzcDloQjF5VktaUVpoNG9fdUE?oc=5",
+      "title": "What\u2019s Going On With PACCAR (PCAR)?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbks3aEdoTm1Fbzl1aVdJYlhBLTFCMnY4N21vOW90Wmx4NUxtZks3SGhQNHl4Q0VnZVhkQ21pa3BVMkRjZG53anlvMURaVl9mdFpuNzUxLVphS3dZa3FJbXRfbzNhZV8wSlBDRGNEYjdyMDZhTTRMRTVyVVpTRm5IYmpzRmxvcndWV2w2ZjA2QUZhUlBqRFNjV216QnpaaXZ4RGRnNFR5Znc5cnkxMUpr?oc=5",
+      "title": "PACCAR Inc (PCAR) Stock Up 3.7% but GF Value Says Overvalued -- GF Score: 89/100",
+      "snippet": "GuruFocus, 2026-11-10T00:14:42+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T00:14:42+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLTZJblVnSHdYYW5TSERfT3lsWm5xdTFoMzZyRVBIZW9DM2stMko1MHNDc0RHWjRTdEZvSnR3Z2ZuOG44TUwxTFktakV1VFNuOUhSRk9aU2FPY2hITFZNSDRMY1FZSGtLTkpTWkZkYUpKSTBPMHZoclBnQ19XMkhtem5TZnUxb29jMFNtdVBXYlBGM3lJNWNtRzZkYkM5NFI4bEJGaU02NUpoZ0N5SERmSV9iVG5ZQ3pmeFFINA?oc=5",
+      "title": "PACCAR stock: Parts revenue adds detail to Q3 profit surge",
+      "snippet": "ad-hoc-news.de, 2026-11-09T16:14:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-09T16:14:53+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWnIwT0I1b0RVTm9tY0dCcDRXd1JzRnppU3BPQ0RITlRyU3hvbUlrWHhCcGlkUGlZbUQ5d2V6cDBRc2lSa3hxd3pmYzMtT3VRUGhoZ0stUU5veEZhQWs4cXk2SnNfcFhQcjBZMThjVV9OcDY3ZXd0TnY2dTBaWHNDaktsWTJmY3VzRldkUi1YejFvQWlaNFBSaFdiVW5JQ00?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for PACCAR Stock?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV0FzM2p0bzZCRHNZZXpVOVRueS1TVVFxY2RLOVM0SHpZNG1Oem4zQy0xR2tqVFBNLTh0Z2VRUUh4WTZHVVBicWdhaEhhUjhsZUYwSFdoNmVtQWY2YkE1QlJKbnppenpDdWJKY2FaWXhGMGQ5eXA3VG9mcWVkVjczZXhJczlyX2ltc2MtbUl1SEFfaFg2ck5SSzRB?oc=5",
+      "title": "Three steady dividend stocks - Cintas, Pool Corp., and PACCAR - continue payouts despite market ups and downs.",
+      "snippet": "Pluang, 2026-11-09T08:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCAR/history",
+      "title": "PCAR daily price history (Yahoo Finance)",
+      "snippet": "close 108.13 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

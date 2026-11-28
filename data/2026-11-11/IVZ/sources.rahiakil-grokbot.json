@@ -1,0 +1,70 @@
+{
+  "ticker": "IVZ",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Invesco\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVkE5MDFuM2FuRVMxVmMwbTRrcjl5empPT2NUTndwNFB1Sk5ZYmxOR2lPRXY4UTlpVk1wZXFVUHgxVnFZcTlweWt4R3ZSMzJNS29Jdmk1d2RwU2hXLWhEQjZTRlB1ejdDMzFPRW5aLUVMVW1MeUtYeWU1X0JEOFpleXpZbmgzV0c4R3M0NExPSDgxZ2hIaml2OEg1cGtrZUt1QnVMdzlfeUxsbmFEcEtrWEhqTFVkclotYzhHb2J4OThBLTVFd0E2bmlKaUlsUXU4SWVYX3NZdEtISjJTeVNDdEtiRlRGQ3ZuV2hfd3p1djI4UQ?oc=5",
+      "title": "How Invesco Msci Sustainable Future Etf (ERTH) Affects Rotational Strategy Timing",
+      "snippet": "Stock Traders Daily, 2026-11-11T01:08:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-11T01:08:01+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhZjhBTFVkY3RDTHNCMHlvWEwxZVAyc2w2RXpXV2cxbFZ5NjkzaFVQSHBQekZEanE2Mnl2UmRBb19Gcm9QMUVmVFpLNnRvQQ?oc=5",
+      "title": "Invesco S&P 500 Equal Weight Communication Services ETF (RSPC) Stock Price, News & Analysis",
+      "snippet": "24/7 Wall St., 2026-11-09T18:12:28+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-09T18:12:28+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000424/ivz-20261110.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IVZ/history",
+      "title": "IVZ daily price history (Yahoo Finance)",
+      "snippet": "close 28.63 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

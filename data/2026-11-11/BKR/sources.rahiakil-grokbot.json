@@ -1,0 +1,97 @@
+{
+  "ticker": "BKR",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baker Hughes\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 0,
+    "irrelevant_or_spam": 16,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUlZXUWthWjhoRmlZdTJVc0NoTlJPdHRrYkVETVZJQS1SZUdreUZnT2hQWEtYdERHNVgyREJ4bnRSSGlRU3RGbzRfMzZtcE9ZQWJUbW5YOTJMaU81LXY4YlFpbWQ2TjljTHpFTWlyaVU3N3ZWN0FadUFHQmx5ZWszekF6b2tVUkdkNGhKYmUxR0NxclV4MGZzWTQtMmxxUzZxb3l5bjI2bEMzeGNJcDdpNmIxM0w3ZjBlXzhQMnllTVVVLVE?oc=5",
+      "title": "Baker Hughes stock enters second investor conference this week",
+      "snippet": "ad-hoc-news.de, 2026-11-11T14:46:25+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T14:46:25+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUWU4ZFp4RXlmWXl6ZUZtNS0tTFB3MWhZbGoyRi1scUdvTWJFNVNra3VLYWlhNUg4S1NCMTVWWFM1OTNzUWVkZ3pLZlJSZG1fRFEzUks5WWRiREttTG1wY2VHZWZZWk4tTTFnVHVUN2hLVWFWUF9YamFRelNuMEdyWU5CZ09EOUk1amIxMVpwRQ?oc=5",
+      "title": "What Does Baker Hughes (BKR) Winning The Cronos Cyprus Contract Mean?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN2NvUjRLeDVERVBGNllkbU9TUnU3R0d0UDNrVUozVExlQ1d1aFNHanpRTzVLV0tHYnhkVjNPcFJWY2pLQVBZRFh1X0ZEaWM4ZU40NUp1WGxONk9qeUdoQXRDc1BWTzhCYzFDazF2YzJ2SU9oeGM2WTRYN0toU2NRUGFmT2M4dHI3UkktTmUzQng3Si1TVTR6cVZSRHE?oc=5",
+      "title": "Baker Hughes Stock Outlook: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNGIyejRjRTFNckR5UHNRMDljaFJZeDFPZ0d6X1VwSWxoME8ySUxTWFFqVlEtRGxmcDdSOG91aldUc0JxMTQxU2NtaVRLZEI4ZlBNTGJEMkNzMlJPZXlMb2FldTJneVlzRnpBRmhrV2RkbjNkR2FlMUxNbVAteFFzYnd6MTRGOFIyNUdFWGlIdHlOeFlvSVJseU90Rm8zbjJiOUc4X0xTc0lzWTRqZmtQbFhCb1Z5U0RrMEZiamk4Z1Y2eU9RMEE?oc=5",
+      "title": "(BKR) and the Role of Price-Sensitive Allocations",
+      "snippet": "Stock Traders Daily, 2026-11-10T04:34:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-10T04:34:02+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUWFlMjI4UXIzYXdhVl96YWQwc2lHMHFwZ3lSX2JTbGFWeGF1YTNlUlhSYjNpcWI0cEZ2bGlIcHRYMG1FaEJRalY0ZUxIVHIwMWQyT21BSUo4R21QLTNVUmZOODdWQVQ4cktPSVlGMGZDWHJWSU9lSzQxc2NuM1AtcW1FYXc0Tk5TNzdnY1lidjVVVVRVb2ZXNzRDN1lTa2d4SGdjbFVtbzFnNFFINkRZaEVJSlJzRlFfb3VGbE0wbEpqZkFQLV9J0gHMAUFVX3lxTE5LNjdRQ2lGWF9wZTZucEhuT2VYQVFWWXZpQ3hEaUNTUHFORXc5MC1WcVBsclphMncxbl9qV3ZlanJIWXp2YU5GaWUzbXQybkkxcnBhWUd0RVdvT1daUmFXd3VjSERTOUp2aUlrWkxXd2JpZ1FmdVljMzdpNE1WUWllbDZJalE3TXpUQndzRHlMQkdmZk5RLU9OREQzbUVRZ2xFdHBhVE1HUDZNMHI2X08xSEpVNUREb01SZEc0dENoVFJ6aE9LaWNnNmU2dQ?oc=5",
+      "title": "Baker Hughes (BKR) Lands New Contracts On Undervalued View Comes Back Into Focus",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BKR/history",
+      "title": "BKR daily price history (Yahoo Finance)",
+      "snippet": "close 49.41 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

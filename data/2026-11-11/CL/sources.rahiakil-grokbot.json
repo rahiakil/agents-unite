@@ -1,0 +1,61 @@
+{
+  "ticker": "CL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Colgate-Palmolive\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUV9sdzdMYkplLURtQVB0VGR1aGp1dnk2bmVTVFhIY19STkZXaldTalRRekowM0RqRmhkcXh1enB1UVdud1dOY0Fncm1wYl9vUTNlWGI1bjNHOHc1NWs2bDVTSHhseURiZVZ0WGtYd1ljOVhiN3owZHJWSFFzbTBMOHhKQzlXa1V1NUZHTG81NGdLUHV2TGdEMm1SV3NaU1VJTFNoN1JLWXVRdGJCXzRib3k5T1BmbTMyclZJ?oc=5",
+      "title": "Colgate-Palmolive (India) to participate in investor meetings in Nov 2026",
+      "snippet": "scanx.trade, 2026-11-10T08:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFZ1SDVfUm90STZHZjIyZnQxVHVhbllTZkdFWmJZWkVKbllNUjluUTJ4MTVjNGZxRThuYXRmR3doV1g4Q3FZZTlMWlNaakdQb0x0MEY2TW9mTUE1LXc2Y0hnXzBYaG4xcmJ2bHlrMEVDTXE0d0QyMEJ0RUpIdndtS1VJYWN6R1ExVzZZLWRQVnc3NnE0TVZGZ1dsRmlfWkk0djQ1SzFRdHd1ZUlJODhvOFFCdw?oc=5",
+      "title": "Broadcom Stock Trades 32% Cheaper than Colgate-Palmolive - Broadcom (NASDAQ:AVGO)",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CL/history",
+      "title": "CL daily price history (Yahoo Finance)",
+      "snippet": "close 98.0 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

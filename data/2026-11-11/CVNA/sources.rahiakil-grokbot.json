@@ -1,0 +1,133 @@
+{
+  "ticker": "CVNA",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carvana\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcXpfUHRIMUpka0JaNmV3Qkd5aUo5SUhDLWlONEUyX29nU1R1dGJwYm0wTHJXN3hmQzdodFcyaVQxeVJTWE55TnNjS1ZxRlpBQU5fbWVncjREOXVOSkkyUjczaU1wMHBNSDJIS2EyczVoSHZEd1dkSFlrUi1kVWRsOERzQUJpZGFFV3JVSkxVOGk4d09wUkVHZ1FtUFNQcTZLd0puQ2tBWE54eFBIaGVsbzVBVUw3WHRNWHVB?oc=5",
+      "title": "Carvana stock enters a margin test after record Q3 scale",
+      "snippet": "ad-hoc-news.de, 2026-11-11T15:05:14+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T15:05:14+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVBRRkxLUTQ3MzN2a3hBYW1ZeGdQcGs0ZDMwQ2lzYjRIMzc2dm0wVy1uaWtMeWpUQ3hlckxCRUxDYS1vRnk0TXYySmkxc3ZscDZCM1RwV1lfenllb2p5b2xndnpsLW4xQnVJVkw0TXBOZFc3eGg2R2daTnlqcnUtbA?oc=5",
+      "title": "Why Carvana (CVNA) Stock Is Down Today",
+      "snippet": "Quiver Quantitative, 2026-11-10T08:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUTRwUEtzaVo4UDBMaG9TLUY1UmJ6T0F3MWo3MDcwRm43ZFRaOWllQzZoNlpxMzBBMUQ3bEVyV1hsYnFjeVh0N0s0ZGRXT2Z2UHlIaTgwdkV5YzV5X2kyTHhKcGo1RjhqZllBRVNaZGNUSmlrTzhNM0JjcHd6SVZaaHJVT1dNY1ZUNFl5SU40THVlZ1NwSGZDU0c2ejdIR29hM1R5NEVubXFkcjQ?oc=5",
+      "title": "Carvana Insider Sold Shares Worth $2,017,994, According to a Recent SEC Filing",
+      "snippet": "Moomoo, 2026-11-10T08:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQUNpMmhnSnJ0TWhTbDhaTXJlRUo2OUF1cl9hX1FRbERUbXh4ZTU2NEQ2NnVkOVNQT2NJcmszS0k3M2otU1BVOWxVZFdOWjU2N2lsWkRRVEYzYklid1RsRmZESkVEa3FzQzl2dmZGOG1tbnAxTVR6bkcwZ3RIYzVNR2xMV3N0LTJUN0JF?oc=5",
+      "title": "Carvana Co Stock (CVNA) Moved Down by 7.05% on Nov 10: What Signal Does It Send?",
+      "snippet": "TradingKey, 2026-11-10T08:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNclpIaXdSdVZrTTgybUZrU0tUbXRyT2ZuMW50T0VYLU9falExS0NlTkJyNk9DMXhGNzVXYlYzMVhuZm42WWRSWC1pZnY5OEVFOW5UR21uTXNTYkdlRGxjS2RhYmlqaTY5XzVZOUVFc3JrTUxJS3c1SWtpWkMtRHQ3T0RpWGpibWsyOE9yeW1qbw?oc=5",
+      "title": "Can Carvana Stock Fall 40%?",
+      "snippet": "Trefis, 2026-11-10T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWh3ajdIamVDaDFWUlNXQllCVVh5X3c3ZldUQlRIenVTZS15a2FwWUlCVTBmanhEal9KVVpPdUplR3hXbmNXTkFOUHNVeUszNW9xSGxSNXZjc3JBa1g1ejJZOW5FYXN6cDhzS2xFRWhwdHlBT0RGdF9fV3JCX0JLOA?oc=5",
+      "title": "CVNA: SEC Form 144 filed by Carvana Co.",
+      "snippet": "Quantisnow, 2026-11-10T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWTNzMzRfN2otSXNFd0FQNGVjaTBEeHNjQ3JzWnoycXFMX2JBNUNjLVQ0R0dPYlBIWnJRY1lDaTZwTHlJZFlKWXFtc2VDbmVvZHV1TURXWGhQUFBKM18zYTZhRWkyLTluZ050bWhndzBFZ0ZGX0N0TDF2YlhmV1k2Sm5UUXdpTGRCa2xkaG5LQ2JOaURQd1JJU3Z2Vk50U192TGdrTnlmc0dTLXE2Slk5aEo0bzFaaXFqNG9HSlBnUGs4YkR3T0E?oc=5",
+      "title": "Argus reiterates Carvana stock rating on strong retail sales growth",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOG5peVhSUERHWHplNGxnam0waktEc2hTcWlUV1RwOFhBQmdQLW9NRGh0SW5MeVlfSHRoM09SRHZidElLOVRaOEJNRzBuemR6Q0FNclZuRHVKX1p1VVJNeEVma1p0OTE0bTdmTDUzbXFBck03Wl95bFctaEZ3QjFGeVc5VktKZldrcEE?oc=5",
+      "title": "Carvana Co. (CVNA) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CVNA/history",
+      "title": "CVNA daily price history (Yahoo Finance)",
+      "snippet": "close 73.87 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

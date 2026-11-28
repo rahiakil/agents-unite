@@ -1,0 +1,121 @@
+{
+  "ticker": "BIIB",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Biogen\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05Ni02OTBsRGd6STc4NGFMWC1oUlZJaDlDMVV2VWpuOGUyUjNhOHQ5eHBlOXo0UVB1MlFrRmkxZUtWLWVwYUVxU2NXVmZ6WFF4aWFqU29WWlVORDQ?oc=5",
+      "title": "Stifel's Paul Matteis: Biogen's lupus readouts, a strange psilocybin filing and biotech's rising political risk",
+      "snippet": "BigGo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQU8wZ0dWckp5Nko5Q3RwS2xybEJhaWc4aGFXeTlnOWwyYXBfU0liakZuLUdJRUVpRXdNZ0FiSmxCUHRFcFlQUzBQYllDbUxuQlc2SklUbUVNTTNFY3gxbmdHNDhLWlQwUDVRbTlXRGI3R2ZQVzI3Z1RKU2ZoTElSNmNEV1lNazJLUkJsX2JteDFVT2RDNjNTdERNMmFrbVB6RUl6NVdqQlJtejQ2MHRR?oc=5",
+      "title": "Dutch antitrust regulators probe Biogen over test for its MS drug",
+      "snippet": "The Boston Globe, 2026-11-10T08:00:00+00:00",
+      "publisher": "The Boston Globe",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHlVc2FyYVBMM0pKc2FWNTJnQTdzZ0pEWGxPcnFzbkVaUktFd191OUI2aUpndmh1aFZQcXNBT0RYcFlsYm9WZGRPdC1ydlI4TmZKMW1vTHUwOEZ5bW0zblhNS0t5OS1ZRk5yOE5mMDA4ZTUxT1BSa0hLbTluSHhOdDJCWFRzczhFM0FRdEEwTnpzaEYtTDRHLTRVVQ?oc=5",
+      "title": "Some Investors May Be Willing To Look Past Biogen's (NASDAQ:BIIB) Soft Earnings",
+      "snippet": "Moomoo, 2026-11-09T14:07:39+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T14:07:39+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMFBWSWROWm5hR19nVFIwS3JlVU9jcmJjYWp0VVh3d01GRWU3X1VWRExFSDNLaXJhYWV2LWlZb1VqR0N1dlVqREFGSlNOdC1pNFZxRjF2X2pVb21aN2Q0cGxjWHN6SE52WVFpX3BFQnl3N1B3Y3V3M0F5MzA3SE1ZcURReEVwVmx5NDBzN3BmbTVHQU5LcWxLcTl3YjNtWkxsNG5saTJOanhUeVdOQ1d5Z3oxRGRNSzFKdy1DQ3l1WndCRDNu0gHKAUFVX3lxTE1HRWpZVEExSlZjQTVBakxJV1dZUDJqTEc2S0kwalVDcDJJRnlNS1g1blFpWnQtMU1PTWxTZXlVSGcwQnQyNUpUT2FDXzU5VTQ5MVZONkhtVlp3VnkwdnBOdmxqeS1DWVJyMXo4U0pYeXFCaGFkRTR4bkVZek1SOUw0TnAta0M3VTRqN3Q3cTJZd1o1aTg0M1BJSHIteUN3cDh4dnFIVXV2LXB3TjltVEdEenFVTXZNNTJ5bXhlSDg2cXY5V2x3VzBZNHc?oc=5",
+      "title": "Why Biogen Rose Even Though It Swung To A Loss",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVDZUSDRfUHpRc3R1Tzk0M2Z6aVJ3aW1remgzd1UwbEdyRkktejhpa3JFc2lWTWVwbTR1WFFHZFBLZmZMdmZCMkt5Z0lZSU1MakRBX1huNVRjcEtXVXhyUXp0VE8yeU1wdE9NSk9vSURIWjJ1VkhhMXBzb1p4R3pta2UyRlZNeFUzbTdmdVhuaUpmekRCY2IwYmN4UWtyWHNic0xzXzJVd1NvTlVVckUzUEpMY0xxajl5ZE9BaVVPRFMzOVkybzRj?oc=5",
+      "title": "Piper Sandler raises Biogen stock price target on pipeline strength By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVzNFZ2dJTlc4bVN0OTRvbE5aWkItV1FEbWV5Q2FuYUxEVEFDbElqaFlydkhubzdSbk45ZGJwdE1DclhSZUZKYzdKbmtWTi1ZREZid0xmaGgyT3Uxc3dlUGxtbVZ0X2YwY04tZURSM2VBMm9rRWdJZ2s0eXJybjl6WEZqS3dtbFROZXdPZWxBRV9udV9NTmZnWDdiNkxkMWQ0?oc=5",
+      "title": "Biogen stock hits 52-week high at 258.81 USD",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlkwX2plamoxWHBuczJxdlU4Y0pudnp5OXRZb3dHc3dhcmZLS2piMEFQby04MFNqQmxKMU9wLVZZa3VuMFppUFRwR296Ni1XdzhSbi1Ob21wNFFtdGxHd2hPa01lQzJqblFFb0xuU1IyTnZMbk1pRmlfVHdTc0RYa2xTZC02cXhJczRITkxYNHdVRjY2RmRrd3prYjRMb2doeHliZnh2ZU1PUnpyQ1FwTWg1VzhuUHUxZFVsMklyYXRPejVxZkF1WHV3?oc=5",
+      "title": "UCB and Biogen: new post-hoc phase 3 analyses in lupus for dapirolizumab",
+      "snippet": "Id\u00e9al Investisseur, 2026-11-09T07:26:00+00:00",
+      "publisher": "Id\u00e9al Investisseur",
+      "published": "2026-11-09T07:26:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BIIB/history",
+      "title": "BIIB daily price history (Yahoo Finance)",
+      "snippet": "close 253.4 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

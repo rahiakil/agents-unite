@@ -1,0 +1,106 @@
+{
+  "ticker": "MET",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT3VnTWdGbEtUdmhrMWxuaG5yVm9CVGFPTk9MZTRqTm1uVmlldXA3eTA5QmJnS0d2UFQ1Ylo1cjljT3hxLXhleFF4YllLYUpfOXVmazhKeDMwOEVfaHNCMG8wdEZ6aWxjMGlwZEF3SnMtN3BvVlUyN01veG1QTDNPclhlS2c5c1ZaaDNaY09UUE8yek9VUVkwQjIzNWh1NmM?oc=5",
+      "title": "MetLife (MET) Agrees To Divest MetLife UK Limited",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFVqVnl0QnNkWUJBaXo4Slg3b1g2NFNGRm1xYzRCdkh1TVJJTkpBVVZsSGt0ZXpkaUZwbGJpcWN0QU9tXzVfQnZxYW51VGZ2RE9iT21qeGVtcFpZb2tvSHdqYzFLbWp0NkZqX1kxc1JzVkNKOWZlRFZTQlFHZFhqMVhaS1RwMlJYR0JOcDZPcUd3M0xjM1Y1ajU4cw?oc=5",
+      "title": "MetLife, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:MET) 2026-11-09",
+      "snippet": "Seeking Alpha, 2026-11-09T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ1RlTkcyUVFUdHc1V3UyajVOdmhWUGp5Z0FiMlV1N3JZc0xrbmcxa0ZGRXpaRHk1NVRUS0ZIT19nVlVacnR3WjA3Q1o4bzVBSzBNOWlxMkVCRzRZcDdUY2FVSGtfS2lkUmY0NVUyYllyMWg5NGdPN1FMeFFQQXhYUllYUW8tS19Rc2FWREFB?oc=5",
+      "title": "MetLife Upgraded, Allstate Downgraded: Updated Rankings on Top Blue-Chip Stocks",
+      "snippet": "InvestorPlace, 2026-11-09T08:00:00+00:00",
+      "publisher": "InvestorPlace",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdVFtaEJHVG13Wm5qUWRlSk1HTDByWmtxSTk4YXh3OE9xc1JWZjIwRzRGYmNVSlZPam1IdzFXaU55aUNFRmFQa1BSNzJiRGFlRmRPMkxvTGt1SjhkVkctMGZMQ3hsT3NZSFM2aDhfdzYzcTlEWldkanZYYmw2SGpwbXVsdkJlQmc?oc=5",
+      "title": "Chesnara agrees to acquire MetLife UK",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGJWWHBZdWxYWG9XU1RkVFJCVGpaRzNCbklvcGpsUUNvbF94dF9TVU1oc1RfamhVU0RCdjZBTGdEWFlDOXAwWVVxNVpMbG1vcDNHZGZLdE12YVRpZmNKRUFyVFEydzRkVDlCNjRtaEVFOHhVNDdpRERKOE03VjhIVXNHN2xsQUgwb0hGUzJ2d2hEOVVCNy1tSFF3?oc=5",
+      "title": "5 must-read analyst questions from MetLife\u2019s Q3 2026 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099219/000119312526454038/d155870d8k.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 102.94 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

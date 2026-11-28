@@ -1,0 +1,61 @@
+{
+  "ticker": "DOW",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dow Inc\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVVN3ZEpkamYyQzdOVS1DQV8xUndlX25BbGFCYTh0elFLNTVIZnRId1dqeVk4dU1QVE51MkdmcTktRDlrV1VIRDBudnZxbjdNMFZMa3dvTW13NjNJZ0drdzNacmJsSTRJQ3VIUTMzWTFKZF9LeHdCUncyaU9Hb0JlaUpGWGxqaGpnTzEtWWNhNGVQOW12ZDlLV1ZtWlJnVk1pQndFLUtDUVhBSlFLLUtDVFVudHI4azhMblE?oc=5",
+      "title": "Here's Why You Should Hold DOW Stock in Your Portfolio for Now",
+      "snippet": "TradingView, 2026-11-10T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU1hOMWJ0VTM1NXJVcG5iMXlrMHFoTnF1X29XUHQ2Yzhzd0tSRnRIWjNuQ1FqQnBLQkVNVXlJMnBmUm1UOEg5RnNZanFFMS03MWJaNDd3Y01TWkE5LS1RQmhrRjBZMFJxWThkQWM4U28zTXE4ZUY3clFXYjY0OGcxVFlwcU5mYVlJb3J4XzBlak1xdlBWUHgzQThueEpCUWNQUEJWd2hZOTNDN2FYYUg5QkZJUUJsNDg1S3RMSjdSazI?oc=5",
+      "title": "Dow, X-Energy SMR project wins construction permit for nuclear-powered industrial site (XE:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-09T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOW/history",
+      "title": "DOW daily price history (Yahoo Finance)",
+      "snippet": "close 32.54 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

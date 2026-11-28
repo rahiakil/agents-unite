@@ -1,0 +1,97 @@
+{
+  "ticker": "ILMN",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illumina\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUkIyNnl5VUxtYVBkZWRySHJVOXgtZU9tdDAtSUgySlhuRWN2OXgyMk9FNDRIcjdxc2lWRlVPcUpUX2tIeEpORm01cXEtdFJRSDd0bHNWQmNRbmlaZU1xQ0JaUWNweUZGemNCSWlyaGdQeVlYRjFVQmw2UTNLSy0tN05hTmZCRW11VmQwalVlWTB3SkZJV3Q1WDlXLVVzdkxBOHNhcm1vb0tpVFRrOGR2UHU2UHdreUJUdXpvQWVFMTJNU1NnQ0tFYUZqSWtveEJ5MkQ0Y0huaUlaZ9IB3wFBVV95cUxPd3QzNXJCRWlVN1lyem5DTmtZUXVfNERSTlRJVi1POVoxRXpIMm1HbDA1M25BUHBlWnVCQU5YZXVXV0pRMi1xbDlmYXNldmVObWxvQ0RGZUhwQ1BYbElNWktiRG5maHVxWkRiSnZsb0ZjNTNzQXRjcHc5MkRwZDdBeHNicnhDY1hUa25sWi1aRk1vSXhoZVZpcWVGU1JlRTQwTDlMOUxKMXFnZTJRMFl6NG1XMFJ2V2l6eEg1R1V0Wmd2LWJ6TXZxNUx5TW9CX25KNUNSNlBsVURIdEFrV2lj?oc=5",
+      "title": "Investors Shouldn't Be Too Comfortable With Illumina's (NASDAQ:ILMN) Earnings",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkdLNUJaNEJVdGtKc1lJZDU2NkpBNEd2aU1mQ0lmNDVwaV9jdVFpV0hJTWFHczlSdjNiMlF4cnk2ZHpMbzdmenpNNUxOM1lBX2VGWmMtRE1JM2NnckRQeTgzbFF3cDVJQzRhbVZobUEtVW5jZHdHMXhQQmZpSnRHbENOYzlibGc0V1IwaDNYZUNPaTl2b0o4UGJsQllIYVhiOWlWVmxJVlBPUHhfU3F1amFJb2tJZWk2cnB3X0hfSmxiVkFiZlIwVQ?oc=5",
+      "title": "Illumina Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX2xLR0V2V0RxX0dKQ05NcWY3czdiMjdGZ2xwZjc5dmJ6Nk1YRTJuRWwxcGpuQmgyQnZFajcwdnFWSmxrODdiSGJRVnIxNVU2aHc2R1MxeWhjMUMxM3h4NnotdlpUUndLLW9hNkw0TXNwLTRfZC1kN1pFbC1URl9fbnBYR3F3ZkQtUFlHemM3bTEzekEtd2xaUzdzRUxETkdKT3c?oc=5",
+      "title": "Illumina (ILMN) Unveils Duplex Sequencing Workflow For MRD Research",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWUlqeWFycmJfdks5MWExVC1IcTNrZ2Y4R1k2Ry1vdC1CejFHVXJFWFpoQ29TZ2tJbTFKa1U1TmtiSXpKR1JQOWhtUkF0eFlpV3NjeHFnRWY4bDlTbVBzLWExczdNTzNJWllZZ284cmpOTHdMNy0xVXpiemZoX1RyQlJTeFE2UHFLZlhMcHRTSnlIcnFSMVVtclFsVjVSYkdpbTM0VmdpNXU5TEdFYk9hWXctUEtWcjdZbm1rNmx2R3p6X0ZMbXRUVUhmLU1QdUJQVGdr?oc=5",
+      "title": "Form 4 Illumina Inc: Patricia Leckman (SVP, Chief People Officer) For: 5 November By Investing.com",
+      "snippet": "Investing.com India, 2026-11-10T05:08:24+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-10T05:08:24+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMEVlMEZiTDMydHpmU091SnZhNW1wWkt4a1JzbUhQVW5OcUVOMUpVSC1DX0szZWdtLVljWW9JbjdJbUgwWTRTYjJTMGZ6VnB1V3h5cEJhSVB2MlB2OEtvZDFkd3lIWXFZXzVMcncwWDdsdWtvNU1EaV9oTXZYbHpSSVM1c002dUZxd0h2dl9oVVgxYnVybUhIWngxdUtKR3hGR29zY1pjRG5SYkVIeG1RM0lxaTUyajJBdHZFV3NvZmJaS1AtaWRUWDdUSUpYb2x1VmJBLVhoZnZHZw?oc=5",
+      "title": "Illumina Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ILMN/history",
+      "title": "ILMN daily price history (Yahoo Finance)",
+      "snippet": "close 212.93 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

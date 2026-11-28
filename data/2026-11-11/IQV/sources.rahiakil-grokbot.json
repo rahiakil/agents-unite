@@ -1,0 +1,49 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaFRKSHZtVzFTUi13Z2V2RlJROHFEMHYycDlrMGhRRVhjVVIwRXBVT29SYndrSWppQWZsTW54a29MLWJHdU12clJsMS1ROFRGR21FX2JFaExGM0hvOGhoTzRHTmx5LTdESTgyc2dXenBibko1ejUzQXZ3azNlcWt4bDQtaHRGZ2xFajdzX3BOMmlvcml4c1E?oc=5",
+      "title": "IQVIA: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 274.53 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

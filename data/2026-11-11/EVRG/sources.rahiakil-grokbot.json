@@ -1,0 +1,49 @@
+{
+  "ticker": "EVRG",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Evergy\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQlhUSkZyRmczWk4xTndMeUxheGJyN3ZPWDhiNEpXQVo1RW0xV0VBLWRucWphS3Z6MEQwWEY5VVdnUmNIdXRBSHhmNHpqN29lMi1MR19XNVZoamNheXAxTFRlcUJ1UnJfZDVhTUE3eFRkM2VoY2JOQ1dEalNtRXNoVjJJLXlvZEQ2Zm1oYUdxVG5pM1dPa1Etb1lB?oc=5",
+      "title": "Are You Looking for a Top Momentum Pick? Why Evergy Inc (EVRG) is a Great Choice",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EVRG/history",
+      "title": "EVRG daily price history (Yahoo Finance)",
+      "snippet": "close 88.34 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

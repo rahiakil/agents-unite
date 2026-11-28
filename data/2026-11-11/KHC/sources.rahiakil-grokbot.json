@@ -1,0 +1,85 @@
+{
+  "ticker": "KHC",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kraft Heinz\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdFNyYXVacm5wV0NzYjlCTU82TlhuUmt6QUhNRkE4dDN2b1I1WjkwTlFHS0FVOURlZXZueTJ5VngtYzE5N3Jrd2R3cWlFMDVUbWZMR0ZWWnYwakRpXzZqdHJBZzk3enl6VVNpeXVVQm1lTHBrbTUxclQ3dHppNFM4SGJUWU9Fd1c0V0FRQlZMQjU?oc=5",
+      "title": "Kraft Heinz Yields 6.6% and Coca-Cola Yields 2.3%. Here's Why Only 1 of These Dividend Stocks Is a Buy This November.",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQWN0X0ZkRFNERDFrS2pIMnEwNHJhckhiMF9pQXR1eFhuVHhFekY0QjJoUy12MERlbExrTFUxNVhlcVRGYWZCLXR2VjNwS0M2VDRDQkQyUklxdmxaeHFEdU1CY0hvaUcyUHVGeXJpNHIwa0kwWWs5X1Rzb3VjZ3JPRG1idTFsTmlManF1Tmg1ZEFSVUlWc0NtaEZhZWpTdUFCUUM1WGxzb2ZKQlVrWWNkSldXa3dzbkdySUhrUU4yLXI3b0d6MUFWVA?oc=5",
+      "title": "Kraft Heinz (NASDAQ:KHC) Stock Sees Unusually High Call Option Buying",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN0xsN2t2S0w0VDN4cU5FVkJYaG5YR3VHWFFJMnlWSUxUbmhjcm80WEQ5d1VGOTJGYllHbnN3SVl1T0R2RjM0STJCdlI0Z3RhcnpwN3NqYUx3R1hMenVYbEUxRzYtWTkyZ3U3azlkUDROWU9LcWdUZGlZRElLUVRweXZ2cFBRUngxU2NQZGQxNjFkVWwzSERmRm5iRFNOekJONDhHZ0xNOE1PNFNZWnpINjVtNFZQbXFHeFpxU19vYWlkSXc?oc=5",
+      "title": "Could Kraft Heinz's Latest Move Be a Sign That a Dividend Cut Is Around the Corner?",
+      "snippet": "The Motley Fool, 2026-11-09T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdElad1p2NmZJR0Q0WUVzel9jUC1mTWpUbTU4ZFRwdlZBUXBSU1Q4cnlFUzFzVmZpSGhfaC1GZW96RzJpVkhFNWd5cWM5S2dvdTdFamVHc3N3b3YtalpHZTIzRDVnc3FjYkpBT0d2eDB4SzEwMjRod3dQVzU0a2pnUWJuRHJuT1RyX1lnc1pnWlYtQ1EzTWlmczQ2WFhxWGNZeGZCQ0dwQXZHYktBSEJ3OTJPX09PeWIxYnZVd0dZS18wLWhDeFphdTRaUQ?oc=5",
+      "title": "140,547 Shares in Kraft Heinz Company $KHC Purchased by Leelyn Smith LLC",
+      "snippet": "MarketBeat, 2026-11-08T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KHC/history",
+      "title": "KHC daily price history (Yahoo Finance)",
+      "snippet": "close 24.27 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

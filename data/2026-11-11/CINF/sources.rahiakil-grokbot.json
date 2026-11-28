@@ -1,0 +1,70 @@
+{
+  "ticker": "CINF",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cincinnati Financial\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMUJCRnBjc0J0WmE1cGdJUkFVYnd6dTBYSVd3QWxWS3dqb0wxbm1aOWRPRDRma3RxakxGdUhHbzFPOVVkOVJ1QUNXTS1hTVdhWHRUZ0tWM0ZOYVdxMGFnbzZUdTVWRERvMUVFNFRDRlVNTGR2QjZlbXZmVU5GTDE3R1RrSExGMWFQOWFPaXVBU3pOVWhEZjdkV2x2VU1LcVRHOWNEdjJ0TktsVXdFcnhFdDR4LU9xVENZZVV0cXhB?oc=5",
+      "title": "Cincinnati Financial (CINF) Posts Investor Presentation Slides f",
+      "snippet": "GuruFocus, 2026-11-10T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNndYaDhpVG1oVG82LWcxSHhlVHR5UHQxX2J4N0RvWVc5Qy1Vc1E2NTRNTHdNc3VfaWJsU01nOEpjWEFTX0RNS0FYUmhiTWlzcFZYTDhGNWFJVFJYaU1KajhURFhNX0RrQlhuZlF2MWpSWXY3ZGpVei0tVzhKZi1KaW9aOGZ6Qk5teUVzLWRMU1JmVDVMYXBlQTAwNG13WC1wWkxGb0N6WGVURmlzZm5CUU91R0pDTjRjc2JXaTRKUlphZw?oc=5",
+      "title": "Responsive Playbooks and the CINF Inflection",
+      "snippet": "Stock Traders Daily, 2026-11-09T00:20:01+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-09T00:20:01+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000062/cinf-20261109.htm",
+      "title": "SEC 8-K filed 2026-11-09",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CINF/history",
+      "title": "CINF daily price history (Yahoo Finance)",
+      "snippet": "close 189.78 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

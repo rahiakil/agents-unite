@@ -1,0 +1,61 @@
+{
+  "ticker": "ECL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ecolab\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSndFRmJ4RmUtLUpVWk1TN0M1SU00S3dTcDgxcTdQTzd3cUZtVEdqXzROa0QzdDN1VVNGcUxrcFZPNHJiQTJjdkpCNmVIbDRfOUdUN1BwdUlNT0dqNmtPb29WTjFTWjR4V1daSUJQcWs2emFQRG1xSEd0cVJtQllsM3pVVFB0TW8yZ3NrWlJTQkVkZ1hhNENNVERxallIWW1hT2VVT3IwYUdlazhCeUdVXzRTY2Y?oc=5",
+      "title": "Here's How Much $100 Invested In Ecolab 20 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-10T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdUNCbTZBbzdHMnVHcTBkbDF3OENjb3B1b0VnSXRLdXVWd3B3cTNHN1c1V19TTnpfcFpVZEdkRVV1Tmt5OVl3ZjhaVjRLYmtJbnY0XzdTNWR5M0p1Z2NKTkRUM3BXV0RQa28wY3djbURWeTlnX003cVhDaDRBNGlISDFGbmF4cTY5Qkt3R3FsbmlacEVxaWQ4Zg?oc=5",
+      "title": "Morgan Stanley Sees AI Making Ecolab\u2019s (ECL) Competitive Moat Even Stronger",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECL/history",
+      "title": "ECL daily price history (Yahoo Finance)",
+      "snippet": "close 307.86 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

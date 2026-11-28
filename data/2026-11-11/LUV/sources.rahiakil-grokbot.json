@@ -1,0 +1,121 @@
+{
+  "ticker": "LUV",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 45,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 4,
+    "irrelevant_or_spam": 16,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxYTh3emcxeVVVVnBFNG8yTmZ0cmwxNG11RFZFM2FZb0phX3BLOTFSUnB4QUNrMkJmc0NPSUdNc1c2MVhsRFNNN0NXM1prTW55TUo1SXpINDdzeTZQdkhja1o5ajB4QUNKQnMyQ2k0ck0zTDg?oc=5",
+      "title": "Still Low-Cost? How Southwest Airlines & JetBlue Compare In 2026",
+      "snippet": "Simple Flying, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simple Flying",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2txZFBJR1pDMS1JU01PUGt0T2VGOUFrUDFUOHY0alc3NkRkYkxqYlRoNWtZTzhlLWR2TGJuSWJ5Tl9zb3pEemwwZFZPNzFHVkNqbzBXbTRYUlNpSU4wRVh0a25ady1tWXM3OUpldTZBR3IyUTR5U1hJQXJSUTR0dG1qcXdWdTZ2aW5uT1lxM3EzdDRBcldndHRxaEpJUjRqQ3BXSDlaVnMtOXJ6MkRUNGtlVk04M19FRDlqRW1n?oc=5",
+      "title": "Southwest Airlines Strips Passengers Of Seat Fee Refunds In Seating Policy\u2019s \u2018Airport\u2019 Fine Print",
+      "snippet": "TheTravel, 2026-11-10T08:00:00+00:00",
+      "publisher": "TheTravel",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeGtRY3FhZ2NOZklxY1l5ZGppZk80V2R4NTRBOUJXZHB3eXFqcGZ5Z2RZamdKY1lWYV8zdFdXTHhNZUdiTDVvTl9SSmFFY2pUTWZRTktETmVHYURPZ05OaU5lOFh6Z3EwSjR4dVZ6QmJtT2pYS0F3cGpuZmVnV3JzTVBoUlIzcUFvb2ZyRW9PM2ZYQ2FWZ0pzUXpQOEpiMWp4MC0zaGpn?oc=5",
+      "title": "Only 73 Miles: Southwest Airlines Drops Very Short Route As Flights 50% Empty",
+      "snippet": "Simple Flying, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simple Flying",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQno2UVlXbWtsdzI5dmFkWExWOWw1ODJuR0FZUGdZamlXZWw1bURLbm5qTTJXQ2lqSVNHQ2ZYV2NGZm9yaHpqWDZxQmNYWU1qa3kzVnV1UVBtZkRRbU4xT3JDU2FiMzZYUnRSMjdzTUt4aTNUbTN4SXd1bmJOYmJCcFh3UzZvak5SVVVodTR1Tko1Qnpxc2Y1RWVqcHBLWkxkcVdqRHBPTjFUOXpBVEMyWg?oc=5",
+      "title": "BofA Securities Maintains Southwest Airlines(LUV.US) With Sell Rating",
+      "snippet": "Moomoo, 2026-11-10T00:34:38+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-10T00:34:38+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUtDS1JUM1ZyWkNPbFZUaUpham9lZVdSSnMxVDh3aUxVM3BHVjBiVVh3RnZ6MG9pNTZVMkxjSm4xZFdZMUJEY0ViZU1Vd3lHdFZxX201WGRqMlpwZ3puZXpUaHNUdDBDa01xeFU4NkZWV3FvVFVuSU5SUjVDZnQ4X05JTFd5V3pLVnlTOGphYm0yUzRFYnhWR2M2R054bFlDa0dZX1JmekZzTWFTQ1dldnlRcU9LUVk?oc=5",
+      "title": "Southwest Airlines Co (LUV) Shares Surge 4.2% -- What GF Score o",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeV9JTjk4WDJFUUZhbXZuVVRHbFBHbDA2UU44Y3ByclNka0NSaDBCS0dhNW1rX1paZ29USDZyVklrLWVtUl9vUklCS1BfYnVIcVZQNk9WbVRZOHdWcVZzbnRiRS1uLXlTX21vanBwV0k1bnNBLXIzVUp2Q1hYQ2FoTlhZeXN2S0w4X21kMXZYdzhXUXF2aFhkbkVyVlNwb2ZRZ0U4XzV0Y183cmw0UmJpRU5obTBpRFU?oc=5",
+      "title": "Southwest Airlines Boeing 737 Made 44 Flights Before a Major Problem Was Discovered",
+      "snippet": "Men's Journal, 2026-11-09T08:00:00+00:00",
+      "publisher": "Men's Journal",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.458,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSDR4a2xTRnVrbng4Vl9kR1l4Q2dpZzJlWWREcG9WM245cUNuUTNLbFBhWEVhM2xGbGxFR19kLTRKNFNhRGZnV2tLLXlSY21TM0xSa1BGX0xxQ2VpNGl2OHNYTGN1VndsWU1jTFVQMmdrTTNoTTJpZXVRZVRSLVdnRVp2aC1LMWxIdks2NGM3S1lQN3YtZFJFcw?oc=5",
+      "title": "Southwest Airlines Facing Growing Problem Amid Major Changes",
+      "snippet": "Men's Journal, 2026-11-08T08:00:00+00:00",
+      "publisher": "Men's Journal",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 46.48 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

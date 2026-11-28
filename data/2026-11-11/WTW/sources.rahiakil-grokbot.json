@@ -1,0 +1,49 @@
+{
+  "ticker": "WTW",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Willis Towers Watson\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOX0Fzcm0zTHByMGoxNFp1YWc0a0JzT1dKWjNQMW9vcVFFR2lRbDBab3Rkc3NzMHoyUUhWLThqVXNudVpMSUlqUjdVVjNqOF9FMU1rSWxfRGgwWmV3Y0J6WkV6YmkzaVZmNm00dW5KOXp0MExiUFZ5NU1VNHZ0Uk5GVmswNVZSTnkyeU1qU0NPYzFyUlduWHpPT1U0WGlMQkczSkVYOUFqZjg3WUV2bUFIWElzMWVfN2RXZ1ljWFdvVmRiR1hfU2JzNkVHaG9pUVlQWktDLXRR0gHbAUFVX3lxTE5mdlhfU1laRTVZSjFwVm1nYTJmLTFwZUI0TjFBXzBRSW5TbXhBZjRUUTB3dXBQSmhfaVFHREZSZS00MGhMZElBdDVKUUk1QkRJM3dTUll5SE1yRmt6TXI5ejB1ZWw3ZW45U2lXbFBDelUzMzNWcV80SGs3aHJrdWN4Y09VM281Vzgya1pxM2ZMWWVfd2hRQVhYYTAyZHgyLVVfc3llRTF4T3owRW1na2JHUkxLdTZWb3JmZUlxcGg4NlgwekQxQ2ZXU3l5SWpIYVhxUEx0TUZqM1NQYw?oc=5",
+      "title": "What Willis Towers Watson Stock Earnings Results Mean For Shareholders",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WTW/history",
+      "title": "WTW daily price history (Yahoo Finance)",
+      "snippet": "close 334.18 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

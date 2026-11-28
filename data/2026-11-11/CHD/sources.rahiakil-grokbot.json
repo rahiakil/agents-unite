@@ -1,0 +1,85 @@
+{
+  "ticker": "CHD",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Church & Dwight\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVAzVDFMLVNpOXdvT1hXWWJjSnhXMlNiNE53OUdCUC1NNHl5ZGtpMUVSQlpIMWFFOTF1ektPRFpzbnk2emxaNUJYdXdVVDF2bjVVZ0tEZVNuT2JiWmhCQVc3Sk5PQ2k0c004OUF5VEYwcTdPQW1JejhJVTdaS1UxRmR6VG9EcThPeW12dEdWcDZWTmxhc0p5azZ3Y29rX0g0MGdFb2llSklNWFY1TzI5c1prb0wyMTDSAbwBQVVfeXFMT2hxcGNHQmNSWFlKcUNYYTVzRGVtYXlENThaMHVPMDFKMVdWMjdoSExpYlJ0Z2l6RkZsanRtT1hTSHdtbTRmOGphMWMyOEhmaHlZc2hVNTNoTXhrLVQ1OWZiY2c1Ump2NXp6LTB4dk5RUWtuc0s3amNOdlJwZTdBT1ZzSXFNa3NVc1EtR2l1bENjZ0lXVWRXdHk2a0YxUWx1VDVRSnlpdF8yLURISnBEZ3pRSjZ2a0t4cDJmdlM?oc=5",
+      "title": "Why Church & Dwight (CHD) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQME5lV2pPMDRwblVQbl85b1N5Sk5iYUVSbDZUZTZSbTlsZlZsVXVuaU5xaDZVLUxuWUdmT0NhVUh4R1Q4bUppWjd5UnVUZV9jVTZEN2dLWGxCVG5lV1ZtRXdtQ0RFaU1UdjR1a0tLUWM3OHVkS1AwazVnakp1Zm9RbVQtdklOSl9yeHBscFl5QkhUZHVPWHc?oc=5",
+      "title": "Church & Dwight Co., Inc. (NYSE:CHD) Looks Like A Good Stock, And It's Going Ex-Dividend Soon",
+      "snippet": "Moomoo, 2026-11-09T15:02:21+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T15:02:21+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY2txWkoxYkdIMUFNWkJKWF84SURNYUZQdEVibW45eWZjWXFmVU5NWC1aRmhnWFM4dTNPV21Zczdudl81eGpCVFFuWnBhbk83UzVNSl9qRTJuZ0lLSE43N240Q0dwdlZESURHV3FJTFdQUklneDRhT1k1NGVTM0k3Ny1lOVZYcm8zblAtUzlLYVNhcm1RdW56Rmc5T0FHVll1b09UTUEyOFR3d3l6Um9xNFlkTFNsTEI5UWNTbEVianJKd0I2Nnh1MDhDUEJjTVdQMHVISUJB?oc=5",
+      "title": "Form 4 Church & Dwight: Brian D. Buchert (EVP of Strategy, M&A, and BP) For: 30 October",
+      "snippet": "Investing.com Nigeria, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN1EzVmhXa3ptbzVycUNMbFE0UUdqVjZZZzNpZlcteHMyR1N4ZjFUcHJ5OFRGQmpfX3RNOHJTLUlZcm4xY01YTVpvTlhFZ1JKRmpYRlRrT2UwaXo4QWFJV0sxRHdRUzk1cG9CbUFzWjd5b3JQYkUtY3M1V2o3X0hDYTRabDRlNFZBWGxPaElUemZEZENiLTY0NmYwOU9IZF9jSmRLNjdyNDRxbGxoRXpnRkg3Vjc1T2ZxTGZtbG9B0gHDAUFVX3lxTFBNNzQ1N0syblE5c3ZTbUp2aWY0QXFnTnBuME9YMGpqRkdvZDZwUUpNeGI4ZFctQ0dfYkcwdEFIenczXy0wNTU5MklXUVkxQi02Q19hNy1WQ3lBSEJZSUdXZVlxaWcwdm14Q3hwZVIwcmZuaVFFYUU3R2hLTEttU3puVE9ieFV0a1NTWW55M1BNWk9ncTVmZmt6d1gwSWlsZGl4R3lDMVRub3c4TDN5SHZXMVNvRnh4bUloLVcwcmRwRDBMVQ?oc=5",
+      "title": "Missed Church & Dwight\u2019s Run? Here\u2019s What Holders Backed",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CHD/history",
+      "title": "CHD daily price history (Yahoo Finance)",
+      "snippet": "close 112.02 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

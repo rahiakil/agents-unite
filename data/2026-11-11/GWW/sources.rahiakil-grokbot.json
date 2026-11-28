@@ -1,0 +1,49 @@
+{
+  "ticker": "GWW",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"W. W. Grainger\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSFVhUWM5N0J4SUswOXZoanVsY18wZ3BsUWhlSklYdDBON3ZDZjJrMVRQZldWbTdmSHo3VUs3TjdyaGNiWTRscDc4cGY5emJ5NUlZOHAwTXd1Y2dzbzJTZ2NQZGVlaGl5R3lGZnlkZnlOa3oteWdjc0owOEljb0w2UzFTYjg0U0wtVzBRajNVZE9ObDVrV2ZLdlVOYm55eXFISXlkMWlkYjk0SXpfZ19yN3BzREdjM1pnZGtybWEtVnM2N0w2cHR3RXVOd3LSAdIBQVVfeXFMTTB0YzEwREYxWkp0VFZDeTlmcE1sS29NVDNGZkJtRGY5QU8xSzNBS0YyZ19WbVh5S2paZGtWUk5CSzJxcmRZUHIzWWdZQWNONmNhNGlzbzhoZjZab2paYmJWaldVLXgxQWM4aV9NMHFtSGZrQ2pzaUZkajR0UVN2SlB4NXFqMUNiUGc2THJCVTJobVAyaXo0YjM4Q2E0UUNfYUxOekx3QkxwZjdoVnN6THdndFV5anR5TEh3eGZnWGZ6X3RHY2NJRnllX2MwWkhXRTRB?oc=5",
+      "title": "W.W. Grainger (GWW) Could Be 10% Undervalued After Strong Earnings And Higher Outlook",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GWW/history",
+      "title": "GWW daily price history (Yahoo Finance)",
+      "snippet": "close 1486.53 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

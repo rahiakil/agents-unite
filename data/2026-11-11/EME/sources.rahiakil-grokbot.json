@@ -1,0 +1,73 @@
+{
+  "ticker": "EME",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFBId3RLaU54RDNhTHQxUHJIWU83NjBUbnZlNnpDWXNwME45UXE3bzU1VWd1YnZDa0g0Zk1nN3dhZ09nM3ZTRFhSNTVwY2dyekhHMUhxOVZBSGt6eUFzQkdIbW5JblRsXzFqc3k0dE9idXFOZ3RyZnA5QjEyT0xDRnN4LXFZd1Z2VVpHeEhBNnRxb3BZV1lzWDJmU2Y?oc=5",
+      "title": "EME Initiated Coverage by JP Morgan -- Rating Set to Neutral",
+      "snippet": "GuruFocus, 2026-11-10T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.368,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc0VpeFBtbnRHOUx2WWNIX3lKTWR2Q01qb2ttNERFTUVneTUyckZvNDVSM013eGlyb0dxY18xSHN1RXRveF9MZzlORkR1cmNJUkRFZnpFSlphNVpGUzJuYV9uVm9pbnNNek1xS1pJcFM5cndnTER5RUs3X1lnMXJtOGszVmRxVm5CVnV5b3l0bmJGMXRQTlQzNWNsNm1FOTNrMG8xVnlreVY0VWc?oc=5",
+      "title": "EMCOR Group Inc (EME) Stock Up 7.3% and Still Undervalued -- GF Score: 96/100",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbGxFTlVvdC1VcllkT2VoamNpOHRkdWV3SE9mSVVpZzBFVS1UbEVxWFNibWlpS1g0em5kUVpvVHY0bWJPblJybXdteEFPbmdtNzNLTFZ3MFVEb0RwQTF5aGg1NU5CZTN4M1kzVVZpSW9vS1lHOC05RmRMR0p1TnppNUwxcURfRDlIcWJvUlFzRV9ZMk0?oc=5",
+      "title": "Can EMCOR Keep Its 10.5% Adjusted Margin as Project Volumes Scale?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 666.74 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

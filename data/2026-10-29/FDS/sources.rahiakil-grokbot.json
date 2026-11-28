@@ -1,0 +1,121 @@
+{
+  "ticker": "FDS",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FactSet\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkxaRXBneHhHMmYwYmNIY0JBYXdIT0FrQkI1VlZqY0tXbnVRLTh6aUx4WkFHR3RzSFdvcXhwbTlnUWN3Wl83WlVmY29lVnp2VjQ5eFlDN0xtZjBiVmVtVnFqdzMzVFl5aG5JeW1KeF9weUlLWWNxYko0RzFjQ0UtUl9LWmZsdXp2ZUtXdUNFV3MxWWtYcy1xWmkxVldPRE56ZFE?oc=5",
+      "title": "FactSet: Another 22% Run-Up, But It's Still Undervalued (NYSE:FDS)",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSjhraTJIY0pRaEVuOFFrWHJvbVY5SDNEYjFpWEJrbG5Dem1TMXcxSmdFWTJnS0EwcEhpZjVDXzJkZkd4QVNlMHZSM2psVy05TDduR1gxZFpiSGVoZXJSQ0NCRFJ1c2dsMmt6UE8zMUtidFAycFJRQkotcWFlRkVFN2NPWHZUZGNIaUx0TklxYkdYbmxpRG9LZE9BRnlWQmZRNXhBRk9yWHNtS29OR01fbGtPQWVhb1Q4TFgzdVl1elFQdkVHeW1lQ0JQTFBpZw?oc=5",
+      "title": "Earnings Flash (TOWN) TowneBank Reports Q3 Revenue $257.9M, vs. FactSet Est of $250.7M",
+      "snippet": "marketscreener.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZS1SNkNNbEhXc1VBVGU2dGh2dTVORkozMFM5ekxzdmc2ZWcxbU13RUYtbDRvMWg5YTVIcDdPZjl2aTlxTkV6U2dTOGwxbmp1Q2VuaGJ3R1lVR2swUFNjRmZZbUwyQ3FyMjR1TEc3a2FveHVVaFIyRkxFWnl3TFpESUpOSVZ2Skc4NTZQRElOUVdLZ2NtTkxsWkNBNWtUaGs0aml1UThTeU0yZTVaS1ZqSjIyeDV3cTZyVTV0RGtqc3RaMTNBRDdJdmh5UERfODR2TXVJb2xB?oc=5",
+      "title": "Earnings Flash (TMUS) T-Mobile US, Inc. Reports Q3 Revenue $23.58B, vs. FactSet Est of $23.15B",
+      "snippet": "marketscreener.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTU9KYjNZeHVRNEhSTm10T1g5dUFvV3dZTnprdC12cUZKMV9vZHdpU2dOUXNnU1RORjlEcUNVdU5qenAyS1l3TWFVSVl4a19MQ2ZBZ0NiaU91azhHNUU5VTlZVElMRHY3VWNFcTdyXzBpVjJjemUwRmpaTEhuTmJoQnU4dzUzQTEwc2VpSFl2a3Y4RknSAZMBQVVfeXFMTk1PSmIzWXh1UTRIUk5tdE9YOXVBb1d3WU56a3QtdnFGSjFfb2R3aVNnTlFzZ1NUTkY5RHFDVXVOanpwMktZd01hVUlZeGtfTENmQWdDYmlPdWs4RzVFOVU5WVRJTER2N1VjRXE3cl8waVYyY3plMEZqWkxIbk5iaEJ1OHc1M0ExMHNlaUhZdmt2OEZJ?oc=5",
+      "title": "FactSet Research Systems Drops 5.3% Amid Sector-Wide Selling",
+      "snippet": "AlphaStreet, 2026-10-27T07:00:00+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUWpQbVlmR00xLXRMTlhCRm9QOERTX25qYjlXSDhVbEpOTlpySFJZU3BjZ1N5MVZJM01oeWM5bUZLX21lcm9HcXI3OGQxYTkwOUt1S1h5cFduYXc0dWdzVkE2bHg3a3BpajdtOFdraDBXd1R3LVl5UmFqV2NweWwwUTY1OUh6TTB1aDlxVng3a2RrcDdnemhwWjVES2pXMGI4TTg0MF9YZGJuTVBqaEpTSDB3T0YzSWJZbFE?oc=5",
+      "title": "Earnings Flash (OKE) ONEOK Posts Q3 EPS $2.13, vs. FactSet Est of $1.50",
+      "snippet": "marketscreener.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEhUUk0xRVBpcHJVX1VNaEJic1pQZjRBY2JuV0lwZkRYaEVLVEpNakZ5YUhjcDVramFnNzNHQjh4dFNOcVVUd0plbUFBZ0c4blBMdkhYd19sV3dzSXpIeHJKVm5lT1FjNWx1QlNuVDNBWk9Ydmd1b1V4aVZtTGRfLXBLMmowR0NVNmdkMzNvX002NjVHOURzLU9QV1JCdEpkbTVjNDBPZXNGcnFVZnFJTHFGRlM0QlZWenhEMmxrNEFVa0xyeEE?oc=5",
+      "title": "Earnings Flash (OI) O-I Glass Posts Q3 Revenue $1.62B, vs. FactSet Est of $1.64B",
+      "snippet": "marketscreener.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHY5TGJWTDBtNUQyYnJtRldvR1lBWS1KekdFMWJLR2JNUGs1cFZJUFNVaERFU2xNc1BOdDJsQ1VJQk1XcVNDakp6eWxWZjlSQlNkUThTUzNYWG4tLVVXZGw1UDdDWFpjN1poOHhVZzREdUhhb1VsNVRzM0JxeGt6UmJRc1ZtRHI2SkVHSG5aMENkQkdfYTBOclhqdW0?oc=5",
+      "title": "FACTSET RESEARCH SYSTEMS INC ($FDS) CEO 2026 Pay Revealed",
+      "snippet": "Quiver Quantitative, 2026-10-26T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDS/history",
+      "title": "FDS daily price history (Yahoo Finance)",
+      "snippet": "close 320.04 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

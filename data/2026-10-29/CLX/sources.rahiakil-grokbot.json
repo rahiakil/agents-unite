@@ -1,0 +1,106 @@
+{
+  "ticker": "CLX",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Clorox\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObWZLcTBIc1JRN2hIcXJRREN0MjFyOEJxSlFlREE5SlV5dlBONldYQ0R4cklpeTN3S0pxR1Vid0czVGdWbU9YVE1DdTZtV3JjTXdYTUNyb1VIZDNJSVU0SXFnUDlPT1p0NHI0X2xJYnc5YmU3dEdudjhWNjN1b2huMjJkOFU5dDVnaVBFcUo4YjB3YTNYOHJoSXp3VHVXUEthYm13SFQ2NnItYTFVNVR0UTZCUUVTUQ?oc=5",
+      "title": "Is Clorox\u2019s 6% Dividend Yield Safe? The Nov. 2 Earnings Report Could Decide",
+      "snippet": "24/7 Wall St., 2026-10-27T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1RnQzBEVEFpSDQtMEh5NWh6a0FSdVJ3S0hKdUdZZnZ5RlMzYTRiS3hYVlBNU1Ria1NtTlF1XzB1RmZRUWotWGctMllhRUM0QTcyR2QxeGdJQlYxWlBQcVR0eEFPT2VTMW9vTkl6NmZrV1hpUFM1MGxEcUd0bjduMF95S2pIOFF4NUk5VEtKUDlseGZBTXF5WXp1djJ6Mi13N1JubXpvMFgwdGNJSkpQVTI3MURqRVBJQlJrT2dfeXbSAcYBQVVfeXFMT25PWl93SWVtLUpCNjQ0OGVHTHhfXy1tdXZBRGpsOVo0RnhPVlpBSjZDUkY4MTVvZ3o0VUdlWDR6OFhlazR3RVl2NGx4WUdlcEFTMzRaZmctMkhlcHdrYm9hUzgzbEJMVHR2c0lweXFsZ21abmkzR2NYQ1dlN1pnc0M4WFBybGxqMHd4QmZwa2hPdC1GZmNmQ3VyRkRMMjU4dmFONDB1Vk13NEpnX055WHlFd0tucUtzc3VIWGUyQXZXVWwxSU5R?oc=5",
+      "title": "Could Earnings Optimism Alter The Investment Case For Clorox Stock?",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcHZMU3JEQ25zcGs4RVNucWNzX3F0UW9KRkxFVmNSSFQ5LWUwN3hfSXFsMTJOcUJMU2ZnLVg4ZmxPZl93eG9yMXg5d1JlZ19zRldodjJWN0hudGlyMmhtanlxb09mT2dTWXlpM0gteXdib0t5OUlYemthU3dhSkNHTk1YeEdxdmg3SlF1ZTZOR3plMUNtTzZF?oc=5",
+      "title": "Should You Forget Clorox Stock Near a 52-Week Low?",
+      "snippet": "The Motley Fool, 2026-10-26T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMjJ0UlJudm11MUtTYlVLd2dzMm1HWFlMd2htVEZBR2lPV3dPdU5LdXJJTmtEeTR5NDBkblRTWnRGRWFFLWZmc2dValdFblhqTzFhZVZ0NWZJU2RNVXNCVFdudXhaczNiekMza190VXJlY2trTnZIRHAyTnJiNkRqVk91YnVHR3lOOGJNQ0NyTHJvX3BvRVM2RG9hVmZQVTFMRUE?oc=5",
+      "title": "Macroeconomic Headwinds are Hitting Clorox From All Sides",
+      "snippet": "The Motley Fool, 2026-10-26T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc01ZeWo4eVREQk00WFg3VERtWnpUR1k0ckJ0SGZCVkJMMTZuQVVZaU84RmZWWFZtWThmZ1Q2TkdiRzFiWG9sbjV6ZnBxdGVheGRnTEU0dThYa3RRTlBPV2t0b25HNm5QN1c5eDc4NFU4UHNnTkRyR2ZkTmNGT1ZBUk9HU3A1dkZfVF9XUF8wZ0JGVlVJeGZFdG40MERGMjg?oc=5",
+      "title": "How Clorox brands build continuous relevance with consumers",
+      "snippet": "The Clorox Company, 2026-10-26T07:00:00+00:00",
+      "publisher": "The Clorox Company",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/21076/000120677426000586/clx4708451-8k.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CLX/history",
+      "title": "CLX daily price history (Yahoo Finance)",
+      "snippet": "close 88.67 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

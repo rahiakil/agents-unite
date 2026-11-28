@@ -1,0 +1,163 @@
+{
+  "ticker": "ICE",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 36,
+    "no_date": 0,
+    "after_cutoff": 25,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbnM5QUR6enRKSmF3VVVPS0M2U01naTdyWU55SnViT3BLU2FqVW5qV04zaWoyVXQ4eFIzN3g3a182WWN5MmR6ZDdBRXZMSEhPdUJzOVJwWWpkVElua01Vd093VFdNT3VFcVB6aFRLc0tQV0MzNDFKR3RfRFZzdlE1bGR2RVBuWjN3bFVjbG5oMA?oc=5",
+      "title": "Walmart, Eli Lilly Among 38 Objectors to OKX-ICE Tokenized Shares",
+      "snippet": "CoinMarketCap, 2026-10-29T18:43:42+00:00",
+      "publisher": "CoinMarketCap",
+      "published": "2026-10-29T18:43:42+00:00",
+      "published_date": "2026-10-29",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWZKY2RVMjZ6TWx3a015QXFlNFZfNnBRNk1ZSDE0RWh1RzgteEYyZFlLaTVVdTRIckY1QldEZVlCaW9HbC1LVkFxSGp4NzROdDQxRVMtaVFIX3RzRDJpQWhOUVc2Z3Y1TkQyTjNGbW5jWloyTjNJZ3FiNlpuRExxUHdINDJFdTVUWGMtcEtBYmpJOHkzbFlaZEtUS2lFZ3NZT3lPQWt5NDJJdmcyYXl5Mg?oc=5",
+      "title": "Intercontinental Exchange (ICE) reports earnings tomorrow: what to expect",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRlJHM0ZwaHlyb1Z6SHZFQ2lYWHM3bWxXMTNkTXlvaDN3MVhiUjdaM1pkUDRNaHRQSEI1cFZ3Qi1kWkFFYXdGUUV2OXVIYnd3c2JUTlhOSTYxS3pyRU5jNllEaXZoWGFnMWw3SlJBRXYxbGRjSlc0THJlbWlEMmt3RHZrTF83ODlZM1p4ZmJ3?oc=5",
+      "title": "JPMorgan, Coca-Cola, Dell Among 33 Objectors to OKX-ICE Tokenized Shares",
+      "snippet": "CoinMarketCap, 2026-10-27T07:00:00+00:00",
+      "publisher": "CoinMarketCap",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUWZ0TjZTSW1lOERLeXNTNV8wMDV5NmQ0QzY2N2wycWkzSW9PQjlwMUJvSU12ajY1N0FkOG9FalpSV2VLLXlRM2Q5UU96X2FER09Fdlk4RmRGSkZGMVBOeHYzXzU3ei11ZGVBYXY4UlByT3JZTnRzNlgzT3Ayc2dORk1PYmpCTm5pNi1pRzJFNmQxVE1GVnI0UVY4NWhqZDIzMkRiR2lXcmxaZndobzdHdmVXTm5tbThFREQ5cXdLelIxWVFyU3E5RzFKVQ?oc=5",
+      "title": "Intel, Oracle, IBM join growing list of firms objecting to OKX - ICE tokenized stock plans",
+      "snippet": "CoinDesk, 2026-10-27T07:00:00+00:00",
+      "publisher": "CoinDesk",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWGY1TEZaMmlreUVwOE9uQVBzWGpMcWNmc1FmdVFaT213YTNOUTFxUVFKRzFJUUFMWmowYnphd1lVTWhsMk1JSkEwMlBVczBySjVIcnNvVE11YzFUeFgzYjl3SDc3UnB3c3FUUVgtSlpxdUpndXd0X2JWNUJZY2dyREhRLWxOZ0dYaDlCdjNxbU4wVWRoMHc?oc=5",
+      "title": "Intel, Oracle, IBM Join Objections to OKX-ICE Tokenized Stock Venue, Bringing Total to 26",
+      "snippet": "Decrypt, 2026-10-27T07:00:00+00:00",
+      "publisher": "Decrypt",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxON25wMEZfUXUtS2RuZDVwQXk2cGdGWEVTaVlfcGt0M0gyLVlaUmYtX3lSemtYdkFRdG1ZbnY0UXoxaldCNTVtTkZBdlZGYmV2b3F6NjNBdV96WEJQVmJ3RDRFS2p6WEdXSDE5UGpYNmN4NVhYcjBzaHJ4dVV4Z3MzeXhuUU5nZnk2eGJ1VE9VckZfOXI2SFI0MEZhYlcyd254NWFEcHhJQ1JjdjZ4aV9ETVg4SHAxWUlRVEtoQlFETlJlOFRjU1BWZS1zQWlmcDQ?oc=5",
+      "title": "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks",
+      "snippet": "TradingView, 2026-10-27T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcFVTQjh5XzAwWF9JZzZORVlmSjI3X3ZFbjhMaUxDME5iRDMxMlFkZkZneGtiZ0pQYU1rMHZ4UXEtTkRCSzhTRkRXY0c3OHFKa2lTcDRXRjdQbkNFaTBHbVY1RkxqZmZxRTQtbEFONW9Wc0djZVBabDVqbEN3MWJkSmMwMm8talRMekdVcXNyNlA4Nmc?oc=5",
+      "title": "Gear Up for ICE (ICE) Q3 Earnings: Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkVaOVB2bUc4UExQX0VDOUxtTlhiNGFwc1NCWlZjenFoRGVLTEY3Qmh3MlpVQS1ONENoVU5JNlZ4YWZ6M2NDVE1mY0QyMlN4SXMxZTM3VUpiNF92aE4yd3pSdmtXbDhGN2JHMkRJUi1mcjQwWFZJenRYdC1ZZUxIS2hjbUs5VTdNVWpwVzFMNTQ2QzAxTWM5UzlRSzUzNmxBRnFwMVpMU0NyVlZaS2FrOQ?oc=5",
+      "title": "What's in Store for Intercontinental Exchange This Earnings Season?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdXlLV3N5T2o5X2hjT1RGR3NKYzlRaDh0ZWZUSzVHU0pVYzBUaWdaV2d6dWN5NG9jdDNfTkk4S2tWU2pQb2tPMW1mSkl4a241dWJJUGEzWmFENVlPMG5XN2p2QU11bnd3ekZEb3dnd19Rb0ZiNGxXRGtzRzBLdWZCYjhrQ1Mtalo3RHlFc0hMWGJQc2tFRk9DUkh6MktOZ0VjUFR5eF9kTDZsQTg0SUNiQVJqUE1FTHZ6Si1Cel92ZFhsd3ZsY0paVko4eTVUMWRkMURZUEpEOHF5OVR2Y1E?oc=5",
+      "title": "Intercontinental Exchange Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-26T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571949/000110465926119880/tm2628301d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000015/ice-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-29",
+      "snippet": "10-Q",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 163.04 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

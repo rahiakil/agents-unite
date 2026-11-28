@@ -1,0 +1,61 @@
+{
+  "ticker": "CIEN",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ciena\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUtTbnZwTmo3eDNWNWh5LXdTREJzRm10NTVSaVBDbHhWWjU1UWlhcEROMHVhVzlFOS15QWM3WXVaSGFNZGY4NXpjYkM4blI4MDBLYktrMjlhTmpGV3Y2UEdUcm5WWWF2YXVwUl95MEZpTE5yMWRGVkd3aGR1RDRUcG85VWZiZWthc01Bb0xSV0ZIOE1uM2laRnZNVXhDVldZLURjcFQ1ZEpkUTg5T3VEaEVsdlJieUs2YXfSAb8BQVVfeXFMTmhaamdLa1hZV3hRbTFUZ2lZNDlVNTFEdlFja0ZadzRaWHRsRWlIbkxUeU1ScE03UVBBZ091TWNmOXUzQ1hHV1o2SkJDbE9HQjlPU3AwTDE3aHlqVURTSk5uM1NWc1RRUURoWnB5QTR3bjZLdlkweFZZNlJ6WmZzUXpzRmxvaDdqYWZkaElQdU4xTUZZRXBnbUdFS2RGMDh6Y1p1VXd1dEZFajZBS0xKVmNtbjI3VDNVN2RtczJqWjg?oc=5",
+      "title": "Ciena (CIEN) Stock Looks Cheap Even With Strong AI Expectations",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRV9VMzlTVzFoYXg3UDBmTk9VRzY4T19LeDlGUWt1WkZkSEZjbWN0VFh0RVFTXzYzNDRoMlFEUUxPTzVSd05OWXNHZm5faUZLVVRZa0RSdWE2NmtRZUhxVzBpcGJsS0tPeUY5dzFpNTR2T0l2eUhtTjlIZ2ttU2FaVHpxOTRmaUo1VnRLc2xkT2lPUU0xcFNhOUc3MnE0a0U0aTdJWjFOc2szUQ?oc=5",
+      "title": "Ciena Corp (CIEN) Shares Surge 4.9% -- What GF Score of 77 Tells Investors",
+      "snippet": "GuruFocus, 2026-10-26T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CIEN/history",
+      "title": "CIEN daily price history (Yahoo Finance)",
+      "snippet": "close 349.45 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

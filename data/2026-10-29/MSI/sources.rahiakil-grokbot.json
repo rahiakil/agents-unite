@@ -1,0 +1,61 @@
+{
+  "ticker": "MSI",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Motorola Solutions\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOU0I2bzRBRWJycFJNNDJBV3pLYWV2UGpTYXZSNElDMGNoOXo3SWlvSkVMN09SdnRsTXRXb21XZVVJRWM0TXdJa1hhcExxNVVBTDVrXzdxRFQ3bUFVMUJMcXBTc21PM2stWk02cmlYdVo0ZEZLNUpTUzk0YXhaQVhKU25HYVN4eXNmODhTSElwUWJZN2w3dXdEdjNQcTRZZllYbVRkZkZuQ2ZQdEJtZDdacHR4Vk5BV01FU3hlcjd2U3hKMG13QXdlb3BtaEhVbzdJbjVYbkUwZm1iT3R2aVpIVWhDd0NxT28?oc=5",
+      "title": "Motorola Solutions posts 32.90 percent margin: Motorola Solutions stock gains 1.31 percent",
+      "snippet": "ad-hoc-news.de, 2026-10-27T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNEM4eTdtRFBhSEMzQUZMdFhVQVZZLUllczk2MmlNbzFmN25WaWwzTDVKOWZMVEsybWxLc2x0M0NjYmM5YXRBdUdsTW9PcGJBdlI1SlFwVmdwblg0bURwOVE2YzhHcUZaNUliUEh4czdFVHBqLTJPSlNoMlIyYUlvQzMwd3JJZVp0TGtHY1lFOWNtUVZ1SERRd2ZkVTgzUmpqVldZTURpVjU5bGpWMUw2ZUNOcDMzOFZGWFg3RG1faVg5QQ?oc=5",
+      "title": "Motorola Solutions Selected for Federal Bureau of Prisons Radio Upgrade",
+      "snippet": "marketscreener.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSI/history",
+      "title": "MSI daily price history (Yahoo Finance)",
+      "snippet": "close 492.08 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "ticker": "PSA",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Public Storage\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYU81U0lvLXhXMmd3cjM0VV9SakhyU2VoYVdMZk00QkdZaFBUMlFoYjZfTHpJdDlzT2F3S2tHaWZpc09WWVA2ellDdUNYVkNvdFJGOTBUNGpKZ2ZBQ2RGS05qQjhacndKbW81akpVTnNVZDMtWjdaRW1HZ2o2Z1VUQTkxSDFNa2Q2YXpMRWFjeHJsTkJlMzRrYU82ei1fQQ?oc=5",
+      "title": "Should Earnings Beat Require Action From Public Storage (PSA) Investors?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYTNpOGFycjdXbHVGNHNjTnJaTTNEMFhKNFEzY0RkYjdrS2lwUjF6OXFTbk9BdW5Yc2lPSTJ2MXRXUGk5ZmhqNXFiMmw2R2l6UUozRWVCUXlhMWZubFc2M0FIdVNoQTVzTEhUZV8waUJ0MHVmU05RSEw0LTJCWW9objVLNk1CeUtlbkpyVVZFOUxnYmZaRVBUTg?oc=5",
+      "title": "Public Storage Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd3Y3bmtPR3BYU08yd1huSDJNRm5JaXhPQ3NTNFByRnpxc2F2UnRPSXpxbmxtMUxCTk81SndseUFYZ2VCelNaNEwxcXNvM1ZYbE51dXR6enFWem1yTldRclJhVEp0RE9FMFNITlEwUU40amIyTGhlRmlVamkyTkRxQXg1cHNoQ2c0eGREQmhRN3JkckF2eEVKajhWMk9vRVJoNzhSUzNjVjFGX2lwZmlr?oc=5",
+      "title": "Public Storage (PSA) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlJ3NkV0cnh1RUNUYVprZDYxX3lMT1VxdzlYd094ZjJaQzJFR3BaNl9YeWRmRTJyOWFnb2lJMDY1SURybVh1bDk5ZWs4X2NnOFE1dEF2aHNYYUZGc0d2cjNaSlAxa0JWbUdYTUh6aUQtRkV2WFhSdU5JVlF3Yi03cGFvMktWZGEzcGxieGdtZDlrTkZZa3doQWlhWDZMQ1lsQVE?oc=5",
+      "title": "Is Public Storage (PSA) A Bargain After Its Earnings Beat And Raised Outlook?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR0VrYTFMOHdfRG9Rbm9XazRDcW9xZ1hWUXQxeGNVRTV2QXlXVVNGZHZRTmMwRmtldDNMbm94RFJTQWJSMlFXbDVTVXhEWXY0QU9nVS1EMkRKd0JCTXctTjBzQy1sSzh1cjE1OVh4TGtWRUxtY1A3dHdWckI1bHptLXhvX2JOZkFVWWpPcGZ5ajJRa2dwMUkxZnhTZUdwX3M?oc=5",
+      "title": "Public Storage Reports Third Quarter 2026 Results and Raises Guidance",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmxjZ21zLWw1aHBhYlNIY2pnam1KaDRhVVFwbWMzYThHenVKSGtSbDVjbDFLbnoyTjZSTnZmeW8xTUdxT3hYSzkwRmtRUnMyQ1U4N2tLb0pYU2FTVTB0SkU1VjVnOEdrM08tUjhDNUtKOXJGNFMxeXF4QjBXS3ZXSVBpSXNqTGRRUFBYRVhRcmJMY1FUYXVhTkt2aDQwbTg1THQ5MVUzUQ?oc=5",
+      "title": "Public Storage Q3 earnings grow amid reduced churn, guidance raised (PSA:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-26T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORmNWZEh2RGlsWWJ5ZElJQ0xsT01CUUZydG1YcExNczd2U1o1cmk1Yl9zXzhfclZCTnhyR05XNjhhaVR2bXA3WmVrRFZ2M1NhQ0VvRzU5TUlfSi14MFl3RTdCbE5OOUEwOVNkYi1sUzhTVnZqOTRoWDU0SmNTTjd0N3NtQmtiZ3g3NUFHN0t2NW9aRXBYTEhyRA?oc=5",
+      "title": "Public Storage (PSA) Surpasses Q3 FFO and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbEdPaWtRb00xN3QwanN2YTU4SnRKSmRQaTJkdUF4SFVjWG5sQjJNRVlDVjE0Z2RfdXl0TDVuUkV4Ul9rcmoxX3FzVG5VOW1NUC1sN1YzRFctNmpMOHJiZHZpVjNVUlVqWUM3M1BwYzRmbkZSRVplbnRqcUFTQlZubmhOcWY3ZEV6TlZBZVNVS2NENkxrY3B6M0FKSU9URjlLMnJKUQ?oc=5",
+      "title": "Compared to Estimates, Public Storage (PSA) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026067283/psa-20261026.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026067286/psa-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-26",
+      "snippet": "10-Q",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSA/history",
+      "title": "PSA daily price history (Yahoo Finance)",
+      "snippet": "close 317.06 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

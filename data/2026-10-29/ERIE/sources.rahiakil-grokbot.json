@@ -1,0 +1,67 @@
+{
+  "ticker": "ERIE",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Erie Indemnity\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQXVBa1poTmhUSTZsUHhrWVRIdTlEZ2p3NG9hNGhrYnpOYTJ0OVNKUEJYSzB2OVh5amtQdDU4T3IxdHdhOHFaVzl4dE5yMmlDSVpkdkFJbWswWHpEc2ZkVXY0TE9XYTdJbkZRU0ZaUE5wXzZ0NlV4eHp1N25YTlozUXNMZzd4WkhDX1hsV1c2bTZJWU80SkhzQnRLRWxxalRoMGpVaVVYaTYzWmpvUXpzZHZTb3NRYWpYTE5YS3I5SnBsN082bU5QeUFZaENjSEnSAdQBQVVfeXFMTURJRzBSVW45QzlVMjdtcVlFUFRYZVAzQWhSQWE5UGMyWTRjSkF2LVQxTWt3ZS1GdzJkaUI4Q0FBN1BWSmpSVTlmenp6WlItYjdtcnV0VEhtTFI0Q01PYzl2MFBSZTFVQTNzdERkTkZyb2J0dkVkU1ptaC05djBJZzlua2g0ZGx2VkhLUnR4NmVvdWphMmNsd1U4R3VEZGJRcWJ1X05wUjBYT3gtUElGbHo2QjRtNWpmRmNqaUN0QUctajdSemprM3NFWkNKekpQUE5YYkc?oc=5",
+      "title": "Erie Indemnity (ERIE) Rebounds, But Is It Fully Valued On Mixed Return Signals?",
+      "snippet": "Simply Wall St, 2026-10-26T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.722,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026068265/erie-20261029.htm",
+      "title": "SEC 8-K filed 2026-10-29",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/922621/000162828026068274/erie-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-29",
+      "snippet": "10-Q",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ERIE/history",
+      "title": "ERIE daily price history (Yahoo Finance)",
+      "snippet": "close 250.79 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

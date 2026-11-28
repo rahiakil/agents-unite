@@ -1,0 +1,61 @@
+{
+  "ticker": "GL",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Globe Life\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTHRQX3lBclhkaFd6cVdEUVRaWWxBQ0RmdkNta3VwOHF1ZTJzczZxTkZyeldzYWFoZi00di00UmFtV0hsTWkySzMzNXdybDl3bW5oVGJ6NFBZdVJZckZNX1dVUDVWMURCNkI1NkhtQktxQWZ3ekxlZGNtQXVwLTZCbXNzNHZwem9fRmJNaHc3UHV0OXppeHJhaHVoZnJPNGJaUFdMUEJPT2V0LXFBUVUzWQ?oc=5",
+      "title": "Why Stocks Like Bloom Energy and Globe Life Slumped",
+      "snippet": "TradingView, 2026-10-26T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQLUxmbjZoRHp1dXU0bVo2d3diY3VuY3lLMWdtencxU29xNXh2S2Z6NlZTWDRDQV9qRngzZmV6ZmRGRzljSUFRQ0F3bEVtclVGSmR0SHNPa1FLa2xHZFRUY2ppNUpxc1pMT2lCZUV3ZmFJQmN6VXVHQXJlNHZKeld1WS0zZkZxbV9ObUhLb2FLZzRuQkdYV21jd0VOem03cWdPaFRYeFA4c1AtNy1ZbjlOcG10M1ZYekFCaUZiNWMxVzNDXzRyUDQ1Q1pyQXBmckNMVGREaGR3QVZqSFpGWkdGVW9JdWoweFJTQ004OURMdE5jMnQwTFNQSTYwNkxvZlZSVVc4?oc=5",
+      "title": "Globe Life Inc. Investigation Notice: SueWallSt Notifies Investors of Pending Investigation Into Globe Life Inc. (GL)",
+      "snippet": "Morningstar, 2026-10-26T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GL/history",
+      "title": "GL daily price history (Yahoo Finance)",
+      "snippet": "close 160.45 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

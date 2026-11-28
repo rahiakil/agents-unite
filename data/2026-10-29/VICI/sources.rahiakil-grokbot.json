@@ -1,0 +1,163 @@
+{
+  "ticker": "VICI",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vici Properties\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeTM1aUdGeHdzbjFrU2VmcEhfdGYtcXR0ZGNseE9YMzdqdXhyOFJLMlBIbmZ2aVN1LVdwdTFQSWpCa0hWOUctUzdrcE82WjBsSmREMUEycFdIYXFGYWQ0Q2llMlVNcVBmVEZpaXRhX3hPRGR3MFNaVzgwNERkOFozb2hmZUFFMmRHem04Rmw1Skg3QzI3MkViVlViWGlaUWl3R0lVRTV1REl5VjdV?oc=5",
+      "title": "VICI Properties Q3 revenue beats, but earnings in line as expenses rise (VICI:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcGFiNlA1Y3lvM0ZEMVBTS2Zvd2hzUTJEY2xaWWVGRVlzMXkxY19hb3pJSmIyVUxMZWFld0kxaGQtbERWS0dhay0tb3M3LWl5aXZaVElaTGlUUUNEeGJSYjAxVHpHSDFiclg4UFVPUVNyQi00bTRDaVJ1TU5UYVZBYVItY0ZKekx5ZGtRMXVuTTBjUFFoTmNzTTQ1Ml9tQQ?oc=5",
+      "title": "VICI Properties Inc. Announces Third Quarter 2026 Results",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTmNmdWxSVG9RLVV1MmxFdGNCWkNYVnhkYlZLdHQ4YUFNb0IzZ2ZJcWdOMzFZYzdIODR6RENzUGdoT0ZYWmpPcFVkNEZ4LXZfekdvMFg3UGpuR1phc055V2xPRUJ6bXd4cVNIVFN4d2RUTjdRQV9IWVhvRmxGUkhVLU5FUkJoN1lhZEtldUdNM3ZUcU0?oc=5",
+      "title": "VICI Properties Inc. (VICI) Q3 FFO Meet Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUTNqdGdsM29TQ3JzeTYyNFRhaEQxdDc0bnVLa2VXX29Oc0NETkREOUt0c3NmQXVTeUxKbHhSSGU5TnQ4cTZYWVlsRTVReTdNeVVJWTBCMTh2eElRdGVUT2h3SHAyRlJoX2t6X3BKUTJPazFfZVdFZU1ETDVXdHAzSTVKdFZzQXBiQnVoYUU5dEFMTUpiMWJTeTFHSmREUQ?oc=5",
+      "title": "VICI Properties (VICI) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUV9pRHUyeHVKOVFHMmVIWjI5a2V5TDlDSHJ0ckE2OTk5YlJnemhNNGVNQ01JMXk5Q2w5cTJRMVpianZrLUhFUklxY1VZY1ZkZmwtR09YczVWenhQSVRtZXFFMC1RNWpfVFlBWU9kSDdaaDRZems1dXE4RDlNdG55S09ZVER3Z0pzR1NKTkdJYnBXMGdCT3QyaEFlN2F4dw?oc=5",
+      "title": "VICI Properties (VICI) Lifted AFFO Guidance, Is It Still 44% Below Fair Value?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTktJMXFkcXFyU0oxcTVha1BoQnpsVEdBNGVlSHpSWEVQdEZUVnUtMUcwbU43WXBtbUNZa3ZGYTlGeTFjSUdJaTF5VFA2Y1VJSFNuYm0taUhVTHpkbUN3TmJMbXNWdldQVWlaWGRLNnBGWWFQMkNzNmlMdS1zd3pJOXZ2a3ZrUzl3eFpzNEpzTU1qQW5ZaHAzYld3LTBVdWRi?oc=5",
+      "title": "Should Buyback And Dividend Boost Require Action From Vici Properties (VICI) Investors?",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY0NFZ3NGTnR2TER3bnA3RlVBOFIxMGxFWVVyT3lmS3lUc05QMnhCeE1Db0hOcGg0OEoyeG1mSDYyMXNTZ2pqdWtBVFgyR2cyaGpIa0dydWVDSERSc3pLUlpsd0l0N2JZeC1UN3FtQ2xjUGtLY2QtNWhwcG5hQ0c1Yk00UHJYV0VDbGJRbVEyVHFvLXhGeV9ldW11Zkt0dGVvbDd0dTdQWQ?oc=5",
+      "title": "VICI Properties vs. Realty Income: Which REIT Is a Better Buy Now?",
+      "snippet": "Zacks Investment Research, 2026-10-27T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUl5UnVVeWlKT3JpVmFtZkxEQ2VTM3hLTVd2UTVKOF9jTjdJME8xQW01U2U5ZnlSRWpTdnhPN29TNzBGUWZPaUl4ZERzbnJ4Z1J5ZXdxQmVxZG9kQmVka3I1eF9pVGVGNGEwdDBMSzRFLTFLb0pzaThfVlg2ZGprLXVMOWttRlJyVWt2ancwVVV6SldvWmNuc2pfMEw?oc=5",
+      "title": "VICI Properties to Report Q3 Earnings: What Should Investors Do?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVlFqek9vVE5qRUpOcTdsSFFTZ0tyRGVPS2JMLU1MYUs5WmFkbTh6UmlpcmhMUVhUdGVtN2d4eW94cmV3Nlo2akxyWk81WV8zZmk4dFBhZDROSTV5OUNDOEpzNXNVTy16TkdTV2lIYkpPeHY2OWNWZ19JQUQ3Q2dXMjlwT0swcnlnM3hyclQxQ1Bvd09yMjRrY3RjUHAtNTM3c1NDNkdyUW53TXVqcDZhUEhrT2NWU3pIVUh5cXRWbTVwY2d3U1pKYlhibUZFenVwU1hhVXJqR1RjUjZoYlRHT09ROVlha0E?oc=5",
+      "title": "VICI Properties Inc expected to post earnings of 71 cents a share - Earnings Preview",
+      "snippet": "TradingView, 2026-10-26T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000119/vici-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000120/vici-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VICI/history",
+      "title": "VICI daily price history (Yahoo Finance)",
+      "snippet": "close 24.52 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

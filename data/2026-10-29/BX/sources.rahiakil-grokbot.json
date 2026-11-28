@@ -1,0 +1,103 @@
+{
+  "ticker": "BX",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Blackstone\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa3JrSHBDcmVCbkFUYkpWZ0FjcTFvaGlTai1Wck9MUVB1UmNNYUlYd1hlVjVkcEZGQ3VUYnZIMHNnaUtnbG1BQXJrUGZTM3FfRGFvTG5ORmJlUmkyNmYxdUNLdW12R3pMRXZBSFNUZW9MaENUTHM1WEF0LWU4TE1xYm8teHNaWVpXZHhVYXN5SzNXSUhyUDVIXzlGUDllWEc3?oc=5",
+      "title": "Blackstone (BX) Could Be 17% Undervalued After Third Quarter 2026 Results",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdVRnRU1ieXJlNWx5Z2h1RUFaWlp5OGxlNjJFQWxoWlBHOURVUUVabWJhR3J6b00tRG9OY0JiMDBtTEZzS0VWeUVvd1YwWkZHbGVpcnZVX01FbW9GR28wSTUxRnRqNVp0c0xvQU0tUDJyby1ndk5OcXdoSkQ3eUhfTVJyUkptZ3k5V1QxVm11Zms4MzVsV0cwSWQxZzN0c1pyZ1hXbUF1aWo4RXZ6eVIwR3lhYjFRa1BLbTY2NTFnRkY4ZzZfckNWVTNmclczemVfdnZYRWN30gHbAUFVX3lxTE8wMkRtYVpkZmZaYlhfdzBVYk10TnZWN2o5c3c2ZURabnBuNVZlX2thV1R2aWdvb1ZRSkJGaVNhUjdpM1NVWU9qYmFoQTc1aTFBeXJnRUJmX0hlZTdQbjdpR0tBb0lrVHdXbHFoQ0xQWEVyUVROSk9iQXlZcFRJdjdRRTFHV2pLTU9XVXJkd3RueF9qWkFhVUM2YnB4V3VkVndDTWNpQmJiLU5DeTlPUWRnU212QUtiQ0ZIYzR0ZFJlYWNTQUFuWjFTSVZCc0JoWm44SDAyNFFtMy1vaw?oc=5",
+      "title": "Is Blackstone (BX) Undervalued On Stronger Third Quarter Earnings?",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVEhnNldnNzdtVEJvbzlMWDFiWUt3OHljSDkyMERzZ05JVE9pQkZiQnJsWkhkQ214dm44cUMweWZKX0VHaXB5QzI2UTJrSXVXSEJVdmZ3RGtubmJsRUxMQ1A2eDIzb2JCbjQ1YVppWEdwejdiR2d3eGxfZ2trRjltSEpCU0xEc1R5amhqV0FKRV95eWFKSXVHYktqSFI5VXNNRHc2TDJGQmkxcnFzQ2czM0xYV1BHVFkwc1E?oc=5",
+      "title": "Blackstone: Q3 Shows The Private Credit Scare Was Overdone, And The Stock Is Still Cheap",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWFqU0tTVjdhTTJsZkVhMlpMajdXMHA5bGpJU0pHVmJMcW5EeFZQR0gyZGpHUDRjVlNhT3d6emo5UFdqbGYwQXJZa1oyaDRZNzBWd0ZkVWE1emY4NlBTRDhJb3hlQmg3bUhOTUp2T1ltMnNaNHMyUnppUkl0ZEp5RE5veWZ0MU5zUEw3MnFfMjNMYWUtOEgxendwb0pkMUdfRi1mTklpVHJtWThqSjlYbk41bHRodw?oc=5",
+      "title": "Blackstone Mortgage: 20% Yield, 5X Leverage, What Could Go Wrong? (NYSE:BXMT)",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.477,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526434438/d124611d8k.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526432970/d142119d8k.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BX/history",
+      "title": "BX daily price history (Yahoo Finance)",
+      "snippet": "close 120.6 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

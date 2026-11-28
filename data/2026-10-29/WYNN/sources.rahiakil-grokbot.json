@@ -1,0 +1,61 @@
+{
+  "ticker": "WYNN",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wynn Resorts\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZV94M0JVSTRhTDllQ01nT0o3LVRGdVNhaWpVMEdCQkpaX2NYR3hSMnhzZWZsb3d2WVo5WFJNMUo4LXltN2w3RFVKYUJJNnR4MHQycXZLcnlLU2tpMy1VNjNDNkJwb1JGa01FYm45UEVmUzluWDNXOUljMksxN2hXZ1pZNVNoZzNzQU8yTVphdDdMOVFDWEpBMGp3?oc=5",
+      "title": "Wynn Resorts (WYNN) Stock Seems About Right After A 41% Slump",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV3VZNXFEUFZDcVhmcVV2SUxCUkp5TTNQMG1DQ1dpRHJLZWFzOTRUdUM1eTNJMllnVERHYVB4TVZxSVVtZkFsV3gzbDV5cWFmelVwbEhSZFEwd1hQbTZiVXVYTmtfRWhUbnNwZG13TTllaVpWVk1UeUlIcmh0NHhOTXIySnYyeHRUM191WHF4UVNMRlM4ZTZ5ZnRfeFFmNGQxWnBLYUJjNA?oc=5",
+      "title": "What You Need To Know Ahead of Wynn Resorts' Earnings Release",
+      "snippet": "Barchart.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WYNN/history",
+      "title": "WYNN daily price history (Yahoo Finance)",
+      "snippet": "close 74.21 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

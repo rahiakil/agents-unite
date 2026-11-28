@@ -1,0 +1,85 @@
+{
+  "ticker": "ALL",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Allstate\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYXB3eE5TY3FtVmExeThrZXI4Z2FyTlVDRUxvYmFBR0QzMDgySXdneVhyenNJWTNaN3NyYXJFSjNpZ2lGT3pyWlhYdjJvekZTMEZsSlhvcm1pcUVzc3dDT0FXRGtGV0J2MnVkSGVjWHNFdWp0b3pIamd0Rkc5VVlkT291Q0hTS0RHaURhNG14ekxNamdFS0ZfMG4yV2ZQSDBvSmFjcjFpNFhXdWd0MFdqVTBtNVBEdUk?oc=5",
+      "title": "Allstate shares may move 5.1% on upcoming earnings report By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdkNWSlpJbEMza0hWeWp6aTRhVWNLTHRFNGhqRWtiLU85S2w2eC1lVkpuTVFPcnJ3bDJSUDRZWVJzZUs1TF9kYklweDNDU1JlN0NNTDBSM2tCYTFWbU42ZHVoTnY5V0dubjE3anJNcnBwdUJSQzFrWDNmWTJFcUwxYTBObW9YSXBscjk1bjB5azhNVHVFQ05yTktsMEVMZWh2NFp1d0V5T01Dbzh4b2gzVlRXdF9wTGYtTUUwUmhuS2J1azjSAcgBQVVfeXFMUGkzTGI4SUw0SmZwV2JiSUszR0NqcVNqV3MwNnd6VDN1VmcwZXFITFN3VHRrOU5YMU0xYWd6ajVwNnBidnoySVg3TlNfUmVsUDJaOGlMbkx3cTBIN0g0M0xvN1pWN0dxak5pMUc5aW5zYTVScGU3dkg5eXJTcFZSMTl6Rk1TMEJoOUJLdTg2NHNnN1E5ZkE2OWUwNTdMOUtNbVgzU2NfeG8xcThrTnRyb05CeFQ4XzBXVl9CdzUxdVY2ZllFXzVCVGw?oc=5",
+      "title": "Allstate (ALL) Stock Still Looks Cheap As Its 126% Run Continues",
+      "snippet": "Simply Wall St, 2026-10-28T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMkxsclF1dWtHZFB6OUgyellVUVdyaVM5dzNteko4YzNJcERjMVBscEU1aEttUUZVUkxrSDRCN0dQYlAxUldlRkp3S1N6alg5T01EbGJHVVBtbzJaN09Qb2QyVVZZTE81aDBtWFMtUDZZdkdqX2RtTjljZW9BUXhGQ2RabzIzcWVmZ3FCaEpLUUV3VFpzY3F6SFo4Q19Wbm5zTTFvRXh4M2NaZw?oc=5",
+      "title": "Allstate (ALL) Expected to Beat Earnings Estimates: What to Know Ahead of Q3 Release",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUJqa1VQZmFZYW5Rb2JIM0tXQkhrMmZQWFNybzhPRV85QmtBT0lORVRSRnBzMDZzYnk1dHJ3N0FtSnpuRDRqTGNZcXNvdHJjWXR0bXNZOEUxd3VBWW5IRTg4dVZlU05ib1dwTEtxRm1BcEdzU21DN2RYbjYycm9nYWRiVElXUW9TeFJVMmlnVVpOUVd6V1ZjLXZkYmpXa1U?oc=5",
+      "title": "Allstate (ALL) Stock Sinks As Market Gains: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ALL/history",
+      "title": "ALL daily price history (Yahoo Finance)",
+      "snippet": "close 255.92 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "ticker": "AWK",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"American Water Works\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMDVmZVZGdkx4bFR3U1hJbXNBY2ZFSHd5X21FRUFraFZENUdKaVQ1QWd4ajV0QlZfUFRKMHRVeUpXVjgxQ2pYNEtjcEdjRzZrWWJOWGJzcENLVmEwTV90U2dWSEZvR3ZkNGlUVmJlLUNTYUhfNjNULXB4Mk1aTWU2bWpxWE9GWFliOVNqOXVjXzd4WGNVTkF1X0lsNjNxR1pQSXY2eEJTSHRuZTF6UnlUeElmdlhteEJPU2ZHbExKOA?oc=5",
+      "title": "American Water Works earnings missed by $0.07, revenue fell short of estimates",
+      "snippet": "Investing.com UK, 2026-10-28T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPakk1b01EMm9WeXZtV3d4ZVNYRkhIX0VaTXRHN2kxRWd0U3FYd0dBWmNpMjNtNEp1X3JVNkI0MWQwd2h5THd5NVFTWGNVOElxRGhRZzJaeXYyNWpIOEFJVzJucmU5NHBJNVRLQXlES3hVdDJRSDJpdnpFcXpyeXJveXJubExGak9qd0dCT0g2aDJ1RXhXNUdBVDN3?oc=5",
+      "title": "American Water Works (AWK) Lags Q3 Earnings Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000150/awk-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000149/awk-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AWK/history",
+      "title": "AWK daily price history (Yahoo Finance)",
+      "snippet": "close 142.21 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

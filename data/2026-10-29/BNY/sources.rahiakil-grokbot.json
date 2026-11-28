@@ -1,0 +1,82 @@
+{
+  "ticker": "BNY",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmRxNVdicmJKS1RhYWpreDQ3TEVjZ09URnp4b0pDaEVGQ2tSVUxPY1Z2bXRCakRRUzV2MVlmNjB3SjBQaUlKQWlvaFNQZVo1ZklBOFMySmh4c0tYd2I4NW95STJPWklUb29scTVQSVlQQ195Nk0zczRwQWtLMUhpM2NHREphQm9RdXN2Qkszd09uakk?oc=5",
+      "title": "BNY Mellon Dynamic Value Fund Q3 2026 Commentary (DAGVX)",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSG1UV09IaWc0YVpBeFppUlRaOG9FaUJRcWhIU1dLLWZTRTlROHBjNGFITXpKVHFtTFJQRHoyX0NtNjdoQmUtS0xoaFI0ZUdIeVhXV040T1p4d2hnNGlSTF8yQmtHRDI1cVNkWldLM3dUbXdnZkFZSHpUd25ob1B2QXBJUGJ4Rm15bktseWdIOWpxQQ?oc=5",
+      "title": "BNY Mellon Appreciation Fund Q3 2026 Commentary",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ1paeWllREFaOGpxZHZCVzM5UGd1THN0bmVPSEtEcTZsZHBucy1LSEJZNjk4NVlnY2NUazBObjBYdllxbW1Ma0tPTjhibi1YUXVSb3I3TDhVbmktdWt1VmZodGVIUXk1ZFExZExfSjVuMFR4bmhjWWY0YWNTN0h5dXMxaHlpVERYVlZHSVBabU1QQ0J4T0hpQ3ZoTllpTUlkZE5rcnZNOE1iN3hCa3RjejMwZTY0Tmt0cjloWnRiYThSX3ItXzBQWmtsaXlxSHN5eE1EN1MzbDVPLVNyWFdj?oc=5",
+      "title": "BNY Mellon prices USD 1.25 billion offering while BNY Mellon stock costs EUR 130.50",
+      "snippet": "ad-hoc-news.de, 2026-10-26T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526436302/d17537d8k.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 3.03,5.03,8.01,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 149.37 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

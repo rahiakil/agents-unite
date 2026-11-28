@@ -1,0 +1,49 @@
+{
+  "ticker": "DTE",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DTE Energy\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNamlaR2gzMHpBdXktelEycGNTbmtiNnUwZnNwWmVJM0U1a2N4RlNWaUVHUzZUQklyblhZZnBrcDJIWE9WUG1zdjFOUmpSYmZLNU5VYk1lTnpuU2xjQXdrMDNpaXBjejBWakt0VFNqa1RFWWhJd3J3aWhrOUItWG1DdW4yQ3VGLUpZdWhXVUg4S2ZtYy0yVU8teWVQNTRWNFo4UW50Y0xfSmJLb1dzM2tKdnp0REJ0akJ5T0ljaUxsYXRaTmVXRzVIUkhLcnY1SjZjQkRDODQ2a2dJZGtMNGViRlFLSTkwM09SNlE?oc=5",
+      "title": "DTE Energy's new Fish Creek Solar Park adds enough clean, Michigan-made energy to power 30,000 homes",
+      "snippet": "PR Newswire, 2026-10-28T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DTE/history",
+      "title": "DTE daily price history (Yahoo Finance)",
+      "snippet": "close 134.52 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

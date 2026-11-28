@@ -1,0 +1,94 @@
+{
+  "ticker": "CB",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chubb\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc3R4SmRCaWhIdjRndUxQQzVTY2VDWjhGaDdPdGs1THJEVUZtOHFESWo0bHh3c29BX0pReFJDT0lPWnMxMm1PNkJuOWZucC04cTFDZEJZWHNiaGFhWW9SbzVHNXZPbTAxbTBLeW1KUzUxVDhHaXZaRWlxeHJDMHlISXZoMFlWS1J3RFh1QmV4Q1huUy0tZW5uLXVld0ZrX1RuVWo0VVZZdUZya2M?oc=5",
+      "title": "TD Cowen Adjusts Price Target on Chubb to $379 From $360",
+      "snippet": "marketscreener.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNajFDWGJQRC1pbEJCSHRFdmxiUFJtc3Y0WmpvV3JERDVNVlF1cGZfZE9XU2ctOE9Ma1ZBVUU5SkhXeUc4V18zUHVVaEhST2llcEVXdDB6bEY2VHRHb2ZibDJqVWVNOTIwdUFwRVc5aWRqc0ctaVRNajlRYkcxNng4UmVrR2ZhajkwVzNNTUFOZHVBNGxmZjVBdjVqamtPQQ?oc=5",
+      "title": "Chubb Limited 2026 Q3 - Results - Earnings Call Presentation (NYSE:CB) 2026-10-28",
+      "snippet": "Seeking Alpha, 2026-10-28T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMnVCdGNVNXZTUjhvLUdncU5WY1pRb3hEMUVQWjgtSU84dXI3eEpjMkdKZFZlQmp4d0cyS2owMlpSS2l1RDFfckRtcG9pbDJQa0N0a0VUZVlSVzZrWGVQZVdDQkFhbUk1YXp4cnJDMEp1LUUtSXROSFhOMU0wd2RPdWU0bEdmRU92Y3dWWkctWWJwZFFKOVMybVV5ZTl2WTk4bE8xdjdJU0dMRTQyS19DOUVSa9IBuAFBVV95cUxQUjhab0IyUkpNYUpNcDRVeVJRNU1QMXZtd2ZKVFk2d0VXZnFoNF9NMzJtVkw5ZThWZ0x5ZG9pN3RJVFJ6TUJBNUllNVVtNmtscEthUmx0c196RWRsUzFJSWZXOEpIX3I1X2RrLUxCdEFaVmV1TjNqLXVfci1hZzhQZ0JPRmJYR2NjTzZqWEszNXlDWWlTYTYtNVFVM1dWcXFQNXdwRmc3NVE3Vld1NUx4TmlrcG9vUnBS?oc=5",
+      "title": "Missed Chubb's Gain? Here's What Holders Had To Believe",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM0ZSdjlQUnJacEF4bUhNTWwyRVZhdFljRWdYeFBrZ0ZNT2hMY2kzR2ZvMmRxNXJwWkRsRkVzNUdBcUdZaVlhenZ6Y2x5YUxRQTRlTnM0eVNJTWFHSXNxQ29FVk5fU0ZKWmgwekUxWDR0ajVfQllUVEFkWlFXYXdMMWs0d1lJaVZKVVN1NTZ6MkZ4dzVBaGs1OF9R?oc=5",
+      "title": "Here is What to Know Beyond Why Chubb Limited (CB) is a Trending Stock",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/896159/000089615926000021/cb-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CB/history",
+      "title": "CB daily price history (Yahoo Finance)",
+      "snippet": "close 362.28 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

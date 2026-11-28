@@ -1,0 +1,106 @@
+{
+  "ticker": "EG",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Everest Group\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY0dvVmNocHNZTGZ1ek1sWWZPbHFjMDh1RG9uUzU4Rm5VZ3Q1WHk0QW9aVWN1WXJUajNhVnh4Y0lKZ2JTRjNsem9EcS1aME9qMHZzSnhLNms0VjI2NDlZdktuQm02X2NiVTNTdUFCZlNGY05kZ20tSXF3UmFDdlhGeDA5U0xFdw?oc=5",
+      "title": "Everest Group Securities Class Action (EG)",
+      "snippet": "openclassactions.com, 2026-10-28T07:00:00+00:00",
+      "publisher": "openclassactions.com",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTXZaMVpGVkVXSEZSQmRyekxwTzNHRThLek4wU3FEQ2FHaWgxdkphcUV1ZkJJeTk5akR0NGZRN0lEaVVRQTNsY2tnQkU4aGVELXU5SFdrVEp3MFpGb0VYdkVFN3h1MjBNOEdsZ1NXV081dVM0VGJENHJrZE5wbGNkY2dqeW4xRWNjaXN1TklDbFNGb29NT1BjbA?oc=5",
+      "title": "Everest Group (EG) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVU55UW95amRPUlFuSGlrbE5JOERDTlgyYlBpS2JHbkVhcFFoTlp4SVFSaURxUEU5bjVBUENtdTVqeHh6N19mNHZJUXMtNW83SDBKLTduVW5lNDFrR0ZiNmNnQ2c1UG1BX3YxMkN1eV8tYjhfdEF4QlM1QVBXQW9KTVFZbVJQSGtlVkxwb1Vhb19fdnpPQmc?oc=5",
+      "title": "Everest Group (EG) Misses Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-28T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV0RZUTE2eFVrZjF5STVfZlNDWXpWZTZmekhVNmJrRnh4RDNUQ2NUQU1SVUdjSXM3WHZ2d0U4M1FNVUc4YkdaNEdCTUZETkY0WHN3TzhyMi1hWDQ1LUU5bU9yd1RWNWJmSWdiaFJPQzZETlJGMGRXZG43V3p4aThyQ3JZdjZGRVVMVHZRT3BRSndjUVk2VHdRLW83N3YtUkU?oc=5",
+      "title": "Everest Group (EG) reports earnings tomorrow: what to expect",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaERnRFJqa1hxNWNKa2lKTlhZYjBQZkM0VkxCQ2pTeXN6cjI0OG9JZnBEdTJWMURlWjRBOUpoRFlMWUQ4SG9VVjZDQngwd1dxN2F2QnFxckxCWGcwN3YtZUtBSTlicnlscjc5Y2NWemhDeFRyaGlYZnpPSl9Ya3YwRUtQUEp4QVhzdjdQWHNBVkVJbUJ0SzhWZ1VhZk4?oc=5",
+      "title": "Will Everest Group Pull Off an Earnings Beat in the Third Quarter?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000041/everestre-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EG/history",
+      "title": "EG daily price history (Yahoo Finance)",
+      "snippet": "close 400.59 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

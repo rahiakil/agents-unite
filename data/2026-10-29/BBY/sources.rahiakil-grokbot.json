@@ -1,0 +1,121 @@
+{
+  "ticker": "BBY",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Best Buy\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0NlWFVpRUFETEFYZDJyN2gxWkMwWjRuRURrMEp1TFZPVzEwUnl6MHJ3TEJ6el9lOHQtU1pEVUNBQVFKZ19fdFMyZjNPZVZSQlgxTEQwVURvMllNNzFxSDFTdDhqQkZBSmc0c3hEVS1TaDhIajFrZ2o1d3o2Wk5QcnkwN2JNRkZtTkpOWHFJSnNlNEZoMHUzaWcxNA?oc=5",
+      "title": "Canadian Telecom Stocks: Which of the Big 3 Is Your Best Buy Now?",
+      "snippet": "The Motley Fool Canada, 2026-10-28T07:00:00+00:00",
+      "publisher": "The Motley Fool Canada",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWI2R1hnd01XUnEydDdKVWFjLVdla1JOTFpadkR3bkVPTzFoREs4djNibHEyQzRRbnpoMGM0STVoT3MyV0YweWJnejFxdWdMTHhmUGRNckVYRko0bFBnUGFNN0d3Q1FRX25JSHcwakRBRGVYRm4xYllOOEFqTkNTZ0tRZWtLX2lQcFZ6NllzekN2YXpaU1JWakJOQ1l0aEJfOEJEOVdQWWY1c0J1SkttQUk2aXdYcjEwOGNNcktKaVdtczRlakUyNVAtZElzb1E?oc=5",
+      "title": "Best Buy Co. Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-28T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-28T07:00:00+00:00",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYkExTUNya2dQeDM2ZVFxT1hFclZ2NGlFYVlyNTJTdHVWa1U3bFRKVHpXWnNWUlpVRHhYUnNROGVoOExHdTByRkNQTGk5ZEhMeHlFOHY3am5nYXM0TndMVTJwQ1l3eGxMZ0kzZVJ0XzZtYWZQWXdlMUU5WElyWF9GU09ZSTZVMnItNEhWTXBzVGdnTVhMeFlpc2dvV0pvU0tE?oc=5",
+      "title": "Nintendo\u2019s Zelda-inspired Switch 2 console will be in stock at Best Buy on November 5th.",
+      "snippet": "The Verge, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Verge",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObExPc1VJdzJqOGdYYUpQT1FUSEVfWk1mTlRMYVBpZUJnMVRCOUFuOG1GS2JnLXljM29tQTRkT2VyTHU2VnVqa1lFWU5lUGlRQnZ2SzVEdVdieXFRYTVmbEdRQ1VkU1B4dURDd3hjUVA0aklkYTdiVlFWbnAtY1lWOE41NA?oc=5",
+      "title": "Best Buy\u2019s Black Friday Sale Schedule Announced",
+      "snippet": "IGN Pakistan, 2026-10-27T07:00:00+00:00",
+      "publisher": "IGN Pakistan",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMHVxX2hJOXJGbldFSjZhMmtQdmx1empJbEhyRzdjNkwzMUROVVFuQ1pmWFpFUHBXR1hyOU1EV3VoVlNyLVUyWjFOUHdmcnZuT2dfVW9HQzNBYlZUdTJMdHNyX29Bbm15VnJYZXpZaXVJbzRBTUxuZ3AxdlZqOU5xTlR5MTZNcWttSnRocEVWWQ?oc=5",
+      "title": "Best Buy just made it easier to finance that emergency tech purchase in store",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUFBkeTNGb2VJajlzY2EyVzFvY3BqSHlkM3JKUkFkaUlXUkJrcDNOVUFDSnF3XzJJeW4ySlBEUjJQbk56czJWNFV4aHUyMjhvTEt5VERRemh0WUlnMFBqNWlKWUlXb2Rkeld3Nlp4S1QybUVyNnZQZkhwMkt1czlVR19iemc0UHFkOV9FcmZIM2hvZzZLMWFnb0kyU2NiMkpSOTlSQXloMXBlTDY5Si1J?oc=5",
+      "title": "Best Buy Magnolia: Can It Save Hi-Fi Retail?",
+      "snippet": "Future Audiophile Magazine, 2026-10-27T07:00:00+00:00",
+      "publisher": "Future Audiophile Magazine",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.813,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZXBkVXVvZzNTbExVMTFZOHlQVmNOSVJ4VGZVYjJScFlrUlNOWmd5blBxSC1zcjhLaEY4VHRpSXNzcUU3YzRLWmpJU1pSdE13OXVqdjkweTVEdnlxNDdYU2U3anZ4TTJvOTdPQzhVX0pRem5Jcm5YN0pWSGxGSk9IQW9FV0tOLUdjU0ZMTFFwVC1JeXRsV3UxMlIxamY?oc=5",
+      "title": "DBS, OCBC and UOB: Which Singapore Bank Stock Is the Best Buy Now?",
+      "snippet": "The Smart Investor, 2026-10-26T07:00:00+00:00",
+      "publisher": "The Smart Investor",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BBY/history",
+      "title": "BBY daily price history (Yahoo Finance)",
+      "snippet": "close 100.39 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

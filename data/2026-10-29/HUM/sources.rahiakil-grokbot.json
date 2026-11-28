@@ -1,0 +1,97 @@
+{
+  "ticker": "HUM",
+  "date": "2026-10-29",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-29",
+  "news_cutoff": "2026-10-29T20:00:00Z",
+  "generated_at": "2026-11-28T02:22:16Z",
+  "collected_at": "2026-11-28T02:22:16Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Humana\" stock after:2026-10-25 before:2026-10-30",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 2,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVm1UMWIxUlN1VkdjMm1aaUg3TmlUUjhsa2EtSU9kUFhwaHBoZFlZcFhqQUhDVjNRcTNoUFBIczh2WF8yOUtJWFphVkdNd0gwZnFuTkhlblZWajRyc0FNYm1SenNKTXJYNlYzeHlKUlBYQlNQb1MtMm9tSzJzd0RpU2ZuMGM4ZXVxOVhPVnBzUm1iYmVlTW12SmprUzVjRzc4RU10LVc1RUdIY21WdE5tbWVkWjJIU3ht?oc=5",
+      "title": "Louisville-based Humana considering job cuts",
+      "snippet": "WHAS11, 2026-10-27T07:00:00+00:00",
+      "publisher": "WHAS11",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN0hqeWJMVGNOX3dwZzlmWm1ScGsyajV0ZU16dUxjaTFNRm9xYXNNWDAtUjJtdTFNUGdkTXZZY21nclJxektTLXNab1lGeE1VcGZaREM4U3FMTjZwWW0tYnFfQUNEZDhGQ2lLT0xyYjQyT015Uzd1REhmbWpuV1FTVVplWXVTNXNmMUNHbEVVbXdWaWs0NTdZ?oc=5",
+      "title": "Humana's Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONEJWX2NPai16ZXZRekxRRE1zZDd5WTB5eGEwQk1COWJtbEw2RUlVYWNQekxLZEo1QV8wT0xYMmsyRG1FbWpVSThRYnk4Yk9JeHlVWUlwajVvZWtZUlUxemliTVhIZzNQa2JsN1RFT0stS21qaVhGSC1LeXN4dFUwX2FfeDdXdEc4RXFTNlNURkgxUjBlTFRFR3Ftci04SkxtQ25VMlhDb2lkZnNnb2dnRGl2RWtTNW81eW9uTDB2MHI4d9IBxwFBVV95cUxNTzlBUHpJV0l2SDJnaUFmSVplZHJIRnN6NkpGWkJyRmliVTJCelFIQkpiVGtUem9LSFoyeEF5VVNiLWxFUHhUTW1aWGJMUV9PS19haG9IUUNaSGhGNDZNYXM3X2ZyNlB0eDZuSGtFZjRpcnRNbEhDam9mWlNPOXU1UnFQVUIweWRWS1B6NE1BQXhjaDFtb3ZWTXI3RFRaLWRCLS1kQnZyTXJhMHZxaF9lUHBKR0E5dDZhVU1IeGpDNVZzeVhqcHIw?oc=5",
+      "title": "Humana (HUM) Following BlackRock Primary Care Deal Still Looks Undervalued",
+      "snippet": "Simply Wall St, 2026-10-27T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBudllWV0VtUnZIbFprTkxQVnk3RldSRFZiclBGdTFLNkNjd2lyczBUQU02dWV6VWNscVNOQkM0Qk83bTU0cUdIeHlvTnVGdzBZSk9qMFh1VDFkLTNudmppMlR0cmxPREhUeklRRXg0VkU1ODhOX1E?oc=5",
+      "title": "Medicare Advantage plan cuts: Humana and UnitedHealthcare",
+      "snippet": "qz.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "qz.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNckhYM2JnQkpPY1JJNUJuOU10aTNHWmsxeExFa3g5c1JCTkQtLS1fVzNsNW1CNjFseXJ5MmE1ZzdWYU5FemdDTHllbENWLXY2WHh0a1F5YmliTV9yM21oVjNZbnJsQllZYWg3c0VwS3llOENIR1hxek1GSU92amwyaDlMOXNOcHMzLVZvT2VOOWkxajNX?oc=5",
+      "title": "Inside Humana\u2019s Medicare Advantage star ratings resurgence",
+      "snippet": "Modern Healthcare, 2026-10-26T07:00:00+00:00",
+      "publisher": "Modern Healthcare",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUM/history",
+      "title": "HUM daily price history (Yahoo Finance)",
+      "snippet": "close 417.56 on 2026-10-29",
+      "published_date": "2026-10-29",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

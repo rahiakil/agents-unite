@@ -1,0 +1,61 @@
+{
+  "ticker": "TRGP",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Targa Resources\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVjhLd1FUeGpNWV81T1A5VWNLQmtWOFZNRVdiRHR2MlNpaTllUDN1dVY4bld1TzU3bHVSb281QjlKdmp2QTBtT0Npek1tam8yZXFFcTNDSUxFMkIwMm1Ec1NqN1NlU2hHRHVKdU9iYzlZaUtsQUtXNWxQYjRWcC00OExxLWhENk1YZnV0OFh1UmtPTHBxbXRCZ3FheGxwa1FZLWdNVXFBbm9ZV1Ztc29tNFA0THQtcmp1VTVURVZTd2w2QWtr?oc=5",
+      "title": "Targa Resources Q2 Results: Adjusted EBITDA rises 38% YoY to $1.603 billion",
+      "snippet": "scanx.trade, 2026-10-12T07:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSkp2cmFUSXpMQWIyY0dNS3FlNVpHYjhVZ3FVUHNmdF9GNkV3eXZLM0cya05ROGtYMDYwUC1XOFZFbkhldW53RXRsbGxId0hoNmNPcHA4dlB0VGpGdlJ6TGtybkx3ZTVfQzlhUjg4bXVmYXlOQnJMMTFTNFl4Y3pfek9NY1ZJNlJVZXNPU0JqRUkydnRxVlZpUDFRY2N3THRUTXpFaw?oc=5",
+      "title": "Targa Resources Q2 2026 Earnings Call: Complete Transcript",
+      "snippet": "Benzinga, 2026-10-12T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TRGP/history",
+      "title": "TRGP daily price history (Yahoo Finance)",
+      "snippet": "close 293.04 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

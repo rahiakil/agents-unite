@@ -1,0 +1,49 @@
+{
+  "ticker": "BF.B",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown-Forman\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR1FJM19sWU5QdTlOZ2JkX204NHVoRFM3dWpabGFqZGhJaGhfVE1XSGsyQUMyNU9ZWURobjQ1cDJkbldfc3FTYVBWcnc4U1N5b25xSXRqV3R4VEpCejRBcS1JZW43Rnk3aENBeS1BN252dVAwY0lvTzFUVFdaYXhhNnhsVDJGS3Y3T1JvOFVNY1kzSU5hRzVHZGQyUUF4WEEtN1E?oc=5",
+      "title": "Q1 Earnings Highlights: Brown-Forman (NYSE:BF.B) Vs The Rest Of The Beverages, Alcohol, and Tobacco Stocks",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BF-B/history",
+      "title": "BF.B daily price history (Yahoo Finance)",
+      "snippet": "close 27.29 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

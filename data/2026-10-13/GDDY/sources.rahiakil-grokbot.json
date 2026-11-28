@@ -1,0 +1,61 @@
+{
+  "ticker": "GDDY",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GoDaddy\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOdkdXQlhqakxPb3FkdDJTMmJ3d1Q5MDFUblRTRVp6eUNNbm9BdEM2SFJLWXZJOXlSVjRWdFhsMllhMlRsMjJhcG1VTmpwV1JMVHZJNTNYLU5FSkE4V2N0ZXZGUHF1WkRXdUg4Tk9faU5NVzFUdHk0ZzZlTFpyTWxtR2doR1owVEZWRWZGNUJ2M2FfUG91YzI5N3NEekVTSEJEcUNFc3BUa2o0b003TS1TQXdLRF9ZSGFWUlZoZTM2eFNpMWlsZWZVeWtmcTI2RC04Z3JldkVscU9ZSTNkbzhJbG93RkhHcWQxOGQtUkxUaVBJMElzTjZuZ3NiVk9DSkhhTmZKQ0tSMGxZdVNsdEVhblNJbkk3UTgzNFZSYy0tLXJmcU1rX1pFZ3prREF1R3EtR3l2NmhKZGZhQlo3aHFjanRn?oc=5",
+      "title": "Here Are Monday\u2019s Top Wall Street Analyst Research Calls: Adobe, Biogen, First Solar, GoDaddy, Hubspot, Palantir Technologies, Robinhood Markets, Snowflake, TeraWulf, T-Mobile US and More",
+      "snippet": "24/7 Wall St., 2026-10-12T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObU93U1pBeS1JRmw1SllPMFROZGozdDZqaF9mNWdxODlGa1RZWjBveGFHSk1ETEF2REVGQXhUTjNJTDltQjV6dmRhNDZBTTBZTmptT0s2Wi1laWpYSFRRRHdTa05DTWVpZWhvbDVTWXhqODNleTQ4UFdNcXJ4WGxIcGR5N0pvaTJCUUNZdC1DMFo5M2g3UGR2ay1rYXpxYlY3M1M5bjFqS0c3YkFLcDZJMS1FN2o?oc=5",
+      "title": "GoDaddy (NYSE:GDDY): A Quality Stock Built for Patient Compounders",
+      "snippet": "ChartMill, 2026-10-12T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GDDY/history",
+      "title": "GDDY daily price history (Yahoo Finance)",
+      "snippet": "close 103.03 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

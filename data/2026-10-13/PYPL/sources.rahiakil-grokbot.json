@@ -1,0 +1,73 @@
+{
+  "ticker": "PYPL",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PayPal\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 42,
+    "no_date": 0,
+    "after_cutoff": 21,
+    "before_window": 9,
+    "irrelevant_or_spam": 7,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMGFZUDJrd09pdFFXV3k5MmM1MHpZODNfSnk4N1NndzdFenQ1R2hHTDJuR1JEZlJJZnQ4ZF93YzBBZy1oeWlPVDZyU0ZyaEdHeGY1N3FVbDZHNWx4Rk5sWTlzVmNQbFlrYkdKMkdIMFo4YjNaZWY1dlNOblJtQXMtbVBQV3ktRldWTUd0YTAzZjRaZlp5STlXdEFobVZJbVE?oc=5",
+      "title": "PayPal (PYPL): Is Its Low Earnings Multiple a Bargain or a Value Trap?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdDFKY0NHSS1rUk82TEpnTThCNW0xZ3kweFV1eHNqcHRYRC1URUdQOEtpaDMxdTB2VDV3cDhGQWp3NjRmczF3UjBPT2RvOUJjUTAzTFN2ekZGR3BOZlNuOXJlUDdhSDc4S3FDX1d5U0l6VW01MkdhbmdjSUN0NWs1RUJBSUNVWl92WmU1WFppLVZYS3JBbERVbVZR?oc=5",
+      "title": "PayPal Now Pays a Dividend and Buys Back Billions in Stock. Where Will It Be in 5 Years?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUx4M0hjcG4wckUxMUxkOE1zN0lXRTFRaU1sejRsa1E1WmdKeWprdHNmODRrd0ljMzF1NzlieHdNTWh3TnhjNXRMbW15Ujdycldlc1ZWX09IVndoMTkzbUgzSmNQVmVWN3ZRQnZsRWJhbG56d2Zwd2t6RnpUalJubDBKMUc0b3M2MEpaa0w2Xzk1OHM?oc=5",
+      "title": "PayPal Is Yesterday's News. Is This Fintech Stock the Better Buy?",
+      "snippet": "The Motley Fool, 2026-10-10T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PYPL/history",
+      "title": "PYPL daily price history (Yahoo Finance)",
+      "snippet": "close 56.17 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

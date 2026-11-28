@@ -1,0 +1,121 @@
+{
+  "ticker": "UBER",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Uber\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVVCeEx4NHYtdzFKZ1NiM0lEMXFJam9IakNoTWVXVnZ1dzBpdURncTNGTDBkaXpPOVFrMDNxRWxBUnZpM2NoZ3g4THg2YXRscTZFbkQ1SU9YTUo2VjhhZGh0d01SYkpjYkNIc3dHRDJrWFQ0RXQ4S0Nlbl9PZUNSSFpsTEl5dFdoNWlhU3Rn?oc=5",
+      "title": "Uber Stock: $71.51, Up 1.81% Oct 9",
+      "snippet": "JournalArta, 2026-10-12T07:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0VHVwX2hNckpId0QwZEEyUmoxUFNMVk9FNGVEb0FLZmFLdmtoSElLQTJvdjNUTGtwRmtJaVZHTXBJV0gtcC1fZXZyRzFUaEVSYmlQdFp0cktXQVZzY09mdGlxM0xmMEo0N2V0Sw?oc=5",
+      "title": "Uber Stock Rises as Investors Assess Growth and Valuation",
+      "snippet": "SuaraGarut.ID, 2026-10-12T07:00:00+00:00",
+      "publisher": "SuaraGarut.ID",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN3FVWVhoQWJsNXViNHZYTWFJSnJMeUJlM2xXazdROG11X3hRQlB4dmZ2bFNvVmtLTEc2LVFyMk5iSGQ1akVEV2ZUaVZta0xJWkNLWk1uYURsMzlCTWdyVHcxZnJyY2kyNm00OXRkZDdpMnpZSncydVFTaE9HeUtPcGNKWUlvcFVoeDhmTU05ZF8yNkNLNUE?oc=5",
+      "title": "Sur La Table Joins Uber Eats for U.S. Deliveries: Growth Ahead?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVhfQzFKOEhsMHlEMDZ5czNiNnVfLWtGdDFieXExd0doMm9RanRicWxjSUlQVTBOWmlCdnJ5azV1LXhWVUJsQmVfUF9TWlZVOFl0QWZNdzRDVHkydFVUb2UyVTdiVHZIdWNXWGp0UVRONk9CWTh4a3pTeVczMUxlRjladEI1QjVYX2xNRUk2MjNUdHZUZ2dCbmJoWlYzMVk?oc=5",
+      "title": "Uber to remove Share from UberX after GMB members raise concerns",
+      "snippet": "TaxiPoint Taxi News, 2026-10-11T07:00:00+00:00",
+      "publisher": "TaxiPoint Taxi News",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.353,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcTJMb1dKNWc2Ul9iSWhTX044emU4ejhNbzdQM2F0cUZRbzJnb1VoYjVreGEyVTVWbEN5RVVsZVBvZWRucjk0MjlxRXNpMkFDZ2JiMjk1Wm8yM3ZqRUVFU253YVMyVW9oQ3hsczVwdXA4dDZRS1FRaU9iN25ScFpZUzYzRDZGTGczYmNDVWNUNkhMWmhYMkpCUThyZmpkaWl4NXZCYmdMRE1qN2pnbUlYVlhwRDYyYjg?oc=5",
+      "title": "Uber Expects Up to 35% Earnings Growth in Q3. Here\u2019s What Its November 4 Report Needs to Show",
+      "snippet": "TIKR.com, 2026-10-11T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaDZpcDJpSUV4T19sTzBGTnpraWU1d1RNUzdQeXpWd0ZsendqaUlzM0N5Q2dTZHdFOXNaZkpYS202dkF0ZEpSc2FqSHZtZWpqS1dQNlJ4d3d5ZlFVYVBZQXFRNDVzUklycGROOHoyRjhQUUxCNE5Jb3FLZFA3WFR3RnpZTkQ5N0E1bElDWExVN2F1WldVdWU2T0djbHlGWnluMDdGelU1aDBoNTVqWHp5dXB1WmZETFFoWmp2V19wYmRHS2dBa3E1UzdKZ3ZCQnVW0gHWAUFVX3lxTFBJZUk4TmNXVWFmUTJSSXRpVVBfTFNYTzZDM2Y4RXhvUFZOZVd0QVRWOV9LblFMaTZyNkRDZERsOUtmcHdNUW9wU1dKVXFVeEo2dEx0UmVhaUZDV0RsNjdxZ1BDYTVfdEdRS1hPQmdESzZ0YWFha0xmb2x3LXVCa1ZLWVhDTnYtVXgzX0s4NUE5NjJSZzN1b1hkTldSWjMyS2N6eUhHNk85N19CdEJGa2dFYUVxa3Z4MDN2Q3VTSHBQNEVOb0xVSk1mZWNsUlhLeUQ2aFlVNVE?oc=5",
+      "title": "Tesla Robotaxi Plans Put Uber Stock And Mobility Shares In Focus",
+      "snippet": "Simply Wall St, 2026-10-11T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHFhOVU5ZFA0dE1IV3FFOXhhaHRJOVRYeWRORnpqcFc0XzVXZTVrZE5CNlFoR2xxVW1XcWR5dW8wVUUza3lYYS13S0o1emlFTjlQU3BoYm0tX3V2eklrOHRaY3UxZDg3cUxuRURzOEgtb05XSkgzUWRtQkNxMzVZTGlJd3lhYVl4THk4SGxFMkxHRUlTcENlUWhsVldibzcySldqNFlvd25odw?oc=5",
+      "title": "Uber Technologies (UBER): Strong Operational Growth Offset by Soft Guidance",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.808,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UBER/history",
+      "title": "UBER daily price history (Yahoo Finance)",
+      "snippet": "close 71.32 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "CSX",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2ZmM0xEZWwzV2VCZzJJaEFzSERqZlAtR1RRa1NaMHR2c19BeGxFMzhtRjVOWE8tdlExaEdEdVhsVUtzeWZfWmQ1UE43VW93Z3A3OWw2bVpZd0dSV08xMmpLdTJJRmFpUnhxTmZiUDR5cWxpT0VtWFdTaVE5Qk5jcEZhTGk4MEJkdklDQnZaQUk5b2ZhNmhzelBVOE51bklUMG85TC1R?oc=5",
+      "title": "Rail News - CSX COO Cory retires from company. For Railroad Career Professionals",
+      "snippet": "Progressive Railroading, 2026-10-12T07:00:00+00:00",
+      "publisher": "Progressive Railroading",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeG5lZFpQMlVMUElZSzVZT3djLWtPXzZVSUFjY0N5b25XRXllTVlfNm9iR1JHMDM0dHdkN3NkMkttVTI2V2hwX3hpSFNDbkd4SWZib0lQR0FzU0FqY21wT3pXV25uMHpycGtQS0lPc3JwU3RSemNxMFN0cUpqbWVxT0M4UnF5Rk12ODdPS19HX0F5TXU4dVNkeDhnNTg5OFI5YjlkQmh3RkZ6V1N4dUdfSg?oc=5",
+      "title": "Leadership shift at CSX: Top operations executive retires after drive for record productivity",
+      "snippet": "The Business Journals, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Business Journals",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTVEzcnpTSkFRcjVZQVVUNmc1bXZRWkQtMWhSNzY5c1VPYTJfbUs5TWJReGVNa0VHMXpUWV83X281Q2ZZaFBBZDcwa0NYOE03VUtZeXV2U3UxZzdDQlh2SnRUY0w1UXN1Qk13SV9QcnExTGJqa1lGMXNKNUx3aS03anF0Rm1wOTh3bHdodEFCWTJocnk2Y3RlNFdHN1JRZUFMSDgyVUdTa0I?oc=5",
+      "title": "CSX Announces Retirement of Chief Operating Officer Mike Cory",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000034/csx-20261012.htm",
+      "title": "SEC 8-K filed 2026-10-13",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 47.76 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

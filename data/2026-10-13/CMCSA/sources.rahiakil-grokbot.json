@@ -1,0 +1,109 @@
+{
+  "ticker": "CMCSA",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comcast\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 13,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNanVBak96aXZpWF9oYTJrMEMwX19yVWJ6T2tla0VXNy0xQnNuSWtPSUZjcUpPaE9Yc1R3QU54VWM2dlN2V2JrNzZCTXBoN21zQl9NMlJqeEVNcTlaUzJ3X1BqMHBLTF9yVnYzR1FDTThWems0dTU0ajlweDNyZXhHaUFKaGRVWmlVV3hZdURxNlROa2dkZUtMYlBtdVQzY1lXazBYSDNCTFVncHItTWEwR3ZDSVdZV2NaWTVqSXgzZGdaajR0?oc=5",
+      "title": "Why Did TMUS, CMCSA, JOBY Stocks Slump To 52-Week Lows Last Week?",
+      "snippet": "Stocktwits, 2026-10-12T07:00:00+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbkZnVHhRZGg1Z05RLVVRMkR0b3ZjendyT1c0dnJvZElwQUx0d0R2dXZUNjJ0N0I4SExoOGZJQzBqbENnUFJRWnRaWEZlem1QYy1RUWktOEc1eXYyMm9wTXl2M18xUEtIZ2ZCc0pvTmdBanlQcGlfUXdfMm5WZVE4ZlJSTWptUDhMUEt3U05oNU5nVWtPZndpdUFaNTBBOFNOYXdteHFOZ29kMlhySHVRY21rcEpwbWhTcktjQlRvdThPNTljeExpRXA4MTJ1RDJSRlUyMVhhVmo1TkNnaTRlWlpfak9Uc1BfNUJUU2ZFbW4?oc=5",
+      "title": "Spectrum Business and Comcast Business Both Show Stronger AI and Wireless Growth Potential, Says Industry Analyst",
+      "snippet": "EIN Presswire, 2026-10-12T07:00:00+00:00",
+      "publisher": "EIN Presswire",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbTMxRktmLTZYZk04eDh3dkpmQ05zeS01UVF1akw5M1o1N21USWJCSnVacldKRlA1NDhEbjRpU0JKclhBX05kYmRHVDhmZXdZR2FKTlpOYzRhSWJna1o3d1IxX3ZNcDRoYUp5QXBSYU5PSzJXaVVUa1ZsSlU2cmtYNzdvdThrWV9Rc2dkeGR5UDk2cEhVeXNzdg?oc=5",
+      "title": "Hockey Controversy Continues as Comcast Stock (NASDAQ:CMCSA) Slips",
+      "snippet": "TipRanks, 2026-10-12T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYkpuenRkTXJYTUpEQzExcDZXZFYtcG1yVF95cDlWOUdjaGNmWl83MmNFNGUyU3hSa1R4XzktQi1NeWZYNTcyMGpBZ2RaandLOTd4VnA2VDV1czJ1Y2tnc3VSOURzamtvZHVmVHF2c0RnNGY1ajFIMTNfYTh2dzdTTmJWSFpPVVpoMzFVOFQ1WU13ZTY0bEhMWVpyZ2J4Z3VSdWdKVlc5TmpodzBUTXJhNHJMVWE3XzJfTDBVcHJoUFBOUDlveEltU0NGNA?oc=5",
+      "title": "Comcast stock: Peacock posts second profitable quarter at $261 million",
+      "snippet": "ad-hoc-news.de, 2026-10-11T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa1NLdWRQQ2ttcUczYklRay1uUzNCbmJNZXA0cVZOekJTVXBJRm9jcHVQY2hoTUtleldycGtWX0J0bkwwWk9KZnZmR3BPRV85UzZVc0IyN3BBY0pfZVBtOFhXUEJjRUpfRF9ISWJueHo1Um9iMFJ4Qkh4VF9fX0wzekYwRUxVM1ZyN1JlNVU3NXdHY0wtbUQ1dW81U3VTanRVMFBFTW0yWW11Rlk3dDRBMUhmZlFsWXhmV3fSAb8BQVVfeXFMUEtMaVB6NDNtV0FBblQwTkcxTktsSnZ5UjBaN3ptcTVnUnQ2Sjd4MkF1YlY4el9WS1UxcHEweWJSV19zTDlYblVNTjl2MzVTOFRzMGYwWDRsUGg5U1U2Y2ZDMlI2TDBicjVKT2pwdVpvZ2poWmtQNXotd0FwWkZZcHhxaUxiN0stR1FUMnF1b1loYlJ0Y241WVJfSEZZV1VESFdlOVB0UlRSbmdSSXZhNzVGWWJLaGFNYkxRM0hPeTg?oc=5",
+      "title": "Comcast has pumped more than \u00a3250m into its new Universal theme park in Bedford",
+      "snippet": "This is Money, 2026-10-11T07:00:00+00:00",
+      "publisher": "This is Money",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcS1JWkk4LWxhZDZ4LTFJTkpNY244eGdvVGdjR2RCQm1taDJUSnc3NFhuNzFLSTRXM1dzMWdxMTgtYkh2QWZua1ZyYjlPVlNCNG9HUHZ0clNlekZKTUtpczkxSldla2s3ekdQREt4OHdIa185S2N1ZEJNeXBwSWRnX214R2dkbEZaZl9DTFhQLWZ2QXM?oc=5",
+      "title": "Fastly (FSLY) Is Up 13.5% After Comcast Taps Its Edge Platform for Peacock Streaming Partnership - Has The Bull Case Changed?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMCSA/history",
+      "title": "CMCSA daily price history (Yahoo Finance)",
+      "snippet": "close 20.88 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

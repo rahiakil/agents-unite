@@ -1,0 +1,61 @@
+{
+  "ticker": "RMD",
+  "date": "2026-10-13",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-13",
+  "news_cutoff": "2026-10-13T20:00:00Z",
+  "generated_at": "2026-11-28T09:40:12Z",
+  "collected_at": "2026-11-28T09:40:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ResMed\" stock after:2026-10-09 before:2026-10-14",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTFFvOWRUQTJBRlFpd2stbUtxZFMxYkxyLUdPay04elppUFhiOUFEd0ZaMFVDWlpJVGRsVmp3RkVnMzQzdUNMN01WbmVVMzAwRGd5LTM4WE93VHU2NGk4bS1nZ0FhTGJWbEJNMjVSNk5SZm5DTDdZdkoxZ3VYR2JkZXJ3?oc=5",
+      "title": "Buy, hold, sell: Resmed, Megaport, ANZ shares",
+      "snippet": "The Motley Fool Australia, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Motley Fool Australia",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMExGdDNsTDRXanRxa0pTdVNBdWFDTUU2MEFLNVBsZ1B5UWp4ZU1FTmtPaUZFYkpCMlhrNEtzSUdrT19YcEdDZVNjV196d2NtTzhQS09yYkpsQXZqV1ItNjQ5TDQtQ3EzdVRqYlcxSzZEVnl4a1RRT1pUTXRHSXhLWXZrRWtlb0lmb1RzSjF6anlFYlQtWmwxTEg0NElDYnVnYmYyS1MwS05LWXRPWW14Vmwxc0NkQ03SAbwBQVVfeXFMUHRPLTk1bHhqOHBidkE5NXlsb0dKN2dUVzR5RUtPMjdQTW50T1A5RVJtWGRWbnpHZUFTeWlLc0tKaFhzOGF5N2kweFYyR0l3TnBzcVNwQXpGWTlNQVlkNmJieVd2UTR5clpxb1FfMGppTHJYaHFLa01yaHBkLUZrVkpKbnRFOWxBUkxHRlhYUy1VeVlaOG5mTlE0Y0JyV2NQUU9ldEFPX0x3c2pBbHI4RTYybWI2TTE4X3hCT2Y?oc=5",
+      "title": "Is ResMed (RMD) Worth More Than Its Cash Flow Suggests?",
+      "snippet": "Simply Wall St, 2026-10-10T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RMD/history",
+      "title": "RMD daily price history (Yahoo Finance)",
+      "snippet": "close 235.04 on 2026-10-13",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

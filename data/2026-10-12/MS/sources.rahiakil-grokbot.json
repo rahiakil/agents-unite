@@ -1,0 +1,133 @@
+{
+  "ticker": "MS",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Morgan Stanley\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNjlTamhjS29lWUhvMjFLNEFKdUJzR3J5aHo0RUsxVWhBbHU1NEF5V1dqZ3RrTk4wNDlDQ25oNDJmS2xKa29RRlZQOFIxYTNFLW5pbkdTS1d6ZzdLeldaSk1jUkp1MGtJaDZpd1ozWVFBVjNtYjl2aWZOenBXWmhtMFJYXzJGX0QybEVRcGF3bTNUNXc2SWc?oc=5",
+      "title": "Why Morgan Stanley (MS) Is Back In The Spotlight",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGFDb3B2a1h0aTNvVG1rWVp1eWMwcm5fYXZDU3FrOXIxTlZsajRGYXJleDFhX2QtWW1ad0REanlSS0FRcnZaZU02YUIwWGtEeVh1RmhHaFhTQjBMbGpieVpmWkF6TW52QmhjeFlFelF6NFVNS1pYdFUtandPTXJKTHRMTjN5SzBfUjBDbWd1UFZ5T1FDZTVGR0dxWU9sczJXdzlZYi1n?oc=5",
+      "title": "Morgan Stanley\u2019s Capital Markets And Digital Push Might Change The Case For Investing In MS",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVEhQaGpkbGFTQzdlSG5aVE9IQ1NmWHctY2RTdWtUS3Y5SU4tLVJrZmdNOEtJQXJ5dTNMUFRrMzZXeXA1Q2pFdGx1blE4em0tMWRVUTdqVS16QXphWUtsQkhRN1poTGJBbG9SYllvSHZqaWpQcHU3V1VxUHZDZTBQSVRLR0NWelBvSzdhUE42OFVkNUlhTDM1TTh6SWNzaV9zMnRJei1n?oc=5",
+      "title": "What Analyst Projections for Key Metrics Reveal About Morgan Stanley (MS) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb09pSURoaE5hNjB5YnljelVQOFF5azJKYWJlSTRFanQzdklWUkdoU1FlbkZlM3Y2UURkSXFCSVRxZlZLWERfUFY5TmplbTN5NnFldGt4SkVKbEtPSEpRbGVicWUxNTVqZkIwQlVialVwNUZWeEh6anc3Ul8wWmNMYnlUNzBaQWgxb0hCaHVaN0lkZFlYSjlnQVhZTW00Ti1jS1dEOV9RMVJ2NU04Wmc?oc=5",
+      "title": "This exchange stock is a buy on renewed options deal, Morgan Stanley says",
+      "snippet": "CNBC, 2026-10-09T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFBLbjhvRTBQZk5OdzNUMTRFdUFFaTdIS1prM0NCSjZEUl9GVWUxdlNMYUlLdVZkSlJPLUYtY3JvTFBFajFObnlCRjVtakcxMkRZVVJqRmsyQ2d1RGlZV08tclg4MU9nOTFTY3AtU0RmUktNaGVRNUY0bmY3SXQyQW45V3Y4czN2Z1FVbnowb3doNmVlRWhLallB?oc=5",
+      "title": "Morgan Stanley Stock Ahead of Q3 Earnings: Buy, Hold or Sell?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcWVKSDJHa3lkbG93ZVk3ZkRZNExkb1RQSEt1V0NmU0wzWHdjc1NEbFl6c2Q1dm1sWVlpUzFDS1F0alJwVU5RQ3kyUUFvTHNZbGRIUFo5YjJ1Zm9DUkRVSkljVDVZd0xnckZHZkpjZDZINnI1d2dvSGRpc0Q3Z3BINy1OUFJya1RzTlhibHRFeGR5eEFGcE1uWA?oc=5",
+      "title": "Morgan Stanley (MS) Laps the Stock Market: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcWNhMUc1NDV4eUl3M2FYc1doZ25NMVVORGZKLWM1VWhSTVJETnJsQm51Y0N4ZTRwZDlOLUplbHRKNXAtZERfd0prRmhDTXVEdFBzaVh3bjA3dXBBQnM3enRqZFdUSk8yb1hvZUxnTFZEdllUYmRNTkZLSUVqaE9mSF96MjFZc3NmMVMxNkhNNDZaUzZmOS1NR1lJZnR6QXkyZHNkS0xPeGRJVVBieG54cmp3VHM2SkEtQWtTV2NPbHZMNVQyNHpwZEJtSE4zamxSUF8wUTZMcXdrYUZndWhzQjFHdUNvbTJGandxcmxkQUNObU9oMXRRSU0yMA?oc=5",
+      "title": "MARA RIOT, GLXY Price Targets Cut At Morgan Stanley On AI Credit Concerns: Analyst Still Sees Over 100% Upside",
+      "snippet": "TradingView, 2026-10-09T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.325,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNckxPYTJSOGhuVXg2cks3QUVoSGJwNmItbUZYREIzR0VfTFVwbUpWTUloMjE2NFF1dmxfdkFBbU16TkpFOEZNcjJ0Z3FYbm1LN08xMGptd1lrRW5USExySmRJdGpYQ3M0NDB5bW5zaF8zejBjZVJmZ2tIZnVWVjFsekN2dkJ3cnRacmwyZ2JuTWd4eS1pWWtxMWt3?oc=5",
+      "title": "COIN, HOOD Stocks Get Price Target Hikes, While Morgan Stanley Cuts Gemini To \u2018Underweight\u2019",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MS/history",
+      "title": "MS daily price history (Yahoo Finance)",
+      "snippet": "close 190.02 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

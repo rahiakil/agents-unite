@@ -1,0 +1,73 @@
+{
+  "ticker": "SO",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southern Company\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQZ1h2OV80eWpIa0tEMnVsRmNwWUxOSWFoSXA2NXFJRVQzVnZOTzNiM2RGTWU0dkhpN29aNUR3RUlTblliSkRCeUVKVV9LLWw1YjZUM0pLTTlpXzNFTUF1VGQwOWxrbVJmN2YxRTlDYnhSSWV4V3BmeTRmRGEzYy1la3BjTmg3YmxjSENpX0FvWTAwOTd6N2diTEY5TFZ2M3UwUVl4RWYyQm8tblF2ZnBIX0hBRUtHdkJSaEg5NmlQRjFrdjlmeEphTWVocjQyRVNSVEUzSl92M19rMG44akpUNXpaZTRBVmtNa2Q0TW1wbVU1ajdBWF9sRzd1eEt5elQ2alpGV1dDSWhVWVJCVFB6NGdSLS1KcW5vRHh4QUV5bWt6QzRXdFlOVDVScTIyN2N2VmEzd1BOczI?oc=5",
+      "title": "Southern Company's Experienced Storm Response Teams, Advanced Storm Intelligence Technologies Drive Power Restoration Following Hurricane Isaias",
+      "snippet": "TradingView, 2026-10-10T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPME9NRlpJd2NaMG9kZGRQLXBvRDR1MnUxZW1pclE2azJtZGpvdHJqT1d0R0tLSkgtNDhLLVFLeGVaUXk0dXdnUGp2NW9WMThsQ2c0bmx1UktQLWlLejU5ZFlxMmFqcmI1UW02RjdhVV9RSTB2Z3BtU2Jnb0lSWWJ3QnZPVQ?oc=5",
+      "title": "Data breach exposes info of 400,000 Southern Co...",
+      "snippet": "Pluang, 2026-10-10T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSW9OcnBvbmUxUkYwMkNOaUZFQk1oZUxVanVFZ0xwM1BSTV80Q25XVGlqazZGSWNtX1BfRGEtUi1XbDZSRV9FcXR4WUVET01CUmZfX3l1SWRHZDY4ZUdka0djSnBxdWFOWkVsbTBPa19xbHktQzFLVVoyejFjLVFNT212R041QW5YaHRDcm1BNkZfNDU5dDdWWTJTYlJsd0VPSHN4bXdHUG1QblZ6UHZ4LWpYNjc4aFdkeUlmbFlyQQ?oc=5",
+      "title": "Southern Company vs. NextEra Energy: One Stock Pulls Far Ahead on Sustainability",
+      "snippet": "24/7 Wall St., 2026-10-09T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SO/history",
+      "title": "SO daily price history (Yahoo Finance)",
+      "snippet": "close 87.04 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

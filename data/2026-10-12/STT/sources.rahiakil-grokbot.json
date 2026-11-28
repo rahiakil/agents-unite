@@ -1,0 +1,109 @@
+{
+  "ticker": "STT",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObTA1TVI3Q2FhLTZTUmlHX29fRVNXUTB2WGRwX24tN2pnZlpBRVJvLTE5Q2JCOG05Uzd6eDFKOEl3UzlOZ0FraUc2djU3eEFrWUM4SHVnMktDY0UxNnFCU0h6LUs2U3hkVER6RlpKdFp3U0JvVXNDNUlscDNfcXJDeXc3eHB5RnNrVEF2WVQ4OGNLRkw3cUNRdmlpQjhwc1dHWGZVSVdvaEVSVmJLSHdvWGFzekctaUVVNkl2WFNOa0djZlJsLXdEVU5raHJDRGNuTXAxSXk0cnBwd9IB3wFBVV95cUxNaVlLdzlwcU9vZS1tYy1rSEE4NlhMRm5sOUtPeXFSVDZRNzhxLW4xdUNCSnVMX1E3aFlfcHYzZGxYZE1kWm5DQVNfUWZCMlJ4R1Z0WEJPSFcxdm5ERjNrMFdkZXBXT20zZ0RBWS1XdjhQUEdQNWNOblFMMldNQmpCcTYtbXR4NlVfTFRTMzcxUVBWSzFIaC1TekROUnlwb2g2UEhCcmhib0JlenZHNlBpSG9TWXhTUHVrVGpicG9VelZjei1QVlBlRUYzUC1DLW51S2VIYmVwQUxoeU5DSVkw?oc=5",
+      "title": "Why Is State Street (STT) Gaining A Long Runway From 70 Million New Accounts?",
+      "snippet": "Simply Wall St, 2026-10-11T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbDFoR3BvbzhsQTFxdlNNU1pFcWFzYjIxd0xzcjJBenNNMVR2WjVsLWsta3dJSVpWOVV1UEE5VkdQRWpaYXlTSlFpRUthVGpsaTdXWE5OLVlaSUFQOWxRSWdnbHpRaDJqczdzeXBEbW5OODd4MWZCWHpyUjktS3l0ZVVTNFh4VzNsS2JHaHhLcDdhUENjVEE?oc=5",
+      "title": "State Street (STT) Stock May Trade Near Fair Value On Trump Accounts News",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdGY5VEI0QWZiU1dmZkthdnV3TnVGamlQU1lsVnVZVS13S1RQck9WbGlqRldDellzb25kbGIteHIxMmQtZ215NmZXTkpXV2dXSnl5clJ6a0FrVjVva3Z0NHZmZFkxMldNSFZoaXg3WkVyTFZWUjJQOEVVZkIzMnAxM3RvYl9Ma1p2Sl9ZVzNnSzZXLXFnUTRCTTZHV2V4YWliaU9qa3pn?oc=5",
+      "title": "State Street Shines On As A Bet On Quality Among Global Banks",
+      "snippet": "Seeking Alpha, 2026-10-09T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMS1EZW5abjRHVmhaTk5jZUUxdV8yTXJtNWlKTnZrX3MyNXQwV0xJQXo1QjVXX2RBTmhJbDY3dzNEVUhzXzdRUkQ5RUhPWnFZeEQxbl9BTlNFdVp6RGY1TkNvUXJPOHVSaHVBOGk3Mnd5SzJUTnA2Z2g2aTVzX1E3OEh3SXhoazY4T3RKRlB5aWFvRTFfcnNtNU5rQXZ6YUU?oc=5",
+      "title": "State Street (STT) Is The Default Provider For Nearly 70 Million Trump Accounts",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOemxST3B3RWRQMXdKbzRzQTdmV1V2WFZLQ1U4ampUYU1QVkNwWHFjSDk3UjVaZE9kTzJnc2ZFbFRXSnNyWGRYdE1ydmhpWUJyanF1QndLRUF4VGM2YUhCSTgtLVhGVm54QzdUOTBBOFBZdTFXRmhtOUliZDdjRE1yczkwQjdsajV2NzRLdnVLVVRESjhJR3dhLQ?oc=5",
+      "title": "State Street (STT) Gains A Trump Account Tailwind, Is It Still 12% Below Fair Value?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcm1xbWxRVDlxZ0NRWXo1dkhpenhCRE1oRGRkT1l0VXMtdktndVFPX2xIOExvZFFNY05OaTN4MGJRUUVscHRqaHlGUzF2UEVxUEdfQWswemdZaGhJWFMwNktvWnZ0N05Hdy1XeDFxRl8xUHBTaGdIOTBkMk9KZURqVWZPbFlzQjFNekVESFNPT0VUZWdw?oc=5",
+      "title": "Ahead of State Street (STT) Q3 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 174.93 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

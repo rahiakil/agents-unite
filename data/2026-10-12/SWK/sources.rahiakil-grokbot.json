@@ -1,0 +1,61 @@
+{
+  "ticker": "SWK",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Stanley Black & Decker\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYlh4LVQwcjZuUllrZ0dqNDdwWURrYjZHdUF6ZDVucmVMX1VYVnBXTzJkX3dRdDlETThiaE9ZdEdpM2stT3h0eFVSVXRoSkpoTURPbzQteHhDYlhhUVpscTdldU1PQXNpZjdkc2Z6b0c3SnJaMmlkdXJKeEVacG93bVFiWXE5TUtTazBQaUFEd1hoTWs?oc=5",
+      "title": "SWK vs. LECO: Which Stock Is the Better Value Option?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYkJGeW1GYlJHaEtacENoZGNQRHpqMk1iRnlSemI2OWI5amFkdlBVWUFDV29aZFdseS1Ec1JxNFJZeVl5LWkzbjZIcE16bEZLdXJCOHoyZjdVMWdBV0xINFZyay1lTDdNUUk1TEFhLXpYZnFJazFGTUVmaDI1V1lKU1U5ZDkxSlZEcjh1d2hKNVVVbUI3eUhBQUNOWQ?oc=5",
+      "title": "Is Stanley Black & Decker (SWK) Stock Undervalued Right Now?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SWK/history",
+      "title": "SWK daily price history (Yahoo Finance)",
+      "snippet": "close 88.65 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

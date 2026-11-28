@@ -1,0 +1,109 @@
+{
+  "ticker": "PCG",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PG&E\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb0tTSVVmZnhRREFOcGpkRVE2ZjhzTWNZNjdmaUJETFQzcGhPTTNORFBnZGJjVm8wOTg2XzF6V1AwVm1nVzhRTGlwY0RRemdwT2dxbkJuY0JZYTk5ZjRMQk9BRVI1VGcweV9saXZ5MVUzSE1EZ3c2djk3YjZvRUlsdlBSclpqdVk?oc=5",
+      "title": "PG&E CEO to California Politicians: Stop Stepping on Our Stock Price",
+      "snippet": "Barron's, 2026-10-10T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZzRzdTJrenp0Z09Qb3MtTzJqTHNONWpxMFRTdUt0WTYtRlVUbDk4N0xwNnhBU1dSRERLdDliQU9FSC15S0g2UEc2ZkxxeEhjbzI0N1F4RDNIRTRDOVdRZmYzNllkTi1EdjZsR3dNR3ZJUzJObmphdk85VmM1dE1GSVJDczhVRE5yXzlXb21n?oc=5",
+      "title": "PG&E (PCG) Stock Looks Pricey Based On Its Dividend Outlook",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFZrdEN2aFAyeW8zZElHdHYwT2haSDV6T3hxdmR1cmVXVmhIaEtvdXE4R0xybHl6X29YMUJzbVRFSFIwSFhGMUdoNnVid2pRbERFQjdIREZXeDhPRHB4d213OTBBUWxrZ0V4VTN5cTNyZnh0SmFKT3ZhYjNIcEVzaTBWMzN1TVhuN2w2cXYyVGJ0TGs?oc=5",
+      "title": "Is PG&E (PCG) Cheap Following Its Valuation Split?",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb2FEM2g0WEc1V1BjWGlSSmdFOXpKVjVlOS1TcDZ6NlZfRUw0YUJuSi1GeGc2SFktWXRpTThEc21FUFgyVEVXVXRQcGRmRTJiYTVoeHBEQ3NleFFRQ0FVcVhJUndxT0liLWR5NFJYZTd2ajhwM3QyOEZMLUl3bUUyOFJ1Y0QzbFRKRFJMVQ?oc=5",
+      "title": "What Changed In PG&E's Story?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOG9pTjl4N1NrTVlGNUZmYTVsVG00Qml4cWNNNERidi1ESGdiN3RaTGcxMGRMcEVCMGphM2tMMmdlemxBYXczWHV6Zk9UbTFaRXZwR1N6UmROcUJrcHJUaWRna3hzTmRRWlhXelhQQy1vT2ctTWJMSy1KQVJGa3BTSGVnNExBOG54aXpFY0UtX2hyYUhxdDZtbzRjb194Sl9qeUpCMDFGUUplVmRLeTk1bHUxVWR6UHlKSWhtOWVUQmlFRkRkOHZXdm0xdXg2UEY0c1F2bHRRV1JfX0ZUTjZtd3NwRjc?oc=5",
+      "title": "Stock Market Today, Oct. 9: PG&E Gains on Earnings Call Anticipation Before October 22 Update",
+      "snippet": "The Motley Fool, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMmxOZjdsUkl1TVJNbUJHWXJ5RFRGc2pYdTY1NjVXb0JVUEhDNTNCN0xjVl9FSWRLWUpFaGg2V05mM0ZqWWV3Z3NveTZ6WGtTMHQ1VXZyaDZfMWFqOVVfTFBZazl0ZjdHdkhCSGMyeFFWRGhUZGF2SVJWUW96eFZhZ0p5cWZXWGFwcjlGN2NwT05zQ1NYblVpU0UzSDZoMnFvd2dlWXgzVmh6TG04bzdIUVBzZDRlWVRDT0VvRXdB?oc=5",
+      "title": "PG&E Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-09T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCG/history",
+      "title": "PCG daily price history (Yahoo Finance)",
+      "snippet": "close 13.16 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

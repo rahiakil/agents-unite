@@ -1,0 +1,49 @@
+{
+  "ticker": "ADM",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Archer Daniels Midland\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUpyLWNzeXNEYVVLdTdmY05MbmZSLVhRRmxRYjVaRUhTOVVEYUQ0ajk5Vi1lYWVkeXdwcWNWTU0tcFpGQmwzNGhiSUU0b29QZ2lqSU55UGxjMXlZMlZZZnR1WGZIblNMVWYxTVVucjlWc3lISEpEQWYwRnlKX0tsX0t1N2JfRkpwLWNqSXEzWlFqd3FNSkR0OGZhU1JrZGQzejhaaV9lY2VvVFdLTU01bG4ydlhTYWpkdlBpXy1VTG9NdEk?oc=5",
+      "title": "Consumer Staples Earnings Momentum Boosts Archer-Daniels-Midland Co (ADM) Ahead of Q3 2026",
+      "snippet": "GuruFocus, 2026-10-09T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADM/history",
+      "title": "ADM daily price history (Yahoo Finance)",
+      "snippet": "close 80.42 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

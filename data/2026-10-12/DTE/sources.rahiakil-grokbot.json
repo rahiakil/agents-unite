@@ -1,0 +1,49 @@
+{
+  "ticker": "DTE",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DTE Energy\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5icUV2czVBTW1CQ1I0b2xlX0Z4WUF4OGhrX0xYMFo0OHVQd0g3cHpHV3d5S0E1N2xKT3I1NC1kMVhxbmdwbS0tWVQzOWpTb0NhTng3ckFCWGZ6Wms4UXFaeGI1RmJKdWRieVpXaHlzM1BQZ1ZBd1gxS2FR?oc=5",
+      "title": "Michigan environmental news: DTE plans 2 gigawatts in data center deals by year\u2019s end",
+      "snippet": "Planet Detroit, 2026-10-09T07:00:00+00:00",
+      "publisher": "Planet Detroit",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DTE/history",
+      "title": "DTE daily price history (Yahoo Finance)",
+      "snippet": "close 128.05 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

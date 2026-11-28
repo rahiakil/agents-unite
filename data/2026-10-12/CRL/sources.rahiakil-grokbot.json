@@ -1,0 +1,49 @@
+{
+  "ticker": "CRL",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charles River Laboratories\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUhPZnEyTGVDckZkV200RWFSdmUyT1Y3ZlJEdDZhaWN1TERKRFBIRHVSdzdSdjBfNWdwdlNmdm9KRkZMRVdESjUzM1FvQUFhdzhzWkFnSHdMSlVqczNUXzZRM2VWTjVmZm9wWWtYT2RTbG95RWdHNGZCX3JBTEFWNVp0QmFDTEpOaFRZazNkOVVCTjJTRWNxYzVPS3Y0ak9Mbk51d253UFlaMWp3M1pyRjk1bXpXOHIxR2ZBQWFNc1ZpdURndWNZT29RNjU?oc=5",
+      "title": "Charles River Laboratories Schedules Third-Quarter 2026 Earnings Release and Conference Call",
+      "snippet": "BioSpace, 2026-10-09T07:00:00+00:00",
+      "publisher": "BioSpace",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRL/history",
+      "title": "CRL daily price history (Yahoo Finance)",
+      "snippet": "close 301.86 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

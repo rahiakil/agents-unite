@@ -1,0 +1,61 @@
+{
+  "ticker": "CB",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chubb\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWXgyS1Z3TXVGVDhhZnhzSXdIY2JXanI2NXVDSl9XWWJSLVlQaW1YVnZwNTd2c29DNm1fNFg1TWp3Slk0X2hHcWxnbFczRExfTWNZaUhHdjktdXB0OC00ZmdkdnB3ZVhaVTBmUW1iS294RVpRWmZyZFVZXy0xTk9yV0hscXY1NlJsNzdRU0U3WUZ2V19n?oc=5",
+      "title": "Chubb (CB) vs. Travelers (TRV): Which P&C Insurance Giant Is the Better Buy?",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQ3QwX0JNMUNBN0ozbXZpamdBMnB5bUd4dVc0c0NpSmZBX1Fva2I3RUVqTEJaTzZ2VjVGQk1DUk9YTFFOTDNCdmJKU2lYQ1BvbGROX1VWVjlpUU5sZTZHd2xWMi1aZ0lSYUQxS2Z2a093dVpOMkR3cTdJRHdQUjhTVVM2LXdTNHVGeG5xRlBaS3ZoZkk2VEg2V3JVRWI4ZkZWS1A5dE9TSzdNaU1kNHQyaldVdzJBYXJOWVUzTUNkSlVYaWlxUUNWaUFRRjdjYVEyejMyeXQ2bDdUTi03SkJwelo3UURXYm5aQTBJQQ?oc=5",
+      "title": "Analysts Offer Insights on Financial Companies: Chubb (CB) and Progressive (PGR)",
+      "snippet": "The Globe and Mail, 2026-10-10T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CB/history",
+      "title": "CB daily price history (Yahoo Finance)",
+      "snippet": "close 345.06 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

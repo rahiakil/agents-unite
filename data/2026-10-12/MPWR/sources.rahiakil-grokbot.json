@@ -1,0 +1,61 @@
+{
+  "ticker": "MPWR",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Monolithic Power Systems\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQk1mYW9EbWxhdG5fSFVkNkVsazR6dlpFQjJwclFuWDZLM2Y4OVdnXzlxaEh2eERxbUExQ0tUTVVfSkprS1JNMGp2akVDUkZMS1d1QVU0bW5mbDAzUnB3bjU4TFJaUDBNbS01d0M0XzNtaGN4WVRjTl91SkNmQ3JIMkNjT1JqcmRDMExaaTJGbjlRcFFlTGFUX3YtZzlqd0k2d2c?oc=5",
+      "title": "Monolithic Power Systems (MPWR) Could Be 25% Undervalued As Record Revenue Fuels Debate",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaU8zV0I4MlQtVEttR3dWMjVqTVBXRUNjb3YtbkN2UENTVm04VDg0Mm9ud3dLRnVzbmh5YWdTRkJqUlUzLUswczdGSFVlMUdQQzRhWEw2cTh6Q1c0R2ZQVjZEOVZYYl9HOVdfS1U3cVlrWW5pS1AtS1VFWnN3S1pUOTRhYjJXNmYxSDFBWVA4N0VwUGdfME5NcV84TDdHUmtmMk1DVEJR?oc=5",
+      "title": "Record Revenue Boosts Monolithic Power Systems",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MPWR/history",
+      "title": "MPWR daily price history (Yahoo Finance)",
+      "snippet": "close 1319.23 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

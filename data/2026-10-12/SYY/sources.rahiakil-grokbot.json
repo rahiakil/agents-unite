@@ -1,0 +1,61 @@
+{
+  "ticker": "SYY",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZTBzbF9XSllwLS1JSmNzVGRlMmppZTVtemxwQUtMRUFJLWlMRWVSdjNWMWdCYkM0NmdYLVlnVzhXMlVDbndXN0tiam5mcVF6dlNIdVZOcnQwMWhWUUhPdmhYYXVhanBESlFYY2dydnIxQVVrcWZZY2YwcTZZQnFtbHNDcy04alRBZTllOERYVnBHYzRDZE9uOEJR?oc=5",
+      "title": "Why Income Investors May Want to Take a Closer Look at Sysco Stock",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbmI4TnVrd1JudWtRSnY1eC1xcmY0cEpKazFYM0ZmaUxzU0M0cnhKS3ktSVF6aS1tUmJ1ZXJyU2JMcU01cmdsWmVIcFpPUWtESXoyRHFTNWZ0WFNDcDlRS2VMbzBVRDFGS2Y4YjlzdDNlX3dSc1lFV25ja3hwZGpuODVHWVFGZWxVNS1pbGVaOVB1OVZnVWEtbFN0MFI4QQ?oc=5",
+      "title": "Sysco Urges Teamsters Locals 630 and 848 to End Strike as Parties Agree Economic Terms",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 78.7 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

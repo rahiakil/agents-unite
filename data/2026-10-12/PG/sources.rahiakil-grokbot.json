@@ -1,0 +1,97 @@
+{
+  "ticker": "PG",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Procter\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdlo4YVJZU3R2V1Bzdk1zY1pvc2F0U1EyUnYwSjlWdjUybGVsZ1hLNkM5SVdvdm5NQVAwckN4clo3Z3JaR3pnUEttQ2owRDBjOWl1UW81M3I0eEJlblJ2OVRielkzLXREV2EyeHZNNDBRSDhiVDRud2cxcFh1Vkp4MDBuaTcxbFIyUmVHLWdMYVIxVE12OWhyQ2twYW5hT0g5YzNLRlB1cWdmZVRJLXlnU29UQUFoTTIzd0lBSHJNUDh6R01KYlQ0?oc=5",
+      "title": "Procter & Gamble CEO-health care Paul Gama sells $323,381 in shares",
+      "snippet": "Investing.com, 2026-10-11T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN2Z0YTk1XzJmU0hJcmlfZ0dpWS1EeUVFc3ZpZUllWXdyeUxnU1NtdWl6NXBnU2tXcGdHV2xRN010bi1wVTI3SzJtbGVxeXBoTDZ6V3lSMzA4cHhOREpsb3BweS1hNWpXdjFCdXhpU0IzcGpzVUROWTNtX2ZlaldwTFBDcHp1bU9iOWZzYUJ5VkI1dmZFb1NFOW1TaW1ZUTJy?oc=5",
+      "title": "Insider trades: P&G, Marvell Technology, TSMC among notable names (PG:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-10T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUZybmJjUXUxYnZqYi1xNVVjSWpFYTB6VnkwRUhBaUtRbVVxTEdOeVFCeUpXNVl0V1QwYnNBazNBMk5WVzJlTGlIS2pzMjdZc2pZUUJkUzY3S3NiZGpQQnRPUFhxenZ3eVMzeUZFNHhtM05zdXR4ZW1ncFY5SFJMdzhiaFZULVlXbkJrRVVwcw?oc=5",
+      "title": "Procter & Gamble: A Business To Hold Forever (NYSE:PG)",
+      "snippet": "Seeking Alpha, 2026-10-09T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZldNcDgzOXZkZEJhUGpHalB4eHNFTVpFNHFaakZaZGpuekl6YnlmMGR4aENvdW02a0o4clJTUV9jcHV1R2tEcktzVTBCTHdlenoyMzkwenNmb2NrRFNCUXpiMUhETkhxRFYyMDVaZnk0ZzlrSGxCVV9jT05sdjRSLWFYWVFJcUo0SEowZFJyR2R3TkZGVGFXXw?oc=5",
+      "title": "Procter & Gamble could face new cost problem",
+      "snippet": "TheStreet, 2026-10-09T07:00:00+00:00",
+      "publisher": "TheStreet",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWdWU2pleXVCRW5iRncyUEdqN0RhTk1IcGVLQndGUUVReGNTbEdRazBtVmkzV3FScFdPdkN3c25RM0J3M2swWUYyN0VoaUpPR2NCdENVMk15azBQck9BbnNyWnM2Zm52allPaTlQVmJpcXp5RmUyTTAweV9KS1ZVbkprMkhyQXhJTV9RVHhXWTQzYU10?oc=5",
+      "title": "Procter & Gamble (PG) Stock: $150.59, Up 1.87% Oct 8",
+      "snippet": "JournalArta, 2026-10-09T07:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PG/history",
+      "title": "PG daily price history (Yahoo Finance)",
+      "snippet": "close 153.2 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "CSX",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQlpnU3l0eHBZM3dxVlEzUlhaZmVVQlVlbjZEbWMyOTlub1FxOE00SEFMeGNwR0N2cDlfMFpyX2paUmtTV2huNXdINHczVl9kMlJQWWtlb3VnSDhFdHRVRlMwNWRPaG1HXzlaTFI3UHd2S3VVbzh3RHlHem1ac1p2amh2Rjh1RWZCQ19tSzk5UQ?oc=5",
+      "title": "Goodyear names former-CSX exec Hinrichs chairman of board",
+      "snippet": "Tire Business, 2026-10-09T07:00:00+00:00",
+      "publisher": "Tire Business",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 47.75 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

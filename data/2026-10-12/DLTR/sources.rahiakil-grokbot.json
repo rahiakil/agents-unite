@@ -1,0 +1,133 @@
+{
+  "ticker": "DLTR",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar Tree\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 32,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 8,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd2x1aVhOMmVRRTZWTU9LOGpSbG1NckxvSWZzakFndWlXdF9QWTcwbmFsaUVpQTA4czcycEhHNXNzcFRYZ3lCaWJ5UjR4Y29VY3NqeDFkeVR1U1I0SEQxcjljVlJtWG1nNmJCVl8xR0FmZHVrb2JCTDBoUFQ4V01BREdTRW1JMzdueXB6Mm1PMlRsVUhrQktyVGp2V0dTdEFNUUJXSEdFLWJVRGVkUXptRHJyNG1aV3BFTGV3eg?oc=5",
+      "title": "Skip Kraft Deluxe Mac & Cheese: Dollar Tree's Copy Cat Has A Smoky Variety That Tastes Homemade",
+      "snippet": "www.foodrepublic.com, 2026-10-11T07:00:00+00:00",
+      "publisher": "www.foodrepublic.com",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUxfeVJmVzJiMjY4QlJFNzB3TzVqNWdGMFJjd1N0TklUMzQzWElxbjV0QkM3WDVoSU41bWlNaHFuTjFtOGRWZTcyNWZzcmpmZk1hbkVrTnFXakpDREZLTTc3SWhiSkMwU2VyNmlmNUhvb0wtRHNLRzYwVHJMOUZZVA?oc=5",
+      "title": "Dollar Tree's Stunning Evergreen Dinnerware Collection Makes Holiday Hosting More Affordable",
+      "snippet": "Dengarden, 2026-10-11T07:00:00+00:00",
+      "publisher": "Dengarden",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUmdjNUJvY0hEcHdDX0RUZzZXN0FiRHBNY3VUQ3k3bDhEUlo5T0FCbEUzTk1CM1VnVUlreFpJT2dJdkdid0tZQUUzbzEweFZEU0JUZFVxWkdqNGM4emJKLUNSLW1VZ0JqWEVyZTVzNXJkams4TURlSlNGakFORHJXTXNMaVpwWG0xYUE?oc=5",
+      "title": "These Are The 11 Best New (And Returning) Dollar Tree Desserts Of 2026 - So Far",
+      "snippet": "Tasting Table, 2026-10-10T07:00:00+00:00",
+      "publisher": "Tasting Table",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vMU5JQ2hfWmw0aTE5X3BsbFMteC1iVGFKZTFKdHZEclR1bFJKaU1iMTBxOU04RFc1TlRteEpudUJsalRrRjJaVGh6NFVHazUzVE5WSy14SnBvSVhubDF1SWxBN29peDRIZ0RqVnhYcTZ3U2J0Y013QQ?oc=5",
+      "title": "11 Best New Dollar Tree Christmas Decor Finds Under $5",
+      "snippet": "bestlifeonline.com, 2026-10-10T07:00:00+00:00",
+      "publisher": "bestlifeonline.com",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0NkZ25hZ1g1U1B6dXY5cDVnWFRIUG9iZU9CY1BLd0NUblJJeW1sRzdQSVpva2NYVDFnekwwOFZLTGxMSko5UWwwd0RDckxRcWNIVnE2eDA0UWxPUDRGS3Y1UWdsazJOMFlmbnNJVFVXV2hvdlM2TU85UC1HejFQb2IyUWRiWFA2ZUNhWFNGWHU5Qm91WHkw?oc=5",
+      "title": "The 16 Hurricane Isaias \u2018disaster kit\u2019 essentials to stock up on at Dollar Tree as storm looms",
+      "snippet": "The Sun, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Sun",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkdZQnh3LTY1ekRabmIyX0xNaVlpQzJPUWV1Z0JCVXI0UWRJUUYtM3F4Q24wTkY4bFh2OW9PcEVpaHdyUEZsUVBibFNMa3lSVHl4czdvNTNYRzRIZzBnUXRNQnYyVVVvdXR2WDJfcV8tLUFWUG1hck1ZeVViT2ZIcmxPN2U4VE5EbWtVVFI4MGhhaTNmTEJrUg?oc=5",
+      "title": "Dollar Tree (DLTR) Gets A Tariff Refund, Is It Still 13% Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWgxNlJrYVNRSUgwT1NFNW9HVWFoM3RCemhGMnhiZVhLU2tDTlFKRDZfTzY3eHFTdGVvbkVxb1FtRm1iamwwdzdDRU9GdlpxSHNiN2Y3RWVWTXdJR3RuUXF6WXB6MDd3emFaeHZvRWF3dEo3d0hPNE9lR0psZnRteWdtNnFEZDBXeWxwYmdpX0Z6c09VS2swbGhkM3pmY1pGRy1NTUxOZU00X0lwcXB1c3ln?oc=5",
+      "title": "6 Dollar Tree Halloween and Thanksgiving Decor Deals",
+      "snippet": "MoneyLion, 2026-10-09T07:00:00+00:00",
+      "publisher": "MoneyLion",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BZ0ZCNGZ0U1JScHhYZHdEdEhRSFh1VTh1WmY5a0VIZjdJWmRDcW1UQmpkMTBVRWlEUE5OWkI4aVlqekdpVW1YRUVGRFEzdms2VEU1ZlNwNGpNMjR5ZU4yQ3B1bExjaXNPMnhSc2RHbEJOak0?oc=5",
+      "title": "12 Brutally Honest Reasons to Never Shop at Dollar Tree",
+      "snippet": "FinanceBuzz, 2026-10-09T07:00:00+00:00",
+      "publisher": "FinanceBuzz",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DLTR/history",
+      "title": "DLTR daily price history (Yahoo Finance)",
+      "snippet": "close 117.61 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

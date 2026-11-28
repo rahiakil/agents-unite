@@ -1,0 +1,85 @@
+{
+  "ticker": "MMM",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"3M\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 45,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 15,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTHpyeG84MVZ5R0NnZFJ5TU5wQ1VPcHpIdnVrdDNxY1h4U0RQVko0TXpHQ20yNHNvMlljRzRBQThvMFRxa3NIR3NfcC1jUXdkWU41bUpxNVljbVZDQXczOFExU19BTzM1b0U1SnAyRDVJVldUNm5CYmVfeGFPSG5yQ2VOdGRMYy1EMTc5YjFaVjFCSWFkZ2JSbS1kSVF4eGdaa0lBNGRLVHUxbHhGVHpuUjRIUUxXQQ?oc=5",
+      "title": "Smarter Web raises $13.3M in IPO of MORE, UK's first Bitcoin-backed preferred stock",
+      "snippet": "Dealroom, 2026-10-12T07:43:04+00:00",
+      "publisher": "Dealroom",
+      "published": "2026-10-12T07:43:04+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRlVwSkFySGxkd1dZaU9aeEFNb2h5UUs4cEI4ZzJWS0VaUENYN1liVmpaQXVxQXNESURMY3h1Y2N6RDhaTHVXcThobTJYQ05zbUFSYjVpSnhQa0tsZXFXcXE3RFlFVGtydzVQUVV3dVhHNWllY0l4NXRZODZES1dPUkJhdVZXN0Foc0w4aVc3SUx6UENBR3Z6WXB5eTRoQTRhYlRXVEZ5TU5temFFand1NEhfOURyaTVuSTJiQ0V6NUHSAcYBQVVfeXFMTktibWo4QUFEMTVUTWh1TlItcExjMzRzZmlGUDJETHlJcVU5Z3c1STVDTlNTYnlFSF93RjVaa1VOU0dqTUV2bGtvMUZZTFZ1bHF6cDNQVXg1enpoTENqT2g1NGZtMHkxcVdxXzRuZ25MNlVkUkd1MUxBMTRYS1RMSGg5OE1yQlgtdmhKZlpGY19qUGpJZWdjU2RmbGpHYlEyNjNyM1ZxaVNXMmd3RGdZMmJPODROVENwajhHZVpsQUNsOWJMRUJB?oc=5",
+      "title": "3M (MMM) Stock May Be 26% Undervalued Following Strong Q2 Earnings",
+      "snippet": "Simply Wall St, 2026-10-10T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa1AtazlBS0RVRUpBSEUydXlvWF9UTXRiWDBNR1VmMWF2TWp6dmdIVmdmQ2xnODhWV3dITVozN3l3VjlwcFJHcWpQQXd6YWI2aHFyVXFYMDBhN1RvaUFiWXFIOGxWQ1pONlZaazRscDFxWF9WWlZyci1ZdG8ySzM0cnhJdUNUOWpTZjdKcXo1U1FZRWxhR2c?oc=5",
+      "title": "3M (MMM) Stock Could Be A Bargain On Future Cash Flow",
+      "snippet": "Yahoo Finance, 2026-10-10T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlNWaHgzVUhhYXhLa0w1Rjdlbmhpa2dlRVZEUVlHLVpWbkxwX09SOEF1dFlCc3hObWpxUEF6dnJaZGNGUGFoNmVMRlRGQ001STRGam1ZY3V1U3JxaFNudHljdDM0eEJIWWNvWFYwc0pvUUtodU5SNS1PNkFWSTJUSWRia0ZScUVzd2hSanJQRlJCdFVlLVg4M1hURHNTbWEtMHpraF9TTWtjWGd6bHZZN014WkU2X3oyUE0tcnhYUQ?oc=5",
+      "title": "Tanker Rates Hit $1.3M a Day As 9 Shipping Stocks Double in 2026",
+      "snippet": "TradingView, 2026-10-09T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MMM/history",
+      "title": "MMM daily price history (Yahoo Finance)",
+      "snippet": "close 160.89 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

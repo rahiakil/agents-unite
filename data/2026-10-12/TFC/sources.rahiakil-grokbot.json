@@ -1,0 +1,49 @@
+{
+  "ticker": "TFC",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Truist Financial\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2dZdGpzODBocDRGUk1BcTNkdVlFUWw2SzRydzVpYXBUdDVKaWRvaFNNa0FFQk5OWW9pZ2tDRmlpYWx5bE00cWdJN1AyWWpOTjhCa1MyLVVtNG4yM255cjFxSlB4eEhOWUN2akZCWUZhVGxhUVhfZTRQODNBYkM4N2p4ZklnZFVTUUV5UUJYbzJiejZqSzgyUm1lRWd3RlJnR1IwTlBFeHhDdw?oc=5",
+      "title": "Truist Financial Corporation (TFC) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TFC/history",
+      "title": "TFC daily price history (Yahoo Finance)",
+      "snippet": "close 46.64 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

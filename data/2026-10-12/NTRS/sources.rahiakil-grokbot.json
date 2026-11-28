@@ -1,0 +1,61 @@
+{
+  "ticker": "NTRS",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northern Trust\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRVBSM1Z2QXhzMDE0TjZYTVdUVl8zSWxFZ0YxaTRtS0Zrb01IUy1vSHlUN0RvQkFQVXVEdnJBeVlIai1lc2JCU1dRRkZ6Ynd2V1duLXVUMTJINWhrX3N0SDN3My1fSnBtZnhpNGc3c0xuRWx4aC0tTDNvNUV1YVRsSWtaSTVfSldtYldwdVRIcFRudVBwQ1ZTMm4yVS1wR0VGV2c?oc=5",
+      "title": "Why Northern Trust Corporation (NTRS) is a Top Dividend Stock for Your Portfolio",
+      "snippet": "Yahoo Finance, 2026-10-09T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZ3ktYURfeDlReWNnczdLRkxMOXFGQ3lucE9Za2x4VDNVOEJQcXVyTlZ3VC1pQTdjYzIxUUI4Ym40V3VWVEt5ZmlvYmNfeE9TOS1QckRGNlNMeGQ1VHpsVG9sMWRRX2J4ZWZmQW5IdWJLR2NtR1RBR0kyUnlaY2hrSmhpdllXMWttZ3d5OVoyREIwQmx3THp5WE9wZHo3X0F6cXNqakJXTGltRTMzN0VGRVQ3MW9EVGVzZ29Rd0lDT3hxd1NQS1daRVYzR3hXZU9YSk1xT25HNzM2Z0RMRHduQXB3?oc=5",
+      "title": "ICE and OKX file to trade 63 tokenised US stocks, UBS hands fund administration to Northern Trust",
+      "snippet": "The Asian Banker, 2026-10-09T07:00:00+00:00",
+      "publisher": "The Asian Banker",
+      "published": "2026-10-09T07:00:00+00:00",
+      "published_date": "2026-10-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTRS/history",
+      "title": "NTRS daily price history (Yahoo Finance)",
+      "snippet": "close 169.21 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

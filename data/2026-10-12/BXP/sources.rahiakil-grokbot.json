@@ -1,0 +1,49 @@
+{
+  "ticker": "BXP",
+  "date": "2026-10-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-12",
+  "news_cutoff": "2026-10-12T20:00:00Z",
+  "generated_at": "2026-11-28T09:45:52Z",
+  "collected_at": "2026-11-28T09:45:52Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BXP\" stock after:2026-10-08 before:2026-10-13",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdUFIbFVHUVZTUklrdkJLSE9zTlJzdlA4MkUwT2k4aUIwRFdKaVVQem51THZTRkRTZUY0cDNqRVUxYVNQODdacmVMVzZ0RFZfWUphbnlTeW9mZFYxTUxCblpnTS0zdkJXS3VEVkxQdE50TUtMRE40b0ZEb2prcl9rWm1NQXJTNWl5MWIzQUI4UWZLQWRDMkNVVi1sbmxpbzdBYmN0Vks1cEpPb3hMaHhSNjQ2ZVZmd1Fjc1Q5a2dlSDN5Y3dPcjY1ZDgtR0JrbjNzelZjUU1vWFFoUElSU2RFVm5PLU5kcXFiQldJ?oc=5",
+      "title": "Analysts Are Neutral on These Real Estate Stocks: BXP (BXP), Acadia Realty (AKR)",
+      "snippet": "The Globe and Mail, 2026-10-10T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-10T07:00:00+00:00",
+      "published_date": "2026-10-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BXP/history",
+      "title": "BXP daily price history (Yahoo Finance)",
+      "snippet": "close 59.55 on 2026-10-12",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

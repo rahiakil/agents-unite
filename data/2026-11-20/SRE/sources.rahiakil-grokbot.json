@@ -1,0 +1,49 @@
+{
+  "ticker": "SRE",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sempra\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOGZlRXRsZl9xOEFCVkxnSXpEVWpYU1JYYkNfSUxHNmhYU243eG5KSnd0Sld1dlcyd0ZQc3RaVE1BX3hUejJCd0g2d3JKblk0bTNTcklhdzk0U19HTU0tSUI0eEYxb05vekpHN3V5Ymw4R2R1TGxGV3BmRVJsZVg3bVNKd3VPaHZPMHN1Z0pXOF9QRjllRU5rWmZzc3RLOTBER2xxaVFEMmhhOFpTWURYV05iZ0VBUkx1?oc=5",
+      "title": "Sempra stock: J.P. Morgan keeps Buy rating, USD 99 target",
+      "snippet": "ad-hoc-news.de, 2026-11-20T16:15:28+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-20T16:15:28+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SRE/history",
+      "title": "SRE daily price history (Yahoo Finance)",
+      "snippet": "close 76.16 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

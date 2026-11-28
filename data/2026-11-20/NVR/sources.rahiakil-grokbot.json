@@ -1,0 +1,97 @@
+{
+  "ticker": "NVR",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NVR\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 16,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ3gtTXpWMGxtYUNFNzRDSnJzWmI4RG5MRWtKdE5CQjBkYW1iZHdNZFlpaF9CUFA5eGtJeFhrTElDdFp0Nk5mZDZ6cFU1UlhCSWY0Q2lodDBIbEplZklsLU1WWDJnOWl6UUR4ZWRxR3kxUVVBS0ZJQnRVMloyMTFLOXo2ZXlBMjBualNXZDB2VHpHdEJpSHhLRi1WTHhjRGxtMXUzc0QyT3RacWZtbTJZVTR6R3R6bktVVEgzUXhETlgwNnJrWVozVmNFbmdhMnU3aFpNOVFmUEtOVDQ?oc=5",
+      "title": "NVR Inc. stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T22:09:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:09:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWG15am5zYW5iaHk0WkNoZ0pMRXRTbnJQT3p4VjFFVDQxSkNsU3BzQ3JtSWczWFlXWTRGRmdiZl8wS0tjWV9NVmRKSTBCclV5T1M1SDRYTjNITlNKa0ZGd1R4REY5aXpmZU43cHB0eklzR2U4UE1ESlc0OUJkaFFvNG9sNGxVU19LVU9ocFdvLVN6Ny0zcnFjSkJSRjFxNURKeWZJS1BCRzI3SHBBS1hR?oc=5",
+      "title": "NVR (NYSE:NVR) Reaches New 12-Month Low - Time to Sell?",
+      "snippet": "MarketBeat, 2026-11-19T19:45:01+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-19T19:45:01+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOTVkdzNjaUtYN2ZZVEtNYWctQ2xhaF9kZHR4enYxaU15MGZ0M2pPX19iVDFDd3JNYnNia0ZMc29oUmVvU2xjcmpfcC1LTTE1cUJQRE5MTmlSQ0xEUk5DNkJtSzU4QS12R1BKcU9nZzlTYlhOcEdGcWRTZW5BOHBYMENFWUNxR2gwT245RWRuSWp3a290Z0Qw?oc=5",
+      "title": "NVR stock hits 52-week low at $5,493.27",
+      "snippet": "Investing.com, 2026-11-19T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcndGU2pHSGNZVFVPUERKb3JnNGN6TVhDZUxLeWpKVkpnZndCV1Q3Z3B4LS11ZllVLUFsdUFaeXFUUGM3NnFpdXF3OERxeTk2RWxrOEg3OXNqMno2aDdtb0puQWlzcnRPVVpuWURoZFcyNk52ZlBhaUdrc3JCaUw1MzZPVlh5SjhTR0N5SkJ1dzNPc0E?oc=5",
+      "title": "NVR, Inc. (NVR) Stock forecasts",
+      "snippet": "Yahoo Finance UK, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance UK",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUUVMcXVIck9yanYtRG5kNFB5MEp0NkZrQnE4d1RqWTlYVkdtcFFhM0hFeUVSdnNFUldpMXhWTjF5cDhvUU53MzJlSDVGRDdfOENKMHE1bTZPLWdNMmU4bFBjLTVaeC1ad1h6Yi1LT3pScTN3N0otbEF3V1pZRG1OZTBuQzNlLWhSYm94eGpVdnV3cUt0?oc=5",
+      "title": "NVR (NVR) Stock Looks Fully Priced On Cash Flow Estimates",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NVR/history",
+      "title": "NVR daily price history (Yahoo Finance)",
+      "snippet": "close 5468.04 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

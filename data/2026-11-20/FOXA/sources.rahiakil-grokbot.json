@@ -1,0 +1,85 @@
+{
+  "ticker": "FOXA",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQalN0RGpPbERyaTRrcGFVWDNtTlR0NFYyRk5OeDBqcXlxa1ZtVngtOV9zV2VVVDdZS25ocHVIZ3Y3bGNKanE4TUdJUGEtb1dicm1SZXg3b3lWc2tUUVJHV0RNZE5zNF9kcVVBcFdQVG1EaC1zTnJuQm1RWmlEYkVYNm9IRlV4bzdub1hkNjQ0R0dMRmJHUVhERGowWDZQbnprdDZ3?oc=5",
+      "title": "Can Fox (NASDAQ:FOXA) Benefit From Its Governance Shift?",
+      "snippet": "Kalkine Media, 2026-11-20T20:33:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T20:33:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcWJ1NDNLOGNwbmV3WjM2LWVfMk13cVZ4ZF9kYW83M2dHNUstX0lWakJfdUJYX21uY3gtZ3JIaUZVZk1zWGJZWlV4bVJPSWJtazFJRGtVUHRmbHMwbVQ3ZTc4SUw4Ul9LSGxIckdGUjUyV3ZqMUpfOFEtQzE1dmdBWUdBQzlsVkdGV0dkX0MyRDVxOWlxdm11UVFuYTJjMWNOa1pLXzZzOVRLX2ZVVVpKaTAzLTN4YjNHQTdCMHNuR3F1RTZXNlN2WXk0VEd0Q2xhZURCZUJ0Ykt0Y2dGUVNVRGZKNA?oc=5",
+      "title": "Fox Corp. Cl B stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T21:53:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T21:53:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZmtta2lCcXlhNDNib1hCcEVoTzQtSER0UUlZZGZYNG1QY1ZFeUd1YzBZRVdTSEpXY0NueEgtNVBjVmQ4STVmTmdWTlo5UDlnYmdMX2xyMG5ZcG5EbWpXWnJkd1lmcHhsd1FIOUNnNGdKMFJ4RVJMSEZQSXdoYlNaUl9fSnlfRXpMSm95b3I0QXVjSkJjaTZQa0ptVDBjM2JKa3FtVVctSnAxdUNSWTUwUWpRUVhEeW43UEZXaXFLalJTQmdaSXNjYjRoaw?oc=5",
+      "title": "Fox Corp. Cl A stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T21:53:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T21:53:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObS16YXpEWU1fMHo5RkFoQ1M3ZVJuX3RLMk5MUnlPQWlQM1FySDRGZUlINjdpQXZneENUeFpiaGRwbXY5eF9KclNJc0VRT2RTanZUamxLY2ZJRnhZZndkc29nU3dGMElRVUdKc093ZDlTX0wwWlU4QjRBVWRpSVhROA?oc=5",
+      "title": "Newsmax Sues Fox Corp Over $22B Roku Acquisition, Calling It A Monopoly",
+      "snippet": "Yahoo Finance Singapore, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance Singapore",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOXA/history",
+      "title": "FOXA daily price history (Yahoo Finance)",
+      "snippet": "close 62.91 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "ESS",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Essex Property Trust\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnZyS1dhZXk2VTNpMml5ZWFwa1RoVGdfcUt6Um13RnFKcmZXNWFKQmJWNjRVeElJMG5KTUR4akJFV3lvXy1ULW1TLXNpMmVSUHh2MFMxaXJaUGQyN3RESElRVTlMeXMzM2hnNGZZeDROeEt1M0gzX3F0MUMtUzdzWGZXS0NfTVpIS1poNUxKQ0puM2pIZlFhSkk3RUYxZmdFV0J6T2I1YlU2cE9ZYnh3UXY0YTBzVzdZazQ0YlBtQ2RiNUhFLWc?oc=5",
+      "title": "Avoiding Lag: Real-Time Signals in (ESS) Movement",
+      "snippet": "Stock Traders Daily, 2026-11-19T01:58:02+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-19T01:58:02+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUVRsSXduMGYyR0ZTd2w4NmhWZmY2NUd0N1p2MXdFaU93T3hfUVFYeGdSLVI4emRBMmRoZERMNTFCMDNWdDhUWDJUODljMjRBUWZoZkRPZmgtVHdXX0pQTm1LZm5jZC1fNmFYcmtLaEVXVnRobEVXcm5mTkxkSUgzMFdoOGlkRF9wZHo5cDFpRlU?oc=5",
+      "title": "Essex Property Trust, Inc. (ESS) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T20:16:16+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T20:16:16+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNG1FQVVrTzZnbGZEOS1xZ1p5RTVjUkRFcUlMOUVkaXNGdi1zMjdqbl9zSzBkNEV2bHg5b3lfejlzSDV4YkF2VUtKNFpUQ1pCTTJYX2Z5TDFIaTU5T1AwOUtKSEswTlM5NzNUbDhYWG5hNjZteHp1a1d4ZUkyQzIzcGVVZ3R2U1I0ajRrU2JjVTkzRGYzQmFPZFRBMlZEbVgzRVlINkZZVHp5dnNmUDFMMW5kY0Z6Y0dRZ0VxNU1SVXlpd2hxZkIta3YwX210TWpvVlVqOVlFa19GZktCLUlXNA?oc=5",
+      "title": "Essex Property Trust (NYSE:ESS) Share Price Breaks Below 50 Day Moving Average - What's Next?",
+      "snippet": "MarketBeat, 2026-11-18T11:44:45+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-18T11:44:45+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ESS/history",
+      "title": "ESS daily price history (Yahoo Finance)",
+      "snippet": "close 269.65 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

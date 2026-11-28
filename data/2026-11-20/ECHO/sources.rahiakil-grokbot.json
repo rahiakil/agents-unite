@@ -1,0 +1,133 @@
+{
+  "ticker": "ECHO",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EchoStar\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVZsVjBFTzBIbDFkSTBJSzlhZnZRSmlMYmlYT3FmOHVLcnI5TUVnc1ZzdnJrR3dLTlIyMnBmNnpuVjItU0ZKb3k3TEpmcHN1Q2o1RjdzNEd6Q0t4U2pqSkpFcE9ZWVBWREN4OTJiZ24tbkcyWE1HY084Ty1JbVZjMkJPOUlkTUtqNGhDUE8tWXMwd1ppU0Y1cnJzUlRJNVdNdUJGTGpmUFpfdW02QVNOQS1PNnNjVDRNZnZ5Ng?oc=5",
+      "title": "Echostar (NASDAQ:ECHO) Stock Price Target Raised at TD Cowen",
+      "snippet": "MarketBeat, 2026-11-20T14:47:36+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T14:47:36+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSWRGcHdVTmVQdEQyMlozMmliR2pyYXlMSnFQMlZBUGVycC1VdWtaRDhMNUswNHFwWHRpSlBrZ0NKbW5QcTg1SmdNbFluZTBMVVdKUWxGdGIweU94TzdoM2tfT0pEM28yaUZIbHFFdDNMaXlaUy00bWRaNTJVWEIzVzJLNGRxQk84RndEM2IxbHRibk56WVY0RWtOaEV1U0hMcHB4OWdhZEtubE5yTXhDRG1xM0w5em9jWmNBN013?oc=5",
+      "title": "Echostar (NASDAQ:ECHO) Stock Rating Lowered by Zacks Research",
+      "snippet": "MarketBeat, 2026-11-20T11:47:14+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T11:47:14+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSldYTGhJOGk5OGNOM29ySnZOSFU3NWQwb2Q3MVFUOGFmN09jVXlrLU83VmN1TS1FQWwwTHB5a0Q5UVZKMTQzc19VQ1RmZnluZ3BJTHU1ZVUwNnltLWlrMGFtQUtiQ1AzR2psUWdiak9makZzV3RtRk9RaXV5ZnFGT2hFNmt6Y1JCV0JYU2UxUXEydmwzTVF2bEx5ZWtrZXQwSmhZNVN3WGJXZmszTDE2WXBZMEF1MzNPM2k4VUNHcDNGUG1HM19nSzVnVVFqazBxMjBCWGVpNDNrZw?oc=5",
+      "title": "Echostar (NASDAQ:ECHO) Stock Crosses Below 50-Day Moving Average - Here's What Happened",
+      "snippet": "MarketBeat, 2026-11-20T10:24:16+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T10:24:16+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWV4Q3RIdm92bUJ2dEo0Qm1paXlCMlpyUWNuSTJQNHItbmxqU0VnQ3VVMm02dVFWM1pvY3N3NEZMb0JiQXh6cVVBS2FJWEdCYWJjRFZqN1BNWE03OGE3SlVKMkZjbU5xMXJHVENfSHktb1ZQWjQwanFTblRZS2RCbUhfY3g5S1l2cjdIMlFuZnkxRHhrWFMwdXRma015V3F2QzZtNUxveTkzZ2c?oc=5",
+      "title": "EchoStar Corp (ECHO) Stock Down 4.8% but Still Overvalued -- GF Score: 63/100",
+      "snippet": "GuruFocus, 2026-11-19T23:09:33+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-19T23:09:33+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSEE1VEFiR1oxcEFPXzFzRmRKaG54Y0xUUWNjZHd4ZmsyQ09SMVFQQUNVeXFyMWplMVFheXBIdm8yWGlPVkJiWjVrLTV5bGN2SXEyNkpwNlVkVTlodEhaMHkybDJlc1puNERyZEdjMTVTbWJGRWlMLUlVb19kZExrT1R0a1JsMDdOdkhXWGExSnFSVXc?oc=5",
+      "title": "EchoStar Corporation (ECHO) Stock Forecasts",
+      "snippet": "Yahoo! Finance Canada, 2026-11-19T01:50:15+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-19T01:50:15+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUFNFTVpZSDlPUGhMQzlDQVg0NnBMRHlMdzN2c0ZFMXJIaE5Wb1AtdlY4Y0JGb3dMYTdOVURjOGkyd1FLWDB5eTJ4QjkzUTRCVUV5Nmwyb1diUG9ha3BLMElXbFlYcDA3QlpRTVJiT0x6T3lFN2M1eG9ZYmx0NG00Z21UVkxRRjhCNWFZVk1FdnRRV2xVMlRmTTdRVnQ0eXJtQlJsVXFiRzlrOVVuY1NmY3h3?oc=5",
+      "title": "Dish Wireless Settles $525M Tower Dispute Amid EchoStar (ECHO) R",
+      "snippet": "GuruFocus, 2026-11-18T23:13:40+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T23:13:40+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlF6b0ZMSS1GUDFUQTJ2WnRWSUlablpLZ1k4aXpfbUxHaVItR3RjQWJDeGQxWm1hUl9COGlwM05YRjZIR2h5N2I5NFNqcDQ3alJveUZWOEV6LVRQYkFrajh4UHhQRGdrUEUzeThkdldQT2duNVc2WUcxSzdhYlgtLU1EUmJnUkJIbjkzeFR1S29hWnhoeF83aWZnRC0yZUt3UHhnZVZjeEJEZXkzWGFIbHlha2xGdw?oc=5",
+      "title": "Here's How Much $100 Invested In EchoStar 5 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-18T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMXBjSGVfbU5TbXRIUFlXZVRxZWl5aDNEeXlUaDFaVWVLZWJKR1RsWmVOZE5oUjVnZlpYX1dxYUFiVlQ3RmE4UjdqZ2hpRkhVcnRIT0JFNlZyQ0tLWkY0cm93TmsxMm0yaUJjVHdrYnhRdmt4R05uWEZQeWZDVXFiSEhib0dzU1RjWC1PcHhaVHBJN3RNQ2RxTW4xd1RKeHFE?oc=5",
+      "title": "EchoStar (ECHO) is a Great Momentum Stock: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECHO/history",
+      "title": "ECHO daily price history (Yahoo Finance)",
+      "snippet": "close 84.26 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

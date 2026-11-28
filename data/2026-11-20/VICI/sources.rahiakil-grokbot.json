@@ -1,0 +1,109 @@
+{
+  "ticker": "VICI",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vici Properties\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa0NXWFNtY2NyTm9zOHpyOVVxQ181UVQ1T3dnWmhUaTJqTmtMVUF2XzlHR1RyQWd5OF9oY1RGYjA4OGc3c1htbVZQSGZ1dk9tcG5ha055NDlXWTJaV2gyNU13aURzTU5zVGZRaVlZT2dDUWxxd1N0ZEZVUWtZSzVSaHVFTng4bl9ZbkhFdEVWMmZlbVpNbkEwZEZkM1BRTTNmMTJya3VnNA?oc=5",
+      "title": "Churchill Downs Regional Casinos \u2018Attractive Opportunity\u2019 For VICI Properties",
+      "snippet": "Casino.org, 2026-11-19T17:35:36+00:00",
+      "publisher": "Casino.org",
+      "published": "2026-11-19T17:35:36+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdW9qSHh4cWItN3JTY1p5YUMtZm5Rend0TjlvRi1YMi1JNWJ3Ync1cXVSRG5fam9MYmVucW1SdHdnYktXSS0xQ0kwc2tNX2N3cXZaMmVEdUpPQWRSRkkzRFRBYVhocVJvMEpNQlAtbDJLUFEzUDJVX1BXemxJQUdELUVJVl9qSlFsdGRCc1JkdDg5M3pKSlhHc3VqRjZrQQ?oc=5",
+      "title": "VICI Properties Faces Higher Credit Provisions: Can Risks Ease?",
+      "snippet": "Yahoo Finance, 2026-11-19T17:35:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T17:35:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjltRnVMcE5lSE1Xd2pxRzZyVW00RW9LS0dFYlU1Sm1BcUttUU9ZM3Y5UUFMSWlJdEg0V0FPQUV2M0prM19uQjJwUFd2MTYzSE1xZlVtMzdOUkVwRjZfcDdOX3JHZkE4TEluMUZpT3hpcDZCY2VvUjB5ZEIweGV5aGh0NUVLWF9RTVhIbQ?oc=5",
+      "title": "VICI Properties downgraded to Buy due to rate r...",
+      "snippet": "Pluang, 2026-11-18T14:03:43+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-18T14:03:43+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ25IMWJMcUR3TzNXU2EzcGhzMjFYc1hrU293S1FVOGNFaktleDVmNjljTWQ5YjBHbjdzaGJSek9qWG1TcU4wbExDalhTbGYzWktHNkFMYjRTaHI3cnJtWTlfM3lHTFV2dm9CSk9FbFFMTmctY1hoVVo4OHJvYmllR014TDFSSElpUWMwQ3dIcE8?oc=5",
+      "title": "VICI Properties: The Discount Is An Opportunity (NYSE:VICI)",
+      "snippet": "Seeking Alpha, 2026-11-18T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLWJxdVBBdjNCWFBsbjhaemQ2SWNxYzlyVDkyMjZYalpXVnhib1hOWUF4VUc2eXVfODZIM3dwRWNJM0dsUlVmcU84MUlhYkJ6Yk9vODRfQ0FjNzZSeWt5WGMyeGRVY3dvNEw3SFZjWjNndnV1cFRPdDJFOWZpNjF3cjRnVG9RS3Z3TUMwU1B4OGhIUGlBZEZmUlNqakstNlQ3NEtOYU1vYm5KbkNmMVBsampqQm5SMURDSTB6eENTRF9vRm1TbHBuSl9rSkplVUHSAdQBQVVfeXFMUGNRRElsQTRqaGJ6NkhLWXEzUXZONlNjSjZBSjRjR2dNSWEwQkhJZHM2WjZWTThoN3QtaFdhU1ZrYUMwR3RHdVdhTFY4S0d4VEJyZ3BHMTJ3ZDE2akxyVnRxdmF5XzRPbmRnTHBPU05qVl85MWlGeDlTVFlPcWU0Ym1FMmVPOHhWTWR6aXEtaklSMmw5bkFKWnF6WklSOC1SYXUwT2lvb2JEWjB2aDJralFfbTJ3ckVOcERjcHVLRUJEcVVLaHJBeElqVjBiMTJFdFR0MzE?oc=5",
+      "title": "VICI Properties (VICI) Could Be 16% Below Fair Value After Its Debt Refinance",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUJoeXRnZmRRUVFXUG5LdW5kbldoX21OWFE1QmI5aWJSN01ZMU1INGRqall1QkJWaHhlUURCRkRkeHFmQTJCM2FnSS1NSk5tZGFpUVlnZnhZMDQzY2JQUkwxeGpGNFJ3UHVwc05FTk9SSmZpN0tQUi1GNHR3MkJBZjJQM2JuNzdkaWU3MFpDUWY0NU55MDh6Qw?oc=5",
+      "title": "Can Shares Rally Higher on VICI's $2B Buyback Plan & Raised Outlook?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.859,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VICI/history",
+      "title": "VICI daily price history (Yahoo Finance)",
+      "snippet": "close 24.2 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ticker": "FICO",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fair Isaac\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQVVabGQ3NUd4OERoejFNRzY5eXMzNm5pQ091aVU2S1RHQUs1WUdxMHoydFM2NHQ1Z09MUTBVdTJINmtwOWNKM1V1LUNpS3R2OGJiUHFjbkQzcWVRYS1zYXd3Z0dCdGFSNWVDTGdyeFA1a3kyUEpDVmNkcWh2VHJjenAzN2g4VDUyanBfam1WRVlaTTV4OEo1ZTUyQ2Y5MlR1dXhaNzVmMzZQbEczQ2FwX2RxcEpvaldOSkRfWlRMQkM4WnluRUhleNIBzgFBVV95cUxPZ0NncEFQajRHWW1EdzBTM0UxNzA0bWNQY2hKdFZBR3BsQzhVMzN5OGhqMjdLOS1abjc4SnNjaFpXc1M1ZVZhMEI5WU1hV3pEYVd2RHZtZmJZLWhBWDJCODItb25BRy1LcVZ5RDVYTmhIemZNM19YX1I1X0VKUnpHeFNCX1B0Wm5lS0l6emZTMk1VTnlXYk5aNGN4ekVOR0pSbmt6SHhhVWRGTTNzM01OdU1sOGowZkdVN2FtUGRUVEtaMjhFbGotemp6d0JjZw?oc=5",
+      "title": "Fair Isaac Shares Jumping 6.5% on What Stocks Will Become The S&P 500\u2019s Thanksgiving Leftovers Of 2026?",
+      "snippet": "AlphaStreet, 2026-11-20T20:44:32+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-11-20T20:44:32+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbXFXUFlNeUN4WG1EV1Z3WklwZnIxTmZyTmRuVjdQdF9QdHJVdEd1UXFMNnpJTEdvam54bU11Q1E5RHBiaGg0NEVYOEtQZjF0NTUzdGlUbzVha2xLc0lyUDh4U0dsdjB3aXJzTHJTVV83UkIyNVIxeDgyanhvMWlfbXQtN045WHpvUWh3UTJDRFI1cHNaNjRoTEhDajBvWW5EajQxT0dkdTBXMlgzSnlwdjVhNjI?oc=5",
+      "title": "What Lifted Fair Isaac (NYSE:FICO) 5% in US Trading on a Day When Tech Sold Off?",
+      "snippet": "Kalkine, 2026-11-20T20:25:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-20T20:25:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMUJIQWZicHdzYjhyU2RrRGVuSWJUMmszbUQ0aEdwdng3SjFMZGxjSjE1YTVhZTNZZ3FVb2VGbmFhUmQxN0lSUlhmSWM1QWFuRTltdmZXWnY1WGJkV1NnNm9DaTdKQ2dGcEhBc2JHeXR6YkxqUFh3RGRlMHlyVXlpc1BMWTYwcGdyRVppNzFZTk82eG9fc0lXT0EyUmFTbGViSGhDNzRPTVBkV3VraUphRmcxVE5oamVOSXpuUXo4Nk0?oc=5",
+      "title": "S&P 500 Session Movers: Fair Isaac Leads Gainers, Coherent Leads Decliners",
+      "snippet": "ChartMill, 2026-11-20T17:36:11+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-20T17:36:11+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWEY4ZDhidVlENEFfaUJ5ZmFMbDdVb2dRRnU5MGpGTGVleHVLRF9wa0k5M3BLOTdkQklyRnA1MkhuMlRsbkpHTi0zUG1iclpVRGk2LVZOczFmNWVFblozT2NvWm1WRTNQZnhRbUhaT0NFS1VGWm1MeHZvUVBveVBocm9JRnprdTNnYzZYR1ZZdk1TaXFEMlhJdkJIM2hRNWZRdlVrbS13UjdIeUdaS0tJdFRITWV1RmNCTHBSSVFtenhvWXAtQnZ4MHk0UTRObnd5dmtZ?oc=5",
+      "title": "FICO Climbs on Xactus Partnership, Brings New Pricing Flexibility to Mortgage Lenders",
+      "snippet": "Benzinga, 2026-11-20T16:51:39+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-20T16:51:39+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS3d2SHNNSEZucjdJZFZMY0I1LV96ajVabVpCYWg0SG95M05ScUpBU2dpREppZ1d1Q2JsbENya1BDM2kzNjNRaEZweXMwWEsyajR1anNwMG9vVVJXcVBOUVUzVDg5WTZuN0x6VGdIQmNMQ0VwUFpxNlhyS21tbHFWQW1oUUZxM0xheDZHSWM5RzA?oc=5",
+      "title": "Fair Isaac Corporation (FICO) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-19T07:14:51+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T07:14:51+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0VqN0stV3RHMXZISHlDQWJBUTFRbUVqeVZoQ0pXZUdxYjN4MVNfMXgtSXpHTF9KSDV2akRmZlJNLThlOUlDZkJuMW9RZ0FNU01VRFRpZG5SLUREMS1WZnF0TmlIQWhuTGtmam8wQlZDa3pFekVPZERuOThWVFgtZm1UUFZpejVud3NsTWFqb2w1NVNKckwxVWpvam51TUlQZEhITm1VaE1GeElLM1Bn?oc=5",
+      "title": "Fair Isaac Corp (FICO) Shares Fall 5.7% -- What GF Score of 83 T",
+      "snippet": "GuruFocus, 2026-11-18T00:02:43+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T00:02:43+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeklpSXg1NFRTdnoyWTVZcUpNWmNuYWlQVTdXV0ZJZmNia2l0a1hVbFVjQk5DRDFZN00wSVFjaF81amZVeEU1MFFndFd6bWQ2anl6UDh0N3h6YThSUHNRU2Z5T2JMN1JuSnJJcllrME9tOG5XN1RVMUN1eS1MNi0tWXdrTW5ONVZGX0FMdHRjU2YxTDJ1WW1wb0VOaEs0NmlHbGp0eG1IaGZOYmFxaDVXTw?oc=5",
+      "title": "Fair Isaac Stock\u2019s 72% Mortgage Jump Came From Price",
+      "snippet": "Trefis, 2026-11-17T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVEw2VEswYTM1Qkpmbm9qRzIxVlczemIwQ2pMS28yM3FFTWx6RG5LeHdyYzI5aVRvaFBHbUZzTDFHRzI4TnZteFUyRzhvVlNPUFAycEstVWpNaHl2MjY1Q251a0wzYnhxZnFiVFBrOVEzZHROSmRGZHNHSGJaamN2VGE4Q0NRNTVldV9aa0FqQjhxRHhUMTRvUjd4cW1VT3VVNHBfSUF4WFF0RHFELUZWT21JdmFvRE9JTDRhYl9IQ2FiTHhkd3ROTF83eDE?oc=5",
+      "title": "Fair Isaac Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FICO/history",
+      "title": "FICO daily price history (Yahoo Finance)",
+      "snippet": "close 694.31 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

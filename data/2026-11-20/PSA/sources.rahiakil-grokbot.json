@@ -1,0 +1,73 @@
+{
+  "ticker": "PSA",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Public Storage\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KNnBmblBNTkhRYlpkaVdwTkdBNjlLLVJ6VW9HS2lvOTZUdjA1S082d3hVUkZJTkt2ZHNfUU96aXJ1cUR2YW1wZ3BsT09XVHEtNjJycDFQU1BKZWZIQm9lQzdNa20?oc=5",
+      "title": "Public Storage (PUP.DU) Seasonal Returns Chart",
+      "snippet": "Yahoo! Finance Canada, 2026-11-20T20:50:06+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-11-20T20:50:06+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaHF3c0VEYzdvUklMSjZNdE5mcVFRUk9Nc0NZdEFIVlFoU0RaaDVtdTBZYTd3aU8yR29OSmU0M1N4LThCSmFIQ2F0ZGZtZUx0bVlhM1otS0xJZHlBTnUwTE5oY1JqNjVfam1PQ3pqcWxJeGluOFprR2VFcXpOT25oWlBhS1R5bnlXWWtjSXBMRFdaZUJMQnRRdjUycWZ4QUhmSVZmaTcxSlZuU0lJLWdUQnFZZWJ0N3ZlSGt4bnd1MzRaNFJMdkNKc1N3?oc=5",
+      "title": "How Did Q3 Results Help Public Storage (NYSE:PSA) Lift Its Guidance?",
+      "snippet": "Kalkine Media, 2026-11-20T09:25:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T09:25:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaFB2czRqdDlWcnExMnBoOUl4bTVfNjAtSHlSbU1IVThJZzlrTThUdEhuVVc3MUc1S2FTM2dPZWZQM2ZjS1FtekZMUFNBLTRjVDh1OVNSYnJURjExbzF6UFhKSFRJa25JUzJ2b080LS1xT0EwSDE2VVFqUWlWajJCd1dENnFWY3ZOSXp3cmxOWWE2STU1ZTBzNTU0SHp5eFhEVktadkFxRmRCMXI1bEZVU0FRX1BiUjlJMi1OR0szbGhXQVZ3cER3QU5n?oc=5",
+      "title": "How Did Q3 Results Lift Guidance at Public Storage (NYSE:PSA) Again?",
+      "snippet": "Kalkine Media, 2026-11-19T06:06:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-19T06:06:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSA/history",
+      "title": "PSA daily price history (Yahoo Finance)",
+      "snippet": "close 325.42 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

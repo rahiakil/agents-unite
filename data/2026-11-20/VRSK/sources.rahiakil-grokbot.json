@@ -1,0 +1,73 @@
+{
+  "ticker": "VRSK",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisk\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZQ0x6RERTWTNZQlcwdzRyaklWZUtxQ204cy01WHkzVjhEeGlzcUJWclpNdEo4UUN3MHkyV2J0X1BYU0ZrVVZYTzk5cDdrSjdocTZRS3JTMm1DV1E4QzFyRmhBVQ?oc=5",
+      "title": "Verisk Analytics (NASDAQ:VRSK) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-20T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-20T21:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUNxTVVodXZKc0ZXQ1c2a2U5ZWFUVHVTcTByeWJ3T1FIOGhsbWNEQjVldDZxYUJuNjBHZkpzODZRTmhCUHNmaTBtM3dNejZ3Q0pTMFR3QVAwZ1RFSkplY0FfLU1hYzFpMU5JajRkUGtyVS1ta0lDWDJ0bjB5bW9VX3NzYWxqWFU5NEppNjkteHhYODZ6cnlUdWMxTllpc0s1OVo1REhFMUVKNUhhTEFtV2JoZy0?oc=5",
+      "title": "Verisk Analytics (VRSK) Stock on Tuesday: Slides 3.50%, Trading Volume 2x Normal",
+      "snippet": "JournalArta, 2026-11-18T07:20:49+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-18T07:20:49+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTVFpakxwbjZRYWhYWDNXcktvaVdwS2d0bktzZldGakIxVWRvQ2xoRlhFSnY1cmJMRnZSRHRFRndDYlQyUlFsZ3lOMm4ya2JTZjNGWU80YWtHREhjYnBOVXdCOEYyVHJBSzhReGZnYkxRMm9KNzNmSGZSYlN5UERZdVBlUzdJczNtOE8tNnQ2RVBXaTJTNjhHSW9WUmtxQXdMaDFpTl9QTzl5bFV6Q09tRUxpV28yZw?oc=5",
+      "title": "Verisk Analytics Inc (VRSK) Shares Fall 3.5% -- What GF Score of 87 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-17T23:24:26+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-17T23:24:26+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSK/history",
+      "title": "VRSK daily price history (Yahoo Finance)",
+      "snippet": "close 202.09 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

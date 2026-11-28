@@ -1,0 +1,121 @@
+{
+  "ticker": "MSCI",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MSCI\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 4,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWG5zWHNXeVkxbmxtTWR1Z2tXNDkyOGVubXBpYy15NnNrSzVydWFlcjV3TlV3V3c4U1ZvanhUOXhnTG51NUh4Rkd6SFM3czM4cEZ2X0NYTlQwejVRc3hfXzd0aGpieUZjV0NUWnFyODczRTZmdkJoOHBUdzVSMHVEYU9pNUFUTnd6MjEyMUhRWlBxVVVYdnRUV2FqNGFYcGo1YUZJNDJ4cWNIUjU4Q2l3aXJScW56Z3FoZHhyMENzMDBSUUVveE83UF9nRXA?oc=5",
+      "title": "54,109 Shares in MSCI Inc $MSCI Acquired by Advisors Asset Management Inc.",
+      "snippet": "MarketBeat, 2026-11-20T08:11:45+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T08:11:45+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX1hPTU1ndzRlWXN2X0VVRG05aGJka3o1WWRlaHh3TnBLNVVodFRtSmNOYmVlemhtLWVIQmpBSkRHMzdrNUk2RGowNFlSRDVnNVc0a09HZGE5cUpSVkhSVFltbzVCVTBQRXUxbXBfMTFxN1hXdjQ1dEdTRGdnemdtdUliZndiZHBFN0NQY3hsQk5mXzhRbVd1dXZIcF9TYzNoeFE?oc=5",
+      "title": "Emerging Markets Face Bear Market as MSCI Index Drops Over 20%",
+      "snippet": "GuruFocus, 2026-11-20T03:04:30+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-20T03:04:30+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYllCUFZ3aG0wSW5LLTVvZ0tSYzREQjk2Z0pLWHVnN1JpR3V2UWdXRGhUclZxZmRwNFZ0VWs2dmtrY0NGS3JUOEQ1QUo0a1I4U29GNlpuYll2VlROOGtEZGVXOHRHUnhwaDkxQWVIUFZtTTRQYjJPTEx4OTJYQTZpN3J1NndhcUpEaWlLbEJUczd3X2ZRTV9rQ0pwS291Vms?oc=5",
+      "title": "Strategy (MSTR) On Bitcoin Buying And MSCI Exit Still Looks Undervalued",
+      "snippet": "Yahoo Finance, 2026-11-19T21:14:24+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T21:14:24+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY2Q3aWVLUzNLY1U1dW5CcXJYakZ0dy1MTWlheDBGWkpUdHBQY3J4NUM5eGdvZHR1NG50SVQ1eHEtV2s0blAxVlVYeW5DZEd1S28zS0ZaX3M0M1RVX0hzb3ZBb3VmX2ozNHduRzVkUWNYbGlHM1RBMU5icHNkLWFqeFlaWUt3aDk3LWY2VQ?oc=5",
+      "title": "MSCI (MSCI) Up 5.4% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-11-19T15:30:05+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T15:30:05+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDVVZFp6UV9kRWlBR1hkSFpCMzFxMHpla0trS0Nfa0lYTS1iRm1mZGNTWmpNRnA0VnpWTzRobEZ1TGFoZkp4MUJoc0puRFppRHlNVW9MNW5VTi05R0VDS29ESU4xQV9abzVBYjNvN3U2WFJXVlRHemJldEFtcHRPdmdHdlYyWjdmaUFWRlVXb0ZyWnptejdpMXlncm00S055YUZCN25sZWJSTjZ2eHFVODNqX1JEQQ?oc=5",
+      "title": "Strategy Just Got Dropped From MSCI\u2019s Indexes. Can It Keep Buying Bitcoin?",
+      "snippet": "The Motley Fool, 2026-11-19T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVFBUQ1FwamgxNjlCRUtpVzZCclpFYmNaRHZQMXdnV28zbFBTa1Jpa1FBVnVTR1dLbEhHLUViQk1CX1YybDE5UDFQN0xFSlNmSVIyOXBjLTUzTHhSTmkxaHI4bHNsWXR5V2xWaXNZVERNYnBOc2dfSGctZXJtdU1TVEltWTBzOTRPMnd1anRXNlhMdzdCTjVIZDBR?oc=5",
+      "title": "Anthropic To Join MSCI Large Cap And FTSE Global Indexes After Record IPO",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSGZhbk54U2dsR3VXS2d0RkgyNzI5Qmh3Z0prQzZtckdEeFVINGVuNnVyc19oV1ZZU0NINlpBUE0yamtQWnVnVmZwQUpKOW9BVGNSWW5jd0dJVFBMUWRQZ1lmemVKVU5PV25ZYjJaQXR1TC1iZ2w1QktMTVY3anlfOGE0U0ZpM2xZbmxCVWRjbXYxY2tO?oc=5",
+      "title": "Strategy stock falls nearly 5% as MSCI index removal triggers forced selling and intensifies selling pressure",
+      "snippet": "Traders Union, 2026-11-19T04:53:26+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-19T04:53:26+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.772,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MSCI/history",
+      "title": "MSCI daily price history (Yahoo Finance)",
+      "snippet": "close 610.48 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

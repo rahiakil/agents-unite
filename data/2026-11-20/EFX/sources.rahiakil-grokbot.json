@@ -1,0 +1,121 @@
+{
+  "ticker": "EFX",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Equifax\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 18,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMGlkUFpfM3JPakNvME9YVzNPQ0NGR1Z0LXBsMGhEd25QQ3pGaThnU0lJVEVEa0U1M25IMVhEcXhkME9aM0tNX0xyQVlVSE4zWTFLTHNxVVBFbnJrTC1JdllDOFM5NE9wb1BRcnl6NHR6aTF5b3lENXpLOFJOSUtTTmI1ejVHT3NZTVFWeGQwbzlWZ2ladkxDUFRFYU5PWEZQQzFMWUFFQzQtS0psU05oZHh5TmQzR1FSTEVQUmRQSWVfNktIOS0xZ3AtU0FvX0N3UGp5S3AwRzd0MFFobEF4bw?oc=5",
+      "title": "Equifax Inc. stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T22:04:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:04:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGRsbFVwS09RVFlCMUJUVGZyc3VWX3FfRG5LaDlEME15bzdWeVg3VnFER0tqUlR6d1RLRldWdXFmRDNFS09vajlaTUlZUFFvNWplSkJoWlc4Zm1KcGxCekRDVDJZSjdzWUw4SVZGTDFrd0FmcEJvZlExRThTQU1TSXU2WENqOWJHenZvTUFLQQ?oc=5",
+      "title": "Equifax (EFX) Up 2.3% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNy1nSHpkdzlzMFpkcEJ1ekwwSHNPN1hfb3pkRERFNWV3Qlpocld6Vk9xb1VYdzdmS3JoVktIR3BDc3pnN05uQVA5NkplQkRCeXByYzU2Z1VSTzBPMFhnVWlUZE9aMGE5SVFhOFYyeFdGa2xJOXNJaEhGT1o2RU9NSFhQRW94V3BraXNFWFlrVV9qR0ZWaTB3akE5RG90T0RYYnR1YW9zc08wYi1pNVJDX0xUYjVLbTBLd1Q4N1NrbzdKQ1BZYVlR?oc=5",
+      "title": "Equifax Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T21:30:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T21:30:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMUVGOFUybjdJdXZ1MmFGU2ZaM0lUbTNMbi1BbkxWTHRRSW9Jc01NWFluaV9OV0tDcG1rVEFnUUZDd2Nac3NZN0xhTWNtZFY1cDl2SGlzMEZKNTdUclBFRHI5cGV1Nk5SRVJrZzVXZkU4OU9zZmk5VkZWdTF1NXk4OHV3RXVTZ0F5UXJneGFTWk9HYkJZdTZmNEQxcF9Cdw?oc=5",
+      "title": "Zoom, Salesforce, HSBC, and Equifax Named in an Optimizely Data Breach",
+      "snippet": "TipRanks, 2026-11-17T08:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORXpRYUg4SHhMOGM2NmpKSTdydTVJWFVLVGd1TkZ3eWh0MFlORFFQUG1XSEJhLTVPYjRBejFnY3loX0VrMHBqa3lVS2xiY3FiM2owMHZLbXJVQlFNUV9EdUtFaGU1NlZObkUyUHZnaXNLb1NwOUljQV9PbGEtTWdIaEJwODdHTVlsSGVoQkE2U3JkLUE?oc=5",
+      "title": "HCKT vs. EFX: Which Stock Is the Better Value Option?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ2RqTlRDTU9KcXpSZVdOSXE4WS1sbVBoX0hVT1A1c2tWLUQxbGJ4UkJLQkt2Qnd6ZDB6S256aGVBc19SN0k0cEFCMUp4QzI5OWZGc3FUR3Q1YXBjLXk1SGstVUNrN1l0MlJzMDZsYUd4UU9LWFlFTkdNWFRUQmYyZlRIcGNfMENEVGMzMEItV2IzUWFUamJabnUzUi02UXZxYTJkTklxOHpWYnh2Q1BNcW5KZTBUdGs?oc=5",
+      "title": "Equifax at J.P. Morgan conference: growth leans on data, AI By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-17T08:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVlieU9XbzVtZmw4YUlQQ3AwbWw4eUpCMmxPWWVMZHE5VTdReFJUYWxSVFE5Y1YtbFBSbDAwYmtlTTR5Y01HcjlkdElRQXRkY3pJMi1IWVVxcjlvbEZhYkZyanNTWWVLaGttX2M2ampIOUNETURJRjlqQ1pvSVhnQnVoay02QTFEZ1FnZW9VRTk2N3ZBZE00OUQ3LW94NlpjV0FneC1TYVYtRDNzXzZYVTFBYVZSZjFU?oc=5",
+      "title": "BMO raises Equifax stock price target on mortgage outlook",
+      "snippet": "Investing.com, 2026-11-17T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EFX/history",
+      "title": "EFX daily price history (Yahoo Finance)",
+      "snippet": "close 177.19 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

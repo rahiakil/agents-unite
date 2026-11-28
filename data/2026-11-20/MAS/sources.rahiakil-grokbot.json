@@ -1,0 +1,97 @@
+{
+  "ticker": "MAS",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Masco\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FbTk3WVZyMl85c0c1eHFDY2F2cXNhNl9SMURtQU5rUmlaWG1nQ3c2aEZlSm5KdnhCYkxzMW0xNUhEdkN6aHZfQTVtRkQtbEFQWDNJRA?oc=5",
+      "title": "Masco (NYSE:MAS) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-20T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-20T21:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2RuM0R6RGlTLUMtTDdlTGhJOTA2MGF2QnRtXzNNRUVfWmRQSnhfU0gxQlJPcFJrNW5CeDhSSUpWaE9JNmdDQWlHRWRPVUJLenE3WDQ0cG9RNWoxejBORDFBN3R3b29XRUJnWUhmYi1QOXhSdEZ3bWw0N0JyRjZvTUtrNDlwelBiMkpOdnEwR3MzckJTSVE?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Masco Stock?",
+      "snippet": "Barchart.com, 2026-11-19T10:49:50+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-19T10:49:50+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQanNDbGF1SVQ3VWd3RzdFTWVYdmJrUks2enIzZEN3cTd4NFAzWG9sbVBOczR6ZkVPUF92dnZ6ZWNud1o5d3J5MzhWd2o1WFVsUTdGTFRHdzRZNnhyem5aSDRWR0hFOWMtaG9fYk9vanplSzRzbG5VTFNEdENkYUNQcFdxWGJ2eFZyWlpxR2ludk1UR0lnV1NuYQ?oc=5",
+      "title": "Is Masco (MAS) Trading Below Fair Value On Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-11-18T19:07:07+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T19:07:07+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVTl3dkRQTjhsYmJPVFZsOWxpZTkzQnpHRnRwSXQzX3ctNWhYSEVjeVh1VFdjNFhnMk4zaUhRQVRhbnM4YmI1QjdOWW80RFNYNEpfT2hxdGcxZTZlblQ0UFVOVjlUZE90VjdlYmhuYTl0WWFkYml6UlNWR18zYUxEVmRxUUhaOGkxbktsNl85WjBVcWYxMmk0U3JEdUpQbEQwSkZ2Q3g4djE1MWZOWVpwSU9VOWloZldDbDNyRGc4bFdqZHU4VmhMbDNUSy1XSUMwV0YtQzdqbnB5MHVuVXc?oc=5",
+      "title": "Masco Stock: Price Action, Valuation and Momentum",
+      "snippet": "Kalkine India, 2026-11-18T17:46:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-18T17:46:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWxJMHoxZW1xMWZaLVplYTlMZmdJNmdtRHNTRTFGcTNRYzJpd3FDTG5Pd2ZzVWNmTDRiQU9kOHNjYnNvVHJ6SGVUdUtlLU5DblUwTkh1SFpZdUNFRExieldDSW9ERVdsQklWemhqbldIcGRjMTNkWHVvUGhncEpSVV81YW1QR0hTd1lmdVUtOGtvVzlIOGc?oc=5",
+      "title": "Masco: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-17T21:50:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T21:50:02+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAS/history",
+      "title": "MAS daily price history (Yahoo Finance)",
+      "snippet": "close 82.6 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

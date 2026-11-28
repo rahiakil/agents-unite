@@ -1,0 +1,97 @@
+{
+  "ticker": "FDXF",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx Freight\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRk44VnpfZmtzem8zZkE5clZFamJkVjUyMi01bGVHU3NrUzBJWmp1bTNxaWNKNHBLYVFnWkdhZ25DSUwtUjVNM2hlaVRIN1kwUlF0SW1vRWNNVG9MLUNNUnhxNWczaGZQRkpYMzVTRW1MaGRZRUg5Rl9HM2RoVnhnYzFVZzZhN2doek1hY2UxeGN1X18yOHZ4R2ZsMmdBYllkZjZqMFVaLVYxb2ZwRzZxMkg4S0dCZw?oc=5",
+      "title": "Form 144 FedEx Freight Holding Company For: 18 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-18T09:16:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-18T09:16:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT3VMQkNfUGs0emJCcFQ5bkE4VjJudmxnQUVKNVg2ODN5SzlnUzdUX3JWcTdpS3RwTU9iQ2ZmNGNSdncyUjZrbkpvZGxjeW9oTVpmQjh5Y19FbTIxQUNNUjNSclN1bGpSc01MS29JVE1iSUU5Q3ZYN0phakpBM1dCWTdEQWpOdlcwc1JQUGV6cFVHbjFBNlpJTDR5R24ydzRGMkhRYm93?oc=5",
+      "title": "Special Deliveries from FedEx Freight Bring Christmas Spirit to Military Families",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PMUNTZklFZmpnQ3N2TVV2dWJWRmptSHdRLWM1czU1WVZVNlBGYWFDZTh4dU1kbU5lZGRvREkwZGF2WVBfenNvZDJlc0p1V2NYTG9OOUxpOENPZl9IdERvbWZTQ1B4V2l6T0hSbU50dVd6M3N4d1M4?oc=5",
+      "title": "FedEx Freight (FDXF) Institutional Ownership 2026",
+      "snippet": "MarketBeat, 2026-11-18T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTmN2UzR1dnl5VDJLY0ZTalZQakJzU3NsYWJpeTRsam85b2M0WDJlSmttaHpYVGlFamdFZzk1bGtsdkV2Y3JxSTlKeThhMUJIUTFwOHJITHpDa2hpaDVNZ3JfajFuclhMT2hsLTUzV3lzWnpaMlYtc2wzcHA2T2l2TDhyTDE2aGktTUFLU2pFZUFaVkIyTlFB?oc=5",
+      "title": "Michael Lyons Files to Sell 4,235 FedEx Freight Shares",
+      "snippet": "kalkine.com, 2026-11-17T22:41:06+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-17T22:41:06+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdWpuTlYxOEVDdVNuSlZLOUdaLXljZ0owN3Q3S2RjMTlYaFZyRFNoWm9ETV9oQlo2YzFsWFlyUThTbXJOemZxclViQ3I0V1Bka1JUYkV4V2ZCcTk4VjVQTEZBTXo1V19XUTEwVVJUOHYwcEttNHk2eERqalZHTTBDMWpHRVpNMDNzVHB1NENIQkZuWHJFTUtucWFVcTVHcXFjcVpnaWdHYnFQb1FIaDdQcg?oc=5",
+      "title": "Former officer Michael Lyons proposes selling 4,235 FedEx Freight (FDXF) shares.",
+      "snippet": "Stock Titan, 2026-11-17T22:09:58+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-17T22:09:58+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDXF/history",
+      "title": "FDXF daily price history (Yahoo Finance)",
+      "snippet": "close 118.54 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

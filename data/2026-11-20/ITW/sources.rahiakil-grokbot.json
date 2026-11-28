@@ -1,0 +1,37 @@
+{
+  "ticker": "ITW",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": true,
+  "news_query": "\"Illinois Tool Works\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ITW/history",
+      "title": "ITW daily price history (Yahoo Finance)",
+      "snippet": "close 273.57 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "URI",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUEVPN2J4NVVmZFNrTGY1QzlfVHJaaXFwNGtpNFdKR0daa242Qkg5ZzZiVU00M2NFWkgxalpUeExlOFRITExIeVY2RXVYM3AwSEh0Vm93ZWJ1U0MyRGhIc1dmdGM5dmlsczNrUUVIUzZYU3hzYXNXUG9tUXhnN1ZlV2ppWWpPVHhQUWNWWm1oQWp2OFQw?oc=5",
+      "title": "United Rentals (URI) Down 4.6% Since Last Earnings Report: Can It Rebound?",
+      "snippet": "Yahoo Finance, 2026-11-20T15:30:11+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T15:30:11+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ0hRdm5UWWotV3Fjd01xU1U2cWtOTHZ3SXVsc3Vaa0VOUTV3RV93VjJEQkJMWDJiTTNqVW80dEcxRWdfN0tldGEzeGlFZHE1ZXJFQlBDVW56RExtejBzb25MbXlJVmlvbU9LLTA3SXRtZ1hkbG5RSnN5ckpkWmlhUzNzMVlkaElHZVZ4OHVsTVhfcjNYVU9wRlA2SHhqS0FySFVEZ1E3NjVmUUh4RXQ4?oc=5",
+      "title": "United Rentals (NYSE:URI) Rides The AI Construction Boom. What\u2019s Next?",
+      "snippet": "Kalkine Media, 2026-11-20T14:33:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T14:33:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQzlSUURsNVJSb29rU2F4dnY0bHQxTUFmeWdtOHB3ZzBrcGVpcmMyT0VZYmNtSlNxeDBmekw5SmtXMTIzbXUtQ0JlcmR2Snh2WExId3BTVjZkYkRONEVlWGFZUkhObjJwSXQ0NmF2UXkxaDNrVzI1Wmp1VGRVcHlkWkF4eEdVVVRLTDhHQWx1NHhtWnJxN0w5aWEwOTliMk9Scjl0R3FXMGExQVBtMHpEdFRMR2hPdEZIR2JfQ1VjcnFOM0dmdVFFRVh5VE1leWVS?oc=5",
+      "title": "United Rentals (NYSE:URI) Stock Breaks Below 50-Day Moving Average - What's Next?",
+      "snippet": "MarketBeat, 2026-11-20T11:10:55+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T11:10:55+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0tPT2duRllzVXJMYmdkZmN2el8xLWVQbGN3RDRFNVBsNVQ5aGd5c2c2U3ptY3Y1a1lqLVpjOG5QRFhTSjY3QmdOUWZwMzdQWGZiT2VTUDBSd0tKVU9DX1FvWk1kNVpKQ3laaUpGbXM3bXlTVzY5eEZfNTVCQkZGOUt1eEJZaFZHRHFxbDZjWmEtcjJxb3c?oc=5",
+      "title": "United Rentals Climbs 17% in 6 Months: Should You Buy the Stock?",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 973.43 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

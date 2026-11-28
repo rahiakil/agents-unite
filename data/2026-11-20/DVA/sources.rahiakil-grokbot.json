@@ -1,0 +1,109 @@
+{
+  "ticker": "DVA",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DaVita\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLUMtS1ZERXVJZFBHYkJBMjIzVUp4REdMajFtR1BSTnd1N2VzcTdkRmtxbjNQekV3RnF2TkJvRVlGSzl6Mmo3YmJvQWdUcE5nSnI2Y3ExUElCVHcyQmlOM3M2VVZ5bEN1MFBIUXNBa0JPb29iOWNrS0xSUWVlcXZaemlXV3B0UzlNdjVFeUVURVVYME1ScTFfaTZQV2l5Z2MxS3BlbVRYVUxxcnZyQVFTSWU2S2Zla1ZucTZGY1BmOA?oc=5",
+      "title": "Why Is DaVita (NYSE:DVA) Stock Up 4% in US Trading After a 16% Slide Over the Past Month?",
+      "snippet": "Kalkine, 2026-11-20T20:25:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-20T20:25:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbmFwcmxLSzJXakpWejZRSjJWaWVPNVVWb1BNeU4wMGJxNmE2UDk3cGF5eGxmTWRkVTNCcHFpOFowSEpSdnJlVHpmbEZ6dVNwSGFJYzdNLTVGU1BCdnJMcllwRlRMTkF3czBDeWxjSmRoNHlsalFRdFNOb3NfU2NSWnNOd0lucmNQZU45Tnp4LTRuaTVGbzJMZGpQdUI3TW8?oc=5",
+      "title": "Do You Like Cash? Consider DaVita Stock",
+      "snippet": "Trefis, 2026-11-20T09:42:34+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-20T09:42:34+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPemRFby1IR0xmVXQyeElLeThjSlpmVTVEaGhQMjRUejI2Z1BfZEdjSzhwVk1iQTBqZGxldHpwUHBVdldZMmNORlNRdldTdTE0bjktYzVOTFc2TkNsVVhOd2Q3TmVIZmVNb0FzWWdFY1B5WlIxRTUxRHRYclU3Y3F0aDluak5DY1VuSDJheDFId3hsR1YwQVV6STNfLVNWYkVvdk55SDR3U2pFeUNoV0xkYklDWkNPZVFGVWdvNURvdjdqck5I?oc=5",
+      "title": "DaVita Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-19T22:14:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:14:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MNDc3NUsyeURpSDRGMVkxVjVSMnYyNzdWYWpFcmRlWEZyeVJuaGVTWWplMm1vSkw5ZjlFMHdlWmF3anZ5MmRMYl9DUDdGNE80UEd6TVlGTUozUnpmekV0MEQydXlWMFlSNzZXNTJXMUJCVG9Ga2xGalZ3RdIBgAFBVV95cUxQdDVpNGdqS0U3Ni1MeE81RXRqNktiNGVLRDFYWHBKV2VFdFZhdEs2czIyX0tVRTVkSDEtNXRleENXUHRzTWhYcklhdjNheGNxSkEtUjFIZlpVdU9kWVI5eVdOc0h4NkMwVmFBX0Q3ZTBmcm54bzdkcmkzMXdVbWVDUQ?oc=5",
+      "title": "DaVita Drops 5.5% Amid Sector-Wide Selling",
+      "snippet": "AlphaStreet, 2026-11-19T21:36:37+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-11-19T21:36:37+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWWNneThQeGRWX2NIenhocDJtaU94ZWZiUjlHNElsY1pkY18yRkw1TmNqX2hNUlFJZ2tzT2ZfYUtsMHdXY1lsXzVJa3hTUU1fUDMwSUFfVG1TLTVnMnBlLXZaeS1aRzQxdDA5aUNUYlFPY3dNV0lyNTlXNnVUOWF5M0RuVGdGVFBaVEhIYWEtLVdFWUU?oc=5",
+      "title": "DaVita Inc. (DVA) Stock forecasts",
+      "snippet": "Yahoo Finance Singapore, 2026-11-19T06:52:30+00:00",
+      "publisher": "Yahoo Finance Singapore",
+      "published": "2026-11-19T06:52:30+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbktZREhKMkFpcHNVb0dvTHRDejFxV3JQXzlqTktoZzduSTJlYzQ2NDEzajdpMWo5Rkt2SWFwWTlPSi0yb3dDRi1GcVNwbjF1MnhBQjBQWGJKdkJieGVGTEUwRFZwYnZya25PaldjaEpZTU0zNW93R05pVDhDV0ZOSDRZNjVhQndUanMtYXlQVXBYSUFEdlBHSmhkYnFTYU0?oc=5",
+      "title": "DaVita Inc (DVA) Stock Down 6.5% -- Now Undervalued? GF Score: 8",
+      "snippet": "GuruFocus, 2026-11-19T00:12:04+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-19T00:12:04+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVA/history",
+      "title": "DVA daily price history (Yahoo Finance)",
+      "snippet": "close 161.03 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

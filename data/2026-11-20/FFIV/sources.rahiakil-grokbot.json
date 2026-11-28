@@ -1,0 +1,142 @@
+{
+  "ticker": "FFIV",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"F5\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNnNydE1mWlNPUjFPY1luQVZBTkQzSm1OZ25IQnlmbWtTeWQ4dWItN2d5eUNFUzNId3BhQlY1RWl1amhMYVNfQzhkNTlLZ0E3MGRvWkE3aV9UeWRCb3VaRWhhdEtiMFl0czA1aDZJYWhBbFFlYURjOUFMTy03MnpOaWk0c0MydUZBbEFySWI5ajltY2Nmc2t3ZA?oc=5",
+      "title": "PENG or FFIV: Which Is the Better Value Stock Right Now?",
+      "snippet": "Yahoo Finance, 2026-11-19T15:40:02+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T15:40:02+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcVZEQzJlUWlqX0liRVI0b0Fya2RhcEo3Wk1RdVU4OTdaMTR4ckNXUmFlVTJDQW0yOGRBdHFqRGdRV3JmY0JUdE5tMnlDY21Zcjk1cDlQdV9Lc2NVdVhEeXBWYzB3aGhwbkFDN00tVHpvYzJHOTRVN3puSWZBcmJ3U01hNHl6SnFLY05wZE93?oc=5",
+      "title": "F5 Releases Fixes for Two Critical NGINX Security Flaws",
+      "snippet": "JournalArta, 2026-11-19T08:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanhySGxHMjUwMHZyZk5OWmhPVExQSW1tWV9iNks0MTJ1TjVlZTBOMDI1dEhYbzB5NVBOenRwM3I1VlpOY3pNVmRzVTNPejd2eWxiQU9TSV9KeVBjOGlCR2tlcmdlbnFWLXhUekxXRDVoMWVUMmpXaVhQS2tOemhmbmRGUE1hclFk?oc=5",
+      "title": "F5 stock gains more than 5% after strong revenue growth and new buyback authorization",
+      "snippet": "Traders Union, 2026-11-19T04:17:27+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-19T04:17:27+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.844,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSHBscEw1THQwNEN5RDFKNDNnLVc1a3c5WTFEX3BqRWdVMXR1ZlZFZy0xSHpGdWtVWlNSekVTYkp6YmRvT25OcE5lOXNwVTBRbVBONkI3UXYwb2U3UFZQUngtVWJKZV84b0Y2WkdxRGVrVUlpWUFRUjdfaEJJQlV2a1RlTE1fNDN0YUkwOFlOdU5kOWpYYnNueXlDM3UwWFBaSEpaVWd0SVNxU2NiWGl3MllPMHViYklXanc?oc=5",
+      "title": "F5 Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-18T21:30:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T21:30:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdzdDbXlYQ1E2UnB1ZUk5a28yclZMc0c2RHJmVXFhZ21mT3UzQlRfdHJWXzY5OTI2bnFFM3BkaEVIRGQzc3FQcUZhVUZ1MGFfM0d3LWwwZnpFMzQ1djF5WFJfem9kc3k0NGpzWmwwQVZWa2h3dkQ0VmpWUkZaN0cwMzRBTGszNG5jLVNPdTlVTXQ2cXNxYTYzSFZXR1ZtVm04QjRIRFk1aEJrSlJjSkgwTDhGdVhWYXZzYXRmYUlTN3JtcFgxUmhKY1lEeVd2VDI4NV9NVGQyTQ?oc=5",
+      "title": "F5 Stock: Price Action, Valuation and Momentum",
+      "snippet": "Kalkine India, 2026-11-18T17:12:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-18T17:12:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFg4amZBa1RvZkpxTEdaN19KeDN2TDRTT25VRU02Q1luNzg0bDJETG9RZEZaNjFNR1o5MmJCUjEzd2trcnRuZzQxQkVZaHVNNkw5dElSUTVQeGhCd1pWVGJVQi1jYkhHcnpHT1FjVVpvZURsYmdEVkhYaGowZnlmV2lfdGhhNVNwR2FTaXFmNA?oc=5",
+      "title": "F5, Inc. (FFIV) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc2NXTnprMWhRamV2SFNHbkh6SGxrNDVfMEJtaW9aSzRicHVPVHpQdTd0SUliY3pmUGtGMFJIc0tPSXdBWVYxNFNGSnFvNUR5azZQUDA4eHFtMHN4S1NWeF92Q2dPblZzRW1YMHBuUXRRaVZEdHgycFFYUkR2dTVKMjg3ejBGYTh6N3lMdlVrMnpQZw?oc=5",
+      "title": "F5: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWDZDdlFYM0gzc2JXdXNxR3ZNTmxiRmZycTFkWGlqN0VGQ3otbHdOM2JfaDNMSmlKVWVwUzJ2ZnBuWlVjY2h1N0ZyZ2VWMDVnZk1ETGxaTWIyYU1xQVdDeFVKRmFMeV9xQlRpakgwQ0F2dFFnMkpJNEtDOWVhLUI5RzZDZV9OclhrUmxqZHhQWVVrVXE2UmFIZ0dhbzB4RUpHbGE4elBMQlZYZkM2N1E?oc=5",
+      "title": "F5 FY 2026: Revenue $3.42B, EPS $12.52 - 10-K Summary",
+      "snippet": "TradingView, 2026-11-17T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000077/ffiv-20260930.htm",
+      "title": "SEC 10-K filed 2026-11-17",
+      "snippet": "10-K",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FFIV/history",
+      "title": "FFIV daily price history (Yahoo Finance)",
+      "snippet": "close 303.99 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

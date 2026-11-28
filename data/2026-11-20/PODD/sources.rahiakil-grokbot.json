@@ -1,0 +1,118 @@
+{
+  "ticker": "PODD",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Insulet\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTmxSV00tWXpseklvNnVGUk9JOE5nUlVFZ21tUVM3alh1Smp0bVJhNjI1UkdLdlMtQmc3TUVMMVRpRi00NkhIQUlwT29jZUFNcHUteFpvUUJZM0hVYmp5dHMxanNsNFRpSXNyaG83eUhndllxdmljY2xqMkNuTVJKbzl6UUlfcTlBNV9tOW5TOGtiNUZaenpoaUxnMDA?oc=5",
+      "title": "Insulet downgraded by Robert W. Baird with a new price target",
+      "snippet": "Quantisnow, 2026-11-20T12:40:11+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-20T12:40:11+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWjhvYXpEajRSdmdlbG8xeXp5eHBDOU5JdEFxdW55N3ZNQmFJT25XNmVKZWdiLWpPU1RaUVdLRVpwWXF5OTRKcUp6dEVqM0RqRV9pVWdPV2dmRFc2STI1OFdUREk5NnpaMlQwSjA1TUxYakd1YndXTV9VVXZqNFM3TlBLUHg3SVNZSi1KWGFaTWZ2QU5oLVpZNzFaMkJYVnF3V25WTGMwbzQyazdTNDhtQ1M5eEFJd0Y1aHJOQWdzbw?oc=5",
+      "title": "Baird downgrades Insulet stock rating on market share concerns",
+      "snippet": "Investing.com, 2026-11-20T07:16:46+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-20T07:16:46+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZkRnTi14Rm1Bb1p4VzB0cENUVTJjampIdXlZZUpKWU13N3cwT1EwRWtyXzlkRDZ4anZWSEdJNlg1Um84RGdtRU9zTWRySzdsVVJDbXFCTEp1cVVSWjZuWVZyR1FpNW9JWlFCQVljRmQzOWlHQXQwNndab3pYNS1KTU9sZWpnTTVUREJONEl3S0FjSXo0M2hvNnFlMVJrYUk0Sll0YTFrbXRTLUJkaTAwNFM3V0ZUVHBNejNYVjBzUUlOak5DZFVn?oc=5",
+      "title": "Insulet Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-19T22:14:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:14:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSW1aRURFNDJDZFpMTU8wWlU0SEMxNTkzcXNxSjk5eUdDdFk4WlJYaFMzYmlkWmhySlhDZWVYeVhXdmtPZk16WkdPTXZVbE9nNktvVno3QzNsOVpkVlVoWks5cXNsejFMcFFWNVc2TnB2REZzNlRGdmsxLU5MLTRGcFZQRTRKRExBQTREQzBR?oc=5",
+      "title": "Tandem upgraded, Insulet downgraded at Stifel on market for tubeless insulin pumps",
+      "snippet": "Seeking Alpha, 2026-11-18T18:32:25+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-18T18:32:25+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOd1JUWko0emx4akV1ODlFbHNibVFHMnVnZ1c3OWxPcmFBSHpURXYyd19xcWZzTGdHUHNpXzhyZXI1YUNXMkNvWlNGQnIybHdzZnBaOGxSbE1HOGNMSUpJX2hCTGhadFVDR0RJNzN1a0F2cktNc3VvMlR4YmFyd3pQcmlmdmF0Qk5jM29GSE52SnRaa3FBTFNOMzZSQi03UjcwWjhMd1BXT1lsX2tVT3g3MnVzQ192M080U2N1V3lJRnZGZWdtNDYwekhrMk1yMWw2UzdLbHRyY0lLNWttZ3BRYjFtSldYUHZmb2c?oc=5",
+      "title": "This Insulet Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Wednesday",
+      "snippet": "Benzinga, 2026-11-18T13:13:44+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-18T13:13:44+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.754,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEdXNENwSDBSMlpHTnpYT2ZaSzRub2tUbHQ2REVNT19UU0FhYjAwanEtTGlTblFyYm9MdHBheldVZTZKNzJ1SGVLN2E2Wms1MEdpNlExYmlkUldhSy1ZdVZOS1BJamxqWE1UVW9lYXVDQXYwLUs3a0F0VFNYazBNSE1TYVZWXzN0MFRKVXg4UjBpMTJtSUlvRW1JbTVhWW5kQmZmYjJ4UFRfMGEtZmJhbVQ1M0E5NW5TOFM4cW00RG8?oc=5",
+      "title": "Stifel downgrades Insulet stock rating on U.S. momentum concerns By Investing.com",
+      "snippet": "Investing.com India, 2026-11-18T08:36:50+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-18T08:36:50+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000195/podd-20261119.htm",
+      "title": "SEC 8-K filed 2026-11-20",
+      "snippet": "items 5.02",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PODD/history",
+      "title": "PODD daily price history (Yahoo Finance)",
+      "snippet": "close 133.17 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

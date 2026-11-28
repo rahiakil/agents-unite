@@ -1,0 +1,109 @@
+{
+  "ticker": "HAS",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hasbro\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaHlKeENpbDZkSTNDWVFQSUhrV05VNThDaldqSFFWLUtHb0NBTzU4UmdmNU9ab19hQlJSX29TMEFGTHQxblJpUllzSzVTVTg5bDNKcEMzZHJZdjlsR1cyeTVkTXNvRkdGYWJiVDNLUS1yOHNFTHo3ay16dklLaUxUQ2Zwc1F4YVA0WTVWQUtJRFRRM0ZiOGh3NVJMeEM5Zw?oc=5",
+      "title": "Hasbro Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-20T10:34:48+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T10:34:48+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVmhpN1MwcURCNnk3VnZXeVhJTE1XSkptSm9NVTB0SmNHNjNSYXF4LUhyTnNnREdWMm9xclJUV2h0WWZDeFlHUkFDVDRlcFVlS2JwOVhvbnVrSlBIWkZvaHhsOGNSdlBHOXZ1eWIzTmJqRDdxM1VFcXZHZzF2RXhYTV9nY1g1TDl6MXFiZnZtQks5Zm5BM2Y0VVM0N3FrTHk1?oc=5",
+      "title": "Hasbro Inc (HAS) Shares Fall 3.3% -- GF Value Says Still Overval",
+      "snippet": "GuruFocus, 2026-11-19T23:48:35+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-19T23:48:35+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ2NvRndldGFzRDZxQkFwNWwwMEFvbDZZSlZNLUgyVzB3VVl5X01Rb09vMUVhbVpUNVdEbzk0V2hDbWxwNm9pYTFyWE5uZ0x0TllXMklxZkNKQkFJVThpSnJPZHlCTUtCbWs5TUtyYldwSXM2RHRybThqcmMyeW5oRDcwbFpucWlUVWtFUVNGcXJ1UXFKRWxLWUFkeGkxZVduQ1hSUHQ3cmhYcXJEUnV2blh5MWR5bGRlSGN0RElqYkgxZDBl?oc=5",
+      "title": "Hasbro Inc. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-19T22:07:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:07:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3FTT05yUWc3N2ZGb0hSMkt3WVo0R3VLUFR1clZYVlF3Rm1WNER0UVBBYWh3Q0kyT1h4UHgzR2NvdF95eGdTX2w4aF9vTWl2Z2tqcXNfUFMwUE5EN2U1UXdyaklUVVRfUTFWTzQ0VmtwRlFLMEgzNDA0MW9zLThUUXA3QU5rZThaTnRUdm1tOA?oc=5",
+      "title": "Hasbro (HAS) Up 4.1% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0duTE1IZU5teVQ4OVFETlZXYWpFUHlkWDV2bVpiVWQ3TWpheWlZQjhlSUN6SEt3dW5oRFdwWEplZGg5T0pYaDBvQmFHdWlTTUxhOEMzS2l0UjlUaUFETnRuQmxEbTRpM3VCRWozOXJzNXRCQldJMlphYjkycjMya1ZXSFozV1lhZWd3dG9KZmF0SHItZWJ4aHZyODJqRk9nNnlwS1ZLV1JDTk1IcXU0RnJuSWFfal9reTBfSDVuM3praDRXYWd6NjNnTnY1TXpMRVE?oc=5",
+      "title": "Hasbro Stock: Trading, Earnings and Momentum",
+      "snippet": "Kalkine India, 2026-11-18T17:26:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-18T17:26:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcDRIaHVER2ZJMEZ1S0xCUEdHVlBfT1Q1cWhyMGF3RHJmb1RWSFlTaUNMbTBsVE9faVVvTXpGaVI0a3ZTeXhNZjRzbjg1cVVQUGdIWVV4UVBROTBKS0FHTV9CNHhoQzB3RzlNWkNjcUlTX2ZHeGZjY09OYUNySDU5S0NQV3g2XzQwOU44N05LVEU2UDRDNVRKb21MS092STBh?oc=5",
+      "title": "Will Lower Digital Gaming Spend Improve Hasbro's Future Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAS/history",
+      "title": "HAS daily price history (Yahoo Finance)",
+      "snippet": "close 112.41 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

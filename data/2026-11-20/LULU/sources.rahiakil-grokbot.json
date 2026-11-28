@@ -1,0 +1,97 @@
+{
+  "ticker": "LULU",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lululemon Athletica\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZkFEeXFCUlRLU2s5TFlXdkNTY3ZqcGh3QjRIdXZSdG5ELWZWbVR2bzJkZko0ZnN1RjNMWXFVOWhtZDVKVUlQbjlnN2pKX3I4WGVKU0dTMjlwd2JRUHItUmJwaEw5NUt3Z2JDQ2hSeDNVU0NiT0lFMkJLVmhILXJSWWEwVjk0ck9GNGVhQ0ZkZFAwandhYzUtMXJIUjdGZ05FWERmU3N3?oc=5",
+      "title": "Are Wall Street Analysts Bullish on lululemon athletica Stock?",
+      "snippet": "Yahoo Finance, 2026-11-20T14:56:06+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T14:56:06+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0owLUxHV2txd290VF9BOUJEV0RyaWl0WkNJeXVlNU1VUmU2SW5rdS1RVmg0SDZ0eXU2ZXRNc0ZpNU9OU1Q5RXJDcy05T2wxWUppa1lqb1hxc2RLSnFIYXBVMVo0TGhMMzd0QW1oS1pOUHBQWGZ4bjdBaTc0Wnh5OTlPbnp5WUE1cEFsLWRhUzMtN29RWmFwU0FRNEozazBEVEFfLTlsWFFjUmt2T1RtY19ra1p6bkQtdHlRN2t0cw?oc=5",
+      "title": "Lululemon Athletica (LULU) Stock Latest: Slides 4.74% on Thursday, Up 1% in Five Sessions",
+      "snippet": "JournalArta, 2026-11-20T07:33:39+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-20T07:33:39+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbTZaMHVZcHozMWxrX1pGaVhfeW9SdFVSWW94QzZYSWEtTGVaOVVKSFZhMEF6Zm9aLWNIbkp1eGZPUHpKRllrc19nRzM5RlFFVmhxdnd4WWxTN3pCU2dQa1VidFlMMTA0MHI3Y1g3enhWWWYxUXRrNFE5dG1RNUVDLTJ0X19MUHE4S3pwRXg4UGVYN2V2YkhNczUxQW9WY2JCV0toWWM4WVpwbGRnc1dSNnFqRDlxZW42M1k3Um5LcmF6OTI3Q096QW1pcm1nNVNM?oc=5",
+      "title": "lululemon athletica inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-18T21:30:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T21:30:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT0s1X04zaGhRaUxaemV3MEZ5X1RjaTh0NEpCdkU4ZWxMbTVHV25fN2ZiZkVNdXI2R2I5XzJwR3c5VkxDZlp6NlJmM0VtcDl4c1h5NzVjTVlfTGlqYXVGaEZPcWNxckczb0laalBoLVFreDNyYnB4Qk14NDNqZWRoQmhnVGM4M1U?oc=5",
+      "title": "lululemon athletica climbs 8% as peers gain (LULU:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-18T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVdlNjJEREM3NmFhMTVDb19qZy1HT0thVzFxXzliNEhPWUUtcjFkcG0wWGVHZ0JPUENzZ3pGYUd3T08tcWFHS1prWUczYXJad0NVWE1WQXFsSkIyQmpmU3phME96VWlhLUR0WkgyRUxERlJKTTdGbXlmUHg0V1FDY2F0cVlDRUJUeGpEb3VGR0NHSlowckdZdTU4dDFOQ0R1aC10QUtEUVQzaXZTMXlNTFBB?oc=5",
+      "title": "Lululemon Athletica (LULU) Shares Surge 8% Amid Consumer Discret",
+      "snippet": "GuruFocus, 2026-11-18T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LULU/history",
+      "title": "LULU daily price history (Yahoo Finance)",
+      "snippet": "close 102.62 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

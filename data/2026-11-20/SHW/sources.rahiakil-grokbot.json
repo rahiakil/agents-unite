@@ -1,0 +1,121 @@
+{
+  "ticker": "SHW",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUXhnQTdlNkd3N0lLTW5ncGV0NGFSY21GUldaT0NvSE9NX1ljV2lzc3k0Z0R2clNDOFBINXcxaXE3N3hlVUF1MjlDTEZJa2FSSTFhSzJQa0JoQUZ5MHVWSENLQ1FORG5DcjdmOXlsM1FTUmhEYWJYSGQzcUV0NEl3SWF5YUk5UGFJWWNOTTJWQllLd0ZlR3Fr?oc=5",
+      "title": "Here's Why You Should Hold Onto Sherwin-Williams Stock for Now",
+      "snippet": "Yahoo Finance, 2026-11-20T13:21:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T13:21:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZVVNZUFxTDJDUmV4QkpvWE9tb1lTMUFJaERHWVk2RmFMV2VjbTBadThLU0o3d3NSM2hrNnB5X09GelI2QTdZdXhGQU9CQUQ0R193bm5BSEdUM0JUanBxREI0NkFhWnVFTHVRSkxZVVZXcC1hNzNIYW9KWHRZNEtJQ0twa3ZnZzctRXZzTEFadndtd0pFbFhJbHprck1WZ1hrMjNUdHpLbmRKWEQyVWFzSGZsTHVxOHctZXpTejRiV0toeG9Gb3JfbURzeXdOLWl4SUdN?oc=5",
+      "title": "Sherwin-Williams Co. stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T21:43:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T21:43:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTFEcTN4dlBuX2RiYUdmT2Ytclp5XzVfTEY5SjNwZEM1WVhrVWFWZkI2aHlMS1oxMEN0MTN4TlliZUR3Rk5XNWdzelJRLTFUbHVIbWl2QkJQZTQ3dzJwRUc2cld3RFBsYjRUOFZ2Nmw5VmhLQ3ZNa01xY2Y4STlMbzFTYUJ4TDIxQ3ZPZURn?oc=5",
+      "title": "Church & Dwight, Sherwin-Williams, and Home Dep...",
+      "snippet": "Pluang, 2026-11-19T17:18:50+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-19T17:18:50+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWJhMG1wTGJJSjZBVzlyQXZ5SDlaUTBfTUZ6WTZOaHBYakhQcjAzRGtnT2JXQzZrcUhGWDFZd2JrRkI1ZElfeU11SHlQaXBpZllnZVBWR0h0bmtwWndFRnVqZTh2LTNOcFRqd3plWHJjT1BaNzNsWEowWW90RFdFclBONDZRREo5bGtmNWstQldUYlkya3l0N3I2RTk5X0hYdUJqd19zT1BHZFpUbnNDc2Q3S1JyUl9hMlhENmd0ZTg?oc=5",
+      "title": "Sherwin-Williams stock: Argus reaffirms Buy rating at USD 380",
+      "snippet": "ad-hoc-news.de, 2026-11-19T16:15:43+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-19T16:15:43+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOckxaaDM2S2F2SzJMdWY0eXNOSHFGWFFRSEN2aTk2WjFBUGNCVjRTamxuMkRhaEVVejA4bnMwVHJCaUg1bDRyNWFGQnZoeldLcUVYZy1IeWxIM3pIWm03aHdiN0QwSjZ1VThmMFN1QVE3ZlUxVjR6ZWVaWkx5M0Q0MFI1cmt1NXJLaTZZYWtFaDRoRUp1QU1zaE5pT1Uya1JqbDNyWA?oc=5",
+      "title": "SHW Reiterates by Argus Research -- Price Target Maintained at $380",
+      "snippet": "GuruFocus, 2026-11-18T16:02:39+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T16:02:39+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaElBX3luNlltWUJZeklIc01keHpSazhHczBPWmQtdm91SzNMRkpJQ3U3dTAtOE9IbnJTOFFUNG8zX01DVl9fSDJYUTFUR01TckpHMDAydGMyN2t5MTVQSmw4TTNDd0dnQ2hKYXB4T0R2OWY5Z1g2NnFxWXN0Skx0dmhVRWhFYS13UjFPRGxkeThfZk9Qd0F3?oc=5",
+      "title": "ETFs Are Net Sellers of Sherwin-Williams (SHW) on Nov. 16",
+      "snippet": "GuruFocus, 2026-11-18T13:18:45+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-18T13:18:45+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeDZSZGhRSi0wczZrdEtsWTZyTDktLVRTaXNtVGhwN0ZoYVhWeGFEMU1uSnVITm8ySEdmZ0s2V2xXamhvby1oZEw4ekhrdHZkY29zcHVsOFRqZm9UZS1tVjBjV21ZemZOejNUZzA2T3g3ci1VRWtoRUd5amJQdmZxU01fM290SElmMGw2MloxRzZuZlBiczNWTlByTTlMM282dFhfcw?oc=5",
+      "title": "Do Wall Street Analysts Like Sherwin-Williams Stock?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 339.74 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

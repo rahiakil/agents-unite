@@ -1,0 +1,97 @@
+{
+  "ticker": "IP",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"International Paper\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 7,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUEVPdXp2WGVxYU9oNEQxaGNtd1lOSVNneldtRjlMczJYZTA5M3h6NDVuQU5JTi0yaFVwOGpRQmt0eS1PZHBkd3UySU9feXZGWHQ2c3Y4bjI1eC1QN3Y2ZjIwRGFnR01HUmtxaGp1blAzb3c1UUhaN1o3bjg3WVQ5ZjZmUl9yRjB0WWd0V3lGMk5jWHVPNWx1MVhxUHZBQlJNb2hqTmlsVjBZZDBTcFhzaldLSQ?oc=5",
+      "title": "Unusual Volume Alert: International Paper (NYSE:IP) Shares Slip in Active Trading",
+      "snippet": "kalkine.ca, 2026-11-20T20:48:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-20T20:48:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY05qcVpDTFA0eDdRZXNURkVxT3JWdzV1QU5HQVhsNEpPb0tlcFpyY0cxOWxIMVNPVXp0RV9kejQzNjJhSXUzdGtUV2hwc0hieFU4OWdwa0FKMGRxWWxKZGVxNnJGcFlxdV9BNUFueThmYWduVjJSZFNoWkpiWWIybzlDTEpKY0tnZ2lwaVJzdnlncWpXcE1RcjBGaXdjV0gtb0pFRUJubmZjTmFmNmVMUlNEb2pBSnMteWt0UEFudFhydw?oc=5",
+      "title": "Argus Research downgrades International Paper to Hold from Buy",
+      "snippet": "TradingView, 2026-11-19T15:55:08+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-19T15:55:08+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLXR5dDlXOGhRdEMxVjZ5M3piWjRqV0hGSG1qZl96V191ZWp4MVFqSUlTNVRQY1RUZ3JrVmFOX2JrZ2RKaVk4THZEU1FkdWdjMzZXa213WHk0bFNJNHJyWll0MHdWazMzMW5meng0b1hzM2lzOWRRWU1ELW9Mc2VKei1IZ3JhbnBTblE?oc=5",
+      "title": "International Paper Company (IP) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeDVLWGRaYnhkZ0stX1hNRldsZjFlUmJjSEVPY180RlZZaURTNHBHeVFjNm9pZmVvcEJFb1lYdmxSY0VsTVNkcnhEMXlFRFJEOHpEMEdYMEJROGRfMl9YZ0VPbnE2R2c5UHpJZVFHNDVZSnM1eW4zcVJSTnp1d2lCUXpOTmVlX2FtS3l6d0JjSkd5bmVfN3BQZ3cyY3NwQlRUMlF6V0xHYXhRcTBXRVZnZC1ESHRBWmtxQTBnNVZNWkZCT0k?oc=5",
+      "title": "Argus downgrades International Paper stock rating on weak returns",
+      "snippet": "Investing.com, 2026-11-19T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOci1xLTNObGh3STZvT1hjODRpam42UUV2enNrRElralJWblFNcmRNWGNlMHRmU3o2TEFVMTVsTUwwUVhiYzdRUWZ1N0tpRDh2T081ZVQyempUcm9vd1FnVlFVV1FNcjRXQmI4c1l2b1N5MVBLbDB2eUUxdHZobGNURjc2cDVMSjR5dW9qNGpnR1NjYmR0V0Z0VnpiV3pweExu?oc=5",
+      "title": "International Paper (IP) Stock Looks Discounted On Its 20% Slide",
+      "snippet": "Yahoo Finance, 2026-11-18T01:09:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T01:09:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IP/history",
+      "title": "IP daily price history (Yahoo Finance)",
+      "snippet": "close 30.36 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

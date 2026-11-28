@@ -1,0 +1,49 @@
+{
+  "ticker": "SOLV",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Solventum\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb296OUlzMkNTdDhSTVJkTU1ObG50THVPMlRRek13cHpuNERMUEJ6YUU3ZTMtM0wyY3Y1Y3FxUllNMHhIVVplODRhQWV2TVpyNTBrMS1nOGZ6OWkwVElQYXVxLXkwd0NJcTMzYVJsQVZ3T2poV3J2UVdPTkZDcVRTWGdKRGM0eXVJRDFUQXV5ejZ2Zi1heEtMTWVhTnU?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Solventum Stock?",
+      "snippet": "Barchart.com, 2026-11-18T08:12:24+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-18T08:12:24+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SOLV/history",
+      "title": "SOLV daily price history (Yahoo Finance)",
+      "snippet": "close 84.5 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "ticker": "SYY",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vNlVEb2duRldOdDMtdTFFRXgwVTVndDNQbXg4LXhWUTUzLVBxSFhmeUpKSWpzSk9lVzJNSm9FZjdEYTZ5MDktSFlGdUtPdVJGU3Y4Zlc1Tjh0d0N1bTdiZWlxQngwaHhIS01rQzd4MmRacmxy?oc=5",
+      "title": "Why Sysco (SYY) Stock Is Up Today",
+      "snippet": "Quiver Quantitative, 2026-11-20T18:33:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-20T18:33:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLWN1aHNjQ05ZYzRjYnNqQi02RHBlNE84RDNBNG9jT1I1U0VWczRoc19XSU9tajc4WVNlNEp4VVRYYmF2X1hfbGxQb1Q3aHM0WnZTVkt0UVEtSTJIM2NVdzV5N2ZfdXIzSERiZUxkUDM4WTdsR0xaeGdUWGZYcW5FRlVKZnZ3YU1SZE9kOHJOXy1yNlFYODZUaWtKUTk?oc=5",
+      "title": "Sysco GB invests in new Fairfax Meadow foodservice plant",
+      "snippet": "Yahoo Finance, 2026-11-20T13:10:07+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T13:10:07+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSXQxdU9uSTFka3JPN0RIYnpjcVJaZS03VXA3VUhpNmxQZVVFS3NrS3k5ajluMGo0MEdwVkF1NmJRR25ndnFfVFViMFJjR2RLeFE2YzRpRE9tOWFUc2lrcGk1SFpFTklPVGgyRjNRS0VlS1lRaTNfc2F4RVBPZERFcXFucVllbm1XbGhucjh2NnpOSWJFVXQ5ek1GZXRETjlldUo0Z2ZSakZPdEhuTy16RVJjRThPY2pwRlFjX0hxNE5raTNSMjF0ejk1SUczYUZxamg3SUxrNExiLUxrZURrU1ZB?oc=5",
+      "title": "Sysco Executive HR Chief Transitioning to Strategic Advisor Role",
+      "snippet": "The Globe and Mail, 2026-11-19T05:14:02+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-19T05:14:02+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON29JSXNTcWRsVXpuZ2RPQXV0VTc3Y0VESXBWdG5tcnVveHBKQk1YYlp6Z1VOSzBEOGZZLUV1OTJmeC1VXzUtR0NlNDlobzRxYWtPV0hLVGtxdVRaX21qQXF6bGFvZm04ajFybGhNT3JrM3plM3Fxd3Vyb3FhMmZXWF9vSHdYS0FCNkJpM01xc0k1R3Uwb09NWUVwd2I5cTA?oc=5",
+      "title": "Sysco (SYY) Stock Looks Undervalued After Its 19% Three Year Gain",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNmFYZHVScVoxLTMtNTBiTElOaFhlcVNjcFBLR08tSk80OG9tcnVNb1VOZldOOGhyQUpUcktMMG83a1FrOFRFYU5MMlFDMHAySVJ2ck1tdlJNREROemV0UlRHb0lQQTE2RnlWNGlzQU1LcGRWOEctZDI0SDVPTVZoV1JxOUZ1UGVubnFod1VJcHlJWF9ISjhNamt4MnQ3UQ?oc=5",
+      "title": "Sysco (SYY) Affirms Dividend, Is It Still Below Fair Value?",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV01GNkVyeURaWkY3R0ZlLXBDTTZCamJUdVozaUxzRzVfaDRVam5OSXBVd3Y2WkJtSDJIMkRhRHJ2a3VkZ1JaOTN5QUEtWEJTVVhkM1YxdzJnRmhjTjZxRXRsTl9qUDh6YUt2ajZTbE9UNloxdlBLZTlEXzhrWkk0R29KdlhzWVdubWhGLTJBeTh4d19Yc1hGUWZmRHdGRnVLOHR5bQ?oc=5",
+      "title": "DRIVERS JOIN TEAMSTERS-SYSCO NORTHERN CALIFORNIA AGREEMENT",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSW15UTlQNV9tbEFZMkNRRl9HY0JsZFVwcTI5Z1dIcW54RzNYVUEwbnZRM2x2SXh2cnVvR3RQN1BlSVNDZFVvQjdVZGtJQ3dkYjVHRGxFbGtTY2hsczVMWkNBUmVYaTZKMDRQWTQ0dzNwbXpOV1BjX0hLdXpmazdYNXc3ZktqNjBDN21yTEFWdXFWYm1tN254TGlGUVdISnM?oc=5",
+      "title": "Sysco Corporation Announces Executive Changes",
+      "snippet": "www.marketscreener.com, 2026-11-17T21:41:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-17T21:41:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUy16MnZLSzUwQkk5MmlFNkNpdzJiLWstWnFzbHdQOFNNbEVzWFVFYnZlVmtRQkJLMHUyOEVqeng4OTJEWE9mdnFVZENTcHo4VWdLeEV4NE1yamNVRTlJRWZLMTRWQXdsTDV5WDZzNHpKMjkyMVkxTmd2OW9hNThyTll1YlBOX0lkRFd2VmVWZHZDWkZNdFZlU0lPa2FWNVotbUwtNjB5YXVnVEhHUkFyTXhtU1B3M1UyTUVMTnkwWlhaX1BjakE?oc=5",
+      "title": "Sysco\u2019s Ronald L. Phillips to Transition to Strategic Advisor Role",
+      "snippet": "TradingView, 2026-11-17T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226003119/eh260857146_8k.htm",
+      "title": "SEC 8-K filed 2026-11-18",
+      "snippet": "items 5.07",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/96021/000095014226003101/eh260856787_8k.htm",
+      "title": "SEC 8-K filed 2026-11-17",
+      "snippet": "items 5.02",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 78.17 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

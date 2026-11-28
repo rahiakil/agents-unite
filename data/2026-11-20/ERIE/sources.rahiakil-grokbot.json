@@ -1,0 +1,61 @@
+{
+  "ticker": "ERIE",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Erie Indemnity\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdGxzNlRuRWFjekZGUWJoeHhXYm5nU2o4R2pMODE1SXJqQ1RHYnoyM1NzQ0ZESWs4NGlxWlJuYnZWMDhBY05fcDJRWFc0S0trRlI5UE9lVGN3Q2MwOXJzbk4wdmpMV1NMNW9aamYzQTZzbVZRWlBRX2ZYRDh6WlZ3Rjl2QXJPdDNKNXlUbW9lUUZJQzZES0E0Q00wQlVmX0RkS29CRU1fSERGaV9RR2JSei1qaXlyUjhFLWh3eVBqR2ZxQVNJb0dTeVhUcnZyQkVueEVGOXNKVQ?oc=5",
+      "title": "Erie Indemnity Co. Cl A stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T22:11:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:11:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZzdoZDU1SnQwak1PX0ZaY1pjQkFTR0xqekFkQVVRcE01YUtBbFJGT29LTTJFb0wzalZWc3dzbnMxVnJGWV9oNHlsdlRjYlpGbnZlUU5QYkxCNUZIOW5QeEx0SzZDVVp2dll0ZDJtUi1GQXpuZFNfZXdtcmhhUlJtWGREcS1aNUdnUnZ2TnhMTWU?oc=5",
+      "title": "Erie Indemnity Company (ERIE) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ERIE/history",
+      "title": "ERIE daily price history (Yahoo Finance)",
+      "snippet": "close 272.43 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

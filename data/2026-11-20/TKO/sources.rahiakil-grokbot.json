@@ -1,0 +1,133 @@
+{
+  "ticker": "TKO",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TKO\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbW5PZzJSY1EyME9VakVkME9jX2hvMnRxczBzbkkzR2xNQXExWEdUMmw2T0VjRUhHSmhJUW5VVURrRWY0OTVVQi1vTmJZbmNwVkJkNEZLeVZkVEY5YVRvUjhSMU1nUzh6NVhZOUpsZ3BieFJON3l3alJqS1RsSFp6N2FTV19xbFRZeXd6X25YOA?oc=5",
+      "title": "(TKO) Advanced Equity Analysis (TKO:CA)",
+      "snippet": "Stock Traders Daily, 2026-11-20T14:28:44+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-11-20T14:28:44+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX193WXk3TlBQQkUzdW84cXRNQVJ1LXI4WWU1SWhPSzNLUmhnX1ByYjktZ256UUFqdFQ1THNKOEdLOUQwU0RFRnVkeXM1cFJndVkyQnY4a3cwc255M1NiZnBLM0lHMXVVYzRPUW9oSnlvWVp0VmR3OFVtUGkyckZYSGk0S2loZW9EeVdfT0VaZkhBdTVoYUE?oc=5",
+      "title": "Is TKO Stock Really Expensive?",
+      "snippet": "Trefis, 2026-11-20T13:58:31+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-20T13:58:31+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODNzc2RiX3lQN0RDVDVIb1JYRC1fSjV6MTlWWHNFYWM5NEtFMzJEZVJUZE9nTUxoVmlYT3YyaXpfTUxDdkFXRnFKOFphUFRtTjhoTGd4ZElBU1J3ZV96OVdxVkJac0dNNTdFSHNxTmdRU2VMUjNXSjZrNlZzMXVSMlhfeDViTEhBblZzX3JqczFZMXUwOWtZ?oc=5",
+      "title": "Trekor Metals (TSX:TKO) Stock May Be Fully Priced On Earnings",
+      "snippet": "Yahoo Finance, 2026-11-20T00:18:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T00:18:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb3pROFpHSXJPM0d4OVVJOEdCRXQ0UXRxeW5DM1Jqb0Q1MDJQOG5MY0xHX3FZWUY2VENGU2w0YmJwY3lHZU9yT21YV2VYaXlpLUZnYzE0S3NaOEdhTFNXM1hKYUM0amgwWWZWc0JQa1NQTkpvOVFrb0xaNDc0MkM4cGpPOHBRU0NxbjI4LW1UT2RGZ3I1d0M3YzU1NDB1NzNSTk1NemRpcjJRUmZxUG00?oc=5",
+      "title": "TKO Group Holdings Inc (TKO) Stock Down 4.5% -- Now Undervalued? GF Score: 69/100",
+      "snippet": "GuruFocus, 2026-11-19T23:37:37+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-19T23:37:37+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaTZDVHdibUVqdEJMNVE5YjZTeTdyTEIxTW5waXNLazlUN3B1TjNmUWNHZlVZQ3ZZNUg3cnpvVkFTbkhkYnRYRDZzTkNWUEUzdWlHbEtMdjJTNHJGakNGMk1sMlVvZkl3cHUySUllYkx3cGFjZUdTYVgtdTNsbTZucXBRLS1YbWlCdFdaUnVYQTlHMkx6RDFxZnZNM2s0NlNpc0htLTFmNHI0ZmtxNWpvQjExdEkycFlwR0ZYLUtINnRTTmVOeFVmVmFYT3JXNUNmTFA3WmlQaGloMTQ?oc=5",
+      "title": "Trekor Metals Limited (TSX:TKO) in Focus: Mid Cap Growth Stock Draws Attention as copper prices Shapes the Next Move",
+      "snippet": "kalkine.ca, 2026-11-19T16:56:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-19T16:56:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZnBIaGk0NUs5WmN3eG1yRVhqcUM1amxqN0ZCU2JxNVIwaWE5SG9Ub0Z0MW92bXpqYkxuYlpBMlZlSkdoa045QmRUdkJsdFhUWXZ0T2JzcmpLVGdkaUdxUUFURGk4eG9oTmozdjZWV1dmWXpfYVJaY0xnR3pCeFU5V0JtUktxdzA5RU1QU29tLUJFeGhnVEJLdHU3dWVnMWM?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for TKO Group Stock?",
+      "snippet": "Yahoo Finance, 2026-11-19T13:11:36+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T13:11:36+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOW1SVzk3S3JiUlEyWlVKam5EZzhneDdIbWpyQUp4ME5jZ21IOXNHdksyRG9WWVQ5MlVyeXlKSjV5ZFpKT21ELUNiVjlPWVM0UWRYQTRsQmtscmI2cmNXZDhFdkNIZnB3YVdJY2JHQ3hxSGNxcXE4dXBOZ1NCRXpMRDBJSVFWN09NUjY4bFA3aWM?oc=5",
+      "title": "TKO Group Holdings, Inc. (TKO) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T19:39:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T19:39:03+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLWJ5alFFSE5heTYxcmdfVWREU0VRN1hxYmxoajlqM1lHTXZheUcxUU9FOWwzX0VSRF9yZzIyTzltYm1oY0RFNFliQXZGTVprSy1RcDBsd1JMaUE5M0FTTkNUV0NDWVhJM1JGUUx4aFY5M1BJZ3ZPMENySWxUQTVBQnJWcU8xaW9waFVxTEkzYXI0TTRmWFRIc291QlB4YmtDcXZj?oc=5",
+      "title": "TKO Group Holdings (TKO) director Khan sold 9,589 shares for $1.88M at an average $196.01 under a 10b5-1 plan",
+      "snippet": "Quantisnow, 2026-11-18T02:30:03+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-18T02:30:03+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TKO/history",
+      "title": "TKO daily price history (Yahoo Finance)",
+      "snippet": "close 177.99 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

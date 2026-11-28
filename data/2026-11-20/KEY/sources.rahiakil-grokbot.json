@@ -1,0 +1,109 @@
+{
+  "ticker": "KEY",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KeyCorp\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTjZ1U2pBN0lHZjhrODFjTi0yaUxrWGZhV29lY2pTWmN1Z0tqWWVMOUsyWFdKM1BtLUJKMERRenZzMnJyc08tOUQ0bWFIaGZhUGt4S1JkVVg4Q0YyU2tTb1JweWV5LUE2MmN0MVlIbHVsYzdBd0h0aDFZeG9DZ0JyRmlvU011TUhkRllRaQ?oc=5",
+      "title": "KeyCorp (KEY) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-20T08:50:48+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T08:50:48+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYUlJWndOZnhUazRZeXI3bXd3Zl80aloxN1FaUzYwektEQzVjcnhNZWpxWmhTUlRuMzlYUWpVNkZ5S1lIWF9nR2ZpNjdQLVNnZkVnLUhOeVVzSVdxZ1ZkeEtxMlFYcVhSbnVteTlJeG1RcTEwQkdFcDl6dDdtdW45LUhMcG5BbHEwQlVkVm1uUWlHNnd2emd5NDZJVGZ5cnJTa1BweFBhdUdCYXZLRlJybThMMk5EcHVlZE8ydlR4TFQ3T3c?oc=5",
+      "title": "KeyCorp stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T22:03:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T22:03:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObGh1TUdxVllrbE9IVEI2dVNRZ3VuTzNMcXVMTUdQZjJ0b2FENVVMVHFXUVM0bXFEVWYyTFVGQXdhVW5tT24xMGRLdks2UzBYUFh2T0xwUmVjeUtSeVh0aHFwd2ZQNTduQm5hZnRNNXVzR090Wm5zeWhQZllfMklSOTdXMklBSF9lWDNpOEZ3?oc=5",
+      "title": "KeyCorp (KEY) Down 2.6% Since Last Earnings Report: Can It Rebound?",
+      "snippet": "Yahoo Finance, 2026-11-19T15:30:05+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T15:30:05+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRm9wYnhJcXM1cXcxMTFLWjRxYWtOM0oxRmNLNUZZck1tMXNlZzlfOG9TZEhHMzVQak1jOU1ib08wUXhnZzhqWjdwRHNQS2JfZTBZVVdBYkExVDR6b2VtOWcxd2hzY3QtYXdlaW9NUG16dk5tWWMtYkRGNzNDYWxrUGdNOU1wSFNiTHNxNEF5OUE1X01BRjVNUzA4VU90T3VwclhMa3cxRE50SWJ6N01rUlZ1YnUySUN4?oc=5",
+      "title": "KeyCorp stock: Bank plans stake in MMG Real Estate Advisors",
+      "snippet": "ad-hoc-news.de, 2026-11-19T01:02:49+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-19T01:02:49+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXVvRURsY2Y0aTNoNWw4MzR2Tk9LczBkOW1RcENuLVhJTEZNRGFrWXdxNEdxSkM0eWhIT0pNUm1RUHIzVEhsTG1tMmtTUEFDb2tXLXhubGhidlJaaThyd3FfZDlXUnBlZWFEWVNjekJuYXZrTFlyRVpYN21nN2RGTWo1Mlc1RWY0MVM0OGJGbWpBc0ducDlrYTl3?oc=5",
+      "title": "KeyCorp (KEY) Stock Looks Below Fair Value On Current Estimates",
+      "snippet": "Yahoo Finance, 2026-11-18T16:14:16+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T16:14:16+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3Fab3dxcmxrZmszZjhTbVQ5WDJ3ekVuWElORl9YcVJoSWxDUTkta3MzMlhrakgzZ3libGszei1KMTlmbUxtd1ZhbTNKelp1b2lQSG8wa3JTS1VEQTYwRWdGUnlkZG5iM2RqNk5pWUE3STNXR25VQ1NkWEdBTFRweHNjMTdUM3VSdXFvdFZrN2FrSU50eGk4NjlfMzJwejh2ZjFManNMbXVXdFhyUTRSMUEzOGVOV0pESHFvR0ZJdk5WUQ?oc=5",
+      "title": "KeyCorp stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T22:03:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T22:03:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 19.45 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

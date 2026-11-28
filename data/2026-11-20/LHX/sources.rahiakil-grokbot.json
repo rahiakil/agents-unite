@@ -1,0 +1,133 @@
+{
+  "ticker": "LHX",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"L3Harris\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 16,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd1p0SlVONURGcWk5REcyczBxZ3IwVXp1NFd2VWl2M0FvcTRLWVZMa1hzNUNVWi1OQ1Z0N0tPcHRJVjdTdm1KZTZqNzJLclNXaVNWelBYSUdiOVlCS3hRZm5YUnpwUVZyY1R0MGpTY2l5aWI4NVRWd25CLWR5S0pPeGJ5T1JZMDA5amYxb05pQTJsaWdmTmpBbzFhbElEWURqdGtveUVLeXBtQjRwTkFRTWQyTFJ3RHNxenRVdU9xY0ZBQ0k2b0ZZZA?oc=5",
+      "title": "Here's How Much $100 Invested In L3Harris Technologies 20 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-20T16:31:14+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-20T16:31:14+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQldXaUdKeEtsZkUydEZEUFlSakdlTUk4UkdzVUVLcDNHeUE5eWdGbGhWWmxUS2ZHNExCNG9Na24tY0ZEdmNZSGk2Wms0d3N3T253eE5FaHJkS1VBaVhNZ1g2cG1hcUNSWVBjR0Q2TWpNampnT2R6T3BHeWRodUFBa0ZGb3ZQcWhKVHVBX3V5MzRzOGRIdVBBR0R0V1ZIVHI0WFY3OTU3VzJickVESlc1Ry1qLVlFQktya01KazdaakhFeHNkSHowQ3FJTjZsSVE0X3puVE91ZU9UZGdjRThSX19Uc0Zpb1hwUkg2TWlycjNlX1lVaVhuZTRTaEdpSk5CNEhPWGRWSXJtQQ?oc=5",
+      "title": "Jefferies Says Raytheon's Dual Sourcing Move For Tomahawk Component Is A 'Modest Incremental Negative' For L3Harris",
+      "snippet": "Stocktwits, 2026-11-19T17:33:00+00:00",
+      "publisher": "Stocktwits",
+      "published": "2026-11-19T17:33:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnZFQW95Zy1nYUd2RElOckk0MzVYSzJPUHdBaXdKN2RMSVJWMWdEblFORlFlRE93RmRxWUEydDRUaFN0UU9talFWUmZfYVotWk9KelFVUGRIMzdTdlFIXzEwUnJibkhVTTdCNHNjRTI3aF9tc1FxUWJTUEdyeExuMDl3U0dSQ1g5d2lZQzhOSkpmQWxzaEt1eHJNeHU2UVhsa19sVFVSYjNKZ3RGb3ZIU05HcjUwOTBaNFZZ?oc=5",
+      "title": "Jefferies Flags L3Harris (LHX) Impact from Raytheon's New Tomaha",
+      "snippet": "GuruFocus, 2026-11-19T15:08:21+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-19T15:08:21+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMjhlbGtkRUE3Z1VTcGUyNFpYTFFRdlBRRUZrWUluQzZ2ZTFtQnFrRTJjVWdiWmpLOWtPWVFQTVdSVEFBeF9VWmpxSWR2Y2lKX1lRRnI5S0MwZ01CQURQYW5KZm5QVi1SVjVQMWE3d2phRnI0emdPc2QzVXNaU2dQVEFUTHEwdy0xdWdEUlNFdXdFeklyT0FXeENETm9aLWl5YWhoZ2dDWnp3ODZGVC1OQXlfamFhdEpFOW9MRVMxUVpYTldfVW9RZ1QtampVR1M5YXVEanNZUS3SAd4BQVVfeXFMUDZZek4wUnhXX2NWOUQtbHhZTzkyb1E2cXBvVGZPMFpoMlM5aVVvVTk5QWRqcXFRcFAtcVNPb0dNRXNicXBpRVUyUzE3R21HOHhLQ21QVlB4eGNWSkF5WkJmTUxZUk9MODBxUXV1ZG1ORWlFRWNyNWhLSVJpbEIwbmN5QS0zWkhkdWU2N0l2d0RWTS1YQlJjYm1VWGg4c1ZQeWJpXzJEZTZPUkJidkw4ZDNrcVZhaFF4ZDRjM0RqT0ZYMTdvb0ZzQ0RDbXdkNTlHTm9Md2g0QWMyODdRaDh3?oc=5",
+      "title": "Can L3Harris Technologies (LHX) Justify A Reasonable Price On Cash Flow?",
+      "snippet": "Simply Wall St, 2026-11-19T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaTJFQmxvWTAtWkRObnh4WFo4VXc0ZGNVUUhKR3VnQ2pacVl4cUNSMFZjMTF5d3hQdWEyMEhKSGRiVGxzTDRKYnF2NGpTUjRrbDdoTmJSd095andlV2FLOUY0MTZVaVg3aEplLVJoRHotdkpFR1hsSmZXN25YcWxHZkRVUm1UNU51TWJFaTNuSXlqam50ZUx6TVc2R2JBbEVnQVhieEV1aTExY3ZLUVVRWm93VUgycDQ0cDlSTXFENWFad0lNSm1faFc1RUVKSjI3TlFMTGpacFpKaXpCTzhzQThyQWdWSVMzOEhSZzFrbFpRMnVF?oc=5",
+      "title": "L3Harris Technologies Inc. stock underperforms Wednesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-18T21:51:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T21:51:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYXRfMUMzVko1bWpOSVhlXzR5VWJNdDJSa3lYMEtpN1BuQVRtdVdDTGtnOXdxdl9ka0lsMWVjU2xwM3R4VnQ1WVBsSWVWTHJGb0tHOFAzS0xTaktMZWF4RHpKaTZpUkotZE0xVFdNVDEtZml4bkV6cW5UV1djWldZc3JHdEhoLVRYLXBzT2pVTXVMVEM1X1FNNVREVm1CQlJvd0E?oc=5",
+      "title": "The Pentagon Just Became an Investor: Why L3Harris Rose Yesterday",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcHc0Q0ZiYjhSUmtxZEpfM2o3V2d5TFNLM0JpUTV0OU80V093UFMwOUhndXJ1RGNMdE1TQW9LNzB6SDdDLTZEaUk0eGJNaGkwRURSOURXT3dUcncza0FaSjk2MGtjSTNJcG1Mc2ticmFOdzhPVE0tRFlJQTFVaDY5THZ4aEVGYTFrQVMxdTBFOE9IVG0tdVJsNXpqRHZNWmplNUtuV0hR?oc=5",
+      "title": "L3Harris Is Up 28% in the Last 6 Months. Here\u2019s Where the Stock Could Go in 2026",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNjdwN1dSLUNXcjhRVmU1Z0l5RF9QNVA4MTVuT1l5ang3ZlB4bXFMOWtJUVpvTGdWamJQNkNCM1M0RjB2VDB0dzNNOFlxTnYxdkgwZ0tmeEZYTDhmQWpFMUNfX0dPVFRWdEtHbTgwSlQ2Z1dyQmJuUGRRWEtqSXBfZ0d1MHpPTExjNk1sVGJSWUNNNXpuV3BEdEp3Y3c?oc=5",
+      "title": "What Will Decide L3Harris Stock Over The Next Six Months?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 249.89 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

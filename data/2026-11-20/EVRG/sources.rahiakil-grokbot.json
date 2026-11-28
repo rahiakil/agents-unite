@@ -1,0 +1,70 @@
+{
+  "ticker": "EVRG",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Evergy\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbWw5d19DWmRTX01tU1dhSU9JYjUzQlFZX1JTSzhTSHR3WEdvWFBOMTlIdmprSE9rcnh5eWtINEs4VmRjWkEzRTduN1EzR3FXdm9ZLTdLb2JhSmh0aFRUQmpjelBEVVFHX3BZYWtIYXQxT3BLQm94c3J3V0FqOHhPMjBlNzJiRnZjdV9Tck85dGlRUm9tWm5FMnFqaE9DRERaOXA3WmltOHg2LW5zZTBlMjNycXY1MHdsbm83aG5wNHI?oc=5",
+      "title": "Can EVRG Sustain Strong Earnings Growth Amid Rising Operating Costs?",
+      "snippet": "TradingView, 2026-11-19T17:38:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-19T17:38:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlZmN3BsbXJuMzYxeWIxNXFTazlLV2VLandib20zX0lSRE5XSGxfM2ljVWs0U0FPSV93TVNqRm9DZHBqcTlpWmlHbTJGWjVFZDNBYnRUS054azBBV3pFRk1oaGZkOUc4dThVc0htY0pBYXZud0o2OGNFc00teHh2TlBORFJEekFxSzY1Z2RHMA?oc=5",
+      "title": "Evergy, Inc. (EVRG) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526470295/d114993d8k.htm",
+      "title": "SEC 8-K filed 2026-11-20",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EVRG/history",
+      "title": "EVRG daily price history (Yahoo Finance)",
+      "snippet": "close 85.93 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

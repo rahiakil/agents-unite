@@ -1,0 +1,73 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLTYwRFhRclRwOFhXY2V2TWZZLXF5ckY2TEIyOXo3RFZaOFJudTVURGh4VU4wZlRCeldVUnA1al95dmpGR3hoM2lBLUtCNDZESDY4Ni1CeDZmRlc0NGFUT29iYUxFTG5tRDhLaE0xZjRjZmZZbGJTWVNjWG1WTW40R2xpOEpXMjJL?oc=5",
+      "title": "IQVIA Holdings, Inc. (IQV) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-20T20:58:49+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T20:58:49+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XSDdUcUtuYnpUQmhTTGNsN1B3MHlmSkRZOEUtU2lQZEFWaEM5NE8zZXlDcGdGNjV6YWdFeVBFZE9Jczl2bjY2QTRBUEdqNlk?oc=5",
+      "title": "Hello, I'm \"MK Signal,\" an AI reporter who analyzes U.S. stock hot issues.On the 18th, IQV achieved",
+      "snippet": "\ub9e4\uc77c\uacbd\uc81c, 2026-11-19T01:11:13+00:00",
+      "publisher": "\ub9e4\uc77c\uacbd\uc81c",
+      "published": "2026-11-19T01:11:13+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU2o5aGlSUHFrMU8yMmNLVUN6ZS03V3UxWnpMMTFpd0l6dGVDTHFuUHdReFdhM3d0WjFKTlpOUFhUMm5sczJQTjdfNUVoTmlqRGgtbGtWV0I2d2VPRkVUNGpyTTA1WTdRcWlvMnJCU2FpWG83Xzg1UDlmaDJOd09CVFdwRU1kQ2FnbFQ3R0t0WDduamdyY1c4RkhFVWxPLWstUGlNRWF2cVY5Zw?oc=5",
+      "title": "A 6-Day Losing Streak Has IQVIA Stock Down 7.6%",
+      "snippet": "Trefis, 2026-11-18T07:11:15+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-18T07:11:15+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 245.82 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

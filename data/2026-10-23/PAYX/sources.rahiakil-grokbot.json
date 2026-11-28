@@ -1,0 +1,73 @@
+{
+  "ticker": "PAYX",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paychex\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNFJscHlxR3BFRDNFemRsYVZsOTVOX0RPZU1UWHBaQlNNbXhfSXZRUWJvSF9VUzJ6cnRlME5taVB5RF9xcTlkc1lsVHF4RzJwRE5FMTV0Sm52YnhpVHlfSE5qTmx0UWRtUWhRaFc4MzYtVU5UVzVjMFZXSGlqSnJkNng1dDFkNFlnb0hLTTZtMThmakFGSF9fcmRCYlFoZzZHOW16YlVEVXlYQnhrVElvczJ6S0liY0ZD?oc=5",
+      "title": "Paychex\u2019s 4.3% Dividend Looks Attractive. But Its Safety Margin Is Shrinking",
+      "snippet": "24/7 Wall St., 2026-10-20T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.686,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjI3TlI4MzBMc2xmeEhBQXMxSHhqaUZacmlIRENVZmtYcnlMdXhteE9JMENHby01NkxvbHJyQlMxaDhPeXRkNVB2cGxhSlJRNkh3VWwzQTdwX2w0LXZ0elFjUmJ1OF9oZ3VwVGc5Xzk0WU9aQWZ0NmY5eHlIT0xsZU5zaVJHc3ZfLWlDSUtQSmlKOHc?oc=5",
+      "title": "Paychex's 4.3% dividend yield remains safe but future raises may slow due to tighter cash flow margins.",
+      "snippet": "Pluang, 2026-10-20T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.579,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOUgyWnB4V3d4STVGWnZlWlp6RmcwUElwb19reUswZ2txQTVMMnNSUm41RWRVZWNOejJfZDJaaFFOcGNfZFRPc1FMZnd4b0x2UXIxMFpzZVFuOXpCOF9QZ0JJZTZvdGN2OE9QUFBhUlJRY3ZvU01YcjgwWWM5X2RFRzB3NXB3YmZPSTRFYmVhQ013TjQxN0NWeTZpNmpBZG1lTjJaeE9UazBETEIwUHUxOEdVWE90Z3c4b3l0YkZaX3o?oc=5",
+      "title": "Paychex Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-20T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PAYX/history",
+      "title": "PAYX daily price history (Yahoo Finance)",
+      "snippet": "close 118.04 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

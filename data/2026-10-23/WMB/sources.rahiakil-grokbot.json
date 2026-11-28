@@ -1,0 +1,61 @@
+{
+  "ticker": "WMB",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Williams Companies\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRHZxeGhLa0RRRmR3U3V6QTZUSjhhTlVJNzNNR3JITkxDYjNtdV8yTU1HckE3V1ZuR0VoazV6WkFzYllmck9qb0JnUUZXOUh6b3QxOWxFM2pKemVlb2NrVlhfTF9LQVMwU2NEQVdaeXF4cWpRTWpodUs4YjB5SlFWUUhDR1BoY0pJamNqQUVxQTBUemM?oc=5",
+      "title": "Williams Companies Sheds Nearly 5% in a Single Session",
+      "snippet": "24/7 Wall St., 2026-10-22T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaWZaeFFXNWNBbmxwUk0tcGtRMVFJWUx6UHN1QmlMT0tQaHdCUVlHTzZOWXVmT1FuNldfSW11RnJxNmJUS1pHM2UtYVRVZ2dGbjlpXzgtUVQ3SnlJY20tWHNKT1V3dEN2ejl0emRTVWc3bEF6cGMtRzV6MkoxTk05cThIUkQ1aUV4SWc4MmtkTHNkdHJmckJObTBMbEpIYlM4VjBkMjNjYkNmYUZUSlNqX2w5U1BBTXJRaGVFVmdzX3c4cHdwbXNJ?oc=5",
+      "title": "Behavioral Patterns of WMB and Institutional Flows",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WMB/history",
+      "title": "WMB daily price history (Yahoo Finance)",
+      "snippet": "close 71.7 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

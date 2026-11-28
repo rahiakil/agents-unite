@@ -1,0 +1,121 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV0NVZkI0XzVSQkY0cjVVVGVBaHgzZWNSY2tvczBJV0tkV0JfT21FUHQ0ZGRuQVJBamdEOUlmOVhoVjBWcE96ZmNxbDFNeWd4eGp6bFZmYjRNZjQ0WDQ1ZkhEc2lFUlRBLW42YXM3YTRseW5TRW42bFpNWDNsV3pkQkczUTk3eGdwcUJWZzF3?oc=5",
+      "title": "FedEx Corporation (FDX) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcngycEFDbk91b2RSNGJZNW9ncmRLcFVrUkRmMHV2ZVpia2pieTZlOXEyY3RTMjRneHhxWWw2Z3Y3X0FTZ011d1Rfb0publZUWnFYcVJKOVBDWm9ueC1ySjQ1M1pwRWdSVm5xcjlCQk5hc3RlN1U1Z1RYaWJMMU5ZcFluOEoyVHdNWWFVNmFCbnRscTY2Rl9mQ0syOG40Zw?oc=5",
+      "title": "FedEx Freight (FDXF) Collects More per Shipment as Volume Shrinks, Can Margins Recover?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOal8wQ1ljRXBHdlJQWDZIXzlNN2FEUmQzQkNSRkFOdXAtdmdDdmRKWUxiTEZDbU1sN09URXlQV25iTS1qcUdpcDZneVRWbDNoUXZGNHZ0U3FUczFGN0dhTkVJM2h0ZmtuaS16X1ZHQzhqTzV5SW5abnNidmR0ODA4ZW4tbGl5bkVQRTRaOUNkNVo1Z09LSFpZcjRB?oc=5",
+      "title": "FedEx (FDX) Is Leaner After Its Freight Spin, but Can Earnings Catch Up?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0cmZ4UTlMYl9lYk9kU1pZOW90NmNyckNaSUhzNnVkLVA3QW90N0wxUEV3cXc5TllTejZXdVBTaWxDNXlrMW9jYTZaT1pLSURqdXRUOHAyak9xbEVnc25wRTMxWnpBM2pCVHpFS2plOTI0eC1NZFE?oc=5",
+      "title": "Pokemon TCG Heist Sees FedEx Van Robbed Of Valuable Cards",
+      "snippet": "TheGamer, 2026-10-20T07:00:00+00:00",
+      "publisher": "TheGamer",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ2doS1JrRUp1ODRBbXlUYlBVXzVYZDk2SzVNa1lNczMxZWVXSVJwdUVwMGt6OU1jOFpXM0Uzb2xFZnBNYjlvckRfQWRYVklNcTBPMXlXVkRnX01pVWNYM09ua3dLYjRMVThlYmxtdFhEZzZYNlFwaDdjZ21VN0NVUnR3bjdWenctbFYxdVhvZ202Qm1RdUx5S19pOTI1Z3JxZU03ZmdNVHFQZURfa280TEQwd29meVR6M3JLeUJ0ZEg?oc=5",
+      "title": "FedEx will keep using Broadcom software to support its computer systems.",
+      "snippet": "Stock Titan, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbVUzLUI2djFwRXVFY3pRbjN5Zno5MzJqSFhzODVRQ19MeG9pazBmcE5WZmhUbHhxdlJxZzFrR0NVeXdHblVWS0R6N1h3clVmT3lVbXlwblVqbWxwbVhmSU1KdTBzOV9MU2N1V3k4dU5GMlhacFotNUFTX1RzdXZKRW5RWXBScUJ1Nnc?oc=5",
+      "title": "FedEx Retirees Say They Lost Hundreds a Month in Pension Payments, Judge Allows Lawsuit",
+      "snippet": "Law Commentary, 2026-10-20T07:00:00+00:00",
+      "publisher": "Law Commentary",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPejQtQzRoQU5DRy1rMnQ5aEY5STBZWG1zdENjbm50R3RsVjRwb0Vud3NNbmhLa1BLV0puZ3BhZ0FVaHBuNGdIVVZJN0JtR2pQSFVxaEN5Z3BmdV9PWEdRR2VnYTA1bVk1UVNVUzNfUTNVQTNOSGQ5TlZCRkdnOVgwdVdFRmVTaVlVbGdWYmF0c3Y2M0plblpMWERzMVMwNXBicEhNUFVOdVdoUklrUFJKNVlzYmE?oc=5",
+      "title": "Broadcom Announces Continued Infrastructure Agreement with FedEx to Support Global Operations",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 298.72 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

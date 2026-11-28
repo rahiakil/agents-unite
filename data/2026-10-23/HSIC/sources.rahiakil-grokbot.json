@@ -1,0 +1,61 @@
+{
+  "ticker": "HSIC",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Henry Schein\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOb0hwM1hIcTBZa2hUQkhfOXVHMll1M2FLNGxKYlh2UmJjUmt5ME5CMUxOUkwtZGhaYU9UaTlCRzA4NUFWSDZkR25iSDdTT0V3M3JWSnhNYk9wdXp3TGxYSE5nbzJQNGRFNlhWU2F1bG5sVVRlVldnLVhBQXpHaFlGSGlEZnI3R0l4UTZVVVI2M0lzNEtVUGVyRnJzRUdIak9TSGJkdEVTUkI3eURodjNTZzdVVEdCVFhEbW5GdTlVdVhIN3V0dTIwMEdhSnBENTdnNC00SnYtSE1WMHYyNEROenUwQl9KOHpCeEFLcFVB?oc=5",
+      "title": "Henry Schein to Webcast Third Quarter 2026 Conference Call on Tuesday, November 3, 2026, at 8:00 a.m. ET",
+      "snippet": "Business Wire, 2026-10-20T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFfUUFwYm1JRUhVQlZJWlAyLXFkcE41SFBydk5NeFpvbzVFbFBzM3NkVFV0ZEFDaEZ5SlUxOENLeGJpVWVJWkZsTDVoYWw0eGJwUmFmbXV5SWRiVnlDZmdYRFkxX3Z5OXRNeExERTNkdkxoZFBaYnNKdVRYZ2FuYXpYUGNVcU5YeDEtWndodU0?oc=5",
+      "title": "Henry Schein Announces Third Quarter 2026 Earnings Call",
+      "snippet": "Dentistry Today, 2026-10-20T07:00:00+00:00",
+      "publisher": "Dentistry Today",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSIC/history",
+      "title": "HSIC daily price history (Yahoo Finance)",
+      "snippet": "close 84.96 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

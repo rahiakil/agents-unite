@@ -1,0 +1,85 @@
+{
+  "ticker": "KKR",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KKR\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcnEtNWptaEkzWC1xZ0tTdW9UTXRYU3pLVDdiTEVvU1NPTXZmaC03N1AzdExkVGl0TVpMME82WGlWN1FqX3U1SUEzaXExZlBnWTdoUWxOUHlMRUhZdTlmRTVLUkppQzRpS1RpUzE2Z2FJUjIwOE1DNzFNMTc1dGhPUExFbmlHTll3UFpXS3FFTnZhb2FYdGlmd3pYNlpfTjdjRzcxYnRIeTduampkUzJPSlFiei0?oc=5",
+      "title": "Integer Holdings Corporation Stockholders Approve Proposals in Connection with KKR\u2019s Proposed Acquisition of Integer",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONnhyX3MtX05CbF9rM0k4REVjYUFUSGVIUjRoanBQN0tsdGNGYmhPelNvVzVILVJuVWZSdk1DdmRXYUQwTFptMUwwZG5keVVvc0pIaXlyWnZnbWZxbkJ0MjBSRDNqN3Q0QXQ2XzYzeTh5U05Td01JZHZZTHY2QWVwam56Z0FYdDVqeTROYmxHUWlGNlNhRmxZSVZMdXF4Uy02VVBOVFF1MEFIcnR3NTFFa2ZqSTdleHFfS3c2Y3ZuZm1sU2RncUM1enVBVHE?oc=5",
+      "title": "RBC Launches Auto-Callable Barrier Notes Linked to KKR Stock Maturing in October 2029",
+      "snippet": "Kalkine Media, 2026-10-20T07:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa1NDZ1luQnZoMlNLUUFSRW11ZFhBWk11dW54OWwwWFNjWnBDVXUwQlBxZDRHSjZDQWNzZl9IOU5JMUVDMjRhaldReWZvcHVXeGpRVGw0OEozYktuQnExb090YlNTR3FZQ0lJeVBwSW8tT2Q3Q3d0TmJ4THJ2WW1VdW14VGUyU05Hcm01TGpDcGNDQTNlWmc?oc=5",
+      "title": "KKR Real Estate Finance Trust Inc. Declares Preferred Stock Dividend",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdy1lSzVJV2RiZ0hiakVXUE5jX1JXSVFoa3RfZjdYZ2o2NmFUQzRuMDFjVXdjMkZtY25BcE1GZ3FoQXVxNi13V2lDY18tcXlkLXR1aGpYXzB5V0FpX0pnM25kLUFZcjROZnZfZkdaQ01WZ1lWVDV6bG95X0hKT2pVaFFQbUFNOGRSNVg1dWJ2WWhERXlLOUJVUHVzckhoVEk0ODhnd2gwejZ1VnQzWU93T0pLU0gwSVljQkxHeU1iZDZFbEZ6Ym5uR1phNNIB0AFBVV95cUxPV0xPUGJxQ19kYmxaNEM4c1h4UF9oZkEzNl9JWFByOGE3Mkx4WWl4aWFMT2taZ1g4aXFTLXZiUEE0am5KREFUSXlZUjdYc0VBcmxvZlY5YWs0Q041M2I4elpBZnVHYUNTRnpMcWJpdzZXZ0pLZVB6S3ItYmNWeDhqTUF3a3Y1NnQ1cFk0WWhzbDRvWTBBVU1GQlFWSXMyM2JZcGxLeEpUUHQyeHZ0R09aWU11Z0tyek81RWcySHREYVc2ZjVPZ09WYTFpVlZXMkxO?oc=5",
+      "title": "KKR (KKR) Stock Looks Overvalued After Its Recent Deal Moves",
+      "snippet": "Simply Wall St, 2026-10-20T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KKR/history",
+      "title": "KKR daily price history (Yahoo Finance)",
+      "snippet": "close 91.34 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

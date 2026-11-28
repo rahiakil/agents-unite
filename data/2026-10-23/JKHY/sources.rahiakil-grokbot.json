@@ -1,0 +1,49 @@
+{
+  "ticker": "JKHY",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Jack Henry & Associates\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYUhpaUpXMElPLVhWWVhKQzc0eDJONHkxRnFjbnM0QXN3NTI5X2RCNjRFSEhTVjVxbXBiWVR4TDhLNDNhTlkxcGJTVmI1Um9DcTB4Z3RYYURwaXh0YWV5cjdNNWxnZkRlZzlKSmh1TnRFamEweTBPck01QWFyNUctd0tUbl96anNLZVVOSDhuSmNWNFdmTW5JMWtRV3g2TlpKMkE?oc=5",
+      "title": "Jack Henry & Associates to Provide Webcast of First Quarter Fiscal 2027 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JKHY/history",
+      "title": "JKHY daily price history (Yahoo Finance)",
+      "snippet": "close 162.55 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

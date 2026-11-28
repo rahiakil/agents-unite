@@ -1,0 +1,61 @@
+{
+  "ticker": "CFG",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Citizens Financial\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd0N5MERRbzRYbHROQW1Ta2E2UHh2c2lZR0t0ZkFWQXVmcy0xMFZ6U1FzQjA4dENIaFdiNUFYQmxKYVptaEx5dE1INmNBSl80aFpQZzViemUzanZiMUliNC1qZHY0a0pLMmFVYUd6b3EzMWs3akJKSGtVSktZQ1BUVkZDN2tob1d5aHVrR2NOZHFSUi1TazVkZElaVWdqSEw0bFU0Y1lmTXVIeFNuMThXWnZTYmVqUko2SklPbzdEak0xVVBpT2VKNUQ2Yw?oc=5",
+      "title": "Stephens cuts Citizens Financial stock price target on deposit concerns",
+      "snippet": "Investing.com, 2026-10-20T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTUxSFNwMTNlSkVNMW1tXzBOOExGZHQ0QVlNSXMtbzlEbTBiVHpYMEF3WU5QVm15VkZ1bkMxUGpVRkw5bnhNTmFLcjhQNWJOb3NiUFhsMTVxbmxveC16ck1EdFpHT0E2YnkwTHo2MGJhWUZYSlRxbFRBVHlkUmthaTZfeFROSnFSamtERlBMVEJOZlFzTWRwQWJ0SWJsODByUVVBZTE2eEVIdF9uVGRKa3BLd0V1VkJvMDdPYkZMMVZ2UQ?oc=5",
+      "title": "Lobbying Update: $170,000 of CITIZENS FINANCIAL GROUP INC lobbying was just disclosed",
+      "snippet": "Quiver Quantitative, 2026-10-20T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CFG/history",
+      "title": "CFG daily price history (Yahoo Finance)",
+      "snippet": "close 65.14 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

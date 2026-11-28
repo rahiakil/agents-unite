@@ -1,0 +1,49 @@
+{
+  "ticker": "BAX",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHo1NDJabWdaNW9IZTVEVmV1YTVJVllUaHlEYjFMRjMzaHRTYk1MSkE4Z3hsUTdaQ2xGdUdwWURQaXZDNzJ6NWNfdVVEU2xyS2JXc19aNlA0YUNPMVdidGFETlNjakxWMVF2Y09VaE5IVV9jb0JyMkFnTEtpWUhselNjMVl2cU51aVk2VE1VbjFmbGY2VDFPMlBXYw?oc=5",
+      "title": "Why Baxter (BAX) Stock Is Down Today",
+      "snippet": "TradingView, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 25.3 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

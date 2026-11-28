@@ -1,0 +1,61 @@
+{
+  "ticker": "CAH",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cardinal Health\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSmtlQVRubHVULWltal9oWGRPcFgtVTNHZnQ2TEFzUUVBMmx2emFCQ2VjZkRnNzdCdWRfWnJrMXpVeGM4d2hnX2RYaDQ3S0dvejYzTnE5SFFWSHQ5X0IyU1h6eGNkZU9FRDNGdzRFV3lJS294Smp2ZVBMVExRQzQ4R1o4UHBlaUNZbGVmNDlJaWJreGRrdF9QdFRLUlVRUmdyX0VWbFViRTQ4a2V1VVpRYmVDanFhUzA?oc=5",
+      "title": "Mizuho Securities Maintains Cardinal Health(CAH.US) With Buy Rating, Raises Target Price to $280",
+      "snippet": "Moomoo, 2026-10-20T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM0cwLXNmUUt3OF9ZZkxQejg2NTkxeDVHLVFDdWdfVF9IUVRsZ2ZUVXpmajJQSjZPUFFqai1HVnZ4THBSbGNvWFJUblE5a1YzYWlsVGpfRWxNcVdmZUZLdXp2eFBvV1NNX243cmJyeU5yQXViYlozM3hQZVY1MG1XRFJkaDJWNDhvVlBHenBhNE16aTZuZ2Z6Y1hCNA?oc=5",
+      "title": "Cardinal Health (CAH) Laps the Stock Market: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CAH/history",
+      "title": "CAH daily price history (Yahoo Finance)",
+      "snippet": "close 249.57 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

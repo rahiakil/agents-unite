@@ -1,0 +1,49 @@
+{
+  "ticker": "HONA",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Honeywell Aerospace\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM2lEdGdkRnVNa3h0VW1yVlBoR2Eyc0lQMUx2WHdaMmpYUWRMYTVwRzVYVWhRUU1nb3BUVkFTYV9BdHd3c3ZERkg3VlFka05IUFdFWU9pcnZ6NkdETUxHNlNNc3NMajBFcW9BUzFJTTFhY2hFWTZmWmprdTRPR0hMTHVzVUVHandudVhEN3dTakIya1R0TzlSRFRlRQ?oc=5",
+      "title": "Honeywell Aerospace (HONA) vs. GE and RTX: Can a High-Margin Aerospace Platform Deliver a Post-Spin-Off Re-Rating?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HONA/history",
+      "title": "HONA daily price history (Yahoo Finance)",
+      "snippet": "close 163.31 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

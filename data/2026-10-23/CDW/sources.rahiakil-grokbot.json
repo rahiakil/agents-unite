@@ -1,0 +1,61 @@
+{
+  "ticker": "CDW",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CDW\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2x5SUlYSWhBSV9mdjZ1TzU4YWpkZGFOMjYxQUY5bG1iaTZIc1RtN1NlTnVpZmJCNU9vMFVfSjhPVXE2dVdfRmpzRGZGYTYzQWNKWDBzZ3JUNHRHUVFqUVZOaEVoMHNHMDVDR2xnWGQ5a3N6NlhqY3h3VTF2dTZGcU8tVGx0ajZwSnl1SHhNMG5maE1jcS1oVFJ1MGl4UWVnOHc?oc=5",
+      "title": "CDW Corp (CDW) Stock Up 4.0% and Still Undervalued -- GF Score: 83/100",
+      "snippet": "GuruFocus, 2026-10-22T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaXI1TkVscmpYWjlkS2lSd3Y4UFQ4dWlCODBMUFctUnBqVFh3eU1ia2V4TGd5bURLS2dEdEI3RHJYMnJfMzM3QldoeE01cGZXbFJ6MzQzbTZ5dVlNN0ZmbmZXTkJJaWluUjdiS01FaEM2N1lsTkl4VktnOUdjUXpzQVE3RUhQd0ZXXy1qUExFZkZjdVVqUzJUcmtTRW9jYnBIbmF1c2pFLTFxb3NuSjl4NVpUOUdsbmFoY2V1bm5wZXBNYW5SeUVCV190MzVZQXVmQVE?oc=5",
+      "title": "How Cdw Corporation (CDW) Affects Rotational Strategy Timing",
+      "snippet": "Stock Traders Daily, 2026-10-21T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CDW/history",
+      "title": "CDW daily price history (Yahoo Finance)",
+      "snippet": "close 165.11 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

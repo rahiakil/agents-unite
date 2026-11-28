@@ -1,0 +1,49 @@
+{
+  "ticker": "DD",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DuPont\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 5,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQS2hYY3Q5aFQ2aURTeVk4Zk1PRXdwS0FHZ0RqTjZaNHlpY2dRb1Y1STFvc3NzNG9hNEZ0b2VuVFNTeDNsMGRBZGJsVmFKY19XZER6YlBwVjFoNUNvM2xSZnZrUWdpR04zY3ExYzBoWUVBNjFtWF9salI0VzZlY1BMWWRtclY1MFlEdVZHdldSeWZBV2hzVHFRaGhFazdyMzZxdU5rNDFLeFI5U29RYVpBT0VpRFl3cGNhU01lR0dJcXJ3ZHBpTjlxcUw3Tk14RFYzMWg4Q1QyRnNQSUR3ejF5Ym5LbTVVZw?oc=5",
+      "title": "DuPont Launches AmberChrom? SIL Silica Gel For Chromatography To Advance Manufacturing Of GLP-1 And Other Peptide Therapeutics",
+      "snippet": "marketscreener.com, 2026-10-22T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DD/history",
+      "title": "DD daily price history (Yahoo Finance)",
+      "snippet": "close 136.55 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

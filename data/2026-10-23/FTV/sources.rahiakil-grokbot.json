@@ -1,0 +1,49 @@
+{
+  "ticker": "FTV",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortive\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 2,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLW9seWVjeTlRaW5QczlyYkNJYkY1NS1WZUZQVGJ4NTgyVFItVTdDUTAyWjFSLXp2VTNDS2lHMkp6R0RueFFZdVkyQ21XUFU4OEtLVWVTZHpXR3NJc3lSak0xTlZXOC1pOXVVbW1DOVlOZFRIUjVKam5FcWZVNGdxU0ZuQkJkc1pwQVBENVdjdXRSUFpxUy1sYUR2a1lOQQ?oc=5",
+      "title": "What to Expect From Fortive's Q3 2026 Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTV/history",
+      "title": "FTV daily price history (Yahoo Finance)",
+      "snippet": "close 60.25 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

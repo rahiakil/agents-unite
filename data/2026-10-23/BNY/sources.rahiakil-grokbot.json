@@ -1,0 +1,61 @@
+{
+  "ticker": "BNY",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbTNXNFBpTzJjQW83bWxqNEc5dnBwQVBHTzhveUsyVjBZeWVCX3ZQUXFjVzhnOTBqV0xQbTRzeGZWRkVYUFY1aHplMVdMcFFEZENIMnVzY3NZVUxaY29tM2F6YjdUQXNSa2pDOWx0a0dkVE1aNUlUaU5zSGt1WVo5Q0tSYjVpcGZGYkVCRHVwazZoN2tacWVDT3pyTnRGUXhsdldUSXREM3FXQzlQSXNiZDJB?oc=5",
+      "title": "BNY Mellon High Yield Strategies Fund Declares Dividend",
+      "snippet": "Business Wire, 2026-10-22T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUTB2MG01eW1oWUFWcGtmcUFWNUc2UG9Qd0F1bWRDNEZNWFVsM29Va05WV0kxa01yaGtueHlKUXBoM3g4VmphcDVqWU44QW5CMzZCOC1wUm81QjhZMnpCUS1Rekl3RTQxaUV6NVUxeGJZcE8zRDBfc3cxRFhhR2E4VTlSQ1RQcmc3WUprVHRSRlA2Q0d0ME04bzhXMmtXNTZOZkZfZzk3TTNiV0Mta0ozaFMxZnVSY28?oc=5",
+      "title": "BNY Group Lifts Elevra Lithium Stake to 21.11% with 40,962,514 Ordinary Shares",
+      "snippet": "Kalkine, 2026-10-21T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 145.27 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

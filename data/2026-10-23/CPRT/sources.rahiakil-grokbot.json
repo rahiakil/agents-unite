@@ -1,0 +1,97 @@
+{
+  "ticker": "CPRT",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Copart\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZzJtc19sdC1UMDJVLWFSelRGVXFHeU1tT2RDTUVkczRiVUZ4WUtDS1p3QmxwamI2bDg3cnZ6SkpRZDRvaW1OMnpEeVdIcmJiZUIyczVLQ0J4QWhPUXlhUnc5RXBfaHJqWTNtanRock9md3ZZZ2hEOTcwSVB4Q1hnUnhURUlTblpkTm1zeDJXMWg2M3FIeUJ5cXRfY045aFNZTF9fX2RIMTJ6cEVjOVBKQXVCamNiX2R3QTRGZEZrVlFtMHpheGduV19LNXRUdk9vR2fSAdcBQVVfeXFMTjVyclpYbjhJYkZqalM4Uk5XUjlYSm5mMmozeXJ6QkFaUUZjUklJYk44U2FwSHRiV1h6REtqMzdseFhEc01vXzI1SjdiVFFWU29qel9BdTF0c3NVN19qNVg2ekpTS3dzb3lzNnZDdEd4X1lIeC13VmdoYk1rcnlzZWdJZ21TMWZXdDRlNlk1Z1dkXzItSE1FWXQ5eWItTGxWcmxUOVNyYXVyblU5bmo5bjBSSmdhUEpoY0NVVVc4REhMNF84b3BNcFZ2dHJkLWRaZ3lMc0xYdEk?oc=5",
+      "title": "Need To Know: Analysts Are Much More Bullish On Copart, Inc. (NASDAQ:CPRT) Revenues",
+      "snippet": "Simply Wall St, 2026-10-21T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.585,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX3VTamtvb3loOFFydHRDWVVCUFY3dGVsTXZnMXJXNjYtTmlVOXVDWHNSQ2pNUGliMGhwTnFtUzc3UE0yZUhtQmhTVE9UVEc1SERjVGY2a1pEYVlKVGVCeFRLajVLZkk5VVNiNjdvV2wxakdPYzdNRGF5R1FhVlNrSUhteFdtdjlxbkFDeDY5aEg4TUVNcmkzRVctaHBtTXRyaGUtd1N4T3VvajVwVy1OUlpyYjlhWGFHd0RVV0pEaHA1N2hZOWc?oc=5",
+      "title": "Copart\u2019s acquisition of ACV could help \u2018make a splash\u2019 in commercial consignment, too",
+      "snippet": "Auto Remarketing, 2026-10-21T07:00:00+00:00",
+      "publisher": "Auto Remarketing",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yUE1DcldVYnFpTUxBa1FjVmdRTEJicVNTZTNfY01IYzJjdXliZnh2b1otMzJhdnpJWXRDUXBEcG1ZWEZNczV2N09PMjl4NURuRk1ER2JYN2hEak5iQ2RQVjExZ3VWQ1dNMS1LS0FQQUtlUHBEdnlfbEJVd3kwblU?oc=5",
+      "title": "Copart Opens New Centre in Stafford -",
+      "snippet": "Insurance Edge, 2026-10-21T07:00:00+00:00",
+      "publisher": "Insurance Edge",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV3ItMDdqVV9nY0t2Q2ZZLTRwWHljaGN1NFhac0pzaXVBTC1yNVF1cXIxQ2ZTWlJZaDIxWW92Skk3aGFWTWIyU1dqVTNnemRyakF3QVNENzl6NkZXMTd5LXVzQWRab3JMSDE4emtGaE1yR3hKMDlwQUpYT0ktaThScjlKOENpLWcyYU16bTUwY3JQa0hXdzh2Sk9XakFMY1BYNU5rUW9pZUpVaWhYTTU2dENFSm45Zw?oc=5",
+      "title": "ACV Auctions Acquired by Copart for $1.9B",
+      "snippet": "Collision Repair Mag, 2026-10-21T07:00:00+00:00",
+      "publisher": "Collision Repair Mag",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUU1fOGR3eUVpZHhlNU5ndDcwZWUwZzRleWY2cEg3bFpiV2duVzEwRWVPb3ZUeUZfMld1VDQtUUFYOEltMjAyNFJMZVk2cU5ScTVmbHd3NGlUN2JESm0weEp4M0dodnJ2XzQtbW9VZTN4V1dyYjhqTWwyYzZhZW8zNnRMZkc1UFBKOHhqaldIUEc5QQ?oc=5",
+      "title": "Copart completes ACV Auctions acquisition",
+      "snippet": "Repairer Driven News, 2026-10-20T07:00:00+00:00",
+      "publisher": "Repairer Driven News",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CPRT/history",
+      "title": "CPRT daily price history (Yahoo Finance)",
+      "snippet": "close 29.0 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

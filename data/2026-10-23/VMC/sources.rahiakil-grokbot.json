@@ -1,0 +1,58 @@
+{
+  "ticker": "VMC",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vulcan Materials\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUFFUQ1FnYXdKUFdSYlpxRXVBNGxJUXE1blAtNmtiNzVFeUliRnNtMThqaUJzekJ0Vl82TlpFSUlWUnFCTDUtQWREd0xNZ1ludFF0UWotTkJUbE1uaVFFUDZ2SUc3Z1NpenBORXJIYWk3cFV1T2tLdVFZelFHc0ZJTmJyellldFdkMUhfMmZhWlB0M1FLZXNNajNVRW5nRV9GcUxLRmlR?oc=5",
+      "title": "Vulcan Materials (VMC) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126040518/ef20084094_8k.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VMC/history",
+      "title": "VMC daily price history (Yahoo Finance)",
+      "snippet": "close 261.69 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

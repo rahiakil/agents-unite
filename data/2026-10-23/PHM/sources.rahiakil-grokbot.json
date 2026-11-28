@@ -1,0 +1,151 @@
+{
+  "ticker": "PHM",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PulteGroup\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVGVSOElsb0dqa3lCazA1cXFJTGc5MnB6V0h5Q0RwWUpVeWx2cDJTSUFHS3pRYk8yMXR6THVpbWlZRTBBdXZoek5CVU1Mdm1kM2ZwdE4xUmhidHFiaWIzTGVpM2FnZklZSEJhU2hZRXpaOFVwYmdISDZsV3RZQWwtYkRBNXBNZTF5Nm5mbnNqSVpCalgwSXhyaQ?oc=5",
+      "title": "What PulteGroup (PHM) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwNTZWQWprNGtUUjF2LWRzNW9QNVJkQ1RJT0JnTXFXdUtzNTgxRE41TDhyczNYbTVDd2pRc1lFYkxWN1NWRTl3Z3htSTJWdDlER1VUY0lZWVRBMXk5QVB3VFRERFd4U19sM0VBOEhGX0JVbzhJaGVxTkV4ZEhTZw?oc=5",
+      "title": "PulteGroup\u2019s Earnings Fall Short of Expectations. Profit Margins were in Line.",
+      "snippet": "Barron's, 2026-10-22T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYm53VTh3QTFRckszZ25LR1dydXhWTlVXejhia2pMcjFkVl9XOFNteERCSmNLNGNXTDZ5aUwycjRaMWV3emdQYmtJdThObWVVNE9mNlBOQWxXcUZUdWdMQlBxYmtRWFFxa0lrZmpETkVPQ2tGUlh1dER2Rk5MR1AyR3ByVTlmajlpV1ItN3BVbDgyRjVxOFFORXdLT1VkUDVKRlp1VFEtd2NNZ0hTd0Vfdng2TTdkQ0ozUHZVcjY4SjYxdw?oc=5",
+      "title": "PulteGroup stock dips as Q3 earnings miss estimates amid pressure on homebuying demand",
+      "snippet": "Seeking Alpha, 2026-10-22T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaTRwdzJmRnh6QVZkWFAtLVBjVHhtaXpYRzl2WkRHeUtOUTZfeEtySDdhYmt1NC0yN3VCT2dOdGNRNURXYm5aR0FsZXAxMkpOZTV6dERlZEs1UkNXaUpUakZ2YmlFX21JcXRETGl5WkVnemNVeDJwdUI2dnZrclJfRzZTcGV2bTFyTGRpaW5Dbmo5eXVaZjAzQ3lxV2hfUXR4Y1E?oc=5",
+      "title": "PulteGroup (PHM) Q3 Earnings and Revenues Lag Estimates",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY2lrdWd0Tlp1TG1qMklKS1hzd0tMSTRjc0l5cEtKSFc0ZWswYnFyblNEU1dIVmpPMXFPNS1RbzV6OUpVWFlISnBCQ3YyN1JEZE11UVk2ejJiWHU3TmliTjRYNTUtR1NtUFdWZjRlekRBWjhBdEF4VnBLTW16SzM2SjNqR2FoaTVyU0FBUXg2aV9MVUFVRUs4ZlZwdzAydmxnV1B4N3ZDOXdrYnJQeS1RNU03N3lweXFzTkJNZVl6SzZwUDNQTWFtXzlR?oc=5",
+      "title": "PulteGroup (NYSE:PHM) Q3 2026 Revenue and EPS Miss Consensus, Shares Fall Premarket",
+      "snippet": "ChartMill, 2026-10-22T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.511,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWVRS3RqMzVtN3VaMnJqdXB5cVpXVTJqVXJxVHhuVUtZR2tpUnYyTTBsQW53N0IyVWFUSXB6ZzFybEZPbWFlY2hPR25OSW8xS3V0blJQbW9aMkRwb3JlT3pBRnRXb3Jhc2VWbXg4ZkJFRkNGemp5OHZyM2x6b3FsZklHLWZKRThqMHMzYi13ay0xNTc3aDlN?oc=5",
+      "title": "PHM Q3 Earnings Miss Estimates on Lower Closings & Margins",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTHhuQmxhU1RhaEZiZDFyX1JvZkhST3lCQ2JJZWdmNVgtRmU5cTFZMnhpLVhKcEFIaWVWZ0ZZWUZRSXA3QjhPY2pmaHpvaVNoY0VOck5TbXAxV0VMUVpzNnFDcHJsaDdDSVVJQXp3QklFVzNjUVhGQ3dmYlhHNktjdmhrbC0ybXdUcUdSdjRhRlp2UDZlOWFKOHZiRm1wZWJYWWdv?oc=5",
+      "title": "Compared to Estimates, PulteGroup (PHM) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSzItdXJzaWtqX2t2RWg2Q1EtWm1vNHFteVNSaWJQVllyVjdSTHZMdGZiWVNCb25CckVGd0JxbmxUSjdpNUVrZ0lIRWk2aTdfMVlNNFRaRlc4WmMwcWxyVHhRR3UwTUcyUXJEZnlDU0w0YTlZTzU1NGhyT3VjSlZ1MHpkWDVoVFliWjc4MEY0ZTlHaUQybng3eVVIY3ozYVlaNm1Rdw?oc=5",
+      "title": "Earnings To Watch: PulteGroup (PHM) Reports Q3 Results Tomorrow",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000041/phm-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000043/phm-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q - 3Q 2026",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PHM/history",
+      "title": "PHM daily price history (Yahoo Finance)",
+      "snippet": "close 121.19 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

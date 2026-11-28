@@ -1,0 +1,61 @@
+{
+  "ticker": "AVY",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Avery Dennison\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUDdtcUpZREJiWVVjUWlfZVJHb2R2czFVTVRsajB2LVowclE3V3lDakpTZzVhamVadkE1ODJOLXgxeE5iV3ZuY1B0aUZBRHFRT1JCQng2LW1USnNaZHB5ajI3TmFNOU9VaHhKU0NSSXlQMVJTYnVoX0NadDdvVm10Qlh3T2pQbGZ4MmlpM2F3QUtUUWtuclNmRDVocFVlb0Z1ejZyVWNfYTlxa3FacXJ4dzJoSDZ6Wm95a3NiSw?oc=5",
+      "title": "Avery Dennison's Pre-Buy Hangover Arrives As Street Tests Its Reinstated Full-Year Outlook",
+      "snippet": "Finviz, 2026-10-21T07:00:00+00:00",
+      "publisher": "Finviz",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMFh3VWdiWldEdWlKbUFNNE9NdHNHbGJRUEZPbzB1YXRlQm1MRjlnWEFUUjBCX2dUdzhrVHYyMmpkSUItUm9jLUdrb29LbTlNNDFGVkI4Q3MxZGU0WmtWMkVFSUNYX2tiMTRHRnpNUlNMbXRXbUlRdWdPR0VZRlZGMzNwMnpTX1ppZGZqdmtUMEFFc2M4YXIwVElONU84cmFrVmJIemxEaGY?oc=5",
+      "title": "Avery Dennison explores growing market for linerless labels",
+      "snippet": "Label and Narrow Web, 2026-10-20T07:00:00+00:00",
+      "publisher": "Label and Narrow Web",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AVY/history",
+      "title": "AVY daily price history (Yahoo Finance)",
+      "snippet": "close 181.83 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

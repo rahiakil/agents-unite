@@ -1,0 +1,85 @@
+{
+  "ticker": "NRG",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NRG Energy\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSU4wcW1iU1owMXZFZTg3TWI5Q2R3RUJ6SW9uVEU1ZDA3RWFfRHB6Q0FfTGY5bFFnYzduZE5wbTB4V1o3ajROZ1hMajVSSEtKUG40b1R6eFpuUnhpcE4zbUhlaTFDSkQtYWZhTTVELUw1djRIUEJ3VlllRVl1dGRlYXh3RUhhaDVlYlNsRGZJYlZuTVk0Y1FiVTRiTWgwMW9LT2FGUnFHc0xmNGVEVEJPWlVyTGNtMzg1dklJMEpDN1hQQmxSTEHSAcsBQVVfeXFMTk5wNWpqNkR6bUpST1RoQm1HOThMbXJfYVZIWWc3cUR3RFh4LW5TY2h5QnlaUy1EaGtSdW5JeDFZLWF4aS0tUVVROWEycjdoV0RvQ3JQNDh0dmtQN1gxZVBtSzVGQVFKaUMzbE1JWDdVM1lmN0ZBU3JRMC1EOER2VExmSnZUTjBKaW9UMFlRQWEySEJ0ZXdoaDFxMnRZeEo1SXp5TG5DYUMzcnJ2WlRwTl9xSW9HWlZHdkdFS1lNUW9ELThBREJZemZrUEE?oc=5",
+      "title": "NRG Energy Stock Faces An Earnings Test As Analyst Views Split",
+      "snippet": "Simply Wall St, 2026-10-22T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNGV6Tko2bVktMFVSSEx2SEYxMVVCSDdxNThlMlZqeFd5QjBVRDVleUpsbmNFeGJjMl9PUHdvSThRYkJ0WWZ5Y21hc3ZZbmJzQUt0aTNUdktnOEpuRmpGQ3EyOFpGMjJWQXhsVm5DSlFMX3QwSnlrOUZFNkhvY1JmdmhwSlVLbHdycHEySTdXaWp5eVlEc181Z2J0VVhudHQ3ZmRFVVBHalJac2pyZTNzYkE2ckkyb0dtaHh4VWlEUkFNQ21samc?oc=5",
+      "title": "Raymond James cuts NRG Energy stock price target on Texas headwinds",
+      "snippet": "Investing.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFNSRXRhT0ZzSmtObWdVanZwM2hJa1lYYmM4YlRkVUVzc0lqZlNaMUswbm8tM3hzbkE0ZVdJS0FZQTJsSDV4ME1SelN4cDRvU245d3NlQ0lycnJKZUVPU1lUZUVHUVg0YlJ3bDNCN1FOMXFRUE9iTEJfSlJva1Y4U2taSDJZTHhIZGpfdHNib3lDUlpzWTNNTGdn?oc=5",
+      "title": "NRG Energy (NRG) Exceeds Market Returns: Some Facts to Consider",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSzlxdVM0VlkxV1JUYjlOWm9YY3RqR0pvbnJRcHBPaUh6U21qdmZRTEh3cWxBNUFxcnlLS285c05OMGVzVGw3aDBXQldYVW9ReEZwLXhvY2dVY2M2aHRRak9MS2N5STIzQWlMbFJpWF9NQmx6Ui1QVGJCMVlOYTFuWkhieUFOVThIMEx3dTZuTV9WVVdVSzBn?oc=5",
+      "title": "NRG Energy (NRG) Stock Slides as Market Rises: Facts to Know Before You Trade",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NRG/history",
+      "title": "NRG daily price history (Yahoo Finance)",
+      "snippet": "close 92.31 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "PGR",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Progressive\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSEFqN0piakpHZ3R1YzlBSmZxaUJEVGxwVzhQX1RhZ0JSRzZkQ0hTeWp0Nng5VXhIUkdjNEp6ZTFkVmhZajVwRTJraUdQYWVqNGluUHZWUHU0SHlIdVZucHoyeWVLQlpveFptNExsM1NVUjNhY29CRDRFOGtCRWpqMEYybDdZNXBwOVRKWGtPekdFTm9XWkFOeE5yaXVjSTY1?oc=5",
+      "title": "Progressive (PGR) Upgraded to Buy: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd1BCZXZqbFNGZ0JiM1MxZkkzZWxYWXVtT1pBVUNBVFNwVHdBMlAwTm1oVEdTLWROZzB2MUhaX0RNc3MzbWlsM2pyVlVqWFZPanYyNGlwZW5GTkJHZnZKNUE2SEdHQnZiVkVIY2dFU05DaGQ4c3J0cHZUN2RqLVNFaGhaY0xFVm1EWlFvN1d2MjdlSEt3UFRmRkNJOGh5NXZHOVo2Zm1IVGlCOEltWEg2eFdpY3VLS294ZDZaZw?oc=5",
+      "title": "Here's How Much $1000 Invested In Progressive 20 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-10-22T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYXNJaHVLXzM3ZkZmSjZyLUxBOE5xaFF1UUhaRjNMTXh4NzRfZFNiSWpZRG9YaFM1MVpUTk5fX0otZDVYOHkxd2k0THB1aFRxZlF5QUNCdG1xd1h0bERNZW8xMk9OeGlCYndyYzNkRUhleXRCS3NRc2d2eWJkcGM5UHl6b2h1ZTBmNDBzMUluVTlyMkpqNTNNS2ZFWXgyM3Rlc09RSEhpSDFkZw?oc=5",
+      "title": "Progressive's Rising Auto Premiums Support Growth and Underwriting",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UV1dBakRvRDdDc0dmeHNHT2lYVzZGSU02d0lHQkpQSExsY3czc3ZfdUZZdnAzcldMOTBPWWlCMUxzekotNngzbThPOUdfMl9QVnc?oc=5",
+      "title": "Progressive (PGR): Company Profile, Stock Price, News, Rankings",
+      "snippet": "Fortune, 2026-10-21T07:00:00+00:00",
+      "publisher": "Fortune",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMFJhaHI0UDc4RGFaT0EzME9Jald3MFBTMXctZDVfb29aSHBJNkJwRHo0OVYwTTRVN3BjWFF6QS01RWtvQ1JEc0tGcl8wQjFJR0lhRVhLaWxWbUtCaGtXU3UtRmEyeFB4dV83dzQ2ckdxVl94a1JLemFWWE1pckZsZEpFRlVLWDhTZTQ5N2ZMQ18yQUU2RjZVM21jQ2Ixa2QyMjdkYXg4cw?oc=5",
+      "title": "Here is What to Know Beyond Why The Progressive Corporation (PGR) is a Trending Stock",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1pna3drdzZFUFNleUgxTV9XZjVvaXFvUjRXejdOdWZHd2NIMXIzNDc0SUw1NjU2UFBxN1liSExGYjRjNjZDcmo4Zkl2TzZuQzVZR0tFYU5Xa3VxVzVRMUdaUG5tMldkVVM2cFNCUTRJWWtKZExnSElwNy1aNXBydV9SX0o5REFlUEk2X2I4UVBWakQtNHh1SXVrQTJadVZQOEY5NVRLLUVFZDZ4T2pRY01WLVRna2M?oc=5",
+      "title": "Hall of Fame coach Bob Huggins battling progressive cognitive condition",
+      "snippet": "Reuters, 2026-10-21T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PGR/history",
+      "title": "PGR daily price history (Yahoo Finance)",
+      "snippet": "close 228.07 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

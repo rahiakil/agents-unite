@@ -1,0 +1,151 @@
+{
+  "ticker": "URI",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdk1LWlVBcXcyb3hUdnE4UVhEdC1TVXRDUWY0UXNaSHRXQ1lqaUZjTHJmUTh0VkVmSUs4NkNET2RaLThOd3A0ZXZUa2RhTDFlZnBxaXIzcnlJVGxNVDVaQ0NOTFVrWGZJN3hOVnVkS05vNDRkcmlrZ2hqRmZGQVluTG1IUl9pd09tQzRzMEZLY19XOEo5dm9CaWVFeVlHdw?oc=5",
+      "title": "United Rentals Continues Outshining Its Peers",
+      "snippet": "Morningstar, 2026-10-22T20:51:49+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-22T20:51:49+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRVloalVxLVVKQS1JT0JqUVN1Mk03OWVJMjNxMjFoNkZUZFYyaW5xdzBMSjBLRi1TcU1ZQW45aUZ3TzExMFFWWXFVR0h6aWxlM3Y2VDZuSlBJUzJPZDMwN0lQZjFYa0JYWUxMZzhhX0dpOFRFNk5lcWpVSjJSV2YydnFsVDJseTBVSDQxVnV6MXh5TVB3RDdhWmU5NnRfcnhzejJldlY1cDlxSEk?oc=5",
+      "title": "United Rentals Tops Q3 Earnings & Revenue Estimates, Raises 2026 View",
+      "snippet": "Zacks Investment Research, 2026-10-22T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSmdTa1NOeGxrUGRVczBkdkJrWXVUYlJ1SEwxMUV5WnhqLTJrV01YTFZwc2kxelRCVEplLWF3VE5NOFA4VjR4S1BMeEdmbGQ0UGZ5T25FekRmQnplbU5vU1U1RjNram1iUnl2bHBNTkpHTHRGV0lXc3ZMb1lKNDNsZ1lKTWVrM0lfSU5fbFFnSDNiRm9SS080UTF4RXI?oc=5",
+      "title": "United Rentals Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON3FFU2pxY3BEeTZ0UTdRNm4zOF9DOGpFT2trcVNhMjc1VzBWemR0NkNXck8xS1JmWU5FZmV3RDZUNHpQSUZEUXJsWXBjWGs4djkyY1NGU1B6V1JMTVB4V2FBaUVpZjB5WkdSS0VhRTZqSVZUYlBzWlU5SnZjN3ZwR2ZRUlZVUHMyM3kxQkNIVHRldHh5TEpCQzRfU1NCcWhmdE9fNXFXdkVBSHNRWGpR?oc=5",
+      "title": "United Rentals (URI) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-22T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3dhb0U4anFEV3B1TUYyUTVtRTBLRlhjd2IyVDhDbzAzNE0yMDB4dWx3MTFWNTNrNlJObHFkUDBWZDdBZ3V1SDhjSzFBYVA2X0dGZU1Vak0wSGNCR0JVV3ladjliTW5CSGVlekZCV3Z1THdyZ1FKSnBGQ2pNRkZCbE9NWVk4OEdVbG5lajBaVzJtZjJGdFhZZ25HQzM3aHRLMDc2UGhWVUNFclF4?oc=5",
+      "title": "United Rentals earnings beat by $1.61, revenue topped estimates",
+      "snippet": "Investing.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.807,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWpPb3ZjaVlvbFg1TjdtUXBpUkE4Q1RvaTdWUnBmenlRSDVpcVZZaEViS2NJbnVsR1NRUGlrQzhzeUhVNGRrUWVwdVR4VG1fdlVBdVdYQWc3NFpiR1NmWXFycmUyWFhqNXFzWGhZbEJMTmphTUVsX2VuZEE1VEJuZ0ZyZ3NtMTdwMDdzSEpVVm5xc2dKXzdV?oc=5",
+      "title": "United Rentals (URI) Beats Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUHpybnozZVFRZkFvMDVCUlBMbUUtc19BbGFwVzUwZGo2VmJ5bnQ0ck01VW93cWdBT1VKLXlEc0JsZFR3THVBVHNONHpQVXU0ajVEUzEwZ2dUYkM4SWFGRHhIaWxTc3cyT2ZaTFJVaE5KbGxCRVNtT1EySEM1NDNrX2JPbkZLSUlqQkluZ2gxRGxNNEpwLWptSVlhODlXS0V1cjJkM1ZuZWJmWGFuRFJ0dlNIQ1NDQzZRQm5vaVljYTdIUGVnT2xHbEFzQm9zdW5YUDdETUJfTjI?oc=5",
+      "title": "United Rentals (NYSE:URI) reports bullish Q3 2026, full-year sales guidance is optimistic",
+      "snippet": "StockStory, 2026-10-21T07:00:00+00:00",
+      "publisher": "StockStory",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.823,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTXJYdEhpYi1STzl1STc1WDQxTHNLRkN5V3A2cmxDdmtEcE5TYjdULWVpQjk4TmhidUJGOUhFTG5NN1hTbEVkZHVlN05qZkpTQUNHMVdQT2lLS2ZBX3V2ZzBta3JlZG40dWxCNkRmZFRVV3ZuSWowYmlPUzNZRVJNUkM3Tk9aLUl1dGxURHJqeVdLVU0wYmtXLUZlem83NzhKdXFoMw?oc=5",
+      "title": "Compared to Estimates, United Rentals (URI) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000036/uri-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000034/uri-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-21",
+      "snippet": "10-Q",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 1098.88 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

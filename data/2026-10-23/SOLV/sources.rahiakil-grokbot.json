@@ -1,0 +1,61 @@
+{
+  "ticker": "SOLV",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Solventum\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRXU0X29vbFBxY2VhdHRIVkMzd1JHOS1rSDh0RGtzNERXNWN4YkhPTFNvaXdqVjZiV1RzZ1hZV1EwWHdQRkI1UEl2cFdyalo3WERxQWVVdUplYXpQS2EteDI2TW5rdThfcmdYT0o5N25nVUdHUlZUMnhDdVM4RU8wWHQtS19pbElSVVZIY0FlR0t2TmpHaUFlVm0ybDBNMkhqMmFpWjNn?oc=5",
+      "title": "FDA clears Solventum\u2019s combo wound care platform following Acera acquisition",
+      "snippet": "MassDevice, 2026-10-22T07:00:00+00:00",
+      "publisher": "MassDevice",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGRHT3h0TmtsMVJzaDZLeWZhM05fT3ZEdDluM1dvektfN1FDR3lGVk1mWU1Ucnd5UVUwVUhla3RMNlFPcWRTX2tmN3doaW45Zmp0dnBUNkpBSnVtQS1oZVEzdTVSR0dCc2VxSy1UWjQycHBPMnVtMGx5ZmE4b2xXa0JpYllqUlFzTWpUek1tTURCakR6M1NmTUxha0J2ZzUyeHVNUFIyZXd4TGVHMzRwbDI3S2drdw?oc=5",
+      "title": "FDA Clears Combined Use of Restrata Matrix With Solventum V.A.C. Therapy",
+      "snippet": "The Clinical Trial Vanguard, 2026-10-20T07:00:00+00:00",
+      "publisher": "The Clinical Trial Vanguard",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SOLV/history",
+      "title": "SOLV daily price history (Yahoo Finance)",
+      "snippet": "close 85.41 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

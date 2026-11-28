@@ -1,0 +1,61 @@
+{
+  "ticker": "KHC",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kraft Heinz\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX2ZXZmMyZGloVXJtcnZGXzJoeGZMRFpwY05nbUlfckVCSDdkX0k1cGZyUXFyOHBoRnN1YmY4LVo0YVhQMWhxaVhfdmhzVXRWV1Q0SnRiNlZiU09BUmdncC1uZ3l1TXhfNmMyT08tcm85R2pQcEhDZjBIMDUyZW5SMl9nb01WbEJQRXFIM3BKajN4QmdtV1dkY2RxUmZZcjhVT0dHOUFESnV3b2k5cmp6TWxUYWVNcHBJVWxmLWY3N3RWSTM1VkY5WXhaVzNvUQ?oc=5",
+      "title": "Kraft Heinz (KHC): buy, sell, or hold post Q2 earnings?",
+      "snippet": "The Globe and Mail, 2026-10-22T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTWhTeDhjeTB4Q2hmRzdtNEtSM0xUYW9adUtndVZrMW56SmpwUzgzb016YXdnV2NMOVo5R29BTWdKMDlhMC15aWx1WUFUQ2hiejdJLWI1N3VQUFpyNUY4RVR1V0dLWHcxZ3pEeFcxVkhjM2U5cHVoTFdiZzFpanNHakd6dDlYdnZUUGVkamM5QW8?oc=5",
+      "title": "Kraft Heinz (KHC) vs. GIS and CAG: Can Strong Cash Generation and Debt Paydown Revive a Forgotten Consumer Staples Stock?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KHC/history",
+      "title": "KHC daily price history (Yahoo Finance)",
+      "snippet": "close 24.8 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

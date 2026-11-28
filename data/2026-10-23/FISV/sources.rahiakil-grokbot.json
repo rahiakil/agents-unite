@@ -1,0 +1,106 @@
+{
+  "ticker": "FISV",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY2ttRmlGc1hiMnJLaG5iemt0YzVZcFljQkowMDNILWZaMTBfOFdDYWx5UHRKdWJrbFN0a1lsajBiOUxwSG1ZbDdaREFuUTNTcFFOc0pWRHV3ZVZncEQ3M0RWVnNfcU03Wk9LVk1OMWpRVVBlTGdzR2UzTXY2VllXRHhGamFnUHh2Ump1XzRaVWc3dk5HaWpQWU5ISFZPU09a?oc=5",
+      "title": "Is Fiserv (FISV) Undervalued As New Deals Test Its Turnaround Story?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRlhfNGNiT3F3WmU2RkJLTTFHbUdpQi1TU18wR3ZKaWl0bmdVWU5fR25BU0kwNlQyQnRGT0NsSUdKd3NHWE5QQnBobjFIQi01ZmFEbW91TnYzdXJ4Q2dabXQwTW5GbEpTcWtHX2E2LUQ0N0ZkNnJOaG5oOFYyTVllTS05WktxYTZCRTU0?oc=5",
+      "title": "Fiserv\u2019s Q3 2026 Earnings: What to Expect",
+      "snippet": "Barchart.com, 2026-10-22T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQWFzNWYycEdCRnI3clZKdFJfSU9CQk04ekRGa0M2V1RvSDZRYjRENmNscEZZNl9fdVBqdF9uWVAtQWtZeXJ5aVJ0cjBlNGtNdU1CcE1pbG9vMHFmQ1pkWUFpUkNRUk9wczEzQ1RiVzd1QmQteS1tdU95SEVZUzJ2bndXMUM5YkxTLVY0NUVMQkkxQlpTMlVyODhn?oc=5",
+      "title": "Fiserv (FISV) Stock Still Looks Like A Bargain After Lawsuit Claims",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjV6cEpCbi1kVXB6WnBNUU0xdTBwOVJtWGhxMmxfQ3JYc0FKaUJDeVNYZEZjcWh3bVh5aTBDRGlyRmFUZjFrOVk2QktDcHY1MGRYem8yVUZYcFA3bXhmNS1Ca2J0MkptMkUtUkZleHdHT2IyaWpna0YwaWw0QktCSnVCZ0ZWR1V5SXdkNFhoc2FWZnBVdjllb2s5R3hvWmM5?oc=5",
+      "title": "Did Stablecoin Platform Just Shift Fiserv Stock Investment Narrative?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXh1SjFpWmhUa29qZjVCbktaLUhmckp5X0pSX09lY1FxMGlUOE1aVzM5QzJSbGlUWUZfeFBjMnRtOUp4ME12TEVlWWh3Und0cUtaV1oyOUlrR1FhRnQ2anE4Z3FadS0zSjFrVDZFLWhxRmRTbHV2QXhBM0VyV0MzaU5DanFUdzJZdkdwaE13SUlCUHpGWTlwaA?oc=5",
+      "title": "Fiserv taps AI for retail rethink",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000119312526429481/d86517d8k.htm",
+      "title": "SEC 8-K filed 2026-10-23",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 49.86 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

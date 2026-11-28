@@ -1,0 +1,49 @@
+{
+  "ticker": "INVH",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Invitation Homes\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYWVpb0N4WTFjZzZKYUd3aW5DTWVPeEhaMmdNSVc4U3lpdWVWeU5xbnFNM0VVcFBPQ1VxNEdRV1pGRHdlSmVpZHhHM1k4cFRIV0cyQ0tEMnZDYlhFOFNXOFJzN0JjblVpSXh5M0V0XzJkWXEyQ3RsQl9jSVZPc2NOZTNKRGxMUW9abnRVMFY4U29oZ1BWNDNHTVAweUlDMXgzbTJMbmlqNUdqdw?oc=5",
+      "title": "Goldman Sachs Adjusts Invitation Homes Price Target to $33 From $35",
+      "snippet": "Moomoo, 2026-10-20T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/INVH/history",
+      "title": "INVH daily price history (Yahoo Finance)",
+      "snippet": "close 27.54 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

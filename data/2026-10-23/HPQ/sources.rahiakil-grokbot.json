@@ -1,0 +1,109 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 50,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 8,
+    "irrelevant_or_spam": 27,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaGlxSGpkX0ttZGFncER1aHNPcXV1SVlmY1FEY2dfaGV4SFh0cU94UVp0ZDZXOGlwQlpMLXkwRXUyQ3EyZmVrY1dNS2QzVU1FYWNQbzVSTHowLU1NeVJzaE54M3B4OU5DWTA4N1ZPR3VFMmpJZmViOHp5SjAxMlVtazY3OXFHdDl6OGo2VkswWm1mRFhnVmJfOWhyUFNwdTU5WkY4?oc=5",
+      "title": "HP Inc (HPQ) Shares Surge 7.8% -- What GF Score of 79 Tells Inve",
+      "snippet": "GuruFocus, 2026-10-22T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3TlNWaGJOc1hEV21ZRl82Yjk2N29QV08zd2s0SE9tNml6VlRsZElUWWRqUFhqT3NDejNXeTFPaDdrX2EzY01pN3FrWnVIRVc2S0FjQVFhV3ljcE1xRWFtWTBqcFJid1NmOGZTUW94NDJMWXRQc0paWGtWQzU?oc=5",
+      "title": "By the Numbers: The E39 M5 and Z8 Share 394 HP, but Little Else",
+      "snippet": "bmwblog, 2026-10-22T07:00:00+00:00",
+      "publisher": "bmwblog",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMVgzd3RaQlQxN0ZHd3JZYmVsMDRrWDdZN0lxQVZPMlhPSEI5VHJHcm11anplOG9lLVplaXhRYjVMby1lWmlTNmd6MzBEeGFCSzFNallLTzB3dGROOEZYRFNRMmpYRGNXZ3Roam1XV3lMZXhOcWlTYW5rNXFrY3lUU09kb2t6ampTSHJ4Q0FYTkJKUVAxd3pmRGJ4emRfOHhWaDFzUmgwU0J4VndfY2FkQUgta1ZPMHJZZnBhbTNkdw?oc=5",
+      "title": "8 LT4 Camshafts and Power Mods Tested: How We Made 1,006 HP",
+      "snippet": "HOT ROD Network, 2026-10-22T07:00:00+00:00",
+      "publisher": "HOT ROD Network",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQenBGQmFLaTBIdEpwbHpMazctNUhnM0VkekF0SVhGQU4yZUZXLUFNQlVGX0xoOU42aThjYTJjMjlybXIxdFljOVlRZjN3T1dEN2RhNmVQZnpybmxhb1hVSkF2ZkE2YjUzWjNfZWlfblg1OFFaRTJWcnFfakVSSlN2d3NGS2QwZ2FMMUp0VW01ZUg?oc=5",
+      "title": "HPQ's AI PC Demand Rises: Can it Offset Declining PC Shipments?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGVNVWd2aXRfSTMxV29TSFQ0SkROUEhVQjRYZ0dpelBNelA3Sk9TSTVNYnE2ZHVGNlF0UFpqeWJoVlFQR3FkYWFFQ1RlYkMyZjFyM2RZQWVOM2J4R1o2b1kyVVEyVFc1UkdoNGNEdFFIaFZCdWRidS1OZTMzRmoxZWpSZG1tVmUycmZQd3RtNXZ6cWNH?oc=5",
+      "title": "The Ram Diesel Inline-Six That Handles Roughly 700 HP Before Needing Forged Internals",
+      "snippet": "HotCars, 2026-10-20T07:00:00+00:00",
+      "publisher": "HotCars",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM1FiWHY0VlRBME5RUFRRVXkyVmlxOHEtZ1A1cFdlTk11UWExVEM5VFVHcjhmeWlyWXhpbkRCWjBQaTZCNHljV2dFOEZEYjVVeGZpRGpmNnd5NDlkQ3AxcFNQNm1oOFZWc2NwREVxUmVJNVlVc0VjU01wVkx0bmU0a3VLMkdNSi1ZT05ZVnhVcGdCbTkwbXQ2a0dYVy0?oc=5",
+      "title": "From Stock to High Performance HP Engines Can Build It",
+      "snippet": "Engine Builder Magazine, 2026-10-20T07:00:00+00:00",
+      "publisher": "Engine Builder Magazine",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 33.64 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

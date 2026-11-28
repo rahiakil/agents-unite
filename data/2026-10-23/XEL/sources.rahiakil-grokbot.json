@@ -1,0 +1,61 @@
+{
+  "ticker": "XEL",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xcel Energy\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYmVGVGs5YmwxY044QTFJNW1YVFl4c1ZKSnh3UUF2bThtUVdFbU0tZ08zN2d3NFZSTWlCeFdUUFBUaU9qSWxuNzZwUmNNZExleTdGa3RIX3dUMlpncGp3WHlkb0VVeXRZZ0VfajQtWVVpbGh6MHdQcmU1WF81OUdaYlJNdTI3azRDTS1WSFpLM0M0bEZWdmJjWTNZSVZxZjA?oc=5",
+      "title": "Xcel Energy (XEL) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tckhmNDZkcGRuRWNWU0dEWWE1N1VoTWlINHlnQ0pqQXNsUVF1Q3lVZDlzYm1zamRBVlBaT1k0bV9MQmx0ajV1dWZYVy03bUl4WGR2d2FTSC1nM2xLVmM5LWFSTlpkUmpVblZJcU83Ni1SN2dFclNFTUFjMA?oc=5",
+      "title": "Google Partners With Xcel Energy To Fuel New AI Data Center With Clean Power",
+      "snippet": "TIKR.com, 2026-10-20T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XEL/history",
+      "title": "XEL daily price history (Yahoo Finance)",
+      "snippet": "close 78.05 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

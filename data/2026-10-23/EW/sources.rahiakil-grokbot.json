@@ -1,0 +1,73 @@
+{
+  "ticker": "EW",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edwards Lifesciences\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNGpYN0pBazg1ZnFMTXJ2QlBxdzgtenVhZl9aQjUta3dkS0piTWVnV3JKajczZ3o2TjFzNzZNRG1qOHY3aFBTbk55aUdocmtYc1RjclM1UlAwMkxKTnRDakd4c21JbkVsbkhka2dxVm1zRHBoWGxGRU5CODVIQmRoRmNCeXJpelIyTHdfY0s3OXFrUTZwRmNYX2Z1ZC0xMkxvU0dibDdmb2lhb3A0TVBjaDhxN3FmSFdTSHVMcVRMQ1J4YXZjcTR5VkwzUHJsR28?oc=5",
+      "title": "Edwards Lifesciences faces stock risk ahead of trial results says Stifel",
+      "snippet": "Investing.com, 2026-10-22T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZVNZOGp0X3ZkZzRwX1cwTkpTZXphMTRmVFhUZlZkc28yVTRzbTFrUnF0c1cyY3VXbnZfOHNVNkJmWVVnQWtsSjY0X1F1NW1tMzB6akZFTUtFcmJOVURGbWpPN3hPTkJxc2dwc281VlJmTVlFRzNhTmc3eUMwUWMzOXlZdVhvZjZqZ3NKY0t5Z2k5MWhXNkljMVl5STlKd2hiMGdF?oc=5",
+      "title": "FDA Approval of Edwards Lifesciences\u2019 PASCAL Precision System Opens New Treatment Pathway for Patients With Tricuspid Valve Disease",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaF9vTFhNbXBBTWxDb1VfR013aWpNOUVRdUc3VmF3RVdNQzZnM2I4ay1RSVIyVmd5ZXVkR045b3V0QnVqM19LZ3c2RTdoYXpjYWxpY1BsQVI0eURzVjZjYWhyVVR5QmZFTFczSC1wZjVKc001dkRUQWtwT2xaNmZVZ3I1OFNlbmxkR0hyMGk3U2c?oc=5",
+      "title": "Edwards Lifesciences wins FDA approval for PASCAL tricuspid repair",
+      "snippet": "Mugglehead Investment Magazine, 2026-10-21T07:00:00+00:00",
+      "publisher": "Mugglehead Investment Magazine",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EW/history",
+      "title": "EW daily price history (Yahoo Finance)",
+      "snippet": "close 89.07 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

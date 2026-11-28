@@ -1,0 +1,163 @@
+{
+  "ticker": "ALLE",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Allegion\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNDRDczJyU3pSblJvbkk0bGFKTHVzQW5pRmRaMGN3X3NSU21OOEYtanFKdnk4NERQZ3dYdHZTTDhHc2czak5oSl9HWlJVNC1XeXhBRXRISUNoQ0FRQWQxMHI0ZXljN1lvTGtzUU9FZkFHNmI4TlNqNU5uY3QzX0ttRnNPUVBsVU1SV0J1YWtaM2I2VGJwa3BKU29B?oc=5",
+      "title": "Why Allegion (ALLE) stock is up today",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM29hdV9KMkEzQ21TaDlxSEZBOGlJU1VkNVVhX211ajBYcEY2ZmdJeGMyU2REclFGVnNUV1YxRVY2c2MyTGFTaENDNEdmb0NGOU9PMjhFcDdmeDJKaWRWRk5FSTJ1elR6ZXlWZ2NYc21XZTFUcUdSTmpodk5KM0NzSjg0MWM1aUUzWHF1WDZheXpuZ3J1dFBsNlBRcw?oc=5",
+      "title": "What Allegion (ALLE) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYXY3Rlh4Y3JZZnFRYl9Oam9QdGEzQVdrMmg3dW5GMGdnSWtLcHk4eG53aUFoVFRlTHBWckMxSVA0Q3lPNXZQQmpNNFFqTzlEemhVazU5TnpnRGl0cXZjcjlqT1lteE1SRU5PZXpvNjZzdzlRVDA5dW9yaUNIV05USlhkRF80LW1tYk45Z2ZPYVYxRkpvQUZxNmN3?oc=5",
+      "title": "Allegion: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV0VNYWEtX3g3Q1puOHlXYzA2NlRHM1BLaGptWlR2TjNXUkVHaF9MZzZ2akQteTg1UUZ6aEVvTkE1dW4tRTJjM21JZWlKblpuSmJUME5GWnQxNjRqUUlxUmJON3h3VDFwM0k0QzdkR0F2NUNpa3pyVWVmSVdSQ3RsYjkwc0FpcWkxaVFDeVQ0ODBXX0N4U21qdEJn?oc=5",
+      "title": "Allegion plc Q3 2026 Earnings Call Summary",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMDVNSU5feUw1MHY3bWFFQmtHbUlxVzJjMzFmbC1HZ0xHMWJWYlBpRVZoWTM5UGQyN1pLTUxrU0VnNFFGOWZMakRzS21pTmRFQ29xVVdXTk1CUVJfTS1CRFhjSi04aEVGOXI4MG5NcVBJYUxQdHdFbmUxYkVPR0JHeGoyLW9RVmJBZXJsM21PLUUzZXVrVkx0QXlaaEpEMk4zckZfZlppaWNBX2VSTDdjVXZrNEFlU0lpai1IbFlxQ18tUQ?oc=5",
+      "title": "Allegion PLC stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-22T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR090alJ6anNLcTlKRWs0bWxKNHZ4SEhMQzhsVWNmdUxYYi10N2ppaVVwX2ZCYndpd0RpRDFuVVczR0Z3eHhDUE9UZ0s0ODFVNnlrbGEzYUJfZ1pTMWdKYVItOTFPRTUxNUFvbHQxTXRYcFdDM2NFeG14QXZPV1JPVWFNS1NtemFma21xOVZJNkhsQjB2cU5tWXBodnhYeFNz?oc=5",
+      "title": "Allegion (ALLE) Q3 Earnings and Revenues Beat Estimates",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZzR0cnE3TENXX3c5ZG56U05KcHZ2UXlyVnBBUGotS1RYakVhRUVTSjE5dkJ3bzh2NDJlR0didVpnS3JDLW01NDBmQkQ5Y1JfWFo1QzlrVzdkR2lrMDdUQ1VCTktkbEdUMWJGUEd1TnBnaXRVRFNscGxUYS1aTkdOX2h1Q1FyRTl2Nk1wX2JzbHEwMVdqSEtDVVl4Rm5jcmVKTmZUQV9PYlg?oc=5",
+      "title": "Allegion (ALLE) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-22T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb01kdldCWHVQR00za2lMRnNHRDZEMzEzZi1DZ08taS01Q1kzOE1IWG9vcE1hVHY4VENyRFoxSDE3eWNhOGliZ0tSR1Fta2dKREtUX1lwZ0VDdUowSlBiUVV0dV9CTE1ERGhWTHA2bzRFY2VJeFVTdjVnSmw3c0JvNkE1SFNyOWZRR1hCXzRwd0tZYUVGSmFmOWJMYw?oc=5",
+      "title": "ALLE Q3 Earnings Beat on Americas Strength, Outlook Raised",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.802,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd1VSRDI3WHJEaGQ0YnVyQm1PWHQxNTlhWVpzcWhMWEc1dHp0WS1UaUdZbnpTMWhzTzhXcHcyenkwai1pUFNvcnNGM25QbWVmQ25zdV9QLTBwUGNZTWliTGNRTkluNVBDUDhTTDVVNFhXX19vTjVKZnE0Skc2YVNEN1JTZ0RGYWhWNnlSckJzZ3dlWXVQQU5jT3AyNUd4OWRGMk84WGpMNXMwMTVWX3Q4SGZPMFhIU29jUjNESHhlOGFRX0FWYzcydHA5SWhNbDA?oc=5",
+      "title": "Allegion PLC (NYSE:ALLE): Dividend Quality That Clears the Screen for Income Investors",
+      "snippet": "ChartMill, 2026-10-21T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/alle-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000034/alle-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q DATED OCTOBER 22, 2026",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ALLE/history",
+      "title": "ALLE daily price history (Yahoo Finance)",
+      "snippet": "close 178.98 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

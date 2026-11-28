@@ -1,0 +1,94 @@
+{
+  "ticker": "ODFL",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Old Dominion\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcWZIaVhVUWZMU2x0bXJuM2E2VS12TFo1U19oellpaDE2c09reVFZT1QyWnlQVjFMbG1oTEViYlh4bUxBSk5CdVI1VkRBNVE5Ri1PWGxLZ1FrZUExR2NUbkNnWDltc2otTFR0WTB1UVUwRTM4NWhoRHhheXg4NmV2VF9fQzZhbGs5YXpBaUtxdXdYaG1CWG9KV3dNbnBldXh6ZEhTVEYtWlJHRkNSX2c?oc=5",
+      "title": "Old Dominion Freight Line announces $0.29 per share quarterly cash dividend Oct 2026",
+      "snippet": "American Journal of Transportation, 2026-10-22T07:00:00+00:00",
+      "publisher": "American Journal of Transportation",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZUdybG5qR1NCT3dJRmhBcHhTWDlWYmpQSS1SWm1hNDlwZjdHV0RyLUdtNXRteVBJSmYxUDRCWkcyWjlmYjVsWW90c3dsRXhPMGVXMjU5UWZCWWhTY19CTW5qZFE5S1ozcmc4SnVoZk5oc3hfSXVabWc2Vk82VlhpSEMxVEVDYjR0bG5iS0s3NFNYZ0dhdUFkVTFaS2lIeTht?oc=5",
+      "title": "Old Dominion Freight Line Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1J0TWtaR3l6Q0Y1eEw2X003eXJ5cHV4bGNWdHFCbWlBMGNIb05hMmRteEdTNDJLM3hmOXZVQzg5MldZQWZkN2xpMGxFbGJ4ek1RTlo2c182cDIwNEZwQTdtRU9aXzdrZXNwZzFDeUFOdlFZVEVHTkFuNXk5WVAteVdiNkxlcmFlaG40VGZQMFdib2d2dFp0MXZJOEpfdy13MGRiLWEzSy0?oc=5",
+      "title": "OLD DOMINION FREIGHT LINE ANNOUNCES $0.29 PER SHARE QUARTERLY CASH DIVIDEND",
+      "snippet": "Moomoo, 2026-10-22T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.447,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNzhYdUpsaWU2UlRyYjZyamYyS041cHBGVVlnaUhkdmhUTXpvTDJBdG41QkZma0dwMlp0emY2R25ZRzB3Q3RuOVlmMmlONFdsV3o4ajR6Ni1oVGFHdnVvS00tRHJteFZlc1E2d1FDRDNHVDBpNkVWWENSdHlwYUxyQXhtMU84VTdkYkFjc2ZMaUU5Z3F2c2lnY25jOTlrcmZ1emE2TlZuaTk3c2pvb2drR056VGpuc3ByRXRn?oc=5",
+      "title": "ODFL Benefits From Disciplined Pricing Amid Weak Freight Demand",
+      "snippet": "TradingView, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/878927/000087892726000029/odfl-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ODFL/history",
+      "title": "ODFL daily price history (Yahoo Finance)",
+      "snippet": "close 182.7 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

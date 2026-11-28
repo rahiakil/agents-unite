@@ -1,0 +1,97 @@
+{
+  "ticker": "DVN",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Devon Energy\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdFpOQjlKbm81SHFKSU00MENDVzBiT2JnWkdTV0FqRG1HV25TUE82S05IM2pkMVZaWnV1OEtiSlFHN2pac0ptQW5senZ5Mm9DWUtaSmJmb2VTRHdpWXR0dkRpMGlzaXJ5dks0cEdYY1l2VHdiQ3h6dllVM2NJYUw2ai03MHpfWkdjaEVoTEZVYlVZZVg0aFF4RTVB?oc=5",
+      "title": "What Makes Devon Energy (DVN) a Strong Momentum Stock: Buy Now?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYWd6eWlxQjBQLXFKNF9US2RUSk9pbHdVQTlueDJKWEpDd3BYc1B4bTg0SlAxQUxNNHlzSzZGdXVXTlJhLWZjUzZqY2hqQzNUMERTbnZNTF9NbnhFVElpeTNmRDdYTGFKN2NRS3liQ0JMMWMyb3JvT3NtRW5hcG5LRjFkZHN6UjNNRUJGX1hreG51ejk5TzJRTA?oc=5",
+      "title": "Devon Energy (DVN) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnJOVWhscE1ncXVIaDBLNG5LT2tZTnlmZjUwRURaS1M3NGZZNjg0ZGxuXy1obmhkWl9ZaVNObTNtdFEydXEteVNGVFQ1YzhrT1EyOTE3bXN4Q3pHbG5WT3VWRW04elZBNUxnWEFQcnpWc0VZbDYycmJtbWt3RWdHVUhLYTBQRUdITWo3cTlCMlg5Y1dHRVExZWNKZGtpNWc?oc=5",
+      "title": "Wall Street Bulls Look Optimistic About Devon Energy (DVN): Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGNtbVRXajFYb2MtRHBuSjI1alU1a1I0azh5YzZGMEtkSUx0WFdzRWhBUndHM1ZYU2l4WUZWd3RkMzd6MmNVcFhlcFVEYUxYS2RZb0lUQjdCYTdtODlOWnlMbUROWHhkY3RIRUJtRE5mLVJMN0lKLU1KbmIwb3VNV295emZPN2xqNjA0?oc=5",
+      "title": "Sell Devon Energy To Buy Permian Resources (NYSE:DVN)",
+      "snippet": "Seeking Alpha, 2026-10-20T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX2VuQl9TbDhJVHBmWVZXbU9rZDFfWG1LRWQ5TDNiYm1jNXJ6UkJIQmxVbXhTSWpzb2ZYNldjdlo5ZUxxOFE1eWZpM3o3cjRzZU1NSFJwcTFKb090VzhBZVR4NGNLOW9kMXcwbk1xUGdsVDkzTmQ4SDgtWDdxdDJXcXJqSHZBdkNpcXpjZGxuN3lyM0ZoUTIyb1NpUFdYc3RIbmNSYQ?oc=5",
+      "title": "Investors Heavily Search Devon Energy Corporation (DVN): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVN/history",
+      "title": "DVN daily price history (Yahoo Finance)",
+      "snippet": "close 51.39 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

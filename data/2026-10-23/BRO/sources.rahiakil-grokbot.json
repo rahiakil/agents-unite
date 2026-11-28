@@ -1,0 +1,82 @@
+{
+  "ticker": "BRO",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown & Brown\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV25VeGxEazhtZVJQcWN2STBaMG1pTllhT0QySmRkazRwSlFLRzhxTnhkdEpqTU1QYVJHOFY0aThCcXN1S0Zja003czZJZ1U4Y3pCMkpVN1NVOEdBUjVNSWUxNkh6WFVzT21aQUVmSFhmal9XVW5zdGtFX0d4ZVA2YUFxWU5OeVlXUVlqME1wdzBZUDI1VmY4Yk5IWTY?oc=5",
+      "title": "Is a Beat in the Cards for Brown & Brown This Earnings Season?",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMUpBb2duQVlzRlp3aDZDLWFNUnM4d2hRV3U4Y2EtUk83U1gtLThHcGJFSWVva0xZc01rbWhBcTdYNzNHQXhzQ0xjdXFZRzU0N2tZa2pPcHpncDdMMkROaU1tME92RHQtXzNnNnhCZ3JBTEgzT2V2Nk8tWXMxNzVKdjZzVy1IOHl6S2hCRll2anlPVlNyZVZidzY4cTFDUDJ6VlJvQzZlenFWZjQ?oc=5",
+      "title": "Brown & Brown Inc (BRO) Stock Up 5.6% and Still Undervalued -- G",
+      "snippet": "GuruFocus, 2026-10-22T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRV9Lek00bTh0cjZadG9iNXlvQUI3NjE4N0JFVXNXS25semVvV2NRX0pQSkFPNW9tTjZPb1RUeFJoMWt5TENQXzFzVHM5Y2JQRDY2SjVvSGNxZm5RS2ZTbExGdWYzTVhiMnRPYTVOaXU3UVRJR0NJRC1qVWZBdGdkaFN5SUNOaEZaVXR2MUFJeUZTbXk0U3c?oc=5",
+      "title": "Curious about Brown & Brown (BRO) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/79282/000119312526429079/bro-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 5.02",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BRO/history",
+      "title": "BRO daily price history (Yahoo Finance)",
+      "snippet": "close 72.97 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

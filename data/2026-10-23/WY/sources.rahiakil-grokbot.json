@@ -1,0 +1,49 @@
+{
+  "ticker": "WY",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Weyerhaeuser\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSXV4aTJNT3pzWV80bW1YYW1BTV9STVRhZXlYQXNCd0xTZmd3QkR3UzBMYjR1Y24zT3M4bnVMZUZvZHhNbHc0SXc0VmtIYko5U05lQWxQR3ZWckpOR29kY1E0RlplVEVCbEwwM2c0X1ZBSmQzRlFocFdoX1R6aXcyNUhDMjFpdE9DVElRVUFpeTNuekhOWC1Xa2ZKTHpvR0RjR2RtQi1YbjI?oc=5",
+      "title": "Analysts Estimate Weyerhaeuser (WY) to Report a Decline in Earnings: What to Look Out for",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WY/history",
+      "title": "WY daily price history (Yahoo Finance)",
+      "snippet": "close 19.49 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

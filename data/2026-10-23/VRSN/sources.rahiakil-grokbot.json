@@ -1,0 +1,103 @@
+{
+  "ticker": "VRSN",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisign\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUVl0UUJ5ZXcwLUp4aTB6cjFsRUxrNWRFaGZyclNKS2huclcxVkJlWGNJeTgyejVqd0tXZk43N29scGNyeUZsZFVJTHJmU2hxemV0WmRwRk5OMkFOSXdkaHliNDh5dWlWY2FwZ2xkbHhuclBwV3EzRGlSUTEtbDVDWnJJLUpKZXZob2FjdDJqTXNEaHVjUE9YbjEzMk91aG5lOHc?oc=5",
+      "title": "Verisign Reports Third Quarter 2026 Results",
+      "snippet": "Business Wire, 2026-10-22T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNHVHcFM4SGVVeFFPc2VUVUNUV1k1cU4xY0RGbVEzUVNhdC1Db1A2YkU4RFVQU3V5dE8zZFFoTl91WDMyN0EyWDNrM1VtYWpSbVZ6OG8xRGNZRGVHXzlod2dlbDFGS19QZWpTbXN3QWFqU0xRTy02TVRaT0VWQ1ZNUWUzS1hVa0xTcXpvakxqQlFsb0V5bDRFQmVfUzZXY192ZVRIVFVFUDZXamxzQ1hFcXZkbzVDU0ZXTGNrbGhkLU5yUHE3X1ZKaWtBOA?oc=5",
+      "title": "Verisign Q3 Revenue Rises 5.7% to $443 Million; Diluted EPS Reaches $2.35",
+      "snippet": "TradingView, 2026-10-22T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.052,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHNLLUQxTzFrbE1GUWk2UnJ1d3JKUzI4NEhoRlRSLU1wcTN6U1g1TGMwU2pleXVJcG5VV3dzWG9mbWdXWHVFNG52WVhubnU1alZpOFBYQU14Si1OTmtZVGZLeFdmMnk3N1gtMHZvV0lQLVdua1JHTGNLVmtKNFAyYTMtX1NsTGtNS2VsNW9OejJ0NmllZXJNTEJ1RG9vRjZBWGtrZQ?oc=5",
+      "title": "VeriSign falls on third quarter earnings miss",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd1ZQX3RxRVpGVWFzTnBpNFVBck9XT0g0eDJZYVdLbWxYeDl2U3Nuc3N6MXdiMXhFNllkV1hzdzI4SkxLZFRnQ1RqNDloNEJIdTZBdF9KTnYwYmNldExIUFVDYmsxZ21oV0xGRjFhZTBDYXVmX3VHY0NsbS01RjBEMmpMenlwZk1hYVYyRmNoRjhJTHRiSGVpeDF6bw?oc=5",
+      "title": "VeriSign (VRSN) Lags Q3 Earnings Estimates",
+      "snippet": "Yahoo Finance, 2026-10-22T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000038/vrsn-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1014473/000101447326000039/vrsn-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSN/history",
+      "title": "VRSN daily price history (Yahoo Finance)",
+      "snippet": "close 300.32 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

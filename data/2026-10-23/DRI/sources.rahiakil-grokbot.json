@@ -1,0 +1,58 @@
+{
+  "ticker": "DRI",
+  "date": "2026-10-23",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-23",
+  "news_cutoff": "2026-10-23T20:00:00Z",
+  "generated_at": "2026-11-28T08:58:12Z",
+  "collected_at": "2026-11-28T08:58:12Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Darden Restaurants\" stock after:2026-10-19 before:2026-10-24",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSGEzTnE3ZG42WV9rMlpnQUxSVkc3VkRzVEV2YndPYWNrbjBROGt3UU1lM01jMnBuUlhUTmhqbVY3ak5JWEF0aEplWU1vLV95Y1JHTEktWVdITk90aXUwYkxmdE1kYTlPSG4ySHVSYnRCMGlHTElyWG9HN0x6NFZ1LUFsd0NOaThYQURXamJDcEJ1bW1aSXRMTTZTUFh4ZHEzV2VtY3RMN0JVaHdOQnc?oc=5",
+      "title": "Darden Restaurants - Terminates Prior $1.25 B",
+      "snippet": "Moomoo, 2026-10-22T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-22T07:00:00+00:00",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/940944/000094094426000060/dri-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-23",
+      "snippet": "items 1.01,1.02,2.03,9.01",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DRI/history",
+      "title": "DRI daily price history (Yahoo Finance)",
+      "snippet": "close 212.4 on 2026-10-23",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "DOW",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dow Inc\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSnlXMVFjLVFhNFlweVFYMGM2VTVxMGE5anp1WGxNXzNpVDFwSXNScVRBWkEyd0xhSndiOXNndDdUOGl4MDFYQ3RQQ1JHaGQzal9vWlIwZkM0R1A1N1ZrTkpiNkUzNDBJYnF1ZnhWLWlRZFA1RzEyMjROT3VFaW43Q1BSTWFVYXZfRWpTdE1faVlNOV9mOHJqcHMwMjYyQVlwNmNVMFlCOA?oc=5",
+      "title": "BofA raises target to USD 31.00 for Dow stock",
+      "snippet": "ad-hoc-news.de, 2026-10-20T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNlJHR042SWdvT2sydy1hM3hTUlVFVkN4clMxZy1xLWZyRUtyZ0I3TWd4SENnT3BXM1JSUnBSS3E4eFVWTDBMU1dTdklHSXNGb0ZYTVI4WkJoc0xwTzhtODQ3azB2THZBYnRtNDhDUEtuRklMSnZpTG1QTzI5MnVHM284QU1OUlN6Ui1UUw?oc=5",
+      "title": "Gear Up for Dow Inc. (DOW) Q3 Earnings: Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOejUwa1RSS3JxYWhvZy1PMEdtTmRGSllFYndvM0J5SnZTUEt1emR5RHQyTnAtMjVtM3dpcjNoX2EwVDJkS3dSTmFkMXdxb1pxVDlFMWUwVUY3cXBGclNUZG9UcF9JQWdwYXM5LVF3b1hZYTdrYzJVTEstUTZYcjVaczIzWDhXbjM3RkFNUF93ajNoTktpaWV6dXpVbEZpTjNqeWNGcllTMVRlLXB3OTNkd3F0NA?oc=5",
+      "title": "Dow upgraded by Bank of America as higher oil prices boost chemical outlook (DOW:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DOW/history",
+      "title": "DOW daily price history (Yahoo Finance)",
+      "snippet": "close 30.38 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

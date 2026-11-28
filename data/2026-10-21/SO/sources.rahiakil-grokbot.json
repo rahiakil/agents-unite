@@ -1,0 +1,73 @@
+{
+  "ticker": "SO",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southern Company\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSFFBMU9jZUVtTEZjeExkdzBnVW1URjlfYmZ6bWs4d24yRjROM1I4cXd6WGR2TDB2Rko5cUQ2M3ZNUWN5bThVZ0RRTlFUeHRpcUFXRndONHltQkx1UFJ5Q3VJdm1JSWhGMjBwRFZhb1l1bXZybDRXeVE5TTh5N1FzTmxpMW15M3pNa0szcGZZWl9mS2llYmZ1VUJDRUUyRUpQQzJ3?oc=5",
+      "title": "Southern Company announces quarterly dividend",
+      "snippet": "PR Newswire, 2026-10-20T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaWgwVG5sU3VkQmdyU3V0eWFSR2w0MjNJZEo1dGlaeHh5blMtQ2pkX1U3Q0F3QUZpa29ndUdsNmxBcG5QT2E1RzZmZUtQbnNyUjExWElpU01KSnNuclVYQTdQYi1aWndfZFJ1dXY4ZTlrVHkxUTRaSm1MRFN4Qm1ZMENWTjRFVnFlcFYzS0JEMlpmMFNmOVhPeklvclRWb0JUMFl0NVhGWXpmUQ?oc=5",
+      "title": "Southern Company (SO) Declares Quarterly Dividend of $0.76, Yiel",
+      "snippet": "GuruFocus, 2026-10-20T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTy1hbzZZVUdhQTlTYXF4eWp1cGdVY2l3OGU1UkhTWG9zRDFxTzlSLXlDd0ZlcXRqQXpJQUV0bEl5ODVBOXg0d3hZMDk1dC1wM2xXMkgxeXJFUWtwUDh5ZmRFM2RiQlB2VHF0X3RBUW9PZUdJcEVNd0JZcTBJUDZkS3M2QTNaWTAzeEFkbA?oc=5",
+      "title": "Better Dividend Stock for Retirees: Southern Company vs. AEP",
+      "snippet": "TIKR.com, 2026-10-20T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SO/history",
+      "title": "SO daily price history (Yahoo Finance)",
+      "snippet": "close 90.39 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "BNY",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUkJuemNvYUFkcEF6dFFuWTVOYzZaUG5vWjhHTGtGWW03V3g3TWFYNjRTNmgwTlVkcWIySXJWWEoyTGFOY01QeVdIbjVweTNiY0otMVI1am5BMGNJV3FSWUVidjgwQVNXSGNXRlp6c291eW9Ta2ZYSDhGRlJsZFpNZ0RZRVpWWWV5aHl3LXhYSE1EaXR6cHdRdDA0SFVqcF85OWNuNXBvUHlSX2VuQ08zcGtiYzFna2IycVMyUEV6dnVZWDFQaTVvSDhOSjhvSGpzVFAtTDcxS0o?oc=5",
+      "title": "Bank of New York Mellon (BNY) Receives a Hold from Wells Fargo",
+      "snippet": "The Globe and Mail, 2026-10-19T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPajI0YV9CVkdqOV9EWHpqbHgzX3o2S19XLURtekp6eXhHLUpVSEV5c1hTZndYNVlaQ0oxWllqS1k0ajZzNVFZLVhEQ2EwczN4bVZuTE1weG5zek92VHFMb19TZjBrTkFDX1VYS1VJT1R1TW5pVVdjeVFzTkI5Y3pxa0VtRlBXaDJETjdHSXc0VWRHcUdrUndJQW51T2E2R3Z4Z1FueVVB?oc=5",
+      "title": "BNY prices $1.25B preferred-stock sale at 7.125% as capital costs climb",
+      "snippet": "Dealroom, 2026-10-19T07:00:00+00:00",
+      "publisher": "Dealroom",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZTI1bW1qWE9KQW1wSUhseUlUb2NlT1FhVl9oTmlRWkl6WmRiNWFlamM2QkRzU1F5VEUxY2Zham1EOHVDNTY0Nkg5OUVRWHZNUFA1a3I0VGtkcTlYdXZNcmhMNEpROVBrWFVXU2xXQV84WV84RHpQVDd0cDRjdUdjVjQ5c1VVWmFPTUZYOXRXZFB3bGlFS0lIa1pEWUhqNm14Nkp1UEd1RQ?oc=5",
+      "title": "BNY prices $1.25 billion preferred stock offering",
+      "snippet": "Investing.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 145.85 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

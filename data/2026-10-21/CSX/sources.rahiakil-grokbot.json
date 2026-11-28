@@ -1,0 +1,115 @@
+{
+  "ticker": "CSX",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CSX\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 30,
+    "no_date": 0,
+    "after_cutoff": 25,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTnlJTDRYWlhXSFAzNG5Ga18zZ3lsTHVtcHNzMmxNNGxmaF9adi1GaTFGME9fYU5HLXFaWGVIU1hIcGxYclFXLU5ETll4ei1zN1VST1FIMXB6S3NUU0ZoVW50Wmp5ajhldXNEUlN3dFRQT3VsNEItaFNKYjRiSE03VXNMTmFjc0JjTEFJR3FYWXNlOUR0OEpvME05VjFGMXV1TWhlODh5RXRXX1pleEpha1lISWY2cWEtQnU0cXZxT1d2UmJ3eVk0?oc=5",
+      "title": "What's Behind CleanSpace Holdings (ASX:CSX) Share Price Change Today? Stock Up 13.92%",
+      "snippet": "Kalkine, 2026-10-20T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS2d2STlqSnhDZlBOc0Z3QUhWLURUYVBjT1dLSUNyMXU5d0g4OVpsXzJ2ZjJQbVRnVS10bEJRTDNQR0xDQ2cxeWhLczZjMW9nYUFqbVB3QWpYaVFFencwLWFNb0JLbmVPRDF4SUEtMmpOWkkybHkxbEg0Ni04X3YwX0VJb2FZb0hObjZSUV8yUWROdlE5dEdqVC1TbW9iT09RUDBjNDgxVk8wNzNTWmVGcXpacEt6M1RvQlE?oc=5",
+      "title": "CSX Earnings Ahead: What Past Reactions Say About The Stock",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeUpaSVBNZ0gtNUxXamg2SzMyRF83V1dONElQSWI3YWpBUS1FeWNfTVFBcWJ5Tll0TWdFYzRSbnlNb0dNLWZwbWY2WllZWEoyaF9qTFh1T09RMzNKWV9IaGdTU0gtQzVRMGxEUzdaNjYzOEhSVlc4ZUZFYm42SlRMS2dmSHNud3VOcEtVYWkyTllTLUtNY3c?oc=5",
+      "title": "CSX (CSX) Q3 Earnings Report Preview: What To Look For",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdzlkc1RxSFdJYjRuNXdjTmY4MkVSazRFN2JGM0dacHJRM3o5NnFsT3hDOWFqY3RITUI4OWk4TVAxMGJ0VkNZUkpseThQZW1tZFdXNGM1Um01NUFDYzNYVFByNmZncEoxVkhwc0lHYm13c0dLV3p2X2VLOGtiX2hXS1RZazR6WEE3LUlIQ2xYSkxwRF9TMjNqUHF3MktOTHZGRmFYTlpvVWFUQ3ppWDMyZEN0YUItQndzbS1fbUVBUUYwcVFNemfSAcsBQVVfeXFMT1lod3c2YWc3cnB1bFRlamFNY1RmVEdaUjNVaVNieUktQVVXRkRLZXJHcDJ1WEZZS2RIMmRaaTRpNExsWUZKTVJuM2FFR1JJU2FRLW0yUUpGR3Q2ZnJSQ3l6NjlUWU84UVREWUNiQTVZdDhBSnRubU1iZXlmMG5pLVBtaHg3ODFQNllJbjFWamlKZlNuY2gtRFpOaUd3aTZCSU9XWW1qN1owV3g4SFNTMmt4c3NyZGhBTlJiM2xnZGZXOWlDUXJ3Y2lyRUU?oc=5",
+      "title": "Tariff Rollback Puts CSX Stock And Union Pacific Back In Focus",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlg5U1ZoeUFXV3ZFeUFaT3FlZ2k0MnFLaEJZYnp5bDZnaWQ1ZVBQb3FuNFZNT01qY0JEZl83dW5xS0h1VTJ2YThZbVBzWFdYdE1Ka3RZYVhCNDZwNnB2S3R2NVZWVUppVERKbTNpanAtd1piTG45X29WXzZxaVpRcW9xckstV0NHeWtQSU9IZXh5MTJkRHRWX3lB?oc=5",
+      "title": "CSX Stock And North American Rail Shares Facing A Diesel Margin Test",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/csx-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000040/csx-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-21",
+      "snippet": "10-Q",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSX/history",
+      "title": "CSX daily price history (Yahoo Finance)",
+      "snippet": "close 48.4 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

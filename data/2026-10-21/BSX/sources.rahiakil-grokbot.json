@@ -1,0 +1,49 @@
+{
+  "ticker": "BSX",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMTRGbUItbHhJdHJNMTZEcjZjbFpsMERLS1BOdzJGQkc0M2s0TVdJUVY4ZHozcjFHTmxmQldGQnNfSnRKenJaNDliMFR5UVpqeHpoNmFDT2dFejg0aVpuRDJrc19RRXlkMnNpU3VqQUlFWF9RaU00M2V6NFZpaHZHS05tcC0zamNmUld1NkxyWmtOc0NFVkNqQzZka1hnRGMxbVZNWGdSWl9qdDVCTnRmNDJIWk1uQ1Qydk5VSG5XNmRHaFVOcm5lLTNFWQ?oc=5",
+      "title": "Should Becton Dickinson Stock Holders Look At Boston Scientific Instead?",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 44.51 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

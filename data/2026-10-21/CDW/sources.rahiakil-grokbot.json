@@ -1,0 +1,70 @@
+{
+  "ticker": "CDW",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CDW\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR0xFVTljSG9nejlSM3VLUmxoSFcxUEhLNXhnb3RXWGk5WllkTEF6NmtXOGNhdGFnYzZ5YU05bWROZ1hra1V0U0JES3RfdlA2V2lZTjJZODlLMG5PUkxibmRuZ1RtTFREYk9tRU5ab2NzNTRUMDZMTERtdHZfSy1tbC1Sa1pEOWFQWmZUejBFckNVWWw0c0JNcm82S2pncTJDclh1S3NsRQ?oc=5",
+      "title": "Earnings Preview: What to Expect From CDW Corporation\u2019s Report",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX3VSMDdMN1AtWktLam1jVDFIQ3ROS1dUMmpyaWhhU2t3d2M3LWJQUjVyazZOVC02V1VvaHg2VlFNNXh5MFJHVkF5WHNBR0xabktLUzBHVW1wSmhsdEk0dEFNWTVMdkVncXhCVk1MaGVlSWpVSThLUGg4UGV5bGkwMjBKbUc0WU11UVo5U1dPZmFuT0xTWXBfUV9rWjJpSXVHRFBrblBad05FZ3NQMk9NQUZzM2F4YUxROG16WTFpQ0NtelpFTFI0QjlVZ0w1UTVYQ3MyNEgtNlBsSjdT?oc=5",
+      "title": "CDW Corp. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000106/cdw-20261015.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CDW/history",
+      "title": "CDW daily price history (Yahoo Finance)",
+      "snippet": "close 158.28 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

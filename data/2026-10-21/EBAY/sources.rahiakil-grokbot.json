@@ -1,0 +1,73 @@
+{
+  "ticker": "EBAY",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"eBay\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZE9lMV8wSHJmU3hhcTA1NmVGcTNfRTBjUml6NWxLZWpvSVJ1NFVXYzQ1cVRCRk8yYUU2M0pRYmxHVVFYODhTb1Y2QXZuMU9EcWhlQ3ljMmdnUXJLWUNidmJ5SWZ5UHh4MDRxUS15X0RBN1ZmbWNOMDlOY0VhN3Z0dWxBSThsaTZkQW4yQVdLbGY2NEtOakgzaGxB?oc=5",
+      "title": "Winners And Losers Of Q2: eBay (NASDAQ:EBAY) Vs The Rest Of The Online Marketplace Stocks",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUh0bEVzeWlGT0hIcmxwYTBlNTJIelBPYVpwZ1BFazdlVWgtZVN1aUF3MzNSbE9EX0FTWnlkWWdPX29nMnNIZWQ4YVZiNXRISGJzeldLN0NVX19IbTljQ21OUTNJYzhORjZ3VnVtUFM5aDdpWXJ0RTlLX2M0enVRUHNua1A2ekZLWFFobUFodFhSN3JPa2Q1M1FSZkZKclQxR3JCbA?oc=5",
+      "title": "Is eBay Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-10-19T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWEdnMmJpMzZKVW5VVWlrSXc3NHhJQ09zbmZIaEhQRkF4YXZ4eDd4U3ktUlk1RG1RODlaeTE2ZlhQS2RueVdINVp2Si1HNk5RY0Vvb2tYdEhWcVFBVDdYR2tmamk5ZUFrZkVNTUF3di0yb3VGZ2NXVWtfVVR0YjE4VWdFR3FZaVJaUmZQM1ZiZ1VhbC1vb283cmoxdWRfQQ?oc=5",
+      "title": "Here's What to Expect From eBay's Next Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EBAY/history",
+      "title": "EBAY daily price history (Yahoo Finance)",
+      "snippet": "close 122.9 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

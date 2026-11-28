@@ -1,0 +1,97 @@
+{
+  "ticker": "F",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ford Motor\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdnJhV2pkWDBtUGZ6RVRKQUhPbm1fZFA1UWtBWUlxVk9HQ0g5UmNSZWdKMXRuN2RNc1hKcE5YLVF3RVVOQWl3b3NJejlRTVdYNUNMRnN4bHREQkFHb3dBMkZ2UWFZVTlxREZnMW56X0dZeXg1Sk5DOUJEYVpwUl9VQW9sSGxoZkEyUUllZTBlUHhialFwRzVPbFQ5T3Z3cUpmZmRqZTNHWWZ3WFJEMElORkhkNVpPcDM1ODBjaTREczJraHUzME5yUEpEcmM?oc=5",
+      "title": "Precision Trading with Ford Motor Company (F) Risk Zones",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOU0hDNm9kYkZ0ZzlNSWE2VmYya01aV0hfSm8zbjFfQjZxcjNFMTN3bEVPZFZIcTQ3eDBWUWZSaWVCQ0NQSVN2VUg5SkpaRzQzcTBPQkJTcHRPYUlNemZoWEpacjRpUlZ2ZVdzMFEyTXFRZ2UxOUx4emEtUHh6MTRXeTBxbVM5SEZKNzZVcEREb1hfdFhxd05pYW5zVnBaNmxnVUVrZzBxTnR0TmJfY080WU1ZNEEzcndKMV9kR2RpY2FzRnM0MG1JczRRZ2dHdGN3bjkxV2dKVmdITDdLSVFpOFdxaXJ3LW1YWmVKRVdqX21ZMVliTVpUTmZNTjhzRHlTcUV3cFFZTE56VGVoMllnSXdURFBDTzVYUHMxbEhydXJNMXR1UTBBX1FKRnZUakdpeW5pVzdWN2lndEFDTm52dzNYaHVHaTZiaFE?oc=5",
+      "title": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Akamai Technolgies, Apple, Blackrock, Ford Motor, Healthcare Realty Trust, Noble, Sunoco LP, Venture Global, Western Midstream Partners, Zoet",
+      "snippet": "24/7 Wall St., 2026-10-20T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.796,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV0xCRTF4NmJ2d2NBVG04YWZOSmFvX1BWdWtINlNnOVZQN29GYnNmVERjTGV3cFVYRFlqRVlTSi1md2lpQlAwcTZsWFo0VzV0UmZ0SE9LYVFHQ1lLajlEUzQ4OThXcHI1Q0s0aVZnVGh3N3c2OXp6Ylo0OERCVjhpanFLdw?oc=5",
+      "title": "Ford Motor stock Analysis closes at $12.18, down 2.01%",
+      "snippet": "The Cryptonomist, 2026-10-20T07:00:00+00:00",
+      "publisher": "The Cryptonomist",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOGx5V1ZKa3Y2NW9KSEg0SlMxa2pLY0ZlSVZZTlNzcFdZSWgxcEsxOFMyaWpDV0ZLaVcwd2VPZ05sdGY3YXotel9zenFrZXhoODRkZkdpczdzNGdFMVZWc1huZ1Z3cGRoZmlxckhPZ0tRcmpNaHBQYW5OamhpdW45QTBOMi1OVE5vQTZCb2Z5cW42YTh2cWMzZXJPWXhmUQ?oc=5",
+      "title": "Should Fuel Pump Lawsuit Require Action From Ford (F) Investors?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNFhLaGpRRUk1d1F2SFlCSVllVVJxY2k3R05udTVYSUVUSEV1U3o1ZGpkWlhvM3RMZjRsR1kwb0dqQVlfc1hzVmxuTHVZTWRrYTh1THU3TkZlLVVQbV8tX1U4QjdLQ1dONEwxWXhiUVdMQVF4YVc5dS0xWjBkWjY2NW43eWt5U2o1QUtzTGh0UkV0YzJTN2c?oc=5",
+      "title": "Ford Motor Company (F) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/F/history",
+      "title": "F daily price history (Yahoo Finance)",
+      "snippet": "close 11.9 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

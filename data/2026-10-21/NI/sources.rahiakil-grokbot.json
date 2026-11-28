@@ -1,0 +1,61 @@
+{
+  "ticker": "NI",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NiSource\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXhhUkpvV1hndGpkZzJtRldWWHh0U3RmUEpheTJsZ09DUFFDbi1IcTJRRFpmVmg0Xy14NTFVek1TbnhWNU5QcnMwOGdfbW1MZUlGVjNCcUdpSjR1Vk05T2NmRVd1SnNlOVpzdFE1aE5MZkdDWGZmdXlmUXozZGNDb2gtZDdYbXBKS2pDWmFvbmc1Qkp4Sk8wSF9aMTBEWkRk?oc=5",
+      "title": "NiSource (NI) Stock Looks Overvalued Against Its Dividend Outlook",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNE1QNlVOeE80TDB5emo5M0kxZUNxRmdnU2ZsMFdJdGhIay1JX2hSek9zYlN6WE1fU2hKRXRJUGxySTdtTzBXOWh6ZXQ2eFR2NC1wRFZVQUo5LUhDb2EycWJhN2k5VE4yczJlMWtzR0FrczF5YllkWFZtekVvR2JnaXYxc202QWJLNmZobDM0MGI5M1ZXVTFIZHRBUHVTNE9QbGxDc2M5UEgzbXhfcGt2eUJLbHR6OG5VOFpLNA?oc=5",
+      "title": "NiSource: Microsoft Data Center Deal Supports Earnings Growth Outlook",
+      "snippet": "Morningstar, 2026-10-19T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NI/history",
+      "title": "NI daily price history (Yahoo Finance)",
+      "snippet": "close 42.99 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

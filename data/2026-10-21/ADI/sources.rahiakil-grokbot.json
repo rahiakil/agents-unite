@@ -1,0 +1,49 @@
+{
+  "ticker": "ADI",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Analog Devices\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalh2MzdlWXdhQklvM01YVE4tdkQtRU1jQmxZVWZPaHdYNnZQWTFRbTdERm9pNE1OcDlvMGkzQWNTNkliaGJLRW9tU3JtR2dXMl9sMjhuTWROWUF6dFNWX1pxWm02UTNlVi0yYU15QUlUSkJQeTJOQ01hRWFhRmF2b0ZhU3htYUpKZXdfMHVHTGlDTWE0MEkwX0NIekxFRzA?oc=5",
+      "title": "Here's How Much a $1000 Investment in Analog Devices Made 10 Years Ago Would Be Worth Today",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADI/history",
+      "title": "ADI daily price history (Yahoo Finance)",
+      "snippet": "close 405.96 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

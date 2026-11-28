@@ -1,0 +1,61 @@
+{
+  "ticker": "KDP",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keurig Dr Pepper\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pU3lvMWdBMVV6bTBDQ0VCQmo0UGY3NkZXQzBRYmZ1dWFQM2o1RS1YZ1c4V29rVDdtcmwtNWxWTXUyMUp4c05NVHZsR083UTdqOHY4WWdtY2dnb1MxcVE?oc=5",
+      "title": "KDP 261120 35.00P (KDP261120P35000) Stock Options Chain | Quotes & News",
+      "snippet": "Moomoo, 2026-10-21T00:37:25+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-21T00:37:25+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQaVJ0N2ZELXd1R2dsNGkwWVpUSERqM25GQWRPNTVub0ZhdFNVRXd3SUFqQXhlUTlLQmVXcFVqSTJQbGpGSGJya2wzUkVNMUwxdTR4T2gtcHhZVFpnMV9ZRlAzeGx1d1lpVmJfVXNlNUhELVowaU8wRVJhNmp4R1RmamdxQklSTEpIUFpucENxMWtPNm1tYWdqT01yN1ZQZVNBN0lRVDFEbElDQm5qVUJYRDZUYUNKcC1tVVlYSVE0X3JHN3poWVJwOTBZcGNOZ2VoV2NDdGlpcWlpaHpFZHJkVV8tcUxncnNvdDQ2RGpHU2dWem5YeVpRZjBRQ2I4YUlYVEEwd19BbTUzeTQ4Y2lZ?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Sun Life Financial, Coca-Cola, Altria, Keurig Dr Pepper and MetLife",
+      "snippet": "The Globe and Mail, 2026-10-20T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KDP/history",
+      "title": "KDP daily price history (Yahoo Finance)",
+      "snippet": "close 34.47 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

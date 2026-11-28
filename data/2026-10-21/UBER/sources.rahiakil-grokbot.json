@@ -1,0 +1,109 @@
+{
+  "ticker": "UBER",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Uber\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbHJZa0RWdUQ3TkY4ck85Rm9PcS1fbjNpWGtSRmNaTGtQSF9IcUF6Q2NITDlJT0t5bW5la0hnMWRUejBGRDJDSXFXQW0xX1pMeEpqWFRQZlJyOElOaVFxRmVhWEt4NzRpa2J5dGt2N0hMdnZmVHpydkc1Yk1jNU1LdFMza1pnOUd4VjZQTC1TOFBRN0wwaUNHdnRBZGJmd25nd3Izb3NHQQ?oc=5",
+      "title": "What Are Uber Stock Bulls Not Worried About?",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.224,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWktSbnVIbEdfcXlUQTJRYzRya2pXYWFFR3plMkRCakQySGJvdng4WF9EbkVnYlJ2MmtQRmI1SnBFOVNQckdDMFpSVjNHM2RYMHVyM3hWcEZTZ3VZeUM4TkZWaWU0M1pDQ0ExYjYxbS1WMTVyd0VFSjFnVkJqUFlmRWRnVFRjVWE0OEtoWTAtY0ZGenhsTElJaDdyblZHSW1E?oc=5",
+      "title": "Uber Technologies (UBER) Stock Sinks As Market Gains: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.356,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNFVRNDRwSVRTYTEySkxHeXBxMmZpYnJyYy1BZFdwYTNUR1g1MldCeWZiWEgwRks5OXMzeERVOGhpZFNvZUVHb2EtblRnWktRREZFWUFZUHMyN0NtU1BlaDZON24yMldmRnlmVDJCYXZnUUtfNzF5dFBwYlhmNGZUX0pB?oc=5",
+      "title": "Uber Wins Bid To Dismiss Massive London Taxi Lawsuit",
+      "snippet": "TIKR.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.294,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeW1HYnhPX2xsRy1XZkIwNk1FOHkxT3BPYTVTSDlvMXNqTWlwekh6VzBnR0syem85eVZfX1oteEo1UTFVYktjeUhNdmY2dXZJQlBSZjlTQWdWMnNSWXRNcHR3cWtadmg2b0hTQVNfc0ZRZk5lOGVxRzBGNXd6M1JOc1dZUUdIWEZlblAwd19UWjdGcl9sN3hwSDd1U3VPaTVHaG5YYUlzUXIwTFE?oc=5",
+      "title": "Uber Technologies (UBER) Launches Offsite Advertising Using Its First Party Data",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQXMxdW1rRzJWZWJGeXVXMERnM3RFTlZSRm5RU1JSOXAtcFpTRzU3YlIxZEctWGtMbEo1LWVqdkhFdHBqR2dxVXN4ZUpCNlVSampmOGdLLV82bF9PNm5SdHJHTDJkY1ZqMWVaVXJEM2djUURESzM4aHdKYVpsb0lJcEdfNTd1VkVveGxQaHR4WlNtbHdsdUN4TFFZMnZ0dDlNa21qZXZkSVYwcHA2bEhBbWVGbzVTOGMtLWJxcllyRjdnNUxkYmN2ZHQwdw?oc=5",
+      "title": "Uber Stock Could Get a Boost as Ride-Hailing Company Beats \u00a3340 Million Lawsuit From London Black Cabs",
+      "snippet": "TipRanks, 2026-10-19T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObXdLNC1Ya0s3WjBwWmJraTNyUy00T2stZG9Zc2taMWljV3N1VWcyVUVwRnVOMkVGX3U2MWdSc1g5SlF4NnNXZFppV3Nfa2VRdTlzRnpmeE91Zi1xRkFUZkdNYlFMSVVtQ0RJN1R6aldJdDZ3b3o3QXk4SEo0dGNSNkhrTy1xOWFJWlRMN282OXdFYjZKbkJuSl9DSXliUQ?oc=5",
+      "title": "Can Uber (UBER) Keep Growing as Robotaxis Spread?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.448,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UBER/history",
+      "title": "UBER daily price history (Yahoo Finance)",
+      "snippet": "close 67.62 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

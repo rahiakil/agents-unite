@@ -1,0 +1,91 @@
+{
+  "ticker": "NTRS",
+  "date": "2026-10-21",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-21",
+  "news_cutoff": "2026-10-21T20:00:00Z",
+  "generated_at": "2026-11-28T09:07:31Z",
+  "collected_at": "2026-11-28T09:07:31Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northern Trust\" stock after:2026-10-17 before:2026-10-22",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUDZrZHU4bFYtcjNaQS1OQkU3d3JqdUpmcE9ISDk0RFBrei1mN2FjZkVaVTFnYS1pQ09jZ2NiYW9NWXFZZ240eGl5RFBLQ2VXRk9KOFlEcTdwR1B5SnQ5eVJ5VGNXemNQNDd0blZvSEZUVllqclBtUWxDRUs3N0VFdXhIMFhVRFgtZGZhQzlLTVB0bC1Sc0RLbVMzRXB3d09GOG5UTQ?oc=5",
+      "title": "Northern Trust Listed Private Equity UCITS share price | FLPE",
+      "snippet": "Hargreaves Lansdown, 2026-10-20T20:24:38+00:00",
+      "publisher": "Hargreaves Lansdown",
+      "published": "2026-10-20T20:24:38+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1JmRUgzUUVzT19OeEJ2WFgxTm1ORzFmRmdfVWl4UjVmbUpOMkdCYUQ4WFNVblRYbl90MGdNR2k5Wk1kYjhOaDQyWGY5X1dhMVdDclZYYVhIR0RHeWFYeVhOVDRRYWhuYjVzXzlmbUFqQ3BCVjJsU3VWdmhmQ1V4ZWJSaGVGM2hvc2FSN1BFRlNRTFl6TlplUVJJRXdQV0U?oc=5",
+      "title": "Northern Trust to Report Q3 Earnings: What Should Investors Know?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbVl2NlN5LXdiNU91NWhlbnJpak9QSXNVNWJ0OTFxSU9MVWlnbmp3VVBUQ3NSWm1sOTZvM2pZMXZUOHZQLTBfemFXNE0teWdZcXVqNHV3WWoxZmxFbV81ODVYcU40YXA1WTgzU0lzbnlMRkREM215aXpQSEFiTVB1VUE3QTRSSWozM2tnNzBkSENFay1MaTdXNWN4M0V1Nm1RNEVrT2tIWHBhVjJnMXBWczd4QVFWZUJ2OGF5MWUwLVNVZUFCMTB2UUJB?oc=5",
+      "title": "Northern Trust Declares Quarterly Dividends on Common and Preferred Stock",
+      "snippet": "Business Wire, 2026-10-20T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/ntrs-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000060/ntrs-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTRS/history",
+      "title": "NTRS daily price history (Yahoo Finance)",
+      "snippet": "close 166.91 on 2026-10-21",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

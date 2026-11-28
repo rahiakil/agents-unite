@@ -1,0 +1,109 @@
+{
+  "ticker": "FICO",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fair Isaac\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWlNEWk1XUjdlZlVkVkNWazZEa2RCOW4zN1NYRGxleTRoeEh6QnNVOVJaM2hWdTMwbU84SDhkdlFXQTJraGplcnNOaGltOWFQYTJhZWdKdlRnbFNpc3hpeWxxZFhSLWxjZVQ2eVAwS1p2OTJoOHVzczgxMjlRZmhVbzFsS3laZw?oc=5",
+      "title": "Record rally: How Fair Isaac (FICO) became the market\u2019s top share-price gainer",
+      "snippet": "Traders Union, 2026-10-21T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.807,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ1Z1UGNDYVhPd2U4UjFwTTBOT2ttVFRnLXVNckNzdmhVMkRtUHM0Sm5PeTVOU1dwY1BXN09tVWJDTk05SlY2NFhqNHR1NHBTNlVjcWRMWUhoa3Q3eVhMY2JRb3VMLW9kT3dXbll0ZFhXTVNGT05pN1hPMEltcW5qQ3VtREJoYVJZTjkxMVFHdHdfM2J3cHNrTA?oc=5",
+      "title": "How Much Of Fair Isaac\u2019s Growth Comes From Its Mortgage Score Price?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW0wT1NxbE9fYWpXWEdyRGdjTGxDWG9lSmxMOGRqMTBXM0V0MUFaRDdIeW1rMDNlT00xQllIVlpCYTExY1Rmczh3eFJZd1NnZV9zbUttN01IRElmcy15bjg0d3ltU0JOWDJBVndDMFNuaHdIU0ViaVVoSnZhSG1VcnFZODV5Y0RvRFN2TEZOSzh0cEstRU5PR1hhd0xtMWxDMFdvbA?oc=5",
+      "title": "Fair Isaac Corporation Announces Date for Reporting of Fourth Quarter Fiscal 2026 Financial Results",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNFNJcm1vTm1BU1dWSDdEc1JGbnFwYXhobkxpRzZtblRBb2VianBOWnZEWk9IeGRlTGVlNk5lWnZLSDJzYWhMRDhmekVUVk55Zmo5ZTItWEJNR2tLaTNGc0hIZ3BNMlRZYnRHZDJyNlI1N01vNURidDl1a2xfeGFocDZmaUhaR1V5azhzdFBQMlFWWnZT?oc=5",
+      "title": "How Risky Is Fair Isaac Stock?",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOTNoTVhYQlBjM1dQR1FtaE1aNGVyM2MxZFR5Z1FGY0podkViSVZxWEVHY1BDd3BBc0lDSzJvUURuZXZueGlFS3hPVndoNnhGXzFXdy1idTFKR0h0NWtvWHlPNWtlODQ2ME9sa19abnJoYU1Ba3M1bFRQX0s2T3lPRWdIOEpEQ2g5Vk5qVU16NW5sa0RMWlZr?oc=5",
+      "title": "Fair Isaac (FICO) Stock Still Looks Like A Bargain Following Its 95% Five Year Run",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN1kxR0pna3h3d050VHhaa295UmNrNnI4d01ITk1UWEFkLTYxUU0zV2FaX0Yta3p0aXl1OEUtMlVPalZMS2tLYkhKYV8tUEFfaFFzMUFKVmxvbDJOVk90REtqbWc2VmIya2txQWNPbktWTFg3R0RuTXRPMnZUcmdlZVFQVGZaQUpTRHFwMEY3UXFJUGdfZElVdjNqbw?oc=5",
+      "title": "FICO Stock Rose 16% Last Week With No News. The Street\u2019s Targets Fell 18%.",
+      "snippet": "TIKR.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FICO/history",
+      "title": "FICO daily price history (Yahoo Finance)",
+      "snippet": "close 823.27 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

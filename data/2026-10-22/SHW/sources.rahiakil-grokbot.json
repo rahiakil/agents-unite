@@ -1,0 +1,121 @@
+{
+  "ticker": "SHW",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFpDR243RnRZNEFwcllPZVR4X25BOEtOaDBXWGxmeXpjQ0RSa3NKNGYyTDI0Nk91cjhJbVlIeERvTkg4aU1Nc0g1eWZ4cnJRZTdTb2JvaXN4N1NwRURGN0k4c2VBNGM5U2MzR0JSYlk1bW1XakhfamJBVGhRbzQ3ejhuemN6bUQyZFNUUXoxU1BwUk83NHhLM2JpMk9mMVlwRk5ZNXZFMXIwZ3NseFBUSjZrVU81SkZ3OGJj?oc=5",
+      "title": "The Sherwin-Williams Company Sets $0.80 Quarterly Dividend",
+      "snippet": "TradingView, 2026-10-21T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeUtpdDBGb3pVNmEwcTNtTnV0cmpWWm5XX3d3dGhWSUhRbVA5eEgxZ29DamlMc0pHMElETU8zdF90bkpzUUo0U3JCUEh6M0k1N09tZmxIWHp4MU83OWNuVWMzcjh0dERPOW5zOGtLc1VYako4N2dVVXJNUlJGbmptNGR1MXVqTWxTcjI3RktKelltNk43QWNsVTM4QU12bWl1RnQ0U3hVTno3YXlXQUJGeC1TWTFvdw?oc=5",
+      "title": "Sherwin-Williams Declares Dividend of $0.80 per Common Share",
+      "snippet": "PR Newswire, 2026-10-21T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTGNfSkFCWUtMdk9uUW1INFNnVlY5X2NtVlA3QlRsZlp4YkttVlJCTHcwY3djM1NrQ1dzN3UyeVhUZHFVUUZuVUxTbVA5QU5kdmgzWEUyN1lEYjBLTUdNX3h6Y3g1enhYNnNsZm5LTVFzaWxPS1RLelA5bFZVeHViOXBIQjJiWDNtTXM0N3Voc05WcEZqU3Y1cTFyaVNPSy05WUhPVi1aWHV3eXg0R2tB0gHDAUFVX3lxTE8xa2pUMVZfcGJ0NXVtc3BMNEhPRjViWGxPcFM4WGFoUktMV3N2TXhoaExmckRBdVIyVzZJajBkbnpJR1lwX01rNjRxWVI0M2JPeFI2UUdPRHdvX0lCVmVzQXdOQUVRVlVJbE1xc202aU1lOGRwaThCZXdUYm1iSjBxRzJiQmQ1NXBiYUc3OFZqOHR5bUp1MnZFTS1Tc0NJY0Z2eDZDc3NGakNyLVdPblNOOVFNZFRBUTBkMllYRFltNndZTQ?oc=5",
+      "title": "Sherwin-Williams cuts about 40 positions at Cleveland headquarters",
+      "snippet": "Cleveland.com, 2026-10-20T07:00:00+00:00",
+      "publisher": "Cleveland.com",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFBobG9LWm50OW5qZDlDWXJuVENzc2tweVFTVGNyMWpmRzAxYjU5dnFUY3FnMXBSMnY0RDU2SUpuMnZuaUdzQmJpQkZ4bnduZ2FwWUJPa2hwTC1sWDRwaU90eGxPUDZOMmx3bTVGeEgzQTk1TURYSDRJdTBVaHZIcHFwUEZJMGlJSVBUd2xiWVRFWXY3MUw2dTMxdGV1bGM?oc=5",
+      "title": "Sherwin-Williams (SHW) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSHgzR29YUEdXd2Z5dVNGTEdLM0UyODc0bzAxdExHWTRHM24tTFM3Tjg0LVRZd0QxZDNZUU1vVTVtbTEyTzFGeVV6MEpmenhjY1o5WEN4RFNGRW01NzQ0X2lIOEtuN2x2c3EwQ0RFOEdFV1ZGbmNfR05aWi1VR3d3c1loNUlIaUNqSzVWem5oa2JIU1lrTHJOSTFDNUZkU0l3SnFDOG1TZ3JpNV9Nb0VIYjFjaXRoaWNKNndTcGN6ZXp2NFRjRi1QZkNUaE0xLUktbi1pYU8tWjJJRjRPdFhlZQ?oc=5",
+      "title": "Precision Trading with Sherwin-williams Company (the) (SHW) Risk Zones",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaTFpR0puNUt6VnZER1RxcUNHcGlhTm4zMFpkeHltYjhoMjAtcVZWUXl0eDg2NVNXSHdkZkJSVEgzbnQwTi1pSjdqcTNKell6YUtzRWkxVUMxWTluS3pVQ1g1T0JGaFlndkxsT01WWnpVeWlaNzlBVjJnSFN0RnJjbXVqLWpwYzdnelNXZlFsSkFXdlVoSDJKWWFac1hDOVpoOFFET2E3QnFvMklIMWlqWW1NSUNpU1ltcDFQUExENV9QdEY5eUtpMFU1Yzhjdlh5?oc=5",
+      "title": "Sherwin-Williams Co. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-19T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMXFmS2NNZkZUTzBxWV9NVlRJR0kwcTF6blNKV0V4QmhteXFadmk5YkZfRVdHQXFYa1RHaXg3eC1BM0NTSFJzMUdiQlhWaHR6X3pXNVJVdGNlNzJSTmFTWlhyQUI1NWxtRklrYU1GZDZadmJ2Q194S0pFQklHZWFPRVpYMm1JN2ljckVONG1BWV9PaDdPeGZxMXhuUGpPTWtzNHBVcVJySHA1LXE4VENkWU5Zd3FMVnRaakJ0X0hB?oc=5",
+      "title": "Katie Stockton says the charts show signs of a turnaround for Sherwin-Williams",
+      "snippet": "CNBC, 2026-10-19T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 345.63 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "XYZ",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Block Inc\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWUxUkRyQks0NjlfT3Q4TTNMbEVZeGtiWWFIU0JJdEdsYWZNX1JHVDN2WFRra0NFeGt2U25NVmlNaXNRbktQV203Y2J3ZWZCMXdpTVhlbDN4NDIwSnhnMzdiTnAtZHdDMUdmUzV1bzFCTk5neEVlSjdiOUllUEEtcjZEN0NEMEJPM2xZSjYta29ucnZRTVI4cjNIWWt2eXI5aUIwMDhIdVJDTDFHT2FMODN3NTdHZ3BqV1ZwbjJwZFczcTdI?oc=5",
+      "title": "Block, Inc. Director Anthony Eisen Files Notice to Sell 6,000 Shares on 20 October 2026",
+      "snippet": "Kalkine, 2026-10-21T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXdpUk1oZktpRGhlQ2YwNXgtNTVWSF9KcUN6aFQtVkxydmdzRmcwTWM2c3Q1UkU3YnAxRzc5OExsMzNaSFJabEJMVjJrSnFKSXlneDZYZ1ZnaGhwWWdLME4zTkFXUTYyNGhxdEoxSkV4SUhkOEJWSmpwUUJMNXNJb2JlQkVQSW1mR2NTQg?oc=5",
+      "title": "H&R Block Gains From Tax Resilience & AI Amid Volume Pressures",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYZ/history",
+      "title": "XYZ daily price history (Yahoo Finance)",
+      "snippet": "close 79.02 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

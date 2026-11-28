@@ -1,0 +1,49 @@
+{
+  "ticker": "BF.B",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Brown-Forman\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaEFycnlUaDhsVnRNWEtzYmZaSzJtWE5GcU85QmF3TE55Yk1PdTRIOEhEbEpDVHQ5R21TV1QxN1J0dDQ0b2RuUzdaQjVpVTdDTGo3RjBtd1RraWxuOXdhM0Z5Y1NVY0V5VUdiT2h2bzdEOUxtME5YX1JoUnVMNlgtdlBNX1JNak4xVGZZZ29uak5oOG1wbm5GcmJBbl80dkdnbnc?oc=5",
+      "title": "Beverages, Alcohol, and Tobacco Stocks Q1 In Review: Brown-Forman (NYSE:BF.B) Vs Peers",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BF-B/history",
+      "title": "BF.B daily price history (Yahoo Finance)",
+      "snippet": "close 30.18 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

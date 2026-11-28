@@ -1,0 +1,94 @@
+{
+  "ticker": "LULU",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lululemon Athletica\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0cyOWgwMm9kVGYyTVR0N0E4QW5tNVJZVmd2ZUVkRGRJQmRpdTltMDB3Vnl1SzlXOU1ZbXJLallIUVBlaUFTaXV4SlRfRUtLTWh5em5EWng0QVM1eDQteGRzdDY3ZnptWmR4cC1Oald4bF93dEtXRW5xdWNJaVlmUG9wWVRzd2J6RzhDLW84Yjc1aUd4eVFqb2hCYTk2aGFNdnpjVm8wcVVRZkc0V1VQdHRR?oc=5",
+      "title": "Lululemon Athletica Inc (LULU) Stock Down 3.4% -- Now Undervalued? GF Score: 71/100",
+      "snippet": "GuruFocus, 2026-10-21T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaTJDY3k0TVFWN3Y2elVuLVJrYkhjLUM2VVcwT0hmVXNsM1o1TjNyekowazB0TEFuZ1Z3WDl3NTQ0SmxfWkNGSUNkRDFIZ3ZiMEZsQjBCeDZtMVN2OGhBOWlWdmdtQVFLeEtIMnJFOGFtMVFibW1wano4a2xQUEFrSFlTLXo2OTBQcGNxOVJMYzUtcWEydkVZV0otd0hjRWhKZmstQ1NfYk5ISEJuRjFwaGFPZS1uejV3cmdLU01yZ0JUdVhqb0NaYWViLVdrTENm?oc=5",
+      "title": "lululemon athletica inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-20T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcnNGV1dKZnNvVWZEY2dsQmlnTXItVjJvbDBuTUl6NXhCeV9sQTZmT2I5Y3FsSG8wd25EdmlLcnJkLVR4SG1tNmlvV0dWYlcxbmJOWkxtcEstbjdHNHM0bUJENlZicnBWS2pfLXJkRXM3b2drM3hKYlJSN3Z6TE1PbHRhN3puWVI3SHgtVm1ZQXR5RW9zVVB2MFlyYTNibWNIaU5oandnN29TV1BEUUNCU2JrQ2RJTmtNUWdaVk5jODFuNE1RZU1XWDQ4X20xWVJfeU9IdlN5S19oNEJV?oc=5",
+      "title": "lululemon athletica inc. Stock 12\u2011Month Price Target Cut to $96.9, Implies 3% Downside",
+      "snippet": "TradingView, 2026-10-20T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTE1MY1JXMFZDLUM2R2VicTk1aVpIREhOZ1g4S2xxOThxU0FSZXl0MFNhX1RQU3RkeFY0Qlk2aW54QmN4Qm8zaEVKaXpfZC1fdklkenJXN08zVmx2RkJiMDVfemI1anp4SzRGcFY4d1lCOU8ySlVIZXREOTVtUkhhVGcwbTZSbk9aajU4azBOTVhqWkZPSlBYOExkdjdfSk9Xems3YzI2d1JwSjBHTmNmYlNtS0kxd0E2UEF1TW5JdG1mc0FjLTFnWkxpNVlUanc5QmJ6WWVfNGw3UHQ4ajh3Vw?oc=5",
+      "title": "Lululemon Athletica (NASDAQ: LULU) Stock Faces Earnings Pressure As Investors Weigh Near-Term Outlook",
+      "snippet": "Foreign Policy Journal, 2026-10-20T07:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000135/lulu-20261019.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LULU/history",
+      "title": "LULU daily price history (Yahoo Finance)",
+      "snippet": "close 104.06 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

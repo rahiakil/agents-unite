@@ -1,0 +1,61 @@
+{
+  "ticker": "SWKS",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Skyworks Solutions\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN3hadTZTeVFZNEUxTUo4Ujl1Qmk1S0FIS2tiTlREUnUxZ0xpQ0dDcTdFdGlFZU0tNzVfTHpFT0NuczV3VERUSDFLejlsY1U2TzlBWDFTa0d4RXFkekdoU21hbFBSS1ZBN19DRVdDRmExY0JUSmEtbS05azdNVUUtZ01QM1BvcThvb3IwM0NINmR5Q0JLaGJSZUNCZlItYmxLZlYtTllULTVTVV9xVTRZOV9seDJUYUNxcHhrbw?oc=5",
+      "title": "Liquidity Mapping Around (SWKS) Price Events",
+      "snippet": "Stock Traders Daily, 2026-10-20T07:00:00+00:00",
+      "publisher": "Stock Traders Daily",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUkZ0ank0MzEydkktWUNIZVlxdmpTV01zQjB5RFAtaFFyaVh2WjZzeW4tV0hlTmlNTzlKRzZGclJtUlh3VzhLcWxUQ2JWeXM3VGRlc0N2T3FybWNvWVljcTJZcktqNzVRcnZUZGdReENWWDNUcmw3bmxDamJZVDB3ZnNkNmFXUjJzSlB3ekxNekFKVmlNaU8yNW9abzVSNHFQUXhPcmtRakJrOW8?oc=5",
+      "title": "Starboard sees growth potential in Skyworks after Qorvo deal - report (SWKS:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SWKS/history",
+      "title": "SWKS daily price history (Yahoo Finance)",
+      "snippet": "close 82.39 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

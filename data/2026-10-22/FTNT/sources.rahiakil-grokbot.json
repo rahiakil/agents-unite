@@ -1,0 +1,121 @@
+{
+  "ticker": "FTNT",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortinet\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUmxidVE4elZWa2VGMGtpMkxiU3psakttaWxPRm1OLUxwcWJmRUd1Zm1KSmtycF9tRFZ0RzJKcFFJQTJxYWNBZDZoUEtrX25IaUFPU1BTTVZtNVhxRHBGQkpLZHhOYXJQZm1KX3BOMGtGTW1Qb0ZEeUVITGR0eUFlVHVjMUdBMlB2Q2dIVlpLYTA0ZEg5U2NGbnlReXc?oc=5",
+      "title": "Why is Fortinet stock sliding today? By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-10-21T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSWtkcXptYXFnd0V2R1NadUVBTDd4UGZnVzVZblJidk1MaUJ0ZDN2dml5VnlTNUM0c29zUzdwejZ5WnZmM3E4MWx6QmRBaTVVMlNfYl9SWE9jd1pwd20weWs4ckt1cEpBWVFQbENuRW5PUTd0Q2Vfa2YzODUyVUVEdVhXSWxFWG83RDc0WFU1Q2cxTUhWRkhsSDFjT0ZfRTVpSXkwMUpLYjM0YkY5akg3YWN1WnVacVJ0SUtCVVlPQzFidw?oc=5",
+      "title": "Fortinet Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-21T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWTVIVjBhSlJHd3ZOMGNTQ21UZFlIMjE5YW9zQTVXVFBCck5lTmlkdmJWWU1MVjc2akppUGR2SnhQd0V0MTMyU0pack1QdlBTTndrRUNKVGtMOXhhbUVrblBRNHBBRFphNlA2UFVBN2NCb1FjRDFPOFJVakpsekZRQ1JYRjRRMnVEZTZLVlJvd0RaTVlqYmxTeUpVUTFHRThYbU00?oc=5",
+      "title": "Fortinet (FTNT) Exceeds Market Returns: Some Facts to Consider",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMU5ITzZTLWJ1em40N3FjUVhnV3Iwc0FoQUkwWmcyamhlOXA3NHhja1lzd2k2cWJObjlFdzZFdG85WURENHhwQmhtYlF5UzhsdGtQaVBGZkhUYS1vXzlCSE1GR25sSFZYRGRLOWpibU80V19rMGZZNTU4by02WUJUUi0yRjRuUmRGUVo0NlBWVnZGRGdkMzYtdVY1bXVWYm9k?oc=5",
+      "title": "Can Fortinet (FTNT) Keep Trading At A Premium After 211%?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOVM2MHg5YlFIcERHZExCZFZEeEVrMzBIcHVJX0wyVXFUUS1zU2JMdXBPNTZxbUE3dU45aTZSZHJQYktXZDkwS0hUTmNyM2o5S0JQektSUWxIN08tV3FqZktQaDBIZm1udV9HQjJmc2M5aFdGMWUxU0Q1b1RSSy1BRHRVS09fTzVBY0w3Mk1pMS1raXU4WTBsY2kyVUFEWUUyVlhBb3B5NEVqaEdIcjNxWDNXQkpVVGwtS09NWTBrX1lhQ25raU4yU1pySlRnZnNCeXdUdGRrUQ?oc=5",
+      "title": "Can Fortinet's SASE Momentum Propel the Stock to New Highs?",
+      "snippet": "The Globe and Mail, 2026-10-20T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdlVkV3dKaG5uWkhhZGVOTUdObEhIcUMxOFhQM21EYjBDWWdaZTdNVFJxbUVvR3NQNlVFc1lVSkIybklyUWI3SWxzX2dMWkhuVWxJZG9KOHNXSHhIdEFxT29GTkJ4bE5qS0c1WWRKb3UwMWtSRmVzbUZQRlhnQi1IWmtBd2ItcjVFZ09QSzVzQmJoUi1YQWVOMHlLNl9DN010ZldxRlBfMnk1LTlNNU9ocTRUaUs1bHZmTUFCVnh6Vm9pUG9WeC1rSzBwUHRrWFppeFBj?oc=5",
+      "title": "Fortinet (NASDAQ:FTNT): A High-Quality Stock with Strong Fundamentals and a Premium Price",
+      "snippet": "ChartMill, 2026-10-19T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbzZmTkpYbzdHUWE0UE9FRlRnR3pkNlpGOWZ0Wi1qT000ZGJhbFR2TnJlYTZpTkVfXzBob1J4T1hRWHN0M1NLcmZIVTJTWS1Cb2kxMXBlQnpIOHF3WGgtdWJhUXo2X0JELThjRmRDSDIwWjM1bUdkQVJXVmpZR05FN3FqRjlNR2c4OEJJUVdqWkFsdThZczEycFNpSXNqcFk?oc=5",
+      "title": "CISA adds Fortinet and BeyondTrust vulnerabilities to exploited list",
+      "snippet": "SC Media, 2026-10-19T07:00:00+00:00",
+      "publisher": "SC Media",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.557,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTNT/history",
+      "title": "FTNT daily price history (Yahoo Finance)",
+      "snippet": "close 172.98 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

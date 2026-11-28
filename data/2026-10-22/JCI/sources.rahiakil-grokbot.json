@@ -1,0 +1,61 @@
+{
+  "ticker": "JCI",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Johnson Controls\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUC05blUzSDdrR0o2RzhTc2dhaTBSdEpxejNkM3FXaXF6MDMyREVjUk9ldGYtdkluNTB3UHFkYjBYZ0d4dUpEV0F6TXNZRi1hZ2JsNnZaOEF6Z29udEctazNwSVNKQmV2ZXlZRm03eExuV0dQa2Y2b0p1ZVhwajZEVjdKZ2Jxc2laOXhMZG9zNmU0STVibUxUUUFGRkF6bXJDaW1fMnFBLWY1UGpNSkFXazZTX0pnNkF2bXE3Q3paSEdFN0lTVkljRmtZN1drNVJ4Q0E?oc=5",
+      "title": "Johnson Controls: Strong Backlog, Margin Expansion, And Potential For Upward Revision In Estimates",
+      "snippet": "Seeking Alpha, 2026-10-21T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnpIRWgyR1NXa0F4NlpXZGlfVzNheFc0UHhlZWFVV2dYVVJmSTh0NGR1TDFCNzY2bUZwZGhXcTd6SU1ydk5wREsza1J1dzNXdWpYdkJfdkZKSFNodXA1WFFtRDgtVk14cFBMbGNSUjVlMXZud0otY25FMWtUNi1lOTN5LVNZNERtNXBKa1kxMzcyckFjYTFTczZQMjVsTlU5VWFFWA?oc=5",
+      "title": "Johnson Controls, Armada plan 500MW of AI infrastructure capacity (JCI:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-21T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JCI/history",
+      "title": "JCI daily price history (Yahoo Finance)",
+      "snippet": "close 143.0 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

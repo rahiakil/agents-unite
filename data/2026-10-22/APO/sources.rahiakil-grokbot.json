@@ -1,0 +1,70 @@
+{
+  "ticker": "APO",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apollo Global Management\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc2xhbEoxVHBpOFhLcGFacTRhUUMtS1JGWS1FdEhtbzdOMmlkMHItTjFxNERXeUphSDk4YUV0UVQtOThvVW04TXJYcTZyeV9rQ3dNUTJETGlCeFc1UXhleWFyVGl2M25rd2VqUTRPbnRSUEUwcERTWERQVjU4ZF94SHljWTFtSl9SMFhTQlVSMGF1cGFSYXF1ZTNhLTdMUV9FWkJlVU4zTkU2Qi1SV19NamVsN29naHdSd3Y2QXhoT1Bkdw?oc=5",
+      "title": "Autonomous Research Adjusts Apollo Global Management PT to $158 From $162",
+      "snippet": "www.marketscreener.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFVaNk14eHF0bklRLTd3X3U4NGtwLWM3cW1Rcm5nSFh6NHo4QkdvSnc1TWIzRTR5Zm1mbzI0Qlk3eHYwNVVReEFldmlSVnBrRmtBaVBlbzI5TWFpVk9WYlRGVGpBMS1WdlZaM3M0RW1zbHBmdDlRYWROd2J3bUROZkEyUERGWGdNRUhnRmpiWnBDQ01zdXFTVWt6WDZ0NDc5ZEliaEF0MlhyXzhiQlUxNEJYaFl2WDQ?oc=5",
+      "title": "Apollo\u2019s New AI-Proof Investment? The New York Yankees - Apollo Global Management (NYSE:APO)",
+      "snippet": "Benzinga, 2026-10-21T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858681/000095014226002794/eh260845009_8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 5.02,7.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APO/history",
+      "title": "APO daily price history (Yahoo Finance)",
+      "snippet": "close 114.83 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

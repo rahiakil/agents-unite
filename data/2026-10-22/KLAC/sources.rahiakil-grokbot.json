@@ -1,0 +1,109 @@
+{
+  "ticker": "KLAC",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KLA\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQalk0Qi1TdS1fSUJvOGk0VnNUdkFtaE80SXlrdXRYQTlld0ZSM09JTnZQcDVTVlBMZnlfQXB4ZVZmcHpZbXhMcnpSVVpRdWQtTmZKbGZDY3Z1RFZNSGZKb2c3bmVmWF9kYWJkbXJKNFFSZ1pSTERmLU95UGtRM3BCQnZ3NnI5OW5fQWJMZS1ROHVjWmh6aEFoSWZBUnV2cHk4endhMkJwM1BvNTd3cVctTFJWcFJJc1BxZmJadQ?oc=5",
+      "title": "KLA Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-21T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNk15Wm1yZHVXQ0NqakkzVW5QbkpZM19lTTJsbjdxNmx3WDlnV2p1QVdHTlB6SDU3WDFTUUszdGVOam1iVHd0TmVJZHZzNHhBODhFSGtUakMtWmhCekhpVXkyWGVLM0VYaExqZFM1cEtaOTlXQlAzaDNZYVhjcmc4RDhUQW1xeGlJVlN2dEZ3Q1E5UHVTdXFjc0s3N1hfUmlBaVFEalZScGdlQmRnT1dwbk5mUVBRNVgwdHJGQzJkOA?oc=5",
+      "title": "KLA (NASDAQ:KLAC) Offers Affordable Growth Backed by Strong Profitability",
+      "snippet": "ChartMill, 2026-10-21T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.743,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa2pDZTgwMTQ5LUh5bmhQTGNxbmh0aHBlV0hqbWZQcXgtTnA3WVdEVDdHUjZLTjcya2xjV0Vsb0R3N0ZuOGxLWmc4X1MwRXc0QkZ2dmxaWkRYdHJfeUNnTDdPSkx0aGZURWFvQWZmcXFyWEJORGJJYTZxUkdUelY3N3Vxa0pNNDhTM3B3MWQ4eXZCTTdlZVFWSURwLVA?oc=5",
+      "title": "KLA (KLAC) Earnings Expected to Grow: Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQU5jTE1udktFb0JqbWpWRWd5VFF6UjMzNU1LSU00Ymo0dURoOWFhN2Z0WXRLVDlJOE9kekdDYUdzWEp1Wk1DN2ZyY3VjYWk5cnhDVXpoelZFbDFmdnBfOEFJdkJWdDJacDJ6aEVNY0hUS29UQV96Y29EcDU3MmhzSTVSVmpZLVFLRXEwMC1EZ1JPV3VQQmp1bDNpdlhydw?oc=5",
+      "title": "How Much Could You Lose In KLA Stock?",
+      "snippet": "Trefis, 2026-10-21T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEkzMmFEekxyYmNiUGJMallxVDRhd2hMVEJZUUJiYkFyRmJ0dko0OXRpTm1fcDBrVTBlSVlqWDNpTXduZUNFZHBfc3pJakR3OENEZGNXeGx2RWN5TDdjUVBGUnJRRzNUTzFHVVNRdnlUN1VLMDRXTTdZYllidjVzWUhYcXhzQnI3Ui1aemxpZDNQbVRFbHRv?oc=5",
+      "title": "KLA (KLAC) Stock Sinks As Market Gains: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeGdjZEJqTmkwRHdPZ09wTExHUXMyWVhCcGRVMkxLY1MyM0dqems2OFRiUmVOSjFrNU1jcjVCVEJvQTBiWUlzRHhiTHZRbmgyRXMyNnJOZmxUaS1peFlBU0V1S1JzZ2xET0FCZVdTWXJ4QVpTd0dUTlpFR0dLdVhSOGlkZmo4M0Y3Smw4OC1KWFhxTTFUcXhUTVVR?oc=5",
+      "title": "The Reason To Buy KLA Stock Today",
+      "snippet": "Trefis, 2026-10-19T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KLAC/history",
+      "title": "KLAC daily price history (Yahoo Finance)",
+      "snippet": "close 147.83 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

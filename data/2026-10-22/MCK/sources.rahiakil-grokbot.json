@@ -1,0 +1,121 @@
+{
+  "ticker": "MCK",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McKesson\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSUpoRnZONXlxYzhpZjRIVUJDNmEwalFJb0wta2VpcGRFbUhmM1h1OFVtUUl3VGhTQ2FFYnhFV2NzSC1sLVlFTlN1OVUxUnlMX0VzQTFRcGRtQ19HdEdoWFBZM1ZMODZEaWpJbEtQNWZmV3dBM0M3RUdUYW03M01tZWFfOE0xSkcxQUdIbE1HX0ptYWl6bW5XbWx0RjZrbE8xSy1PY3JPYnE?oc=5",
+      "title": "McKesson Corporation Declares Quarterly Dividend",
+      "snippet": "Business Wire, 2026-10-21T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1VSQkdGQXhLT0piYTVfRXhNbWI3ODlZci1nMnRXMW9CT0xBc1RBemxrOGdkXzRwZHoyQ0FlSGYyQy1OWUw3cWJwZ29KQWpmUTRDV2tjeTlxaTNObUhuNm5mLWZXZ1Jnb2JYak1MTnAzTGsweV9ZeUo5dkFvUGQzZDk2WVcyTS0xWTJDUENjYnpMMmtTWDNFMEp3?oc=5",
+      "title": "McKesson (MCK) Stock Dips While Market Gains: Key Facts",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUpmX191VS1aaFljaEx5aXRrQ2Z1YVhKN2xERERIUjU3OFRoT2pCZUsyMEJBX3BZdE1rS0NsZ1ZxLWVyM1BoZXZrcjdYbDJiZjRpVEFCU2ZQdTh0cE05YmJPZV9Pal9sUjVBV1BnSVg1T0htQ0JwSGhyRWdvUGVacXc4V2tzTzhtOHJGNi1CSFAxMnN4OWtBcXFSNUdtcXhkS3ZEajJMWQ?oc=5",
+      "title": "Is Trending Stock McKesson Corporation (MCK) a Buy Now?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS2puSEg0Q2ZwMm4xeXdjdUN6U0VrMDdVQlo1M09QRzBDSFZVbXJ2YTF4Mm1hcjA3NEhsOVpnbzJfeE16aG1jWjdhc2hGN1otMjE3YmVZNXN6R3hqSDYxcV80M1ctUWdrSDNFQXEwWS1UX3lMWGk0RzVDTVBSOExmZFZkcXQ3QVlYSHB5VWJkWHlTczRneWdDRVE4RloyZlJ6RjJLWEJ4LXQ?oc=5",
+      "title": "9 Green Days In A Row: McKesson Stock Is Up 13%",
+      "snippet": "Trefis, 2026-10-21T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDM1dDIyOVc2UEY3cTdmS2RZLXBMT3JSWVJlb19yWDdCcGFNRDl3VzA3OFFneENxZm9IdkY0STBxaHJxSTA0cDhybGpqaVZoRjFVeXdGdEd5MHdiNk9mQVVFemJDTXpOeVEwT1QyN0FZeFdOa2NUZ2NJbVVNQ0tVY3NwWHZJMXBQRDRKaGFKNk5ZbVcwbkNrNG9rSHE0SnFPYTl2U0dyZFVraVdkNlE?oc=5",
+      "title": "Would You Have Held McKesson Stock All The Way Up?",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOEJYM2NUQzVENzJvcExVMDBzbFpzaXlDbjFoNlRBd2VvSFNwUTBRM0FVR3BfT2FnTHlmM0gyWExVbkdjX25Md0M1MzNraFVCR0lpZllad0t4ZW11U1FDN0pYOHRUWnlrWGFYU1IwenBvNXNjQUd5dGdMNFlJZjRBTDVLQTRWV0pETGd2OVJLT3hTbUtDbFoxdVV0eTlsNlhuS3FEQldMUFJ6eEVKV0JfVUNaWWcxSFk0WlE?oc=5",
+      "title": "McKesson Stock Rides An 8-Day Winning Streak To An 11% Gain",
+      "snippet": "Trefis, 2026-10-20T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaWVVMnVsN1p3REdERjN5dHNOQUhGXzZqYVBLQzdoSXpiam5UX2ZPYm9MSTZSakhRbGVWT1o3dm1yVTBWRU16OU5HdHZWRGo0OUFUN2VxaDd4UUJrc29MWFF0TnItTlNaSjZZdWt5NzlpbWhTZ3I1UmJSNGFTQUhlaW43V0gyZE9YbWcxU3JWTWxhYXRjV0txaE5JeTF4bVZ0eFBmZ1kzOA?oc=5",
+      "title": "McKesson (MCK) Outperforms Broader Market: What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCK/history",
+      "title": "MCK daily price history (Yahoo Finance)",
+      "snippet": "close 1012.34 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

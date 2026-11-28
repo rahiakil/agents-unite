@@ -1,0 +1,67 @@
+{
+  "ticker": "ALLE",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Allegion\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd1VSRDI3WHJEaGQ0YnVyQm1PWHQxNTlhWVpzcWhMWEc1dHp0WS1UaUdZbnpTMWhzTzhXcHcyenkwai1pUFNvcnNGM25QbWVmQ25zdV9QLTBwUGNZTWliTGNRTkluNVBDUDhTTDVVNFhXX19vTjVKZnE0Skc2YVNEN1JTZ0RGYWhWNnlSckJzZ3dlWXVQQU5jT3AyNUd4OWRGMk84WGpMNXMwMTVWX3Q4SGZPMFhIU29jUjNESHhlOGFRX0FWYzcydHA5SWhNbDA?oc=5",
+      "title": "Allegion PLC (NYSE:ALLE): Dividend Quality That Clears the Screen for Income Investors",
+      "snippet": "ChartMill, 2026-10-21T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/alle-20261022.htm",
+      "title": "SEC 8-K filed 2026-10-22",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1579241/000157924126000034/alle-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-22",
+      "snippet": "10-Q DATED OCTOBER 22, 2026",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ALLE/history",
+      "title": "ALLE daily price history (Yahoo Finance)",
+      "snippet": "close 176.52 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

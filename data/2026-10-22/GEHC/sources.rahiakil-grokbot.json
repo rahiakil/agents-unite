@@ -1,0 +1,85 @@
+{
+  "ticker": "GEHC",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GE HealthCare\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPV1k0bE5iaUxkemFwZFFvdWF6d0hKRHRHZklfOUJFR2RpU0pCNFI4b2lTWm1sa2ZuR0JPZEZhbVZFVUhVVVZVaHNMRTNyNldtVXBjclRyNnJ6TV9CWWxPTl9OdjhlTTh3aDAtQ1dmbUxHNXlfN3o5QUUyaUlxTElRc1FRNVNhYU5VX3J5d2ZNYjVEWVI1Y0N0UklpV0NodEprTUJySFVJMHV5TDhyenlTOGpPUmZ5S190VEhyUVRMcXpmZUlscjhadlA1UDhLMEJPY084WXlRWFpZVkXSAeABQVVfeXFMT1JHSE1EQ3FhcVFCZmxObWxldFBaMWZUd2xGSm1ReWszbGVJMnF3TmI3UUx5TmI0TUsxTkNCZUllQWgyRHM1Y2FhREQ5NUh2RTRKVU1jWVZQRUZXN2tKcUdrMWttWnBLUEpJS0dBYkNCNjZEMEpiczYzeWt4WWxDRVVteVRKNlBFT3NfdmRxcUFRTEttMnhseDhJa2dpV05hMWhaRE1GaGlxcUgzbzBSX0RfaFhEeUNvM3hPdUt3OEdmU1NKanZkTlQ4cTBrS2lUZXRoVzV2ajNkZV8xYlpSbnc?oc=5",
+      "title": "Wipro GE HealthCare considering fifth India plant, plans to double exports",
+      "snippet": "The Economic Times, 2026-10-21T07:00:00+00:00",
+      "publisher": "The Economic Times",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc2h4NmYwWVJrakRBUGRFOFRoWFBVUGhVSEprSkh5VldyNi04dThOM2RIa0V0ak9BUnpNaWFBZDIxb3g0aUtBSERmbnNTUnZHZXpWdFZuRC1uQjBvT0o1TS1aQWhkN3laVlBQUEd3dTQ1aEJwYXFVVTR3RHlVNTk0ZXJwOU5zTjZnYjNGTkpUUWc5Tl83MVR1NWZBdjlQQWVKYTJMVWNVUUJFQQ?oc=5",
+      "title": "Here's What to Expect From GE HealthCare\u2019s Next Earnings Report",
+      "snippet": "Barchart.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONG5CRTVESE5RNmFFb0JwVlFuUl9OV2dLVmRqZXR0aE9iM01tbTVleVJPZWNveHRCMWZLU1lhbmJJd1ZidWt5MnJqdllKZDVHcVQtMVFkLXVXbk1VdFVmbUNEX2NKTkhsNUlwVTRQci03anNEcURBU1RXTHhOamlzOXBVVHY4ODdYR1MyQ2RjdWpLQlNOenVXWEdkUkg?oc=5",
+      "title": "GE HealthCare announces five new global collaborations to advance the next generation of theranostics imaging",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZEpMb2xzZW9VYU1qVkJKMkwtd3lackpmb3hsZkcxbXdHYnV4cTZza2w4bmlldVpGTFl3Rm9TRWtPbV9XNFVOMTNmblk1QndCU1FWLU9YZE5VbXhfS2JwdWxlYTVxd0ZSS3V5UEJDeEd6eG9SRTdOcmRGOFhaTVhheDVmRkpEVDk0MGZfWTZlcHBUbFZxaHpHOHBXT3piTFhKSDMyRFZEeGhQN0x4?oc=5",
+      "title": "GE HealthCare Wins Approval for MINItrace Magni Cyclotron in Europe",
+      "snippet": "Zacks Investment Research, 2026-10-20T07:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GEHC/history",
+      "title": "GEHC daily price history (Yahoo Finance)",
+      "snippet": "close 71.42 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

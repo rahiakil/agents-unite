@@ -1,0 +1,49 @@
+{
+  "ticker": "LYV",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Live Nation Entertainment\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRDdldXl0Z3VaMHhZeU9FU24tVkhoeEFRc1NVd0tiYUNkWXVrNlZzSEx3RktjeS1mTjBEeGN6QkxvTWZ0NkJpZ3pYc3FRQll2ZDJDQkFMRTJXcHQxdzhWOTdEMmp0T0hWZlV0SGRHcWtObGVlY0ZCb00ycS1mWEdreGIwTWZGNVZwMWtpZzlHV1VmOEhILU5sb0xyRFlyX1U2NGRUV1NSbnlZd19VTzVTVw?oc=5",
+      "title": "SIG Maintains Live Nation Entertainment(LYV.US) With Hold Rating, Cuts Target Price to $183",
+      "snippet": "Moomoo, 2026-10-20T14:31:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-20T14:31:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYV/history",
+      "title": "LYV daily price history (Yahoo Finance)",
+      "snippet": "close 174.5 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

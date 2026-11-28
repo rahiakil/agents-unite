@@ -1,0 +1,82 @@
+{
+  "ticker": "GL",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Globe Life\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXp3T0RaTTI5ZmNxVjU4V1FGellkSFktR0lVaF9wYVpKVklNck5KV2FIMjc5dWRWcVFHaUF5N2M5cVE5UndzNy01b1RGRFdnUmVEZzdWUGpkaG5rZHBXZThZUS1HR2oxTFp1TXczenN1Q3QxaWV1RjdtU0tzc0NiMm1DcWZDdE9JbVV1Q1ZRV0k4b0Ni?oc=5",
+      "title": "Globe Life (NYSE:GL) misses Q3 2026 sales expectations, stock drops",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ2QybWFLNEVtN0FhTzVURlJUNTdpa3BjZnM3eGRMdXRpbGJabEJsNUgtNHRYRzRRTS05dTFfU3pxajBvWkoxM21ibWRxNEdOUzlSS0xLOEF5d0lKVnZMSkhFdVJXUW42WnNzVjZnUi00U3I4dDRBNmhfYktxdlRCWEhvZlN4R08yd1FibEtYYjFNTE1P?oc=5",
+      "title": "Globe Life (GL) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1RZbkxLV2VMLUNQcWhLTmMwbnB2WjBxNHVCLTVfcWl2UW5qMTY3bWVnYUtLOHFlNV9CME1WQUZGZDFMLWVzTUFBVHJ4U0ctYm9rbVlBamlwYk1mdFA1SDRnY1NwTVhzMkotQXhjNlRmeG10cWZ1RXBISG56WjZZamQxb3ZiMWl6eGtvSXRhaHhieTB1S0NNcDd6Yk1SdjZweURSbnFxSmNZSGRDc0dRWEhyQmg5eDUxbTdz?oc=5",
+      "title": "Nasdaq 100 Futures Rise 1.10% Ahead of Monday Market Open; Globe Life (GL) Surges 8.53%",
+      "snippet": "GuruFocus, 2026-10-19T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/320335/000032033526000224/gl-20261021.htm",
+      "title": "SEC 8-K filed 2026-10-21",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GL/history",
+      "title": "GL daily price history (Yahoo Finance)",
+      "snippet": "close 168.41 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

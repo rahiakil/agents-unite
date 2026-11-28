@@ -1,0 +1,61 @@
+{
+  "ticker": "PH",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Parker Hannifin\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkWkMtU2pMN040cHVLLTdEekxkOXRpcWpZT00wTTVYM0ktWi03c3JQWEduNW5wdEEzYlpnVFV1UjJTN0lPSFNZa1VSRmpzN3JsRHB6eXZfNU96X2prcDF3djVLajJfSFBYWkxSMjlaMldfRk13UFFYVXJkV2pyLUk?oc=5",
+      "title": "Why Parker-Hannifin (PH) Stock Fell Today",
+      "snippet": "Quiver Quantitative, 2026-10-20T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNNmJUaEFSc3NDUU1UM0FzNUxKc0xtUnRrLXRwWjkySHhPMW9iS2FER2ZBeXMtSE9feGRUaWxTeXBZc1VZWnVEeXNOeG8tMGhiLUhDVzdJNGFLaWtTekduMVZmbFVQOEdyQWNYc1VMelp2MU5nTmxka0pucVZLblE1VWdhOG9mX2ZleS1lZXVwRWJOTFNuZWo0dFR0NUI0ekllTXk3SFJFcldhb1Z1bXZLenR2czQtWEhlOXJnU3hIa0t2NWZEQU9rcnNfUkdYVm9ncUFEbE5GS294VGhhWmtmUjF2UmJNay14RGxucHZVVWltYmxEUm5rS19Ccnl5OENsNExUQzBsd0NuUVF5bXRaNE1BSnEyTWlEU1ZTenhPQQ?oc=5",
+      "title": "Parker Hannifin Data Breach Investigation: Edelson Lechtzin LLP Probes Class Action Claims After Ransomware Group Claims Theft of Data",
+      "snippet": "Morningstar, 2026-10-19T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PH/history",
+      "title": "PH daily price history (Yahoo Finance)",
+      "snippet": "close 893.21 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

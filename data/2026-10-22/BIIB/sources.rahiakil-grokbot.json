@@ -1,0 +1,85 @@
+{
+  "ticker": "BIIB",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Biogen\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSjdrUG03dkYzQmlVaWRoOW1IdVVKMnprX01Da3ZDVmNNRXN2MmpDeFJmQzYtQTk1NVlKT3FFQVhIcFY0UC1kdlBNa1dhR2JCbHFmdVUzN1dUWFdZUVZmUi01WnZobmdPbTRmQmZIbkd5OGVITUJVZTVmMHBqM25Bd090aXEtNmZNUDAtTmVPRHp1ZEpEbHFRN0FlbDhQeURpMUE?oc=5",
+      "title": "The Zacks Analyst Blog Highlights BridgeBio Pharma, Intellia Therapeutics, Biogen and Viking Therapeutics",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjJ3NURuMXZLdkNrQ1NTX2FINi01a1BHSnlvUUoxWnJJbUZrT1VCRE1MZ2VVcXJXMXFXVWpYZ1R6RkJYMzNQenl3QUpYT3dGUHluaGJmNHdBd01RT3NVb2VtYUI4UWxyZ0V0bWxicVNlYjFJZkE0ZWNQc2tKQ3pRYTRxaEo3TE5WdWdMdWJBb0pVNndVczU3RU1mSFlHMjdpT01Jbmppa2pfLTN2cGtLV2ZMX21MRzRwelRwVExEMENzUQ?oc=5",
+      "title": "TD Cowen raises Biogen stock price target to $250 on model update",
+      "snippet": "Investing.com, 2026-10-21T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcGRGVnFSZEFSQmtqS18wci1abG5BcXRhcXhsYjBfdDdKS1JMQXJtc094LU5LOXd0eHdPcDU2RFdDb0VyNDZhOU5tQ3g1V25kT0JyQW5QUWY5Q1IxNEc2dC03N2JrcURCcVVYbWNYVkwzNER0MXlVeTRadEtwdDBETU5ORU9iVjY2Y2p0N18wTTFPbzVjNEEyYmhVbmM4YUpwVHN4QlN3blRMcElBbkJsTG1RRFR0Zkk?oc=5",
+      "title": "Biogen Q3 Earnings Preview: Grounds For Optimism, But Disappointment The Norm",
+      "snippet": "Seeking Alpha, 2026-10-21T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObVNZaTNNV1drakRyN05jLVBBdXIxUTdqZjdjanlkUVY0NG5aM2I1UGxqR2p4SVRCdllzOFY0elpaUVhoNTJMMUxGOFBDV0JLd3dNaVp4NnlROEo3MU5VMHp0RFBzeTRBNkI4RGY3TVBQdkhfd2pDc1E0U1FTQ0pSVEtvVE9qMVU0d1g4Rnp3WGtVWlV1ZUI3NQ?oc=5",
+      "title": "BIIB Maintained by TD Cowen -- Price Target Raised to $250",
+      "snippet": "GuruFocus, 2026-10-21T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BIIB/history",
+      "title": "BIIB daily price history (Yahoo Finance)",
+      "snippet": "close 253.84 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

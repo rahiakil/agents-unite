@@ -1,0 +1,61 @@
+{
+  "ticker": "MOS",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mosaic\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZVZrakctd09Qbkk5RHRTVkdIRTg5QTBnMS1FemEtRFZwWnFVb2hkcmhlRzlUV3NncE9xVm9ObGEtVFc5VjBQZEQ3UEt1NWgwUmJrcnoweDVGT1dqVUpSN2R6TzRBMG0xLUtYSFRxT1E1M2VqdXAzY2V1QndzSDB1a3IwOWFSek5QbVg5YWl2TDM0cHVuclo2V2lqY052b2ZqZDRFd1plbVl5dm4xYzhySkJOZDdiek9IM3IxRU1heW5RR0U?oc=5",
+      "title": "Mosaic idles South Fort Meade phosphate plant amid global sulfur shortage - CMB News",
+      "snippet": "CMB News, 2026-10-21T07:00:00+00:00",
+      "publisher": "CMB News",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlB0OXgwdVBNZ0o0TXJXelZ4bVlKRFg3Q2dxNE1jZmlEWTRwbUlsNDkwb25wNzVXTzVhbnNGZ1VQa3lMNnIxS184LVo4UDBXNy1aYW9Nc1lEQTNMZmpvREZtUVR1UzJkcU02Q2V4RFFzUGgzeGVRREtPb3Q4aEpqdGJLTmllUE1LWTBRRDF4QlF3ZGlK?oc=5",
+      "title": "Why The Mosaic Company (MOS) Stock Is Down Today",
+      "snippet": "Moomoo, 2026-10-19T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MOS/history",
+      "title": "MOS daily price history (Yahoo Finance)",
+      "snippet": "close 17.27 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

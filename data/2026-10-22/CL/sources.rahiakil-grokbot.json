@@ -1,0 +1,61 @@
+{
+  "ticker": "CL",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Colgate-Palmolive\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 21,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUJQTGlJaktOdGRwSXlrdjMyeEx2TmJEaTkwdjhPRzhYZGk1RUd1UGxRSTVTRlR1MjlGSlpqNDFkX09zODVQX3A4eDlsbXZxeGlNZXM3cFhXelJfTUVYVS1jTkhhWWVwdVJEN1RjVGRCWXNOQ0RXNGR5Nm1EWnI0V01yNk5LcS1qYXhQTFY2dEttamRGd1l2M0VLTDA?oc=5",
+      "title": "Colgate-Palmolive (India) Share Price: Price Action Near Low",
+      "snippet": "Univest, 2026-10-21T07:00:00+00:00",
+      "publisher": "Univest",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTmVPZUJ6d3hpTFBYel9HeHRjSk5Ya0kwdmdWUHRwWEMyVkNnVG1qVmU3MDhmLUxWN3hpZ0w0c2xTbjVVT0NkbWhZTFVaY05jX1E4UUhUbTdIc1E3VWIzM3VVZGdITXhzdDd5X3pKRndEMGxzUWViQ2xLaTVnYm1WWVhsV1BJTHc?oc=5",
+      "title": "Colgate-Palmolive (India) (COLPAL) Share Price Falls 2.76% in Today\u2019s Trade",
+      "snippet": "Univest, 2026-10-19T07:00:00+00:00",
+      "publisher": "Univest",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CL/history",
+      "title": "CL daily price history (Yahoo Finance)",
+      "snippet": "close 97.39 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

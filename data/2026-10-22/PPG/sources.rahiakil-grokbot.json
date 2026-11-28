@@ -1,0 +1,97 @@
+{
+  "ticker": "PPG",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PPG Industries\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdzE3MzgxbVM3UGs4Vi10NzVqTFlkZHRWUU96dmpQWjc3MGd3UmwzVUUyMHBLRE1JZE9BY2FmZmtBRG0tUUNVOHFWMEpJSXFMbUJIMHg4cnoxaGoxZmVmMGFKVHgxNFhobm44c3Babl9wcmg0LU9jQUdsUmJtYVhKa2lKc28wOEJ0QVg4MDBmbmZwcFl6azNxaDVXRFIzSWh5SnpJ?oc=5",
+      "title": "PPG Launches Sustainable Synthetic Paper With Enhanced Performance",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaEhDR1pteTQxRWRUck5aUzk1ck9OcnNsVGtlY083eW94ZVhRZVlhTUFMcEhXMVBLTmZHdWpPWDFiTDdzSDBXRk1NV2xlUlkxa1JuUnRpeUVSbHZ3MUZmMFVLR2JvTW9EbW1SMDNVYWhZRk44UG5oRnB6dERsSzJEU0ZqQUtzTHhsSDEwZHYzUW1XeHJHdDRLTzc4TUtXMU1mclY4VGRnZjF6OFU?oc=5",
+      "title": "Earnings Preview: PPG to Report Financial Results Post-market on October 27",
+      "snippet": "Moomoo, 2026-10-21T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFJvbWNVT0xERURJdF9jRUpnc25JQnRGTXpfbV91T0o2TTVsMUx5VHR5NnhqbWlyNzBjN2Q2QU1IdGtMVGZJSlJtWVN1aHV4WnBIMm9aUGNWVm5BeGRESHliMXRwTEtuaDRmQ0RIRmxrckZ1el94S1F6LWlZZ1pZaG5nVkpHZzdGVnRnbFJGZElHQjc1YU5fQ0ZzOTk?oc=5",
+      "title": "PPG Industries (PPG) Reports Next Week: What Awaits?",
+      "snippet": "Yahoo Finance, 2026-10-20T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmxXbjVINnoxbXU5Z1IwUkV1SlZtZEQyUjNNSVJLQ1VOR2dVM3ppci0yZEJVX0FDaENQSEIxWGhXMmY4N1RwSzIwUi1uX0xVLWJrMG05MUpQZzdFeDRVSVBWTFczMk9VS2R0NFh3ajNnWk45QXV6bW8xM1dZcUdxTER0WDVQRDQxc1F4aWZGeE5QdmVCcTE2eW1QdzU3SU03ak9rWA?oc=5",
+      "title": "KeyBanc Adjusts Price Target on PPG Industries to $128 From $133",
+      "snippet": "Moomoo, 2026-10-20T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTA4U2hDSDRSb3IzR2I3ckxGVWNSbVdEY2NwQWVBR1pwOS00MnBYR1RKbHR0a3VGS3B1dlYzbXEwN3JsT3lrVFI3N2dnaEJRZDZ3eHFKNmh6RmQwNE1MVUJpdk0zRlVtOHlyTmowMVNoRENIaGJ0UThYV2w3alNnV0o4eElNZW5vR21mZ3pNVnZKNXJKV3NwaC1XOTA4Qy11QTZJOFZaU1FQUnNsempoNlM2R3cxSE0?oc=5",
+      "title": "BofA Securities Maintains PPG Industries(PPG.US) With Buy Rating, Maintains Target Price $137",
+      "snippet": "Moomoo, 2026-10-19T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PPG/history",
+      "title": "PPG daily price history (Yahoo Finance)",
+      "snippet": "close 113.09 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

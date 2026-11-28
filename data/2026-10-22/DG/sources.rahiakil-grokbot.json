@@ -1,0 +1,109 @@
+{
+  "ticker": "DG",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar General\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 36,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 5,
+    "irrelevant_or_spam": 7,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVNWRTl0S3o3dkU2TEFEUlVsbHpuZHBNVmk0QkxFM2M0YkUwQV85bWtaZzJyWUVHelR4VGEzUWI2Y3c3MDhNOG1mQUlLQW9FZ0ZQcGk1ZlRYOWtFcm1DYURndEFfVFZWS0RVblRNNzdPdE80aGx5ZGRMVWp5SmxlUDdYS21RcHFKeDR2ZUxtanB1QmJtRkF1VTlR?oc=5",
+      "title": "Dollar General (DG) Stock Falls Amid Market Uptick: What Investors Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdzNrYVNqWHVGUTJpRU1iNEg4aWM4bU8yQXUtd192QklveEg1NVRoNS1LYW9CSHdtenZxeUFSM2NEWW1KUXlXZjVYZUxOaWNwU0NjaHVUN2tWa2FjUTNvS3pKRDk3c2RqcEJrbnFybXlNbFV3ZGpWYmFJMXJ1R01fbjR3ZlVrcnNndTZHOGc3Tk40UG84YUdUV0hnUjV4SWE0ZWdIX29OZE8?oc=5",
+      "title": "Tulsa Police say 2 women arrested following Dollar General robbery",
+      "snippet": "KTUL, 2026-10-20T07:00:00+00:00",
+      "publisher": "KTUL",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": -0.477,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkdMdk9KOVpmVlE2Tnk3ajRydHFfU2xucEVlemNjYjNMWjlQZlNSZzlkZGZ5bXBWQlNmWEI3NFFiSTFZMHBGNGd2VklSXzhLbUNUOXNyTVh4dV9pVllYZUpNTFVnaFN1MkNZZE9SRjNzbmNtcjN4MG5rSU1kWkZoa2NRUnZUQWN2TGxCMFVuWWJrRnlyWTMxbU9NckRtZEp3TklpWg?oc=5",
+      "title": "Big Lots next to Dollar General in 'Home Furnishings Capital of the World' on its way out - liquidation sales underway",
+      "snippet": "The Sun, 2026-10-20T07:00:00+00:00",
+      "publisher": "The Sun",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjdYNDNKbk1XT2FoQ2syNENIZXIzY3ZnaWdtV0lzUDYySVR3YUlocy03UFhObXRqS001VG4xNUR6R3AtNkU3bkVOTWZENTFVVnlFQjNjdGFXVkw0VUZ3Q0tmY0NoUEItdFhnal9IWFdieFF6NXZJdWxIU2toMnRGbQ?oc=5",
+      "title": "12 Best Dollar General Kitchen Finds Perfect For Fall 2026",
+      "snippet": "Mashed, 2026-10-20T07:00:00+00:00",
+      "publisher": "Mashed",
+      "published": "2026-10-20T07:00:00+00:00",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMk9aZ0JpQTBVeXVoZ2hHeFAycm9IRTdBTS02bC1FbTF1UE1RcWNuUVZ3ajl2WXJoU0JzNXRqMTBNNGZNbUp3NEw3dE9UQ2w3TzJLWHppU0ZjUE9xM2ozQ2VURHdNOTFsM3M5NUlBaEtISEtEbXNvVzdGZmNZMGRQSF9IeU9IQ043NEt0b0NR?oc=5",
+      "title": "Dollar General proposed in Clarks Summit",
+      "snippet": "Scranton Times-Tribune, 2026-10-19T07:00:00+00:00",
+      "publisher": "Scranton Times-Tribune",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMXI2c1YtSG1QTXhVNFM4dGFEWTVidlg3a0d4d3ptUFgyUHZEMUtETVloRVZHZ1dmN3NGM1V4MnJoQnZsSmlhbFV2dHYzSy1HY3prUFBuMmVVejFMXzFIbW1aZm9LVDhfNng2UXVZOUYyRmpldG5PYnVUbERKYkRWQUVmV1JKTmhodnNXU3ln?oc=5",
+      "title": "Dollar General Just Teamed up With Hallmark on a Holiday Collection - and Most of It Is Under $5",
+      "snippet": "FinanceBuzz, 2026-10-19T07:00:00+00:00",
+      "publisher": "FinanceBuzz",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DG/history",
+      "title": "DG daily price history (Yahoo Finance)",
+      "snippet": "close 139.11 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

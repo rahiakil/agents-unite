@@ -1,0 +1,61 @@
+{
+  "ticker": "GD",
+  "date": "2026-10-22",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-22",
+  "news_cutoff": "2026-10-22T20:00:00Z",
+  "generated_at": "2026-11-28T09:03:05Z",
+  "collected_at": "2026-11-28T09:03:05Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Dynamics\" stock after:2026-10-18 before:2026-10-23",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd0FSZmgzV0tfdHdoUTJrS3dueWVyQ2lBZUVVQ0JfTWh3QmdsaEJ0UlBNWHFaaDFHNm9DVHBkNHpITWdXS2xfLTJESGJzejhQN0wxS2NuekNmZ1ZsWjJVZVY4eDl6RmJ2SGFSUHRSSWRzUE5MYm1BM3pDdmNaRUlxSFUyZGwtLUlkc1VzOEVMNmltaWpyejZ2dXFLLUdDdnhQekE?oc=5",
+      "title": "General Dynamics Reports Soon: How Has The Stock Reacted To Past Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUks1S3o3d2VBbWJPQ0NRRk8tbGlfWVo2SEt2Qm40cTM3SG5EN2s4R1MyMnhZWnZiVjJJWUtyNEQ2Wl9LcTJDOWladWk1amZDSk9EZ0tpcFFDc2ZPcF9Fam90QWtnb1BJc0dOaklkX2VncjBVanVDaXg3eERpSFdkTmE0d2tGZ2hrTFdRMHJNOE4zVm8tcGdjcXM5LUdzWi1qMnptZGNR?oc=5",
+      "title": "General Dynamics (GD): Is This Aerospace Dividend Stock Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-21T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-21T07:00:00+00:00",
+      "published_date": "2026-10-21",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GD/history",
+      "title": "GD daily price history (Yahoo Finance)",
+      "snippet": "close 350.79 on 2026-10-22",
+      "published_date": "2026-10-22",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

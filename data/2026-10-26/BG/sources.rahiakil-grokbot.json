@@ -1,0 +1,61 @@
+{
+  "ticker": "BG",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bunge Global\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRDkyLTZkUFRjUG5ua2JpelI4clE1aVlPdHg1aklUQUFmSmEzR2JIdEJ6QkQwSG5TNGV2bkNhYlk0NjdtNnEySUpjZHo3WnRJVUpaMTNfcmhXMzZXaVRxU2VYaVZQUXNuWkl3QkQxZ3AyZ3FIaDZDUG5xRFZoTV9OeHdCVllZOUNndUtZeTJRRWRPejdsWkl1ZGw0SQ?oc=5",
+      "title": "Bunge Global (BG) Faces An Earnings Test As Viterra Deal Fuels Undervalued View",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmlfdzk4bFM5UmRVNHlza1FlLXN6SUJ3YlZHNTZtRm9KTUJpdFVNWVFIUW0teVJyMjl3S1djZEdLaVN4blJ4OTNyN190Vl9KblJGTy1TTU1CQ1dVbEJCOWpmcV91dDVsSWxFcjZLMzNxeWFTYmRKUzl4bHZUTjBPSVpzbGE1b3p0eUNfWnMtVVpiZjQ?oc=5",
+      "title": "Bunge (BG) Stock May Be Below Fair Value On Earnings Power",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BG/history",
+      "title": "BG daily price history (Yahoo Finance)",
+      "snippet": "close 102.22 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

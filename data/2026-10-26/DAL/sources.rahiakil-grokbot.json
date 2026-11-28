@@ -1,0 +1,73 @@
+{
+  "ticker": "DAL",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Delta Air Lines\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ05yTGkyY0dNbkd2Q2Q2MkRYSHVnRmdMcGpVLWVWdkFzZGZNWm52anZxcHhHTlVOTktsTmlzeU41Q0RXOG1hSXNIOGlrYnVMM3VrVGRmMFRDOWx5REV2MTA4R2FFMWpyYVRuX0RhNXVmNUoyOEpMZGtsZ1hmdFlWWTY2N0V5cXhTRnZEaC1rMDdHZ3BOSkJ1c0gtOHAzenhMeF8yaU5UQi1zTERDaTRYX3VjZjhMUGNxcE9mbnA0S2hDZE5ZeFFSU2RMcw?oc=5",
+      "title": "Delta cuts 2026 outlook as fuel costs pressure Delta Air Lines stock",
+      "snippet": "ad-hoc-news.de, 2026-10-26T10:17:56+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T10:17:56+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.494,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLTVXeVBSWmJrakpsYUFBX0pScEMzWHc0TDRDWDIySVRhaEtCUHhWcUpiZTBKMktTX19GMDB2T3VvaTVSRjJwVzVJTzVBVXZUNHhXUk9LaldjWTJnLUVrbkREWHg2ZjNhX09RNHRGYVNIazBRcEVxTVoyNy1Lc3hpMWk5Q0RlRmlfQ21JVDNaNkRSUVBDd1poOWJ0OUxBMDUtdWRrTWxCLVpaUkE?oc=5",
+      "title": "Why Is Delta Air Lines Stock Falling on Friday?",
+      "snippet": "Benzinga, 2026-10-23T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTjZjaFdxSFF4NnN2ZVVwbDBXeDczMDFYS2FVNWs1NFhhX2MwOEoxQndaNkMzMHBHNVpmOGM4WG5nbFE3cHZKUk9qYXBodURocngtRHFpLWZacWlHRGVMdGR6SHU1aWlpMWVPU1lBTHVSYVYtNzBHNUZhakJwNzl0YnFfX2RXQ212LXRSUUprcUNvZXBrMlJ4cUlyQ1M4N0VzSnNwSTBYS0wtLTNO?oc=5",
+      "title": "Delta Air Lines Inc (DAL) Shares Fall 3.1% -- GF Value Says Stil",
+      "snippet": "GuruFocus, 2026-10-23T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DAL/history",
+      "title": "DAL daily price history (Yahoo Finance)",
+      "snippet": "close 79.16 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "VST",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vistra\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GNFE5b3AteGtuenVCd3VETjFEcEFnNlYzLWg5TTJudEctdlVMMzhLQzBRZzRYV29UWUFIUXl0YXBwRGpIdTlwWVdLNi1PVW52M2l3R0NzWThjWjFnMWxuR1FlZU5RODBvVXNKMXJBRDZjQQ?oc=5",
+      "title": "Vistra Corp. redeems $1 billion in Series A Preferred Stock, retiring all outstanding shares",
+      "snippet": "Energies Media, 2026-10-25T07:00:00+00:00",
+      "publisher": "Energies Media",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOFZ6M05PTzJaZ2MteXpVMEJJVzZiVldjbk1mdUp5a2p2dERIMmlCQnpzcFI2a2hWSkRFNXl2RXQyQ0lKUWd5ZXZPemxvSWVaS01ERFp1WlpBNU51LXJpX0dSMW5CZmNZVzVDd1NRLXExc2t5NVlMUl8tOVBhS2c2S3VEOVA2MGpaQk9QTHBYdzNTS21kazJKYUt2dVZseWQ3UDBhbWs5d3lLVVFQUzgyOU8tRzdIT3J0NWlqbWM1LVpGRDBMNTRWRzRoYjhsQ0FBRWlZMFAtam4zcjg0Z1E?oc=5",
+      "title": "Vistra Stock Fell Nearly 10% in a Day After Meta\u2019s Earnings. Here\u2019s Why Its Forecast Already Discounts the Data Center Hype",
+      "snippet": "TIKR.com, 2026-10-24T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnpmenQ0WEVrVHU5dHFwb1Nqb2FUTi1URElNTV9yY0M5U1VGVjRqN3JyVHdnNnhWOWFtNEhaMUpuZGdoYUpPb1NaYU81WGtWclNiM3RhUDFUQk0taXJKN1R3MTFRNTVnNUNadE12SXp4LVJDZFVja1JWY0l2T29xQWw4MzF2MTE3bzlRd04yeVltTXdUWGc?oc=5",
+      "title": "Vistra (VST) Stock May Trade Below Fair Value After Nuclear Loan News",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSm16RnpsN0hienFxR1hRUTdmZW5pd213S3RDYWV5bHBucmdwSVFBYUhHdGt1cTJFR0prN2cwSEdRX2kyV1Q3VHVvSUVQUmtoSE1KU0dtQ0F2MVFGbDgwXzk4SHFLc0tpUHluT3RteENfZ0Q3U2JqTGpRQ2V2WGp4TDROVTFYQ2dFZjUyTW5aYWpoTFlQb2IwMFFFU3VBUzhPdWE3aklvUWx6d0xiOHNaVXZDMG1SVEVCYngzX01QeGs?oc=5",
+      "title": "Vistra (VST) Stock Looks Below Fair Value After Nuclear Funding",
+      "snippet": "Simply Wall St, 2026-10-24T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZVlmR2Z5V281WFE1dzVueEpuMmhpQWxEMVBhM2p1eXVjdVUzUDJlMlY5N0tLWTZjUEhPNkx3YUNrWURvdkNqNDQ3SHJ4OU5CQTM3TUk3NEpSX3c0TkhrUnJXT0lDV0Y5MlBSajcwQnRSdHE1WVBubHlsYWxwSlQ5MFR3YzBuZ21UTnNVTUdjMVJTRTdMMXY5eGdqVQ?oc=5",
+      "title": "Is AI Power Demand Reset Altering The Investment Case For Vistra Stock?",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaFR3bE9QZ3VGZ3p5RENSbmE1Q2lheHMwYWVZaV9mRFNZTTN0NkpYT0puSGg0WWFwLV9sbzJNUWV2Qi16Q3U5MVNPbC1TaDlOWkZhZUxLdHFfZHFKTmhyd2JUY1FjYXpaS0ZMQmcwY2dxRlI5R1NoamVnZzNVNURmV2tzdkk1Z2RJZG9UdUZLV2pfNTJja3JxZQ?oc=5",
+      "title": "Constellation, Vistra, and GE Vernova Ranked From Worst to First for the AI Power Boom",
+      "snippet": "The Motley Fool, 2026-10-24T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV3k0dUUxM1VPYWhWZ083cENFZ0ZBSGpXYTFlOFliNlV6UGhINzRUTHRiN21DcThlWWVTbXZIa1NJbDRLcTdXYzRwLVpkX1VoaWNhM29DUzR1MEpKMXhhX3lJTWZaaGRSZVk5Q1RfTS0wdHlFN3FCcV9uT3d5Z0htNndjVndtRE03U3RQXy02a2hxUHBudUo4aGMxb3JId00?oc=5",
+      "title": "Can Vistra (VST) Keep the Earnings Surprise Streak Alive?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VST/history",
+      "title": "VST daily price history (Yahoo Finance)",
+      "snippet": "close 141.73 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

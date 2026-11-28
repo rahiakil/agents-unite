@@ -1,0 +1,61 @@
+{
+  "ticker": "WMB",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Williams Companies\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdXVpdHUwVTQ0ejhhakM3SUx6VVZVZjUyb3ROMm9nUjczcmtONFZYbTd6S2QwTXlkOW04TE9pREhHVDhPdXN6LWRNUHFlSVJhUEl1aWExVFVncS1XdWJsVDdwdmxIUUQ1THM0ZUJkRnhOOUdkQU9NWXNCYVpHcTdEcS1JR0c3VDhIUHI5TG5KZ09ELUZmaFAydUxsbWxodWJhc3NMb1czd0xUZTVCWldfdUI3djNkdDNvSDZfeE5qdw?oc=5",
+      "title": "A 25-analyst consensus puts Williams Cos stock at USD 85.25",
+      "snippet": "ad-hoc-news.de, 2026-10-26T16:16:54+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T16:16:54+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORExxNXpfNW1lSXdGdUpPRXo5Ry13dXdWVG9vd0JHYlRiT0JpYWtnUGhZM0Z4N01oUWpMbnZiR29UUVlQZWZPR3lYQlI1X1A1OW14eDdnZnR4X2NPTUtyWm9TVkQtTEpaa1lwWDd4T2RqVDN1anZST05wUHIyeGhJbGZreUlWdHk5MXl1X2xDaU1hN19tSGY1S2hDeUlzMFRBOHdnUVVB?oc=5",
+      "title": "Williams Companies (WMB) Outpaced The Market, Is The Stock Now Too Expensive?",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WMB/history",
+      "title": "WMB daily price history (Yahoo Finance)",
+      "snippet": "close 71.75 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

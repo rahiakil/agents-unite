@@ -1,0 +1,61 @@
+{
+  "ticker": "BNY",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ0lPeGRrV3h3SzB4RGNiRlI0T080NWRFNERCY29jTDl6R1lTcllQUm5rTGhRZmN0bE5WbWRXdk5YRkhVOEJBaWtDTlZWTU1LV2VPWnNONmtjb2dBc2lLTTNGY1ZveTdoQlJsRnlfZDBQYmpEczJra1J3Yk9hX0dYUEdHcXMwT2dQWXdFVEs5ZWQ5ejRQLS1V?oc=5",
+      "title": "Why Higher Rates Could Lift BNY Mellon Stock And Cash Management Fees",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTDdfTlBpZlI2RlNjQkNuWkduTC1FTG5XUmNIaXk2VWRyeG9vX1NEODRHRXFmZ1diUXBGVGpFTXd6Xzl2NU4xYndrVkR2MlBuMlE0U3llNHc2Ui1KLUNoclp2eHBxVGh2cVBUd1BoT0x2RjFOQk5mV1hkX3NfLVdxQzV6WjI2NEdza0FJa1ppbl9OWm0xTEUxd0J1MmVIa2swNXZOdDZra3FlVDNEUTJRckxLeFFSYTJSX3JUOUdtbm9GY3NycF9Bai02VUc?oc=5",
+      "title": "BNY Mellon reviews capital actions: what it means for BNY Mellon stock",
+      "snippet": "ad-hoc-news.de, 2026-10-24T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 147.18 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

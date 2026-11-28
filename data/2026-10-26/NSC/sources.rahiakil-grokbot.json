@@ -1,0 +1,85 @@
+{
+  "ticker": "NSC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norfolk Southern\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 30,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 18,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd2ZraFBjSEhSLVdGV2YydEpxbm1md2xrUUtzR0NVbHVfOENSOUw1RVVUR2k4dWphcklTbWlRdW5FT3Zvb3U0OVJiNXczWW9lRVpLcDNteGpJOVg5M1FLTWFEQXFadVRGaEJZNWhpbF95bVRqbko1alQ3Wko5dlljYmRUYjJaeVYtcGtxWklkcUtGZWkxTTNiaVVfVlBnTzg?oc=5",
+      "title": "Norfolk Southern to serve new Audi plant in Georgia",
+      "snippet": "Yahoo Finance, 2026-10-25T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQm1TbXpTdzlKQ1JGLW9nVXdUeDk2c0YwcmtHNHhBYUk2WmZEeXFCQTFWeFQySFNIRnJpX0xESDBqY1k1M21taWN6Sm5VWGMyeDlTWXp0aG43cnl4Y1FvZ3F6RlNPQlBJOTBQcTE4RXEwY0duVlJ5UXF1Z1JfV1hLRFM1RG5nY3l2T3NQN1F2Um1TSGpUM0ZwbjMxNFFsOXFKSF9N?oc=5",
+      "title": "Norfolk Southern Price Target Raised to $349.00/Share From $347.00 by Citigroup",
+      "snippet": "Moomoo, 2026-10-23T20:33:40+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-23T20:33:40+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOERtU09xR1VTSXN6eWdHLWl0Wm9Jc3N0R05KNHhEQmp4ejd4Snh4OEI0TGllZjVpUHVpS041UXpXbk1RMl96THhZVHB4RGtucV9lYWk5Z2FCZW1Qd0t3UG4wM21UNlZYQkk5ZjNzVUZON3k2aXJWZjlSQ2p0S2lVTFlnTnhOUnJab2YxR0NyYzV5eUk4RnJZX3lZbmZ1Z2g3b3BpTDBpZWxWRHdFNWtieC1KcS0xdWcwSm12WWpZbnpjUWZXS2cxNGNmNVBHRGVxNVZZ?oc=5",
+      "title": "Norfolk Southern stock: TD Cowen lifts target from USD 376.00 to USD 379.00",
+      "snippet": "ad-hoc-news.de, 2026-10-23T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMXA1c2UtRVZKLWprT0RCSll4aXk2SEw4Q3A5OEJLd0JVcENUUkZ0dldfaUZDWTlEQ1dYX0N2SEEyMzJZeXREVVBHak9lMGhPMmp0S3BMVTVSNTFFTHpzQWdMVTVGVUNURmxrdk54WmxweE5uTXNTcWpZb3NPQ2t3QkFFaEFmY1kyZ1NJQXpJSzJ0YlB0dm5wa3U0bElUVkg0QTNr?oc=5",
+      "title": "Norfolk Southern Q3 revenue rises 14% and railroad lifts 2026 cost outlook",
+      "snippet": "Railway Supply, 2026-10-23T07:00:00+00:00",
+      "publisher": "Railway Supply",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NSC/history",
+      "title": "NSC daily price history (Yahoo Finance)",
+      "snippet": "close 333.99 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

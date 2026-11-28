@@ -1,0 +1,70 @@
+{
+  "ticker": "PNC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PNC Financial Services\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHVBUTdRMU5WODFIX0V1UzBtT1ZibVpNOUlzRFVnRHB1T1VMSC1kdFRZa3dNclQ1dGRrZ19FZFY4RXRJYnFmNzRaZFlKbU84OV93amxFTmRRelBFMzNROHF3MlJ2RE9RaGtEYTk5QUp1dzVNU1JXd3ZvcTdxM0FhZ1RObTU3LW55d0JXQXFaZVowTGQyejdUUWlWWXM3NnZQbkFnWDZ3Zlhmend3SXBlcjFwVVFCb3dIbS04?oc=5",
+      "title": "PNC executive to speak as PNC stock trades at EUR 201.00",
+      "snippet": "ad-hoc-news.de, 2026-10-25T16:50:18+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-25T16:50:18+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb0xEU2JVUVlUM1hxay1adHpBN1BNODNWYnJvaDJSZERkekFkMFA2N1IyZ2N4R0tjYkh4OEhWeWZ0RmJkaUNOX0tqQmVLNWdXUkJnaFlpUDIxby1SeEg2LWZieEEyYnE2QlBhRVpTZzQzendDMW1sck1JaHdNSFZvV0dUWXc1Z1JMem9oM095RkNBZGVVUU5FdHdtdUZpNUF0bW5VVjBBZXpiNlc4a0E?oc=5",
+      "title": "PNC Executive to Speak at BancAnalysts Association of Boston Conference",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/713676/000162828026067044/pnc-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-23",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNC/history",
+      "title": "PNC daily price history (Yahoo Finance)",
+      "snippet": "close 225.84 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

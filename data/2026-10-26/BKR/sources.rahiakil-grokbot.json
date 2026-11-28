@@ -1,0 +1,85 @@
+{
+  "ticker": "BKR",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baker Hughes\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 5,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOenBFbnFSTnhvQmhUY19WeC1hLUZidmdVTHViNkpvRW4tOVp1RWoyTHBIUUp4cV9VZTlab01QZmJzdVFDaWtHSW5NTGlvM3V1UWkyc0FxSHBHeUxtczVNM3BTV0RXbmxYU3NseXVnNE1mbjRYSGpRdHBuaVhxd1VEMDRkeUdHV1BadXZhc005T2IwM19ZM0l4VjM1S0stRmM4bTNIUXE3QXFZSUJPRGpuSW85a3ZhVmo0T3RpVGxweG44VVdWVXc?oc=5",
+      "title": "Baker Hughes Co. stock pre-market at EUR 49.77: energy technology group",
+      "snippet": "ad-hoc-news.de, 2026-10-26T06:55:13+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T06:55:13+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUNKWkdmcnNsdUlqQUlWUzlIME40QnFwVzQzTEZIOVFBTF9taGdtTDVyT2VUUzYzcnFiMG5iWUxTejdIQk0tZzFhSXgtTVdNQTR1Q29NMklQckZ2Z19rSXU3TnhvMF92U2czZmlwWXlUUXAwSFFYemNWLUVocFFkaVJKbEFEdk5qZmJIT0E3REJaNWs0VXJDMnBLbzVldExvS2hrVnpXRQ?oc=5",
+      "title": "Oil Prices Hit Six-Month Highs Amid Houthi Attacks in Saudi Arabia - Phillips 66 (NYSE:PSX), Baker Hughes",
+      "snippet": "Benzinga, 2026-10-23T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT1R6NjMwbG9HN0d4UlpOU2U4WXN4blJtV3NKZ3VBZURNOWxGcWtCNE5ZaTJBTW5NZTQwWUJPYnBuRVpCQ0hoSXByVWdMOUFWV18zOVVkMlZvNVBJQmRTRklsUWJGQ2RKclUtVTQwVE5hVzVWZ0hOUHRGN3pBajB4NUQweTNETjU5VUQ5Z0dkUkdncW8?oc=5",
+      "title": "Can Baker Hughes Keep Its Winning Streak Alive in Q3 Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTGkyWFBFbXl2MFRnVlV5S05xTWhBY24xX1U2WE9IS2xCYzBFREJyN0xrdUtkd1pJWThEVXpQb1VvOEZrd0x1M1BsVEJaOTd6bi1MdFBXWEJzaDFmbGZxbWgxWWU1WFVwa210X0lVWDZIdWlNejJvYXBpMEhfcXdNY2JtRFFDQkN3TFlKNzVlT25NVlU3dFFlWFk3TEdpa2cxUXdPWdIBqgFBVV95cUxPeU9INVhzc2FOaEp3d3lrd2JnMnlIc1NjM2VKMFlKUmd0dkF1R1UwNm1NQ1p0MUJXYXJsUEN2MUxVUlp4YXNPQ2lyMF9vaXZIU2o4QUNhQmh3OGRfS1NWemE0QUZNYXlZRUZjX1BncVRvcHE2NkFOZzNPWXJsSTA3Q2dxdEFhUU9FWlJ5cFB1aVY0WDR6a1FjUmFxN3Q1bkNKbGFRbmRNNkdhUQ?oc=5",
+      "title": "Baker Hughes Q3 2026 Earnings Preview - October 27, Street Expects $0.61 EPS",
+      "snippet": "AlphaStreet, 2026-10-23T07:00:00+00:00",
+      "publisher": "AlphaStreet",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BKR/history",
+      "title": "BKR daily price history (Yahoo Finance)",
+      "snippet": "close 56.01 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

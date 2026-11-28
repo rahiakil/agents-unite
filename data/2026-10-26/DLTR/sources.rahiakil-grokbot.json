@@ -1,0 +1,85 @@
+{
+  "ticker": "DLTR",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar Tree\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWtObEZJUlBXNFh3X2pPVkt1aEpVRUU5VDkyaEhrYVNqeWV6Z0dsWVA4Z0Yyb0R5R050RHN5VlZ2QmNLbTlqRjRPTnJqNDJhTGNYMUVBV2RwemZwUTBSa01oazh4N29DWEc4NkotUkxyNGZadzFGSjdHZEVGWlhZMnFuems2WDI1a01aZElJbFNmZFVvZ1RPR2VZQ2tsMi10SnJjQjcxV2dwdw?oc=5",
+      "title": "Dollar Tree, Dollar General Stocks Slide as Their Core Shoppers Get Squeezed -- Barrons.com",
+      "snippet": "Moomoo, 2026-10-23T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzlVUWhpQ2Nqc2dlV2VYQzdDQThTX0hySGtKdWk5ZVc0NEVrMUlnNFJRVVhTVkRtblVENXk0NExRSjV5aHJwR1ZRc0hLNXpkOE05d2NiNXVCWWNfU296dm5EVlc0a1lWaGdwWjRZM09BREFwTURhT2E1anJtajJucVdFcFY2ZkZUOVZ1UzBjSXNVSGNoNjFaWg?oc=5",
+      "title": "Dollar Tree, Dollar General Stocks Slide as Their Core Shoppers Get Squeezed",
+      "snippet": "Barron's, 2026-10-23T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWZTWExUczVNbV91amUweTV5ZTVfd3ozRFpYb2lHTWJTV01veHpLSjgzYkc4d2ZYV2JPVjNqa1VZQ0VTVWNvUWxlYjFJbXNYWHNHb2JXbVFHMHJTTFVuX3Ntc2diUjNaNTdwcnd1V293ZU1CTDRpYzNabWE4WG01dEl5TzdFbDRSbERrZWc1bWEyNVptRXNXRQ?oc=5",
+      "title": "Dollar Tree (DLTR) Stock Looks Reasonable With Cash Flow Value Ahead",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaW8wSGJCQ3JRd21PZDNGZVY5THBZNGZtY3NBWUJmem1KY2VqWlUzWnJDRXpCSm9zZXZjSkhhQnQ4dWVjQ21LYWtLMXBTMDJ6V3VHNUJBNHE1Y3dZSGxWUnVuZGZmQnczeHJvWFU2RnlON3VSNHN5dlFSb3F5OFVEVXBNbHZIU1dULXN1LVlNTDl3b0xyR1JVM1cxdzltLUh5QjZvNkxsNEJhMVdQUndmbVpaWW5vc1U2eHFCR1I3MUplN1pKbHFuQTJfaFE0LWFyb1BGN2Nn?oc=5",
+      "title": "Dollar Store Stocks Slide as Selling Hits Discount Retail: Dollar Tree and Dollar General Drop 6%",
+      "snippet": "24/7 Wall St., 2026-10-23T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DLTR/history",
+      "title": "DLTR daily price history (Yahoo Finance)",
+      "snippet": "close 124.92 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "SNPS",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synopsys\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMVZSUDc4NFVOYllLdFptcnFHVjVpSU02amNkbmNsT0d0MEo5bmVfdkNaWF85bFdXOGFwNEYzc1ZmVWZENWEycFBxR25xOEJDaU5lX2RjMEwtSFNWdmNWN2JERGlpeTZpU2o2R3NaUHhYcXhNRHZUazBMcm9UcTRiTURVR1JiajczNlpOUVJGQllMNWhLdHNobDdnS21KYTg?oc=5",
+      "title": "Wall Street Analysts See Synopsys (SNPS) as a Buy: Should You Invest?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeHc4ZGFIRVhoUDdnT0t1dWl6NThQdjFQZHpOaGNKZVVpeWkwUWMxRXJNSGJ4Q1FqVzlxV2VrSUN6aEctTUJWWHRsM1NrNXJIOUJ6QXI2eXR3NWhJTXJyWl8tdE0tZ1dNTG5uMkVHZnNFemNmU1BhYjcwWDJBR0JYSU5Cc0Z6VXhiZG5SZlpicU9TQUVzNUx2SS1xSnVWQQ?oc=5",
+      "title": "Synopsys (SNPS) Rises As Market Takes a Dip: Key Facts",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SNPS/history",
+      "title": "SNPS daily price history (Yahoo Finance)",
+      "snippet": "close 454.33 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

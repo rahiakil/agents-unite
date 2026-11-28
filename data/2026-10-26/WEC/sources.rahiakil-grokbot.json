@@ -1,0 +1,61 @@
+{
+  "ticker": "WEC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"WEC Energy\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMTNXdHdWTHFpeXhEWkoyME9aS01GeFZnZHpweTMxR2lHRVJUcHRwSndOVW5DX212SFpzc1hBQ3ZOdkU2VDJGMzIwSUk5U09jUU43LUl3Q2VyWko2WlYtZkd3MkRBYTlHbUxPYzFLSU1VZzdpaF9LRE1nYnhpODlTY1RkTnNoaTh6Yk5PdDRGaTQ5dGQ5UGYzR3phYUNENWtTWTNVbHlNU3J4MEpN?oc=5",
+      "title": "What Have WEC Energy Stock Holders Really Earned?",
+      "snippet": "Trefis, 2026-10-23T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM25hak5QVHQxbW5EVjlWWm5KVFNEMnJ5aVFmY2VVSDNsVTV6SlVxbUozck80RXlaRWUzWUtVd3c2V1RTTjg0MlBHTkplN0RYQzF3TTV2ZW05QU02WTFsX0hzYmlNUTkzbmV5VEFSSkxsbzNJWWhDVHBObE0zUm1sTTgzdmN1ZjhCaUdoSjJLaFJvdTZRWjJZ?oc=5",
+      "title": "WEC Energy Group (WEC) Shares Moved, So What Is Driving Attention Now?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WEC/history",
+      "title": "WEC daily price history (Yahoo Finance)",
+      "snippet": "close 111.12 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

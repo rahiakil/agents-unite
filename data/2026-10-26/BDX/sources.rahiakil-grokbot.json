@@ -1,0 +1,73 @@
+{
+  "ticker": "BDX",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Becton Dickinson\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVWJVWkhlVmpiYllCT1QzTjdqcnA0RzdUYkxxdkhxMXJPWUg2UHNoMGRyOEpoRkpwTGZlUXI4QXBDYlhGVEhybGFWM0t4RnhOMEVzTnNWbGJSeV80Ti1rX1NiS25MYVNyN2VCQnNMSE56QVktV0xBanpqQjdRZHJ1aTlWYnAxXy0wWEdReFpxXzV6TEhjd3N1eGtSTk9HOTJGVjNYeGJ1Y0NoT1U4SVdNeThTSkJNQ0k4NzdNRzczZlRmQVVGbzZmMnUtS0JrVUN6bk5KRTFB?oc=5",
+      "title": "Fund Update: 223,022 BECTON, DICKINSON (BDX) shares added to GREENHAVEN ASSOCIATES INC portfolio",
+      "snippet": "Quiver Quantitative, 2026-10-26T18:51:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-26T18:51:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdGhCQUtydE4wMUdqaEdiMEdpakRjZ3poeWFmTHhUcGJHM1BrRjVEclc3VnMtVUZWdjdCbzNsRVpLeVNyaWRsQmVmbkdRT1dHOFhVWmJvMXB1RFN1LTM3Y1RFTFVyWUhuUHFkNmxNY1RaWXA0LXRFLWdyZkFCV0pGVzJCQjFERUl4eU9rMXduaFNVNDFqa3YwQ0g4dkEzOUthQUE?oc=5",
+      "title": "What Becton Dickinson Stock's New U.S. Manufacturing Deal Means For Shareholders",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZDItVTRFM1A3c0FPaW9hWHQzWUZoa09sR2tmdGRYeGNDcVJWbmpiRUxYYnRDeXlfU05XTEFwaVQxalBJc0lWSmRvVHQ5NFphUlJWeU82U2d2bE93YXRiU0FGMnp5cUYzdzNpQmVDVlU2NElxRnNlZUNrMkNIQXRYTUNUZThSR2JwaEZIOEFyanFuaTMwclhxdGJrZnJORVk?oc=5",
+      "title": "Becton Dickinson (BDX) Stock Trades Below Fair Value After A 40% Run",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BDX/history",
+      "title": "BDX daily price history (Yahoo Finance)",
+      "snippet": "close 196.39 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "TKO",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TKO\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMVA3cWF3dkp3TU9kU0lmV2sweVRCSGhwWVlXcGtwS25WMldiTzMwYzVrU195bkdXTDRjRVZGMS1KQkVoUEJFdWlfSkdKYmVPUHRPU2VGdE13b202dlB6ZGJEck1RM3Z1UHJ5SDlIOWhFMjNSUTRqa09ReU5MMzNsN0xnMUhPdG9UbGRmX0l3aUE0eDczWVQ4S2JBOW94UzNCcy1kNDhmT1paQ2hWd0ZvWEdIN1Q?oc=5",
+      "title": "MR. TITO: What If TKO's WWE Crown Jewel 2026 Gets Attacked in Saudi Arabia on November 7th?",
+      "snippet": "NoDQ.com, 2026-10-25T07:00:00+00:00",
+      "publisher": "NoDQ.com",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TKO/history",
+      "title": "TKO daily price history (Yahoo Finance)",
+      "snippet": "close 171.23 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

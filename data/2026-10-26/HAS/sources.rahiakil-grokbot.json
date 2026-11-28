@@ -1,0 +1,61 @@
+{
+  "ticker": "HAS",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hasbro\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSlUtSTFlR2twZzhERXl1b19BX2Z5bVl5RnlQV0JhY1ZTRFVIZFlTbFlxZkM2bWtXdVpxUV9ySkl5TDdqbm8wYUozNW9LWXdENHhnaHY2a0lfaDRNTlAtTFIzbVZFMFIyOXdvX0Frb1VJakhWdVZXVXE0RVA2SlBheEV2bVRqWl9oNG1iYWxBSHkzcjhoN0dYSUlRNmlGTGNZd3ROMl85NTREQWpwQUJQRXdSUnp0VDRCcW5kNUNta1FXeDhrY1VibDZ6dFdsWkFkQ0lNX1BlRllGQ2h2dVBBa2lRZFlRZkFRQUMxLXZZU2U3REZoWUhQdFVUbw?oc=5",
+      "title": "Stocktwits Retail Therapy: Defensive Bets Hold Firm As Hasbro, Kohl\u2019s, Boston Beer Lead Weekly Consumer Gains",
+      "snippet": "TradingView, 2026-10-25T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjZMRkhzSWVTQVJoX0lzNUJ0bXM3YWo0VkhXdmRMdG9TcjBONmFqTlBTcXp5VmhUa2hNekRIeHJydzRveTZfdkZkTW1DSDd0a3lQVTNxaDJHbk5mQl9qTlVQZG53enhHeVJVVWNuUUpwRkZQVkh4NjJ2RC15QmFUV3d6MFB5WTU4ZlVBczRmblVKUUk?oc=5",
+      "title": "Why Hasbro Stock Surged This Week",
+      "snippet": "The Motley Fool, 2026-10-24T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAS/history",
+      "title": "HAS daily price history (Yahoo Finance)",
+      "snippet": "close 117.96 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

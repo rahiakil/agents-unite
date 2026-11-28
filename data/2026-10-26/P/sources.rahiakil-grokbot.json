@@ -1,0 +1,61 @@
+{
+  "ticker": "P",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Everpure\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQlVfTTFFMk55eUtoTlQtVVJuWjFiRkZSZzVPRm9QazM0OGcyVk05azBCbF9EdDlxS19OdTNmd1NINF9vSy1EUDEtb0VjODh5ZmoycnRtYkRXbUdXNllBWDNWdnNVVnJacW9xU0NwNW5rcFUxaWZVTlBId3ZaZzJQcjA5OVE3RXdBRlJsalF6LXIyRXRDM05HaWhGQ3BKRVB3LTY3OXdpMHE1Ul9pcGZUYkdfU1pfeV9ORWNYN0phcEZWSUlxUGtUQjZ1WldPTUpnT0Qtb3FQMTFoZVRS?oc=5",
+      "title": "Form 4 Everpure Inc: John Colgrove (Director, Chief Visionary Officer) For: 25 September",
+      "snippet": "Investing.com UK, 2026-10-25T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUtkQm10REtIR0tBcm1wWjRqWVBpYzFUY0pHaXllRkFFS3Y4S0EwWTZ5RzZiQlJUdlVfam85aUljR01ycXRHdUlvY0RtRFZIbjZDSklYMjA2cDlRM2NLa3h6eU1ZZHF4MnpKemNPQVVLd01HcGtFcktkd2tEVmx3OWNieEh2eUc5RHhCWWZsRjlZVk1iNU13eFQ4OVF3UDV3?oc=5",
+      "title": "How Everpure Is Winning Over Hyperscalers In The AI Data Center Race",
+      "snippet": "Investor's Business Daily, 2026-10-23T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/P/history",
+      "title": "P daily price history (Yahoo Finance)",
+      "snippet": "close 131.33 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

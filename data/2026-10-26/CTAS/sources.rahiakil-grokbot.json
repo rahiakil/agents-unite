@@ -1,0 +1,61 @@
+{
+  "ticker": "CTAS",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cintas\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWVVZWtDTElvRlVpMnZib2o4WG5lR1Y2X3FuMGRJRWJxUEpKM182ZXFKa013cjJpZnE4X0pRanpLTk1UQXNWaUpEcTFjdDRIQmdfVzREbnVTYV9xdFNaMzJheUZtLWdQY2lZVUxrVUxRVTdiZUpzS0NBVmFtUENMYlJITWJiUjFjNXVleXlSRmwyUGRaV0xpVFlsS2ZqelJvZXNhb3RuLXpOWW14LTV3VXZURnQ?oc=5",
+      "title": "Here's How Much $100 Invested In Cintas 10 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-10-23T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUEl2elV6UUNmMndmTFBHYTRJd3JQWW9PY054X2F1UnJKN2NadzdoQ0VFTEllbXF3RFY0MEhneFMySFdJQWlUd01mMWVhTWVsSTJOLXlOZ3ZxVDNTM1I3WHQxbVBEU1B4SzczcHZtRndKdGswbm1nb2pGa0pGbmRUUGN2YWRleF8xbVJVeHBkNE0?oc=5",
+      "title": "Cintas (CTAS) Up 13.3% Since Last Earnings Report: Can It Continue?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTAS/history",
+      "title": "CTAS daily price history (Yahoo Finance)",
+      "snippet": "close 225.93 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

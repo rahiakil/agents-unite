@@ -1,0 +1,49 @@
+{
+  "ticker": "HCA",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HCA Healthcare\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUnd4T1J1bWsxS3huWHBaQnNvMEk1WDkwWU1md3RsMjhmLWFyVTNXS2pDSnRtRjhQMkw3eWdqQjhwNWE2ZGg2OVpSRFdUNUl3TWJtTjNtaFRscmVOQ3ptSmJieTlWNWZTd1RsMXZGUE1oaE1jcEwwUG93dzN5bndtTGRHVkRYQVRqNWIyak9CWXFxd3B2LXpXdnd0aTZXcTZIZ3dGaklCN014WUwzNHV3NHVUaGwxSUxhTGhtMEdEZUc3SDNIV0ZLbk5oSE5xR0pfemlN?oc=5",
+      "title": "HCA Healthcare announces drug take-back event while stock costs EUR 418.65",
+      "snippet": "ad-hoc-news.de, 2026-10-25T16:32:39+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-25T16:32:39+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HCA/history",
+      "title": "HCA daily price history (Yahoo Finance)",
+      "snippet": "close 465.26 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

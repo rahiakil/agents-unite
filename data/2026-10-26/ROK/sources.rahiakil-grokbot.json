@@ -1,0 +1,49 @@
+{
+  "ticker": "ROK",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Rockwell Automation\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUd4Uk9GOTJNckFJa1pvT010cjZxWlBJRko4OXIzTWs2dUp5NzFNVV9fZnowSzBwQWZrNUo4NFRsQzNCOEZyTDRhNjUzUkpVYW9YZnZRNG10bEphWWRHT08ycFBtS0Z4dFFFRHBfeUNHeXlnZno4TGdGSDJlNWxpUzFVc2MwOExtQzVPX1BEcU5pYnh5WXJMX084V190TTh2N2RtNVJNaFNaTlZVWjFr?oc=5",
+      "title": "Rockwell Automation (NYSE:ROK) Faces A Valuation Test As AI Expands",
+      "snippet": "Kalkine Media, 2026-10-26T16:12:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-26T16:12:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROK/history",
+      "title": "ROK daily price history (Yahoo Finance)",
+      "snippet": "close 429.89 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

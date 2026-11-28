@@ -1,0 +1,61 @@
+{
+  "ticker": "CB",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chubb\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 5,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYTYwdUpreGhoeUoyZlljcW1QbDV0TmdBMWFpRHl3UXk2Vjh2VzhVZVFYOW5NdlRDRS0tQzM2VkN2ek5LdFVvTE5qTHZBNHdTUkV6NEdkT3hJZnk0N1ZscDI1MDdPOW5kSU8wSXQ0TzBUbnZhX0JrNjVzbU5lRlJUeEdfUzVuX0N0aGlSV0JoSlRzRnlERERTdzJqRDNDOFBGZzRFeUxwcTFCQlhYZkVGWElvcmhPUEM5a0FyZU1aQ0NFVE5TYzdtTTJSR2tFODg?oc=5",
+      "title": "Chubb Limited (NYSE:CB) Eases 2.43% to USD 355.11 on 1.66M Shares",
+      "snippet": "Kalkine India, 2026-10-26T11:43:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-10-26T11:43:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS0ZRUmZYVmhfblJfLTZlcVg4QThidFZkVDNNbzVqbzRSTnFaLV9nLVZjbmtyV2tOOUtyLUpnb1UwZVNrWVpYeXYxTVNDV0Uzb2FFQ1lnNmpiOEVqZmw0dlN4aldQNWxIeDZfYTduaDYtNlFUM091VmVWcTJDN1RKS01pdm42ZGtNbU42U0NGeDMxQ2ZKelE5MW5Fbw?oc=5",
+      "title": "Form 144 | Chubb Ltd(CB.US) Officer Proposes to Sell 4.72 Million in Common Stocks",
+      "snippet": "Moomoo, 2026-10-23T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CB/history",
+      "title": "CB daily price history (Yahoo Finance)",
+      "snippet": "close 356.74 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

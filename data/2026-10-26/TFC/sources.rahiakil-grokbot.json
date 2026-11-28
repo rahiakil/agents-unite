@@ -1,0 +1,61 @@
+{
+  "ticker": "TFC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Truist Financial\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPazN5VDFUaU9sZzdKVU1nNzFWMXlBd25iQVoxa3lwZWZTZFJsSFpSRS1nbC1fYUtWQVR3UzJzZHBKRGxldUxxaWpIUExVaHdtS2cyMWpNQy10Nm11RHoxQU5fN1RyYm9RbVVFUWtXQllXVGFMdGlQMTRSMWtDb3RsbjFNMGRHeE05RTdVMldhUkJuUHkyN2VpWF9oQ0pxUTRjZi01aER2NloxdU8zYTFOUXpDZ2xwNG1sSzVNeGRB?oc=5",
+      "title": "Citigroup cuts target to USD 50 for Truist Financial stock",
+      "snippet": "ad-hoc-news.de, 2026-10-26T16:53:52+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T16:53:52+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTnppSXBiTTVxczYtM2N2M1J2UDJ6Q1pXYUg5U0xuTzVVX045QnU0VWZBQV9jem93dlV2aWh0NFdvNWM5dDBybW96dFV1SGVQNUF5aDU2TUo4VS1IckVKRXIyOTllMExHVnlwR3ozS3JPSVpaTl83RW91YXdVVDJCV1JWd1pxenlnX3lIQmZtM1ZwZi1LaGVGTFJkNVBzc2JyRWR0bl8yWEQ4VlhHUEJGcXFrVXFpTGVpZ290dkYwM1Q?oc=5",
+      "title": "Truist Financial: A Combination Of High-Yielding Preferreds And Common Stock Makes The Most Sense",
+      "snippet": "Seeking Alpha, 2026-10-24T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TFC/history",
+      "title": "TFC daily price history (Yahoo Finance)",
+      "snippet": "close 48.91 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

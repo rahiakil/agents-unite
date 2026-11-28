@@ -1,0 +1,70 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbFpTamwyblFhcGd1VWZsREdwaTNDOGZHSVk2S2hvQXNtd2lYVE4zb2FmeU1tVERBc0xnMDc0ZkJjTXItU2t1S2llU0twa3pvUmNrMzI1U2o4X1VYV3FvTFZ5cDJTUnNjZEhxSG9qQ3RnX0x5SnZQenBoU21wVHpJRm42UlpwLWE3VDdoUmNlM2IyZ2J3R2VKdmRoR2RkYWFyUVctaEd2NDBYR1FwU1dvdEdXdlI2VnptVXhlenFwanRTM0pZcFFlVms1R1BFQ0ZlVVE?oc=5",
+      "title": "Leaner Machine, Heavier Costs: Can FedEx Deliver Margin Growth on Oct. 28 After Freight Spinoff?",
+      "snippet": "24/7 Wall St., 2026-10-24T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeU12dDNIb0owbUx6akpvTDNOaTN5ZlJjY0Y3VE1aQjhqWkRCaFFGV2M2bG5jUEhoa29DSjlMa1FQdzQwTFFRSGVoZmZQbGpISzFPVzE2N3FSY2pseUFGWmg3SXNNUU5QR1ctV0hIVXB1eVQ2RlZjSTg1Qms2M1FkT2ZfbWhKU08xNmhZUXotQWlxVXh0d3c?oc=5",
+      "title": "Where Did UPS Fall Behind FedEx?",
+      "snippet": "Trefis, 2026-10-23T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926118604/tm2628225d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 300.58 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

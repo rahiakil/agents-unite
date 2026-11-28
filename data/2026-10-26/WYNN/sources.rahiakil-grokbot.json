@@ -1,0 +1,58 @@
+{
+  "ticker": "WYNN",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Wynn Resorts\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNHdrb0lZZkMwalJrWnhJVWwxVGdIdmZYMDlHb1Y1SXNkdkZwYnk0dXN1akxwTS13ZUh5OE1nbmtZU1lSaEVrNkI1bWJKSlprd2JNUkhEV1ZxTU1MU2JDaUJqa1Z0Zm5mVXN1N2ZTY0ZNR3Q5NnR3SjBYRUxPOFA2a0FOQjF0MHBuQjVSVWtxSjBSRDM1TGdGNTFHVGI3d0RhbGtobmZzZHpfaC00d2lfN2E0UHJPbXBRTm9famRDSWdzYmE0RFh0VDZlbmh1MTFQSldKUVZva9IB3AFBVV95cUxQVFRrcC1PTW04bGFiVHJuRGZjN3JYYlRadmxWVnlwcHNmOER4LWY5di1YVWc5OVYzZWNrOFdBS0VFeGNsWXVFenVmUGVlSVJFYy1hS1BqMktjTk5yZURkTkV3ZTE1UXBmMENiUXV5WktzUlpCalJndVptRGVuMzVENWVjWWttM0xQdVJXWEtKLUJaVGl4enpoYXZCTmx5NDdTdUMzel9rVkhQWHpocU83QXhfbG1fZklLWmJxU3dQdG1ZbDM4eGZHNm4xU21xdG5QejUxVk8zc25QZG5K?oc=5",
+      "title": "How Labor Strike At Wynn Resorts (WYNN) Has Changed Its Investment Story",
+      "snippet": "Simply Wall St, 2026-10-23T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000072/wynn-20261023.htm",
+      "title": "SEC 8-K filed 2026-10-23",
+      "snippet": "items 7.01,9.01",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WYNN/history",
+      "title": "WYNN daily price history (Yahoo Finance)",
+      "snippet": "close 74.2 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

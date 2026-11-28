@@ -1,0 +1,61 @@
+{
+  "ticker": "EMR",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emerson Electric\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbm1wQ2kyZHp0Sm9icldtWFpMdXlRMmY4RDhKWnExemI5enE1Q2dzdGdvRERmWGo0SlYwTFdoREdUb1R5TjNLaEhDRld5cFQ0U0M1WTkxMWVBTGI5NWlzMTBsNXROU2pZckhWc1ZOVzV2aFF6Q2tydGJmTWc0Q0JDLS1UOHVnTnZjUERGVGpiRGdtN0ZfUlpn?oc=5",
+      "title": "Learn Why The Bull Case For Emerson Electric Stock Could Change Following Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZE5Sbnc4d1F2NHhBZjJZMVhLUW5QUnc0TGVpM2xZWG42V3h6ajNmWlFhSk9XRnlLTjRiaXhWS0U2VkR1WDQydTVQS2hCblRhRWdiUG1vbzRoTmRuVnh0SU9RUlRDQ3F1Z21LRkJlUTl3OS1KVjZtS1F4ekN5dkJLbERxLTVVWFpRSXEzYlF1YmVKZWN2MkVfWC1HbGFTSE41SGtJQ3pUYXg?oc=5",
+      "title": "Emerson Electric Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EMR/history",
+      "title": "EMR daily price history (Yahoo Finance)",
+      "snippet": "close 161.7 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

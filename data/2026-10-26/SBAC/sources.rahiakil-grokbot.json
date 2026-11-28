@@ -1,0 +1,49 @@
+{
+  "ticker": "SBAC",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"SBA Communications\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSnI3YS1CWmlRUndIemdJOXJKeE5OaVI3SC1FR1d2bmtkU3U1czZwdnRnZmhfRl9FMmNUb2FoenIzMmU0MWdNdWZEZklwZy1VSXRnY2xQZUZoOG5kTFk5UXR5ejA5VHluQ3NZWGxpNjVITmQ3Q1luVlRzVy1kZUxtNW83LWxoYmlCSkZnTlRGa3BkSGN4MW9DdVRZd1Y4UnVrVmlTTQ?oc=5",
+      "title": "SBA Communications (SBAC) Rallies With Tower Peers, Is It Still 18% Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SBAC/history",
+      "title": "SBAC daily price history (Yahoo Finance)",
+      "snippet": "close 185.92 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

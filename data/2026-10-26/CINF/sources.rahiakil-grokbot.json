@@ -1,0 +1,115 @@
+{
+  "ticker": "CINF",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cincinnati Financial\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVhiTG1aWWhoMnNxakhLaUQyeXM4dnFEOGNfdmRUM3AzUFk1Zjl0aFE4eE5QMjNSRlVqZl9PWmlmd2xIMklocHpfaVhUSUNGcU9USVBRZjF2VS0xWU5XVkNIUzZKdXllSHFQOUprOExUQmxMUXA3TTliX2Y2OWE2RExsNTdnNU9xR2dVLUFyTFlTa3FOYTVxbUtfVlhNVnZD?oc=5",
+      "title": "Dividend Appeal Could Reshape The Case For Cincinnati Financial Stock (CINF)",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXBDU0FKTFBQcWt3LWxDbkw4dFF4NXFFYUtXZjd2WG9kSGx6Yk5qSDQ0UFpYWFhFcTNnT2ZvbXlscFVFMjcxNEpxbnVCVUtaR3lUZTNma0czYzMzREdDbVc4bXRpSEZFNEF1dmhLZUtrcmxjZTlHdldsYlZCRkgxa0ZuUDN0TG15c3gyUUpRTlpwMlhhLTdscElKdk1JR2p1SHVieTJCWnZKdw?oc=5",
+      "title": "Cincinnati Financial (CINF) to report earnings tomorrow: here is what to expect",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQam0xdWdfTXpfZWxONnpkTnNaOURUbzVnMnJZb3d4elA0QTRXbnIwS3FobWZud3AyQ2t6WkxkMkFlWHdiWmRoZ0ZEN2VrSFBqZ2RUR196TmNFalVubGpCa0R5YXpGX1BXQmRubldBNHNhM0QtdzcyMkNFT0tyZTNYUWtkazQ4YmZUaE9rdTczODNueFd1V0JRdWw0X3VyS21xTmdsTQ?oc=5",
+      "title": "Cincinnati Financial (CINF) Stock Could Be 27% Overvalued On Modest Excess Returns",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU05blpVQU8xVFE1Q2ZQbUs3ZDROMmx6WXpreGhpUFNrWUwtQnpkNE1hVnVCTkdiRTR4WjNVQjZIZWdHTDRlM3JSUEplZ3R4UFhySnJCZS1wQ3NiRG9obmpIem1ydXgxUTB2YWt3MTBadDBJSWd5R1plUmJpVDMxazRFNktsRWRQV3hHZnQ2OS02UTU0TnNxMElZYWtwUGdyeFF3aTJlQmgxSzg?oc=5",
+      "title": "Cincinnati Financial (CINF) Dividend Outlook Draws Focus, Is The Stock Still Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-24T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-24T07:00:00+00:00",
+      "published_date": "2026-10-24",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeGNMUW5CNk91ZUt5V0JVMndtMHAxOXNKWHMxYmRUTGs2SzdnNXpOVXp1ek9FWW9jRENiZHBYaXYyRDZ6MXFwcDV2OEJ4Q3VnMDhaUkFZbW80VnQwa1ljOWZSUjdUZTBxVGw3c0JZWEh2aXlRQ3dLQ3Jubmh4clJLblNnYVJmR2pKUTdpQWZQajdrLV9PTVlQa3dnNWVRWmtiNWxqLUtoQXc?oc=5",
+      "title": "Is a Beat in Store for Cincinnati Financial This Earnings Season?",
+      "snippet": "Yahoo Finance, 2026-10-23T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-23T07:00:00+00:00",
+      "published_date": "2026-10-23",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000059/cinf-20261026.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/20286/000002028626000060/cinf-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-26",
+      "snippet": "10-Q",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CINF/history",
+      "title": "CINF daily price history (Yahoo Finance)",
+      "snippet": "close 177.31 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

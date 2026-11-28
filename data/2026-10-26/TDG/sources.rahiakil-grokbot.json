@@ -1,0 +1,49 @@
+{
+  "ticker": "TDG",
+  "date": "2026-10-26",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-26",
+  "news_cutoff": "2026-10-26T20:00:00Z",
+  "generated_at": "2026-11-28T02:35:04Z",
+  "collected_at": "2026-11-28T02:35:04Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TransDigm\" stock after:2026-10-22 before:2026-10-27",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZWNqTk5CdlNJZmp5V3BlOUJsMF81QkdHNHJCZWZubWM5bVo2cDY1N0Z5SV84eG13bEpxbXN3c3pzV0lxb3NsTVpUVnhjNm9lcWI2a3k4SmhmUHJFbEtaYzQ3azZRZDdwREYtYzlTaUkyeXlXQk12SFVCSDdvWlczMHpQeVpDVV96UV93SjEtNGpxUWpDRzZaakQxTi1EeW5SbzRzM0hwTm5NUkt5TTVhZ3ZkcXpVMFZDRWhoSzZwVWpZRU9z?oc=5",
+      "title": "TransDigm Group stock aerospace parts maker at EUR 984.50 pre-market",
+      "snippet": "ad-hoc-news.de, 2026-10-26T06:40:04+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T06:40:04+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TDG/history",
+      "title": "TDG daily price history (Yahoo Finance)",
+      "snippet": "close 1129.7 on 2026-10-26",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

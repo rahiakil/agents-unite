@@ -1,0 +1,109 @@
+{
+  "ticker": "ROST",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ross Stores\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSTVuZmkzYTVYSlg5Y3I4LXZXb0xySW43RkhSbDBnakxxZTRYanFELXJLcXhtb1Zfa2pmS2RZdjVBSFgtWWF4X3YyR1k1cENYdkdHbTM4eXlMd0tGdThTYVRZZU81M3p6OTdFbVcxOUF0cUFSTzRIWllmNGItTTdGay1nUlBmWTczamJzWktoMEl0c0huRHVV?oc=5",
+      "title": "Ross Stores lands a bull rating from Cantor Fitzgerald (ROST:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-10T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb2dkUTlJdWxCa0ZQUWRsdTZla1hrTkh0eVZDdXRkdHhmdzFtZ0Nxa29LZHBiMC0wRG1GeHFCdzRPLUhLZkMyTTZoWUlVeG1GVzBkUG5lT0VMbU9aVm5SM2JMWnUwLVVocUdOVk9PdXF0TE12VlY0TWFybWkxdUpGUVJIdnFLMFhlQlJrYXZ5N3l1T1Frb3MxZkh3?oc=5",
+      "title": "Ross Stores (ROST), What Is Behind The Fresh Attention Now?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWmFNa2d2SnFvQllxcVhsMHdGUzFCbzRzZ0RXYlQ3WGJ4QTNTOXkzTWh5VjVzLTZZQjhqY2hDWnhnd2dUMlpxRDZmUXJGOHVkVkVVNmFPUTBZRTRIQ3JSbEJDM2swaGdSZ1hUaXNwM0NpRWxCVUJGZFVseTVUeWtrNUxPdlRKeGJEVjh6dXVZT3hHTDhnRkxyUQ?oc=5",
+      "title": "Ross Stores (ROST) Stock Could Be Overvalued On Its 119% Run",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFZvbldVWlRKOEpZTGJkLWZkNlEwbjNUZVE0SGVGV3hTVEo5LWdDRGNZaHFZVFlUNEViRVVsc3l4VkE1THBlanFwbEo0S2VjTEt5VjRhc0tTVVh2LTNlSHF4MGd3MU1iWTRJdEtrdm4xbGlrTWhHX0VCa2tNNEdHbzllM3F4YlZtaW1MWXNUbkZCemFEd2JIbDZMd1hjQTBLRlBsN1YtUS0?oc=5",
+      "title": "Cantor Fitzgerald initiated coverage on Ross Stores with a new price target",
+      "snippet": "Quantisnow, 2026-11-10T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0FpZURKa3NIYkhfXzhfZnJScEp5WFR3em11ZVYyX0FCTDBFN193YmxtVllubWJyYVRzb1BtQmVFNXJLdUQwQ2RENklEVWY3VXl3RGdPdUtzYTRoSXVWbmNFV1Utb0JDc1FtTmk1ZWF3dXIyeWZ0aXhjNk9hSEE1TEFMc0Z0YzdEcEhiY3Q2MWFyZ21ZY1pQR3VQV1o0WGlkNWVWRXJkUmVyNzRONTRBT2N3WEZ2RFRScnZVektUQVFaeFIyN3NpczgwejZNVzFnYkl0MA?oc=5",
+      "title": "Calls of the day: Carlyle Group, Ross Stores, TJX Companies, Mastercard, Delta Air Lines and Walmart",
+      "snippet": "CNBC, 2026-11-10T08:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMlhlM1d3bnlLMUFlazUwVnNoS2J1NE5Ud253QVZvaHFfeVB3dmRtWEVtbktxSE12dk51QkpfWjVyWlVPbk0zcmJ5UktxTkpyQjhyZkZqSUNZSFhkQUttWjVWMkRUdFgtbEFuNFNnTTNNTGJDTDBrNlNqTDFWNXBVMVNwMlI1LUdsVlpabktqcVQyeFVJLUFYTnc4elNGaG8?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Ross Stores Stock?",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROST/history",
+      "title": "ROST daily price history (Yahoo Finance)",
+      "snippet": "close 241.27 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

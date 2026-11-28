@@ -1,0 +1,109 @@
+{
+  "ticker": "CMI",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cummins\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQTRCcVVyZ2R5ZjBQRTNKVzdlNC1nZFR6WmxYTmdWT3J4REJNNkxIaTRxMGphYzNteVlUQVhmWlJZU1dqVnFnU3drOXR3dDdIeXZOMkZtSU1GdzVxM3BNV1VFcWFvdl80aDl1NnpZamVMZlhYdEdpQkwwb3pxOS1VbGN4S3AwV1VuRVJJbW5VYzlzVGF2TE9MNElJTDZGSjJDX0YydURIT0xXSUo0V0NGblBHM1dXT3dCY1Zsak4xaWlPYVl5?oc=5",
+      "title": "Cummins stock weighs record EBITDA against weaker pickup demand",
+      "snippet": "ad-hoc-news.de, 2026-11-11T12:10:01+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T12:10:01+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRU1xRTBzQkNTR2dCR1NyRGlSYk95QnRNTmFCNDJsZUQyS1dISkhab0pqVDYtdkpIOUs0cnRfa0Q5VjAzaWNYb2hXT2hqY3Zpcy1lVXNjbXRBZGJSNHJLZVROSG5pa1BvZElBSkpqQnJWb3AxN2stRE1lZzdwS0VvRS1iOTNsQnhWZy1MRE9kZGdzeEphWFA5ZVlUaXd1dzZ2cU5sdDBfaw?oc=5",
+      "title": "UBS maintains Buy on Cummins, cuts price target to $675",
+      "snippet": "scanx.trade, 2026-11-10T21:05:21+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-10T21:05:21+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORWJuS0hrZ05kNG42REg3VzhzOEozbDFKZ09ZNXFGcFlTZzZHSEpKLU8tMHNjSURTVUQ5VjVuY3dudDZvUW80VUVHV3gxYTdqako3SlpFSktualdSZ1ljMXlhS0piOXZsSG9DSk1XX201X3VUNVU1SXpHNm5XMEFEdW45eHV0RmFRdUM3MjEwVzVkSS1CVlpic09BOU9GX2tySjJDTkFQNnhSYllXbFl2RkVFTzRtTm5GaXpv?oc=5",
+      "title": "UBS cuts Cummins stock price target on near-term uncertainty",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPR1VBUE9UVWtLVnlMZEhQNkFvdXdGODJhSlU3Y3dkYXJCekkyTXZaRFg0dm5jRGotYXlkQzlvMFdGM1dkVHhCX0JCbUV1Q3I4V1FmUEFLaGk2MmhkRkQzejZ3bVN4cjdwY0tqT0JoOHpsZnFNTHprTEVoSDVDVlAyV2U0QlN1SnZodzNaRVd3eWJGSVB2SWtkWUJuVzV5aGxRWG5veU9WcEIzaG1aQzBxWUo1emllV2JCV0ZRUDZqRDRjNlJuMEk4bkR5N0lkSnlYXzFIdnNGMTE0anRtWmpZRg?oc=5",
+      "title": "Cummins Inc. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNazRYY3FHWUVuQkJDRXRzNTNYaGZ1c2puTzRZR1NFVjhTdVZHUkxVZ0pvQ0pTcE90d2tvQ05maFRmM2Y3ZFdmVlRJVlg5SGJsZWVNRW85cm5va0Y3d3ltWmVJSTVzMTJsRmlkNVVoX1lmdUtmam1ES2tSWE1DMmlRUlRmdDhPYVVfckloZWF1N3VuQQ?oc=5",
+      "title": "Cummins After Q3: Is the Stock a Buy on AI Data Center Boom?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUk9mUUtrV2JoLWh3WjRHcWZERWV3UWxhS1cwbDRpdEJlNjAtQi1KOFJGVGV1RF9yOERmNTBpOUp5bWlPWVJydjVVVngyWjdPcy1wUWZadEs2QU1PQWVnM2UwZWoza2NMUm1kdzVXdEVwV2hkUU42SEVVazZjclNXeUdkVldkekdlOXNvYUZ2bXJqNWNXLTFSc0dZalJVbFBXS3lHdlpzb3IwLTM2dEE3UjZSNW14ZzRsSmhvckR5QTU1MTloUlNTczB0dXFyUzlDZHQyc0t6Tm5kb1FZWU1ReUJnT3cxUmlC0gHuAUFVX3lxTE5iblh0eU4tdnROUW1sNVZoMWJkM3d5S04yRmVVb1ZZeVdDU0lPN0xMaGJaS0w4a1k3ZHY3bHVTQ01MemV3VTBKMXcwVGk0YlZpZjFXQ28zbTlTSUw4Y3RXZUJ0YWR4VFdKcWlyOHlxTTlQNWl2MEhIN0oybUV6c2QxblAzcWxHMk9JWUtSbXpEMGxTaExjdzdjRWxQVklkd1ZnNllDR3ZwS3FxOEs4c0NFYU5UcjQ3dDNGTHZ3ZklVeFNHbzVscXkzQmZLS09lN3NMU1JWb2kxMTJDUTRmeU5XUndYc2o3bGVGcDRzd2c?oc=5",
+      "title": "BHEL, Adani Power, Cummins India: Top stocks to trade - Check key levels, targets & stop loss",
+      "snippet": "Business Today, 2026-11-09T08:00:00+00:00",
+      "publisher": "Business Today",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMI/history",
+      "title": "CMI daily price history (Yahoo Finance)",
+      "snippet": "close 463.26 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

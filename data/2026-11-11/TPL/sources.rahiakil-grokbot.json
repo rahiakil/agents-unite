@@ -1,0 +1,121 @@
+{
+  "ticker": "TPL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Pacific Land\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNTI2WDlfUnpCQ2RKVmVpd19zUWlZYnhOM3p6Y2h1eENSdW5neHgtOWxnNGgtQVlFZS1hd0o2akY4T2FfelF3a054V01jTWl6UFA0Z2hVUkhDRHVDNlQxYkI5Ym9JYUk3dTRRQkZRbTd5ZFlCRDByU0Q1VlBMWHJveFhSNGpKRldHN0tqb19mcnhNbVV4SHUwZng0UjJpZWx1b2c?oc=5",
+      "title": "Texas Pacific Land will move its incorporation from Delaware to Texas on Nov. 17",
+      "snippet": "MLQ.ai, 2026-11-10T08:00:00+00:00",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1k5RUhpbnNBbVVKSExlSDNLeDFpNlprYi02SVhfOVpEYjc2bVVqV2V2SGd4QlRoT3RQekEwdUwtNWxJTjl0MmU2cl9ISi1jamp0V3UwSzRFcTEyaXYwVmhZMkdud21FUnJKQ1FIUTRrM1NVaUFBSk1BNS1oTW0taWJQZno3cUt1N2hGbWdwa2RPTnFELXhsc0YxWjN0OVBpZUprNS01MHpmblBCN1VqdXpURGI?oc=5",
+      "title": "Texas Pacific Land Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:TPL) 2026-11-10",
+      "snippet": "Seeking Alpha, 2026-11-10T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNVp2ck42dEpjY01KQVNmYXhvYXhPQ3ZpTk8xVF9rX29TREc3T1hLQUI1WTY4LVJDMmlMaGhvZnN1amhoYk9DT20xV016RHMwRmt6dlBlTHRwdnNqZjVoZUNGZFJIenZydE5jdjJjNGhYeHFNSWJxNm5KNE1QTlJzS0xtUFdCMGFaVkpEX1VTUmVzRTVuZ20wd1F1WlphdzJJNWdSb2lYS09kWmZsZWhBN011aWRuM29RdElObnRTRnJyT0s4MmFLR2dxWlN5NlNPYXRBN0NZTQ?oc=5",
+      "title": "Texas Pacific Land Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONlRQOEQ4QUdoQndEeGszR3A5VU12b29LTFF6dThZTlBFRjB0QUdMZ1FCTXZJQW43Z19FWUJqRWcyTDMtWWEtZVk3SHVsMW94M0h6UkkyajJHLVBVQW5hdDZYalVja3FhX1lILW1rVWdUSFJPdWdoQlhHeXRfaFB2M2pPcDdkREd5akRQZ2xDU2NXaEsxaUFmUDd4bFZDTzRJTk1XLTJPNnJFQjJBVDhaaFNPaDQ2N2hOLVdLWktsbE45MGxjZ2ZaNWpqYUTSAdIBQVVfeXFMTlY5WWVBeTViLWVESjlEYU5rRjMwdEl2RHQzRGQ3LV9HbjF2UlV0VWVKSy11ZlY0b2hxN3VPQXY0V21aRi1HcVluRF9DcVZ0bjFfZEhwSl9ndUhpUzhxUUZwUmhxWnlKbmwtUXZSWWhTMzZHVFU5a0dhdmdGell1LWNrLW1Eai1OSzJqdEx1bm5rekdyb25KUjJucjNKbl9GS1dPQzA1LUNtdWh5YkpNY2dKRGFZNVZVUXNqeVYwMzJPWDFuWlppb3d5UFFsYXgzOW93?oc=5",
+      "title": "Record Earnings Could Be A Game Changer For Texas Pacific Land (TPL)",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNelB6RTN4WWFiTEg1by1zYlZrTTJ4bXpVLUhqZ1B2MFZZWUtyUVlhZUVxOUJUUDZ2dWNoTW5BOWRDOHl3NlBvdHdNSzZoLXlibkpVQ0E2TVF4aXFETTlkOU1CNU1mY2dqRWtLenNxem82ZkZYWXZIdGdhUTgtdGw5RS1lZVhVV3FLTVFSZngyRk1EX2RzSFA4cmpFWFI2WGtJUU8wVDN4dnUxdkFVbjZBX1htUy04NkN1MzBhSDF2YllTRTVqUGZuZ0hCNmxLTGdMMU85cGlYQWRWcmNoYjNwWQ?oc=5",
+      "title": "Texas Pacific Land Corp. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUlRFSnFvUDh1QV9BNk96RlRENWo2QV96Z2htMUJqLTBDWFZYVnp1U1FsNmVreDFQel9mM0RNRnhSUEhOY2ZSOEZZWjhGYXg5OGczd1FNUlBFNFo1RVdNVjR1eDRiMDNEZHNiUGV5eFEta3RuSkNSV0c3ZEJOeEtIeHNOcVplcDFhRHV4MVJQb0g?oc=5",
+      "title": "Texas Pacific Land Q3 Earnings Call Highlights",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VnMUdGNk43ZFNHODg1OUQ1dHdjY2ZQWTVfbWowMEtVQnhIYXhOZGdwZ1VtYW4wSUI1ODVOU1AyWkppS0txdmpzQVk5bGd3TVZiaGNiUlN5SU9RMDRLTE5KbEx4azdINFZMYWtxVlVwVlJCVV9nUVRhWVJBbEJVbEE3R215VGhRUEttcnlPY0EwRjJzRkEwbzh1ZVJyUzB5bWc?oc=5",
+      "title": "5 revealing analyst questions from Texas Pacific Land\u2019s Q3 2026 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPL/history",
+      "title": "TPL daily price history (Yahoo Finance)",
+      "snippet": "close 281.42 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

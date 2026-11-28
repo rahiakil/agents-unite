@@ -1,0 +1,109 @@
+{
+  "ticker": "ZTS",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zoetis\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR0x1a2pRc1A4ZGtSM21hY2JjbnFSTTZ2d0RKa3RPanNoRllQbWJKeW84Y25JV19qb3ZxUU51ck03enRyZlM1WjNZTURTRDdJTDROZy11WUFSNkpseURpeDJIal9oQ3lyWWFHQWxsa0VMZ0x0Q2RVNkdwNnlfQ0gzaHhjVUZDVnhsRmJWeVg3b1l5MFFpdmU5b29ScjBYRFJYU3BKcDkwcHpmWUFqVkZTUVoxZTg3WS1nQjZUZmZTUDlYZjZrOHZxcDFIVdIB0AFBVV95cUxNQ0VTbGtCOUFBUmRZX2l4MElTNnJpUUVwN1ZjRERUOTlJU3RMSnFob1J6TF9SLVFQaEprWVl2LWhiV0xydS12NDZUdXJsNXhPeHdBeTJDV1JWcWtDd2toNi03Tm9VekU5a1J1d2dvV1M0S0JtX1QyOEk5eWdEQ0ttR3Q3QWVLZVNocHFkdGhqNEJudW8zVkxoUmJvcnMwbXlJbXAxODM1MHV0LWh6Z2p4elpTX3lPelltM1huSVNLZTcxd0stS09IX01kd0hzWkxM?oc=5",
+      "title": "Zoetis (ZTS) Cuts Its Revenue Outlook, Is The Stock Cheap?",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV3lTVHBpUldLOFZ0SzN1OXYyY0pUNEUyQVhxQnV6cEx1bW1BLWpXX1NLbFBiaHNGR3dDWE9zbHUzTHNocE1UbjdmV0RhSlpYejZYaUNMZm8zQlFESVh0d25UdmVUS1JTaUtPYWcta3p4akR5SHlDNzltZjkyVTRfTW5SWEdPYm5JeTRoNmxqMA?oc=5",
+      "title": "ZTS Q3 2026 deep dive: competitive pressures and margin headwinds weigh on outlook",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3o5a1RTTl91Rmk5T2xvRVV1WHJEUVFRc3RLUmxBZ3FEdEswTlpCUXBDREJhY01QTFlMMFl2QzFoelJuNUpIaWpJakFHemVWWFNFOENLY25QRmJwaUVva3Bsd1laYkpBdEtURE5WOGVyS0NsdUJocGpfMEp2VmszODBiR1RjUVhldzFVVm9KTlYxRE1qYTlUbmZQMDdiSTlQRnd3?oc=5",
+      "title": "Should You Buy Zoetis Stock At This Price?",
+      "snippet": "Trefis, 2026-11-10T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOHJmVm1kbTl1YlF0OXZQN01BZDRkc1lTSjJrQ2dLbkhRamE3azRZTkxIUHgtSVZUa2V3SVlfUnY4V3FvOFF3enlNZUZ5WkhrSnd4MkRiT2h0b0cxQzhWMzU4TEJybFZhSTJRSzdyXzAxb1hHVnhPTnF3THEwWXBnUUdQMWtJanlRSmRNbk1UVExBQk9TLU96bDkyQkxpdmtXaDRnaGVrd3E?oc=5",
+      "title": "Zoetis Inc (ZTS) Shares Surge 3.7% -- What GF Score of 71 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUWZtMjR5QTJzaGxuT2N1OTVSUzJSeFJ2eXB3c1A1WTZPSVRsWk5fdzExWm5qVXNDcVRNMThtZG1ZZTI2a2hQUWhzRFdGRDhwR2szSE9DRHp4ampFYkxXM2RPV0NVX0lldXI0QzFQc0VsMThCRTB2aWJ5ZjBYVWV6eGxIWVh6NnBQLVlKNXh5ckNYYm9rdTQ4d3hXRmNqa0JGR3F3b000dWRIUG1FVDJqVnFQclB5OE1YYzhaTUNpb1dBbDVvSDhrcjd1dk5EcVlxV2xjaGd3VmdaOFZ6b0c0NUgxSQ?oc=5",
+      "title": "ZTS Q3 Earnings Call Highlights Competitive Pressures and Outlook",
+      "snippet": "The Globe and Mail, 2026-11-09T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVElmUVhIem4yRXZqX3Z3VkJMVjctdTVndTdpQWVuLUJRN2gtT3VwLVFMd3A5Qy1WS2ZmeEdudnFXaUgyVUZjZGEtbWJ4QmJRMURFT0RvZ0YwUnR1a2RKU1Z2TWlWaEFUSW9QdldzWFhGWjhGWkY1R2lkX1lDLXFwdVZ5aHNxeUNuUWJTWktyOWdsNDhRdGNiMnhEWnZMVV9tMkQxYTJQZ3A?oc=5",
+      "title": "What Zoetis (ZTS) Said on Its Q3 Earnings Call",
+      "snippet": "TradingView, 2026-11-08T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZTS/history",
+      "title": "ZTS daily price history (Yahoo Finance)",
+      "snippet": "close 82.57 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

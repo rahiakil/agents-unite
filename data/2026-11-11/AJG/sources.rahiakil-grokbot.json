@@ -1,0 +1,61 @@
+{
+  "ticker": "AJG",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Arthur J. Gallagher\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQnh0THFoWG5lWEg0TVdXSjBGZWx2dDZUbUxYVWZYSmRfZkFaXzl6TW9LYkFiVGI3NXJpWTE1d2xFMzE5Ym1pQ0pPcFVSNWtTU0E5RVA4N1ZCemFXa3pwUFo3WmVoUk1QZUpVQlJ4U2pZeUZnR3RiX3Zyd1F3Tm5ZRzNISmNkdHVBRkpISTBhLThmZW45UV9QUERCQnlrNTFBZm5iWXJMaWVOMFA2S3padGtPaXVGS1FJSzJSa3M1Y0dWODA?oc=5",
+      "title": "Arthur J. Gallagher & Co. (NYSE:AJG) Insider Sells $4,240,146.00 in Stock",
+      "snippet": "MarketBeat, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWDlkTWdwOFhVZ0pTRFFmYTZGd2NsN3I1OTR1WXUtcU1CbXJ0V25UNFRhLVVZelZ4b1pmNFM1aTJuRE5XUDdXQWx3cDFNSGJrYlR2ckU1c3Z2SjVuLXFTOFFiT2hvVUxvaWhkZkx4V2x6RzF6SUlGMzRxekhiZFNRcXk5a2YyTFpKdThlLUY2Rk5US1otMGF0WDAxWHExSi1ZWmtEejdGN1RWYXVNcWl5NGJGM1ZJYm8?oc=5",
+      "title": "$1000 Invested In Arthur J. Gallagher 10 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AJG/history",
+      "title": "AJG daily price history (Yahoo Finance)",
+      "snippet": "close 282.01 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

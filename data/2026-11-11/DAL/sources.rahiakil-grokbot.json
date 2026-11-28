@@ -1,0 +1,73 @@
+{
+  "ticker": "DAL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Delta Air Lines\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmJ3UkFCTWpYWFV5QVkzLWR6Zm5KN1JzZURWT3Y0S0RLUERJakRiV2dmMW9LNm9MdWpFYk9CTDJxdjRnQmJzMWVNclBCMzYtNjBXVjBlLU9wd3l6Zk1QODdKbGk0TUJpTy1ydnN0TzN0LUlJdXJlNXZfMzNabFJrdHQ1Y0dVc2FEMHFkaUpPTHVTdnQzYjNMVkN4Tms?oc=5",
+      "title": "Delta Air Lines Stocks Rise 4.68% as Oil Retreats Toward $87",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVThQclpBOTBqdENFbEtwTmdUX3F4eTZ6X0ZDRmJJTlNrZTI0QlBZQjVYdEdhV1p1TUFNU1MtNjhhd00xVzRkWWZzdEpzcGlaYm8yTnU5RlNRSGxJdkJxbDVTWlh6S2NkaFdTU0hMSEpvWjVwcnFhV1VGUzIzdXVTUmt4dmNnYTIxVTNsb1JTUXFXeFVL?oc=5",
+      "title": "Delta Air Lines (DAL) Stock May Be Undervalued After Falling Oil Prices",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN2N1X2VmbzJKd0IycGlteUtDSHJ1YUtTNnlMYXBIRTZrdWtqT2ZlcWgxLS1MbmtPbnFpR3FBTHFnbk1Nb2Uzc2RHVDZFa1d3Z3Z4c0xGZDdUODJZOUN2aTNKN011VEFJaHZ3d3RJbmVNaVdLMnNpd0xVcjVuVTdQV3lOYms4TWkwb2R2ekZ6aTJtdjc1TTEzYkRHZnpJdTZIUWxNM1lJbjh6U29uanJTS1J3?oc=5",
+      "title": "$1000 Invested In Delta Air Lines 5 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DAL/history",
+      "title": "DAL daily price history (Yahoo Finance)",
+      "snippet": "close 91.32 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

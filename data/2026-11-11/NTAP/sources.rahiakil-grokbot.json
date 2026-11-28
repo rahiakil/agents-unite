@@ -1,0 +1,73 @@
+{
+  "ticker": "NTAP",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NetApp\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPODNLUFZicGx6Tm11SWpEWUh5blhWVm1lR2FWak5WRFE1T1RPVURyWTVIMjIyLWhHTFF0b0VoOHNacXgzR25JM1pXcWpMWkl3cWRzZHh6Z3YzOXZnaHp0enlwOEFCQ1plQTdCWEF2LVBQYy10TzZhQzdacFBJWkJNcWRQU1ZRbmtzYVhNaVFuN0M?oc=5",
+      "title": "NetApp shares technical analysis: Upward price move flags brief overbought risk",
+      "snippet": "Traders Union, 2026-11-11T20:54:31+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-11T20:54:31+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVXI5cUJSdUdLbzY5X1NqdG95eVh3WlVEalBBWjFNZmtWOVp3UmNDYm0tQTByQmZBeGlPR2dTV01Bd1daaWYyVmNlT2dVclg5SXFlUVNfTWRwYXI3NVVfSTNidFpZT3F4eExuRTE1U3UxZGgwLS15U19TbG14SXAxUDNzNGVSX0NnT1lUalNIbl9nWVZINDd3LVFwbTNpQ0dFcnRadFVBRGkxSERuQk44SExVVG9JZw?oc=5",
+      "title": "NetApp Q2FY27 Results: Earnings release set for December 1, 2026",
+      "snippet": "scanx.trade, 2026-11-10T08:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSjNBR2xFSFAzNEw0ZFlPcFhGUFFFYy1yMlhMSS1pRkhmWUJISFRwSTVHT1YyamhYektmWmhzQVRkM3E4Q1N0QzBNdE01cVQxMjhvaTFDS3hsVFZhMHlyNmdWYVpyb0lPRk9FWkhRaU9PUC10WnE2WFd3NGkyUWM2RVQ5RGg2TE5UNDl4LXM1bkpXdjh6dEc1OEx2YmFIZm8?oc=5",
+      "title": "NetApp Down 26%: What Would Its CEO Say?",
+      "snippet": "Trefis, 2026-11-10T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTAP/history",
+      "title": "NTAP daily price history (Yahoo Finance)",
+      "snippet": "close 183.12 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "ticker": "STLD",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steel Dynamics\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWSlktcFNHQWJ3eG9jSnVSTlNCWE9fRmpFR3BYV1dPM2Jxa290TXBOUHRDOS1GOTd4Si1VNy1nU2VLR0RXNVU0TGVqS2tiZHE3anJOcFZUUU8?oc=5",
+      "title": "Steel Dynamics Adds $3 Billion to Share Repurchase Authorization",
+      "snippet": "TOKENPOST, 2026-11-11T10:39:20+00:00",
+      "publisher": "TOKENPOST",
+      "published": "2026-11-11T10:39:20+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNDEtZld4SlJ4LW5OZDd1NjgzQWlZei10c2FvWk04S2pVZmhkRmhvVHUwNjV1WVJWay1BU1ppaThDR2F1X1dJcFZYYVE4VzhKS0NCLURMWmF5NmtpQ2luTF9qRmdJYmJ3blZSZ1FidlgtRVFGRkh5amdlX2xycHdfTjVRMVl0Sm1FLThCcVJrOG13UV9vdUJQeWtrY0NNV191WlZSU29ZMzFCcS1kdTVNRzlPNkFUNDkzelE?oc=5",
+      "title": "What Have Steel Dynamics Stock Holders Had To Sit Through?",
+      "snippet": "Trefis, 2026-11-10T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeG9aOTlNZktiU1BBSWhxQVc5VW51d0UxYnR1N0M3Vk9keFpsR3gxQjdDYW5UM080ZGppNUdwSUg1UzdNS2k0Z1JJSjYtR1FVQW80eko2QjNucXJFWXQ2TUtWZjFpaDJ6ZGJRNExlbVBMR1VGME50Y3pOZG5GbWFHemhEMUhZNldZSF9vRkZiOWVQR1RLWk1DVF8wTW5qcDRRZ1FySmNtN3VZUjRmQ3p1QmFSUExuYWxkRjVoZ2t4Qm9QNEVxVHNtMG9QMU9WLW5ka3V1Y2pBeDR6dnhRblh4R0pwVQ?oc=5",
+      "title": "Steel Dynamics Authorizes Additional $3 Billion Share Repurchases, Declares $0.53 Dividend",
+      "snippet": "TradingView, 2026-11-10T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQWZMMW1zdE9FNmdfYU1OSVN6UG8taUxEX2hvTktLM082MEN1d1JHUjAwVTFvNkhDUXNfSTVDMWlhbXVJZXJEMEdHem5MbjBtWmxxWFM5bHY5M0JKM194S3Nna3EtdUxfRTlnOEZGRE1KYXdxTzkzemFndER1NTBBdXpFWlVsaXY1X0x4Ry1lclEwODJIQlZoYVBsUm9pejR0WG83eXViQXVEVEo5SnkyWVg5TWlZMjEyb2ljRDVhZXdkX3pvLVI4NE5wTklWYknSAdQBQVVfeXFMTWxCRVdWLUJMcjAzRTlZNktrc1U2b1B4NjVrWVJYNDllYWhFNF95T1VocFBmcnZfMnFySGdEbnpjOGgzbFEzMkFucGpRS2pqYUtxdExMSTBmYkRPOGR0MkVhcHBmZ2Z0bm9YR0tEbkV5RXZ6Nm81dXFnTkxOUHFrMlV0OWtTbmJ1Um5JUGtsTU1aSGdMVzFIb3hCMU43V0lqY21WVURWQXlrdG1lMkZzcUVMMHM3WmRaZDlVcW41alJCQmxnMDR6T3loaW45eW1XeXFVaVk?oc=5",
+      "title": "Did $3.0b Buyback Just Shift Steel Dynamics (STLD) Stock Investment Narrative?",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0tTR1pKMUU1TXM5UnRFeGtFT1FOSC1qQzhZQ1o3Q2pERXZuek1QT3pCbHpYTmpkamlORHFVeE5leVEta3lrQlBGUURqQzBMOWNzQzVQMmdXY2Z1SXN1cUpLUmVHcFRFT1V1dFRJQUtaUUppb2EyeU9QNXFVOVRXMzdheEZ0anJLVWR6c2MxX1RwREViOVZCN29uVXFXeG5saVlkMHN1eTFfVEI4UzY1QTlGU1BhUzNaTTdXRVVGLVg?oc=5",
+      "title": "Can a USD 3.0 Billion Buyback Keep Steel Dynamics (NASDAQ:STLD) Returns Rising Through the Cycle?",
+      "snippet": "kalkine.ca, 2026-11-10T08:00:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNdTNiMXB1OEhyb1VSVHd0ZEhUVzE4MkQ2b2ctWlZDMmtJNlB6UnFKN2hHUm1YMXBXS2d5OWVxdHdtUXh1X25HdS1UU1NTdGhFcnlPWFg2U0lET1FXOWM3RFVNRm1DZDRZVDVuYUw1bUZmTkVhSzR3ODJQRTBNT1E0OWFicmRYbGI4bWk0d0Yza2k2U2RpZm5LQkNzMnRyMXMxWWxTcGJTdHdCYzVNU2NSdk9DbkV2ZkJ0amhIYUx3SER4TDZrSHo4a1h3OXZKQlhFQm9TWGRRczZscmN6OXBOekFESjhlUWR2NDFUa2F4Q3ZVMzFEQU51ZDhUdVJmR0Q1eHNPMDlnMFg?oc=5",
+      "title": "Steel Dynamics Announces Additional $3.0 Billion Share Repurchase Authorization and Fourth Quarter 2026 Cash Dividend",
+      "snippet": "TradingView, 2026-11-09T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUlZaY0xfMmZVVEd2QVJaSmpLQ1MtakcwTmw4dFhXTlpoY0szQ0NJbzVlUzlqdWkteUg5a0hKM3lIc3Q2WTVMYkNNSHFKeG1MVlZnQjdHV1NQcGx2YlJ0N190M215V3pBVnVGbGpObE9XOVpvWXVCdUpJNDZUUC1fVDE3Wm8xcTZQbUc3el9QOGdRTnVJbExvLWVmNWU1b1daY2ZRa3RjdjNrQTduSFBmeWZTS2g2NlZDZHZXYnQ2bw?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning Steel Dynamics Stock In The Last 15 Years",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLVVIOXdCRWpsNGRFNHpCTmg5SDA0WkNxVlZ6N3AyTWxvVXVPQ1BRTWpvNWJHc1VLVTE3eXVWYzMwRjJsZFNiSWphTTUycDQ5MEpkYXhuQkdLMW5Wc1pmcUZWOHVSNEV2d3VHRThkVUQtQ3l2WGNyT1BMOUlHSDBzSHNTc05LMUVveDFCcGdmXzF1ZUtBWGpYQjVSX2NkNXNlUy1oaWF4LVYweHlpQVA2NmJjazB6NGNFOXZiTA?oc=5",
+      "title": "Steel Dynamics EVP & CTO Barry Schneider sells $12.4M in stock",
+      "snippet": "Investing.com Australia, 2026-11-08T08:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1022671/000110465926125064/tm2629447d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STLD/history",
+      "title": "STLD daily price history (Yahoo Finance)",
+      "snippet": "close 238.99 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

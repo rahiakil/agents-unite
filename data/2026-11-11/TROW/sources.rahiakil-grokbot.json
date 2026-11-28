@@ -1,0 +1,58 @@
+{
+  "ticker": "TROW",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"T. Rowe Price\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSDV3RjBIc09fUDlBWUVBZnh4TkczN2tTUGpWN0I2RjNBSTdhNEJxYXNKMlRudjJ5emxtLWdUelZDQjVvQ0ViZjVqcjlUMmdqUTJQT3RNVWlFMzF5Vm11dVR3U09ST2tsRHQ3UDNwTk9LMVdSMUJFVFNvd2hBajNhNzVQV3lpN0NjWktjMVNXbGZfQ25WamFYc2ZCNTJaaW1sdDRFV1hxb1dmNk9KMkloUkxZMXVXUjFRaVAzMUUtYU9UYncxMWM0NmgxTjlzeElTT29jeE1KYWJqQ0N0LVo3aHEyT0xsZ9IB6wFBVV95cUxOcnhyMmVDbDRnNm91NVNkV2tuWVMzM3RzVEpXaFZib1RuZ2p6SDJVa3laMzJZdzFZRzlIdlc4TTFmdFpLVG1WbGZqVENGd0pGRDBXS0tIS2NiMUVKTk5kTmRXLUFlVXpNelUwdWpIM0w1bmlWTmdrb0o4bTNBeTBpb0xNR2xpSjFMWmd3SGE2d3FpaWtUYmlxaFNWYWdEVlFKXzNFX29aS1VWaVh6OHV2Y1h2d3dZRkt1cTZVSXdobGhnSXE5NkxnTHUyMEdmQW5YZGNTbnV1RVJhb09nRW5MenVHMEhaUGIzRmQ4?oc=5",
+      "title": "Earnings And Product Shift Might Change The Case For Investing In T. Rowe Price Group (TROW)",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026072761/trow-20261104.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TROW/history",
+      "title": "TROW daily price history (Yahoo Finance)",
+      "snippet": "close 110.69 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

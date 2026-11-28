@@ -1,0 +1,73 @@
+{
+  "ticker": "MTD",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mettler Toledo\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVHdWcDhCZDdRM3EwWDd1cEhFM0tVeVNwV2Z2XzBjUzgtZW5yaF84cnQtc2FPUGltbzVSUThYZzVfd1ZveHJ6bi1tdE1EelhpcFg5VFJCYm9zU1BldjlfTm5LX054a2pmNlpNNVZvZzVBdUVvVDdIT1MweXlEU1Z2Q3FJMDIyOWNLTXRsMHBBa0RsSDdzbEYxclQ2MlRPSG9jMElkM3g0UTZZTEN5?oc=5",
+      "title": "Mettler-Toledo International Inc. (MTD) Analyst/Investor Day - Slideshow (NYSE:MTD) 2026-11-09",
+      "snippet": "Seeking Alpha, 2026-11-09T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMk13VVc2UC12bzZibjFNd0dETlR5RVZURW9VcUxTanM4NVJyYmpHelI2bmNTSF9obWxFVmtXTVpCLWdwMUdNa004WlJ2eFVTb1hfWURORVRSc0I2WFhQNENPVWRsM3ZRZlg1clJmUWJ1SlBZanJTY0l4d1NTME56N0RRM0hIMC1zSHh6cEN6aF9yVFNnZkpqWFlVcFc3LXJGME10ZE0yX0V4VFl5VXpYd3FyeHhCNkNZRlBsR2FVRmFnS0hTNE05TURXOVRLaG9nZmFhOVB2NDRyVXdxbzNv?oc=5",
+      "title": "Mettler-Toledo International (NYSE:MTD) Stock Price Target Raised at JPMorgan Chase & Co.",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuX2pqRGpRSFZWNGVPbnh3WmxNaVJsa2VSSjhPU21MZFdTa1ROamRYNHQ1MWVhbExOWjBLS2d3ZmNBOVFJWTJqT0FmWmEtbEg1X04yQmFuUlBUZVBWUGFRbw?oc=5",
+      "title": "Mettler-Toledo (NYSE:MTD) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-09T08:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MTD/history",
+      "title": "MTD daily price history (Yahoo Finance)",
+      "snippet": "close 1749.01 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

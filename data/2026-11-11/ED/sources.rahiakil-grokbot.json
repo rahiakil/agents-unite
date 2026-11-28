@@ -1,0 +1,61 @@
+{
+  "ticker": "ED",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Consolidated Edison\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnNfRkxOTDBMMXh6RGc5RktZbVE1VktnTGJrUmRiMDFWMG1tWXFTcnRoWUdoeXdlSlVma29MMkRoOURrYUNfTHF4SVpRbEhxUENrcUZpMENGWWh5c1ZWZGQ1bVhFME5aNDY0RjJlcFA5eUZza3ZKcnNkNDVGSDY5WW05QXNMeFhtbVRESTd1bTh5bmZjVm5sc3hWanVBM0ZrYXE0aDBIWWd0U1ZnSnlHbndrQQ?oc=5",
+      "title": "How Many Shares of Consolidated Edison, Duke Energy or AEP Pay $1,000 a Month in Dividends?",
+      "snippet": "TIKR.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU2loOU9TajVyOVFobmpEU0hiTkpmTlQzSmRGSjNIYVIwVEVSdXRaS2NzZ0lPTVItdl96TmpLeW1UV29XbzZld05jeWlSZTBadGZocVh0bVctbTI0MF9UbUxPOE1iWk1OeElTWldJMVd0azZPSnp2OW42OG9sb2tSVGcxb1drOExrTm8yU0xSUFlwZHp2MjJ2XzNzYVNCSmZzTDRrR1FmN3dCNFkzLUMwRHhjOURJT0FoMWM0V0JBRWJWaGtEV2xmY0hHN0hwVkZE0gHWAUFVX3lxTE9RM3JITTVLRGprdGlZR2pQU0ZiMC1KUzNGWWZmUk5Na3FsTFRRdERCQnhtU1JaTHh5bTh3Zm91R0dGU2lfQXFldmZnUThXSnczV3AzNEo0ZDM1RG5aby1CeGNYSF81REpiakRaampqbkx0RDVhQTk1RnhNY2M3R3RvWUx6NEpJdVRWaktwQi0zSW1JdWJ3RGM3dXpjNlBFQXZhX1l1NVAzdHk4TFBRNmpmNS1CQXY2cXE5ZWQ0bjE0aVhqNE5INllGV3dxcHh5cWpTN3ZFUWc?oc=5",
+      "title": "Consolidated Edison, Inc. (NYSE:ED) Just Released Its Third-Quarter Earnings: Here's What Analysts Think",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ED/history",
+      "title": "ED daily price history (Yahoo Finance)",
+      "snippet": "close 119.19 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

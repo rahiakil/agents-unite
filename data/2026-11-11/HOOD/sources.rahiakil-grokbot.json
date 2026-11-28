@@ -1,0 +1,85 @@
+{
+  "ticker": "HOOD",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Robinhood Markets\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 24,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObk1QV2lJTmUwbTFDaEdidHNiYzM5Zk9WOVVGNFNZMkxoLVdhTkUxTW0xY0JIU0JhT01qQTc0QW80VllrT0psdDhrcVg1TUgtaGdQRkdBLVNxRTM1OVc4U1BiVEc4RG5UenpiTmd6anI0blpWbGRSNUVPVzF5RVZpeWV1Wm5oU1RxdXc?oc=5",
+      "title": "Ark Invest Buys $39.4M in Robinhood as HOOD Drops 13.2%",
+      "snippet": "CoinMarketCap, 2026-11-11T00:02:20+00:00",
+      "publisher": "CoinMarketCap",
+      "published": "2026-11-11T00:02:20+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbTl1elJWdUN2VFBvdnlpTm9jYVl1djJTNWpEUG4zei1HWk5iMzZGcFNpMmVVemIwQXJaNGU3V21aOWhmRlZ2ak1ISEdEZFBMWEM4UVlrLVFSM2JMaGp2TW5QTFZRbmNDUEdiaEVsM1JFemNBYnptN3JodGhyWHVXZklNTTdGeW5WZlNJTE56NkE2VXRYcl9LeG1EcGV5OXMtOTg4V1NPYw?oc=5",
+      "title": "Robinhood (HOOD) Stock Price Prediction: Tokenized Robinhood slips under key averages as traders stay net long",
+      "snippet": "Blockchain News, 2026-11-09T10:44:23+00:00",
+      "publisher": "Blockchain News",
+      "published": "2026-11-09T10:44:23+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb3hLVE0tRDhkVGFISzRVSVAtYVVDbUYtaEhLSW9UdmxKb0xlSnZHWnd0ZWhPVzl5NFRMbHJmRlhPT2dUcHFWNnNyWXZ2blFhRzFONFZ0Sk5yWl96Mnd2cC1LdV9Db2Y0VHlyTGxPRVFHRjdHU0M4d05pQWI1NUNSVW85TjZtY0Q4R0VmV0EyM29FaTNsbTZhUzBTc3dPQQ?oc=5",
+      "title": "Q3 rundown: Robinhood (NASDAQ:HOOD) vs other financial technology stocks",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRXJ0cEkwd3ZlTTVzMTF1WVFJMUZzMzdYR0REQXNFZWF3dEV2em9FLTVkM05TTFRVbDZqRGtHVC1YWVZjU0NkRDNmTFhJRzlrUUcwbzlnd1ZHYjcyOVVJWjlGYlBQeVNXb2Z1OHBnYzJjRWlkc3NPTDZpRzNnWjdFd1YtMkhEaU1MY0FYUkNSd0RCWllsOWswaDdOaHhhUm9wa1djWENaVENudEJfYUx0N19hRzFSSUdEVzcxNnprZ0Q3Zw?oc=5",
+      "title": "Here\u2019s How Much You Would Have Made Owning Robinhood Markets Stock In The Last 5 Years",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HOOD/history",
+      "title": "HOOD daily price history (Yahoo Finance)",
+      "snippet": "close 84.58 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "STE",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steris\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbGtnRnBVb2wwbGRFNTBkRWg0VnJJS1htamM1MG1rekp6d2VuZU1STlJwMjlzQzNRVFdWN01Nb0JZQ1RYNWIwcE1YTVo0NTRVZzF3a1pCSmJhZUJ6OWZtYk8xSUV0U3pZS19lTW1jSU1jeWJ6MkhzSWU3cHB3Y2dkTExiZWEyOVdHT1BHYVdFS2R5eWln?oc=5",
+      "title": "STERIS prices $1.5B in notes to fund Xodus Medical buyout",
+      "snippet": "Dealroom, 2026-11-10T09:48:35+00:00",
+      "publisher": "Dealroom",
+      "published": "2026-11-10T09:48:35+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVdIR0RBdDdWV2FiamRudEctT3pCcVpXN1ZxWkRfTzFMcUdDdkN2LWo1eU9QTnZSbTZfSVdGWEdvR2xwTzZlbmJCZUFMN28takh6NEUtYVpSQkxhM0hIWHlkVnFtS0hYUEQwbUduOGVwblJDNkxMM3kwZjE0cUdxbERqMjVNbXU2UVN4NjR4dV9PNjNxdU5yMjVSb1lSVF9SNV9R?oc=5",
+      "title": "5 revealing analyst questions from STERIS\u2019s Q3 CY2026 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STE/history",
+      "title": "STE daily price history (Yahoo Finance)",
+      "snippet": "close 256.27 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

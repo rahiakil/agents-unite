@@ -1,0 +1,61 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 63,
+    "no_date": 0,
+    "after_cutoff": 29,
+    "before_window": 4,
+    "irrelevant_or_spam": 28,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORUpkejR1cFVPdWdJSW83bU10bGJ6ZWJNd3hyY3VFNUM4ekptM3Q2Q2JJbWhkTjRoX1hXTGRjeEhOaTVoaGYzSzFtUk5BZXdsSG10M0ZtTzZMc0JkS2hKdEpxMXprTG42NWViaE5VR05jcVVEWlBCUFR1YXVxVlBYREpmTWwwSDFvVE1NbnB2SkFHQXJxbTc0X2dTTmhFS3ZvWHA2NUZiUmhkalBsMWlwU1ZuRTZDUUdQb2J2akdMbUdRakJfVVE?oc=5",
+      "title": "Nvidia RTX 5090 is now disappearing from prebuilt gaming PCs, even at HP and Lenovo",
+      "snippet": "Notebookcheck, 2026-11-10T08:00:00+00:00",
+      "publisher": "Notebookcheck",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVnh1bEhsS2tlTnBrNnRzVkd5Z1c1NHByZnA5cl9zcjFSeVh3MmpFallOQzhxbHp4ZFVzUDVlanJ0UTVGc2hPMHBfc3VtTEJ0MGEzTm9lQ2xLV1BtdzJrU3NibGQ1YVRkbXlKaGRyWHpOaXZJMElKUVBDOFJFNGlvY3FjZ1FyT25DajVjVVNjOGdQRnFYNTUzbGhHc0ZRY0NZTzVZYVhR?oc=5",
+      "title": "HP\u2019s Koh Kong Meng: AI brings computing power back to the desktop",
+      "snippet": "\u8054\u5408\u65e9\u62a5, 2026-11-09T08:00:00+00:00",
+      "publisher": "\u8054\u5408\u65e9\u62a5",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 28.96 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+---
+ticker: WDC
+date: 2026-11-11
+github_username: rahiakil
+contributor_hash: 5cd8be5da97b
+daily_role: research
+focus: sentiment
+sentiment_score: 0.18
+lexicon_score: 0.18
+score_source: lexicon
+llm_tokens: 0
+detail_level: standard
+harness: agents-unite-nightly-script
+method: lexicon-vader-fin-v1+nightly-script-v1
+backfill: true
+preliminary: false
+as_of: 2026-11-11
+news_cutoff: 2026-11-11T21:00:00Z
+generated_at: 2026-11-28T01:39:22Z
+collected_at: 2026-11-28T01:39:22Z
+---
+
+# Sentiment
+
+Sentiment score: 0.18 (neutral, lexicon)
+
+Backfilled report generated 2026-11-28T01:39:22Z from sources published at or before the 2026-11-11 4:00 pm ET close. Not collected live.
+
+Lexicon score +0.18 over 10 headline(s) from the 72 hours before the close; 4 read positive, 1 negative, 5 neutral by word list. No language model was used. Price is reported below and is not a score input.
+
+# Key Themes
+
+- Western Digital Stocks Climb 9.24% as AI Storage Names Rebound (GuruFocus, 2026-11-11)
+- Zacks.com featured highlights include Arista, Western Digital and Quanta (Yahoo Finance, 2026-11-10)
+- Western Digital or Micron? Jim Cramer Says “I Think Micron’s a Better Company.” Here’s the Test (TIKR.com, 2026-11-10)
+- Western Digital Stock Gets A Lift From AI Storage Demand (Simply Wall St, 2026-11-10)
+- Western Digital Corp Stock (WDC) Moved Down by 3.85% on Nov 10: Facts Behind the Movement (TradingKey, 2026-11-10)
+- Western Digital (NASDAQ:WDC) Stock Sale Revealed by Rep. John McGuire (MarketBeat, 2026-11-10)
+
+# Sources
+
+10 headline(s) from Google News RSS search, date-bounded and filtered to the 2026-11-11 close (GuruFocus, MarketBeat, Simply Wall St, Startup Fortune, TIKR.com, The Globe and Mail, The Motley Fool, TradingKey). Price data from Yahoo Finance daily bars dated on or before 2026-11-11. Links and publish dates in sources.rahiakil-grokbot.json.
+
+# Price Snapshot
+
+| Field | Value |
+|-------|-------|
+| Session | 2026-11-11 (US close) |
+| Close | 313.31 |
+| Prev close | 289.20 |
+| Change % | +8.34% |
+| Volume | 8,095,700 |
+| 52w range | 132.43 to 799.87 |
+| 52w position | 27.1% |
+
+# Notable Events
+
+- None identified

@@ -1,0 +1,61 @@
+{
+  "ticker": "SRE",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sempra\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0stU1RUdHpESE9WY08yMlpDUVhHMTQ1VVhiWV9aOG9nOEpWdmhOc0t4aTd1cGZUMlk1THg0QkRrNjhTZnhQRFpidXZSS2FkdHJaa3gtdDNndGYzaHBhTXU1SldzTjY1ZzZwaUpTS3NHNHp4MXRiYlNuNGgxQUtueW9GWmNfV0ItUjR5anFzUTdDVkZpQi1lTTZzV2tPQXVBQU45anB3?oc=5",
+      "title": "What Are Wall Street Analysts' Target Price for Sempra Stock?",
+      "snippet": "Barchart.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd2FnU29Vek5faXRGNXFmNzVtZHRtZThud0pmUFRMdzdQOW5iSXNydm9ucEg3dVhSMjJpSmJaT3VNTm9pSUtyTGg5TDZXWDBBXy1laVdZRFJNVEVqZW53emtfVUlkSnFSZ0NOM1FndEZvOWtyQ0dfeE1NM19KV2txVVI0Qy1sVmJFbjJ2bg?oc=5",
+      "title": "DBA Sempra (SRE) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SRE/history",
+      "title": "SRE daily price history (Yahoo Finance)",
+      "snippet": "close 78.22 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "AFL",
+  "date": "2026-11-11",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-11",
+  "news_cutoff": "2026-11-11T21:00:00Z",
+  "generated_at": "2026-11-28T01:39:22Z",
+  "collected_at": "2026-11-28T01:39:22Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aflac\" stock after:2026-11-07 before:2026-11-12",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZVpjRHRubTlLQ3pPQ1p4TGhpWlhvY3pka0lDcjV1VndvS1E4X2E5NHdLZnJ5Q2NISDVza2NKS2d4UGs2TS1lRTI5YWkyekYzMWZQUkNqUU1hMTNSX01ldXpveXNjWk5FS3RETko5OGpQQzNwTTlWYkJQZUh5VGRVMGt0dFF5QWRvU2hudzFQcV9Rckp4M2pmWlBHcEp6b2ZCNkh6OUZBeHlneXJ1Zkw0cV9vOXZPLTRJMzQ4YjZJRUFicFlh?oc=5",
+      "title": "Mizuho raises Aflac stock price target to $112 on higher estimates",
+      "snippet": "Investing.com UK, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLWtvcmY5WlpkOEgzTzE5elZ4dHZjLWpyQm9HbjdUSmhfdUp1dTJKdFVVWGRCUE40czNOdmN4M3lfLUVhaXR2bTlyQ281X1ppd1VWUzF1c1Yxam9HRzdrVm0zc3lqU0J5LXZySzZEajc3NWsxVEg4TEgxVkpGOTBxVjhtd1hxb2Z4Y0p6WGtMcE81c0Y4am15QW5oOXpxQXRCUkdDZnk1QmdBOC1FV2JmcEVkak1GYl9FOVQwTTdzdVMxRDA?oc=5",
+      "title": "Aflac (NYSE:AFL) Stock Gets Price Target Boost from Piper Sandler",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaFM3aFpVRDNub0lTOEozblA2SFRlQWh3Qm5iMEZpNkZpcU9td1FlbThmU3AwVE5KeEtIaWh1OWhHWGM1ZzNzQUpfM2VyOEZ0UFhiS1NKS3djN1N1elY2SnNsaWpXNU84RHdtWjQxNDlvSUxKaGFIb1poWWI5VTQ1RjROdGp1eTNQOGNDSUhVc2lsNUlFVW93?oc=5",
+      "title": "Aflac\u2019s Q3 2026 earnings call: our top 5 analyst questions",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AFL/history",
+      "title": "AFL daily price history (Yahoo Finance)",
+      "snippet": "close 127.11 on 2026-11-11",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

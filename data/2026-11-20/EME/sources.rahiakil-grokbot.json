@@ -1,0 +1,133 @@
+{
+  "ticker": "EME",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Emcor\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSzJCMVpZRnVFV0lZUS1zTlRiSDBQVXlENVZ3WTdhZ2tqTG1rRDQxTFhCUWpaTE9qN2JXclVzbG50UHpfYkVjSmhPNm0zaUFKOW9ndXFHLUEwYWRpUDhKaUNPck9OUXg0dkdCeUV2MlZTZlF1N0FXZU5CeGM3TlpKSWtCMGYyUEZMVFQzTVROc01weXFp?oc=5",
+      "title": "EMCOR Group (EME) Stock May Be Undervalued As It Eyes A Construction Deal",
+      "snippet": "Yahoo Finance, 2026-11-20T15:11:53+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T15:11:53+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUkzbFpkbkQ3MGpwODJxek5uQm14LTFyS3dtVW10TDZGUHRHT0Y4Xy1qQUhmR2w4S08wbTVMaXJrc3BYWkdlQUxqUFZ0eE9MLV8xd1ZnZ1RKN1ZTXzF6UjUzSTBRdHJaWDZ6UHNUUk54RFVJN1FLdUtvdURSTmdDVDd4ODBjU2dWTzFGSVZiSFB0dw?oc=5",
+      "title": "EMCOR Group (EME) Could Be 8% Undervalued After Argus Raised Its Price Target",
+      "snippet": "Yahoo Finance, 2026-11-20T10:08:27+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T10:08:27+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbFFJUHdIdnBtbEFBTHk4TE5RbW5obGp3aml1UGJMQ0lpZU9jMXg1bk9CbEpidF93S2diZEQtNmJDZWJaS0NMV28yeG1POW1oaGVvcVkxby03dEhxVHprSElrYlpOSU9JZmdpU1kzd2JJYXBhVVI3bXVVNXBDRUJ2VVNJemZldGlfMmY3eVpBbEJYcE9rejF3c3ZEcERBeHBILXlCSUFqYw?oc=5",
+      "title": "Are Construction Stocks Lagging EMCOR Group (EME) This Year?",
+      "snippet": "Yahoo Finance, 2026-11-19T13:40:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T13:40:03+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVZnVEFZVFFCcnkxSXV3bllLcGw2NnhTRmtwVkM2RGdZRjNhQlhJbk5zZWRUdVhJbGVwQU4xY2RIMFYxU3MxaTFIV0txNTZKRGdfc0swZXU3RnIwSzdydjB6TnpEcTFQVFI0VWt3eExONk4zSzlVTXJ0TEtKbTkwbFpsSERBa1lMTThFTDFXSmw3OTFkUWhBVEdZQ1BITHM?oc=5",
+      "title": "Emcor Group (EME) is an Incredible Growth Stock: 3 Reasons Why",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.439,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSUszMlFvQkczal9QM0JFaVo5YjZBWS1xTWhncUdncW5yX0U1alE1QXVxUEJrMGlTMFdheWRmOFJNUnY3NktTOEQyOHAyZmZRc08tcXpBNVBJNFlBbElEQUVnZ3F1UkFiaU9pRDMyLWo4VjhZby1jRVhZdFZJSlFxcjhfRklfR056VExVVDIzdw?oc=5",
+      "title": "EMCOR Group, Inc. (EME) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T19:19:58+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T19:19:58+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTS13UHo1QTFJLW5BR1ZSMHl0NGV0cmZmX0lkaHowZ0Vtakg5N19IbHdONjc2Tm9aNTFITVMycWh6VzRfQjdlZ1JOUVhJXzE4LXBsYTVHb1Z4amp5ajlWbDRRcVc2MEZrd2F1UjFaU1RqY3BtRDRVSkZ0emZscHZOSEZIUWtoY1U5YXZTLU9sWTViYnI3M0Npd3F6OXB0eE50TkdYMVJZWkJXMHFYLTBTNmd4NXYyVkFlNjlLUGxKQ2ZwVHZwSFkwQlF3MA?oc=5",
+      "title": "EMCOR Stock: Price Action, Valuation and Momentum",
+      "snippet": "Kalkine India, 2026-11-18T17:01:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-18T17:01:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOHNxR0FyRjlFcVo0OFFoSnVxV0xCZHVodWFoQm01Y3J6cER5ZjU0a1F0Rmh5UE1WX09udnNBNEhsTDhzQ2VBZi1tdUcwdEl2b3RJVmpyS2h0Q1QyaTJyVWpmVmw3MDlsMUpXdTZzcVRLTDhHdjRmTTc3V3lmSlhOclhWX3AwUWs1NkhoNzFCR1R4RHJ3a1E2NDB4NE55ajNpSEN1Z3JGTUwzS2F4VnQ2UGFOb2c2bFJKbC1BS19oMUR0VGFHbHJpdXBYN0FiTlA4ZVg0?oc=5",
+      "title": "EMCOR Group, Inc. Stock 12\u2011Month Price Target Cut to $896.22, Implies 40% Upside",
+      "snippet": "TradingView, 2026-11-17T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaMlRCS3ZkbzBnRFBnRFdCWlAxZ1BJY3hQV1Zyc2FOYjR2TnNlaGVBMWlHT01tWTZ1MHJwOGxXcmp4MVRRTlVZR0F4MVNHNUpJcnpDdmFncUxDWHNHa3o0QUpCMml2Zlhmb1BDODBiVFBVeFBMcjgzZkt2NG5Pdw?oc=5",
+      "title": "EMCOR Group (NYSE:EME) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EME/history",
+      "title": "EME daily price history (Yahoo Finance)",
+      "snippet": "close 603.32 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

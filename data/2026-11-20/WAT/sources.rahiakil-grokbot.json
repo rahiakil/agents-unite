@@ -1,0 +1,73 @@
+{
+  "ticker": "WAT",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Waters Corp\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXhpUXU3SFhHOFF4VXNtY2traDlnZmhndXZtYkY1UUEtaE1Fb0J2YnF2NDVJM09jSk9JLVhRa3FkZFhRUWhWQ2VMNHJBNjBjZzc4Q2VRS0dkUG9KNXlzaXcxTnVsaWNJbHhkY2V4Sy1vM1JwNldXdVBMandvdzlidXFhRTAwR01rNGRHLTdJRzdnamdsak5tM1F1SGw1UFQ2WUkzdUJlY0d1aF9GeVVFQWZBdTFpNGRNU2Y2a3hpSWwxUGtTcjdYZA?oc=5",
+      "title": "Waters Corp. stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T21:51:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T21:51:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZmc5OFFpX1dRZFUxNEhianlyYnAzSERQNHFmdDVHOFRjOTdLSDhUdk1HMjlxQzVGVjZ2Y2FKTnJ2TFNlaXdKa0hZRXZ5b0Jfa0RLVDlldmJ0bjlJS2NVMHdqTDM0bzdiTHJ3blR3Mm1mTXlCaXpuNld4cnhHdnpqbk5JQVVwaHBNTzVWYzdXYld4cTJGQkRBNE1WZHEwNHgtYV9WN1JuMGZVQzZ0RUdJeFJSd2hwbHlneGpnOHhoSlB0MHNUZ0xPY0RWSVI1T3RITk83VHd3?oc=5",
+      "title": "Waters Corp (NYSE:WAT) Clears Minervini Trend Template as a Quality-Momentum Breakout Watch",
+      "snippet": "ChartMill, 2026-11-18T09:51:16+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-18T09:51:16+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcy1EUnNybjNHNUs3SFg0MXlxR1NfUzNlOFJDdmxaV2NZUGl6cTBJRm1MNDdjNVZVaDlRdDJOQmp6QWtEUElKaFcxdUVhZ18wbE96WUVxd2RFUld1VUg2WXYtcVN1M1owR3dRU05KNld4Q0RYYzFLVHQ4Q1pjYUJDbVR1emVOaXpyUGwtZTNCZnBRQlpwX3REUzZJUjdOa3M?oc=5",
+      "title": "Waters Corporation to Present at the 9th Annual Evercore Healthcare Conference",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WAT/history",
+      "title": "WAT daily price history (Yahoo Finance)",
+      "snippet": "close 440.45 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

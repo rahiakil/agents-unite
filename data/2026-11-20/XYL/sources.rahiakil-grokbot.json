@@ -1,0 +1,97 @@
+{
+  "ticker": "XYL",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xylem\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNm1CSEctbjVkQkZFUngzdUl5ZC0tbnQ4U0hZOVBLeC01UlBQWWJwNFhfVEtsai1PZE1qQlJYUUNwVmJ5a1g4aFFmUVZGUG5YLWhETzdWWmxxaWNvTnE4OVRvY3BzcGVNNy1UU010dWtHSXlCM1NGQ0xKVzRDbGJxVFFpeEE1bmY5bjQ3azJtX1ZTbUtVLVYxamNIbzdmZWdvN2FUOE5BQzdZeFZqeUpCaGJKZHBKTi1YZ1FRQ3QtdjJ2VFllb1hR0gHMAUFVX3lxTE56bUktSkdURjZlQjEyTm80OG9DaHhuUUdSVmhfa0xTMkNEUVZ1RHhNeGUyNnpSNmVrX1U4ZGtUd2dJMk9pbU5sMjV0NGh1TURVVlZNak5LQWZGQkJsWkR5X2tGQWVzVzVtbjdRV2p4QmQ4MnhRNXl0MnhUQUR5X3FlQkkxRjVKcTZuRU43X1g2b3lUaTVoNXRkclVGRXdEZVJlUVVyV3lLLTFpcFJpeXFxOHU4SzBxTXd4dTU0SDExMm1WYU8yczR4Nnk2SQ?oc=5",
+      "title": "Is It Smart To Buy Xylem Inc. (NYSE:XYL) Before It Goes Ex-Dividend?",
+      "snippet": "Simply Wall St, 2026-11-20T18:43:36+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-20T18:43:36+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdEhCRWQxTTdpQXlXQnZfWFEzclFYdVktOTlRYUtVbVJCTkNHc1FfMklrZWtVU0psNnJveEgyRHFuOGp5REpNUHhwWXBDTUNXdXg5SUIyOHpxVGFfN05aX2RzeElJZ1JsRVRjVVA1SEd5dkl2TzdxbGpaMUIyTTFzV3lZN3RTZWJaNGJkdDVDUlByTHVEX1oxUUp0MC1CMWJXUnZyTk9ybjdEVHJ2NmZWLVJDOTVrekxtWUZDQm56NWVhdw?oc=5",
+      "title": "Xylem Inc. (XYL) - What Are Researchers Thinking About This Stock?",
+      "snippet": "MarketBeat, 2026-11-20T07:17:04+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T07:17:04+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSnEzTzNsYUNtMjc1WHhjTy1CMXVaVnFfbFBiTUs3MGRGeGNfSkM3NmlqWHA5S0NmVGhlTHJIRGE5VHJzVHlEUmxJVm1UdGpRY3l5RmlEQmQ5MHlDRjRoUUdkS1NNSHVORHVUMWJOSUdzakMxZzVtcnVJLUpna0xNOWppYVkzNDFqdVhuc1AtOUg3d21QSVFhNHB2WnA?oc=5",
+      "title": "Xylem Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-19T13:39:10+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T13:39:10+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTVI0MURZV3NvRVl0QUw1UXphclI3RGMwaEJoakNGc1U1SHdaR0RzSHYyeWdfVzAtSFhpWE91dUVBel9qV3g2SDVNcmhHdzRLay0xcUZ0UVRSQXo0eXhSdXAyOXd2cTM0ZFZSamlzOXFJeEVhbkNiMWtkNXpaLTFUZEQ2NzNOaEx6WUhjdXFtSkk3OUFlLUJoQ0lWNjVZdw?oc=5",
+      "title": "Xylem (XYL), What Is Behind The Fresh Attention?",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWnVmcjdxS2pUSGhGT2hNclVvVmVQdjlIaHV2S0F0ZjQ1eU5jaDJ4RS1mSTktZ1oxNEtxUnZPMnNrcXI0ank2VTFHcElpeUF2TDVWS3ZWX3pJa1JkVV93NGlXYXltYzh5eU5PRzdXd0owcUIzMXNxTnFRMkd0eDB6SUFnTVlKN1JZWDhyRmJVLUVJQUlfdGk1dmdVeFhOcTJNRE1ycFdUZHlHVkVucDRYNFRjZjQwcjBPMllLMElGa1B4U1Ay0gHKAUFVX3lxTE93bndUUVhxS3lDNl8tQlk2QU02RjRYdDRXRWREdnBCekZzTzg2VHFKZ3ZoZ0RJSlk3QlktVWFMaU1pQXB2V1RwV3dWLTdIeXF1OTkwbjlwOFlpSHpKNENaNVdhdS1Kd2VEUUlmZF92aDJRLXlocTczRTJWVmllMUNyRWF2Q29udDZ5VjRrV3RCaWRTNFdxYkUxWUdWeEl6VjZEYzVoRUZ2OWRYZldJTWlkQ2tQN1c0R294clBqb1dFS041VkJ1RVZ0RGc?oc=5",
+      "title": "Xylem (XYL) Buyback Puts Value In Focus As Investors Ask If Shares Are A Bargain",
+      "snippet": "Simply Wall St, 2026-11-19T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.784,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYL/history",
+      "title": "XYL daily price history (Yahoo Finance)",
+      "snippet": "close 94.66 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

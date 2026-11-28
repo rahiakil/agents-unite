@@ -1,0 +1,49 @@
+{
+  "ticker": "REG",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regency Centers\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNlBqcER2cUthaGFzai1CdHdKY29PMDNNb240RE9rOG96LXNib3g4MTVobzNiZEhhZ1J3MjFNaUl1bjdkV3E2R3JycW1wYzE2VzU0X2NSc2trT0M2cjk0Q3BXRlM2X2E2RjN6WVBBQmJfOHZhM2dwdzFQUmU3X1FrV1BIa2xMZDhXZktqSVFDSnBHb0JEVmxGMHdIeDNvc0w4UnpFQ05XekFuc21UQWEw?oc=5",
+      "title": "Regency Centers stock hits 52-week low at 18.67 USD By Investing.com",
+      "snippet": "Investing.com India, 2026-11-17T21:16:41+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-17T21:16:41+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/REG/history",
+      "title": "REG daily price history (Yahoo Finance)",
+      "snippet": "close 73.64 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

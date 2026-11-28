@@ -1,0 +1,49 @@
+{
+  "ticker": "PNW",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Pinnacle West Capital\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZenFWZ3VHQnctZDRickpsVU95THNvSFRUZWdxbnlKMDE3eXcycHU1SERsZXdXQ1NXTU9ubkc3Zm5EQWhRRl9nVGxPTVVGc0VlVUJIMnhaenIwMnlSdXYwdTEtRG0xeUFGMHc?oc=5",
+      "title": "Pinnacle West Capital (NYSE:PNW) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-20T21:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-20T21:00:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNW/history",
+      "title": "PNW daily price history (Yahoo Finance)",
+      "snippet": "close 101.28 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

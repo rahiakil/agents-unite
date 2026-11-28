@@ -1,0 +1,97 @@
+{
+  "ticker": "RL",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ralph Lauren\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 8,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNd3I0aHRjT0xCcFNfNFRHcjNOYjVyeWNnMk95dl9CeXM1cUxYNG1ZVkpubHp0TmhYZV9tSURuQjdwMXhZUTdnRF9ORV8xMjFaWjFMcHVUcnFHQmU5MjM5RURvTXY3QVpUYVJZcW9pVjljZFZIcHhCQnFGazhYcThLaW5sVzVxb0wzbnVGLVNlQkRRcFNuYVQ2akFZLTVXZmFHR0RoNDJVQ2xqQlp1dDU2UUNYMFFXR0tUOC1zWW1scDJHNzFCT3lOUDluWDVobVNKbEE?oc=5",
+      "title": "Ralph Lauren Corporation (NYSE:RL) Stock Has Average Target Price of $448.20",
+      "snippet": "MarketBeat, 2026-11-20T07:39:08+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-20T07:39:08+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUHRET3J0NmZaUjhvckpDWWkyUTZZVnpvd0Itc2N2anhJSk9qdTNBdzd6aXVwVFh6YXNPdXc3LVVhRGZWalRxWnkySzAwVlR3Z0RlQWYzalMxaEZ6S1FpZFdMVHhWR3JqY2lyVFBHZnN4MlNrUVpZdVlKWUF5RldrYWZPSXJRb1lsc1hBeQ?oc=5",
+      "title": "Ralph Lauren Corporation (RL) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQi03V1FFVVRVS2hQMklVVUVicUF3Q2VKbEtqZG1Ocjg4RFVYa3lHZ3pRa0dHWllnSlVBYzRCanNoc2x5R1ozRWpka2RyUzdYcnR5VW5TakRLNzZuODZqQ0xDUmNZbjJTUks2MUlySk9LWm5uRFFTQi1tS0JsMVJiUU12bGdlZnZPbnZ5T21MbWFHb2pBU0F5bg?oc=5",
+      "title": "Is Ralph Lauren (RL) Fully Priced After Its Outlook Lift?",
+      "snippet": "Yahoo Finance, 2026-11-18T15:14:22+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T15:14:22+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmdLZFhadXE3cnJQWGlPMVpJY2RsaktLRWE2Z2xiVndmSUNfWTBQRV9HRG1nM0dxeEZiczJrcUQ5bkNfYnprR3NGNGItLTZKQ0o2OG5iOW43c2o5Yzc2M19JN29xX1BHMXpPRXFVcW1iOUs1NklQYy1pSlM2UzFocE52bWF4THpjVHU4Z1M1QzhIOHE5NnFGMUxfMGVuSGhk?oc=5",
+      "title": "Is Ralph Lauren (RL) Undervalued On Its Raised 2027 Outlook?",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMkdGT3lneVV5U2JkQWpxTEQxOG5Fb3ZLQzVEdjJNLTZyN01TMTJGeHFwSUdQeGdwX0dVRzM4M0xwX0h0WHBwQ05mR1lLVkxrZlVDZEI5X3FCaThsamw2SnV1a2M2M1FvbHVib1R1LXoyNzVQUGl4RjlKc1M5aWsyLUhyQVVSYWVBNEVLbVZWVTBuV28xVlRzTXJDZ2Rzc0E1SFVaNmlTRnlRam04ay1IcXZ6MUFBSzgwOEtIMzdNX1lIZEJkaUxrTDV6MkY0WTdUay1DTDJmenVTRGN0WHZ1YVJlMm55NU1hQ2NfUjd0OTM0QUlaSTFqRko2bzM?oc=5",
+      "title": "Analysts Conflicted on These Consumer Cyclical Names: Tesla (TSLA) and Ralph Lauren (RL)",
+      "snippet": "The Globe and Mail, 2026-11-17T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RL/history",
+      "title": "RL daily price history (Yahoo Finance)",
+      "snippet": "close 366.65 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

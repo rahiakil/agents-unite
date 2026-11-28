@@ -1,0 +1,49 @@
+{
+  "ticker": "TECH",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bio-Techne\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcDgzdU9HOF9PbldnVDZFbC1TY1dnZE9JX1JUbU9tS0RYNXllNFZfeERJeF9HbUdmZ2lOaXY5cF9tT3lRZ0JDOE5FS1ItWjlQMFdPU2pfeVo2M0RmaFJfeGFkNWdVaS1fS3U1RW5EMDhyd0k1dDEtS3BnXzk4QWVLdFJQUlVDQXBTaUY1X0JYUWU0Z0FNOXhyZ1hPNFlfVVU5dWc?oc=5",
+      "title": "Are Wall Street Analysts Predicting Bio-Techne Stock Will Climb or Sink?",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TECH/history",
+      "title": "TECH daily price history (Yahoo Finance)",
+      "snippet": "close 72.67 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

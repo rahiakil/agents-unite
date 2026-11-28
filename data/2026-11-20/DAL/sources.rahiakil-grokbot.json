@@ -1,0 +1,133 @@
+{
+  "ticker": "DAL",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Delta Air Lines\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 11,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX09aU0tRZnNsMEpmZnRCQXJZc1kyU0c4dF85YUlYTC1RdU02LWh6MUhvRU1rQ2dpREJ2eHBJZmVwVVBYU1ZQRHFBeDFOVzRQY0JGZ0tDN3pvYVpCaldDenc1X004SEQzU0R4eXV3WnZ4Tnk1MTdMRlB3MkxTVmN0TGpxSnJrWU93NUlHcVV6RFRONWdQSU9PWG5QdlB1ZldpZmtsV3lHbGpld1lvZzlhclE4b0pMRzQyQUFBLWU1enRlQQ?oc=5",
+      "title": "Delta Air Lines (DAL) Stock Dips Amid Bearish Options Sentiment and Elevated Volatility",
+      "snippet": "GuruFocus, 2026-11-20T19:06:18+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-20T19:06:18+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVUJDcGVWTDVKTWF2N1QtZTNjelI0OExzbjBWVHZaZV9adHR5RGJ0UVFLUWtJR1ZMSFJpNjlUbmQ4WDNiNWtKMGlEUXN0NmhoUWJtYkhLVDBLTjRvMG4ya0tFazIxdk1mWkpUazlpbUt6MEdfQ3lBZTBtQ21sUTBjX3NscHdrNk13VmJGM0tCWmdRdTdWZVdibFJvXzdncmtMNnI2OFJxUjY5dmZrLUxPM1NGZ1RpanlGVmo3NjcwSHF5QWc?oc=5",
+      "title": "Delta Air Lines stock gets December investor presentation date",
+      "snippet": "ad-hoc-news.de, 2026-11-20T12:40:09+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-20T12:40:09+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZnp5WDBJeC1CVTVJbExoQVlEWFRJRUlhN3hfSm9VQVdURmc1aTZfU00xYzhZaVlqUGN4ODhzV0NrZUtwV2lXMV94aUpEM0stOU9oQkRDUVdEaExGV1NBRWZIQUpkWEtMaG5CWml0R1otSlpPOFF5bEhqeXpHZDl1OW4tZlJKdnNNaWc0aG9Hc3p3TTY2?oc=5",
+      "title": "Delta Air Lines (DAL) Stock Moves -2.01%: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-11-19T21:45:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T21:45:03+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUmYwUG11R051Tm9zRWFva2J1a2ZBUVZQdHhDeEV2ZjdIYjdUd0FxVmplQ21SSlYtZTlmUUpCNmxqZWpaNF91SEtkNTM5RFFRbGVjSktZSDNua2Q0TVcxYVR6N2w5TjlPbndmWGl6cUdpT2JET0gyN09vTTRucXprMzJjR085MXo4eVZfR25UenlCanNjLXNQQjU4bXljODBNWUFRMU00Q01yS2luOXpta1JFY1JzMGpuNG1Hb2gwdzhxdElfNk9FVW1UM1czUkFsU01n0gHYAUFVX3lxTE5QRnRYU29lNXRQOG1XelhIZjY0b1ZmWHZ1MmdlV3FGUFNyZmJuTkhpYkUzRkRBaDBPWWN4U1VWUi11NTZNUEprQW83RDQ5enpaaVl3eGpsMFlzZmJsdzNMNGhVMVE2LVQ2Wmk0dW5rVHVUNjJNekhBQmNtNlI0MmVLdE1tc1hqVURfTERTX0d2MGZyWVc5bjUyU3ZqWEgydGplT2U1dGN3bkJvbnFELTB1eVpQSmRXQWYzWHBjWmY1anBIUl9kU0k5TEQ2Q0U0UVExaWkzSXQ2Ug?oc=5",
+      "title": "Will FAA Ground Stop Losses Change Delta Air Lines' (DAL) Narrative",
+      "snippet": "Simply Wall St, 2026-11-19T09:15:44+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-19T09:15:44+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.599,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNEpFZFJIV1JzMlRUTXFtM0x2eHhMZ0lhcC1JRElYUHZTcWpBNTdmbjVQUVcwSWhfV3BiSmE3UjQ2SzBYQy1jSURiSndaUW9STlpFUlNwWnJXUjdkSlJPMHBXUXNmZVVCQVVxbUl6VFhlUjhuaW41bWQ1S0ZmMlVuM1kzVDlRREN6WkZJbktadnNkZ2R6dTBWdA?oc=5",
+      "title": "Who Owns Delta Air Lines? Top Shareholders and Recent Insider Trades",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONG56N1dOaXJoVV94bFVRWmdhaXFtSzRlN0JvdFItYWVHSGxWM2VhN1hmbEw4dG1sVkhoRTF0YUo0enZjZVFDZFgwSndFWW9BakdGNDZMN0VuUWJNZThyVXg4TzFvQkZQazEwRkdsanJWbGR0ZTkzc1R6OXR0aEN0YmpkM2hVbTlyVFVBOW51eEdmQlNudWRVbjhMME5POU96MnpEbVVaZGtFUmxUdjQybE13Y2ROZ2UxZy1vRV9JcXJzNmgwVGVneGRWSlYzMEs1Nndz0gHYAUFVX3lxTE9yTkhFdzJaR3hzcVRkNC0ybFRMSkdGb1pEYzU2bGMxamI3VFg2MXZjeXdZMEtaalAyRkt0X0FZUVRPclJXUFVNc1hwaGFTYl83QW1KR3RqMVNWaVZwclF3WmJlbnRERFFWSHpENzFMNzloUE1KeVlGdmdoaDJzS1o2a2pDWkNOcThZcHNfM1dVRWdiSERfcVN0NWtMYU1FVHZ5VExqY2VvTWJMTnA1Rzl3bDdvc3oyLTZ1V3I5S052SHh2SmVZM2lKOTZQS2NBUnliMWxIRTAxXw?oc=5",
+      "title": "Is Delta Air Lines (DAL) Below Fair Value After Fuel Cost Pressure?",
+      "snippet": "Simply Wall St, 2026-11-18T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcnFVT0g4M2prZ0lPWWY0Y3FvdlpKRlVjY3AtTTVHN0l4bVRqUEtHYVRWUS1oUDV2ZVNIY0lWbHg2bmRDdUUwckFSenhPdXVzQWx4dHZDaVlHc19QZGZxTEMyZE9wM3ZRTTFEbXRzOXlQME9mV1Y4aTFYeUJUd2xrb1h3aGtLNzVfbGVQRWdGQklDTTF2M2p2TFVITUd6SlJiM3Frc3c3aGh5eWpFS2RV?oc=5",
+      "title": "Delta Air Lines Stock Maintains Buy Rating at Bank of America Despite Lower Earnings Guidance",
+      "snippet": "TIKR.com, 2026-11-18T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.151,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcHJLX2tHYlhCM0Q4TnRtTXVwSjFuaGtkQVZhSTRiUTJDeVJfMUx1b0IzbjJYLWtvcTFYbHJTdXpsTTF6a1A1VHlpd0VWTTdWb29SNTA3V1Y3dFNsSm1QNVlLZHI3aS1hTks2Z19sZlY4WmRfZEdUdllPNDBJc3g0OUlpSnE?oc=5",
+      "title": "Delta Air Lines (NYSE:DAL) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DAL/history",
+      "title": "DAL daily price history (Yahoo Finance)",
+      "snippet": "close 80.01 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

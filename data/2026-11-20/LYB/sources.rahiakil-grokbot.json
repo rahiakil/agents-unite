@@ -1,0 +1,94 @@
+{
+  "ticker": "LYB",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUFCM0FMejA3d2Jkc2VUWnM2RTkxbkl1YlRLajV5eHZUdXZjSHdNbDRiZE9lMnhzQW90b0xMX19UT1Q4cmFxaEhYTm40cFpQR3lFT2I2VnVsVklWWEV1ZFhIbHpfMThSOVNvR0ExYVV0U2ZUak9jVHVza09PaU5FUHBpT0FCbzlNN2FhQ2FYZ3AxMzRIbzRVNzlWTE8zZkNFa3R2VzROSWFsLWpU?oc=5",
+      "title": "LyondellBasell announces quarterly dividend",
+      "snippet": "Yahoo Finance, 2026-11-20T11:30:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T11:30:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaVRheHlUTjhKRVkwWERTUUw3cWdSTmZneFhrTU9FN01sOUVOU052OGNaLWFTV1BwQ1B4WDQ5RlhKb0hLc0VRN09JeG5EdTVwdDd2VUJCYjdPYkFIdmpwc1RYLXFsYlRpLVoyTmM5dTRXZm83S01mZml0c09nQ2NfeTZLTFRjU2lrTmFzMDQ1SVdhNEtuaG95b09mTUdhbEg3NDRfdURMWEw?oc=5",
+      "title": "LyondellBasell Stock Outlook: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-11-19T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUER4RUx4U2E2WjdzbXdiWEZUaTJQYUZtdU1zd0hlMXJONjlmdDRtN3IxaEw4bmJrYTRQYWNQbnF4WnFqVk9xdHdTVVdJWF9veFRIY0c3UVFabW93b0RmNnZrdWt5WThqbnpJRmZ6d0J3RUlqQk81cEJxa3ptR3FPV2gyd0FCTTNleVBLRHV3VHg3OXpqQm1ZTFRnU1puZkg2Y1B0QW9B?oc=5",
+      "title": "LyondellBasell: Earnings Have Fallen, But My Buy Rating Remains",
+      "snippet": "Seeking Alpha, 2026-11-17T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.19,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xTzZ6TnhPd2d6azhMc251Qi1URVpFMTZ1djBzbURVY3ZZNmluZVpnREgzSWlHUlpVeTRpMHpHM29qWm9acUtUT25sa3A?oc=5",
+      "title": "LyondellBasell Industries (NYSE:LYB) Stock Price",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000072/lyb-20261118.htm",
+      "title": "SEC 8-K filed 2026-11-20",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 55.84 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

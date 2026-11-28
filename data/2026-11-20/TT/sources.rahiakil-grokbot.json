@@ -1,0 +1,49 @@
+{
+  "ticker": "TT",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Trane Technologies\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 6,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHZfWnMyaDJTTVJJSVJoZ3E0SjB6Sml1UzloelJMUVlybjlFTWJsTDNUVC1VZGJYRTBwTUQwVUtXTGF6M21jWXdYSDFib2g0TGljVV9iQzROeDZyMUhpTnFWZUVhRFRnTGZybjdEZGhfNVpFUUVjaUUyY1lzdHNVenhoQ2VxQnd4Z1k2dlNwV2hzNVdwaWQzQmFGVnJtZ1g0aGc?oc=5",
+      "title": "Trane Technologies plc (TT) Delivered 11% Revenue Growth, but Its Stock Fell: Is the Market Missing an Opportunity?",
+      "snippet": "Yahoo Finance, 2026-11-20T17:22:40+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T17:22:40+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.141,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TT/history",
+      "title": "TT daily price history (Yahoo Finance)",
+      "snippet": "close 386.29 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

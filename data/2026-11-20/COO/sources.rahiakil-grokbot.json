@@ -1,0 +1,61 @@
+{
+  "ticker": "COO",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cooper Companies\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPcW9FS090eEhQemY2Z1lvb3NVRVloN3ZXa09EYWpqQ0dSMExMakE3OHR1cnF4aHpQc0R4MmNTUlpsOUFibVBsTTl5OHVKdHZYcnBGd3U2MEtwbF9tRHZfRk9lRy1YR1FJVjV1aWt1R2tlY3dJamppSmlUNE5oc28xMkdqaElkTWNFUFhmLVpUc2ctVXp2a3dEV1JNclVtQ1ZKcjctZ2lPalVXaGlkQXhxVFhsU09fNW14bXBIbTBEOTJQeEVKN05EbnJfejFjYlpJMFZ4VkFNNzQzTGh4OGN2RmZWcDdNQkNXQS05TjNvRXMySjNxOTYxM19DNnRVaEwzTEI1X1F5WkpTUGZQSE8ydWp3QmY4QWVkNDhHbXgzbDUwdVUxOHhoUVVsZ0J5cU1KMUlRMTc0RUF3LUJFTjBRVTRyS1lWQnBtdWZzVzV3WkhGeEFKN0E?oc=5",
+      "title": "The Cooper Companies, Inc. Investor News: If You Have",
+      "snippet": "GlobeNewswire, 2026-11-19T01:42:00+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-11-19T01:42:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVFRweURCUXJMclBkeEF3cGFPLUp3VUhsREYzNUZfY0dNVVdHMWsyMXJVQ0lTYXJOaTJQYUpWcjktOUxhNXFWWkQwYklQNFBiel9ZRkVSem9td1FoYnFmU18tYnBfUVp0cUhjQnVzLTV0ODJmRjZrX3JBei1PNmd2QXp0MA?oc=5",
+      "title": "Cooper Companies (NasdaqGS:COO) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COO/history",
+      "title": "COO daily price history (Yahoo Finance)",
+      "snippet": "close 58.88 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

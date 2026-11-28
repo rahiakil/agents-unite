@@ -1,0 +1,70 @@
+{
+  "ticker": "BG",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bunge Global\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHNEM1FJYkg5N1h3WXJXTkFJZmtRR2dWM3VPSkFnZDBmNjNXa0xoYVRNZEt6RG50d3Z2TUlQTUlFOHRMNFlFaENZSTJoTWhrZmlWcE1vaWZ6SDRsMUFSYWlVWFgzUXNsWVNSeHBhTkFzY1p0QW4wemRKYk0wUnhQeWJOOFhlY1BxNWZuZVVldGZpTXVFQ21JamNWY3VucU5zMUE?oc=5",
+      "title": "Form 8K Bunge Global SA For: 18 November By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-18T21:32:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-18T21:32:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMVlvOEtSZDJsckdESk5EbnViOXJEcVd6Ul9mREV4TU90NzdoNy1SR0p3dVVKUUtQaWhaX1NvT014MXVHTjhEN2NzSldWc0Q2QkxQNEhXdUx0b29OYUkwUFBlamMxbFNfd3p1Y2I3My02WWVUUmt6YVg5ek85ZjZuaFg2eUVQNWlSMEhsOWd6SQ?oc=5",
+      "title": "Bunge Limited (BG) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T19:30:03+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T19:30:03+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996862/000162828026074820/bg-20261116.htm",
+      "title": "SEC 8-K filed 2026-11-18",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BG/history",
+      "title": "BG daily price history (Yahoo Finance)",
+      "snippet": "close 90.9 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

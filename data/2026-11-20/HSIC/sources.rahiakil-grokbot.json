@@ -1,0 +1,97 @@
+{
+  "ticker": "HSIC",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Henry Schein\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkVrWld2OENORVNhVk40QjYyWjhwZ00tclZEZVBrZ0dFTWs1WGswN2J1TWhVOWhIdlFqNG9jMDFwaWpWWXFpeHpEMEo4dExBVU11TmtpUjZnSklkQU5GSFJLbER3OTdldmxGZDdzRUM2TW83RXI2S3Vka1pfLWRRSTNMdHc0V1BGcEEtNkFoNGQ3dENnUWJhY1R0TkZmMndRd3ppVzdSM0FzbENU?oc=5",
+      "title": "Can Henry Schein (NASDAQ:HSIC) Turn Its Strategic Shift Into Growth?",
+      "snippet": "Kalkine Media, 2026-11-20T20:32:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T20:32:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdTBVV0xObmRnVkZ6eGE4Rmh2RVBXV0w5MDhfRkVTZm9Ha1EySkNBZng3V1RBMWppRjV6ckdSc3E2T3NrVXFmS3NEckpTOGhnZkZoaEhqZlU5SGdKaWJ3OERCVFZwU1BfRlhqSHpEcl9oRFhMS2pzMGZ2OGdsbDAzU0lUNzhaa1VHNGgxaGpGUkVwVjBqV0ZKeFBNM012ZGJK?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Henry Schein Stock?",
+      "snippet": "Yahoo Finance, 2026-11-20T11:35:48+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T11:35:48+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWEdqZDl5dERWdkxXRVJNdnlad1ptaGdPWGdPWDV6Y05sbjM2N0MxWUlqVThzNnJvQ1VJUmphMGFieWhSSXIzOGJqNXloSllmYndoUmp3ODA2ZVRJQjJiUThaNzByRGlabHVCNWhlSUp5a2NzZ2t1bmhrbDh1bGdUMFYtc1FSTUxqWVo4dGdBV0xOaURkb1RLSGkwRjE2Y0FRRW5pcFBKb2s5ZDZwV25GM1NR?oc=5",
+      "title": "Henry Schein Inc (HSIC) Shares Surge 3.3% -- What GF Score of 88 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-19T01:36:23+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-19T01:36:23+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTHR4NnNvd0dKbG92eG1OSkp6clpIY3FpSlNvamJLNzJTbFd6NUhmWWNudnl4YVdqZ2d5b01UbzZHN1FicGxSYUVlUFRoMm9QQ3VuSmF3T18wR2FTX04tYnpzWU51WnZISW94S0RGeElIb1JsUzRqdnBEazRIZXdoR2hWM1VxR0hzbkQtMEVwUQ?oc=5",
+      "title": "Henry Schein, Inc. (HSIC) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc1pCUUg2cEVfU29EdTZhVkdzN3hmNVkzcHNUbEdkbTZsYWZUZUZNV0J0MlJpcUJMU3ZvN1dyS3FveUVTUHR5ejlacFRNaXg4ZnFqaTdwb3Q3UHkzZzhOOHRKeGhHVVFKOG9UbEdzUGZDeDZTMXNwazNFQ1lsV0pHb0E5X05jZXZlNHNfbFc5WmdYUFVsY19TcFpIVWN2Z3M?oc=5",
+      "title": "Henry Schein (HSIC) Launches BRIDGE Health Network, Is The 16% Undervaluation Convincing?",
+      "snippet": "Yahoo Finance, 2026-11-18T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-18T08:00:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSIC/history",
+      "title": "HSIC daily price history (Yahoo Finance)",
+      "snippet": "close 83.52 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

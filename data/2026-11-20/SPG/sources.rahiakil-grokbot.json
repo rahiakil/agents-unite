@@ -1,0 +1,85 @@
+{
+  "ticker": "SPG",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Simon Property\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc3c1XzU4aEpGZUhoVVNBNkpHQ3FwbDhBMlB4TUlQX20xajQzVG9Dd3VVZkpTTVRCMWc5OF9ZNVFDSGpVTnFNeURYWVJDWmMtUGIwNzdZRkdGYU1YUlBFTFlBMkZ0Vk93OWpud1pqaWVhSVVmX09GdWVJanhTZTVKQ2JJOUJHa0JNN3FaV1lMamJTdFZSNlhIdjJIZw?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Simon Property Stock?",
+      "snippet": "Yahoo Finance, 2026-11-20T07:25:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T07:25:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWHZacS1ZMmdNSkk2dFc5YmptZkpKNFFtRXJBVnN5QjlpTWd4Tm5Mc25TaWo0eEFUUTRFY3czSnZJZ3Y4ZG5mcUxKek5mNmJBY2hKbzdhQjZ1amRrMm1pME1SMHNDTDROOUNCRWJWNHNiVzBzTUJXMnFCYndCbjdtZGVQaUowWnNvMWFlejduSFFsMm02NGtpUw?oc=5",
+      "title": "Simon Property (SPG) Stock Rises 0.50%: Up 12.6% in a Month",
+      "snippet": "JournalArta, 2026-11-19T07:09:41+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-19T07:09:41+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQSVF5blFiTnByeXQwbVJZMTkxSkF0YlNVc19lZ01oMEFGbEllbGhmRTV1dHB6XzJ6YjNkMGpvTTRncnV3WGprYVNmVGZaWnFYRDQ5NTNpRUZGYUtjMEwyQTNaQmotd2pvNFF1V2N5dXlYakZoTTl0aThjMVJkcjdOYWVPekxnNjNWVWZlcERWSXJMcHZETnhFdXZaNVJabXJDZ21jRGdUWDgxeE5SSzZkWFNrMklvanBjRE9SdkJadm1IQlZqV1hQLTRNd2otQ1NfZWRmNjRSWW5QS1F1Q2x1VV9nWk44bjBfYU9rZmlCSEk0UWoxaE02MkRLaXB3TnFEWGhEQ2RpQVhVMzhVUXBxcG5La25JbjNNb3FLdUhELUJwdURPb2NBRzN3ajR4ZnB4Y01FVnhoNEVBaVVzcFIxM0FVTTRvTmhGLWZyOGxvMEozMW1XT21yY2JzazdJdWRS?oc=5",
+      "title": "Which Name Among the Top 5 Overbought Stocks Near 52-Week Highs Is Most Extended: BBB Foods (NYSE:TBBB), Simon Property Group (NYSE:SPG), Travel + Leisure (NYSE:TNL), Cincinnati Financial (NASDAQ:CINF",
+      "snippet": "kalkine.ca, 2026-11-18T14:45:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-18T14:45:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWjI5Y0o5bk54MzlHSkVfd1U3d1BoeE1yS0hKMklKN3ZUSE1tM2JycE8zaXlpNUY5dDRrQ2RuTS11bGJrU2YwUmQzMFRlSVoyR3FuSXVUVUxVcEtSRTNYcmpVZVVUSXlnOFhiUzlMUjIwSUYwQ0plZHc1MTFfaUxXbTQtSFhyQkx1RkxJcC1SczlWY0h3T2FlSVVwTHJzUmNKMnZvUUNoeGNyYmVCR3l1UUs0Y2VkekZNUW1tWk43ZnM3Ym1LazFiM3RfTlo4QldZcFEwbFlRd2w?oc=5",
+      "title": "Simon Property Group Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPG/history",
+      "title": "SPG daily price history (Yahoo Finance)",
+      "snippet": "close 224.35 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

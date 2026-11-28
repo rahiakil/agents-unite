@@ -1,0 +1,109 @@
+{
+  "ticker": "MTB",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"M&T Bank\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYlF1LVlmb2NaYXpvczc1UGw4WTRiM2xHR3dXUWs5cW5KekFVWGtRQmtzT1BfbFRIeXZVTVNWcFVXdE1TU3ppZS1zc1NWdV9IN2FLa0NTX3lCZUVGdzJEbmhodUV4ZUtzNHZ6ckRHTzc2MkJHQl9WX01fa1F4X2VRMU5oY3hBcHBmSmNiM0RrRDFQZFlLNDZtR1QwdTc3cDJEZTlr?oc=5",
+      "title": "What Does M&T Bank (NYSE:MTB) Latest Dividend Increase Signal?",
+      "snippet": "Kalkine Media, 2026-11-20T18:20:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-20T18:20:00+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVjMtRnMteWxEWUlWOVR5UDdqOWxZX3djXzdDVXdVMnBQVkdpSDNrUEFUREpFVi1IYnFNckxJRUNDUWtWaWV4cXNBaWwwMVJ0aENOMmIxUTNveE81dWpRNS1SeElqNzUxUWpWMlNsN2pOcVhFLWZ0QjE3MFctR25rZ3QySktRWmhMekxNRA?oc=5",
+      "title": "M&T Bank Corporation (MTB) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-20T08:57:16+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T08:57:16+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM0xNOUNKTXNTLWs3VTN0dnNxUFE1ZTU4OWRrMVFKZkgxZmVkd2h5Y0hvUlhNRk9ucXY4RkJISVdIVFNjdHlTWDh2Tld2LWhjQk9NbkJPOExPWWtjdHVLd2c1S1lMbGo4c1dRU3NqSUVJcVltWU9ORE1BRGU2RHFuZmRlUFdPM0UyX2RzaVQ2d1Z6Zmw2UGV6bEVWM19heXAzY2VPS1dfdUk4M2VHVXlJWG9ZZXV6eEw1TEl1MEMyMWI4dTJhcjU0cmlqOA?oc=5",
+      "title": "M&T Bank Corp. stock underperforms Thursday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-19T21:56:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-19T21:56:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNalNfQ2VpVUd6cmhXeThjd3h1UVFmeUVqTXJQa01BbGRTaHUwYUJXdkpyZ2xTdk83ZnhlRlcwUU0xa1ZjT1dDYjE0TFBxbThadlZ5S1RqZ1BHd1JPUksxXzN4VHNTX0NhMFJ3emVFZURpb2dDaDBMUEFjd0pXMnVtYW5JMEUxcjJPOVpBTlNLVzE3djEybi1BRDlBdE5lUExGR0w5NXMyeXRaNVVZWDZWTENoMXk3V29ndzlwZkpoVjR4dk0wQXR2bw?oc=5",
+      "title": "M&T Bank Corp. stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-17T21:56:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T21:56:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbW1FVl9JNjE5cno1YS00SlowZW05LU0tMkNyZVVXQ0R2UThwZjNQU2hwVURzZDB6cHZta3hnN2tsaW5JY3J1NUVRWXRYM3loQnoyN0hPV3NJVElsWTBIa09mZ25JRTI5SUVSaXhqbmtoT0xzcmNkODFfQU5idE4ybmlPZEI2Nll3QTJwaUh6c3hQdjQ?oc=5",
+      "title": "M&T Bank Raises Dividend 20%: Is Capital Return Sustainable?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUE0wMDN1emlYdEtPMFJTNUN1ejdScGkxRWpkeUFFaGtwRnZZUVF5bklBZXk0Qkswc1JIY1UzYmlGZGpIU09GQ0EtQ1E2cHJTR3EzT1VLTlJ1NFpZZzYwR1B1ZmMxWmp0WHVKend1NThiMHJyZF93ZkRDU0VNSWZ5dzE4RkZmdTAtWF83bXZsb3ZXN0ZLcElrUGg2VUlHSUtPV3BFZzhpT0ZvcG1HZVk0MVZZdGFnQQ?oc=5",
+      "title": "M&T Bank Just Raised Its Dividend 20% as Earnings Support a Bigger Payout",
+      "snippet": "24/7 Wall St., 2026-11-17T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MTB/history",
+      "title": "MTB daily price history (Yahoo Finance)",
+      "snippet": "close 208.3 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "KMI",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kinder Morgan\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdm81MVFhS0V5cjgwTi03ak9rRjVZbk5KNzZGTDhDYUQwRThtMHhRZ0FaWUpqUnJYcS1mQkRaUWZTMUw5OEYxQ1ZrQWx6YjFLYUpEOGV1OE5LWGNGVXRNN1ZfdDZyVFk2blhVTFUyRE96emZCbGVQd1JjaW5nYXRCdzBVM2JsOG5zOVZrYlNCX1hPTGUtcVE?oc=5",
+      "title": "Why Is Kinder Morgan (KMI) Down 7.8% Since Last Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-11-20T15:30:06+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-20T15:30:06+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSGRjREtnOHJOb1JsbWhUR1E2b0toYUl2d0FZTGdzaE50RlBLUUV0cTVMU3I3dFFmLU5YU0lLVi1JOGZVT2plX1AtMi1GRzdYNkh0WXhRb000cVpLaEIyVDljWk5rbEJ4S1NwM3FTd3hrMlluZm9tUWpINzhhbkNHRFF6bDhLYmM3WEpPbkNnU2VzYTdoNzdHWWktbHVMUmpWY2xCSS1GbXo4UFBEZ0hIbjdPci1SX1pGaExsc3NSWF9vQm5ERUZMN1Z0TER4aTVwZTZUV2hGUEh6alJYanV5RkNXRFkwcU5ua2w4Mw?oc=5",
+      "title": "Bank of America Securities Sticks to Their Buy Rating for Kinder Morgan (KMI)",
+      "snippet": "The Globe and Mail, 2026-11-20T11:38:22+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-20T11:38:22+00:00",
+      "published_date": "2026-11-20",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KdzdCWlhQR3RkZWRpdHZPb19uaHFzcHVVLUNMcG1uT0RZeEVRZU9lVXRpVGNGT0RJY3I3c0dBVXoxb0NJamR3eDhBZDlPZ3hNNFJpZ21TQmI1a2RlSk4zNDJ2VTQ3MkIwY2M4QlhxRFV3TjR6V1B3?oc=5",
+      "title": "Kinder Morgan (NYSE:KMI) Stock Forecast & Analyst Predictions",
+      "snippet": "Simply Wall St, 2026-11-19T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-19T08:00:00+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcE05VkNjT2RoaHlXanhYMGtRMmZrdVdxWGFsb2JDd21uVFhaWndTSHJZZ1duX0dqbER5RnExUnA5RVVfT3lFQ1ZJUnp2OXlOeXVScUIxd3BGUk44MEFVb19veXBxMWRGQXBBeGxyQzVXVlc2MVZPVUtQdWJ4UE1IcHZ0ZHZwOTcyMXVHSkh3Y1RKdW1DSmRTTTVZdEw0NmpQZXZrZEtOTUNtbHVKZUNTZXZ0VmpXQWxLRlJ2LWdvemdYY2swaHfSAcsBQVVfeXFMUC1JZEZhbWluWUV3N0pHc1BVSzZHVGlyS2pqOWVsRlBZWUxQNWljTlQxQzlZNUc2RkJLYmNYZDh1YlVleFdFRWhmZ0dJN0tlYVdwc2l6ZTJ5aHRKTExLd0hIZXpZek52TnMyYWs3S1pBRDdybEw0T19iUDdnQ0hGR3JNN1JYdzBXV2R2bUppNmxZYWZEeGhKb1RBUVFXTVVLcG1ud0VCQ0lUYVItcGl6TWlzQjhERG95MEhuOHdjU2FNUEt2eHFXbG1pLVk?oc=5",
+      "title": "15% Below Fair Value As Kinder Morgan (KMI) Leans On Its Gas Backlog Narrative",
+      "snippet": "Simply Wall St, 2026-11-19T03:21:40+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-19T03:21:40+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.784,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX1FRNnVMY0RPb0NjenFTNEdBdEtIam56dk5zdzR4SHpvdkF1UWh4ZWxJWXRoNk55Y3pqU2VueHctM2ZxcVAwV1hCWlVxN3J3NTBpdDJBa0lpbl9hcVdwM1kzeW81VHhTZFMxN3dSVUJNcGZaZXR4WGxudE9xY2RDRDFCakhpdUxHQy1VaklLNkRNRURqcktwWnhrOUZqZEo4UVVVTnpKZFVINTVWV1VkSjUwOA?oc=5",
+      "title": "Kinder Morgan VP Garthwaite sells $48,913 in stock",
+      "snippet": "Investing.com, 2026-11-18T09:57:41+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-18T09:57:41+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KMI/history",
+      "title": "KMI daily price history (Yahoo Finance)",
+      "snippet": "close 30.36 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "WEC",
+  "date": "2026-11-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-20",
+  "news_cutoff": "2026-11-20T21:00:00Z",
+  "generated_at": "2026-11-28T01:09:07Z",
+  "collected_at": "2026-11-28T01:09:07Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"WEC Energy\" stock after:2026-11-16 before:2026-11-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYUdZMGxPUUtBbTRzRjIzeTV1SUlrSWRBbEFtRUZMQl9OT0xvZkhIdFBjNDZqc1VGV0pLRHhLMTBNU0tnZnJ2VkJjbzhYZF9WZDRrNVUtVWVJUVhFcVdIWEJ3MU1kbHY2TF9hTWxmeDc0SmpmdU52ZWZUdU13emlBZ1ZjeTVWNHo0MUM2d3M3c28?oc=5",
+      "title": "WEC Energy boosts 5-year capital plan by $10B t...",
+      "snippet": "Pluang, 2026-11-19T17:22:58+00:00",
+      "publisher": "Pluang",
+      "published": "2026-11-19T17:22:58+00:00",
+      "published_date": "2026-11-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdFp0SjNqajJVZ3BLdkZ2cDMzODJzVEZtekM5dlBKWW1rYXg2bFFwaUNYdjNPSWJZbnFvellzV09tQ3NlMHN1MUNNaXV5c1dONjQwMHJsWFcyaXpUbUhXUVZSeE0xU2NVU2FoS0dVU2pjSHdib255bERtb3VUZzN1dTRNNXI5cGxrUmY3ZlhoMUlmLWwxY0JuMWd3NHVJZTZ1MlhKTnltb0pzck5TdVJGeXVlNnEwUnNhVmkyR0xLM1d5Zzk4ODJzYU03eG5rVkhBMGNibjl5UElRaG9JZkFmR1hkSTI?oc=5",
+      "title": "WEC Energy Group Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-18T21:54:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-18T21:54:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWG40eGF1YnNtRHVjUk5NMlc4LWw2d0pzX0djS1F6RGs0aXpHRE5YYmF3NXlna2lZNnVyeC1wUldiQXNPamF0WFp5Y2lkN3BjV3V1RmQ1cnpDbW96UGo1TmJab2ItSlVEc1Z3SHF6cVB3U0dTOFFwYTJuYlh1STFvdE9ueUxsUWt5SGJwbFdoc2RWRTA0bFJoN3ZpRXA?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on WEC Energy\u2019s Stock?",
+      "snippet": "Yahoo Finance, 2026-11-17T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000112/wec-20261119.htm",
+      "title": "SEC 8-K filed 2026-11-20",
+      "snippet": "items 8.01",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WEC/history",
+      "title": "WEC daily price history (Yahoo Finance)",
+      "snippet": "close 117.07 on 2026-11-20",
+      "published_date": "2026-11-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

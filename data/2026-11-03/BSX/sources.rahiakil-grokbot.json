@@ -1,0 +1,70 @@
+{
+  "ticker": "BSX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boston Scientific\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOemw5cllzZmtGaUhYTkhaNW8xSGVPc05SQm50N1VFRDRSVXF4NEFYVVdaMjlWV2VSNXhwc3VMZllETU9rbE1fQkNSZFRoUVc4MmdNaVRJZ3pSSS1LS2hXX2FCX1MycWFqUEt4WTM4NnNpTFNYQWdTWi13Y0FMMmJKRG9wOUtJXzRLRjhhY2VaZm5uQQ?oc=5",
+      "title": "Boston Scientific Surges 4.6% After Hours, Adding ~$3B in Market Value",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMXc4MkhUT2s5ZHliZkZjc0VBNmFFVm9BR1RfRE9wbi1kYmd4bEpxeEJiMC1EUHJYTmpIdUU5UHE0OEtQaWQ5WWFhWERjaGNzem9lRlBJclhxRkhDcVNzeHZQMjBZc2xGNUNJMDJwbWUwYmFJUTVOSGVydnZSYWkwUmZ3?oc=5",
+      "title": "About Boston Scientific (Stove Tokenized Stock)",
+      "snippet": "Coinbase, 2026-11-01T14:09:44+00:00",
+      "publisher": "Coinbase",
+      "published": "2026-11-01T14:09:44+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000070/bsx-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BSX/history",
+      "title": "BSX daily price history (Yahoo Finance)",
+      "snippet": "close 43.5 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

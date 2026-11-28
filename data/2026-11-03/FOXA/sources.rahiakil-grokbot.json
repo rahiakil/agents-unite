@@ -1,0 +1,103 @@
+{
+  "ticker": "FOXA",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd1VERHFCc3hZMlNTSUlkMGtER3RxZkdFMGFwVEIwU2JsSnlFaXdER1dvUEtOMjJpYVFselR3dmFJVUxncE9tendQalZTTWpkc3dhVFcwS0Jaa1R6VHJMNERHODRTQzZrNmcxUWhOY25XUlBUVXdYMkI1TEg0QXZ2bnFhU2pvZGNFSnNPQnViNmtIVktRWXJGVVVacExGTGF6OVYxMnhuR25HRUJ4X0RZcDkySXZndXNHMlJxS2RxY0NycURrcENKZ1NVcHd6clZXam9IODNOSWJDUQ?oc=5",
+      "title": "Fox's Advertising Revenue Explodes As World Cup and Election Spending Deliver Windfall - Fox (NASDAQ:FOXA",
+      "snippet": "Benzinga, 2026-11-02T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOa0huS0tzNHl1SHNDZV9DVlpBNURqSVNDUjEtSEpkN3lSQzlLa2FVcmMzVWpOcWRhOE03NlJsaHFaQ1cwVkNuOWxlY3YzUGQydnhYeHgyZHpQZVZaVnNMakFneC1WeGhOcWdheGY3SkdlNEp4WXNYN3dnbE1rR0RuX1RPNWZpMERUcEFEdEZ2R1FRNWtoaWNNWkRtUGdyM0swZ0tCLXFpTS1WRkUycE9hamhpbjNDbk5NS3Rpdk53YjFkTnF4?oc=5",
+      "title": "Fox Corp earnings up next: Tubi growth in focus as Roku deal looms By Investing.com",
+      "snippet": "Investing.com South Africa, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com South Africa",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGYxLWxkV01SakFSeUxlanc4UTBjMVdUOFJDSjRpRjFGWWxuajNUTjBvMThqc3NEMmtXZ3ltY21ObjJfb1pKLURPOW5MWVFPeGhnc0Z3d2x6OVAzRjYyVnhRaFBRbkZzOXFLYjRnd2tsS1hWazA1UVhjNnplRS1XTnRrTG5aZ2ttSUlOTm1OcHg4RUU4WHZlWXZWTWRPaUU4c0duWTZLdw?oc=5",
+      "title": "Fox Corp B earnings beat by $0.48, revenue topped estimates",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVXZvb0V1X05tUEdIOG5YMEVMV0taS1BoSE9HMVlaUTdtYXNFWHRiX1BJeTlNTEMxdktSTWNNSkIzeXEtSXhheU5pa0FuODhGUWdpZ0J5enRWak80MFZwZnZtV2J0aHc2QlBZT3ZJcWZjSGdFd0wyTDVYalJJTlNOWEduOVdPWEN6LWtIMmlFaWthWEtKdUhLOUp2TGpqR2NYaWhuMTdTWQ?oc=5",
+      "title": "Fox Corp A earnings beat by $0.48, revenue topped estimates",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068663/fox-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068670/fox-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOXA/history",
+      "title": "FOXA daily price history (Yahoo Finance)",
+      "snippet": "close 67.1 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

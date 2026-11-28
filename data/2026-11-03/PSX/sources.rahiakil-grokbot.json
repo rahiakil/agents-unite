@@ -1,0 +1,85 @@
+{
+  "ticker": "PSX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Phillips 66\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUFlfRUVOUmxMNEdZblo3NFUxZG0wS0dLTGZQMmZOQTNZN3pLeV9NMmwtS1VxektuZFpXV0M0TFhPakw0clFGdm45eU9rdVR1YlpvX0FDSXgwZW9YSXh0N3ZwSU5ac09iWXBKRnZlOTU5eGtFc0ZTTktRLXRNTndBQVhzS2NGa2hFclhaRHNmVXhxTklsLWE0bERvMTV2SjVkd2VndFlKYk5fZDFtQnhMQThhbXlsYkhORGJCMjZRUUJkaEZHdHZRcEpycUI?oc=5",
+      "title": "Phillips 66 stock faces Freeport outage after record refining quarter",
+      "snippet": "ad-hoc-news.de, 2026-11-02T16:02:36+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-02T16:02:36+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORzlCVkU2RUF5UHk0ZE5MdlZPSzJPRU5lWEl4LWlyMFRuaEQ2V2gzZlYyZG81bWVkcjZ6YV9oV001YkEtci1EYzltU1RRVzZ6RjAtVGZaSVdGWklxc2d4dUg5ZGowYk14ZHNnV1ZmU2ktR0VUcFFMRWQwMEdYemhtR1ZyVEtsUW5ibGxUeVdiN2g1d1N4UUhFSQ?oc=5",
+      "title": "Phillips 66 (PSX) Just Flashed Golden Cross Signal: Do You Buy?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaGE2dGVNUWxxU0R5cjE2MzFvVkxZLXVyQnlGdHB2R3JwR0t6YkZyNk9GdWVnR25ENzRhc2hHMkF3aEQtN3BRMUdMV09RYlhRZGhyR2xzbndOWmtRaWhjR2ZZREZoX1RhdW8za1I1SjdjNVVCQlhDdGR4bm1jZTZSZXBqbmVxbno0N2VlVDh3b3RiMXpBWGpmcVZZVlg5TUVyaEwxangwS09UZlgtV1d2Y2U4T0NNWlZVZWJla1NKS2RwblHSAcgBQVVfeXFMT3JvTDJ2ekNBTmFOQkx5UEhvVUNISVJTSFFBOE5CVFlQSlpDdGZCY29hVk5TLXd3cWdpeDdqWDQ2N0J4VWNKNWktSS1LRFBzVVJzSUZHQWF4cGljamI2MUczdTZtR3RKdURJS3BsTmJnWUMwUUFCZ3gtbi1hZTVNeGttWFNUZHRVSURRVHJuSGs0Wmk0R3c3azFOMEQzNUhFTG9WNEttaElPbko0cEtFRl9xSGEtdlpEME9zT1RmZVRHd1NvaHhJNzE?oc=5",
+      "title": "Phillips 66 (PSX) Declares Force Majeure On Freeport Butane Exports After Outage",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmJGYWhybmhGMHhlS3AtSDRVTEFIamRFUXAtV0pYbGItUXBUQ1QxTG1IUy1hNU1vYVdMeVdqZmRpckV6a0R1QU9rTUFUZEtUaVV6c3BnQV9MX2d2MHJ0dHctc1d5NDR6cXhaalk4Unh4U2Y0S2hCNnVqbVEweHNLTUFoSUR0TDRDa1l4QWVsc0Z0X0pWMTQ2eGVkTEZSU3NCNXpaT0ZBVWl6QjZJZm5SdXNyUlBLSTA?oc=5",
+      "title": "Phillips 66 (NYSE:PSX): A Quality Dividend Stock for Income Investors",
+      "snippet": "ChartMill, 2026-10-31T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSX/history",
+      "title": "PSX daily price history (Yahoo Finance)",
+      "snippet": "close 271.94 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

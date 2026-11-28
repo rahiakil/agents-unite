@@ -1,0 +1,79 @@
+{
+  "ticker": "ADM",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Archer Daniels Midland\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNE5WdFExdzlfWU5GYldMb3c4dVVwSF9Gd3J0RmN3NGxUZ0hYejJHTW9uLV84ZGpZOWJWWjlXS1gwOGM4MDBfWkpvN2JjcTc4NnI2ekdielJRNEdEbjFyWnVHaFlyUFdwNE43eC1YRHRDdEZ3ZFNVWW1QcUMzUUFFQlY1QUt2SXZpY1J2ckppTGZYOGQ1WnZYMTJWeVdFQ3hKVWNvODI4aW1oVWJFTFhaRFB2YXBpMXdVdFFrRkNkNV9DVU5yd1l6ODRpQk53OGhzdjNKTFlvS2U5Rkk0QmVtZXdTWmpUbEc4UU12LWNVRQ?oc=5",
+      "title": "Mirae Asset Global Investments Co. Ltd. Acquires New Holdings in Archer Daniels Midland Company $ADM",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONHJZU19Ha2VEdTh0WXpBSWhVcHNqSjZ2MlRDUGw1YkJlS1lRalJrNXkyb0wxd0hjUDJwY0xGLWRhUUdKZmUxQzhKVXJKYUROWDAxSzFZWFFRU1dCeVlhZ1dDSXVpZnFvR1dWTERRVTQ5c19tQW5ZNzBqWmFlZUdWdElTd3ZDQ1FBSkN3eE9LRkJnZFhtUDhFclBoU01XUQ?oc=5",
+      "title": "Archer Daniels Midland (ADM) Stock May Be 34% Undervalued On Cash Flow",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000054/adm-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/7084/000000708426000057/adm-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADM/history",
+      "title": "ADM daily price history (Yahoo Finance)",
+      "snippet": "close 70.6 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

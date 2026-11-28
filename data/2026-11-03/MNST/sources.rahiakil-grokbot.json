@@ -1,0 +1,97 @@
+{
+  "ticker": "MNST",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Monster Beverage\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRlZUZVJCM1VWMzFqdC1LTDJ6ZVNUeTZoSS1TRUNaSWdIWUFDUEo2eV9fbm9vRU5iQTktQ3NJUllqNjRiRDRxRVdNRm9SOEtoRTJHcEo0Qmczd1c4dmtvUUJlSHZBVVZLa1RkejhETjRfd2NPZnB2dWFZUDFkdnBhZnlxQldYR21lZERma3BhQ01wX2VZSFJlbFdnbVdiZF9jaTRnNl8ybG4?oc=5",
+      "title": "Monster Beverage Stock: Analyst Estimates & Ratings",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUhtd0JlV19qYW5qNVNwWHB2S1Y4NDFQMWYtazlWdjRyU1AyYmdZR3FUZUVMdi12VjQzLUJ6cFVTazRlcHpicXB1UkQ5NENGanFEdUctN0tCNXNvRTZlY1FBY1Z1WjZtUnRzaWZ5VVMxMmlVcWZXM2lDTDdhNUtrXzFmQXBkSVJGWlhyN21nLThscFpmVl81ajdEN3ppSjU2aVE?oc=5",
+      "title": "Monster Beverage Q3 Earnings Around the Corner: Is a Surprise Brewing?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa0ZfT2ZyM0tBQmZQdXJxY1VpcF90aHRCYUVjM19GSGkzOW1qbFFmYkdYdkRTbEJjb01jSG5qdldyZDNYVGZ2MkswcFFxMm1ZNThpeGhyVEp0YUc1dDVWaFZleEdILVh4aDk5M2NZdG5YYlExWXhiN2pDTGxkNUdWR1V1WGZ6VGVzVFM1eQ?oc=5",
+      "title": "Monster Beverage Corporation (MNST) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTGFCLXpGajRUUmxEbkFGZnp1R2JDUmpia0ZpTkN1S01QS3k1ZHNlVURMVHNLXzU1VlRNNlZFVjRqNFN6TDhvUEJyOWUtcFU3VHNLcG1CX0ZBaFVwS1RkbXpUSU5sVG5IeTN0T0d1anNmZnliOEEzUzkycWVFLUFrVDcyb0lXUm1RMzBIbHduLVJybHpYaVpLckRveXZMUjN4ZWVEcFFibXRTU3BWLV9jWXhWYVRaUnVWcklseUIxZ2lpSWc?oc=5",
+      "title": "Monster Beverage (MNST) Climbs 2.14% to $47.34, Pressing Toward the $49.71 Resistance Zone - ADD Alert",
+      "snippet": "siam website, 2026-11-02T08:00:00+00:00",
+      "publisher": "siam website",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXNqdklWd3VTNy0wOE5PNDJhQXd3bUpYWXpjZGpZMWNhakF3dnZUeHlpclBTenRHcEhwOGdmXzBOd3FHUGVIenpqbmtOZm45REZfcG51M3NwWHlUaTEwVjFocUpiQlVPeDQyVkcwQTU4MDlRVHducHlXWWxrZnJENVI1YzNJWWRIcUZ0MlVmcS1GZlYwSDUzczUxaDZtT25WbEMtRGpWdVR1S3ROTkhxOFF3?oc=5",
+      "title": "Can You Justify Buying Monster Beverage Stock Today?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MNST/history",
+      "title": "MNST daily price history (Yahoo Finance)",
+      "snippet": "close 47.18 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

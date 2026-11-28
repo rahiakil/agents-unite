@@ -1,0 +1,61 @@
+{
+  "ticker": "NXPI",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NXP Semiconductors\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZjlHZUNiWUxydC1VQnh3WjMybUczR2NyZzhnQ3MzMVU1M1c0aVh2RXlTMUpuVjZBZWdLX2wtbHE3M3NaSFFSclBtblZJOUFFQWFmNElBLWJWZzFnMElvR3ZfTTdhZmZPN0xwdjBuUHAyZUFGUXdDeF9mS2dhYVRqRU16ZnFDanN5QVJlRWpuX0oyMXp6YWxES1pHbnlUU3ZTdWRRVXF6US1jQUpsLWhCdlc1ZEozdlhYUGhmbGFodlQ1d3RsTEtFc0lRNXRCcktQdHRHbW52cXd2SFXSAeABQVVfeXFMTk9XSjhCZVdlUnAxb3BQM01sTzVGUjJ0dG12ZDdpamxWN29kak9SaW9yZFRCR2J3UzJ1MWhMY2R1aDBINWRCX2VnVFQ5UW10TU5UZEhJelJsUHZQVV8zTU9TdFY0VEllbXdxOGNjeElHSkpOZ2h0eHQxRFN2WDdqVjl3RXZud1hrSklNZVhSMXByVlZ4SUFBSEt5enhKTXFtWlN6ci1MSkdrUlZFNGxSaEV2eTdVSVJTS0NHbllFZk5Xa1I0amNuM0VOZG0yOXhHRGFFU2I3SE1BMU8wUzdSLVU?oc=5",
+      "title": "Learn Why The Bull Case For NXP Semiconductors Stock Could Change Following Earnings Beat",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NcTE2eFZfbUhtRGQ4eTlPM2IwRXJPMG5aeVhCZ1psRm1uRFZteGEydTIxN2Ztak5qZnUxUkZHUDBpcEVveW95cUFWSVZBN3d5dm9ubWVuM1h1T3Q1Ri16UmJ0SjJ4Rm1YSXJzZmZqNUl0TkxtR1hoUQ?oc=5",
+      "title": "Ambarella reportedly enters exclusive sale talks with NXP Semiconductors",
+      "snippet": "Crypto Briefing, 2026-10-31T07:00:00+00:00",
+      "publisher": "Crypto Briefing",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NXPI/history",
+      "title": "NXPI daily price history (Yahoo Finance)",
+      "snippet": "close 262.79 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

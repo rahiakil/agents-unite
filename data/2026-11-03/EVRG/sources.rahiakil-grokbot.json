@@ -1,0 +1,49 @@
+{
+  "ticker": "EVRG",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Evergy\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYlh2NG13TWtoVW5TQkFiRnJJS0hkYmVZU0VfdEYyeGZxOEJDN2FmaFI5YnEtcEg0eFZLLUZEQ1JZSGdfWHdPUEp2MFpiZnBsQ1JaQmUxQ3lKOEdwZnJ0Q0lRVENsUXQwdURFaWNsdzd0aEdkeU1PNGtsWmlKdV9CNWhoSU5VaElQX3lWa205WEFZZFUyeG1YREtBM0ZSNDhJTmZQSW1EQ1I4REp1dmlNaE5nc1BXZzZMY2R4TWU3aXBOVnNOd0huX0pYRkNmLXc1UkdzRlF2cWtUaU5UcjlzWF9fb2cwdw?oc=5",
+      "title": "Evergy Inc. (NASDAQ:EVRG) Stock Has Consensus Target Price of $90.00 According to Brokerages",
+      "snippet": "MarketBeat, 2026-11-01T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EVRG/history",
+      "title": "EVRG daily price history (Yahoo Finance)",
+      "snippet": "close 85.45 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "HPQ",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HP\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 50,
+    "no_date": 0,
+    "after_cutoff": 31,
+    "before_window": 10,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPalEtam9MVndhQjdEY1N3bzR2cUpqMmpROUpfX3JPeURONHpFYmtxeUplSEtYTFN2YWIyUGlsMmhDNVpDUUptZzFVQ2JoRUN2Z29lc1RqNTRpWlk0UTNycHNXcWZBazRHVDVESHNpcUZHRS1Vei1abTJSNVRVUXN1TnNKX3R4NEYzVFU5QTR6YkxEWnZRaTVBNlo0c0ctelprcEpEWUlrUkcwSnBzM2hXRHZtZTDSAboBQVVfeXFMTjVvcEN0bW9Tak8xZW9xTWFNRWlxV25Hd28yWHNXYndaOEhwa1dsY1dFMUg4c2NWWEVDSE5oaTROOGxoVWNJbkI3d3duYklSU0c1OURfUEcyTEhFazhoQkRVMnJLeGJWUnIzUUN3NHVNZkFNWGRXRlBiT2ZFV2dJZDZDTHgzVVZFTkFtWDlyTEJJNEVCVl9sX0Z6Vm84SDFYVEdxWTBEb3Qyel90WnFHZW96b05DV1pCTWRn?oc=5",
+      "title": "HP (HPQ) Stock May Still Look Reasonable Given Its Cash Flow Base",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObjhpcW80R2htSEdnMkl6UU1SYXI2ZmNIWFliRFhJRzlwS2NSeG1TTG5Jck5LRVVqclZfWVNWLUxwY3lHUzNjVll3bzl4YkpkQzFlUnpDOVZTZEdfY1MtcFROMjZxNW1UbE1EeUxQS3dlUGJldW9PWTIwcmthNVA0dU1YRFpFa215VTNoSw?oc=5",
+      "title": "HP (HPQ) Could Be 5% Above Fair Value Following Its AI Workstation News",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdTBwSlFFaW0tZjloRkh4eHRkZmlQY3ZPU2Vkc3V3NC1ITXhKNFJvNkFrSEJIa051WjMtWUE0TUtUV2V6TUV4SmVvSjBnd0lZRlNEZUZXcmdYVE9FSno4b0NudkpoMDhReEhmZ3dPTlZsdWNMOGRsTmR0MjE4OUF0NXpLQkdWYm9EcnE4aFozU0NYSjNy?oc=5",
+      "title": "Why HP (HPQ) shares are sliding today",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVExVHkyc21sYkxFS1RjX3MyZ09CM0tNWjE4OUdWcC1SWVJMTkFlTEZtejc3Wmk1SzJiQ1ZVRWtoWXJOUWZ0ZVZURFdfM19LS1d3TEhKOERPVWpQSkdvZFE4T2NHYTlVdEhvV0d0NkZYeS01aERBc3FvQjBVWlZYeWJzcF9FZW1XMi16cjg5MA?oc=5",
+      "title": "HP (HPQ) Just Doubled AI Workloads On Its New ZGX Fury Workstation",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HPQ/history",
+      "title": "HPQ daily price history (Yahoo Finance)",
+      "snippet": "close 28.27 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

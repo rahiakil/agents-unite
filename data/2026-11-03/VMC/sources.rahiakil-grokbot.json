@@ -1,0 +1,61 @@
+{
+  "ticker": "VMC",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vulcan Materials\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY2d1NjN4dXNoTnJwY1JtUFRHUm5JY2JxQ2V3WHpYN1VTMm0xUmU3eV95SWtra3JacXJTYzE3Y2RZa3FrR2lISms3WmtSdlJpMHoxaEZySVgxak9xTWVsc3NMZ1IzcWxfZ25NeXZ6cjE0bkJoWDdHdkpvT2UzdHRmYzQta2Q1bk1waVVmTkdqb1lYLVEyZHZub2dfVTF5c3dmZ3ZvV01vRUZhMDdWZVUxSWRVY3VKTm8wYWpVUEhuQVhuZG5sN2c?oc=5",
+      "title": "Vulcan Materials (VMC) Subsidiary Receives MSHA Imminent Danger Order at California Quarry",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.527,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWC1peHBzSTM4Y1JJbE1MeEllZHpFLVFMYnlqOGlyZ0xmRzJna3JzTEpCTXI0c083YkRUUUQwRUlPV2FEMEF2Z1Nfa3pGNmhGajQtWDBaZnQ3Y2dOcEdnQ0V3NmJGLW9nN0tjclVOSGl2dlhfZGtuSUMzUWZGS2VyZ1AtUVJXNUM2STU0MTFHSVgtU21DWVJKY3g5WE0?oc=5",
+      "title": "Vulcan Materials (VMC) Q3 Results Defy Energy Cost Pressure",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VMC/history",
+      "title": "VMC daily price history (Yahoo Finance)",
+      "snippet": "close 284.6 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

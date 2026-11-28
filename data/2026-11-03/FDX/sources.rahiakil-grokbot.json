@@ -1,0 +1,121 @@
+{
+  "ticker": "FDX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 44,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 20,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEZpM0xwNE9PT3BjbVlhOUdjU0ZqcGRkZGJPQ2ZKS19pRXB1S1hpTlBjMzI0T3NBXzhoVHhIM3JQOTA0MmIteXU4YlE2OXhieWllYW9BMG1LWTg5WXVLRG16WHJuakl4YnM1RXhrV3RpWFVxYWpGZE5oVFM4T1p4YlV1T2RjZXNVM3hQbk9hdzZrOERrMkRzZ2ZjQQ?oc=5",
+      "title": "Form 144 FEDEX CORP For: 2 November By Investing.com",
+      "snippet": "Investing.com India, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMDFFRjBTN1gzbEpFWVEzQjJaMy1HS2p0VklDdURzSGRBcXdsdlNUNFFyXzZkTkliY2pZVlJXcEJ3WDN6XzhZZm16YUpFVDNES1QxZUJlTGFBMy1SdVVjTDg1ajNZQzRXejBXalVFN0hja0hlUGI4Q2lQeFBFQkJPcDNzZjhrODIteEZ4RXIwRHZNLVhFR1hXWHNxOA?oc=5",
+      "title": "FedEx Freight (FDXF) Stock Still Looks Undervalued After A 20% Jump",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQem5QTzlkV2RqT1JVTGlpbUNWYjEwQlZqNEVzMmg3dnJob0paQV8xaFAtQlpYdFZ3djdpc2pTN3JjcURwOGdqZ1BsMFhGLTFDZ01nY0g5aXZBamllamxMTU1FWVAxRzJKZzRYR2dmVXlscm01TlV2SVgtS0pPZHFtU2YyemM3YlA0ODZsc0dob1ZNc0dfcDdvZGlnUnhqU18zbzRlTWhWcVJIaFZ2eV9aR0pYMFVXZmJkcXRBOFdCR3ZsaHcxdkHSAcsBQVVfeXFMTlh0TEh3NkNfMzNLcGJXdDkwX0RuVVF0N1dpZ2RsNFhqNUxfSUpXNU5nSmZTTUF4a1JpNjJGazRZcFJ3R3ROU3h3NXRuVjdEM1Q2NFdYdjd4TVJ4UE9UZmNRUVM1Z2pFd2J0WEZvOWlvUFN6cHBLUGkwQVZYRFlPS3ZzeTRCSkZFdjVmNVNrd05sUU9mYWpxSHhJbWJiSXktMWx5YzdBNnplTHN2UzJ5X1ZRcEFNRnBNMDBSRXphZmYyS2NpVzh4RHg2cjg?oc=5",
+      "title": "How Investors Are Reacting To FedEx (FDX) Raised Full Year Outlook",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOHh3b0J3UU5XUXdIVVVndG9MUGtndEVjTVNkaDJLdlAzLUhKdDZWTUQyTGNDS0FlYXFfOFJZZ3F2R2lxNFZnQ1lsd1RMWkVQS3cwa0dmVDB1SV9VUDhpSE01MEVEU241Wk1MeTdpODlxWWdrTTRkNFowXzJZaFlHNURLdXU0THBDY1FqSklnWlBWYk0xaXRDTDUtcVktV3ZmZkNkOVRXSjhoMGt3LUJCSUZ0T29GZjh4eTRJeHM4Sm91OTFrcldUN29JX0s?oc=5",
+      "title": "Form 4 FedEx: Tracy B. Brightman (EVP - Chief People Officer) For: 30 October",
+      "snippet": "Investing.com India, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORWd6bnE4T2JrQkxLYjFBX0VUWUZuaWZldzlhQ29xNVhOUGQzSDI0aXRzZEdPcUJjeTAyaW9ENXIxN1JjZlNrOS1LbUFZcFVja05jSHoyZE1ZRTZKWlgwbE5LSjZFdWxSWFFuZ0dhbDdoeEJBbF96X0kxaXdPT2NSckR6NWhmX01HN0F4dlEwcmpyVHdCMGc?oc=5",
+      "title": "FedEx: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWw4RXJSazQtdGx5dV9HQjBuUnZQYjZPaFhBTjFNM3oyUlM0WmJCb1NfRjBLSXJuaEFUaDBHanMxY2RGOU0tUWFOZFROZ1lLcWtaV0xKQ1ZPR044RFFfb3BJUXdjQzlHVTVBRmxvbEZMZlVGVkRVSUoxYzkyUURSYW5zNzZ2NGxUNXZMdDRybVlTX1E4bUtxUGZuVzNZNjdnRC15c2hjNGxwX0FLN2lJbnQyVUJoMTg?oc=5",
+      "title": "FedEx stock gains 4.4% over week as 2026 outlook rises",
+      "snippet": "ad-hoc-news.de, 2026-10-31T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXNTZy1oR2VTcnAzRERDa1psTjNjZDNXdUVLTmFfZk94LUp5M3VMd3FfdlFiNk1pVGpKV0ZQS2k5LXZOdS16eElDazQxSk5zV2hVazJjZThQNGpEbnRQZVB2dHhDUGtfOHFEM2xzWXBTcHZuamR4LXZvZzJnZVY2akxVNmdHeVd0Y09mYTBRcHdWY3M0MVZHcEdyZWg2eHda?oc=5",
+      "title": "FedEx Freight Holding Company (FDXF) Jumps On Earnings Reset As Valuation Questions Linger",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 318.02 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

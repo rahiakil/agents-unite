@@ -1,0 +1,103 @@
+{
+  "ticker": "NWS",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"News Corp\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYVRqTF9yNl9kSEJYU3lUOGp5dkJlY0JNTW9CemFYLUdkN3dyZ0RuNWpXOWxBNFFLR3Aya1c2NlNFZlp1dHJLa203UU5ST2V1bHZyNXpOVXlKSnlpcjQ2VmN5UmhqNXkyeXBSTTY1TGRWN0NPR2F0SzFpOHlha2RUMFV5WVNQbXNpV0NGWE9aVnlVZw?oc=5",
+      "title": "Form 8-K NEWS CORP For: Oct 30",
+      "snippet": "StreetInsider, 2026-11-02T11:39:51+00:00",
+      "publisher": "StreetInsider",
+      "published": "2026-11-02T11:39:51+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2JXaURKTkhrVFV5RDhMM19tdVVxLXRzSG1xZFZPVzBGQmtFdDZrUlEwcjBtQWpVTF9aRDJ1aTFyTk5mSmx3NmdnN1FWLTBoMXY1YVZyT2YycUUzRGtidUI5NnZSMndvNVZiQU9SSFRlaElITTJPQXk0ZEtkLUw2WFhoUUE1MXdfdFpMTF9XdnVPUWJIRkVvZHJxclpZWGxUOHFhWm1aanlOeFJnVWtnRy1jejZ2ekQtdG05SEhnanlsOXpBWEE?oc=5",
+      "title": "News Corp Reports $562.9 Million Used in $1 Billion Buyback Program",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWV9NWVNQX2RGeHVETG9Tc2xGNGwxbzJ3TGlQSVZua3F0a0FLOVpyLXVPemhiWFc4Uk5GZ1k5SUhHWTAxVWE1cHluMUtVNldQUUpKd2xQekhJQ182ZW9STWxkczJVNkI2b2lheVdIdDlFUFNLNFEtejVFQkE4MzVJd1RfX0JxVGpqMlBfOFdRN292N2xQS0xqeDBIWFBKNEl1NVZ3eUhDQVRZZWk1MjZnWlRYV3JRSU9ZZ2pHWWdOMFQwUFFS?oc=5",
+      "title": "News Corp Cl B stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG8xTkp5UzFhSGRmSzdybHFSekFBVUUtR3BfYmZnbkZRbm9RaTdTMXdiWXNZR1IxYU03Z0dWRU9Zd1ZvcnFpZkFBcW1tWXFReFNiNy05STJzTFl3ZTBkZC1TVUt3a1VkTllvV181ZWF3ZDctRzFsM1JnNUdGR3FIYXdUTEJLOGJEQ1RkN1NDaFMyblR2VThhVDdXWU13TG5tVGlaY3RTM1dvbWxqVVByU0lDV28wZzQ?oc=5",
+      "title": "News Corp stock analysis as judge tosses Trump\u2019s WSJ lawsuit ahead of earnings",
+      "snippet": "Invezz, 2026-11-01T07:00:00+00:00",
+      "publisher": "Invezz",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000242/nws-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000241/nws-20261030.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NWS/history",
+      "title": "NWS daily price history (Yahoo Finance)",
+      "snippet": "close 32.06 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

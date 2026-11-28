@@ -1,0 +1,70 @@
+{
+  "ticker": "BG",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bunge Global\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR0ZqV3loa2lrSHpkRUY0QmNtZ0V3dW9XVmZmTHkxZ1RNdklobGw0b0YtMjhLWjdGU0h5SmRtRmQ1Y3R2RU5JNXN4RmVyTDhLM3VpbVktNWpMb2JCRDl6aGx3UlVHdXZmb2t4WDdrMndLYWE4NTV1T2ZQbW5FenUyaXZ3cXQ4b0tkNDl2WUhIS0xUd183bnVrTjJOY3FKYXllZmI4?oc=5",
+      "title": "The 5 most interesting analyst questions from Bunge Global\u2019s Q3 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.458,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpeVIxbkltNXBBTWFic3NRNFF3Tk1tb1l2T2lTbkd2Y2szRmh3LTNVdy00S3dkRDFUaFNubWhzNkpWb1JsU0ExSURIYkFxa1VTY3R4ek9zM1h0VXRYemhHU3B4Rko5WmIwWHpubENGWXRqYWNFM3Y2MGNEUUZQM1dUS251RURZSFdnN3lFQm1ZS1QyTDlWOGZrOWlYeVJWN3NtWg?oc=5",
+      "title": "How Investors Are Reacting To Bunge Global Stock Earnings Beat",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996862/000162828026069484/bg-20261030.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BG/history",
+      "title": "BG daily price history (Yahoo Finance)",
+      "snippet": "close 94.72 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

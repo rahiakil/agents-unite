@@ -1,0 +1,97 @@
+{
+  "ticker": "HAL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Halliburton\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTGMtSHhaV3hlZmR2OHRPVC14ZjUtdUhJMEdXS0ZKZzdYSFJFOXN3UXRqOE1mcTNJVkVHUDRmQ2NhN3o3b2xPVmgyVE1jSnhTcXNxeHUzVFNpUExIb2Fma184b3U1M1RpMlB6NWJXRWloNEZhMzl1UzEwbEN5YUdpdWh4MjFfSlV4WjlxNEwzdU5PS1VXWUNmR0VYZzlFX2p6emZuS3prUm8?oc=5",
+      "title": "Halliburton Launches AI Tool for Oil, Gas Investment Decisions",
+      "snippet": "Moomoo, 2026-11-03T08:49:05+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-03T08:49:05+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vWGVMX2xwZDhES3BXQ1J5TVMybi1hLXVUVF8tOHluNjBKa3V6UkhHZjgya1VQdnZJeTV4Y2ZXN292OTBqeHJDRXdkYUgxRzhKU2xFSDJ2M1VkUQ?oc=5",
+      "title": "Halliburton Shares Fall More Than 3% as Winning Streak Ends",
+      "snippet": "www.tokenpost.com, 2026-11-02T23:16:35+00:00",
+      "publisher": "www.tokenpost.com",
+      "published": "2026-11-02T23:16:35+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWmEtdWQ5b2xUVm54RDZ2V1Nidy1LSDJ3WHR0OFVMUVFiek9mOURybjk4VXdmVmpUODE2eU9aSEJQY3hjQnFzaVNwSFZZbTQ1OEx0c0VmbXVwaVlLNzBvU05BLXFoNnhNb1RGOW11Q2NtM0s1TF9QcWpiZTAxUnE5VmNXYWxhaDduRVczWkdxUjc1UW9BRURhRzFRWGcyZzVwbUt2bnRWWW4xd0QyWVQyZmd6ckIwMDFjRnBUcEduQjhaajdEaDJzVlYwc2Y?oc=5",
+      "title": "Stifel reiterates Halliburton stock rating citing technology investments By Investing.com",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZS1qQ0l1d0VyR0R0YjVJblpYVkZSTEI2cWY2RzFGNUF3YTItd29LSDYyZEdKRkY4bFFQY3g5TlhtYTV5dnZtbnZwYTUtZ2x6Yng2TTRUcHVfUUZXV1JKZ2wyeVlTZEMxUE5MOGVqN1lHd2JZRjRvMWNObjRCeXhXUFVBWVBINGxwR0w2aV95R2twUUk0ZzN3eGhxMDZrVGE5MUdzT1RZSXdBUQ?oc=5",
+      "title": "Halliburton ends winning streak post-Q3 as profit-taking hits shares (HAL:NYSE)",
+      "snippet": "Seeking Alpha, 2026-11-02T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQjE5dG41eWMxcGZta0tvbkFLcW13X0M3bzd1RkVWc2N3QmhwV3NYVkNoYnIyV3ZlSnpZdkhaRVROSmdPeG1wMXAyVS1VN0k3MFpmR1FPREk3NmU3Vkh0c0JsRDB1SlNodWthTHVwQ2VLUlJwb01kWTZtb2dQQnBSMnBObzRTdkpHWkc4RzhhSkFMUkk4RjdFZWtjLVdDQmpBWHRzU01xZUpnek5ueUE?oc=5",
+      "title": "6 Green Days In A Row: Halliburton Stock Is Up 9.0%",
+      "snippet": "Trefis, 2026-10-31T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAL/history",
+      "title": "HAL daily price history (Yahoo Finance)",
+      "snippet": "close 34.07 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

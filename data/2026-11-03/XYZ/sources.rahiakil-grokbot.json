@@ -1,0 +1,76 @@
+{
+  "ticker": "XYZ",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Block Inc\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkZtU0htQWRBM1VWTHV6LWsta1lxaWMwaE1OV001NVpTeVB0N2szWU1BaEVhZXgtWWhhOFBYN3lnOXdtd0FWUjlNUmN4ZFZITGRXZHRuZm1pWlVhNmVCdGdnM2pmVFlRdHBaRXdpeEQwOWhCdzRYWTJBRmVrRzIteXlfRy1ObzNNZDRiMmhXVW5fQzhzMjRLdTl0RXBaUGxjNDZnek11bEdwbzNvbVhwZ0lyenZvdw?oc=5",
+      "title": "Block Q3 Earnings Coming Up: What to Expect From Its Release",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/xyz-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526443728/d180541d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 5.03,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYZ/history",
+      "title": "XYZ daily price history (Yahoo Finance)",
+      "snippet": "close 76.0 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "NI",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NiSource\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 3,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWDRjbVFxbUdGblpkaFJmUHlLM2dQdHR0UUtHRTF3UEczVG1NUWpRTllRYWpBa2dmNVpLQXVXc0IwaUpCS1AyZk5RQUZ1aGZOZldxcXhmaS16bE9pTTZxZ2QwdzVEQi1iTTl1Z2pmX2d3d2pNd0k0N2V0SHU2ZnRMZHRsLUE4YzdQWG1rSVNab2Q1UU04V3dXcjZVRlVtanlVZVRhejVYMkJvMDJYbDIxcFRXWmJ1eFkxMGU2SUxTdTRVUQ?oc=5",
+      "title": "Learn Why The Bull Case For NiSource Stock Could Change Following Earnings Beat",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR291N2JxOUJrdEIwR09KTHpVMHhjNEJacGhqN3B6Nk5rckgxb0I5d3hZMkVBVnU5V0xSdlpXRlg1XzdaMkZlbTEyY2E2dHl6ak55S3FlZ3EyaWZ6X0Z6ckNLSkgzWlFOSHBnTmMyeU5xdmVzLUpOUFRvaFVxZnJSa1JkSndhb0ZyYVc5S3NUYmFqeXdtZDFudkdXSG1Wdw?oc=5",
+      "title": "Form 144 NISOURCE INC. For: 31 October By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NI/history",
+      "title": "NI daily price history (Yahoo Finance)",
+      "snippet": "close 44.62 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "STLD",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Steel Dynamics\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU1ZjZ1A1R0d4ZzVmVVdEZGlsQ1RNU3lxTUpUR3RLQUJiM0RZbUc1VXZqZ3lBY2V1UE1tWThDWjZhdVhPWTA3SzlhMlZBX0JsRENPb18wcFdSSjltUUw3LWVkTlEzdkFjRnRpZ1hya2NUTWFSTjFBU2RBRXdSY0c4Y3FRd1ctTG9qSWNDUThOd0wtYmU2a1hES2RoSGhzcW9jVHJnTjJEXzNSUmp2NDk4?oc=5",
+      "title": "What Is Putting Steel Dynamics (NASDAQ:STLD) In The Spotlight?",
+      "snippet": "Kalkine Media, 2026-11-02T22:34:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-02T22:34:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STLD/history",
+      "title": "STLD daily price history (Yahoo Finance)",
+      "snippet": "close 247.66 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

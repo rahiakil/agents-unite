@@ -1,0 +1,133 @@
+{
+  "ticker": "BBY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Best Buy\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 52,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 8,
+    "irrelevant_or_spam": 13,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEc1FTY1BYSzcxaVV3T252YXNqcXFGRDQ1VU5SeFVxaXBjNmVONmV3OHRMT1A0YnFvLVhSSElFQUt2Nkdkc1hlNHB4TE1rWURsTHVfbHhneHQ3UWZjalNDbVFMSkNWalNXRTZiVEF3cWtoT3NnQTdRZDlB?oc=5",
+      "title": "Ocarina of Time Leaks Early as Best Buy Prepares for Midnight Launch",
+      "snippet": "NoobFeed, 2026-11-02T08:00:00+00:00",
+      "publisher": "NoobFeed",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCUzZMVi1QZC1kNG5Qd2gyNzJUSnNpT3I2N05oTzV1YVpQOGo5UjR0NWJFeGFqY2w4alhfZlkxRDdLX3VHSFNlT0lUMVktVWl6a1Q4YW1ZV280MlpTUHJ3ZUtPNA?oc=5",
+      "title": "LG\u2019s 17-Inch Gram Max Touchscreen Laptop Is $550 Off at Best Buy",
+      "snippet": "CNET, 2026-11-02T08:00:00+00:00",
+      "publisher": "CNET",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRUNwNlUxSkpBbFVxeXQwSnJqblhxQWZvc1BtMWJEZ2Z6NVlLTFZ2d29ONGxncDlEUFJpWDBFcWplbm9vc2h1YlNURjBJeGdJT0tmWHI5VEtaeEZfN1c0TDJVQmRKU2dvancxcEE3eTdmMGI0cThkSjhxNXpTN0RCZ3Q3eDBuR1JQdms5Y0t3TWZpSnd4d2NhcGwyVQ?oc=5",
+      "title": "Fast-paced Momentum Stock Best Buy (BBY) Is Still Trading at a Bargain",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdFBQWWNnM2hLalZqU052dGlxOU5PMDN5a0NfNnVLOWtQa0w3SnhNN3NBcDV1RFhSendJdVpPX01PSURmaEpXSDZxa1I2YkZxTEcxRmN1MHVrM3RFREtZM0ZoUW9neGhTNVF3V1BmVy04UVRWcHVoT255S1FvVXAzX2k5dEZaaVJsdEhRS3FyRVVySXd1Z1ZxaVZzZnNyM0hNU2FHYVdsLXNMRUQzSTJhREkwcV8zc3VKYlhXLQ?oc=5",
+      "title": "Best Buy chairman emeritus Schulze sells $27.8M in shares",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.751,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWVpSQmZPa1VyOWxPdWNOTEtqelZLZ3ZZR0duWnY3eUVQaUZkYkpORjljS01BQmFOQUZFYVFrRnBLWDY5eXd5a1JwUC1JNnItZERsd0JoSENmOFR3dTEyekliR1lpUkJLMGlQNGIyYmxadnRJOVJXdFJ5UWlraDRUUVhUUEtKeGFhZzMyRnh2YmdGLVphRmFtcThIOA?oc=5",
+      "title": "$17,000 settlement didn\u2019t shield Best Buy from human rights award",
+      "snippet": "HR Law Canada, 2026-11-02T08:00:00+00:00",
+      "publisher": "HR Law Canada",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.827,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS1RFamRILVgxbWROVGEtbzNZU1h0VEw0S09sQVJhdDlzX1BEYWNqNmwtX21aV1h1T2t4d09KZHNZTDBnY2NLQ3ZSb3g2NkNTMnpKU3l0TVAza1UtbW0wWXRsS2xIQUx5aTJFX2g2R21EVmJZVmpZWmdFbnBwTFItOHo2WnRzUEZjM01MTHIzdzAtQkVvTEVwSTUyc1FOQWF4Y0M5OE5qVkFjOXAxeUNqZmstbXc3Z1k0MzFHWk5n0gHDAUFVX3lxTE1zTE5zTmNkV2VwUElFR0hlSk52Z0xCV2hiSVhmRHhZT1FFZkFyUURyS18xazk3enZGMHVlYzZPWmdYb1ZlQ1Fua2FRZVBjSWZLQm52VklhYmdNMVpJZFJFMG1DMi16VDlHZVlmX0lWQ1EzX25qQzE0TlZEWmJmSEJyTmhhTUJYZTk1NE1yZWREeWZXdVFFeGJ0RUMzNWxMb2Jtb05iQVc1OEtYcjlrRi1UbGYySHRzTlFCMzlGdHVkb0lSbw?oc=5",
+      "title": "Best Buy (BBY) Stock Dropped, So What Is Driving Attention Now?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa1FvQWZDWjVhNHg3SmFvSExJckRCZTMwd3hEeFEwaFRFTjBydHd1Z2JqOWJXSEhkenRTaV9mR1UyYmlraFBRMVNoc192emJJVXMxZVRxSlk0R0wyV0VBZkxqVGd0ZjJZa3ZrLXNSZUNVamxKUGxnRkRUeUtidWo2aUNsVFVhbHRjRnNhZ0l6aUxrTVRqRElmMDd3WHJyLUZ0?oc=5",
+      "title": "Best electric cars 2026: Which? Best Buy EVs to buy now",
+      "snippet": "Which?, 2026-10-31T07:00:00+00:00",
+      "publisher": "Which?",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.856,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6QnhyVW56VlpWRlN3ckNvUmJzUTIwblhZUzBGN2tHWERMU2ZaMXBKTXctS1EzMnNjUGNHMHlEeGV6UVNMc0t0d3NNLWlBZUY2Rmh4RGliQWhPZjY5NG9idm1BaVQyeUppX0g0?oc=5",
+      "title": "Acer's Predator Atlas 8 reaches Best Buy on November 1, 2026 at $1,299.99, the first Acer gaming handheld the company has sold officially in the US.",
+      "snippet": "Make Tech Easier, 2026-10-31T07:00:00+00:00",
+      "publisher": "Make Tech Easier",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BBY/history",
+      "title": "BBY daily price history (Yahoo Finance)",
+      "snippet": "close 93.87 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

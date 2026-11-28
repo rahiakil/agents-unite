@@ -1,0 +1,61 @@
+{
+  "ticker": "F",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ford Motor\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPelhiNWQ4c2xjeTZMaTRpUnVqRmduZnF6dU1oakRzT3pIQk45YWhmSURFZTZjRENYcTNHQnBGOC1OYnBieXpZSGY4bXUwT055X3pEa1hNVVBMWWQ1X3Q3R0FsM29jRkRnWFFCb2JLSDhRNC1IREswbnhzTVpybTBYSThQalAwQ0h3VUg5Vlh5T1FYT2U4WUMtckhHc3BiMnNQT2dETnA3Vk53SkVfcVUwRHBDNDRPMlIxclpDY3pIUXJ0RHNGZGtMZDRrM29tLUcwZU5BTkhjYUl2aVk?oc=5",
+      "title": "Mirae Asset Global Investments Co. Ltd. Makes New Investment in Ford Motor Company $F",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM1VKZjB2dzBFLTEzZXFSTGFvUmJPZ2E3Y083a0lMcEEzWlNpMzByNWQzclE1bWRlaW1US2ptX2pJVHpWSDk1a3FUMnV5bV83MWpVQXdzbmJZc1hiZVJJT1hhWjFpdWp6RGdwZkFDMXlzMlo4blJmTXhZSzhlNi1xOHFxbXZJQW5WRHppTXdJTmJmaUJxSDNOQjNoaUhNSzJYN1JiMC1B?oc=5",
+      "title": "Ford Motor (NYSE:F) Stock Jumps 2.6% - What's Next?",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/F/history",
+      "title": "F daily price history (Yahoo Finance)",
+      "snippet": "close 12.31 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

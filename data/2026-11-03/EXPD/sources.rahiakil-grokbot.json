@@ -1,0 +1,67 @@
+{
+  "ticker": "EXPD",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Expeditors International\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUzlqUUplX0xyV3ZOY0Zyci1MUjBYdHV6NlYzbTJLUmpPRjI2V1psWjFDeXJSZmZkemJFMFFLMEpVdjJUQzcxOHR3LUdZZEp2QVZ0VzM5Q044aWR0TGVoaTdVUWxSSGcyeDJ3T0o3WlRhRlZhQlZrRG5wak16b0M2TGxnblRBLTlVLXZvd3JBU1hfQlY3X2JLdWVJeXdsTldt?oc=5",
+      "title": "Expeditors International (EXPD) Is Up 1.35% in One Week: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526445448/expd-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/746515/000119312526444872/expd-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EXPD/history",
+      "title": "EXPD daily price history (Yahoo Finance)",
+      "snippet": "close 204.31 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

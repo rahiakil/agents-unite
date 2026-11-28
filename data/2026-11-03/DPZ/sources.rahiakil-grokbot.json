@@ -1,0 +1,49 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLVV3cUlDdjByTFBERjJ2dmdHTmMwSGxCZVZEd0R6ODVmQWNYQXdKdmJ6TFNtUS1qakxFV0IyLTlmTFhta1Y1UTcydmFQVXR2MWprRmZ3dVBJa3RNUm1EMEg0WkxHNzlKUFFCY1B6QmpINEJrTW5UNkdqV0ZwOGRadnI0Y3dkeWRVZUwwM0djM3RHT1NBWXdZcllyTGg5WURUYU5TUGpnbnd0LWd4aE1LZXdvZU95NVNIUjJGYTVsYUFhU3R5UC1NSkdB?oc=5",
+      "title": "Domino's Pizza Inc (DPZ) - What Are Researchers Saying About This Stock?",
+      "snippet": "MarketBeat, 2026-10-31T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 323.09 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

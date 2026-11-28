@@ -1,0 +1,97 @@
+{
+  "ticker": "IP",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"International Paper\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZm1xUmN0dW50VS1ya1BKT0tRU2ZXVnRmdHZnS1lUbjNoenZ5X3RhVUhQM2FLSlhvQ0ZPQU9LVHNfV1dEdXRQT0YxWVJTRUpTVi1RSEVNLTFXYXJmMmFGMXZKT2NoRkJIUTd2WVVZd0dDcGlUTkNTdnJpXzZxb1A0NWhkQVpuS29YWlhkd3Jnb1BaLVNtcnFvOExBbEsxVjk2Q0kw?oc=5",
+      "title": "International Paper (NYSE:IP) Rallies After A Big Charge: Why?",
+      "snippet": "Kalkine Media, 2026-11-01T14:41:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-01T14:41:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVEVxaG9wN3laSEFuNG1OclVPUmdUcFFGZEdLalZZMWI5a2kyanBtQjV5ajZsYmNENW1NVEZvc0E3WTVFcUVkYzJEMDVfNmtudXFLWU5yalpDTWs5NmlIZlZWS19yN0pyRkh0dWl6cmJQRV9SY1pxV2pXNWpBQVF6NWlabUdCZ095X0E1dDBOMnp0alRuZFZ4QzhLOEJsaDlRNFIta2UtV2hWbEl3VDR0bGF1X1gwdzMwLW0tcTRrUWtzcnZ2d2htWjZlbE5rakYy0gHWAUFVX3lxTFBkbm1iWWpFRlo1R0tkMFdVOW9RSkc4YUNfM0xXMl9odU9BUEtQZTFmQzlxTzJIMGFVYUxUWkhhcU9ZTGpjRFVHTF9OcFJFVFJaRC04dUxPLVhlbklybTFHbmQtR2F5dnVsWElOQlM2ZGFjZGFBdTZLVWR0N1V1ck1ZWDJZbXB6WkxNWWt3Z0VyWlhlMnJJNUtEbWN3MTFBY2VJdUNQRENlUFA1UWU0NkptdjM3YXV2bGFDMERtUFJQdXROWDVEcmpFWm1XdzJWVXZkTktVcFE?oc=5",
+      "title": "How Goodwill Write Down Will Impact International Paper Stock",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFd2R2pwakxNSTJxSTY4RTU1dGRZSUtBQmhkakVnbHN0amp5bnBmSHVJclR1WXhvNk1kOG5XMExzU25kM1hCZEdhamh4akJvNHh4c2lJOVBxRi1uRzZ4aExXMC1lNTB3WkZrRWRsU3Qwc1B5dm5UdEJCRGoyM2UxdU4xdl94LWxuQVVXV2ttbFh0cnJDMjA5Si1YMzVYbDVSbDNV?oc=5",
+      "title": "International Paper\u2019s Q3 earnings call: our top 5 analyst questions",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZG94dE5uWlNUd0J5MjFRU0ZuSGFybGNra1otSU9QZjJxRlgyOXU1YlJOdldPRGZuZ3ZxQ0FBbmdQWDhPa0pqNmxnVjg4OTdDNkZlUzNXd1c3TF96OEtRWDVVLWF2Ml9hc2JuY2dMdV9pVExzVHdBUUtGaUVMRldBdkhRUDVjQmRTUUtTQTN3MEdDbDJkVTZDRmg5bWpKLVRfWE5pRlRyMHZyM0RmaG9PWWdOUDY?oc=5",
+      "title": "International Paper Yields 5.5%, but Free Cash Flow Just Turned Negative",
+      "snippet": "24/7 Wall St., 2026-10-31T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdzhDUHVOWWZEUGIyOEdtbnptMHp0V3pPY0UtV1dXeVFoSF9GX3lFNXNHOS1XTFNlUlFQbXBMTG1zV1hXOEVxUnVkeENkUkpQNkduOEJBdW5RenRTbTZnZnFxb01ISUQxWmlsbFQtTWNOa1dvWVRtMG93RmQ4NnpsT1RQN0VLY3o2amxyVlV5MVhldVJkT1VTLVlSbllMQQ?oc=5",
+      "title": "International Paper (IP) Invests In AI Supported Frontline Communication Technology",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IP/history",
+      "title": "IP daily price history (Yahoo Finance)",
+      "snippet": "close 35.12 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

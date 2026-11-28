@@ -1,0 +1,61 @@
+{
+  "ticker": "HUM",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Humana\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 33,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 7,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTnNiY1NhaDREc2hjcGQyaHBRXzFuX0puZXVKbGhnYnE2dGZFV0p0ckVCckJ0b1JjeGJWSHNiSTYzNF9oblcxRlRtckVLQ3Bqc3pnV0VvZXBnejJkenB4LUhMOXVXd1VhY05URXI4VW8yNTMyWmlQdUhaRmJrRmxxZWxCbXBwMmRuZkcyd0Y2YUhEMUdQ?oc=5",
+      "title": "Why Humana (HUM) Could Beat Earnings Estimates Again",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3BPZ3pDNG9uS0NoSHppTDBqbmtmckh0UkJPcndramJPbG9aR05NaU1pX0dvdk5iY1JRTkNpNGoyV0JNYTlCNWFXdXNkb19MVF83M2FIWFZFLXhUUmg5TS1RaDFXaVZLNFdOelphNkdOeVI0NjNVbFE2SEJjZHNHeV9tMzVWQ1BUUjREclFlZ1Rud3c3WkpLY19mTlJqTV9YbWZDWnMxM1NsWnZ0MzBtTDBoNVFMdHczSXc?oc=5",
+      "title": "Raymond James adds Humana and Avahlth to healthcare list",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HUM/history",
+      "title": "HUM daily price history (Yahoo Finance)",
+      "snippet": "close 417.87 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

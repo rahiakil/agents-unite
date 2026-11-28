@@ -1,0 +1,94 @@
+{
+  "ticker": "BX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Blackstone\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYVREM09ibHJGNUpvREJyYmtjTjB2Q2lrbTZ6RW9HajdjTG9ZTXd0b1JITFNYUzBOZFdkSlhscUIyb2dpakZoR1VZSTA5NzA1TnJScVFhMkg2WC1HWmJwRlpIU0xwR1g5ZkRmRTRSbGJwTWp5LXBtdXd0TXEyOXpuc2xaTkE0TWhPenBvckh4Z0IwRnF0LTdzWDN1ZEQzdDJILVNBelN4eXBEM0psMVloOTZGeUg1NXlU?oc=5",
+      "title": "Blackstone, Canadian pension funds to invest $3.1 billion in LNG Canada for Mitsubishi stake",
+      "snippet": "Reuters, 2026-11-02T08:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNnQ2ZWdlQWRYbTFUSWo4M0czcDdIUUJVeVNLcWktbG0yQW1SbU5nQnQtbTlTcXhQSWVKck1JcVhqUFJha2V4NThTWlRfaHFnbHpRcjhNRW9EY0M2b0pVOHZHbFNvWXdHSGVEZ1NMZDd0RTJGMHlKYWhlczY3Vkc0MWNZTHRFUE5STGc0ZEFpNmJGV29VT3dJWXNJVQ?oc=5",
+      "title": "Does Blackstone (BX) Face A Bigger Risk After Its AI Debt Downgrade?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.778,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPekdHMUU1WTY2WjIySDNyM3ZMLVhma014Y0Q2M1FyMDExR0Zva3JaRUxkdmt5ZnZWczkyUmdOdFVHVDY2Z0tHb1VVNmZjNllQZTNMZE16dEpfX1hiY3Y5bVBRaFkxSkVBUVJ6ZzFwVlRVX3ZmQmFPYzdIQXI3NldITVBXQy1Ed1BlQTZXdTlKSlFJLVZMSnkyb3JIX1MzUkFwcWFadFlvVGdocjRPOHpTNjQ1bW9Ebm5Hc1NWMXZORTVsMmJYeHZDS20wSW92c1hEWkZVWUJMY0lRei1nUlRob1A2b0Vic2VlMXdLcg?oc=5",
+      "title": "Blackstone Mortgage Trust (BXMT) Stock Q3 Earnings Hit By Impairments And Dividend Cut",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPc3M4T1FySlp6X0FGOFVhUHJpOVZyZlczOXpJNklWdVR1RmdHNEVKRkhTRFYtSU94M1BEdUk3OWVkTVlSUXdzSmhqR2NtRUlteUlFeTd5WlBuNGtSVWlfd3FmdlhjQ29MZ2JlaXpuZ1AwdEdpTkVwcmN6aEd1dEdIMC0xUXBwZkxPTFQ3VXlIS0hfSXpZSHZfWVdpdEpzTkdNWjdqOV9sYmU4amltY1g3aktLUGR6WU11TWVCX0tYQk0yb3R1dXhhMXRVVmlxcjdJbG5vaGZn0gHbAUFVX3lxTFBkQW4xV25MdkFPdXhGaXpOUGI4RHRLT2tjRjJHZkRxUThZbkF3LW5UX2hvZFpfWDJQZmxOTk90ZGlwZmgtUGFuQUc5UGNlWTlzdHhoaFJCU0x2am9pUzRPQzhSdTUzdExibmZDWHpKdFpGdUZBUEhySC1YOVg4eThNb2hKMC1mY3VzM0ZmTXVKblAtUU9VaTFLUHBaaUROb3NlN1hibXNuMml0SnRUbXE2d3lhOVdzUFVLM2hBdFRBVDhXUlJ1RXM0TG15WDVtLVdDcjU3bk5DYl9PMA?oc=5",
+      "title": "Blackstone (BX) Stock Looks Reasonable After Strong Excess Returns",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526443854/d377521d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 1.01,2.03,8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BX/history",
+      "title": "BX daily price history (Yahoo Finance)",
+      "snippet": "close 118.19 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

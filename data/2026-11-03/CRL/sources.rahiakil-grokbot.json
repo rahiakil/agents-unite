@@ -1,0 +1,61 @@
+{
+  "ticker": "CRL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Charles River Laboratories\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdzg2b1JIejE4eUVLYkRaeUQzOTk4Zlg4QzBmNFl4RWMtSDBVczlmcTQ0bXRyLWlhdGNBcDFUV2xkU0JDc0I2NUdhcFF6LXBFWXhmaWt6cWtJZzIteV9IalFLTUFCRmh5QmlfNVVoaVdmalRMWnE0WnFSTzBfNnkwQ1FmUzNua05BYkU3dWRUTEhLeW1KRjh1MjRvbFFQQ05lZGpHNDRTSER3cERPWUZicS1Qc0VhUWc1UzktQlRhdGNuenpRWmtfdmp5WGZydkNEbUFaQg?oc=5",
+      "title": "Charles River Laboratories International Inc (CRL) Shares Fall 5",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSzZhYTEwSjA0TXd4eU1tM0Z0ZjdkSnNGc1NER1BUanh3OTFmQThhdGM0QWtONVZOaV9ja3JYRHFoaHdfV3QxQzNLNkxJSWdRcHlaMElYeE5YcnE0OXZoRVQxMTh2QkVJSElINW5aVWV5QjdjLWhibnJZWnc5WkNTWnppRG5scmVDMUZXdTNvZlJUNFFBbWNWYXRIMnRnZWhSdmhEN0lmdUFvcXBTVFlFQkJpSG5TYWJZR25OZ3p4aHVVU3Z4akswSjk0VjhLSGVnMmhCUGdEc280ZlkyeTIwOUh2TnFpcHE3ZXM2TWx2djJoTVRIMVRXcW5ZZ2pFNG9S0gGGAkFVX3lxTE9rNDY1M2JzRXlIS00tMzZnUVBOMF9SUWxRQlJucFdVUGI2M2tXMnMwS25LR0NwQTZqbHJuaWdyN3lUeEwxMlEwcE1XT3hFRVk0SGwyQnN6LW1oVGF4eF9qeHhXZ2txSGNXaHN4azFIakVqaDV0TklaZnN2dDd1THpIUXRwb2pyLW1TS3JvNXdxV3BHdFV3eGxKTWIzS19XUTkzYWhzVGtWN0lYcmRsekV5RGZuQjJpSktrYTF5RkRjY1pHOFFoNWtnaEFHQTRSM0V0SWh0clJ5SzNIZlYxcWIyQkF1dlhNTmRsMzVtUzhXSkN5NUMySlFSdkFrSUwyYzVQY0ZXTVE?oc=5",
+      "title": "Charles River Laboratories International (CRL) Gains Fresh Attention After Research Partnerships Raise Valuation Questions",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CRL/history",
+      "title": "CRL daily price history (Yahoo Finance)",
+      "snippet": "close 351.87 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

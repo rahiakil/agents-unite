@@ -1,0 +1,61 @@
+{
+  "ticker": "FDXF",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx Freight\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 7,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMDFFRjBTN1gzbEpFWVEzQjJaMy1HS2p0VklDdURzSGRBcXdsdlNUNFFyXzZkTkliY2pZVlJXcEJ3WDN6XzhZZm16YUpFVDNES1QxZUJlTGFBMy1SdVVjTDg1ajNZQzRXejBXalVFN0hja0hlUGI4Q2lQeFBFQkJPcDNzZjhrODIteEZ4RXIwRHZNLVhFR1hXWHNxOA?oc=5",
+      "title": "FedEx Freight (FDXF) Stock Still Looks Undervalued After A 20% Jump",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXNTZy1oR2VTcnAzRERDa1psTjNjZDNXdUVLTmFfZk94LUp5M3VMd3FfdlFiNk1pVGpKV0ZQS2k5LXZOdS16eElDazQxSk5zV2hVazJjZThQNGpEbnRQZVB2dHhDUGtfOHFEM2xzWXBTcHZuamR4LXZvZzJnZVY2akxVNmdHeVd0Y09mYTBRcHdWY3M0MVZHcEdyZWg2eHda?oc=5",
+      "title": "FedEx Freight Holding Company (FDXF) Jumps On Earnings Reset As Valuation Questions Linger",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDXF/history",
+      "title": "FDXF daily price history (Yahoo Finance)",
+      "snippet": "close 130.26 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

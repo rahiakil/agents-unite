@@ -1,0 +1,61 @@
+{
+  "ticker": "ZTS",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zoetis\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDRpd0FadGNPU1VPNS1jaHdocVNxUUxPMzg5ZGZidDBiMUNOY3RTMEhLMG5aLUVBNm1oUXZlZk9wSXcyVm5lbjlLY1Y5NVZWQ3N4bF81NUJBaFdDMVJvekNHQnJrU0ZJT1h2ZmdKYTRwTVFtS0EtTlNBaDNzSnZOVlhTSkFKTExacHZwUlBTSU16aTNEUHlXM3NBOS1HU0FJbzNkRXpLSmIxVEVma1RpYjhqOTd5VmthUDdJaUFqMA?oc=5",
+      "title": "Zoetis Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDFkX28xNkM5b0NVVE5tWW5KTmcxa1ZkYlB5UlRoX3R0WTcwQkE5dUdqS0R2aHZOTU1TZkpPaUFWOGluYWNtZzdIRDBMTjRuNG9USjh1OFF2RnFjblhrVTNaTHotdjQwcG1Eb181QWg0dXp2OHhHZjU3RTNOR2pQblRCdzQydV9Yd21nZC11QmxkQ0VCOFZhc3A2RmlTeTRnZlR3TU0tX04zS0c2UUpmNHVUWlpFNmFRYTR5VjNMRkZiU1NjM05wQWJZRDRBWFhSX1dwVEdB0gHbAUFVX3lxTE8yaEktQXJ5OHB1OHZHa3k2b1pZN2VhLTFKT2trQTJkSUUtRVRtenI1Q1UtMFZ6SldZU0s4dzBpQk9rZGRhSGNvbHIwZlFqZlVBd25VTDNvN2lCb0ItN21mRldkc2psUFlubWkxVm91RXhKQlBqLXRja2ZIOHFZSE9TdFpIcC0yeDlEQXluVElwOE1HcGhNYU00MGRETjB3Z0pWQ1p3ZGFndTZtRklabUhuSVB4NUV4UzhMWElUTkp0QnpRelU1b3lnZ0U0OFhiN1ZueTdSelFWbWxBZw?oc=5",
+      "title": "FDA Dog Antibiotic Approval Could Be A Game Changer For Zoetis (ZTS)",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZTS/history",
+      "title": "ZTS daily price history (Yahoo Finance)",
+      "snippet": "close 82.99 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

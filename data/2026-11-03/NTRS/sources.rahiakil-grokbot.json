@@ -1,0 +1,49 @@
+{
+  "ticker": "NTRS",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northern Trust\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVFBLcjFrOGkzRGlLNElvQlBJUkJqVWNTYUc4TWRaeUJNQ0NFaU81TVlnZlQtdWNrakw3dXlBa3d5bm5xLTJYeVVpMXEzWll6RDFlb29wSU5HYThJdWNBbjdOU0NLT29EU2VXQ2hDa1V1QnZpMzhMZkx6a3FrUDBnd09NZkV1RVR4dlFMUjY1ZnFMSHFFVGZHOFctVi01NXliWHFTcVpkRW0wclZXTmJ0OG50cWxjWWM4X2c?oc=5",
+      "title": "Northern Trust director Robert Moritz buys $39,900 in stock By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NTRS/history",
+      "title": "NTRS daily price history (Yahoo Finance)",
+      "snippet": "close 172.6 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

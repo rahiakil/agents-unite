@@ -1,0 +1,61 @@
+{
+  "ticker": "STX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Seagate Technology\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ2oyRUtQVU5nSHRUZjRyTUt3NmMteGoyVUpZc2h0RUpxYlZtaFdkZ2NBN1JVV0JyX2NUSDJLVVYyZGI2Vk9yVWJRSkJ1TFdicWVGSUZjQURRUzVuSmlhMVdBZ2Fta25tUmlSTnRtR3R4a1FGMzNFY2Rldno4ekFNY0JESlRBc2cyUnc?oc=5",
+      "title": "Seagate Technology Holdings PLC Stock (STX) Moved Down by 4.28% on Nov 2: A Full Analysis",
+      "snippet": "TradingKey, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1pIaXFZR2tIbDM5Z1BwbEJtT3ZsSWo0ZmZrdVlNaVFXam93anU5RERoZHlJeGZlUXhhdDZnVzVqb2JyRlNSUEFMWEdHam9PZU1qUXRhZ0NyaFZ0WTJtTXU4XzZFRTJyS2NnTURpZlFaaG9HTWNPcWMzRk5sTkRWOFU0M3UtMlVZakZKSUhMVEROMTlISjlGdnBCMjhLVFZaUHVTMjFTekptczlxX1dMdzZFN2g0LVkzdXVEcElWM3MyUQ?oc=5",
+      "title": "Seagate Technology Holdings PLC (STX) Stock Down 7.9% but Still Overvalued -- GF Score: 80/100",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STX/history",
+      "title": "STX daily price history (Yahoo Finance)",
+      "snippet": "close 606.38 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

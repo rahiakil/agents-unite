@@ -1,0 +1,61 @@
+{
+  "ticker": "ROL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Rollins\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44WkdoVHVkODRoaG40d1ktY293WmtKWDQtcG9sWHdvUTlfREthLUFDS3FfVk9hdHdYN0QtRVp4ZHFzTTBTeTFtRjZkZjc5bmc?oc=5",
+      "title": "ROL - Rollins Inc. stock news, filings & ratings",
+      "snippet": "Quantisnow, 2026-11-02T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONVdzWG0yQ1BIVll2bWdWQVNOUGx3TE9HVGpZTk5COVg5VE5NRmVvUzdSTko4UUlBN3YwZ3BfZnpaRXZmQTNoSHAzdkpKTzJ2Qk9QdVM4MU8zX1VBdHVKRWtnR3BqYll2S0Mzd2pqVjBadm9BWUdidUxfNUh3cS02X1Z0clBhUVYtV1hlMTBUZWJ1VVNJdW9ELTYwbEdEMXdDWThHT3hDUzNEaGp2WUFtMklyVW5mdDJKbjJrLWljeFpyYk4tUVRsaHZCMGJJeHllUEVyRg?oc=5",
+      "title": "Rollins Has Grown Revenue for 100 Straight Quarters. Here Are 3 More Boring Businesses to Watch",
+      "snippet": "24/7 Wall St., 2026-11-01T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.176,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROL/history",
+      "title": "ROL daily price history (Yahoo Finance)",
+      "snippet": "close 37.35 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

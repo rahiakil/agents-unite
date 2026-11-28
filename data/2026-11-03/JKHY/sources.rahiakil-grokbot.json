@@ -1,0 +1,70 @@
+{
+  "ticker": "JKHY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Jack Henry & Associates\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdU52S09OSVR0YkJnVDVjSGRmV3pvNndyWmpMRGNDUEJlZDhJeGV0eDJFejctOUpWbUV2ODM4b1pCNnhoVG5DRmFKWVFvN0NqMm1ZZmw2dmYwWl9kRS1MNzh1c2ljQS0ySHlTczBQQlg4THNXTkFuLVh1SVVRUk04elJtdmF0R1NYcVl3YkRIWDVMd05ZZW1NcA?oc=5",
+      "title": "Why AI Could Strengthen Jack Henry\u2019s (JKHY) Competitive Edge?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLWV1RjFKbFA5XzBic1Uwd182bndDNlN5bjlZa0JRTUZXTnJQS1hyeWFYQjRtakpfV2NRZHdMdm9tS1hLcUFYMHRRT3V1TTVBSlpHNzBZWmpVQTBVaWlMdm1wZG1SZ3MyTWFUTjBaZW4yLW4xSkpLa19fZzRwcFNqblBBMWJKNXJ1RkZkOEx0QXJieW50dnF3?oc=5",
+      "title": "JKHY Set to Report Q1 Earnings: What's in Store for the Stock?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JKHY/history",
+      "title": "JKHY daily price history (Yahoo Finance)",
+      "snippet": "close 161.66 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

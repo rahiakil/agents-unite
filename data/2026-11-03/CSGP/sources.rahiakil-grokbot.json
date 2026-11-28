@@ -1,0 +1,61 @@
+{
+  "ticker": "CSGP",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CoStar\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZTRTWS1pNzRQTThta054czZYQWJkU1QzTm9KRU9fVDRwX21BaUFyemVzMko0TXBxTlVMWmdGNnJrMUdWOXpvclB3eHF6RHBOTWtOSnZqODNkTHBhQ0VscW50VENkREFBNHI5Z2hPcURvUkd4Mms2NzJheVFyNUJrRW9iWUItZWtiWVlpSTg3d016TktoN2JDcS1tdndCUm8tcGVpTjJUY0RyRjJVdk8zTVQzY1E?oc=5",
+      "title": "CoStar Group Inc. stock rises Monday, outperforms market",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUnZ4Nkg0ODgxdmhtYm92WnlXUEZoU1NLaWc4WVkwSXRJNlFUVVhWUTFuYldiNXczRTlVbVlGV1Zob1JyamxfdXhFS0VqQVpRcE8xc3lyUTlXckpLd05ZOXk1NmhRamg3TzdxdVRNUG5uRlVWaG1DS2lfT3d6Nmw5RFY1S2YzcnBDakVUYWE2OHQtWnpaVGdOVEVCYy1qZFZYQ09SQXJsZnRDUENMckU4T1psUkZoSjdueXM5UTR2UjI0SE9SczJVbS1pSWtVZHAtMXlBb3pVeTlMdHB3MEdMNlROeHB5WVpQd01uY3hFd3NwUWPSAfgBQVVfeXFMTlc2aEJuYWJxRUdJb2ZmODdSanBOMjQ2aWxpNWFyTHdPRWRMTkg2a1BRS0hMUjBFb3FtTHJIajFRXzV3NjlpdlZmWFd1R181ZzFIamhaaUk3VEY2LXVvNlFWMW1zTGRJZzRkc0I1a3lSaG1DbVhaYU0wVFByMHJpa3BzbTJLeHduWFRvOEJCdkt4TGFhM3phVURVMllJSlU3SnVqYmtnMFBmYnNrMUZzWnpSRTBkNWFEVWJEZlF1bjNLS3E0UmFKX25yQm9UdFlDdGdQM0twd25MV2QxQTdZSkp3VFEzbU56WENXbmlmbDE5cTM1ZkhhWVg?oc=5",
+      "title": "CoStar Group (CSGP) Could Be 16% Below Fair Value On Profit Return And Guidance Update",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSGP/history",
+      "title": "CSGP daily price history (Yahoo Finance)",
+      "snippet": "close 31.32 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

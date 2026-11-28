@@ -1,0 +1,73 @@
+{
+  "ticker": "EBAY",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"eBay\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZmd0WXZLZldXUG1ra2VXSlNLSjdRMlFxZ0tiOERqQ3JaQ0U5ZHlMemNDdDFmbkhPbElXaWk4M0dOQ1NGdTJTWE5ZTEVRdjFIbDBkR0tXV280TldKVEd5R29VRjF5ZERGLXd4YWhTcThldFU0cXl6QVFPNEhBLWc2R056TGJFWmo3UE1WNWZKV1dXZDd0VE9kdnp3?oc=5",
+      "title": "eBay, Inc. Generates Strong FCF, But is EBAY Stock at a Peak?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.19,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORjhjXzA1VVRqTjBqWHpLNEl1SzZpekQ5dm90V1pIZkFBTW9hSmpva0FfQnoyMUF3TEx6bVpYUGpuYWpMZ2hHdno5N3lDSFRoNGwxTVZhY0psTE9oRjF3V1FDSWpGVlc2c29lcTJTdHFibFhaVU95SUNENVZGbFc5WXBWWklvbGdnUW9zM3pjMUtwWC1jalRjNlJzSjdkQnRaVS14SjdoX1p4akE4eGJrbnRwRQ?oc=5",
+      "title": "What Will Decide eBay Stock Over The Next Six Months?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTU1NNWFTTEt3dFFLZ3phWERDUElPblYxaTh1R0c4aGlFOFFILVpqc1RTRnFaS2pHTzNucWNXT2xCTUdjNlFMUXhVcVV0cXY3UXp1VlJsSnFsbTRQXzhBUjRrbDhoR1RJcDNCTDh3dkVtWXgwN0VBV09qTzIycVctMXk1dklZSnllLTBlcnJtY042Wmo3aFpaWXN3Um82TVJsUGFtQWotbTB4elo0NTlsc3VJVmVuSjdxQ2paQw?oc=5",
+      "title": "EBay Leads 5 Stocks Near Buy Points, Shaking Off Market Retreat",
+      "snippet": "Investor's Business Daily, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EBAY/history",
+      "title": "EBAY daily price history (Yahoo Finance)",
+      "snippet": "close 118.62 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

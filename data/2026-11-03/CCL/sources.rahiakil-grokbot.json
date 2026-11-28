@@ -1,0 +1,85 @@
+{
+  "ticker": "CCL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carnival\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORWtjRUI2M2VrTFRZbWdTWFV6ZVRTMHk0Yjk2Rk9faTQwWXJrdm42SS1ZRF9EeGpCT1FGZkVQN2k3WmNWZ0ZZd1R6RkFWYkkyNFJJRWNMWk1hQzJyTmpPdG5VZVoybkFfRTl4UlJjNFVhVWFiMXdUblkxdUlhS1NhQzJUcmpHbTNOalh3NmpqeUktci12TFNGVTNjTndoU0VzYVMxYVRud3ZHM095NFhqQmkxOHRTbm1xTXRYM254Q0FCY0RoTlFFQQ?oc=5",
+      "title": "Carnival and Royal Caribbean Climb 5%, Norwegian Cruise Line Rises 4% as Oil Prices Drop",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNmp5TjFWaG1xeElpWXBsU082V2gwUmplVG8wMmlwWktQdnpFRDluR2xaZE8yMWRVOUZpZGZKMms3d1ZFQkp1T3JRYlJESno1blZsbGNPakcwNUg5bG00VGQyTlJhV2FpU1pwUkIxZjlrdFNNaklUTGM2dExnOTQ4WTFxSThXX2dHOHRLdWxhMFV6d3FCV0JDWDBGeWVpVC1jdUhLQXRNazJ0dEZJVFh2bjNZOGlrWXZ1RmJqLV9nSTl0aFgxTjktVHkyZzRiQdIB0wFBVV95cUxQbFZTNkpyZVpQSkFEM1kwcDFvbWQ1TTU3WEtWSVh1dkVrN3k1V2NwR0hQcFQtTGt2WkllSlJtdExET09BOFZQeUp1OWZjbDl1RDRINnFqZ29uUVRFUWZxczdXRmlabnZ3MjdMdTR6N2k4ZTBTcW1IWXZTYWhpcHVBLUVfYTRjNUNlYnNQOHRLU25YM0dxT3BSeXZaTGhUODkxeXZ0NFZ0WDJUcEI1YzRXaWhTU1NvNm5Ta1NGX2NKUDFQeXA5TnJpRG9Zc1BmQkZhalJZ?oc=5",
+      "title": "Carnival (CCL) Could Be 18% Undervalued On Its Fresh Dividend Signal",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZWhjeXZxdTRqY1laRmozNjM2YlJoR1ZObDE4MnphMlVwVURrQ04td2dpN0k5SnhVcV9KN01OQkd0TEg0RDBsem02WnJDREUxeUlyeWpMaUVwNGFKNHJCVXAtRnNNR2JycHRxNDZkYUZnVkY5WktRT29SNG51MEQ3dHZzUE1mLVlMNUZyVFpkU0dkQWE0aHRJaUxaZ1VTZzFCaXhLenZIWUw?oc=5",
+      "title": "Is Carnival Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVWwwNjFBM2RjSkhNcXNJWlBPcnJqV29JVXZnazdNZXFfamhyRloyWUlBQnpOd1BUR3IzZU96QnJ5MkZoVjJjbVZTUmF3cDlFZktRZEZab3J3UUhidVptTkFXUW9BSmFRUXhSV2pXYjlSLVU0UEx3YS1UZ29XVG0wUnQ3WlE3aXp3d1k2Mlk1ZVVSdmtZY01JSmliMi1YSEQwMzlTNHZ3?oc=5",
+      "title": "Carnival Corporation Stock: Is Wall Street Bullish or Bearish?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CCL/history",
+      "title": "CCL daily price history (Yahoo Finance)",
+      "snippet": "close 29.2 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

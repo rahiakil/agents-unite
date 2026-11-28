@@ -1,0 +1,73 @@
+{
+  "ticker": "BAX",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSEVwYm1yOGwxLUhOWkMtMG5DYTY3RklPUVZBV1dXcUtFZDA1T2VYUDJCS2g4MnY3NGVTcEx3enFwaTVTUVBwOFZYaEE5N0REazcwdXlyaWNDVG9sU01idTBMTlZfQjBvUE1UbzhlbXRwTU1qVm1fT3JMZUN5UThGNGFYSmZvdTEyMFNSWVJfTHU4Qi1mTTAxUS14OGV0TUd0QVNEV1BOZENDbURIdjVzcWIwcG9sNGMyMFY3VnVRbUxRRjBSLUVlZHduV29zcVU4M3U1YtIB2gFBVV95cUxPN0NkQlZZTnhnLVZpMUxrOFNFNGJNUUthWXgteEY1eGVLSVljaG1FSWl2bjhqaU5MbzI4OFRxdlRwNzVKWVl5OWUtMDJCMFlFajh1NTQ0Mk51UERuVW9ScmZmYmhMOVFvaTgwU045cWh6LXd1NHh1YktqTmdxa2JETDdlX3VUVWpFYXFPWlJCcWNUYnpPSEZfRi1zTXBmXzFwUGdkS0l1OWNWSlJyX2Nwd1lnb2NJM28xZDN6dzZuMDU1VE9rVnl1ZkxOYk8xNndvbmNvTzZVWnNNQQ?oc=5",
+      "title": "What Is Driving Baxter International (BAX) After Its Latest Update?",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdmk1VWplUVl3YzRlTlJzZTdDN2NDOWxXa3FQNXJVNnBzS1dvS1ZRbzNXR1Z4RnIzcnRrekFLempQRDdOMmNQaVNqOXhITUZycmNIRXVOTExHOXJsNlFKRmNtWWR6Wm96V2xiNTY2ZW5VaWR3SHdIaEV5U1lfYmpDeURTTkZHa00xQmNQa2w2ZnZEMHlZMGdjMzdhMUxEaXEzM25ucG4tYVVDLWxILUE0X0UycEZURWUxZUJNOERUYWZNeF9EZVl0bGF0Tm0xVVZKLUxHZNIB2gFBVV95cUxOS3VfZDJMamo1MV9NODVLWWFXLUJHa3NiOFRKeWV1RGo1WEZLSG9jR2s2cnZJblhuNjdOVWdQcC1BZmFGWTUxN0xoZXJZMnlNWlVYd3M1MDV3aU4yRUJpeUhUbTd2b2RmdzBMemZfVnBTNXU5UnJUZTh0clRJUXhTZkxodlFLam54SWVZbWNlU2o1dGk1YnAwWnJEQjA5bDU3bGRtSWJRaE91bTllTXQ5Rm9WUHVFaW4yNTZZNjRaOUFvQkp5LVdpbU5SdWZLdjdUOFViOFdEbF9SZw?oc=5",
+      "title": "Learn Why The Bull Case For Baxter International Stock Could Change Following FDA Warning Letter",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWTBObkpBdVA3WUJjaUh3SzBkeWVBS1VqbW5wRlI5XzI3OE5XU1czZ1JaVWZXQlU5NXR4amtfOGlrX2xDQjlwbk1NTHEtZVhIcElKbHBJSDFOQzJvSHMxUlpwS2Q2RXI0cXFCRGItdi0xQlUwRFNxQ0hnanVnblNKcDBXY1NDaDd2aWtKbWRyWUNPV3FPb0JRckZTLVpBLU1SNGlvNHJCX1VjWXFXMHAyRVRtSHVJSDNLSkRncXJocWgtRDdJZXRHN28wZGpDNUNGc0lxRNIB2gFBVV95cUxPc2VjUlFWX09vUVM0RHlkQ20wd2hXOTU0TlVtejM3aVpRY0hFWjA2YkF6WFVvOUxPUlhCNDFlMnhZamxzclA2UDZhU29nSTJvclRuWVZRenlxZlkzSXRJMXY1ZnAzaWJTNnFMVElyaTNyaV83OWxMdDhHVGJ5YWw2TDZhN0R6MnpMWjBpZHZ6VkFucVB1bzRvZ2gtRjA5NWZfSUNEUFZMUm9YMmRSVFZvN3BuTXZEZmFJS0lxRk1JcjBwRERsd1dFRUh0SmJYVVVJWml1UTVfS19sZw?oc=5",
+      "title": "Baxter (BAX) Stock Price Slips Despite Q3 Results Backing Turnaround",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.019,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 25.49 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

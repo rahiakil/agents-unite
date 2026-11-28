@@ -1,0 +1,94 @@
+{
+  "ticker": "COF",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXy0tMWdLSGlCRkp5c01Ma3NheVVtN0YyajJfaVNRRW1hR3FLLXdxS0dvLXFHWjlobjhLcnhTNFRCZlU5Y3NZQ2lJcnhva2FlT0U2ZlVhQ0l6Q1E1SjNmeW1UNnpwblMtZWh1TGlfMDVORGRkODFHUzN1cDVxQzdqQ0pNVllsTi1yZmhYYmQ0ZUhoRERuaWhzakNoQ1N3MVdzMDlhRHY2Y05mc0llbzBDNE1HWEI?oc=5",
+      "title": "Capital One stock: UBS trims price target to USD 274",
+      "snippet": "ad-hoc-news.de, 2026-11-03T14:43:05+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-03T14:43:05+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQN01BTmZjRnV4NFlRZnBLMzdlNTBuOWFXanROVi1tYmswbVlLMXlWeWdUeDVUQlpROG1qNjlmRHVzY01BcVBuT0ZnT0VaekFMVU5QbzJKUTRaWElSa2pXOFhLUkxCQmwwZVBMc29OTzVWRUtBaXIyODB3ckxfUTVOeUZSX1VybTdBSzJ1WEkxTDZKaURXSTNfakJXRGd5dFlTbndrc0NleVJpOW1hc0NhcGFpenliTEU0WDdzR0F2TmZiRTVBU1hnV2ZHcmdvcU1BdmFTSGZWZTBUZ1Q1VTE0emQwTUVPZ9IB6wFBVV95cUxQV3NUMzlJUEpHc3o1a05odk16QUgwem5URGJWNVlMWkh4R2pEcGQ5SWlMSkJDb2JJN3Z1V0JmVnlwb0o5c1NiUXljVVI0MEkwY2hRQlhmQjZidXlBRWZuMkFFSkx0YThQc0hoWUt5WHFNekNILTR3NU5EbXdKM1cxMEhWYnJMdGktOUR4NzV5VzgxNmF2V0t2WktYX2VEdE5zUmFuT1dEel9IcjhaUEpOUEllTkIxbWFtOFh5aW50Qmd0czBJWkxYdl9nRGh5ZmVuYlg4a1BOYS05cWNxaG8tNkRwU2VOQ2swQ3BZ?oc=5",
+      "title": "How Investors Are Reacting To Capital One Financial (COF) Strong Quarterly Earnings",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZy1vcEo0WG9wME1DTXhvOU5KUThwR1FudWJLTlZmNGdTUkVqdWNfMWtteURvTDVkRVRWeS1FVklhWlN0NXlKZjBFVENCZ0VLUUw4REppTVZ6LWVQRnlCV1Q5TzFPVE1EYjhIY0gwSmY5bHBxSV9rZHRtVGdsSVZfT3hkTXBwRXFfSXVQczV0cklBNkRRcnJ4ZEhuVDRtSEplVEF1ZWpQbVJnSEt3RU8yQy0tWGNEVzM4d0hmRTJFZXBmRENzNkFSMHV1bEx3WmF5NTJERw?oc=5",
+      "title": "Capital One Financial Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmk1YnhxVXZBRzU3cU1uMEI5Z1pKMk81QzhHZ3I1VGV1bjFucDZTNW92eFJxTnZKQXhXWmlpSkNINGNlV2dkcU9LSFZfcWliVGV0bUdiRGU0VUVBNW5xdG55dDBHZnZ6dzJVdFFnUVVZWGxaVkJJSjVuVEk4ckxOZms5SktoYlZhWnlSQ0dTc1ZEeUhUM3B1eWdjS1Z6U3BTYlBwMnQxVjJlbmgtNmdCREpNelRVSVdCLVV3ZlJ4WW5LYjFlUWtN?oc=5",
+      "title": "Capital One Financial (NYSE:COF) Stock Price Target Cut by UBS Group",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-03",
+      "snippet": "10-Q",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 208.71 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

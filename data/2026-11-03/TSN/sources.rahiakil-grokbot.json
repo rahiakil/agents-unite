@@ -1,0 +1,61 @@
+{
+  "ticker": "TSN",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tyson Foods\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZktiQ001eFN4TTBQSk5sWGpiMFBEUXRyMmNTQ1JGd1N5Y191ZUtydW9mVjNHRFExLURyTTk2LTN6cktKa2lrYmVpdE9pMXMyWnJNTnMyQ0E4QUVQVC1hekFYVHNPM2dEMEI0aHNpT2hKc2QxZG02TDF1X1B2U3ItX0VjR2hlQUlkYmp4dXZxd1ZBZTRMUXhGTFZILXV6SVRXa0twT1B1NTlRTDYtYlB5M3BkYkFLS0tsT2pxV2JGOFJLZktiQ2lyeGRB0gHPAUFVX3lxTE9PVGNobUZXRTFzNWlUYnpaMjlVMlVkM0tIOFRIdkdjb2ppMUpIZGFnZEw0NERHY2djZXR3NFI3VzQwaFBEVTd2Y1dDOXVUYml1ZXRuakxIamJxZ0ZNcU9lRHcxYUFrb24wTnRyVUxaWkJWN21fdTczOFhTYXVBRTEyYXBabzExczd2SkZPcUJKTUNMaWtTc1RqQVc2NGdiRDIyeHhlN3BUa2pNcjdMUGJlSkNKd29BVVZBMUZveGpRc3dzZXA2V0ViSlZDSzVENA?oc=5",
+      "title": "Is Tyson Foods (TSN) A Bargain On Its Recent Rebound?",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ25qekJDaU1mMW1vRnRyR3BwZnhidFl1VVV1c1hhMHdEMi1MblM5OWppRVZHX3JnbXNZQ2xfWlJNbDlpNFZPbnRtM2p6ZlFXcXg0YkZaQk9HM2JDQkVxcEZEWWVXN29xVmdUSVZNTmlreDZOSnZHMU5sTkFya2YtNmg3WjJGVnRraDZjcHpMRk1LZw?oc=5",
+      "title": "Tyson Foods Yields 3.55%. Can Its Cash Flow Support Another Dividend Raise?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSN/history",
+      "title": "TSN daily price history (Yahoo Finance)",
+      "snippet": "close 56.96 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

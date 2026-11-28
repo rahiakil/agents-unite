@@ -1,0 +1,73 @@
+{
+  "ticker": "AFL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aflac\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0R2dHppWmFxdURhNDVVbUlXRFU2dDB0LV9OQU02TWdnYnVORzZlUVNsQ05LbHZpeUc2QndsbFBrZ3RnVmRWSzFtdjZWM3dHMWhzc0szQ1NySGRKTTYwYWJvZjB0bXVoc2g3V1NlZm5SU0ZpSXk3NnlYQXFCdWQ3ZjRRSVVVbE85WkcwV210aTRFNEREcE83eGczMHRWa3dCZllF?oc=5",
+      "title": "Will Lower Investment Income Weigh on Aflac's Q3 Earnings?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYXFSTFU1YmhmYjZqeWk5RUxob3Z3WTNqTXNDLWdIVHFQZWxNZFhidmxMTUU4eUVZX2VTR1hqM2FmTkVJem5KM2hzaE1kNzdqUDRyRTBnOXcyLXZ6czFYeldSTHJ0eFhYb2hFTERIR1lNaTRHYjhoRHgwZmUwd1c2WGFWZ2lXSjkwWm5vdVFDX1JRVmNW?oc=5",
+      "title": "Aflac (AFL) Stock May Trade At A Discount On Capital Returns",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjFCZ01OQ25IcVpzOXczRFhqeEFwQnNURWE2dUFJUGNUY0xmUXF4OEIyS1M3dnFSVEoyOTlRVzA4OFVJVjRnNlUwcWdYWHA0LXpzX3EyMms0dHktOHd1WkFPM1NRWmE0S1NvRGlxWFJDVVZnV0ZGaEI2V1duOEdyWU4xclMtcVpKamlwdFFxc29HdjcxMGVxMjVB?oc=5",
+      "title": "Is Aflac (AFL) Fully Valued After Rising Ahead Of Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AFL/history",
+      "title": "AFL daily price history (Yahoo Finance)",
+      "snippet": "close 124.04 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

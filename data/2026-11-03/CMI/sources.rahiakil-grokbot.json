@@ -1,0 +1,61 @@
+{
+  "ticker": "CMI",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cummins\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSldrZW8zaE0tc1RCX3lNd3FRZXBGUUljWExWVmVfUVVFRzluT1Vzby1DbnNjLUZLYk9YNENKX0RBR3YwY0NSNFVCNHBjQXBHVzJWdWNyaFM4VTZaenFpVjc0Ym1NVFR2TFplNzlVLUVhcEVfMTZ0ZE9HX1ZhTmYwWEdZRURISnBMclBfOVQ4aEFEZ0hQRXpVRll3R1BYd2ZGTW54ajJKRzNqRUktV3pnOVVR?oc=5",
+      "title": "Cummins (NYSE:CMI): A Quality Dividend Stock for Income Investors",
+      "snippet": "ChartMill, 2026-11-02T08:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWWI2aEF5aEh4dE9XU0JEX0RmM1JsNXNodEw5OUZuS2U5VkU5SndiQ3QtS0hQYWxSMUx4d3E3dkNIMTI1VmZ3WDVlejNpckd6Rl8zM25JRGhaZkl2a2h6bXJUa2JEMzV2MmQ3ZFNwdUJKMUJJdkZBS1Uzek5obG5OZUp6MFRuOElGZlR6cTAzM3k4ZkZNbW95eDlGZEx2SUliaU1iMy1B?oc=5",
+      "title": "$100 Invested In Cummins 5 Years Ago Would Be Worth This Much Today - Cummins (NYSE:CMI)",
+      "snippet": "Benzinga, 2026-11-02T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMI/history",
+      "title": "CMI daily price history (Yahoo Finance)",
+      "snippet": "close 500.69 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

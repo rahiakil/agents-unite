@@ -1,0 +1,73 @@
+{
+  "ticker": "AZO",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AutoZone\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQM0NrM2tBSEVjdTl6WnFuemJRR0tvUHdfMnZ6NXpaX0NkZHprSDkzOE8zZ3hKZUdPN3ZPSkJxUG5sd21CRGNTU0U5Mjl3bUMzZTg3YlFBeDhxMllnUUNpcHBvOFdUVDZHaGtZTS1hNHg3NXE3T0tJ?oc=5",
+      "title": "AutoZone xStock Price, AZOX Price, Live Charts, and Marketcap",
+      "snippet": "Coinbase, 2026-11-03T11:14:46+00:00",
+      "publisher": "Coinbase",
+      "published": "2026-11-03T11:14:46+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOM0djU3pqT0dXU21JYXJydXI4aU94Wk5xV2IwLTI0VnJSeHBidEFLblNBdjMwUnVCX1Q3X0gzZEc5b1VJOUhBNmhZOGpObnh6NS0xSE5QeHpuSWU2SzV6QVc4Z0tTdUtNYkxwbFBRR1llOTVuYjFJdDMwQThUTnkyQ3RRN0hla2p6UV9yTkxodkNnR3BNRVE?oc=5",
+      "title": "What Is AutoZone No Longer Telling You?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObUhrVUhPaF9LakZIYWx3OFdQV1hYZEFKMFhUTVBNTzM2UENLa0Q0UjZ1eTdKd0lSb1RSaFlfZlFQT1BkdG54THd2LTRjUmZMYllYVFpDVDFsMmpQZThMaU1HcEJtZzVBSXV6ejdweTkwOTM0d2JRYjJxbkh6RGNRRW8zVzItRXc1SzBGdE9PRlVHQl9uV1hfT3NWODNRSVY4TU1yckV3eV9HQ3VKajIyRWZHOUl5U0JJaDhST1cxQdIBxAFBVV95cUxQUndvQ0ktcV9VaHlLcld2S08wYUNQRng0R1l4dHk3SjQ0WjY1RzB1NEQxMlBmbDZKNTdfamdmYXp4YkJMZWZQUDVuMWhFa0o4YzlGSXBsRXNiczlMU0N5aFRzWTBYYzYyQzhBUEJYWlJCbENzT0NtX0xCZ3AtM1BOQ3ZsdEUyNnhBQmQ2bkJlSWVoU0ZLS2swMG52OEZLNEtPdTd6MVlQeVVOaHVmV3N2SFM5RUg5cWU5QXhRTjlLQ3dlZUhi?oc=5",
+      "title": "What AutoZone (AZO)'s Commercial Sales Growth Means For Shareholders",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AZO/history",
+      "title": "AZO daily price history (Yahoo Finance)",
+      "snippet": "close 3200.0 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

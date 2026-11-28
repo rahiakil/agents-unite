@@ -1,0 +1,109 @@
+{
+  "ticker": "AON",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aon\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 31,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 4,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2UySkVLdDR5S3QxNndPWGNYTW5xMG5XM2NLM3JfMHM3YnJ4RXZ3NDFCRU9LTHFDY1NoU0FDMnlFaHd4TEZsQmQ5b3ZHWFVhUGUwc3VzTGs4aGNDUjhmdFIwZl94RlQzYUY0ZjEwVW1wWTFFbGdSMGhPY0wzRGcxeklxNmdrZVZES2lvZ1BJeVo2V3VhUFJpOE9fdw?oc=5",
+      "title": "Aon and Munich Re launch pandemic reinsurance initiative",
+      "snippet": "Insurance Day, 2026-11-03T12:21:01+00:00",
+      "publisher": "Insurance Day",
+      "published": "2026-11-03T12:21:01+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3ROb2d5RTVYX1Z3Q19SOG9WWnU5WlZ6RHZGeGtOeU5pSlZhQlpLczJJeUtMWFprcUg4SGlyMFByODRwSWFGNHpDN0E1akVNQTlpVGxrNXRRZ3JlNVV4S1BGT3JyUF9HMDlwWVVSMzg1WndFTXNXekVjeWtyTWNTeW5aNERFaWlTeWUwZ1BjZ0IzeTlMUFNtejZxUGJfTU02dWxUcnBONTRfamhOTXlfNWVyVXc5MzFkNjg2SkZCS1o?oc=5",
+      "title": "Raymond James upgrades Aon stock rating on normalized valuation",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZEl3S1F2Y1NNS1ROei1oNmo0VEluQlZ5UUQzcE1UblJWdnlUUmhMQTRBVEVjRkpiVVNsM2RPb1o5eUViMnpNaERlT0ItWHJQb2dsT2NHYUg4dVR0LUs0MkVOenJNSjFENW5LZ2pkSHpiZ3FseUdwZy1Md2ZyU2xGdmZxYVlJOW8yRUlzVVVXMHlsempzYUh1SkMwWUpIY2ZwZjM5ZFluajR4SGpRNnlmQVVEOVIwc3dCaGJ2QdIBwgFBVV95cUxPeEdQdHZ0ZVNkNGU3U0lzTXhoRGNnUmJJZHNmOF9JZ21JTE5OR2FzOVNwWUFtWUFrVjZFcXZwWXpaaXoyYm9jcjY0YkpsTFVTWnlKTVNLcllJdFR0THg4QnR0d1gxV1ZMY1A3cUM2WDkwN3VPd1VBeE82LTNTdVh0SFUzMWdpbTlKcnJHbFNSYXltUlJkdHc3di0yVEI3d0dwQ01EU1AyemJaWkt3ajlCdm53RHU2MEdsczdPNzMzNElvQQ?oc=5",
+      "title": "Is Aon (AON) Cheap Or Expensive As Strong Q3 Earnings Lift The Stock?",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU1VweU43d21BUG51OTN2akhuTzdtQmRCMl9uUHVkXzJpU2xGWFJsSDhGV2NTMlBIN3lGWC1NUElia01DbmFGUV9QdHhPeVRoendvRzNsNXdEX0xzN1dwcjF4amk2cEU0UHNZUDdnZ2xTWkhOOHlOa3hvUEo1R1d5TEtSbmJsb2hUNFo3OVZERmNxRXNSNF85M1B2R1JOVHVXYWFjQjczc3h5RTFpdlBfZlVxMUFiSTY0a1ZzeGpaS0FzT0I4TVA5ck1RT0l2QQ?oc=5",
+      "title": "Cantor Fitzgerald Issues Positive Forecast for AON (NYSE:AON) Stock Price",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUXhHanVSWGppRlllTHR0ZENyVExKalBzc2cycGJXWW5zQVVkRTBFUFQtc1Vsc090bk1SUFVpZUlKX2cwZVZwOFF3aFdOMU5aRG1NYmx5V3ByemM1S3h5RFA0Zmt4OXNSdGtmbUh4ZzdOYWNDbDgwajg3UlVOMUo3RUF6emotSXctaWpQQ3o5ZElOVGRWemxMQW96SGw2NVAtUFZXQzd6c3FSMjRQbXdka3p0bmRTTzFRbUpF?oc=5",
+      "title": "Aon PLC stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObnVJSnF3QUhLUTB4bnFVSkhoWU0wMno2SXIzbTVfVjBUVnRMS2xGTXdHaXZzb1NqcFgweGllajNvRTJZdVZtUmZ5eElHSXExWk1GdXljdEJrSDkzYnRkYzhZSGNQanhHUU93V3VXTUJxQjRyakZxN3AtbWp1Qk5scE1jcl93ZXJEOTJJeHVFN0VOdVNIYkgwdW4zMU1HQTBTVk10LTFTMWw5Yjh5V3RkODVyXzl6b1BzMEROYW9NeElRdw?oc=5",
+      "title": "Aon stock heads into record date for 0.820 US dollar dividend",
+      "snippet": "ad-hoc-news.de, 2026-11-01T16:09:14+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-01T16:09:14+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AON/history",
+      "title": "AON daily price history (Yahoo Finance)",
+      "snippet": "close 330.16 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

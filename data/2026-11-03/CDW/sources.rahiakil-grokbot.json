@@ -1,0 +1,61 @@
+{
+  "ticker": "CDW",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CDW\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb0Y2WE5nVzRYaGFqU3RMd1NZYWZhdVRZOEtmYktRTkN4VXlSNmxXTllGSXB1OGR2c0laY0JMclVCZG15aXhUR3VEY3c1OTh5UThhTVJVa1BtekxReElEczQ1emVPamY1bzVhUEt3d09xMkgxOEtjUTRqak5Tak1PT201a0hITkt1a19ZbEV1YTRzdDF1SDc5UERfVkQwREdzUzE4UU5QaTRaMnpqSHpBVGpjWWVrYzZwMFdIWnFhZzRkQQ?oc=5",
+      "title": "CDW Corp. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWNaV2Z0cFExd2QzeV84VTRXOU9oTmhOTmtXeXpWRk9rQ3ZmRVpQTmFkdktyNHB2d0UtU0p2a01OZUt1Q3NsQXJFZFRfbVBzcUw4NndLVkF2MDBVU0FRTTFOQnIyVE9McW9FVFhsOUJ4OHQ4UXUtRzMyN1FOSE9HeG1Wd3AxVWdNNm12QXd5S2QxN1AxYjQ5UEp0Q0J0RVk1NDBkVGN3NWxBRVRPWkhpejlqZ0VfNnNj0gG-AUFVX3lxTFBaR0xOSTlYeXhRRnVFb3ZIWWl4SEEwVFZnQ2ptbFh6TzViTXp3SGVhTVFwdjRjUmxBZ29hYUlwNjVvM1NPc1pMWk1IbFRTbGQxTHFMeW5wcEpXWlVRcjl2aXVpM2FjRnVmazh3bzRyR1E3dTFLcVFxV1N3a2JKR2NZYkcyTm1JX0l3MUdRaGFCX0w3eHlDaXJMR1pZclk1NFVPcjA4Rm9Sb1FTdV8ya3l0ZS03TXhwbF9hN3J6VHc?oc=5",
+      "title": "Why CDW Stock Is Drawing Attention for AI and IT Infrastructure Demand",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CDW/history",
+      "title": "CDW daily price history (Yahoo Finance)",
+      "snippet": "close 149.77 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

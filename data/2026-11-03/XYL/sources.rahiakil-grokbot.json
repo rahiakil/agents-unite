@@ -1,0 +1,85 @@
+{
+  "ticker": "XYL",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xylem\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFhBc0ZZQUxLdm5NaTdKOWJVUFJmdFBKRXdDeXZwVE5XYUx0bmRNSmZFczNWNE1zZjVfMy1Td2tYbkl3T19Hc1JabkRaZVpIckdvdnVlQnFpeFBKbDdkN3k0eDdVV09EZFFMN3B0cnlTTnA0RmY3NVZOenY0djQtVkJyckdjRlVnTUxLUjhWbUJXRm9jcjNSaFpQQk5pRERqT0NRaVZxcUtqbUt6WmNVYUc5OW40OVVHQkZRQldZNF9kenc?oc=5",
+      "title": "Fund Update: 166,000 XYLEM (XYL) shares added to CINCINNATI FINANCIAL CORP portfolio",
+      "snippet": "Quiver Quantitative, 2026-11-03T17:33:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-11-03T17:33:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ2hVS1ZPMl9YT2pSUzZWTWlERWJLY1Vrc3IzcFUtbTdPbl94dXlheXNPTW1mNjRVYl9SMnNFQWR1WkFMMFJiT20wMWRQdkxqZEw4TDNVUmxZUXR6UWZMNjdxQXVELTNXSGUzQXlhZk5KN01UdHREY0pnRTgzY2wtanFaUWF6REExT1dJaExJcUdhcVpUSUV4eUJnWDVIMldyTDliUTZBaWs3S3RUelI5YXZ0Z0s?oc=5",
+      "title": "Xylem: A Strategy With Attractive Reward Potential For An Undervalued Defensive Name",
+      "snippet": "Seeking Alpha, 2026-11-02T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.772,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOXFwc1MyVllYV3g0YTNrWmwwR3lDaFlPQjZjN3hLSVJMZUZoOElFN1F6RDY2NkFZbElHWW5HWlAtOFJHLXZHWlV2eEZjdjdnMDcxTWNVNDhwMWM5b3puMFpIcWo0NTRLTDVmanJzbnBaM3hidXlIekw2b2J2QndNRGxTQWREV2o2WWJCTHc2aHV4LVg3Q2FHMzViUjRaMl9WaFd4S3FJV3pSeHFfamJMeFNiNVI2OGplSGh5Nm9vNnFEVUFjRk9VbFg2aw?oc=5",
+      "title": "Xylem Inc. Stock 12\u2011Month Price Target Cut to $125.73, Implies 36% Upside",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ0N6aEdTT3ozSE9RVVRvTTBVWlFmVDJlaEEtbUMzaXJHWHk4a2hXdGZnM01zd0FaVS1tMkt2YXp0ZzZaUUJNMVZZa29ib0RIdndObkJOdlRneW5PQVFjMW9yUkVsMnloV1k4RHhHT0pnNG4yMGRMX0lzR1ZBNGZWYng4Z2ZWODMweTFiZlVMUm9DaDJqR2t6Nkw3T2xTNmR5S09WcjlMNVFpX05remdPTlhuV1VjSk92MEFMemctd9IBxAFBVV95cUxNdEs2ZzhReTVYYzRlVk1Mb2dRS18xdm9pWl9fWUxtbTBzZVNaUWJhVW9YLWd5a0lwY2pRd1otcVdHcFd1SlJjY0Zqek5YU0dUVFZFOWdKUnBKTl82a1FEX1hVWm1hVDhoNWlndWF6OVNWbzZ5SkZvUGptSFZObjhOYkFobmNpT3RNdmJxYy0xY3oxN0V1MjZiRmdGdkMydjJIUW45TUdpRlJaQXFDS0VScVJMUlNDS3NyQ25PdFR5WXdIQlZP?oc=5",
+      "title": "Xylem (XYL) Cuts Revenue Guidance, Is The Stock Undervalued?",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XYL/history",
+      "title": "XYL daily price history (Yahoo Finance)",
+      "snippet": "close 96.27 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

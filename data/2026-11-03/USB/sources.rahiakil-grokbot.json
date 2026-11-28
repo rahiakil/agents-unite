@@ -1,0 +1,49 @@
+{
+  "ticker": "USB",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"U.S. Bancorp\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNkRmUHYyOGswSng5bHJlV1pRdnlGYjNKZy0tQU5ZR3JLbE1OSTZ0NEpuY2RYQVJuY3Y2UjRvcDJNTllSWFBucU5ramlZcTBoRXpnRHo0T2U5X2h2Q3hqVmlDeDFVTEhaS0ZDWkl1dEZuNm42YnhhUG1neWp5MVFkaG5pV0VheEJfR3dPbklxTDI3dHRUaWNURlc2ZlNEU1Y2UlBOZHRDcExuYU5WZXNwU1FPY0NJNUJuMU9lX3A1SjE1QV9lbHlsaHlUSVg0ZXdNRENpZQ?oc=5",
+      "title": "U.S. Bancorp Completes Series P Preferred Share Offering",
+      "snippet": "The Globe and Mail, 2026-10-31T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/USB/history",
+      "title": "USB daily price history (Yahoo Finance)",
+      "snippet": "close 59.89 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

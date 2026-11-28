@@ -1,0 +1,61 @@
+{
+  "ticker": "RF",
+  "date": "2026-11-03",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-03",
+  "news_cutoff": "2026-11-03T21:00:00Z",
+  "generated_at": "2026-11-28T02:09:26Z",
+  "collected_at": "2026-11-28T02:09:26Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regions Financial\" stock after:2026-10-30 before:2026-11-04",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVkJ0WUh1RmlWQ2p3N0hzMHhLdGx4TWRzT2VaWDloUF9hc3c5YU5xZjU0QU5xdWw3MW1sMnU2S1RxZmVfcWJ5eWc1TUE3V2FUdzdtUXR0SDJlcHZDcDYzX2JDNnRoc1FYeExBdi1FeVg5NEhraFpOSnZ3dGJWbm5BQ2tkdFdqWEpqMzA2VmMtZXZvOVJqbjVMUk5BdW0waTFaaGQtTGpwNHFjZ3JQQ1VNdm5SRHVoVXZibTBwekIzbmFYLWRHWXZiZVdfTkRLOUk?oc=5",
+      "title": "Regions Financial Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSk5OTnNFaDJPSDhLNXNvdVp4S2pCcW5NdVV5S2xIcFpwSDFtOXVMMHJsWEwxQmh5MFVGWmlkR19rWGtEN2xGNEZyYTBxUmE5MnRDeDhLVjlqckRMcDdVc1IxNUdpZkxjXzJoZTd1Tmxkam1MQkJ5c3pPZGIwem9pR3lKZGpuMEF6cEV6Qm1vdjRVZHpzRmRSTFpJNnBCTm1jaXlUNGRIMUNZNjZSTUFKQnZVenpDOFRKMm90Um1GcmdybUgwZWNmS9IBzgFBVV95cUxNeW1DeWpORGpMekdXbGtaQXJlMzJ4ejNNTVZJNWR0QndxSUtTLTJEc2F4THJYVXJ1RGhIcnhZeWhSdFpuQkZKaXRpVTloUUhlQkJRYWdBdGpFTTNEVmFnNjI3bFVTc0lWVnphd2N0VldBcHlObEZOVWxDaUx0amRCck5YMS1jRFhaVUxlZTdnZ28zOGRkMXlONDA1VnpKVi1zd2FkVGRXb2plek9YNjhSY0VIYjZadkxaTjRVMFpKMnFiajJocjcyWldfSGtBZw?oc=5",
+      "title": "Learn Why The Bull Case For Regions Financial Stock Could Change Following Cash Deposit Expansion",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RF/history",
+      "title": "RF daily price history (Yahoo Finance)",
+      "snippet": "close 28.6 on 2026-11-03",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

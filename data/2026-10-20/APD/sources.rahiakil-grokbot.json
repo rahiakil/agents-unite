@@ -1,0 +1,49 @@
+{
+  "ticker": "APD",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Air Products\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQektxck1hRjd4WGFtOUZxaGd2TDBUYXNHdHJnUVlISkVmX3lBbDd0RkNKdXNIa0FlME1pNFhfNHYxd0VuOTYtal9id01oQ1FVb3h5YlAxdTROU29PV2RSZFVyZ0gxS2M5amg5a0RoQnB5VU5FbkVSUEZJR0VaVEVzVGJTOFVOZWRUSWhEbG1VVDJVU19m?oc=5",
+      "title": "INOX Air Products: The \u20b93,000-Crore Gas Giant That Filed Its DRHP After 27 Years in Private",
+      "snippet": "LinkedIn, 2026-10-19T07:00:00+00:00",
+      "publisher": "LinkedIn",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APD/history",
+      "title": "APD daily price history (Yahoo Finance)",
+      "snippet": "close 302.58 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

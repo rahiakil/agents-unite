@@ -1,0 +1,61 @@
+{
+  "ticker": "T",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AT&T\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOWJYUWZMbEJTUjdPd1BaOThQd2J3NjF6QWRSYWxzdmt0UnpmcXVsR1poQzNBTmpoNzJmLVpCWnR4di1XbWRPSW5aUG45NDBVTVB0Qy0xQVpZc25MQWRLTGNqZFlxQWpUbnFwcHhyUkR3Y0twVC1fVDNvYmJRRU1nS1MyUVFuN1l4ZFhEWW9yek9rNmk2dFVLaTRwMmVRX0x6RkdR?oc=5",
+      "title": "Service Guarantees And League Deals Could Change The Case For AT&T Stock",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc3hPcVNQczAwYldfRzNDbWctUjZLRWsyc2I3TC1jNmRjbkZvVlFmQko5ckN4WVhVTzZGZFREb0ZWaDdhZ2NlNHdsMm9mTnhxV2lGd1dDVlZ3eXZMbUpySGtfdHVFM2RCWEV3RkZURTA3d3U3cE0teTZHRWkwUFN5eUU5MjZTSGRxVG9vaGZDcVFLZXY0NGZqb0paYXB5OVE?oc=5",
+      "title": "Is AT&T Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-10-19T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/T/history",
+      "title": "T daily price history (Yahoo Finance)",
+      "snippet": "close 23.42 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

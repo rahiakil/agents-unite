@@ -1,0 +1,49 @@
+{
+  "ticker": "FLEX",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Flex Ltd\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRUtUQjVpejdiUWFLVXI4aGpsUm90aUszU2lrREExd1plWm53YVM1ZEZFTUJVSHhkNTB2ZTRFNTk3S0ZjckNKdE1TWGNfNXNMOWR5THZtcWZhZDlxODJhd1dkcG5aSEsxdzFnTWpzV3FLMm1YaHd1ZlcxSEFJTjBoNXJvalFGak1HbnIwdElzNFp4amQ4cU1uNlZzSnVrVzNlQ0FtaGFuekJVWTRoYzZkcmptNVMzalE?oc=5",
+      "title": "Flex (NASDAQ:FLEX) Stock: EPC Power Acquisition Completes Ahead of Axiom Spin-Off",
+      "snippet": "Kalkine, 2026-10-17T07:00:00+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FLEX/history",
+      "title": "FLEX daily price history (Yahoo Finance)",
+      "snippet": "close 87.49 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

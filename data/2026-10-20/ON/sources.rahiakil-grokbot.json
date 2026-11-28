@@ -1,0 +1,61 @@
+{
+  "ticker": "ON",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ON Semiconductor\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOVVDSk9JUjh5MllEcmVoYmxDdFE5Yk50ZGx5UUVwVmd6eExvX05KbVJrZ2FmU0xqQkxZeThCN3RtNjNwVmNQcndUaGxuUVFRRmdlaUhhcnZSN3pIMEQ1WXhwNDNqM3FmLVF5M2hLNFhPcGdVaFY1NzFPTU53MTB5cmZkVWszczU3ekVJc1JjVzlmM0xycm5peVVXVnJxQkRDOWZPWDM2V3o?oc=5",
+      "title": "ON Semiconductor Corp. (ON) Outpaces Stock Market Gains: What You Should Know",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdXFYQk0xcHVBRm9CN2ZBZjV2Wm9PNGhmVkFnX3l0NE15MkNhWUhFT3dxc09yOXF3M21vamE4Nkl1ZlFCbWZ4YUpQQ1NLRktIalpVVFlKSWNDbzhOVGRmSDFYZEV6aUdWSHBuNGQwblJRc2NtWEpGNjJzRUxibklDVE9iZXVFMzJiUnZFOGowRFA2TmVLYjFFN3Z3NU1qdEhMa2F0NlpaTm1aYi1kTUctQzhmNlJkdw?oc=5",
+      "title": "Investors Heavily Search ON Semiconductor Corporation (ON): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ON/history",
+      "title": "ON daily price history (Yahoo Finance)",
+      "snippet": "close 75.62 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

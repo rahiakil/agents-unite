@@ -1,0 +1,49 @@
+{
+  "ticker": "DPZ",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Domino's\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdkxwcWpGVVllODR4V1ROekFwSjBqSWNvMUcwcTBSUkdmTDhPUlVkQUZadjdlSEdzM0pLeHhrMEVwUEdmM1VMdk9zMFpJelk2MUQ4c1JQYjhveEVGOXR3VlVSNW9UNzV0RjVoNS15dFptbHFDek0tYXh3YjNWUEgtMFJNU0pPQmJjZHp0bUgzWVZ6cE9IVDV1V2lRaXItQ2pQajRPZjlyT1NWTVBWbmhJcDJHY2pINFJpSWUw?oc=5",
+      "title": "Domino's\u00ae Invites Customers to Give the Greatest Gift: Time, Through St. Jude Thanks and Giving\u00ae Campaign",
+      "snippet": "Domino's, 2026-10-19T07:00:00+00:00",
+      "publisher": "Domino's",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.908,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DPZ/history",
+      "title": "DPZ daily price history (Yahoo Finance)",
+      "snippet": "close 316.31 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

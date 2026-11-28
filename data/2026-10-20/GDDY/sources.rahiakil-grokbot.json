@@ -1,0 +1,61 @@
+{
+  "ticker": "GDDY",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GoDaddy\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWktndHc2NEJKV2loV1pJMkRFa3FpYmNhUWRjallhNXUyejczVXFlLVp0NlBWZW1SVEUyQjdXRVpOVTFkYmpZdE80dXlKeVRxaXZNejY4THI4VWpVUDdMWU8wdl9nZDFxMHRsUU9pb2I0czBGR2Y4T3JhUm1XSFlCSUczeDNfYy1uWjdmWjJlME9JUTQyM1B6VlhCNFhpblU0VjJ3a2JyOERaOGNudkZnN1dKZTlnRXRkUjM4?oc=5",
+      "title": "GoDaddy Gets Higher Target as Cantor Eyes Its AI Agent Push",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPRjNXTUx2b1N6Y0FSWFc1WDlINTZSYlJsRl96ZkFJQVFWZjBTMzI4SlU2UnZjV01VajNJOVRXVzI4bXN1UHVlWHZmVm1HeEhlbk9CNTdpN2xHX2J5eHFDUjZ4YlozU2V1Z1N1N2RDTzNyb0pHYk9xaER0eDFQWlJpT2lNd0ZKRnRLNURfdnVHdnJySnhMNGYySVRuOEVYR2FScF9lVm1BWFJNODRyUkdmaGNCd1JBajRseklyUlNFaEpRLVJkdUs4ME9lNEVJTXVaRWFEemVFOXNfZFB4RGZ6NVFwSEJISFI3N3hucVh3TktGdWxqMm1wV0VIOVlxek1xNjBHOXBnb2dEUEtmN1FXTWp3Qmtxb1lsNVVLeVZjX3JKaXRuMDZoamhDck1MWm9GZUloTko5NDNlRkk3RGxr?oc=5",
+      "title": "Bragar Eagel & Squire, P.C. Urgently Reminds GoDaddy Inc.",
+      "snippet": "GlobeNewswire, 2026-10-17T07:00:00+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GDDY/history",
+      "title": "GDDY daily price history (Yahoo Finance)",
+      "snippet": "close 108.8 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 48,
+    "no_date": 0,
+    "after_cutoff": 30,
+    "before_window": 4,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1c2tHRWlSbXJBSjZ5N2VrUjdKWjFITVlKMGpicF9QYW5NdTFOQlFmX2FIbU1RZlJmQjN1MkJZQXducFU0QmpQOXBqdm83eGhkYm45V1ZNVGZFTkNyUWt0OG13?oc=5",
+      "title": "FedEx Fall winners - and those still searching - as season hits home stretch",
+      "snippet": "GOLF.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "GOLF.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWlZmd2U4UzFrTk1yX3ZvbTdGdGljbjdsWUNhYjhXU21EOHFkZFQ2N19wTW5OcVJweXpZVHpDWjRrWWZvVWxqNFpxeFJPTHFackZVN2tvNXlEd1hvZXRoM19uWFN4eWJyM1lpdV9uZzVabHVLZC1rZXBROEMyZFJBVzZ4aUtqQ3JnZE1zWVVmckJvLUs0?oc=5",
+      "title": "FedEx founder saved company with last $5,000 by winning $27,000 in Vegas for jet fuel in 1970s.",
+      "snippet": "Pluang, 2026-10-18T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQV2tmOTQtbnQ4Ty1sR1d2QXVxbDFTc3BXSm5abFBtSzJld1JhdXpqaUNlek1PUmF6Y05MejZnbFdkSXdLZXN3MVU2SDBuSDkyb19hZUFQbVdIWTFqSEctOFlGdWtLZ0NJTGdFc2Vhbl81djQ0T2JhLUk0T19FMTUtTDRBWndzNWk4YjYwRlQxNkQ1cERGWjVHYWdoWEVJa3AtdWZ5bHQ0XzR6YnVVTEhHeXJtUXcwR0hXU3oxV1lmcUJDQ1FJRDVOYTdkejR2OGZRdmo4MzFaUXBGTmotZDRGM1ZYQmh0eFhGRFFGclVXRXdiOXkwZ2tSSk9PcmsyR2hBa3dXT3JodnA5WF9mU29yb3RXYlRObnc3RXRONlptUFpreFNVeVNmWng2b2wzcXpiN0dncHVaZW45NVlKbnJSUjJQU1dGWDNYcENxRW9MWjNFVzdy?oc=5",
+      "title": "By 1973, A Vietnam Vet's Logistics Company Was Down To Its Last $5,000. The Former Marine Took The $5,000 To A Vegas Blackjack Table And Made Enough To Keep The Company Going. Five Decades Later, FedE",
+      "snippet": "24/7 Wall St., 2026-10-18T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 298.76 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

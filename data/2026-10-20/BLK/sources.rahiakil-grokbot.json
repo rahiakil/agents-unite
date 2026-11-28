@@ -1,0 +1,61 @@
+{
+  "ticker": "BLK",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BlackRock\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONkN4QzRRZFlJLVE5Z2F2TFl2cDJHaml0czRnX1VLbHpxUURtR2V1UmhxQVltWWhjWVIwU01WVmhWa3dSTGQtYnFZeDBCSXZ3c3pCR2M1WExQRHM3UTFIM29FSldWOVhhQWswUnJJZE1GMnU1eVlCS3hMX1RTWkxKMnM5MU53MzFybm5hWk1iVlRSNkJua1hMVXYxMXVHN005d1UxeEdtbFJXQVhRR3l0UjZ3ZE44T1V5ZzVrazlRTEVIWmpEalp5UmxhRHZtb2x2bHF5MTQ3ckHSAd4BQVVfeXFMTXF4d0JkSnFvUG1TWHdJR3dhLWYtYVRzTmNTdm1oSWVKZERDVWhGUXQtTkFRWGhCUC04WjR5QkdYVld1YVpxb0ltUnA2dmZzbkZSSU56eVZwc2xRanJUU3BLWWZxU091c0RSb1EwZ2NOLU5MNFJFWjNxSXNsWDRzOUpsbkVHUlFzSVRrWmpnX0xaWGlhNWEzRzBMcG5GSUFReXNrQ0g1anhTak9kVXpPRVo0Sll1Xzg2MWZxeXBrTTVaU3RYQmR2ZTc2QUVmVDc3Mk9RTUdpbkVsMEtmZW1B?oc=5",
+      "title": "BlackRock Stock And 2 Credit Plays For Higher Rate Markets",
+      "snippet": "Simply Wall St, 2026-10-19T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZkpZcXlwN1Y4TGxEbk1TLVZvX3VCUHlNV2pHemQ2ejVaSEhld19fb1k2M0JCLTZPanNMYmFhQUlZSmVJMVo5U21oSF9lU0VFS1hrTFdRdXcxRDhsbFJTVG1uN2lVYzVtN0U2MVhEcUo0eGtQamxFV2RDR2JWczlwdTJqYw?oc=5",
+      "title": "BlackRock\u2019s Rieder Sees a New Age for Bonds. Where to Find Income Now.",
+      "snippet": "Barron's, 2026-10-17T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BLK/history",
+      "title": "BLK daily price history (Yahoo Finance)",
+      "snippet": "close 1128.6801 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

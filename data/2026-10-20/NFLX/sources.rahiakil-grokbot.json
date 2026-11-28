@@ -1,0 +1,130 @@
+{
+  "ticker": "NFLX",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Netflix\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 100,
+    "no_date": 0,
+    "after_cutoff": 92,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVjdRNjRHZmlTbkVTUHctNW51Q000SVY5cDV3clh5UjJmckNIMDFrS2twYVdMaWtvSEpaNTlqRnRVMkxOZzlBYi1VWTFZWTMxRWZRVmRtMkZQN0FpdE51UGR3dThTRUdjQUdEdDlkVHh1TElJSy1zUnlOZUVVbjBRTTF0dVVoc3BkdnlvcFUzenlxaHMxZDBwUXpYeHhYLUk?oc=5",
+      "title": "Should You Buy Netflix Stock Before Its Earnings Report After Hours Today?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTJPVXpYM2djLXN2M3I5bkE4VDNwTFotaG9KMXFETFJZZkgyS2VtVUs2MzR5TzVjRTUxV2lTV3hQV2JSSG40S1N0RWVIdldveXZLMkxMVkZuckhtbnV1S3lTM20yeXpTb1Z3VUFraWs4WXNOTHd3dDlNWUtlZnZob05FaHZ5RzVXWWViQXdMZHBoZGQzU3lDWHo5SVAzQ0R6QjNnSg?oc=5",
+      "title": "Netflix, America\u2019s Dominant Streaming Service, Has Hit a Wall",
+      "snippet": "WSJ, 2026-10-19T07:00:00+00:00",
+      "publisher": "WSJ",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUdNamdTUENFQy1hVmpBOGtuMERlZGpjNVlTWUYwcEM4R21zNjJKdWtvRzd4bngybUwwV3o1b2VCaTFYTTBUakNaUmd6ZXVhN1p4ejRaRkxobEhQUFBVeFBSU0Z6bGI0MmlJNjQ5cGpVci0xMmxMdGFQajZLQzRLM2JGamZSMk0?oc=5",
+      "title": "Netflix Stock Might be a Sleeper Hit",
+      "snippet": "WSJ, 2026-10-19T07:00:00+00:00",
+      "publisher": "WSJ",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcThabHJZdkNUc0thc0RmWGZWaWZHY3Jtck9ZQ0ZOMTZ1ejBVNmd4SXA5Q0VFOHUxVlRlRl9aUzZOazk1MF9GT2RyMmU4Y0RGbE5BX19ldGlZSmY4cDZZNlBLTE1FLW13U2lnNlZLaFp5em14YmI0R0hWUFJEdkhTUU9LTHdXVVdwN3R6Vlo2b084eTNpcXAxWjdzcUNTVE01eEpQOXhid0RiZS1SN3FJQUhrMUJkVmd4SGRHcjVuQVI4T2ZwMGc?oc=5",
+      "title": "Netflix Stock Has Fallen After 5 Straight Reports: Will Q3 Break the Streak?",
+      "snippet": "Benzinga, 2026-10-19T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEJnUkVCWm9GbFQ4TDk2VDNiSHZRaWJlUmtGd2hPZ2luS0VXbXBsNmpFbXktemtDZlhVbVNtSEc1M1BtWnpjdEd5ZjRyV0R0TXUzMDNPZF9sZVRtbzFGQnY4WDBmTHo3aW9XMFk5Q3diaDgtd3dZZmZWanFoMkVGWkx1bWhTT1VzX0xQNVNaaThqNnpQZ2JucHh3bUlYR25rQlJFWnBSaHhMc3NGWS1SVG1CbVVycmF4M3hZ?oc=5",
+      "title": "Netflix Stock Faces Major Test as Wall Street Grows Nervous",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQR0VDOXNPa211MXY2dU5NQUNtU0tNT19TNlNnQTRPTjd2Y0Z6WXI5MkFIV2Flb3JnNWxBOGtIYTNkdF9kQjRLT2tWSnZ2OEdZRktHVFd3bVR4NXR1Q09aTlJiS2VoZVhKOFNnR3dZQ0w5eUtCYWZuRWp0UVMyNXlxTnVGX1FPeF9ISkpXclU0WUd3OG51dFZFLWxXZXE4MU5jbkh2VWdZMmFQdzFsQjR1MGtkTEVoa1cxSzJseGZZRDNjQ2xnUFlOcExjMmtZSzBMZ081YnByVmxaODVDbXYtYWdqSi1WV0lNYVlfbzUtbWxyTnZwQWdra3hZbGNDRkJJZkV0LUo1Mk8xM0M2TzRpUklpOHA?oc=5",
+      "title": "NFLX Stock Flat Overnight: Netflix's \u2018Largest Content Deal\u2019 With Brazil Media Giant Globo Fails To Sway Retail Ahead Of Earnings",
+      "snippet": "TradingView, 2026-10-19T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSmlNMm1oYm1ZNUF6ZFFVTFZzOWpQd0pfU3NrN0QyOHY0bFNSUGlQSnBlUExoejVqN0hZZW13N256YVBxeUhHTkprUWR0S1VRSUdtWGVvZmZiRFYwZ1hpVExLaGpubDRvNkpDeVA0eE5FSjdmZ2x3Y1hhQ0lNQ0ZPSDRlaGJJNDhiYXVGYlZ2RkNUVmR5UlZxUVFHa1RIZ9IBowFBVV95cUxNV2YzUjVJTUZUR1IyWFIwNk1rbUxBZXhSd1BxMG9XTU51YXh3c3pWdnJ4blcxdGtmSHZ1Vm5DT2JuSEhSbXJGTHBXTWF4ZFYwX1hQMFhUbURKa1RCNTVXNFI3NFNMdXphSlJvRThOR0VaeWVENVVIOHlLQ3d2ZjdqTmxHTjlGd3JUY0w5VW40czdqZnV0d04tUTc1OV9PbXVXR0VN?oc=5",
+      "title": "Why Is Netflix (NFLX) Stock Falling? 3 Key Factors to Watch",
+      "snippet": "Coinpedia, 2026-10-17T07:00:00+00:00",
+      "publisher": "Coinpedia",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NFLX/history",
+      "title": "NFLX daily price history (Yahoo Finance)",
+      "snippet": "close 68.69 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

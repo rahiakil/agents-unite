@@ -1,0 +1,73 @@
+{
+  "ticker": "ETR",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Entergy\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeUF6UXV4ZThodjVseHN5VmxGR04xQkI2Vm9UQXBxQ3B5eTJmcUh3YVROZ2hFMlB2RGpYLUprdjdvYTJ1LTVsNE9iaG9YRFprYkxhT2IzbWN3alJ4MzRrUzZDdzBWbGFaRGF1OG5icmdoX2ZvWUQ4UW5NSTVlTzlab2RQR1BlZHA1d1FDc21kcm45NTNnN2g0UA?oc=5",
+      "title": "US Energy Department selects Entergy Mississippi to receive $4.2M for grid improvements",
+      "snippet": "Entergy, 2026-10-19T07:00:00+00:00",
+      "publisher": "Entergy",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOaDU0dW9yTjBsYjlxZ2V3anRmSEQyQVFENlhuZWVtNk12dGczWHVuZ2tzcG95T1haZk9fVFdVU0dpVGw5MkxxNkYwWEVpT29rZVRsU0VhUG1KSkJZVmp3bU9FMllmeDhYUXVRTjN1ckc1R3BkQktMMm4tRXVkblZ3OHE0M21DbTdXM3VqOFl4LUtsOU0teUQzc2JSODEtREYwZG9MNjRiV1dael95OC1SN1FPSWc4UUo2OGdMQmtBcXZCOXlVUmRXRHBWdnplTDV0NDZvMkNZTzZab2syOU1WWllONjEyNG9YUUI4TlRCWFFXeWYxU3cw?oc=5",
+      "title": "Entergy Arkansas announces enhanced partnership at Google West Memphis campus, delivering at least $500M in new savings for all customers",
+      "snippet": "Entergy, 2026-10-19T07:00:00+00:00",
+      "publisher": "Entergy",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQmswbkRUQ3lLemdJb2lqYjR2RU1NYW9UWERuQm1sYXd3dFF6TkFoVmxyRnpqM2ZES1ZOd3FQYm9MZnpBa19Id0tlZ0k5SXV4MHl2VGlLZ1htT0d1dW9sM1pBNGlFZ1VPUEhrcXNZT3dWZHZGWW81WGsxd3pOYUFwRkluZVJvSHVteXdzT3dSeVczLU92aVNOTmd2SGI4Y1FCWGp5b1NuS3Mtb0xqT2xLVFVCWWJuQdIBtgFBVV95cUxOQmswbkRUQ3lLemdJb2lqYjR2RU1NYW9UWERuQm1sYXd3dFF6TkFoVmxyRnpqM2ZES1ZOd3FQYm9MZnpBa19Id0tlZ0k5SXV4MHl2VGlLZ1htT0d1dW9sM1pBNGlFZ1VPUEhrcXNZT3dWZHZGWW81WGsxd3pOYUFwRkluZVJvSHVteXdzT3dSeVczLU92aVNOTmd2SGI4Y1FCWGp5b1NuS3Mtb0xqT2xLVFVCWWJuQQ?oc=5",
+      "title": "Entergy (ETR), What Is Drawing Fresh Attention Now?",
+      "snippet": "Simply Wall Street, 2026-10-18T01:37:37+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-18T01:37:37+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ETR/history",
+      "title": "ETR daily price history (Yahoo Finance)",
+      "snippet": "close 105.16 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

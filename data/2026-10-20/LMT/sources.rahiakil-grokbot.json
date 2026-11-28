@@ -1,0 +1,121 @@
+{
+  "ticker": "LMT",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lockheed\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 10,
+    "irrelevant_or_spam": 2,
+    "dup": 2,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1RvUU1yUjRoaE9EOXhVTjU0THVNM1VBSzRzclgtR0JweHdkR2N1cXlrUm5JUW9hSUVDWjZxbGpIc1cxUU83MDZLbC1KaS1ucEpQSXhremNweng3OEdGQ1pQdnBvbjM4eFNJMjVhNUNIV2hVVERlZkJaTlowcHc0MVRCQUpkYWpCV0pHTU81TG9DZ0RTQU9yT2hIQ3NvaFdR?oc=5",
+      "title": "Why Lockheed Martin May Be an Underrated Stock to Buy Right Now",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZlFNVTlZSnFvaFJ0M0s3R09DM0dtem1QelNsZmZNMll2X2RUQmpoU182YWR3cFZSQ3JlMmpaa2RObTlQS2c0MGF4T3VZMzRKOEF4VXJQanhYeWxBV01yX3BDSlQ1dllfQ1c3QzFZVWo2ME5zNUhRRzR0ZHVHMGs0UEJLT0g4X2xfeGZtUlI5NTRVZF9iQ3lfSjBOeFRMQlZjVXg0YTRxV2ItTWJQS0pF?oc=5",
+      "title": "RTX, Lockheed Martin JV wins $215M U.S. Army contract for Javelin launchers (RTX:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbzRVbE1QbENoMF9oRlk5bHVuN0RqVWJoQm5qZ0JNSTVSX1lEc0J1R3YtQzZHZGdoUkhCNVFYSkN6X0ZvRnhhc1NxQnpqYkdBZFZBTTU2MTRNT2ZDQ0lyS2RyaUcwQkN3UHZuMzM2ZHp2VEl4MDlZRUVUdWw1RHFsUmtnblpsbFlHb3JWbUQwNkhLQVJDQ3Y0Mlg0SQ?oc=5",
+      "title": "Lockheed Martin (LMT) Faces 2027 Rare Earth Rules As Norway Fund Door Opens",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTkRUMXpqOENnZExacWl5QnVnek5yR2V1Q1oxY0lDako1Y2FhRVJia2FENnlpSUE3UzA0bFFPS3Z6TDNKcEFOQlNZOURyanR5T21UTTJoMDhJOUh6VUUxMFlqVXBQSFNnbWQ2TU5hajktVjZjVXhLOXYtcnppU3hDNkEtUEYtYWJyRFlCTXB0cGUwUjZMbmNsdVlmQ2MyUQ?oc=5",
+      "title": "Lockheed (LMT) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWtVa29EYmxCME9ENk1QRjhDMko0Q0JGZGVyeU1sa0htSU5jV2ZPMEdxMHpXRDROSHdmUENpQTlZbGtOYjBfQXVpWUh6WTV5cUt4d2NUWGdxRDM5SXg5TEVzUENzTjY4OEM0Rkt4eklmcklxR0JSckFweXdlc3BhNGNlMkNoN2tfVWtSRFFzM3pTV0pTYnZCVEdYSQ?oc=5",
+      "title": "Joe Kent Slams Lockheed Martin CEO Over Iran War Profits - Lockheed Martin (NYSE:LMT)",
+      "snippet": "Benzinga, 2026-10-18T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNjA1U0Q5V0NSQi1XMHFsOGo4amZYUzVISWtWS1VnbHRBLXZ5WTdnTFByT3NmdU12NmxWRlE3SERnNzdSSWp4bHFaUUQ1aFhvalRpU3Q3Y292ZUhWZ0ctREJaNHZLUkhiUFdEaHIycGlYZEd1TFhXVHhCdXBzN1hOY2NTOTRlbG82aTNtRDBRMmd2T29TVXJvWnFfcUdiRk9mQ05GRXlHUmtkRFotNHhDalBITGVsVUQyQms4LS1FNkF2dUcwQXAzTzlPMmxXalVOMkFFMjRRalI0UjZl?oc=5",
+      "title": "Notable analyst calls: Salesforce, Walmart and Lockheed Martin gain analyst support as tech downgrades mount",
+      "snippet": "Seeking Alpha, 2026-10-17T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV0F2Rm5GNlJvUVRfSXRvVWtaSGdYT0lFcGhuYW42dk1fZzJTdjdGQjFjeGVmbkVpZXE0MDNReERRSDNQaUhwN3BqQ2lvLWROdG9LS2trVUdST0l5ZXBIYmtRdlNCeUVYMkluUzVpb2VvaVVXOW1DMXpqSGxuSTZwN21yMnE3M2F3YTUyVFJzWFZCSjQ?oc=5",
+      "title": "Lockheed Martin's $230 Billion Backlog, Explained",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LMT/history",
+      "title": "LMT daily price history (Yahoo Finance)",
+      "snippet": "close 548.71 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

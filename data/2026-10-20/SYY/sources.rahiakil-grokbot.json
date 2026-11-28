@@ -1,0 +1,49 @@
+{
+  "ticker": "SYY",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRl9KMllqWDlBYWk5T1VCUTB5QkxYMXExTjd3Xzd3MjdzTXNvRDVJcnNsYk5rXzZCM0FtSTJGOFlEdnJIQUtkZmhBeFhsUWdneE1WZHdlcDQtaFBWVWZjekFiWGIzanJ5MUVwNkE3SmxTZlRoWFJPUGVmMDcwLXdCaldaZUlXekxNd2paQXZhcUJTeExNaEhOVktoaEFVVnpRU3pYZw?oc=5",
+      "title": "Warren warns against Sysco-Restaurant Depot merger",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 82.89 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

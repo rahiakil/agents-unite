@@ -1,0 +1,106 @@
+{
+  "ticker": "KMB",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kimberly-Clark\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3hXT19YVUNJTy1XNGswWl9ncnpwbTktSlhxOFVyVjNoaTZETUVSTDlCWTRKenRDeHlXeVhpWklpakYxT0p4cEFOUDJiVjV5dHlxekw0VEtRU1BBWmlJa2o5MXVRZE0wUTg5MWY3eWJpYTdiZkRPalpibjVBM2FpUE9SRWlWMUs1cFRSNzhPU0JnSXNNdlBJTm9hWnpPQQ?oc=5",
+      "title": "Kimberly-Clark vs. Clorox: Which Dividend Stock Pays You More in 10 Years?",
+      "snippet": "TIKR.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdDdZc3RWcU1fVmZWWG1qcDdTU2pJTkpUaVhSekIyMVg1Q1NhMnZHTEhvWF9JRGVwcmY2N2FMZkZQdlM3MnVtcEt4dGNIRTFENmxpTTJrUWdIYmtkRVl1V052NEEyX0dLaWFNeHQ3ZC1Bc2xsZzd5WXdpcjU2em9veXpWSW1oTnZ3UTNMZ0lHVlJDQ0dDczhSQ2V2WXVhRFBBUEMwQTQ3b3hPY1VlTmJhLTJzaGtKZWJ0MUwxTjJmM18xYU5ZUU85bmZVZzI3eUhQbXM5Vkw0NDJwNFM4MzVHWUxn?oc=5",
+      "title": "Kimberly-Clark Corporation Announces Pricing of $4.9 Billion Private Offering of Senior Notes",
+      "snippet": "PR Newswire, 2026-10-19T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMVZDNThtQWF4Q1FCVjdkTWk1Tm56Mm9sVjVZX1NScUk5VjVycTlxT2RnNS1tbFpuRXVnc01XeUdIZXBKdzFmX2h6UFJPdTlaRzZ3YkYwd2dmR193aUlZY3BNd2JqUVVxWU1TS1VKanZwejZQWEJIbGFNWThfOVk3RGNEYXUyY3J1a3cwcHV0R3JiQQ?oc=5",
+      "title": "Kimberly-Clark $4.9B Bond Sale to Fund Kenvue Deal",
+      "snippet": "Briefs Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Briefs Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNDhEY1FvOWh6cmJZbHpuTGh6TFhOV040d2lfTWlPUEpJcnQxb1ItZllPMlBKbUkxYXFRcHZNNW1xVENSNWkwOE1meDNraW02Z2w2YnBldHh1YUFFbXROUDRoX0J6ZnpENF9CYlBDZ3ZnZ0xJeHdJc1ZFZ3dQc2hBd0RYVHNkeHlnOUdrTnRn?oc=5",
+      "title": "Better Dividend Stock for Retirees: Kimberly-Clark vs. Hormel",
+      "snippet": "TIKR.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcDVIQm80bGNRRDlpTmYtOVZsTTNweVUwcDhRS3MtVGNsVmV0SE5QZUhnMVQySXRvRWtuR0twLWk0SjhuaXlhaDliVFhiY0xiMzg0Sy1sWnhEZVdnZzVhaldwbE5wdUhWM09qbW9ERWZuby1HcExNd2Z0NzZ0NlhjUkZZTUxPdXRzSTY4WWlxVWI1R3Z6eEVhMGFVY0U2Z2N4V1ZyeVZvSFdHRWVUUkhzMlNsU2k1dnBRa3ZNTkVUOTM4b1p6ZlFoVGc4QQ?oc=5",
+      "title": "Kimberly Clark (KMB) Gets a Hold from Wells Fargo",
+      "snippet": "The Globe and Mail, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926117036/tm2627826d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KMB/history",
+      "title": "KMB daily price history (Yahoo Finance)",
+      "snippet": "close 108.33 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

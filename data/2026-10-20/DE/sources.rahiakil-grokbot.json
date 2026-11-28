@@ -1,0 +1,61 @@
+{
+  "ticker": "DE",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Deere\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSThXWEhPQWhTejlaWEZGU0NWT2lVVlB0T2ZRNVpabW9jYjZaRC14R0hwdnJzR3U2NjRGQzhxSy1jaWY2cnZTUkNyU1haNy03S3JTVVU1NWloSmNfeFM3R011N1BQNDJseXJOSFVKeWppTGtHQTNsT3VULTI1MU1OQ1lHdmY0SUdkeEJhVkVlT0Q2MGpoajY4ZVBuallFZjRSSGlIckFOTFFuSlR0Y1hvTkxqbVhtejNnWjV0bURrUmlmZTdmaUpNemc0VWc2QTM4UDBCVzIzZE5NcTY2N2liS0ZpV0UyM0Q2djI1bg?oc=5",
+      "title": "UAW's Deere gamble sends a warning to Detroit automakers | Dale Buss",
+      "snippet": "The Detroit News, 2026-10-19T07:00:00+00:00",
+      "publisher": "The Detroit News",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMDduTXFjTGhFejJCMHBKbTNJaVJsUTRNenpJbmFFRl8zQVFKdkFfWXZLNHc1aGlsN3FCRWFQdGtWVGhneWo0ZDQ0U3RTa2N3QzdBeGtURUdmWGp2SmJRbUxJRU1ERjRIS0JmM0RTclRvRng0VVAyUTQ4SVFRSjlNS0hvQTNfUkdSTWtiSEhEQmU1RkxJN3gwUTB0Q2JfUzJqOVhLbHotZzVWbzFTbTREMjFOSlBhcDhtRFhhUldKRkRfTWFwTmRnWnRqY1dEQ2N2UUcyZldVUQ?oc=5",
+      "title": "Deere Stock And 2 Software Plays Built On Fleet Telematics Recurring Revenue",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DE/history",
+      "title": "DE daily price history (Yahoo Finance)",
+      "snippet": "close 632.2 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

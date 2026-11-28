@@ -1,0 +1,58 @@
+{
+  "ticker": "WSM",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Williams-Sonoma\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 5,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOckN6dEZETG90QzJWQ25JUHhLMEF2VVJRSld4clNnenZIa29zM2RYak9lUHh6ckNuVWtFNmpfLVVyZGxEckViWTFVamk0Y0VMQWlxcG8tVW03RFh5aHYxWFgybWpmTzlCRlVfTmw0LV82TlVOdHQ5U0RISTRLZnhCSHJUbGtpMF9NR2JNTDVYaUExRTVneGl6ZmNxTUNsWUgwWm9vdTJIMDJXdk55UTlCeWpTUDc1bGRKWkE?oc=5",
+      "title": "Williams-Sonoma Appoints NYSE Group President Lynn Martin to Board of Directors",
+      "snippet": "citybiz, 2026-10-19T07:00:00+00:00",
+      "publisher": "citybiz",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000223/wsm-20261016.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WSM/history",
+      "title": "WSM daily price history (Yahoo Finance)",
+      "snippet": "close 253.99 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

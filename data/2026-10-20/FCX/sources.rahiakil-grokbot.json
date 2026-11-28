@@ -1,0 +1,73 @@
+{
+  "ticker": "FCX",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Freeport\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWnBDZ3JrOHYtZnNielJfaG0yZjB6b2tlcWc3bVhscmM0WmVkem9pYWxFM01rbnhXQVlkNW92WWhURkhXaGN6MTN0ZDBrejJoVFdaRDRBM2ppRTVSZWxHMUNxS2h2MHVvWWJEVmNGV3U3Sl9MaUVlR0c1T0xMREptd1JFaUl5dnRMZ2M4QlBRWHJjVllBTEFhczJB?oc=5",
+      "title": "Freeport bets on chemical solution to reach copper leaching target",
+      "snippet": "Mining.com, 2026-10-19T07:00:00+00:00",
+      "publisher": "Mining.com",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVGIyaTd3Q19jdTByd3Vma3Fvc19la0tYZXd1dW9DMEoyVUhYeDQ3VFp6M1ZjUTVsc0lxeHpNdjRzSy0tSVk2M3Z6VkZMMmpaVWQyekxmUVdsWFR0dGhOc1BkUWlDUjI3dk9YV0otZ1NiUzVWTTNoSXhSdENSYjJVellsX0pKVjI4dG9GdFAzVWJIM3pxYlJDNw?oc=5",
+      "title": "FCX Maintained by Barclays -- Price Target Raised to $84.00",
+      "snippet": "GuruFocus, 2026-10-19T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUDBnXzZObmNOeVpNajFabUJUZU5ROE9CZjA2MEZCVUR2eGpNdkQyNmxqV2I0Z1Ffak9nVUkySmV0aDM1OEtZVVBDcTZPakh1YUxHZ2RDREZUUVhIYkxuMTh0cXhzNUloMmd6d2V4djFiU3hIX01ncUlQLW9oQ1d6dm9PTGprT2wyTHEzaUppRHFTTE82ZjhTUl9ndml2LVdfY0JXd3p4YV9kSWVyOVY5UEhnZkJLS1pmV3NCZ3NVRzZCdXk0c0IzNVBPVmstSlBUaEtB0gHTAUFVX3lxTE9QMGdfNk5uY055Wk1qMVptQlRlTlE4T0JmMDYwRkJVRHZ4ak12RDI2bGpXYjRnUV9qT2dVSTJKZXRoMzU4S1lVUENxNk9qSHVhTEdnZENERlRRWEhiTG4xOHRxeHM1SWgyZ3p3ZXh2MWJTeEhfTWdxSVAtb2hDV3p2b09MamtPbDJMcTNpSmlEcVNMTzZmOFNSX2d2aXYtV19jQld3enhhX2RJZXI5VjlQSGdmQktLWmZXc0Jnc1VHNkJ1eTRzQjM1UE9Way1KUFRoS0E?oc=5",
+      "title": "Is Freeport-McMoRan (FCX) Undervalued As Q3 Earnings Put Copper And Gold In Focus?",
+      "snippet": "Simply Wall Street, 2026-10-18T03:41:23+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-18T03:41:23+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FCX/history",
+      "title": "FCX daily price history (Yahoo Finance)",
+      "snippet": "close 68.87 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

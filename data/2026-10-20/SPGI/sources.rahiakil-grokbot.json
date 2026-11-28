@@ -1,0 +1,97 @@
+{
+  "ticker": "SPGI",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"S&P Global\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 46,
+    "no_date": 0,
+    "after_cutoff": 19,
+    "before_window": 10,
+    "irrelevant_or_spam": 11,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFgyU2p3VWN0RTRoRHBJTHA0RWFMeVdmT3VzWDF6T3lxQlkzcEoyeHI0cC0ybkhIcEg3QUZXQkFZVTlmUmRrajVwMUs5SmZiSjdLZWFsTkdETGpwUUlUTmNCZ2lDYmY3RmZUdndNNWN5b1A4bTJwWWlDMk5kUkc4cWdXRmxRMURIUWhDWjl2RU9OaHRtUU94QTZ0blY?oc=5",
+      "title": "Watch CNBC's full interview with S&P Global's Dan Yergin",
+      "snippet": "CNBC, 2026-10-19T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR0R4ajM1WGNGNnB0Sms4Uy1aWV8teXNzd0Z5YlllYzE1NlRvSm9oX01Ic1p2SmFDOE5mcmZtSEMtRmh4bU9xZGYyME5NMUdwdmY4cWIwWjU2RXMwUFVmek40YjVSd1E0dElQSmRpSVhNNkJaQndZRnZ4NzZqUWxNbmdxdE9vZTcyUXhKN2trMWVGejRXZldCcWVyTDRBWXJlMXFsRjVDMFZJSGR3N0xIMXVpenZfMHdvcjB4SzlSN3p0UQ?oc=5",
+      "title": "Top hyperscalers likely to have more AI-linked debt than now known, S&P Global warns",
+      "snippet": "Reuters, 2026-10-19T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.583,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOXhEcm9XOHFNdFhmUmtsX0RncXk2VjN5OTZXajVVX2pVT2RTUng2cVBrUjVGWjQ1TDJpWVBnbm1NTHRzVHNnWDFMQ3NfRDUzM21RQjV5Z2VmRXl3OW5KWl9MNWxkekE3YThQb2VjLUNEbVBMYnhGQWFUOU9uZXJKOC1vTzFISmszOUNSYURHY3dzeWw1aU5EQVlPekhJVEsx?oc=5",
+      "title": "S&P Global stock pre-market at EUR 382.55",
+      "snippet": "ad-hoc-news.de, 2026-10-19T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek5sY3ZuS0wwb1A5SW4xQmFCc3VDQThWU0pjRFo4T253Y0NtcjBiTzZhbVc5XzRIbHNZQXozNGY3U1dJbmxiUEZYajZyX3A1ZHA4dWJIbnZZSGV2YjB6ZjdHM3FEOXpvc05lXzNoc2VtOWFRYmljSDNRYjBVU0ZtZkxVaEtnWlE0R3pXbFgxSlFOcUtyNG9V?oc=5",
+      "title": "S&P Global (SPGI) Is Benefiting From the AI Boom. Is the Stock Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZVdFWHFHUHpNUmx4ZVY4MC1TRHhWeGhCVG9WeU5PZGNuNzUwZlpGQTY2dVN0WnhISnhZR0dqVWNudm1qOHU0N3RORW1oY1Nvcjd0RVBnbEpYQ2E1Ry1yemxrV1UwZmVTWlVwOTNya1VjbFF0Tlg1OVZmRkFYM25VckpTbnNqQ0FJc3RSMjhfTWJiN3FvOTJ6SW9B?oc=5",
+      "title": "Did Visible Alpha Data Launch Just Shift S&P Global's (SPGI) Investment Narrative?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPGI/history",
+      "title": "SPGI daily price history (Yahoo Finance)",
+      "snippet": "close 438.12 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

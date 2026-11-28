@@ -1,0 +1,61 @@
+{
+  "ticker": "FSLR",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"First Solar\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNWZLSHp4YzBIVTZKQTBWRm9ObTF0a1BUNkhXcG84c05rZDhzQndYWHZrZnV5Z1lGY082NEhIX2Y5enVaT29QeW1vbGdLVEhWYy00NDJvbkFCM0lmc290b1BFWDRtekpWRHp4Y0UxRF9UZ1hnaEZTX2ZSQWxHSmdGRmx1TFlWMWNOekFJZ2IzQmhnSThUSlI2cmxaaDlack5DVW5XS0ZEU0Fpc0hLaGdLcEYyQThfWlVvVng3dzRBQzJXcXItNHpta1FTZw?oc=5",
+      "title": "Sunrun Sinks 5% Toward 52-Week Low Ahead of Earnings; Enphase Energy and First Solar Slip",
+      "snippet": "24/7 Wall St., 2026-10-19T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVWlyMXJrWDVTX1AxUnR3anJzTWZ6R2RLWVdOcnNEMVUxNGZtdmlqWnNVbXRrN3kyY0hKcmt4RUhXNkcyZnhvbWRBSGZUdldJdG9uc2NRVFZwMlVJdFpvSUlSZkxVQTFKdm41bG9rNGNDQm0zM3lLOG5nRzFBWDd3aHZkTXhONlNxNUU3N09xOA?oc=5",
+      "title": "First Solar (FSLR) Has a Huge Backlog. Will New Orders Deliver the Cash?",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FSLR/history",
+      "title": "FSLR daily price history (Yahoo Finance)",
+      "snippet": "close 174.43 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

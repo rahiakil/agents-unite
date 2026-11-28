@@ -1,0 +1,61 @@
+{
+  "ticker": "TWLO",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Twilio\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcm0wQ0sxeEhITF91VzBfYmZzM0VZMnNkTGEwSlptVFd4S0FkVkJaQkJhdmEzNjZlVlBYcUpxR0hQOUNlaHFfd3RSaTZ3MDh5VmI3WW1LMS1FdWtQX3VCekh6LUtCaVYyMHhzNTJtODc0c2prd25BbjlWRkJTM0pBbzdZSGxJU3g1dDQtRWkyMFVuRW9BMThWUEUteUprRVBoZDdMdVl4aS1Mdw?oc=5",
+      "title": "Twilio, JFrog, Fastly, Palantir Technologies, and Snowflake Shares Are Soaring, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEI2VnhqRUhUYl9wS1EwbVFyeW5jenh3WHdrQ3JaZjVmbW1fQjItOUVzQTJHa3hmYnRYTkxyc2k1VllGV2E5dVdRS0FCcy1qZmplVEt1R0RSNW9mOHBIS01oVmx2VklXdEtiUXdKTnBzN1Q4WUtZeVJ1YnowTDBRaE1QcnhfajNMbnZaNUJIVGo3OWhaYW5pdU9yZHF1QQ?oc=5",
+      "title": "Twilio Delivers Growth, But Valuation Limits Upside (NYSE:TWLO)",
+      "snippet": "Seeking Alpha, 2026-10-19T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.619,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TWLO/history",
+      "title": "TWLO daily price history (Yahoo Finance)",
+      "snippet": "close 258.69 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

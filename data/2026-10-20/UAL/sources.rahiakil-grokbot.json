@@ -1,0 +1,94 @@
+{
+  "ticker": "UAL",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 47,
+    "no_date": 0,
+    "after_cutoff": 36,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT3RmMnhQaDRONFk1MS1ZdnNpVVVQb05hZ1h3dWlqSXRFcy1sZEJSNHdGUlA2VGZpVkliUmJJeDVoMDZKeGs1bXJ2T2pjZjlPSEZkRXlvN3dDUkgtUVREV2ZxNHBKTlVDYU1oNmJ4MFVKckNuMXVydjhiOWRyX1ZKa1BZd2NzY0dCQk5pOTI0cVBvUUpkRVgzVlRMSVZzQkk?oc=5",
+      "title": "United Airlines adds 5 nonstop routes to its lineup - including new international destinations",
+      "snippet": "New York Post, 2026-10-19T07:00:00+00:00",
+      "publisher": "New York Post",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZk5SYzFmUHRWMjhPRFhaYUZqc0dMd2xTc2NMY0U2c2R5NzdmYWxWOEFlSDJvU3hGdEpjR3FCZlhVdmZCcWNickM4Yk9SQTJvVHF3RVpGc05BLTlORUJXbHB6YXlVZWNoWk15ekdpRmZkaHM4cWF6Y0NzN2FkWFJMX0l5UlVjdmx4TEt3NTltaERmUi1lZzhfdFI2TTRZNEY3dGxLdkV2a3p6Z19VSjhlWjZIZy1fekEtOUp5eWJ0NFNnVzJvMks5N3FGXzh3MlVzWllHN3BBYzkwcGFlNkFWTVVn0gHnAUFVX3lxTE55Tno2MmFjNXFkcWhjWG9GQjh2WDJJWjNTR3pPYm5KRmxtTTlrLW5jYmx3OG9pdFdaUncyNllJQ1htYWJUb0d6d0d4c2VBSVRIMWVZcGd3cThjRFgyNmF4OHZtNnF3UldJaGoyVkdoR29vbFFmM2RiemJDZWVBTVdJdjlKV3pvVDI1M0pZSXg4VkpoOTdlVFBMTU44SU85a0hSY1ZwR3BxRDluSnNiUDRLTkU0WDhwS1I0ZWdXSjVObnEzTS0xSkloU0pMamZaX1pvQjVrTDhuNGZmQjNua2EwaGk2bno0QQ?oc=5",
+      "title": "United Airlines (UAL) Stock May Be Fairly Valued Despite Rising Cost Concerns",
+      "snippet": "Simply Wall St, 2026-10-19T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMnRsbU9LVjhSMTM1TjRXVGlPYmU3WkVsTDhXVVFIT0xiUlVqeTZWcVNtS2gzanppeXVOT19nNGg1TzI5OGVUbUpWdEo4Y3VGQVM0ZGNpeE11UW85SjFoaTJJaVZ3RDRKWm9NN29oZjhHdWpMMXU2RzF6Qkx1WE02NnBhWQ?oc=5",
+      "title": "United Airlines CEO Salary in 2026",
+      "snippet": "Aviation A2Z, 2026-10-18T07:00:00+00:00",
+      "publisher": "Aviation A2Z",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR3I0T3FzczF2VXZuNnU4UWwwbnp6dGxrOUVmU0Rzck1qQWtKYnZ0NGNpMXRlYUlXUWVrS1oxd3VqYm5oYWI3RUhzaVZzWnBlc3hXNG9EVURWR19PNzRsWkxfVHByZUE4OWJLclVjcDFxYVEzSDlHOWY1Qk14UlBFVm4zVzJ3ZlY0VmM2OE1YTmxhNnNJbE8ySWgwQ2c?oc=5",
+      "title": "United Airlines (UAL) Q3 Earnings: What To Expect",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000184/ual-20261020.htm",
+      "title": "SEC 8-K filed 2026-10-20",
+      "snippet": "items 2.02,7.01,9.01",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 97.77 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

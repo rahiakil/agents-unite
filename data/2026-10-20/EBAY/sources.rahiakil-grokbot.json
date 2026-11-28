@@ -1,0 +1,85 @@
+{
+  "ticker": "EBAY",
+  "date": "2026-10-20",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-20",
+  "news_cutoff": "2026-10-20T20:00:00Z",
+  "generated_at": "2026-11-28T09:13:03Z",
+  "collected_at": "2026-11-28T09:13:03Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"eBay\" stock after:2026-10-16 before:2026-10-21",
+  "news_stats": {
+    "raw": 43,
+    "no_date": 0,
+    "after_cutoff": 30,
+    "before_window": 5,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUh0bEVzeWlGT0hIcmxwYTBlNTJIelBPYVpwZ1BFazdlVWgtZVN1aUF3MzNSbE9EX0FTWnlkWWdPX29nMnNIZWQ4YVZiNXRISGJzeldLN0NVX19IbTljQ21OUTNJYzhORjZ3VnVtUFM5aDdpWXJ0RTlLX2M0enVRUHNua1A2ekZLWFFobUFodFhSN3JPa2Q1M1FSZkZKclQxR3JCbA?oc=5",
+      "title": "Is eBay Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-10-19T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWEdnMmJpMzZKVW5VVWlrSXc3NHhJQ09zbmZIaEhQRkF4YXZ4eDd4U3ktUlk1RG1RODlaeTE2ZlhQS2RueVdINVp2Si1HNk5RY0Vvb2tYdEhWcVFBVDdYR2tmamk5ZUFrZkVNTUF3di0yb3VGZ2NXVWtfVVR0YjE4VWdFR3FZaVJaUmZQM1ZiZ1VhbC1vb283cmoxdWRfQQ?oc=5",
+      "title": "Here's What to Expect From eBay's Next Earnings Report",
+      "snippet": "Yahoo Finance, 2026-10-19T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-19T07:00:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb2RJUlB0bjVNemVFMkppT1AtMkdaZkM1cDI3V25nSXhOVFpJZEU2dlBDYWpiVzc4WXptOEExR3VzZGI3ZWZ0cE5wTDkxX2diNXh2dWZOeWtJMDRadTBLMGtNUnJkZFZvRWN6SUtsUXBSbFZjN2dDYXlGOXVvRWlRVE9PeWVVQThOY01fVHZCNDgwSUY1bHFMSkc1QWYxVEpueWRiRk5n?oc=5",
+      "title": "eBay stock forecast: Morgan Stanley targets $132, but Wall Street sees downside",
+      "snippet": "Beinsure, 2026-10-17T07:00:00+00:00",
+      "publisher": "Beinsure",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.502,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM2FPTy1iY3ZsYU13djdOY1hkbTEzQVVBcXdCeV9Vc0RYbDNXUkY0MGFrNnVPQUZuNVJ6Z1dPNU80ekkyU25yb0xlOVhrYk5FMkQ1VTk0ZlpYYUtwYU51bjZRbGN5RkFmSGF6NkFmVlB6SE1lUk5QTjc5eVE0M1BPei1nWDI4UnAtSFNGcVZ0cWFhZVdmU0t6d3NiYWlIejZ0cUx6bWtCMUhubk9zdTF6TVVZY0lCeUV1eDA0S1UyTHNLM3JM?oc=5",
+      "title": "eBay (NASDAQ: EBAY) Surges To 52-Week High As GameStop Takeover Rumors Resurface",
+      "snippet": "Foreign Policy Journal, 2026-10-17T07:00:00+00:00",
+      "publisher": "Foreign Policy Journal",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EBAY/history",
+      "title": "EBAY daily price history (Yahoo Finance)",
+      "snippet": "close 121.19 on 2026-10-20",
+      "published_date": "2026-10-20",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

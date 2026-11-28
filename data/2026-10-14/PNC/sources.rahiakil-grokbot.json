@@ -1,0 +1,121 @@
+{
+  "ticker": "PNC",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PNC Financial Services\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ2tBd2dRX01oTVBjX0JkQkllVnpvXzkxMktXeU1zS2F3ZlBFb2REeHk5aGk4YUQtNFRHY0NWZk1SNUc2ZGp1Vk1zQmliMjdtU2pSMDVGZTBHQkFRRm9uYTZKbXN3YnZzUXZpSzZ4UEtENFIxakZ4U2NXRS0zSVRZZWlvYnhFd1VNR2RxNTA3NUxfQ09GdlQxa1d6OTRZa2daVGoxWGw2VGhfZktlUnVBUWhEZDlhY0dvb0xQLTQxNml0dzQ?oc=5",
+      "title": "PNC Financial Services Group Leads S&P 500 Gains with Strong Div",
+      "snippet": "GuruFocus, 2026-10-13T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFM4c1pidjdsa241aGJyQzZkTGxFMVoxQXhmaFd1QWttWWZPM2VhR2g5bWlxRkthc3N5VV94ckhOWE1HdGhKQzJScTN5S3MxUEV1czhMMkdZbWd0ZzNUNVFnc1BqSjZKdGNmRXcydEdxMzl5SG5hLXFGTHZXQ1Bzdk1ib3dzMkk3UEppQmpPUFBFcDZuN0syOTkzWmRoZw?oc=5",
+      "title": "PNC Financial Services Group (PNC) Q3 Earnings: What To Expect",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZjNWc2lDanZOQ25KZ2RkUVp1WFNvaF95SzZ6Z202eXhvYkRDWEMyVC1Md0hBRG1oSzJHbVdZV0xjQmdXZzlzOWtyLVBfSnk3ZlQ5RnVUMWNfc0pUd19aNHM5OGxYOFlLVmQ3S1QtdWlkbVhGOVF2bTcwUjFxZ1FVV1hMSmJ6b2U5anRNQ3hLOHN4Tzl6TENaNHF5eU02dw?oc=5",
+      "title": "PNC Financial Services Group (PNC) Could Be 23% Undervalued Following Debt Redemption Moves",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNE1Nb1lSdjJzM2VDTllwR0d0Sml5OWp1UXhBdFc2ZFM1eUtlRkZHUG1hYjh3U3ZKMVZTQWc3bWtKbmRmcllnZi1hQlF2QTUzY25lcG8tM2hKeEJZdGRJdmlYcXFKRV9tWGlsd0R3ckMySksyei1EbzN2Wl9qbkxabEVRd3l0QV9PelNqeTRR?oc=5",
+      "title": "PNC (PNC) Stock May Be 43% Undervalued On Excess Returns",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmNSNkxPUnJVTHBNcFY3RnZKRnNHcWoyT0lIVVF4QjN2Sl9YVXFPMGZGejJXVXRqTVgzWFk3REQ1UzRFVlQxVkVSNEpoTnNuNDBfRW5hTjE0Y1ZMYVU5dTk0NHRIZ21qV2JVVG9TdzlPY0JVUHZucEtmZmxIVk1YNjdfMHMxempKNlY3NV9VUQ?oc=5",
+      "title": "BAC vs. PNC: Which Bank Stock Is a Better Bet Ahead of Q3 Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRkQ1MEpNaG1kVnpyMHRkMDZuTmJqWFJLM3p6RHo1WF9NcnY4ZURWdEpFUW5EcEVveWltZm1BZ2hFTi1fN2hZZW5LVzU3a3VKUHNpRWFiVEN0ZGJjZE1qTjRXWG9nYVVsVF9VY3lfU1NLTXhLUjlONTZMc0ZsZGZZdTllTVJFdEU3dFRKM1ZDb01PWkVNNlBmel9pcUVBaF93eHhLbnoyZWtHYVdfY3psV2g2V0lhajRmcG92Vl9ySUZEeG1UOUluTERtYlVrV3F1V25oOXgtY0s4d25LdnBDbg?oc=5",
+      "title": "Lower Expenses & Higher NII to Support PNC Financial's Q3 Earnings",
+      "snippet": "The Globe and Mail, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2phaUc1VVZVN3dxY21tWWRUNkx3dHNZTVhUSmlkVld6UXZyV0ZiUndiTmVGR3l3UHIxUmdlY1d0X3pXMWIxekNNM2VsQXl4b3NESUlLcjJabDUtOXByeTFtRjd3a0hmSkVoY3BBcnlYVlJLd2ZMOVlTRTlXaURpR1RhRkUyRTJGN2NrRGc3b1k0aFl6VnBZeVJXS3NUbVJnT2lF?oc=5",
+      "title": "Curious about The PNC Financial Services Group (PNC) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNC/history",
+      "title": "PNC daily price history (Yahoo Finance)",
+      "snippet": "close 215.8 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

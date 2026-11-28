@@ -1,0 +1,133 @@
+{
+  "ticker": "BIIB",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Biogen\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaFZHVmRyT2JqalB3UURkLU9HcWRabFZtNmhLM0Q0UnJ1M0JZd0h6dHRteXlhYlEyQU1lSExrQ2gwam96N0daU2s5QXFmR25EYThubk5ZU3dhT2dIeDNTSFBaVTI0V3l3NF9KcFQ5RXFBbXljVkpJRGFBUlVnRjhIRU04Q0t2WmIyWEFjZU91dWtwRnh4Q1VRcTlHOHM2ZlZQ?oc=5",
+      "title": "Biogen\u2019s Quarterly Earnings Preview: What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYkhfV0doR2lqd1NuZGk1eGhiQTY1bzA4SUZqX3dnempIc2FzblhsZkVubEFxUjV6dDJ3amtmNTJkTUV3Wk9SM2FUalh4ZkpGT2NhaW1FbzhDUmhQdTVsbHo1T19fbVBVYnhLVWhBZ3FQWThDQzB5Z0h3cVpWcXRubmtvYkRVbjdlS1FLZFNTV3YzTGh5RE5z?oc=5",
+      "title": "Stocks making the biggest moves premarket: Salesforce, First Solar, Biogen & more",
+      "snippet": "CNBC, 2026-10-12T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcTBZczBjYUpwZzR0YmJSLURSU01OUVhSLU1DY3JNUUF1dGF0YzN0eldrOTk4Y0Z3bFBmeGNoNHBuUkxvNEkwSkwwcGlOOGdmMnQzMVhtMjVRZXUtSGtfdmt2TVRSMHBCdllUTFM2bENBbzUyZi1JMERyeUwxbXBTcGEyRWd4SVZfblFfSEh2T19nVE1xdjZBTHVYWWhMVk1LNDVYejkxTy00MkFDSFlWLWV2Z20zdmc?oc=5",
+      "title": "Biogen upgraded at JPMorgan with $300 PT on 2027 pipeline catalysts, shares rise (BIIB:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-10-12T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrZ1FvNlFjbWdLVzFLQWhONTFRdkN3VFJaUmQ4OW5hM2lXSzJkWlpXeVlxc1ZWT0VqSkN3SEtMampDYllIbTNlbk1vMGJ2Q3BuMUd4QnVSTzJ1Y1FkUEFYTWtrdzRrZGdvdWk3dDlVQ0tHbGFPNVNBMmRQRlIydWs?oc=5",
+      "title": "Biogen Upgraded to Buy at J.P. Morgan. How the Stock Could Rise 28%.",
+      "snippet": "Barron's, 2026-10-12T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON0QyWXA1bkhLWWJHakVnVkVsV05mM1dxcUJqdHdUUVpGV25nVWtyMWFaTzFRT2x5bWVTX2cwWDVLYkhvbElLOXdVN2xzMk11ajRSVTkzWmFMa0pLMHo5cTNCSGZhbTJNcU5odndsYy1FYzREdnZzR2xhcHdoM3F1OVpsdUFpU0dzWlBVV2t1N1BCQk0x?oc=5",
+      "title": "Biogen (BIIB) vs Amgen (AMGN) and Gilead (GILD): Which Big Pharma Stock is a Better Buy?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbEM0NlZTSEQ3am9oWk9mOUJDbDRTWDl1RVk1WHEzbjh3SExMalFpUHlrUkpvYkoxN2YyX1UwWXFzc19wbDF5RDdhNjFpRjB2REx6TEwzYjdiWXd5c0Yycnp4R0NSQm9jcUZyZXJVUktLWGFjTktySDM5eVlRaUJyM1JwQ0NiblJzNmRfb3djbWVxWFE?oc=5",
+      "title": "Biogen (BIIB) Stock May Be 49% Below Fair Value As Lupus Data Loom",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLTdBODlOWWg4OWJtU2NMckU2eWxxOTdSeHhia2w2TXVhZEJFdVp1QV9ucVQ3SG9ndm9FRUc3d21IU1hOSF9QQVhVYWRHNTBOOVNYbG5NeU5CSVZmbVEzdksyZFNoZHZpT3EzNjB0Zmt5MzdKZXhENW90Qmd6NUJTX3FaQTdzQkhlU3dNQkFkZVE?oc=5",
+      "title": "Biogen (BIIB) Stock Is Up, What You Need To Know",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWllqbXpBdE9PSGFLRERnRUplNXNEbzFaZXJlSkpXOGJodU0wblFYUHNhbXpBVEN6N1dSOHF6R01ISmZEYy01VktBU1FSSUxHcFdnOFZyVTNLUzNiX003YTAtWGxESjdaNy1fdGdJTHl1bDE5N3lMVlJvcXFzNkE5WllxMHRpVFZFbjhVV3VmTmZuVlZQMlFTYmpqTnVwLWFUdUVmMFdlUDFQaEdjRG9LUXBB?oc=5",
+      "title": "Biogen (BIIB) Shares Rise 2.1% Premarket After JPMorgan Upgrade to Overweight",
+      "snippet": "GuruFocus, 2026-10-12T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.784,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BIIB/history",
+      "title": "BIIB daily price history (Yahoo Finance)",
+      "snippet": "close 232.83 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "RMD",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ResMed\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTFFvOWRUQTJBRlFpd2stbUtxZFMxYkxyLUdPay04elppUFhiOUFEd0ZaMFVDWlpJVGRsVmp3RkVnMzQzdUNMN01WbmVVMzAwRGd5LTM4WE93VHU2NGk4bS1nZ0FhTGJWbEJNMjVSNk5SZm5DTDdZdkoxZ3VYR2JkZXJ3?oc=5",
+      "title": "Buy, hold, sell: Resmed, Megaport, ANZ shares",
+      "snippet": "The Motley Fool Australia, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Motley Fool Australia",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RMD/history",
+      "title": "RMD daily price history (Yahoo Finance)",
+      "snippet": "close 235.29 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

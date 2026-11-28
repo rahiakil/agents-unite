@@ -1,0 +1,61 @@
+{
+  "ticker": "FERG",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ferguson Enterprises\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMnVBQTBNWGtKWklULXJkQndRRm1SVW9YTXZPMDY4ZWtXY2Y1a2ZGUGVGdVpkSjktNjEwaUsyeS1ucnU0MTBoa0JaR3AxbVl3REZrWTFmN2lkWVNHclpXSkRweGM0U3k2UVl2NFZId25ZRjJ2OEJqYlpyN2E2dHhBU3lWWGZ2aTY5RzJPSldENGg5WU1HTmZGU3hDc2plQzFx?oc=5",
+      "title": "Ferguson Enterprises Edges Higher as FERG Holds Near $220 - Wyckoff Spring",
+      "snippet": "siam website, 2026-10-13T07:00:00+00:00",
+      "publisher": "siam website",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU0o0S2Z4TzhaeldYV3cxb1Jta2hHX0lrRUw4bkpEMFFveWh0YlpTWnR0N3doOWEyYVkwWHlOaGwyTUFqVFFPa08wMjV3SWc4dmNPckZLekpUZ3oxRHQzOU5xMEdjTUF0cDY2eG8wS2pwenduRWs1aXNCRkdFUXg4Y3VDRmZlZGdqaVdPTVFTWkNiTGdfcmF5OVpNTEswVy13YzlLbnltRQ?oc=5",
+      "title": "An officer proposes selling $346K of Ferguson Enterprises (NYSE: FERG) shares received as compensation.",
+      "snippet": "Stock Titan, 2026-10-13T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FERG/history",
+      "title": "FERG daily price history (Yahoo Finance)",
+      "snippet": "close 222.94 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

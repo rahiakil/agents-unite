@@ -1,0 +1,61 @@
+{
+  "ticker": "GNRC",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Generac\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTS11Ulpyd1VmNGxkX0ctcVhsMHhuYk9DQ1FCbm9ra3pJRk04Qm5IWTlKM2tyVTBQNHY1Zk1DZ0pYVndqUXFyc1hRRjNlaXV1WUZvOGNxTGhmNkVNbElzMFNURm0xcUhXOFFvSk5YZWYzeWVoZ010UmdfNUszVFN0V2dNZ09iSXFUU2ZyMksydzFRY1otam9jTA?oc=5",
+      "title": "Generac Entered a Massive Deal With Amazon. Is It Time to Buy the Stock?",
+      "snippet": "The Motley Fool, 2026-10-13T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRDV6ODRaMklPUWkxbnR0SU1MOWxUYXVNLVFIbkE4YzNITlhhSDBTTWRaWnF3Q00yRUxtSkEtSDBlUVh3M0FrWm5fQUpHNnd1Mk9oNUNpWXJ2Wjd3OGhPVmVCVkh6SVJqOUhvdlpTTGEwa3pzUVFQNXhEYzg4UXlJMkhwNHpfMS1yUkVRY2NWZlN5SVgwY2ZjZTZWZ09DYk9BeHFJT01WQl9GbHc?oc=5",
+      "title": "Can Generac Preserve Profitability as Data Center Sales Accelerate?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GNRC/history",
+      "title": "GNRC daily price history (Yahoo Finance)",
+      "snippet": "close 198.06 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

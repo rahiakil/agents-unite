@@ -1,0 +1,61 @@
+{
+  "ticker": "RJF",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Raymond James Financial\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTmZBcUdCcE40S0NtcnpRMzdXRGVVTGhpcUw4YThrZW1OS0prNjM4TEdDdGlIbXVSb1VSUUJCSTlITHg0Z2R6a1VVRDFQb3Z6U2NTMzUtT2tBZEpTdHJQMmQtQU5vMlRmc1NqTUlHaXdxWEgtRWxxMWhTR1R0SGl2V0hUUi1Dc01IVHF4OENSVjV5My1ZTzNUYkdGbmhMMEk?oc=5",
+      "title": "What Could Raymond James Financial (RJF) Gain From Hiring Dan Connolly?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNVlGODNONEZPSnVEUFpFSmYzVnllLW5GbGFMS0V5OHRuRDZRMXBBcGVPdG1CR1FRendjRWU5SzYzdHpieTF5T3Fuc29JRGl5Wkhlcm9zaExIbC1rU1FpSTlDRDRNSmZEdEFhdHJENklZQlM0YThLOWdtaVhFVkxCM1BnbkJtVE1rRkp2aUZJamNGOUVVNVVfQi1zMnRqeWxrTWc?oc=5",
+      "title": "Raymond James Financial (RJF) Is Getting Attention Again, What Is Behind It?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RJF/history",
+      "title": "RJF daily price history (Yahoo Finance)",
+      "snippet": "close 157.25 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

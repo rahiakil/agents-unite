@@ -1,0 +1,61 @@
+{
+  "ticker": "FIS",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fidelity National Information Services\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXg5Q2xNQXZYVUpsTFBNaFZYdzJTSm41ZUNaQnlkdEVsQWNULUhiZ002RUo5SEhsRmxpOXpHMG9TcG5pUkJWTGtfYUVUdlc5RUNnSmswVEZoU1oyU3VTUmpVa0dNQ01vMTVmN0lpZlZ1S3pCb1I3a1owaEhfQUQyMWhHa2RTMmc2NGo5NEJnMHE2WFBwR3ZIVG9MZlFIa29WVzFWd0dmZU5YMnZzODFfSThR?oc=5",
+      "title": "FIS to Report Third Quarter Earnings on November 3, 2026",
+      "snippet": "Business Wire, 2026-10-12T07:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmU1ZWlqS2F1YVJfSC11SFZQbjIzUF9yc2xoUEF5ZlhQM1VmLUxaQUQxS2liVTVtUjFhanFQZVY4b29sVFVjOWZ2ZDFvNWtiWlVlUTNwZ2R1UDlxdVBhcWM4QTBCM2ZQamJ6LTAtZVVMRThSMms3cUI0NE1ENUxQaVN3aXRNQXg1T2p2MEE2dWVQYlpEbUNNeG1wSzhDRDd3bVE?oc=5",
+      "title": "FIS Stock Trades at a Discount: Should Investors Hold or Buy?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIS/history",
+      "title": "FIS daily price history (Yahoo Finance)",
+      "snippet": "close 35.47 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

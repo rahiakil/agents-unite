@@ -1,0 +1,49 @@
+{
+  "ticker": "KDP",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Keurig Dr Pepper\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRWE2cXdEQXJWaDBVa012QmxOSUpRanBDTWdoUkZmUm5SMktDemhBam9tUWdYTkhTMVU5WWIwTEROQXhKNUFha1FlU3RSakNsemZsV0NHY3JVd3NDcURoLXBjNXU2bDBBWmtEOW9ITWtxWURuMUxIMVRaaEpUa1JoenBTcElicm9Tc0JVaDRITGhmaXpFSWk2Wk5zU2VCb00?oc=5",
+      "title": "Keurig Dr Pepper Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KDP/history",
+      "title": "KDP daily price history (Yahoo Finance)",
+      "snippet": "close 33.12 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

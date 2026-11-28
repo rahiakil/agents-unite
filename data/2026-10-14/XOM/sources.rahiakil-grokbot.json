@@ -1,0 +1,121 @@
+{
+  "ticker": "XOM",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Exxon\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTHJ3SThqOS05NW4zeTJqaWVFbk1CV094VmZwUE1RVWlpZW9pdjVJLXNRMEJWRVFOMnFCd0RwR2UxSVJQbkxGMFJpb2E3SmJvYXdHVWZIajdXaF9aeHpIQVhoUnlhUjYxeTllUEtMOGxmcjNEQUNIdl83RmJkY2FzdnZXaU1NakRRRi00NnQ2UGZVVmpCZ1NiQk9fbVJ4d29ITno3UTEzS2ZieU1OUXNCSVAtRHlCMk44MkJNa0N4ZndxVGZn?oc=5",
+      "title": "Guyana weighs scaling back LNG plans as Exxon says more gas needed for its wells - Reuters",
+      "snippet": "Seeking Alpha, 2026-10-13T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOemdzdnlES0RndjVScUVuSEhjdWs2WnhBUHh3WVZrdzZ5anAwMFYwY041bVlWZnVBdGpscTFoRjFYV3lsdjhBOUVGY0ppTDF5bVdMN2hLOWtfQkF3aEdVTFJibjFOWHdMRFU0WDctNDVLNTZmVG9sekdzN05kTFNXOGdCMTIxano1amE1anZsOURGSVJK?oc=5",
+      "title": "ExxonMobil (XOM) Trades at a Premium Yet Earnings Are Expected to Shrink",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWotbjVaVEc0Ul80d0pkR1NKWk1PczlqZTdpaWdwaU00RkFhM2dvc0Z0SFp2dEZCMGN5VGNmblIwZUVBanJOTnF4TVRzYXFBWjZfSUl1aVBncXhKUnNVc1dCb0JBdmlfbDFHRnFBX2tkQm9Cb3B6UjhCR0NkZGNlR05oazF5NUl6elBsMDRn?oc=5",
+      "title": "Exxon Mobil stock weekly forecast: Support at $172.50 holds amid high volatility",
+      "snippet": "Traders Union, 2026-10-13T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcjBFSERRQkRMX0thMFhraFVSMU42ZmdRMnJIblhZdEtxZUVyODhZd2hzX1ZReHBTS0N2VExoc0tCYXBxUU8wOFAyR1lEVFdZYjA5TnFNdnlFMHplUUZxYTZqbG1teXVWbWJaUGtOVFJCVG9nLUZWZHRicFpwd1J2d25YZDZoSmFWVHRha0dUaS0?oc=5",
+      "title": "Exxon\u2019s 43-Year Dividend Streak Faces Its Biggest Test Yet as Oil Prices Slide",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTjVXOUlnTmxXb05Wc0Z4aWJmdU9FckRBMTNRTlByNFhkV20wZXlzaVJMNkpkc2s1QVI2STlScGZfZnVrX2UyWXVFNkZQMG5NbXp2dnZqRHprOE1uTzgtREZxdUVtZ3huamt2d2hkSUFaR0dDTm53ek4xRFlVM2U1eU5XLXd1dVQxRHE1bjBGTXpOOEdYSFIzaw?oc=5",
+      "title": "Exxon, Oil Giants Top Buy Points After Deadly Saudi Airport Attacks",
+      "snippet": "Investor's Business Daily, 2026-10-12T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTmphOHVuTkZjN05HTFFWOFhyRTV1a1Y1OTFnZzZpTFk0M2ZVSG9NUGUxcUYxUHZsZi1pV2tMOGZNVFVWWGJ5VTZ4RXhYZTU1d3pBRmxJMFR0SFR6YzBFQnF5VUJGZEVXdXhCSS1FLXl4NzVrX0djeUJoZnJ5X2RRZDJoUk9ZT2NmZ3hjX2ZfR2p2Q1NMN09BdzJVaHpkTDRqUmFYQkliX0xNZGtIQ1pIdE1zM2dEcllIQnBkZVZqRU1OTXZHdXBTd0pQYkFSZw?oc=5",
+      "title": "Exxon Mobil (XOM) breaks through its 52-week high at $172.15",
+      "snippet": "24/7 Wall St., 2026-10-12T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ0FvdGZXNHJnVFhVY2V4YmdNa1RtazFLRGY1clNaU3BBbTNETnFGN24ydzh5T2h5TnFWZVJTbHhQaVhWQ2p5TkxjOS05SFBtcXlYcWxkeFFmaWhaMTZURlhpYWx6ZlZBaVRnTk4xcE5teWxtdTJrUVJqNzhUOHh5X3RPNA?oc=5",
+      "title": "BP (BP) vs Exxon Mobil (XOM): Which Oil Major is a Better Buy?",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.488,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XOM/history",
+      "title": "XOM daily price history (Yahoo Finance)",
+      "snippet": "close 177.01 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

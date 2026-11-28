@@ -1,0 +1,70 @@
+{
+  "ticker": "STT",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"State Street\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWJaQVRlb1BoZ2lwcHlFQUV6dEVTTlJpaVFtZlJ0NmNSeXRVck5MeFoycmV5aDBwYTNyTHY4b1hMdms4ZVRQVmFTMmg4VTdoV1pKLWVtRzQ0LXNFSHE4cVRVSVFrcWoxNWtnU2xsZjMzRmszNUwtUnhGRHF0bjBqeTJXelhQT3cxSmZCQ05femdyZw?oc=5",
+      "title": "State Street (STT) vs BNY (BNY) and Northern Trust (NTRS): Which Custodian Bank is a Better Buy?",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaDBRVnZUQU9kMVJuUDB5SUttalMtOV8yeUtRS3NQdUZyUG84Y0c2bnRhallrOW5hOFkzY1ZJSXUwWjFuU3NMLU9qdURSelJldjhkeGVhYmctTmZNTzRfVmFVTFlQUXI1UDdPSFQybHFEa3RUUEVJeThqWEtpMmo5OW94ektIRzlSSEIyYnROOG83V3M?oc=5",
+      "title": "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
+      "snippet": "Yahoo Finance, 2026-10-12T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt-20261009.htm",
+      "title": "SEC 8-K filed 2026-10-14",
+      "snippet": "items 2.02,5.02,7.01,9.01",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STT/history",
+      "title": "STT daily price history (Yahoo Finance)",
+      "snippet": "close 166.89 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

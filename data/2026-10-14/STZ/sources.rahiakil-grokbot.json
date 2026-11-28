@@ -1,0 +1,61 @@
+{
+  "ticker": "STZ",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Constellation Brands\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTE5zeXlMNjA3OEJCVnVST250RWNMRXBFcE1UcUNkTFl0R1R2N0hlRnhTSVNZelRKZFladEFQdnY2T2Jfd1IwTXd2aU1xbV82SlhMODJNRGdzYm5XWF9tNVlfTTNLUWdycEIxWVBKTURPNEhVbFU5RFlKZ3NibHhibFhVZVQwSktZMTJaYUlkYmw3RmtIMDdn?oc=5",
+      "title": "Jim Cramer Takes a Fresh Look at Constellation (STZ) Brands After an Unexpected Reversal",
+      "snippet": "Yahoo Finance, 2026-10-11T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX2kzTkFEQ2lHTGhrQk1JZ2d3U2t6X25XdnZ4WlZ0a21TTEs3UENrNTlKZF9TQzhiWklvNzVIVVJGdzlyMmc4c2hLV1FITnJVcmh0Y2tjMWZMUTdlSHhYTWVJZjJsbnE0VG03amRPcDNINE9RQnRCQ1VLRnYyYjMya1gxV2pEYjhkMkEzbHpkaTJNd0FtNFUyTGdEQVh4VEl4QVk4WjVfQUx3bU1iaWN1ZHdvWTJkZ9IBuwFBVV95cUxQWVlZX1VBdzFWR2pzcHllVGExSzZQVUxMWDBudzZqZmVUNURNbkM1NkhCMHRhYnBld0x5Q0tsUWZlMVJicTJNUExXR3VIeGtraU9LWGZJTWZ3dk9VRkhzeUtxSUZYZWZabWNXUWhTd2lkZlpxWkVTeE5BTWpSQVE5TjhveWhWUVBuMkMwcjVyenJ6WGRnWUEwQV81UlpyNWk3UkJXNkk4d29TOXFEa0ZEdGs4a0FQZHdtOElz?oc=5",
+      "title": "Constellation Brands: Q2 Revenue Rises 6% To $2.63 Billion As Beer And Wine And Spirits Sales Grow",
+      "snippet": "Pulse 2.0, 2026-10-11T07:00:00+00:00",
+      "publisher": "Pulse 2.0",
+      "published": "2026-10-11T07:00:00+00:00",
+      "published_date": "2026-10-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STZ/history",
+      "title": "STZ daily price history (Yahoo Finance)",
+      "snippet": "close 127.41 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

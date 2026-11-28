@@ -1,0 +1,121 @@
+{
+  "ticker": "GE",
+  "date": "2026-10-14",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-14",
+  "news_cutoff": "2026-10-14T20:00:00Z",
+  "generated_at": "2026-11-28T09:34:57Z",
+  "collected_at": "2026-11-28T09:34:57Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GE Aerospace\" stock after:2026-10-10 before:2026-10-15",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE56NmlpZHJSQ0RpNnNuS2NVUzBfQjF1dnVYcDZDTy1HSXJwZ1JacUV3S2dpNklqUmNTUWtpSjdqdV9CWW1OMExjYmdNaVdabEk2RFNUR2hCeXk?oc=5",
+      "title": "GE Aerospace Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
+      "snippet": "Webull, 2026-10-13T07:00:00+00:00",
+      "publisher": "Webull",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTNzSDl4VXl3NnZ6bGxDdFNpalZNS2NvazhEeDhMWHo2X2wxRkxoSDJNcEM3ZHpmZ1Ftdk5uUzZySG5GZnhMQUlIbzNvblpuWWQyXzZac1g0SVo1NTFhWDJDLUJlSm00Z2liVnVDLUFmc3hUV1QyQVJHVWJKSDhqZlM3cWxaSDNkSUxDaFYydXU?oc=5",
+      "title": "GE Aerospace (GE): Can an $11.75B Foundry Deal Defend Its Premium?",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWkxnLUNtY2hMYTl1SEQzV0g2d1VXN09OOFBMZng0SWdWcGR5cy01bmEwUkJQeEFyLUJ1cXd1V1A2OE11SGd4LVZ0cXl5cHVJMUNNZjM3YjhHbXZxTUFQamFOcXFrMGVWWUFtNTVfNm9wQXVPVVlWTElkRl9YTnpFVEtFcUxfako4NVhxU1ZjLWdMQmZGaHJkU1I5REVMZXhDSlEtRnJmT0o2eEhHTjg2ZmNvaHRDcGFxT1BNdDhxZkItQzNRdS0w?oc=5",
+      "title": "GE Aerospace (GE) Expected to Release Quarterly Earnings on Tuesday",
+      "snippet": "MarketBeat, 2026-10-13T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd1pKVEFPVWR0M08wa0RSM25IenUyTk4tOHNrNU5JbFI1VEFLQ3VTcVVNYkp2NnBsTHRuM2RCTFJWeDl2eEhDQ1FJd1BOd05DR05pemxNak02QUd4Ty1DaHh6Wlg3V3l2RkhtVXM1cS02R2pKVHBCX0V1TFl3NmFFSTVOYWJaQnVUdzlaQXBPcw?oc=5",
+      "title": "3 Big Reasons to Love GE Aerospace (GE)",
+      "snippet": "Yahoo Finance, 2026-10-13T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-13T07:00:00+00:00",
+      "published_date": "2026-10-13",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSEdNNXRfLXBCLVpLRXFkekprU0daMnRON3FyT0treHhncUFnZnJzTGE5MzNlSENwd084UlpiaWg4MzdnbmVxbU1wX3NYUk5jemxadEQwQk83NlYyNEl3MV9zbFpkZVlKVjExdksxb0I4TlRmNXluX1VvVHhQMW9NZWszUmx5bXV4TWtCSHliYlByUnhBakFramt2Tm9aNklkNzlxOXN3Q3lCZw?oc=5",
+      "title": "How Much Downside Is Left In GE Aerospace Stock?",
+      "snippet": "Trefis, 2026-10-12T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMG1NdEdmTEVZRlVIUlUyc1gtd0pBbzVaTkJYZmtJN2ZxTGg5d29BSEMyYVhhVUd6MlR1Z1VuWEJYdXdRVXRYQmJoYUViNU5hM0VqaUUzSUJCYzM0SUcxbTJ0WXFtWWlWSHRyQzVack1rSWFLdVJsS0ZnSFYzUHk5TGg3eTJuUGNZaUZ4SjNSd08?oc=5",
+      "title": "GE Aerospace's AI Defense Opportunity With Shield AI - GE Aerospace (NYSE:GE)",
+      "snippet": "Benzinga, 2026-10-12T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTFRpeVdyWll2ZWJyWTh6UnZSUFlzU04tVVVNNUdwMk5LVmYxWHlMX1ZjS1g5UkFjZFRPVTI3cTNORlh6dXFCVUhoNWRpUFBhcTQwOUNMT01CR3VuOHVpQURoY0ZNem5YX1RLc0p3Skp3bTRsUWZzNDVSbURQQlc1NzhjbUpHbWh0T1dlOE9Lc2NLNERhOURkVEVBSVNsYlo2dTJqejRpMWdFSWxoT3FzdjZEWDl3eU9wNEdJbXhyb1VNcU80bDhLdjFZSk9UOEU?oc=5",
+      "title": "Boeing vs. GE Aerospace: Which U.S. Industrial Giant's Stock Is a Better Buy in 2026?",
+      "snippet": "The Motley Fool, 2026-10-12T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-12T07:00:00+00:00",
+      "published_date": "2026-10-12",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GE/history",
+      "title": "GE daily price history (Yahoo Finance)",
+      "snippet": "close 307.02 on 2026-10-14",
+      "published_date": "2026-10-14",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "COR",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cencora\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTHR6OFFQTUpidDZrR0NmSHBYT1ZwQ3hjMXRtXzZiZmIzNklxdllwYS1ZLW1vYnVUU0pMTHgtZnU2cjJ1cGRZRV9OMHZjUGNNNGpQazNEQ0s5TXlwYlZKd0JDdFU2dHVFakgwcW1yUGk3VERFYzY1enpSSVFSaUxMNTM3RDR1WXBfU3dnTXJlemF4eEFuYkctVlliOEdKZmdMWnBqMVVJUkY5OXEyYWNCbmVNcXNWV3RQS19rLWxPUDRPZw?oc=5",
+      "title": "Cencora Inc. stock pre-market at EUR 296.30: drug distribution group",
+      "snippet": "ad-hoc-news.de, 2026-10-26T07:22:47+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T07:22:47+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COR/history",
+      "title": "COR daily price history (Yahoo Finance)",
+      "snippet": "close 324.35 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

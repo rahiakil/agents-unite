@@ -1,0 +1,109 @@
+{
+  "ticker": "GIS",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 1,
+    "irrelevant_or_spam": 10,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRk1hRVFaY3FDTlRoYnRjVXc2RmxTUmQ3ZklyejFJX3BsMjYxalhPZnN4bExhYUIyTDRJc2Z0cXZURnd4SnhOaTlfNE5VWF9xMHItd3pfSTJ1UE9vcjNnRXNIZlhwQVFTOF9JS0lxeWsydXB3ZE1tU2hpeF9uTlJWR2NpcDc1aWt6cmFHLWU5LTRJR3M5ejVVY0JCQQ?oc=5",
+      "title": "General Mills: The 7% Yield Is A Trap, Not A Gift (NYSE:GIS)",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.573,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1JscFFFRTloblE0dEMyNWt1QXlNeGlQUjF6UHNBTTg0OUlKR2ZTbHd2RlFVal80YXlJb1gwSXFYRVpIT3lobS1XN3VsRVFTbEstN1B2VmNrQkRYcjIxOEI2MVA2bVp2OGlySlBhUkhidEx4NkZhV1hiUnY0MGdCZHRNdUR2dUQ5a3ZJeTU4UVJNbXlpYS0xQ2ZEYkVKY3E2el9ZZlJjSnZENzhjS2hr?oc=5",
+      "title": "General Mills upgrades Cheerios cereal boxes with resealable bags",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeVdJcURjSDhyTDc4V0dfcTEwNWNBUHpPaWFnZHNDZmhXdG9SOERtQVZmdTdocDBId05fZGs0OVhfcVAwS2lPMzhXT2dZWVBScmRuMVg0WVdtSnJ5eU1aOGNJMXN2cXUtSmNTNjdnSWw5akVwcWRpZkNwUXZqVnBlR2t1cnN0S1YtWnNGQ1FTb1doa2sxalN5dzNDaVk2ZHdhY3lETGdrbw?oc=5",
+      "title": "Conagra and Campbell's Have Already Cut Their Dividends in 2026. Could General Mills Be Next?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLUVNeWVMdXFwU1BoOU5ENnc3SnRPZXZPSXVzQmFsVU9VSi1acTVqYVRxaTgwQjlQMVlQUkFTTkh0ZTlJaFhYMUJVcHAwUzVWYjlfTE5uN1Q5WTBqQWE5NXhTTW1URmxHTklCdXMxMzM0NDJHdG1yTWQ0R1lEM2V4U2ZGX1pWQzlDdGgtMWdBejEzNXNSQWdlaTNUX1d2Tzl1VHRDUDJnLXVkckxjWFZzdy1VNkNhVUZPcG4yVDJoQ3E?oc=5",
+      "title": "General Mills Yields Nearly 7%. Is Its Dividend Safer Than Kraft Heinz or Smucker?",
+      "snippet": "24/7 Wall St., 2026-10-26T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVzhGcGE5eXJjS3VZbXpWVUQ5aEtMMnNpS0N0NXNCX095dExKVWFOWFd3dEg0dW52SDQwNGxfU0dTdE81Mlc1Rmc3Yzh4eVdTZFF6TlNLYU9hUlh5WEo0MTF6YkMySV82dzk0c3FmbTN6dy1KVnF3Zm9kZExFek1memdyNGtPX3Fuejc5RGNZeFBRWWxZWWFCQ2FhalVXalRlazhRWG1DckNsbkJzWHhSNU5vczJtUlMydG5Galc4bF9zSDdMekFjam9PMlFDQQ?oc=5",
+      "title": "General Mills Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-26T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdW1xa3dCaEVrVzBscUpYZWRPR3U4QmFmZWtqT3M4ODVLdU43Q3lFWS1NcC0xdWF4ZnE5OU9SbFIway1wd0R0MmNtQ0NURnlraE1sQWRQbUFaVDRtbkhvbFI0OWRxQVRoYUZ3Uk9URnRwMzlQdm10dTVkTHdGSWpEZ0l0Rk9aTy1uTWFVYUVkYWxSTVNNeHEyMkR5T3A4djdCRElGSkFScVNMZWdmbDdMSWZibzZLallzUHRmcmdpY2ZXTVNFUTNN?oc=5",
+      "title": "Despite Structural Challenges, General Mills' Valuation And 7.1% Yield Stand Out (Upgrade)",
+      "snippet": "Seeking Alpha, 2026-10-26T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.455,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 33.05 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

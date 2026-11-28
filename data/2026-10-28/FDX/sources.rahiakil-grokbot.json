@@ -1,0 +1,157 @@
+{
+  "ticker": "FDX",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"FedEx\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2hwcGQ2VHllSmluRENJV0lYakdadEQ2M1V0cE1mbkJkX09HbVBPQzhUOHFGeDdVMTFXVkYxNnFpMm1DWmpaX0xKdHgxTHRhOVZNREMzNHZhU210QjlHc0pMYVpDVnRwZjgtR1FicUFDMEZ5UDVCMS1hWmVqbmFQZ3hOZlVZVU9LbFpnS0R4TnR1VnpYRk56TE1MdGN5WWtG?oc=5",
+      "title": "Want Safer Package Delivery Income? FedEx Pays a Smaller Yield but Keeps Far More Cash",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.262,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbVYtOUNSdXVmSDNuRWZaVDRGS19yUHBDTUhPWFBkc3FQLUFfMHJNYm1QQUhQV1hTODc2Q3NsT0dBZ25nUk9KdWFRY1JWX3dxdm8xajg3SnRncmlzVHZSVlEtbUZmTmJIcEdRcUgyTXV0QUZ2bXN3VDVNLVNJTUxuMUVJSHNqdXpOcUQtdg?oc=5",
+      "title": "UPS Rises 5% as Q3 Beat Lifts Full-Year Outlook; FedEx Inches Higher",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYWJydUgxeE1nanRsZ1A1ZjZPb0prbkVRS0ttLV9UMzZpQlF2dWEwb210THNSM1BLcmtveGhTYnliaXFPSUMyd3dpZmF3N2hBbUZKZUxsRWZia0UtdVExRkRrQjFkUFJHNVlBM3hIU1A5UjhPM25HZS1jUm52bnBOUmN3YnV2UGkzRXgxRURsbjdTa3BaTmRHdHd3?oc=5",
+      "title": "FedEx Gears Up for Q3 Earnings: What's in Store for the Stock?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR2Y5MWdvNlZJbjczTXRHOXhZOWxZb1haMUhVVzVxS0FJekp5aG1oRWdwLXZLaVNMYW54N0I0Z09qOHRXcGQ5dEtfN3otUzhPWGwtT1BtV3h2Q05iODhhblFYTk4zZENqQmtoSHljZU93X3Z4QkJOVlE5c0stOEhmbTdMRFNQT0JIVnRwaFB5ajhFUQ?oc=5",
+      "title": "Did New CFO Hire Just Shift FedEx (FDX) Investment Narrative?",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcDFUUFZaajNtVkVOcFB3WUhPbUk2eWdScXVHYU15MUtBZ1hSaG1Yb01WT21OUUxjV0pGbXhtQTM3RHA2SGwtRFhoXzNYV3ItUXJfLVJFejVNdDB2QlJyeTJtUzlKajJYb0lNanZET0RGd0tzbTFmWm5fVU5ON3U2a3JoTUdaRUF2ZDY1dGwybF9WS0pQQ0t3ajVBN1BBa09mSlE?oc=5",
+      "title": "UPS, FedEx earnings in focus as EPS estimates weaken, shares lag (UPS:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-26T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWN5TWdPMVBVa1JiZUtFemJyVmJ1UXFESlJDRWJZUWJYOWowdFFmLUQ0RFdZWmtEVFRuYW1ERkNNV1EtaHN6U284b0VDdFlBUFktaDd0WldhY2dYaVdCd0lKZnViblJBb3FTNUZOTXRUeDJNZnlmRWdZRUJRenpSMmE0ejBWV1pEVnBFLWhtNA?oc=5",
+      "title": "FDXF (FDXF) vs. ODFL and XPO: Can FedEx Freight\u2019s Spin-Off Unlock Value as a Standalone LTL Leader?",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmpXdzZjR2tLQTRDT2RTeDl2a2RWS05WMWhGNTh3NEs0Z3JJLWtsOWo5TDhFVTd4MExZY21SUklLYndiVXYwcTdkU2pWd2VNVnVVb2N0aU8wRVlGbUtkY2I3bWZ2UW15UXlrNVdYdzdxd3N6M3J6N2swQkVTYllRc2Q1ZHp4SDNHbWoxUFdDSTVHc2xNMTBRbEY3NVNTbnlFN3ZEYkNFYW5oNk1wUG1BVEthNjE5cXktVkxzMVBJR0tKMjYz?oc=5",
+      "title": "Bernstein SocGen cuts FedEx stock price target on valuation update",
+      "snippet": "Investing.com, 2026-10-26T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000128/fdx-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000126/fdx-20261028.htm",
+      "title": "SEC 8-K filed 2026-10-28",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000131/fdx-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-28",
+      "snippet": "10-Q",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1048911/000110465926118604/tm2628225d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-26",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FDX/history",
+      "title": "FDX daily price history (Yahoo Finance)",
+      "snippet": "close 304.58 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

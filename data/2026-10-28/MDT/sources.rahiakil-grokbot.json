@@ -1,0 +1,61 @@
+{
+  "ticker": "MDT",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Medtronic\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZmNuOUNlaFZHc1UyVmpYM0Y0cGJHc0lycTlrSUpPQVNDZENQa3o1X3V2emUwTmNCMTdpeF9la0dVX0pBY2c5Xzh3aFVGWW1raDhaMy00aTl5ekpVajlkam4wdTBlZFo1UDVVRUZEd2VGSk1QWjZkOFVONjktQ1gwM2dyUnljd0ZVb0dnc1EzMkhmMDFsNVVDU0RhTGwwNDNFQmxTa2JqYW5sSXZXbW1HVDFESzNPV1o2SHZ0Nw?oc=5",
+      "title": "Medtronic Quietly Raised Its Dividend Again. Is It a Buy for Income Investors?",
+      "snippet": "24/7 Wall St., 2026-10-27T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZGNPS2EzZGVoSm5qbnFwNnM3bXN4LS1BU3N1RXM1M3YyOTVsUjl6MEFjNHU1UExWWURDQ1l0OXB1Q3VKMnkwazlaQTV0UWlwQXFDaGdLX2U0R200Q1JEZkJNdkkwVHp4a2xnanowVG52NkxEYTZWUVQ0M2s2TEFfRHR5Tm16U1R2SGJBNVhqT2x5akdidjNjYTlzNUpOV1RnMTNYUXAyOFUwaTgyMkYwQ0hqYW1jTmdaNEsyNVBvM2hKdnVWMC0zZnZn?oc=5",
+      "title": "Medtronic Has Raised Its Dividend for 49 Years. These 2 Rivals Have Even Longer Streaks",
+      "snippet": "24/7 Wall St., 2026-10-27T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MDT/history",
+      "title": "MDT daily price history (Yahoo Finance)",
+      "snippet": "close 94.78 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "ETR",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Entergy\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnowQ2N2RENlTFk1YUpINEt3bmxBbGNfbU91bHRHcjlDQ2ctNEF5ZlV1cnI1a2JSWGI0WTN1eG1zY0l2d0pPVEpIcXBVRFdBMGVibmp4eGQ3WnFpeFgwWVNxeHQ0Qm5adlI1aTkzVENnUHpubUd0MTNRbXdMTkNRYmlXUkpCWURRLWxTVHgyMnBadUsxdHVxMzM3MA?oc=5",
+      "title": "Entergy (ETR) Stock Appears Rich On A 150% Three Year Run",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ETR/history",
+      "title": "ETR daily price history (Yahoo Finance)",
+      "snippet": "close 107.88 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

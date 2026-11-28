@@ -1,0 +1,61 @@
+{
+  "ticker": "PNC",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PNC Financial Services\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMkc2N2UtWllPa1dwekxCM2swRnlvZzRrZHVVVXBfb2l1YjEtcTV0TEFYTjA2S0Q0bGFXUXAxam1Iekktd2dCRlo4akxYUElRaXpiY3h0Xzl2Y1BZUTF0Y0hYM1k1dnh2V3NaM3pvZXFtbmh5ZnRSS3otUTVaNTdXYTFpcFhEVXl2M2lwN1FseENiZUNYWkFxRnV1c1YyM0pNal9oX1gzeGVhcmdlcGhrcEZyVGM?oc=5",
+      "title": "Wolfe Research Initiates PNC Financial Services(PNC.US) With Hold Rating",
+      "snippet": "Moomoo, 2026-10-26T20:32:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-26T20:32:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVTRvcXBpdmNZMV9QeC05NkpFb2ZsZjlsM2pMQ1pWU0Z5N3pIU2EwalB0NGRkX0l1WnhzeHp3NzhJUnZPSnZZQ0RPaWhOR3VvNUtHN2NqVnNRbVpoT1Z6UkN6cndTcUthN2RQamRFU2d3dDBUZksyenpqQWpvSjhBTzFtME5ybXpOd1JaTG9XMXFvMUNGZ1RzckFTOVNtYjJsNkZRSGd6WGJ1UDFVSjRHNjc4NlZvaWJUMzVlNnRrMzZpalJkRWpPbWNaLVI?oc=5",
+      "title": "Oppenheimer raises target for PNC stock from USD 263.00 to USD 269.00",
+      "snippet": "ad-hoc-news.de, 2026-10-26T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PNC/history",
+      "title": "PNC daily price history (Yahoo Finance)",
+      "snippet": "close 228.25 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

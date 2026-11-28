@@ -1,0 +1,142 @@
+{
+  "ticker": "UHS",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Universal Health Services\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOY0pTNWtXN0NEa0RBb2Q4dGNmVms3UTF2NHdzYWQ0djAxbG84dzJqdjFuaXhXWXRSeHVGZXZpWmRnM3NBNjlIMEkxNnNjN0d5YnoxMTl3YVhRU2ZzMVJvU3QtRjBHbkQwMmVrSW1TR3FQWjVfbGFyaUp1Y2tQSWxyU1F6SFBMaTVfSmNxRUZpTlN6ZThnbGVVNndkdTVmb3N4R0hwdVF6OEtKZzkwMTlId1dJNlpqQkZpOUxwUkVZTEZ1MHhoZDdEbHprQXFlSE1CREpQTzJPdEJKVXlmcU1ZcERtdkJVd0lxNVk5NW91N2hVRjRJVGcyRTQzdFRvdlNpUEFxa1E0SFFlWDZCai1XT1g5dDVMN3FPRFE?oc=5",
+      "title": "Universal Health Services, Inc. Announces Financial Results",
+      "snippet": "GlobeNewswire, 2026-10-27T07:00:00+00:00",
+      "publisher": "GlobeNewswire",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeHdxME14UGF3QWlVdUhwbXFFQUl6WTZtb3JralYtMldKQkJJNWFNMkNlQTNjMzNBeFJLcThrX2VydUxxMG16ZWR6Qk1fWTl4dlkwQzNwa3VxM1BseTRld09jeW9iOVctNVNpWUQ1bm5JNmVEbjkyaFdJUmZaOGhVWC1BY2NyOWh1aWlZY3lzTlN1eXB0bnc1ZkhkVW9oalYwWnYzbGVWdFhyMDZxenVJako0Qmx4VENuMW5FTHZiMEFfdTdHTENxRjNxZWgyd0lRTVZOZEdYN1lPY0Jwa0QxbFJpZw?oc=5",
+      "title": "Universal Health Services Inc Reports Q3 2026 Earnings: EPS of $",
+      "snippet": "GuruFocus, 2026-10-27T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdEFCQVJPMGttN3pneTVRb19ESDlRbnM0bnhBeVJJNVpmYS1MSEhaSGZQS28yU1I2aWZWNERGSk90dGlDTkRzeUh4SGhFejRwRzlJVDl0Q1RYLWtnT3hvMm5zdUFMSGU5Q3hJT2k3djZzR0pVVEtlREgxS2NuV3NlbUhHUVpkTE9iaGlZODNwdWQwLW80bFB1QmVFVk9kU21lOXlNN3dYWDZjSHREVTE1dFR3QjlsclNkYW9xODMxYzA?oc=5",
+      "title": "Universal Health Services Fell 6% as Rival HCA Guides 2027 Earnings \u201cGenerally Consistent\u201d With 2026",
+      "snippet": "TIKR.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWWNqM2VGbWxGY1FEdm9SWU5tdGdrYkRDVk03Z0ZuT0w5TVBROFVoWVMwNk9NWXc1RXB5emViZnJ4ZjhsUGF6VzllM2lxd0tmMUhaQ1lGc3g3NVRTSGJOcmQ0VThQcHAxZGpxQzBGaDhySHdfX2dPSFNGQUUyNUM5QlBQMTVheFpNVGU3YmRxRW9jSzR3Rk4ySll4ZV9odC0xakVJM0J6MV9EQzdZNHd3Nkc1RGFrYzIyanhnRTNteFRkSWVvVmE3TmthNkRxZFZrNVAw?oc=5",
+      "title": "Universal Health Services Earnings: Near-Term Outlook Constrained by Changing Policies",
+      "snippet": "Morningstar, 2026-10-27T07:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGpVbTVwQ25DaDhJRkpVZE1nOHdvTFdrZDBrS3JpX2FNRS1uZUd2blFUQUkzWU93akdVazRNZy1zVFZpVEhRc0xjcDVvdFJCSXBmTlZ6OWt0NnpwTDA0UEVTZVhBNjgwZzZwcjZuX29HRElkVHNJQ0djY2xRZE5TTDlsT1lZZUZYUnNEd0l6aEsxV2F4Wmh4X3RiQ1VKZG9yRFdoZWJmaVZDR2lzSEpaMDB0LWRabGhLbVhGMWVR?oc=5",
+      "title": "Universal Health Services B earnings beat by $0.02, revenue topped estimates",
+      "snippet": "Investing.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWnFrb1ZWRWhGOVhiU19BU3YwZks2VG51TC1tYms0MTNNT1BzcFRWcVVJNDBuSG5EMV9PaVlVb3JDVFBJYzY3cUZ5VGZ6a05IQi1qQ29jYXk1NmE5R2h6cDJyVVlXeVVVdlZjcF9mbnRyb0R0OEctX0hueFVnUlljOFFPNUNMTXJvbERzZm93Q1RNZXY4Vmw3eUdoOA?oc=5",
+      "title": "Universal Health Services (NYSE:UHS) posts Q3 2026 sales in line with estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbHdhTEJaZjVWYTlXaHBBcnFUaG9MSUI2aXMzNmhYX1pRT2VRTzRBbUV3VXNXNzk0WC1TazZGcEJ2SzJTeE1aaXhKbmFyVUJtQUl6aTdwYm5uXzN1Yy1Ibmc1X0FHRTZqN09BQXc5Zk5obW44cE8wZVJMaVpVd255dk9qZkRlOW4wS19MRkRvbEJiNmlwajlnWEdmdTNTOWZ6VjhqSi1DT2g?oc=5",
+      "title": "Compared to Estimates, Universal Health Services (UHS) Q3 Earnings: A Look at Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQazRESzYzYUY5MnNXakg4ODU1VjMtVGt3cktZcV9paVptblhnZklJcmMyMUUyZ21TZ0M2U1o3TGstNkpuM1pCNm1tSGR6S2p6QjFuUWI5RnNNUE1zRzZqSklnc3MxaEdNc2VPVVl5WkxWb2lpbDlpNGkyZURmV2pDZC13M1NfSjZLbHgyMktmdTczcERyU3JMQVJIcVNiMXJ0WXc?oc=5",
+      "title": "Universal Health Services earnings: what to look for from UHS",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/352915/000119312526434414/uhs-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UHS/history",
+      "title": "UHS daily price history (Yahoo Finance)",
+      "snippet": "close 172.18 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

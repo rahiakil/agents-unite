@@ -1,0 +1,49 @@
+{
+  "ticker": "APA",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"APA\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2VaYm45UVJlRFA2ZktTOU5JYV9JaHFQRnk0YW44QUFkZ3FTMjRxUlV0Smc3S2tRVnI2YVdtRzJUX25uZnpZNVkxeFAtZFAyZW56QzNJUm5jZlJwQTFBdzhMVFU4UHZYYVlWb1JJYzdrMW5Idnp1MHpJckRjeHJRd3NGcHM4Mm0zVjRad2kxZGYxWlRtdGc?oc=5",
+      "title": "APA (APA) Stock Sinks As Market Gains: Here's Why",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APA/history",
+      "title": "APA daily price history (Yahoo Finance)",
+      "snippet": "close 51.11 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

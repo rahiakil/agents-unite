@@ -1,0 +1,151 @@
+{
+  "ticker": "IQV",
+  "date": "2026-10-28",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-28",
+  "news_cutoff": "2026-10-28T20:00:00Z",
+  "generated_at": "2026-11-28T02:26:23Z",
+  "collected_at": "2026-11-28T02:26:23Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-10-24 before:2026-10-29",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS2Y5bXFCS0x1R0FFZFFEb0RNN2ZNN0FZaHc0RG9NbUdrd21oVUNJRHBUZEowQVhMSURTS08walNtUHFZYjRrVk5EanZ0Z3NmNndfeHoycERfQXpsVEFmbU1EQkxNNU8zc0dMcnlTdWlEVDJKMTNDdFBqZE12enBsNFpWT25WNUo3cnBJ?oc=5",
+      "title": "IQVIA\u2019s (NYSE:IQV) Q3 2026: beats on revenue",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU0g0YmNKdFBzb2tPbXZWbzlaYlk5YS04a29yczJLUWNpdC0yUklzcW5KNy1UcXNvXzhJclBqRjFVaWlmWXg1cGc1SlViTTI1MmpYX3NNQ3V5Y0NrQjlHckFqS29ieDI3NmZiUUI1ZHpBNWlrbVZ1MWcwMTdac2E3Y2NjV1dSNzlSbVE?oc=5",
+      "title": "IQVIA gains as R&D Solutions drive Q3 beat",
+      "snippet": "Seeking Alpha, 2026-10-27T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.735,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWJYSTZZb2FfYUFjMExZUUtiY1hpb3Y4MUkxRUREbmJZdTNLSi1YMG5nRnh3VFpxTnRMaktnSjBkM2RsX0ZlSEduTTBIYzhNRkkwVmxkeHFLaEhWTTM4R3ZkcVl4bGRLdDNnZlFNQUR1aGJXT1FaZnJFdEhYZEJEeFZSQmVET1o4VHpwbGRkcUhqRXBsN3NB?oc=5",
+      "title": "IQVIA Holdings (IQV) Surpasses Q3 Earnings and Revenue Estimates",
+      "snippet": "Yahoo Finance, 2026-10-27T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT2xTOHJEOEE2WmUwN05mYVNqVktKd3d6bTNXdkl5eHltLXJ0eFhRRm01c1RDNWhVejRuTGljWEJ1N2ZaelZoUFBycVl1cGZ2WV9TNHhxaEE0ZDJCRFQ2R2VfSWF1aVUxZDlzcEIyVW9jS0RBbkFxVHljOGppZEcweWlmVk5pX0ljYnZLVm4wU0dnSXc?oc=5",
+      "title": "IQVIA Hldgs Q3 2026 Earnings Call Transcript",
+      "snippet": "Benzinga, 2026-10-27T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEljeUh4c2w5a09zWm5LR3lWVXFjd0pxOVFmMHRJUDNrTVdLMFNPMlJFams2ZzZHLXJDc2JrTWx2S2xhRjNHYU9FMEYzb0VIWThqcjlfWXN4VGpPcjRfejFkYnhKSXdDbk5BVHZBcTJUZ1F5LVNobEFGeGQzMFN6RUFGd3Fxa3JFLVRpUFhyRUZ3ZEo0YUFkSWhyajVRSjl1SlNz?oc=5",
+      "title": "IQVIA (IQV) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-27T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSGxXWnRvem1vUW1pU3l3U1NkYnM5Ri1CQW5CSEpjalJodU5PMVhJV1FyeWZaYURuVWJzV2NCWE1INDY1VVk4QkNhVUo2UEpsQi1BRldxQ0lsMFpWNlV3N2RIckxhajdiRVVkRXh1NVlEN3A5b1NiUU5HYmRhaEpXSFYyLVNkUkxQdm9tM2k5Z05MOXJDZWQwM0xmaTF0bjlzQmhHdC1HN2pSa2VPQkxKbXRqaUdzZkYySDVZUmdYb2dfM3U5akdj?oc=5",
+      "title": "Earnings call transcript: IQVIA tops Q3 2026 estimates and raises outlook",
+      "snippet": "Investing.com, 2026-10-27T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-27T07:00:00+00:00",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZVNDUlFPQTUydkhTZUZKOVhrMHREbFR1NFpsUGZ5a2RwUnloWm9RYk5qVnRjS0ZSN2hKUEU5dU1zRm1EWml0eEVqY3dKTUpGZHNfSFgxV3d6UlFaaGFBejhSY2lBdmgwQ2ZzdHlKLVFzSkVKbjZoTHdndEdMeUlkV3hxRUFoSkpPdmJRVGVKQ3VRaC1oYXNGdA?oc=5",
+      "title": "IQVIA (IQV) Q3 earnings report preview: what to look for",
+      "snippet": "Yahoo Finance, 2026-10-26T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-26T07:00:00+00:00",
+      "published_date": "2026-10-26",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRUZWT2xCVnByVWM0UXdzaVBFeEtxQTVvVjhZbFJRZ2FRQVNDdW5fSG1RTk41TDI2RnU2LUNpS3NCM2ZPOU91WWpQN25PUTFpcHIwdC1rS3RtUmZYUFdscmxaT0F5X1U3N1BBVXp2SXZUSXZfejV6UDM0UVZPc0YydU1Lb3JvbzVOZ2kwNHE1dlhBcHBuYzZ0N2tUNGNFdnlsZmxYdlpwS0Zpa2N5SEdaRHhLOTdqRGo2UnhwZWhDVHNBbjhiZlRMd2hkbUtDV1RzTzJsaUhmZURuZ9IB3wFBVV95cUxPNDA5UlhVRFpsc05tXzdzZHVkeEN1akJYWDFZVGpwVC1UVlp6WGlEZHdxSkRxejdTRUdiOGNIWEhTd0hwaG9RMWdZN011cDFMSUJ5S1R6SUVxTEdwcXNqanRrejVqbzlyOW1ub3VmWlNaRXo4UjFMc1pYSWhzbFo3Zm52RFM4SHloazFEdkV6M0hvY08xel9jT1d5WGJwM25MN0I5QmZkaVB2QndIMUR4OWxBX3p0RGRrNG93T2hDY2FBRDY5SGc1OVBtX00tUkpFV2dvTjk4aXl3N0laVHk4?oc=5",
+      "title": "IQVIA (IQV) Stock Could Be Undervalued Following Its 55% Run",
+      "snippet": "Simply Wall St, 2026-10-25T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-25T07:00:00+00:00",
+      "published_date": "2026-10-25",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026067406/iqv-20261027.htm",
+      "title": "SEC 8-K filed 2026-10-27",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026067646/iqv-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-27",
+      "snippet": "10-Q",
+      "published_date": "2026-10-27",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 279.04 on 2026-10-28",
+      "published_date": "2026-10-28",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

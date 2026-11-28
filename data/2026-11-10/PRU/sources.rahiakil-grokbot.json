@@ -1,0 +1,49 @@
+{
+  "ticker": "PRU",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Prudential Financial\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdVhaek90LWdHRzVYOERwUzRfR3djWEN5UUxUeklleFR4dHpBSXFXVlFSY29nQzJMSU1nR094ZmZ1U25JampjNEpSRGVOX3huVnZ2SDk5bzZxYnNQb1BJcTc2SFpJTWhvY1Vfek9jdWxHVnFTWUVBU294MEwteHRPNWZGUWJzbHlqckxjemItUlBzUW9XYTRURzRNbFZyRFJGd3IteUIxSzBFbzhZTUx1Zm1DRQ?oc=5",
+      "title": "Prudential Financial (PRU) plans 5% - 5.65% notes maturing in 2029, 2031 and 2036.",
+      "snippet": "Stock Titan, 2026-11-09T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PRU/history",
+      "title": "PRU daily price history (Yahoo Finance)",
+      "snippet": "close 123.3 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

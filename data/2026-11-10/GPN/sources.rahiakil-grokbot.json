@@ -1,0 +1,121 @@
+{
+  "ticker": "GPN",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Global Payments\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 37,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 9,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR2VmdEhFWC16OFF2Nmtvc1I0aEw1cFhFMFFhRzI2TnViN0sxUnBBaFQtTWtSTkV0M1piUjlWNnRYLUpmTTVwUWhFMjVtQTFLT2tsNEpVU0MxMkc1dzRlRVZXVXdMaUJvTFZhcVktOGhSQkhXX19YWjdfeHlpRnNjaXhRVnhDYUNkS0lmLVJBNG1HNDFQZ2c?oc=5",
+      "title": "Global Payments shares gain almost 5% after strong earnings and optimistic third quarter outlook",
+      "snippet": "Traders Union, 2026-11-10T19:08:36+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-10T19:08:36+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.804,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PNnZvaW5wOEZUeFlmQW9iNlVFOGVRYzk1bFN5dWh3ZE1TSG9lc25KVUp6TmFlRFV1Ty1PTG55b0xjSE9ZNlU5bmhGV1RUZlQyTEhiTWtENWtpd3JaMUlyMkxOSmpBUVR0dHFEb01COW9NWUNHbmZXZ25WYw?oc=5",
+      "title": "Bottomline completes first cross-border USDC payments through Global Payments Hub",
+      "snippet": "Crypto Briefing, 2026-11-10T14:15:41+00:00",
+      "publisher": "Crypto Briefing",
+      "published": "2026-11-10T14:15:41+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOHVnV1RQaHlmcm1fTFlSdlFJMjlfRFdMdTZSaFJoazNENDVXVVFEb3BYaGRsbF9tanMwTW5RRWpLSEp3RmNud2d2dVQ4OV9GZEpVUU1qZFJwaDV0TkFQb0xUUXpTVGJRWDBRcXNsenBVNGVjQmg2MlR4MVVwU3Z6T3ZzanI2LUU1ckZlNk42aGtsaHFFSE1CZGRGakRkQnVITUg3UTJTd0pGXzI0?oc=5",
+      "title": "Global Payments Expands Adaptive Authentication Platform",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWGt5T2J4T1lOUWtwLWNZSDVTRk5mclRzdE5wYUZoT2pMUWswc2NHY05xaWJfaFdzVGFpZndxODlZVmgtdXR1eGVwVWotNDJaSlRNVlc4aTZKSGZudGFTTmRjcVNhRjY4TFBFaURKbGc2OVpOVjZWaWs0cS1DNjJ0TnZ0TnQ5V3lyX0ZGOWpPdGxxQXhvTTFsVUZRNFVzazEzUWNaMDVmRmlLaFVGN1E1R0E5VG8tdmd6bVNaM2Z4UE1SWEhMY3pBSA?oc=5",
+      "title": "Global Payments (NYSE:GPN) Stock Gets Price Target Bump from Barclays",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNWVCaVhQN0VqY2kwOE5hUmRoYmt2UTZkb2NVS05INTBpTTllcWZoVzRHQTZkMC0temhOMFZkT1VFWXhHR1k5U2VQZWpxU2NHR0N3RzlxN3F5YldmNng1YzBIN3N2Z2drYzZSajBIYTR5bXJ0YkxIQno3SVJWSGw0S3BlODFXOVlVZFB0SFdsa3FuYUFKaTRZ?oc=5",
+      "title": "What Global Payments (GPN) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWFFIUkI2UEVyZ2U0Wkc2cnl5a2VVV1VrRTBwYldCZ2J5dTFTMXU1cTdiOXNBUjd5SFQxeVQ0SzE3SUwxSnhwVGptdlVJV2RGVE5feUhQajZVY0c2MWRka1c1VWZWV0dNUGQ2eS1mUGpfNXYzTmMyOEE4RENsd003QlhscmdjOE5lQ0dyVXZnV3NLRUZuSWNyMUlzc3d3dGM?oc=5",
+      "title": "What Global Payments (GPN) Earnings Beat Means For Shareholders",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQnN2cWMyQUJ0aDAwcWhyNnFyMEZ3YnNHTEpnT0hfekdpTXhRZFNScTFJcGdldE5xOUdwNHRMN1psTzZzVlR1X3FBRmk3Uk5wZVRUaE44RGVQRjg2TjVhbXJLMkcwRzNOQjZMTTJ2dTVMRldvaXpsOGRhMzA0Zk9DUmFTQk1kZWdsMVl2MWlwUElGVUtvMzZZSjBOZ255aG96aWtlYTdmUDBKRWl0bE5jRDY5cllFcnBqQnhsTG0tU2tGT0dTR3FwdWFR?oc=5",
+      "title": "Global Payments' $3.58 Q3 adjusted EPS is $2.52 above GAAP, and a...",
+      "snippet": "Quantisnow, 2026-11-07T08:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GPN/history",
+      "title": "GPN daily price history (Yahoo Finance)",
+      "snippet": "close 101.59 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

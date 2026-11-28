@@ -1,0 +1,61 @@
+{
+  "ticker": "VLO",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Valero Energy\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWFcxM1dieDZCaVMtWGdVT2dBd2hjelBiUFA3d1dUbFFRMzg3eVpUSmZ3WDRDTGs1N2Z2YjlNQTA2U0pBc1ZUaEF4bDg3QVJwdm5PNkRkcDR3THRLSWNZT1VsQTh2RTdyUURXVjI0TnFPRnpxSXZPM0UyeU84RXhfYUswQk8xVEVmN2l5NFBR?oc=5",
+      "title": "Valero Energy Surges 113% YTD: Should Investors Bet on the Momentum?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZEpnWndmWEk5ZUVmaE9IcmI4Q1phUldnNzdqWmdQNVlkbWhYal9hZzRpQWdFWFdmTGN1U0xZX3VHZUtrNHdZeXRfMDNVNEZubk1fUXFXeXJiMjYtaW9uUGp0VDhpWVljdnRDam1MMlZRNzN2dS1yZS1IQkZGTGNldk8yUXJnRFpKenRpaV95WDlCeVJkS25GbXB3cGhJWndpSkVYTS1wUXpFSU5vbGFVTmFhY0pka293VzJ4TTBBQUxTMkVQd2hCZEdB?oc=5",
+      "title": "Valero Energy Corp. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VLO/history",
+      "title": "VLO daily price history (Yahoo Finance)",
+      "snippet": "close 350.71 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

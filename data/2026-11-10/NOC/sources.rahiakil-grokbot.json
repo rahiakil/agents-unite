@@ -1,0 +1,97 @@
+{
+  "ticker": "NOC",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Northrop Grumman\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 18,
+    "before_window": 4,
+    "irrelevant_or_spam": 12,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZzlIcndacHJ3YmhuTTlPNnBOcEkweklQcFA3QTlxWThaeERkYlUzUzd1V0o5dnM1OTUzZmd5T19uN2xrME5McmFOQ2FmN1RpcTFzSHZBUVRGS0JLa1ZPTzlxSEROZVJ0aFVUWjFDYlR6dnFGaS1mMGFnYnUzTk9vSnc3aGFRdmJ5VGpwWDRIeFQ1VktPTVNUT3czU2YyUzhUcXpxUlNZTEhUcUNqanc0VjY0eGdGd01EMnMxRU8zNA?oc=5",
+      "title": "Northrop Grumman stock heads into Baird investor conference",
+      "snippet": "ad-hoc-news.de, 2026-11-09T13:33:47+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-09T13:33:47+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZEpMNVJqOXJZajBEbTlCdzZ3cFBhRjBKSmUtNjFkWEw3SUNQc0VHdE05dHBja0p6TXUxMmppeUlwT2g5c0t2R3NUNXdhZUI2VDdIVWZCb2NGNnVMNGprNFd5Z3RYSGdrbDFOc3k0Rmhwb3NneXJyeVotRkp0RXc5QS1wWHh3VDNYNnMwb1NqNlEzRG4yV2lsRVJfU3VkbWgzcVM3V1UzdzJfeXRSQldfcXE2d3NYOEV5cjhFemQ5WUg?oc=5",
+      "title": "Northrop Grumman (NYSE:NOC) Stock Price Up 2.8% - Here's What Happened",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNjZPNnU4UmI1Nkc2ZURlUmVPakZPcENEV2dPTEpVdDFyU3RNNXhaLTNQVmMwYzRfZUsyeFQ2UHpGRWxfeVVkaXp4WlJqVmVnaEFOTVFMUjdkTXE5TUcxQ05falA2WmN3S183VTZ1dFdWTXc4TDJ6SG1SYmJuZUx0Ri0tbzNFbEthdlZrdnZWS3FlaTJ3X3RWTHpoXzktdFJHenJia0JSaF84emJwaWh3LWtpYy1nRVBWNmZXaGo3RTgzMmZoWU8tb3E5T2VVejlkbG9GbVJLUzQxZ1QwYVZjSGkxU05uaEhiZEpwRW0yTWw?oc=5",
+      "title": "Hohimer Wealth Management LLC Makes New $3.29 Million Investment in Northrop Grumman Corporation $NOC",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSFJGSS0wWGJHZnc3LUoya2Q1UWsyZkpPcVJfTzA4eU1rYk9FV1YtbTVHVm1FTnVVN1daSnZBZmRWc21RaHlGbEdCUGt2Rk9ORkZ3Qnl5ZTBhV2hLeG9sX2I4Q1NTcXN0aFc2Yi1YMnlhaTJFSFdxZW1oc1phYnJGOU4tWVJyRW5oVDhpNk9nQ2stMmF5Smp3NTd4THB3YUtsejFKd2tSN3d2bC1hbHpBaWxoSHBsNjlOTDQ4SzlLVkM4d2NtN2JIbA?oc=5",
+      "title": "Northrop Grumman director Mark Welsh III sells $54,453 of common stock By Investing.com",
+      "snippet": "Investing.com India, 2026-11-08T13:37:55+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-08T13:37:55+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcEh1R2NwNWhOWUt6LV9RYWVGT1VsUm5oaTZqc0lRR1o4Ul82YmNndURGdlg4MERhbWM2OE04bEswdFl1dER5dTlFSWM5ZU1rLUtyZFpaek9PTjQ2VWNwQWtwRnJqcWM1a0RtZUtrQTkxQU5TLVlwOGVsTjcxSzc2clVXcDA0YVAzbFU2VWpScnhoZlpHWnBSR2stX3RGcW1KTGUwOU9BZjYwMmJZTWFTb0o0am9BZ1RnU3JXS1JUMHdSYnM?oc=5",
+      "title": "Form 4 Northrop Grumman: Mark A. Welsh III (Director) For: 2 November",
+      "snippet": "Investing.com Nigeria, 2026-11-08T08:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NOC/history",
+      "title": "NOC daily price history (Yahoo Finance)",
+      "snippet": "close 548.61 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

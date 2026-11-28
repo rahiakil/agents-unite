@@ -1,0 +1,97 @@
+{
+  "ticker": "SNPS",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Synopsys\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMTFCWlgwQjBYeDhOZjZrVW9rb3dJaHFsWjVxenlXRVFxWUJtMWpuWk40dEVxT2Zjb3M4YzlUSEVDdVVkMkkwUTNkOEpsTnFEVDIzREk1U1pxaXEzV3JLRDR2d0EySUtXLVM1U0VVOUgzeGJybHB6SHJvSnBjWkQ4bzRUcGV4cDVkM2NSdlBKRWoxTkVSZ2FlQXB5TTdhSEVaWG5SeFFJVDA?oc=5",
+      "title": "Synopsys Inc (SNPS) Stock Up 3.7% and Still Undervalued -- GF Sc",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVVdGdlVDMVlMcEY1cm1lRkZ3NmJGMDktVkd5UFNNS1FCcXNCRTM0MWwwWXhwVjRWbFdjOGloMS12SDlpSjEyVGZQQ0VsWmx2bWZvVUFIOER1eHVYbmdpbk1nS3BfV1pKcERMb1BkQkdGV0c1alFNVVU5VWRqc2F3S3BfUERrUkxRcUVCVXNEdlJvaGJnWWxfZVdBc21ZUFBfa1NF?oc=5",
+      "title": "Synopsys (SNPS) Stock Price Prediction: Bearish momentum meets a dense resistance band as earnings date approaches",
+      "snippet": "Blockchain News, 2026-11-09T08:00:00+00:00",
+      "publisher": "Blockchain News",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanVoVzNENjJYa19CZWprd051VGItOHhRaHpVWTcyQ2I1N01oc3FpLXFvb0N5dkNKcmJEUVh5QzhNb1ZySUNIY25wMEJ2S2tneHdTQ211M2VLUzk0SGFIdVNnQUM1dVFkQ3ZXa2dQZVRuSEZULWFsalotS2l5TEJOMmtzdEVHNUhpc21GSm5IVzVMX1BsMVNKVzlicUplV3BTUl9VNFZLQmk?oc=5",
+      "title": "Synopsys (SNPS) Is Considered a Good Investment by Brokers: Is That True?",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDNDM1VoeGV5ZnBOUmR4SUN3QmxLQnlzRVc3bzFXZldvSE5rcy0tejJpWl8yUml4eEptS2RPYllfOTc3TzZCWlhWM2hDY3RRQ1RLUHpiaW1USU91T2ZJOWUtQzZBYk1BWjhGU1U3WElNQkk5UkZsbFBDdm14MXJGczlpOWlhMDBpUVczRnNxeER2M1ktSHp1enJEaUR4dFRNMU43NlZGTmVEYWtSWHFMT1ZIdw?oc=5",
+      "title": "Prediction: Synopsys Could Be a Bigger AI Winner Than Investors Expect",
+      "snippet": "24/7 Wall St., 2026-11-09T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVXhUbHppbUZUandGaXhvOWNyT3FQV1FTOWNqU2k0MlFoY2VHMy1GM3ZpM0ZCbWl1dWpWUDc2dkpaRC1aU0ZjYWdrdXIxVGtqTWZ5WHJKS0xldjZfRy1XMHpaSklHNWQwcTFHeWhldHEzNjJjcFlObGFPZXFjaDMzb3dhenB0SFZERC1UdkVXQVowWDcyT3hrZ043YjhVS01Y0gGmAUFVX3lxTE1XTW5oQXpuUmZnbG1BaUJ2VUgzRnBNd3FsMUlQaDdtb2toeG5DOEFaRTFjbXJvNkNoMnUyR2xPdkdOazFWVXg3U2otZThXb214Y0JtR0RwakloZ1FyNTRJYi1KZkZZSzJrSVFjdWJPWlc5UmM3VTc0Q2lxQ3BpTzBGSEIwZi1qczRpMlpOS2pnY0xLUC11Z295Rjg4dEwyNEV5WmZyVFE?oc=5",
+      "title": "Why Did Synopsys (SNPS) Move Today?",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SNPS/history",
+      "title": "SNPS daily price history (Yahoo Finance)",
+      "snippet": "close 459.95 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

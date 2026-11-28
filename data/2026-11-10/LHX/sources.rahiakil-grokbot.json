@@ -1,0 +1,121 @@
+{
+  "ticker": "LHX",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"L3Harris\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 39,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 9,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZSzRCaU9Da0hGX0hjeEpmZGVsX2ZPUUpIRHFrajR5Z011bHV3V3hYU1dkVEJVS09oQkpGck1NbkZmTGxKR2hmQ3kxQjNUaDFyNFhXTmZIZXNzVGYtNzV2MXNSM2p2ZzFDVXc?oc=5",
+      "title": "L3Harris Technologies xStock: Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-10T03:49:02+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-10T03:49:02+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTnJ0X2x6OTJJY2JhVE1wejJMSno2VkFyRTRMSmltM2RTYzF4REg2RmZ5WjRXY0hYLWo5aktaZDBYM1c4QnY0SWE4aGRqaXYzN0lHVmRTOHI5b3dlQm1SSkprZ3hZdkd5OUIwTjV4UmN1NE5iVWhDZzRuVkxRekppY0hlVnBmbmRnTmhDVUpjaGZhVVNjck4tYzRCLUtRWWZGQnM2ZHJ1OVpCZXlzeFJYa29wdFRYVkotUWYtbF9XemZVbnRKbTkzblY5NTFHbThsWUI5MNIB2gFBVV95cUxObnU0Xy01NlhvR1AxWHNzY1FSNGd6UzQ4ZEJLcVltVkNVOWNMNVVYSzl5LW4yYU9zd1JOM1BHZ3lRc2FJZC1MbFNVel94XzE4ZmZVVnM0NFFub19GTzhCRHpXTU9Nb2hxM09zZHVLSDRPOElCOHFQeEdCbkw3YkJEYnoyemhDcTBiUmozSTMwZ3haQ0RzTE1fdDhRTjl2b3dVWUYwaVpvNGtqTU9VSTdQVUhCY0tRVW5nV1FfUlJ3dXdWOEVWeDBRamNmUWhDYlVIX0d4aGZBOTVLQQ?oc=5",
+      "title": "Why L3Harris Technologies (LHX) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY0tGaHYteHgzb3VHY2E3MWJPa1R0cVdVMzAxcmxsN050Z1pKNFJ6RE5YTldsQnJYNXBiTXpGU3RZUmVPdEVLdUlBbFlCWWFnbnd3aDA3WWtJUXJHQVFYQ3JKSndVSzNCVmpGTzNFdXktWE8tbGstcm5HQnJ3X0E1Nm1nQ0V1aHBlQ0RBbnVpUFg0LXkzNWszNERNb2Q?oc=5",
+      "title": "LHX Reinstated by Citigroup -- Price Target Announced at $348",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM3pRMjNoVmtvRENZaVJRMW5iTkdSS2gza0E2cUx2ejlOcWxRY01id25falhUMGdXNFlBZWVtYWRPUEw5NURveHgzMVlfbEczMDhQMDZrRkRiQjFDWjdqVy15YUFmVWNPMVNZVFhFMm1JV19pUE8wR0FBc1p5TG9wdVdXSG56YUhPU2ZlQi1qZ2VERTRXR3lVOExaNm1MaWJTQzgzc3JDS2hlTWV6UlF2bzlyNjRJdXBrT1VtMjNQUWdTcnVnWVllSGN6S21XdEN4bnZZ?oc=5",
+      "title": "L3Harris Technologies (NYSE:LHX) Stock Rated Buy in New Coverage at Citigroup",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZTAydDMtLTRDdGRVS0UzbjNLY2FMaVlXLXFoVE5CMHF6eUtnb3JHUmNmdzU0ZndnaHlXallvNDVuSXBZSGR3NVJBQ3dqckZ6b2RZRURFQVIzdm1ab0hXanV3YkR0YWw1VmZrN3NxYVRGa2p5MUMzdGlzSkZweGQxUldtNFNyd2ZOc3RZamUxTFNfRUFVOGZhS3ZkSkRodVl6Z2NzQ3U0Q2w1UQ?oc=5",
+      "title": "Form 144 L3Harris Technologies For: 9 November By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQODRIcG44UkhZaVlpc1BkNklBamhjNy1Eb19md3dwei12Q2xEQ0l5SkhvQnZ1N0huc0pubkFqRm5uVFkwN1M1OXZCa0FHSDBOT2Nqc0RXcVZ5TnFQblhZaGN3VGxMcmVhNG1Ba1VjMXRRa0VQMGNzcGg0TG1ITXJTLUw5OFl0c2FGMzRmWWFJSmVLR3lYcnJpTnYtMF9FSnBpa21jOFNBMk5yNUxOMWljSnRMUlFsbEt3SFZhd2tXdw?oc=5",
+      "title": "A Look at L3Harris Technologies Inc (LHX) After 4.4% Gain -- GF Value $272.14 vs Price $271.42",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT091TS1jNGxVNThiNU1NRDBVZC0zNXljcHJ1azdOZDVuR2w2MHVXX3RNN3VBd3JVX0Q3QU1NV0UzTUJPbGhtZnhvVGpOaGZ5MnlWSy04SE9KVjE5UFU5dWY3VGdFUm1rSVRrdXRRR29rRkhSc0NxTzVqVzNkNkJwSXdBNXJodXgybjdZYTEwang1UDhHaTJGTWJxWDlJZEROai1DOFgwcw?oc=5",
+      "title": "15,000 L3Harris (LHX) shares are proposed for sale by officer Christopher Kubasik.",
+      "snippet": "Stock Titan, 2026-11-09T08:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 275.96 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

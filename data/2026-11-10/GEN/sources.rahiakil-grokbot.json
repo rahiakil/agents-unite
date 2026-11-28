@@ -1,0 +1,49 @@
+{
+  "ticker": "GEN",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Gen Digital\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUJ5d3lOMkNGcU1NRDlqbmNqSG9sSXdMV1UzV1hkSnJySUI4SXl2U3hTLUh5MzlBa0EzQnF3U200UnRHLThFMkhDSER1anFERWV3RVdXa1lfa2NYVmRZdnNHb2tvemhNS2ZYb0k5UlN3V3dhbThfME9aVTJsaW41bU85ZVVOS0NuWUNLY1I5V0JiaF83OWtDUTd2T1A2QnpnOWFEOUNtTlVZMWlxZjFPM0JQXzBzUkk?oc=5",
+      "title": "Wall Street Zen Upgrades Gen Digital (NASDAQ:GEN) to Buy",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GEN/history",
+      "title": "GEN daily price history (Yahoo Finance)",
+      "snippet": "close 30.01 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

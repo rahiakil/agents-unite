@@ -1,0 +1,61 @@
+{
+  "ticker": "FICO",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fair Isaac\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcnp3dlQwUTQySWR5eXdtb2ZRSHR6c2g5T3ZvaW5VR1ZNcTRIRThzYU5DRVd4LWhGd0RCX0dMbXQ5WVNOTUVYcDl4WGNGODVPSFdQT2xXTklnUDA3b2N3OW5JQ0UxcTUxMTNDZWNlOWV3QzBtRmpJS3hkaW5MYzR4WDA5Y19wWmk5dkJSOG1mZTNVaDAwU0NyYUF3SVplYXk5aFBQcVAyODd2ZmpvZVlJc2lDNzVuemcxR1JsNTJrZ0JCNk1aelRUYm5OVG8?oc=5",
+      "title": "Mizuho cuts Fair Isaac stock price target to $901 on mortgage uncertainty",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1VjOVNQbFdfcGhTRnF5QVhxWEhXTjlXbXpTN2JUaU9xRFkwTzFxZm1NaDdGT3JSR3RjdVFUaktZTTRqZDlQSHQ4ZzQ1UUt6TVRZbFBGM09vcGFWT0FpX28tZ2Zwb2xKOGdwNVRZODFMQzBPVG1nTEktMVhoMWw2ZXZuOC02WnRYbXdBeF93TzFkcENxY2NFMWtuc2M3YWdwTm1vZEtnSHY?oc=5",
+      "title": "Fair Isaac Is Down 55%, And The Worst May Not Be Priced In (NYSE:FICO)",
+      "snippet": "Seeking Alpha, 2026-11-07T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FICO/history",
+      "title": "FICO daily price history (Yahoo Finance)",
+      "snippet": "close 730.66 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

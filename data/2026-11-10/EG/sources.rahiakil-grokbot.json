@@ -1,0 +1,49 @@
+{
+  "ticker": "EG",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Everest Group\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPSTg3OTI0UXhBU1BVNFpfemc5RHZ2MWZWZ0Y2QU5udkxtbHFVdFd3SlR1X25mOUF1SFUtcEJ5d3dlWmwwNkxKSDdiTnQzRzl5WWZCMXVtR3lkR21faWlHMTc3bGV2ZzhianFmd3ZJZEVLeU45Zk00YTJQM1VtN3hQOG5vYnhOeE55ZWp5ZHpKX0JfTzVxTm1LdkxuQTVGTXV3dXJlNk03dndJYUNRandrSUNUQjZxcm16R21rcFFQWEJ2LUZtTW5yemxrd0NTR25nb3dwalhUakNvR2g0aXY2R1FENVhQNnh0SHNzbjdWd0FlSWRodTA2TzV2Sk5BamhmeFdaemt5cThyeEJZZTJoWGZmaktHV1NaREVONnl2NDIzM2hwN01MQ3dqdWtyUkRaOHFxYTNWeFU2WkEydTZvbUJvV0l4ZVpJdkljNzNUY2x1MXhrdFJDT3BYa2c?oc=5",
+      "title": "INVESTOR NOTICE: Everest Group, Ltd. (EG) Investors with Substantial Losses May Seek to Lead Class Action Lawsuit Before December 28, 2026 Deadline, Robbins Geller Rudman & Dowd LLP Announces",
+      "snippet": "Business Wire, 2026-11-08T08:00:00+00:00",
+      "publisher": "Business Wire",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.572,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EG/history",
+      "title": "EG daily price history (Yahoo Finance)",
+      "snippet": "close 422.32 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

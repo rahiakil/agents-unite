@@ -1,0 +1,121 @@
+{
+  "ticker": "ACN",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Accenture\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFkycmdLczhnc05JTEpERlIwa1J6SE9HM1JfQTk3NFZEcGNSaGhVcmdmbGlFLXZtZC1yekdtdGc4aVZzc0hldDJSNUVSUHFnOEZVTDBQN2xTQWZTdVprZWlORjlIejEyWXU4VWthMHMyLWJFTy00dFhLVTdsckxiN19qUFVoby0yVXdDZFh3cEh0Rk9HeGpoaWVybHE3dw?oc=5",
+      "title": "Take the Zacks Approach to Beat the Markets: Ulta Beauty, Accenture, HCA in Focus",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.778,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaUpYTjN5TGpfdWhxNmRocTI0YVRILUVwQXgyYWFRZFpKNE9mS1FmcUVuSE1GMFpKTDRyamVnYzBCRTktTVhwWmpvTDhMcXNXZ3R4MlpLY1drUGMtQXVHR1phelp5NTVjQnl4ckRiX1U1VkJ0VFkxMUUxQkg2WExDVC1RYWVWVWdGeDVHVVJsVVJxVi1pOTk1QktIdENoSzhPS2toR1ByQjFEVFoyNXQyTVp5bGw3VkJH?oc=5",
+      "title": "Qantas to cut 850 jobs in Australia with Accenture deal; shares jump 4%",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT085dnM4WlNXSm1KVlhoTjRqemE0WGJOdGFHUVJTTEJfUHdhN19fYXBBbTFBc2RkM3p4cXpWSEVzRGE3VGdSU0JiRHdNWHhEYUFqRWRwaFlSSFlTN2ZyM1RWZUFuRFNVY2RnN2pJbHBUWE0yYXphaXJjbGlMQnBxbVU3WVlIMDUxd0VsZA?oc=5",
+      "title": "Australian Shares End Higher; Qantas to Outsource 850 Head Office Jobs to Accenture, AFR Reports",
+      "snippet": "Yahoo Finance Australia, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance Australia",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd05Gdm5qQkRuSzdsWV9peXlCZmlXbjhFemZLa0N1R1hHdk1PM0U4a1FRVkk1YzE3R09laDFqTDIwbVhvWlJ4OEhDTWFJQkpMQVlBSFFwekFYNlYxYUctelJvNEFIRDJtUGthb3hGcjlKZzdLdk1hUmNaYmVYM2lpdGN6RzMzamRfUm5YNWI0TDVjU0E2Y2dLX1JR?oc=5",
+      "title": "Australia's Qantas to axe 850 jobs in offshoring deal with Accenture",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbEJsWDg1WmNYSnpManNwdW1SX0RrRWFkR0JFWTY2WjltWUJJQndXRTNoTjNRSm9VRkotYnpfcHNlY0dXeFRIMFZUOUxtTUoxQlNrOHItMGgwR2NFUlA1Yk9kZU9YR3h1RDZXbGRaTzFLZzRBRWg3dFNKMF9vZ3pvZldDdmFyTGdtUzBRZlh1em9ya0xvTnhWQkgweVB0dS1BSVM3REdxanByVlBGakNYb3dXSmYtekFWN085Xy0yckwwdEt5Y3FqZHR1RHJiakE?oc=5",
+      "title": "Accenture PLC Cl A stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGdRY1FwaW1HUzF5SjRMOE5ULWJFX2ZUYWQ4Qm5tWjdfY0Z5Z3IxYjNZVlo1eFEybng0MFNMbW5Xb29aRUhzN3p3VDlBS3RmRXVLVEFmb0xIc2JYYllxODNxQVFXZExnNUpmUzVjeFdBdDBLdkpWb2VOdXhyX0FsU0RlSDNBZmNyRzhRdmtwTnV3N29QMlhsdms5U256QWlsODZ6Vzk0a2xVbjIzd1RqZElVMmJqNlVNQUNCNmVGMNIBxAFBVV95cUxOY0hhTmNwVlRMWENKSm5TckJwYnpzd2RWSnpuRWxwbFJiNUlkTXp1c0dpcUt0bzdwZWZpWTlfT1ZuMjFYVGp5TExiSHFPRHBQYzUtVkExdVZrSE9sXzFQdGRJLTBuTTFDbm1ORDZfcHE1Y2c4MjRaSFV6YWxFM0RfeXo4b21CMlgzc3V4dEhmWDdPOEg5aC1WZ0ZDS3BSYnl6VlNxNTNmRk95VFJyd0NsYzJYd01Xb1V3ZjcyeDZ2MXZtbllS?oc=5",
+      "title": "Accenture (ACN) Stock Looks Fairly Priced After Its 25% Jump",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekFnaklnakJjN1dsSXVZWkFzT1JFYmV5V0dVN2dqdTRpY3V2R09EWHpjV1Nwb205Uk11RFJqYzRBX2RSMTV2UDl1MmVUSDJqT1lQOHlRWUlDelloOWs3d3JnbGRFTDhwU2ZnNVJfV0FhWGlXT25GNkpXUHpVb003UFhhUTM0c0FHUGo0bklBS3FSQ2JmMHlscHJRSmFOVTRu?oc=5",
+      "title": "Can You Still Buy Accenture Stock Today?",
+      "snippet": "Trefis, 2026-11-07T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ACN/history",
+      "title": "ACN daily price history (Yahoo Finance)",
+      "snippet": "close 258.51 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

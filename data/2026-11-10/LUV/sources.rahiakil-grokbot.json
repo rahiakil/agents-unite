@@ -1,0 +1,109 @@
+{
+  "ticker": "LUV",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 9,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQno2UVlXbWtsdzI5dmFkWExWOWw1ODJuR0FZUGdZamlXZWw1bURLbm5qTTJXQ2lqSVNHQ2ZYV2NGZm9yaHpqWDZxQmNYWU1qa3kzVnV1UVBtZkRRbU4xT3JDU2FiMzZYUnRSMjdzTUt4aTNUbTN4SXd1bmJOYmJCcFh3UzZvak5SVVVodTR1Tko1Qnpxc2Y1RWVqcHBLWkxkcVdqRHBPTjFUOXpBVEMyWg?oc=5",
+      "title": "BofA Securities Maintains Southwest Airlines(LUV.US) With Sell Rating",
+      "snippet": "Moomoo, 2026-11-10T00:34:38+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-10T00:34:38+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUtDS1JUM1ZyWkNPbFZUaUpham9lZVdSSnMxVDh3aUxVM3BHVjBiVVh3RnZ6MG9pNTZVMkxjSm4xZFdZMUJEY0ViZU1Vd3lHdFZxX201WGRqMlpwZ3puZXpUaHNUdDBDa01xeFU4NkZWV3FvVFVuSU5SUjVDZnQ4X05JTFd5V3pLVnlTOGphYm0yUzRFYnhWR2M2R054bFlDa0dZX1JmekZzTWFTQ1dldnlRcU9LUVk?oc=5",
+      "title": "Southwest Airlines Co (LUV) Shares Surge 4.2% -- What GF Score o",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeV9JTjk4WDJFUUZhbXZuVVRHbFBHbDA2UU44Y3ByclNka0NSaDBCS0dhNW1rX1paZ29USDZyVklrLWVtUl9vUklCS1BfYnVIcVZQNk9WbVRZOHdWcVZzbnRiRS1uLXlTX21vanBwV0k1bnNBLXIzVUp2Q1hYQ2FoTlhZeXN2S0w4X21kMXZYdzhXUXF2aFhkbkVyVlNwb2ZRZ0U4XzV0Y183cmw0UmJpRU5obTBpRFU?oc=5",
+      "title": "Southwest Airlines Boeing 737 Made 44 Flights Before a Major Problem Was Discovered",
+      "snippet": "Men's Journal, 2026-11-09T08:00:00+00:00",
+      "publisher": "Men's Journal",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.458,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSDR4a2xTRnVrbng4Vl9kR1l4Q2dpZzJlWWREcG9WM245cUNuUTNLbFBhWEVhM2xGbGxFR19kLTRKNFNhRGZnV2tLLXlSY21TM0xSa1BGX0xxQ2VpNGl2OHNYTGN1VndsWU1jTFVQMmdrTTNoTTJpZXVRZVRSLVdnRVp2aC1LMWxIdks2NGM3S1lQN3YtZFJFcw?oc=5",
+      "title": "Southwest Airlines Facing Growing Problem Amid Major Changes",
+      "snippet": "Men's Journal, 2026-11-08T08:00:00+00:00",
+      "publisher": "Men's Journal",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWXpsU3pUNGxmS3J0bElnOTIxeFRaQlJaeWFKUmxWRk1tazBKLVpCdlUyMnJtVmVEUUNrYlFibDRsNnUxMzR4NzJ1MnpjNzhOVmQ3V0E2UkJJbUN2LVQ5OTVwV2lBMVVNcF85aHV5UUNQb1MxaEdxTFdzdC1janFiVDJqaTkzSGJQNGtrMTNtWVpaXzk1bU43aFBwLTl5QXhqby01WXpqNA?oc=5",
+      "title": "Southwest Airlines Flight Diverts to LAX After Engine Warning",
+      "snippet": "Rus Tourism News, 2026-11-07T08:00:00+00:00",
+      "publisher": "Rus Tourism News",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSUstX3pLTnhZZEZDZDVUc0pkYTJfM1dnRDZTenoySHlDMXZxNU1zbnBHdHVJNHdvcGVESE0xYUc5OXU5QkxWTjdnelExXzV2dGxraXREUXJpUXlPVUFKRzVGaXNiamtDOFkwMzlvYU56RXA0ZHNqOFlhVmIxalhkcWRyYUl5NWpxMDdHdEVEQTIxMTlwUVotZ1J6c2RyLXpjRmlhY0xLcE5NWFFsRDlRWVlhaWpMM2hST2ZxanVtSWxfdw?oc=5",
+      "title": "Southwest Airlines And Chase Sapphire Launch New Airport Lounges",
+      "snippet": "Forbes, 2026-11-07T08:00:00+00:00",
+      "publisher": "Forbes",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 46.32 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

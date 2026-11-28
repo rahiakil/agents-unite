@@ -1,0 +1,61 @@
+{
+  "ticker": "LYV",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Live Nation Entertainment\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSUZSOFNPY19pWXpkM29EV3pETTJNMXR1ZlVTVHF5MDNQZ2FPS0xad3Q5X0FMeFJzc2RjcVRLVXpJREwtQmZrbEJpelEzaHMtZ0JKYmotaTFqN1pRQlNmSkR1eWpNMG9Ub0d6Ui1KVFBVRTU5VWF6VFVsWjAxc1VFeUEtQWNxYks3M3ZMcWt4ZDRVVmJ5SHZXNURzQml0Rll6WGExLVc0VFZrZVlSaFp4d1g5MlhoM3JDekJKTGxmbTl3TDdJTWltaVlMa0ROZml1cFBCOEU0c0NmSHdsUVE?oc=5",
+      "title": "Oppenheimer Adjusts Live Nation Entertainment PT to $215 From $210, Maintains Outperform Rating",
+      "snippet": "www.marketscreener.com, 2026-11-10T14:30:27+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-10T14:30:27+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPUWlSNG9FTVo1WmFzUVg4YkdzQU9BSGJXVGFESk5XQ0pSQ0NIaWFESWZCYW5Mc1lOSzZmUDRydWdXTjBaRktFUzBUWUg5cFJ3ckxtSU9FUGlBejJjVE52eFdGcDV4NU54TVRnMkJpZm1iYmZEMHZHNXJCbUhXeWtxWV9iN21aMXlZcnBOTEZwTldPNEljd1BGdENVcGFDbWlfTjY1T1RrX3o0REY3ZGY4dng4bTlvSnBnanV5ZVB6S1JtUWpNWlpkdEkwb2tZSF9nclcyZzRGS0F4ZkNzU19qX2ZNRFBYOVpScHR2aGJqc1QyMlN5N3V6cHFOMHdrSkVsbTRoYnhRSV9JNWxsQk1hWUc0OTdrY1NwZHRWOWNibUdWN1Q5Q2d6UkdHdFlMUnI1bUNJb2dqWllhTWY5?oc=5",
+      "title": "Analysts\u2019 Opinions Are Mixed on These Communication Services Stocks: Zillow Group Class A (ZG), Live Nation Entertainment (LYV) and BCE (BCE)",
+      "snippet": "The Globe and Mail, 2026-11-07T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYV/history",
+      "title": "LYV daily price history (Yahoo Finance)",
+      "snippet": "close 178.25 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

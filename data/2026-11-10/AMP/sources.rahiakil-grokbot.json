@@ -1,0 +1,61 @@
+{
+  "ticker": "AMP",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ameriprise Financial\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZjZzbWRKTzY0ZjBTTTl0NDYtQmhyZk11dTJ6clZFSW9aSjhEOUlwR2loTGdJcXBuQkV3RmljcVVNRFdQZkVqQVJ2dXJVY2gzclpjM1hMV0wwQTh1OGx4aUpwMmE3SHZhcDlDYmp6MHlDMnhPcU9hWnJzd1NDc1R1aEUxVTJQVmhpNmhwbkU4aXdCeFZCTUw5YXAydTktM2pYZWt6djdWM2pqTTE5VUdrcEdHOUR2TEI5YWg0MWFTVXhmYWZrenlBMw?oc=5",
+      "title": "Here's How Much $1000 Invested In Ameriprise Financial 10 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSC0zQ2ZCMzJZeFA0VkhFeGdfN2ZVNW5qN29KS0FTT0tLYnYyYm44ZjJILXg2WXp3NXVqMWl0OUJLN01SMGFRX3JGcWlXNkgzZEpfSVdJaEZOZFZqbndmQU9MOW5BR29vczVJWXdkRmFfbERxSUVjaFVqdkotM3V4VUV0T2p4RFI3b05KeUw4b2VSdXowdk1VdFZtVHRod2FuMEdsb05fNGd5SHZPdjYwMHFVbjlIdElFczhNX2hZV2VNd3ZM?oc=5",
+      "title": "Ameriprise Financial 10-year return: $1000 investment worth $4,504 today",
+      "snippet": "scanx.trade, 2026-11-09T08:00:00+00:00",
+      "publisher": "scanx.trade",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMP/history",
+      "title": "AMP daily price history (Yahoo Finance)",
+      "snippet": "close 519.96 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

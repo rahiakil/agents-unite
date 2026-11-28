@@ -1,0 +1,61 @@
+{
+  "ticker": "DECK",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Deckers\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM0UtdzlqUkl4REpZdmdqME9JQUM1UjEwU1FSSldjUkhnM1hucmRPaGVjbDFtZUQ0NlRyYmExZUhISm9zb1I3bWNBSFpMaTVUVXB0TWx2ZjFPaWFjLWZnVlEwYmZua0oyYzJEMW9maThiWHAtVTJVY2laWE4tZDcta2ZmOGgxNWVKaXZZNU5MNU90MVZZNGlzamZ0T3psaHNiZHBjOFRZX1RUVzRwYnBF?oc=5",
+      "title": "Why Did Deckers Trim Its Sales Outlook as Hoka and UGG Growth Cooled?",
+      "snippet": "Kalkine Media, 2026-11-10T14:01:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-10T14:01:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR2RLbGpBNW1mZDdZUkVNbkJZSHIxcHNWWTZVdG1jMjN1elgxX2gybEd2b3dnMjN4S3NoQ01HYzJia0JPT3NKSW1TdkFYQm5keThkZ3hpNFhBT1NuenQ4Y0dRdjJfMkVwVVQzbjdRWnBuQ2FqTE84MWNIR0JhTUJBQnM2T1ZfanhwdFVoU0Q4OER0RnF4UWotTDE5blRjeWlOUDJVSzhGUDByZW9PdXZpQ1VXYTg4LW1fTGRjY1cwTUluUQ?oc=5",
+      "title": "Deckers Outdoor (NYSE:DECK): A GARP Case Built on Debt-Free, High-ROIC Growth",
+      "snippet": "ChartMill, 2026-11-09T10:41:09+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-11-09T10:41:09+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DECK/history",
+      "title": "DECK daily price history (Yahoo Finance)",
+      "snippet": "close 89.79 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

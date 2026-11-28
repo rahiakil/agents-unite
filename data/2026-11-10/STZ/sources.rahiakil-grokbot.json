@@ -1,0 +1,61 @@
+{
+  "ticker": "STZ",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Constellation Brands\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT1RpNFFMQXdVZzNGbXBjQTdnWDBJSXlWN1pObWllbkNTQ1ZieVE0STc1MU5Lb3h5b3ZRZ2o2VVRCYUQxQWl4NFN0VU9DV2ZNd21YOXRnRGdzYnBHM1R4ZHBQdlRSRkZMTE94TjVZWWVXZEdEM2ZXLUZMc2QxV2dmdEFqeF9HQ25NakEzZ0VNQXY2aXcyUTJNRzBCMVo5WTBCNHVPZEtaVDFoYkxfa0w1NDc1LVlEQS1MQ3k3QQ?oc=5",
+      "title": "Newell Brands adds former Constellation Brands CEO to board By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTkxXSGxvcUFHMV9Ba3FBT0F2OGZ2RjJ4VjZVUU9tNXVCZlFkaS1yUFoxLTluYTFlcnU2NlVvU1VnVFFwU0FYX3FkVnNOM0h4bjBlVk9sTjVRamJ4UE1ISnFIQlV4QXpqc3lnRENZckgyTk5KamhQcWtGTFBOQUJ4MU15WmhBZW83OVd2OE1uZjZuY0FkcDZhZWc5QWFFWHBaLXF6Mk5QRm1VakxQSnU1aGZiTzdlakM3UU5aYkh0UFducEpZbjEyNi1xWW5CRmR2V3NuZ1Y2cw?oc=5",
+      "title": "Constellation Brands Inc (NYSE:STZ) Stock Now Rated \"Hold\" by Sell-Side Analysts",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STZ/history",
+      "title": "STZ daily price history (Yahoo Finance)",
+      "snippet": "close 145.51 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

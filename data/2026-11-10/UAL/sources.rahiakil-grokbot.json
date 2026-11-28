@@ -1,0 +1,61 @@
+{
+  "ticker": "UAL",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 30,
+    "no_date": 0,
+    "after_cutoff": 27,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMUxraVVTendQOWNwdm5ERDBodGRlazQ4cXdOb2xZWkZhQ2NjSjI4RVFnV2hwNmxMQWxzMFpkM0R0WEFQNF84ZVcwUXczSWtCN0dWVDBLVXNja1EzMFAyNW5EekpNYVF3eXhVTzNMQVluOExkSWltY1ZReU9tSkZDZ1pKWWtGcXQwaGw4bkhCUTRfSlJMMUFCUmpDT21RZ0c5TVR1M3lNNXBubnlFeUNlM1BaamdXb0dOcVFHQi1XZFlvdDNQ?oc=5",
+      "title": "United Airlines Stocks Climb 6.61% as Oil Slide Eases Fuel Pressure",
+      "snippet": "TradingView, 2026-11-09T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVFIteDJGdnNhaExETlN4VHFTZFUtTlFqX0NTUEc1d3Zhd0N6TVBSWV90S0dKbmsybUphWFp3cWRrX01CdTk4Q0haUG5TZU9BUEpPN2xYYS1RQ2djd3pKMDljN0N1c1pSWEo5QTYtMG1YdFhHWF9uUEhRekx0bDZCMndfV21qTEpmUXdrb09RTC1vZFppOE9iSVJySmZZSjFoandmNjlBLVZaZlVFbl9POEI2WDk5Z1lGNkY1Q2FNcHBlZF9OYWc?oc=5",
+      "title": "United Airlines Holdings Inc (UAL) Stock Up 6.8% but GF Value Sa",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 120.56 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

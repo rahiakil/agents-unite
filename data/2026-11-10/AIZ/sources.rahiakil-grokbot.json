@@ -1,0 +1,61 @@
+{
+  "ticker": "AIZ",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Assurant\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXJsQ0oxTHQ0c213Yk9SV21Sa1RsS18zc0hFYU1Id0ExblB1bGlncUpGOEE5dFdSdGMwMDdNN3FXb1Z1VjJ2dXlNWnplaHlKcnNZN2piRHM3RmZxbGlnYTlNSHV4RFV1MHZDdzVobk84U0d4RWs0M1BsWWhyWENIbmpqVW5oWmt0bGRwRXhxbEg5SjdsWHF0MFFfNUJzRjgyamFxX0ZmMEhJTmtRc0RVYnNQNHRMZEQwaTV0U0o1cjMwenRr?oc=5",
+      "title": "UBS Adjusts Price Target on Assurant to $377 From $331, Maintains Buy Rating",
+      "snippet": "marketscreener.com, 2026-11-10T13:39:49+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-10T13:39:49+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSXFHbk9WdTVHRENXUGxfN19fVTJoUXZlQXJHMDF2TzZkakxOXzBjRlRldUV4UUp5ZVYxUnVlT1RkajdRVm1fQWk3S0hZVzdQY0J0ZDk4WlM3R0RWd1lqNlZVdHRxVEkwN3JMekUyRHBzTmkwRUlweVE1cGh4WGNFWll5eFlXeU4waWp1Q0prNUhTR29RVjlMaVBteU5lb0tya1JERjNLNlEzQdIBrwFBVV95cUxPTWEyMmVHSHBuQ0FGME90Nl9EVENpdWI0TVQ1Z0lDeUVWU0xGdWlUY21lX2llMk5vMWZJdkRSWUhxRDhUczJ2LVZFaFpoTEI1a1JZNnZ1WVZoaDBzNHlQTHkwdlR6R0gtSFduSFZHNmVZbkNUdHIzUjRvY3pKeVo2N20xZ2tMU2oxclNyaTIzRUl6QmctMWZwbjVQM0pxNzZhLU8zWWM3NXRhQl9TM0FB?oc=5",
+      "title": "Why Assurant (AIZ) Is Back In The Spotlight",
+      "snippet": "Simply Wall St, 2026-11-07T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AIZ/history",
+      "title": "AIZ daily price history (Yahoo Finance)",
+      "snippet": "close 322.16 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

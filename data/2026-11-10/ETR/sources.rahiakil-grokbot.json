@@ -1,0 +1,61 @@
+{
+  "ticker": "ETR",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Entergy\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLVpOMjN2U0xGM2REVFNZdkZhbFVvVEFKRndSRlA2aVhNcnRzeGJhNnhTYnA0ZHNOTGlwUXhoZ1Z4cE01c25IYmZZeHpiYXdCZS1HbUtJUmFTOTA5SnlzUV9RbFpmb3BfU3VNVFVoZXdIcG9kZFlTcExBUkQ4emttSllfSkVUMnFZTUtBQjhoQ1VQOUZsQnVhcnN3SkpVcElmeDhkR0hpVDRmOWdCZjFIeV9WdXA3UQ?oc=5",
+      "title": "Entergy Mississippi (EMP) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-11-09T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EdXlsTjF4QTVSUEtfSkxHc3kxbHl3ZjFBYmVkT0VjWUM5UjV0VXhtbkF2WnlHUWtqLW1sVEVMLVl2dVcwMnBFc2pGN0Uyc3h5d3M0?oc=5",
+      "title": "Entergy (ETR) Stock Price, Chart & Analysis",
+      "snippet": "www.debelegger.nl, 2026-11-08T16:52:46+00:00",
+      "publisher": "www.debelegger.nl",
+      "published": "2026-11-08T16:52:46+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ETR/history",
+      "title": "ETR daily price history (Yahoo Finance)",
+      "snippet": "close 111.71 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

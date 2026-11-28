@@ -1,0 +1,61 @@
+{
+  "ticker": "IRM",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Iron Mountain\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMVdyUmNTWERVbXRoTlpHZTkwems1LWtwOUdMZTlDOFJWUTJ6V1FSWF9FazVVT2V6dTNzZW5LZ2RLQ0JBeV9reXRkR1VKTHlZVVI4RzFNTEMyZ1ppcHpsR2ZRYXNkRUFpMlh6WGYtbFEtVF8xZnVfX09JOWFlcWV1aWtGc19tNXlHMXJaSmNWWWZjTjZQbGdKQnF6R3RKQ09LdWV1NzlhVzNHV0FYV3RRMUtEX3RmTlFZdmlKQ1N5cG1aWnc?oc=5",
+      "title": "Iron Mountain CEO William Meaney sells $4.07 million in shares",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcU51U1VXME12QkJSS3c4ekUyRDhTN1ZKckdLOWZCZ1F5eV9BTVQzaWs5VDFwVC1YNmtzVXNMcmJuRXY2UUxFQXljV08ya1JpMG10WU9fUFF2RU5ESjZPQ0xFOHQ4eU5WejRhNDdNUDRmbnh6T3ZQYXk0anJXMGh5NmFOWGJoQkRlVTBYdkd0Q3Z3Z2plcnlIWVJ4U3VFV1hfV0VSS0RwZHlRcDY3T2htc1l5MkE0TG5qY1Y4R2Fsd0RfeHJyMGRR?oc=5",
+      "title": "Iron Mountain (NYSE:IRM) Stock Price Target Cut by JPMorgan Chase & Co.",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IRM/history",
+      "title": "IRM daily price history (Yahoo Finance)",
+      "snippet": "close 110.78 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

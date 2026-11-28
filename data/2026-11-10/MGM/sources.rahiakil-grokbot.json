@@ -1,0 +1,85 @@
+{
+  "ticker": "MGM",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MGM Resorts\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcVBLNzBTb3Nha2FadW10RlBYd2VDWTN5cWhqSXdHNkVDQWo5bi1qdXJXc0RCQnZpdjlNQnRLbnBBazMwM1E1UmthZlgxclJfSmJ3Y2dQTkhMQVhEdjVZTVVIWml4YklDQk9GWV9wM3VrSl9zU0EtZ0QtdHk4Z3lkUlJfQ2FfUmZuckcxT21JQm9UemRtbVZBRVB3aHp1VW5pejNiVzRMUzFpQmc1OERRcnRpcXB6UTUwYy1mMU54c1RBbEUxVUM3aTVKdw?oc=5",
+      "title": "MGM Resorts International stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWHZjSFBVZmJMRV9kZnhSbF9vLUhJdjAxcW5oVVBYTTMtaHZfU3dxVF9EUXRnV04wdC10djJsQUQ4VXZpcjl2NlJuQ2FLMWZ5NVpsYlExclJjVGNHTGZKdlA0OE5UWWR5dXhmZnlzYkFPNzhCRjdaelpEUXVaUl9kdlNHVGVnMnN1dWpURzhSTmk5aEF6TXhBazJvX0JNdw?oc=5",
+      "title": "Are Wall Street Analysts Bullish on MGM Resorts Stock?",
+      "snippet": "Barchart.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Barchart.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOM213VnNqRWZUSDRjcXNNcWJzeko4VlNsNXB2elI1bWFNUWdsd2NXZldBSTBmaVZGamlPLXl2QjJjNE5wUUJZVHN4Nm02VFJRSW1YRnlsSEtuLWxvVGVvNVVNcE14MHoxV2pjcjdRNGJjOWFra3VWNTJpNDNYZTkzZEowSno5VDhtZDAxNW1nRnhScjJ5dzRwTmd5OG5Qa3g1NHFfSjBIeXIwSVlacExFbFRxTlI0ZHBMeGppNmZoVkk4ZFBveE85Z1BjbHEtLUtPU1NfcXV2ZFNieG5uclhqN0lCbUHSAeoBQVVfeXFMTWJpV1BROHUtc2JvcTl3SjQzbUE4QVZubGhRLWQ3QjZRQ1kxVXgzU2lDcTUtRVYyYW1zRWExT2ptNFVzeXdEUTVZaUc1MGUteUxwZUN5UEJFamhCdHdDd2pTQTRoWm0zUUJ3bkRRZ3B6ZHdkTW55VTJLRloxTnp2TTRseDJla3kxUURoRmx3SHQ0Um9qNnZaRUpKaXUzRTE0aWVWMEtJcVl6SWF0T0M3WEtFTG5WblNSeG10MmpENlZJWHIydVY4QWRHa0FoT1dMR3R4akQ4aVlXSVVBdWJwVTF6VEdoazFIdkFB?oc=5",
+      "title": "Earnings Recovery Might Change The Case For Investing In MGM Resorts International (MGM)",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc2U2aXBydTd5alE2MmJocmlRZzQybktNemdkaFFzcFhaU05Ic3BXMERDVEpfZzdwVU1ycWlCeXpZS1NUeXdZNV9UeWw5OHVvcE9hb3VyZEFTYVRINE04TlROLWxoOE1ncEV4N1J6M0l2c1JZLWRscjMwZWU0dU5wZjF4R0RrZk5zT2syZmJxM3dOVEgxNWIwSmEzQjNkYmdNUUE?oc=5",
+      "title": "MGM Resorts International (MGM) Could Be 18% Undervalued As Earnings Losses Narrow",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MGM/history",
+      "title": "MGM daily price history (Yahoo Finance)",
+      "snippet": "close 33.06 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

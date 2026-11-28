@@ -1,0 +1,121 @@
+{
+  "ticker": "FISV",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fiserv\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 6,
+    "irrelevant_or_spam": 15,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU0p3elYtR1ItbTBMWGNxU25xNHFlZnFBaVBxR0NHTEZsa1kxYzdVczF2TkxXeGpSVWxpVnpCdk90bTZ2YjRLN3o0YXFaTnZjeEw3QXdHRnJlNk5pV0tvUWtEVGJCd05IakJVd2Eza255ckxvbFNIRGNEVmJwVVZVREpBQ2hsSVA3Rm9xa2NUQ1RNckVlOUxUVTdUM18?oc=5",
+      "title": "Fiserv Is Maintained at Neutral by Cantor Fitzgerald",
+      "snippet": "Moomoo, 2026-11-09T12:02:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-11-09T12:02:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR3E3ZmdVSk5Ybm5OanhfTGtWZVpJWU5fU210NXh2bnU0YWZ6d01velYxQU5xR3pxOFI5YVVROE8wTlhHMnRnQUh4RjFaS0RLc2RaM0wwbURNbktHZlZqQXdvcW11UjNmamJrUzliTk84Z09rRVpZMklJVHF3WExOYXNIUElBNTloSVd4TzBkLTN2YkhBNDVxNTV1a3NIU3Y0Smt1bDNiTmJ3N2t0VDN3bjVwRi1GZFFQaUpaMg?oc=5",
+      "title": "Fiserv Soars 26% in a Week on a $1 Billion Savings Plan: Buybacks Return \u201cEarlier Than Anticipated\u201d",
+      "snippet": "TIKR.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNURYYzFpaXBqMTlhNzM5WDlLejdkTS1vZVdwczBGNTR4NWY5SnItSktaSTQ5eUZoWncwNHFkcEEtS0tmV3RoLWVYOXdtMkx2UFltZjNyU1FOSFlzU01LLTZCNFpvdkVuQl9EeWZiUTFmNHFTLVN4dkw3UGRfbkw1TnhxcEpxdXFRX041SzNrdk1MQ0NKVkVEVkVYY1I2TlRKdDhMNno5c0tUaVkySUx5VXZRZ3hEM0RYeTA1ZVFTNlJwdmpybkhiemRYTWU4NnNDM2FWa9IB2gFBVV95cUxQU0NOdUhwd0stVU9waGJHeWxiN0xhUFBnNkFOTi1RX3RGZTlWb18wSkNuanZpUkstWW1MRXdYZTlrQVRmSWthUFIyTGFZYmRhQnc4M0Rvdk9yYVU1am1icnBRbm5RSFRQNkxIcVFSMXZkOHQ0aF9yU0sxdTR5MVcwM1FZRnc0YXJRR3k3RXBYRkxDbmc5MnljVFFTVHFDblNVMXRyT2NNT3RwVzM2bmdRSEhJRVRuQmVKQW5yUVRoM21KeUFGUDkzWG5ZSHFJMHpSMU9MR3JzcVp1QQ?oc=5",
+      "title": "Fiserv (FISV) Stock May Offer A 49% Discount Despite Cost Cuts",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.188,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EV3FVMERnWE1VZi1YQmpZOElQamJZMmF1Q1E4QnZPb1A2Y3V2VTVWMGdXUXpCMGJtWW1BRmRUU2hyeExXcERZdjdnM2dLMDNEUnNYWHFTU2ZSelpmdG5SV1RFQUNHY19yMEx0WWhBY0ZERnM?oc=5",
+      "title": "About Fiserv (Stove Tokenized Stock)",
+      "snippet": "Coinbase, 2026-11-08T21:21:47+00:00",
+      "publisher": "Coinbase",
+      "published": "2026-11-08T21:21:47+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0J0aXZ1QW4yNFFJQU5vdHpqd3ZYY2pDemdBRnFTV1BvcDVpdlgyaUl2M19uSmlvNzZJRERNblJpS0NfaEtJZVF2ZU9ybWJtTDVwVlVwVWNEbzVTYnJ4SHppNnpzaTdIMWs4ZEpFc1hHRVFOLWNXOUdzX18xbUh3cWV1TkdLMWVTYTlpNFA5UEZMeE5qSkI3TGh6Yldzd2xFTGp4MDh2eDctUE9nTG9ibEg5VnY?oc=5",
+      "title": "Michael Burry Is Betting a Buyer Will Pay Up to $120 a Share for Fiserv",
+      "snippet": "24/7 Wall St., 2026-11-08T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNenN3LXZDR21yeXhpUXhKUHViQmdIT05TV2dVSU5sRFh5LWRYYVJNTkdWcXpPUXhsaHdab0s3aTA0ME1Ec0ltVjlZSWdWbUM3TEtFNjZMUzNtOEg3YWhFTWJ4UXJCWl92bzVMdE1mdE9aYVdOUFdmbE9paVpPZ215c3lrRXEwdEdkclRhUXNzQmlSNmM5Q012ZWxB?oc=5",
+      "title": "Why Michael Burry Says Fiserv Stock Could Surge as Much as 94% From Here",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVlaT3M1d19oazVBZERtbEhuR1FoVkNYV2ROX0FsdXVaV2ZtOFlkSmhucGIwWnE0ZDZkRnlSSHZ2b2JEUzlGSEtrUTJOdzdKbFl5U2xudnlIUFEwYTk3U0lNXzQxci1GQnJpc3JzejJjXy1FYURlR3c3YVFhS003ekJhaGkyeXVucjAzY3FVcWwyUTl6N1FsTWJobTJpVkM1SmRpOVpvVlZuQjluSWg0dmx0Z3lrWUE?oc=5",
+      "title": "Fiserv Stock Rides An 8-Day Winning Streak To A 33% Gain",
+      "snippet": "Trefis, 2026-11-07T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.71,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FISV/history",
+      "title": "FISV daily price history (Yahoo Finance)",
+      "snippet": "close 63.32 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

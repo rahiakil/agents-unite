@@ -1,0 +1,49 @@
+{
+  "ticker": "VYLR",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vylor\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONFJwbmdLQUhOemIybzBGSlFoaDc2WUdydXJ1UkROWXZXT3Rsb2tpOHQ1THgxN185bEpMWHFYUTd2M2xYNnJ3QWdTaEJ4Z19HVHgzQmozbkFDNTB0b2tzN2g1NHV0YUJqakRkbGZsLWVwQkpEdlJGY21BVUM2SmlKSGxFZzRFN1lkSkJzblpCNmRMSFBra19kT3duVVJNc0tKTVE?oc=5",
+      "title": "VYLR Earnings: Corteva\u2019s Seed Spin-Off Faces First Earnings Test",
+      "snippet": "CMC Markets, 2026-11-10T16:03:35+00:00",
+      "publisher": "CMC Markets",
+      "published": "2026-11-10T16:03:35+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VYLR/history",
+      "title": "VYLR daily price history (Yahoo Finance)",
+      "snippet": "close 72.53 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

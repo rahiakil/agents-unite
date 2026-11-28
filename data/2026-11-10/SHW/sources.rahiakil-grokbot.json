@@ -1,0 +1,61 @@
+{
+  "ticker": "SHW",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sherwin-Williams\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmJucTVzclNOazFzMU9qc1NJQWpkVTJlVDZCYV9jd0ZjbFg3bm1TY2xWRUNYS042MnFUUGdSdE5VTGdQOXd1ejdJSHBjRWxkTDV0ZE56QWNHX20tVF9SbEx0bkhaR1liOVZ1WGpyWmNSZjc2RlgtRzhvb0JCbkNTYXl3UVN5TnFuTHpieHNUVmd0LVZPN3Z5VFFCZ2t0VHpRZG1pU0dndWxfeV9SWUo4cA?oc=5",
+      "title": "Should Earnings Guidance Reaffirmation Require Action From Sherwin Williams (SHW) Investors?",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVWVwYV9nSXFfU0pRMDdRZVp2a0N5R1JBNzZlWDRNVzJVT0dqLWtiWTF0cHhnVXFTal84SFloTllnYVZUSHJoVlFSbDlPbVFYTWFuLW5LS2laU0tyUHFybzltVFFIQTVRYmswSXN0UGwxRGY1dkFsZUJsc3VZeGhEZlE0M0RsSTJUYjhyYjlrMGpVTzJFaU40dmpicmF3bmlGSXpXUG9yWWNjd3Y1b3lMOXBPUXVseUY4WWtFc3c2YnVfMkptMjhMOXJqeDI?oc=5",
+      "title": "Sherwin-Williams stock weighs new credit capacity against soft demand",
+      "snippet": "ad-hoc-news.de, 2026-11-07T08:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SHW/history",
+      "title": "SHW daily price history (Yahoo Finance)",
+      "snippet": "close 355.34 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

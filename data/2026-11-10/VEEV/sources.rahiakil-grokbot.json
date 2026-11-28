@@ -1,0 +1,61 @@
+{
+  "ticker": "VEEV",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Veeva Systems\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWTVCTld1RTZnekl2UXFTc2FLazhOR2ZxQXl1Ukk4Y21IWDR2OG42NDZ0aURzYjY2VXYwNVRqN0diQk9jZTVmX2ZrdEpualhYSEhaQXlsWkxPVDhvZzlVMDVybUFPVVZ6dW5pUE5fdGxxM3lXak1lS1JvczdyTlFTZEpudFZGd0lwdFdwMktlekNaZmVNT013ZTd6THhRY0RSTGdYUWhrTmRsM3pZSTE2X256MWMtZ2FPYy0xcjlNU2FuQQ?oc=5",
+      "title": "Truist raises Veeva Systems stock price target on growth outlook",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYURGdVY4OWFVZFBYLXZVejBQa1RWbmlOZkw0SEtEMnhaMm5vbUlvdmt4eU9PRnc5alBoRXJ2RzBSTTQ3TjM5b09BdFZaZWN1ZXJ4UUVDT0dxM19WeFl0WS1KTE04YmZfdjdKNVFuMzhGN285cnRJbDhRYUdlOUhTU09xMDBManJfdlNRbnRCVHk3X1NCWXlWaDRvV01USTQ5V1NXNVoyeWlILVFOR2xrSzZKSkJGTUQwSFUzYWxIMlNQdjRXalE?oc=5",
+      "title": "BTIG raises Veeva Systems stock price target on AI growth potential",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VEEV/history",
+      "title": "VEEV daily price history (Yahoo Finance)",
+      "snippet": "close 305.55 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

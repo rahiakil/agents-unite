@@ -1,0 +1,61 @@
+{
+  "ticker": "RJF",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Raymond James Financial\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83Y3dCcUs5TWZrN1JTX3hiSGtmeHdIOS03LVR2NTRzMDZsdE9KaC00Q25pc3BfMVpfb2loZWZRaWVraDhDY3ZuVmFpRGI2ZHBPQ04yQThSWENjOWNNQmtRdnpKZmlGaEY5ZXc?oc=5",
+      "title": "Raymond James Financial xStock: Funding, Investors, Team and Key Events",
+      "snippet": "CryptoRank, 2026-11-09T20:08:04+00:00",
+      "publisher": "CryptoRank",
+      "published": "2026-11-09T20:08:04+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkRyZGk4d0duSEdrODRMbThRN3ptYWVvWEhpUHdndzFiWmdvbk5PUzFJc3E5QjhmZEJmcTJiTGJ3eVhDMjU2WjRUSFJEVU1UblZvLWJmWkdLYVNnTGl4LUlFSkVxVjViQ1ZLSHhzZ3hSU1dDOGtDQm5GREVZTFM4YnBNYUxtRUlLcFNaZFRPeGM4OU45M1BwN3A3Sml1NkJpWlpIcS1ZYmdtMzBsV0hxWnFsbzQwWUdmNG0zaEVzcw?oc=5",
+      "title": "Raymond James Financial Inc (RJF) Shares Surge 3.1% -- What GF S",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RJF/history",
+      "title": "RJF daily price history (Yahoo Finance)",
+      "snippet": "close 168.11 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "REG",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regency Centers\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWNmQkVnajlqdzNsUWd6eC1rcmdZelhsR3QxOWFjcjZjS2ExODExZXpjTVk0ZEgzREhZZ1VFOUpIdG9jcFNGQjVDRVduTHVIVlE0bmwtQ0owNGVKWEswZjNIVU1QQ09YMkhPMk9aQjRCZlNsOGVKMzJfR01ac0p5LVVZZkJWUW0wYnpYSHRGcG1fS0VGemhaWXJ1WXA2SURj?oc=5",
+      "title": "Regency Centers (REG) Added To Its Acquisition Pipeline, Is The 12% Discount Warranted?",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFJ0U2d0OVRYVXptT2lGOUZGekp1SV9JbE5TdUQtR3BkSl9VOUdDamlsdFY0N3hNNElIVGVjZ012Vlc3RjVWZzRmRGRiaTdlanBIQm0zMEFVMTRpUDVXTHlSRlV6dVRXOXdXQldqUVIzWi1VSDh0aDdSZnpuYjVRNjVUNDlwVXpjYkttMUdnYm84dHczVXJZSlRCQQ?oc=5",
+      "title": "Record Leasing Could Be A Game Changer For Regency Centers Stock (REG)",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/910606/000119312526455774/d295980d8k.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/REG/history",
+      "title": "REG daily price history (Yahoo Finance)",
+      "snippet": "close 76.54 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

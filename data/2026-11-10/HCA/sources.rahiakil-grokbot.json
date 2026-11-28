@@ -1,0 +1,61 @@
+{
+  "ticker": "HCA",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"HCA Healthcare\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbm5DUjNzS1RmLVhBVko2MEVvRWlLMk1Zc0JGaE40N29VNnBaNVEwQ2pRWEFtUmhUM2hRZGFOQm1WbFZjblBia185ZXVrU0Zxek5YNHJSWHg1c3o1U19EUlN3bllRdjhlU2dhMl9VQ09kMmVZLTdjMXlvek56SC1lMHlWeG80TVVaNkNWRmw5X1NpWkRERFNHLVlCOHU3RmtEU3hSY0xiS01sbmtZMHlkTzM4VlJld0pMY3ZRMDZwWXNZazVyNVVESVI5djM2VEHSAdQBQVVfeXFMUDZLT2M1WW9fLVR6a0U0bFJyMGpiQnEtMEEzNXJHaDZISmZhaFNPM0ZsdVFLUGZwMFF0aFlxa0hMUTZtRkx2LWpuSi1EZ0FwT2NuZnN1MjZVMDRISzFDdE9IZVhGcUZkWHVSYXR0Ni1KZ3Fsb1dLWUZINTdiYXRCbmJfb3pEcHF6YnVHdlQtQlh3d1hxblVuZHR2SUJ2WkpDZm9CRGd5TGFVbWZhMTRjZTFVVmRENzlZUzlKM3lsenk2TzRaZXhBSGhRM0ZFbHAxMGJaOWE?oc=5",
+      "title": "Learn Why The Bull Case For HCA Healthcare Stock Could Change Following Uninsured Patient Growth",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMDF0MFB2dUYtTUpmcHR0ZFp2bVRFMTZWcWY1RUwyUy1vZ01XODZsLXRvWFplYTdsNHhELTdqakw3QTNIVm94Q1JibjF1Z2RRckZjZ21hRUJsSXFENzd3OFczQjZUbVBIZ21FLVlyb1IzTUJkWFVheFptbWRJdjRBUXd1b1BtQW9aek9WR3hWRVNmcFB5YXNBckVaOA?oc=5",
+      "title": "HCA Healthcare: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-07T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HCA/history",
+      "title": "HCA daily price history (Yahoo Finance)",
+      "snippet": "close 504.42 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

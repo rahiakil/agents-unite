@@ -1,0 +1,49 @@
+{
+  "ticker": "ZBRA",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zebra Technologies\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX0luTEpta3JUSW00TkVodG9hOHk1dldaR3lkVEdwUUZ6QV9pSnNpSW1WQkdRUWkyRVQ3UWROejN2djdlWkp2d29xTzA4SE9ZQkVjN3REYWgxdklodmNXM01hY1pkTElJRXdObDFWd2k1MUJmaUloZ1ZOVkJYSV9FcHpKeVJ0TDNMalB4N3BOY0ZUZWUtY0NXendXNVkzYzNXeWVfUGdMblY?oc=5",
+      "title": "Can Zebra Technologies (NASDAQ:ZBRA) Keep Its Record Run Going?",
+      "snippet": "Kalkine Media, 2026-11-08T17:55:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-08T17:55:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBRA/history",
+      "title": "ZBRA daily price history (Yahoo Finance)",
+      "snippet": "close 321.38 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

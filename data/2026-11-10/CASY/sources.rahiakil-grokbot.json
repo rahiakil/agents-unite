@@ -1,0 +1,49 @@
+{
+  "ticker": "CASY",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxON1Q4TUxjWDE4bjhZS0lDMUxTMHYzQ19ZbVhkNjB3M3AzMG1Iand0TUpLVE9KRzc0MFdKRkJMWjBaNDFPUXVLckpzZHRiOUlKRGpfTUdVVlI4ZTdQbmU1TzcwSTl2Nm1wSHpkOGN5TGNjQ0lxa0xLa0RpaHVXMzM4X1J0VXN0MkhrWERXR0hFOEIybUZIRkNKUS00clZuRG5MNXBXbnBMUjgwazZUdUhzNHBuLWZ6M3cydTBIM0VNaldqOHVULXJkRGJ1dkhGcGJOQzRzWGpjNmMzWFQ2VXk5cXhGWnnSAeoBQVVfeXFMUEo5d2RTclprNlhyZlJBUXRpV0M2cy1QV0dtMjlsWUl6MjZkYTcxX1FMOHN1T05ldnYwOTg5REZNdGJtSm0tbzV2Z0tsUGpGeEw1NmxSVjRsS2d0WFpYOHc0eEhhdFl3NHhXWklNbXBJRVNTbTRMbmx6anZNQzY1eXJKbjFCeDlqNEhlTXdEdzlvQWFKMlFhR3hfWkdZVWltbnNWNlZlclMyQ3NEWWRKcmpldkVXTzhWMHEwY0RlM0lEWnZUTzNpaUE2LUU5Q0g3dmxzU203MmtSc3EzWmowWEduQVF4b0JYWHNR?oc=5",
+      "title": "Casey's General Stores (CASY) Launches Pan Pizza, Is The Stock Getting Expensive?",
+      "snippet": "Simply Wall St, 2026-11-08T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 698.48 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "ELV",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Elevance Health\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03QjBMWmNTbkVKcVFma296c0NmeUlYSEsyMEVrbFdXeHVDaklHVmQ5ZUNZQlVOOURhTWF1VUIyY1JNNENTVWdrQTJLMWpwQjlHTTIzZ2h6Z2dyZ3JjcTlOOHc2alpHRm1idUhxSktHY3lJeUpULUs2RzB4N3g?oc=5",
+      "title": "An $11 Billion Fund Is Betting Big on Elevance Health",
+      "snippet": "TIKR.com, 2026-11-10T18:46:02+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-10T18:46:02+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOczFFMnpGZDRiZGpQa0t2ekd4OGstYXI4U2JON0pobDNManFMeVVMR0ZvX3AtR0NSS3RLS2UwRHVaWngxcjMyaXBPN3ZlS09tREViUGN1SWx1V1ZJaEJlWk94UFJkaExXdlNwZ0JYT0tKLTU2YndGeEYyb2FOQ2VlSFl2TEE0MVdKNTdoUG9VSkJaSUE5YkVKSWwxVQ?oc=5",
+      "title": "Elevance Health sues over $516M Medicare star ratings loss",
+      "snippet": "Modern Healthcare, 2026-11-09T08:00:00+00:00",
+      "publisher": "Modern Healthcare",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.318,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000074/elv-20261110.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 7.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ELV/history",
+      "title": "ELV daily price history (Yahoo Finance)",
+      "snippet": "close 429.65 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

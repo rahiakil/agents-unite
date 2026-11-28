@@ -1,0 +1,61 @@
+{
+  "ticker": "MOS",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mosaic\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 21,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 3,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbXp1YmZFbWIxN0pRT19pcFRFeEVpWGxPU3RsdU1pZUt4WDNlb0tRM0xfTVY0NTUtbnIxNDMtUE8yQk42ODBoRERaYTNnZGI2M0ZEWU5rckFYbjFUMm9hNnVnM2FVbE5JQ0EtUmJnQm1BRXVNazg2NGwxOEpHSVpQR0lNakVmdklXTjJIQWJ3UnZweTlIaXhYcWZkY2g2clVrYV9xVHNNYnBabThFZnc2ZzVSMFBPdjhtVkZrd2o2UmkwRFlFNVQzS1RPV1hWZlc5?oc=5",
+      "title": "RBC Capital lowers Mosaic stock price target to $23 on phosphate uncertainty",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.44,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU1d1MVJoaGdkRExWWFVuSXJwT2tqNUk4ak1oOVdKTzdzem1BcFR0eXF4TWFUZWRqVzhJRGJ6YzVNT1lGTVhoMGJJYmJ0MThLSW1FQzhmd2hEWGdsLW1EVzFpV3JfWlNrMTRxYTVpTVVmMGpOamVkM2FZZ0VUNVNNWS1hdUlVejdUaWlNdkExZG5Bd3YyQ3pCZ1JJTlNzekt0?oc=5",
+      "title": "Mosaic Q3 Earnings Call Highlights",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MOS/history",
+      "title": "MOS daily price history (Yahoo Finance)",
+      "snippet": "close 22.99 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

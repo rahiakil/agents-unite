@@ -1,0 +1,85 @@
+{
+  "ticker": "FTNT",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortinet\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOM0x5SXhfLUN6QXpKMDMyWmZSX0VXOEtzbVJJYUk4cFV3bmZ0bFRqck5yUXloaUR0R0c5dGI1cXdmbmdRbjNjOGRlb0ZwX1hBTFpQb29fMFBPRmNFUWJvZTgyc3Bva3RNWFBCb1l4VVVwbEc1QjRhZDNNd2E3UmJRcDNaOVlIZndkVDNhYnh5SVZYUmVSOVE?oc=5",
+      "title": "Fortinet executive highlights security risks of AI adoption",
+      "snippet": "MSSP Alert, 2026-11-09T08:00:00+00:00",
+      "publisher": "MSSP Alert",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM25xbkJZWmRFd29SNFNmY0YxN1N2RXZlRTZkNk9ZcjRZQnpmblBBZWNXdFZOVHVFTnZ4X3UyQmNaM3hFdDlvYjZORXd4eGFHZ1dreGg5WHJJUXllQnlXWGswZ2tSWml5OXRWRUFhRmVGNllwY19fSVZ2QW1uSXcyLXp3eUY3cXNKYS1VZ2xqYW1aX21wNTZ4akxTUlpnNmxPV1ZmYTFrT3J0UEV6em9B?oc=5",
+      "title": "A Look at Fortinet Inc (FTNT) After 3.0% Gain -- GF Value $113.4",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.599,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWjk1YVBIc0xhQXFRWWJKS1NYalVQWEt5RzRBcUREUWFXWDVYZTh1d1g3d2RiUjIzemxLakRUeWZuckU5TXZPaVNzTmNWaVloX0djY2J0cFBtZElLY1pTcDBuek9vOXpOblF5TE5MNmF6V3ltR0xSNXRocGRUdzNtS1lYblFGR2xyTGxkbWwzNE5JS0dtR0dKdHBsM2E0QkxZV21Tb0V2Q05qSHBES3g5S1V3?oc=5",
+      "title": "Fortinet Sinks 12% in a Week as the Cybersecurity Selloff Spreads: Is It Time to Load Up?",
+      "snippet": "TIKR.com, 2026-11-08T08:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": -0.735,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUEhQRlNzN2UxTU8wazcyenByRHVVUC1tMkREMXplSjJzTndYT3dfYWE4c2tMSlQtZFBJOG0zc3JUemtfUDdFRkNTRS1FZ1E1aHBtT1Jldzl4TkwtZXEwV09aSTJKdk8wY0pZbTlyc3p2UGZrcEFoRFdTRVJRMDl2QzcyMmJBV2YxZDR3QmwxRnpWRjdjZmpLUzRmRVdxTFJldEE?oc=5",
+      "title": "What Would Fortinet\u2019s Management Say Now?",
+      "snippet": "Trefis, 2026-11-07T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTNT/history",
+      "title": "FTNT daily price history (Yahoo Finance)",
+      "snippet": "close 123.57 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "TSCO",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tractor Supply\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 4,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc3NELVktenlOX1BnM1hlc011amJxS0JOX2FSQUlXcWVwSGdsTFBJVGlRd2tVNDdQMWVOY1NEQ0JXLU44YndrRnBPQXZ0N1RxTGUwVVZIbmVGamp4WFdRd0tfWDdJS0plZjNxX1VhanFLUU9JTk4wcjNOdGpOSWRQOU4tRG9RNEU3dGs5aHBkUGlqSHBNNmRaTHpwdTZSXzFzWW5Vb014VW5GSzRKdi11Mlp6OVExV2VnLUxCbUtMaWQ0RjROSWZFWENn?oc=5",
+      "title": "Tractor Supply donates $250 to Hartford Fire & Rescue",
+      "snippet": "Greater Milwaukee Today, 2026-11-10T17:31:38+00:00",
+      "publisher": "Greater Milwaukee Today",
+      "published": "2026-11-10T17:31:38+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPSHAwbUpSQW9ITi1vY0ZCQWZkVlZ0WVJSanVTN2wwSnZPNUJRcG5nWWZoQ0FYSTB1YllXMnRCbEJZX19uOTBsdlk1eWpuRFByeWNuNVVVNGFGLWRPZjBfWS00UGk5RDBWdFpxeld5bEZoQnJIY2kwNzlibXZXek1sby1wX3U5UWw2R1BHOVVTb05UaHVCOTk4Sjh2SXBqT25RLXEyT0sybk1iXzBDUlA4OXB1ckdnUFFtM3lRUUNmQmlzM3lDcGhObTFCVFR1ZWJvSTVfcm43RHJaU1lJOEtXU2FwRU9JR05IUUNFVGpDVmZrbl9rdkVyS3lQVlJBWjFy?oc=5",
+      "title": "Tractor Supply Co. stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONGR0dV9WdHptWXVmZVhFV3JmOS11WGZuM2t3LXdtRFZoWkNUbjFfa2h1THp1cHFENEpTNzBiVV9HLVc4dmFZTXFqS1BEYjdSazBXWm9tOWc5bGVQdm9hNnpyUVZ5cHhLWXVaY0l1MDZkVlVZcURKbFdhMzg2ZThKSTBMM0JrSks4S3pBU2JKM09RVGQ4SmxDNU5R?oc=5",
+      "title": "Tractor Supply (TSCO) Stock May Be 7% Above Fair Value",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnhoT1VNb0NteW5jelAtMDVMV3VXTHppQlQ1eTExY3hDWnpvQXBNNFZsNDNsN3dCSUcyYllLdmxPb1lMRnZKSjFTell3OFRyU3JUdVJKNDJQYVh3NjZPeXBDam1HaWpqLXNKREVMeDV5OGNVdHJLcU9SeURrZ01QbWZhSWw0b216T0ozQTNlOFRWVnNKN2hCLTdVTWNJb2FkZGFLTEZtUTJFQUJGZFh5V1lDSHdxdzdOODlmUnF2MzBQMUdHdW1fYlgtVdIB0AFBVV95cUxON3FLTWVaaDRNM3lwYXBUZnlWZlJGZUlQV3NLSnBseXFpbm1FeE5lMDhEaURMbGN3U1BxcHB0TWtseVlJQ2ptekU3Y1IwdzY2c0xXWlk3Q3RBbUFIQnUxVkhhUklpS01PWGpUNGl3MFZIUkNVVFdtclplcWVFOVd0UW5pMkkxdTAzdWNzWGZNeEUweE5IUFdHUnR5TDRwRThFTjcwZDR5aERLdW1BZkxxaktZRjhtYWVUUGF5Z25GazJTbG4wN2ZUcU9tUVBoWU9l?oc=5",
+      "title": "Is Tractor Supply (TSCO) Cheap As Its Dividend Lands And Valuation Views Split?",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSCO/history",
+      "title": "TSCO daily price history (Yahoo Finance)",
+      "snippet": "close 37.5 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

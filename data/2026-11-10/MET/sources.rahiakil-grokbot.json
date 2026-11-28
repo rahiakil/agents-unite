@@ -1,0 +1,130 @@
+{
+  "ticker": "MET",
+  "date": "2026-11-10",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-10",
+  "news_cutoff": "2026-11-10T21:00:00Z",
+  "generated_at": "2026-11-28T01:47:56Z",
+  "collected_at": "2026-11-28T01:47:56Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-11-06 before:2026-11-11",
+  "news_stats": {
+    "raw": 21,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZnUtSHFUWWJLalZ5QmVvZTgtZ3gwVlFaNlZWUjFlVHlENV9YTzdPSnZ6bkFVNi1yM2l4YUVxRzEwN0xUQTlMWTZkd3l0V2sxVlkxbk40OWZoOExDYWJYeUpTbHBwaUR5Yk84TWw5dlBsc3V1QXQ1bS0wc2tvejY2Y2ZqLVg3b0I0ZmhjMHlUcWg0czZXWWN1eVExQ3pBdE1RT0FQbUgxbTVmRnRZX2tpUXJpY0EtVHpDbV9zV19B?oc=5",
+      "title": "Keefe, Bruyette & Woods Adjusts Price Target on MetLife to $111 From $108",
+      "snippet": "marketscreener.com, 2026-11-10T10:49:04+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-11-10T10:49:04+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFVqVnl0QnNkWUJBaXo4Slg3b1g2NFNGRm1xYzRCdkh1TVJJTkpBVVZsSGt0ZXpkaUZwbGJpcWN0QU9tXzVfQnZxYW51VGZ2RE9iT21qeGVtcFpZb2tvSHdqYzFLbWp0NkZqX1kxc1JzVkNKOWZlRFZTQlFHZFhqMVhaS1RwMlJYR0JOcDZPcUd3M0xjM1Y1ajU4cw?oc=5",
+      "title": "MetLife, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:MET) 2026-11-09",
+      "snippet": "Seeking Alpha, 2026-11-09T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ1RlTkcyUVFUdHc1V3UyajVOdmhWUGp5Z0FiMlV1N3JZc0xrbmcxa0ZGRXpaRHk1NVRUS0ZIT19nVlVacnR3WjA3Q1o4bzVBSzBNOWlxMkVCRzRZcDdUY2FVSGtfS2lkUmY0NVUyYllyMWg5NGdPN1FMeFFQQXhYUllYUW8tS19Rc2FWREFB?oc=5",
+      "title": "MetLife Upgraded, Allstate Downgraded: Updated Rankings on Top Blue-Chip Stocks",
+      "snippet": "InvestorPlace, 2026-11-09T08:00:00+00:00",
+      "publisher": "InvestorPlace",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdVFtaEJHVG13Wm5qUWRlSk1HTDByWmtxSTk4YXh3OE9xc1JWZjIwRzRGYmNVSlZPam1IdzFXaU55aUNFRmFQa1BSNzJiRGFlRmRPMkxvTGt1SjhkVkctMGZMQ3hsT3NZSFM2aDhfdzYzcTlEWldkanZYYmw2SGpwbXVsdkJlQmc?oc=5",
+      "title": "Chesnara agrees to acquire MetLife UK",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGJWWHBZdWxYWG9XU1RkVFJCVGpaRzNCbklvcGpsUUNvbF94dF9TVU1oc1RfamhVU0RCdjZBTGdEWFlDOXAwWVVxNVpMbG1vcDNHZGZLdE12YVRpZmNKRUFyVFEydzRkVDlCNjRtaEVFOHhVNDdpRERKOE03VjhIVXNHN2xsQUgwb0hGUzJ2d2hEOVVCNy1tSFF3?oc=5",
+      "title": "5 must-read analyst questions from MetLife\u2019s Q3 2026 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-08T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-08T08:00:00+00:00",
+      "published_date": "2026-11-08",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd0dPcXBBS1I2cmwxQ1ZPMThid1lJLWNmdzNta0pDc25vYV9pOS11bUVsZGVSTy1CSEdwLUFhZUFLdmxZd3pkekx1c0NLRFJIazhJM0pMLUluejJlY0hhTU44VVNCeGlwblZkdnAzeU94WWdqR25yNGZyeTdKeS0zSkt0bHFYY2J6TEliVXJ0NmoxLTFRY3JES2dMbjFiWnB1R2c?oc=5",
+      "title": "MetLife Q3 Earnings Call Highlights",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQzlaYzlxRG1XZS1zMkVnUWZYaEpZSm9lMHp6eXZNZ3NiVGR3ZlJzZkE2UUlodkxxV2hTMThuZmItU3Z3UzgyamQ5RThSOHpRUGlYT05MYXFhWXg2bWExdmxManVoc2RwUGJEbmotNGxPLWNxVW9XMUtVZ2hMSTQ3eUJCVWtCMl9Pc0Q2alBxSHZLSFotVHRCT2hMRDR1aTZ6Z0lSZEpIXzdRVmtycjctWTZfbGlzYi1mRzd4SVBYaw?oc=5",
+      "title": "MetLife (NYSE:MET) Stock Rating Cut to \"Hold\" at Wall Street Zen",
+      "snippet": "MarketBeat, 2026-11-07T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-07T08:00:00+00:00",
+      "published_date": "2026-11-07",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099219/000119312526454038/d155870d8k.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 102.44 on 2026-11-10",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

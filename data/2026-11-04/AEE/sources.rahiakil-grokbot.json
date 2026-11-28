@@ -1,0 +1,61 @@
+{
+  "ticker": "AEE",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ameren\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT2trUFVJNlNTNDFQR1RpUEV4VjdHZVJ6cmZ3Ym1qdDJBM00tVGdQYTYwTlh5eWJYTUpKNGFGamxtSWxnd0ZfbjJQdXdpUVJSN1BhWTcyZlNTTnBBZExVQUNFUXB0RXd2UkpucVQxOFQzVDlIcGVLSVUwQkNjZVNmVTFNVUpIbFV6OGtxTjUxUUJycGRON29WOS10QU5BVXdLaTA1aXJOR0pEeVdRbTd2VDBEeUZCcUh2NFAw?oc=5",
+      "title": "Ameren to Post Q3 Earnings: Here's What to Expect From the Stock",
+      "snippet": "TradingView, 2026-11-03T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXR4dHItbmhxaXFiUzluVHJHNmhOcjM1RFg0bkQxSjNrRGlVX1ZWaVpNUmhDOGpaN2lRQlRzcU9CVy1aR3hxZmZLVnBhQTFDanlSdnRaVUhJLXo5bzJaaFZ4UFUxNWtrbWZHZTZ2X01Ic2U2TVJib3JiMVI0VzRNdWVHOElfTG9UY29tU042TVFiQVdJdms2eFljSURYZFktQ29wS0dnRTY1SXRrdHJfZnRTZFNtNXhFRjUyVXR3SdIBxAFBVV95cUxOc2JFdGNxR1JMTDF3MHcxdUZTdWNfZmNZdTUwRlc0cHZ6MTJvZk5yTXF3bE5LZUJzVmwwLWs5NDh3a0Q5M1huTmIycWE2V1V4ZkNnZDZ0czdoWUZka2VIU0N0XzZEekk4QXdIVzJzUEl6X0JOSnRqOU5pRlJob19RczhzWWhUaHVFQWdZaUFrZGYyZUEzdElpSTFaUjUxSWtzNlpVSEVfNmIyU1BfZG00eFlsU3dxdkxDUEhzVEQzR1JLZUVh?oc=5",
+      "title": "Ameren (AEE) Could Be 5% Undervalued Following DOE Backed Grid Upgrade Win",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.796,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AEE/history",
+      "title": "AEE daily price history (Yahoo Finance)",
+      "snippet": "close 113.08 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

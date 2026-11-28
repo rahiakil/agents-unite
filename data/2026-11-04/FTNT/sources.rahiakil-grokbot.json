@@ -1,0 +1,133 @@
+{
+  "ticker": "FTNT",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortinet\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX1BjeVd5X09uTHIzT2trOERZVGlPdzNJRU1IVmJzT1V3c0VrdjRwTE02WFRQOTQtQXh5ZlVWM0taSjZTYjJoSXFOalp1S3ZQQ0dOVzZrTHI5YVFZYWNxZGtmOHg4bGw3TDZCNVdScjVUdEkxVC00Wmxzbk1RQ2xnLVgtNWdvYk1YeGdwM0oycnhmVjFfb3VNTlYtQ2kybVMxc1ZDUDhR?oc=5",
+      "title": "Why Is Fortinet Stock Falling, and is it a Buying Opportunity?",
+      "snippet": "The Motley Fool, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc5TWd0VzhQbUZrRkhySnJOUXc2VHp6M0s3R3M3WlNyYW12RTQyVTdZWlJzYXJfSGVHM24zX08yM29XdEJLdVctOEpBVm04UXEyUlIxMWl6bVB3N2QycGFuZ1RoZXdrOEV0MzRvVTVXYVJGX0l0Sy1sOHhkTHItTVYzMi11Y2U4S1dGN3JReDc4YkRCcXBuR0ZyeXdKRmwxN1o0?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Fortinet Stock?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOM3EzRG9zVDB2UjhCdnlvV0NpWU52SERBQkd1dW0tYlhKZFEyZWM2bmk0SlYyNndZUUxIQ0xSdjBHbU93UXF0YXpYbWc3Q3NFQy1kSVdVR3VNUkdCYVpUQUJvcDR5Ty1nU2NSdHBWTFJhYkt5OXdGeFQ0ZXFsYmtBTTJPb0JfcWRpbDUtWnJ0VzlwcXgtWUE?oc=5",
+      "title": "Fortinet pullback creates swing-trade setup in cybersecurity stock",
+      "snippet": "Traders Union, 2026-11-02T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zX0ZwTXg5RWNrS2RNbk9RbHl4ZV9ZUDByVUJUNW80UmRlWXVYLXJKbjZyeFpXYkNUQV9nS3ozY1cyU2x2bUFTQ0RqalJtdUltRElXU29lU2FKZzNnQ2d0MC1tZGZEZ3Q0WEtWd3IxZ1dZc0lVOWc?oc=5",
+      "title": "Fortinet Q3 Revenue Up 20% - Stock Plunges 20% Despite Third Annual Guidance Raise",
+      "snippet": "BigGo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "BigGo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.586,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRXJaTkFrNVpYNGVmYTNYNm8xblZPMzBVYXpMVll3bmg0N1Z6eXdaXzNkakhMdzdFME9kNjBoOEpacGVhaEFUcWNJOGNXQV9oUUUzREFzUWRsdXU0bHp0YlR2ZXB0M2xtS2ZTdWtmNTRsd1lkZGtJT2JoRVJSU2h4aWs1dlBENzJxN25LQWRGV1gzTVZ0amhreC1POHQxQ01oRGFyV044V1hMMEpFaHI2RF9xWUpRQXI2Yzhnd1lTWU91MG9GSGVJ?oc=5",
+      "title": "Fortinet Inc. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc2UzdjBMNW4xTzNkaFB3b2ZTN3h6SkhWMkJScUxXdFg0UjJ0LXhJQ2xNS1ZHaldRVEo5aXRuTFNPMFhoZ3dWZjBDODJBTUtpRmFyTEduTjN1bUMzamRkbkNaZThJa1pTcXpfeWdjVTNMS2pwSlloSFJZRjhJWGk2aGxPczh6Q1FoY3M4eUlSZXdJVFZ4d1lRZl8zMG5PYXBoMzQycTlCWjlMUQ?oc=5",
+      "title": "Don't Overlook Fortinet (FTNT) International Revenue Trends While Assessing the Stock",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTWpaWXQ3ekhOVFVxazR5d2pEeFp2S29EZ0xQMG4zZmlNaXlGN29pMGZNcVZJR1VJbVZQME12aUJhaF9pdnRvY2l1eDU4emNrdHpRbEZ5eE05Q3lsejNaVHNNSkFqOUp5WEd4cFpLcnl0ZHNrVEJOTXo3ejhhZ1djS2RhQTVqRUtxT3RyV05Hb1JKUmFNRHpBVDVfV0xDN3hPWm51czk4NldyQlFTRUJGT29aTVdwdVN2N0ZpODdSTjE2TG5zbmVuMTBrT3BuSlR5XzJranVwZkg1dWt3dWVJT2R3?oc=5",
+      "title": "CrowdStrike Slides 3% Despite Deutsche Bank Upgrade and CoreWeave Deal; Fortinet Falls 3%, Palo Alto Drops 2%",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.845,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMFI5ZUszV0NUd25vaTdvX3RVM2hZVG1wU1NXOEZsUFU2WjRxeERiRTkteGJ2T3dmRTcxMnoteTBja3hEX0ZQTFl4RGk2OGFlSWFhbTJhUUtyTndZYkNLbkxrQUhrMEkwMVRnLTFBR05HV0JhOEMtOExDYWdtakNHQl9tSU5zMEJOc2JpdFc2MG1sQ21hOTlJSVRKVXVRdG5MRUtrZ2VrRDRnUF80Rnc?oc=5",
+      "title": "How Did Fortinet Stock Leave Its Industry Behind?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTNT/history",
+      "title": "FTNT daily price history (Yahoo Finance)",
+      "snippet": "close 129.39 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

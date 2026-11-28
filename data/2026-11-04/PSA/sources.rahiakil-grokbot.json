@@ -1,0 +1,73 @@
+{
+  "ticker": "PSA",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Public Storage\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWTRZWHNFRmZpVzljTzNPLWVGSE4zOUJkTGFCRkRQOGFabktnTWthWFRHQkFLemFkQ0hqdHVTeHl3cHlpVENuUG5IV0pnQ3BwN1lGNnd0V0dHbzluTlRpaXh3aUc1OHhvMUZibWY2c0xzTjc3S0duRFZaQ1hqQTNPR1VMX2h3OUdValQ4YnJzNE5jZVZGcEtqMTVOS00wenVwRWh2VjdUWDVTdw?oc=5",
+      "title": "Public Storage stock hits 52-week high at $339.0 By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-04T14:32:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-04T14:32:00+00:00",
+      "published_date": "2026-11-04",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQUZtS2lwOTBZM3lhNndUeUNhbzZzWE5UZGE4MHU5bjFyV0k0RDZMaDZTcVhLT05keVJNQ3R2VEtiTVhQV2pGUjVuSDdNS2FSbXZxbEpkM3RXbnFVZG1YY3h2d0MzSHFQaFdhV0x5SjRxWkpqb3d6UjJ1YWxUY0FfdWtOR0QyWlRHcmpEV3Y1Z2pjbUZPRHNodkJuMFlfNXBsMkE?oc=5",
+      "title": "Public Storage Declares Fourth Quarter 2026 Dividends",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNzlKQ0p0dVVJRlI4TkdNOGh5b1hjeHpQMmhQek56TnFlN3NsU0QyZklqZW9lSU5RMXZsRnp6d3JYM2lPQ1VwY3A0bG8ydlVoRm9GSzVaLVA2M0QwWU41TmFpei1NRTJqYkdQemNlV0ZEbXZjOVVCdTYtNlNndVVLa1BCMFlRQWlNc3k4WDF4TTVQMkpMcm5xVXVtb0ZpbWY3VVFZV2EyRUlZd1M3ZUpqUmR3Uy1QQXRlNktDZ2s0RmFENjd3ZmpIcWx1SlUzdGZkcGpIdmZ3aTFaS1R1bnkwM2NDdDE?oc=5",
+      "title": "Public Storage stock underperforms Monday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSA/history",
+      "title": "PSA daily price history (Yahoo Finance)",
+      "snippet": "close 342.76 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "FIX",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comfort Systems USA\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU3dNcXNfcl9XdU5FTHJJNW9wT29MTndpLXpPTjJram5OR01meGl3ZzZ0RXRqc3hpdE9UOFpUb25PSnBYN2VHZlJtWmlSOHcteF94b050TFZmN2c1SHd1VnNjaVNKd0FoaUdYUk1XWnBKUkVGc2dLZ3dPMzNXa3E5SUJ4QjlQa1N0dEE?oc=5",
+      "title": "Comfort Systems USA Inc Stock (FIX) Closed Up by 7.08% on Nov 3: Facts Behind the Movement",
+      "snippet": "TradingKey, 2026-11-03T08:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV2FCaXZieldXSWVIdkprOU1SV0hWcjNiUFZzRWlxMEptRzB6QlVpNU93QVNYakpobUtpSDNESjgyZThGckQ1UmZNSUlFQjVxNXZTdVQxYmJTMTRmaG41blVpTF9mR0ZCZFc3S1dhakFmR0I4X3hxSnFaUDNsVTdvQnN3cU5Pa1J1RUxZT0ZGUWhTeHFPcGFJRTJRQktJcHhOQVZJbDBJckg5R005SWk1R2c2ZXB4bVlCeVE?oc=5",
+      "title": "Comfort Systems USA Inc (FIX) Shares Surge 7.1% -- What GF Score of 95 Tells Investors",
+      "snippet": "GuruFocus, 2026-11-03T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.802,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUHpUdnA0cVZURXVFN01FQ01sbXBJaWVpaFJRT09oSjU1QTNkYTVKc3d4WGlMcUpvTTdiR09rVFdHa0RoeEx0b21QU0xrd1pZTldoeG01NkFpYmJ6YTBMdnBWeTQ5RFlZNXE1UWN4aUt0TFlScVdIYkVZUjgtTnBHYWZZV0ZscUQxVG1rZlRIMW1aaVF4TjZSM0NBd09kckM3ZFUzTG5ObTVDV3JiQ3FfWDBGZ2RVZGhyZTRUTXlIWmY?oc=5",
+      "title": "Bull of the Day: Comfort Systems USA (FIX)",
+      "snippet": "The Globe and Mail, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FIX/history",
+      "title": "FIX daily price history (Yahoo Finance)",
+      "snippet": "close 1091.3101 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

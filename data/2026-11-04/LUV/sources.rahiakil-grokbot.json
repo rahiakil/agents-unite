@@ -1,0 +1,82 @@
+{
+  "ticker": "LUV",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWdIblVTZWo2WXBTdS1Mem8tM21FU2pIakl1a3Rhb3ZpSWlLM19ZbDFzbXJMS1BHd2s4YWJ3cDFudUYwWm9HTE1NZ1RwblYxdFo2QXV6dmR2aUZhcnpxUmR4RUZrWHY4REUwdlJxT0ZxU2F4U25QRzFsdFhqYTFWeWVibVdkVjZ2bWxWOXh6aGZ2cnpo?oc=5",
+      "title": "Southwest Airlines sees profit bump on higher fares, bag fees despite fuel price drag",
+      "snippet": "TheStreet, 2026-11-02T08:00:00+00:00",
+      "publisher": "TheStreet",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.656,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOREdBQmZjY05sQTJqTzcxZlJ0a0tWTmlDYTNvcHBlb0FwOE5fRmhVbXpBTVhaRlFKaFMxd1YyZ3o4ZjN5b2RKemZtNVI3VWhmRlNNTG1meEZPQ3ViZlo3SUR4Y3JsR3FaNHdIT0JZYnQ0UjNoV2d4ZFU4VkJPUnZIaktpb3R4WlAxSy01dUxiNGh5QVMwX2t1YjdIMng1cHVUS052alRqWQ?oc=5",
+      "title": "Southwest Airlines Thriving After Ending Free Bags Despite Soaring Fuel Costs",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSTI4SUptelF3aFRyTkljZ2FpcVREdXBjM3cwYTloOFNvVzhDVm5zU0E3ZDVvQUo3ZUdDYnNKMmdrVjlIU2lPbFRBdGhwSk9NcFZiTmwwcUhCUG9jNlZZcXZIaHVPOGdtZFRldnRfeEdRWDdMdFJQeVRWR2NQVFVhR1ZkREFTRWVnMTlwbFVlZTltRkEyNUtLWWk5eTkxVU9ZWHpkYVU2Q1ZXQVI0TTZiSTZJa0JZSkk?oc=5",
+      "title": "Southwest Airlines Co (LUV) Shares Surge 3.6% -- What GF Score o",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/92380/000119312526443635/d112184d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 1.01,2.03,8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 46.42 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

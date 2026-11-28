@@ -1,0 +1,85 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cigna\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 28,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR0tXak9PVGdCYVdnTFpweU5FaTdCTDRKVkdYTWF6dUVhOWIxSm5BX3FtSHJWdHVaVVFDNVB1OXhuX2xrQ09zM0FsOHhsSGswendUemJNX3JheVY5dmYwblM4VUNrQ3ZabXNVVmpQSFQwNUF2Qjl4TEd6UFZMVldVUXA3eHF6RlgwZXJuSVprTFJMZkJJOXJadGN5YTJTVEh6ejV6YkN1WjZfOGRBVGNvb3Jqb2FJQ0gyZ2ZfS3RYQ1c0UlctSlZITXVLNmdXSWxFYzZ5djVDQ29kdw?oc=5",
+      "title": "Cigna (CI) to report earnings tomorrow: here is what to expect",
+      "snippet": "The Globe and Mail, 2026-11-03T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWmhsR3hqNEJiQm9KYnJob2NVc0c3NmRnUkxqZlU1SzhkcldWMS1WbldUNUhKZTJXcDIxWlVDbUNVWHk5eUJtSVY0bGZZUVJ2Ni1lNGtCQkdNLWk0ZGtFdTF4aXFfRUpENG82ejN4QVJxNW9OREdvX1c0VmdZNWNRTEFCMm5yc0FPX3pvdlNMSEZka1E1WjEzUWhkN1RzTWFoT2RN?oc=5",
+      "title": "Can Pharmacy Growth Offset Evernorth's Profit Decline in Cigna's Q3?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHlzRlRvcXlTREJKZTc3Si1VcUJXTGZuZWhHZkswV01OcWtaT2ZVZkZiTkpMXzRqaHlfS3EzLXJ6Rks2VXVmVTlrbGh6N001blhudEh5cGlJY0RiTDVrdFRfNV9fNUtqbm5WMXd5U0d5U09jQ0p1OWwwYXlNQlpveVhOZjFyaDhWUnlKanZmVnIxY1VPcmMwV1B5Vy1XU2RqTXJaNUNR?oc=5",
+      "title": "What Analyst Projections for Key Metrics Reveal About Cigna (CI) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcFl6cHRidi15N2ZwU3VQREdZQTBDMW1YZWlOQWdWRWxFSm1zdzlaOWJvZDg3U3RzQnlVd0Y3ZVp0VEt2TXB0dkIta0ZpbWppdmJxbnRFRXNaX293c083M2pmaHNES0FUOU9pRDRTZ21yMFlaWXlvSXE5elZzNEZad3F3MlV4ekJxSWRVZ3lWVl9JeFlBaEd6Ui05TkVoV3lBMklLa01fS0NXbU10TVhfZHExQWplaWxKSEFvbEphNkRsSTZMWUlR0gHMAUFVX3lxTE9iSFczcVJoYXFaSEJoc3FFNmJPZnJmbDluNU5LclB4NnNvN2ZfRGlINmY3MGdHYWdnSThKZDRtaE13VHlhd2ExN2VKb2ZhZ3VEaG41ZW9RWWd5aUJhSlViMjQyOG1xOFNfbVFRbGNxSjFlTzlhb3FCWkFzbnJDbjgxWmtqQ05VekotUFZ1WnE4eUwwZzd4aXdWcUlaVl9LS29lN1hfS04ybUNTN2F1d2FMZERMU2dZZnd6V3lDdDNNOUhfRG8xMkExSWM5cw?oc=5",
+      "title": "Is Cigna Group (CI) Undervalued After Its New Dividend Declaration?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 305.41 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

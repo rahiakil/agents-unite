@@ -1,0 +1,49 @@
+{
+  "ticker": "DHI",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"D. R. Horton\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTnhSZnBDZGttcDB2UktBbm9VV2FJNnN2WFYtNWd5MWVvMUdhYkQ2QWw3bEc4X0pMbHVablVsS0toVUViU01sYnlrWW1LZ05hanR0dmNvMU1qUS1FbmktUjluVXNiMmVveGhON2JJdXFyU3BtZE5aLUJTT0dWd0VubmYyZDhzOXdw?oc=5",
+      "title": "DHI extends decline as sellers keep control below long-term averages",
+      "snippet": "Traders Union, 2026-11-03T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DHI/history",
+      "title": "DHI daily price history (Yahoo Finance)",
+      "snippet": "close 156.99 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "ticker": "IR",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ingersoll Rand\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV0lfeWJGSkNMZ3BLQURvZC1uektIYUEteHdmNXJDaXNmWm9wc0Q4a2kxYjFNd0JsekJwd3pldHV0bnptLUttZ0dWeXlzVmsxcHp0RHloc2ZNQmswSFlIWnAxV2VqYnVZUXFsUHNlR0p5bE5penNZdHRRR3pZRjNEbXA5NUdlRUltQ0VrR0Y3cEdyS21SMEN2bmxVU3Zic3ZJSlh6YktaXzRjWW9abmlfZDlROFhPT0oxSFYwQUFla01TU3BoUHdjM2hB?oc=5",
+      "title": "Navan Selected by Ingersoll Rand to Modernize Global Business Travel",
+      "snippet": "Morningstar, 2026-11-03T08:00:00+00:00",
+      "publisher": "Morningstar",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORTFXcURBazBBZWNvUGEzZ2dvRkx4dGhQV2NhX19faXN0SHl6SUJHd2h2empFb1BzSVVhUmxIQkw5eXRSX3RiZEFVTGlFU0Q3c0tMQlBNbEZRU3FlS3JlMUxmNFV6QUFyWjhVQTJFMFoxZmNZRU40ZW56V1hCcjktZDFneFY0U0lnbHlidGxEU2JLV2V0NWhJLWRENGlxWVlWUmRiMk43V1ZVcVNqOUh0TQ?oc=5",
+      "title": "Ingersoll Rand expands life sciences portfolio with acquisition of Ivek",
+      "snippet": "World Pumps, 2026-11-02T08:00:00+00:00",
+      "publisher": "World Pumps",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVFU0dWFpWi1LcVcxQzFhZFppVmlaTDdVVG1JeG9WcVlTQnJrcWMtZVAxc3dGQ0FLZE9CZVFkV21oZ2dpQzUyQ0RGZl9iQVRDejNHbWJqYUtmWXVlYXgyV1AyWjhiUjFwZ0F4NUtiaXUwX3Z2RkctaVdxZ3FKNlB3SmJWTTlMRlVRc1pPN2M4ZmJuZjhPeVk2RjlxQ1dBQQ?oc=5",
+      "title": "Ingersoll Rand Expands Life Sciences Solutions with Acquisition of IVEK Corporation",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYXdTMGZ6dnNZMXc2WEpoVjdUVUlKRUR0WE1aNTVrQTN5RG9FMjlxakh3c2dUX29NcDV2Ql81Qkc2d1kwQW1XMkEtYzhPZFdYUGZYY1lwaU9fbk1iZXJOWnBtQWNuMHNzWS0xdUxnZ292RTB4azdNZHJCTjMzdi1JWWRNUXEyU01jOHJmMUU5MjFPbk5TNjFYLU5B?oc=5",
+      "title": "5 must-read analyst questions from Ingersoll Rand\u2019s Q3 earnings call",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd25pQkpQaC1ock9DTkE3NkVVdENrWHdjbFo3TS14TUU1Z3AwQy1GQ3V2a3IxUS11ZE1YUnM4RDQ5MVBxWXFkY2U5Z0hMRmxWYlhuczh4dGZGeWRqVWZ2a1FSQ1hUcWRqMmE3ZW1kaDRDaHVXN1c0OXNPdmdqck1HZ0lLTWNEdzVidTZLYUdZeVJucGFFZVJ2UnhyRnU1cmVZc2JhMmpZdXhKUzB6U0VBMy1BakJSdnFGYjNzQ0dYeHY?oc=5",
+      "title": "Ingersoll Rand Q3 2026 slides: 21% order growth, sequential gains By Investing.com",
+      "snippet": "Investing.com Canada, 2026-11-01T07:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IR/history",
+      "title": "IR daily price history (Yahoo Finance)",
+      "snippet": "close 84.18 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

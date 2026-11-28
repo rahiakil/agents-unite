@@ -1,0 +1,61 @@
+{
+  "ticker": "ORLY",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"O'Reilly Automotive\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU0JwS1BJN0p4WVFzY0o4YnJsZXpjWENUWDVDYUstOVBhZXdTSXhucmE4TXZqaEpKbkk5X3ZqQk0wVThyUHVacmt6OTFQdkxKNmVrcktXT3M2aXhYUDZJVFhmN0ktaUlxQTJYc3pTUU1oY25HaHFQQ2djNmNPSFRVRUw3ZGNWdjdBRTRaV3drMmdkRFdLZGN0ZTJzalFwcUIzaXZ5TEphRQ?oc=5",
+      "title": "O'Reilly Automotive Details Supply Chain Edge, Store Growth and Canada Plans",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUzEwazZrV2pWRFNxNHRtS1NuaklBVnh0ZjA0ZlktZXNFVkllU0ZyQTc2M1Z1YmZCai1jNzNhR2xMVkh2SG5zUU1WMS1TaEVRbE9PY0VqcGdPVnk1QkVzcUtxSFVBRC05ZVphYURETzVlSmU4OHVxUHg4NUdxZ09ndnh6TzFYQWRrQjRFODN0bDZyYnM?oc=5",
+      "title": "O'Reilly Automotive (ORLY) Stock",
+      "snippet": "JournalArta, 2026-11-02T08:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ORLY/history",
+      "title": "ORLY daily price history (Yahoo Finance)",
+      "snippet": "close 92.34 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

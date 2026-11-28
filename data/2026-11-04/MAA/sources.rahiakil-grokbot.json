@@ -1,0 +1,70 @@
+{
+  "ticker": "MAA",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mid-America Apartment Communities\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelRFMEtiVk1GdzBva2tIOHdZeXBDOTlfOEI4S2JHbU5FZVhZX3kteTdPclZtUFBfNS01aFh3X0ItcXpONlRRdUE3RmVRMEZKd3ZVRE1LV1kxckJ4dVZxemk2QWNwdm9EQXo3aUdRbmJhQWFwSHlzbFRmOVdBZzZwMHJmQlNlMTRTZl8wdWFCSkQ4bDVTcEVydFhrN0g5d3d4RVpxeHZkclNac1c5aUZuOFRB?oc=5",
+      "title": "MAA Announces Pricing of Senior Unsecured Notes Offering",
+      "snippet": "PR Newswire, 2026-11-02T22:29:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-11-02T22:29:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNHVpLWJTZEsxZ0p2djJ3MkpSalgyNExWczFJMlA3aUZ0RVNYaENybFM0bEc0M3dxSUt4Q3IwOWNlMkFNQW5yVEtXTGhweDE5YTlCU3U4ZVlScmdRWFhobzZUQVo2Y1RnOXlPd1pkZHVqeDR3N25BTkJYUTk3QUlwTHF2eEFPczNaYnN5MkxmNDRZUDF3M3RTZ05hNWdhRmtHYWFqd1lQcW42RW5tWGtXcWgzNHBST2xoSnNleEVFMGUza2tRMkdqM3NjNFNSRTAwMjMzTDBJLVliN29ackpZc0JFY2RQVzhPTFHSAe8BQVVfeXFMUFZ3TWV3Zi1FbWFxaG05TmtkekRhZllCSTM3UWFxOEtYcG1jSTQzNDdBWWZvTV9tYTdrOXQyVHRab1U1NldZZVBremxKdFY3VWY1bFZpQVBpVFhhNUVoeHdrSlpkRTJOc3JabnFmT05FN2Z4NDF3TkdNbE1PWmw4a21NTGF3NTFUTkNkM2ZNdmM5RHM3Q2tIMWQyV1FLaExVSkV0dEY3REFJbE9BdS10NFV0Z2MweER0LWVfUFRsbk93b3NEWGl4VTNfVUdSczBCMXBtcTFISUdfZHdfNGZRNkVSRy1PZ1dzTlpaYTVEWE0?oc=5",
+      "title": "Is Mid America Apartment Communities (MAA) Undervalued Following Its 2026 Guidance Cut?",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/912595/000119312526443920/maa-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 7.01,8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAA/history",
+      "title": "MAA daily price history (Yahoo Finance)",
+      "snippet": "close 122.15 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

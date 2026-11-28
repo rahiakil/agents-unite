@@ -1,0 +1,109 @@
+{
+  "ticker": "MDT",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Medtronic\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 4,
+    "irrelevant_or_spam": 14,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNTM5MktnZnBqa2d2NFlHTW14OTVVTDczZGVqQng3LVZrTFhQZ2hpcnVfSkphaHVQSTMzX0dQandfNnB3V2xUbnBOc3p2YVhQMkRnQnlGT0JGSE5qR3QyMUZEYzdwbVp3WlFsYVJmSUxwMmVweHMtUTRnekR0cG95UVVGanVvOHVHa1FLRkxHZjNHclFPSEpidUdsMXNsblJEWW1pXw?oc=5",
+      "title": "TCT26: Medtronic Symplicity blood pressure procedure shows significant blood pressure drops in SPYRAL AFFIRM real-world study",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOWmNkX216XzE0Y045UjhaQVJSMlNrRjhLSThWdy1zczlEZnNiX0s3eFNwOUFZSzlrckFldElJRTkzbzlfRUphVXBZaGwwUF9hdkEwQTJZSU1DSEV5NmszalY1VnRlYTNKVjhzVXJTTkdQVlJhVm1NTWpMeHhPam9JQ1hyNkRjYlpRUTQ1TVZfMkFPMVJiMUNBa05zcFl2cWRHbFZLLWcyYTFRSnhtODR1dzdNazQ3ZEUwcWEybUVJdUlvRF9yck9yRXNySjdHOG9WY1FiVFAzY0ZOajlIQ1M5Ym9LaFUwNkp5UEU4a1ZXWnFkbkRIaUdYc3FtNHdSOVplaHZZZVNR?oc=5",
+      "title": "Medtronic launches Medtronic Customer eXperience Center in Singapore to drive remote access to innovative technologies and training",
+      "snippet": "Singapore Economic Development Board (EDB), 2026-11-03T08:00:00+00:00",
+      "publisher": "Singapore Economic Development Board (EDB)",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GRVZrd2lYX1l0TE91RGs5aUlXZGpfZE03OHprWkdjaGMxWlZsWktTcVFQVHVmWGJvV2NOQS1Za2duZmdBa09fU0RNS1I0TW8?oc=5",
+      "title": "Medtronic (MDT): Company Profile, Stock Price, News, Rankings",
+      "snippet": "Fortune, 2026-11-03T08:00:00+00:00",
+      "publisher": "Fortune",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTXZHYUdJTWpEZ082dTRWVWxjd0FxUXhPZHM2UVNmdEw5cFFoaW5DM296VHZpUEdJRTlfLW5Oc0dKRF9raWRrdUE0LU5Zc2RWaXczaU0yc3FGNUFzdWFma3licC03VnJXRUwwcGxsZkR5UWlCQm1CSmxJVFZvYmFCekR3ZUJTVFEyS0U0Z1VNVVM2VHlOcEo0R3pRcUVMQnlT?oc=5",
+      "title": "Medtronic (MDT) Ascends While Market Falls: Some Facts to Note",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWHhOQW5pTGYwd3ZWRlphYml2LTNOb29WNDJDbmh1LWp6Nk1pRkRSYkhJMFdaSWRFTHROb0dpVDk1Vjl1RVB1OXhYRG5OdzdtemNabUxkU0d6cl82LXd4d0JDUE1Xc003bEVRVDNfUXh2WlZQel91bWM1T1I3b056U0lRZGJoSzB2MlotMl9BZkRCM0FoODJnWS1yai1XdUNQem4yUGg2bXFablA4SjFHMFE1LTItc1JCMTNQS1h1X3BlVWNv0gHKAUFVX3lxTE1XZTk2ODdfNkExOHVoZmkwaHlGRU10b2kxRnlHTEhkcDhCR2o0OEpjRVZPVUVaMHE3Zk9IZWozREFReEVaRWhZZGtWVlBHV1pRWUluNDVFdlFQQlg0cVBxWTdicTA1NkxFWWxOeUpOT3oyM1JpMmY0TUg0SDFsY0V1YzFSNXZ0ZWFlQkZZeUJZVWlwLTROVHBmZnZVclA4bVlsQmZpclVESE9nS1VGazBKX0pncTdCYWUyQnBxY0xlUGpuV2d3eXpuVGc?oc=5",
+      "title": "How Investors Are Reacting To Medtronic (MDT) Strong Ablation Registry Results",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQelBKUDJFY3RBd3h0VUJ6U2hRbWZCbzhsWFlpUHRjcE5sVm9OMDNJTldUand6VkZVcFpHS2h6Mmt1WUlLLXFKeWdjcFFMRDBwZWVqaXRoN25NS2NpXzJJdjdCbXg4QTFxT0VoS1FQaVJqMGZJa2NMWVJkZUxITFl6OG9WWjMwLW9TN29JaEhqcVFkRHJlajlHRw?oc=5",
+      "title": "Medtronic Just Retired 55 Million Shares Without Spending Cash. Is the Stock a Buy?",
+      "snippet": "The Motley Fool, 2026-11-01T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MDT/history",
+      "title": "MDT daily price history (Yahoo Finance)",
+      "snippet": "close 104.96 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

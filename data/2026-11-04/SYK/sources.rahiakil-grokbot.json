@@ -1,0 +1,61 @@
+{
+  "ticker": "SYK",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Stryker\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRy1PamxOUFp0R2p0VnRpMVVIM0I3TlQtS1BLak9PM2I5Yjl6a001aWtwelNHem05V0pROVVjOE90NllhczZaNVFNaGFkXzFlSS1vR3ZpZkZZSjdDa0R2eUFQdGFfaTZNRmlUTjBUbkpyVnNOZlpnYlhYbXdtQllGYkdsOXF4d2puMXd3RzJiS044NTNlRHdGbHB6U1h1RzlnR1BUSGNBZjJhQmgxdnZBT2tLNUHSAboBQVVfeXFMT2thZWNVMzdlNE5BNEpESnpweVVacGFPQXVzSDhvQmV6S0U5WmlwMUVJbnFIcGpRQm1zcFc2MlRfUnVPbVhRQU9YVFQ1T2xkWWRPVXoyX0ZySkpqdjlibFhxemE3SmtnaEc5X0NuWVViN2RmYk1kREpicGF6YmMtME96emdDb2N6RW9TZWdpb2lqMmhzcHRkWjJhUWFPdlRfc3hOR2VXMV9CakxwTGlnT1hNQjlEV3JXd2h3?oc=5",
+      "title": "Stryker Stock What Changed After Lowered Guidance",
+      "snippet": "Simply Wall St, 2026-11-02T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWkp2YjhyaWs0SXpJdjZmOHp0THpoakY0OWNBWGZtX1lSaXNycXQzQ1JxMnpzbFVrZzhPZ3k2cnQ0bGZDQUdOMzZMWEhpTXp2MzdRWE1aaXliNGlHdGhWdFpWNjhyZkVlb3ltRXlYTXMzM3E3eTZrbTNyM0ttRWE4dE1jY2RicTdhUHp2UE0zSlNDZ3lnRlZDSVNSbmNUTUZUZHU0WU8taUhMdGV0d3lkVlNnYk0wWjJNUXR0R0VSeS0?oc=5",
+      "title": "Stifel cuts Stryker stock price target on weak quarter, guidance",
+      "snippet": "Investing.com, 2026-11-02T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYK/history",
+      "title": "SYK daily price history (Yahoo Finance)",
+      "snippet": "close 339.65 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

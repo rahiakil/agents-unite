@@ -1,0 +1,109 @@
+{
+  "ticker": "LHX",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"L3Harris\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTDBObkYwLVF6RVJJYjNpRDlfUGNybUlfZWxCT1JsX1ZQam5WaVgwcVJ0aDdqMXNEWnNzYWxWR2k4YTEyX0g4Y25WMHh0S1dpYmJmSDVETlJfenRnQVEybFYtVUlPdVZneVNWNzBYU2tlQVRnQWdodGtXdGJjLThfX1RmMFZqelBuWXVVWEdULWdzZnhMSTFBZWVB?oc=5",
+      "title": "L3Harris: 3 Key Takeaways for Long-Term Investors",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQjRvQm9JVGFVaF9iRUJNUkd3RkVkTWhiQlhNSldYNGdrOEFpSl9XVWhJQlMzdEhjTERIdU9ROUthbnA2QlpHUjhCcDZBeVEwZWtPNmJmNVRTMEJPaG5TWEJrNlYtbGJHNVJWVEgwTmJJdUdpeFF6ak5yTDZGN0VHYWJkSWxpWENWRGdMQU1DdEdtaTlYUGJyTVNZWkVBbnIzSW5QR2hUQ0UxQlllSWFWZ3hWeWtNdXNKdTJJRlFETzdlY0ZzQ1pyQmNjZHRkRm1NVjZfQU8yX1d6X3p0QmlLMl9ucW0?oc=5",
+      "title": "L3Harris Technologies, Inc. Stock 12\u2011Month Price Target Raised to $336.45, Implies 21% Upside",
+      "snippet": "TradingView, 2026-11-02T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNZVJpckdNQ1JkQ3g5cDA4U05zNm41NnhrWVFJRzZhMzU5WjFmbTFnZG9KSFdNTDB2RXZncHJxYzVuUjVFWUFPYjdWcFFEYlhCRW91WU5RazhuWUNyYV9GeVR6c2RmSXFTNXZIUWRVVHM1MGV5M2NkM2E0OEM5V2xvWHZ1WFVEY3hvMG5wX196c0dJNWN5ZVFMNEl4RGNhNTFtUFZlMzBlaWZXWmx1NEpiRU4xd3ozakdUR3RYeGRfdThjUkVidUNQb2RWVHBGX0xzNmM2RUM3TjJNN21iUzJoMXZJNFBkNHpyOU1iS1ZJYldIbGVYbUgzamhIZmlWMDBrR3ZvVU4xcjFabHl0ZU52U1pEQTI2dWc5M2FEUFB5Smh1alB2c1VWNXBWcTE5SElERWZJZERzM2Q1LXhleFE?oc=5",
+      "title": "Buy, Sell, or Hold? Today's Top Upgrades and Downgrades: Amazon.com, Coinbase Global, CrowdStrike, FormFactor, GameStop, L3Harris Technologies, Oracle, Reddit, Rivian Automotive, and More",
+      "snippet": "24/7 Wall St., 2026-11-02T08:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORkd1NWFZVkxHR2w1N3R0OEw5eW5SUGRBLWRSWHZwQTZwZVpEMVd2UkxIRXZBOGt5TURwM0NYYVQ3elVRWk1MUjRWbWNKNHBFNThiS04tYzlpeWJLOXB0Q19MMHE3N0oteVpFZHVZcTI0S3dSUGVtSEJmTjlhWk02QnAzelpLUXFCZWN1ZjhxTTdqWVJyMmVjTXo0VEltQzVwOTRtNFJ3MlhiX25IenBQOUl0T2xfN2dvRUNvQy01dDJmSDRWY25JOS1XbVZrcFNKcDRmVg?oc=5",
+      "title": "L3Harris Technologies Inc (NYSE:LHX) Stock Has Average Price Target of $343.50",
+      "snippet": "MarketBeat, 2026-11-01T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbjJmVlM3Rkx6V0E4SkxIenVNWjBYRmhxQTkybF9KUTQtakI3VWQ2bzNRbDZaUW91SEgzMGt3UWk5MDF6M3JKY05CajBTNzY4YWJ0cEZ0MXBhQk5yVDZ0c0picXlRQzdnS2FfMHdDaWRCT2RSTnhVeDRuV0piSUVxSDM2Y3MtTzY3YUJwSUhxeUNtWE1rSVJyZVVjYw?oc=5",
+      "title": "L3Harris Stock Took a Beating - Is a 20% Rebound Next?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNjBURlBaRF9OMGpIbmVSeXg1SU15UHJXaThFYlVidFg4T1ZrRDFQRGIwRjNTZXY1Umo5M2duaGtxQ2ROTTRYTDA5MjlaaUIxTVZ4NEtVTERfd2dYVmprclNaZWpUSDFmVG9HdDZvWi1tT0JqMVFkNUpiVVEyYXFUamVCaUcxYmZOWUpEcmhrWmhiVXFzaUFwdw?oc=5",
+      "title": "L3Harris Q3: A Strong Buy After The Earnings Surprise (NYSE:LHX)",
+      "snippet": "Seeking Alpha, 2026-11-01T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LHX/history",
+      "title": "LHX daily price history (Yahoo Finance)",
+      "snippet": "close 259.74 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

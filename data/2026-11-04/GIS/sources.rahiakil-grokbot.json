@@ -1,0 +1,49 @@
+{
+  "ticker": "GIS",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 29,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 2,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVUpmMWhFdmFtbDBVRFdvV2VyS3o5eGpnalpTS3FxTVN1bWJEOHJZdEJkT3hYTDNYdFBLLXdqemtIc3lEOHlGeHNEWXdEcm4zOUhnckg0aTNnajdvd2V2VzRNYlFMVHl5TV93VUpaWWI3TnVxWmdsdjJNc3g1SXNDN3AyVi05WWRCNUMtb3RhRkwxTG5INUUyNTJESjlJRjc2RzlJQUdzTExLaGtkMDA1WS1GWGEtRmFYc3Q3TXVDNHdpdW9zc2p3cmZrQzNUSzA?oc=5",
+      "title": "General Mills Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 35.85 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

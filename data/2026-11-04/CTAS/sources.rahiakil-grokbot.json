@@ -1,0 +1,97 @@
+{
+  "ticker": "CTAS",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cintas\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeWZJTWR4YVhrcS1SV3NJYUs4QjgyXzExckNpOWp3THFseDA5Y2lIMTRXc2pGZlpIN1BSbFNHVjR2UGlMcmkwa1c5NzVNTU5RTkRoeXdxWWJTRS1sVGtzS2YxcnNSYVZ1a0xzcTEyY2ZuOGZvV2lmQTlFenp2ckdlTWtBUjFnNHJCVTF5N1g0N1FfVDBYTnNVWnhDV3drclJ5TEUxZA?oc=5",
+      "title": "Are You Overpaying For Cintas Stock Versus Its Rivals?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdTdJeDN4RUVmbHlScXcxQTlPV2ExSThuckdReDFfa0IxT1REVWMzc3hBaEFrZkNZdTZMVE5PNVVDQUJRYjQxVXpjaEM5ZDFiUkxBZ1hLcFRzUHV4OWVvTWRoNm5iYXMydHZDTV9RbDZ6NG1VTEtQOV9hZm5rSVE5MTcxQm1nSnUwekEtT0VhUWQ5SDQ?oc=5",
+      "title": "What Could Lift Cintas Stock?",
+      "snippet": "Trefis, 2026-11-02T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ3ZZR3BDeEgwQ0c3aXdWTy01R1hvb19Ta204MFM3NVNlQWlHN3YwUnkxNnVEMFFLSXRhQUlmWHFBWnVTaXdGUjJHVF81R1Y5XzNGSmdGb2tuUUlxUHZJOHM4M2p5MUFlcG9WYjhkakdfRnFFaHZySzJVVk5UWWNibFRQdnMyVkFBMEZuZmk5WDk0bkl4RzFmUG5qOVh5TnhZYVRMMi0zTUxrTi1zVURRY24tYmVCV0pRejRTcUFheERlMkgzclJiRk9Ibl93blB4OWxLTmhac2UyWVp1MUpz?oc=5",
+      "title": "Mirae Asset Global Investments Co. Ltd. Makes New Investment in Cintas Corporation $CTAS",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbnhPRThOeGVqMG1ndEJwc1JtR1J1dVNSak01TEk2OGY1QjhvLTRGUUxtbzd3ekdpZEV4M3FaVi05N3poOFg4bzFWdHRub2pCazBDeFBnM3I0X3QzenIzbWp4OWFSajEtMU5Bc1RYclh3Q1V3ajJWZk1PRTRMRWY1THgxVlMyNlFoVl9KTThXdW0tcU96TVdVd2toaUVfcVNOZUdj?oc=5",
+      "title": "Is Cintas (CTAS) Expensive After Its Fresh Dividend And UniFirst Deal Plan?",
+      "snippet": "Yahoo Finance, 2026-11-02T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRUc5SXg5RjNKOGpYdWJyRlFRaDE3Q1ZwQzU3aEI0aFlzcS1vNkk5VzJ4bVBDZ085VXRuR2Q2VmxsRnUzbXRRZ00zSGIyb2JKdG9DVE5VZm03YkE2X1NKeHZ0U21IdGdoSmRnVmtXZWF6aUZoc0J3bzhzVGJjNTZMSm1BZWNwVXlONXZzZUhSU0Rpdw?oc=5",
+      "title": "Cintas (CTAS) vs. UNF and ARMK: Can Acquisition Synergies Unlock More Upside From a High-Quality Business?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.42,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CTAS/history",
+      "title": "CTAS daily price history (Yahoo Finance)",
+      "snippet": "close 229.03 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

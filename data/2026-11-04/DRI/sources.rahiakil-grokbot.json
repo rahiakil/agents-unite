@@ -1,0 +1,49 @@
+{
+  "ticker": "DRI",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Darden Restaurants\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM0ZGUEw5S1hLTUVrTWdTNTdxUlZDN29paHFmWlhKTi04R2UtMUZPWHVDcWdOTzd1M0FNMXJpWnNWa2NhRkQtYVNXa1VIWGNZRjZJd3FScXROMFlKVHN4dlQtYXdUU1doMnFGRnhtRVlQOHQtbHFpaXNaeXhkZm9XLTBGVVp6c1ZESlFXM3p6TGJJa2twZ3cwdWIyQVNEb0pLNVM5VHFXZWNhODIyQnhDRGVhRUE4a2hDQWtPcW9lY2NPV3ZvSVI2QjRseVpVUWhkZE56Z2dyX3VIcjjSAeABQVVfeXFMT0VDbFpUOEJvMkFDclNFQzVQNzh4VkVMNWRhZHk2N2JLZV9pWVNmWUlBSEFHeUtVbExUbHc5UmdIYTJJWjZRUWN0NDMzNy00MHk2TmJCNWszQjdXMlVkQ29qVWllelFpdWFFU3RnYXJndG1HZkhzYmxkLS04ejh6VU14SHg3N1o2SXRWdE13ZGwwbG92WGppT21ZUXdXUVZ1QWp4N19veHRqQVlMWUw4aEM2T3V5T2lvOVd6c1M4Nm5DM0E5T0gyV2JRZkRlVXpCelNCWlJZd2RCX3pJMkJ1WkM?oc=5",
+      "title": "How Investors May Respond To Darden Restaurants (DRI) California Labor Lawsuit",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DRI/history",
+      "title": "DRI daily price history (Yahoo Finance)",
+      "snippet": "close 230.61 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "TPR",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tapestry\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOElDbE4tWTBWdjJzbkkycGtWejNDN01iOV9GLVdVX0wtMGo0TTAyOXN1cjc2Si1PYzZuRDhRMkVnaXhYWjBEbk52ZGpSdGhBUnBhZHdhNDYzY3hlWDRGeHdINnJSdE9oRUt0b0xfeUhVV0xUdUVPYTk3TDNETExJSVZGUm9OVktBOENyMWQ0ZGxfaHFiaGxlZ0hRMXljS0hTLWN4S3RFS0VUemhYQnk1R0Jfclo4N0g4S2lvbmhYYXRQZw?oc=5",
+      "title": "Evercore shifts top picks as Tapestry stock valuation compresses",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYTZwRzFpRTY2MmRQaE9qcTAxcWZ3MGlaTkhxY1FMcUVHVDBOVjJHNGt5OEhsOHB0N3dNUzFHN0NRMzloc0EzWnVIZmhvRjl6R0hjUjJ5REJ5Nmw1MWdXR016ZjZYSG9SZzRSeEZCTzE3TmhnSXgxOGFHYUhCOTUxTlk1MjlBV012TlNFaGk0ZnhMbThBbEE?oc=5",
+      "title": "What's behind Tapestry's latest 3.1% stock surge?",
+      "snippet": "Traders Union, 2026-11-02T08:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPR/history",
+      "title": "TPR daily price history (Yahoo Finance)",
+      "snippet": "close 125.31 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

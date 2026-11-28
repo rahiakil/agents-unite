@@ -1,0 +1,82 @@
+{
+  "ticker": "LVS",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Las Vegas Sands\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVWx6NmN1QmZIdzhueTA4aUstaGdOSkZqWVdhdzFSNUU2TzhqZmVXd3lSVW9MTDdiSXBQM2hiZl95UzdyWkVUTllfNnFiakVNRXB3QUgwTjRDRE9GdlhjNHEwdTdERTNQSjFCY3UzTzVrNlZmQUZOU2JxcUdFYUl6cg?oc=5",
+      "title": "Sands China completes US$1bln private notes offering",
+      "snippet": "GGRAsia, 2026-11-04T03:51:25+00:00",
+      "publisher": "GGRAsia",
+      "published": "2026-11-04T03:51:25+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOemtBZmRtN1ExcVEwVUc3Wl9Va3FJNEhMVVBQNG5rR3VoVXFyR2t0X3AtWjBSZThDUUd4c2xGXzhNaU9CQm94WDNtWFVLTVhlTHZ4Nm9JNzg1UlB3b2RGeWVCUDlwUHhTTDFiVXA3bmJ0QlU4MWxJYjYwNWxpZGk5enZGTjlCRE1KQlNxMUlxTzlHU1RWS3BHdW1BWF95dFI5LUVRcEZTaWt5UEVkN0JoQ1JUMVpmN05ld25PZUJoQlY?oc=5",
+      "title": "Las Vegas Sands (LVS) Subsidiary Sands China Completes $1 Billio",
+      "snippet": "GuruFocus, 2026-11-03T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOFNKcXpmR3ktWWpjYWlVTFpVRnVrU3l1QU1uT19oNzJTU3hWUEFlTmpIeldJeHhscE5MZFhtV1JYT3dYU2JaZmFyOXFuWFhvSlk2aVJYYWtLd1VVUjExWmt2cmZJRy1lRjNyMGFFdUxVWW9UaTdfUmdzUmhZLWEtNlhGLXB0T2ZSemVrMm5KRXBWb1RuMEpCWFE1SlA3cTN6LVFBTFFLMmVmMk1FVkNZWVN5T044QzhYcC1YVEp2SDZPTng1MnB3Nm96eEQtODZoY1NSaDVURdIB3AFBVV95cUxQMGFYRlJTNGZ5ZUpQQ0dMMTF2QmlWamJVNVBOTVZLREtpcDFIQWR0bjA5UXlIT1JtbnBvR3lGT3RycVZfT3JYMnF2djgybk94ZXJXLXJMZ2tXUVV4SWc0YTNPck1qeGltN1o4MHYxT21SVU1oaDVCMmUyQWtLX2kzM19aTWo3MEh2Tk9Bc29qaDJ4TXNnVWJPN1F5YlluU1dxaE14NXdkTlhwTkNqMTBPZVA1OXFPWUpxTW9lUnJWWnRtTDF1SjhFRzRqTlZINncxRzcwZ0tETUJVWlot?oc=5",
+      "title": "Earnings Miss Might Change The Case For Investing In Las Vegas Sands Stock (LVS)",
+      "snippet": "Simply Wall St, 2026-11-03T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000122/lvs-20261103.htm",
+      "title": "SEC 8-K filed 2026-11-03",
+      "snippet": "items 1.01,2.03,9.01",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LVS/history",
+      "title": "LVS daily price history (Yahoo Finance)",
+      "snippet": "close 40.74 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

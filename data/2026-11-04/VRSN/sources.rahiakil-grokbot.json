@@ -1,0 +1,61 @@
+{
+  "ticker": "VRSN",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Verisign\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 4,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRzNLNG5mN05sZ3c2NXFDQnNCOW91bHRPTU9QSzRoQ2lCMmRkQk1aUTJoRXhjLTBaS292NlgwWG1GQm5QaWxYSjRuTUt1OVRVUVdsNnFvQVRmUFZQNXhxeDZ3Zk1xRTVZLWw2V0M4U1B0VVRFSFZXX1dZQWRGN2M3dm9wa0RoZ0RvU1A2ZFo5TTFocWZmc3hNNGNqVWdJTTlEa2xDMEtaUGMyNHdqWm9UVXQtOV84WDM5Wnc?oc=5",
+      "title": "VeriSign evp, Thomas Indelicarto, sells $154,690 in stock",
+      "snippet": "Investing.com, 2026-11-03T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZkJFbGc1U2xzV1NhMy1JZUxGdlV2eEQ4V2dWTlNpMThiTFdIS3FUYVNCTEEweHRvM2RzNTVkMGMzQ05IVktKc2xaTDlsdEc2YTU4dzN3Vm10NVNqQ3dQWmVvdVpMblVWSFU4NmxGVjVrdUFNSExnTnBZZUxreDZkcVJTalhqbEhUcDFxOEo0NEJteWdFUE0takxWdHRqYkpPMW5pb1V0RTN6NlM0eGwzTkNndXpNaUFRekZqLTlZZ0YxQlhCWDMxUDEtYVFzSXFXVU1PTXdoRmhyVmdKWjVBS0k4OA?oc=5",
+      "title": "VeriSign Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-11-03T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VRSN/history",
+      "title": "VRSN daily price history (Yahoo Finance)",
+      "snippet": "close 318.03 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "DVN",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Devon Energy\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbmhGc0pPbE55a2VkckNyYnJPMXIyZHprUVI4bTlKWFg3V19ILWRHMVdPdFRyUGltRUc1TktROUJsZDVudDljNVVQVmR2YXREallyUzVWdEI4NjZ4NTFpT3NrX3dIbVg0U0xDYUVXXzYwel9UYmJJSXVKUkhGNzBlTTVUaUgxNVotdU1NUWhMU3BibG5RUVRYQmZnSUpEVG95Q3c?oc=5",
+      "title": "What Just Happened To Devon Energy Stock?",
+      "snippet": "Trefis, 2026-11-03T08:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOckV5WmlDZXhZWFFKQ1U5M1lRTWpiVXlmb1hhOVpHUG8wQzRheENTNXFfaUFPQnpRMWZLeXlCandzVjNZT0VZbElCRkh6b2JvczBLUW5uMGlWcmpSREVxTENFZmxGVm91OTd3TEJreW1sNkxTa3pIU0dCQU9GTUE2bUVhSWFtbkhGazVRUzQ5eWZNdzFJZWF6LVhRMVdWeFk4R25NOGZn?oc=5",
+      "title": "What Analyst Projections for Key Metrics Reveal About Devon Energy (DVN) Q3 Earnings",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSHZpUERMQXBqbUtweWo1elR0c0xzemtpbW8zcHE2QjlVVWs4eGQzWldfMnhUdzVsZDhUU2c1ZlpRZFZUXzh0eXlNWDRtd2pieXFVQzJjQUtzemp5dHBONGVTUC14TTRSUC1VWEtNdmY0djhMaVF3UHZmbDdlVUNFdjNmMVdqMXJtRndNVmpMWEtmbkZQbnpVb1M2dFNWeU1SVG4yXw?oc=5",
+      "title": "Devon Energy to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
+      "snippet": "Zacks Investment Research, 2026-11-03T08:00:00+00:00",
+      "publisher": "Zacks Investment Research",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGx6NG5UQUxOVWY2VWxIMXBTZjI4VVdaUk42a0FSeTlENGVlX09SNG12TVI5b3ZKaXMzQXNqODdlYjFWVk5HYXRwR182RXJ1ZXVsTFlodmlPMTJHM1JQb3ZzR3hkaVpacTY4b1JzMGFVcFV2dHgzUzFaME9MZEh1NGRxSm9OdjBlN1BndjUyTk0xeThkUDNCU1FuMjUzU3Nj?oc=5",
+      "title": "Are Wall Street Analysts Bullish on Devon Energy Stock?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZU5vUHh3SC1uUDdvNjBQdWlPQXQ5MjljOTJtaWhjTU1NYXM4cGUwTFY2NUZ4bHdZQ185am0tQXZteHA1VE1nQ1dBaFZHdjBCbkNhS2VsNkVHZWxRLTY4TWZQRVl2b2ZISU9EUDVjOWY5a1lCUUN0eFlaTDBtWjh4bEFvUm43eG9aYk1YWDBMamdmdkI0cU5Pb2lvckU1U1VQcnpWeUhhUk9sR1hSNEZEaUlwcUZEUlM5MmZnek0zaWo3RDNpWVlGUHBEQnhaU3RzZXcwR2ZhMm4yMzctdkE?oc=5",
+      "title": "Mirae Asset Global Investments Co. Ltd. Buys New Stake in Devon Energy Corporation $DVN",
+      "snippet": "MarketBeat, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcW5YN0ozTFl4cjkyNGpDVVNUTXNEQjNWSmQwX3RkX1VLa21JaGJ1ekN3NjVzQ0tIeGdOWkUzSE9BYUdDT2s3LTN1RXRUOTcwbFRVTXZ2bFhaQ2JHM3hJalZOazBxMXdjUklSQ0ZnWnhuNVNrTURMV05fcGVnMkpKXzJQM3V2ZGNNQnpPS1ZXZFU4WE5wck1HY05fbm9HdXZicGRHTFFiS0NkQXRqdXFmSXdtNUtOU1c2bVRzR2hVWVAxNlNQYjVKSkdTN0tQUQ?oc=5",
+      "title": "Devon Energy Corp. stock underperforms Monday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-02T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGR2QkJpb19DTTY2WmlqVFplZU9wdjdXWmNkZ1RPN3RQamxWQlN4dlpDZVRjWFhjX1lDYVFJcTJ3ZEg3VUE4dks2SG5qSzB1RnFaRUVySXd2Vm5DOWRNTGZ0UlA0N0RINzB0NUFIcnM1enNQLThOZ1dCTTV1R2JfczVGVTJUdlV4cllBbE5abGltRFlPTEpBeExNM3RrM2wyTmFvM3pQOE5aQTFKZlNV?oc=5",
+      "title": "Devon Energy Corp (DVN) Stock Down 6.8% but Still Overvalued -- GF Score: 76/100",
+      "snippet": "GuruFocus, 2026-11-02T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.141,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DVN/history",
+      "title": "DVN daily price history (Yahoo Finance)",
+      "snippet": "close 44.12 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

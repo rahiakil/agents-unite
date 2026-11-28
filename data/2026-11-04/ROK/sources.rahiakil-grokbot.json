@@ -1,0 +1,49 @@
+{
+  "ticker": "ROK",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Rockwell Automation\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0lkemFOYjRKVlB0bmhEVml3WlJpMG1ObGlpRS1xSEtFWG9XQmVLeWVVQjNNZHllaHRjS1pZV0paSWlZWDAzYWZPMm5KendKVUtWMUVySEZ0UUVLczZXRFBFcUl6RWtBUkF5N0k2SXQ2M2V6dEg5U3RkWHVwbElpNkJ5Z091YXhCRXdGLWw4a2xaTExfVmdGNWNSbG5TQUM3OVE?oc=5",
+      "title": "Rockwell Automation Gears Up to Report Q4 Earnings: What to Expect?",
+      "snippet": "Yahoo Finance, 2026-11-03T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-03T08:00:00+00:00",
+      "published_date": "2026-11-03",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROK/history",
+      "title": "ROK daily price history (Yahoo Finance)",
+      "snippet": "close 443.88 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

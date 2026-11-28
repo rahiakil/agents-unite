@@ -1,0 +1,61 @@
+{
+  "ticker": "FTV",
+  "date": "2026-11-04",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-04",
+  "news_cutoff": "2026-11-04T21:00:00Z",
+  "generated_at": "2026-11-28T02:05:17Z",
+  "collected_at": "2026-11-28T02:05:17Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortive\" stock after:2026-10-31 before:2026-11-05",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeTAzWnI3M0pjR18wcjFWQlI1NGJDNWJieFFUTEM3N09hclpZTGxrTlp6X2tkcFltVVlsdlFjRXZxajhkeVExNVZudVpfZmhFQndtbndVUWpQUHJuSjlBTVNXM2dmRG85UFJ2QWdKTzRLVlUtNTZfWGRNZjA2TDE2eVNJVmRGREhLMHJfM091RXUwOHFkdGIwLVhVbFFJQlFLeWVSOHd6QmNNM3VfNHhWVg?oc=5",
+      "title": "Fortive VP Christopher Mulhall sells $1.7M in shares By Investing.com",
+      "snippet": "Investing.com UK, 2026-11-03T00:32:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-03T00:32:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFNqZE56MDZ2ZzhUdU5SeXc3UHFUZ0JFckFPT1JGVGR0N2d5TWJ3Uk1SX3lNbjZSVE8tTWtHX2RCWEd5ZzI5VDhlX2NkVE93OXJ6MEIxOWxiZGlNLVRJZEJxMW42YnJHUkM5a09rTmhCMkk3dUZJTlZ2MDRvM0R1OEdxSXJtN0dzc2FjYS1qNzNHYnRiaVJhMURLdnhLRVF3RUlBV0JR?oc=5",
+      "title": "Fortive Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:FTV) 2026-11-02",
+      "snippet": "Seeking Alpha, 2026-11-02T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-02T08:00:00+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTV/history",
+      "title": "FTV daily price history (Yahoo Finance)",
+      "snippet": "close 68.34 on 2026-11-04",
+      "published_date": "2026-11-04",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

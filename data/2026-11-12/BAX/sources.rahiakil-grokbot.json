@@ -1,0 +1,49 @@
+{
+  "ticker": "BAX",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd2wxbDRCX1JpNGJFWExXQy11Y0NjX0E3S0RYV1dLRDFlSkV6RkMyU2dqa3RBb0dhMWdaYkZrTm56Y1ByeFVKZEhHb1hoTk5VWjd2My1IS2dJMmxDSFJfLWpxUDV4QWxNWDZxZ2lVWF8wb1hTcnVDMENzelBqcGRtOTZnVUhLb2JlNDRuRWt3cHdDUVVORmhFeE41T3RkMDZyYkxUeUEzX2U3MmdlZHZMT2JqMkNhdXNlTFVfck82czNlR2FZZDVfVWFjNXRCN2U3M2pEYtIB2gFBVV95cUxQb3ZTR05ZR3E2amxRT0NnN0Z5ZkxYdXF6SUwtX2V2eENmdThGNFFlajg1a0VfeXQ1TU9yNjcxeUFVNEJNekF2NHRvN1ViQll0UWVJbW9jLTdvY3Q2QVd4VkpFdkJOTkQwcTNVWnBYclFIcVNXcmJMWmN5UnppdHplV2VsdEZyY2stMkFpNDVobndWcFBSUU5DR3NrbVZBSF94ckQtMEJrYVpETmEwVnF2YkJSMVBycVhlLWxWT0RRYnVUQ1lWMkp5bDZSN2hKakxfdjdEQ3BZakp4UQ?oc=5",
+      "title": "Baxter International (BAX) Could Be 5% Undervalued After Profit Return And Higher Outlook",
+      "snippet": "Simply Wall St, 2026-11-09T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 25.74 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

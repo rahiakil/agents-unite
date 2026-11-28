@@ -1,0 +1,109 @@
+{
+  "ticker": "DAL",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Delta Air Lines\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 40,
+    "no_date": 0,
+    "after_cutoff": 28,
+    "before_window": 1,
+    "irrelevant_or_spam": 5,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQkRkRHU5ZWdkRF9QejZrdy1DSHVLbGRQRDNUNl9yeDJvT0c5Nkl2MjJnc0RPZF9XdVRQMlJSenBPQXIwZ1lpYkFxUDAxdGVtVjFocDNsLWdUUG9DLU56Y2V0OGZoOTFpc0JFWE12Q3BZbkNaV1BiTzEycWVsNEpoWXVuRzJJM1d6RlYtOTBXRTVyNTBpcmsw?oc=5",
+      "title": "Chart of the Day: Delta Air Lines Takes Off as Sector Momentum Builds",
+      "snippet": "Barron's, 2026-11-11T08:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQkNVX0lMU0RmNFI5bHJlZk1BeThpcTZiTWtta2JFbUV0NS1LVktTaTVqTmYwenFhQTdHM0ZCdnRyX3VkbDY2WlAxMTJ3X1hnZ2pnUTROcWN3emJNS3pERGZCLTJia0NybDJaSnlsMHk1c2hPNlg3RkdqNWxnWjlmU3Y1eFVGMmV5UWoyLWVvT0VrakdLWFUtdlQ1UnhoUnBPeGRSTDhvcEI4R1V5WV83MU9RY2hwb3Y1alpMLXBscC0tNWd1RnpfUDd0QTVidUZo0gHWAUFVX3lxTFBLS1hjMXFLTmpPejZvd3RPaFYxYkxVVWtkYy00OUVHQ3Q3cVA1N1dtUW1VcXhhT2lNeFhucXFLT3JicEIzdFRuSEl4cEtmUEdGQTFPMzBYd2tBTTAtSXBSY09JWWNEbllYaW5rNVViTVVVaXVueXdteTA2MlVKbW4tRC05a2pMWGRTOTFWYVZxVG1zX0Z0VWRtTXVoZG0wM1Z6WldUTi1qOTNpMXl2amVRMlRwYWVEZWxCUFpTaXkzemFORWU2dFJ6UU05eXd0LURLSnRWZkE?oc=5",
+      "title": "Will Lower Oil Prices Change Delta Air Lines' (DAL) Narrative",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0FpZURKa3NIYkhfXzhfZnJScEp5WFR3em11ZVYyX0FCTDBFN193YmxtVllubWJyYVRzb1BtQmVFNXJLdUQwQ2RENklEVWY3VXl3RGdPdUtzYTRoSXVWbmNFV1Utb0JDc1FtTmk1ZWF3dXIyeWZ0aXhjNk9hSEE1TEFMc0Z0YzdEcEhiY3Q2MWFyZ21ZY1pQR3VQV1o0WGlkNWVWRXJkUmVyNzRONTRBT2N3WEZ2RFRScnZVektUQVFaeFIyN3NpczgwejZNVzFnYkl0MA?oc=5",
+      "title": "Calls of the day: Carlyle Group, Ross Stores, TJX Companies, Mastercard, Delta Air Lines and Walmart",
+      "snippet": "CNBC, 2026-11-10T08:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmJ3UkFCTWpYWFV5QVkzLWR6Zm5KN1JzZURWT3Y0S0RLUERJakRiV2dmMW9LNm9MdWpFYk9CTDJxdjRnQmJzMWVNclBCMzYtNjBXVjBlLU9wd3l6Zk1QODdKbGk0TUJpTy1ydnN0TzN0LUlJdXJlNXZfMzNabFJrdHQ1Y0dVc2FEMHFkaUpPTHVTdnQzYjNMVkN4Tms?oc=5",
+      "title": "Delta Air Lines Stocks Rise 4.68% as Oil Retreats Toward $87",
+      "snippet": "GuruFocus, 2026-11-09T08:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVThQclpBOTBqdENFbEtwTmdUX3F4eTZ6X0ZDRmJJTlNrZTI0QlBZQjVYdEdhV1p1TUFNU1MtNjhhd00xVzRkWWZzdEpzcGlaYm8yTnU5RlNRSGxJdkJxbDVTWlh6S2NkaFdTU0hMSEpvWjVwcnFhV1VGUzIzdXVTUmt4dmNnYTIxVTNsb1JTUXFXeFVL?oc=5",
+      "title": "Delta Air Lines (DAL) Stock May Be Undervalued After Falling Oil Prices",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN2N1X2VmbzJKd0IycGlteUtDSHJ1YUtTNnlMYXBIRTZrdWtqT2ZlcWgxLS1MbmtPbnFpR3FBTHFnbk1Nb2Uzc2RHVDZFa1d3Z3Z4c0xGZDdUODJZOUN2aTNKN011VEFJaHZ3d3RJbmVNaVdLMnNpd0xVcjVuVTdQV3lOYms4TWkwb2R2ekZ6aTJtdjc1TTEzYkRHZnpJdTZIUWxNM1lJbjh6U29uanJTS1J3?oc=5",
+      "title": "$1000 Invested In Delta Air Lines 5 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-09T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DAL/history",
+      "title": "DAL daily price history (Yahoo Finance)",
+      "snippet": "close 86.55 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

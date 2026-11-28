@@ -1,0 +1,73 @@
+{
+  "ticker": "PKG",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Packaging Corporation of America\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUWdCRDd0S0JpZUgzYUdDUjVYWm5PaGtyc3JaNjZmRW00WjF1eEhDUFJVeEw3SGNKa2JoYWpqMUYxN2VpcFkxXzFDbFk5Nl9DRVkwcjBpTldWVjJhTVJnOG15SU1tQ0J6TWtFbzEtM2xON3JJd0gzSXF5RmhYMndpUUZlam1zWFRQNkM3Rk84cTEwMUxNYmFoMElQTTg4WWt0RFRN?oc=5",
+      "title": "Kowlzan trust proposes selling 9,378 Packaging Corp of America (PKG) shares.",
+      "snippet": "Stock Titan, 2026-11-12T14:28:06+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-11-12T14:28:06+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVnpRTnpmdW9PZ0pjejJnd0MtWHkwTzF6NjhtWU0xRFVQM2t0VEpteDVQby1MTEUwR2NKSWZ0MFhob2psaVQxN0w5R3ZHeXFHb3VPVDVyZnhrWTFUYzNfc2sxNUtrdnpRbkNEOXlUQjVwbDZqUlNjS2p0Q0drbFo3MV8tMzNMcWJTLVBGbkVwQlFad19SWnZiQ3pWYlV0YWFzcTQtWUk3U0JGeEdVVlpZOUEwckxzWjRVZERDQkp3SnZxelF4cjR3M2dBeHI5cG9yUm1hNFh5Z2xaX29MMGV6RnZ30gHnAUFVX3lxTE55WV9WekVzQnFfRzI1M1FaYVg2ZGUwX0w4MDFBQTkwSWloZUU1YTByYzRxbHNoTk0zS3FpOFN2dXkwR2hKd0hORURIcm9JdHRCTHlKOHZsa2VZblBZTFRyV19iZjY4N2FqQzVuY2RxNm1tNWFfb25MQlpycHEyb09FZi1OczNkRnBHVVRTUXlmRkxOZWN5TFZSa1MzOEFucGtwalVxWndDNlNWVzVJWGZnbFY2VzBtajB6ajFtd0laWkhfaVd5SnRqa3BYYjVoSXo1MUMtNlkycjdWalNPRzU4N0E1RlI4TQ?oc=5",
+      "title": "Will DOJ Price Fixing Probe Change Packaging Corporation of America (PKG) Narrative",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVE95TjZ2V21RblF4X3RncXNvSHE0SlBuY1pkU01meWhQdlNKTXhiQ3RPM3ZJS19MaTkyZVJCNXdfUnktS3dVWml0ZkpHX19ZMDJEbWU5TmlqTy1OdGwyUXc2ZERXd1lMUlIxZE82bms3TElldU41S1NxcldJb1NKLURaYkhQWFVmNTdQU0ZwdEFrRXMwTVp0UHYycGZuUjJ5NEJpRzAza01LcnJPSTE2ZjFhUUN1M0pNaXhpWXBlTnIwVkVmZUhRY3c3c1I5ZTZyNXpSWGtfdE10NTZmbmozWWZ30gHnAUFVX3lxTE1XOUZUTGJBYURlclVkdWhTWFNPN3dBVlhzYy10LUpSeFg5ZVFiT3VIR0JodF9naE5JQ2VHdkNXc3p3R0lFUV9BMkJVbWtkY0I1U1hxOFoycTNYUkhnY3p1b1NEWXVfZUFSNGpqa252Z1h0RzdCb0x3N1haUDBZWDdBZDRDZElScDVISzNITkNGeHZaMzZrRjZGOFRWaXhsLTVjNzR0dWhVdmZhRFBteEVIVUp4SzI4TmZlUHIzdXFGU3d0elBQZlVqcl9QclI4U01weTNEVEpFMnplQTg4X0pLam9uT3JsOA?oc=5",
+      "title": "Packaging Corporation Of America (PKG) Could Be 4% Undervalued On Price Fixing Probe",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PKG/history",
+      "title": "PKG daily price history (Yahoo Finance)",
+      "snippet": "close 250.58 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

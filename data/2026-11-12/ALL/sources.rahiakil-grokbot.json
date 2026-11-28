@@ -1,0 +1,97 @@
+{
+  "ticker": "ALL",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Allstate\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZGdtcnN1SEdvZTlhdnVUcWlFckNKY3BxWXNMQzg0aUNHbF9udDhZeGkzRFk3NUxueHVYbTA0Y0ZkSlVldWlUOEUtcWhfclRSUWRWWXlaczZaSDFYVWdHUHU2T1hVbmVJNDZhTHdhSURaVHZRLUp0VU1VMC1MSzhNUjdkWnpLTjU5dDVkMjZyeEt4eDRoTldNTXdpdGx4eHRBQ0Vv?oc=5",
+      "title": "Stock Grader Upgrades & Downgrades: MetLife, Allstate, Amazon",
+      "snippet": "InvestorPlace, 2026-11-11T08:00:00+00:00",
+      "publisher": "InvestorPlace",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbnVFQ052OW9fRV9mMlZQbHF6ekxYZ1pVYWNfd0p6bWRnXzA5eDgxbGdqdDF1MlN4aF9zNE5qMHFnSkhEclFpeFFTYWRmR2x6QnJnNnlad3dPdzZoUFlwdzRqZTVobWRUbEtZdlJnV0hkSElJYlRvME94LVZYd2c5RXE4RVV1enBJVWZqcEUtRzF3MzNXeW9XcklRVzNZaUdhZnpDRFYzaURsZ1ZTREtwZ3B4dVpsb0FNSmxERUJySdIBxAFBVV95cUxNcUwwODNCLTdiQjlTQXI3aDdtLWszS0EyWW5SVHFORXg3WURjM1A3azVfZHI2dmY5R09CcHdnaGx2TzEyOThMRThSZW92ZnpFcFVJRDR3a2RtcTZUbVo5Z2s2WmhVb1g0ajlOX3ZEQURiSUNIRGFCMVRHQTBQcXBqQ2dJY014MzBPazA4OFlTOGp4UjNQWmFUMlB4ckxyUVRfVHNCU29LOHl6TVAxN2lMS3Fyd2tpT3RGNkhXYUVMems4V0tk?oc=5",
+      "title": "Allstate (ALL) Stock Still Looks Reasonable After A 155% Run",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVFMtclJzeEc0UWMwRGtQcW9fODkxd3VTSnVrQnlnbmtCWnY2Qnd2NTF5aEpsa0ZyWERHSkVnc0tYdG9FMnNGWWhWZDlrYmN0MkJQTklxY2JPQ1JoLTUtSHlZWkwtM19JNzF0UDFUV0VuSnFva0dHaHlxMXowUmtuT21kRENGSWxfSWg2MXRKVkhsVUdIdklsVjhNWVl2aHRQa2wydXA3ODFKZ0VYeGtwVjBEa3BHT0RtbkNtNnZsRUo3MnFV?oc=5",
+      "title": "Keefe Bruyette raises Allstate stock price target on faster growth",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2Y4cklGeC1nLWRUdTVnY3BaaXE1Q3dmV0lWRl84QmlKbGlSZmlvd3ZwRUswRXlyR2Rnb3U3UVRwSmhJd0FENDZlQWhCVERZN2R4RDJmMHc4bzF4TU40S0gwWFl2c2p1eXRFMjFPR3pVaE1YRTQyUkFXdkZDUFVZRWZJYVRsQklqQW01aTRIVlZGaXFlRmxYS2picXhTN3pUaVZ3S09ldXNPQ3ZmTkV4Q0ZGeVpJaEhWaDdfS1UwVnQ5QkZB?oc=5",
+      "title": "Allstate CEO Thomas Wilson sells $11.2 million in company stock",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ1RlTkcyUVFUdHc1V3UyajVOdmhWUGp5Z0FiMlV1N3JZc0xrbmcxa0ZGRXpaRHk1NVRUS0ZIT19nVlVacnR3WjA3Q1o4bzVBSzBNOWlxMkVCRzRZcDdUY2FVSGtfS2lkUmY0NVUyYllyMWg5NGdPN1FMeFFQQXhYUllYUW8tS19Rc2FWREFB?oc=5",
+      "title": "MetLife Upgraded, Allstate Downgraded: Updated Rankings on Top Blue-Chip Stocks",
+      "snippet": "InvestorPlace, 2026-11-09T08:00:00+00:00",
+      "publisher": "InvestorPlace",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ALL/history",
+      "title": "ALL daily price history (Yahoo Finance)",
+      "snippet": "close 266.69 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

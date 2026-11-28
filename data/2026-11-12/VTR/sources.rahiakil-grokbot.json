@@ -1,0 +1,70 @@
+{
+  "ticker": "VTR",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ventas\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVTNzTXNNRWQxU3VIb1M5QXRHNHlXVEt5NjduRXc0M29oZF9NWE0xdUVxVlJYaTlpbVVBMzBELXBTdFFMVHYwRW40Z2REWTh1UHAtX0tZVUgwd0FNdTlyeW83YlNKSmxSS1ltanYwdGVyeEdaMHU5YjNEbWhzZ0RLNlVmSE82MWE4SHhQZ0kxVW9iTWF4V2JrT1l2OUl2YjQyb1V2Tlp1SFk?oc=5",
+      "title": "Ventas (NYSE:VTR) Price Target Raised to $99.00",
+      "snippet": "MarketBeat, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVFsSkpySzZRSFgzejFhcnZBWEVYTmxTMDF2bW1qWVRGa1ZudnhsTm1XQWJ5MUhVSnBGSW9VQldVMVl0ZktnSS04ZjgyanQyYlJCbUxQWk5hMDFaMjR3bTlOU0lraGo4VHRXak9aT3dSenYtTmVkcUdyRXRZUWthU0stSlZHZ0o2WDJNUmR2S3RReFNvNXdlQlBrdDVoam11?oc=5",
+      "title": "Is Wall Street Bullish or Bearish on Ventas Stock?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/740260/000110465926125187/tm2629457d1_8k.htm",
+      "title": "SEC 8-K filed 2026-11-10",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTR/history",
+      "title": "VTR daily price history (Yahoo Finance)",
+      "snippet": "close 89.65 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

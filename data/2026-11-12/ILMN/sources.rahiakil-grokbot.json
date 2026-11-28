@@ -1,0 +1,109 @@
+{
+  "ticker": "ILMN",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illumina\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZlp1Q3g0UlFJSENNLU1McUN5NXE4MGFMOTBFQjFzSmx5YjV2TzJ0UmlpME16ZWM3WXZ2R2U1UDlsVktNa0h6M05qSGpCYUJVc1p5TGo2YlpNVnhDUG1GOWVkdkdLb1QteldBTGk1VTRBcjJjYWxHQXVUbFBUeFZjWmxMUFQyZm5aajR2bWZmdWI2azY3MG1GekdvTHE?oc=5",
+      "title": "Missed Illumina's 76% Run? Here Is What Holders Saw",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.459,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY2hza1RSLUJfckRXVlJ5LWVPQTBXV1NjZ2VTRGhaMXFUUkdRTWY4WHAzQXdmTmZfMFY3RmY4TkVMV1h3cmU0RWJnbHUzbHJObXRWOUN6clg4TzFqcXhZdmNKYllZZ3FqT3R1SzlOS2hxMFp2azE5V1lualUwTWlQZFA0VEYtU3FRMmQ3RWlEQXkybnJO?oc=5",
+      "title": "Is Illumina Stock Worth The Wait?",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CY1h2bUJaeWZKaGdnX0k0UmlhU0ZKOEt2LXhLNjdiSHlEWkNhTlFGb2RTSUs2NDgxVkFBY081WW5XeHRzdlBKOTJtZU9KZ25wV0s2QnpvUFI?oc=5",
+      "title": "Illumina (NYSE:ILMN) Share Price, Forecast & Analysis",
+      "snippet": "Stocks Down Under, 2026-11-11T08:00:00+00:00",
+      "publisher": "Stocks Down Under",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZWtrT2Q1VUd2Z2w2MjlfSVk3dE1QTkZmTTNuZkNDVU5kdGp1QzQ5RzdJNEJUMUkxRVJVNjA1RXdRSHNRZ3NLekhTRl9paHZjOXdDUVpYU2FHR2dFQW40aWFQLTFnb0twVTdXamNTcmZ2elRCdU8tZXpVTlR3ampNVlpRN196c0E1WUwtamdxdTZjNDhEMUppZWxvZXZmZ1g4YVYzdDFkZjBCbGRHQXpteE40TDBMVUNYMlNZMDZvQVd3OE1tdXRURU1qZXFtWTJfUTRiNWdsRQ?oc=5",
+      "title": "Can Illumina (ILMN) Stay Reasonably Priced After Its 121% Run?",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkdLNUJaNEJVdGtKc1lJZDU2NkpBNEd2aU1mQ0lmNDVwaV9jdVFpV0hJTWFHczlSdjNiMlF4cnk2ZHpMbzdmenpNNUxOM1lBX2VGWmMtRE1JM2NnckRQeTgzbFF3cDVJQzRhbVZobUEtVW5jZHdHMXhQQmZpSnRHbENOYzlibGc0V1IwaDNYZUNPaTl2b0o4UGJsQllIYVhiOWlWVmxJVlBPUHhfU3F1amFJb2tJZWk2cnB3X0hfSmxiVkFiZlIwVQ?oc=5",
+      "title": "Illumina Inc. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMEVlMEZiTDMydHpmU091SnZhNW1wWkt4a1JzbUhQVW5OcUVOMUpVSC1DX0szZWdtLVljWW9JbjdJbUgwWTRTYjJTMGZ6VnB1V3h5cEJhSVB2MlB2OEtvZDFkd3lIWXFZXzVMcncwWDdsdWtvNU1EaV9oTXZYbHpSSVM1c002dUZxd0h2dl9oVVgxYnVybUhIWngxdUtKR3hGR29zY1pjRG5SYkVIeG1RM0lxaTUyajJBdHZFV3NvZmJaS1AtaWRUWDdUSUpYb2x1VmJBLVhoZnZHZw?oc=5",
+      "title": "Illumina Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ILMN/history",
+      "title": "ILMN daily price history (Yahoo Finance)",
+      "snippet": "close 209.55 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

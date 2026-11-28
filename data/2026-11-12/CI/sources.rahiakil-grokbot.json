@@ -1,0 +1,85 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cigna\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ2hLSFFWUnRtUmdIRjhMb09iLWdHVHdGMWI5V0JiLWhaU3BFMDRHWTZOUTByaldfd0tiUmJUV0RicF82YlRnMnY2bDBnMHIxVHRuVzl0TlR2Nkd0X1pob0puOHN4Mjd5UUxpa2s2b3pwRXRrNzF2YTdKaHI2U0s1SE5LcDYtYUJvb0NwaTJxdTl2ZVlfSWM3RGRfbS1TYVNSa1RoSTdqS3k5XzF5cHV5UzJKeDB3S1NETmJWcUtjN1QtNlk?oc=5",
+      "title": "Bernstein raises Cigna stock price target on 2027 growth outlook By Investing.com",
+      "snippet": "Investing.com India, 2026-11-11T10:35:14+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-11-11T10:35:14+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZWE1X1UxcDBxMWYwdDkyYjFLUktURExaS1N2ejFoZTBXS3I5Y0tHaU1tU0ZzYk55eThRYkc4UTg3NHY3ZjBCQnBIZkhWSXRad3VEeVc0MHMtR1YxNnV4U3VrbmV1NUs5Qm9lUzlENXV1SnJmYWpPVXZYSEFQUW5zQThqRkJHWlBlZXN6d1pHV2kyMVJxQjF0MDRR?oc=5",
+      "title": "Cigna (CI) Recently Broke Out Above the 20-Day Moving Average",
+      "snippet": "Yahoo Finance, 2026-11-11T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEl1eFNjM0hIdzdTMS0tU0kydDZ4SjRFbWE5MldPaWQxTjR3SUVSX3FKSFBxdWllQ2NXaVhIUXdJSzRmN3QzSmpPdVZkQlRTSE51VGhvczNGV0sxeDY5c2NWUzVhVzRPYlVtWk5wRTBvUmtSaEFSa281bmxuM0N2V1g0OVZsc3B3Y0NvMkpYZV82Q0YxS3Rkb0xyOVBUTVZuemJ3WGFSQ3UtS2h0dXRjWU9xQmVoVU15aU5CbHJHbTU?oc=5",
+      "title": "Cigna Group stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWUVSZGlyWTAybUQ2WVZZZlpVd2VpT1BWZGFJc01kMENwbmFmT1h0amFnWmt4dFU2QnRUM3VaemFzQm1ZU3VuaUp1enVTd0tuV3JCQlU2VFJpN3YyVTZJVjZrbU9idUZDTEd1T1cxS2RWeE8zR0JQUTl5aWpuWG9KTjFPZzhEZmt4WjRrMFV0VDY?oc=5",
+      "title": "Cigna Group Targets $45 EPS by 2030 as Specialty Growth Offsets Pharmacy Headwinds",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 296.27 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

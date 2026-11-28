@@ -1,0 +1,73 @@
+{
+  "ticker": "KMI",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kinder Morgan\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 23,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 11,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmNNWWRKRWI1MEN4SkRtMEJNR2pzU2psbU0zenVKaFZzZTdibWpleTduMFo1Z2RjZ21ZaUk1ckdEWlB6a2ljVlNCMExYcWJVZHBSLVgyZGUtZ0YxZGxnUWZfQVJsUWpZT2RfbHdtUW1rWTZMVEV2Vkpvc2s2UVNmdDg4aFBxZ3FlSG5yUGN6cHUyT0Y3Q1NsckVyWEthWUl4YlNnakxBTTZ2T0dQUXpmX1lSV2NvOU4tdFppRWwxclJOZw?oc=5",
+      "title": "Kinder Morgan's John W. Schlosser Sells 6,200 KMI Shares via 10b5-1 Trading Plan",
+      "snippet": "Kalkine Media, 2026-11-11T02:39:44+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-11T02:39:44+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWmNKVmtYZ3U1VVY3NHZBZ2VlRDFTTmpLcU5Lbk5LVmtpRjNGdThYLUNtQnRCRFNTUE0tWHk0NjlJMFhjTVl5QnlQQ0F6LVlhc2NtM202YTZ6RTRSbWhfVWNlb2RjSkRQX3NBWndBc2IzOTJ3Q0F0d0hLSzVubWwySzdoeEY4cUpFOW0xYWRFTHRmYjFxNUNMNlJNUnVBZw?oc=5",
+      "title": "Why Kinder Morgan's Chairman Just Bought $15 Million in Stock",
+      "snippet": "Yahoo Finance, 2026-11-10T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQak5IWGxvaW4zMkp6aUJ5bklROENwLUtQX3c4d0VjSWZzaTM5MjJUT250a2FiNm5nYWp2OFNmYUpqM2FacEpEYzc2d1dFWEhpQ2xiTFBWa0RPM0lZZmN2WE9UcXBRZTdmWTY4RDRVbllTcXhaY0FjRDdNZm5waG5DLW1tYU8zdUtOVGFWU2Z2dHZmR2VfYnBRTUdoMWlvZ2xTODRLSmZ0a25VXzZrSUVELWw4VDZPLWcwQmlORXlZUUUyUjNCZWM1TFpybEVLQQ?oc=5",
+      "title": "Kinder Morgan president of terminals Schlosser sells $192,200 in stock",
+      "snippet": "Investing.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KMI/history",
+      "title": "KMI daily price history (Yahoo Finance)",
+      "snippet": "close 32.01 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

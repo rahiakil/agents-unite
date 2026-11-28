@@ -1,0 +1,121 @@
+{
+  "ticker": "DD",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DuPont\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeWZnR1VHbnJWNm5nVjVJRmF1Wm1wTUdPN0ctclE4ZXJUdWRBWXJ1ZktJbXNzd0NBc3ZoY011WHlHX0NRVWFRWHJZcGhoamt3VFF1Wk5HLUdCWE5MbXdIQUhVcFhsM2xRU1laZ1p4MUlyOFlZdzEydEUyUGx0YjJRd0paT1BLTW9jQnkya3dHb0FEdkpFZUxvR3pKLV96N3ZDWEk4R3JWMFRJMkVIMXJj?oc=5",
+      "title": "Dupont De Nemours stock hits all-time high of 158.5 USD",
+      "snippet": "Investing.com, 2026-11-11T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVURweDl0R3gyUDlfUEhtSWl0NG1XNE1hX3FPaGVNSjllSDg5Q2pkNHlLRHpEaHJJSDI4dEQ3SVNlRDVVQms1aDZNUXo3MUU3VXhkUnVaUDBCU19LMXhRazFZS050MnV3djZNSmNmekswZW5qRExBT1hJZi0xWllmLWxsOFVMSGp6ZFVMdDd2WmtSLWY0dE4tTHZXSDFCT3FiUVlYYzY3b2Radjh5SDBLZGFtLS1PbHpybTBKcg?oc=5",
+      "title": "A Noteworthy Decision By Lori Koch As Acquires $104K In DuPont de Nemours Stock Options",
+      "snippet": "Benzinga, 2026-11-10T15:02:02+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T15:02:02+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWkVjWURpRkx1dmdsTWhhRWx0WlU2aXdsdVhkcWdlQ2pYbjRNN0VOTl8yZHNNS3VocEp1d2tUVXNYS01mbGdKd0RrdjhFMVRPeWVrOXc0YzJqWi1rc3NZeXNKdDNIY0lvRFJmZmZLeDljYUMtWEhfVTJjMVgtWnM3MUN5V0YwTG1wSzhaSmV0akF3ZDh6VHlQdXVlTEFMNko3UmtTWnRaZEFwRUJYWHF4VldBZEdKRE1kUUhfNThRQ1g5QTFhanc?oc=5",
+      "title": "EDWARD BREEN Exhibits Confidence With A $4.06M Acquisition Of DuPont de Nemours Stock Options",
+      "snippet": "Benzinga, 2026-11-10T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSHpKa3BwUWlldGF0bTV4WVUwQUhxb0hhdEUxVk5jbFQwUkVhZHRwV0J1WFRwNWI0THQxVXc4b1FNOE5QeDAtbUp3Q0xsaG1iOXVCLXBBRFlSaE1DVWhuRmZKRVRBMDVVZUF1bHRTWHZidjV6ZHp6MFRUbGoxNVR1OF9yTlNFelp4Yk8yUjNaZ2ppT0dPTVhGWm5kU19YYl9GczRHVG9yX3k5V05WaURDMDBiZHJOZHpJLVlz?oc=5",
+      "title": "DuPont Expands High-Purity Water Solutions With New EDI Modules",
+      "snippet": "TradingView, 2026-11-10T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPelg3VmJPamVVVy0xVE4yRl9XVTlUU2pDV2NIUV8zZmF4bXJkcGpqcjNoVkhDbVJ5eTlmOUpObnNfdGdQd01WbXlPZnBIWTRlR2RkU0JpLVF1ZEsyeXMySjRxdjk3akVoRjNsQ1h1RFJCQWFHT3hCbHdLdmdLZzNzNkhqNWpDdEhRNEE?oc=5",
+      "title": "CEO Of DuPont de Nemours Makes $349K Sale",
+      "snippet": "Benzinga, 2026-11-10T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdU16ck5FX21zemthRXphVjBOYm16UEpmb3JULVd5OFY5REE1MmcwQlJhSnJPNmlSajJWRVhuRjVZdEI4eXd3YndMMXVsLUY2c043MTg2SWNieUl0OTFrbG5hX2thOHdiNXFENkYyMmxYY1l0d1RKLW1aTnZRN3YyNEVmbU8yZF9pUWlra1JZX2hrRy1wV0tFNEFn?oc=5",
+      "title": "Board Member At DuPont de Nemours Sells $13.15M Of Stock",
+      "snippet": "Benzinga, 2026-11-10T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMnR3NFNzUkdBLXE1a0xwblVNeHhFblVBS0tVRVVkVElqVnotQlpKeDFKV1IxSW1qRzZXVUdyWUU4ZktTMm9XbE94MHV1eUFKMWlfd1ZXZVEwdHVYQ1I1cll2VVhHQVI4MmNRdVcxVHFDLVJIbVVJNFJsa0Z2LVNVLUJqSlZhZ3Brdm9NNjJsZXd4REJiTXpYaFo1VFZjTVZRRjFKS19ibGJsdmtqRWNQUUVnUmhVb21ES1hHNVAxREgyMno2YjhWWVU5ZmdmME12?oc=5",
+      "title": "DuPont de Nemours director Edward D. Breen sells $13.15 million in shares",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DD/history",
+      "title": "DD daily price history (Yahoo Finance)",
+      "snippet": "close 154.7 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

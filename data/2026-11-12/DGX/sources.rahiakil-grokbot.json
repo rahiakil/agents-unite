@@ -1,0 +1,61 @@
+{
+  "ticker": "DGX",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Quest Diagnostics\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcVpMMnlCdHBQYUt6dGxjZnpPSUpocjduWDUxZXdMUm1peUJNbnhUTlMxX1I1dUdFRVQ1T0dJdmhFczl2THp0SWVXd0h0QTVtbTJud1FPODk4d0toZDRVd0FVMTllNjV5c19JUmlyTW9HNzAtTDVaZzZsTXZ5RlR4U0dZMFdNeW9fbzI4cWowQ002TUZxTG05X1pORTdONkRnbV9KYkxEVkI1b0piUDlkLTd4VTFLcVJWcmRYd056RUZRcEU?oc=5",
+      "title": "Quest Diagnostics stock faces compliance overhang after settlement",
+      "snippet": "ad-hoc-news.de, 2026-11-11T08:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWUhLbVdfWjdzd2ZLckVWdWdaNmJPcTZVU3lXTnpvQV9EdG5Odm9vY0JKaW1oNlVIenlJYjN5T2VrNFY0Z01CMmJWY0ZEV19SUlJfc2VCQWQ1VE9IdFhtaVJzTWV2bUFKSzl4OXNYT3hnVWdxWWRfcE5wSDAxc1kxSmJyVERMeHBpTXdkd2VRWjY0a1BCR1hPRHd0cXVhUm5LRkdhVkhpNS1RQQ?oc=5",
+      "title": "Quest Diagnostics Declares Quarterly Cash Dividend",
+      "snippet": "PR Newswire, 2026-11-10T08:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DGX/history",
+      "title": "DGX daily price history (Yahoo Finance)",
+      "snippet": "close 259.65 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

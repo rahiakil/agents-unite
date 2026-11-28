@@ -1,0 +1,61 @@
+{
+  "ticker": "LH",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Labcorp\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUl4UGp3b3IxTnE5ZmNqV01JTXdrdU16d0p5OWdYOFZiT1JENGFVaHRyeVhCUURpN0YzSUpPaGpqVkdBYTZBZ2FMLVhNcFlUclFPNFRKN1Q2SHg5TVFhVFFmZ1JTUkd5UlZEUVdSdlZENnBlQTM3RzhsR0dGM1J3OGo2N1R2aXJxSDc5a2tEekxrMGhZWE1VY3B5VmFCNHFvMDhxZnNKcHNlT3lNRWc?oc=5",
+      "title": "Labcorp (NYSE:LH) Hits New 52-Week High - Time to Buy?",
+      "snippet": "MarketBeat, 2026-11-12T15:04:15+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-12T15:04:15+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcDIwMGJWNk5KWnN6b0pCdGRmcmg2cU9nOW0xWEJSYkU3dGZoc1h5M2FZVzRHaHR1NURMWmlHVF8yb1BhMDZMbXV0eHgyMTgzQ0FhbGpsWU9SVWp3WVgwRWUzUEpBSW5Iam9tS0tHOGRzVGY4S1hhcnZKaV90TlI3MWlQZGRwR1ZrNTVsempNcjdsNm94LUtZci1sd1VmSTBVYzJCOEpKMmRQTDVQRUs2R0Q3NVgyMnhPNVgybzZOeG1ad0R1QThEQg?oc=5",
+      "title": "Labcorp buys specialty drug testing lab company for $375M",
+      "snippet": "HealthExec, 2026-11-10T22:23:08+00:00",
+      "publisher": "HealthExec",
+      "published": "2026-11-10T22:23:08+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LH/history",
+      "title": "LH daily price history (Yahoo Finance)",
+      "snippet": "close 372.32 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

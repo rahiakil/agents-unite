@@ -1,0 +1,61 @@
+{
+  "ticker": "EIX",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edison International\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXJYX3QybEFvaTg1ZHpwMWJybU5zc3JjSFhvdXY3YzJScHJvcjVCbUFHbTZPdTBMdnR6RWctSlh2blNjNXFfZUR4amxEdGtVRVExX21UZVFtbS0tOFBkNXBVblNRS2FZcEt2M3M5ZkFtTDU3SWFHblh4R2FseXdKOTZ5dmtTdExWNG9EZ1hZemJjWUx1eWlITm90eXBjZFZFZVFZOVgtSV8xSnlLX0pmQzBDQ05SSlpnNk50a1dMcVE2ZmhjaXA4ZmlBUEN3OTNV?oc=5",
+      "title": "Edison International stock holds outlook as wildfire reform stays unresolved",
+      "snippet": "ad-hoc-news.de, 2026-11-12T01:35:09+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-12T01:35:09+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5cWVyZmYyYkQ5a2FwQ2ZzYTJiY2hqSU5ULU5Nc2RhLTlfZFpsYXFRN25heFUwc3dEZF9Cb2tqeGItMHlNdl9EM0thZHMtQnZNRHhF?oc=5",
+      "title": "Edison International (EIX) Stock Price, Chart & Analysis",
+      "snippet": "www.debelegger.nl, 2026-11-11T22:47:42+00:00",
+      "publisher": "www.debelegger.nl",
+      "published": "2026-11-11T22:47:42+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EIX/history",
+      "title": "EIX daily price history (Yahoo Finance)",
+      "snippet": "close 59.99 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "TPL",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Pacific Land\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPelhLUnBsNTNHaVpzZ3V5d1JrYzAyRnNlZ0toTEc0YWZHWW1lWlN4Y2ltOTMtN19CN3Nubl9jZHRaUkp0N3BtNTlLRXNuaVhKdkFLbVpZU1FMVmxGUE91SXVPbDRPUlJyVWpZY0EzTUtCWWxmeDdLTi1EeFM1OVZyN3hoUEhJaHlXaWRMWUF6YnE0bXhwbHNqOW9fQ0o3TncyVmpzUXJ2SlRSbTROdlRrYzJCUFpuTEZXOUVNWnVnSUw?oc=5",
+      "title": "Texas Pacific Land director Peter Doyle buys $1,858 in stock",
+      "snippet": "Investing.com, 2026-11-11T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHN5elBmUGVxcUd5Vi11ejdobzV0QXRoWTNUZElydUdLbW44TnhQc09PNGdZZDhqR3R0bHd6VGlvUE9fY2drQ2U4eHpiU0paSEZiV0lxMWlWQzFnT09uSnp6cUNVZl9Xd190NDVYTURyYnpmT1BJaHdpM3ZnOXlaOEplanhMYXNwcTNBQ2k3VmJqa2tTajZrVFBnZV9NenFLZGJ4dS1FX0JNZnN0WEstWkQ5RG1Fa1Bwd1FYLTFYTE1zUlJibE1zcUtQc0nSAdIBQVVfeXFMTjN0MXZHRmNIX25LS0ZvcWhrZzlGYzhCTWRxd2hmVEVyY0lOZlRGNGQ0bGVnVThJbmNUbEdxZzFkV0Z5dFZKclRCNzVSY0Z2ajlVV2UzWHE2ZllPRVhDbEhlRDdUTHhUTFZrVmpiMDd1TVNHY0xpUzE0aHNGeGlVSWRRR09sM2FJUGxXR19ZODFPemNxVEJFTDNDQ3VYblp2TmQwLWZBcFdBaGt2YzVVdGNLUHF1dXRzNF96Q2hOVFhBekJaSmFkVWdCeWpqdEhjOU9n?oc=5",
+      "title": "Texas Pacific Land (TPL) Tests Its Royalty Growth Story As Valuation Debate Heats Up",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNTI2WDlfUnpCQ2RKVmVpd19zUWlZYnhOM3p6Y2h1eENSdW5neHgtOWxnNGgtQVlFZS1hd0o2akY4T2FfelF3a054V01jTWl6UFA0Z2hVUkhDRHVDNlQxYkI5Ym9JYUk3dTRRQkZRbTd5ZFlCRDByU0Q1VlBMWHJveFhSNGpKRldHN0tqb19mcnhNbVV4SHUwZng0UjJpZWx1b2c?oc=5",
+      "title": "Texas Pacific Land will move its incorporation from Delaware to Texas on Nov. 17",
+      "snippet": "MLQ.ai, 2026-11-10T08:00:00+00:00",
+      "publisher": "MLQ.ai",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1k5RUhpbnNBbVVKSExlSDNLeDFpNlprYi02SVhfOVpEYjc2bVVqV2V2SGd4QlRoT3RQekEwdUwtNWxJTjl0MmU2cl9ISi1jamp0V3UwSzRFcTEyaXYwVmhZMkdud21FUnJKQ1FIUTRrM1NVaUFBSk1BNS1oTW0taWJQZno3cUt1N2hGbWdwa2RPTnFELXhsc0YxWjN0OVBpZUprNS01MHpmblBCN1VqdXpURGI?oc=5",
+      "title": "Texas Pacific Land Corporation 2026 Q3 - Results - Earnings Call Presentation (NYSE:TPL) 2026-11-10",
+      "snippet": "Seeking Alpha, 2026-11-10T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNVp2ck42dEpjY01KQVNmYXhvYXhPQ3ZpTk8xVF9rX29TREc3T1hLQUI1WTY4LVJDMmlMaGhvZnN1amhoYk9DT20xV016RHMwRmt6dlBlTHRwdnNqZjVoZUNGZFJIenZydE5jdjJjNGhYeHFNSWJxNm5KNE1QTlJzS0xtUFdCMGFaVkpEX1VTUmVzRTVuZ20wd1F1WlphdzJJNWdSb2lYS09kWmZsZWhBN011aWRuM29RdElObnRTRnJyT0s4MmFLR2dxWlN5NlNPYXRBN0NZTQ?oc=5",
+      "title": "Texas Pacific Land Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-10T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONlRQOEQ4QUdoQndEeGszR3A5VU12b29LTFF6dThZTlBFRjB0QUdMZ1FCTXZJQW43Z19FWUJqRWcyTDMtWWEtZVk3SHVsMW94M0h6UkkyajJHLVBVQW5hdDZYalVja3FhX1lILW1rVWdUSFJPdWdoQlhHeXRfaFB2M2pPcDdkREd5akRQZ2xDU2NXaEsxaUFmUDd4bFZDTzRJTk1XLTJPNnJFQjJBVDhaaFNPaDQ2N2hOLVdLWktsbE45MGxjZ2ZaNWpqYUTSAdIBQVVfeXFMTlY5WWVBeTViLWVESjlEYU5rRjMwdEl2RHQzRGQ3LV9HbjF2UlV0VWVKSy11ZlY0b2hxN3VPQXY0V21aRi1HcVluRF9DcVZ0bjFfZEhwSl9ndUhpUzhxUUZwUmhxWnlKbmwtUXZSWWhTMzZHVFU5a0dhdmdGell1LWNrLW1Eai1OSzJqdEx1bm5rekdyb25KUjJucjNKbl9GS1dPQzA1LUNtdWh5YkpNY2dKRGFZNVZVUXNqeVYwMzJPWDFuWlppb3d5UFFsYXgzOW93?oc=5",
+      "title": "Record Earnings Could Be A Game Changer For Texas Pacific Land (TPL)",
+      "snippet": "Simply Wall St, 2026-11-10T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNelB6RTN4WWFiTEg1by1zYlZrTTJ4bXpVLUhqZ1B2MFZZWUtyUVlhZUVxOUJUUDZ2dWNoTW5BOWRDOHl3NlBvdHdNSzZoLXlibkpVQ0E2TVF4aXFETTlkOU1CNU1mY2dqRWtLenNxem82ZkZYWXZIdGdhUTgtdGw5RS1lZVhVV3FLTVFSZngyRk1EX2RzSFA4cmpFWFI2WGtJUU8wVDN4dnUxdkFVbjZBX1htUy04NkN1MzBhSDF2YllTRTVqUGZuZ0hCNmxLTGdMMU85cGlYQWRWcmNoYjNwWQ?oc=5",
+      "title": "Texas Pacific Land Corp. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPL/history",
+      "title": "TPL daily price history (Yahoo Finance)",
+      "snippet": "close 281.18 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

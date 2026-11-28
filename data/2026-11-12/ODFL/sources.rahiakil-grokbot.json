@@ -1,0 +1,61 @@
+{
+  "ticker": "ODFL",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Old Dominion\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYmFkREdRb3Q2WE9UdGl2OGJENC1Za19FTWlPaEREcVJZWFdhdllCdzVHbFFqQWdRdGxhdmhzVi1ibXpVeXRYQXM1SkE5S0R0VVR0eEZOWW9xaFBGT2owdXVJdko2TXZlYkpGMU1TY3VrTklldzU5dFBGSDc1T2xNbUtNeHBFcUpLazZuSEF6dS1fZXl6aE94THY5b1d5cHFyMXQtbGluQmtCYUR1MHYzQXhZMmtSMnBrTW81RzR3WG9JMTBtTjYxTUtIaXNMS0VVNzROM1VHM3ZYUEIyZFpFV1dJM0hNc0c4MDlJLTF0ZE5vY0plQ0pCSFZGcl9aUQ?oc=5",
+      "title": "Old Dominion Freight Line, Inc. (NASDAQ:ODFL) Stock Has Consensus Price Target of $217.22 According to Analysts",
+      "snippet": "MarketBeat, 2026-11-11T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQd3dmcHBmSFZzYkRqeGIzUi1SUEc3SVJ5eVMzS1N1YkhCWFlQR2xGd3A5V3pDaFNOSDBwekVRaEJCc2NITGltS2FsRDBfTTJXU3NhWnBVM1ZYZEVmb005NVFybnQ1b0JuVVFsNWtzWXNXWGtHN3dwMTdSWGtORVlFcWJzWGNFTDNrMVF4RU5XVm1yZnEzaEFWNkxSVjhzSHlrQlAyYmxqVWlwcGItZ0RJNU9HVVZXNHAtNjJfbWxzYnJsNkE?oc=5",
+      "title": "Old Dominion Freight Line Inc (ODFL) Shares Surge 3.6% -- What G",
+      "snippet": "GuruFocus, 2026-11-10T01:21:37+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-11-10T01:21:37+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ODFL/history",
+      "title": "ODFL daily price history (Yahoo Finance)",
+      "snippet": "close 171.66 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

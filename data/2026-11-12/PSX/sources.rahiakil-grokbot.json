@@ -1,0 +1,121 @@
+{
+  "ticker": "PSX",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Phillips 66\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZmRkLUx4Mjk2b1pYenFGMzZrVGpBR2E5NHFsX1NhbGYwdnM4alcwWGRzYzFxbkg0cW1kRW1TLWpsQ2c0LWVheWs4SHhORlNndHlEUmxGMlpOOWZfVDlMMVZaSkVUWk5OREEtSXVrMUxXYjFFMC1ZMWJYRFFEXy16cDE1dXdKSm1PUGk4ZlVWT3AxdVV5RnFqZVpzRGxiSGx4TmNBa2dSdURRYkppckJnekJXSG1zZXoxcWpIMDh6d0dXR0dHRlhZ?oc=5",
+      "title": "Phillips 66 stock expands SAF strategy with new attributes portal",
+      "snippet": "ad-hoc-news.de, 2026-11-11T16:00:36+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T16:00:36+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOR0hBNGFxdTNaTTg0TFdyWkJORkw5eU1RQjR2Mk1ISjJab3c1d19SSDNqTzh1OTZyX1hkd0ZCZmE5bHFRTmJwMGpoMXMxMzZYTHZ5UjlqRjNkMFFENUVKT0JhUVBPY3RUSGJKRFlhVFQyWnl6eUNMY2NQejlhMXlfMXZtd0t5Y1h6ZVVYYzNyQzNNT05CUmMyckhMMWFHSWZuXzlCRjZsdXkyTTVnb1dUTFl1WU1oY0hFSjR0X2RWMk8za3RLNWtObXJWNW5ySVVMdUU1OXJUYWgwWHJSSnd5QnllaWpLS3lfZExCckJ1SlFMdzQ1VldRaFZkLUFETUFDX2JWNmRjZ2pXOWxvcGtBUzc4MGU?oc=5",
+      "title": "The Zacks Analyst Blog Highlights Quanta, BrightSpring Health, Phillips 66, Valero Energy and HF Sinclair",
+      "snippet": "The Globe and Mail, 2026-11-11T11:20:24+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-11T11:20:24+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS1VYa2hyc3JDT2xBd2RNOC1nVVdkVHB0eURKSXpJYnI3MU90RU9RZUU0Yzh4aWdrQl8xZXVNVEJ0cExxSEEwbjAzT0ljeGdjLTVfczBRS1BIeUR1OUpXcVpUREE3LVFyNWFFb3lhNXdJaWJzcTJITlN4MUhYNmhNSmVoOFJqR0RVWVZFbUg0YkdhaHVFOGg2emJPdldhRkVOamVZWTdnZmhJd1o3cVJsTXhHYVlFdWFEQjU3aDJn?oc=5",
+      "title": "Will Wider Heavy Crude Discounts Strengthen Phillips 66's Margins?",
+      "snippet": "TradingView, 2026-11-11T08:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZmVXNzBXdWdMV0VYamJFd1FrSWI0bll6azlrTWlxbV9QaC1OWW9reWVSOXdlczdnOXN5N0Q4SjlOeFVNaUpSQnYzckd3c1duLXAwWW9FMDc4U1lqWjJDbEhjcWs1NTF2OENzTkU5TDNEMkNrVXR0Qk80YmxQN2VqcF8tMVZTWmo2c2tWRDhTTUcxQlZQM0xFQ1NTZ2xQazhMTWZwcGxYVnVTS3dKSGhrZ2hfcWxRU1BFT0t4bHVwUGFtVlRVVnh6bFlPQ0tyRTZfSGc?oc=5",
+      "title": "Phillips 66 executive vice president Mandell sells $6.2 million in shares",
+      "snippet": "Investing.com, 2026-11-11T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMkI4bThpelBiMWY0S0ZxajZZcUVzaVN6R1ZnNFdGTEtialpFTndEeXRSRm15V2EwdEpkTFBYYkZKNWI1YklwdVdYVDkzeWZaR3ZVRVdIa1V0X0ItOU1RVVhESldscXNUZWdtaXFVdVo4eG9xNEp6bUlfQmZ1UzllSkNGeWppRGp4bWc?oc=5",
+      "title": "Phillips 66 Stock (PSX) Closed Up by 3.18% on Nov 11: Drivers Behind the Movement",
+      "snippet": "TradingKey, 2026-11-11T08:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT2F3WmY4LTJOa2hOTG5VcXhqcjVVZ3lWX0otbHBDaGZDQU5saFF5eHZhS2FWMUZRemdSdDh3ZDRMMUJBdmpOcjBacDRVeHB5N0xkMFdIWXVQbFhPdV9INzBzcGdZYVhtZ2hBNENuaHZEUUJCTzM0UWZvOGhENTlzeHc0VlMwRTZiU0JzVWFqMUotaTM0UXZEQm9tM1I0ODgtaEJrNnZWcVpCWS1iWDZ4QXUtT2pqZ0tHQlhRTTN5WUVaZ9IBxwFBVV95cUxPaFhMcmRhQ3BBZFhTUXlwb0twWE1wVGZRNk93Q2E4bzdBX3gtUVlCVUJQR0dPVDE3VnJFUnZRS3ZDWWNydmdSX01kbkZ0S0NndmF0Qm4ySk0tdVV1TTY5a1hCUDFxRXV5NnRwaDVWZ1ZOdE15SlAtVG1SdFI4THd6NmFpcEFoSHlzS0RqdFRVaXV3T2VHLUFBZnZvekZTTlRWNDlNOFhHLWVOaWdOVS14Tks5UUY2UDNzcXc1bzJ1ckVjaExEUkpn?oc=5",
+      "title": "Phillips 66 (PSX) Could Be 14% Above Fair Value On Supply Deal Focus",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeERwOHdORVdQRVl1SnZHLThsWnBmMjZFc0g2aWxWYXJ4U2hMRFlwOWozRHY2UjJscXpDamE3Z3o0ZWw4MGc0RnByX0podE1sVndqSjFKTkJCZ2ZvSW1SM0I2VTNuakI3Vnhfak1oZkJTWDg0cFB2bVlVclJHNFR4YUQ2Q0c3N1pyVHlpNUpLVjJfYUw0V2psNnI2LXdtOTFmMkhHekRQQQ?oc=5",
+      "title": "Phillips 66 (NYSE:PSX) Shares Up 3% - Still a Buy?",
+      "snippet": "MarketBeat, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSX/history",
+      "title": "PSX daily price history (Yahoo Finance)",
+      "snippet": "close 262.91 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

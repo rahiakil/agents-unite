@@ -1,0 +1,61 @@
+{
+  "ticker": "AES",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AES\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbGtBaFhRSGZTb1ozS1ZEOG5HLXBCeUhIbHZ3dFZwQUlBMjJsQVhQaHRLRTlibS1pSkR6TWxxTXI1VWtTZzU2NFh1SmpjMEo4SThLdkdVNERScjdSbXNwdGIyZEpUTWRfUzBLUVhPdWRPczhGQVZURi1xRXBHdVVPRHNVbW02UXRrWk1oU292UGxpRmhhUHZqenlRekIxMnpvRVlNSElndDRMVVBkMm04bnBCdjY?oc=5",
+      "title": "Are data centers really paying their share? AES Indiana\u2019s Google deal highlights a thorny question",
+      "snippet": "Utility Dive, 2026-11-10T08:00:00+00:00",
+      "publisher": "Utility Dive",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.093,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT19sYjdlTDRLbktFSzlOT2NySmtBMGxTRXhyZWRqU2lDc0pkQUxDS0lRZ3pYeWJwUjVyMkxfRGpIVjVUamlwWXk4d29Qa2JQbVVNeklQdHBxY1BCYmU4UjlCV2IydzZUNi1TMGl3ODRWdFNEMG5KNFFBSGVEWU1sQXhNakx3ZlRGOERqczd5dFlqaUpPTWtTX19ENWhQdGo4eU9IWHUxejRJWEliemRibEVLZWRSZDFNNkV5RzZ5TGotTWh4dlQ0ZTNDTFVuUG85b0JLcEVmX3dxMnJuTnV6VnpR?oc=5",
+      "title": "AES Passes Flynn to Become Largest Arby\u2019s Franchisee",
+      "snippet": "franchisetimes.com, 2026-11-10T08:00:00+00:00",
+      "publisher": "franchisetimes.com",
+      "published": "2026-11-10T08:00:00+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AES/history",
+      "title": "AES daily price history (Yahoo Finance)",
+      "snippet": "close 14.91 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

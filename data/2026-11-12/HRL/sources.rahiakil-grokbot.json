@@ -1,0 +1,61 @@
+{
+  "ticker": "HRL",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hormel Foods\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRUhaWEN5LVBCZXRub09jOERaTFlLUS1QaGMyUllmZWRoZTVybHhhSXFfRHFTd2NFUVZkekhOWWt2bmpBVDl6NXJUY29jVVdpUGM4dWl4TWNPRWlFT3gwRl91QzRUV1RKQzhBRlQzcHdVaGVydEJhSjEwWW5YcmR0REFlTzlVRmNIelUtUy1ZNnIwVWhTTGU0LWRtbmxSazMyd25mc0xUSXhhTjRmdzlGaDZBa1ZzZXUtdDJ6cWw1UWZLTmxHaHk2cGl4NEs4bE93V3MydFp5cDLSAd4BQVVfeXFMUHgtZUxSVnJtTHhreGdJdDNRbmgxX0xxQnpjYS1zd05SWENnczNGS1dSWW5Da2dQamp2MlRwNHNuMGhLbGs1VnB2UFNETzlDM3RDVFVfeGxGc3JOa1dMcVoxaFVocks1d3BxVWhSdEpYcHpheXlTb2lDV2dYeFcxem0xSGZXQmpJdE4zX09MSHRNbmNtcGFTV2t5bEt0aFhnM1lPOHNGSVJPbzZwRTA0MTRpSlpqS0kzZWZrQmVacXRoOHd0ZkFpMFh0S2ZOWE1CaXZGYnNOaDZYYmlnOEdB?oc=5",
+      "title": "Hormel Foods (HRL) Is Getting Fresh Attention, What Is The Market Watching?",
+      "snippet": "Simply Wall St, 2026-11-11T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUlRfaFowUTRZblR0V0EwUXdGRXN6UjlPQ0g0WVQycHZuamREanVYLW42aDdHUV9vVWhqN0U1M1pwMFI4WW1hcVdvUDlyanpWbUljUGFCd1lLakVtbVJJWmw1cUhGdUlRSmRzTjEwV2FINnN1RzlzTzNNQUJOYkpfX2tOVlcyQkZfRWJRWWI0WnVRYnZDa0hBaGpES0Yyd2RsV3FTS2VHSTVzY292dnNJajRjYzQ2OHJuSFBiOGRBQzE?oc=5",
+      "title": "Hormel Foods Corp. stock rises Monday, still underperforms market",
+      "snippet": "MarketWatch, 2026-11-09T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HRL/history",
+      "title": "HRL daily price history (Yahoo Finance)",
+      "snippet": "close 21.83 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

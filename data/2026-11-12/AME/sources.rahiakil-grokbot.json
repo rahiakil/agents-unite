@@ -1,0 +1,61 @@
+{
+  "ticker": "AME",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Ametek\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORlNTU2pyRVFIMTBCN01ORkZwb1J0T2U1R0hBVV96bWRxaWQ2dkNGYU1RanBqYkdXcU5OektTYVAyRmFHakphRzdSUTIzczJGalVGZGRlZk5uX0JobFdCYzkteDNPNFdzeU5BTFNoUF8tY0tlQ3piM2FmWWxTc2w3b0YxMmQ1QVA3QVZMYTBoRDJXTGt6Nk9uQ2NkcHJqS3RjN1M4QkpONU5BeXFUdHZDUk5PWXRpRDRDOGgxVDd6VVMtZDFDUzRBeGJtb0NsQlJuWGlfOGt1WDNrY2FPWW5xVnRVZ1pDalBzN2xlaFN6MnJfZ2s?oc=5",
+      "title": "Analysts Offer Insights on Industrial Goods Companies: Ametek (AME) and Boeing (BA)",
+      "snippet": "The Globe and Mail, 2026-11-11T08:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-11-11T08:00:00+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFZoQ1U0Rm5hUTFxZGpwbDUwSnZzX1czMzRhdG9hWWlZdmZHVW9rVTFkVTNjWU05cGtzcUZFeWVNN09oc2V6dGx0UmwtRWEwQ2pVQS10endjZ0xWUTRyZlBuUnh4VHRNY3NaMXBRV1BFME5zcm9LbHhIaXFFTHJVQUpIbWpRZkdJRzVfNlM0VG5UMkE5ZTl2MG1pcDhqQVJXZnVZVTNB?oc=5",
+      "title": "Ametek (AME) International Revenue in Focus: Trends and Expectations",
+      "snippet": "Yahoo Finance, 2026-11-09T08:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AME/history",
+      "title": "AME daily price history (Yahoo Finance)",
+      "snippet": "close 241.04 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

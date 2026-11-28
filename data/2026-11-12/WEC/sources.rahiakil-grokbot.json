@@ -1,0 +1,49 @@
+{
+  "ticker": "WEC",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"WEC Energy\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 1,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS2tnTXlCWkhjYTVqRnNRT1FmQ2J6MExJeHdTemVIdEd4QTN1WExvWlR5X1pMQktaMjBlY05Mc1dsMGJoR0U2dWVFenZMTEpvMkxvNlhxRm1Pd3Uwd3pYMGRzbG85b3ZuU0JZOHBzVzNxRVNUWFliRUJEeHkwY2pENHJfV3o0SHZNZ1dHUTNieGJpaVAwd3ROb0p5SjFlellPcEhFYW5DcEEyOFR2dExWT204cDRHZ1pkbzZ5QkN5Wk1EZ2xRVFZUakdBbDVjMFV0NXFaag?oc=5",
+      "title": "Wec Energy Group Insider Sold Shares Worth $2,157,319, According to a Recent SEC Filing",
+      "snippet": "www.marketscreener.com, 2026-11-12T15:12:45+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-11-12T15:12:45+00:00",
+      "published_date": "2026-11-12",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WEC/history",
+      "title": "WEC daily price history (Yahoo Finance)",
+      "snippet": "close 117.48 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

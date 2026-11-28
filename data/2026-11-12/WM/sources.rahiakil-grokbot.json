@@ -1,0 +1,85 @@
+{
+  "ticker": "WM",
+  "date": "2026-11-12",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-12",
+  "news_cutoff": "2026-11-12T21:00:00Z",
+  "generated_at": "2026-11-28T01:35:15Z",
+  "collected_at": "2026-11-28T01:35:15Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Waste Management\" stock after:2026-11-08 before:2026-11-13",
+  "news_stats": {
+    "raw": 42,
+    "no_date": 0,
+    "after_cutoff": 16,
+    "before_window": 1,
+    "irrelevant_or_spam": 21,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUWYzUHRGWlRLR2ktSGwwTWJ3QzhDTEplalhoV0l0di1jV2RPZG9JTHFBdDhYZzRPZFk3NE5HYkdBMnUzMEMyRXF0dmdZRTJpYkNLNjBtUlJ2WUM5TEtvRXRrdHFld0ZES2ZHV3pmYjZSTmhVWmVhYTRIYV82dmMzMWs4bU1Fc29aQ0JsUEZTajY3bHNMQmlaeGpGaHBRT2YwaElXMGR3NlFPdWh3V1JabHo4dXpFdThURHlXLTQtVWk?oc=5",
+      "title": "Waste Management stock: Healthcare gains support 2026 outlook",
+      "snippet": "ad-hoc-news.de, 2026-11-11T15:32:53+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-11T15:32:53+00:00",
+      "published_date": "2026-11-11",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkwxSngyQklrcjYxOUdYTng5MFI4bnZnNnRBd0s5c2ozY2QtRUxZanFmbGdfMDhTSTFTOWJicXg0NW95dXQ2eENXV0U5bFFUbHZFRXZ6YkZjWGNQUjZvcFJVZTVSNXZKbU5zb2JOOXNKaUI5U3BXV2V3Ri02X3BXTDE0WTJpMmZEb3RidHhCYjAtOXdJWmduZS05ZXV0NTkybzR5NWFTdmNRNmsyU3cxRl9hNkdvYnA4U2RfeXdlUkpmQThZOGlDM2l2TncxbTg?oc=5",
+      "title": "Waste Management stock keeps 2026 outlook as healthcare margins improve",
+      "snippet": "ad-hoc-news.de, 2026-11-10T14:02:59+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-10T14:02:59+00:00",
+      "published_date": "2026-11-10",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZXpyTS1YRXYxcXdkQjNFTkRrLWlkQ29GclpxZWVWQjJkUlRYMm8tUVZOYjFyVEtEWUhYWWF3MGNKMGMzX0pFX1RVTUZ6ZTh1MkNfUG1GVU1yNkZoU1FhTHBCVlg5djBMc3lfNHlZMnFXX3F6MkkxQ1pVNndOdTdSNUdYWEJDV2tvUnZudVZFZThqSjRfWGs5bnRheFNUTi1NZGZzaDVlTV8?oc=5",
+      "title": "Waste Management: I Bought The Dip, And Now I'm Waiting For Another",
+      "snippet": "Seeking Alpha, 2026-11-09T08:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZWxPbUFHUG9oM1pvVFlRaGl5YmkxTDh6aS1pVWRGOFdGNUEza0VzQUtNZVdkSGhMRkJLRDZJMnZkdkNLVFdLTEsxM2JNc0lMX1lacUREa2JTem5jVUJRTDN5Y1hGTTRsc1F6NmVKQU9CdHJyb09WTlF6VmhuVkhvUmxFRnUzNmUyX01iWkhaaG9uWHpLX0prWWp0MUpVQVVxb1hmR0h1dWJzYl9SZy1xSi1YUlliVGJJTkdha0hlUV8?oc=5",
+      "title": "Waste Management SVP Johnson sells $121,000 in company stock",
+      "snippet": "Investing.com, 2026-11-09T08:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-09T08:00:00+00:00",
+      "published_date": "2026-11-09",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WM/history",
+      "title": "WM daily price history (Yahoo Finance)",
+      "snippet": "close 244.11 on 2026-11-12",
+      "published_date": "2026-11-12",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

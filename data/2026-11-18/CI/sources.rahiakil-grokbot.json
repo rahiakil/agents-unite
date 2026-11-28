@@ -1,0 +1,109 @@
+{
+  "ticker": "CI",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cigna\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 14,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORGRkN1J4aE9oRmRoR2ZOeFJ4eFFudjFDYzNUOHVFalRKdFpYaTVEUHRNYS0wRnZqRzlMX2R4TWs4U2RtLTFFblhOdDBVTGRSbnoyQnZaRmVZeGtOVUVjTjFmUFV0aHhFSndjSHBuU2w1TE9qZGtHUkU3aVA4RWdYcS1OVzB5RWF2cVNlUUxIbXg?oc=5",
+      "title": "Senator Warren antitrust spotlight coincides with Cigna stock pressure below key averages",
+      "snippet": "Traders Union, 2026-11-18T20:53:30+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-11-18T20:53:30+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.296,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOF9TZXZuMzZQNjVLN3h4MkJKUmJrRm9RSk1ZNEdIeHhncFRsS29yRWZ6ZHRQV3FMb2xfT05neEw3QjZXcDJSNUtRMFZrckQ0Vy1DNVNJN0pKcFU5elJTQXVvS0hsQ1FnSEdLOFdmalBTS2l6UjBmYkxhbWRrYlllS2l0djJlanRFRF9QWnJzTE94Wk9LMVdSeUtqZEs5Zkp6ZjJSWERDUEh6S1Vi?oc=5",
+      "title": "$100 Invested In Cigna Group 20 Years Ago Would Be Worth This Much Today",
+      "snippet": "Benzinga, 2026-11-17T20:15:18+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-17T20:15:18+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcktsX1NiX3RaLVlRZjBneW9nV21tU3RtM1lacjVOUVhuRWNQVXBoM1Y1bzdTMngtOTFOZGNLc29pUDRmLUdCNHVMRFNrcVBLd215djM5bFJ5TXFjSlhTUU53NDE3TkRCaHVJTUc1dDY1elhJLTdSU0NDY2FHeDJ5c3NRTWdoeEFWRlMxODVWY2NZMmxsZWRYbGlCckttU0RuX2ZBbmFuQTZKeVBoNVM1NWdTZERtZWFCVkVLNloxTWpwdkZsa1Aw0gHMAUFVX3lxTE5QSDZIZzZ1ZVQ3dW1hY1JjbHA0ODVVX01QVnQyRzZNRVA5RThpRTlONTNjVUdCbzhxX21ucDNabzRONjFSS1I4V3FoQjlzZmdtcGFzb1A3MUV2ZVJiX01zdE04QVVFSE01c3JydUZwbTl4NndQdG5relRMSXB3bGVzbFdtOHFRYWtrM0x0b2Y3OGtiNUp1QnhKQVRBYUpnZ0tkYUNLZHNBejNtSXlwbGV5UGJLNjBvdXNEMUtDN29xWkNDYVFlR1M4TVQ4dw?oc=5",
+      "title": "Learn Why The Bull Case For Cigna Group Stock Could Change Following Quarterly Earnings",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNdWNTTUxFa2pMNGNIWWx0aHh5S2lPSnk0NUxrUUFxSDZ3TWxkOXlVVWhycW9BYWlRWHRydDY0cms1MDktUkpGaUs4RVh0YmpuX243cW85cEZ5dW1pbEI4QnhBMVBDXzl6R2dWMUh1X3R2R3gzMkNxakNKb0xaank2VHo3S0FaZE5uNWNXQk5nclotMlllRlhpc3pfdGlwYlJwN3NKbEF3VzU3aEVwZmVHaTF0ZHIxMXFXZElIR0RQRWlvTGhqYmFZODkwLU45WnNRVGxFSkFpRk9UQVhBSlZ6Q2l6cU5kWWRqSVY4c2NJWHdJQTRJRGxwNUo4RHJRb3dmR0x0NW96SXdmVTkwSlFwUFFGdmp1b0hHZ2kxSkxSbEQwUDg2dXc?oc=5",
+      "title": "Elizabeth Warren Targets CVS, UnitedHealth and Cigna, Says Healthcare Giants \u2018Take a Cut at Every Step\u2019 a",
+      "snippet": "Benzinga, 2026-11-17T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYkpIYkgyaXRxNVBfTWRWN25CVXlubFlrQk5TQzM4Yk5uTmt2V1kwNHpzZDk0XzVPc1VOZUZKVWVDSWdEM2RyTndvNVRldjl0MXNzcXlTczdabW43RFZuNDhkdFkzeV9KbS1GS3FaUnRFckd6ZzhSaUpNeVg4RWMzOUs0QTZ4aWdVM3owYjFHMk5PaklpS1JhOXhTQ0lyazJvWnZYVDZBUFlwd1dIc1BneDMyZ2lvN2c4cGsxWjQ3M0JrNG51NGc?oc=5",
+      "title": "Cigna Group stock outperforms competitors despite losses on the day",
+      "snippet": "MarketWatch, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.309,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVlSMjBlcVp4MS1SQmstTTF0S3ljZ29QaDR5SnpPakM3MmVfTzBldi1rTEdWa2pEaWtLUzlCdVZxY25Rb2VnWXJWalgzY3RlT2Ribm00Tmxzb1lzczdBN3FxTkV1M2FpT2diOFZsS21sZ2hFMW9zTWN1NEpsLW1saXN4bEgtb29fR3YxZldLT0JnR2t6aE1BalNhN3pXVDdtY0thOG01bzl4UTQxMm9FQzM2TThDVGVUTkJwSUg5UWRZbHhubjZN0gHMAUFVX3lxTFBOb0EyRmlrWVVHOXdkbXBDYWNTQi1jVHFKdXNyUnV4NFhvLTZRLWd5ckZQNUhZQ0dPazVFOEVTZ3YxRHVxWWFuUUdVM2ZPNVVDSG9ZN1RuWDg3ZjJKOVQ2VVJ6VnV6cWpoTXlNMGUwWjdCQVhDSzR2eUZyTnRxTU1GUmQ2elRXajRqcnFEWFA1U19VNzNub2xpc2N5Qm52YVZFeHlYQ0psNEZvdG1TS0F1dGNmTkhEMnI4c2Z3STFjNV9QTXVZOE1qNGFtUA?oc=5",
+      "title": "Is Cigna Group (CI) Below Fair Value On Mixed Q3 2026 Earnings?",
+      "snippet": "Simply Wall St, 2026-11-16T01:19:39+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T01:19:39+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CI/history",
+      "title": "CI daily price history (Yahoo Finance)",
+      "snippet": "close 285.37 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

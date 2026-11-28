@@ -1,0 +1,73 @@
+{
+  "ticker": "MCO",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moody's\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObGw4Q0FJQjBUelJLYlBiOUhOSnlPOVpoNG9xU0p2YU82bTZwQkRBdndHalJlUWFrdkNKVjN3emMzLTlvV2wyazJ5SDVBU1FOR2E2cnVCT0hhQ2tqb0lVNzk1NFExWUE4VmNKdnY2TFNYcXZmTUlMTkVZLTI5YTNCb1JsaTUwaUV5R241UFZNajNTM1FEUGg4SUpqd3N0NFFneEhvSURwWHh1SEk?oc=5",
+      "title": "What Triggered Moody's (NYSE:MCO) Shares to Plunge More Than 7% on November 17?",
+      "snippet": "kalkine.ca, 2026-11-18T09:34:00+00:00",
+      "publisher": "kalkine.ca",
+      "published": "2026-11-18T09:34:00+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQN05SbThuc2dURTRDSTNRUF9IX0JGcE5wT3d0bkJzakZaYVhzRVYtVVRpc2thVTRZOGZpMmc2VldpQzZ1eEh4Q3U1U1dHSG1rUVdDR3F0aDhJZXZ6SE1remctNTdramUxelRGbmZGX0V5aFpjNThvQ3Q3VDZJb0p1alZWYUdHWUNJdGlMS2txckpoMkxxelhPalNLSzRKVGJEcUYwZEtkcFl2OFUzMzVLVjgydHUzNjJQdVVCenprUlQtQlhPRDY3M0NabkdBa0hzSXpNdw?oc=5",
+      "title": "Moody's Corporation (NYSE:MCO) Passed Our Checks, And It's About To Pay A US$1.03 Dividend",
+      "snippet": "Simply Wall St, 2026-11-17T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNzhNTGFyWW1ONlVuZ09Dbm1mNXlYcndUdHNYZjV3WXhKV3FxRllXeU1SczNDMkNBcWtyeHRvaVlCTUdLRVFNOHA0MzBEdWltRUttb0ROWk4wU2JPNDUyVVBaMXd4U1I2Z2ljcl9QN0NwbWY3U2oxZENteVZveDk2akJGVWZaM2o5dzRDTnNXYlhuREpGekJrdzdIbDVGTlZXNEJhN0dETlFMV3N5S3REeU1QbUZlbncwTzZJNUg5TXhJSXg4dHZWOA?oc=5",
+      "title": "Moody's Corp. stock underperforms Tuesday when compared to competitors",
+      "snippet": "MarketWatch, 2026-11-17T08:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCO/history",
+      "title": "MCO daily price history (Yahoo Finance)",
+      "snippet": "close 481.29 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

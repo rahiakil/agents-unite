@@ -1,0 +1,85 @@
+{
+  "ticker": "GRMN",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Garmin\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMEtsMkF1MHItUDNHSElHeno2aExSWnRWQkRwMnpFa1RyZm0tVF9YX2FycTVZZDlTQko0anFIRWRHeUttd1NERjF3dV91M1VING1HaUI4Y245NnIyTXRWOVd4WU9mTWJQZ0k4aXcteGxhMGhmX0w0VllsNlhUTHl0YzFGVFQyOGc5bHFKbnktUkpheXBySDY5MTVEdHAyNUFHbEUxM0pZZTExMm5xb29CS19WQUxIamlrN1JVdXNISzc?oc=5",
+      "title": "Garmin Ltd. (GRMN) - What Are Analysts Thinking About This Stock?",
+      "snippet": "MarketBeat, 2026-11-18T09:37:50+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-18T09:37:50+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbVRmRExVUjVjLWl3SEtfRDFkZmZJMTgtZjgxeExsMm9FWktSczFnQ3hNWVZwOXczVk5Udm9fazJReTM3RFhOS2loemFlcnpQWEthakRXZEJ5UkZBdjBRMVV5X2w3c2hYdzRVMkR0aWRDai0zY0JFZndscnNXZGZWV1kxeExXVlotWHp6UjdGd3VnNVFoTldLMGQ3NnpBVEtjZmFYdHd5bWJLVzFBTnByRWUxQ19RWW96RnNDdWFPUG9zdzFBcHlNcjNjRUVjdmlPVXc?oc=5",
+      "title": "Garmin (NYSE:GRMN) Share Price Breaks Below Fifty Day Moving Average - Here's Why",
+      "snippet": "MarketBeat, 2026-11-17T09:45:13+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T09:45:13+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWmhDM3ZYZzJDTlhLOHktYjdNb3ViT2VIRE8zYXZrNm02QTE3SEFuT1BQNFFaUDd2bHNZU2JlSExjZzl3dk5pMWp1dTBGZ2ZJb1pPbE8xdjAzR2l0VjJzSEFVMHN0MmJTbDNObFlab2o5WXh4Szl0dzlhSjFBRVdfOUFpMFdkUQ?oc=5",
+      "title": "Garmin\u2019s 50mm Instinct 3 Solar is $299.99 with $150 off its list price",
+      "snippet": "MIXED News, 2026-11-16T08:00:00+00:00",
+      "publisher": "MIXED News",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb3pyajIwbW5MVWdxMzh0Tm5HZWVKbHhLZ2FPbU9lNDhzZDQ0TFd1QjlMUGR6YkRQN0NVcXFldTJiOXVKWFJoc000MXlHSTNCYUpLMmt5T0tENjZrNWhnejVDX19NeUtsWi0yWVNOX1dZcFlYMEF6a0pfM3JpUENjYUxBNXltYnk4aWRIb1BwQmFXREFLaTA4dkxESEtXRmt1QnE2T2dFSDJMS2hhZExxT3ZuQnFlSFVLdWs2SUFzdTkyVXBfcm01R1I1SmLSAdIBQVVfeXFMT0Z4ZjJYb01nYWtpZHJaQWo4WkVVVzFBRFE2dUVzRmFxdmtCa1BDNnNKdGdwbE96MXFJcUt0c2pBeUg4NFhzV25pSkdTRVdhcHNMSWYwcU1kRkRmTDFZVGVkc2ZWbDlMSHZJZUN3MkpTejdLamhhVXVmN2RPWVg5c2Zxc1E2RHlIdE1PYk94R2QtQXZMNHlvdFdNVkEzOTBJMHU1RnZod1dBTVVNY24tTDFaNzU5U0xOdmFmVVZVVUdhQWQ3dl9GY3E1dFdLZm56SEln?oc=5",
+      "title": "Live Location Partnership Might Change The Case For Investing In Garmin (GRMN)",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GRMN/history",
+      "title": "GRMN daily price history (Yahoo Finance)",
+      "snippet": "close 279.52 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

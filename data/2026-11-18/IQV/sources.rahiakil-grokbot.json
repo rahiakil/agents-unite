@@ -1,0 +1,73 @@
+{
+  "ticker": "IQV",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"IQVIA\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU2o5aGlSUHFrMU8yMmNLVUN6ZS03V3UxWnpMMTFpd0l6dGVDTHFuUHdReFdhM3d0WjFKTlpOUFhUMm5sczJQTjdfNUVoTmlqRGgtbGtWV0I2d2VPRkVUNGpyTTA1WTdRcWlvMnJCU2FpWG83Xzg1UDlmaDJOd09CVFdwRU1kQ2FnbFQ3R0t0WDduamdyY1c4RkhFVWxPLWstUGlNRWF2cVY5Zw?oc=5",
+      "title": "A 6-Day Losing Streak Has IQVIA Stock Down 7.6%",
+      "snippet": "Trefis, 2026-11-18T07:11:15+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-18T07:11:15+00:00",
+      "published_date": "2026-11-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.382,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQelhfM3UtS1U4WFpadTMtNXJINmFSaTVraXg4OGU2eXJjelo0RmxGTlBaZ21wOHlYV3BQZEI4Y1JBRHpzYjVTTnNLdnNnMFpDUW9sWEltUDVRSU05Qlo4cmlic2RDRFFXbW5WN1ZGeWxrZ0F4ZjhoWEpud3U3aGpJM242dHFhWWRMYUUwVzE0a05SSzBiRXB0VjhtSElQWUhUY2Z1MEc2VHh5bTlxNEJoTTJqUlZlOE1VQVM5cE5EMEF0TXZReU1sLWc2N3Z4R3pJTnZIenNkNllWaEItUks1Vm1wTC1DZw?oc=5",
+      "title": "IQVIA Stock: Trading, Earnings and Momentum",
+      "snippet": "Kalkine India, 2026-11-17T12:36:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T12:36:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVUN1eDU3b1FOYzdqY1QwS0NHalV3ck04ZG14TTlRa3N6RFlJX0Zudk9yMVh2djBSMlE5amZPbWVJOXNwR0tabUhmX3hfclB6R0o4VkpMUENhZkdiSF9MMmNiMmtEaTlxN1Bqdm9tME5fWmlfc2c4S2x0XzlTZnpDRVlxNHVYZnZxR01jR0NCbjRfWEVLTVpaaTMwb1lKTW9f?oc=5",
+      "title": "Rising costs leave 9 in 10 new medicines unprofitable, IQVIA finds",
+      "snippet": "BioSpace, 2026-11-16T08:00:00+00:00",
+      "publisher": "BioSpace",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IQV/history",
+      "title": "IQV daily price history (Yahoo Finance)",
+      "snippet": "close 257.84 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "LYV",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Live Nation Entertainment\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQWhRdTRQZ3hzWVZ3Slh6NmhoZ2JITGVoUG5tcEk4S25qLVJ6OW1JTDAwLXJDRk43THFEQmNmRkdWN3hIZ0JTaldaLXNuSWl6STJDSGNrWkZQUXNFd0pKNnU3ZUEyMDJBVVVQZVdVcHF6Q3NReEhEOERMOVFtWXUzZjVCQl83c1R4TDRoQzVlb2lQWDFOTEN2OVJBXzdzbkdJZi1ocjA4V1RDb0NBdEZ5SkxEaFZYa014bHhha3lCeVhYVTVUbzhnVWpEdDdDbHdKa1FR0gHYAUFVX3lxTE5GWWhkZG1hWWRjOXJpQkxpYzVjQU5zR3NJaF8xcmZnOXJPdkpsSG1zTUxmTThERzFxWHV6TmdCenpBbFROSkZMYWNmYXdNNjBQRkNwNG14SzRSWXFlUW8xNjlQU0RJdi1kdHp4NXIyZlMtamdBbk5QcF9WUElxNGZ5LW1BR2o1WkF0bWhLSjlfUlhtWEhlYTg0ZDRUMzJOUkdOYlVEZUo4X1dHUnVQM0hfY294WFVTMUs2UVp6VWpEQnlJenJzTWpfcXFIWjN3alhyWUduUG9SaQ?oc=5",
+      "title": "Learn Why The Bull Case For Live Nation Entertainment Stock Could Change Following Earnings Growth",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblAxNkZ3TVc1dXYtZXQ2b3E5bUc5ejlHeUpBNS1mME1vU1M1Y3RSSENsTTN3cjN6MHFQa2JhNGVka1pKY0lRSFpkbm55cUoyaHFmSk90U2I2WldIcWNjTXQ1TW9sMFlQOUl1SzczRGJpV0U5bVpCMUw0N1I3cHlmcXFkQlJnYVN1bWxyYWpHc09EUXBSUDR4dXJfdzZRX2o0N3ltUkY4NlNOOTlKSE54ZkFGdDc5NThPSmtlMXN1SFdjU1FuMHVqcXBrMVFYdw?oc=5",
+      "title": "Here's How Much $100 Invested In Live Nation Entertainment 15 Years Ago Would Be Worth Today",
+      "snippet": "Benzinga, 2026-11-16T08:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPV3p4NW5rWV9nVGY1R0EzbnZhUElJME8xMmd2R0dSRUZ6UXBId3BPMjJfbU9xcGR4SGUtX1A1NzJDdEowUV83R3lPMG56aTMtZzd2RDlMWWQ4U2xUMDZVUUY5bHk2a1RFbEt1Rl9wN08xemdGVnBFMklNLXBVWkZXcXkyVVk0cG1IcnNTc19ZWTJkdXFiWHR2LUJnZEkyZmhYS2M2UzMtWHkzMWNRMlg0YzE3VjZHOGNLZW0xMVhGVE1pYXdwNG56djExblhaVGc4dWdLTtIB2gFBVV95cUxPZXJZMmxiaFkzM0V0MW5xWTlTeTM1dWxOU1NLbEhIY2NlM3piTk9aR3dWT3g4N1lDY2tiRUQyc1VBN1hWanhEX1NSdjhabllnUmR1amxtempBUlRHWUdKMEgtWFcwMTRyWmd0V1AzYnYwMDZsMER1ZUFfdlpiQVdHRFNqOHBZR1RyZGRzbVhrbWpxVXFxcHRmclVNdGVEdUwyb3NFOGN1MmJkNmFxdlVDLS1Cd3dSaldRSXlIajNYTjlualR1T2txYUN0VXp2MnRYaGFhajlKNG9DZw?oc=5",
+      "title": "Live Nation Entertainment (LYV) Expands Venues As Investors Weigh Its Valuation",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYV/history",
+      "title": "LYV daily price history (Yahoo Finance)",
+      "snippet": "close 181.56 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

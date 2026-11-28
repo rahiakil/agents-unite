@@ -1,0 +1,121 @@
+{
+  "ticker": "RJF",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Raymond James Financial\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd0lpbHM4S3NtdlVxdHQzazJ6VldLSGVvbGU3TjJGOUswTHk5RzhaS21Pb3lHTkpoMEhvYVdFOXRSM1d5NlMxMEE1RlVCbGNvOS1ZOGI0YWhLQWhOM1NZV2E3cnBjVE9KUndGWmFFSUZSWlNBRC1hQmdpUkJNNXRJcVlTNVlkMTUxWWJTYlRxN2JwMG5FTWFUVmh0RHJGRGdRWFFZeUczNTdtLVV4Z3h1bDRmWnVudzNhYV9RT05XOVloZkY1VU01dWZPZk5DRzRoVWhqOG0tS2p4djFjU3NPWWhqYnNUQWMxaFFjdUV0N1BOUQ?oc=5",
+      "title": "Raymond James Financial Forecasts Strong Price Appreciation for Toronto-Dominion Bank (TSE:TD) Stock",
+      "snippet": "MarketBeat, 2026-11-17T20:14:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T20:14:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.7,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVmUzQWU2dnpteWdaSXAxLUlBekg1NWdjMHlZRGplUWwxZ0RsaWNKMU8wTG5mMGxFNWg3VXRvNEhWdEp6VmFMNDJ5Y1VWcHY0b3VWbWVZajVub2x2MU9JamxaTTJrcjB1TWxJamZGYy13MTZQa0o4d3NLYkxUcWNyM1VfX3F0MHhQQ25QeDNXRnRQTm1zdThXdkZDUnN4c0YySmd5c183NHdmbUtKTHJQRVJVaXRqcjk5Ukd3QjhXc1lSajM4SzVHMnVoUjNRRnNfaEc0eFN3?oc=5",
+      "title": "Royal Bank of Canada (TSE:RY) Stock Price Target Cut by Raymond James Financial",
+      "snippet": "MarketBeat, 2026-11-17T20:13:59+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T20:13:59+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRXlSb3J3SnJaaXd3bXM5MDZUR1BIWWxxUVBkR2RzWVRNTDluVnFMT09yLU9fS2ppRjN4YWR4UzZmcW92ZjdiVHhmR0kteGFzU3AxYXVpSHhmTnFzazJ1eFB6UTRLVy1pZUhjOXdlRkZNSXpvOHJoVmt0MEdQTDNIa0Z6REd1d1FFOG5FQTlfMHB6MVRFN2N6aUNhODRTdUFsVnV5aTRZNjEwcTYtcHhiblY5ZEt3MnljVDR0Qkgwd1JvWGFjVUtqVW5naEgtVUZBYzRaOE5YOTFVbUtzVFppcHVVcVJnS0E?oc=5",
+      "title": "Bank of Montreal (TSE:BMO) Price Target Cut to C$263.50 by Analysts at Raymond James Financial",
+      "snippet": "MarketBeat, 2026-11-17T20:13:59+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-17T20:13:59+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNc2VWOElPVXZDRnFVMGxpTGhmam9rZVZjUFRvWWNoRXQ5RUpDZE5mRUF6VEZjVXMtMkR0NmRtNWdoLW83UTA0MExxMndycEdHV0Z0MGYyREhJWkM5RDlQR3dOUDIxUWw3YTY0MjRqN09aYlRFczlrTnhUdXlkYUFjYWlldXB4Vl8zRmNGb3hYZkpwVXdnd08yN1hFYWc1eEZQa1NfeW1aU3dEMnBtZmJQN29JR2ttdzkwQjRMRmc4WVhwYk5TOXZxV2ZBRmRBazNrT2p5MFBiWC00a0ZxNS0tQWtIS3dDQzREclZrc3hJSzBjdGs4SVpNT2gyY0p6TEh4eFd4RWRhbw?oc=5",
+      "title": "Automotive Properties Real Est Invt TR (TSE:APR.UN) Stock Price Expected to Rise, Raymond James Financial Analyst Says",
+      "snippet": "MarketBeat, 2026-11-16T20:08:51+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T20:08:51+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaF8tNlFJQTIwRHZNWGpoamQySHRjTmttWDhOTHI2Uk91UE04Yl9NWVkzMGZVVU8xSTd5WW03dkNVSDlkaVlpZ3h5YUhubHV3OTJVWHhoMXlHS0hOX3BFWUVrYXRGVVJVUGZKYkVHNVdhLVo5X3JONDB3WE1FU3NfUEc4OVUxUkU0N2tfRk02VmJrN01uSm1nU1hsV1hmc1NsUVpkSllfNlZGQUpsSEc3YTJscWw5R0h1STg2OFd4UTZ0YW1hSXdxWjBCakY3SWFVNWFMSlJFZzBCcXhYakVOSjJ6d20?oc=5",
+      "title": "Raymond James Financial Issues Positive Forecast for Exchange Income (TSE:EIF) Stock Price",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.557,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUEF2TVJBSGROTjR4bDNmUEs0LXl4MFpWYjRfVWNDTUtIWXNHUHN5cjNoOGhYcDZNMS1tWTkzV3JUOUp5ME0tSW84OXRrb2R6em1TVnFZSXZ5bWotM19SWFluNVdCQnN2cWVxaGM4dGdrWUpUYzdrLTlhZ3NaV01CQkxyZF9IYUs4ZWRobmdOUFRQdWc3dnU1TkhjSUNrS3hoQVc3eHZlZTkteVZQMTR5YVpjSHBvWGY2c2ljSjQ4MVNKd1Y0SzY2LVlxd29DYzFIODhnSFRxaExIWEVESWpz?oc=5",
+      "title": "CES Energy Solutions (TSE:CEU) Given New C$27.00 Price Target at Raymond James Financial",
+      "snippet": "MarketBeat, 2026-11-16T08:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZU5iVnhpWXZQUEVLT2JsQl9qZGQ4bWtZQ29LanBQeE9GZ0czd1NHMjI3OTExa09JOFpkVFIxaXB0UHFPSnN6d0h3NjMzdUNjamNKSlJFQmNsTXpVaEdvZElxZW05b2ZuWHVQSkNWX2ZtRlVVRGd6QTVaMTVxczNrcWotR3Q5WVY0a05mdXlFSmliRFhMMDYtQ0hUWXZZWDB2eWNlOUFCbG5kVThUcjdjN3hKX2NlT1lPcllwdUJTekZFcEVjdHBSSmw1YWdHOEVUT0gw?oc=5",
+      "title": "Raymond James Financial, Inc. (RJF) - What Are Analysts Saying About This Stock?",
+      "snippet": "MarketBeat, 2026-11-15T21:33:43+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-15T21:33:43+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RJF/history",
+      "title": "RJF daily price history (Yahoo Finance)",
+      "snippet": "close 162.28 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

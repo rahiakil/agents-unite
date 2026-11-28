@@ -1,0 +1,49 @@
+{
+  "ticker": "Q",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Qnity Electronics\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 0,
+    "irrelevant_or_spam": 7,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeWlzTi1ST3Ficl95b2NBbGVqUjNxREw5Rl9TUTk2MUtPaTQ5dFVxd25hUnhsOTdKYURoQmRDbS03d3hFRHZUYVN5Yllpd2lWdUlIcHFoR3NUcHZWOGdValBIcU9RTEYwbWVDZDJ5REh4OHota1JkRnp3VGl4VEhJblllVjlLOHpZNjBlOE9XeHY1dVVQam15X2tTZFF1eExsME5RdW5Qc0Z3NmxpMmFvNnFfSXlqMk9HTTM0bExhdEZEX3hvVFVDWmh4UzNucEhSR2Yw0gHYAUFVX3lxTE5OVHRScThnLWdIbGVySHpuWHJLLWVOYV91elFaLW5Fd2FzbUJRSlJ2Zm9FWUswcFhLN3Qwb3pHUjJXN012TjV4RGJJTk5vdFlDU01yeGNYaDA1STJHcm9hMmNmeWcxRDlVdV93OXJGWFBQMXdCSXozamdoWXZjQlBFWVJHMGY4RVFGXzRaOEJFU0lkaFlUTlpqUkZSbEJYbmlxWXBtZF9zMFRpLXVhOG54a3dmS3NENHFnYlMzYlkxWDdnV21JazdxQU1IWnJpYkpwMEFrVXVrSA?oc=5",
+      "title": "Qnity Electronics (Q) Stock Could Be 36% Overvalued As Guidance Rises",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/Q/history",
+      "title": "Q daily price history (Yahoo Finance)",
+      "snippet": "close 115.82 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

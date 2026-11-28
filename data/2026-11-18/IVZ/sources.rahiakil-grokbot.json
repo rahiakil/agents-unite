@@ -1,0 +1,133 @@
+{
+  "ticker": "IVZ",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Invesco\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUFlOX3NvNlFSaGpvbTlyNTVSWUREdWR5bFV4aC1WTm44bkxOVG1NNGhmcXJrZlMwSzlvaTZVNjZkbmppNHZMaE9vYjBNaEcwel9jck1PYWJMYmMwcFgtSnpxNFRIR2Nka0ViNFRIcVlON05za1BRUE5qaXRPSTdqcWNqRFpPb1hJSmphbXZ2MzJTS3hiTWRucjhKRTVYbTg4MmNFaGtBUXNQZkprY2F1c1A2UjVLWERfby1aS3lNaFE?oc=5",
+      "title": "INVESCO Ltd. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-11-17T22:12:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-11-17T22:12:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBPTWVTMTFsdGdyZ0NpLUFGN2R4b19JT2pPYzVCWHZmdUVhVHFxOVRfbEw1Y0ZzVjYyaWNnOTVfUjJRMjhmQUE?oc=5",
+      "title": "IQEE - Invesco Emerging Markets Enhanced ETF Stock Price and Quote",
+      "snippet": "Finviz, 2026-11-17T20:20:00+00:00",
+      "publisher": "Finviz",
+      "published": "2026-11-17T20:20:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb3lJSW1mdVJKNXZiSDRIRGFZcEY0T1M1Q1lrbENTSHM0SzRVSk45eWo3WWkyXzB3eU54cUhueFlMa3FjbzdzVnp5b2RwdF9qcWdiSDJrem55VHAtNmNmd3FGUE8xV3g2UTZPT29FMG9GLVNhNnNrcy1OODFCcVRCNQ?oc=5",
+      "title": "How to Invest in Invesco Aerospace & Defense ETF (PPA)",
+      "snippet": "The Motley Fool, 2026-11-17T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-17T08:00:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0tvd0xwSDdfMGZoS2duMmRuY29iZGlIYUhYRThmTzlDTGNmT1FRbENZaFk0dkVIV2dTc3pQREIzTHNrWVU1SmZabWJzMXRFb0w2NlBRcWFNbXVEaDV6STBQcjdwWnpOZS1lSXh4RmJhU0FKVE5ybzBlZDBwa3cyWVZNajFEY0JPVmN0bVJFeFVtRmRxQURtdFBMbzRESkZJRmhqSmNwYlBTWXJ5N19SNEJWSUs3QlJ2SjJtN3ljQQ?oc=5",
+      "title": "Mizuho initiates Invesco stock coverage with outperform rating",
+      "snippet": "Investing.com, 2026-11-16T22:09:10+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-16T22:09:10+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmdydm9kUzd4QXB2VGdWYmNyUDlJLVlYRGxaejNOLWhjdUVMZHNTa2lfUTQ4U1BYMXBQV2R4SEFRRzVkdU5qQjNEWWI1UzZNaDJKSlJta25LY1dONE94OVZzR3VEWWJiU2ZWT1VTNlJKTThrZUQ0dXRHWl9hUVMwbTIxcGZETnI0QVdMZm50RlZvWXRDdlF4STBHdTZTRGs?oc=5",
+      "title": "Invesco QQQ (QQQ) Stock Price Prediction: Momentum Is Still Heavy, but Derivatives Lean Against a Clean Break Lower",
+      "snippet": "Blockchain News, 2026-11-16T08:43:23+00:00",
+      "publisher": "Blockchain News",
+      "published": "2026-11-16T08:43:23+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.329,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTVc0NnVuU2lnTUJxbC1ZbU40N2JOUTQyU2tyaUl4TEVoZmdfaEQySVY4b2xuRVZYZkFvd3RQYVpkVDYtaG03ZXhkbEFHOXF0OUdDZFB6Y2pjVl85NUwxVEdLY0xFOXM3OTAyT1FGNjNTTDJYWmxZNXNRWHgwT2IwbDVBWHlldGRlbDBuOVlTeEFWMkhBRG9MOEVuYnF3dw?oc=5",
+      "title": "Invesco QQQ Trust ETF Falls as Nvidia Crisis Drags Down Tech Stocks",
+      "snippet": "TipRanks, 2026-11-16T08:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.612,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVThCLUNfME16ZEVZTXI1cEFqRy1VVkR1RHA4N3ZScV9TVmRQRksxN1pkVkhlSUwxOU1kQ0NWVjJoYVV6dHRfTjFBaDNxb0VGbEVtaTRjZEk5QXlNWWNXNzZ5dDRway1tbW1INTVTcm5SZi1fZGJlZmRUekFIR2VDcXlPV05oMGs2MDY3b005MDJwd0lhNWMwUE5GcHdnWFdabG1DMnJzUnhVVm15V2NmbmlrcW1EOEMtUVBJblUtWDFaTnNYRDVwOVFLblEtVERZbUHSAdcBQVVfeXFMTmpkb1R5c01WbExpQWt0aFNoa3VKdVpJSlhQb1NzOTduX2FrS254aHlrX3JZdG5GM2Z1M3ppRWFOMUVkVmlxUDk0SkpfN2prT1ZvaS1DdDEwWEVKaDE4TF9hc2xsdkF4WlpuZ2l1ZmdPQlhHR09CR0VYM3hWVnJWSDd1VHFwN1pmT0l0ZEQ1Q0JlZE5jTHd2OVF0TnNUdzJaSlRIbmpDdkd6RGJ3bGtha0dRUTNDV2RiV0tmQlBiWUdrMzRkUjVOZG9SZ2h5U28zM2ZWck01UEE?oc=5",
+      "title": "Invesco (IVZ) Could Be 18% Undervalued As New ETFs Feed Growth Hopes",
+      "snippet": "Simply Wall St, 2026-11-15T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVnFsWVZSeGc5NGdOWjd0MXF2a2piNGhqVEJzY1FPX0dFalF2MHRaRHo4MVJoQnE3SWljSW1GeWt6d0NjcUVjbnN5dUN6UE9IV2dmQmwxR2lqUVMwYW9tUHF6cnVmb0J3U3lWU0hjS1dJSWhJelBrSy1wWG5adTAwSzJnYTdOSzJmZi1QdFhXS2VXU09Wekt6X3VybmdCTHJHdkR3?oc=5",
+      "title": "Better Healthcare ETF: Invesco's PJP vs. Simplify's PINK",
+      "snippet": "The Motley Fool, 2026-11-15T08:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-11-15T08:00:00+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IVZ/history",
+      "title": "IVZ daily price history (Yahoo Finance)",
+      "snippet": "close 28.65 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

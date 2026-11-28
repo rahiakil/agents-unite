@@ -1,0 +1,73 @@
+{
+  "ticker": "VMC",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vulcan Materials\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWRUUXh6QWdZQkdHMnYwdVFnX0hfUTgyMk9VSkE3WHd5SUVIMTN5TkQ0OTBGQTZhVjN6RVNpVDZDVzU5Q1kxTkdOOXpaVTlWSVNwRnNOTWMyV0RVRlJuV3I4dmh1ZEd4bFFkdFVtSHUxWWJCajU4dUg3NFBPZDI1NXA2OUQweXdMX2FGWXh5c2Q1eXpaT1VyTFc2SVZia041T0Y3WU9PcW1ZOTJPSUpjWlRSZlhlZzVpa2VtUnNRS2g?oc=5",
+      "title": "Form 4 Vulcan Materials: J. Thomas Hill (Director) For: 13 November",
+      "snippet": "Investing.com UK, 2026-11-17T14:02:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-11-17T14:02:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONFNLWGRCRDdHc0NiU0tjZkYwR3JYbElRZi1MMElxOFgxYnZtX3RNSHFwUkpBNThWbGc1Y1Q2d0pWeGVmMnpqMFN1eTl5dTQzRTVwTTBPNVZ0X1dqNnllRjVRUnQxRU5LTW9YdUlQdFVHRUVFXzZqV3Q0U2VfY3hXTnkwY1JTVVZqN0ZyQURhYw?oc=5",
+      "title": "Hill J Thomas Disposes 4,539 VMC Shares via Gift",
+      "snippet": "kalkine.com, 2026-11-17T13:54:10+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-17T13:54:10+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWXdCUi1EQm1XcjFUU2Yxd3dsaHFvQldEOFlsb0s3NllxbXZVMlpPd1AzX2p1eng2ZmNtTzB6NUZNZE1xQ0JXNXdCa3lqNkRySmdVZWI0ZkxqTjhkYVgtSjFSZlN4Mk5FTHhNaEZNUHNkck80OVE2OWszSDlhN2YwUWtQX1d4ZTdaOHk0NGdUclJWeDRvbFhIU282ZnZNT1d1aU4wOElpeWlNcU1fR2paV25VbTlObE9IUDROa1VLTFUxY1lKTWdiS1Bkb2JaYzY4Ynk3UzBUbHhzY2RfNzZkNy1XRl9xOWMyYy02Y0N3?oc=5",
+      "title": "Vulcan Materials Stock: Trading, Earnings and Momentum",
+      "snippet": "Kalkine India, 2026-11-17T11:29:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-11-17T11:29:00+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VMC/history",
+      "title": "VMC daily price history (Yahoo Finance)",
+      "snippet": "close 279.74 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ticker": "RMD",
+  "date": "2026-11-18",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-18",
+  "news_cutoff": "2026-11-18T21:00:00Z",
+  "generated_at": "2026-11-28T01:17:46Z",
+  "collected_at": "2026-11-28T01:17:46Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"ResMed\" stock after:2026-11-14 before:2026-11-19",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcTUyZDJ1QUpNelhnYm1HaElOV0hQZGJGbVZtc2poTksxbnNhYUFDbnNvWjhkYnRpZ2dMeUZxdXhudXB4a3IxVkhPTDY0VUMyZ09qd0t1QmNZeGFLRHJDakNGcExPdDN5emlySW9fZkJ6VGdsazc4TnoxZHRQYzk1ZmRWQjdZZU95TDdNOFJvMjhFSklsMlNfU2xvZFI?oc=5",
+      "title": "Jan De Witte Plans to Sell 429 ResMed Shares via Rule 144",
+      "snippet": "kalkine.com, 2026-11-17T16:22:30+00:00",
+      "publisher": "kalkine.com",
+      "published": "2026-11-17T16:22:30+00:00",
+      "published_date": "2026-11-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQTM5ekpUV2NoTmpYb0ZJLUt6U0ZwcVYtSG5fSld2TE5mVFFjT0tmU2RYYjFWTkxfbndILXh1N3ZEUl9SOWZHRGFYN09Qa1F2RVpWZjVvcW9GMGpKanZrQXd5ZjhkTXR6WVVaWG1iTGFfQl9vU195ZXEyd0RVNVBQc0tNUWpxVEYtcExWT21GdTVzMXdhaG9N?oc=5",
+      "title": "ResMed Share Price: A$35.20, Up 0.69% Nov 16",
+      "snippet": "JournalArta, 2026-11-16T18:36:51+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-16T18:36:51+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSWZ2NEJpZDhIcFJJU2J6SWhPSVRidDlNUFdlN2x4QzVHSDBtVnZBaE5jc2NPMkhjTjZ3TUV2NGNmMUVsaURZN1dDZl9yNDZSN1JCTFZpWmRZamcydEh2WXRSMjdfVzdpT2RCV2VDS1hjRFJKTWdabmVfT0tYbUktQldDdWdVWTZPMGFEU1lNMlVzUXViMVRWWm9WcmhSUVhtNXByeTNWNXI2My1ma3k2Z3AzNHpxVTlCazZr0gHAAUFVX3lxTFBpQnpRNlh5bkxDUkR1MjY3UVNEYnIwLVY1clRXZjU1cGI1OU5rQ2o0ZmpmSHh5dTRMOFZERS1Ydm1OY3pabjRyOFpobndyUVdLeDJNMlZnem1IS0wwNTh1N3BsVnR1bFBkdXpVRGx6V0ZlZnZzdDV4eTJ3azJ6Y0JRLU9pZXFrQXRTdEdNZ3YwWDZyWms5UGkzR3gwb25Bemp1cEFobDRDbTlDZEgzTFVqQTdIUXNmekV3TlAzNlJWZw?oc=5",
+      "title": "ResMed (RMD), Why Is The Sleep Health Leader Back In Focus?",
+      "snippet": "Simply Wall St, 2026-11-16T08:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-16T08:00:00+00:00",
+      "published_date": "2026-11-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQakd4VHpxNE9PbzhpdnQ0dzNFNDd3WURIWmI0YXg1MWpZMndxdWdmSGc5eG8yNDJzXzBBcGF1anQzdXpMVFZNMm84VjVZMGZYMlBmUDlSeGc1SVV4NXhLM1hBRnFnNmlwOFY1bXlTdjJXYlQzTTZoRmZfVk5ZRFB5emoxdW9DWlBjYjFkZ3dRaGpla2pYTHF2LWMtM2JlRmhhcHVUdUVXcGZ4clZuTXZ5akM1Nk5HRFZjSnBrVzFCdE5UWkU3MkxYS2czMWcxMFZNZ0NfREFSYVFkSzRoeTZj?oc=5",
+      "title": "ResMed Global General Counsel Michael Rider Disposes of 1,943.5 Shares for Tax Withholding on RSU Vestings",
+      "snippet": "Kalkine, 2026-11-15T23:15:01+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-15T23:15:01+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeFhxOE1kOHlKS2RRUDhNYnlTd1ZCMXhPbTJLVUZtTTZrMTJhY1JGdzl6ZEFiZUF3dzA1TTZwYy1fblhScGtheGhvTWtibDhkaGZ1bUhmS0ZVeXc0a2ZDVkxoek9naDhrUUJyZzB5UW41YjJOUzVWUjJ0dU5udXBkUkI1VmNBRENnZzNNVGkzT2xjMkoydklSODhpWEFPSWJRaVlRQ0prNk5wWS1nWjFQbC1GWnJQMTNTZnRsUWIwdC10aWN5MFJnVQ?oc=5",
+      "title": "ResMed Director Peter Farrell Disposes of 169 Shares for Tax Withholding on RSU Vesting",
+      "snippet": "Kalkine, 2026-11-15T23:15:01+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-15T23:15:01+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSjRBaVl0Vzl1ZXNqcDI4ZHZhOGhfbE9Fd2Zla18zV1Npc1FaRkJVaWl3TUM4LVUwbU9wbWEzTUNENEItSmt0T3p4cW1rXzE4UzRwOFM5SGJPUFpBZzhHQjJUVGkzYml4QnFZbE12SDFUekhMRm13NEVnNi1xdzczX0N4U2I5WHlvZ0ZfSHExZk5JU1pBcEJxcFozRVNjdGpTanY3V3JpSEt3TWNFM2R6a3pLZ2U2d1UtZkt2SWk4SE1VbXhuOWc1aVN4MEFzVDBwMXlSbk9R?oc=5",
+      "title": "ResMed Director Jan De Witte Disposes of 59.981 Shares at $234.11 for Tax Withholding on RSU Vesting",
+      "snippet": "Kalkine, 2026-11-15T23:15:01+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-15T23:15:01+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONmJnaWVXUElhMGMxSUc4Vk9qWEhFNVFBRHV4UkNMUGNsSHRuUjNzUUdQb2xvY3k3SldEVjRST0J5X0xwLVo0NTdfMXdBVG1xbGFOeC1XeHVpMFpvQkU1ZVdud2NmODhoU2VwUF8yRHdUNjl1Rkl4ZnJwNU5mTmd2LUxMeGE4VHUyRjI0ZTJ1SUNzblpmX2lGWGFtQXNlUVNHYUVReDl3aWVEbHRSWVU1ZWtDNUdrWm9LSDRZb0N0VjA?oc=5",
+      "title": "ResMed Director Harjit Gill Disposes of 35.731 Shares at $234.11 for Tax Withholding",
+      "snippet": "Kalkine, 2026-11-15T23:15:01+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-15T23:15:01+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWjM5NnJrYTBMRU8wTnhEemN5YjNfNk12cVN0a1FBUEpydmJoMXYzWEJJSXpwVlRvM0JzOGp3YXVSMkZOUUdXRy1STV9yT2IwWHhQd1lnUjFxZ2xUMzBaOTd2RGxCZnRLU096ckxQWmtwcm5ZaHUtYm1sRWxzR0RkTWh3NThjVlloZ3dqei01TUJWaUE1N05RZVA2aVBQdUMyTzY2SXlkSmVIalpNNldDZGlJOXY2dm5Ra0dNNXNPNmdJczdBS0NkUlYtOVc0U0VPZ1E?oc=5",
+      "title": "ResMed Chairman and CEO Michael Farrell Disposes of Shares for Tax Withholding on RSU Vestings",
+      "snippet": "Kalkine, 2026-11-15T23:15:01+00:00",
+      "publisher": "Kalkine",
+      "published": "2026-11-15T23:15:01+00:00",
+      "published_date": "2026-11-15",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RMD/history",
+      "title": "RMD daily price history (Yahoo Finance)",
+      "snippet": "close 242.61 on 2026-11-18",
+      "published_date": "2026-11-18",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

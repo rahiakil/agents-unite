@@ -1,0 +1,97 @@
+{
+  "ticker": "MRK",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Merck\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 25,
+    "before_window": 7,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXpYUV9EM1hGWDBsNVVJamw0UEdIaUpab3o5eVV6NDhjUUZKLWt0eWg0UFJQb1pDYWxKTkx4anViWXpOVFJhOEZnY3NaRlN2NTVYQUlIbWhxdlQ0THFvdkRTR1Jwc0M5LUhDWEo0ZENod21YcG9QRExoQUZHNGNBTUEwQ2VUeEY4MlRzLVkxQUp6bGJtcllJR2h2X21pV2hEeDN1RDhvTk5PRDJfLWhjNk1qM3VGc1FRWjdKSUZn?oc=5",
+      "title": "Merck KGaA to Buy Silence Therapeutics in $1.1B Deal",
+      "snippet": "GenomeWeb, 2026-10-19T14:36:00+00:00",
+      "publisher": "GenomeWeb",
+      "published": "2026-10-19T14:36:00+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTXNIN1k1RFVLeHRiaS1hR0JRZFRfS1VBY002ZUN0M0VWZ0tsSGV6UGhJajdxVURzOFFrVFNRRUhPLURUcE9RY2Y1V0dGRlo2cUJyY3U4NUZEY0gzVW13TTU0OUJRNzg5SDI0UVN6Q1BtVmtBbi16ekdFU29INFpJMFVjQm1HN2lFTE8ydDd3?oc=5",
+      "title": "Tempus AI shares fall nearly 8% as investors react to Merck collaboration and Q3 earnings news",
+      "snippet": "Traders Union, 2026-10-16T07:00:00+00:00",
+      "publisher": "Traders Union",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZS1NN0FsV29DeWFrMWowNFFkcHlvWFRQOVIwN19PcHZ5Uk4ySjJ4QWxYcHRiVGlxRFh1Zm5qYmZDa0g2Tm5RUUkyaFZJX016MFhMdjBmTUVTT19UWWZYMXZzbDg4d3lZM2NNY3U1Y0ZXblNKQk41Q29PU0p3amFMcVI1eEJJbVljOXVxVzlTTjBRbEtEblZxVHFBQWtsS05iWHc?oc=5",
+      "title": "Merck\u2019s Rally Reflects Renewed Confidence, but Has the Market Priced in Too Much?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.485,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVnpRTGt3eHdvZDhlSmFwcTFtVWo5RmlOUDB4X0pNbi05Mlc0NmpMNHdaYjRlTHZtNHkxeE1DV0FoRjNXUW1JQjRUNkRNR1NDQ1hCYTRjOXNmeHE2Zm9ZRDlnTVJ6SE52OE42STd5TldqMHdQSjRsVGN0Tl9SWjdOajQ2R3BTLVZ4UU4tWmlwVzRlcVBUQ0p5MjdMQ0dVZw?oc=5",
+      "title": "Merck Stock: Watch This Price, Prepare To Profit From This Trade",
+      "snippet": "Investor's Business Daily, 2026-10-16T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2xCajZNMTgxUFkwaURFMnlBd2JManJLMjN4VGpXbDV6RkhxTHdsM0pELVhvQVkzSGo5TUVxTGstaVkxdlNlS3d4TXY3cHVPZ2c2VkpTN1Z1MndXeEdGeW1WVTJnaWl2dlBtVWhzUTFGUjlOTEhmNkdSOEVKU1dUVVNjRF9VOWV6OERvREhkTVVPekk?oc=5",
+      "title": "AbbVie vs. Merck: Which Pharma Stock Offers Better Value?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.649,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MRK/history",
+      "title": "MRK daily price history (Yahoo Finance)",
+      "snippet": "close 143.63 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

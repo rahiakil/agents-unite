@@ -1,0 +1,97 @@
+{
+  "ticker": "GOOGL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Alphabet\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdWFvREV2d2dlMk45YXBVSGVtSFJwSFFyQnpfb1dnTnkzZ2NpVW13UGpuVWNneE1qQXE2eXNUR3ZVV2lKN3l0X2VXdHpQVEp1SENGM0JXeExmZzktWF9uNmlORFpRdlA1cGo1akx4SnNlNWlJY0hoVHBlSGtIQ0FRS1JmazVoWUI1YlFnNFplcEljSWFHTHc?oc=5",
+      "title": "Can Alphabet Stock Double By 2030?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQkV4T1lPcUk1NWhHUk1iVk50QlRYUEdQMUt2bDhTNWg5anRFZjF5YWFIM3EzLUxHOHRYWjRkZFpuZkRWSzJyWmdlSjR4bW9qRWVsVUVRcTAzODNiOF9femRiSVlLV09KSWN4Z3hMMUhsS3RmaTV5b2k1M0VPeDZaOUlCWi0xQzBMSFFQUFpnOHNrbjdVb2xmSg?oc=5",
+      "title": "1 Analyst Thinks Alphabet Stock Could Jump 20% on AI Chip Demand. Is He Right?",
+      "snippet": "The Motley Fool, 2026-10-18T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZDEwWXFuMW9MblJRby1mM3lWbTl5ZVlIaURJODUyTWF2M1NGY091eFYzN1ZCbm5QT21YSjg4VDd4QTRmRUFXLVFDcHd1QmNldzJmOHlBb2VLWFVRME5XZ3kyVHpmYzFBcWduVWZTXzJDTW4wLVJoUlU1eXphVW9hZ1J2NnVPUTNvYmllS2FvNWtlMWF6WFZN?oc=5",
+      "title": "Prediction: Alphabet Will Be a Larger Company Than Apple by the End of 2027",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN2Nnc0U1UVZtUEswMHVTUksxVkp5X0Z6T0JmSkt3UTA0QkM2b3ZrWVdVSjFfSlpHSm5QY2pBM01JXzJNZkVTT19OU3E1M3otYjltQWNtQ3BQRUFOdGc1RzgzWXJLN0N2OEJ0TWx0VEpJeThBSWhETjZ4c05NZDY0bzhDdU9uVFRFVHRoNWFyZWtEbjZZMFNSUQ?oc=5",
+      "title": "Not Alphabet. Not Microsoft. This Is the Cloud Stock I'd Buy With $5,000 Right Now.",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNHRDcVFPcGtSaHBjcUFtLTAwZDFWcGZ3ZV9Sd0dDOXdaX20yT29ndjFycUkxeWstV0J6SHA3N0xtNjU1TlZRWDBwVktwdVMzRllrc1dhR3M3dThlZzZSNXpTUUczWl91Y3V5TlRod0RfMXUyZThVYzl3RGp0NUxEQmtEejM1U0YzblU5SGdlc1JjblMyWU83VDVYV1h1c0JrREJJcg?oc=5",
+      "title": "Investors Heavily Search Alphabet Inc. (GOOGL): Here is What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GOOGL/history",
+      "title": "GOOGL daily price history (Yahoo Finance)",
+      "snippet": "close 344.18 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "ticker": "BA",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Boeing\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcU51RnpQaHB0RXBCQ3UxYlhsT1BRRE45MXVjYW11ZG9Ua1czVkZSNUhsNklTUEVySlBBRmZOZW1kdlh5TmdvbEgta2VnLVE1N0F6UGJuakg3X0FhX0VmWWVteE9KTTFyUVJLS3E2S0hfSFAyTXJfV1pZbHM0YXBzbA?oc=5",
+      "title": "FAA Prepares Final Approval For Long Delayed Boeing 737 MAX 10",
+      "snippet": "TIKR.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzOUVRWE82NmlMRGVwUUtSVU8yYkE2WUREdzYzZ2sxY3JJM05kdk9hUFd2S1NqbjJEakIwZlh1WGZuWENfVTFhc2NrZEJ5QmRzZkdRTkJrUVNrM0IzeGtaTFZCSGZTUU5YdFNnSlhONHhoQXNURFZXTWJXeXo?oc=5",
+      "title": "Boeing Sales Chief Brad McMullen Retires Following Commercial Recovery Effort",
+      "snippet": "TIKR.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUYwQWVnV3BiVWV0QkNRdGU1anpfcWRkV2pzeDNHWHFsUFZtaTNJUEVoNDZUcnhzTG5MdU9FRzZQSkMtaTdyYzc5TC1ORnZhdFdPUGRSaHI0NEI1OEpaYkJTbmRMSGZrRmNHS01JYWg1TnFGNzhpWDdnbVNfNTRBY2h2cFNzT2F0TjVpS18zVW9qRm44WmNLckxQVDBVaTFB?oc=5",
+      "title": "Boeing\u2019s Sales Chief Is Retiring. The Harder Job Is Turning $27.5 Billion of Built-Up Jet Costs Into Cash",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRktPNEQxSnRjdEpkeEs4akFvR2RfNUNIOC01Si0yc21Uck95U3huNXpadl8zRHlCblVPOWJwRjkybzVla0h6TnBZSmJyc1luVEVlOW9LSWxyR1N3dkQ0YllwSW1wYjBzTExMZ1dfZVFRRkZjaUtpS3FvR3pJVVh2aGNFSUtfdFZ0WjkweQ?oc=5",
+      "title": "Boeing: The Real Test Of Its Recovery Begins Now",
+      "snippet": "Seeking Alpha, 2026-10-17T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMzNCb19vMUlOaDlITWdBZ3V2YWgxd1JVeUdSUVAxUmFjV2tSWEZyQnd4dkJHeTh6ajJwUTQzY2dpN25RRVVyQXhnckQwOC1qX3I0aGFMWl9HclpKcnZPTDJ3cjZPVGpaVXl2Qm9qSUZNZ25GZjF5cnE0MENndGJiVVdyZDZManNGRkpnUTZ3?oc=5",
+      "title": "Boeing shares dip 2% despite strong September o...",
+      "snippet": "Pluang, 2026-10-17T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.023,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lLU1LbG5wc19RWjJJQWxENGlLSXBzRFhXbmNnZzl5QTNUcFBFeEgyX1RrTWxVMjBZenF1ZnZOcHVpeE5mSjZ3R2ZQMUl0ZExLNFJDMHdxYVV1VlpLb241UGlqRGpJUkcxZW1ZVTdBMUNQeE9i?oc=5",
+      "title": "Morgan Stanley sets Boeing stock price target",
+      "snippet": "Finbold, 2026-10-16T07:00:00+00:00",
+      "publisher": "Finbold",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BA/history",
+      "title": "BA daily price history (Yahoo Finance)",
+      "snippet": "close 191.42 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

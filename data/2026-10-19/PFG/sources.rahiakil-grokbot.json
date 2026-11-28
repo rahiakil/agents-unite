@@ -1,0 +1,70 @@
+{
+  "ticker": "PFG",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Principal Financial\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS1RNc1dJenJCLVktamJPQUNfLWJFWVh2Tm0tajFyVGFWYjc1SkdBeUZHQU9KYUdaZmNCalRjRUpRTGRJUU11eUFWQlNobU5MWXhNSGtkU2dUYkFBNW9keE5JYnZFbnJUaFZpNmNjVDhlcEF5RTVOemNSYUJpbXNKaVdGbkc5R042RlFJdklUMEV3MTJIR0I4b0RFSDl4OFE?oc=5",
+      "title": "Why Principal Financial (PFG) is a Great Dividend Stock Right Now",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdTFiZmZjMG5YWUlwUlFPU3c1eVI0Z05CZVhDMkNhQzZsRTVFUHZjb2RHa3dLeTRmeGNhbEV5ekhRQ0ZiVTMwcEhiMHc2XzZPQS1JRHNBLWE4RGRWVVVnZkQ1enZFM1VUVml0bjlKTEFUcS1ING5GZ1Z4eVY3Zjk0VzBPc2dkd3gycXNaQWZ1UWY0Vks4eTd1d1FNLTFuN3NhQmRWSHpzeDRlQQ?oc=5",
+      "title": "Is Principal Financial Group (PFG) Undervalued After Its Dividend Update?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1126328/000110465926116869/tm2627739d1_8k.htm",
+      "title": "SEC 8-K filed 2026-10-19",
+      "snippet": "items 7.01",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PFG/history",
+      "title": "PFG daily price history (Yahoo Finance)",
+      "snippet": "close 106.86 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

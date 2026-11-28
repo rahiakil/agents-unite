@@ -1,0 +1,73 @@
+{
+  "ticker": "BAC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Bank of America\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZU1YVHg5djdBQjJVd2E2OUFfVzVUZ0R2ZzlhRS0zNmZIczR6azNqWUQtWWZpa0VNQVVINWwyQUFOdS1ETGVmOG12R3FYYXZ6UDl4Q0g5c2FoRVYyb1NIZU1Xb1A1WE9OaDBrWUg0Z3c3R0FPM2Q1NkFFQ2ZBbW8xU0w2aC1QaU5laFFpTUptc01jWkVOSzVwakJDaWZ3eC0xbGViT3d3a01aQlJCX2RqNURRdlRvLTN1dmY3cWRMLUNHS3hiLVpCM1pqQmVvLW5qQ1N5V0VOd3VjM1BW?oc=5",
+      "title": "Bank of America Declares Preferred Stock Dividends Payable in November and December 2026",
+      "snippet": "PR Newswire, 2026-10-16T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ydXJaMGtBbXhyYUFWN2ZpVXczWVBMNWlZQXVlcEV1a05rVTZJTDU2bmlYaVp1RFBnX3lrMzZoenhWRHpTRFpiYm5ORjVOdzNyaWQwbkhHdTJqbjFqUF9qSTd4S1ZZaThVanNEbEdIY3M2VkV4RTNVdXRKYkp5Zw?oc=5",
+      "title": "Baird Upgrades Bank of America Stock Despite a Soft Quarter",
+      "snippet": "TIKR.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXgyUHJxeG10dncyRkVzcnYxc1RpeDAzVXU5amI1cHpBVWdZLVlnZ3RQSTJPR1RJSzhoeVdPV09DYk42b3BqRENyM1UzSl9iSFl6WmtUSkJwdlVMMndQWlRmSDJtYWZMNGY0RnN6OFFmYUtSQ3JSTEFNWTdQbTJMVEVxX01BOGliMFdMVDNkU0dIY2hCSWc0dC1mZw?oc=5",
+      "title": "AML Penalty Could Be A Game Changer For Bank of America Stock (BAC)",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.482,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAC/history",
+      "title": "BAC daily price history (Yahoo Finance)",
+      "snippet": "close 50.39 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

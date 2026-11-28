@@ -1,0 +1,49 @@
+{
+  "ticker": "APA",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"APA\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcVE2bUVvQUdIZjQ5VmxjNmJOUFlCLVNtamNqY1lOVjh6ZHRZTkZjekl2T25ZRXZVR2JqbUcwWTFROXRWZnVrQzVGekRreUVJZmxWbU5rWFpxU1F0MldYQVdQaEZ4RWIzcmNKcXhGdC1QS2cxblJfMmoyeFZOWmNBbmxndWZhLVVlQkt4R2N6UEExNG00TWxkaGlVMnctN3BSdHlFNU1R?oc=5",
+      "title": "APA Rises as Higher Oil Prices and Recent Q3 Updates Support Sentiment",
+      "snippet": "Quiver Quantitative, 2026-10-16T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/APA/history",
+      "title": "APA daily price history (Yahoo Finance)",
+      "snippet": "close 49.76 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

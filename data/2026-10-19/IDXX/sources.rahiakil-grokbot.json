@@ -1,0 +1,49 @@
+{
+  "ticker": "IDXX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Idexx Laboratories\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5LXzJ2Y3JRemYyLTFtZG5TOTh5bnEzb3M4aTdnZDBxdG84V0RRdHI5ZV9HS3FVTHBtQTZtdS0wOXRQMzR4akFaYjk5cw?oc=5",
+      "title": "IDEXX Laboratories, Inc. (IDXX) Stock Price & News",
+      "snippet": "Syfe, 2026-10-18T14:59:41+00:00",
+      "publisher": "Syfe",
+      "published": "2026-10-18T14:59:41+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/IDXX/history",
+      "title": "IDXX daily price history (Yahoo Finance)",
+      "snippet": "close 555.8 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

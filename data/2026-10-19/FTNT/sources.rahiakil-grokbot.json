@@ -1,0 +1,121 @@
+{
+  "ticker": "FTNT",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fortinet\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTVhMWDZHckJSZVFOYmRBc2RHY3NmTmlQSktYcllueEN0Vm5tS2Z2Nkl1alF4Z05xWDFIbUpXSHI5Q0NDcWhVcmMtekJmQjJ1bko1WXptSG9QMnE1Qm5kOGhkZm1NUk5PSld6NC1HeURQaG9FZWFIdUMxZzUyc1FtbDFobVhsWlZtRFRITWVPZ0V3MjNnUXdxc1ZTbUJyeTV0eHc?oc=5",
+      "title": "New PEERSTITCH malware exploits Fortinet flaw for covert communication",
+      "snippet": "SC Media, 2026-10-16T07:00:00+00:00",
+      "publisher": "SC Media",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdkVjX256NE52TlJXSXowOHJQbUpVbWhIcVFDZ2R3NXVuZTFiQlNpQ3lUWktkcTdycGN0SWhPWTc3cXZ2UlRpUTNZZXFjSU5lamtHcWFwaVJxb3I5WjVnNm4tZnl3WEtiYWpZTDRJMVpGQzI3QWdrSUd4aWl6M0ZocG9lN1Y0eGQ4eTJyUw?oc=5",
+      "title": "Fortinet, Inc. (FTNT) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd1lMWDRUUGRMbVVXT1VvaDJlalhESEZhVU9XWVR3Mmg3V21DQlY4V21OVmJPT2lsSzdPVTJFNVVneGRNVnFWQlVIekNvOXdxdXJGQ2NsdHNENDlYeWFEbjRWT3FoNWU0REpOOWJZODNsazNwaFZaXzlfbmt5U1ZpZE92WTlGd25zREtUX0ZDbVlId1N1YjYyazRDWjN0OU05Y2Q1OGdrUmw3ODBpOGw3ZFpPT3lYdDZFaDVzTjl5anVIck5SYldJ?oc=5",
+      "title": "Fortinet Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVS1aWk5fMkhscGtrbHF5Q2pTa1l4YTQ0Q2k3ZW9Temc1RVZzY2VvN3VpNV9vV2ZrVTE3RjBQVlBBNlRETUpWTmlJaksxOUlDNXVXRDdkeVB3RGpFa25ldFJNQ3ZaRVhVUExJNFRhSVpvODZ5V0lnbkEyOWFiTWVvbzZEQnp1LUpQamVF?oc=5",
+      "title": "Fortinet Inc Stock (FTNT) Opened Down by 4.80% on Oct 16: Key Drivers Unveiled",
+      "snippet": "TradingKey, 2026-10-16T07:00:00+00:00",
+      "publisher": "TradingKey",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUXpidE8ta1NnZ3JjWGxHcG9JQUFoSmxyRTZOOEJKaGVpd1JzT294THh1N0hfUUlCc1ZOTTJmT19FQk1wUXV1UllhZUFkd3hCQmFWYk1uZFpfa2puREFfUGxuRkhjTTZtd3MwaW9MaUZUZVZmbExfaXlzZWF4eGFIZTlWS2NDN28?oc=5",
+      "title": "Fortinet (FTNT) Drops 7.5% After Hours, Shedding ~$9 Billion in Value",
+      "snippet": "24/7 Wall St., 2026-10-16T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNb2pwbUx2X2M2VWZ1Z2tSSWlsbXYwZDdjWGtjM3RJVDltNjM0QmpQZUswMUIxWFRBSURoWk9mRjZ3V2l2eVdlZWF4d0RoR3c4YUpYQ0pHWnNyRC1QdXpwU2x6NDBCNHlMYUxLOWdDN2NvMmRCLVhZOVNYS1dGdFh0ZUVjVEpRZlRISlJsM21yME0xQWR2WXJxZHZQUXl5OHI1WkpHNHJrZFktUjBYdklZMEI4WFVYLUlHNV9wMnlURXJ3UnRKMzdVWHpqaERRYnc4c01BMUE4LUhMYWZWclZmV2hZMXVGVll2MFpjbTF6RFpxSUxhRnVMZFdMZVQ3dGhBa3dsN1FXcWNVbUpFbG1lYm5FREYzanY3d0E?oc=5",
+      "title": "Analysts\u2019 Opinions Are Mixed on These Technology Stocks: Fortinet (FTNT), Corning (GLW) and Monolithic Power (MPWR)",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNVpYMFZKX05ZZDFnVlNiSWhVYkZoY3FSdmZnM3d3OGlfLVd4by1RWXZQaHZqZXJTZ2ZQUjVTdk5CdmhSNlU3Uk1qdGxNSUc2RG1DZW5rVDF4MHlnNThkYm5OLTFHVUY0V3NDcVgyaUZCeURuYmd2NmNpdmJvdFFDTURCMUtLbjhkRmVnNGc2TDFCUlNReEQwd1Bicw?oc=5",
+      "title": "3 Reasons Why Growth Investors Shouldn't Overlook Fortinet (FTNT)",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FTNT/history",
+      "title": "FTNT daily price history (Yahoo Finance)",
+      "snippet": "close 171.5 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

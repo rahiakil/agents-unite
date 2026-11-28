@@ -1,0 +1,49 @@
+{
+  "ticker": "GL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Globe Life\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS0hZajVRSWRNVFkxVE9jUVJaZFZTbHZ0ZFd0anN1ZF9udVJjb1Y5bTEtZERUS1JlUkVaMktWbjUwWDRyYmJBay1wUEozU0doWEs5SVFDYmRKTlBPbVZDU25DT0RPbEhVbWk1WVVmel9xVUt0RHFOUUVTQTVDR2U5dDNHa0YyMjdKTEtlU2NTOU11eHZNMWFkQ2U1bXFtVTdGZmZBbXpHdkh6UDlfT3RCckZLU25NZl9mU1E?oc=5",
+      "title": "Globe Life Inc. (GL) Ticks Up 0.70% to $168.77, Holding Mid-Range Between Key Levels - Put Support",
+      "snippet": "www.siam.in, 2026-10-18T07:00:00+00:00",
+      "publisher": "www.siam.in",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GL/history",
+      "title": "GL daily price history (Yahoo Finance)",
+      "snippet": "close 167.85 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

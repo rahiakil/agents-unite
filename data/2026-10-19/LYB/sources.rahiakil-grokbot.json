@@ -1,0 +1,61 @@
+{
+  "ticker": "LYB",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"LyondellBasell\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMWptTlQ1d3UxNXo1MU1jbXZCdGJfTTdFa2xtaWdZaFBJNXNpcDYwZTJQU0YtdWlJV2ZVS0ZMdHpMUlVMV0djQkRILW5VdjR1Nk1ubDZ0VVdEUTltbWF1Y0habmt3UUZnZDVRQS1tQ0l0VkJYZ3VZNHpvSmFmQmxCLWF6MkpxNTVFSHFObnh3dkRTMGJaYVpFX0IyODM4T0haYVNTVW94TVBFRDNVVTBNQzFYbVdHNHhoTEU1SQ?oc=5",
+      "title": "LyondellBasell: The 40% YTD Rally Doesn't Fully Account For A Potential Recovery (LYB)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.829,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVGZHRDhEcUZDNGU3QktqNjl3RkZqdVFyX2RKSzZsU080a3EyOVU4al83OW1Cejk4RlVyZG1UVE5Pb21HNFI2NmE2TjRCYU5vNmRJX3lXcEkyNWE4Vlp5VVJ5RmdFcGV5aVF5RjgwRXdLZWZBdTJXTURPTmlSRmZKQTVSVFAwVlZqQ2ZfcS1xQ25SYS1rRXV0RURzUQ?oc=5",
+      "title": "LyondellBasell stock jumps 40% YTD amid hopes f...",
+      "snippet": "Pluang, 2026-10-16T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LYB/history",
+      "title": "LYB daily price history (Yahoo Finance)",
+      "snippet": "close 63.71 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

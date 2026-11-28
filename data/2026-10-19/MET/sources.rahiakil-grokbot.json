@@ -1,0 +1,73 @@
+{
+  "ticker": "MET",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 13,
+    "before_window": 3,
+    "irrelevant_or_spam": 8,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNFdycHhGTUdVQ0N5MGVUUFdYNlNZVmxsazRVT255dFJ4UFl6TGFocjdXQTNOZzRmZTZpb3d6bDQzcXJoSG55dXlDOHpJblhnOEg1YV9qVGtXbWVpMHA2aXZ2cFFvTkRtTEhiVDBNWHNMNlJyNlRyREU5UHF3SGZsc1NEdmZTQVdmcWxxSHY1bnhDSk1Pa29j?oc=5",
+      "title": "Jammu & Kashmir Bank Sells 0.5% Stake In PNB MetLife For \u20b9120.10 Crore",
+      "snippet": "Sahi, 2026-10-16T07:00:00+00:00",
+      "publisher": "Sahi",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbm9sc0dhZFhManZmWWQwWXJIRS1mbnI3UGdIUFhCT1c1RTlWM1RxcGdVZHRlWlUxQVhmZXM1YUZQYXkzbDlrM2lHU3NuWXNxUVpUTk1OZG5zdHVwc1BFZ2pPUmtDTndiQjVCVTVZVjdISjFRaVpPaFNQWVFXQ1ZSTW03WmkwbnVkMndJRWpfcUc2eTdwcExoYkloQzV6bUNodnNxdW55d0FQYjNLRWc?oc=5",
+      "title": "J&K Bank PNB MetLife Stake Sale Completed at Rs 117.20",
+      "snippet": "Kalkine India, 2026-10-16T07:00:00+00:00",
+      "publisher": "Kalkine India",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSEdNN3dnSWFNenlBeE5PYURmTTF0WndsNWRycWRFWUk4SUdKRVFhZlJfVE9ub3RUQ1BpdzBoSkZRczVYWnNvVHRXYl9Xa0RuaHkxSXUtaU5sdXRfcXk3RjNrQU9FMjZhZ1NNN3RPd3Ntb3I1WmxqeHY1MDhhaExWMnl2NVVLc19hc3c?oc=5",
+      "title": "Better Dividend Stock for Retirees: Prudential vs. MetLife",
+      "snippet": "TIKR.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 99.58 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "CARR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Carrier Global\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQbXBRRWVkbFBUMGdZVzd6NDVzWVlrTEg2aDU3OXdQT2pQemM3NGdJcXBKMHNLbkhOZVBVRGVSMk03TlBKLUV1M2tqM2ZwelpoQkEwRFh5MzVhTXZ4ZnFmT00yeS1fZkNQX1RCMW15YndkQXUwMDIzRzViOEF2TExLNUxuZVd0ZVJ3RnZxNGx4YVRmZ1BsbExGZUdlMG5GVWVHeEVkVUtfMWUxNTNqOE1YU2l1N3RNcmd3dkdIQVA4SW1vanZYeUpwUGNSQTJqZng0eUF2eG04bEk0UmR0SEdiQ2tLSTRpSU9hbmJlZGQwaFppalMzRVZJQjluYmp5Ylo2aUdKNUhhcTF4UVVLRV9nYTFzUGVwVzRybjIyUTVXLXFpaXZwcEkxNg?oc=5",
+      "title": "Analysts Have Conflicting Sentiments on These Industrial Goods Companies: Rocket Lab USA (RKLB) and Carrier Global (CARR)",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.402,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CARR/history",
+      "title": "CARR daily price history (Yahoo Finance)",
+      "snippet": "close 55.21 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "ticker": "JBHT",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"J.B. Hunt\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 5,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmpVTEJGWmFCc1V1c0pEWEhvU0lIVm1jQ1llUTJaTTRHeVF6NFo5M0tYZzlmMnVoWHFtNEc2N2ItRnkzRHJvVnlfU1ZuYURqNmpsWWRXRllWemYtajMtWUxCN3VPOVFOYWFUQlRkQ2xTT2pENTZGQ2ZXUE9Ud1JfWjdJblVzQXVlUjhwd09GcGpxaDlSTmNSMFM4U2w?oc=5",
+      "title": "Could a Trucking Squeeze Become J.B. Hunt\u2019s Biggest Edge?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOck9PdFcyc1RkOUJmNFR4RC1EZTNLelJmbGJmeEM2M2NEREl2eXJORGFxc2tZY3BjanhydTZyaC1EN292U1NlN3lZbWJrQkNBdjhWNmtWMWpsa3lPUEVPYW92OG9jMXoxMmpWN3dqaVhSdVIwLUFsQ2VLTTE3T0JiUm9Sa1JPdHdjcUtheHBDX2c4ZmlDWnFqbw?oc=5",
+      "title": "Stocks making the biggest moves midday: CoreWeave, Moog, J.B. Hunt, Alcoa & more",
+      "snippet": "CNBC, 2026-10-16T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcVFYSWVhTldHaEVpOXdTM1lVT1Y2a0QtYVcwX3pONGhGQXZ0dmpTZEZPaUFJM3QwNjA2UHk4MmxjYzYwRXBhRVk2c1N6ckxkNHdKbGJLaVVPVlE1X2NOWWVYRnRoQkJ5UHBWMS13dlVBMDhnUlNjQUFGYmY3ZDF1X2Q0NUxlN3BNM29BWThvUW40Q0pZWkg1aXRXVQ?oc=5",
+      "title": "J.B. Hunt\u2019s Q3 earnings rise, but so do costs",
+      "snippet": "Truck News, 2026-10-16T07:00:00+00:00",
+      "publisher": "Truck News",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZXI0T1pySFNkQ1pJczRRaGdQdEp6Q3ZMck4yTHlzVnYyRTBFbHg5MzgwcnZhYk5NQTdYemxHR2lmQi1fUGJzVWw1elNPZTVMOEl0T0dZcHRpaTRvRTJRYjRLMDVFczNpVUFfQWs1MFlDU0lXUmJGUk5qSHotenQwWTZ0U0RMRzIxenA0azVzd3Z5Z3Nn?oc=5",
+      "title": "J.B. Hunt Q3: Rising Costs Bite, Shares Fairly Valued (NASDAQ:JBHT)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.625,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd2RVeTJnRzN4QlJFS2FUTDJUcjlqTV9mZG9ES3FBYTFPSElOS1U1RkxucjNnQThPN1BuWTFneVBmTEV2ZmxKQWR6VzVmVXFOT1hXOU84WUpyZ2w4RjRzWGRwNHpWSFlSU3dGR1hlRVNGLUJndVZjcXE3a21aSGZyVU03ZzQtemt0LVRFaTJ3?oc=5",
+      "title": "J.B. Hunt Q3 Earnings Beat on Intermodal Growth and Strong Pricing",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.796,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zUlNQUjFaNGkxcERDb2dPdzNBclJFdURhSlYwYTVCNXV1bVBVdWxuZjRnMFRMUkJxMWxaSlpIQTFKYV9oOFBKMXNEeWpnS0NUbWNxTzFzT2JyMzN3OVJZTHlXVEZzZzhPSEE?oc=5",
+      "title": "J.B. Hunt Q3 2026 earnings show revenue up 20%, EPS up 3%",
+      "snippet": "Quartz, 2026-10-16T07:00:00+00:00",
+      "publisher": "Quartz",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeFJjT2dZZU9TT3JuZVVmTG5rNkkyYV84dDdibXJRbHRQSVd3Ni1iSnItMVBHU29PX0JQRzA0Z0pRaDNsV2l0M2Nfbmx5MlpfYUJLX0VEWjZRV2pRLVpwTXdXNnBoZEtlVWduWHktWklXUEM4enZDMWNnTk5jNi1oZ044VUJaU2JSWlMxb3ozaTBmSHpMZlR2RWhiU3k4OUplQVpoM2xOYw?oc=5",
+      "title": "J.B. Hunt (JBHT) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/JBHT/history",
+      "title": "JBHT daily price history (Yahoo Finance)",
+      "snippet": "close 223.25 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

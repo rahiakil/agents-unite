@@ -1,0 +1,61 @@
+{
+  "ticker": "NXPI",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"NXP Semiconductors\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbGxUdkRBUWJ3RmRaMHREcXNqSEN0aEotV3pNRkozekNjYjBnR0l6b0JMeHJXVUgwdV84NWJKWXAxWUxEM0owZlZwXzd3Q2xoeVhCNFRfTDhsMEVmVUxBMWFxZ25FTHpzZnA1M0gtX2JpNTlCQm53VU5EeTdLRHNOdmdoZFlnWDRBdVV1VVdBTEpfMDF2WEpXWGduVENCUm95SzhxWGp3YS1nT0pla3lwV3ZpbFhDV2JKT3VuQ3NvdWd4d0F4aVBlcTlpVEFLeU9ERTJKTjc5c0t5Qk50VU4tadIB4AFBVV95cUxNbGxUdkRBUWJ3RmRaMHREcXNqSEN0aEotV3pNRkozekNjYjBnR0l6b0JMeHJXVUgwdV84NWJKWXAxWUxEM0owZlZwXzd3Q2xoeVhCNFRfTDhsMEVmVUxBMWFxZ25FTHpzZnA1M0gtX2JpNTlCQm53VU5EeTdLRHNOdmdoZFlnWDRBdVV1VVdBTEpfMDF2WEpXWGduVENCUm95SzhxWGp3YS1nT0pla3lwV3ZpbFhDV2JKT3VuQ3NvdWd4d0F4aVBlcTlpVEFLeU9ERTJKTjc5c0t5Qk50VU4taQ?oc=5",
+      "title": "NXP Semiconductors (NXPI) Could Be 26% Undervalued After Rating Upgrade",
+      "snippet": "Simply Wall Street, 2026-10-18T15:49:34+00:00",
+      "publisher": "Simply Wall Street",
+      "published": "2026-10-18T15:49:34+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObUlnWlNKdDkzWlpKVzlfUWx4cFZQVFNIcFdqYl9lNnVuVTdXc0J0THZuZmp5bjQ0TkVNTC1jQTlhNmpXaURNYWNxOURwYTd1eDB1bHI5ZUZLNVV5Q0t1SDBhS0o4MmZXWkVqSm5Xc2xVNmVQb1drMG5yOHZoN2NjYmxnSzdmb0dhZnBST2g3bWcxT19D?oc=5",
+      "title": "How Much Upside is Left in NXP (NXPI)? Wall Street Analysts Think 31.41%",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NXPI/history",
+      "title": "NXPI daily price history (Yahoo Finance)",
+      "snippet": "close 230.19 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

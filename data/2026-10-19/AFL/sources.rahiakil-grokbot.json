@@ -1,0 +1,49 @@
+{
+  "ticker": "AFL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Aflac\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 0,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZDY3N2QzcHZxcG13SndtLTFSQTdTUVgtNVNWQ3FzVU5jOFVoM0NoWEd4Ym9IS1ZEYVlCS0g1MWN0SzZDZ0d6UzgwdG1NNEd2MXNWTmRrOU1RREltQS1XUml1U0RHRFpCZ0ZnclhKdWN5Wk9tdm94SW95MHl6ZGFzVVRiblVWdnVHbU1Sa2x2VVdsSFJU?oc=5",
+      "title": "Aflac\u2019s Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AFL/history",
+      "title": "AFL daily price history (Yahoo Finance)",
+      "snippet": "close 118.67 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

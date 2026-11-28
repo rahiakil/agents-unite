@@ -1,0 +1,133 @@
+{
+  "ticker": "TWLO",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Twilio\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lUkd2Y2tKUm5CdXRKSU9CanZrcEhYMF9IblVFU1l1NnlUNWF6UEl1a2o4WFZzUUUtX0JNQkgyQTJqLWx1TVVpTjBEb0xvZkNLa3dfVHk2NzgxNzNOQ08zeGd0QldvZzFtZkVqcHQ5N2h0bHZrUFc4?oc=5",
+      "title": "Why Twilio Stock Is Today\u2019s Worst Performer in the S&P 500",
+      "snippet": "Barron's, 2026-10-16T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.625,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkRHTnNwak9Bc1BDbnVHV2JmYi14WkZ6aTZ2S3hkM1VJazV0VVM0NmJRQ2VzcllZTjZpbXprYmR2Y3NqLWRFTVZiRWM0QlZJNU5BcHNFY2dXZktTTmtwS2ozSkJVTkdaNk80bVpEbjlzam0xcDhBSkxkT0U2SGZZUzVkWDZRQ0VrRjZWMFp2d3Mtc1ZaRV9JdEpLU0RRWWM?oc=5",
+      "title": "Wall Street Bulls Look Optimistic About Twilio (TWLO): Should You Buy?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVnh4MFpUbHQ4am1BQzhYelhIMUZSX0NxRlBpRzdMajdRLUZFMnJjcDJRSkZvSFVqZzBSZ0NOT0t5aXQzeWtaOGM5VmYzd2JraW5RUlZMTHlsYlkxRGR4Tzg2STR3eGRFQldVWWx3SnFUcU14QzVIdVB4OGtKbWdZMkdn?oc=5",
+      "title": "Twilio falls 11% on sector-wide selling (TWLO:NYSE)",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaFRLOWxxUk1RMHJoQlNYdS1KNlJ3a1NnRld0Sk0wMzQ4VF9PU1dXRnh5UnhuRXN5MHc1cUN1VkNKdEgxdEhsc3F4UWpIWEF0dkhjZjRtZl8tYU5hRzNYb25BdjZvMVl5dTJlY0FNSzhqMThFMmI1aXhtS0tseEpMNXpNa1ZVQlRfT1YxeGZ5UXdDOUJMd0xmRVVrblBYMGVVWmIyXzJSLTJYS0lIMFhSUGtMOVRhbEhoV3c?oc=5",
+      "title": "Twilio Stock Gains as BTIG Sees AI Agents Opening New Uses",
+      "snippet": "TradingView, 2026-10-16T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNXNSNHNfV2h2VUFLcFFub08tX1dCNkdDcjA3YVJDRVlRLXBoaEVSc2VNYWVCTWxWalNZNXFRVjA4c08tVXEwVzM3WWxhcjJnekxtLTFpeUxYcms4SEV3cHZHQ3M2ZDZrRFJFZkczRlk1ZnR4eVFqSHJ3cmp0VnVnV2ZibFV1eTlVSjZpRUZGZUVuQmx2VHRXYjBkc3lQTTRCZ2Z4ag?oc=5",
+      "title": "Twilio Slides as Valuation Concerns and Tech Weakness Pressure Shares",
+      "snippet": "Quiver Quantitative, 2026-10-16T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVDVyRU1YRThfbzlnbm91MXU0T2JOU1VSUjdmUWdwVUxIVTRnVk1ULVctRlZOYVJCUmFweUR2VjdLbURPM1ZNVkR6WG9KeUlfeWVOTDIwYWl3Q19idVVPdE04VGdWaGxwQVNyTnE4WEhwczltdUhYUDg4V1JWb0Zlc1g2bE0yWXZCU1NmZ1lhcUJ0enJGOHF4T0RpU0ZfcWJMVmc5NWpiNVNKV0U?oc=5",
+      "title": "Twilio (TWLO) Shares Drop 11.19% Amid Market Pressure on October 16, 2026",
+      "snippet": "GuruFocus, 2026-10-16T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVFgwQzRMdmxWNE1RTm1TMEh0bVk5NGlFX0NkQnkzeGc5dzZHdWMxelFDWDRzYWN6Vmlkc0NKSnA5VGVQUDhMVlBVSGZQVHd1VlUyLU9MY1lNUFVCOEdPNTF6OXNpWTEtUkt1TjhjYkxQeTIwQzhXdDZfRmE2UnBfckh2dmc0cGdCeDFfSkRodnFSNFY5dy1Oa2JxeEJjRHpWeTFpa1Q5bHVxdw?oc=5",
+      "title": "Twilio (NYSE:TWLO) Stock Price Down 6.7% - Here's Why",
+      "snippet": "MarketBeat, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSHM0VllGU2xMbHBVeE5WZkxfVFZCWmdlbUdJTnhKZFhkRFQxTlJ1NzJ5cEdzSHhoN2ZyRTFjdXg2dmJMT1RlQWZndW5RYU9sZ1FQRU42T2VQTWIzRC01c3V6Q3BRWXowMkI3V0xpUlpBNFBrNFdveG01ajlHNzNaT243S3JLbDlBcHBZRVJ0MFhRNGRWUk9RNUd1ekJCWTl0OF80UDVFdjVwUGJ1TTdQdmE1cE0xNWljV0hjdFAzbHlDVll4bFRuV3BWWGdRaFBFRVd4TzZBMHNCTG90SGFiaTBOc0ZkMTJG?oc=5",
+      "title": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
+      "snippet": "StockStory, 2026-10-16T07:00:00+00:00",
+      "publisher": "StockStory",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.153,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TWLO/history",
+      "title": "TWLO daily price history (Yahoo Finance)",
+      "snippet": "close 257.29 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

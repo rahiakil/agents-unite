@@ -1,0 +1,97 @@
+{
+  "ticker": "TSLA",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tesla\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcjNiNTdYLWFxWHp4VDFkNjNTT3ByNE5vOFlxamUzU29GVjVGMGdvakxORlp4VDRrUXJFTXRmMHRIUTJXRzBCakVTR2h1Tzg5OFlkLUFLajRHd0ZEOG5qU1pZcng0RDFDREZmc1hJZlpvXzRfUHd4SDhQcFBmLW1yelo2ekdBUUg0ckI4VVNhUG5QZkpqSXZ2ZGFIdXNqeVZHVFEyWkVoU1lYb1Z1QkNkOFNHN2s3b2pDT21yazFjcU1JQWVyU21WUGw1d1BqVUdaVkZOb2szZzBzWTRGRUZr?oc=5",
+      "title": "History Says Tesla Stock Swings Hard on Earnings. It Has Moved 8% or More After 10 of Its Last 15 Reports.",
+      "snippet": "The Motley Fool, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSGI0a2tfVHhFRWxvVWdTNTBaVnlBVHVTVmdPb3c5S1J3bmhMMGxsWG1fZWVWSjZiWV9iNkdqUnM1cDZ4dXB6UXlabDJmTzBtX0dibHJDaGlySzZTbDJkQ185WGRlQmkxNV9OT3dRWXBveTd4TlpNb21JVUN5VjVMN2hpOVFqbjh3dWYzUm1oOUZhWXZaalk4?oc=5",
+      "title": "Tesla Stocks Rise After Elon Musk Reveals Highly Anticipated Flying Roadster: \u2018Well, It Worked\u2019",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56UTFJMmVtdnZsVzg0U1p6dXlfYVZXSl92U2Z0cnFPLUpmZ1BPNVIwMmgwZlF5aVRBdHlQNk1CLXJwR0JWMFZ1WjlvaXl4R2hhLU9FR3RjT2lSNVRVdHIta1BQZ0d5eFNFR0dlVEtrY05BS3RZWnd6R2JsbHpMUQ?oc=5",
+      "title": "Tesla Stock News (Oct 16, 2026): TSLA Falls 1.3% to $362.44",
+      "snippet": "Gotrade, 2026-10-16T07:00:00+00:00",
+      "publisher": "Gotrade",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONS04ZkxiNU5HZDRSazBUVkp5ay1ueUx6MDM4eGdDMm9DMUdodGhPa2NfcU1GcXh1cXVlNjNIeDlNdlM3dkVzX0Vkc1RzUTlUNTVMbDJkNGFhUFhGTUZtT2JZU2EyNzZvbi1EdmM1NWdwVE9EekhsQmJCSVc3clhPcUhRcDk0SGZ1NUMxM0FHYUpzcnk0S1hINXR4dnVuM1VROXZpZExOZnBBWURo?oc=5",
+      "title": "Tesla Stock Lifts After Musk Unveils Roadster \u2018Flying\u2019 Car",
+      "snippet": "Forbes, 2026-10-16T07:00:00+00:00",
+      "publisher": "Forbes",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDhvVjlZRnI3V2RNMkFDalpFREpkNUE4Rkd5VHh0MFFRWmZSeldySF9fOGxfOGFMRk55ajZWWlZ6Ui1TY2xzQnN6NTM2dU8takczTHVYWVQtZU9PejhNZ20zcFkxMzUzdHU5ZWFlRnBHS1hCZ1JHMzdUeFJPaEw3ODBWN0pLS2FUWFZMaWgxZklVbllhX2ZJ?oc=5",
+      "title": "Tesla Shares Climb Nearly 5% After New Roadster Demonstrates Short-Burst Flight Technology",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSLA/history",
+      "title": "TSLA daily price history (Yahoo Finance)",
+      "snippet": "close 368.06 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "PRU",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Prudential Financial\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd0NGS09FT1dxdnpuczBmME15Mk9DT0Jhb3Vra0NwbnE1VXlfQ1B0T1JuWS1QanZFSkxmcVAxd3A2ZXFPN1lLaUJ4MkdBVi14TWxaeHg2UHE4UnlMaTRNTENnV1V0VmhzWmdWZERvXzhGcThLTVZ4RVV0MjlHUHo3V3lpTVkyM2ZKNXJiLUp0bkpIWWdtejRhSFk3dWZHZEM3MnEwY3B4TVRIVlBFaUE?oc=5",
+      "title": "Prudential Financial (PRU) Faces $140M Q3 Hit from Japan Sales S",
+      "snippet": "GuruFocus, 2026-10-16T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PRU/history",
+      "title": "PRU daily price history (Yahoo Finance)",
+      "snippet": "close 113.67 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

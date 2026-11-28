@@ -1,0 +1,49 @@
+{
+  "ticker": "CASY",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Casey's\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 6,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTNDZ3AyTndBOW93WkRHNXNxTGd0RlAtQXU4cUZVWXlsZnZra2NJai1DcTctcUVOVTZVTFdZRnlJTlprZEdQd0lESXFPNGdNeDhhMW1SODNTdWR2M0lILUxlTndRWW5NTTl6WFVtTnhsSUVXN1ZRVHNLNUVQVXNsMHBqTGRNdktXSXJybzB3MEl4WFNTQmZJVQ?oc=5",
+      "title": "S&P 500 Stock Casey's Dropped 30% in Its Biggest Pullback Since the Great Recession -- Here's Why I'm Buying More",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.052,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CASY/history",
+      "title": "CASY daily price history (Yahoo Finance)",
+      "snippet": "close 693.73 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "ZTS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zoetis\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNjJTMFQ1YUJDaElhemdrM0tQaEp3Y25pVEZYTzVzTVhFbXRpbE5rUVBpVl94UzltSXZldXAyaXFXT3g3c1NsYUVOVmVacmstS0oxTmtBMWwxNFptNFpSRG5wSmZMQXlJa0JfTm5TWVhTSU9DVzIzX3ROckgyRm1ZaEExNGwxSlkzQWNKdm50bnIwT2JBV0U4YS05TlZPZnBM?oc=5",
+      "title": "Zoetis\u2019 Valuation Has Fallen Sharply, but Has the Market Overreacted?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.649,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQc3lqdXJ6UWthcXg3Vy1uLThOR0duWDJCY1R5ZFJ3czB4MVVhX3JYWWpZckt0eW9hSFE0M1dlZm41eFNTSFdSSG1ISW0ydWgxckhHNFJFNUpiLTY5d1RXb09VUnBiOFZ0c3F6UXZKQjRfNEFjdlBhY3RoY245Y2t4cS1qQ3NZS3ZselBfdnBkbnlweldUZjlkUlRZZkVqUEtiVUJhWnhhNTlndF9MOUl1ejI5RW0xeWJzclZPNmsyWTJUdzAzNzRyM3ptSWdNUQ?oc=5",
+      "title": "Fund Update: 347,786 ZOETIS (ZTS) shares added to Smead Capital Management, Inc. portfolio",
+      "snippet": "Quiver Quantitative, 2026-10-16T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZTS/history",
+      "title": "ZTS daily price history (Yahoo Finance)",
+      "snippet": "close 79.59 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

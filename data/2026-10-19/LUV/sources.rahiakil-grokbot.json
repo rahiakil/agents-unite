@@ -1,0 +1,109 @@
+{
+  "ticker": "LUV",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Southwest Airlines\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 42,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 13,
+    "irrelevant_or_spam": 6,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZjN0YmxEVmFIeEswX3Jsd3plSzh6WjNNWTNfS0V5Q1lNVVZxUHR3Y3lIaEM1ZlRjVGp2R1Jaa3BMS2J1M1RwUWdtSGNCcVpPcHNONVhCX1lta185REZXTzQ1c2lnVzJ6aHJTMlBWWlJXbHh3aTRkQmtWOS1DTGlsOGU5TnE3OERweEhYS2trVlEwTG1GMUhfc2xn?oc=5",
+      "title": "Southwest Airlines Overhauls Rapid Rewards Program",
+      "snippet": "Talk Radio 98.3 WLAC, 2026-10-18T07:00:00+00:00",
+      "publisher": "Talk Radio 98.3 WLAC",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWNvMk5YdUltdDdOTERjdE5sQzlkWUVPc0dIZmdwQWZ4dVhfeXhmZG0xMVNVLXRGM2JVVDBwamMtbllDanRlYS1NOC1aMTZXSVNKRVl3eEM2V05nbVhxQVNsQU9SV3lmSVBxdWJWNnlPeW1vcDJCN0lSOHotM1hIbFBESzJKek1yRzY2dmQtbk9SU1VySHJ0bjhfN190N1V0aFd4dA?oc=5",
+      "title": "Southwest Airlines' Major Rule Change Makes Its Best Perk Harder To Obtain",
+      "snippet": "TheTravel, 2026-10-16T07:00:00+00:00",
+      "publisher": "TheTravel",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObjJGcW9CNDdpbHdIZUNtSnBWdU5SUDc1c1BURE9IQk92cHVIQVV0RV82MklyR1Y5ZDd1MFNBZmVGdEgzRlBSRnJnSW16VVZhSmkxOVYtSlFURGNKa0lWS2JuV0xta1FmLUNZRlF5aWtCbGEwVWM5dEhRZVRpNktKMGFpVkw5ZFVteW1MZzJrMGlhRzBXVDVYZHhKQmV3YzBlVHZzZmdB?oc=5",
+      "title": "Southwest Airlines Q3 setup: Guidance faces earnings-revision test",
+      "snippet": "Seeking Alpha, 2026-10-16T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHlQTFJpQnhJck9wQ0k1NGQwWkc5VEF5WTU1MnVIUUVxa3BqQXZhSl9fcDdUTDhUbE9yQ1RVWU5Ic1pBTmFCT3FDV08zM0hJVS1jTEpMMmp4eFpNMkY2SHRSUEVPVjZybDl3SGRtOTNvdzBxTmlEOF9hNWRaZUI1X1AxbmIwYWdsQzE3X1dYajBuTkx1UjJsRlJyN1AzdDFYMTViZ29BOWJJTkpZcFo4LXhLM2RkSG11ZUtySw?oc=5",
+      "title": "Southwest Airlines (LUV) Prepares for Q3 Earnings Amid Shifting Market Expectations",
+      "snippet": "GuruFocus, 2026-10-16T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzZESkN4UFpWNEZRZ0gySW1rNTR1MlBhYjhfaFVVT285RGpmMHZKSDNHWnl0VHc1TG5vUmF2NE9LWHpUc1otU1VLRUkzanpyeU1WMTFEcmxyS0lWMmptemNxMXdJSlhCZnozeVJjd3ZtSHZVMFk1Qjl1SEJkMlY4UElrMHBWZm12ZkVsVHp2VWl0dTJKbGtlOXctNjkzQ1U?oc=5",
+      "title": "Southwest (LUV) Q3 Earnings on the Horizon: Analysts' Insights on Key Performance Measures",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa2xFRHNmZ2p4WnZ1NGE4UmhQM3ZldFptcUpMWThPZV9RR29waUhjUWFyMWRhWnlQTFprWHRraHd2QlJ4cGxDZWlFUW1iWnd0NThuYmVZVlFYdWx6TFh5bFR1UmlUMWpYMUtvSHFiMTN3RVRHbHhmU0toVUY0cVlvd2plN3cwXzhLZXkxZGFUTjFFRTZlZkctQjN4NEV3VkcwX2tRTTlsaw?oc=5",
+      "title": "How Loyalty Overhaul At Southwest Airlines (LUV) Has Changed Its Investment Story",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LUV/history",
+      "title": "LUV daily price history (Yahoo Finance)",
+      "snippet": "close 38.8 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

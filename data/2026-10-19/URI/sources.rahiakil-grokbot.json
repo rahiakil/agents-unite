@@ -1,0 +1,97 @@
+{
+  "ticker": "URI",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbV9pVThqRExUUC1IdEd0ejZjcEFnQV9UVmU3RVRDbHVJQkg3YWtPY3REWTQ0b25mT2tUWEtVWWNQa29HaU40Y0lnc2stWGdKTEQ2UV9wTHVoWk1lQWxRZVRQN0NQZ3lzM1IzQ2hVZHFhZU5nM1B6NkpDUDN4a2RtT1Fpc1kxYWNjVkR3MWNVVlJVdnkzOVlmQw?oc=5",
+      "title": "United Rentals (URI) Stock May Be Near Fair Value On Cash Flow",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUFc3bV9xLWtpWkh4bU8tNW5UN0lBUkxrNXRpNm92OWNOWTZJa1RteXhQNWUwTmdpci1pN1pSODlqdUFfeTJ6V1lISGpHamdxLTU0VkxCSXZtOGdYaWNuRVlrdVZ3UnlidFlnRXhNRExaN0M5bE50TGVERzlIRm5HYmo5U2g2V0xWc1lsTG43c0MwaF9FcU9EdDBieDVnWXhGU0x6QmlpNnRXZw?oc=5",
+      "title": "Should Earnings Estimate Upgrades Require Action From United Rentals Stock Investors?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.718,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkxteVFCTENlZXRrNXRidkdzbVRwMVZ2eVdxdUFNV3BZcVhOblZCLUZKZ0t5Ni1ULWo3TzJGbU5ZOG1oR2RRWjc2SVV4dWNyMDdQWUItNnNNU2ZzaGpSZHk1Ums3eXNKUWhMS19ERmlXU0JKLXAxcW5uNnNHTUZvLWRkbGhOaTkzd0hsVUxqOEZmTFQ3Y3VHWk91X0dhZnM?oc=5",
+      "title": "Is United Rentals (URI) Cheap As Earnings Forecasts Rise Ahead Of Results?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcF9CR1RRQjVjZlNlV0JFYUZEb1lEZFpSVUFHcDg0WHJiZ0F6cjMyNHhZM1RYODdScnNCa0V2QW1KVlpycWlDbGVTX0psR3RwSEp5OTFraHNVUkpJVkJqWVVWRHJKdGR6X1BiNC12bjcwUGNmNFd5bHpvY3ZFUG50UzdWSjhKbURFZEFFRDlaWUdHa01YRW51QXJsbmVYUmc?oc=5",
+      "title": "United Rentals to Report Q3 Earnings: Here's What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOHk1ZkVpdC1MalhZdVcwWFplNnQ0ZV9KSldFYzR0LXRldlM0MEMzclh1Vjh5Wi1DUmZRTDQ2azk4N1J6cFNGa0hULVMwSGJvLUNPNVI0WkNsV284ZzVOdzVlN2hBVHEtWkVHZXdER2ltTEd4Qkg1Q0ZJR1IyVVFJd0lWOWE3dWFrbUVLUDZubXNwdlk1WVp0dmdUdXJEa0FNS1FyQkYxMHk1ZG8?oc=5",
+      "title": "Exploring Analyst Estimates for United Rentals (URI) Q3 Earnings, Beyond Revenue and EPS",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 1025.0 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

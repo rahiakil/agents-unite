@@ -1,0 +1,61 @@
+{
+  "ticker": "LVS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Las Vegas Sands\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObHJWWEk4MVFZaDRxX21Oc1dsbldGNXh1dUkxeUw2VmE4OE9aM0U3cXpXazF5Zkh2dE1MejNERGZEU0hwSjhNN3NqMWdlSzBSWnIxb1VSSkpsTkJ4RV8wY19KNXdpOVloMV93OWFKYkhsNlhETTNvYzVOaTR5alhuNTIzNWs3SGozUmFrdE9leUZpcm5LNF9HaHJR?oc=5",
+      "title": "Seeking Clues to Las Vegas Sands (LVS) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOejhFX3dRVWZ2cGtpcFVmcE5hX0txRFl4b3hXVzhTTWxRRmtsb2FGMG0xNU9ONDJhVE9XbFRMZlhSY2ZJaVlnVXRvVTNmdXBBTC1nNjBzSnF1SE5OWnJucmZySUZoS2ZCS0NZTTVLLXVLVVc5dUFpREFMLU9LaGlDQXd1WlJ1Y2lZVHhpa0dxNWJ5NEJj?oc=5",
+      "title": "Las Vegas Sands to Report Q3 Earnings: Key Factors to Watch",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LVS/history",
+      "title": "LVS daily price history (Yahoo Finance)",
+      "snippet": "close 38.01 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

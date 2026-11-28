@@ -1,0 +1,61 @@
+{
+  "ticker": "SYY",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Sysco\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TWmFNT3VTbDlKU1YxZVkwU3had0dnbGo5bF9DY0RoMUtaQ0NoWllOQmRUOURtTXpjQ3RvV2k0dEtVNDVTZV9rVkNnVFEzZkl6WUxySHlKRUpjX0tWX3FvYmVnRkJiSHAyMXo4aW9ycHp1dFVuN1pPbzRwLTRLV1k?oc=5",
+      "title": "Sysco ends strike with Teamsters in LA, restori...",
+      "snippet": "Pluang, 2026-10-16T07:00:00+00:00",
+      "publisher": "Pluang",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUlY2SS13YmVab1otUFZ3U0p4YWFqLVROYVo1RzQtNTBiTnZuRnNsbjVXODNQY284ei1hTE85ZVpIOGtsN21kdUNnUWZ5TUlsQ1BjdXVuZXotZlpKOG4welVxaXlXcHlnSWdoa3pvUEI4Z1RCbVhQeC1CN0FIYmpMZXk1S19OUUVLeE5LWldfVi1vMWo2ZjZzYm5lV056eXI2dzY0NFFyWS1QZGRIWE51U3QxVQ?oc=5",
+      "title": "Dan Loeb\u2019s Third Point Takes $123.5 Million Stakes in Sysco, Performance Food Group - Morgan Stanley (NYS",
+      "snippet": "Benzinga, 2026-10-16T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SYY/history",
+      "title": "SYY daily price history (Yahoo Finance)",
+      "snippet": "close 81.59 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ticker": "PYPL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PayPal\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 26,
+    "no_date": 0,
+    "after_cutoff": 12,
+    "before_window": 11,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96ZEJTUGplZk9uVTZVbm1LSmhFNm4yZ0pxZEltMzg0WWo2YmZ0Uk5mMklDeVl0bGR2Y0wwWm5yZlFCSzBZTzRraWdmMGFwNzM5M2kzNGREWlBtZzRwdGIyQm1od004MHBVYm53SnhkWVYydVh6Y3B3?oc=5",
+      "title": "Who Owns PayPal? List of Major Shareholders",
+      "snippet": "The Motley Fool, 2026-10-18T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORV91YXhfZVU5dmNpWS0weVBGaGJyel93Uno2Ri0ydHBWNEFJTUFUTmZRLUFqbFZBNDRNVDFTVGM2cDdJdjNsLU1LRDhqd0l6VlhTaDdjTGNJY2RlTUdoS2sxclVpSkFpTFloMzdxSTFSc1RYVFYtdnhnYkdTRHpLdFVpQnB5Zl9zMlBEWnc0Z1F2MVhIMWNHT0diNUI?oc=5",
+      "title": "PayPal: Market's Extreme Mispricing Is Starting To Unwind (NASDAQ:PYPL)",
+      "snippet": "Seeking Alpha, 2026-10-17T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaHhuakROYmdUZGxmVFpFb2x5TGNXamNJTE9Yelp5ODR6dWFWNEJWVjJKeFNQYzdmcEJNN05KbF84UVhjQXd1N0NkZzZoOWROcGQwYllGVDB2cDgyU3NOLXd3UEphcVFpemJxTmwyZG1ySmljMDB5OHNjckp4SWNHRWw4aDRqeExhaDA0X0UtNmEzSUFVTVNQdm42UVBCRkxs?oc=5",
+      "title": "Is PayPal\u2019s Next Big Thing Already Here?",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PYPL/history",
+      "title": "PYPL daily price history (Yahoo Finance)",
+      "snippet": "close 56.51 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

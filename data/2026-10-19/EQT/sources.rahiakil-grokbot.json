@@ -1,0 +1,109 @@
+{
+  "ticker": "EQT",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EQT\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 18,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNWlqSDZhTUpmdnRRQlhtS0tlYUFNQWdDVmVoTEZzSGxMZmFPaDhJVXBjNHcxOVJtdlQ5Q18zYm9KcjByMkhSQnZGaHhpb2phLUlOZnNMX1ViaDdhdXBVZ1dld1lPUms3RVRqVmhQZ0J0RU5IYllWeGREWEdhQnllMmswSGFuWXZMbVZ1R3VnVTFHN0l2ZEFQNlhFVFBObFdTdGdF?oc=5",
+      "title": "EQT agrees to acquire Cleanaway, a leading Australian integrated waste management and resource recovery platform",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVjFCXzBJY3VBVGQ4RzMxSDIya1V1WWd2SXltRDhQbmJLTDh3WEs4RXVtdnoxVE5la3NhWWtWRi1yejFYYjRyVlRNSXQwU2lJNnRpeHUxMG10NmJUeW96amU3eEF5aFZzOHFBeTkxRkk5a3pmeW5DSnAxSUdER3R4a3o0ZWJZTXpVS0pVUGxXdmNnc2M1Y21henQwMnFzTU91QjR0a0VKSFdrYnY3YnR3ZlJn?oc=5",
+      "title": "Cleanaway Shares Jump 21% After $6.5 Billion EQT Takeover Deal",
+      "snippet": "Bloomberg.com, 2026-10-18T07:00:00+00:00",
+      "publisher": "Bloomberg.com",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOendfOW5EZUk3YTM0enVUYWZmUTBRb2FZNnBCd29GVGRUTmpSZkF3T3VIMFFXUkFZQ0tfdlJWVlBkRFozZ0VIU19yaXF1NGkxSkhZYnM4bE5GSTJlaTN1WFNScFlRV1ZoazI3aXVUNER1SlI3U3ZBS3poQTBDaHZ5ZlRSeTdIZw?oc=5",
+      "title": "Australia\u2019s Cleanaway agrees to $6.5 bln EQT buyout bid; shares surge",
+      "snippet": "Yahoo Finance UK, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance UK",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ3BnTkYwbTF0X3R2ZUpDMy00Tk9ITWR6RjZlODdWWkdhQ0t5eVh1NWdlZmFxWVluT3hvSUZ4cHhJaTR1WEtZdU5NWEYtTk1rNVVvWU0xbXp2YjQ5ejliaHUwSEFYSDBocmc0X3lmNUN2SUVscVFSNF9XVF83VkVrVzVGdHhTQzA3dzhPU2liT1REY3dteWFaUENGWDRDMnBlZzltcTdzeFZ0T2dCUmdNRFowZEdmdjZNRl9veg?oc=5",
+      "title": "Australia's Cleanaway agrees to $6.5 billion EQT takeover, shares surge",
+      "snippet": "Reuters, 2026-10-18T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa18tcjMtbzhfSHAzWFRGa19EbnM5Y1FwazhodVVDVGZzZGVGVVhsYUxLOGdyR0xWdHRqM1JlcnYzd0NmS3l2VXlJN3ItOVREeFpRM1RmVlBHSVNfa3VQRmhCd2xOSmJITW1wR3lkTFNEMkxtYkRfQ2tSakE2N0VGWTRtLUFsT2tRMGxOdHJCRXhnaW8wSEpPX2oxcDI?oc=5",
+      "title": "EQT Raises Quarterly Dividend 3%, Reinforces Shareholder Returns",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWXhFUy1fWk53bzRfbXF6ZkQtNnZrUmpoQ0gzU1hSdnotNHhOTjRtSVoyZnNjM0d4TzdGXzNkU2Z0NlliRDJxYVYwR1RCcGJhVTFCMUpMYVhjNDl1TUZ0NnFOdmpaRTlPM19UbWF2MkU4YVU3VXp4ZnotMDVQMTdOSXVaSnhXbmJZTWZaYmtrTnJfYjlVYmJ4SEV1a0RVbEdsNWt4aWExR3FBci1USi1fbUVEb2VzUUc3dVFxb29XZWZZYm1IZ29Tag?oc=5",
+      "title": "Cleanaway shares slump ahead of EQT takeover decision",
+      "snippet": "Capital Brief, 2026-10-16T07:00:00+00:00",
+      "publisher": "Capital Brief",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.25,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EQT/history",
+      "title": "EQT daily price history (Yahoo Finance)",
+      "snippet": "close 54.42 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

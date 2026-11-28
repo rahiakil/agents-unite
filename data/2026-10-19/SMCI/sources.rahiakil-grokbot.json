@@ -1,0 +1,49 @@
+{
+  "ticker": "SMCI",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Supermicro\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclkyVkpnckxKd1hwYjZWRDAyTnhaY2FWaDVVeTYwMC03OVZ0eEFWaVNWZDhaZmd3WEVLdWhwZ193bmQtV1JMSXNDVVVBbXFSaGFUZnJ0QXZwaDVIdDR4QVRCalhIYmxpMXdqM3hKTXBRNzVsUGFlSE1wUWd3ZlJSUGdLUXJTV1lqbXc?oc=5",
+      "title": "Wall Street sets SMCI stock price target for next 12 months",
+      "snippet": "Finbold, 2026-10-16T07:00:00+00:00",
+      "publisher": "Finbold",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SMCI/history",
+      "title": "SMCI daily price history (Yahoo Finance)",
+      "snippet": "close 32.1 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

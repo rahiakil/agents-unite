@@ -1,0 +1,73 @@
+{
+  "ticker": "MAR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Marriott\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcXQyb0lpQ3p0c2pBSEgtcFRVQUNhZXFUbC1hZUlLanBrcVROVU9JeFlwclNCMUpyR3RUZ1c3Ulc1QXYwZVJNcW12R21LcFNFSWJ5RDVHS1dpTHVHMWhuME9nVzdMTTJvNThSYmNYRklVcUxUZmJWa0VWQjVDTUNjVTUwWWN0YmkxWWJVejZuVUkwb0dlZlN0YlBmbHE?oc=5",
+      "title": "Top Analyst Reports for Costco, Walt Disney & Marriott",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWktHbjE2SlFzRTBPaHNoVHlLZkJyRDNZZnJXNmx6WlVaUFBBcmVCTG9xM0thVF81NE9wald6Zkl4VktBVjBESU5xYVN3c1prRHRQZEhiWkZGaWRUSU16UXItVzI0OE9FLTFicFJWb2M5YS1TN0dLRWNMMWF1SVlUZGhFQTBxLTRfM21nVG13ZEhucEdkM0VfcU40OGgzSVRaX090d1FwX2Y?oc=5",
+      "title": "Marriott International's Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZzA0MVVfWDdfU3NDZmd4RVJRSmFkcGxsUFVSQkhiRkc1VUxaUm9TRHJ3dDF0Ri1xMnFVemh5UVRET2ZBRHF5VHJRUGlIT3Z5bkJxUzFrWlhFOGNuM0RsQjdzWWR6OFFHTXdTZDkycW51MXVSR1BXbk5zWTc0VlYzZzhsaVgtdw?oc=5",
+      "title": "James Marriott Shares Gooey-Eyed New Track \u2018Lovestruck\u2019",
+      "snippet": "Rock Sound, 2026-10-16T07:00:00+00:00",
+      "publisher": "Rock Sound",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MAR/history",
+      "title": "MAR daily price history (Yahoo Finance)",
+      "snippet": "close 390.7 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

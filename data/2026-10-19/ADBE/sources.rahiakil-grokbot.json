@@ -1,0 +1,61 @@
+{
+  "ticker": "ADBE",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Adobe\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeHRXalVkdC1OX0htNW40V1RXVE0zM0JOVzhZUWF2dWdaVVljZlJ2eExLaTM1UzlMcS03WDFncjlkWDVyTXlPV0MxT0RpUmlDVk00SlY3ZXRxM2pQSDFPMDBMRUM2UkxVaTE4S3NOMTJEcndaS1p0eWhxUHVlRGRDc19kV0tzQjBocXdLZXJDVGR0R1NkTXIxcEZrTHJaNWM?oc=5",
+      "title": "Meta Earnings Puts Adobe Stock And AI Ad Software Names In Focus",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN1FNZDZMeENGZjgxV3QyeFFYcnJSc0xBNXpxYnVMaXpsT3FEeU5Zc0NpUm5TajJfcTV2RTlteE8ya1NWdTVudkk3RFN1MGxqWUxlU2ZkWk9DQ1NZM2ZoSDh5ZU9Xc09OUDhqRUtKQVhrakRDeTRwc1B4eGRtc1AyOFZmX05MR2dTYm9oYzVHM0h5ejdXNzMxTTVXam14QzNZ?oc=5",
+      "title": "Adobe Stock (ADBE): Wall Street\u2019s Bearish Sentiment Is Only Getting Worse",
+      "snippet": "TipRanks, 2026-10-16T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.765,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ADBE/history",
+      "title": "ADBE daily price history (Yahoo Finance)",
+      "snippet": "close 247.09 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

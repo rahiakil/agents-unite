@@ -1,0 +1,61 @@
+{
+  "ticker": "CMCSA",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Comcast\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY28yMmwwSUZlRWk1ZHppTzVlcFpCVHN4UHVKY0F0ZXhyYUgxMG5RQ3pwODRCWkE5SS15QlJ0OFNWMk5MNlFtZWo2blBDalc0RGJPQ2FHXzdIOXYzbm11QUZIRmhSUGltTkpBZTNRMUdvTzhhTE5pbHdya0J4V0xSTkRDRUs0Qi1tZi1RZ3dpQ1ZRYmt6bVpCZw?oc=5",
+      "title": "Comcast\u2019s 6% Yield Looks Like an Income Investor\u2019s Dream. Is There a Catch?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU0NSeVJwTGlUSTk4eU1GbmdRQ3V1bjJPZFBHd3lsb0hFVTVjc2pSSEdjRXFXVVFnTG1TNW1HdUM5MnJMa0xLa09hbWdpOXpBZUQ5cE55SktqcHdtVFR5NnhMTTladFlITlpvTURUeVFlVEE3NDhmTFpYbEZpLWtQRTd5cDQyeWVOUGtB?oc=5",
+      "title": "How to Buy Comcast Stock (CMCSA): Your Complete Guide",
+      "snippet": "The Motley Fool, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMCSA/history",
+      "title": "CMCSA daily price history (Yahoo Finance)",
+      "snippet": "close 21.9 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

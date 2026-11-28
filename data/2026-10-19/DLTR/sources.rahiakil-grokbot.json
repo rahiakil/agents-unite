@@ -1,0 +1,109 @@
+{
+  "ticker": "DLTR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dollar Tree\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 9,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82YnFKdUplRzRaQlppcmQ1ZkRJZTJaLTMyWXMyZ2NtYmlTUmZtd2FvS0dHSmpzYXRyQURWTGU2Q1gzQ1dIV2NpT0VfdEV2NEE4bDFyWWptaGJuakhwZ2dCQVhGQU0xYzI1YVdZWTdn?oc=5",
+      "title": "Dollar Tree Has New Pottery Barn Look-Alike Glassware - and Fans Are \u2018In Love\u2019",
+      "snippet": "Allrecipes, 2026-10-18T07:00:00+00:00",
+      "publisher": "Allrecipes",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnRySVhxVjFNQkFJSy1DTVBTN25tSEJCN1JJeGt3Y2hKTWtxbElYWHM1Q3MxTnFjdkhDUFNFbDU1MGRhRTFpNjhPT04tZW5FZGg3Q1AxRXBoMVNVSWs5cERRVXFUSDVwNzhrOGl6TmFSUHVEcU1GVTg2MkhKUUJqakNPTzdVSEZ4cllEeTJWbF84Zk13SExuS2EyVjhwYWFxbVBGS1hjNWRqcjdFUE1yVlRTdGdBQQ?oc=5",
+      "title": "Bernstein Maintains Dollar Tree(DLTR.US) With Hold Rating, Maintains Target Price $130",
+      "snippet": "\u5bcc\u9014\u725b\u725b, 2026-10-17T07:05:55+00:00",
+      "publisher": "\u5bcc\u9014\u725b\u725b",
+      "published": "2026-10-17T07:05:55+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE45Qzg3NXYwTnJiNXo4RjFxdl9acjBLdXJ5Q2RNeWprM2lGUkx3NDNHYzlUZnNza2xmcFBQUVBsRlUtNmZKUjZ2WkJuVXM2eVFMYUhFOUdWb1U1TVM3WXJwYWZ4YU9IYmp2dXNrTl9jQVRCUQ?oc=5",
+      "title": "Dollar Tree's $5 Stackable Pumpkin Tower, Plus 11 More Cozy Fall Deals",
+      "snippet": "FinanceBuzz, 2026-10-17T07:00:00+00:00",
+      "publisher": "FinanceBuzz",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.417,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRzJUVV82QUw5R0QwaU91Q3E0LTRmdkNXRkRRSFBEaWdva2pPX2psSnZLMXNZRTZJWFRfaU5FZEx6UGRid2UzSHlLalg2NC1rUU9GOWVKQ24zVEJ6LTVsUW1IZ3RoYUl1d01WV3BmczdqMnFwWFRLTnJTb0JURUZIMmVqdDZVSWpkdmc?oc=5",
+      "title": "Beloved grocer 'cheaper than Dollar Tree' continues opening spree with new store",
+      "snippet": "The Sun, 2026-10-17T07:00:00+00:00",
+      "publisher": "The Sun",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rQ1ppZHNWLU1KSklSN3hSNGlCc0QydVhhSy0xcDRBR3hZWXhRaWMwZ3hncy1JanEtNDhBTHdTNmtvTDhjSHBZMkZiZjVZMklHVjM4V21qQnpiTERxZm5zelV1RkxSaEVJdmIxTHpSbjgwUQ?oc=5",
+      "title": "The $1.25 Dollar Tree Find Fans Love So Much They Buy 5 at a Time",
+      "snippet": "Allrecipes, 2026-10-16T07:00:00+00:00",
+      "publisher": "Allrecipes",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hMzRoeEVkQnl4bHdFbUVSbF81OHZyNU9Qam91d0w0TXJ3YzNaSE1NNG56cnZfelZDVzI1YkRIRU5oVFV2bWVEc01GSlJrWHFmMWplTTNFaUloUllrVm1BUVN2Vkk3NmY5NG1DZ2pMOFY2ZFBGU1E?oc=5",
+      "title": "7 Best New Dollar Tree Christmas Gift Wrap Finds Under $5",
+      "snippet": "bestlifeonline.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "bestlifeonline.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.796,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DLTR/history",
+      "title": "DLTR daily price history (Yahoo Finance)",
+      "snippet": "close 123.15 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

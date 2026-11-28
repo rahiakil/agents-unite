@@ -1,0 +1,61 @@
+{
+  "ticker": "TXN",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Instruments\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOb2lUai1feVp1RjIxODhtampRUFZFeWwybWRiMTZ0Qm5QaGdGcnBZc3FwMHVhTHlYYUFabXFCbnk2MWNObnZHdlNqcWM2ZWVkTzZKRUxERUE3eDdtVGVIVThqRVJTUHdkM05JelZCMElraWpsUjlPc040Smpabk9zYkdUbmZwZlFKQWtNR2F0NG43UGhPSDAyaGxleEpJM1ZxNG9j?oc=5",
+      "title": "Will Texas Instruments (TXN) Beat Estimates Again in Its Next Earnings Report?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM05jV3VSMzdPNVZfYVlVZ3VNTTdfNC12YzNoQnA4N2IxX3JGMGphLU1Yc3NyWlR1azJ0ZWtTZS1VT2VvSVhCajV2dHJ0YVo5X1FOYUEzVG1acDQwSElMTjNPRUkxUVFSMkZlMjhseVRLei1FV1ZpLVRvbDl4dEIwMllZZ1lZMUUxdkZMYkxiZUdLam5nN2Nvbk5SWFBKRVE?oc=5",
+      "title": "Stay Ahead of the Game With Texas Instruments (TXN) Q3 Earnings: Wall Street's Insights on Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TXN/history",
+      "title": "TXN daily price history (Yahoo Finance)",
+      "snippet": "close 276.15 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

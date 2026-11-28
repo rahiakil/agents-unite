@@ -1,0 +1,61 @@
+{
+  "ticker": "LITE",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Lumentum\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeFYxZmxENFBqYzVlaFlMZDlKaVl1aDBxSXNwVGNUdXNmWHlHT2xTQ3Bvak9hLUZMSHFJZ1M5OTQ2c3A5cy1MR3pmR0RiQ0ZCWmJYNVJiYjVSbEVSNElQNWNFTXRmbUJyU211SllSNlZTMTV4a0NtTmQ0S2c5VlllN3prU2hwQjBBMzZ3WmJVZ3N0MnNWTkY5V0UzbldsdDg?oc=5",
+      "title": "Lumentum Is Sold Out Through 2029. Wedbush Thinks That Could Be Bullish for GlobalFoundries. Is It?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.542,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY1gxenNVSDJKMEpnbm5LVWhpOXM3ODBWQ3FXcTdwdC1KR0dSSm91MjAwYmFQQjREVXN2Q05sMXNLTWJ1VUpVMGNqb3BfUDAtUzEyZkJCbTRmbURKbUVhNW5yN1o2SHBJMkxsNDhVUV9oR1BJUG9vRU9ZdUFrMy10RVVYMHVFWGhiV25DaEpERGRscUlyRFFMVV81Q0tFTFJFMS1KZVhPMA?oc=5",
+      "title": "Earnings Preview: What to Expect From Lumentum\u2019s Report",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LITE/history",
+      "title": "LITE daily price history (Yahoo Finance)",
+      "snippet": "close 834.51 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

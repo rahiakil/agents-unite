@@ -1,0 +1,61 @@
+{
+  "ticker": "LH",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Labcorp\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOGhFenV1TVRIamlWaTdLak5xTEN5OUZyN2J1NWptTjJqQnpFdW1GV1VtclpjQUZzYVBVbkRBMWZ5Q1hvREpDYkVxdDNaOHhNMDhmV00zZ1ByendleGZlOEdEMnJpYS1TMmxoQ05uVU0wSHJJcjRIS1paZUFHRTVOWW9ST1hMNWdZMUl6WWdvZ0F0QTdNYXpXWU5SbnlCdE5BZG1SRg?oc=5",
+      "title": "OPKO Stock Jumped 20%. Labcorp Didn\u2019t Move. What the Market Is Telling You About This Deal.",
+      "snippet": "Moomoo, 2026-10-16T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeFlRRlJFaU13dEF0Z2xMSFhZNXVnNHRTbmpkQ0JfcXY5RHBXb2VvaU5PdllaTHJoWU9LQjc2R0ttYVJiTUJqRUtFVnNpYzRJSlB5Q2JMcWUxWXdmbXYtazZXOU1FYy1Ka2tpd2lXenhseHZRZDBzYlJsaW93SGJGX2NVM1NMNlJHbUFWYkJDekxKMFhUTjdmSnNvaTFDdw?oc=5",
+      "title": "OPKO Health to Sell Select BioReference Assets to Labcorp for $722M",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/LH/history",
+      "title": "LH daily price history (Yahoo Finance)",
+      "snippet": "close 318.83 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

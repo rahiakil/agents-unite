@@ -1,0 +1,121 @@
+{
+  "ticker": "BX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Blackstone\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 38,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 8,
+    "irrelevant_or_spam": 2,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY05IakhldGdxcmRDbFdtRHlCa0I3d0J6NzRDNmhFUzl4NVp3RURCa20xWXFjM0xvR21iX3dERURvN2t4TXlVZ25ZTmpiZVNTSTBVaTlzeFJ4RzVieUxRaEpWcDNGZjMzMlFLRjRfY21NN2FkSUVoSjRYMkFoRnZ0OHRxd1Z6MEY2emt1eVY3LXN0Q093QkRQOFUzdl80U3lS?oc=5",
+      "title": "Blackstone (BX) Could Earn Over 10% Yield on $9 Billion Anthropic AI Deal",
+      "snippet": "TipRanks, 2026-10-18T07:00:00+00:00",
+      "publisher": "TipRanks",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWkJkbGdfUnQwTWFKMXlnZ1dsc3Z0QVRZamxxR0lWbXp2bHdpbmx1V1gxNU9GZVFQNm9JTkdSMDJNc0NQalRWVTRCT0FDSEx0NGZPeFhhWUUtekMwUFJKRFV5UDZya1JCNFFTd3hkOGdXY0R6dkRVQ1RaUGkzWkVoelcyc2lKZG5CMHk0ejdCZ2MwVFJRQWJZOHNyd2hDZw?oc=5",
+      "title": "PRC examiners let TXNM-Blackstone merger move forward",
+      "snippet": "Albuquerque Journal, 2026-10-17T07:00:00+00:00",
+      "publisher": "Albuquerque Journal",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeGRxdmRTUXAxX2dDUHYwTXFQeHExU0NrSzNkMXJucU4xVkl4NFlqRkpNUFNMUlhxdUR6VktNRUM2eVlUOWNmb2Q1WW5sM3JyenNDVGswQ0x2RDQ5WXpER01oWk1oXzlhOWp0Z2ZEdjVObl9nQXh6RFp2VWtPUlZqbnZXd2VaMFJUZDVrOE5CNlc?oc=5",
+      "title": "Anthropic Offers Blackstone Double-Digit Yield in $9B Chip Deal",
+      "snippet": "Global Banking & Finance Review, 2026-10-17T07:00:00+00:00",
+      "publisher": "Global Banking & Finance Review",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTnFOYm51SzU0b2tqRHpSNy1Sbk1ycm5WNTBKbmZoenNFeDFocEh0dmdfTnlTQWktWGFFcURSeEd4OVRET2RUUklTMFFCa3ZDVm15b0Nkbmk0LUZpU0FTNFE2R2E3eXZWYkhjWWt5emE5QkJQcmdLME9JSF9pUXR4MUFEdkRUbWM?oc=5",
+      "title": "Anthropic Offers Blackstone 10% on $9B of $60B TPU Debt",
+      "snippet": "FourWeekMBA, 2026-10-17T07:00:00+00:00",
+      "publisher": "FourWeekMBA",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcFRvRlVUVDBVQy1vZ1pDaFBhWVBDcHRjR0hTemprM2JVNjVUV05YMUt0bm1BQjFHclFldW9hODFlcFBidkdCaXcxWHl0V3dZa0l0VGxHNTlDeHRQTnJtQjdhMnM2RU51cklBTEJRT3NwWHF4NHdVejVIbGVkOU52bzJCUjR0eFZZd3M3bVU0dmNMY2hBWHJPYWgxU0RpMnR4QU0xWTBwZHdab2toZGJvZTdvWjIwZGZMbHh3azBybjBOSlBMS0wwWUN0aVc1REFFSlE?oc=5",
+      "title": "7 Brew's Rapid Expansion Highlights Blackstone Inc (BX) Stake Am",
+      "snippet": "GuruFocus, 2026-10-17T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa1dUdUpNQUZmejM5QmxNbHRBUENzZXRTNzRnNGZPT09yVFZ1SlBWVmdRWllxRGVpZnhnSEhYeHYyOF8tTXR2d1pwVUNXT1hubVVrSjlMRGdzYXJ1dG93WDNrdHhSUVNwMWhXTVd3YTlfS2xDMG1GRjNQMndfZnFkWlNuc01CR0hYTzFIS19oaDBiMFJ5bjhiWjBwMnRpVzktX1htZHRIMGhTbTFCVHFxeF9GanFKdw?oc=5",
+      "title": "Blackstone's Q3 Earnings on the Deck: What's in Store for BX?",
+      "snippet": "TradingView, 2026-10-16T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWVhYcEpDM002Y1VwaUFBYktyNFdkVG9XbXZaTU44b3k4ZzZRcmdLR294VXZkMDlYLXg1d0dJbUpoMzg3RHBoNi1qcXh1eU14UjJiSmNhTXdUUFNsakJYZFBrZ1BZVV9rdmQ3bHc5b0QycjZRUHBqcENmak5LclBVNmhWYnhTaVZtQzV4bExZamxKSEtDRllrMkNObjlFd3VoU0VIQkZaS2hpQnAzeGh3dzBqdWVHZm9sVllvQ1BEdw?oc=5",
+      "title": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports",
+      "snippet": "Reuters, 2026-10-16T07:00:00+00:00",
+      "publisher": "Reuters",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BX/history",
+      "title": "BX daily price history (Yahoo Finance)",
+      "snippet": "close 107.09 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

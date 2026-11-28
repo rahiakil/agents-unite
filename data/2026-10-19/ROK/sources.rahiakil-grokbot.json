@@ -1,0 +1,49 @@
+{
+  "ticker": "ROK",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Rockwell Automation\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUzdwZUdfZ1lxbnE1dzlvTkNfcFZCRFMyOXYwY1Q3aXNQR3ctTXFNRTd6SWVXZHNkX1A0ZTFOV01ZaldXWGRHNGpTemRkODZldlBaMWVScy1ycVZJNG1PaUhPVFgya29HcTJYT0QzSnIzVmJ0QWNqV09mY3V6U3JsbXlKMjZXandhMDJYZllIWDhPSmI4WTlTYUdCbm56S3laZTdYSWFCcU9vYXBCZ3NmUlJLbw?oc=5",
+      "title": "Rockwell Automation\u2019s Mamta Mittal on CSR, STEM Education and Clean Energy",
+      "snippet": "The CSR Universe, 2026-10-16T07:00:00+00:00",
+      "publisher": "The CSR Universe",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.586,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ROK/history",
+      "title": "ROK daily price history (Yahoo Finance)",
+      "snippet": "close 424.47 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "XEL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Xcel Energy\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeHlhaFJsM2FSVUxuTmlIQnpxaWEtUUhGNHdUR3Z0RVlNUXczYUZreGtDQzdkc0xZRzIxdjUyVjZCOFFZV1Q5cW1LYmFLektKZW5aTTlrajBNTkw5MWZCS2hVTzRwTnNtWmoycFQ3R21rY3ZQY1F0alNzSjU5VmR2TXhkV1NuMzBKUjRzRE9aVjBxWjlSWnotUV9kVi1IOEYtYk5KN3Y4WEZzZ3pTTS1CMS1sUmdxZlllR3ZPT3RIRDI5NVd1cnEyYmt30gHPAUFVX3lxTE5CS2t5cHNLS0JHbG9nWFBfeVJKNnFHNDFEVWQwZ3hNQXVIa2otemFfaXNDWmNyZHlMWmZuNUY5cUVXQ054dGVBQy1VZkRFQUxlV3B4enVjVWk2bFJ0cjNPbENmNGZ0aV9tUjFKaGxtNlM0aGJjZUU1SThzUmFHZjhLU1NyWS1lQXg4OVhOOTNrb3Y4V01DTXJmaUIwdHRIR3BRZXNyWXhYMFNFalp6cXBnM3JuZFVhSF9PNnprSjd0d3hWSlQ4aTBmN2ZVTWVINA?oc=5",
+      "title": "Xcel Energy (XEL) Stock Looks Fairly Valued Despite Its 41% Run",
+      "snippet": "Simply Wall St, 2026-10-16T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQenF4SThHVE1HeXRzWHRVM0Z1a2xLWGVjbjRxa0dlenhmMXBucENnOTdZbWVhRmZkTUhraVZleVNaWnBzdzhzN0VYdHhiOUJhRGg4SGZpMUh5RWQzSU1mNVFyZm5zUDhOS3lBdFpzeTlmY0FlbWI3YTM3WDVSTFI5MVEyQ0RwalFodTF5a2RhRjg?oc=5",
+      "title": "Better Dividend Stock for Retirees: Duke Energy vs. Xcel Energy",
+      "snippet": "TIKR.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.727,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/XEL/history",
+      "title": "XEL daily price history (Yahoo Finance)",
+      "snippet": "close 75.14 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

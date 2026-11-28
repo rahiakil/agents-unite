@@ -1,0 +1,61 @@
+{
+  "ticker": "TJX",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"TJX\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDlSMkNJRkRYZGZNV0FheVRyRnY2d2RIaldRVkgzTzlzVDdLaTFUSGphMVdTM3BzNUgzMWZJak14TzhSNzdQT09pQmxFUnhXdDNFVE51bi05bDNiZFlXOGMzVGJMamZ1SUJ6TkRqQTVlRXFHU2NtQlVyb3UzZnBXNThCRXVtRnhaUzZGbURmMk8tbWgy?oc=5",
+      "title": "Why the Market Dipped But TJX (TJX) Gained Today",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQakxfMjJaLWdqQ2k4TlN5Qzd5cG9aVVczUzdTSjhUTm9xbGtxT1l0TE15enpNRkdGMGZZMTlsUWx0ME5UaV9ybWVGMlA1aTUyQlJHLTluU0ZVWXFVLWhFeTNCaDhPRGpmbmRpbVhrYWMxYmJkZVZXSlB3emVtdklFNk1VUEhDTU16NUNUYW1KN2tUVjVqNE9Zblc2TjN3UUxtSjdMQTVQNkRWbGZuZlphdllQQ09acHQteHBz?oc=5",
+      "title": "TJX Cos. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TJX/history",
+      "title": "TJX daily price history (Yahoo Finance)",
+      "snippet": "close 147.36 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

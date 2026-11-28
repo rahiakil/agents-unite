@@ -1,0 +1,61 @@
+{
+  "ticker": "NDAQ",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Nasdaq\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 4,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbzZIX3VSSHlPNTEycUQtYTQ5THlFRjdYWUpZYkJQTXVTa0l4eDdGUkFoRHBPa044dWx4YU10V09SS1BDLXRsNlYzdW1rQ1E5WGgzNDVFaWYyQWsyVmdBaUZOMUdaQVM5T1lsSGVVbDc5Z3hfcFlCU203STRud0pqNGo0VUczeEU2ZFN4TDlBcw?oc=5",
+      "title": "Geron Corporation Rings the Nasdaq Stock Market Closing Bell",
+      "snippet": "Nasdaq, 2026-10-16T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd3hWVVlGNjlwQXpWb2hlSl82RUZsYzQ0cm9tejVfNEVpVWlGNDNaXzJ3OUlQNlRVOUIyeHZQc3hZaGktODB5SV90cE1uWnEzS0xHTFlOLTVSSnFIeG9QYThyTk50X0QxaklVcU5TaU5fenUycVdjMUJ5QVpTYTBzdXNhMzFtQ0ppZFJxSlEzbw?oc=5",
+      "title": "City Therapeutics Rings the Nasdaq Stock Market Opening Bell",
+      "snippet": "Nasdaq, 2026-10-16T07:00:00+00:00",
+      "publisher": "Nasdaq",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NDAQ/history",
+      "title": "NDAQ daily price history (Yahoo Finance)",
+      "snippet": "close 93.2 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

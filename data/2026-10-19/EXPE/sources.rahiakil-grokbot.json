@@ -1,0 +1,61 @@
+{
+  "ticker": "EXPE",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Expedia\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd2NYeTNrMWNENHh2aTBNdklGQTA2MWVJN0lrbmtUeXlSOWk3T21mQkdVcWdJcGFramhFRHFGNy1nS2tQbm51MW1VVGlfenNSa05BMUNNbjRDZUpsRTB5d1k5NndiSUpndjZmOGVseldMQThXa0pyLWhOU2h3NVlXR1pwMzhKNDNzLWc?oc=5",
+      "title": "Expedia Antitrust Suit: What It Alleges About Hotel Prices",
+      "snippet": "Uprise RI, 2026-10-18T07:00:00+00:00",
+      "publisher": "Uprise RI",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTRCMkxFVHpSZzEzWTc3UUJMTmtmR3Q0MEdKVTdSeDdFV0ltN2EwbUt5Vk5zVXJ1Y3MwVHozQlhjU3lWanVrZWI4WGFrYnUySFk5VHhxQmlxRUk1TkFCVUVSSTU4U0xDajRGTnpFZ0tyTzdaVU84dVBlOXBEa0pkWXplV3VZcVBmdWptYUNCN2VMT212aTFsdHJ2VWw2enZMb1phNERfUDZ0RkdIUlM1Sg?oc=5",
+      "title": "920 shares are withheld for taxes as Expedia Group (EXPE) legal chief receives vested stock.",
+      "snippet": "Stock Titan, 2026-10-16T07:00:00+00:00",
+      "publisher": "Stock Titan",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.511,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EXPE/history",
+      "title": "EXPE daily price history (Yahoo Finance)",
+      "snippet": "close 291.72 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

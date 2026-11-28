@@ -1,0 +1,49 @@
+{
+  "ticker": "TPL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Texas Pacific Land\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaEs5aGtsNzBtSG42eWdGVTFVMk14WGt6UXN3NXl2ZXd4V3pYVncyM212SUdWa2JMdGgtS25PbXJick9RTDBqcWFlcEZJTnRuWGNRRmlpQzF4amhkaVY5bHR5cjl5b2xTSXJ5UEdsZklxandTMmd5elJqSXB0ZzduU1ZZZTdXU0VHZUtWUDVxRVdyX25EdGh6SGlBNG5uRW9BQ2xxMHF0MGhSUEdkeGcwMjBOU1RTS0NCZnUzMXR0dFVadw?oc=5",
+      "title": "AMN,EG,HLF,PGY,BSBK,LCNB,IMRX,CRMT,ORN,MRBK,FRST,TISI,GRNT,TPL,OVLY,GEF-B,RVSB,NBBK,HBT | Stock Prices | Quote Comparison - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-10-19T09:18:19+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-19T09:18:19+00:00",
+      "published_date": "2026-10-19",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TPL/history",
+      "title": "TPL daily price history (Yahoo Finance)",
+      "snippet": "close 344.61 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

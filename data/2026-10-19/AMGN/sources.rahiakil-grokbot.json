@@ -1,0 +1,73 @@
+{
+  "ticker": "AMGN",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amgen\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 27,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 3,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa1dtQ1VzcFlIM0ZIcVR3bExHd2JXcVpFWDdicHFpdUlKdklLN2JHY1JFWTVtX1JuWEhDOVFFdUs4Q1FqQldSNkVMZnBfVmRkWTMtWnFoV2hTa2I5TkVfMjI4cVE3YWdRVnhWYmxkUl85ZnNicVdPLW1lRzV4S1ZBVnREaEZDUDVVdEVsSUtFNFZMOW1hTmNNWFBRM1pXeTNlSjZCMXVHSXl1LXI2QVpHd0ZCZmVVek9BazNBZHpFNG9HQQ?oc=5",
+      "title": "When Amgen\u2019s Forecast And Chart Say The Same Thing, Pay Attention",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOejdIWWk4cllqaGVKZmJQY3ZhM29ib3JDVkVaRFlLcHV6dk5BcXdJN0RxdEE0SVBXcTlmSkhIVmxNYzRxX1JwT1N4REpOVnoxLWJ2Mjdsc1ExcTF2U1ZVZHNkUjFHTmdZNnpXTXUtNVdIaGl1d1hpeUl2dmR3ZU1QSlhjZWp6ckhreENoWExiVkFfMEduQ21BeExSSUxFT3lVa1UwNlN3?oc=5",
+      "title": "Is Amgen Stock Increasing Your Market Risk?",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZWFxMDB4cEI4REpBaUpDdzZqRWdUTDlCS25IRWg4dkhiZml6dlhwbmRmelVtcFd2VUE2am5mbC1oNEhMSFhkZE9qd0pIZl9RZnd6WlVNai1wMHNYTjlZT0I3V2dmV0g3XzlQdURNREdpZzY1dmNvQUJ5Nng5R2FOSXZNVE02OHVMd0lpM1diZkNIWDhRekE?oc=5",
+      "title": "Amgen's Q3 2026 Earnings: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMGN/history",
+      "title": "AMGN daily price history (Yahoo Finance)",
+      "snippet": "close 424.94 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

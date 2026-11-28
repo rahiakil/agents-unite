@@ -1,0 +1,61 @@
+{
+  "ticker": "DECK",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Deckers\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 11,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMGxLY09kdndqRllBT3dVZlRwLW1hNmVnMTFmaEFJSGF1SnJocDdHeTBDcWljdFBRSFdSUDFDdkRZZ2R6TlNTMXdOWF9zeWx1TUc3bEUzb0xJbHViQ1Y4RmNjX0tUczZNRXZBTnpXOEgxa0lIY0JVd0tGOEdwTG5qOTVnYzlxWGVyNlJORlV1NzU1WTgyNVMwWXhmYWs5bDNNQlE?oc=5",
+      "title": "Wrightbus delivers Nottingham\u2019s first electric double-deckers",
+      "snippet": "Magyarbusz [Info], 2026-10-17T07:00:00+00:00",
+      "publisher": "Magyarbusz [Info]",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYzdPTDNoTGlWZFppX1hkb0RfNDBHSHZFMVdzOFVPT3NNQks2Z3c0dWtoZEZ4eUwwQTZ3elFjeUlpU0JCaGlUbDBERC1iaE1CajBqcVJmQnBDaWR3NFY4SXhPX1UyXy1waVJfQzZiYjNNRG1GdDIwSnRNV1BuTzBid2hrVDBjcDgyMmxjR2NSYkt0c0NaSUlvbHN4SVhaV2lCazdnRDBKcWc1a1hXTFFWT3lLRF9YaU4wX2RhZ0NWRmZoWFB0bnBLVFRteXZQRGxiakE?oc=5",
+      "title": "Deckers Outdoor (NYSE:DECK): A GARP Stock With Debt-Free Growth and Attractive Valuation",
+      "snippet": "ChartMill, 2026-10-16T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DECK/history",
+      "title": "DECK daily price history (Yahoo Finance)",
+      "snippet": "close 87.24 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

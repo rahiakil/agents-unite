@@ -1,0 +1,61 @@
+{
+  "ticker": "D",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dominion Energy\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 1,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUjd4SzhJQ09lVzkxZXJZZHlMSGVYOGswc19JUGZGVG94YlBJYllRUXpRZ1pwemZEVlVCWnFZZ0VDSmx1Nll6TWhGbnZyQ3pENUFjS1JTUEFwcnZBUkdHaWdvNnNoZFpFZ2lXYklaX1FqSUp2aTZzY25OMEI5Y3Z4ek5WbWViWXpwYmlsQU5nTmszUFJyNTJDNTRYLXJOdw?oc=5",
+      "title": "Dominion Energy (D) Draws Earnings Optimism, Is It Still 11% Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.681,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2FyYWpVSkxHSTBBLTZiNFEtSjVkZzd1Y2xEcldSSzNfdU15ZnlMVEdzNkNnYnpTanhsbnhhZXFBMEN5OXNNcngwRnpNRWlsNURfeTRsVUttQ1lVVDRxd3pKZE16SlAwUmJNeVF4bUZGTE51OEVwWW1DN0FCejhkREtXTUZ5a0xqWndwMXdLNnFfU1lVNjNJN2NlVlQ?oc=5",
+      "title": "Dominion Energy (D) Ascends While Market Falls: Some Facts to Note",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.103,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/D/history",
+      "title": "D daily price history (Yahoo Finance)",
+      "snippet": "close 62.21 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

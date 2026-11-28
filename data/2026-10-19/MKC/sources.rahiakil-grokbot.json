@@ -1,0 +1,61 @@
+{
+  "ticker": "MKC",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"McCormick\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 5,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUU1mVTRNSXQ2VnZRbWVzU1d4TXBvVTZqRXBSQzFyZDYwdUo0NDQweHpCU2lXR3h6Q1F6NExBZG9zWUZHMml4YTUtdGNjZ214OVZhYUw1UnpJUG9pY0RjTmxKWkFNSm9hRVZTVFVnOWQ0eDdoWW5tTGItdzVEUFcwSzc2YnJJMUZOYUVFUVlpeDBhTHRIZnhUYllBV2lNbHNLNXpQRQ?oc=5",
+      "title": "Jim Cramer and Elizabeth Warren criticize McCormick's $45B Unilever food merger - but for very different reasons",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVjVybjh0N3RyWFpqRmNUQUwtaE1nZWdlWG85VDZrVHMwYmprYlo5Z2UwUUItbmRnVUpRUnRhVGMxTGNuTVFWT0VEQUlyUmZJZDJqTE1zVmJNUEdqUjVJb0s5dW9kY0FFWTB5MXBWRVEzTUJkX09rWUt5QnEyNlRhNkw0S05IbnhrOW8ybXFMMkx6TnNEemIxdWJZQ29pcVNBOWkxY3lFSy1kb1NYbDdnX2ppN042aC12bmdVLVNDS2ZXVHo5c3hzQml6VQ?oc=5",
+      "title": "Charles Deering McCormick University Librarian search committee seeks community input",
+      "snippet": "Northwestern Now News, 2026-10-16T07:00:00+00:00",
+      "publisher": "Northwestern Now News",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MKC/history",
+      "title": "MKC daily price history (Yahoo Finance)",
+      "snippet": "close 45.86 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

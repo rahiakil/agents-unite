@@ -1,0 +1,58 @@
+{
+  "ticker": "T",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"AT&T\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE42ZUoyUDVZOXM5SVhyajNPOFh3dUFnSFF0UTAzcHJITHY3NGNqWUpfLUNCV21TVi1QZ3d3eVh5UHZjWlVBejhBbk1IcU1nREZsamhSWUlJLTZwaWxyRnRBVHZaQy0zX055cjFXVzN1Y1lsa01iSDd2Szk0d3VnMDV5d0s2LW1vWkFZTXJNYWF1Zw?oc=5",
+      "title": "AT&T (T) Agrees To Exit Its Mexican Wireless Business",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000119312526424057/d905556d8k.htm",
+      "title": "SEC 8-K filed 2026-10-16",
+      "snippet": "items 5.02,9.01",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/T/history",
+      "title": "T daily price history (Yahoo Finance)",
+      "snippet": "close 23.2 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

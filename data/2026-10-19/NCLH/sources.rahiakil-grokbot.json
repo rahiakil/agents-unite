@@ -1,0 +1,61 @@
+{
+  "ticker": "NCLH",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Norwegian Cruise Line\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc1RVem1hZE1MMnlkRHFVVXNBRzRwd1ZwLV9JSDNyRW5IR3JlZGY1Z1hzTGxIR1IyRVU1cnBNYmdBM05Kc2VncHpKcVBDT1h2SjZfS3dDaFdwZ3I4alJnRFdmR2JmclRYYUR3RFRnLVdZLTFZOGRwb05VMmxpRU00X2pHOWlhMkVRb3NPN3NULXhqUnRZazJEVFpQMlBTbFVHejJPNi13MHo?oc=5",
+      "title": "Norwegian Cruise Line\u2019s Quarterly Earnings Preview: What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTUktajczdHk1dDV6Qm1jZS1kcERMTWhuckNrZl9wM0U5T2xvVzBzQ0RkcTJDc3Y4YzhvVkdwU2FlWTdEVzRWajBSaktYWF9FSlZjb2dvckFlNHhVUmZMcG5HVmJtYXYxZ3FOYXlaUXJVSFdBWWUyZTY4UF9jSlpRUFQ3SXNubTI2bVZ3d2JTMFU0U0RHSVV6VUZaMXV5OWtzU3oxal9zNHNmRzljMHcybldobFAtV19uUXBTa0F4UUZUbUp3a3VMMVVOOFZpWGlSZzQ3S0Q5LWM3XzBnaUZvTDBDQ1o?oc=5",
+      "title": "Norwegian Cruise Line Holdings Ltd. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/NCLH/history",
+      "title": "NCLH daily price history (Yahoo Finance)",
+      "snippet": "close 15.24 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "RSG",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Republic Services\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 1,
+    "before_window": 3,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ1BJUWpDV0E3N2N2SGYzZy1OMzUxZDZabUZNd2FzWHJ1SlZleWlxUHpqcnR2cTFfR0dHSmRZc2VXYWJOVEhWMnVieUNZbm9MU2NuazBWa2hodVNVWF9JdnhQRWxVdl9DbUFYWWZ6a2UzeXE2TzRTM0dEeWhxaXFzekEzWlpEVFZ3eWtkejFZQUxxSnp4Z05JNzFZRWFYT25XTlRDb1BWRHVRNnBHNi1CaWRWSVo0OEhQ?oc=5",
+      "title": "A 10-Day Winning Streak Has Republic Services Stock Up 11%",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RSG/history",
+      "title": "RSG daily price history (Yahoo Finance)",
+      "snippet": "close 229.03 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

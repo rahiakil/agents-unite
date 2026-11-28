@@ -1,0 +1,49 @@
+{
+  "ticker": "MCO",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Moody's\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CS3BqT3kzM0swcU5ldzdaZnZhWGRuTWZRSTNkUkg3US1MSGxQdkNQbml1SUVmV3kyNG54X0JMNTlwRHpIVWx4clJPQWRrTVZiNjlzdHNHQlI?oc=5",
+      "title": "MCO Stock Price and Chart - NYSE:MCO",
+      "snippet": "TradingView, 2026-10-18T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCO/history",
+      "title": "MCO daily price history (Yahoo Finance)",
+      "snippet": "close 481.26 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

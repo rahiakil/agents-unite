@@ -1,0 +1,85 @@
+{
+  "ticker": "FSLR",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"First Solar\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONGFTbHhldVpwRHRGNWpsMUx3TXhrRXZjQ3hibWtNeUxJM3YxU2Zwc3MyNWY5QmtTV1Ftcm5HSzZ3eVBaekMtcUhVTWRrQVpOMldNUC1maXJVemNWZ1ppUHl5Z1lkMWlIS1hCX3c2NjZvOHZBYmJoZW1ZNW5yX0EycWd6d0ZhOHhnX1c0R2tHZzJnMEk1bzY4WU1sQmpJSnRSWHpSYVFTTXVkT3ZsR25yZDg5NDc3QVEwOXFLTEl0TGlPRld3b3hlQVBTc054UdIB0wFBVV95cUxNMkhTNUxheEhRdGJJQnh3ai1PdW1Jd3lScGlvRDcwYjZnX1AzeHpHQ0NDZVR6MGd0S1RZd1l1Zk1Vd0dXdUdtbDFiWThXYURKZUxiRzd5RW9XQjhwM3M5dzRuQkpCYXd3RDRvblVUWGNJTXlWSnJ5RW1pUHI1bTdhSHdVWUU3TjJHSU5zY0hHTVNzLXpiRG4zMHpsQjFJRWNyWEo5NkF2U2FGV2tSeDU5SDY2VFBxaklGdk1xMExPbTdtV2VpWDkwUWxvZFFKMzdQUDh3?oc=5",
+      "title": "Did First Solar's Fall Catch You Out? What Investors Missed",
+      "snippet": "Simply Wall St, 2026-10-18T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVDdMRXlZSkdUdXdnMFpMSHptWHI5NHJ6NTZTMUxFTzNLeXprcUEtdE5aMnZOX3BpUGx6amhXTlUwX2YwZDdaRG9lR2FLSVpvM2FFWkFaWFRyTENxYTJGbEZjMjZwcGVLOEQzX2t0bTRkT2VVZnBKaURBaWU2MGt5QkxRVDhWaWx3MUY2UXJmbktkQjQyLWtTYkZsWlp0VnhFSm9KQlNtTEY4aW5iQ3VhU2xRVDlXSmhaV3BBX1NKdDV4TzZLYUJ2di1B?oc=5",
+      "title": "Jefferies lowers First Solar stock price target to $199 on pricing view",
+      "snippet": "Investing.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdUx0QTVzMkFNVmh3bWhWMm5mRnpLSHFXTXFFczh6VDRFbVJLTnZNYnhMYkdoeWJSMXpWbWx3WGNfQ3VhSHpPMGVscDZRTjhUZGUweGlndXQ5dXdTWnRMYmh5LXBCSEc1OFRDVVZaZEh0cERaX0RQRlkxLXhSVWxqLXZoLVJZVjBlWGdBb2NRNjJ6NlpWMm50bkE1ZjRqeVlyNGItNTFGM0I3REN3elpqdWZadlhBNU9oTnNKRzZqaGhOMDlIR0VPUHJjdw?oc=5",
+      "title": "First Solar Inc. stock underperforms Friday when compared to competitors",
+      "snippet": "MarketWatch, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWZqMURGVkVjNE1uVTZpWlBQS3VKcFRJYUpqa0pTalF0VzVkdHpPWFhCTmpHYW00ZnZUR3lESjRZa3QtWGhiU0I0NXJzaUVTMTg4RThEeF80ZDFvam1uajRORmdnSXBrbW1KZFlKSk1HV2xnTGlUVzhnQ24yQTVPT1VWVlFoMGNlbnhyUl9ibUsxUnpUUVNxRV8tYw?oc=5",
+      "title": "First Solar (FSLR) Stock Dropped, So What Is Driving Attention Now?",
+      "snippet": "Yahoo Finance, 2026-10-16T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FSLR/history",
+      "title": "FSLR daily price history (Yahoo Finance)",
+      "snippet": "close 171.8 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

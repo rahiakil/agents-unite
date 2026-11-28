@@ -1,0 +1,85 @@
+{
+  "ticker": "SPGI",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"S&P Global\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 44,
+    "no_date": 0,
+    "after_cutoff": 21,
+    "before_window": 10,
+    "irrelevant_or_spam": 9,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek5sY3ZuS0wwb1A5SW4xQmFCc3VDQThWU0pjRFo4T253Y0NtcjBiTzZhbVc5XzRIbHNZQXozNGY3U1dJbmxiUEZYajZyX3A1ZHA4dWJIbnZZSGV2YjB6ZjdHM3FEOXpvc05lXzNoc2VtOWFRYmljSDNRYjBVU0ZtZkxVaEtnWlE0R3pXbFgxSlFOcUtyNG9V?oc=5",
+      "title": "S&P Global (SPGI) Is Benefiting From the AI Boom. Is the Stock Undervalued?",
+      "snippet": "Yahoo Finance, 2026-10-18T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-18T07:00:00+00:00",
+      "published_date": "2026-10-18",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZVdFWHFHUHpNUmx4ZVY4MC1TRHhWeGhCVG9WeU5PZGNuNzUwZlpGQTY2dVN0WnhISnhZR0dqVWNudm1qOHU0N3RORW1oY1Nvcjd0RVBnbEpYQ2E1Ry1yemxrV1UwZmVTWlVwOTNya1VjbFF0Tlg1OVZmRkFYM25VckpTbnNqQ0FJc3RSMjhfTWJiN3FvOTJ6SW9B?oc=5",
+      "title": "Did Visible Alpha Data Launch Just Shift S&P Global's (SPGI) Investment Narrative?",
+      "snippet": "Yahoo Finance, 2026-10-17T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-17T07:00:00+00:00",
+      "published_date": "2026-10-17",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNcXNyVnh4eXVyZHJ5eDNSZmZUOHB0emh2MjVXc1RPYkFnUHU1TnpDQVlqWWhDTWNmUzdUOFdTcWVsTTFWelVRZkpuLTRBaC1CVE9rbDJOcERxT1lXZTU1bW91TDYxaGlqeTNwRE1ycGFUNGs3aW9aUnY3Z0VHN1NjZkdtTGNVNUNuRXF3YVJMTWpaWHBuVjF2Z2xnakZQYjhJNWFTTGszeVZnTnJvejFtVE9mMFNKaF9LaFFXdjJHQUlHX251MExVR3REUlJ0c0tzaG5lR0hoQzVzTmR4bTNiYWJaWnRNaDE2VWNBOHctZlBNVnRJS21tMXZEWjg5dUtYRFgyMXh1dTFXWjhuU2RzRkFaWFM3MXF3?oc=5",
+      "title": "Zacks Industry Outlook Highlights S&P Global, CME, Intercontinental Exchange, Nasdaq and Cboe Global Markets",
+      "snippet": "The Globe and Mail, 2026-10-16T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVXhzamdKU1o2RnY1dVdrTmhJZVlsb0d4dFlPaG9FejBVTkZIOXQ5TWdkZmJTRjE3MS1YeVJyRkpqZEZKcE5kQ0NTcDlBeTI3RmlNaWJ4WjlZWmk2S0d0Y05CU2tOTVJUaXo0OE1MQ0o4WlJERFJVNTlwMVhEejlKUFZVUWFfaU1yZ0N5eDVCa19RZUZTaF8tbVpSYXgzd3NWTERvckVzUUN5eEVuZUM1ejE1R1dCeEZ1ZHZaakhsTHEzSWowWGVva2psTFV4ZEU?oc=5",
+      "title": "Oracle stock trades below USD 237.97 S&P Global target by 79.59 percent",
+      "snippet": "ad-hoc-news.de, 2026-10-16T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/SPGI/history",
+      "title": "SPGI daily price history (Yahoo Finance)",
+      "snippet": "close 427.83 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

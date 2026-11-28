@@ -1,0 +1,85 @@
+{
+  "ticker": "TMUS",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"T-Mobile US\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSE1hZGZJMzVGaVZDdGthRUJ5cWNCcFM2SlZuM2FxRkI2NkpWTVI3TEZCUkFudVNub2lNZFh1dlpyajdINUw5TUVnWTNONVo0Mm9SUmwyb3RvTUFSY3c4WlBxMnd6Mmtsa2pXQVBLZWZMaFc1ZGQxR3NKa2ZRSXRhYnppYmFTZ01PWC01QkhzN3ZWMUN1ZmNtajRZWHkzMU5WZ3BOa0x3?oc=5",
+      "title": "T-Mobile US stock: Buy amid cheap valuation?",
+      "snippet": "Investing.com, 2026-10-16T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0FxWmxOWjZlNS1McG5QczJhSGQ2eURRTHVBZ3RYZWV5TXdob2RlTmpzeENUaWptaDhCNEFSV0d4dlJXeG5wbjh3S293MEFFM1NzOE9nVW9vbmZjYkRad3NhZUp1bXJuN0pubHVscTQ4eDczeUlPUTlITkgtdmNybEVZc1VoQWFNemZRby1GeWlkNHliQXBUQU5FZ2VPRFdIWi1URF9sQzdhdXg4dGNrYk9jd2g1SXZTeVhsSXpkbFF1VUtUM0E?oc=5",
+      "title": "T-Mobile US Inc. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-16T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbGdWNWJtb3JtMXNfZkh5OHdFMUV6SWhZdWRWLWpETjlZSWRvUm9SanRJeG1FX01nanZVSncyVkRqZlFyY2pYNzFvU2JoSE94U2xOU2d2VlFaWW1xQmZEQ1kxM2RfTmFsZkJhVFRFbGJsT2M0X1hvWTZFYmxHYXZSVlZqX2tqenJMTGtjeG1qVmVMbER4a1FjQnBJNS1WakJvQ25ScEZ3QkRzMDN5SXRwRi1vYTJad3ZTVklIREthN3dLSFnSAcgBQVVfeXFMT3ZSV3l5TXBzc2ViOEd5RGc1Yi02a05GTlNWanVIOGt1aWNzQlBaVThMcE9oaFI2NzRrbXRSRno5bGVVZmRmazJhTXhWWUxDazViVGRMTDI3V1hsU091Z1k5VEtjamF6dk5DQUF6V3lkZXBEMkZNTkNDZTFUQ3YwcjFjSXR5SjQyOThXUTdyd1VxNU96bXhEd3lXQUVrRWZhRGUzN2cyZGhkUnlIRVJFMXh2Y3IyRHRucUp2OURCblhBZDRLYkxZUFY?oc=5",
+      "title": "Did T-Mobile US Fall Catch You Out? What Investors Missed",
+      "snippet": "Simply Wall St, 2026-10-16T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": -0.67,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOXRTemNNM2pobktlUnJrcTNoYnNVeXVmQWR6aVd5b1NLUnI1a01pQk9DWmlheG1tYnR4VVJYcWdrT2l1Um5yWU9iMlhjZGZlcC1Od0R5Qld3Zng3M1BwYWZWYWt5UEV3WEcwWUdnS1V2VjZYbmo5NXd5aHU1cDF1X1JyVGhrLXktRXlyWld0WS10X3k3Mm5CWDNJWGRuNWthRXNCYzk0UnNkQzF6YVREZnkxeTdpSDNZZFQ1RE1qWnhxQQ?oc=5",
+      "title": "Could T-Mobile US (NASDAQ:TMUS) Be in Focus After Wall Street\u2019s Latest Rotation?",
+      "snippet": "Kalkine Media, 2026-10-16T07:00:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TMUS/history",
+      "title": "TMUS daily price history (Yahoo Finance)",
+      "snippet": "close 156.09 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

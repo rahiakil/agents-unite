@@ -1,0 +1,61 @@
+{
+  "ticker": "AAPL",
+  "date": "2026-10-19",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-10-19",
+  "news_cutoff": "2026-10-19T20:00:00Z",
+  "generated_at": "2026-11-28T09:18:35Z",
+  "collected_at": "2026-11-28T09:18:35Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Apple\" stock after:2026-10-15 before:2026-10-20",
+  "news_stats": {
+    "raw": 12,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOalVNcnpWc3R4b3hnbnpiUUUwQW9uaThKTmpIN183VVZXMU55MVFwM0ttQS1FSzVNNE1VNjRobW9ORkZsakUydU1SZlNNQkFldXZVanVtY0RYM1FBZDVHQTYzWlNpbk5kQjRjUi1GcjBuNVFZenp3ZmxUZDZBZDBZZk5MMEJKSGJMM19vellXaUN2bExUbWNoVXBXZnhmNnozR0l6OWg2YTY?oc=5",
+      "title": "How Much Of Apple Stock Rides On One Product?",
+      "snippet": "Trefis, 2026-10-16T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTzBDbVowejJWYU9KQmgtZzAxWEFBOFBnN201cmxrdXhYa2hLVHo5WHBaWTdsWDhjY3ZIbU44RE9iN0NXRUVjOFFDSV9tMERxUnlKSjNOR3RMSVV4Z1BWWVNBM2pGNU91TmY5WmxiaU5GUmlGSVRFRWd5MFRENUh6TG5tMTh1VXE2TDVVWTlhY29pdWw3?oc=5",
+      "title": "Apple Called Top Defensive Play With AI Stocks Under Pressure",
+      "snippet": "Investor's Business Daily, 2026-10-16T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-16T07:00:00+00:00",
+      "published_date": "2026-10-16",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AAPL/history",
+      "title": "AAPL daily price history (Yahoo Finance)",
+      "snippet": "close 342.94 on 2026-10-19",
+      "published_date": "2026-10-19",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

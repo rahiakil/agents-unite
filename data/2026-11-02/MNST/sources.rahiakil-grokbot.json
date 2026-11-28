@@ -1,0 +1,61 @@
+{
+  "ticker": "MNST",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Monster Beverage\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXNqdklWd3VTNy0wOE5PNDJhQXd3bUpYWXpjZGpZMWNhakF3dnZUeHlpclBTenRHcEhwOGdmXzBOd3FHUGVIenpqbmtOZm45REZfcG51M3NwWHlUaTEwVjFocUpiQlVPeDQyVkcwQTU4MDlRVHducHlXWWxrZnJENVI1YzNJWWRIcUZ0MlVmcS1GZlYwSDUzczUxaDZtT25WbEMtRGpWdVR1S3ROTkhxOFF3?oc=5",
+      "title": "Can You Justify Buying Monster Beverage Stock Today?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWUtvSUYwVElaa1RfelkxUHNBRFNVbEZCT3FaVkNwT2FpOU5Oekh6WWo3YWJUZkRRRkttRHFCOVY5VWswb0MzN2ZZOThKbHkzLUhOZThtd3RQVFR6OXhRdzI3bFpMemx0ZlpLNklmXzhGMUNKQVM5VFRmYmRMRjMxa2FmVFozRzVRX1lrendPdWgyMGI3SHE2akVyQlBtUllp?oc=5",
+      "title": "Is Monster Beverage (MNST) Fully Valued Ahead Of Its November 5 Earnings?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.493,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MNST/history",
+      "title": "MNST daily price history (Yahoo Finance)",
+      "snippet": "close 48.02 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

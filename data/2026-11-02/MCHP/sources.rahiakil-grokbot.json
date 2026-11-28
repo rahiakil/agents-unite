@@ -1,0 +1,49 @@
+{
+  "ticker": "MCHP",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Microchip Technology\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOXY2VENZQ2l4WXJpZVhpa2x4Mk1BM09WRW9La29qZFR6dXZjeU9IeVVYekRqQ1U2QUtOMkp4clNRempHaWl0c1IwNnJkOE1FV0xQSmo0N0Fna2UtbEU0NUxxVGZMVDM1NDNqd29HcEt3bXJOdEoyRVBqbnU1Q0stdUFiYWRDNlVaSTdITW4zcGk0OXRPYVJ2dTV0NEgwR2hXU3JmeEtUZldZZm11a3VxT1RBSGw4NWxwWnhua0hkd2c2RXkxTThUUkZOaW9Qb3ZKUzUzLXh5d2NtSXBSelUwR9IB5gFBVV95cUxQdFd2R2pYUnlzbF80RmFhNTl6dWNNdmhGYVdPM2JEdmg4bTFic1FOaWszRXA2b1JEYWFJZGtrM19ETEdPNjR1UTBsSWVkNkwxYW1LVWs0OHJycXVmSGl6SDFtQkRmeWotcUl6OU9sTzQ4LUdHUk9hS2dnX0hQQ1hFRy0wMDdoYVJWM29YY09oRjdyaWtWSXZGR0FZa0NSZTE2aGVReGZBUDd1Si1iM0Jwd21ySzhhT1A5Z0E5TjJ1UF9uN1RpYkZ4S2toUWtoQ2czMFVNdmtkVHIxa2dGTk5GazFHVlpBQQ?oc=5",
+      "title": "Learn Why The Bull Case For Microchip Technology Stock Could Change Following EtherCAT Platform Expansion",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MCHP/history",
+      "title": "MCHP daily price history (Yahoo Finance)",
+      "snippet": "close 76.11 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

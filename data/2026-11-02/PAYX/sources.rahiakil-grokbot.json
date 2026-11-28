@@ -1,0 +1,61 @@
+{
+  "ticker": "PAYX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Paychex\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQmpYbGp2UHBSTk1lQjFRUEotaVpFNzd0SHF3QjRhenVVdlY0OVI4ejJFVHdDeVFsdEkwMzVSY0d3RDZoRWNDUHFPcmpqc1hHX05zNXRZVmFFSEMtcnlXdFFMdTNEbHVVX3N2amZqcWR1Y1N1anJVR0dGUElrWTJyeFZnOHRWVjMxVWZnd1MzRVcxc0ZuYWV5Ny1uX3lFc0pxbWRVb1RB?oc=5",
+      "title": "Is Paychex's Dividend Enough To Make Up For Its Lagging Stock?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkNzb0RFMFAzNzVzY0NER1RDMG1QSHpGbEVVeUE3WEN0UW5vN2dxUkl2ZHBkQURHZ29Ub2pfd0QwLXhnbWx3OFFNbkE1amM4QVctN2pYbDliaFV2VDNUd0NpNVpTNXFWWnBlUE1fN256d1NDem9wdks1aHJPZGxyazZOY09rZTFZdWhRZGpmVUdsNUMzcTlacnl2SVg?oc=5",
+      "title": "Paychex Earnings Preview: What to Expect",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PAYX/history",
+      "title": "PAYX daily price history (Yahoo Finance)",
+      "snippet": "close 115.49 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

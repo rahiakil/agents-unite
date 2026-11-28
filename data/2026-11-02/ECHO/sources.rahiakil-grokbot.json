@@ -1,0 +1,61 @@
+{
+  "ticker": "ECHO",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"EchoStar\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 20,
+    "no_date": 0,
+    "after_cutoff": 17,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPU2tVTVF2eHU2OUNjRkVfU1pQWDJrak82WU9rSDEyVU14NG5NeTJlOXZBMkRmWVB2UjE1ZlJqWDRpd0t2MTRhVjlIMWxzMTBaLW5RbDJCOWxCRFdObllkTGIwcVZ5YzBfVzhSbUd1bGUzUEpqRlRHYWY4cmdmN3ozc3BNNms5T2JpV1ZVb2p2UXZLa1dqdzFhbldPN1BmSkZuaTJxaUJwU3N2Smh5Wi1URWYzWHhnQQ?oc=5",
+      "title": "Echostar (ECHO) Projected to Post Earnings on Thursday",
+      "snippet": "MarketBeat, 2026-11-01T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXI3eGhIZS1BdnNleUx1TWo2dUVnbmtOVFFjSEtGcHM5bXpncFI4MWxyWWpTYWp4UjlHcjdaRjJZenBnMmFvZ0l6c3NIZDE3ZzNsR0U5bFFMTWw5eWQzUHJESXlJcG1iam5Bb2psblFUM1ZqbFVRZUxVSFFOZmE5RVU5MEtJLVotaTI2aEtUdWRhYnpLNFd0TWNvLWZudjNGNkFxajlpTzQwUdIBrwFBVV95cUxQQ2ZVd0JseVdILVBHdXdtS2tCbEhoZ2t0cW1nVnlmaWtOdnVUQUhkYmxaY1R2NktlLWM0V1YtaUdCWlp4SktJZE5Sd2pqQWJBUkJuNWFCZ0FQbi1EdmVjdUgxTE9ORUFjTHVGNFg0bHA5TDctUE01NmVjZ0tJcWxEZ3ZTSXlVTl9iQ2dfN2RKOHZyRmx0ZU50dmFhQm9lUmM2aExOeS0xWkVqN1FwQ0M0?oc=5",
+      "title": "Why EchoStar (ECHO) Is Getting Attention Now",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ECHO/history",
+      "title": "ECHO daily price history (Yahoo Finance)",
+      "snippet": "close 98.23 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

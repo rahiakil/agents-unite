@@ -1,0 +1,61 @@
+{
+  "ticker": "RF",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Regions Financial\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 6,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZUVQNnBjc2hJLTFIRE1WSGVVaG15TVUyRGtZN01Ea3VpcHZfUFRJYUpzeUFMWElLc3NiOXg2SGVaRjNITFZON1NYejdPTDFTV1ZOVnV0ck13dzhJeVJkM2J3ejh4WFhsSFgwVVNTR00wYlZRRERUb2poRFZSMzZJUjhKNHNXbVJ6R0pXb2NHYkJtY3lDcXRTQm8xWGF3cnFGbDFZZHdacUM?oc=5",
+      "title": "JPMorgan Adjusts Price Target on Regions Financial to $31 From $30.50",
+      "snippet": "Moomoo, 2026-10-30T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVXV5dG54WE01MDN2cVZad0dpOHNGbW9Vd3RVQjZ6M3BqN3phdTVsTUp1N0phaGwwUEM1MDEyZnpXWjcyamdRbDdUN0RIdzdfWjczUF80YkNPNktKSGpoYVN0TmFyaUR0NE9FT3VmU0tSQktkRk5qYlFnYnFvU2lBTEpBbjhrMUVkY0kzZm5qcG5ETERnajJ0MHBmSWdpWWZKeEVyYUZYQUk3bE5seDkwZnZBLV9zaUtZc0dwVkh6Ujlac1RZVVZqMHBXTHBmOEhhWDVZQl91bWhUSGJsMVYzdA?oc=5",
+      "title": "JP Morgan maintains Regions Financial at Neutral, raises price target to $31 from $30.50",
+      "snippet": "TradingView, 2026-10-30T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.577,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RF/history",
+      "title": "RF daily price history (Yahoo Finance)",
+      "snippet": "close 28.97 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

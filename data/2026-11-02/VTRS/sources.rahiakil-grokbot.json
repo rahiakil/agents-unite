@@ -1,0 +1,73 @@
+{
+  "ticker": "VTRS",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Viatris\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWk0Ukd2TDQ5anhxWGp1LXQ0Y3dVNGNpOG9kZlRRTU1SRlJJcnVwTWY2T2tpMmJwU2FaY0ZOVmVQSE5rN2FGQVpuTXhyOEQxR1RQNUZid3dleXpSUXZKNmViY3RDX1BFYlQzSnFBRzZYNEVVRVdFY3hqdmQwRW83ZkhROU1sYzdaTWF6UG50eFRPdmE1N2J6WUZhNWwySkxOREpOdFkzWUw5Y01Ld0hJd1hqOWE?oc=5",
+      "title": "Viatris Launches $36.50-Per-Share Tender Offer to Acquire Pacira BioSciences",
+      "snippet": "citybiz, 2026-10-30T07:00:00+00:00",
+      "publisher": "citybiz",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaFBwTDJpM1o2emVVSzBsVWdwdTl1anBNaDBxbzZwRHFlcW41NGhPQXRLa2c3OVdDem5paHJaeEdZcmZYeHNuMHZmLW45bURTV1JxOEpFQ0hYaGhzLTVPSjJHRUN0OW5JcjFyc0kzSjFiREctbUlvWXdjSzNwVmg0X0ZzRy1ZVGFGZW0wb29tOXgyZ1c2WHBjNWNrR0ZOSzZnc1BvNmlOd25CVVJkSFpXY1VwZTZWdWpM?oc=5",
+      "title": "Viatris Begins $36.50 Per Share Cash Offer for Pacira BioSciences",
+      "snippet": "www.marketscreener.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "www.marketscreener.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWHk1ZHdsVm4xQ0dTVHA4ME5USGYyWk1FMVdvSWV5ZlV1WVVEMmtSamdLU0RwZ2ZYWFBmWUJXWkVQS0QzRlJobFA4c2syaHFLbHViQllZSUxla1BuLXR2c1ZKYjBtUlo3eG1mX0tYZDRWeG01QlZ1SkE1MlpQemFpOS1zNzQwU05NekxvbDBpUVIzUmFQTm5TUXBwNjhsZTNRY003bV8ya01La0pLSFZUdjV2NDlPcUNRd01lVmFrcWF1Sk1kR0cyT0dvemtfS05ObWc?oc=5",
+      "title": "Viatris Announces Commencement of Tender Offer to Acquire Pacira BioSciences, Inc.",
+      "snippet": "PR Newswire, 2026-10-30T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VTRS/history",
+      "title": "VTRS daily price history (Yahoo Finance)",
+      "snippet": "close 18.67 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "ITW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Illinois Tool Works\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkN4cnlacDhwNlZNUnVnR0FKNERSdGFPQThrZmx4TGRhWVNZU2JJa3Y1NmlqLW9aUW4xR3phT0xQT3VBaThyVDY3akNkcUVZdUdIaG9CV3c2Nk1fR3pHam5GbVhjNk5PdklWOTk2MkQ0dWtBaFVzXzRyQVdEWUh3eVU2UjRka0M5MG9mWC1nSy1Xbm40UGt1cGQwN2tnbEdJbXgwck5KRGVaUVd2aGo2RzNsOGlRbUd3dVE?oc=5",
+      "title": "Illinois Tool Works stock: EPS outlook and dividend rise",
+      "snippet": "ad-hoc-news.de, 2026-10-31T09:47:07+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-31T09:47:07+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUZjTXlGbW5wS0tHTlpENVBBeDFyVFJHR3dWeVNiVDRkQTJsZGNHMnhQTDBkSUNHZ0JzYXZXNDdTaU1JUzl5TnhfbUJWRlpvMXFYa0NjdHB5QVluem0xM2w5SG5HZEdhQlhWa1Axak9KbFZPT2JwX2FaMlMxOEhHUnEzdjdCa2VoenFPdVN0dU1ISEtyWndLUFlwdGV6anlmV2pJM3BfRTNlU3gxR0Jnbmd3?oc=5",
+      "title": "Illinois Tool Works declares $1.72 quarterly dividend By Investing.com",
+      "snippet": "Investing.com Canada, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObzM4dG1XQTlhS1lnUDk4aHJZa0RWREFNRHNkLVV3S2FqandPbEdxYjc3dUQ5WXJNN1ZsUUFaV2xTMGFmRkxWYVF3TzJQWnNQaWJCOXFxV0xkME9udnpBSnl0WDJ5cWxUZGMxbGhJa3RlcEdqcXoteGt2eXhELVlBQzlCTzZ0MnJxUGUzQ2xDay1MRkNp?oc=5",
+      "title": "ITW Q3 deep dive: customer-driven innovation and end-market momentum shape outlook",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSEtDZEFIYWhLSUI5Z3p4eGJWM0Z6TEcwdGt0aUtBVGNERkFrZmN4VEJoeXZWU01rMWFMUFV3RDZya1R4S05vbDJaNEdQRGhIaXFrcXhwS1FneWs2LWtKX0wyZ0J4UlZ3M3NIcUJWdUdZYkMzems0SzJVT0NuSmUwLXM3cDA5b054dVA4aHhXTHdyS2piUHF6UUtEaUxBRzU2QUhLT21n?oc=5",
+      "title": "ITW Board of Directors Declares Quarterly Dividend",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ITW/history",
+      "title": "ITW daily price history (Yahoo Finance)",
+      "snippet": "close 290.05 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

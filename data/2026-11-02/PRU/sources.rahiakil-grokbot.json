@@ -1,0 +1,97 @@
+{
+  "ticker": "PRU",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Prudential Financial\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRVd1NlhQcnkwOHQxbWdoNjEyQmZzVy1sZnFVUFRkQmdDU182ODAyU2ZaSWhITWR3QWoxQXc0Z2p2cm1pemphdVFnd3NWN0dZUWJuNzg5WEg3RTNoOFZFTEhlbFI1dHZndldGQnlVSHFLc2dkMVRpeldkQnZ6UThmUEFoR2dWX2lQYVJrbzBnWEYxbWtCRWRKYl9lTE1hNnNBcWNtWHVkNllWT25odG0yWENyMmpkWm9uWDZsdENWWUt3eWdpU1o3R0VHdUVyWEJCWXfSAdcBQVVfeXFMTURFLXRWTjFVck9ydGxlN0N3M1hCdmxQbGxwRkFoOTZaQ01kWUgtcmw1S01HTUVCUWEwOG16dDFMYk43RW1kNFVsbkkxejE5QXdBY08tUnROamFvT28zWDBYT21NUkZGRzdBQkh3dXdqOEJHUk8xLUpjS1lxenpza1JRY2VaU0dSLWVJMnR2YzVCOEI4cjh3eUJZc2tUMW00cEFFZ1htLUplbm52WDhJeEVsc2ZZMnBoS011NDNhQjQzS3gyYmh0ZGVnM0hPMjV6VEJVajJkdlU?oc=5",
+      "title": "Why Is Prudential Financial (PRU) Drawing Fresh Attention Now?",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZThGV21DMDBYV0JXWXB2TWdxLWZmOFkwcU43UHRfZ0NRZmtGeVgxa2tqZjQ0bUEyV0hQWURwN0JoZ3FrejA4NmE3OWdHRGFVRnQwcDBnUnhTMmZTUmNNZFdTa3lQa1h0dTJnRW1zdnFRNzZ2cnlFRURBaW9uNmMzQjdRRnZJMy1VdHVwZXpjTmduWno5cE9OZmlYNVA2aVI3S3ZtMHlybGZXQ1FOZ2pWT3Bub3NYQQ?oc=5",
+      "title": "Prudential Financial stock hits 52-week low at 19.38 USD By Investing.com",
+      "snippet": "Investing.com India, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaWN1azdJOThBdUZOUEpCV2hmV1RHSG83RUw2SG9LRkJQYlpBS2dQdjZ6ZlRfUV9WWmo0Zk90cW5HWFdHcnhKdU9HOXNXNW4wTWJLczFVeGdzekpnLXUyZ2RBZEx1a0huLUw5NE5YRGdYaEJIZUlZcldrMkRwUW9OT1ZPSDM0M0hqdV9kaG1hTzNIY2RMRlVtdEh0ZXo3NFVuamRISGRxcnMwY2NSM3gzcQ?oc=5",
+      "title": "Prudential Financial stock hits 52-week low at 19.38 USD",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.273,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUG9idFlLZkpTN3ltNnR4bWUzSEJWeDNzQ0dyVVpfV0dfbUgwblpza3hETTRfMU04RzBKa0lBMUlxNlRtV0F5Q2hvWm1jLUFnX1ZZWFlWMG9yTGZSS2M5N0l0ank1SkJoWE0wbGdKT0owQlFRc09Vbmc3VXZpSHU5RjNpUkkyaXhoSjRiWTkta3ZVRkNXVDA1eWYxUm54T3lSNWhfbE00NWtNS1V1XzVUbjd3?oc=5",
+      "title": "PRU Gears Up to Report Q3 Earnings: Here's What to Expect",
+      "snippet": "TradingView, 2026-10-30T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQbnViX3l0cUx6Tlc2LU9adzZnWHZ0THg2Rnprd0l4em0tNFZmQmRET2c0N3UwRDJlWVNjaFJxcGROWnJITE5xSVpqMU4wcmVjUGtPeXpteWR6SW9kZGdfWGZBX0JzQll1R2lQbVFzNlVuVW1vby03Y3JVTjdMODFLcU1felUzVTd4aUJ3VmRhRzlLT0piRFd5RkhmWVdlYzE0LTljSGJnSC1wWDFlSWt2R0J4VkFiZmgxUWVYZkJRVG03aUZxMHp2SFo2Y1RVcnNadFNjUWFYalFmSTg5NDI2Tjk5R21EQ2ZGTlhMMVU1VGxGRHZqVlNTTmZqbkpuU1c2LTFheDlCQllPWE9tdlhwWC1fX3BOU1E4NTZZcnlMQlViUQ?oc=5",
+      "title": "Analysts Offer Insights on Financial Companies: Prudential Financial (PRU), PayPal Holdings (PYPL) and BankUnited (BKU)",
+      "snippet": "The Globe and Mail, 2026-10-30T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PRU/history",
+      "title": "PRU daily price history (Yahoo Finance)",
+      "snippet": "close 118.3 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

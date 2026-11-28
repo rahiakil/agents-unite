@@ -1,0 +1,73 @@
+{
+  "ticker": "MET",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"MetLife\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcU81M1lDXzdoRHNOU1daUEdpSEIwMVBHM2cxSENBVjdUQzFuenM1dTlQOGU2enpqaVhLd2xVSW50ZzU2dDAzbWJuamlDZVhpekZMRkpnMVhVSU1lbDBGM1EyeVlGNFp4MmZxNHVlNFg0R0gtRlVZdWtvdUhtTGVGR1lmdWhra3BaS29KcWRuN2dId0Z0RE04QWJOQXk5NTI0VTJjVENPT1VoRW1sRUtkeFZ3b2hILUUyd2s5TGV4R1E5SmNBbW5vMkU4cnFvZw?oc=5",
+      "title": "METLIFE INC (NYSE:MET) Shows Top Technical Strength and a Constructive Breakout Setup",
+      "snippet": "ChartMill, 2026-10-31T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQzQ5czM4alR0UXY1blAtTGxJQ0xzcVlMSk1hRzg1VEltVFhCTWRuYTJ1UXRoMHgzTDkxeFVlMHFyVzdjWkxtWFRxUWgtamlBRjZyUkVfQ3cwYU5SNDVtSUxGYmpvZ1lEVW41YUJ2RGI1NFdGd2tQNW5QazhjSkhwYWJPRVdLSzE4Mm45OUV4c0JIWHV5MFVEZw?oc=5",
+      "title": "Seeking Clues to MetLife (MET) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeXB3cXBySXd2eWZWdzdYM1BUN0hoZTVwaTVIQjBlZHVzY0pHNjhSU3I2XzU3Wk8tUHJHaDdkUlFOTExaQXR0ZVh5ZlNkNGoxemNpWHFvMjFWYXE2RVJzVnczN1BIX1k3b3d6b1RlVTVPVEJNQUVjaG4zRTNpRUR0cnhZMWJQY3J5V3NlQTJQU29fMURoTHk2eVViRGNGUQ?oc=5",
+      "title": "Can MetLife Deliver a Q3 Earnings Beat on Strong Segment Growth?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.796,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MET/history",
+      "title": "MET daily price history (Yahoo Finance)",
+      "snippet": "close 100.94 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

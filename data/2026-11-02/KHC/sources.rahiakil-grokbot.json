@@ -1,0 +1,85 @@
+{
+  "ticker": "KHC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Kraft Heinz\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzVodHhUbTk4NENITzVLTG16NFVtODVQVW1oQVd3STFRMlg4NnNFaUhXZVBsNnR6U0xUaUpJZ2MzZFhhTldhNXJ0ZTJzUEhrYS11WkVMSHJ0cTVDSkFMdmRNcFNtMFJuaDQ3UWh2cmgta1FOeDZMU0VGamVWUXVQNV9lS0k3Xy1hZWdnakJjYWRMSTRLVTBKcEh1dGN6ZE1QbVl3XzlIM2hRcTRKSFJsRFhLQVlxMzl4aUZHWmU3ZFI1bXVGcFZiYWdYT1AydjVUb19GdGpoaWzSAd4BQVVfeXFMT3RmcVdJMlFxdnFTS1ZHblFNQWsxZl9SdmZtel9BRkk2MEdYU1BlQ0l6OFpXRUxlalBZckpzMDJoMzAwYWgwcTVIV1VvTEhQcUl0dkFuUXhabFFINDZwektNUF9wdFBQVWlZdldfMTZVdmppQ2NFSVBQSS1wUmxEZFI3UHlnNGptSTdkYW1wUzZ6NWh6cE1Ca3NBUUtvZ3psSDYycDd4ZHgtUDU1bkhiV0dqc2lDanFabUVHVFVXR09pVmRncTlpNGR4elVNaG51UVp0NDJ1UDloVDNxekpR?oc=5",
+      "title": "Earnings Uncertainty Might Change The Case For Investing In Kraft Heinz Stock (KHC)",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.34,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX04yazBKcF9WY1FYV29zWlpiN3pZbmY3ckxhYzRJNVhtcjV2RkIwU0hDM1BlampJbkdRSmVZOE5WUk9DZ0dyb0JsVk9OSWM2WnhoMDRzVWZvT2Q0NTJQLVBobURjcjZ2TDB4MWhfR05nRjNIYWpERnJod09McmI4MVdfc2xXSjQwa252VHc4MEp3MkVpWlU1UjBB?oc=5",
+      "title": "Why the Market Dipped But Kraft Heinz (KHC) Gained Today",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVXIzUDFpcE1FQVdnVGl5clUyTnVmbDI4QURvVWhNRGlaSVo0bGhfRHMwcXlXeVVDUU5tdEFKUWhOZDE0UjJWczNlYXRzRDNpNHo2aXAxaHZiSlVsRE9uRXNaalJ1Z0VJQmk0WjV4RWFFb1VXY3M4RjlfRGhqRzJ1UGY0WmZtU054YUFENXh1ZkdnOGE1enpBcHpPellHTFc0elR4ek9vZk84bzAzMVgtT0RNeDU5X0NPbTA1djFrNkR4XzNOSV9oLXhtT1dfQQ?oc=5",
+      "title": "Kraft Heinz vs. PepsiCo: Consumer Staples Stocks Don't Guarantee Steady Revenue Growth",
+      "snippet": "The Motley Fool, 2026-10-30T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.217,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbGNBRnNfaFFjWm4tLVdiSTc1T0MxdlNMSUxpd2ZLb0dBazhFTWF6aWV3dm9zd0I2NG45bmwyRXlKYVF0N3BJUU5zbm1SY0VSVy1CTlRlbENTZzlwWUxuLVVRaGFLUXhySldta0dTeTIwMVZlMm9NZ09SRlR3NUJjS2YzR19OTjZFaVFfbmJpdlhPN0l1YndaTWRxdy1GWC1qZkFHdWFEWndvdi1GcG80V2U3cVc5SWNxNGFfMW9mcWZGbnV1eTdremtB?oc=5",
+      "title": "Kraft Heinz vs. Coca-Cola: Stagnant Versus Growing Revenue Trends in Consumer Goods",
+      "snippet": "The Motley Fool, 2026-10-30T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.178,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KHC/history",
+      "title": "KHC daily price history (Yahoo Finance)",
+      "snippet": "close 24.93 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

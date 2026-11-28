@@ -1,0 +1,73 @@
+{
+  "ticker": "PCG",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"PG&E\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnNWT1h6ZU1xY256U3djVndjc3F0NEc0RnB4Q0FjT3JXMnVqNTZKY1lvOG85LWFfMV9aOHpTS2FFWG1Ba1JhTEZwc3hYNktIckFabzdkcUdwNTVvTWdqLWtvZWN2NWRvOXZ0TjJKYzh2R2paWUh2S243WGhPRE1OSU1TbzRSNkNodkN1VEpnbGVLaktFUUE?oc=5",
+      "title": "Is PG&E (PCG) Undervalued After Its Third Quarter 2026 Results?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMHNydy1BQ1JQZG83YWNRMTh6dzBjZWx6MDdqb2VZa3QwaWdmOGI1NnM0MVh2a3hnZEEyLXpNa0hLZThXSjhNYzdMWU5NbVNBQXdHT0E1LXBRVEEyVGRaMEhtWVVvNF81c25iSzZoY1Y1UkFrLWlmNWszWFhyYWdGVHgwUEV2VzhKbmd6dg?oc=5",
+      "title": "Is PG&E (PCG) Above Fair Value Based On Its Dividend Outlook?",
+      "snippet": "Yahoo Finance, 2026-11-01T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZlZSODRERnBMTDNIbWJXeEZrYjY5dF90bk44MkxrZ3lhUC1VQThoVXRDeWZwZmNTTWN1eWxLYUFnejl2eElSR3B4OTM5aVVIRmtPYTFPclVpMHotYUF3Y2w0UE1YYXNaYzNMNEphQzY3QzBBRms1V2gtTVV6U1BSaXZJUHlwd001Rm8tRHZqUnlrcGQxZElNaV95Q1BERS1rWGllVi1kOXpPbXg0bXc?oc=5",
+      "title": "Is PG&E Stock Still Worth Owning After Its Quarter?",
+      "snippet": "Trefis, 2026-10-30T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.226,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PCG/history",
+      "title": "PCG daily price history (Yahoo Finance)",
+      "snippet": "close 13.28 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "RCL",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Royal Caribbean\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXY5T0J5dF9ienRwWTY1RmhWaGN3RUVrSFRFVEMtS0I5OGNBR0xkTzZmT1YxdGFvRVhVb2tZSWFtYlIydzhpU0NFZi0takxiTXA5SGEtbjV6NDVlb3BRcWZENlVDOXlRbUtZdXdsUVNQQWNvTjNaam9CdDd3Vmd6a3E4U01BMXZ3VF8ydEZYVXlsVlVjZFIxZXJsWG0?oc=5",
+      "title": "Royal Caribbean (RCL) Stock Looks Below Fair Value Following Its 244% Run",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.572,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNlVLU2NFYV96OHoxOXVQOUxFUTBvT3lzSTNqY3YwSVEtbTZWUUdTQmpsNHlHajU4Vk1kYllaT0NIMHhKQ1hKazlMWFpiTHdhXzZIbmxoS1BSMWpDLXo3NkNZWGxZUmhFVGszVnNqcE1iRnlkdG1KVmphdklyVXNkbHhnMXFlV0pM?oc=5",
+      "title": "Royal Caribbean, Other Cruise Stocks Can Keep Steaming Ahead",
+      "snippet": "Barron's, 2026-10-30T07:00:00+00:00",
+      "publisher": "Barron's",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcGFFOGM5RG4ySDBkNU5vYzVreFlFaW5EWVNPQ2RyUkhxNFpVcG1LQWU4VkhaNm10S0RhajlVNmVGZFB0SlcyZEJPVWI5Z2NUem9Daml3a2JmNkpaOU9EVUZEMElYUUFTbFpYZHMxa2RHY2Q0QjFBejFwQ2RsVXNEeEUxcVZMb1ZrN196Z19JRGM5TTNWUzM5SlNPNVdXY2RfdTNBTXd4VGlUUHlqTFB3U1VBTkNZcGZCR1R3RFQ3UVUxLTdhWWVPWUJVRnN5dw?oc=5",
+      "title": "Maritza Gomez Montiel, Royal Caribbean director, sells $122,884 in stock",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDFUdlN6MVViSUYzcE1CQXBpTkZOcmFYZVFIaEhtUk9zX20xSHpMbHpLU0h1TEFpRFZYTXFpY2FtS0dzVzMyVURVSVZtdVE5SVJDMXIxVUQ2QWJwMVRnVjZoVzhrR01qTnFGNDJUbVdlMVVTdkY5S1lvNkFSRkJNS3pIS1R0cFpweUpRTEpOSWNuWE4takllQUVtcDU4REc1Q2c?oc=5",
+      "title": "Could Royal Caribbean Stock Survive A Sandals Deal Gone Wrong?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.477,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/RCL/history",
+      "title": "RCL daily price history (Yahoo Finance)",
+      "snippet": "close 321.07 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

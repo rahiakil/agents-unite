@@ -1,0 +1,109 @@
+{
+  "ticker": "DXCM",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Dexcom\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 5,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0Z1N0FYLU1vVDBMRmhZZjRTUGZIT0ljbDZ3bk9SQU5ZVkFjX1hrZllQTEE4UzBFSUNqYkROdzFQLU9HUklyTTBFd0JmUzFYOW1zc2c4VnFiQ0NvTmZ1Mk80SFRzN0l3OFlMT0F2X1IzRk1EUk00V2tGVmRxcXBvbklZV1k5WDdlRFhtXzF6WGhVdUY0VDQ0SGRQeGFNZlc1TUE?oc=5",
+      "title": "DexCom: Improving Patient Access Makes It A Long-Term Buy (NASDAQ:DXCM)",
+      "snippet": "Seeking Alpha, 2026-11-01T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOWZ1Q0FtRGw2ZmdCZjVlemxGb0xpbWJoUE80c1ZyeExlTGNXNDFXZTdoUDd6NEd3cUZxNEFrR3pYUlBQek95OFZDREdmTDM5MDg4NmliWVVvMWxPaEJQVGFGSTdtSUZyUVU1eU90eDE0VDJJcTlCNVl5THMtYjRmeUh0S2poVHE3TlVzNEtfd0p2SGNueEFicGhlMjlYNTlXclJzdFdNSHV3X2czcVozb05mX3RRbnlvejBSRnFwaG8tNWtZ0gHKAUFVX3lxTFBrcHFlaTRRRUo5MGgzWXJTM2l3M1pEVWc4c1A1bXoza1FtSm13a09Yb1l5WFJkQWdHb3BiRmdjOVQ5M0JoeDhrNWRwSHlHQ3lSR01iNzQwc0lwOHZ6UDhnenpkcHJudEdiekdrb3hpOEp0VG5BbndZX1ZlQ0c5aWFfajJpOEhKMGhFQ0ZKU25XMWM3N2hCTlZSd0tKemFkMC1UZ2JkWkpkVUJJSlAxREstcENJU0JYVlR3YXMtcHVIY1Z4Zk83TFhpSFE?oc=5",
+      "title": "DexCom (DXCM) Stock Could Be 41% Undervalued As Guidance Rises",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa1Jrdl8tdjBUMG9HYW4xeF9EQm5RcjU2V0JEdGRIU2FnQmhLc0R4SzdLLTFuTjZnTXZBUERFWjRObXZ6bEZReEwyUy1oWmhZNWJHdFRzcmc3YjlqYW9paWlpR0lzOXdLUEkwTkFvWmdkM3lsS0xHWkh6U18yTDV4SXVMZ1FUZw?oc=5",
+      "title": "Dexcom Shakes Off Abbott-Tied Malaise As U.S. Wearables Market Takes Off",
+      "snippet": "Investor's Business Daily, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ1BHZDk1NVRGVVJmLU5rWWRNRmxxZTZTaHhhY3lPU0FQOHl3amtqNmdtLXA0MjNINjc3c2pjMGFZR3p3bHlwRWpzX2poeUQxUF85UjhNN3QyWndOa09HdWFCNWNyRlhUdldjUDRSRzU3Vm1aTDU3VzJkVHUyUmxZallrZzVNQUlXdWxrTGR4a195M2FoR2tId3FubTV2RzNnTXoydmtqN2V3R0k?oc=5",
+      "title": "Dexcom Q3 earnings top forecasts, as it looks ahead to type 2 coverage",
+      "snippet": "Drug Delivery Business, 2026-10-30T07:00:00+00:00",
+      "publisher": "Drug Delivery Business",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGVINTJfQ2NHLXZNNkxEVURtTk5WOWUyQVdidVZIR3NKN1JNU3lrV0RhYWVaNnc5U2V0czdjNXptaHJHY0ZEcUpTeWU2S0FoYUxMY2NsbW5KWTZOUk5LY0I3ZjlVTG9qN2M0TVRqZzRpWlJfS2lyUERSUVdKRHlqb0x3RDlLYzRZYWlxc0xoRjg0RklqLWRVUjNXRFJRdWJBd3U3X0JR?oc=5",
+      "title": "Dexcom (DXCM) Q3 2026 Earnings Call Transcript",
+      "snippet": "The Motley Fool, 2026-10-30T07:00:00+00:00",
+      "publisher": "The Motley Fool",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUUZab0VETl9leFhlQ2doUVh3NFJUSnV3eVdhXzFqRHpxWmZWWjFDVUNycFh6bjA0blJsazA2LVBlNmN0bjc0RkJpOFRmT2lsa1hGZGlYWm5GYTU4Sy1QNHNMVDc1c0R1Vnc4aDZMbExOY1NpVUxLRkpvdm5GQTdyNGRkdjdWRUsxMU1zTnVpcll3R1VCbjEycA?oc=5",
+      "title": "DexCom Stock Up on Q3 Earnings & Revenue Beat, Margins Rise",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DXCM/history",
+      "title": "DXCM daily price history (Yahoo Finance)",
+      "snippet": "close 84.76 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

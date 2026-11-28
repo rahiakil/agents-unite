@@ -1,0 +1,49 @@
+{
+  "ticker": "ZBH",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Zimmer Biomet\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY1NSbnhScjhEVlpJcVFxRkdYdHZ3d0RBZDVtWDc4akN6QlJJR0JGSlc3TW5BWnBpZ29kbzFzUzFneFc1bktxZWlSSkE1aWNzTDlqUEdZQVhwOEpXLWpKbHppZkl0b29IakJCZlNWRHNNbTRJUVd4c1k5QkFoVFFTWlUyS190SGdxUjVfM3hTdGY0cG44cnlUbnZpMjN0SDY4OXRkTjRPekhHZG5oRENLWUNuMDlyQ3k5X2FLY29QLXdxODhXSnFYQXdzV1lZTTBSVV9NRGZ0SQ?oc=5",
+      "title": "Zimmer Biomet (ZBH) Will Unveil Intelligent Orthopedic Surgery Technology At AAHKS 2026",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ZBH/history",
+      "title": "ZBH daily price history (Yahoo Finance)",
+      "snippet": "close 97.35 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

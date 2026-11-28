@@ -1,0 +1,97 @@
+{
+  "ticker": "HSY",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Hershey\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 14,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ1JLRmZPdjh2M3RzUnR4R19YaEdPWE53dWcxUi1ralZKcF9GM2YwV3NIYzFaSkJjVjhWb3hGMlNPTDNXbFpyMmpZRi1fc2s2MnZ2UnlNUThvYXIxOE9BbkgxMnZqVExjSDhybmJsR2Uwb0J1TFo0cGhkNXVETnJUU2pfZEg4SEJHZ2R6SVFUZkZzMEw2SWNlZA?oc=5",
+      "title": "Hershey (HSY) stock trades up, here is why",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTjZRLWhHTzJtV1pYcl96OGVNTjVWM0FUWlZ5M19lOWhYNk12TGIxMnpPanA0NERqa29CNEpyYXl6UHhHSndJeGJvWHg1SFp5Qm5oMFZJLUFaQzBlTEc1cWdKVUg2OWtuZWp3RS0tc3poQVh5Q3VSdkZiYUc2WE9pb3NySUZRZTlqeHBMbEdvdlFMTmNwZGlERUlKbDdod3puOGxEWTQ1UkJYd3lvSVFsQzMxbzBlc29lWWlTeXAtLUJNZw?oc=5",
+      "title": "Wells Fargo cuts Hershey stock price target on earnings outlook By Investing.com",
+      "snippet": "Investing.com Canada, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com Canada",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNVB4aG5tckg5aFhkU2pKZ04zSThEWV9UamFhcC1tTllPYUF3ZE4zemF2U1cyVG1MQnZDanh3VEFsU0RzWGNpVVhscWUzRmxPd3drN0xSZl8yV1YxTDFrVWR1ek8yemZYU194UTk4S2JVS3dndGl3a3pEdFhpc3d3S2JoXzNaLXRFekNwWkZ1ZFl2NmNxWEJubi1QQlhJZktuMFJCTG9KZU41VGxrWkNtV2FmMjlvVV8xRDhVdE1LSS1NaktYTlZ5bmNvYkFjUVZrVlpHOFJMdTNlbVl5aVR4V0NuRHZMWWg0bXJGNnNUbDlKLThFQ0RIamFmLUowRWVHOVBUbXdldjNmX25BQVlrZThwMA?oc=5",
+      "title": "The Hershey Company uses AI to reshape aspects of candy shopping",
+      "snippet": "WHP Harrisburg, 2026-10-30T07:00:00+00:00",
+      "publisher": "WHP Harrisburg",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV3IycERxNS1OVGRlOExCM3Y1bU8xb2xnZm5jZlM4TFB3SGFHWmJZMGI4RnhwSWE0UGZzWGJLM3N1NGJMdHVybkNvZXhwQ3JpanMxV20xYlA2bWhzNHh5ekdMSkFwbl8tSmtkRzR4SHNGUDlRZktTTDh5RV84ejRONTItT3NhVzhNb0xHaHVOcDNjZXludzFTLUdDVnZCSnMwVXNaQ05NZEtOME5nanZTNEt2RUFvd3lQbFRtV0tTWQ?oc=5",
+      "title": "Hershey Co. stock outperforms competitors on strong trading day",
+      "snippet": "MarketWatch, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSGJlVkc2MzZISVBWNFZyelNBOVNfUTF0b2prdXh3VFBiT3FfbGFuTWZrRzE1MG1uZHE2a1FTa0s3V1FvbUFYbmJsQ3JRd0RJdTlvNVVMZlFoUWlDZDgtRURiTWFHbVl5ZGhHRjIyMkpHMzUxdndZTWZ3ckVpTUY2THJPVVYxR0FjeWx2WUN5OXRCLVMwaGpKTVNuOXBENjRWM3dydUJSNG3SAa4BQVVfeXFMUF9hMFN3aGFFWVBRRFpWSjhXaC01WWxXZFExTldsREZLWHkwSUtnSWZubkJEOEtyLUR0UjJwcVQxMVRZUzYzVS1ZbGpXSHp5bEI3eFBfZ2ZnVGV5SXQ4TkhyZ0NJX3E3MG1tUFZKV1ZTNjh5aHFlOW9reE5aVDI2REc4cWp1WjBURWlEV0tNRGVPZGVWWWkzRnFURUhSQmlGTTVfeHllTG9kWjk3UXBn?oc=5",
+      "title": "Halloween gets pricier as chocolate costs climb - Hershey may feel the pinch",
+      "snippet": "CNBC, 2026-10-30T07:00:00+00:00",
+      "publisher": "CNBC",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HSY/history",
+      "title": "HSY daily price history (Yahoo Finance)",
+      "snippet": "close 171.25 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

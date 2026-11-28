@@ -1,0 +1,61 @@
+{
+  "ticker": "BEN",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Franklin Resources\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTWFORFdZZ01OTFBvQVlTNnNfbEVvSm1CMXhrM0NERFBWQ3k2TXEwaUFlSFF4bks3MHdjcW90SjYydDVwNllwc0xta3JRcEZMcWhSbTJFWUhrS2NVcjNCUkdxamZzWWh4MVZmY1JOUlNxZml2RWdBRHRFTUxzczAzRjhaWjB5NHBYcDd5ZFQ5MnpSY1JwM1VQcHVEWHVVeXJKM0hSYjd0dmxIUGhnOFJUeHJYUjQ4N3FBR2ZGeUF3Q2xOYzlyTEhRYlg2YjQ5d3lOMmlLWkdaZXFySzRoRGJBaEJkSEQwRXdVQlFrRV9Icw?oc=5",
+      "title": "Franklin Resources, Inc. (NYSE:BEN) Stock Has Consensus Target Price of $35.89 According to Analysts",
+      "snippet": "MarketBeat, 2026-11-01T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVXowTmZzYmx1b091R2xXX0VFM0VKQUd0ZTY1eWVwRDY3Rm4yYk8zZUlRZkZ4YnhybWRxb1ZMLU9QWFBkVjlFMDVIaHN6M19rck1tZnNINW4zeWxoVlZ4VG1uWnpUeUJDQUExajc5UVdXYm52MVRqYXd0XzAwdGNZQzc5RFhoOUdEOGZheFRjNHFfRXplTWFWZ3JHT2FnZVdkLVNxZTlOU05sMU9BTWplOVZlMGFUMVVoRWlYZkpLME9JMGI2?oc=5",
+      "title": "Franklin Resources (BEN) Set to Post Quarterly Earnings on Friday",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BEN/history",
+      "title": "BEN daily price history (Yahoo Finance)",
+      "snippet": "close 31.97 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

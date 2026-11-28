@@ -1,0 +1,73 @@
+{
+  "ticker": "GEHC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"GE HealthCare\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 4,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUDRRUnBraW1tenFtSENLLU85S3VmQUcyN3huZ00yeUk1MXJtMW5fcFNiYWZIWlQtU2p0UGVBbm16ZDI3VmdUR3ZJdHVOTzRreGx2OUYyd0o5eENyOGZlZVIwTzJQU2hNOHZzN3gtODhJVXJueTY3eU93UXBNVDIwNWJQSTBuajdpUjVoVTZDVnMxZW5HTzJybGxuRTV6U05leG9Ta2g0SzF6VjlsMG1mZQ?oc=5",
+      "title": "GE HealthCare introduces AI-enabled imaging system for cardiac procedures (GEHC:NASDAQ)",
+      "snippet": "Seeking Alpha, 2026-11-01T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZWVrM2oxMEtXd2wwclQtYXhKQldnSy1FOVpkYXFEWXNJbUN2dDlLU1BranNTNzZ4UzlRc29aQlU1RW9XR0RJVHZrbjFPWmRwaFV1ckhCNTI0VVFIODM3VWZTNUlJUkhYVHJaSl9ac3Z3TE5ucTd6WEdWSkdubFRzT0dWNFFsYkthTVBBTFFya0syRTZ6Skg5RGctSFRIQmhJTFRnM0hGTlV4blVVYmpPTXVkMnVDQ24yZUVqWXB3OTEzZw?oc=5",
+      "title": "GE HealthCare debuts Allia Celeo, a ceiling-mounted interventional...",
+      "snippet": "Quantisnow, 2026-11-01T07:00:00+00:00",
+      "publisher": "Quantisnow",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdkUzU2lhUnl4ZHRwUWktbkxRMHF6RE5nVV9DemRnampXWmJ6VTByOE41M0EwTzBack0xbUUtRThLU0hGSmoxTm5GcHZyaDNDQm5tSXp3SFVtSy1URExyakdNNm1HbmxHdnBzT2lMZGRWc0F1dmpZeGhkYVpET3ZLeEVvU1k4TDR3SkdqTTRfTmdnWVdOS19YZzJGOHlUd29sUERLc2Zn?oc=5",
+      "title": "GE Healthcare CEO on 3Q Earnings Beat, Impact of AI",
+      "snippet": "marketscreener.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "marketscreener.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GEHC/history",
+      "title": "GEHC daily price history (Yahoo Finance)",
+      "snippet": "close 79.55 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

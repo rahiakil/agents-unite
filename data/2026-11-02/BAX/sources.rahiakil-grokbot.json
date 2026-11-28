@@ -1,0 +1,73 @@
+{
+  "ticker": "BAX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Baxter International\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 0,
+    "before_window": 7,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdmk1VWplUVl3YzRlTlJzZTdDN2NDOWxXa3FQNXJVNnBzS1dvS1ZRbzNXR1Z4RnIzcnRrekFLempQRDdOMmNQaVNqOXhITUZycmNIRXVOTExHOXJsNlFKRmNtWWR6Wm96V2xiNTY2ZW5VaWR3SHdIaEV5U1lfYmpDeURTTkZHa00xQmNQa2w2ZnZEMHlZMGdjMzdhMUxEaXEzM25ucG4tYVVDLWxILUE0X0UycEZURWUxZUJNOERUYWZNeF9EZVl0bGF0Tm0xVVZKLUxHZNIB2gFBVV95cUxOS3VfZDJMamo1MV9NODVLWWFXLUJHa3NiOFRKeWV1RGo1WEZLSG9jR2s2cnZJblhuNjdOVWdQcC1BZmFGWTUxN0xoZXJZMnlNWlVYd3M1MDV3aU4yRUJpeUhUbTd2b2RmdzBMemZfVnBTNXU5UnJUZTh0clRJUXhTZkxodlFLam54SWVZbWNlU2o1dGk1YnAwWnJEQjA5bDU3bGRtSWJRaE91bTllTXQ5Rm9WUHVFaW4yNTZZNjRaOUFvQkp5LVdpbU5SdWZLdjdUOFViOFdEbF9SZw?oc=5",
+      "title": "Learn Why The Bull Case For Baxter International Stock Could Change Following FDA Warning Letter",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWTBObkpBdVA3WUJjaUh3SzBkeWVBS1VqbW5wRlI5XzI3OE5XU1czZ1JaVWZXQlU5NXR4amtfOGlrX2xDQjlwbk1NTHEtZVhIcElKbHBJSDFOQzJvSHMxUlpwS2Q2RXI0cXFCRGItdi0xQlUwRFNxQ0hnanVnblNKcDBXY1NDaDd2aWtKbWRyWUNPV3FPb0JRckZTLVpBLU1SNGlvNHJCX1VjWXFXMHAyRVRtSHVJSDNLSkRncXJocWgtRDdJZXRHN28wZGpDNUNGc0lxRNIB2gFBVV95cUxPc2VjUlFWX09vUVM0RHlkQ20wd2hXOTU0TlVtejM3aVpRY0hFWjA2YkF6WFVvOUxPUlhCNDFlMnhZamxzclA2UDZhU29nSTJvclRuWVZRenlxZlkzSXRJMXY1ZnAzaWJTNnFMVElyaTNyaV83OWxMdDhHVGJ5YWw2TDZhN0R6MnpMWjBpZHZ6VkFucVB1bzRvZ2gtRjA5NWZfSUNEUFZMUm9YMmRSVFZvN3BuTXZEZmFJS0lxRk1JcjBwRERsd1dFRUh0SmJYVVVJWml1UTVfS19sZw?oc=5",
+      "title": "Baxter (BAX) Stock Price Slips Despite Q3 Results Backing Turnaround",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.019,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSGd5amtJLWtFTlVkVmhBb0tZekp4NDhyWDNNbmVWN0xmR3g5eHpJbEpzUldpSWVCNU9xUE5qbEdBQkZfXzJRS1dYSllCTXFBZWtmWmRON0Nmc0pHYlpyal9jajhsaENKWlllSERVR0dXSFdpVmtIU04wMnAzRmdrMjRjbXVQSHNVa1NRZ2FBQzZ3amk0MzVQcWtEaDF5M09NMG5PczFYZFZmOXUwVkk3SlIzR1JfYTFid1pma2ZnMlhYcm5QTUo1eXJDYm9Dd9IB0wFBVV95cUxPenNUUkVGM1c0QWFMaWNMTU1obVk5VkFKV2ZKcnJ3Mm5CLWJrVlBhcGZwczZ2eXVNU01INzZQWG9raXF1eU9iZmVXU3FFQUZrVHZORmt3RW04S2xnQzl1NTBjdDkzaWgtbEhzMXBiTjAzUGNxdS1QdWVJRW4xb0VmazdRWkN1bjFmV1I5ZTkxTDgzRGlES0NfX3N5ZXphamVXV0N6bEFLSy1IN013NHZxOFpVQTJsSmxKS0JnX2dPZHRmZzJxV0xiaGFDMUZyZXdtNU1r?oc=5",
+      "title": "Baxter (BAX) Stock Could Be Undervalued As Shares Fell 67%",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.077,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BAX/history",
+      "title": "BAX daily price history (Yahoo Finance)",
+      "snippet": "close 24.22 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

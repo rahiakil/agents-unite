@@ -1,0 +1,49 @@
+{
+  "ticker": "MOS",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Mosaic\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 1,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMEZIRDhvQV9ZMzdlb1hPbkNFQ2Y4cGp4blNNOFpKWGQxam1oc29IX3loM3RlUkpSbFZTTEE5MU1yOVZfdndRVVdtQzA3c3pzb1RWdGZxeUhISFctZWVOTmxJTG1RbS1WdWl4cUtJNmstY1NUOGFKa21Zc0hHV05fQzR1WE1DQnBPdTlnb3BKbVY2VjJFYk1LaExMMVJ5UFZ4Y1NFU0RHOA?oc=5",
+      "title": "Mosaic is laying off Florida workers due to a global sulfur shortage. Iran conflict is to blame",
+      "snippet": "Tampa Bay Times, 2026-10-30T07:00:00+00:00",
+      "publisher": "Tampa Bay Times",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/MOS/history",
+      "title": "MOS daily price history (Yahoo Finance)",
+      "snippet": "close 19.03 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

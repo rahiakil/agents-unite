@@ -1,0 +1,49 @@
+{
+  "ticker": "DTE",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"DTE Energy\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 4,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWxwbjVZeEpCV0tCRHlWQ21jT1JLb1hGb0NETHR4TnhJZDNFcDZyNFFaYVVUYk81ckFub09iRnBNdEYwNUpsUUZfc2ttSGF3N3c5UHl2UU5lNnk5Nm1DVmppbUFmQ2YxaUczZDhDMGRVbmNIdWEwVFFjbmd5ZEJ2RHU4U2liS3RTbHhkcThwSDNPeVVFREFBVnJ6Vkw2c0xQYjRrbDVBOVVrZjJSRGlMaw?oc=5",
+      "title": "DTE Energy (DTE) Edges Higher to $135.49 as Utilities Hold Their Ground - Volume Rate Change",
+      "snippet": "SIAM India, 2026-10-31T07:00:00+00:00",
+      "publisher": "SIAM India",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.44,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DTE/history",
+      "title": "DTE daily price history (Yahoo Finance)",
+      "snippet": "close 135.85 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

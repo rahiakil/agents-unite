@@ -1,0 +1,58 @@
+{
+  "ticker": "KEY",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KeyCorp\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 2,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQlRDRlU4UElWT3U0YTNzdDI2MFhraVplaWpMNkNBM1VpX2NxV1RGd1kwRGtiTm4zbDI0NGVsY3pDU0k3U3d5QlhvSkxOTWdCMXo4SDV0T2dvd3ZBWmRxYjZVRWROb0YzNHpWZTFNbWc3eWtUcGRDX1YtakJGbHB1NmxCdzhUTEpnY2syNnN0T2M2OEF2dllxM040Y0thVVdpdlZVMXJZbkl0RktsTnc?oc=5",
+      "title": "KeyCorp head Andrew Paine sells $829,556 in shares By Investing.com",
+      "snippet": "Investing.com India, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/91576/000119312526443714/d156521d8k.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 8.01,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KEY/history",
+      "title": "KEY daily price history (Yahoo Finance)",
+      "snippet": "close 21.49 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

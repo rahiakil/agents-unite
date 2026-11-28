@@ -1,0 +1,97 @@
+{
+  "ticker": "TFC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Truist Financial\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRHZQZHVuRkRlbHZJUXlTVDR0d3k2MmVCTTZqc21hdlVkbUo3WnlJNUxfMFhrdGRtekJZVHF2U0xadTE2WXdlZm1meFZoYUpIZ0czZlo1NlJfaU56OTYwbGpkem5EM1lmajdEV2dEVjR0NV9yNG5VNkQyY1NYRm1Pd0NDSVJKb2diSWcxeF8tUzNEZF9EM2NlbWNzbTlVZ0lGcGdhSTg5WTJ5Y1c1V1VhblpETktPa0FhU0x3X2RrN0wzMzd0Z1E?oc=5",
+      "title": "Truist Financial stock heads into November 5 investor conference",
+      "snippet": "ad-hoc-news.de, 2026-11-02T11:01:19+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-02T11:01:19+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMXljLTkzOVlOVjFmcUxmTUVhUlROZWpqc3JuNkZqMXJyX1hBak5sMlhJMlNkVXZPM1BhSE1VY3VLaXRoU2VYb1Z2ZWNnaTU4NUk1QUdqMEJwUFVDdlk2V29yOUNiSGtfN1U4Z0VTbmdGWXkzRU1JMEI3Vmk0MldOb2x2dW9tUVJPajRSNTVmd0cxcEdLV2gzMC10TnRvZ1lYWTVSN2RpaldHNGVPNHBIOWY5STRDeUhnQ2pBdktYZnhSSjA?oc=5",
+      "title": "Truist Financial CEO Michael Lyons buys $1.2M in company stock",
+      "snippet": "Investing.com, 2026-11-01T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeEJDellOa0dhaUlhdHdpWmtTZjZnVWJiRUcyUC1LX2tObG1RalR0X3FOUFh0dkNjVENhV0NzX3QzWVAyU1hZZUZGZTM0ZkFuVWQ1MGdxNFo0bHhXbWwxMTJEbWFOYnRjQ0xZeTlHUGdoTm96d05jSXVPY01FTkhPemhmXzhTZEZ4ZHR3N29Lb3JleDZROTBqejJTTC1ESTFjdDMyXzVadWk1Y0Y0T2FBbkdlbVh6V1lXM0lZcHNIdUpwT0pRblVlcE0yNWIxcEJf?oc=5",
+      "title": "Truist Financial Remains a Buy on Expand Energy (EXE)",
+      "snippet": "The Globe and Mail, 2026-10-31T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUnZLYS1yclZ4dU11amdHNjhqZHpNN2ZBa3RCaHVNeHY1MkhLemZoVFpCdF9RcG5FbVRPOGVwVjRTNUd3c1ZpVmE3a0sxRzRjNV8tU1B4cHJwYlZNQ0hueC1hYzlsQm91N1g5NGRnWHI0MmRYM3MtckhYVktHMEstX0t5RWFhRk5OQ29BU21ud0MxQXc2Zm1sU2NwWExfTWMtVHR3a1BIaTB1c1N5WThEbUx1Q2xOQXVJeVV3MkcwM29qQ0p5MjA1N2ZxcU1qNkNmOWZhNlE3TQ?oc=5",
+      "title": "Truist Financial Has Lowered Expectations for Floor & Decor (NYSE:FND) Stock Price",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.128,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZXBpeXRNOU0wLXdIR0hyRTlySUQxUVF1ckVlN0VwMzJCcDhscjA1Tndjel9IMzNuZ2txOWxvOHZtaHV4TzNCTW5GSDAwMWpFMGJIM1pKWXZkYkhWSUdndTdMLWlrQUNKeHF5Y0ctYzdnM0lXMFdkWTlCbWtmZjNqQjBFM2JCNEx0R3JVQno1eV9EX3hGWFJMb3FIYjhYY3RFdFVwVUxVU1pmcll2WHpDeURvLTlQRENhR3h4TWZaV21IempIVS1V?oc=5",
+      "title": "Entegris (NASDAQ:ENTG) Stock Price Target Raised at Truist Financial",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TFC/history",
+      "title": "TFC daily price history (Yahoo Finance)",
+      "snippet": "close 50.17 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "AMGN",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Amgen\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 11,
+    "before_window": 3,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdjdmbUl5c0NkdWNlaWY3dVRvTEJBdFFHUFJGVFRmaFZsZWFvelRMZGpJVUF4TVBobWY4SDBoN2Fsa0NWcWQ3YkRkUUQ0eWpGMnZSdFdPNUx1UmpHUmFIY2VIZERaU1B0YkRPSVhCOURfNXhWaUdmN0QzU3czN2wwMThPUWp2eWFkSkNucmVGSUtXQ0RTRVlOMEprTDRIclBTV1NjZjhoZDBucS1sWTVLYUtSWnp5YVo3MjlKNllGOU9DWnVId253?oc=5",
+      "title": "Amgen (AMGN) reports Q3: everything you need to know ahead of earnings",
+      "snippet": "TradingView, 2026-11-01T07:00:00+00:00",
+      "publisher": "TradingView",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcU9Sakh0MENvcDBEQVNZcktfVGE4c1BxY1Vpa2ZxY2VCVE9vUWtfOVhHU2hvY25scjdBMXJYR0FSenJYRGNPWEkwVUJlZDlGczB6N19aT2hMZ2VyTU9DT0xsZnM5bndKUzNEbW9zYXRDM3k5eDE4ZnUxaW5BTG5sekZEVnZqU3hIVy1XbmxyaHZzWkdkLUEzbkcxTW44SDcxUGl3S0tsdmhiaS1xVWtlWnc2Qmo4SkI3NmVDTlUwMWtFR3hXb3RKMVJSaG5rVEnSAdQBQVVfeXFMTVBDRHZzcXI1Ym0zVGpvZjFWdVJrX2lsakp3aDBXb0xUSDlyQ1ZKYjNrNnFOWkl1aXk3enlMV3FjakpGelJhNE5pMmUxWE0wQXNoSlFGVk1wNEUtUXdFUUhUMDRQYkJjTGRtMjhiQy1Bak55WEVaMDhhejRmR3RjMG5Ta28xOV9BUWJTN2wxa1g1dHdlS19KTi1lNEdEMG13SGZ6Y0VLamlnbXlQOVhRdVJNZXlTSlVDU2VNdWdFSzNzdlVKNC1IckZKSnBtdlpqQ3NKejU?oc=5",
+      "title": "Amgen (AMGN) Stock Could Trade At A Discount To Cash Flow",
+      "snippet": "Simply Wall St, 2026-10-31T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDZMX1ZZUnJPdHZ0WExDT21DMUo3dHpnVmJ4Y19FUkR2MGEtbzVHeXl6TUhOU2h6RGMzbUdfdnhHM0dScXJiRUdlbWlJOVZ0aE9paVVFRkk5QUY1NlRtNEZSMDJGc3pmX2xVc0VvNHFhS0VVWHdJUGZ0WlhyemJhOXNiT0ZZRWkx?oc=5",
+      "title": "Amgen: I Have Clear Doubts About This Company Headed Into Earnings - Earnings Preview",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.103,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbzVFbUhUcnNxaWRMWnZyRWdYLUFWcU4yY1BVbXNRT3NPOERUUlI5VE9WWDZhZkRPVFZKSllCZGFyQTA0eEFRNDAydzNSLVp0WFpLRjB3THVkLXcwc24wU3Jma00wODF4MWdQNFQtSjdlR3JBVHdJdHhkcWFaNTNKbll3Nm4td3BiQUgwMkFYS1UyblpCbkQzSFZCWTZ0aEU2?oc=5",
+      "title": "Amgen stock hits all-time high at 469.02 USD",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/AMGN/history",
+      "title": "AMGN daily price history (Yahoo Finance)",
+      "snippet": "close 465.45 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

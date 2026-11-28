@@ -1,0 +1,85 @@
+{
+  "ticker": "ICE",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Intercontinental Exchange\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 15,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 9,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbVNtQV9oclF0aFI0UWNweTZTYkJjdk10WlBfc19nQS14X1hjSG8zMndoSTNVTExuT29SZFNWQ1RJblVGWW5CaWhKYUJTdU9JVUR2WU5VSmxZVW5UZW9KNjBlVzFDWDJOSWdzckZHeVk4VklOVTAxdGhOMnBRYTY0cldUWnVKMzhILUl5S1JtNmlla1cxajA5aTdlWDRyYTlXVVI0M3NzZjRTVE11T2xyenpqWk15blJReEVZb3k2YkxUcU1ZQkttcFVka3lOa193MnR6OTlkd1QxTkE?oc=5",
+      "title": "KBW Keeps Their Buy Rating on Intercontinental Exchange (ICE)",
+      "snippet": "The Globe and Mail, 2026-10-31T07:00:00+00:00",
+      "publisher": "The Globe and Mail",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd05LR2JWVXRuYmltRVdLWE1RUFpPLWsxWlhMUkFUdXBTNlNnQjRxeFU4ekZVNkgyZ0JndDlDc1RITUJzU1Y2TGZIV1kzT3lmeVVPbEw5MDBoZzh2Xy1OVW00V05ILUVJdDB6TThla28yNUJ0c1duNDdRcVNRMTM0MFZHT0NtQW5wR0lKV0xESk5lTjJ5V20wT0dyYW5wR2NGRThhTg?oc=5",
+      "title": "What Intercontinental Exchange (ICE) Said on Its Q3 Earnings Call",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZEhhQkFkdW5YUTlxczNTNVR1blJGS0hIT1gzaVQ4Ukhmb3pfcWI5dTRaRUFuOVdXT3g4YUdqN2xlNk9OVDRKTUtOajA3MUNkLVZVYlUxZmROQkVVa0tfYW5EZ0FjU3RCeDhMNWdzdTRnSnh2Nlcxek9pN0RBaGw2bkZrRTN4Q3BBMnRVZ2ZDYXRTYXI2bC0wRWlBMjNXeEZKY21wMS1ZeDV4NVRSVmZvcHQ1QXQtVjRZRE5hMUxwUzRTa0U0OGhpWTRDQ1ljTjNqbl9vLTBPVlNaUFh0MndoUzJ6QXFJR18tSkZTRzdPcGw?oc=5",
+      "title": "Intercontinental Exchange (NYSE:ICE) Stock Price Expected to Rise, Keefe, Bruyette & Woods Analyst Says",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbFRDNm5PQ2VyazNQRDNVbXAtNm52cTFXNjdjd3F1aWNCZDNYZ2xKcF81Xy1DdXBKMnRQdGtIN19jM3h2R09POWZkdFBsSlBDY0xDTmpHMzRPamNHckpTTFBUYk1malFIendBYTUwOFFxNU4wLWN6Ui13QU9QcWIxZkY3d3luUEJzUFBQZkREeFFCeE1fbFZJMVZsRjJPNGJvS0NlV1lzVjJLMFFlbllYV0dBaVJpeEpCV0NpUW5oVmRCdUhEb0w4dWN4eUp4RUFpNTRfcTRaR2VqRG9zR0ZUSXFQZWkzTXZPVWtZ0gHwAUFVX3lxTE9VOWZLMkkybUVBSU9VQW43amg4c053SmtNZGdOTlJlbGdWUDZKYURsRTFJQk80VHlRSXAtdk1EcjdDUFRzNVVwY2VacTBSTUJKUkRvWEt1c2VLQUU1R3J3WHBOVlQ0U2tsNXc5RXhYNlY4Tl8xXzc5QW1WeUoyczAtVUpYQkxIQXdrYVpxbGFnWVh4S2lsTjVBVHdnTEE0MnNFNzRTTXh5YjM5MndqT2RGcktBeUY0Uk1nUExSeGNBY1QzTXZGaDljRzB0TERfaTZEbHNSbUhoMjBiMDUwUVpPUEEwZ2ZaTGN2TTdmMWNBZQ?oc=5",
+      "title": "Intercontinental Exchange (ICE) Stock Climbs As Q3 Earnings Spotlight Cash Flow",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/ICE/history",
+      "title": "ICE daily price history (Yahoo Finance)",
+      "snippet": "close 172.28 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

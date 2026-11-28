@@ -1,0 +1,61 @@
+{
+  "ticker": "DECK",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Deckers\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 7,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbG0xNjgxUU0yNFY4VWhrbTZYUlpQS2FJeFNZbHRwLXRGSHU0ZGxucDdRMWxYdFN5NS16TGl6ZVFuODY5Zzh4U2Z5cFhlNDVoWTFQcW45TmtSWGkwQTRLVjEtb1pZd3RMOS03TjZ4YjBMQ1JFeWJvM183WkJmY0RyRTktRDBpakdPY0t4S3QtMkRWdjhoUDczbzhFMFFuc2NVMXZiTG0xaFh1N3RxYjlmb1lYQmRObjZKQ2hJNW5uaFctRmYtZmhJWXdkZUlNQ0RTWklB0gHYAUFVX3lxTE04WjhQVHM4SGZ2VXpVNF9yQVAtd25mbmVISXhYdnJHM0F3YjBja0pPM18zOXV4cXZqM3B2Vm5xSTlaRG5rYWlCSU1Hd0VMS3lBWUJEd2ZfZmR6SEExNXlxazRENlpvWFdEZHYxUS1Zc0JVcFdYZmZyMjIyT1lKbkZUaXFGV2huZnNxUTZ6STVORms3VVZyMjJLZHRoeGxjUGI3ZUlRT1VJSnpFb2dWR0YzWnN0MFlCdUVyZTZpLXVUVV91Z0c3bHozd1gwT3ZaM2lHTld4NDJSSQ?oc=5",
+      "title": "Caught Out By Deckers Outdoor's Fall? Here's What Bears Saw",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONlJMSGdSdzN5cGxXQ1d4dEtUUWV6ckd3OXhhYzJYb0cxbjlzcE1rVDBtczFwWTRvQ3ZIbC1sTDBPbDZDdTlRY3RyQ2JMd0xKcWh3TlJFRWE2UENKZ1UyOV9uOTdXS3JMTTNWYlJBZlJUUlFkYzlYRWhIbmtWbEI5alVSM0U5ZExhbC1kdkZiTVRKZm04aXBLbTVDNGI3aFNkYk9wZWQ4ellrMlZNWWk4?oc=5",
+      "title": "Deckers: HOKA's Recovery, International Growth, And An Attractive 10x Valuation",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.67,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/DECK/history",
+      "title": "DECK daily price history (Yahoo Finance)",
+      "snippet": "close 85.0 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

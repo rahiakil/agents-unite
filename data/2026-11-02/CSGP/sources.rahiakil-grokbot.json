@@ -1,0 +1,61 @@
+{
+  "ticker": "CSGP",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"CoStar\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa283ODFkQWFULXNHUHJIOXhuNTJlSWVLSEFaRk5VTzVBaFhTVXdzQ19LemM3bTZDWWJwY05hVzBZb1ZqV3phcENKOG4yQWlPeTEzSGRwYnZ6TEVsZkpPa1A2N1ZWRGpZajNzTGtHNlhLdnNzWThkNldiazZPODZOU090bzJLQjl0cHc?oc=5",
+      "title": "Noah Wyle Shares How He Really Feels About E.R. Costar George Clooney\u2019s Famous Pranks",
+      "snippet": "People.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "People.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObnVSd0lUX2xrYmplcDV1LXk4ZDVGS25FQzZBUTlFZnY2NXliVk1ERTBDb0hyNGc3a0c3MHZaRzdYam1NZk5DczhKaHo0RFF4YWtQMkE1YU95VmxMTW9rV3U4VXJydUZLRjdZMExPeHJibjFteHJsWjZBMmMzakI1cV84LWk1Zy1JZ2FEZDhEZU9oTWhtVTg4MEVn?oc=5",
+      "title": "CoStar Group (CSGP) Agrees To Acquire Vexcel Group",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CSGP/history",
+      "title": "CSGP daily price history (Yahoo Finance)",
+      "snippet": "close 31.82 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

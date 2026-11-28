@@ -1,0 +1,85 @@
+{
+  "ticker": "UAL",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Airlines\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 41,
+    "no_date": 0,
+    "after_cutoff": 23,
+    "before_window": 11,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWnplV2VPM3d2OWdNejJ6Q09FNzZjV0hHaVpmOW9fZ0pxWE94U2lRU1Azb09UQXZvSTV6Ym0xaTQzVlE5ekI4MlptbGdfb2xlUmFvLUtNZlQ1ek1CRDNZOFdXVVpDMnpLRm5Za0pPTkx2cm55c0poVkdjSkxUVEpLQ2RxZG5Jdno5QlFfTWsxajE3d0R0MHVYS1R6XzhmMTY3X24zUlpLOWJuX040dHJSNWRLLTNSR3F0UDNTSUdTY2lmT2pMeUU3QkhQdDU2ZXNPUjdUeFE2Qm5Xem9PNjdzR0tn0gHnAUFVX3lxTE8zYTYzcFNBclUzODhoMXVSTkl1ak5WamRPVTZ1UVJCYTNkLXc0UUZNNkNpVlpkbmhLQld3R1d2M1ZhQm5COTNudUhpeWhwWFBDR3lkS0U3ZFctcVBQR2hHZ3FpNTA1LWJkLTNKSUFtOXdDS3NCY21mdGhLMVJLSWJVQlQwYkw3c2w2YjdwaTBReHJNRlcxUTQxbXZfYlUxUFZuZGE0OEU4T1VDRmhxZVNiZFE4Q3N2amFhSDNYOXVFM1VuM3ZTWnZJVE95aU9UbmwweVlKcjFxMURRRGxwa24xbjRyOTc3RQ?oc=5",
+      "title": "Does Record Q4 Revenue Outlook Change The Bull Case For United Airlines (UAL)?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.612,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa09HVkc2NGh1VHFraUNVVzZ5Y1M2SlQ3QWNCVlVVS1pGc3ExTkxISUdycjA3LWtCR0s1MkhKbml5X0xLTm4wVXRwNHdlN0psRUFJMC1td01WNC15NDd4eEVUSEZZTmtJZ3RjVnFvcVpvekFxTVlRMktHTlFDb1NwRVRIeWh0Q1lHaVFUSExsajI4eVJXQ3h2QjU1YjJXeGs?oc=5",
+      "title": "United Airlines to End Service to Tulum Airport",
+      "snippet": "Travel Pulse, 2026-10-31T07:00:00+00:00",
+      "publisher": "Travel Pulse",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPci1IRDF3Zk53cEF2azliaDI5aFZOc3hFV2tiYS05dTlSRlJzQlZmbGtfMEZPM2RRRTF0WUgwQ0dQV3NFbkF5Wm81c1lGY2wwU1BtY1Zwdi1KQXREQ01fZk1tcmoyX2QxRXhqTklob0gwNFRsYXo3RXZMbmowVmZNaHoydV9XOTR4UmgtRVR2bUpFREZTUDctVURoX3BfMzFQQkE?oc=5",
+      "title": "United Airlines cancels all flights to Mexican city due to low demand",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWUlEN09MTUR5cVFYVXNXeUxpZDdVcGx0SEpITnBKOW5kNFBLNlgzQ054ZUFSVVNmNVdEUVdZb2dxb1BBRWI1Q0x4X1ZFYXR5Z0kwYnlrWnAzNzFhZGtqOE14NWMydFowTm1QemR1SU9kT05KYy1DczRjVGRqSjlIZExVY1FZMVBRZ1JKek1neV9zN00zMXFzMGJtUnZJWjZ0Z1JMOTAwR0luNWNqa0E?oc=5",
+      "title": "Form 144 United Airlines Holdings For: 31 October By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/UAL/history",
+      "title": "UAL daily price history (Yahoo Finance)",
+      "snippet": "close 109.24 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

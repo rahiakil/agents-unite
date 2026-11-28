@@ -1,0 +1,73 @@
+{
+  "ticker": "CMI",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Cummins\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 43,
+    "no_date": 0,
+    "after_cutoff": 28,
+    "before_window": 8,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUGF4VUpkMERuZ3VlQ1hhTWhnUTNDRHlKOWZwb2xmVS13Y2pSeWxrSnY5RC01b0k2VE8yV1FsRkhqMHIzU3ZvWDZUTC1ZdG9XZkdWZWN1OWh5enVuaDRoMTc3VngwWDV6dktLQzFJOVliaWdrTHRkUDFiUldUbGd4bQ?oc=5",
+      "title": "Cricket Dismembered at Newlands: Cummins\u2019 Test Team Falls",
+      "snippet": "JournalArta, 2026-11-01T07:00:00+00:00",
+      "publisher": "JournalArta",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUdnZ09JZGxCRmdCakJKZG93U2FIa2NaRGtBOWduUnpfWVc4b1d5cEttV0Y1Y3RUaFNuZlREajVGS0RoWHZjc0dDamZuQk1SQ0IzMlZaREdQem1iX2JZVFpNaVVDdnhXc2lxWnNRRHdTV05vUFI3a3hHQ1BSMzB0eV80c05DbFJLQUpOZDdIQjJYb2VrNndRMFdlNGZiRlBWZTNSdnlwekF1c29CVzE3QVlWN2djMG4y?oc=5",
+      "title": "Cummins: Share Price Appears Fair After The Drop, But No Margin Of Safety - Hold",
+      "snippet": "Seeking Alpha, 2026-10-30T07:00:00+00:00",
+      "publisher": "Seeking Alpha",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMzlQbS02SFRfa2NEYlhiRTM1WFJ3R1B3REZGdEV2NHBGVW1oWUlQOTV4MmFOLVNFOFhHTGhuc1JfTjJDWkp0ay1keW9hV2JKV3V0RWRRUW9OaDNnQ3pvaWRxZWhHZ29RNDB2THBGNTIxdWhiQ1ctckg4WVphWGlXVnkzR2lKcHBZVUNSUWdYV0xYbHRHYTRpQ3ZoS3NDY1Bkanc?oc=5",
+      "title": "Cummins Inc (CMI) Shares Fall 3.5% -- GF Value Says Still Overva",
+      "snippet": "GuruFocus, 2026-10-30T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CMI/history",
+      "title": "CMI daily price history (Yahoo Finance)",
+      "snippet": "close 500.6 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

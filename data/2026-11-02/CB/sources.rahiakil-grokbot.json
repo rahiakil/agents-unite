@@ -1,0 +1,109 @@
+{
+  "ticker": "CB",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Chubb\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 3,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbjRrZlFHeDlaUHhzNW9YbWw4ZzEycGZReE82M1VmUk42N0tab0JHbUpRUUtiMnBSVUJWZWdkUWhtWm1IeTdMSklhMkJSdzhwV1VBc1poV0ZKUGFrSGhDQWJFdEhLTjhtQXd6Q1FwMHFMZlh5VDRtbHB1RmV3S280SkY4TFBmbmJtWHRqQktzTU9LdDlWbmZUZlhDLXhzTkJNOUxKUGpBdXBELTJ4RmJBQU5rMFhyOFA3dXFYd2tB0gHDAUFVX3lxTE5NUEtJVmVDSVd6OU9UMEY4VS1hZWpNRFBjeHpjZFFvZHoxbExqS0R1SF9RVXliWlMxdXdXc0ZQRjdET1lYbG00U0lUaTFiODNfY3hwSjY4YUZnQ2JkTU9qMG1TZXNkWjRuUWR5MHI4NkR1all2cGJ6V1hkRFRWdlRJQ2FFcmZJaGRIVzJEeUUwZkp4QTI1MkdDZFphdWdLNU5TeTlQNHQ0a3AyVDVXWVVGa3lNdWhsdFNBNkJCM1k1NXU4SQ?oc=5",
+      "title": "Did Earnings Growth Just Shift Chubb (CB) Investment Narrative?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcmpoN2F2ME9FdHFGUkVmM0p4WVpqcTl1bVFjaTRVU1hhNkcwMTlyWTVoSnFhMGxrVjNvTncyb2VyOXBhU2VTd1FNVTJhUFA3MVZpNXJwRXRJTHNVUU92V1MyQkdZR21XazVyOVM1OUV1bXlOQ2dVOGVucldVa21OaEFfeUVvRUNoTXRraXB1NnZ6a20weGhORnZ1aHVpOE15SmNROUUxbjRkbWc?oc=5",
+      "title": "Chubb Ltd stock hits all-time high at 367.99 USD By Investing.com",
+      "snippet": "Investing.com Australia, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investing.com Australia",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTDBiM2VPb3Y1ZjNSVU1yQnpKeGhHT1ZsTHdXMXNSNUJfUkNzTTF6VkItSnF2Y291NVhQM1FYTUo3RDdfTXBpM3F1bnBKOGRZNWtnZGUwUUVSVzQ5cVgtZFQyTFpJcDZQRDh6VW9DZ2djaklmM3ZNN1FKZF9MZENWYVNMdzVGWlR2VUhTc3JmQ1FCRjRuVnV0akZyY0FkU21ERUJsZzVEOA?oc=5",
+      "title": "Possible Bearish Signals With Chubb Insiders Disposing Stock",
+      "snippet": "Moomoo, 2026-10-30T07:00:00+00:00",
+      "publisher": "Moomoo",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.542,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeWVFS2U4NHItZk5zUjU0UlYxelMzQWUxQ3B6NURMandleGpOUHpZTkdfRXE4X1FhS01VOVJoRzFrdTc3cF9URDZqVndPRVo5Y3BQVVRFWjlhcXBndERQWk41NC1GUmd6R2JWVjdaeW5FRUpPS0lxaWNyOW9DdU9BOUZob2lsazc3RHBlemxBWG9ReERPYlhiSHgxWHY4SER3SGMweGh6ZE1tUjZwU0FkaEFpRVI2cGt3OS1XRGNvRQ?oc=5",
+      "title": "FY2026 Earnings Forecast for Chubb Issued By DOWLING & PARTN",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWkzdm9PVU1nWnBkZ2tkbFJaNTJQNklDOGtiUW5RVENKS2lLOGlFbkwwUG16eERhSEROcmZuZWdNNXZ1Sk8xTU9taXhPTnZlbG9sTXVnSUFyd2JTSUMyRjlSbnFXbmhrNkZkZ2xkdHhQSS1laGk5OWk1dWp6ZkJSQkFQdm11UVJpT3ZRTkZ3NWZDQmRxVm9UTWdsMVg3eVIxVFJDSHJXZWk4aHBKbkktOWpiN09oc1pEYzhaSXZMUlVRNHM?oc=5",
+      "title": "Chubb stock rises 2.20% from prior report as earnings hold firm",
+      "snippet": "ad-hoc-news.de, 2026-10-30T07:00:00+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU1dSRzJ5RUdvazgzcUFzZV9BcFZkRHhiNzRjLWJHaEJyOXJ0dG5ZQTNMbVd5eEE1SHVpMWViNkVJOHhaM043WGJfZ2ttRk9Jd19oSnc0U2U3RUxoajlIUnBnTTdidXFpclowMGhJR0E0a3ZkV3czWWZqXzlIX012Ukt0TmNqVFN6?oc=5",
+      "title": "Chubb Limited (CB) Stock Forecasts",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.226,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/CB/history",
+      "title": "CB daily price history (Yahoo Finance)",
+      "snippet": "close 368.98 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

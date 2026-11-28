@@ -1,0 +1,73 @@
+{
+  "ticker": "URI",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"United Rentals\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 9,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTmx0RUQ1ZFFmQUtsZ1VaaXZrcnFZMjZESU14ZXNYN3Y4WjdRTDU5SDNMTklPS0hjTndXUzF6MmNhN19HUVRnN0ZFN0VqV3RGYUpqNjA4UURabDEtMWhFM0ppUzczMVZnT0txRGNEN0t6UUtEdFlLbjkyNlNlU2lWb3RFalZjR1EtZGZjampMQnlPSmd2U0R3akg5RQ?oc=5",
+      "title": "United Rentals (URI) Stock Looks Reasonable After Fresh Buyback Moves",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVBkX2JhOU9ORkN0ZVBSdExkREk1ZnE2bTJ0OEI5MjNxWnl4bG4wbEtSMTE3Y0RUYklBWDF4NW10d010RG5IUDBpTWJUb0NIQVRQMlZrRHAyLXZpUldJSDh6Z1lqeXNZMWhUMDUwNXR0RmdhRlBoV2xCcjNmdW54MjBOWjgyNlNYSVJicWw0VHBKaXlHc1hLeTNKU2ZNQQ?oc=5",
+      "title": "United Rentals (URI) Stock Dropped, So What Is Driving Attention Today?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcmVoSFFVbGV2ZXdiNHJSMDQwZlMxMDhMbTNRNmhfMWc0VVJQWk1iUTlWejlGNWdPOWNCRGxMSEstUEs2TUFrR0dHZUg5TXVjVFhJOG1XWnhaem9vUDhkUUpwYzFSN2VOTEg5SnBVSWxCOUdEMTMtMVNQNFcxbFVsdW1Pc3Vnd01HWWVrUmtjNGJUdFhlT0w2UVZFa1Q?oc=5",
+      "title": "United (URI) Stock: Falls -2.39% - Where's the Floor? 2026-10-31 - Call Flow Alert",
+      "snippet": "SIAM India, 2026-10-31T07:00:00+00:00",
+      "publisher": "SIAM India",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.361,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/URI/history",
+      "title": "URI daily price history (Yahoo Finance)",
+      "snippet": "close 1175.42 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

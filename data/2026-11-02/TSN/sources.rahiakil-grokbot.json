@@ -1,0 +1,61 @@
+{
+  "ticker": "TSN",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Tyson Foods\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 1,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ25qekJDaU1mMW1vRnRyR3BwZnhidFl1VVV1c1hhMHdEMi1MblM5OWppRVZHX3JnbXNZQ2xfWlJNbDlpNFZPbnRtM2p6ZlFXcXg0YkZaQk9HM2JDQkVxcEZEWWVXN29xVmdUSVZNTmlreDZOSnZHMU5sTkFya2YtNmg3WjJGVnRraDZjcHpMRk1LZw?oc=5",
+      "title": "Tyson Foods Yields 3.55%. Can Its Cash Flow Support Another Dividend Raise?",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONW5saG9Mc0xYbktRVG5lejVRSmtmcVp1c1RVNWpNaGJlSVdtRlZnd25QYVdVV0YyQ09xSEFES0dhczZQVS11bVV2T2FfcHpyV0k5TWliUXh3dWFRVDZ0Vnp1alFvYmVQQzdDUjBpamxlTGZpVzN1UTBJMzhxRWdNazg4d1ZDRlF3UXVwZ3ZQSklBNE9JQkwycV9UZ3pyN0ZGSWNma2NqVTlXbDNjYjgzcVRkVFJJQVN0TG1kUXJIS0hsbmk5SFBqSGRWT0pCcFJxdTY4SGItMVJLNHJ6VGJmcTd2RmZBZHdLLU92VQ?oc=5",
+      "title": "Tyson Foods Inc. Cl A stock underperforms Friday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/TSN/history",
+      "title": "TSN daily price history (Yahoo Finance)",
+      "snippet": "close 57.08 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

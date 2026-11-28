@@ -1,0 +1,133 @@
+{
+  "ticker": "VST",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Vistra\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 19,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 6,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcW14bjBtVnlpOTJ4cGs0MEdIX3hFSnh0MG41a3dqMTlhUmFXSEt4LTUwSy02Smc3MVJGaFdQNDZXVUtRbl9nOWQwX2VwWFg0eGhoUlRkbFk1VVVNNFJEYURGMnRPNjFTZDlLMW9MZGhEZzRocnVfNU54YWs2TzJET3BVU3RzY1MxdlVkN1NRZWtRNWJUZ29Rcm53eE14NzlET0NuLVR6emczQQ?oc=5",
+      "title": "Why Vistra Bears Were Right Before The Drop",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUGdQcEU1NzZJQzFpbENjOTUwX05hY3VvN0dhQV9ycDRVbktLVEdKYkVKamgwTFY2VDdLMDhQTFZQUTUxTnhHTzd1dXZqcVFVS0U3TVJ2akhMdFZxQmRBWmx0dzJUY1FBMS01RHY4MDdESFZWVXBrTTZwdFl1OXI5c3lsNzRRWWtnVGJiLQ?oc=5",
+      "title": "Can Vistra Stock Jump 40%?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.421,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQenhUMGVnMHlYT1p3c3FPNmFKQ01rSk11dVd6bXVDRzZoR3FUc3E1YzQyaDV6RTB3VW0zeXVMY3MzMmVCbGVtSEswSTZLcVkyaGdhZ1dTYVpwUUpKMnAwb0F1amR6OEdMUnlQVkJwOFgyUEloYWlMVWtGWnBfZWUzd0JzWXlyc1M1UTltc1M0eEFETlBuUWN0dg?oc=5",
+      "title": "Vistra Corp. (VST) Reports Next Week: Wall Street Expects Earnings Growth",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTE05OTJ0ZVlDQ2pOdVQ4ajRqaWRHaXAxaFVieWRUQ3NKb2J2eksyVFRQbjdoeWdlVVNJQUk1UVdQcU1wMHZoc1lBb1laWWx6c0xEaGVZeDU3RFE5Q01jdnB6Q252azIwT0s2Zmd2MmZWY3hvcnRYSFBlaEgwNmhaRWIzQXBGcFBDZFl3cVdnSUxOQWk4YkFGR1g5cjhMN2xnYmtIVE5tTDIxeUxtSm1xdmVqUFFRWVRsQmVyR0JPYXN1RGpSd2lPTlN6RUJpNERkYTc2eEVB?oc=5",
+      "title": "Vistra Completes Acquisition of Cogentrix Energy, Expanding Diverse Generation Fleet",
+      "snippet": "PR Newswire, 2026-10-30T07:00:00+00:00",
+      "publisher": "PR Newswire",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOVlQcnVacHYzNVpJOGZ6dWhpTk4xVThpUEZLdGI3XzhGUE1yV1pZdXhxaGFWbjkzQkFtdG1fM3VQYzBPWmhNYkRRcE1oeHladGNwLTZvQkxjQnlRdWNuanVlOEdSR1hPdVNyVi1kWlFOcmJRX24xMy1oNkxwZ2o3VTNqdmlxNmlwQVlRR09RdFdVdTA?oc=5",
+      "title": "Vistra Closes $4 Billion Cogentrix Energy Purchase From Quantum",
+      "snippet": "Securities.io, 2026-10-30T07:00:00+00:00",
+      "publisher": "Securities.io",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa3kyRmoyNGx4elhvd1RKNTdzSEhCVXM3WTBZMXBTRkpGRjlyMi1uVUprTUN4eU5DYW1KMXpreXB6RWhSZzlxajUySzNRT0hPWHZmemVTTnJEOEFpMk9kSkpSdHUzZzNHVFBWNHJ6cGVKTEFzendBbXVvTTcxek1hMDlnMW1xZ2hxNnJmNWVQZXNaczdFVEFyMTRVMUNxeGxZbDlnS0pFUUJuX00?oc=5",
+      "title": "Vistra (VST) Set to Release Earnings on Friday",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM1ZTVm5ac2o0OFFobDZzaEIweXV5RlJoT0MzbFFHNGFQdHpYZTJLODRqNTZWM3hXMld6dUNNSGw1ZFQ2andaUWZ1ZWE3UFZoOTZHMUlDSDRZZkdvQTFiYjd3UDlvbnJyYnpoYlBiYXpxWG16WExSVzI3UzlKSjF5ZDdPMXMtdU5nZ3NLNGVyNDNhdk5NVmEtX0huaG42ODRMZGJuMG5FcHZtdVBPZlNrUXQ1em0?oc=5",
+      "title": "Vistra (NYSE:VST) Stock Price Down 2% - Here's What Happened",
+      "snippet": "MarketBeat, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketBeat",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWXloaF9EV05WQXpFaUlTajdNS2JVNU43WWZSMktpYVR3YVJEQnNBelBmV0puRU11Wk90aHVfU0JBdVd4S2RLV1BhSmlkNTd5VEQ4elZFQkR5TmN5NUV0REtuVGptbDFIaWM2WTdWRTNFZ3BoeUJraXdpR1YzMGw2RGFKWjRGSmhjZE5FbEM2TG5FYXNWMkxiVllrLUxGak0?oc=5",
+      "title": "VST or SO: Which Utility Stock Offers Stronger Growth Potential?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.637,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/VST/history",
+      "title": "VST daily price history (Yahoo Finance)",
+      "snippet": "close 134.61 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

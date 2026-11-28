@@ -1,0 +1,73 @@
+{
+  "ticker": "COHR",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Coherent\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 17,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 4,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaEdJRzMxTkpCMXhpV1ljQklWcXYyR3RLZklrOHFBNFJJcEM4MXRyQ0RJWXljWXc3dmM1a2hLUjAtRmU5Mk53cm9yOUxzVEpKM3JxRzdBT1ZtYlFTamFvc0RxNUxDSE9PODItVDM3UVlZaWNHMHJlU2ZJamU4TWdFYnJzazJ1QmZEYXFwVXVNTFdrbnF3ZjZrclNoa1ZhQXViZ1ZBRnpadDg4Vmt0ZlMyTFVRMGtkLWcycVFUN21wa0FLREFjZXRJZFNNaw?oc=5",
+      "title": "Coherent Stock Fell 11% as Intel and Amazon Earnings Hit AI Hardware Stocks. Here\u2019s Where the Stock Could Go",
+      "snippet": "TIKR.com, 2026-10-31T07:00:00+00:00",
+      "publisher": "TIKR.com",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": -0.202,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSjFJc3V1OUZ5VGdOT3lJT2tPLUllTHlSMFE2Y2dqYnVNNFdVMG1fQ2p5M0N4Nk9TQmhubkgwejh2M3BFMEliclRsYUFWLWZGWFNpV1pnbmk3c0xsSnBDaWlqWlM5NWpRZ2IzcEVMX3Rsek42Y05aYUE4TEdqUV9qb2NzUlBpNzFxUkk0T3BsRmpoMk5XRE1iS2ZQb2E0QkdCbzNpeHJrak8xTzhYbGd1U3J0WXNnQTNsX0JGSkp3?oc=5",
+      "title": "Coherent (COHR) Drops as AI Optics Selloff Appears to Outweigh Company-Specific News",
+      "snippet": "Quiver Quantitative, 2026-10-30T07:00:00+00:00",
+      "publisher": "Quiver Quantitative",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.691,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQYjdmdF9GcWlFOVUydk16TlFKZEcyanY5RXAxd3lNVkt1cTQ3aDA2ZksxVnZtNGxPd002b21sbUZfZ0JfQkhnblM5dkhaTGtwTFRCUzFHdmxkTnJyYlRteUF1VnFvaFhjcF9kWTI2cTZNSjBCOXBocE9fR1I1bTN6Y0ctQnBRNVM3QTA5Sy1nNk5XOVRON1pEV0VDdW9pY0o0cFMtemllU1lRWjBxaC1LWTNaRVZkUXE1ZmZONk84OGdKOWFqYWF2NGJUMWR4MXppMlBfZ2NvV0NHMkJLTlJlYWo2VFRRZ3lpa1ZqLVpjTzFXSnU0d3dpdi12cUNoY0NqN1MyNE1LWnNWZw?oc=5",
+      "title": "Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%",
+      "snippet": "24/7 Wall St., 2026-10-30T07:00:00+00:00",
+      "publisher": "24/7 Wall St.",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.915,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COHR/history",
+      "title": "COHR daily price history (Yahoo Finance)",
+      "snippet": "close 199.95 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

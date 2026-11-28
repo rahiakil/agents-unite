@@ -1,0 +1,97 @@
+{
+  "ticker": "KLAC",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"KLA\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 22,
+    "no_date": 0,
+    "after_cutoff": 9,
+    "before_window": 8,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbVM3OUxSOEpGV3RBeFdPQlVwOVlGb1F1dkZvS3EtN01PbGNKaExsMTRYMGMwYUt2bUg2TzdjaHNhWC1RTnlfTXp0U3JFZS1EZ19SR1kxQ2RVRWZFTkZvcUF5UUVpdkR3dmZIOG9PUU81ZzgwMjVMc1ZIM3lIM1Zqa1k3MU0tWUJVVHYzV2xlWmFaUGM5WHhKRGJETHNuUW5ZeWVSRlB6cjFfcmJEOEliNV9fRFBIYWVzTWpORHJhNjfSAcYBQVVfeXFMTmswc3RxekJ3Ykl1eExTMHYydVBES3VrQzZMN2xjVjlNZjljVV9aZ2JHOXBTRzgzRGlKcHR6QnEycUNHWl94TUFoTEZUd2M1anh0WkJ6QmVveFVYQkdPVHROaFhicVpWV2JES1RyNlpoQkp1MTlKZEZoTmpRVks5M3Z5R2tJdE50dVhkU2l6VG9TbkNOUDFaLXdvOWMwR2lVRTZuSGFiNVBPcWlhMmpIVW1JN0pCa0llWDYyQlMyamQzVjh3dzF3?oc=5",
+      "title": "KLA (KLAC) Stock Dropped, What Is Behind The Latest Update?",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": -0.361,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLVk5OW1iOUJQMXVBR2dYWXRSRXVBV0VNNllOYjhVMmN5QWYzQnZNSGNxQlBBOXNaUF9jN1g1cWo2NEo3QnptUjQ2SG13ZEhDbFlBcE50QmFPcGU1dnJJQ01TV0pSRWMyTGp5QmZGUGtDQUQ4RUVjX1cxZF9ncXRETWlxdTdZM0wzLVVvc0c0LWY3LWl5T1pzb0xNMFhYTThYU2Ytd0JFM1hrbGNkZkUtTHBZYw?oc=5",
+      "title": "KLA (NASDAQ:KLAC): A High-Quality Stock for Long-Term Compounding",
+      "snippet": "ChartMill, 2026-10-31T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV2dFbEVYRkZGOXc2RUx4cjQyVlBMelZBcnJGV3dlV3BlSDNISGZPZll1Ni1QZ0NaZ3k5OTBNNTlUMFF0NUVyNUpQdlR5bl9YdFp0OUYzR1RQcXFnRW0tTHN6M2MyQkk3UW1SOHpHYnlOV2NoaVhaNndsalhBeUZJemlkX1pteklCWllvMGZEd0dKdEVraHBxaVhKVjNwcFlzQzd2T09BWnJBdkdoNU0wTEhVZ1pwV2xPbVoyQVpnYVA5ODQ?oc=5",
+      "title": "KLA Sees AI Demand Driving Growth as Semiconductor Shares Weaken",
+      "snippet": "Benzinga, 2026-10-30T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.128,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ0htNkhxVjV6dUp1NXZXcEVDcllyOWNzRk1qZlBpVmdvd25RNVQ2OFdFRXZZdWFWV2lxMjBMZWNqNzZLQnZ6QVJoUDZ2cVBrbmlBN0tTX0R6eGdUM1Y5YkNSNE5UcS15TWZQZTJMS3p6dXhBTFlfamg5TkxkSlphQW9UdzRTdVJyMVNZZm95TnBITHRGSGt4Z21qYw?oc=5",
+      "title": "KLA (KLAC) Stock Gains Attention As Q1 Earnings Meet Valuation Doubts",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.077,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc3hIeUN0NEpqWkVGU1E5Z28wRllhVkIwd3JiSF9JblV0WVEtNHVDeDRmeUdiMlBTS3lQd2tkc0l5eThDVTFfSnFaSExXbDBJTE10Yk11bDFpaEc1SlBiTEYyS1B2MnZiZ3BqV2FLVVJ2U2ZEbWxCVjVwSG1wMTNaYkJMM29MMmxBSnFKRGNSSHFwTEE?oc=5",
+      "title": "KLA (KLAC) Q1 Earnings: How Key Metrics Compare to Wall Street Estimates",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/KLAC/history",
+      "title": "KLAC daily price history (Yahoo Finance)",
+      "snippet": "close 153.11 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

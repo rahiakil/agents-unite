@@ -1,0 +1,82 @@
+{
+  "ticker": "BNY",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"BNY Mellon\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 7,
+    "no_date": 0,
+    "after_cutoff": 2,
+    "before_window": 1,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQTgtd05HR240aEJZQWxmZmY0VjFOVW11VEFUS1JDODl4a1VLRlZEV0RhQkVCbzBpM0Y0SFoxbXZZYmVYUVpLMjZ1Q3R6SWtVSFdKRUJ0cndrNnNKdDEtdFQ4cGJ5cjJOWWtCSzlfbmgzYlo3QldYUFFIck5FNFZUbGw2RW1GMml2UHdjTGloM3dPUkpIUndvX0d5WWhoTHJfWlVHVXduVUNjZWxOOEE?oc=5",
+      "title": "Form 4 BNY Mellon Advantage Funds For: 31 October By Investing.com",
+      "snippet": "Investing.com Nigeria, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investing.com Nigeria",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMXEyVE1EQlUzQ1ZieUZUQk4tblpxbmVHcUFOWU9ja2Q1RGZPcUM3YWUxMU1JbktmRzZpS0U5YWdOWmhGMFBMVTdlUzJFSEM3dC14ei00cl80RE8tVUE2MC1yZ0FvRE1zZTJTYjVVd0dwWXlXVVplVTVFUkZLVkhMVUJRNk40dk1lSUhlcHR0aDFwNl9Zb3hWUWtjMm1jSHNET01wTU1PY0NEOGo4MkE?oc=5",
+      "title": "Form 4 BNY Mellon Advantage Funds For: 30 October By Investing.com",
+      "snippet": "Investing.com UK, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com UK",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.25,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU2NoWHgtS3NBc2R4cFFMWVh2bnIwQVJJc2k3QTFQOWZKT0Iydm5RVzJLMkk1RnBVLUxmMjR0NUVZaDRBQUJHYnlyWWVwX1c0ZEdtTzFtaDZtWURwc29sdnRCZmVaUnVQcXpFenpEcWNNVndGV3d2WlhPV1RKU2k0MXQ5OUY5bUVGQzFCbXZfYm92N3ZEYmxaQXBjcDg0RHZoZXJUZDUwSUdENWtEV2lWUzRLUG9WUFVGV2V3RDAySy1URGdJSHlhcG5hTF9SYU1GYVFQb2N6VWlYdG1scG8tRUh4ZHBiUW1ET3ZFNU1Ha0o?oc=5",
+      "title": "Form 4 BNY MELLON STRATEGIC MUNICIPAL BOND FUND: Saba Capital Management, L.P. (10% Owner) For: 28 October By Investing.com",
+      "snippet": "Investing.com India, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com India",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+      "title": "SEC 10-Q filed 2026-10-30",
+      "snippet": "FORM 10-Q",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/BNY/history",
+      "title": "BNY daily price history (Yahoo Finance)",
+      "snippet": "close 147.78 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

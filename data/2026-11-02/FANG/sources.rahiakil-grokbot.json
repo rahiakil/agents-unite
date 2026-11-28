@@ -1,0 +1,70 @@
+{
+  "ticker": "FANG",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Diamondback Energy\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1lRMWhsd1FPYmZ1VE5UQkJweXJEa05jMDZ5LXF5SVNUMmN2R3lfdVVidlhqQkM1WHUyRUdLZVRZNnk3Q3Q0aDVGcVBDLVVteWVIbnlvSm9qT1ZfYW1jaFdUTUozYWR6Rml6ZTBRN0lhVjl0SmozMEVEZk5yTDJLS2lWZVhUQ1BTcEdxWjRQZVI4aVFOWXRiN2h2Z1BIYnY3?oc=5",
+      "title": "Diamondback Energy (FANG) reports Q3: everything you need to know ahead of earnings",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOejczbWQ1YUpWQ1dqbUpYSy1DWWdLU292Yk9HWm5CZUdTdXhVaWdubzVjdWk5aW5DM3h3bHlycUdfM044bnlhX043bzloLTdFRkNhd25STDFzVlFPOHVHR3JnR0hRaUE2WmEzbjlVbHZaTGdzVFpOX1lQRExhWktfRktacHZhcFp5eEtfY1MwaHk3NFBMZzlZWVhTNjNudm9xYkQ2S1NDRmNfLXhlVmdPZ0h0X3JSTGFiV0JPYUt5WXpCVXVpUzVFLURjVlhDZzRP?oc=5",
+      "title": "Diamondback Energy Reports Soon: How Has The Stock Reacted To Past Earnings?",
+      "snippet": "Trefis, 2026-10-30T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.273,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000180/fang-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FANG/history",
+      "title": "FANG daily price history (Yahoo Finance)",
+      "snippet": "close 199.74 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

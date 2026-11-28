@@ -1,0 +1,61 @@
+{
+  "ticker": "EW",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Edwards Lifesciences\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 4,
+    "before_window": 1,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14RWVmb2UyTmxsd1B6enlnRmJwekNWQms1QnFFX2ItZFVGWmktRkI4Z18zaXBaSTFRMHZQeDc2MUxCSEMxMjk2UHJZVWhhRHhxU193N0ZYT0VYUUlFcUJn?oc=5",
+      "title": "Edwards Lifesciences Corporation (EW) Seasonal Returns Chart - Yahoo Finance",
+      "snippet": "Yahoo! Finance Canada, 2026-10-31T23:59:35+00:00",
+      "publisher": "Yahoo! Finance Canada",
+      "published": "2026-10-31T23:59:35+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcUxYRldwUFpxWERpMmstOThqQ0x4bDVJUW9kM2lpbnp3c3k3ZGpINE93Q0l4VXdVVmRPYm5ocm9mSngtM2dlNm5BQkNhSkphbHUtN0hteFhtVDlTanU3WG5DNmNpckZfTkpCU01ZWTltc3B5WjY2U0lwbDFjUjFuNWx0b25zanJGenA2cDc4SE5QX0pVU19ROThJU1pPNzJu?oc=5",
+      "title": "Curious about Edwards Lifesciences (EW) Q3 Performance? Explore Wall Street Estimates for Key Metrics",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.318,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EW/history",
+      "title": "EW daily price history (Yahoo Finance)",
+      "snippet": "close 93.26 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

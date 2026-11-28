@@ -1,0 +1,61 @@
+{
+  "ticker": "PSX",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Phillips 66\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 25,
+    "no_date": 0,
+    "after_cutoff": 10,
+    "before_window": 9,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUFlfRUVOUmxMNEdZblo3NFUxZG0wS0dLTGZQMmZOQTNZN3pLeV9NMmwtS1VxektuZFpXV0M0TFhPakw0clFGdm45eU9rdVR1YlpvX0FDSXgwZW9YSXh0N3ZwSU5ac09iWXBKRnZlOTU5eGtFc0ZTTktRLXRNTndBQVhzS2NGa2hFclhaRHNmVXhxTklsLWE0bERvMTV2SjVkd2VndFlKYk5fZDFtQnhMQThhbXlsYkhORGJCMjZRUUJkaEZHdHZRcEpycUI?oc=5",
+      "title": "Phillips 66 stock faces Freeport outage after record refining quarter",
+      "snippet": "ad-hoc-news.de, 2026-11-02T16:02:36+00:00",
+      "publisher": "ad-hoc-news.de",
+      "published": "2026-11-02T16:02:36+00:00",
+      "published_date": "2026-11-02",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.296,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmJGYWhybmhGMHhlS3AtSDRVTEFIamRFUXAtV0pYbGItUXBUQ1QxTG1IUy1hNU1vYVdMeVdqZmRpckV6a0R1QU9rTUFUZEtUaVV6c3BnQV9MX2d2MHJ0dHctc1d5NDR6cXhaalk4Unh4U2Y0S2hCNnVqbVEweHNLTUFoSUR0TDRDa1l4QWVsc0Z0X0pWMTQ2eGVkTEZSU3NCNXpaT0ZBVWl6QjZJZm5SdXNyUlBLSTA?oc=5",
+      "title": "Phillips 66 (NYSE:PSX): A Quality Dividend Stock for Income Investors",
+      "snippet": "ChartMill, 2026-10-31T07:00:00+00:00",
+      "publisher": "ChartMill",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSX/history",
+      "title": "PSX daily price history (Yahoo Finance)",
+      "snippet": "close 275.04 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "ticker": "FOXA",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Fox Corp\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 16,
+    "no_date": 0,
+    "after_cutoff": 15,
+    "before_window": 0,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOanNUR2k5djFpaGVOanZBVzFXRGZHSk5RbS1SWEZURlJKVVlhNHhsTVhvdjlIeDRwNGp4UFBmT3VEZjRhT09UNXRRZExkNW5YNml2QW5BSjVzeWR2VHR4SUVYNTdaLUJ5a3BUS3BGRDIzWVN6OC1BMWg4NGNHTUMwVEg0UWFWbkp0bFh2OXFodnZCSmdmVmNBclFSZWc?oc=5",
+      "title": "Can Fox (NASDAQ:FOXA) Prove Its Strength Will Last?",
+      "snippet": "Kalkine Media, 2026-11-02T04:46:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-02T04:46:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.494,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068663/fox-20261102.htm",
+      "title": "SEC 8-K filed 2026-11-02",
+      "snippet": "items 2.02,9.01",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068670/fox-20260930.htm",
+      "title": "SEC 10-Q filed 2026-11-02",
+      "snippet": "10-Q",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/FOXA/history",
+      "title": "FOXA daily price history (Yahoo Finance)",
+      "snippet": "close 62.76 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

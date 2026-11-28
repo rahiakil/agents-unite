@@ -1,0 +1,85 @@
+{
+  "ticker": "GIS",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"General Mills\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 0,
+    "irrelevant_or_spam": 3,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSGtNSlFuQjRxMWNiLWNidUtTZmUwbFpDWDRvOEZ6bjdBc0VaVmtOc1JROTU3T2w4cjVJaHBNWjdZM0c2cUxVZWVYMDJPQXM1U3UwSUFTcHFUMnpfZnFGQjNUOFhDQUZxQmZmZmRnN0ZZdGo3SzlHWm9wT2ttaS10dzlxS2dXdDhXSmNrVm1GeS1WaDVneGRuSS1mOXFWdw?oc=5",
+      "title": "General Mills (GIS) Pushes Further Into Clean Label Snacking With New Meat Sticks",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.402,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVG1vdS1QbUJDZXV3TDFSd1FtVG9zbW5vOFZ6U2ZyTmVxaGxHNjZ0OFZRNEZrTDlLM0JRMFczZHJvWGk3TXZvMXRiNndqLWNuU2xqZmhtQzN4SUNBRGlDX3N3djBZX0UwR3M4VTNCc0xzV1hMTXJxdnBFWnUzWjkzeDBhaW9LaHVVR3ozUVM0MTk0VlczT2JNTmxPRUJHOGdsNW9lSkRYTi0?oc=5",
+      "title": "General Mills' Quarterly Earnings Preview: What You Need to Know",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcXNvd1h1R1lTVlgwbkZYQnZLaTcxbzJFdllZNVRKVlFfM0pPekxVbHphTmc1MC1OSkQ4dzZMTC04ckc1NjdWaEk1WGl1OUVHbjljMzg4MS1DUzVCdnlqODJqVGk4NHFHQ2V3VlpReDBmSElwRUxMZmpEOVlPdk9QcmEwbWt5UHA5Mlk0bXhDZW5HYW1uSGNZMDhmVWp4M3MwSFB1Q01McmpIbmROLVAtNUpQVl9mamZra0IxeF8wTTFqQTVjN25vNUYxN0dDS2szZGNaaVJQV29MeUduNHc0M1pXUURYaHVq?oc=5",
+      "title": "General Mills Inc. stock underperforms Friday when compared to competitors despite daily gains",
+      "snippet": "MarketWatch, 2026-10-30T07:00:00+00:00",
+      "publisher": "MarketWatch",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.276,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNEJlMmpXT3JldUc5UWNESmpwM2RzTVBTWHJ3OHE3RzRUb0E4REYwTWZtcWtZSlVSVjlyaDlhNXhienQ2OFFLdlhITGRzc0Vzek1mNERaYks1UGlNamFoSkJwQzl5QUdEOVQ4WEswQnpzN2d5QWFRRjVyMkxKdEVOeFF3ZzJRYVgtVHZWWldwbWQ0TUk1dzhTTHQtd1FBS2FBQ3NBNm1reFA4aEtNajZ1NTQ5V2tGWnliWGZfQkZDZC0xR2FkY0ZIdzByNjFoTXdRVFVj0gHYAUFVX3lxTE5WeWNqcDJJSWFOSzZ4Tk9zejU1N0hhNkFlc0MwTTJkU0ozM0hDZEhDOE5nak1FVk15bXl0WFFOUXlYd1AtanJaajU1eGdYVEVoZUEwYVVnb3hBdW02MnVtTHpZVFQyTDg3SkdmM1BqekFrU1FTSFAxblY5dUlDaGUzN0ZlZzB1NElTWUlCYmI1MzJMSFpNRUF0RlVHTHpFb2VJem53SnpmbjFJNjRTNGdyd21FMnBHV244OVgtQlRoOVNnY2xsZEdMM1hCUldfN1cwSXhudFZkNA?oc=5",
+      "title": "General Mills (GIS) Stock Trades Close To Its Sales Value",
+      "snippet": "Simply Wall St, 2026-10-30T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.34,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/GIS/history",
+      "title": "GIS daily price history (Yahoo Finance)",
+      "snippet": "close 34.75 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

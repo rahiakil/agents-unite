@@ -1,0 +1,49 @@
+{
+  "ticker": "STZ",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Constellation Brands\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 8,
+    "no_date": 0,
+    "after_cutoff": 3,
+    "before_window": 2,
+    "irrelevant_or_spam": 2,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZW9jN1hadkFyU1VuUk16UXd2WkY1dm85ZExMb3FpZlQ4UVllVUlVMGNoQVFtZjVienN5aElBeFRyVHNqa2lPcmZpbDhrYmJzcnBGVFRaOXFfNmh0Um43azJkQk1YRmw2bWd5THpIRXltY2ctUmM2VjFVb0U5RFItS3cwbnRSWW9KUFZyaXpXOGk0YnlMZ01oR2RUb1paYTdyY0FMTFk4V2pCaWMxcUdvQW5XazliZlE?oc=5",
+      "title": "Constellation Brands Inc (STZ) Stock Up 3.8% and Still Undervalued -- GF Score: 67/100",
+      "snippet": "GuruFocus, 2026-10-30T07:00:00+00:00",
+      "publisher": "GuruFocus",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/STZ/history",
+      "title": "STZ daily price history (Yahoo Finance)",
+      "snippet": "close 140.67 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

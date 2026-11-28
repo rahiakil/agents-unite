@@ -1,0 +1,133 @@
+{
+  "ticker": "EBAY",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"eBay\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 34,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 17,
+    "irrelevant_or_spam": 1,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeXdqT3NpU2FUMlgtUmxISHRCQU40SmxkWTVESHVZOS1VMGF0VXlXQ1lyOFpXWjJ3N0FMR2t2ZTZHcWt2djhyN1NERGhoWEI5MzJaTVBGQmloa2lnR0xNLUpCY1FaMmhYUUxSRGkzcmVTWEdQM2F3bk1JYUVPelR3MEpnMFRxbGRFMF9HSWNfMTY5V2lmR0xTd0lzWmt6UWFZQUFHemp2cGcxRk1nbi1kMkZjQkpRNExy0gG-AUFVX3lxTFBQSEp6RzZmU1UzNjRoX3NnQ3dlUWlQYnNidmFOX1JXZkhwRWJqNDFGQ0pIOUQ0MXdhVUN6Wi0xdmRRVGdIQnFGeW0tdV9hMHlnQVBuY0tqX2RGemN2Y2F0eVB3NlMzeW5BcXA0V3hRclFwcVlOQXNtcGtzR2Z3QmJhaW5fWExQYW1GaDJRRDdlQ2M2WjJXQ1duQWpLY1JtNEZ1Q1U1aF9la2ZMVy1aNm1SRUxRLWkwaEwxY2Vzbnc?oc=5",
+      "title": "eBay (EBAY) Could Be 24% Undervalued After Q3 Earnings Beat",
+      "snippet": "Simply Wall St, 2026-11-01T07:00:00+00:00",
+      "publisher": "Simply Wall St",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORjhjXzA1VVRqTjBqWHpLNEl1SzZpekQ5dm90V1pIZkFBTW9hSmpva0FfQnoyMUF3TEx6bVpYUGpuYWpMZ2hHdno5N3lDSFRoNGwxTVZhY0psTE9oRjF3V1FDSWpGVlc2c29lcTJTdHFibFhaVU95SUNENVZGbFc5WXBWWklvbGdnUW9zM3pjMUtwWC1jalRjNlJzSjdkQnRaVS14SjdoX1p4akE4eGJrbnRwRQ?oc=5",
+      "title": "What Will Decide eBay Stock Over The Next Six Months?",
+      "snippet": "Trefis, 2026-11-01T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNlV4U3UxOS1MTWFNY01KcTE1M0xwYVdhM09BVHRnTDhRdkZiRWgyVUdGTy1oaU1zd1ZhOTNFNWwxSUx6SWtjeHFHdllOY0UzVUcxelNmZUJJVHB3aFpvQ3NESEYxeGxkbERMa0ZyS3hKTmdTblRCNzVUNkY2akZfVDdrc19XNHN6ZHV5amVVcUpkTVBRblhMbA?oc=5",
+      "title": "The top 5 analyst questions from eBay\u2019s Q3 earnings call",
+      "snippet": "Yahoo Finance, 2026-10-31T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.202,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTU1NNWFTTEt3dFFLZ3phWERDUElPblYxaTh1R0c4aGlFOFFILVpqc1RTRnFaS2pHTzNucWNXT2xCTUdjNlFMUXhVcVV0cXY3UXp1VlJsSnFsbTRQXzhBUjRrbDhoR1RJcDNCTDh3dkVtWXgwN0VBV09qTzIycVctMXk1dklZSnllLTBlcnJtY042Wmo3aFpaWXN3Um82TVJsUGFtQWotbTB4elo0NTlsc3VJVmVuSjdxQ2paQw?oc=5",
+      "title": "EBay Leads 5 Stocks Near Buy Points, Shaking Off Market Retreat",
+      "snippet": "Investor's Business Daily, 2026-10-31T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.026,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmE4ODNMd0JhVHQ5Vm5uRms5RE1YMjVXX0FCYWtqa0w0QS1GaDROaFN0bjUweTBlbFp2UHNOZHFLUV9Nb09SS1NJMmRxMlFtVGdYeWJUd3BtMHRWTXZucmZoNGEyWXNpRFZyUzlRNW81WVAxVG9tWEdKT3B0UTFxSWNOS0VuQnZwUzFRUTVvd0luVEpDN2VBbw?oc=5",
+      "title": "eBay (EBAY) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU2hSV1hROGtUT0F5WmpEaTFNclo0THlTTHBsN09JSDBDWkVyLUZtSGVhWnRzOGxjakw0b2xEaHFPSHJCa0tRWFBuS1l4dThnNFdIWDNIZUduVlJjR1BtR1VOcWgxSmFpWDBjbHF3ZUtFaUZ1N3NUblBSTnl4MDItTkgtcENCWWFm?oc=5",
+      "title": "Someone Listed a 300-Rack AI Supercomputer on eBay for $60 Million With Just $50 Overnight Shipping",
+      "snippet": "www.techtimes.co.uk, 2026-10-30T07:00:00+00:00",
+      "publisher": "www.techtimes.co.uk",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcC1EOEtETmNYMXFqY3Z6eW5lbURScjNZT0hlakVQeFBNbTFtUzgxOWN2Tk1lVDRvQWhVTjY3Y3lHZ1U0alVVYjIxM2JMVUZIemZkWGw3VllGODVOM0dyR1dIdER3MFB1NjI1anQzV3p2eUFSaFp6WnRIdG9odUNzcUUwNVBUZ3YwQlNBQlhPZmpSQjV1UXZkZ19PZzEwY3hkNjNQY1Q0aUNJelctcF9nNVlITHhxMjZPNmhZ?oc=5",
+      "title": "Natera, Shake Shack, eBay And More On CNBC\u2019s \u2018Final Trades\u2019",
+      "snippet": "Benzinga, 2026-10-30T07:00:00+00:00",
+      "publisher": "Benzinga",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.178,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZU11RnZ0eXZXMnB4cU4tbzZZVnBsYVZSMUhfRkJGNm5EZXVDQ1hoQlBCREc5ZGdZZG44aEdVU2l2bm9nRWFXS1U5ZlN1TWVKZHk1LXQxdkQzOUtkTkl3cVlfbjIxZTh6bmJIdVJjZ1ZBTk16SGFPaTlrbW9DbFVxb2tKQ3dPTkNVNGo1QXZTemh4cUNSamc?oc=5",
+      "title": "EBay, IBD Stock Of The Day, Keeps Momentum With Earnings Beat",
+      "snippet": "Investor's Business Daily, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investor's Business Daily",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.459,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/EBAY/history",
+      "title": "EBAY daily price history (Yahoo Finance)",
+      "snippet": "close 120.93 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

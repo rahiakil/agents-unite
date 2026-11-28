@@ -1,0 +1,58 @@
+{
+  "ticker": "PSA",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Public Storage\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 10,
+    "no_date": 0,
+    "after_cutoff": 6,
+    "before_window": 3,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbEpZNXgzLU13NXdEdUNPMXJuVVoxOFhnQnptdVRWcGdxUmtDMnlCMFI3Nm9oeWh2RlY2cE5YeFBlSkI2eFZXMmMwandvQlYzZE1FSzFueFZycmRqWlUzNFlFODdjZUVtejRsMUszdW1vTVR4bGxWUlBCYU1ZeWM4eS1lalFrcFNDcTJCY1g0U1RudzZHSnVCYm1PNlRfWVc1bGhkRmFHV2JPYlYwc2pLTHdwNV9zYkVMUEZjTVBXSlRqYy0zdElYRURDWW8?oc=5",
+      "title": "Can Public Storage (NYSE:PSA) Sustain Growth After Major Acquisitions?",
+      "snippet": "Kalkine Media, 2026-11-01T07:41:00+00:00",
+      "publisher": "Kalkine Media",
+      "published": "2026-11-01T07:41:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.382,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393311/000119312526441763/d90432d8k.htm",
+      "title": "SEC 8-K filed 2026-10-30",
+      "snippet": "items 1.01,9.01",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/PSA/history",
+      "title": "PSA daily price history (Yahoo Finance)",
+      "snippet": "close 333.24 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

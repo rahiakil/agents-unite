@@ -1,0 +1,133 @@
+{
+  "ticker": "COF",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Capital One\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 50,
+    "no_date": 0,
+    "after_cutoff": 20,
+    "before_window": 12,
+    "irrelevant_or_spam": 10,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc2wtMFJ1X0NpcDJpeFozZXhPMmtUT2dVVEoxaGdXQ0c5ZlI2Z0pyTUk3a1AxZllEcGFLb0QtNkE1RG11anpEWUZUbmZaUFhKRThwX3oybVRtdXRPcnBiUEU3S29xUE9kczdveEh2Q3k4Vlh5U0M2cVJQZzA5dXNtMGowMUZ0Z2Z4QmFyRXQ0Qm9oV1BDU2l4cU1ZUnZGTnBPd0stbHdLYmg3YjQ?oc=5",
+      "title": "List of 25 Acquisitions by Capital One (Nov 2026)",
+      "snippet": "Tracxn, 2026-11-01T16:01:45+00:00",
+      "publisher": "Tracxn",
+      "published": "2026-11-01T16:01:45+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "timestamp",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zR08zQnM4T0JUa2x0U0N2M0JQTUVPdXVoZlVwTnpxcHBkSGhzMTdRSUY2Z0lRUWVzaXQ1VTY4c292bkRMbGV6OEp6YW9xSXNZN0czelZKeEVtdjZxZG9aSnZxdUV5Wm1xOWhqblNBZTBrTFdDMUtGTWhkaE4?oc=5",
+      "title": "Transfer Capital One Miles To Air France-KLM Flying Blue With 20% Bonus: Worth It?",
+      "snippet": "One Mile at a Time, 2026-11-01T07:00:00+00:00",
+      "publisher": "One Mile at a Time",
+      "published": "2026-11-01T07:00:00+00:00",
+      "published_date": "2026-11-01",
+      "date_precision": "day",
+      "lexicon_compound": 0.66,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iQXFHQVZPVmFUNXBOdm5SMnVJVVFfcjEwWVJTUFhNalZtQWhGamFIdWhzU09EZXp6Z09kaXA3SVF6VDFsaGVzRG1LWFFsRTV5c3ZpYnY5NlBST28yZjE4QUlKM3pTdVdwYXFKYTBKTGpyZw?oc=5",
+      "title": "Capital One QuicksilverOne Cash Rewards Credit Card Review - Worth It Past $2,600 a Year",
+      "snippet": "Money Crashers, 2026-10-31T07:00:00+00:00",
+      "publisher": "Money Crashers",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.765,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeFA2bnpKanhrcXZCRklwRGZoUUdVTjBKUjd0TUQ1V2dBQ3N5SFB3NDEtY0NUanRxUV82MktzSWtjMzZ3TGpZX05xWDZ2QTdzTzVnTVR0cUVRVkhpMXBGZEVEaEl1VFpfUWFzSFdnQ1ljb2FnZG1wNHBVWjF3b1FUWnJSdDZHNlp6WjJzRndDeGRvb1I1c2MzaGptYkdJTnlJOGdlM2k3YTh0V19J?oc=5",
+      "title": "(EXPIRED) Targeted Capital One Offers promo: Get up to $20 statement credit on top of rewards",
+      "snippet": "Frequent Miler, 2026-10-31T07:00:00+00:00",
+      "publisher": "Frequent Miler",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.758,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zUE5ISVVkRFFpZ3lyd0RONXlPdTRxcXl6aGd6SWxzZFR1a2ttS1JKWDlVLWExcnR2VE1Fa2U2cldJTDNmeTh2LUxINU1jSGs5alRZTE5BUzFMVUd2V3JsUUF2amJnODRsTDZYTDl2VXQ?oc=5",
+      "title": "Capital One Savor Student Cash Rewards Credit Card Review - 3% on Dining & Groceries",
+      "snippet": "Money Crashers, 2026-10-30T07:00:00+00:00",
+      "publisher": "Money Crashers",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lbzZ6S3Z5MjkyMzVFQ0dnM3JIQ1FDckVRYW5kQUJCNGhmcE45Q3B0OThoSDZFRTUzYVllMkc2Qm12TmZzaHRpdXRNcXJaODNXd0Rldm1mMDdPZ2pHZ0UxdC1LWTdQR0EtMzIwWER1Zjc5NHhFMDZ3bw?oc=5",
+      "title": "Capital One Quicksilver Student Cash Rewards Credit Card Review - Flat 1.5% on Every Purchase",
+      "snippet": "Money Crashers, 2026-10-30T07:00:00+00:00",
+      "publisher": "Money Crashers",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.691,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pS2pNTmRESEhfQ3JxTjVhRVlfRFJ3RTd4S3ZXVmM0UU5ybjQxRDZlb1daaE9UeXI4NG95dkhkYjVBNmFHQ2htaG11VlpGVGc4UkQ2cGViUjNxU1MzWXVQM243OGR1OWJqZGgyaU1vamRpZzR6VGViOA?oc=5",
+      "title": "Capital One Quicksilver Secured Cash Rewards Credit Card Review - 1.5% Back, $200 Deposit",
+      "snippet": "Money Crashers, 2026-10-30T07:00:00+00:00",
+      "publisher": "Money Crashers",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.813,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qMkUxV1FTd1dtdXFuRU82QzRBM1pqc1FPZy10UDAtcFpRU291Z0YzQl92akdUejF1NlN3SnpzdUNoaEF5Z041SnJ6cUxoX0ZHcE9jUGEybzJiQUEwTVF2ejVDOG9acHhCdXc?oc=5",
+      "title": "Capital One Platinum Credit Card Review - No Fee and No Deposit for Fair Credit",
+      "snippet": "Money Crashers, 2026-10-30T07:00:00+00:00",
+      "publisher": "Money Crashers",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.477,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/COF/history",
+      "title": "COF daily price history (Yahoo Finance)",
+      "snippet": "close 210.77 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

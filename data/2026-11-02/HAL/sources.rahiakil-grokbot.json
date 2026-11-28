@@ -1,0 +1,49 @@
+{
+  "ticker": "HAL",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Halliburton\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 14,
+    "no_date": 0,
+    "after_cutoff": 8,
+    "before_window": 1,
+    "irrelevant_or_spam": 4,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQjE5dG41eWMxcGZta0tvbkFLcW13X0M3bzd1RkVWc2N3QmhwV3NYVkNoYnIyV3ZlSnpZdkhaRVROSmdPeG1wMXAyVS1VN0k3MFpmR1FPREk3NmU3Vkh0c0JsRDB1SlNodWthTHVwQ2VLUlJwb01kWTZtb2dQQnBSMnBObzRTdkpHWkc4RzhhSkFMUkk4RjdFZWtjLVdDQmpBWHRzU01xZUpnek5ueUE?oc=5",
+      "title": "6 Green Days In A Row: Halliburton Stock Is Up 9.0%",
+      "snippet": "Trefis, 2026-10-31T07:00:00+00:00",
+      "publisher": "Trefis",
+      "published": "2026-10-31T07:00:00+00:00",
+      "published_date": "2026-10-31",
+      "date_precision": "day",
+      "lexicon_compound": 0.0,
+      "sentiment": "neutral"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/HAL/history",
+      "title": "HAL daily price history (Yahoo Finance)",
+      "snippet": "close 34.61 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}

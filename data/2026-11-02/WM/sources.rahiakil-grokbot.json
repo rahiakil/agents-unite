@@ -1,0 +1,73 @@
+{
+  "ticker": "WM",
+  "date": "2026-11-02",
+  "github_username": "rahiakil",
+  "focus": "sentiment",
+  "backfill": true,
+  "as_of": "2026-11-02",
+  "news_cutoff": "2026-11-02T21:00:00Z",
+  "generated_at": "2026-11-28T02:13:44Z",
+  "collected_at": "2026-11-28T02:13:44Z",
+  "harness": "agents-unite-nightly-script",
+  "method": "lexicon-vader-fin-v1+nightly-script-v1",
+  "score_source": "lexicon",
+  "llm_tokens": 0,
+  "preliminary": false,
+  "news_query": "\"Waste Management\" stock after:2026-10-29 before:2026-11-03",
+  "news_stats": {
+    "raw": 13,
+    "no_date": 0,
+    "after_cutoff": 5,
+    "before_window": 5,
+    "irrelevant_or_spam": 0,
+    "dup": 0,
+    "error": null
+  },
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVEh1ZHk3TER5M0pvSXFHWl9Ib3lDRExDNXRPMWR2aG9IYnJPV2R2WXZBX0x4Sy1tMVJ1WmRYZkY4TGF0NGhfaWdoUVBEY1hJQ3JONmNLV0FZdm5KcEpSNFRoOF9JRkdqNV9ZNXRhVC1LaGlVTkNzcDhpT2phVkVoWm9mUDE0ZlB4NXVDcHhEclNRSHVyemtsYkhfUTlIRWR0R2dXVWVaSXhldkZIWVJUSU9ZZE9rSzJhenZIRS12WGpfNGs?oc=5",
+      "title": "UBS raises Waste Management stock price target on revenue outlook",
+      "snippet": "Investing.com, 2026-10-30T07:00:00+00:00",
+      "publisher": "Investing.com",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.153,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaVpPSUNhM1RDekEwbHB4bVItSmxnb2xPNVJneTl0MFZYczVvck9QU0lFYUdEdkZtUlhIbHp2SHVadU1YTk9VMk04cFhvQ2RSYl9yZXB0UklHU2FWNUFIYTBiUG90RjRYSEFZakxqa1FIVWMwbzNna2xpOFk1S2pDMHk0eWVoTm1IYnhPZEVqc1ZNTmg2TGtzZjFqU2djQQ?oc=5",
+      "title": "Trash Pays: Can Waste Management Keep Raising Its Dividend for Decades?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": -0.421,
+      "sentiment": "bearish"
+    },
+    {
+      "type": "news",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb25UejlUMFcydTdRbWhxMk5VRVBFblBxdWN5dzYzOUVLcndtRUVjTXRkR0ZXbkdGMWZNcGpFOW92NkRoNTRDTXRUT1BnZVdOWS0zemRYUUFFTXdpczV1NlUwY29zVnpDNGhoUGFPZ2xOTnpBVko0Z05WMmRmanBNVTdMb3FnOEl2dE5qRElKYmRMODdRWmJMWTBFZw?oc=5",
+      "title": "Is Waste Management (WM) Below Fair Value After Strong Q3 Cash Flow?",
+      "snippet": "Yahoo Finance, 2026-10-30T07:00:00+00:00",
+      "publisher": "Yahoo Finance",
+      "published": "2026-10-30T07:00:00+00:00",
+      "published_date": "2026-10-30",
+      "date_precision": "day",
+      "lexicon_compound": 0.527,
+      "sentiment": "bullish"
+    },
+    {
+      "type": "other",
+      "url": "https://finance.yahoo.com/quote/WM/history",
+      "title": "WM daily price history (Yahoo Finance)",
+      "snippet": "close 237.71 on 2026-11-02",
+      "published_date": "2026-11-02",
+      "date_precision": "day",
+      "sentiment": "neutral"
+    }
+  ]
+}
